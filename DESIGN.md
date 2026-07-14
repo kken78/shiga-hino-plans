@@ -132,6 +132,7 @@ ADR-4 は「個性はテーマトークンに限定・共通CSSは1本」と定�
 - 共有する構造トークン(tokens.css・1名1値): 色の中立層(ink 系・paper・card・line 系・ok・danger/warn)、タイポ(フォントスケール)、余白、角丸、書体(serif/sans)。
 - 文脈別に残すトークン(統一しない): 計画ページのアクセントはテーマ注入(松×杏など計画ごと・ADR-4 継承)、ハブのアクセントは藍ブランド(--ai/--shu)と分野色(--cat-*)。これらは各文脈の :root で構造トークンの後に定義し、同名アクセントは後勝ちで上書きする。
 - vanilla 維持: tokens.css はソース上は1ファイルだが、ビルド時に各HTMLへインライン展開する(実行時 fetch しない)。tokens.css を単一正典とし、ビルド時に render_plan.py が shell.css の `.hpv1{}` 内、build.py が hub.html の `:root{}` 内の該当トークン定義の**値**を、トークン名アンカー(`--name:\s*#hex;` 形式)で代入する(モデルA:名前アンカー値代入)。連結・前置・行スプライスは行わない。理由: shell.css のトークンは `.hpv1` スコープで適用プロパティと同居しており、`:root` 前置では詳細度で `.hpv1` が勝って tokens が無視される/二重定義で順序依存になるためである。生HEXは tokens.css の定義に集約し、参照側は var() のみ(既存の生HEX禁止を維持)。
+- 値代入機構の置き場所: `load_tokens`/`apply_tokens` は `tools/tokens.py` に単一実装し、render_plan.py と build.py が `from tokens import` で共有する(機構も単一正典)。`python3 tools/<script>.py` 起動で tools/ が sys.path[0] に入る前提(`-m` 起動や別 CWD では要再検討)。各定義サイトに厳密1件マッチしなければ例外(fail-loud・0件 no-op 禁止)。
 
 **手順(この順序を崩さない)**: トークン統一は「値を揃える作業」ではなく「役割(semantic role)を定義し直す作業」である。ゆえに以下の内部順序を必須とする。
 

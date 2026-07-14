@@ -117,6 +117,10 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
 `data/plans/*.json` の全計画ループに乗るので、レンダラー改修時に
 自動再描画・自動検証される)。
 
+構造トークン(`--ink`/`--line`/`--card`)は `templates/tokens.css` を単一正典とし、
+`tools/tokens.py`(load_tokens/apply_tokens・モデルA)が render_plan.py / build.py
+経由で各セレクタへ値代入する(移行A・ADR-6。計画=バイト不変、ハブ=計画側値へ収束)。
+
 ### Phase 1 の進捗
 
 - [x] **kodomo.json の全タブ完成**(2026-07 実装完了) — `.hkodomo` 埋め込みから
@@ -152,14 +156,16 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
 **着手予定**
 - [ ] 論点4:デザイントークン統一(DESIGN.md ADR-6)。移行A/Bに分割。
   - [x] ADR-6 を DESIGN.md に記録(2026-07)。
-  - [ ] **移行A**(構造色・見た目不変のリファクタ): `templates/tokens.css`
-    新設。手順は役割 audit → 役割確定 → 値決定 → 置換・検証(ADR-6)。
-    同名別値の `--ink`/`--line`/`--card` を役割確認のうえ1値へ収束。
+  - [x] **移行A**(構造色・見た目不変のリファクタ)(2026-07 完了) —
+    `templates/tokens.css` を新設(監査済み3トークン `--ink`/`--line`/`--card`
+    の単一正典)。役割 audit → 役割確定 → 値決定 → 置換・検証(ADR-6)を実施し、
+    3トークンを計画側値へ収束。値代入機構は `tools/tokens.py` に単一実装
+    (load_tokens/apply_tokens・名前アンカー `--name:#hex`・fail-loud)、
     render_plan.py が shell.css の `.hpv1{}` 内、build.py が hub.html の
-    `:root{}` 内のトークン定義の値を、名前アンカー(`--name:#hex`)で代入する
-    よう改修(モデルA。連結・前置はしない。詳細は DESIGN.md ADR-6)。
-    tokens.css に載せるのは監査済み3トークン `--ink`/`--line`/`--card` のみ。
-    全計画再レンダリング+validate+目視。
+    `:root{}` 内へ代入(モデルA。連結・前置はしない。詳細は DESIGN.md ADR-6)。
+    計画ページはバイト不変、ハブは L25 の1行のみ収束。三点セット検証
+    (バイト一致/センチネル/fail-loud)合格。実装は 85fa870(計画側)・
+    3897746(ハブ側)。
   - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
     Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
 

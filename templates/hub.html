@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#1E4E9C">
+<title>計画ライブラリ｜日野町データポータル（非公式）</title>
+<meta name="description" content="滋賀県日野町の43の計画を、やさしい概要とこの計画のポイントで見られる非公式ダッシュボード。">
+<link rel="canonical" href="https://kken78.github.io/hino-plans/">
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNiAyNiI+PHJlY3Qgd2lkdGg9IjI2IiBoZWlnaHQ9IjI2IiByeD0iNiIgZmlsbD0iI0VGRjNGOSIvPjxyZWN0IHg9IjMiIHk9IjE1IiB3aWR0aD0iMjAiIGhlaWdodD0iMy40IiByeD0iMS43IiBmaWxsPSIjMUU0RTlDIi8+PHJlY3QgeD0iNS41IiB5PSI5LjUiIHdpZHRoPSIxNSIgaGVpZ2h0PSIzLjQiIHJ4PSIxLjciIGZpbGw9IiMzQjZGQkYiLz48cmVjdCB4PSI5IiB5PSI0IiB3aWR0aD0iOCIgaGVpZ2h0PSIzLjQiIHJ4PSIxLjciIGZpbGw9IiNDMzNEMkUiLz48L3N2Zz4=">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="日野町データポータル（非公式）">
+<meta property="og:title" content="計画ライブラリ｜日野町データポータル（非公式）">
+<meta property="og:description" content="滋賀県日野町の43の計画を、やさしい概要とこの計画のポイントで見られる非公式ダッシュボード。">
+<meta property="og:url" content="https://kken78.github.io/hino-plans/">
+<meta name="twitter:card" content="summary">
+<!-- webfont:start（庁内/オフラインで外部通信を無くすにはこのブロックを削除） -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"></noscript>
+<!-- webfont:end -->
+<style>
+:root{
+  --ai:#1E4E9C; --ai-deep:#123563; --ai-ink:#0C2547;
+  --shu:#C33D2E;
+  --bg:#EFF3F9; --card:#FFFFFF; --ink:#1A2333; --muted:#5B6B85; --line:#DCE4F0;
+  --warn:#B7791F; --gray:#8A93A6;
+  --radius:14px; --radius-sm:10px;
+  --shadow:0 1px 2px rgba(18,53,99,.06),0 6px 18px rgba(18,53,99,.07);
+  --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",serif;
+  --sans:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  /* ===== design system tokens ===== */
+  /* type scale（.8rem=12.8px を可読フロアとする） */
+  --fs-2xs:.8rem; --fs-xs:.875rem; --fs-sm:.95rem; --fs-base:1rem;
+  --fs-md:1.1rem; --fs-lg:1.3rem; --fs-xl:1.6rem;
+  /* letter-spacing付きの極小ラベル（アイブロウ等）専用 */
+  --fs-eyebrow:.75rem;
+  /* spacing scale */
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:28px; --sp-8:44px;
+  /* interactive（タップ最小44px） */
+  --tap:44px; --ctrl-fs:.95rem; --ctrl-px:18px; --ctrl-radius:11px;
+  /* data / table */
+  --data-fs:1rem; --cell-py:14px; --cell-px:15px;
+  /* drill-down 階層インデント */
+  --lvl-indent:26px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.7;font-feature-settings:"palt";-webkit-font-smoothing:antialiased}
+a{color:var(--ai)}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--shu);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+small{font-weight:400}
+
+/* ---------- header ---------- */
+.site-head{background:var(--card);border-bottom:1px solid var(--line)}
+.site-head .wrap{display:flex;align-items:center;gap:14px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--ai-ink)}
+.brand-mark{width:26px;height:26px;flex:none;align-self:center}
+.brand h1{font-family:var(--serif);font-size:1.15rem;letter-spacing:.04em}
+.badge-unofficial{font-size:var(--fs-2xs);font-weight:700;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 9px;letter-spacing:.08em}
+.site-nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+.site-nav a{text-decoration:none;font-size:.85rem;font-weight:600;color:var(--muted);padding:6px 10px;border-radius:8px}
+.site-nav a:hover{background:var(--bg);color:var(--ai)}
+
+/* ---------- hero ---------- */
+.hero{background:linear-gradient(135deg,var(--ai-ink) 0%,var(--ai-deep) 45%,var(--ai) 100%);color:#fff;padding:44px 0 52px}
+.hero .eyebrow{font-size:.78rem;letter-spacing:.22em;opacity:.75;font-weight:700}
+.hero h2{font-family:var(--serif);font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:.03em;margin:6px 0 2px}
+.hero .tagline{opacity:.85;font-size:.92rem;margin-bottom:26px}
+.hero-grid{display:grid;grid-template-columns:1.2fr .9fr;gap:28px;align-items:stretch}
+.hero-plan{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--radius);padding:22px 24px}
+.hero-plan .hp-name{font-weight:700;font-size:1rem;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.hp-tag{font-size:.68rem;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:2px 10px;letter-spacing:.06em}
+.hero-plan .hp-period{opacity:.8;font-size:.85rem;margin:2px 0 16px}
+.hp-bar-row{display:flex;align-items:center;gap:14px}
+.hp-seg{flex:1;display:flex;gap:4px;height:12px}
+.hp-seg .seg-cell{background:rgba(255,255,255,.16)}
+.hp-seg .seg-cell.is-done{background:rgba(255,255,255,.5)}
+.hp-seg .seg-cell.is-now{background:#CFE2FF}
+.hp-stage{font-family:var(--serif);font-size:1.05rem;white-space:nowrap;line-height:1.2}
+.hp-remain{margin-top:14px;font-size:.9rem;opacity:.92}
+.hp-remain b{font-family:var(--serif);font-size:1.5rem;margin:0 4px;letter-spacing:.02em}
+.hero-stats{display:grid;grid-template-rows:repeat(3,1fr);gap:10px}
+.hs-card{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fff;color:var(--ink);border-radius:12px;padding:12px 18px;text-decoration:none;box-shadow:var(--shadow)}
+.hs-card .hs-label{font-size:.85rem;font-weight:700;color:var(--muted)}
+.hs-card .hs-num{font-family:var(--serif);font-size:1.7rem;color:var(--ai-ink)}
+.hs-card .hs-num small{font-size:.8rem;font-family:var(--sans);color:var(--muted);margin-left:2px}
+.hs-card{transition:transform .15s ease}
+.hs-card:hover{transform:translateY(-1px)}
+.hero-note{margin-top:18px;font-size:.75rem;opacity:.65}
+
+/* ---------- sections ---------- */
+section{padding:52px 0 8px}
+.sec-head{margin-bottom:22px}
+.sec-head .eyebrow{font-size:.72rem;letter-spacing:.22em;color:var(--ai);font-weight:700}
+.sec-head h2{font-family:var(--serif);font-size:clamp(1.3rem,2.6vw,1.7rem);letter-spacing:.03em;color:var(--ai-ink)}
+.sec-head p{color:var(--muted);font-size:.9rem;max-width:46em}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}
+
+/* ---------- timeline (signature) ---------- */
+.tl-card{padding:26px 26px 20px}
+.tl-plot{position:relative;padding-top:24px}
+.tl-axis{position:relative;height:26px;margin-left:190px;border-bottom:2px solid var(--line)}
+.tl-tick{position:absolute;top:0;height:100%;border-left:1px solid var(--line)}
+.tl-tick span{position:absolute;top:0;left:4px;font-size:.7rem;color:var(--muted);font-weight:600}
+.tl-body{position:relative;padding-top:6px}
+.tl-row{display:grid;grid-template-columns:190px 1fr;align-items:center;min-height:40px}
+.tl-name{font-size:.8rem;font-weight:600;padding-right:14px;line-height:1.35;color:var(--ai-ink)}
+.tl-track{position:relative;height:26px;border-left:1px dashed var(--line)}
+.tl-bar{position:absolute;top:2px;height:22px;background:linear-gradient(90deg,var(--ai),#3B6FBF);border-radius:6px;color:#fff;font-size:.68rem;font-weight:700;display:flex;align-items:center;padding:0 8px;overflow:hidden;white-space:nowrap}
+.tl-bar.is-ending{background:linear-gradient(90deg,var(--warn),#D19A3F)}
+.tl-bar.is-ended{background:var(--gray)}
+.tl-today{position:absolute;top:22px;bottom:0;left:calc(190px + (100% - 190px) * var(--p,0));width:0;border-left:2px solid var(--shu);z-index:2}
+.tl-today em{position:absolute;top:-22px;left:-16px;font-style:normal;font-size:.68rem;font-weight:700;color:#fff;background:var(--shu);border-radius:999px;padding:1px 8px}
+.tl-note{margin-top:14px;font-size:.75rem;color:var(--muted)}
+
+/* ---------- plan library ---------- */
+.controls{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search-row input{flex:1;min-width:240px;min-height:var(--tap);border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 16px;font-size:1rem;font-family:inherit;background:#fff}
+.search-row input:focus{border-color:var(--ai);outline:none;box-shadow:0 0 0 3px rgba(30,78,156,.15)}
+.chip-row{display:flex;gap:10px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;min-height:var(--tap);padding:0 var(--ctrl-px);font-size:var(--ctrl-fs);font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:8px;line-height:1.2}
+.chip i{width:11px;height:11px;border-radius:3px;display:inline-block;flex:none}
+.chip b{color:var(--ai-ink)}
+.chip:hover{border-color:var(--ai);color:var(--ai)}
+.chip.is-on{background:var(--ai-ink);border-color:var(--ai-ink);color:#fff}
+.chip.is-on b{color:#fff}
+.result-line{font-size:var(--fs-sm);color:var(--muted)}
+.plan-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
+.plan-card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;display:flex;flex-direction:column;gap:10px}
+.p-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.p-cat{font-size:.7rem;font-weight:700;color:var(--c);border:1px solid var(--line);background:#fff;border-radius:6px;padding:2px 8px}
+@supports (background:color-mix(in srgb,red 8%,#fff)){.p-cat{border-color:color-mix(in srgb,var(--c) 45%,#fff);background:color-mix(in srgb,var(--c) 8%,#fff)}}
+.p-st{font-size:.7rem;font-weight:700;border-radius:999px;padding:2px 10px}
+.st-active{background:#E7EFFC;color:var(--ai)}
+.st-ending{background:#FBF1DC;color:var(--warn)}
+.st-ended{background:#EDEFF3;color:var(--gray)}
+.st-unknown{background:#F1F3F7;color:var(--muted)}
+.p-name{font-family:var(--serif);font-size:1.02rem;line-height:1.5;color:var(--ai-ink);letter-spacing:.02em}
+.p-short{font-size:.83rem;color:#39445C}
+.p-next{font-size:.78rem;font-weight:700;color:var(--warn)}
+.p-period{margin-top:auto}
+.seg-row{display:flex;gap:3px;height:8px}
+.seg-cell{flex:1;border-radius:3px;background:#E6ECF6}
+.seg-cell.is-done{background:#A9BFE4}
+.seg-cell.is-now{background:var(--ai)}
+.seg-cell.is-now.is-ending{background:var(--warn)}
+.pd-seg-row{height:10px}
+.p-stage{white-space:nowrap}
+.p-meta{display:flex;justify-content:space-between;font-size:.74rem;color:var(--muted);margin-top:5px;font-weight:600}
+.p-unknown{font-size:.78rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:7px 10px;background:#FAFBFD}
+.p-foot{display:flex;justify-content:space-between;gap:8px;font-size:.73rem;color:var(--muted);flex-wrap:wrap}
+.p-dept.muted{opacity:.75}
+.p-links{border-top:1px solid var(--line);padding-top:10px;display:flex;gap:14px;flex-wrap:wrap}
+.p-link{font-size:.8rem;font-weight:700;text-decoration:none}
+.p-link:hover{text-decoration:underline}
+.p-link.sub{color:var(--muted);font-weight:600}
+.empty{color:var(--muted);font-size:var(--fs-sm);padding:20px}
+
+/* ---------- population ---------- */
+.pop-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.ps-card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 20px}
+.ps-card .ps-label{font-size:var(--fs-2xs);font-weight:700;color:var(--muted)}
+.ps-card .ps-num{font-family:var(--serif);font-size:1.9rem;color:var(--ai-ink);font-variant-numeric:tabular-nums;line-height:1.25}
+.ps-card .ps-num small{font-size:.85rem;color:var(--muted);font-family:var(--sans)}
+.ps-card .ps-sub{font-size:var(--fs-2xs);color:var(--muted)}
+.ps-num.neg,.neg{color:var(--shu)}
+.pos{color:var(--ai)}
+.dist-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-bottom:24px}
+.dist-card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;border-top:4px solid var(--c)}
+.d-head{display:flex;justify-content:space-between;align-items:baseline}
+.d-head h3{font-family:var(--serif);font-size:1.05rem;color:var(--ai-ink)}
+.d-share{font-size:var(--fs-2xs);color:var(--muted);font-weight:600}
+.d-main{display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin:6px 0 4px}
+.d-pop{font-size:1.45rem;font-weight:700;font-variant-numeric:tabular-nums;color:var(--ink)}
+.d-pop small{font-size:.75rem;color:var(--muted);font-weight:600;margin-left:2px}
+.d-hh{font-size:var(--fs-2xs);color:var(--muted)}
+.spark{width:132px;height:34px;flex:none}
+.d-delta{font-size:var(--fs-xs);font-weight:700}
+.d-delta small{color:var(--muted);font-weight:500}
+.chart-card{margin-bottom:20px}
+.chart-head{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.chart-head h3{font-size:var(--fs-md);color:var(--ai-ink)}
+.segs{display:flex;gap:12px;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden}
+.seg button{border:0;background:#fff;min-height:var(--tap);padding:0 18px;font-size:var(--ctrl-fs);font-weight:700;color:var(--muted);display:inline-flex;align-items:center}
+.seg button + button{border-left:1px solid var(--line)}
+.seg button:hover{color:var(--ai);background:#F5F8FD}
+.seg button.is-on{background:var(--ai-ink);color:#fff}
+.seg button.is-on:hover{background:var(--ai-ink)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.lg-chip{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);background:#fff;border-radius:999px;min-height:var(--tap);padding:0 16px;font-size:var(--ctrl-fs);font-weight:600;color:var(--ink);line-height:1.2}
+.lg-chip i{width:13px;height:13px;border-radius:50%;flex:none}
+.lg-chip b{font-variant-numeric:tabular-nums}
+.lg-chip small{font-size:var(--fs-2xs);font-weight:700}
+.lg-chip:hover{border-color:var(--ai)}
+.lg-chip.is-off{opacity:.4}
+#popChartSvg{width:100%;height:auto;display:block}
+.grid{stroke:#E6ECF6;stroke-width:1}
+.base{stroke:#B7C4DA;stroke-width:1.4;stroke-dasharray:5 4}
+.ax{font-size:12px;fill:var(--muted);font-family:var(--sans)}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius-sm)}
+table{width:100%;border-collapse:collapse;font-size:var(--data-fs);background:var(--card)}
+th,td{padding:var(--cell-py) var(--cell-px);text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+thead th{font-size:var(--fs-xs);color:var(--muted);letter-spacing:.04em;font-weight:700;background:#F7F9FD;position:sticky;top:0}
+tbody th{text-align:left;font-weight:600;white-space:nowrap}
+td.em{font-weight:700;color:var(--ai-ink)}
+tr.total th,tr.total td{border-top:2px solid var(--ai-ink);font-weight:700;background:#F2F6FC;font-size:1.02rem}
+.dot{display:inline-block;width:13px;height:13px;border-radius:4px;margin-right:10px;vertical-align:middle}
+.src-note{font-size:var(--fs-xs);color:var(--muted);margin-top:14px;line-height:1.7}
+.src-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+.src-link{font-size:var(--fs-sm);font-weight:600}
+
+/* ---------- learn ---------- */
+.learn-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.learn-card h3{font-family:var(--serif);font-size:1.05rem;color:var(--ai-ink);margin-bottom:10px}
+.learn-card p{font-size:.85rem;color:#39445C;margin-bottom:10px}
+.hier{display:flex;flex-direction:column;gap:6px;margin:14px 0}
+.hier .lv{border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:.8rem;background:#F7F9FD}
+.hier .lv b{color:var(--ai-ink)}
+.hier .lv small{color:var(--muted);display:block}
+.hier .lv.top{background:#E7EFFC;border-color:#C6D8F2}
+.hier .arrow{text-align:center;color:var(--muted);font-size:.8rem;line-height:.6}
+
+/* ---------- footer ---------- */
+.site-foot{margin-top:60px;background:var(--ai-ink);color:#C9D6EA;padding:36px 0 44px;font-size:.8rem}
+.site-foot a{color:#fff}
+.foot-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:30px}
+.site-foot h3{font-family:var(--serif);color:#fff;font-size:.95rem;margin-bottom:8px;letter-spacing:.04em}
+.site-foot ul{list-style:none}
+.site-foot li{margin-bottom:5px}
+.foot-note{margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.15);font-size:var(--fs-2xs);opacity:.8}
+
+@media (max-width:820px){
+  .hero-grid{grid-template-columns:1fr}
+  .tl-axis{margin-left:112px}
+  .tl-row{grid-template-columns:112px 1fr}
+  .tl-name{font-size:.68rem}
+  .tl-today{left:calc(112px + (100% - 112px) * var(--p,0))}
+  .tl-tick:nth-child(even) span{display:none}
+  .learn-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+}
+
+/* ===== cross-page nav active ===== */
+.site-nav a.is-here{background:var(--bg);color:var(--ai-ink)}
+
+/* ===== LP hub ===== */
+.hub-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}
+.hub-intro .lead{font-size:.95rem;opacity:.9}
+.hub-featured{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:6px}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.hub-card{position:relative;display:flex;flex-direction:column;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease}
+.hub-card:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(18,53,99,.08),0 12px 28px rgba(18,53,99,.12)}
+.hub-card .hc-kind{font-size:.68rem;font-weight:700;letter-spacing:.1em;color:var(--muted)}
+.hub-card h3{font-family:var(--serif);font-size:1.12rem;color:var(--ai-ink);letter-spacing:.02em;line-height:1.4}
+.hub-card p{font-size:.83rem;color:#39445C}
+.hub-card .hc-go{margin-top:auto;font-size:.82rem;font-weight:700;color:var(--ai)}
+.hub-card .hc-go::after{content:" →"}
+.hub-card.primary{background:linear-gradient(150deg,#14356422,#1E4E9C0F);border-color:#C6D8F2}
+.hub-card.primary h3{font-size:1.2rem}
+.hc-ext{position:absolute;top:16px;right:16px;font-size:var(--fs-2xs);font-weight:700;letter-spacing:.08em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 8px}
+.hub-note{font-size:.78rem;color:var(--muted);margin-top:6px}
+.hub-sec-label{display:flex;align-items:baseline;gap:10px;margin:6px 0 4px}
+.hub-sec-label h3{font-family:var(--serif);font-size:1.05rem;color:var(--ai-ink)}
+.hub-sec-label span{font-size:.78rem;color:var(--muted)}
+
+/* ===== plan card: expandable concrete content ===== */
+.p-lead{font-size:.85rem;color:#2B3550;font-weight:500}
+.p-detail{border-top:1px solid var(--line);margin-top:2px}
+.p-detail>summary{list-style:none;cursor:pointer;font-size:.8rem;font-weight:700;color:var(--ai);padding:10px 0 2px;display:flex;align-items:center;gap:6px;user-select:none}
+.p-detail>summary::-webkit-details-marker{display:none}
+.p-detail>summary .chev{transition:transform .2s ease;font-size:.7rem}
+.p-detail[open]>summary .chev{transform:rotate(90deg)}
+.p-detail[open]>summary .lbl-open{display:none}
+.p-detail:not([open])>summary .lbl-close{display:none}
+.p-body{padding:6px 0 4px;display:flex;flex-direction:column;gap:12px}
+.p-sum{font-size:.83rem;color:#39445C}
+.p-block h4{font-size:.72rem;letter-spacing:.06em;color:var(--muted);font-weight:700;margin-bottom:6px}
+.p-points{list-style:none;display:flex;flex-direction:column;gap:6px}
+.p-points li{position:relative;font-size:.82rem;color:#2B3550;padding-left:18px;line-height:1.55}
+.p-points li::before{content:"";position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--c,var(--ai))}
+.p-targets{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.p-targets li{font-size:.76rem;font-weight:700;color:var(--ai-ink);background:#EEF3FB;border:1px solid #D6E2F4;border-radius:8px;padding:5px 10px}
+.p-facts{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.74rem;color:var(--muted);font-weight:600}
+
+/* ===== plans: 分野別バンド（メリハリ） ===== */
+#planGrid > .cat-band + .cat-band{margin-top:36px}
+.cat-band{scroll-margin-top:16px}
+.cat-band-head{display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.cb-mark{width:8px;height:24px;border-radius:3px;background:var(--c,var(--ai));flex:none}
+.cb-title{font-family:var(--serif);font-size:1.14rem;color:var(--ai-ink);letter-spacing:.02em}
+.cb-count{font-size:.72rem;font-weight:700;color:var(--c,var(--ai));background:#F2F5FA;border:1px solid var(--line);border-radius:999px;padding:2px 9px;flex:none}
+.cb-desc{margin-left:auto;font-size:.78rem;color:var(--muted);max-width:28em;text-align:right;line-height:1.5}
+.plan-card.in-band .p-cat{display:none}
+@media (max-width:720px){.cb-desc{display:none}}
+
+/* ===== LP: 関連ダッシュボードのテーマ別ディレクトリ ===== */
+.rel-list{margin-top:6px}
+.rel-row{display:grid;grid-template-columns:132px 1fr;gap:18px;align-items:start;padding:16px 0;border-top:1px solid var(--line)}
+.rel-row:last-child{border-bottom:1px solid var(--line)}
+.rel-label{display:flex;align-items:center;gap:8px;font-size:.84rem;font-weight:700;color:var(--ai-ink);padding-top:8px}
+.rel-label .ic{width:20px;height:20px;color:var(--ai);flex:none}
+.rel-cards{display:flex;flex-wrap:wrap;gap:12px}
+.rel-card{flex:1 1 246px;display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:12px 14px;text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease}
+.rel-card:hover{transform:translateY(-1px);box-shadow:0 2px 4px rgba(18,53,99,.08),0 10px 22px rgba(18,53,99,.10)}
+.rel-ic{width:36px;height:36px;flex:none;border-radius:9px;background:#EEF3FB;display:flex;align-items:center;justify-content:center;color:var(--ai)}
+.rel-ic svg{width:20px;height:20px}
+.rel-tx{min-width:0;flex:1}
+.rel-tx b{display:block;font-size:.9rem;color:var(--ai-ink);font-weight:700;line-height:1.35}
+.rel-tx span{font-size:.76rem;color:var(--muted)}
+.rel-ext{align-self:flex-start;font-size:.6rem;font-weight:700;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:1px 7px;flex:none}
+@media (max-width:720px){.rel-row{grid-template-columns:1fr;gap:8px}.rel-label{padding-top:0}}
+
+/* データ不整合の警告バナー（実行時監査） */
+.data-warn{background:#FDF3F2;border:1px solid #E7B3AD;color:#8A2C22;border-radius:10px;padding:12px 14px;font-size:.83rem;font-weight:600;margin:0 0 18px}
+
+/* ===== 人口表：ドリルダウン（地区 → 中間レイヤー → 行政区等の3階層） ===== */
+#popTable tr.is-hidden{display:none}
+#popTable .reg-row.has-children,#popTable .grp-row.has-areas{cursor:pointer}
+#popTable .reg-row.has-children:hover td,#popTable .reg-row.has-children:hover th,
+#popTable .reg-row.has-children:focus-visible th{background:#EAF1FB}
+#popTable .grp-row.has-areas:hover td,#popTable .grp-row.has-areas:hover th,
+#popTable .grp-row.has-areas:focus-visible th{background:#E3ECF8}
+/* 展開/折りたたみのシェブロン（見やすく・押しやすく） */
+#popTable .caret{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;
+  margin-right:10px;border-radius:8px;background:#E7EFFC;color:var(--ai);font-size:.95rem;line-height:1;
+  flex:none;vertical-align:middle;transition:transform .18s ease}
+#popTable .grp-row .caret{background:#D8E4F5}
+#popTable .caret:empty{display:none}
+#popTable .reg-row.is-open .caret,#popTable .grp-row.is-open .caret{transform:rotate(90deg)}
+#popTable .area-n{margin-left:10px;font-weight:600;color:var(--muted);font-size:var(--fs-2xs)}
+/* 中間レイヤー行 */
+#popTable .grp-row td,#popTable .grp-row th{background:#EDF2FA;font-size:var(--fs-sm);font-weight:700}
+#popTable .grp-name{padding-left:var(--lvl-indent)}
+/* 行政区等行 */
+#popTable .area-row td,#popTable .area-row th{background:#FAFBFD;color:#41506B;font-weight:400;font-size:var(--fs-sm)}
+#popTable .area-row .area-name{padding-left:var(--lvl-indent)}
+#popTable .area-row.in-grp .area-name{padding-left:calc(var(--lvl-indent) * 2)}
+.drill-note{font-size:var(--fs-xs);color:var(--muted);margin:0 0 var(--sp-3);line-height:1.6}
+
+/* ===== 計画：詳細ボタン & アクセシブルな詳細ダイアログ ===== */
+.p-actions{margin-top:2px}
+.p-more{width:100%;min-height:var(--tap);border:1px solid var(--line);background:#fff;border-radius:var(--ctrl-radius);font-size:var(--ctrl-fs);font-weight:700;color:var(--ai);display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.p-more::after{content:"→"}
+.p-more:hover{background:#EEF3FB;border-color:var(--ai)}
+
+body.pd-lock{overflow:hidden}
+.pd-backdrop{position:fixed;inset:0;z-index:100;display:none;align-items:flex-start;justify-content:center;background:rgba(12,37,71,.5);padding:40px 16px;overflow-y:auto}
+.pd-backdrop.is-open{display:flex}
+.pd{background:var(--card);border-radius:var(--radius);box-shadow:0 12px 44px rgba(12,37,71,.32);width:100%;max-width:720px;padding:26px 32px 30px;outline:none}
+.pd-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.pd-tags{display:flex;gap:8px;flex-wrap:wrap;padding-top:4px}
+.pd-close{width:var(--tap);height:var(--tap);flex:none;border:1px solid var(--line);background:#fff;border-radius:10px;font-size:1.5rem;line-height:1;color:var(--muted);display:flex;align-items:center;justify-content:center}
+.pd-close:hover{background:var(--bg);color:var(--ai-ink)}
+.pd-title{font-family:var(--serif);font-size:var(--fs-xl);color:var(--ai-ink);letter-spacing:.02em;line-height:1.45;margin:12px 0 0}
+.pd-lead{font-size:var(--fs-md);color:#2B3550;font-weight:500;margin-top:12px;line-height:1.75}
+.pd-body{margin-top:6px}
+.pd-sec{padding:18px 0;border-top:1px solid var(--line)}
+.pd-sec h3{font-family:var(--serif);font-size:var(--fs-md);color:var(--ai-ink);margin-bottom:10px;letter-spacing:.02em}
+.pd-sec p{font-size:var(--fs-sm);color:#39445C;line-height:1.9}
+.pd-points{list-style:none;display:flex;flex-direction:column;gap:10px}
+.pd-points li{position:relative;font-size:var(--fs-sm);color:#2B3550;padding-left:22px;line-height:1.7}
+.pd-points li::before{content:"";position:absolute;left:2px;top:.7em;width:8px;height:8px;border-radius:2px;background:var(--c,var(--ai))}
+.pd-targets{list-style:none;display:flex;flex-wrap:wrap;gap:10px}
+.pd-targets li{font-size:var(--fs-sm);font-weight:700;color:var(--ai-ink);background:#EEF3FB;border:1px solid #D6E2F4;border-radius:10px;padding:8px 14px}
+.pd-period-txt{font-size:var(--fs-sm);color:#2B3550;font-weight:600;margin-bottom:10px}
+.pd-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px 22px}
+.pd-facts>div{display:flex;flex-direction:column;gap:3px}
+.pd-facts dt{font-size:var(--fs-2xs);color:var(--muted);font-weight:700}
+.pd-facts dd{font-size:var(--fs-sm);color:var(--ink)}
+.pd-foot{margin-top:20px;padding-top:18px;border-top:2px solid var(--ai-ink)}
+.pd-link{display:inline-flex;align-items:center;min-height:var(--tap);font-size:var(--fs-sm);font-weight:700;color:var(--ai);text-decoration:none;border:1px solid var(--ai);border-radius:var(--ctrl-radius);padding:0 18px}
+.pd-link:hover{background:var(--ai);color:#fff}
+.pd-note{font-size:var(--fs-2xs);color:var(--muted);margin-top:12px;line-height:1.7}
+@media (max-width:640px){.pd{padding:22px 20px 26px}.pd-backdrop{padding:16px 10px}.pd-title{font-size:var(--fs-lg)}}
+
+/* ===== 計画詳細：インフォグラフィック（PDFの概要・ポイントを図解） ===== */
+.ig-tag{display:block;font-size:var(--fs-2xs);font-weight:700;color:var(--c,var(--ai));letter-spacing:.08em;margin-bottom:4px}
+.ig-node.ig-root{background:linear-gradient(135deg,#F1F6FD,#E7F0FB);border-color:#CBDBF2}
+.ig-root-txt{font-family:var(--serif);font-size:var(--fs-md);color:var(--ai-ink);line-height:1.75;letter-spacing:.02em}
+.ig-root-num{font-size:1.2rem}
+.ig-stat{display:flex;flex-direction:column;align-items:center;text-align:center;background:linear-gradient(140deg,var(--ai-ink),var(--ai-deep));color:#fff;border-radius:14px;padding:22px 18px;margin-bottom:14px}
+.ig-stat-num{font-family:var(--serif);font-size:2.5rem;line-height:1;letter-spacing:.02em}
+.ig-stat-label{font-size:var(--fs-sm);opacity:.88;margin-top:10px;line-height:1.6}
+/* 体系図：将来像 → 基本目標を1本のライン（スパイン）上に番号ノードで配置 */
+.ig-flow{position:relative;padding-left:52px;margin-top:2px}
+.ig-flow::before{content:"";position:absolute;left:19px;top:6px;bottom:18px;width:3px;border-radius:3px;background:var(--c,var(--ai));opacity:.4}
+.ig-node{position:relative;background:#FAFBFD;border:1px solid var(--line);border-left:3px solid var(--c,var(--ai));border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.ig-node:last-child{margin-bottom:0}
+.ig-num{position:absolute;left:-47px;top:10px;width:34px;height:34px;border-radius:50%;background:var(--c,var(--ai));color:#fff;font-family:var(--serif);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:0 0 0 4px var(--card)}
+.ig-txt{font-size:var(--fs-sm);color:#2B3550;line-height:1.7}
+@media (max-width:640px){.ig-flow{padding-left:44px}.ig-num{left:-42px;width:30px;height:30px;font-size:.9rem}}
+
+/* ===== 計画詳細：将来ビジョン → 施策の柱（system型） ===== */
+.ig-vision2{background:linear-gradient(140deg,var(--ai-ink),var(--ai-deep));color:#fff;border-radius:14px;padding:18px 20px;position:relative}
+.ig-vision2 .ig-tag{color:#A9C6EE}
+.ig-vision2-text{font-family:var(--serif);font-size:var(--fs-md);line-height:1.75;letter-spacing:.02em}
+.ig-vision2::after{content:"▼";display:block;text-align:center;color:var(--line);margin:12px auto -6px;font-size:.8rem}
+.ig-cols-label{font-size:var(--fs-2xs);color:var(--muted);text-align:center;margin:14px 0 10px;font-weight:600}
+.ig-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.ig-col{background:#FAFBFD;border:1px solid var(--line);border-top:4px solid var(--c,var(--ai));border-radius:12px;padding:14px 15px 15px}
+.ig-col-num{display:inline-flex;width:28px;height:28px;border-radius:8px;background:var(--c,var(--ai));color:#fff;font-family:var(--serif);font-weight:700;align-items:center;justify-content:center;font-size:var(--fs-sm);margin-bottom:9px}
+.ig-col-h{display:block;font-size:var(--fs-sm);color:var(--ai-ink);margin-bottom:6px;line-height:1.5}
+.ig-col-d{font-size:var(--fs-2xs);color:#41506B;line-height:1.7}
+
+:root{--cat-sogo:#2457A4;--cat-toshi:#3E8E4F;--cat-kotsu:#2E8BC0;--cat-kankyo:#0F8B8D;--cat-kenko:#C25E86;--cat-kodomo:#C98A2D;--cat-bosai:#9C5B33;--cat-gyosei:#5B6B85;--cat-sangyo:#7B5CB8;}
+.p-more-link{text-decoration:none}
+</style>
+</head>
+<body>
+<header class="site-head">
+<div class="wrap">
+<a class="brand" href="https://kken78.github.io/hino-portal/" data-site="portal"><svg class="brand-mark" viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="14" width="24" height="4" rx="2" fill="#1E4E9C"/><rect x="4" y="8" width="18" height="4" rx="2" fill="#3B6FBF"/><rect x="8" y="2" width="10" height="4" rx="2" fill="#C33D2E"/></svg><h1>日野町データポータル</h1></a>
+<span class="badge-unofficial">非公式</span>
+<nav class="site-nav" aria-label="サイトメニュー">
+<a href="https://kken78.github.io/hino-portal/" data-site="portal">トップ</a><a href="https://kken78.github.io/hino-plans/" data-site="plans" class="is-here">計画</a><a href="https://kken78.github.io/hino-population/" data-site="population">人口</a>
+</nav>
+</div>
+</header>
+<div class="hero">
+<div class="wrap">
+<p class="eyebrow">PLAN DASHBOARD</p>
+<h2>日野町の計画ライブラリ</h2>
+<p class="tagline">町の43の計画を、やさしい概要とポイントで。（<span id="today"></span>時点）</p>
+<div class="hero-grid">
+<div class="hero-plan">
+<p class="hp-name"><span class="hp-tag">最上位計画</span>第6次日野町総合計画</p>
+<p class="hp-period">計画期間：令和3年度〜令和12年度（2021.4〜2031.3）</p>
+<div class="hp-bar-row"><div class="hp-seg" id="heroSeg" role="img" aria-label="計画期間の経過"></div><div class="hp-stage" id="heroStage">–</div></div>
+<p class="hp-remain">満了まで <b id="heroRemain">–</b>（令和13年3月末まで）</p>
+</div>
+<div class="hero-stats">
+<a class="hs-card" href="#plans"><span class="hs-label">計画期間中（期間確認済み）</span><span class="hs-num" id="cntActive">–<small>件</small></span></a>
+<a class="hs-card" href="#plans"><span class="hs-label">まもなく満了・次期策定中</span><span class="hs-num" id="cntMoving">–<small>件</small></span></a>
+<a class="hs-card" href="#plans"><span class="hs-label">収録している計画</span><span class="hs-num" id="cntAll">–<small>件</small></span></a>
+</div>
+</div>
+<p class="hero-note">公開資料をもとにした実証実験プロトタイプです。正確な情報は各リンク先の町公式ページでご確認ください。</p>
+</div>
+</div>
+<section id="timeline">
+<div class="wrap">
+<div class="sec-head"><p class="eyebrow">TIMELINE</p><h2>町の計画年表</h2><p>計画期間を町の公表ページで確認できた計画を、年度の物差しに並べました。朱の線が「きょう」です。</p></div>
+<div class="card tl-card"><div class="tl-plot"><div class="tl-axis" id="tlAxis" aria-hidden="true"></div><div class="tl-body" id="tlBody"></div><div class="tl-today" id="tlToday" aria-hidden="true"><em>きょう</em></div></div><p class="tl-note">年度はいずれも4月始まり。R＝令和。期間の記載を確認できていない計画（防災計画など随時見直しのもの）は、下の一覧に「期間は資料参照」として掲載しています。</p></div>
+</div>
+</section>
+<section id="plans">
+<div class="wrap">
+<div class="sec-head"><p class="eyebrow">PLAN LIBRARY</p><h2>分野から計画をさがす</h2><p>計画は9つの分野に分けています。各計画の「詳細を見る」を押すと、やさしい概要・ねらい・ポイント・数値目標・計画期間などを、PDFを開かなくても読める形でまとめて表示します。図表を含む全文は、公式ページへのリンクから確認できます。</p></div>
+<div class="controls">
+<div class="search-row"><input type="search" id="planSearch" placeholder="計画名・キーワードで検索（例：子育て、防災、住宅）" aria-label="計画を検索"></div>
+<div class="chip-row" id="catChips" role="group" aria-label="分野で絞り込み"></div>
+<div class="chip-row" id="stChips" role="group" aria-label="状態で絞り込み"><button class="chip is-on" data-st="all" aria-pressed="true">すべての状態</button><button class="chip" data-st="active" aria-pressed="false">計画期間中</button><button class="chip" data-st="moving" aria-pressed="false">満了間近・次期策定中</button><button class="chip" data-st="unknown" aria-pressed="false">期間は資料参照</button><button class="chip" data-st="ended" aria-pressed="false">期間終了</button></div>
+<p class="result-line"><b id="planCount">–</b> 件を表示中<span id="viewNote" style="margin-left:10px;font-weight:400"></span></p>
+</div>
+<div id="planGrid"></div>
+</div>
+</section>
+<section id="learn">
+<div class="wrap">
+<div class="sec-head"><p class="eyebrow">LEARN</p><h2>計画のしくみ</h2><p>行政計画がどうつながっているかと、このライブラリの読み方です。</p></div>
+<div class="learn-grid">
+<div class="card learn-card"><h3>町の計画は、どうつながっている？</h3><p>いちばん上に町全体の方向を決める「総合計画」があり、それを実行するための実施計画、分野ごとの個別計画がぶら下がる構造です。</p><div class="hier"><div class="lv top"><b>総合計画（10年）</b><small>基本構想＋基本計画。まちづくり全体の設計図</small></div><p class="arrow">▼</p><div class="lv"><b>実施計画（3年）</b><small>どの事業をいつ・いくらで行うかを毎年度見直す</small></div><p class="arrow">▼</p><div class="lv"><b>分野別の個別計画</b><small>環境・教育・防災・住宅など。多くは5〜10年の期間を持つ</small></div></div><p>個別計画は法律にもとづくものが多く、期間が来ると「第◯期」として作り直されます。「まもなく満了」は次の計画づくり（住民意見の募集など）が始まるサインです。</p></div>
+<div class="card learn-card"><h3>このライブラリの読み方</h3><p>各計画には、ひと目でわかる「やさしい概要」と、基本目標や柱を並べた「この計画のポイント」を載せています。まず概要で全体像をつかみ、気になったら公式ページで全文を確認する——という順路を想定しています。</p><p>計画期間の帯（進捗バー）は、町の公表ページ本文で期間を確認できた計画にのみ表示しています。確認できていない計画は「期間は資料参照」と明示しています。数値目標など詳しい内容は、順次、原典から追記していく前提です。</p><p>正確な内容は必ず<a href="https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">町の公式ページ</a>でご確認ください。</p></div>
+</div>
+</div>
+</section>
+<footer class="site-foot">
+<div class="wrap">
+<div class="foot-grid">
+<div>
+<h3>このサイトについて</h3>
+<p>日野町の公開資料をもとに作成した実証実験プロトタイプ（非公式）です。計画は町の「<a href="https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">施策・計画</a>」ページおよび各部門別ページ、人口は「<a href="https://www.town.shiga-hino.lg.jp/0000002185.html" target="_blank" rel="noopener">日野町人口情報の詳細</a>」を出典としています。</p>
+<p style="margin-top:8px">ソースコード・データ：<a href="https://github.com/kken78" target="_blank" rel="noopener">github.com/kken78</a></p>
+</div>
+<div>
+<h3>ダッシュボード</h3>
+<ul>
+<li><a href="https://kken78.github.io/hino-portal/" data-site="portal">データポータル（トップ）</a></li>
+<li><a href="https://kken78.github.io/hino-plans/" data-site="plans">計画ライブラリ</a></li>
+<li><a href="https://kken78.github.io/hino-population/" data-site="population">地区別人口</a></li>
+<li><a href="https://kken78.github.io/hino-dashboard/" target="_blank" rel="noopener">日野のすがた｜統計</a></li>
+<li><a href="https://kken78.github.io/hino-plan-dashboard/" target="_blank" rel="noopener">総合計画 進捗</a></li>
+<li><a href="https://kken78.github.io/choisoko-hino-dashboard/" target="_blank" rel="noopener">チョイソコひの</a></li>
+<li><a href="https://kken78.github.io/hino-council-search/" target="_blank" rel="noopener">会議録 横断検索</a></li>
+<li><a href="https://kken78.github.io/council-dashboard/" target="_blank" rel="noopener">議会だより・一般質問</a></li>
+</ul>
+</div>
+</div>
+<p class="foot-note">数値・期間は公表資料からの転記であり、内容の正確性を保証するものではありません。最新・正確な情報は日野町の公式ページをご確認ください。｜データ転記日：2026年7月3日</p>
+</div>
+</footer>
+<script>
+
+'use strict';
+
+const SITES = {
+  portal: 'https://kken78.github.io/hino-portal/',
+  plans: 'https://kken78.github.io/hino-plans/',
+  population: 'https://kken78.github.io/hino-population/'
+};
+function wireSiteLinks(){
+  document.querySelectorAll('[data-site]').forEach(function(a){
+    var k = a.getAttribute('data-site');
+    if (SITES[k]) a.setAttribute('href', SITES[k]);
+  });
+}
+wireSiteLinks();
+document.addEventListener('DOMContentLoaded', wireSiteLinks);
+/* ---------- 共通ユーティリティ ---------- */
+const NOW = new Date();
+function fyStart(r){ return new Date(2018 + r, 3, 1); }   // 令和r年度の開始日（4/1）
+function fyEndEx(r){ return new Date(2019 + r, 3, 1); }   // 令和r年度の翌日（排他的終端）
+function fmtRemain(ms){
+  if (ms <= 0) return '満了';
+  const days = Math.ceil(ms / 86400000);
+  const y = Math.floor(days / 365), d = days % 365;
+  if (y >= 1) return 'あと約' + y + '年' + (d > 30 ? Math.round(d / 30) + 'か月' : '');
+  if (days > 60) return 'あと約' + Math.round(days / 30) + 'か月';
+  return 'あと' + days + '日';
+}
+const $  = (sel, root) => (root || document).querySelector(sel);
+const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
+const nf = new Intl.NumberFormat('ja-JP');
+function el(tag, cls, html){
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (html != null) n.innerHTML = html;
+  return n;
+}
+function signed(v){ return (v > 0 ? '+' : '') + nf.format(v); }
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function setToday(){
+  const t = $('#today');
+  if (t) t.textContent = NOW.getFullYear() + '年' + (NOW.getMonth() + 1) + '月' + NOW.getDate() + '日';
+}
+
+/* ============================================================
+   日野町 計画データ（非公式）
+   出典：日野町公式サイト「施策・計画」および各部門別ページ
+   points/summary は公式ページ本文で確認できた内容を優先。
+   本文未確認の計画は、計画の制度上の性質から確実に言える範囲のみ記載し、
+   詳細（数値目標等）は原典で確認する前提で verified:false としています。
+   ============================================================ */
+const CATS = {
+  sogo:   { label: '総合・まちづくり', color: 'var(--cat-sogo)' },
+  toshi:  { label: '都市・住まい',     color: 'var(--cat-toshi)' },
+  kotsu:  { label: '交通・道路',       color: 'var(--cat-kotsu)' },
+  kankyo: { label: '環境・ごみ',       color: 'var(--cat-kankyo)' },
+  kenko:  { label: '健康・福祉',       color: 'var(--cat-kenko)' },
+  kodomo: { label: '子育て・教育・文化', color: 'var(--cat-kodomo)' },
+  bosai:  { label: '防災・安全',       color: 'var(--cat-bosai)' },
+  gyosei: { label: '行政運営',         color: 'var(--cat-gyosei)' },
+  sangyo: { label: '産業・農林業',     color: 'var(--cat-sangyo)' }
+};
+
+const PLANS = "__PLANS_PLACEHOLDER__";
+
+/* ============================================================
+   計画ダッシュボード
+   ============================================================ */
+function planStatus(p){
+  if (p.ended) return 'ended';
+  if (!p.verified) return 'unknown';
+  const s = fyStart(p.start), e = fyEndEx(p.end);
+  if (NOW < s) return 'upcoming';
+  if (NOW >= e) return 'ended';
+  if (e - NOW <= 366 * 86400000) return 'ending';
+  return 'active';
+}
+const STATUS_META = {
+  active:  { label: '計画期間中',     cls: 'st-active'  },
+  ending:  { label: 'まもなく満了',   cls: 'st-ending'  },
+  upcoming:{ label: '開始前',         cls: 'st-ending'  },
+  ended:   { label: '期間終了',       cls: 'st-ended'   },
+  unknown: { label: '期間は資料参照', cls: 'st-unknown' }
+};
+/* 分野ごとの一言（バンドの見出しに添える） */
+const CAT_DESC = {
+  sogo:   'まち全体の方向を決める上位計画と、人口・男女共同参画など横断的な計画。',
+  toshi:  '都市計画・住宅・公園など、暮らしの土台となる都市基盤の計画。',
+  kotsu:  '公共交通の維持や、道路・橋・通学路の安全に関する計画。',
+  kankyo: '脱炭素・自然共生・ごみの分別など、環境を守る計画。',
+  kenko:  '高齢者・障がい・地域福祉・健康づくりなど、支え合いの計画。',
+  kodomo: '保育・学校教育・文化財など、子どもと学びに関する計画。',
+  bosai:  '災害への備えと、大規模災害に強いまちづくりの計画。',
+  gyosei: '公共施設・水道・情報セキュリティなど、役場の運営基盤の計画。',
+  sangyo: '農地・森林の保全と活用など、産業を支える計画。'
+};
+/* 分野内の並び：期間確認済み（開始年度順）→ 資料参照 → 終了 */
+function sortPlans(a, b){
+  const ea = planStatus(a) === 'ended' ? 1 : 0, eb = planStatus(b) === 'ended' ? 1 : 0;
+  if (ea !== eb) return ea - eb;
+  if (a.verified && b.verified) return a.start - b.start;
+  if (a.verified !== b.verified) return a.verified ? -1 : 1;
+  return 0;
+}
+
+/* ---------- 計画期間の段階表示（年度ベース：全N年の第k年目） ---------- */
+function currentFY(){                         // 現在の令和年度番号（4/1始まり）
+  const y = NOW.getMonth() >= 3 ? NOW.getFullYear() : NOW.getFullYear() - 1;
+  return y - 2018;
+}
+function periodInfo(p){
+  const N = p.end - p.start + 1, rNow = currentFY();
+  let phase, k;
+  if (rNow < p.start){ phase = 'upcoming'; k = 0; }
+  else if (rNow > p.end){ phase = 'ended'; k = N + 1; }
+  else { phase = 'active'; k = rNow - p.start + 1; }
+  return { N, k, phase };
+}
+function segAria(p, info){
+  if (info.phase === 'ended') return '計画期間は終了';
+  if (info.phase === 'upcoming') return '開始前（令和' + p.start + '年度から）';
+  return '全' + info.N + '年度のうち' + info.k + '年目（令和' + p.start + '〜' + p.end + '年度）';
+}
+function segCells(info, ending){              // 年度ごとのセル（済／現在／これから）
+  let cells = '';
+  for (let i = 1; i <= info.N; i++){
+    let c = '';
+    if (info.phase === 'ended' || i < info.k) c = ' is-done';
+    else if (i === info.k && info.phase === 'active') c = ' is-now' + (ending ? ' is-ending' : '');
+    cells += '<span class="seg-cell' + c + '"></span>';
+  }
+  return cells;
+}
+function periodSegHTML(p, info, ending, extraCls){
+  return '<div class="seg-row ' + (extraCls || '') + '" role="img" aria-label="' + esc(segAria(p, info)) + '">' +
+    segCells(info, ending) + '</div>';
+}
+function periodStageText(p, info){
+  if (info.phase === 'upcoming') return '開始前（令和' + p.start + '年度から）';
+  if (info.phase === 'ended') return '終了';
+  if (info.k >= info.N) return '最終年度（全' + info.N + '年）';
+  return '全' + info.N + '年の' + info.k + '年目・あと' + (info.N - info.k) + '年';
+}
+
+/* 1) ヒーロー：最上位計画の進捗＋件数 */
+function renderHero(){
+  const p = PLANS.find(x => x.flagship);
+  const e = fyEndEx(p.end);
+  const info = periodInfo(p), ending = planStatus(p) === 'ending';
+  const seg = $('#heroSeg');
+  if (seg){ seg.innerHTML = segCells(info, ending); seg.setAttribute('aria-label', segAria(p, info)); }
+  const stg = $('#heroStage'); if (stg) stg.textContent = periodStageText(p, info);
+  const rem = $('#heroRemain'); if (rem) rem.textContent = fmtRemain(e - NOW);
+
+  let active = 0, moving = 0;
+  PLANS.forEach(pl => {
+    const st = planStatus(pl);
+    if (st === 'active') active++;
+    if (st === 'ending' || pl.next) moving++;
+  });
+  $('#cntActive').textContent = active;
+  $('#cntMoving').textContent = moving;
+  $('#cntAll').textContent = PLANS.length;
+}
+
+/* 2) 町の計画年表 */
+const TL_FROM = 3, TL_TO = 13;
+function renderTimeline(){
+  const domainS = fyStart(TL_FROM), domainE = fyEndEx(TL_TO), span = domainE - domainS;
+  const axis = $('#tlAxis');
+  for (let r = TL_FROM; r <= TL_TO; r++){
+    const tick = el('div', 'tl-tick', '<span>R' + r + '</span>');
+    tick.style.left = ((fyStart(r) - domainS) / span * 100) + '%';
+    axis.appendChild(tick);
+  }
+  const body = $('#tlBody');
+  PLANS.filter(p => p.verified).sort((a, b) => a.start - b.start || a.end - b.end).forEach(p => {
+    const st = planStatus(p);
+    const row = el('div', 'tl-row');
+    row.appendChild(el('div', 'tl-name', esc(p.name)));
+    const track = el('div', 'tl-track');
+    const bar = el('div', 'tl-bar ' + (st === 'ending' ? 'is-ending' : st === 'ended' ? 'is-ended' : ''));
+    const bs = fyStart(p.start), be = fyEndEx(p.end);
+    bar.style.left  = ((bs - domainS) / span * 100) + '%';
+    bar.style.width = ((be - bs) / span * 100) + '%';
+    bar.innerHTML = '<span>R' + p.start + '〜R' + p.end + '</span>';
+    bar.title = p.name + '（令和' + p.start + '〜' + p.end + '年度）';
+    track.appendChild(bar);
+    row.appendChild(track);
+    body.appendChild(row);
+  });
+  const pct = Math.min(1, Math.max(0, (NOW - domainS) / span));
+  $('#tlToday').style.setProperty('--p', pct);
+}
+
+/* 3) 計画ライブラリ */
+const state = { q: '', cat: 'all', st: 'all' };
+function renderPlanFilters(){
+  const catWrap = $('#catChips');
+  const counts = {};
+  PLANS.forEach(p => { counts[p.cat] = (counts[p.cat] || 0) + 1; });
+  const allChip = el('button', 'chip is-on', 'すべて <b>' + PLANS.length + '</b>');
+  allChip.dataset.cat = 'all';
+  allChip.setAttribute('aria-pressed', 'true');
+  catWrap.appendChild(allChip);
+  Object.keys(CATS).forEach(k => {
+    const c = el('button', 'chip', '<i style="background:' + CATS[k].color + '"></i>' + CATS[k].label + ' <b>' + (counts[k] || 0) + '</b>');
+    c.dataset.cat = k;
+    c.setAttribute('aria-pressed', 'false');
+    catWrap.appendChild(c);
+  });
+  catWrap.addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    state.cat = b.dataset.cat;
+    $$('#catChips .chip').forEach(x => { const on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    renderPlans();
+  });
+  $('#stChips').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    state.st = b.dataset.st;
+    $$('#stChips .chip').forEach(x => { const on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+    renderPlans();
+  });
+  $('#planSearch').addEventListener('input', e => { state.q = e.target.value.trim(); renderPlans(); });
+}
+function matchStatus(p, key){
+  const st = planStatus(p);
+  if (key === 'all') return true;
+  if (key === 'active') return st === 'active';
+  if (key === 'moving') return st === 'ending' || !!p.next;
+  if (key === 'unknown') return st === 'unknown';
+  if (key === 'ended') return st === 'ended';
+  return true;
+}
+function periodBlock(p){
+  if (p.verified){
+    const info = periodInfo(p), ending = planStatus(p) === 'ending';
+    return '<div class="p-period">' + periodSegHTML(p, info, ending) +
+      '<div class="p-meta"><span>令和' + p.start + '〜' + p.end + '年度' + (p.periodBadge ? '（' + esc(p.periodBadge) + '）' : '') +
+      '</span><span class="p-stage">' + periodStageText(p, info) + '</span></div></div>';
+  }
+  return '<div class="p-period p-unknown">期間：' + esc(p.periodNote || '公表資料で確認') + '</div>';
+}
+function planCard(p, inBand){
+  const cat = CATS[p.cat], meta = STATUS_META[planStatus(p)];
+  const card = el('article', 'plan-card' + (inBand ? ' in-band' : ''));
+  card.style.setProperty('--c', cat.color);
+  card.innerHTML =
+    '<div class="p-top"><span class="p-cat" style="--c:' + cat.color + '">' + cat.label + '</span>' +
+    '<span class="p-st ' + meta.cls + '">' + meta.label + '</span></div>' +
+    '<h3 class="p-name">' + esc(p.name) + '</h3>' +
+    '<p class="p-lead">' + esc(p.lead || '') + '</p>' +
+    (p.next ? '<p class="p-next">進捗と予定：' + esc(p.next) + '</p>' : '') +
+    periodBlock(p) +
+    '<div class="p-actions">' + (p.dashboard
+      ? '<a class="p-more p-more-link" href="' + esc(p.dashboard) + '">ダッシュボードを見る</a>'
+      : '<button type="button" class="p-more" data-id="' + esc(p.id) + '">詳細を見る</button>') + '</div>';
+  return card;
+}
+
+/* ---------- 計画の詳細ダイアログ（アクセシブル：構造化HTML・キーボード操作） ---------- */
+function pdSection(title, inner){ return '<section class="pd-sec"><h3>' + title + '</h3>' + inner + '</section>'; }
+/* PDFの概要・ポイントを図解として再構成（将来像バンド・象徴数値・番号付き基本目標カード） */
+/* 将来ビジョン → 施策の柱（縦の柱＝カラムで表現） */
+function pdSystem(info){
+  let out = '';
+  if (info.vision)
+    out += '<div class="ig-vision2"><span class="ig-tag">将来ビジョン</span>' +
+      '<p class="ig-vision2-text">' + esc(info.vision) + '</p></div>';
+  if (info.pillars && info.pillars.length){
+    out += '<p class="ig-cols-label">この将来像を、次の施策の柱で実現します。</p>';
+    out += '<div class="ig-cols">' + info.pillars.map((pl, i) =>
+      '<div class="ig-col"><span class="ig-col-num" aria-hidden="true">' + (i + 1) + '</span>' +
+      '<b class="ig-col-h">' + esc(pl.h) + '</b>' +
+      (pl.d ? '<p class="ig-col-d">' + esc(pl.d) + '</p>' : '') + '</div>').join('') + '</div>';
+  }
+  return pdSection('将来ビジョンと施策の柱', out);
+}
+function pdInfographic(p){
+  if (p.info && p.info.type === 'system') return pdSystem(p.info);
+  let out = '';
+  if (p.stat)
+    out += '<div class="ig-stat"><span class="ig-stat-num">' + esc(p.stat) + '</span>' +
+      (p.statLabel ? '<span class="ig-stat-label">' + esc(p.statLabel) + '</span>' : '') + '</div>';
+  const pts = p.points || [];
+  if (p.vision || pts.length){
+    let nodes = '';
+    if (p.vision)
+      nodes += '<div class="ig-node ig-root"><span class="ig-num ig-root-num" aria-hidden="true">◎</span>' +
+        '<div class="ig-root-body"><span class="ig-tag">将来像・基本理念</span>' +
+        '<p class="ig-txt ig-root-txt">' + esc(p.vision) + '</p></div></div>';
+    nodes += pts.map((x, i) => '<div class="ig-node"><span class="ig-num" aria-hidden="true">' + (i + 1) + '</span>' +
+      '<p class="ig-txt">' + esc(x) + '</p></div>').join('');
+    out += '<div class="ig-flow" role="list" aria-label="この計画の体系（将来像と基本目標）">' + nodes + '</div>';
+  }
+  if (!out) return '';
+  return pdSection('この計画のポイント（図解）', out);
+}
+function planDetailHTML(p){
+  const cat = CATS[p.cat], meta = STATUS_META[planStatus(p)];
+  const points = (p.points || []).map(x => '<li>' + esc(x) + '</li>').join('');
+  const targets = (p.targets && p.targets.length)
+    ? '<ul class="pd-targets">' + p.targets.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '';
+  let periodInner;
+  if (p.verified){
+    const info = periodInfo(p), ending = planStatus(p) === 'ending';
+    periodInner = '<p class="pd-period-txt">令和' + p.start + '〜' + p.end + '年度' +
+      (p.periodBadge ? '（' + esc(p.periodBadge) + '）' : '') + ' ・ ' + periodStageText(p, info) + '</p>' +
+      periodSegHTML(p, info, ending, 'pd-seg-row');
+  } else {
+    periodInner = '<p class="pd-period-txt">期間：' + esc(p.periodNote || '公表資料で確認') + '</p>';
+  }
+  const facts = '<dl class="pd-facts">' +
+    (p.dept ? '<div><dt>担当課</dt><dd>' + esc(p.dept) + '</dd></div>' : '') +
+    '<div><dt>掲載・更新</dt><dd>' + esc(p.posted || '—') + '</dd></div>' +
+    '<div><dt>分野</dt><dd>' + cat.label + '</dd></div></dl>';
+  return '<div class="pd-head"><div class="pd-tags">' +
+      '<span class="p-cat" style="--c:' + cat.color + '">' + cat.label + '</span>' +
+      '<span class="p-st ' + meta.cls + '">' + meta.label + '</span></div>' +
+      '<button type="button" class="pd-close" aria-label="閉じる">×</button></div>' +
+    '<h2 id="pd-title" class="pd-title">' + esc(p.name) + '</h2>' +
+    (p.lead ? '<p class="pd-lead">' + esc(p.lead) + '</p>' : '') +
+    '<div class="pd-body">' +
+    (p.summary ? pdSection('この計画のねらい', '<p>' + esc(p.summary) + '</p>') : '') +
+    pdInfographic(p) +
+    (targets ? pdSection('数値目標', targets) : '') +
+    pdSection('計画期間', periodInner) +
+    (p.next ? pdSection('進捗と予定', '<p>' + esc(p.next) + '</p>') : '') +
+    pdSection('基本情報', facts) +
+    '</div>' +
+    '<div class="pd-foot">' +
+    '<a class="pd-link" href="' + p.url + '" target="_blank" rel="noopener">日野町の公式ページで全文を見る（外部サイト）</a>' +
+    '<p class="pd-note">上の概要とポイントは、公表資料をもとに要点をまとめたものです。図表を含む原典（PDF等）は公式ページでご確認ください。</p>' +
+    '</div>';
+}
+let _pdEl = null, _pdTrigger = null, _pdKey = null;
+function pdEnsure(){
+  if (_pdEl) return _pdEl;
+  const bd = el('div', 'pd-backdrop');
+  bd.id = 'planDialog';
+  bd.innerHTML = '<div class="pd" role="dialog" aria-modal="true" aria-labelledby="pd-title" tabindex="-1"></div>';
+  document.body.appendChild(bd);
+  bd.addEventListener('click', e => { if (e.target === bd) closePlanDetail(); });
+  _pdEl = bd;
+  return bd;
+}
+function pdFocusables(root){
+  return $$('a[href],button:not([disabled]),[tabindex]:not([tabindex="-1"])', root);
+}
+function openPlanDetail(p, trigger){
+  const bd = pdEnsure(), pd = $('.pd', bd);
+  pd.innerHTML = planDetailHTML(p);
+  pd.style.setProperty('--c', (CATS[p.cat] || {}).color || 'var(--cat-sogo)');
+  pd.setAttribute('aria-labelledby', 'pd-title'); pd.removeAttribute('aria-label');
+  _pdTrigger = trigger || null;
+  bd.classList.add('is-open');
+  document.body.classList.add('pd-lock');
+  $('.pd-close', pd).addEventListener('click', closePlanDetail);
+  bd.scrollTop = 0;
+  pd.focus();
+  _pdKey = e => {
+    if (e.key === 'Escape'){ e.preventDefault(); closePlanDetail(); return; }
+    if (e.key === 'Tab'){
+      const f = pdFocusables(pd); if (!f.length){ e.preventDefault(); pd.focus(); return; }
+      const first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+    }
+  };
+  document.addEventListener('keydown', _pdKey);
+}
+function closePlanDetail(){
+  if (!_pdEl) return;
+  _pdEl.classList.remove('is-open');
+  document.body.classList.remove('pd-lock');
+  if (_pdKey) document.removeEventListener('keydown', _pdKey);
+  // 埋め込みがbody直下に生成したツールチップ要素を後片付け（DOMの累積を防ぐ）
+  document.querySelectorAll('.hpshi-tip').forEach(n => n.remove());
+  if (_pdTrigger && _pdTrigger.focus) _pdTrigger.focus();
+  _pdTrigger = null;
+}
+function planMatches(p, q){
+  return (state.cat === 'all' || p.cat === state.cat) &&
+    matchStatus(p, state.st) &&
+    (!q || (p.name + (p.lead || '') + (p.summary || '') + (p.points || []).join('') + (p.dept || '')).toLowerCase().includes(q));
+}
+function renderPlans(){
+  const wrap = $('#planGrid');
+  wrap.innerHTML = '';
+  const q = state.q.toLowerCase();
+  const grouped = state.cat === 'all' && state.st === 'all' && !q;
+  const note = $('#viewNote');
+
+  if (grouped){
+    // 既定：分野ごとの帯に分けて配置
+    let total = 0;
+    Object.keys(CATS).forEach(k => {
+      const items = PLANS.filter(p => p.cat === k).sort(sortPlans);
+      if (!items.length) return;
+      total += items.length;
+      const band = el('section', 'cat-band');
+      band.id = 'cat-' + k;
+      band.style.setProperty('--c', CATS[k].color);
+      band.appendChild(el('div', 'cat-band-head',
+        '<span class="cb-mark"></span><h3 class="cb-title">' + CATS[k].label + '</h3>' +
+        '<span class="cb-count">' + items.length + '件</span>' +
+        '<span class="cb-desc">' + esc(CAT_DESC[k] || '') + '</span>'));
+      const grid = el('div', 'plan-grid');
+      items.forEach(p => grid.appendChild(planCard(p, true)));
+      band.appendChild(grid);
+      wrap.appendChild(band);
+    });
+    $('#planCount').textContent = total;
+    if (note) note.textContent = '分野ごとに表示しています。検索や絞り込みで一覧表示に切り替わります。';
+    return;
+  }
+
+  // 絞り込み・検索時：フラットな一覧
+  const list = PLANS.filter(p => planMatches(p, q)).sort(sortPlans);
+  $('#planCount').textContent = list.length;
+  if (note) note.textContent = state.cat !== 'all' ? (CATS[state.cat].label + ' の計画を表示中') : '絞り込み結果を表示中';
+  const grid = el('div', 'plan-grid');
+  if (!list.length){
+    grid.appendChild(el('p', 'empty', '条件に合う計画が見つかりません。キーワードや絞り込みを変えてお試しください。'));
+  } else {
+    list.forEach(p => grid.appendChild(planCard(p, false)));
+  }
+  wrap.appendChild(grid);
+}
+
+/* 計画データの実行時チェック（スキーマの取りこぼしを可視化） */
+function auditPlans(){
+  const problems = [], seen = {};
+  PLANS.forEach((p, i) => {
+    const who = p.id || ('#' + i);
+    if (!p.id) problems.push(who + '：id なし');
+    else if (seen[p.id]) problems.push('id 重複：' + p.id); else seen[p.id] = 1;
+    if (!p.name) problems.push(who + '：name なし');
+    if (!CATS[p.cat]) problems.push(who + '：未定義カテゴリ ' + p.cat);
+    if (!p.lead) problems.push(who + '：lead なし');
+    if (!p.summary) problems.push(who + '：summary なし');
+    if (!Array.isArray(p.points) || !p.points.length) problems.push(who + '：points が空（「概要のみ」を避ける）');
+    if (!p.url) problems.push(who + '：url なし');
+    if (p.verified && !(p.start <= p.end)) problems.push(who + '：verified だが start/end が不正');
+  });
+  if (problems.length){
+    console.error('[計画データの整合性エラー]\n- ' + problems.join('\n- '));
+  }
+  return problems.length === 0;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  setToday();
+  auditPlans();
+  renderHero();
+  renderTimeline();
+  renderPlanFilters();
+  renderPlans();
+  const grid = $('#planGrid');
+  if (grid) grid.addEventListener('click', e => {
+    const b = e.target.closest('.p-more');
+    if (b){ const p = PLANS.find(x => x.id === b.dataset.id); if (p) openPlanDetail(p, b); }
+  });
+});
+
+</script>
+</body>
+</html>

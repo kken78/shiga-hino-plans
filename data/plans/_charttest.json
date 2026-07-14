@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "zcharttest",
+  "meta": {
+    "name": "チャート移植テスト用フィクスチャ",
+    "period": { "start": "R7", "end": "R11" },
+    "lead": "stacked_100 / pair_bars / rank_bars の描画確認専用。原典なし。",
+    "dept": "テスト",
+    "url": "https://example.com/"
+  },
+  "sources": [
+    { "id": "test", "label": "テストデータ(架空)" }
+  ],
+  "tabs": [
+    {
+      "id": "summary",
+      "label": "まとめ",
+      "blocks": [
+        { "type": "narrative", "text": "これは検証用フィクスチャです。3種のチャートkindを描画します。" }
+      ]
+    },
+    {
+      "id": "charts",
+      "label": "チャート",
+      "blocks": [
+        {
+          "type": "chart", "kind": "stacked_100", "source": "test",
+          "title": "stacked_100 テスト(18歳未満人口の構成比)", "unit": "%",
+          "keys": [ {"k": "就学前", "c": "accent"}, {"k": "小学生"},
+                    {"k": "中学生"}, {"k": "高校生"} ],
+          "years": [
+            { "label": "R2", "series": [994, 1119, 562, 597] },
+            { "label": "R6", "series": [838, 1067, 573, 544] }
+          ]
+        },
+        {
+          "type": "chart", "kind": "pair_bars", "source": "test",
+          "title": "pair_bars テスト(日野町 vs 県平均)", "unit": "%",
+          "keys": [ {"k": "日野町", "c": "accent"}, {"k": "県平均", "c": "accent2"} ],
+          "rows": [
+            { "label": "満足度", "a": 62.5, "b": 55.1 },
+            { "label": "関心度", "a": 48.0, "b": 51.3 },
+            { "label": "参加率", "a": 30.2 }
+          ]
+        },
+        {
+          "type": "chart", "kind": "rank_bars", "source": "test",
+          "title": "rank_bars テスト(住民一人あたり公共施設面積・降順)", "unit": "㎡/人",
+          "rows": [
+            ["甲賀市", 5.82, 1],
+            ["東近江市", 5.10, 0],
+            ["日野町", 4.40, "hino"],
+            ["竜王町", 4.05, 0],
+            ["県平均", 3.83, "avg"],
+            ["近江八幡市", 3.51, 1]
+          ]
+        }
+      ]
+    }
+  ]
+}

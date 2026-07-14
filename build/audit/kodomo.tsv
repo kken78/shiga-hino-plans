@@ -1,0 +1,887 @@
+tab	block	label	value	unit	source
+summary	2:kpi	総人口	20761	人	jyuki
+summary	2:kpi	18歳未満人口	3022	人	jyuki
+summary	2:kpi	保育所 待機児童	8	人	jyuki
+summary	2:kpi	児童虐待相談	234	件	jyuki
+genjo	1:chart.stacked	R2/就学前	994	人	jyuki
+genjo	1:chart.stacked	R2/小学生	1119	人	jyuki
+genjo	1:chart.stacked	R2/中学生	562	人	jyuki
+genjo	1:chart.stacked	R2/高校生	597	人	jyuki
+genjo	1:chart.stacked	R3/就学前	934	人	jyuki
+genjo	1:chart.stacked	R3/小学生	1137	人	jyuki
+genjo	1:chart.stacked	R3/中学生	535	人	jyuki
+genjo	1:chart.stacked	R3/高校生	588	人	jyuki
+genjo	1:chart.stacked	R4/就学前	900	人	jyuki
+genjo	1:chart.stacked	R4/小学生	1126	人	jyuki
+genjo	1:chart.stacked	R4/中学生	540	人	jyuki
+genjo	1:chart.stacked	R4/高校生	583	人	jyuki
+genjo	1:chart.stacked	R5/就学前	857	人	jyuki
+genjo	1:chart.stacked	R5/小学生	1070	人	jyuki
+genjo	1:chart.stacked	R5/中学生	582	人	jyuki
+genjo	1:chart.stacked	R5/高校生	566	人	jyuki
+genjo	1:chart.stacked	R6/就学前	838	人	jyuki
+genjo	1:chart.stacked	R6/小学生	1067	人	jyuki
+genjo	1:chart.stacked	R6/中学生	573	人	jyuki
+genjo	1:chart.stacked	R6/高校生	544	人	jyuki
+genjo	4:chart.line	令和2年(R2)/15	16.7	%	kokucho
+genjo	4:chart.line	令和2年(R2)/20	60.4	%	kokucho
+genjo	4:chart.line	令和2年(R2)/25	70.8	%	kokucho
+genjo	4:chart.line	令和2年(R2)/30	69.8	%	kokucho
+genjo	4:chart.line	令和2年(R2)/35	70.5	%	kokucho
+genjo	4:chart.line	令和2年(R2)/40	74.8	%	kokucho
+genjo	4:chart.line	令和2年(R2)/45	78.4	%	kokucho
+genjo	4:chart.line	令和2年(R2)/50	74.4	%	kokucho
+genjo	4:chart.line	令和2年(R2)/55	80.4	%	kokucho
+genjo	4:chart.line	令和2年(R2)/60	64.8	%	kokucho
+genjo	4:chart.line	令和2年(R2)/65	45.0	%	kokucho
+genjo	4:chart.line	令和2年(R2)/70	30.9	%	kokucho
+genjo	4:chart.line	令和2年(R2)/75	15.5	%	kokucho
+genjo	4:chart.line	令和2年(R2)/80	8.3	%	kokucho
+genjo	4:chart.line	令和2年(R2)/85+	2.8	%	kokucho
+genjo	4:chart.line	平成27年(H27)/15	15.6	%	kokucho
+genjo	4:chart.line	平成27年(H27)/20	69.8	%	kokucho
+genjo	4:chart.line	平成27年(H27)/25	73.4	%	kokucho
+genjo	4:chart.line	平成27年(H27)/30	67.6	%	kokucho
+genjo	4:chart.line	平成27年(H27)/35	72.9	%	kokucho
+genjo	4:chart.line	平成27年(H27)/40	76.5	%	kokucho
+genjo	4:chart.line	平成27年(H27)/45	78.5	%	kokucho
+genjo	4:chart.line	平成27年(H27)/50	83.4	%	kokucho
+genjo	4:chart.line	平成27年(H27)/55	73.4	%	kokucho
+genjo	4:chart.line	平成27年(H27)/60	59.1	%	kokucho
+genjo	4:chart.line	平成27年(H27)/65	37.9	%	kokucho
+genjo	4:chart.line	平成27年(H27)/70	22.0	%	kokucho
+genjo	4:chart.line	平成27年(H27)/75	9.3	%	kokucho
+genjo	4:chart.line	平成27年(H27)/80	5.1	%	kokucho
+genjo	4:chart.line	平成27年(H27)/85+	1.3	%	kokucho
+genjo	5:table	待機児童/R2	2		honpen
+genjo	5:table	待機児童/R3	3		honpen
+genjo	5:table	待機児童/R4	6		honpen
+genjo	5:table	待機児童/R5	4		honpen
+genjo	5:table	待機児童/R6	8		honpen
+needs	1:table	就学前児童アンケート/配布数(票)	400		honpen p.21
+needs	1:table	就学前児童アンケート/回収数(票)	203		honpen p.21
+needs	1:table	小学生アンケート/配布数(票)	400		honpen p.21
+needs	1:table	小学生アンケート/回収数(票)	182		honpen p.21
+needs	3:chart.pair	父母ともに/今回 n=203	56.7	%	honpen p.21
+needs	3:chart.pair	父母ともに/前回 n=197	48.7	%	honpen p.21
+needs	3:chart.pair	主に母親/今回 n=203	40.9	%	honpen p.21
+needs	3:chart.pair	主に母親/前回 n=197	48.2	%	honpen p.21
+needs	3:chart.pair	主に父親/今回 n=203	0.5	%	honpen p.21
+needs	3:chart.pair	主に父親/前回 n=197	0.5	%	honpen p.21
+needs	3:chart.pair	主に祖父母/今回 n=203	1.0	%	honpen p.21
+needs	3:chart.pair	主に祖父母/前回 n=197	1.0	%	honpen p.21
+needs	3:chart.pair	その他/今回 n=203	0.0	%	honpen p.21
+needs	3:chart.pair	その他/前回 n=197	0.0	%	honpen p.21
+needs	3:chart.pair	無回答/今回 n=203	1.0	%	honpen p.21
+needs	3:chart.pair	無回答/前回 n=197	1.5	%	honpen p.21
+needs	4:chart.pair	父母ともに/今回 n=182	53.3	%	honpen p.21
+needs	4:chart.pair	父母ともに/前回 n=178	53.9	%	honpen p.21
+needs	4:chart.pair	主に母親/今回 n=182	42.3	%	honpen p.21
+needs	4:chart.pair	主に母親/前回 n=178	40.4	%	honpen p.21
+needs	4:chart.pair	主に父親/今回 n=182	0.5	%	honpen p.21
+needs	4:chart.pair	主に父親/前回 n=178	1.1	%	honpen p.21
+needs	4:chart.pair	主に祖父母/今回 n=182	2.2	%	honpen p.21
+needs	4:chart.pair	主に祖父母/前回 n=178	0.6	%	honpen p.21
+needs	4:chart.pair	その他/今回 n=182	0.5	%	honpen p.21
+needs	4:chart.pair	その他/前回 n=178	1.1	%	honpen p.21
+needs	4:chart.pair	無回答/今回 n=182	1.1	%	honpen p.21
+needs	4:chart.pair	無回答/前回 n=178	2.8	%	honpen p.21
+needs	6:chart.stacked100	就学前/満足	19.2	%	honpen p.22
+needs	6:chart.stacked100	就学前/どちらかといえば満足	60.1	%	honpen p.22
+needs	6:chart.stacked100	就学前/どちらかといえば不満	14.3	%	honpen p.22
+needs	6:chart.stacked100	就学前/不満	2.5	%	honpen p.22
+needs	6:chart.stacked100	就学前/無回答	3.9	%	honpen p.22
+needs	6:chart.stacked100	小学生/満足	6.0	%	honpen p.22
+needs	6:chart.stacked100	小学生/どちらかといえば満足	61.5	%	honpen p.22
+needs	6:chart.stacked100	小学生/どちらかといえば不満	23.6	%	honpen p.22
+needs	6:chart.stacked100	小学生/不満	2.2	%	honpen p.22
+needs	6:chart.stacked100	小学生/無回答	6.6	%	honpen p.22
+needs	7:chart.stacked100	就学前/思う	14.3	%	honpen p.24
+needs	7:chart.stacked100	就学前/どちらかといえば思う	58.6	%	honpen p.24
+needs	7:chart.stacked100	就学前/どちらかといえば思わない	15.3	%	honpen p.24
+needs	7:chart.stacked100	就学前/思わない	9.4	%	honpen p.24
+needs	7:chart.stacked100	就学前/無回答	2.5	%	honpen p.24
+needs	7:chart.stacked100	小学生/思う	21.4	%	honpen p.24
+needs	7:chart.stacked100	小学生/どちらかといえば思う	51.1	%	honpen p.24
+needs	7:chart.stacked100	小学生/どちらかといえば思わない	14.8	%	honpen p.24
+needs	7:chart.stacked100	小学生/思わない	7.7	%	honpen p.24
+needs	7:chart.stacked100	小学生/無回答	4.9	%	honpen p.24
+needs	8:chart.stacked100	就学前/非常に感じている	10.8	%	honpen p.24
+needs	8:chart.stacked100	就学前/どちらかというと感じている	46.3	%	honpen p.24
+needs	8:chart.stacked100	就学前/どちらかというと感じない	32.5	%	honpen p.24
+needs	8:chart.stacked100	就学前/まったく感じない	7.9	%	honpen p.24
+needs	8:chart.stacked100	就学前/無回答	2.5	%	honpen p.24
+needs	8:chart.stacked100	小学生/非常に感じている	12.1	%	honpen p.24
+needs	8:chart.stacked100	小学生/どちらかというと感じている	46.2	%	honpen p.24
+needs	8:chart.stacked100	小学生/どちらかというと感じない	29.7	%	honpen p.24
+needs	8:chart.stacked100	小学生/まったく感じない	8.2	%	honpen p.24
+needs	8:chart.stacked100	小学生/無回答	3.8	%	honpen p.24
+needs	9:chart.pair	緊急時・用事時に祖父母等の親族/就学前 n=203	63.5	%	honpen p.27
+needs	9:chart.pair	緊急時・用事時に祖父母等の親族/小学生 n=182	51.6	%	honpen p.27
+needs	9:chart.pair	日常的に祖父母等の親族/就学前 n=203	26.1	%	honpen p.27
+needs	9:chart.pair	日常的に祖父母等の親族/小学生 n=182	28.0	%	honpen p.27
+needs	9:chart.pair	緊急時・用事時に友人・知人/就学前 n=203	4.9	%	honpen p.27
+needs	9:chart.pair	緊急時・用事時に友人・知人/小学生 n=182	9.3	%	honpen p.27
+needs	9:chart.pair	日常的に友人・知人/就学前 n=203	0.5	%	honpen p.27
+needs	9:chart.pair	日常的に友人・知人/小学生 n=182	0.5	%	honpen p.27
+needs	9:chart.pair	預かってもらえる人はいない/就学前 n=203	11.8	%	honpen p.27
+needs	9:chart.pair	預かってもらえる人はいない/小学生 n=182	17.6	%	honpen p.27
+needs	9:chart.pair	無回答/就学前 n=203	1.5	%	honpen p.27
+needs	9:chart.pair	無回答/小学生 n=182	1.6	%	honpen p.27
+needs	11:chart.stacked100	母親/取得した(取得中である)	57.1	%	honpen p.25
+needs	11:chart.stacked100	母親/取得していない	9.9	%	honpen p.25
+needs	11:chart.stacked100	母親/働いていなかった	29.1	%	honpen p.25
+needs	11:chart.stacked100	母親/無回答	3.9	%	honpen p.25
+needs	11:chart.stacked100	父親/取得した(取得中である)	8.9	%	honpen p.25
+needs	11:chart.stacked100	父親/取得していない	79.8	%	honpen p.25
+needs	11:chart.stacked100	父親/働いていなかった	2.0	%	honpen p.25
+needs	11:chart.stacked100	父親/無回答	9.4	%	honpen p.25
+needs	13:table	1位/就学前(%)	74.4		honpen p.24
+needs	13:table	1位/小学生(%)	57.1		honpen p.24
+needs	13:table	2位/就学前(%)	55.7		honpen p.24
+needs	13:table	2位/小学生(%)	41.2		honpen p.24
+needs	13:table	3位/就学前(%)	52.7		honpen p.24
+needs	13:table	3位/小学生(%)	32.4		honpen p.24
+needs	15:chart.pair	言葉の意味を知っている/就学前 n=203	70.4	%	honpen p.23
+needs	15:chart.pair	言葉の意味を知っている/小学生 n=182	73.6	%	honpen p.23
+needs	15:chart.pair	聞いたことはあるが意味は知らない/就学前 n=203	8.9	%	honpen p.23
+needs	15:chart.pair	聞いたことはあるが意味は知らない/小学生 n=182	7.7	%	honpen p.23
+needs	15:chart.pair	聞いたこともない/就学前 n=203	18.7	%	honpen p.23
+needs	15:chart.pair	聞いたこともない/小学生 n=182	15.4	%	honpen p.23
+needs	15:chart.pair	無回答/就学前 n=203	2.0	%	honpen p.23
+needs	15:chart.pair	無回答/小学生 n=182	3.3	%	honpen p.23
+needs	16:table	必要な食料が買えなかった/就学前 何度か	8.9		honpen p.28
+needs	16:table	必要な食料が買えなかった/就学前 頻繁	0.5		honpen p.28
+needs	16:table	必要な食料が買えなかった/小学生 何度か	10.4		honpen p.28
+needs	16:table	必要な食料が買えなかった/小学生 頻繁	2.7		honpen p.28
+needs	16:table	必要な衣料が買えなかった/就学前 何度か	10.8		honpen p.28
+needs	16:table	必要な衣料が買えなかった/就学前 頻繁	0.5		honpen p.28
+needs	16:table	必要な衣料が買えなかった/小学生 何度か	16.5		honpen p.28
+needs	16:table	必要な衣料が買えなかった/小学生 頻繁	2.7		honpen p.28
+needs	16:table	電気・ガス・水道料金の滞納/就学前 何度か	5.4		honpen p.28
+needs	16:table	電気・ガス・水道料金の滞納/就学前 頻繁	1.0		honpen p.28
+needs	16:table	電気・ガス・水道料金の滞納/小学生 何度か	7.1		honpen p.28
+needs	16:table	電気・ガス・水道料金の滞納/小学生 頻繁	2.2		honpen p.28
+needs	16:table	電話料金の滞納/就学前 何度か	4.9		honpen p.28
+needs	16:table	電話料金の滞納/就学前 頻繁	0.5		honpen p.28
+needs	16:table	電話料金の滞納/小学生 何度か	4.9		honpen p.28
+needs	16:table	電話料金の滞納/小学生 頻繁	1.6		honpen p.28
+needs	16:table	家賃・住宅ローンの滞納/就学前 何度か	5.9		honpen p.28
+needs	16:table	家賃・住宅ローンの滞納/就学前 頻繁	0.5		honpen p.28
+needs	16:table	家賃・住宅ローンの滞納/小学生 何度か	4.9		honpen p.28
+needs	16:table	家賃・住宅ローンの滞納/小学生 頻繁	1.6		honpen p.28
+hyoka	1:bigstat	計画全体の平均値	8.72	点	honpen p.30
+hyoka	2:table	Ⅰ ゆとりをもって子育てができるまち/平均値(点)	8.8		honpen p.30
+hyoka	2:table	Ⅱ 子どもが明るく元気に育つまち/平均値(点)	7.4		honpen p.30
+hyoka	2:table	Ⅲ 安心して子どもを生み育てることができるまち/平均値(点)	9.43		honpen p.30
+hyoka	4:chart.rank	第4節 妊娠・出産・子育ての切れ目ない支援	9.75	点	honpen p.30
+hyoka	4:chart.rank	第5節 子どもの未来を応援する仕組みづくり	9.17	点	honpen p.30
+hyoka	4:chart.rank	第1節 すべての子育て家庭への支援	9.12	点	honpen p.30
+hyoka	4:chart.rank	第2節 子どもの人権を尊重する環境づくり	8.13	点	honpen p.30
+hyoka	4:chart.rank	第3節 地域の子育て支援の強化	7.4	点	honpen p.30
+hyoka	4:chart.rank	平均値	8.72	点	honpen p.30
+hyoka	6:chart.rank	1-2 家庭の教育力の向上	10.0	点	honpen p.31
+hyoka	6:chart.rank	1-3 障がいのある子どもへの支援	10.0	点	honpen p.31
+hyoka	6:chart.rank	4-1 母子保健サービスの充実	10.0	点	honpen p.31
+hyoka	6:chart.rank	4-2 小児医療等の充実	10.0	点	honpen p.31
+hyoka	6:chart.rank	4-4 放課後等の児童の健全育成の推進	10.0	点	honpen p.31
+hyoka	6:chart.rank	5-4 子育て家庭への経済的支援	10.0	点	honpen p.31
+hyoka	6:chart.rank	5-1 豊かな心と健やかな体を育む学校教育の推進	9.23	点	honpen p.31
+hyoka	6:chart.rank	5-2 仕事と生活の調和ワーク・ライフ・バランスの実現	9.17	点	honpen p.31
+hyoka	6:chart.rank	2-2 子どもの虐待防止対策の推進	8.75	点	honpen p.31
+hyoka	6:chart.rank	4-3 多様な保育サービスの充実	8.75	点	honpen p.31
+hyoka	6:chart.rank	3-3 子育てに関する意識の啓発	8.33	点	honpen p.31
+hyoka	6:chart.rank	3-1 地域における子育て支援のネットワークづくり	8.0	点	honpen p.31
+hyoka	6:chart.rank	2-1 子どもの人権の尊重と権利擁護	7.5	点	honpen p.31
+hyoka	6:chart.rank	5-3 ひとり親家庭への支援	7.5	点	honpen p.31
+hyoka	6:chart.rank	1-1 家庭における子育てへの支援	7.0	点	honpen p.31
+hyoka	6:chart.rank	3-2 地域における子どもの居場所づくり	6.88	点	honpen p.31
+hyoka	6:chart.rank	3-4 安全で快適な子育て環境の整備	6.67	点	honpen p.31
+hyoka	6:chart.rank	平均値	8.72	点	honpen p.31
+shisaku	4:programs	事業数	100	件	honpen p.36-57
+ryo	5:chart.stacked	R5/就学前(0〜5歳)	857	人	honpen p.64
+ryo	5:chart.stacked	R5/小学生(6〜11歳)	1070	人	honpen p.64
+ryo	5:chart.stacked	R5/中学生(12〜14歳)	582	人	honpen p.64
+ryo	5:chart.stacked	R5/高校生(15〜17歳)	566	人	honpen p.64
+ryo	5:chart.stacked	R6/就学前(0〜5歳)	838	人	honpen p.64
+ryo	5:chart.stacked	R6/小学生(6〜11歳)	1067	人	honpen p.64
+ryo	5:chart.stacked	R6/中学生(12〜14歳)	573	人	honpen p.64
+ryo	5:chart.stacked	R6/高校生(15〜17歳)	544	人	honpen p.64
+ryo	5:chart.stacked	R7/就学前(0〜5歳)	803	人	honpen p.64
+ryo	5:chart.stacked	R7/小学生(6〜11歳)	1048	人	honpen p.64
+ryo	5:chart.stacked	R7/中学生(12〜14歳)	573	人	honpen p.64
+ryo	5:chart.stacked	R7/高校生(15〜17歳)	549	人	honpen p.64
+ryo	5:chart.stacked	R8/就学前(0〜5歳)	792	人	honpen p.64
+ryo	5:chart.stacked	R8/小学生(6〜11歳)	1018	人	honpen p.64
+ryo	5:chart.stacked	R8/中学生(12〜14歳)	537	人	honpen p.64
+ryo	5:chart.stacked	R8/高校生(15〜17歳)	592	人	honpen p.64
+ryo	5:chart.stacked	R9/就学前(0〜5歳)	775	人	honpen p.64
+ryo	5:chart.stacked	R9/小学生(6〜11歳)	975	人	honpen p.64
+ryo	5:chart.stacked	R9/中学生(12〜14歳)	567	人	honpen p.64
+ryo	5:chart.stacked	R9/高校生(15〜17歳)	581	人	honpen p.64
+ryo	5:chart.stacked	R10/就学前(0〜5歳)	758	人	honpen p.64
+ryo	5:chart.stacked	R10/小学生(6〜11歳)	941	人	honpen p.64
+ryo	5:chart.stacked	R10/中学生(12〜14歳)	556	人	honpen p.64
+ryo	5:chart.stacked	R10/高校生(15〜17歳)	581	人	honpen p.64
+ryo	5:chart.stacked	R11/就学前(0〜5歳)	769	人	honpen p.64
+ryo	5:chart.stacked	R11/小学生(6〜11歳)	901	人	honpen p.64
+ryo	5:chart.stacked	R11/中学生(12〜14歳)	538	人	honpen p.64
+ryo	5:chart.stacked	R11/高校生(15〜17歳)	545	人	honpen p.64
+ryo	6:kpi	18歳未満人口	2753	人	honpen p.64
+ryo	6:kpi	就学前(0〜5歳)	769	人	honpen p.64
+ryo	6:kpi	小学生(6〜11歳)	901	人	honpen p.64
+ryo	6:kpi	18歳未満の対人口比	13.7	%	honpen p.64
+ryo	7:table	18歳未満人口(人)/R5	3075		honpen p.64
+ryo	7:table	18歳未満人口(人)/R6	3022		honpen p.64
+ryo	7:table	18歳未満人口(人)/R7	2973		honpen p.64
+ryo	7:table	18歳未満人口(人)/R8	2939		honpen p.64
+ryo	7:table	18歳未満人口(人)/R9	2898		honpen p.64
+ryo	7:table	18歳未満人口(人)/R10	2836		honpen p.64
+ryo	7:table	18歳未満人口(人)/R11	2753		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R5	857		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R6	838		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R7	803		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R8	792		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R9	775		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R10	758		honpen p.64
+ryo	7:table	就学前(0〜5歳)(人)/R11	769		honpen p.64
+ryo	7:table	　うち0〜2歳/R5	384		honpen p.64
+ryo	7:table	　うち0〜2歳/R6	372		honpen p.64
+ryo	7:table	　うち0〜2歳/R7	362		honpen p.64
+ryo	7:table	　うち0〜2歳/R8	380		honpen p.64
+ryo	7:table	　うち0〜2歳/R9	376		honpen p.64
+ryo	7:table	　うち0〜2歳/R10	368		honpen p.64
+ryo	7:table	　うち0〜2歳/R11	361		honpen p.64
+ryo	7:table	　うち3〜5歳/R5	473		honpen p.64
+ryo	7:table	　うち3〜5歳/R6	466		honpen p.64
+ryo	7:table	　うち3〜5歳/R7	441		honpen p.64
+ryo	7:table	　うち3〜5歳/R8	412		honpen p.64
+ryo	7:table	　うち3〜5歳/R9	399		honpen p.64
+ryo	7:table	　うち3〜5歳/R10	390		honpen p.64
+ryo	7:table	　うち3〜5歳/R11	408		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R5	1070		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R6	1067		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R7	1048		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R8	1018		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R9	975		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R10	941		honpen p.64
+ryo	7:table	小学生(6〜11歳)(人)/R11	901		honpen p.64
+ryo	7:table	　うち6〜8歳/R5	533		honpen p.64
+ryo	7:table	　うち6〜8歳/R6	498		honpen p.64
+ryo	7:table	　うち6〜8歳/R7	489		honpen p.64
+ryo	7:table	　うち6〜8歳/R8	478		honpen p.64
+ryo	7:table	　うち6〜8歳/R9	474		honpen p.64
+ryo	7:table	　うち6〜8歳/R10	448		honpen p.64
+ryo	7:table	　うち6〜8歳/R11	420		honpen p.64
+ryo	7:table	　うち9〜11歳/R5	537		honpen p.64
+ryo	7:table	　うち9〜11歳/R6	569		honpen p.64
+ryo	7:table	　うち9〜11歳/R7	559		honpen p.64
+ryo	7:table	　うち9〜11歳/R8	540		honpen p.64
+ryo	7:table	　うち9〜11歳/R9	501		honpen p.64
+ryo	7:table	　うち9〜11歳/R10	493		honpen p.64
+ryo	7:table	　うち9〜11歳/R11	481		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R5	582		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R6	573		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R7	573		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R8	537		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R9	567		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R10	556		honpen p.64
+ryo	7:table	中学生(12〜14歳)(人)/R11	538		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R5	566		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R6	544		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R7	549		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R8	592		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R9	581		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R10	581		honpen p.64
+ryo	7:table	高校生(15〜17歳)(人)/R11	545		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R5	14.7		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R6	14.6		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R7	14.4		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R8	14.3		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R9	14.2		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R10	14.0		honpen p.64
+ryo	7:table	18歳未満の対人口比(%)/R11	13.7		honpen p.64
+ryo	10:table	①1号認定(3〜5歳・教育)/R7	0		honpen p.66-67
+ryo	10:table	①1号認定(3〜5歳・教育)/R8	0		honpen p.66-67
+ryo	10:table	①1号認定(3〜5歳・教育)/R9	0		honpen p.66-67
+ryo	10:table	①1号認定(3〜5歳・教育)/R10	0		honpen p.66-67
+ryo	10:table	①1号認定(3〜5歳・教育)/R11	0		honpen p.66-67
+ryo	10:table	②2号認定(3〜5歳・保育)/R7	-5		honpen p.66-67
+ryo	10:table	②2号認定(3〜5歳・保育)/R8	-4		honpen p.66-67
+ryo	10:table	②2号認定(3〜5歳・保育)/R9	-4		honpen p.66-67
+ryo	10:table	②2号認定(3〜5歳・保育)/R10	0		honpen p.66-67
+ryo	10:table	②2号認定(3〜5歳・保育)/R11	0		honpen p.66-67
+ryo	10:table	③3号認定(0歳・保育)/R7	-6		honpen p.66-67
+ryo	10:table	③3号認定(0歳・保育)/R8	-5		honpen p.66-67
+ryo	10:table	③3号認定(0歳・保育)/R9	-5		honpen p.66-67
+ryo	10:table	③3号認定(0歳・保育)/R10	0		honpen p.66-67
+ryo	10:table	③3号認定(0歳・保育)/R11	0		honpen p.66-67
+ryo	10:table	④3号認定(1歳・保育)/R7	-6		honpen p.66-67
+ryo	10:table	④3号認定(1歳・保育)/R8	-2		honpen p.66-67
+ryo	10:table	④3号認定(1歳・保育)/R9	-3		honpen p.66-67
+ryo	10:table	④3号認定(1歳・保育)/R10	0		honpen p.66-67
+ryo	10:table	④3号認定(1歳・保育)/R11	0		honpen p.66-67
+ryo	10:table	⑤3号認定(2歳・保育)/R7	-3		honpen p.66-67
+ryo	10:table	⑤3号認定(2歳・保育)/R8	-4		honpen p.66-67
+ryo	10:table	⑤3号認定(2歳・保育)/R9	-6		honpen p.66-67
+ryo	10:table	⑤3号認定(2歳・保育)/R10	0		honpen p.66-67
+ryo	10:table	⑤3号認定(2歳・保育)/R11	0		honpen p.66-67
+ryo	11:table	①量の見込み/R7	141		honpen p.66
+ryo	11:table	①量の見込み/R8	129		honpen p.66
+ryo	11:table	①量の見込み/R9	120		honpen p.66
+ryo	11:table	①量の見込み/R10	53		honpen p.66
+ryo	11:table	①量の見込み/R11	50		honpen p.66
+ryo	11:table	　1号認定/R7	82		honpen p.66
+ryo	11:table	　1号認定/R8	69		honpen p.66
+ryo	11:table	　1号認定/R9	60		honpen p.66
+ryo	11:table	　1号認定/R10	53		honpen p.66
+ryo	11:table	　1号認定/R11	50		honpen p.66
+ryo	11:table	　2号認定(幼稚園等希望)/R7	59		honpen p.66
+ryo	11:table	　2号認定(幼稚園等希望)/R8	60		honpen p.66
+ryo	11:table	　2号認定(幼稚園等希望)/R9	60		honpen p.66
+ryo	11:table	　2号認定(幼稚園等希望)/R10	0		honpen p.66
+ryo	11:table	　2号認定(幼稚園等希望)/R11	0		honpen p.66
+ryo	11:table	②確保方策/R7	141		honpen p.66
+ryo	11:table	②確保方策/R8	129		honpen p.66
+ryo	11:table	②確保方策/R9	120		honpen p.66
+ryo	11:table	②確保方策/R10	53		honpen p.66
+ryo	11:table	②確保方策/R11	50		honpen p.66
+ryo	11:table	　特定教育・保育施設(幼稚園、認定こども園)/R7	82		honpen p.66
+ryo	11:table	　特定教育・保育施設(幼稚園、認定こども園)/R8	69		honpen p.66
+ryo	11:table	　特定教育・保育施設(幼稚園、認定こども園)/R9	60		honpen p.66
+ryo	11:table	　特定教育・保育施設(幼稚園、認定こども園)/R10	53		honpen p.66
+ryo	11:table	　特定教育・保育施設(幼稚園、認定こども園)/R11	50		honpen p.66
+ryo	11:table	　確認を受けない幼稚園/R7	0		honpen p.66
+ryo	11:table	　確認を受けない幼稚園/R8	0		honpen p.66
+ryo	11:table	　確認を受けない幼稚園/R9	0		honpen p.66
+ryo	11:table	　確認を受けない幼稚園/R10	0		honpen p.66
+ryo	11:table	　確認を受けない幼稚園/R11	0		honpen p.66
+ryo	11:table	　上記以外(幼稚園の預かり保育長時間・通年)/R7	59		honpen p.66
+ryo	11:table	　上記以外(幼稚園の預かり保育長時間・通年)/R8	60		honpen p.66
+ryo	11:table	　上記以外(幼稚園の預かり保育長時間・通年)/R9	60		honpen p.66
+ryo	11:table	　上記以外(幼稚園の預かり保育長時間・通年)/R10	0		honpen p.66
+ryo	11:table	　上記以外(幼稚園の預かり保育長時間・通年)/R11	0		honpen p.66
+ryo	11:table	不足分(②−①)/R7	0		honpen p.66
+ryo	11:table	不足分(②−①)/R8	0		honpen p.66
+ryo	11:table	不足分(②−①)/R9	0		honpen p.66
+ryo	11:table	不足分(②−①)/R10	0		honpen p.66
+ryo	11:table	不足分(②−①)/R11	0		honpen p.66
+ryo	12:table	①量の見込み/R7	271		honpen p.66
+ryo	12:table	①量の見込み/R8	270		honpen p.66
+ryo	12:table	①量の見込み/R9	270		honpen p.66
+ryo	12:table	①量の見込み/R10	337		honpen p.66
+ryo	12:table	①量の見込み/R11	358		honpen p.66
+ryo	12:table	②確保方策(保育所、認定こども園)/R7	266		honpen p.66
+ryo	12:table	②確保方策(保育所、認定こども園)/R8	266		honpen p.66
+ryo	12:table	②確保方策(保育所、認定こども園)/R9	266		honpen p.66
+ryo	12:table	②確保方策(保育所、認定こども園)/R10	337		honpen p.66
+ryo	12:table	②確保方策(保育所、認定こども園)/R11	358		honpen p.66
+ryo	12:table	不足分(②−①)/R7	-5		honpen p.66
+ryo	12:table	不足分(②−①)/R8	-4		honpen p.66
+ryo	12:table	不足分(②−①)/R9	-4		honpen p.66
+ryo	12:table	不足分(②−①)/R10	0		honpen p.66
+ryo	12:table	不足分(②−①)/R11	0		honpen p.66
+ryo	13:table	①量の見込み/R7	44		honpen p.66
+ryo	13:table	①量の見込み/R8	43		honpen p.66
+ryo	13:table	①量の見込み/R9	43		honpen p.66
+ryo	13:table	①量の見込み/R10	44		honpen p.66
+ryo	13:table	①量の見込み/R11	46		honpen p.66
+ryo	13:table	②確保方策/R7	38		honpen p.66
+ryo	13:table	②確保方策/R8	38		honpen p.66
+ryo	13:table	②確保方策/R9	38		honpen p.66
+ryo	13:table	②確保方策/R10	44		honpen p.66
+ryo	13:table	②確保方策/R11	46		honpen p.66
+ryo	13:table	　特定教育・保育施設(保育園、認定こども園)/R7	34		honpen p.66
+ryo	13:table	　特定教育・保育施設(保育園、認定こども園)/R8	34		honpen p.66
+ryo	13:table	　特定教育・保育施設(保育園、認定こども園)/R9	34		honpen p.66
+ryo	13:table	　特定教育・保育施設(保育園、認定こども園)/R10	37		honpen p.66
+ryo	13:table	　特定教育・保育施設(保育園、認定こども園)/R11	38		honpen p.66
+ryo	13:table	　地域型保育(小規模保育)/R7	4		honpen p.66
+ryo	13:table	　地域型保育(小規模保育)/R8	4		honpen p.66
+ryo	13:table	　地域型保育(小規模保育)/R9	4		honpen p.66
+ryo	13:table	　地域型保育(小規模保育)/R10	7		honpen p.66
+ryo	13:table	　地域型保育(小規模保育)/R11	8		honpen p.66
+ryo	13:table	不足分(②−①)/R7	-6		honpen p.66
+ryo	13:table	不足分(②−①)/R8	-5		honpen p.66
+ryo	13:table	不足分(②−①)/R9	-5		honpen p.66
+ryo	13:table	不足分(②−①)/R10	0		honpen p.66
+ryo	13:table	不足分(②−①)/R11	0		honpen p.66
+ryo	14:table	①量の見込み/R7	77		honpen p.67
+ryo	14:table	①量の見込み/R8	74		honpen p.67
+ryo	14:table	①量の見込み/R9	75		honpen p.67
+ryo	14:table	①量の見込み/R10	76		honpen p.67
+ryo	14:table	①量の見込み/R11	78		honpen p.67
+ryo	14:table	②確保方策/R7	71		honpen p.67
+ryo	14:table	②確保方策/R8	72		honpen p.67
+ryo	14:table	②確保方策/R9	72		honpen p.67
+ryo	14:table	②確保方策/R10	76		honpen p.67
+ryo	14:table	②確保方策/R11	78		honpen p.67
+ryo	14:table	　特定教育・保育施設(保育園、認定こども園)/R7	65		honpen p.67
+ryo	14:table	　特定教育・保育施設(保育園、認定こども園)/R8	66		honpen p.67
+ryo	14:table	　特定教育・保育施設(保育園、認定こども園)/R9	66		honpen p.67
+ryo	14:table	　特定教育・保育施設(保育園、認定こども園)/R10	64		honpen p.67
+ryo	14:table	　特定教育・保育施設(保育園、認定こども園)/R11	66		honpen p.67
+ryo	14:table	　地域型保育(小規模保育)/R7	6		honpen p.67
+ryo	14:table	　地域型保育(小規模保育)/R8	6		honpen p.67
+ryo	14:table	　地域型保育(小規模保育)/R9	6		honpen p.67
+ryo	14:table	　地域型保育(小規模保育)/R10	12		honpen p.67
+ryo	14:table	　地域型保育(小規模保育)/R11	12		honpen p.67
+ryo	14:table	　企業主導型保育施設の地域枠/R7	0		honpen p.67
+ryo	14:table	　企業主導型保育施設の地域枠/R8	0		honpen p.67
+ryo	14:table	　企業主導型保育施設の地域枠/R9	0		honpen p.67
+ryo	14:table	　企業主導型保育施設の地域枠/R10	0		honpen p.67
+ryo	14:table	　企業主導型保育施設の地域枠/R11	0		honpen p.67
+ryo	14:table	不足分(②−①)/R7	-6		honpen p.67
+ryo	14:table	不足分(②−①)/R8	-2		honpen p.67
+ryo	14:table	不足分(②−①)/R9	-3		honpen p.67
+ryo	14:table	不足分(②−①)/R10	0		honpen p.67
+ryo	14:table	不足分(②−①)/R11	0		honpen p.67
+ryo	15:table	①量の見込み/R7	79		honpen p.67
+ryo	15:table	①量の見込み/R8	89		honpen p.67
+ryo	15:table	①量の見込み/R9	91		honpen p.67
+ryo	15:table	①量の見込み/R10	93		honpen p.67
+ryo	15:table	①量の見込み/R11	94		honpen p.67
+ryo	15:table	②確保方策/R7	76		honpen p.67
+ryo	15:table	②確保方策/R8	85		honpen p.67
+ryo	15:table	②確保方策/R9	85		honpen p.67
+ryo	15:table	②確保方策/R10	93		honpen p.67
+ryo	15:table	②確保方策/R11	94		honpen p.67
+ryo	15:table	　特定教育・保育施設(保育園、認定こども園)/R7	67		honpen p.67
+ryo	15:table	　特定教育・保育施設(保育園、認定こども園)/R8	76		honpen p.67
+ryo	15:table	　特定教育・保育施設(保育園、認定こども園)/R9	76		honpen p.67
+ryo	15:table	　特定教育・保育施設(保育園、認定こども園)/R10	75		honpen p.67
+ryo	15:table	　特定教育・保育施設(保育園、認定こども園)/R11	76		honpen p.67
+ryo	15:table	　地域型保育(小規模保育)/R7	9		honpen p.67
+ryo	15:table	　地域型保育(小規模保育)/R8	9		honpen p.67
+ryo	15:table	　地域型保育(小規模保育)/R9	9		honpen p.67
+ryo	15:table	　地域型保育(小規模保育)/R10	18		honpen p.67
+ryo	15:table	　地域型保育(小規模保育)/R11	18		honpen p.67
+ryo	15:table	　企業主導型保育施設の地域枠/R7	0		honpen p.67
+ryo	15:table	　企業主導型保育施設の地域枠/R8	0		honpen p.67
+ryo	15:table	　企業主導型保育施設の地域枠/R9	0		honpen p.67
+ryo	15:table	　企業主導型保育施設の地域枠/R10	0		honpen p.67
+ryo	15:table	　企業主導型保育施設の地域枠/R11	0		honpen p.67
+ryo	15:table	不足分(②−①)/R7	-3		honpen p.67
+ryo	15:table	不足分(②−①)/R8	-4		honpen p.67
+ryo	15:table	不足分(②−①)/R9	-6		honpen p.67
+ryo	15:table	不足分(②−①)/R10	0		honpen p.67
+ryo	15:table	不足分(②−①)/R11	0		honpen p.67
+ryo	17:timeline	鎌掛分園 → 小規模保育施設化	R7		honpen p.65
+ryo	17:timeline	西大路幼稚園→子育て支援施設(民営化準備)／こばと園→幼保連携型認定こども園化準備／南比幼稚園→小規模保育施設(民営化準備)／あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎→新こども園に集約化	R9		honpen p.65
+ryo	17:timeline	(新設)幼保連携型認定こども園(2,800㎡予定)を開設／西大路→子育て支援施設・学童施設／こばと園・桜谷こども園第2園舎→幼保連携型認定こども園／南比→小規模保育施設	R10		honpen p.65
+ryo	17:timeline	あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎を解体	R11以降		honpen p.65
+ryo	20:table	①量の見込み(基本型)/R7	2		honpen p.68
+ryo	20:table	①量の見込み(基本型)/R8	2		honpen p.68
+ryo	20:table	①量の見込み(基本型)/R9	2		honpen p.68
+ryo	20:table	①量の見込み(基本型)/R10	2		honpen p.68
+ryo	20:table	①量の見込み(基本型)/R11	2		honpen p.68
+ryo	20:table	①量の見込み(特定型)/R7	1		honpen p.68
+ryo	20:table	①量の見込み(特定型)/R8	1		honpen p.68
+ryo	20:table	①量の見込み(特定型)/R9	1		honpen p.68
+ryo	20:table	①量の見込み(特定型)/R10	1		honpen p.68
+ryo	20:table	①量の見込み(特定型)/R11	1		honpen p.68
+ryo	20:table	①量の見込み(こども家庭センター型)/R7	1		honpen p.68
+ryo	20:table	①量の見込み(こども家庭センター型)/R8	1		honpen p.68
+ryo	20:table	①量の見込み(こども家庭センター型)/R9	1		honpen p.68
+ryo	20:table	①量の見込み(こども家庭センター型)/R10	1		honpen p.68
+ryo	20:table	①量の見込み(こども家庭センター型)/R11	1		honpen p.68
+ryo	20:table	②確保方策(基本型)/R7	2		honpen p.68
+ryo	20:table	②確保方策(基本型)/R8	2		honpen p.68
+ryo	20:table	②確保方策(基本型)/R9	2		honpen p.68
+ryo	20:table	②確保方策(基本型)/R10	2		honpen p.68
+ryo	20:table	②確保方策(基本型)/R11	2		honpen p.68
+ryo	20:table	②確保方策(特定型)/R7	1		honpen p.68
+ryo	20:table	②確保方策(特定型)/R8	1		honpen p.68
+ryo	20:table	②確保方策(特定型)/R9	1		honpen p.68
+ryo	20:table	②確保方策(特定型)/R10	1		honpen p.68
+ryo	20:table	②確保方策(特定型)/R11	1		honpen p.68
+ryo	20:table	②確保方策(こども家庭センター型)/R7	1		honpen p.68
+ryo	20:table	②確保方策(こども家庭センター型)/R8	1		honpen p.68
+ryo	20:table	②確保方策(こども家庭センター型)/R9	1		honpen p.68
+ryo	20:table	②確保方策(こども家庭センター型)/R10	1		honpen p.68
+ryo	20:table	②確保方策(こども家庭センター型)/R11	1		honpen p.68
+ryo	21:table	①量の見込み(利用実人数)/R7	101		honpen p.68
+ryo	21:table	①量の見込み(利用実人数)/R8	103		honpen p.68
+ryo	21:table	①量の見込み(利用実人数)/R9	105		honpen p.68
+ryo	21:table	①量の見込み(利用実人数)/R10	106		honpen p.68
+ryo	21:table	①量の見込み(利用実人数)/R11	112		honpen p.68
+ryo	21:table	②確保方策(利用実人数)/R7	101		honpen p.68
+ryo	21:table	②確保方策(利用実人数)/R8	103		honpen p.68
+ryo	21:table	②確保方策(利用実人数)/R9	105		honpen p.68
+ryo	21:table	②確保方策(利用実人数)/R10	106		honpen p.68
+ryo	21:table	②確保方策(利用実人数)/R11	112		honpen p.68
+ryo	21:table	②確保方策(施設数)/R7	6		honpen p.68
+ryo	21:table	②確保方策(施設数)/R8	6		honpen p.68
+ryo	21:table	②確保方策(施設数)/R9	6		honpen p.68
+ryo	21:table	②確保方策(施設数)/R10	6		honpen p.68
+ryo	21:table	②確保方策(施設数)/R11	6		honpen p.68
+ryo	21:table	不足分(②−①)/R7	0		honpen p.68
+ryo	21:table	不足分(②−①)/R8	0		honpen p.68
+ryo	21:table	不足分(②−①)/R9	0		honpen p.68
+ryo	21:table	不足分(②−①)/R10	0		honpen p.68
+ryo	21:table	不足分(②−①)/R11	0		honpen p.68
+ryo	22:table	①量の見込み(利用人数)/R7	542		honpen p.69
+ryo	22:table	①量の見込み(利用人数)/R8	544		honpen p.69
+ryo	22:table	①量の見込み(利用人数)/R9	558		honpen p.69
+ryo	22:table	①量の見込み(利用人数)/R10	564		honpen p.69
+ryo	22:table	①量の見込み(利用人数)/R11	562		honpen p.69
+ryo	22:table	①量の見込み(小学1年生)/R7	106		honpen p.69
+ryo	22:table	①量の見込み(小学1年生)/R8	91		honpen p.69
+ryo	22:table	①量の見込み(小学1年生)/R9	99		honpen p.69
+ryo	22:table	①量の見込み(小学1年生)/R10	101		honpen p.69
+ryo	22:table	①量の見込み(小学1年生)/R11	85		honpen p.69
+ryo	22:table	①量の見込み(小学2年生)/R7	93		honpen p.69
+ryo	22:table	①量の見込み(小学2年生)/R8	106		honpen p.69
+ryo	22:table	①量の見込み(小学2年生)/R9	96		honpen p.69
+ryo	22:table	①量の見込み(小学2年生)/R10	102		honpen p.69
+ryo	22:table	①量の見込み(小学2年生)/R11	105		honpen p.69
+ryo	22:table	①量の見込み(小学3年生)/R7	90		honpen p.69
+ryo	22:table	①量の見込み(小学3年生)/R8	90		honpen p.69
+ryo	22:table	①量の見込み(小学3年生)/R9	107		honpen p.69
+ryo	22:table	①量の見込み(小学3年生)/R10	94		honpen p.69
+ryo	22:table	①量の見込み(小学3年生)/R11	100		honpen p.69
+ryo	22:table	①量の見込み(小学4年生)/R7	95		honpen p.69
+ryo	22:table	①量の見込み(小学4年生)/R8	84		honpen p.69
+ryo	22:table	①量の見込み(小学4年生)/R9	86		honpen p.69
+ryo	22:table	①量の見込み(小学4年生)/R10	102		honpen p.69
+ryo	22:table	①量の見込み(小学4年生)/R11	89		honpen p.69
+ryo	22:table	①量の見込み(小学5年生)/R7	84		honpen p.69
+ryo	22:table	①量の見込み(小学5年生)/R8	91		honpen p.69
+ryo	22:table	①量の見込み(小学5年生)/R9	86		honpen p.69
+ryo	22:table	①量の見込み(小学5年生)/R10	88		honpen p.69
+ryo	22:table	①量の見込み(小学5年生)/R11	105		honpen p.69
+ryo	22:table	①量の見込み(小学6年生)/R7	74		honpen p.69
+ryo	22:table	①量の見込み(小学6年生)/R8	82		honpen p.69
+ryo	22:table	①量の見込み(小学6年生)/R9	84		honpen p.69
+ryo	22:table	①量の見込み(小学6年生)/R10	77		honpen p.69
+ryo	22:table	①量の見込み(小学6年生)/R11	78		honpen p.69
+ryo	22:table	②確保方策(定員)/R7	542		honpen p.69
+ryo	22:table	②確保方策(定員)/R8	544		honpen p.69
+ryo	22:table	②確保方策(定員)/R9	565		honpen p.69
+ryo	22:table	②確保方策(定員)/R10	565		honpen p.69
+ryo	22:table	②確保方策(定員)/R11	565		honpen p.69
+ryo	22:table	②確保方策(箇所数)/R7	11		honpen p.69
+ryo	22:table	②確保方策(箇所数)/R8	11		honpen p.69
+ryo	22:table	②確保方策(箇所数)/R9	12		honpen p.69
+ryo	22:table	②確保方策(箇所数)/R10	12		honpen p.69
+ryo	22:table	②確保方策(箇所数)/R11	12		honpen p.69
+ryo	22:table	不足分(②−①)/R7	0		honpen p.69
+ryo	22:table	不足分(②−①)/R8	0		honpen p.69
+ryo	22:table	不足分(②−①)/R9	7		honpen p.69
+ryo	22:table	不足分(②−①)/R10	1		honpen p.69
+ryo	22:table	不足分(②−①)/R11	3		honpen p.69
+ryo	23:table	①量の見込み(延べ利用人日)/R7	17		honpen p.70
+ryo	23:table	①量の見込み(延べ利用人日)/R8	17		honpen p.70
+ryo	23:table	①量の見込み(延べ利用人日)/R9	17		honpen p.70
+ryo	23:table	①量の見込み(延べ利用人日)/R10	17		honpen p.70
+ryo	23:table	①量の見込み(延べ利用人日)/R11	17		honpen p.70
+ryo	23:table	②確保方策(延べ利用人日)/R7	17		honpen p.70
+ryo	23:table	②確保方策(延べ利用人日)/R8	17		honpen p.70
+ryo	23:table	②確保方策(延べ利用人日)/R9	17		honpen p.70
+ryo	23:table	②確保方策(延べ利用人日)/R10	17		honpen p.70
+ryo	23:table	②確保方策(延べ利用人日)/R11	17		honpen p.70
+ryo	23:table	不足分(②−①)/R7	0		honpen p.70
+ryo	23:table	不足分(②−①)/R8	0		honpen p.70
+ryo	23:table	不足分(②−①)/R9	0		honpen p.70
+ryo	23:table	不足分(②−①)/R10	0		honpen p.70
+ryo	23:table	不足分(②−①)/R11	0		honpen p.70
+ryo	24:table	量の見込み(延べ利用人日)/R7	8156		honpen p.70
+ryo	24:table	量の見込み(延べ利用人日)/R8	9161		honpen p.70
+ryo	24:table	量の見込み(延べ利用人日)/R9	9699		honpen p.70
+ryo	24:table	量の見込み(延べ利用人日)/R10	10157		honpen p.70
+ryo	24:table	量の見込み(延べ利用人日)/R11	10662		honpen p.70
+ryo	24:table	確保方策(実施箇所数)/R7	2		honpen p.70
+ryo	24:table	確保方策(実施箇所数)/R8	2		honpen p.70
+ryo	24:table	確保方策(実施箇所数)/R9	2		honpen p.70
+ryo	24:table	確保方策(実施箇所数)/R10	2		honpen p.70
+ryo	24:table	確保方策(実施箇所数)/R11	2		honpen p.70
+ryo	25:table	①量の見込み(延べ利用人数)/R7	8619		honpen p.71
+ryo	25:table	①量の見込み(延べ利用人数)/R8	8038		honpen p.71
+ryo	25:table	①量の見込み(延べ利用人数)/R9	7817		honpen p.71
+ryo	25:table	①量の見込み(延べ利用人数)/R10	0		honpen p.71
+ryo	25:table	①量の見込み(延べ利用人数)/R11	0		honpen p.71
+ryo	25:table	①量の見込み(1号認定)/R7	8585		honpen p.71
+ryo	25:table	①量の見込み(1号認定)/R8	8006		honpen p.71
+ryo	25:table	①量の見込み(1号認定)/R9	7786		honpen p.71
+ryo	25:table	①量の見込み(1号認定)/R10	0		honpen p.71
+ryo	25:table	①量の見込み(1号認定)/R11	0		honpen p.71
+ryo	25:table	①量の見込み(2号認定)/R7	34		honpen p.71
+ryo	25:table	①量の見込み(2号認定)/R8	32		honpen p.71
+ryo	25:table	①量の見込み(2号認定)/R9	31		honpen p.71
+ryo	25:table	①量の見込み(2号認定)/R10	0		honpen p.71
+ryo	25:table	①量の見込み(2号認定)/R11	0		honpen p.71
+ryo	25:table	②確保方策(延べ利用人日)/R7	8619		honpen p.71
+ryo	25:table	②確保方策(延べ利用人日)/R8	8038		honpen p.71
+ryo	25:table	②確保方策(延べ利用人日)/R9	7817		honpen p.71
+ryo	25:table	②確保方策(延べ利用人日)/R10	0		honpen p.71
+ryo	25:table	②確保方策(延べ利用人日)/R11	0		honpen p.71
+ryo	25:table	②確保方策(施設数)/R7	2		honpen p.71
+ryo	25:table	②確保方策(施設数)/R8	2		honpen p.71
+ryo	25:table	②確保方策(施設数)/R9	2		honpen p.71
+ryo	25:table	②確保方策(施設数)/R10	0		honpen p.71
+ryo	25:table	②確保方策(施設数)/R11	0		honpen p.71
+ryo	25:table	不足分(②−①)/R7	0		honpen p.71
+ryo	25:table	不足分(②−①)/R8	0		honpen p.71
+ryo	25:table	不足分(②−①)/R9	0		honpen p.71
+ryo	25:table	不足分(②−①)/R10	0		honpen p.71
+ryo	25:table	不足分(②−①)/R11	0		honpen p.71
+ryo	26:table	量の見込み(延べ利用人日)/R7	141		honpen p.71
+ryo	26:table	量の見込み(延べ利用人日)/R8	144		honpen p.71
+ryo	26:table	量の見込み(延べ利用人日)/R9	143		honpen p.71
+ryo	26:table	量の見込み(延べ利用人日)/R10	139		honpen p.71
+ryo	26:table	量の見込み(延べ利用人日)/R11	138		honpen p.71
+ryo	26:table	確保方策(一時預かり事業(幼稚園型を除く))/R7	1		honpen p.71
+ryo	26:table	確保方策(一時預かり事業(幼稚園型を除く))/R8	1		honpen p.71
+ryo	26:table	確保方策(一時預かり事業(幼稚園型を除く))/R9	1		honpen p.71
+ryo	26:table	確保方策(一時預かり事業(幼稚園型を除く))/R10	1		honpen p.71
+ryo	26:table	確保方策(一時預かり事業(幼稚園型を除く))/R11	1		honpen p.71
+ryo	26:table	確保方策(子育て援助活動支援事業(病児・緊急対応強化事業を除く))/R7	1		honpen p.71
+ryo	26:table	確保方策(子育て援助活動支援事業(病児・緊急対応強化事業を除く))/R8	1		honpen p.71
+ryo	26:table	確保方策(子育て援助活動支援事業(病児・緊急対応強化事業を除く))/R9	1		honpen p.71
+ryo	26:table	確保方策(子育て援助活動支援事業(病児・緊急対応強化事業を除く))/R10	1		honpen p.71
+ryo	26:table	確保方策(子育て援助活動支援事業(病児・緊急対応強化事業を除く))/R11	1		honpen p.71
+ryo	26:table	確保方策(子育て短期支援事業(トワイライトステイ))/R7	0		honpen p.71
+ryo	26:table	確保方策(子育て短期支援事業(トワイライトステイ))/R8	0		honpen p.71
+ryo	26:table	確保方策(子育て短期支援事業(トワイライトステイ))/R9	0		honpen p.71
+ryo	26:table	確保方策(子育て短期支援事業(トワイライトステイ))/R10	0		honpen p.71
+ryo	26:table	確保方策(子育て短期支援事業(トワイライトステイ))/R11	0		honpen p.71
+ryo	27:table	①量の見込み(延べ利用人日)/R7	20		honpen p.72
+ryo	27:table	①量の見込み(延べ利用人日)/R8	20		honpen p.72
+ryo	27:table	①量の見込み(延べ利用人日)/R9	20		honpen p.72
+ryo	27:table	①量の見込み(延べ利用人日)/R10	20		honpen p.72
+ryo	27:table	①量の見込み(延べ利用人日)/R11	20		honpen p.72
+ryo	27:table	②確保方策(病児病後児保育)/R7	0		honpen p.72
+ryo	27:table	②確保方策(病児病後児保育)/R8	0		honpen p.72
+ryo	27:table	②確保方策(病児病後児保育)/R9	0		honpen p.72
+ryo	27:table	②確保方策(病児病後児保育)/R10	1		honpen p.72
+ryo	27:table	②確保方策(病児病後児保育)/R11	1		honpen p.72
+ryo	27:table	②確保方策(子育て援助活動支援事業(病児・緊急対応強化事業))/R7	0		honpen p.72
+ryo	27:table	②確保方策(子育て援助活動支援事業(病児・緊急対応強化事業))/R8	0		honpen p.72
+ryo	27:table	②確保方策(子育て援助活動支援事業(病児・緊急対応強化事業))/R9	0		honpen p.72
+ryo	27:table	②確保方策(子育て援助活動支援事業(病児・緊急対応強化事業))/R10	0		honpen p.72
+ryo	27:table	②確保方策(子育て援助活動支援事業(病児・緊急対応強化事業))/R11	0		honpen p.72
+ryo	27:table	不足分(②−①)/R7	-20		honpen p.72
+ryo	27:table	不足分(②−①)/R8	-20		honpen p.72
+ryo	27:table	不足分(②−①)/R9	-20		honpen p.72
+ryo	27:table	不足分(②−①)/R10	0		honpen p.72
+ryo	27:table	不足分(②−①)/R11	0		honpen p.72
+ryo	28:table	①量の見込み(利用者数)/R7	411		honpen p.72
+ryo	28:table	①量の見込み(利用者数)/R8	401		honpen p.72
+ryo	28:table	①量の見込み(利用者数)/R9	390		honpen p.72
+ryo	28:table	①量の見込み(利用者数)/R10	372		honpen p.72
+ryo	28:table	①量の見込み(利用者数)/R11	353		honpen p.72
+ryo	28:table	①量の見込み(就学前)/R7	175		honpen p.72
+ryo	28:table	①量の見込み(就学前)/R8	171		honpen p.72
+ryo	28:table	①量の見込み(就学前)/R9	166		honpen p.72
+ryo	28:table	①量の見込み(就学前)/R10	159		honpen p.72
+ryo	28:table	①量の見込み(就学前)/R11	151		honpen p.72
+ryo	28:table	①量の見込み(就学後)/R7	236		honpen p.72
+ryo	28:table	①量の見込み(就学後)/R8	230		honpen p.72
+ryo	28:table	①量の見込み(就学後)/R9	224		honpen p.72
+ryo	28:table	①量の見込み(就学後)/R10	213		honpen p.72
+ryo	28:table	①量の見込み(就学後)/R11	202		honpen p.72
+ryo	28:table	②確保方策(利用者数)/R7	411		honpen p.72
+ryo	28:table	②確保方策(利用者数)/R8	401		honpen p.72
+ryo	28:table	②確保方策(利用者数)/R9	390		honpen p.72
+ryo	28:table	②確保方策(利用者数)/R10	372		honpen p.72
+ryo	28:table	②確保方策(利用者数)/R11	353		honpen p.72
+ryo	28:table	②確保方策(就学前)/R7	175		honpen p.72
+ryo	28:table	②確保方策(就学前)/R8	171		honpen p.72
+ryo	28:table	②確保方策(就学前)/R9	166		honpen p.72
+ryo	28:table	②確保方策(就学前)/R10	159		honpen p.72
+ryo	28:table	②確保方策(就学前)/R11	151		honpen p.72
+ryo	28:table	②確保方策(就学後)/R7	236		honpen p.72
+ryo	28:table	②確保方策(就学後)/R8	230		honpen p.72
+ryo	28:table	②確保方策(就学後)/R9	224		honpen p.72
+ryo	28:table	②確保方策(就学後)/R10	213		honpen p.72
+ryo	28:table	②確保方策(就学後)/R11	202		honpen p.72
+ryo	28:table	不足分(②−①)/R7	0		honpen p.72
+ryo	28:table	不足分(②−①)/R8	0		honpen p.72
+ryo	28:table	不足分(②−①)/R9	0		honpen p.72
+ryo	28:table	不足分(②−①)/R10	0		honpen p.72
+ryo	28:table	不足分(②−①)/R11	0		honpen p.72
+ryo	29:table	0歳人口推計/R7	121		honpen p.73
+ryo	29:table	0歳人口推計/R8	119		honpen p.73
+ryo	29:table	0歳人口推計/R9	116		honpen p.73
+ryo	29:table	0歳人口推計/R10	114		honpen p.73
+ryo	29:table	0歳人口推計/R11	112		honpen p.73
+ryo	29:table	量の見込み(利用人数)/R7	121		honpen p.73
+ryo	29:table	量の見込み(利用人数)/R8	119		honpen p.73
+ryo	29:table	量の見込み(利用人数)/R9	116		honpen p.73
+ryo	29:table	量の見込み(利用人数)/R10	114		honpen p.73
+ryo	29:table	量の見込み(利用人数)/R11	112		honpen p.73
+ryo	29:table	量の見込み(1人当たり健診回数)/R7	14		honpen p.73
+ryo	29:table	量の見込み(1人当たり健診回数)/R8	14		honpen p.73
+ryo	29:table	量の見込み(1人当たり健診回数)/R9	14		honpen p.73
+ryo	29:table	量の見込み(1人当たり健診回数)/R10	14		honpen p.73
+ryo	29:table	量の見込み(1人当たり健診回数)/R11	14		honpen p.73
+ryo	29:table	確保方策(健診回数)/R7	1694		honpen p.73
+ryo	29:table	確保方策(健診回数)/R8	1666		honpen p.73
+ryo	29:table	確保方策(健診回数)/R9	1624		honpen p.73
+ryo	29:table	確保方策(健診回数)/R10	1596		honpen p.73
+ryo	29:table	確保方策(健診回数)/R11	1568		honpen p.73
+ryo	30:table	0歳人口推計/R7	121		honpen p.73
+ryo	30:table	0歳人口推計/R8	119		honpen p.73
+ryo	30:table	0歳人口推計/R9	116		honpen p.73
+ryo	30:table	0歳人口推計/R10	114		honpen p.73
+ryo	30:table	0歳人口推計/R11	112		honpen p.73
+ryo	30:table	量の見込み(利用人数)/R7	121		honpen p.73
+ryo	30:table	量の見込み(利用人数)/R8	119		honpen p.73
+ryo	30:table	量の見込み(利用人数)/R9	116		honpen p.73
+ryo	30:table	量の見込み(利用人数)/R10	114		honpen p.73
+ryo	30:table	量の見込み(利用人数)/R11	112		honpen p.73
+ryo	30:table	確保方策(利用人数)/R7	121		honpen p.73
+ryo	30:table	確保方策(利用人数)/R8	119		honpen p.73
+ryo	30:table	確保方策(利用人数)/R9	116		honpen p.73
+ryo	30:table	確保方策(利用人数)/R10	114		honpen p.73
+ryo	30:table	確保方策(利用人数)/R11	112		honpen p.73
+ryo	30:table	確保方策(訪問率)/R7	100		honpen p.73
+ryo	30:table	確保方策(訪問率)/R8	100		honpen p.73
+ryo	30:table	確保方策(訪問率)/R9	100		honpen p.73
+ryo	30:table	確保方策(訪問率)/R10	100		honpen p.73
+ryo	30:table	確保方策(訪問率)/R11	100		honpen p.73
+ryo	32:table	①量の見込み(延べ利用人数)/R7	50		honpen p.74
+ryo	32:table	①量の見込み(延べ利用人数)/R8	50		honpen p.74
+ryo	32:table	①量の見込み(延べ利用人数)/R9	50		honpen p.74
+ryo	32:table	①量の見込み(延べ利用人数)/R10	50		honpen p.74
+ryo	32:table	①量の見込み(延べ利用人数)/R11	50		honpen p.74
+ryo	32:table	②確保方策(延べ利用人数)/R7	50		honpen p.74
+ryo	32:table	②確保方策(延べ利用人数)/R8	50		honpen p.74
+ryo	32:table	②確保方策(延べ利用人数)/R9	50		honpen p.74
+ryo	32:table	②確保方策(延べ利用人数)/R10	50		honpen p.74
+ryo	32:table	②確保方策(延べ利用人数)/R11	50		honpen p.74
+ryo	32:table	不足分(②−①)/R7	0		honpen p.74
+ryo	32:table	不足分(②−①)/R8	0		honpen p.74
+ryo	32:table	不足分(②−①)/R9	0		honpen p.74
+ryo	32:table	不足分(②−①)/R10	0		honpen p.74
+ryo	32:table	不足分(②−①)/R11	0		honpen p.74
+ryo	33:table	①量の見込み(利用実人数)/R7	10		honpen p.74
+ryo	33:table	①量の見込み(利用実人数)/R8	15		honpen p.74
+ryo	33:table	①量の見込み(利用実人数)/R9	20		honpen p.74
+ryo	33:table	①量の見込み(利用実人数)/R10	20		honpen p.74
+ryo	33:table	①量の見込み(利用実人数)/R11	20		honpen p.74
+ryo	33:table	②確保方策(利用実人数)/R7	10		honpen p.74
+ryo	33:table	②確保方策(利用実人数)/R8	15		honpen p.74
+ryo	33:table	②確保方策(利用実人数)/R9	20		honpen p.74
+ryo	33:table	②確保方策(利用実人数)/R10	20		honpen p.74
+ryo	33:table	②確保方策(利用実人数)/R11	20		honpen p.74
+ryo	33:table	不足分(②−①)/R7	0		honpen p.74
+ryo	33:table	不足分(②−①)/R8	0		honpen p.74
+ryo	33:table	不足分(②−①)/R9	0		honpen p.74
+ryo	33:table	不足分(②−①)/R10	0		honpen p.74
+ryo	33:table	不足分(②−①)/R11	0		honpen p.74
+ryo	34:table	0歳人口推計/R7	121		honpen p.75
+ryo	34:table	0歳人口推計/R8	119		honpen p.75
+ryo	34:table	0歳人口推計/R9	116		honpen p.75
+ryo	34:table	0歳人口推計/R10	114		honpen p.75
+ryo	34:table	0歳人口推計/R11	112		honpen p.75
+ryo	34:table	①量の見込み(利用人数)/R7	121		honpen p.75
+ryo	34:table	①量の見込み(利用人数)/R8	119		honpen p.75
+ryo	34:table	①量の見込み(利用人数)/R9	116		honpen p.75
+ryo	34:table	①量の見込み(利用人数)/R10	114		honpen p.75
+ryo	34:table	①量の見込み(利用人数)/R11	112		honpen p.75
+ryo	34:table	①量の見込み(1人当たり面談回数)/R7	2.1		honpen p.75
+ryo	34:table	①量の見込み(1人当たり面談回数)/R8	2.1		honpen p.75
+ryo	34:table	①量の見込み(1人当たり面談回数)/R9	2.1		honpen p.75
+ryo	34:table	①量の見込み(1人当たり面談回数)/R10	2.1		honpen p.75
+ryo	34:table	①量の見込み(1人当たり面談回数)/R11	2.1		honpen p.75
+ryo	34:table	①量の見込み(面談回数合計)/R7	254		honpen p.75
+ryo	34:table	①量の見込み(面談回数合計)/R8	250		honpen p.75
+ryo	34:table	①量の見込み(面談回数合計)/R9	244		honpen p.75
+ryo	34:table	①量の見込み(面談回数合計)/R10	239		honpen p.75
+ryo	34:table	①量の見込み(面談回数合計)/R11	235		honpen p.75
+ryo	34:table	②確保方策(子ども家庭センター)/R7	254		honpen p.75
+ryo	34:table	②確保方策(子ども家庭センター)/R8	250		honpen p.75
+ryo	34:table	②確保方策(子ども家庭センター)/R9	244		honpen p.75
+ryo	34:table	②確保方策(子ども家庭センター)/R10	239		honpen p.75
+ryo	34:table	②確保方策(子ども家庭センター)/R11	235		honpen p.75
+ryo	34:table	②確保方策(上記以外)/R7	0		honpen p.75
+ryo	34:table	②確保方策(上記以外)/R8	0		honpen p.75
+ryo	34:table	②確保方策(上記以外)/R9	0		honpen p.75
+ryo	34:table	②確保方策(上記以外)/R10	0		honpen p.75
+ryo	34:table	②確保方策(上記以外)/R11	0		honpen p.75
+ryo	34:table	不足分(②−①)/R7	0		honpen p.75
+ryo	34:table	不足分(②−①)/R8	0		honpen p.75
+ryo	34:table	不足分(②−①)/R9	0		honpen p.75
+ryo	34:table	不足分(②−①)/R10	0		honpen p.75
+ryo	34:table	不足分(②−①)/R11	0		honpen p.75
+ryo	35:table	0歳児①量の見込み(延べ人数)/R7	0		honpen p.75
+ryo	35:table	0歳児①量の見込み(延べ人数)/R8	3		honpen p.75
+ryo	35:table	0歳児①量の見込み(延べ人数)/R9	3		honpen p.75
+ryo	35:table	0歳児①量の見込み(延べ人数)/R10	3		honpen p.75
+ryo	35:table	0歳児①量の見込み(延べ人数)/R11	3		honpen p.75
+ryo	35:table	0歳児②確保方策(延べ人数)/R7	0		honpen p.75
+ryo	35:table	0歳児②確保方策(延べ人数)/R8	3		honpen p.75
+ryo	35:table	0歳児②確保方策(延べ人数)/R9	3		honpen p.75
+ryo	35:table	0歳児②確保方策(延べ人数)/R10	3		honpen p.75
+ryo	35:table	0歳児②確保方策(延べ人数)/R11	3		honpen p.75
+ryo	35:table	0歳児 不足分(②−①)/R7	0		honpen p.75
+ryo	35:table	0歳児 不足分(②−①)/R8	0		honpen p.75
+ryo	35:table	0歳児 不足分(②−①)/R9	0		honpen p.75
+ryo	35:table	0歳児 不足分(②−①)/R10	0		honpen p.75
+ryo	35:table	0歳児 不足分(②−①)/R11	0		honpen p.75
+ryo	35:table	1歳児①量の見込み(延べ人数)/R7	0		honpen p.75
+ryo	35:table	1歳児①量の見込み(延べ人数)/R8	2		honpen p.75
+ryo	35:table	1歳児①量の見込み(延べ人数)/R9	2		honpen p.75
+ryo	35:table	1歳児①量の見込み(延べ人数)/R10	4		honpen p.75
+ryo	35:table	1歳児①量の見込み(延べ人数)/R11	4		honpen p.75
+ryo	35:table	1歳児②確保方策(延べ人数)/R7	0		honpen p.75
+ryo	35:table	1歳児②確保方策(延べ人数)/R8	2		honpen p.75
+ryo	35:table	1歳児②確保方策(延べ人数)/R9	2		honpen p.75
+ryo	35:table	1歳児②確保方策(延べ人数)/R10	4		honpen p.75
+ryo	35:table	1歳児②確保方策(延べ人数)/R11	4		honpen p.75
+ryo	35:table	1歳児 不足分(②−①)/R7	0		honpen p.75
+ryo	35:table	1歳児 不足分(②−①)/R8	0		honpen p.75
+ryo	35:table	1歳児 不足分(②−①)/R9	0		honpen p.75
+ryo	35:table	1歳児 不足分(②−①)/R10	0		honpen p.75
+ryo	35:table	1歳児 不足分(②−①)/R11	0		honpen p.75
+ryo	35:table	2歳児①量の見込み(延べ人数)/R7	0		honpen p.75
+ryo	35:table	2歳児①量の見込み(延べ人数)/R8	2		honpen p.75
+ryo	35:table	2歳児①量の見込み(延べ人数)/R9	2		honpen p.75
+ryo	35:table	2歳児①量の見込み(延べ人数)/R10	4		honpen p.75
+ryo	35:table	2歳児①量の見込み(延べ人数)/R11	4		honpen p.75
+ryo	35:table	2歳児②確保方策(延べ人数)/R7	0		honpen p.75
+ryo	35:table	2歳児②確保方策(延べ人数)/R8	2		honpen p.75
+ryo	35:table	2歳児②確保方策(延べ人数)/R9	2		honpen p.75
+ryo	35:table	2歳児②確保方策(延べ人数)/R10	4		honpen p.75
+ryo	35:table	2歳児②確保方策(延べ人数)/R11	4		honpen p.75
+ryo	35:table	2歳児 不足分(②−①)/R7	0		honpen p.75
+ryo	35:table	2歳児 不足分(②−①)/R8	0		honpen p.75
+ryo	35:table	2歳児 不足分(②−①)/R9	0		honpen p.75
+ryo	35:table	2歳児 不足分(②−①)/R10	0		honpen p.75
+ryo	35:table	2歳児 不足分(②−①)/R11	0		honpen p.75
+ryo	36:table	①量の見込み(延べ利用人数・宿泊型)/R7	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・宿泊型)/R8	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・宿泊型)/R9	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・宿泊型)/R10	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・宿泊型)/R11	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・通所型)/R7	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・通所型)/R8	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・通所型)/R9	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・通所型)/R10	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・通所型)/R11	8		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・訪問型)/R7	10		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・訪問型)/R8	10		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・訪問型)/R9	10		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・訪問型)/R10	10		honpen p.76
+ryo	36:table	①量の見込み(延べ利用人数・訪問型)/R11	10		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・宿泊型)/R7	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・宿泊型)/R8	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・宿泊型)/R9	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・宿泊型)/R10	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・宿泊型)/R11	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・通所型)/R7	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・通所型)/R8	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・通所型)/R9	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・通所型)/R10	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・通所型)/R11	8		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・訪問型)/R7	10		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・訪問型)/R8	10		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・訪問型)/R9	10		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・訪問型)/R10	10		honpen p.76
+ryo	36:table	②確保方策(延べ利用人数・訪問型)/R11	10		honpen p.76
+ryo	36:table	不足分(②−①)/R7	0		honpen p.76
+ryo	36:table	不足分(②−①)/R8	0		honpen p.76
+ryo	36:table	不足分(②−①)/R9	0		honpen p.76
+ryo	36:table	不足分(②−①)/R10	0		honpen p.76
+ryo	36:table	不足分(②−①)/R11	0		honpen p.76

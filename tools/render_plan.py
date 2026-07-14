@@ -33,6 +33,8 @@ import math
 import mimetypes
 import sys
 from pathlib import Path
+from tokens import load_tokens, apply_tokens
+# tools/ が sys.path[0] に入る前提(python3 tools/render_plan.py 起動に依存)。DESIGN.md ADR-6
 
 ROOT = Path(__file__).resolve().parent.parent
 TPL = ROOT / "templates"
@@ -764,11 +766,15 @@ class Renderer:
 
         theme_vars = "".join(f"--{k}:{v};" for k, v in self.theme.items())
 
+        tokens = load_tokens(TPL / "tokens.css")
+        shell_css = apply_tokens(
+            (TPL / "shell.css").read_text(encoding="utf-8"), tokens, "shell.css")
+
         page = (TPL / "shell.html").read_text(encoding="utf-8")
         for k, v in {
             "{{TITLE}}": esc(m.get("name_short", m["name"])),
             "{{DESCRIPTION}}": esc(m["lead"]),
-            "{{CSS}}": (TPL / "shell.css").read_text(encoding="utf-8"),
+            "{{CSS}}": shell_css,
             "{{THEME_VARS}}": theme_vars,
             "{{EYEBROW}}": (f'<div class="eyebrow">{esc(m["eyebrow"])}</div>'
                             if m.get("eyebrow") else ""),

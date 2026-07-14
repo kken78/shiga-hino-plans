@@ -1,0 +1,7 @@
+/* tokens.css — 構造トークンの単一正典(DESIGN.md ADR-6)。
+   セレクタを持たない「name→value マップ」。<link>/@import しない。
+   ビルド時に render_plan.py / build.py が各セレクタ内の同名定義へ値代入する。
+   移行A スコープ = 役割 audit 済みの3トークンのみ。 */
+--ink:#232a33;
+--line:#dfe4ea;
+--card:#ffffff;

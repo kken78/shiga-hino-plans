@@ -53,6 +53,8 @@ import json
 import re
 import sys
 from pathlib import Path
+from tokens import load_tokens, apply_tokens
+# tools/ が sys.path[0] に入る前提(python3 tools/build.py 起動に依存)。DESIGN.md ADR-6
 
 ROOT = Path(__file__).resolve().parent.parent
 TPL = ROOT / "templates"
@@ -158,6 +160,10 @@ def build():
     if n != 1:
         raise SystemExit(f"NG  templates/hub.html: PLANS プレースホルダが "
                          f"{n} 箇所(期待1)。抽出テンプレートを確認")
+
+    # 構造トークンの値代入(ADR-6 / モデルA)。hub は値が変わる=計画側と違いバイト不変ではない。
+    tokens = load_tokens(TPL / "tokens.css")
+    template = apply_tokens(template, tokens, "hub.html")
 
     # PLANS を JSON インライン注入(fetch せず自己完結。indent で差分を見やすく)
     plans_json = json.dumps(plans, ensure_ascii=False, indent=2)

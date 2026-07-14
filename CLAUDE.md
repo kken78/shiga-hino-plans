@@ -155,8 +155,11 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
   - [ ] **移行A**(構造色・見た目不変のリファクタ): `templates/tokens.css`
     新設。手順は役割 audit → 役割確定 → 値決定 → 置換・検証(ADR-6)。
     同名別値の `--ink`/`--line`/`--card` を役割確認のうえ1値へ収束。
-    render_plan.py(shell.css 前に連結注入)と build.py(hub.html の構造
-    トークン行を差し替え)を改修。全計画再レンダリング+validate+目視。
+    render_plan.py が shell.css の `.hpv1{}` 内、build.py が hub.html の
+    `:root{}` 内のトークン定義の値を、名前アンカー(`--name:#hex`)で代入する
+    よう改修(モデルA。連結・前置はしない。詳細は DESIGN.md ADR-6)。
+    tokens.css に載せるのは監査済み3トークン `--ink`/`--line`/`--card` のみ。
+    全計画再レンダリング+validate+目視。
   - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
     Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
 

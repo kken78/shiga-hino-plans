@@ -121,6 +121,11 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
 `tools/tokens.py`(load_tokens/apply_tokens・モデルA)が render_plan.py / build.py
 経由で各セレクタへ値代入する(移行A・ADR-6。計画=バイト不変、ハブ=計画側値へ収束)。
 
+検収(audit 突合)機構は ADR-7 に設計記録済み(実装は未着手): 台帳 `data/audit_log/<id>.tsv`
+(検収状態の真実の源)+ `tools/audit_worksheet.py <id>` が生成する vanilla HTML ワークシート
+(ページ順・チェック欄・localStorage 下書き・エクスポートで台帳へ)の2層。突合キーは内容ハッシュで、
+値が変われば当該行は未検収へ戻る。kodomo は検収未実施。
+
 ### Phase 1 の進捗
 
 - [x] **kodomo.json の全タブ完成**(2026-07 実装完了) — `.hkodomo` 埋め込みから
@@ -168,6 +173,10 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
     3897746(ハブ側)。
   - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
     Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
+- [ ] **kodomo の検収(audit 突合)**(ADR-7) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
+  `build/audit/kodomo.tsv`(886行)を突合。2層機構(台帳 + ワークシート)で実施。完了条件は
+  `data/audit_log/kodomo.tsv` の全行 checked。PDF は配置済み。
+  ※ 機構 `tools/audit_worksheet.py` は未実装 → 先に実装する。
 
 **原典PDF待ち(配置後に着手)**
 - [ ] **koutsu の移行** — 路線図JPEGを `data/assets/koutsu_map.jpg` に切り出し

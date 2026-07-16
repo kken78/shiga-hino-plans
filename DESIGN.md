@@ -175,10 +175,10 @@ A→B の順で実施し、各々を別コミット群とすることで、後�
 
 **決定**: 検収機構を2層に分離する。
 
-- **台帳(耐久ストレージ・検収状態の真実の源)**: `data/audit_log/<id>.tsv`。git 管理し、これを検収状態の正とする。列 = `key / tab / block / label / value / source / checked / reviewer / date / note`。
+- **台帳(耐久ストレージ・検収状態の真実の源)**: `data/audit_log/<id>.tsv`。git 管理し、これを検収状態の正とする。列 = `key / tab / block / label / value / source / checked / reviewer / date / note`。※ 列定義は下記「補遺(2026-07)」E で13列へ改定。本節の10列は採用しない(`unit` を欠き key を検算できない)。
 - **ワークシート(揮発ビュー)**: `tools/audit_worksheet.py <id>` が生成する **vanilla HTML**。`build/audit/<id>.tsv` を読んでページ順に並べ、チェック欄を持つ。file:// で動く自己完結HTML(CLAUDE.md 不変制約3 と整合)。
   - **localStorage は下書き・台帳が正**: ブラウザ上のチェックは localStorage に一時保存する下書きにすぎない。確定は「**エクスポート → `data/audit_log/<id>.tsv` に反映 → git コミット**」の二段構え。localStorage はブラウザ依存で揮発する。**台帳=正/localStorage=揮発する下書き**という関係を、設計にもコードコメントにも明記する。
-- **突合キー = 内容ハッシュ**: audit.tsv には行の安定IDがないため、台帳↔audit 行は内容タプル `(tab, block, label, value, unit, source)` のハッシュで突き合わせる。並べ替えには影響されない。**値が訂正されるとキーが変わり、その行は自動的に「未検収」に戻る**。これは欠陥ではなく**意図的挙動**で、「検収済みの行の値が後から変わったのに検収済みのまま残る」事故を防ぐ、ADR-6 の fail-loud と同型の安全側設計である。生成物 `audit.tsv` は無改変(read-only)のまま。
+- **突合キー = 内容ハッシュ**: audit.tsv には行の安定IDがないため、台帳↔audit 行は内容タプル `(tab, block, label, value, unit, source)` のハッシュで突き合わせる。並べ替えには影響されない。**値が訂正されるとキーが変わり、その行は自動的に「未検収」に戻る**。これは欠陥ではなく**意図的挙動**で、「検収済みの行の値が後から変わったのに検収済みのまま残る」事故を防ぐ、ADR-6 の fail-loud と同型の安全側設計である。生成物 `audit.tsv` は無改変(read-only)のまま。※ キー定義は下記「補遺(2026-07)」で改定。本節の `(tab, block, label, value, unit, source)` は採用しない。
 
 **data/ の意味づけ**: `data/plans/<id>.json` は「計画が何を主張するか」の真実の源。`data/audit_log/<id>.tsv` は「その主張を誰がいつ原典と突合したか」という**別種の真実**の源。両者は同じ `data/` 下に置くが役割が異なる。検収メタ(確認者・日付・✓)を計画データに混ぜないことで、データ源を純粋に保つ。
 
@@ -192,7 +192,99 @@ A→B の順で実施し、各々を別コミット群とすることで、後�
 **採らなかった案とその理由**
 
 - **案2: `data/plans/<id>.json` の各ブロックに `verified` を持たせる**: 検収状態が真実の源に載り公開物に出せる利点はあるが、(1) **886ブロックの手編集**は「突合負担を下げる」目的と逆行、(2) **粒度不一致**(audit は value=行単位/JSON は block 単位で複数値を内包)、(3) データ源に QA メタが混ざる、の3点で不利。将来「ダッシュボードに"検収済み"を表示する」が要件化した時点で、CLAUDE.md 制約5 に従い **schema-first で PLAN_SCHEMA.md を先に改定してから**上乗せする、として保留する。
-- **(b) render_plan.py の audit 出力に安定 row-id 列を追加**: 突合キーは最も堅牢になるが、`audit.tsv` のフォーマット変更 + 全計画の再レンダリングを要する。内容ハッシュ(a)で当面十分なため見送り。将来スケールで(a)が脆いと判明した時点で再検討する。
+- **(b) render_plan.py の audit 出力に安定 row-id 列を追加**: 突合キーは最も堅牢になるが、`audit.tsv` のフォーマット変更 + 全計画の再レンダリングを要する。内容ハッシュ(a)で当面十分なため見送り。将来スケールで(a)が脆いと判明した時点で再検討する。※ この先送りは下記「補遺(2026-07)」で撤回した((a) の脆さが測定で判明・(b) のコストは単調増加のため今実施する)。
+
+**補遺(2026-07): 突合キーを位置依存から意味的 disambiguator へ改定する**
+
+一連の測定で、上記「決定」のうち2点が反証された。(1) 突合キー `(tab, block, label, value, unit, source)` は位置依存(`block = f"{block_no}:{btype}"`、`block_no` はタブ内位置インデックス)。(2)「(b) は将来スケールで再検討」の先送りは、コストが単調増加する判断だった。以下に測定・改定・却下案・規範・列定義・反映経路・fail-loud・既知欠陥・作業順を記録する。
+
+**A. 測定(事実)**
+- `build/audit/kodomo.tsv` = 887行(886データ+ヘッダ)、6列 `tab/block/label/value/unit/source`、全行 NF=6。
+- `block = f"{block_no}:{btype}"`。`block_no` はタブ内の位置インデックス(非連続。audit 行を出さないブロックも番号を消費)。
+- タブ別行数: ryo 686 / needs 112 / genjo 55 / hyoka 28 / summary 4 / shisaku 1。
+- 6列 full キー: 衝突 0(単射)。
+- `block_no` を外す(btype 残す)と: 27群 / 56行が衝突。群サイズは 2 が25群・3 が2群(最大3)。偏りは ryo 26群 / needs 1群。
+- 衝突メンバーの実体: `不足分(②−①)/R10 = 0 (honpen p.66)` → blocks 11, 12, 13 = 表①1号認定 / ②2号認定 / ③3号認定〔0歳〕。`企業主導型保育施設の地域枠/R7 = 0 (p.67)` → blocks 14, 15。`就学前/無回答 = 2.5% (p.24)` → blocks 7, 8(別々の stacked100)。→ 同一事実の重複ではなく、別々の認定区分の表(別セル)の値が偶然一致しているだけ。
+- 単一挿入で `block_no` が +1 シフトしたとき、キーが既存の別行のキーへ着地する行 = 29(= 25群×1 + 2群×2)。すなわち衝突群のメンバーは連続した `block_no` に並んでいる(兄弟表は隣接して置かれるため、構造的にそうなる)。
+- キーに block の意味ラベル(`fold.label` → `title` → 直近の先行 `heading` の順で導出)を加えると: groups = 0 / rows = 0(886行で単射)。
+- ページアンカー: `p.N` を含む行 827 / 含まない行 59(honpen 5 / jyuki 24 / kokucho 30)。ADR-7 本文の記載と一致。
+
+**B. キー定義の改定(決定)**
+- キー = `hash(tab, btype, block_label, label, value, unit, source)`(7要素)。`block_no` はキーに含めない。
+- `block_no` は非キーの locator 列として台帳に保持する(検収者が行の所在を辿るため。再生成のたびに `audit.tsv` から更新される)。
+- これは ADR-7 が (b) として保留した「audit 出力の変更」の採用にあたる。
+
+**C. 却下した案と理由(実測値つき)**
+- **案A(`block_no` 込み・ADR-7 当初)**: 単射だが位置依存。ryo 先頭へのブロック挿入で 686行(全体の77%)が過剰無効化される。さらにその裏で 29行は「検収済みのまま、中身だけ隣の事実に入れ替わる」(旧 block11 の行が旧 block12 のキーへ着地)。衝突群が隣接配置なので、このスライドは偶発ではなく構造的に保証される。よって A の失敗は「安全側の過剰無効化」ではなく、最も紛らわしい行だけが危険側に落ちる。
+- **案C(`block_no` を外し、同値を ×N で畳む)**: 畳み込みは「同じ事実を1回確認すれば足りる」という前提に立つが、測定でその前提が偽と判明した(blocks 11/12/13 = ①1号/②2号/③3号 の別事実)。①を突合して✓した瞬間に②③が未確認のまま checked になる。886→857 は負担軽減ではなく、29件の未確認を確認済みとして記録することで、CLAUDE.md 制約1(捏造禁止)の検収版に抵触する。
+- **案C'(同一タプル群内の出現連番 occ を付す)**: occ は偶然一致した別事実に対する位置的背番号にすぎず、意味に結びついていない。群内で値を訂正すると後続メンバーの occ が繰り上がり、未突合の行が兄弟行の検収結果を継承する(A と同型のスライド)。
+- **共通の教訓**: 偶然一致したタプルに対して位置的 disambiguator を使う限り、検収状態は隣の事実へスライドする。必要なのは意味的 disambiguator(= `block_label`)である。
+
+**D. block_label の導出規範**
+- 導出順: `fold.label` → `title` → 直近の先行 `heading` の `text`。
+- これは render_plan.py の正式仕様とする(発見的スクリプトではない)。
+- `fold` は文字列の場合もある(PLAN_SCHEMA §6-B の後方互換)。その場合は `fold.label` として扱う。
+- 弱い位置依存が残ることを明記: `heading` を挿入すると、以降の「`title` も `fold` も無い」ブロックのラベルが変わる。ただし影響はその見出し配下に限定され、かつ意味的に妥当(そのブロックは実際に別の節へ移った)。686 とは桁が違う。
+- スキーマ改定は不要(`fold.label` / `title` / `heading` はいずれも既存語彙。CLAUDE.md 制約5 に抵触しない)。
+
+**E. 列定義**
+- `audit.tsv`(8列に変更): `tab / block_no / btype / block_label / label / value / unit / source`。`block` の `11:table` 混載を解消し、キー成分(`btype`)と非キー成分(`block_no`)をファイル上で分離する。
+- 台帳 `data/audit_log/<id>.tsv`(13列): `key / tab / block_no / btype / block_label / label / value / unit / source / checked / reviewer / date / note`。
+  - キー成分: `tab, btype, block_label, label, value, unit, source`(7つとも台帳に載る = 台帳だけで key を検算できる)。
+  - 非キー: `block_no`(locator), `checked, reviewer, date, note`。
+- ADR-7 当初の列定義は `unit` を欠いており key を検算できなかった。本補遺で修正する。
+- `checked` は「原典と一致することを確認した」の意(「見た」ではない)。不一致は `data/plans/<id>.json` を修正 → 再レンダリング → キー変化 → 自動的に未検収、のループで解消する。台帳ヘッダ直後のコメント行とコードコメントの両方に明記する。
+
+**F. 反映経路(動詞3つ・マージ規則なし)**
+
+```bash
+# 1) ベースライン作成(初回のみ・全行未 checked)
+python3 tools/audit_worksheet.py <id> --init      # → data/audit_log/<id>.tsv
+git commit   # 骨格だけの1コミット(以降の diff が検収結果のみを示す)
+
+# 2) 生成(read-only。台帳を読んで checked/reviewer/date/note を初期表示)
+python3 tools/audit_worksheet.py <id>             # → build/audit/<id>.worksheet.html
+
+# 3) ブラウザで突合(localStorage は下書き・台帳が正)
+# 4) [エクスポート] → 全行(未 checked 含む)を台帳フォーマットで出力
+
+# 5) 反映(検証 → 上書き)
+python3 tools/audit_worksheet.py <id> --import <file>
+git commit
+```
+
+- エクスポート出力 = 台帳フォーマットそのもの・全行。ゆえに import は上書きでよく、マージ規則を定義しない(ワークシートは常に全行を持つため、部分マージの必要が生じない)。
+- `--import` の検証3点(通らなければ例外・上書きしない):
+  1. key 集合が現 `build/audit/<id>.tsv` と厳密一致(不足・余剰で例外)→ 古いワークシートからのエクスポートを弾く。
+  2. 各行の key を非キー列から再計算して key 列と一致(→ key 列が checksum を兼ねる。転送経路での文字化け・手編集を検出)。
+  3. `checked` の値域チェック。
+- 却下した案(マージ): key 一致で checked のみ更新する部分マージは、競合規則・取り消しの扱い等を定義する必要がある一方、1人運用かつ全行エクスポートでは使う場面がない。過剰設計として採らない。
+
+**G. fail-loud(3種)**
+
+ADR-6 の三点セットと同型。
+- キー衝突検出: 同一 key が2行以上生じたら例外。(b) では発火しないはず(kodomo で groups=0)なので、発火したら実装バグか未知の構造の検出という良いセンチネルになる。kodomo は0だが、残り42計画では未保証(`fold.label`/`title`/`heading` のいずれも持たないブロックが同一タプルを持つ可能性)。
+- NF != 8: `audit.tsv` の列数が想定と違えば例外。render_plan.py の audit 出力は `"\t".join(str(x) for x in row)` でエスケープしていないため、将来 `programs.desc`(原典全文・要約禁止)にタブや改行が入れば TSV が静かに壊れる。検収機構がレンダラーの欠陥を検出する配置。
+- 台帳読み込み失敗 / `block_label` 導出の0件マッチ: 例外。
+
+**H. 既知の欠陥(記録)**
+- `label` は表を同定しない。audit の `label` は行ラベル(例「①量の見込み」)であり、表の正体(認定区分)は `fold.label` = ブロックの属性にある。ゆえに block 系の列が事実上の disambiguator になっている。fold された表が多いページ(認定区分別・事業別)ほど同型の行ラベルが並び、数値の偶然一致が起きやすい(27群のうち26群が ryo に集中したのはこの構造の必然)。将来 audit の粒度を見直す際の引き金として記録する。
+- キーは data ではなく `audit.tsv` の直列化に対して安定。全フィールドは render_plan.py が `str()` で文字列化済みなので正規化規則は不要だが、裏返しとして `str()` の出力書式が変われば全行が一斉に未検収になる。
+
+**I. 作業順(スコープ変更の明示)**
+
+当初計画になかった工程が1つ入る。
+1. 本補遺の記録(このステップ)。
+2. render_plan.py の audit 出力を8列化(`block_label` 追加・`block` 分割)→ 全計画再レンダリング(CLAUDE.md「レンダラーを触ったら全計画」。現時点で `data/plans/` は kodomo と `_charttest` の2本のみ)。
+   - 検証ゲート: `git diff --exit-code docs/plans/` が緑(列追加は HTML に影響しないはず)/ `build/audit/kodomo.tsv` が 887行・全行 NF=8 / 7要素キーの単射性を再測定して groups=0 を確認 / `block_label` 導出の0件マッチで例外。
+3. tools/audit_worksheet.py の実装(新セッション)。
+4. kodomo の検収実施。
+- **(b) を今やる理由(記録)**: ADR-7 は (b) を「フォーマット変更 + 全計画の再レンダリングを要する」ため見送ったが、そのコストは単調増加する。今日は再レンダリング2ファイル・移行すべき既存 checked ゼロ。43計画スケールでは43倍になり、kodomo の検収完了後に変更すれば886行の検収結果が全て無効化される。「将来 (a) が脆いと判明した時点で再検討」は最も高い瞬間まで待つことを意味していた。脆さは本測定で判明した。
+
+**J. 補足(ワークシートの位置づけ)**
+- 出力先は `build/audit/<id>.worksheet.html`。docs/ は公開ルートなので置かない(検収ワークシートは公開物ではない)。
+- `templates/tokens.css` を適用しない(内部ツール。ADR-6 の apply_tokens の定義サイトを増やさない)。
+- localStorage キーには必ず `<id>` を含める。file:// は origin が null になり、計画間で localStorage が共有され得るため。
 
 ---
 
@@ -205,20 +297,30 @@ hino-plans/
 ├── CLAUDE.md               # Claude Code 作業手順書(不変ルール+定型フロー)
 ├── DESIGN.md               # 本書
 ├── PLAN_SCHEMA.md          # スキーマ規範(ブロック語彙リファレンス)
+├── README.md
+├── LICENSE
+├── sources_raw/<id>/       # 原典PDF(git管理外でも可)
 ├── data/
 │   ├── manifest.json       # 43計画のカード情報(現PLANS配列の外出し)
 │   ├── plans/<id>.json     # ダッシュボード化した計画のデータ(真実の源)
-│   └── assets/             # figure用の画像実体
+│   ├── assets/             # figure用の画像実体
+│   └── audit_log/<id>.tsv  # 検収台帳(検収状態の真実の源。ADR-7)
 ├── tools/
 │   ├── render_plan.py      # JSON → docs/plans/<id>.html + audit.tsv
+│   ├── tokens.py           # 構造トークンの値代入(移行A・ADR-6)
 │   ├── validate_schema.py  # スキーマ検証(出典必須・まとめタブ規約 等)
 │   ├── validate.mjs        # 既存の出力HTML検証ハーネス
-│   └── build.py            # manifest → ハブ index.html 生成
+│   ├── build.py            # manifest → ハブ index.html 生成
+│   └── audit_worksheet.py  # audit.tsv+台帳 → 検収ワークシート(ADR-7)
 ├── templates/
 │   ├── shell.html          # 計画ページ共通シェル
 │   ├── shell.css           # 共通CSS(デザイントークン+ブロック+チャート)
+│   ├── tokens.css          # 構造トークンの単一正典(ADR-6)
+│   ├── hub.html            # ハブ shell(build.py の入力・ADR-2)
 │   └── runtime.js          # 共通ランタイム(タブ切替のみ、~1KB)
-├── build/audit/<id>.tsv    # 照合表(git管理外でも可)
+├── build/audit/
+│   ├── <id>.tsv            # 照合表(git管理外でも可)
+│   └── <id>.worksheet.html # 検収ワークシート(生成物・非公開。ADR-7)
 └── docs/                   # GitHub Pages 公開ルート
     ├── index.html          # ハブ
     └── plans/<id>.html     # 生成された計画ダッシュボード

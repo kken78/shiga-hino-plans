@@ -226,6 +226,7 @@ A→B の順で実施し、各々を別コミット群とすることで、後�
 - `fold` は文字列の場合もある(PLAN_SCHEMA §6-B の後方互換)。その場合は `fold.label` として扱う。
 - 弱い位置依存が残ることを明記: `heading` を挿入すると、以降の「`title` も `fold` も無い」ブロックのラベルが変わる。ただし影響はその見出し配下に限定され、かつ意味的に妥当(そのブロックは実際に別の節へ移った)。686 とは桁が違う。
 - スキーマ改定は不要(`fold.label` / `title` / `heading` はいずれも既存語彙。CLAUDE.md 制約5 に抵触しない)。
+- 空の `block_label` は正当。実測: kodomo 886行中 12行(summary/kpi 4 ・ needs/table 4 ・ hyoka/table 3 ・ hyoka/bigstat 1)。`_charttest` は 19行中 0。原因は構造的に2つ: (1) PLAN_SCHEMA §5 により summary には `heading` を置けず、`kpi_grid`/`targets` は `title` も `fold` も持たない → 導出チェーンが3段とも空振りする。(2) タブ内で最初の `heading` より前に置かれたブロックには先行 `heading` が存在しない(needs/hyoka の `table`・`bigstat` がこれにあたる)。この12行を含めて7要素キーは単射(groups=0)。空は単射性を壊していない(空を例外にしない根拠。G3 参照)。
 
 **E. 列定義**
 - `audit.tsv`(8列に変更): `tab / block_no / btype / block_label / label / value / unit / source`。`block` の `11:table` 混載を解消し、キー成分(`btype`)と非キー成分(`block_no`)をファイル上で分離する。
@@ -233,6 +234,7 @@ A→B の順で実施し、各々を別コミット群とすることで、後�
   - キー成分: `tab, btype, block_label, label, value, unit, source`(7つとも台帳に載る = 台帳だけで key を検算できる)。
   - 非キー: `block_no`(locator), `checked, reviewer, date, note`。
 - ADR-7 当初の列定義は `unit` を欠いており key を検算できなかった。本補遺で修正する。
+- `btype` は render_plan.py が audit に書く短縮名であり、PLAN_SCHEMA の型名とは一致しない(例: 型 `kpi_grid` → btype `kpi`)。決定論的である限りキーとして機能する。
 - `checked` は「原典と一致することを確認した」の意(「見た」ではない)。不一致は `data/plans/<id>.json` を修正 → 再レンダリング → キー変化 → 自動的に未検収、のループで解消する。台帳ヘッダ直後のコメント行とコードコメントの両方に明記する。
 
 **F. 反映経路(動詞3つ・マージ規則なし)**
@@ -265,7 +267,8 @@ git commit
 ADR-6 の三点セットと同型。
 - キー衝突検出: 同一 key が2行以上生じたら例外。(b) では発火しないはず(kodomo で groups=0)なので、発火したら実装バグか未知の構造の検出という良いセンチネルになる。kodomo は0だが、残り42計画では未保証(`fold.label`/`title`/`heading` のいずれも持たないブロックが同一タプルを持つ可能性)。
 - NF != 8: `audit.tsv` の列数が想定と違えば例外。render_plan.py の audit 出力は `"\t".join(str(x) for x in row)` でエスケープしていないため、将来 `programs.desc`(原典全文・要約禁止)にタブや改行が入れば TSV が静かに壊れる。検収機構がレンダラーの欠陥を検出する配置。
-- 台帳読み込み失敗 / `block_label` 導出の0件マッチ: 例外。
+- 台帳読み込み失敗: 例外。
+- `block_label` が空になることは正当な状態であり、例外にしてはならない(空を例外にすると kodomo の12行が render できなくなる。D 参照)。空に対する安全網は G1(キー衝突の fail-loud)である——空同士が偶然一致すれば G1 が発火する。
 
 **H. 既知の欠陥(記録)**
 - `label` は表を同定しない。audit の `label` は行ラベル(例「①量の見込み」)であり、表の正体(認定区分)は `fold.label` = ブロックの属性にある。ゆえに block 系の列が事実上の disambiguator になっている。fold された表が多いページ(認定区分別・事業別)ほど同型の行ラベルが並び、数値の偶然一致が起きやすい(27群のうち26群が ryo に集中したのはこの構造の必然)。将来 audit の粒度を見直す際の引き金として記録する。
@@ -276,7 +279,7 @@ ADR-6 の三点セットと同型。
 当初計画になかった工程が1つ入る。
 1. 本補遺の記録(このステップ)。
 2. render_plan.py の audit 出力を8列化(`block_label` 追加・`block` 分割)→ 全計画再レンダリング(CLAUDE.md「レンダラーを触ったら全計画」。現時点で `data/plans/` は kodomo と `_charttest` の2本のみ)。
-   - 検証ゲート: `git diff --exit-code docs/plans/` が緑(列追加は HTML に影響しないはず)/ `build/audit/kodomo.tsv` が 887行・全行 NF=8 / 7要素キーの単射性を再測定して groups=0 を確認 / `block_label` 導出の0件マッチで例外。
+   - 検証ゲート: `git diff --exit-code docs/plans/` が緑(列追加は HTML に影響しないはず)/ `build/audit/kodomo.tsv` が 887行・全行 NF=8 / 7要素キーの単射性を再測定して groups=0 を確認 / 空 `block_label` が kodomo で12行(内訳は D のとおり)であることを再測定して確認(増減があれば導出実装が規範 D と食い違っているサイン)。
 3. tools/audit_worksheet.py の実装(新セッション)。
 4. kodomo の検収実施。
 - **(b) を今やる理由(記録)**: ADR-7 は (b) を「フォーマット変更 + 全計画の再レンダリングを要する」ため見送ったが、そのコストは単調増加する。今日は再レンダリング2ファイル・移行すべき既存 checked ゼロ。43計画スケールでは43倍になり、kodomo の検収完了後に変更すれば886行の検収結果が全て無効化される。「将来 (a) が脆いと判明した時点で再検討」は最も高い瞬間まで待つことを意味していた。脆さは本測定で判明した。

@@ -111,8 +111,13 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
 `line` / `pair_bars` / `rank_bars`)。ブロック語彙も全20種を実装
 (programs の `intro`/`desc`、table の `fold`、ジャンプ目次 `toc` を含む)。
 出典表示は連続同一 source をラン末尾に集約(表示のみ・PLAN_SCHEMA §4)。
-移植の視覚リファレンスは `sources_raw/hub-legacy.html` の
-`.hkodomo`(stack100/pairBars)と `.hpshi`(render)。描画確認用フィクスチャは
+移植の視覚リファレンスだった `sources_raw/hub-legacy.html`(旧ハブ・embed 入り。
+`.hkodomo`=stack100/pairBars、`.hpshi`=render)は現存しない。git 未追跡
+(`sources_raw/` は .gitignore)で、旧 Pages `https://kken78.github.io/hino-plans/` も 404。
+参照の必要もない: 全6 kind・全20ブロックは実装済みで、リファレンスとしての役目は終えている。
+koutsu/shisetsu は本書の定型フローどおり原典PDFから抽出する(hub-legacy からの逆抽出は
+しない。kodomo の逆抽出は語彙確定のための Phase 1 限定の手段であり、その代償として audit
+886行の検収債務を負っている)。描画確認用フィクスチャは
 `data/plans/_charttest.json`(3種を1本に。id が `_` 始まりでも
 `data/plans/*.json` の全計画ループに乗るので、レンダラー改修時に
 自動再描画・自動検証される)。
@@ -177,6 +182,8 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
   `build/audit/kodomo.tsv`(886行)を突合。2層機構(台帳 + ワークシート)で実施。完了条件は
   `data/audit_log/kodomo.tsv` の全行 checked。PDF は配置済み。
   ※ 機構 `tools/audit_worksheet.py` は未実装 → 先に実装する。
+- [ ] `templates/hub.html` の `.hpshi-tip` 除去行(L875)を削除 — ADR-2 の embed 廃止により
+  永久に0件の no-op(ADR-6 の「0件 no-op 禁止」と不整合)。ADR-7 の作業とは別コミットで。
 
 **原典PDF待ち(配置後に着手)**
 - [ ] **koutsu の移行** — 路線図JPEGを `data/assets/koutsu_map.jpg` に切り出し

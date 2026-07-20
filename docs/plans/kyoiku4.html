@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>教育振興基本計画｜日野町データポータル（非公式）</title>
+<meta name="description" content="日野町の教育がめざす基本目標と、10の柱にそった施策の方向をまとめた計画です。">
+<style>
+/* shell.css — 計画ダッシュボード共通スタイル(schema v1)
+   計画ごとの個性は :root のテーマ4変数のみ(render_plan.py が注入)。
+   既存3ダッシュボードの意匠系(明朝見出し・eyebrow・理念バナー・
+   番号付きタブ)を共通化したもの。 */
+
+.hpv1{
+  /* テーマ(render時に上書き) */
+  --accent:#1E4E9C; --accent2:#C33D2E; --danger:#c25b46; --paper:#f4f6f8;
+  /* 派生・共通トークン */
+  --ink:#232a33; --ink2:#4c5561; --mut:#7d8692;
+  --card:#ffffff; --line:#dfe4ea; --line2:#edf0f4;
+  --ok:#2f6d5f;
+  --r:14px; --r2:9px;
+  /* 型スケール(8段) */
+  --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
+  --fs-lead:15.5px; --fs-small:13px; --fs-micro:11.5px; --fs-kn:30px;
+  --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
+  --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:var(--fs-body); line-height:1.75;
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+.hpv1 *{box-sizing:border-box}
+.hpv1 :where(h1,h2,h3,h4,p,ul,ol,figure,dl,dd){margin:0}
+.hpv1 .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+.hpv1 a{color:var(--accent)}
+.hpv1 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.hpv1 .wrap{max-width:920px;margin:0 auto;padding:0 18px 56px}
+
+/* ---------- ヘッダー ---------- */
+.hpv1 .head{padding:30px 0 0}
+.hpv1 .crumb{font-size:var(--fs-small);margin-bottom:14px}
+.hpv1 .crumb a{text-decoration:none;color:var(--ink2)}
+.hpv1 .crumb a:hover{color:var(--accent)}
+.hpv1 .eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:12.5px;letter-spacing:.14em;font-weight:700;color:var(--accent);
+}
+.hpv1 .eyebrow::before{content:"";width:22px;height:2px;background:var(--accent2);border-radius:2px}
+.hpv1 h1{
+  font-family:var(--serif);font-size:var(--fs-title);font-weight:800;
+  letter-spacing:.01em;line-height:1.3;margin-top:10px;
+}
+.hpv1 .metarow{
+  display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;
+  font-size:var(--fs-small);color:var(--ink2);
+}
+.hpv1 .metarow b{color:var(--ink)}
+.hpv1 .vision-banner{
+  margin-top:14px;padding:12px 16px;border-radius:var(--r2);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 9%,transparent),
+    color-mix(in srgb,var(--accent2) 9%,transparent));
+  border:1px solid var(--line);
+  font-weight:700;font-size:14.5px;letter-spacing:.02em;
+  color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+  display:flex;gap:12px;align-items:baseline;
+}
+.hpv1 .vision-banner .lbl{font-size:11px;color:var(--mut);letter-spacing:.1em;flex:none}
+.hpv1 .lead{margin-top:12px;font-size:var(--fs-lead);color:var(--ink2)}
+
+/* ---------- タブ(番号=読む順序) ---------- */
+.hpv1 .tabs{
+  display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line);
+  flex-wrap:wrap;position:sticky;top:0;background:var(--paper);z-index:5;
+}
+.hpv1 .tab{
+  appearance:none;border:0;background:none;cursor:pointer;
+  font:inherit;font-weight:700;font-size:14px;color:var(--ink2);
+  padding:11px 15px 12px;border-radius:9px 9px 0 0;position:relative;
+}
+.hpv1 .tab .tn{color:var(--mut);font-size:var(--fs-micro);font-weight:800;margin-right:7px;letter-spacing:.05em}
+.hpv1 .tab:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.hpv1 .tab[aria-selected="true"]{color:var(--ink)}
+.hpv1 .tab[aria-selected="true"] .tn{color:var(--accent2)}
+.hpv1 .tab[aria-selected="true"]::after{
+  content:"";position:absolute;left:10px;right:10px;bottom:-1px;height:3px;
+  background:var(--accent);border-radius:3px 3px 0 0;
+}
+.hpv1 .panel{display:none;padding-top:26px}
+.hpv1 .panel.active{display:block}
+
+/* ---------- 汎用ブロック ---------- */
+.hpv1 .b-narrative{max-width:44em;margin:0 0 18px}
+.hpv1 .b-heading{margin:30px 0 12px}
+/* 統一セクション見出し(.b-heading h2 / .phead / .b-chart .cttl を1系統へ)
+   共通:明朝・fs-sec(17)・700・ink。区切り線(左4px accent + pad-left12)は
+   箱の外の見出しだけ。.cttl は箱の中なので字面のみ統一(左ボーダーなし)。 */
+.hpv1 .b-heading h2,
+.hpv1 .phead,
+.hpv1 .b-chart .cttl{
+  font-family:var(--serif);font-size:var(--fs-sec);font-weight:700;color:var(--ink);line-height:1.4;
+}
+.hpv1 .b-heading h2,
+.hpv1 .phead{
+  padding-left:12px;border-left:4px solid var(--accent);
+}
+.hpv1 .b-heading .sub{font-size:12.5px;color:var(--mut);margin-top:3px;padding-left:16px}
+.hpv1 .b-note{
+  display:flex;gap:8px;font-size:var(--fs-small);color:var(--ink2);
+  margin:12px 0;padding:10px 13px;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .b-note::before{content:"◦";color:var(--accent2);font-weight:800}
+.hpv1 .b-bullets{margin:0 0 18px}
+.hpv1 .b-bullets .t{font-weight:700;margin-bottom:6px}
+.hpv1 .b-bullets ul{padding-left:1.3em}
+.hpv1 .b-bullets li{margin:4px 0}
+.hpv1 .b-bullets li::marker{color:var(--accent)}
+.hpv1 .b-callout{
+  margin:18px 0;padding:14px 18px;border-radius:var(--r2);
+  border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));
+  background:color-mix(in srgb,var(--accent) 5%,var(--card));
+}
+.hpv1 .b-callout .t{font-weight:800;color:var(--accent);margin-bottom:4px}
+.hpv1 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.hpv1 .chip{
+  font-size:var(--fs-micro);font-weight:700;padding:3px 10px;border-radius:99px;
+  background:var(--card);border:1px solid var(--line);color:var(--ink2);
+}
+.hpv1 .b-vision{
+  margin:6px 0 20px;padding:18px 20px;border-radius:var(--r);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 10%,var(--card)),
+    color-mix(in srgb,var(--accent2) 8%,var(--card)));
+  border:1px solid var(--line);
+}
+.hpv1 .b-vision .lbl{font-size:11px;letter-spacing:.14em;font-weight:800;color:var(--mut)}
+.hpv1 .b-vision .tx{
+  font-family:var(--serif);font-size:19px;font-weight:800;line-height:1.5;
+  margin-top:4px;color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+}
+.hpv1 .b-aims{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .aim{
+  display:flex;gap:12px;align-items:baseline;padding:12px 15px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .aim .no{
+  font-family:var(--serif);font-weight:800;color:var(--accent);flex:none;
+  min-width:1.6em;text-align:center;
+}
+.hpv1 .aim .t{font-weight:700}
+.hpv1 .aim .d{font-size:var(--fs-small);color:var(--ink2);margin-top:2px}
+.hpv1 .b-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .card{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:14px 16px}
+.hpv1 .card .ct{font-weight:800;margin-bottom:4px}
+.hpv1 .card .cd{font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-challenges .card{border-left:4px solid var(--danger)}
+.hpv1 .b-fields{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .field{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:12px 15px}
+.hpv1 .field .ft{font-weight:800;font-size:var(--fs-sub)}
+.hpv1 .field .fd{font-size:var(--fs-small);color:var(--ink2);margin-top:3px}
+.hpv1 .b-actions{
+  margin:20px 0;padding:16px 18px;border-radius:var(--r);
+  background:color-mix(in srgb,var(--ok) 7%,var(--card));
+  border:1px solid color-mix(in srgb,var(--ok) 25%,var(--line));
+}
+.hpv1 .b-actions .t{font-weight:800;color:var(--ok);margin-bottom:8px}
+.hpv1 .b-actions ul{padding-left:1.3em}
+.hpv1 .b-actions li{margin:4px 0}
+
+/* タブ内ジャンプ目次(toc) — 薄いaccent背景の角丸リンクを横並び */
+.hpv1 .b-toc{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 20px}
+.hpv1 .b-toc .tl{font-size:12.5px;font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
+.hpv1 .b-toc a{
+  font-size:var(--fs-small);font-weight:700;text-decoration:none;color:var(--accent);line-height:1.5;
+  background:color-mix(in srgb,var(--accent) 8%,var(--card));
+  border:1px solid color-mix(in srgb,var(--accent) 20%,var(--line));
+  padding:5px 12px;border-radius:99px;
+}
+.hpv1 .b-toc a:hover{background:color-mix(in srgb,var(--accent) 15%,var(--card));border-color:var(--accent)}
+/* アンカージャンプ位置補正:sticky タブバー(.tabs top:0)の下に隠れないよう余白 */
+.hpv1 .panel [id]{scroll-margin-top:64px}
+
+/* ---------- データ系ブロック ---------- */
+.hpv1 .b-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .kpi{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 15px 12px}
+.hpv1 .kpi .kl{font-size:var(--fs-small);font-weight:700;color:var(--ink2)}
+.hpv1 .kpi .kn{font-size:var(--fs-kn);font-weight:800;line-height:1.15;margin-top:2px;letter-spacing:-.01em}
+.hpv1 .kpi .ku{font-size:var(--fs-small);font-weight:700;color:var(--mut);margin-left:3px}
+.hpv1 .kpi .kd{font-size:var(--fs-micro);color:var(--ink2);margin-top:5px;display:flex;gap:6px;align-items:baseline}
+.hpv1 .kpi .tr{font-weight:800;flex:none}
+.hpv1 .kpi .tr.down{color:var(--danger)} .hpv1 .kpi .tr.up{color:var(--ok)} .hpv1 .kpi .tr.flat{color:var(--mut)}
+.hpv1 .kpi .asof{font-size:var(--fs-micro);color:var(--mut)}
+
+.hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:18px 22px}
+.hpv1 .b-bigstat .v{font-size:44px;font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
+.hpv1 .b-bigstat .u{font-size:var(--fs-sub);font-weight:700;color:var(--mut)}
+.hpv1 .b-bigstat .l{font-weight:700}
+.hpv1 .b-bigstat .d{font-size:var(--fs-small);color:var(--ink2);flex-basis:100%}
+
+.hpv1 .b-targets{display:grid;gap:10px;margin:0 0 18px}
+.hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
+.hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
+.hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
+.hpv1 .target .cur{font-size:22px;font-weight:800}
+.hpv1 .target .ar{color:var(--mut)}
+.hpv1 .target .tar{font-size:22px;font-weight:800;color:var(--accent2)}
+.hpv1 .target .tu{font-size:var(--fs-small);color:var(--mut);font-weight:700}
+.hpv1 .target .asof{font-size:var(--fs-micro);color:var(--mut)}
+.hpv1 .target svg{display:block;width:100%;height:6px;margin-top:9px}
+.hpv1 .target .pct{font-size:var(--fs-micro);color:var(--ink2);margin-top:4px}
+
+.hpv1 .b-table{margin:0 0 18px;overflow:auto;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2)}
+.hpv1 table{border-collapse:collapse;width:100%;font-size:var(--fs-small)}
+.hpv1 th,.hpv1 td{padding:8px 13px;text-align:right;border-bottom:1px solid var(--line2);white-space:nowrap}
+.hpv1 th:first-child,.hpv1 td:first-child{text-align:left}
+.hpv1 thead th{background:color-mix(in srgb,var(--accent) 6%,var(--card));font-weight:700;color:var(--ink2)}
+.hpv1 tbody tr:last-child td{border-bottom:0}
+.hpv1 td.neg{color:var(--danger);font-weight:800}
+.hpv1 td.pos{color:var(--ok);font-weight:800}
+.hpv1 td.em{font-weight:800}
+
+.hpv1 .b-chart{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+  padding:14px 16px;margin:0 0 12px}
+.hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
+.hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
+.hpv1 .b-chart svg{display:block;width:100%;height:auto}
+.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 4px;font-size:var(--fs-micro);color:var(--ink2)}
+.hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+
+.hpv1 .b-figure{margin:0 0 18px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:12px}
+.hpv1 .b-figure img{display:block;width:100%;height:auto;border-radius:6px}
+.hpv1 .b-figure figcaption{font-size:var(--fs-small);color:var(--ink2);margin-top:8px}
+
+.hpv1 .b-timeline{display:grid;gap:6px;margin:0 0 18px}
+.hpv1 .tlrow{display:flex;gap:12px;align-items:center;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);padding:9px 14px}
+.hpv1 .tlrow .sp{font-weight:800;color:var(--accent);flex:none;min-width:7em}
+.hpv1 .b-programs{margin:0 0 18px}
+.hpv1 .pgroup{margin-bottom:16px}
+.hpv1 .phead{margin-bottom:8px}  /* 旧・下border/accent文字色は統一セクション見出しへ集約 */
+.hpv1 .psub{font-weight:700;font-size:var(--fs-small);color:var(--ink2);margin:9px 0 5px}
+.hpv1 .pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;align-items:start}
+.hpv1 .ev{display:flex;gap:9px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:9px 12px;font-size:var(--fs-small)}
+.hpv1 .ev .no{font-weight:800;color:var(--accent);flex:none}
+.hpv1 .ev .etwrap{min-width:0}
+.hpv1 .ev .et{font-weight:700}
+.hpv1 .ev .ed{color:var(--mut);font-size:var(--fs-micro);margin-top:1px}
+
+/* programs 案2: グループの方向性・視点(常時表示) */
+.hpv1 .pintro{background:color-mix(in srgb,var(--accent) 6%,var(--card));
+  border:1px solid var(--line2);border-radius:var(--r2);padding:10px 13px;margin:0 0 9px}
+.hpv1 .pintro-item{margin:7px 0}
+.hpv1 .pintro-item:first-child{margin-top:0}
+.hpv1 .pintro-item:last-child{margin-bottom:0}
+.hpv1 .pih{font-weight:700;font-size:var(--fs-small);color:var(--accent)}
+.hpv1 .pih::before{content:"◎ "}
+.hpv1 .pib{font-size:var(--fs-small);color:var(--ink2);margin-top:1px}
+
+/* programs 案2: 事業内容(desc)の折りたたみ details/summary */
+.hpv1 .ev.evd{display:block;padding:0;cursor:pointer}
+.hpv1 .ev.evd>summary{display:flex;gap:9px;align-items:center;
+  padding:9px 12px;min-height:44px;list-style:none}
+.hpv1 .ev.evd>summary::-webkit-details-marker{display:none}
+.hpv1 .ev.evd>summary .etwrap{flex:1}
+.hpv1 .ev.evd>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .ev.evd[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .ev.evd[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .edesc{padding:9px 12px 11px;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .edesc p{margin:0 0 6px}
+.hpv1 .edesc p:last-child{margin-bottom:0}
+
+/* table 折りたたみ(fold) — programs の details と同方式 */
+.hpv1 .b-foldtbl{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);margin:0 0 12px}
+.hpv1 .b-foldtbl>summary{display:flex;gap:9px;align-items:center;padding:10px 13px;min-height:44px;list-style:none;cursor:pointer}
+.hpv1 .b-foldtbl>summary::-webkit-details-marker{display:none}
+.hpv1 .b-foldtbl>summary .ftwrap{flex:1;min-width:0}
+.hpv1 .b-foldtbl>summary .ftl{font-weight:700;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-foldtbl>summary .fts{font-size:var(--fs-micro);color:var(--mut);margin-top:1px}
+.hpv1 .b-foldtbl>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .b-foldtbl[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .b-foldtbl[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .b-foldtbl .b-table{margin:12px;border:none;border-radius:0}
+.hpv1 .b-foldtbl .b-note{margin:0 12px 12px}
+
+.hpv1 .src{font-size:var(--fs-micro);color:var(--mut);margin:2px 0 16px;text-align:right}
+.hpv1 .src::before{content:"出典："}
+
+/* ---------- フッター ---------- */
+.hpv1 .foot{margin-top:44px;border-top:1px solid var(--line);padding-top:20px;
+  font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .foot h2{font-size:var(--fs-sub);font-weight:800;font-family:var(--serif);margin-bottom:8px}
+.hpv1 .foot ul{padding-left:1.3em}
+.hpv1 .foot .disclaim{margin-top:14px;padding:11px 14px;border-radius:var(--r2);
+  background:var(--card);border:1px solid var(--line2)}
+.hpv1 .foot .contact{margin-top:10px}
+
+@media (max-width:560px){
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px}
+  .hpv1 .tab{padding:10px 11px 11px;font-size:13px}
+  .hpv1 .b-bigstat .v{font-size:34px}
+  .hpv1 .pgrid{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+  .hpv1 .panel.active{animation:hpv1-in .18s ease-out}
+  @keyframes hpv1-in{from{opacity:.4;transform:translateY(3px)}to{opacity:1;transform:none}}
+}
+
+.hpv1{ --accent:#2f6d5f;--accent2:#e0913f;--danger:#c25b46;--paper:#f3f6f1; }
+</style>
+</head>
+<body class="hpv1" data-hp-root>
+<div class="wrap">
+  <header class="head">
+    <nav class="crumb"><a href="../index.html">← 計画ライブラリにもどる</a></nav>
+    
+    <h1>第4期 日野町教育振興基本計画</h1>
+    <div class="metarow"><span>計画期間 <b class="num">R7〜R11年度</b></span><span>所管 <b>学校教育課</b></span><span>上位計画 <b>第6次日野町総合計画</b></span><span>公表 <b>2025年</b></span></div>
+    
+    <p class="lead">日野町の教育がめざす基本目標と、10の柱にそった施策の方向をまとめた計画です。</p>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="このページの内容"><button class="tab" role="tab" data-tab="summary" aria-selected="true"><span class="tn num">01</span>まとめ</button><button class="tab" role="tab" data-tab="shisaku" aria-selected="false"><span class="tn num">02</span>施策の柱</button></nav>
+  <section class="panel active" role="tabpanel" data-panel="summary"><div><div class="b-vision"><div class="lbl">基本目標</div><div class="tx">夢と志をもち、共に育ち共に生きる、活力ある人づくり</div></div></div><div class="src">第4期 日野町教育振興基本計画（本文） p.1</div><div><div class="b-narrative"><p>国の「教育振興基本計画」と「第4期滋賀県教育振興基本計画」を参酌しつつ、「第6次日野町総合計画」の政策の柱「未来を担うひとづくり」の政策「生涯にわたる学びと活躍の推進」の基本施策に基づき、日野町の教育施策を10の柱にまとめ、町民の皆さんとの「共創」のもとで実行していく計画です。</p></div></div><div class="src">第4期 日野町教育振興基本計画（本文） p.6</div></section><section class="panel" role="tabpanel" data-panel="shisaku"><div><div class="b-heading"><h2>総合計画に基づく「10の柱」</h2><div class="sub">第6次日野町総合計画の政策の柱にそって施策を体系化</div></div></div><div><div class="b-narrative"><p>日野町は「第6次日野町総合計画」にある政策の柱に基づき、教育施策を次の10の柱に体系化しています。それぞれの柱にそって、町民の皆さんとの「共創」のもとで施策を進めます。</p></div></div><div><div class="b-aims"><div class="aim"><span class="no">Ⅰ</span><div><div class="t">子ども・子育て</div><div class="d">子ども達が安心して生活できる仕組みづくり、幼児教育・保育の充実、子どもの発達段階等に応じた支援体制の充実を図る「子ども・子育て」施策の推進</div></div></div><div class="aim"><span class="no">Ⅱ</span><div><div class="t">学校教育</div><div class="d">地域に根ざした学校づくり、確かな学力の育成、豊かな心の育成、健やかな体の育成、特別支援教育、教育環境の充実、キャリア教育の推進という「学校教育」の振興に向けた施策の展開</div></div></div><div class="aim"><span class="no">Ⅲ</span><div><div class="t">地域で子どもを育む</div><div class="d">子どもと子育て家庭を支援する地域づくり、青少年の健全育成の観点を重視した「地域で子どもを育む」取組の推進</div></div></div><div class="aim"><span class="no">Ⅳ</span><div><div class="t">生涯学習</div><div class="d">生涯学習の推進、住民の学びを支える社会教育施設の活用といった「生涯学習」施策の展開</div></div></div><div class="aim"><span class="no">Ⅴ</span><div><div class="t">生涯スポーツ</div><div class="d">地域でのスポーツ活動の充実に向けた「生涯スポーツ」の振興</div></div></div><div class="aim"><span class="no">Ⅵ</span><div><div class="t">公民館活動</div><div class="d">町民の皆さんにとって身近な施設である「公民館活動」の充実</div></div></div><div class="aim"><span class="no">Ⅶ</span><div><div class="t">図書館</div><div class="d">地域に寄り添う図書館づくり、子どもの読書活動の推進を図る「図書館」の経営</div></div></div><div class="aim"><span class="no">Ⅷ</span><div><div class="t">文化・芸術活動</div><div class="d">地域の文化力を高める「文化・芸術活動」の環境づくり</div></div></div><div class="aim"><span class="no">Ⅸ</span><div><div class="t">歴史文化財</div><div class="d">歴史遺産の保存・継承・活用に向けた「歴史文化財」施策の推進</div></div></div><div class="aim"><span class="no">Ⅹ</span><div><div class="t">人権教育</div><div class="d">多様性の尊重、地域における「人権教育」の推進</div></div></div></div></div><div class="src">第4期 日野町教育振興基本計画（本文） p.6</div><div><div class="b-note"><span>原典に記載の不整合があります。施策一覧（p.6）では柱Ⅴ＝生涯スポーツ／柱Ⅵ＝公民館活動ですが、各柱の詳細節（p.18＝柱Ⅴ公民館、p.19＝柱Ⅵ生涯スポーツ）では順序が入れ替わっています。本一覧は施策一覧（p.6）の記載に従っています。</span></div></div><div class="src">第4期 日野町教育振興基本計画（本文） p.6,p.18-19</div><div><div class="b-note"><span>この計画は施策の方向性を定めるもので、原典には数値目標（指標・目標値）が設定されていません。</span></div></div></section>
+  <footer class="foot">
+    <h2>出典・原典資料</h2>
+    <ul><li>第4期 日野町教育振興基本計画（本文）（<a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8163/shikoukihon_4m.pdf" target="_blank" rel="noopener">リンク</a>）</li></ul>
+    <p class="contact">お問い合わせ：学校教育課</p>
+    <div class="disclaim">このページは公表資料をもとに要点をまとめた<b>非公式</b>のダッシュボードです。
+    図表は原典の数値から機械的に描画しています。正式な内容は
+    <a href="https://www.town.shiga-hino.lg.jp/0000008163.html" target="_blank" rel="noopener">日野町の公式ページ（外部サイト）</a>でご確認ください。</div>
+  </footer>
+</div>
+<script>
+/* runtime.js — 共通ランタイム(タブ切替のみ)。冪等・依存ゼロ。 */
+(function(){
+  "use strict";
+  var roots = document.querySelectorAll('.hpv1[data-hp-root]');
+  roots.forEach(function(root){
+    if (root.dataset.hpInit) return;      /* 再実行に対して冪等 */
+    root.dataset.hpInit = '1';
+    var tabs = root.querySelectorAll('.tab');
+    var panels = root.querySelectorAll('.panel');
+    function select(id){
+      tabs.forEach(function(t){ t.setAttribute('aria-selected', String(t.dataset.tab === id)); });
+      panels.forEach(function(p){ p.classList.toggle('active', p.dataset.panel === id); });
+      if (history.replaceState) history.replaceState(null, '', '#' + id);
+    }
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ select(t.dataset.tab); });
+    });
+    var h = location.hash.replace('#','');
+    if (h && root.querySelector('.panel[data-panel="' + h.replace(/[^a-z0-9_-]/g,'') + '"]')) select(h);
+  });
+})();
+
+</script>
+</body>
+</html>

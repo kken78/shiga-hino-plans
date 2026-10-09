@@ -96,6 +96,9 @@ def parse_ledger_text(text, where):
             raise AuditError(f"{where}: {n} 行目の key が内容と一致しません(手編集か文字化けの可能性)")
         if r["checked"] not in CHECKED_VALUES:
             raise AuditError(f"{where}: {n} 行目の checked の値が不正です: {r['checked']!r}(空か ✓)")
+        if r["checked"] == "✓" and not (r["reviewer"].strip() and r["date"].strip()):
+            raise AuditError(f"{where}: {n} 行目は ✓ なのに確認者か日付が空です。"
+                             "確認者(人は GitHub のユーザー名)を入れてから印を付けてください")
         out.append(r)
     keys = [r["key"] for r in out]
     if len(keys) != len(set(keys)):
@@ -220,7 +223,7 @@ h2 a{font-size:13px;font-weight:400;margin-left:8px}
   <h1>検収ワークシート：<span id="nm"></span></h1>
   <div class="bar">
     <span class="prog" id="prog"></span>
-    <label>確認者 <input type="text" id="rv"></label>
+    <label>確認者 <input type="text" id="rv" placeholder="GitHub のユーザー名"></label>
     <label><input type="checkbox" id="only"> 未確認のみ表示</label>
     <button type="button" id="exp">台帳形式でエクスポート</button>
     <button type="button" class="sub" id="drop">下書きを破棄</button>
@@ -297,6 +300,13 @@ list.querySelectorAll(".row").forEach(el => {
   nt.value = st[k].note;
   paint();
   cb.addEventListener("change", () => {
+    if (cb.checked && !rv.value.trim()) {
+      // 確認者が空のまま印を付けさせない(台帳は「誰が確認したか」の記録。--import でも弾く)
+      cb.checked = false;
+      document.getElementById("dr").textContent = "先に上の「確認者」に GitHub のユーザー名を入れてください";
+      rv.focus();
+      return;
+    }
     if (cb.checked) {
       st[k] = Object.assign({}, st[k], {checked: "✓", reviewer: rv.value.trim(), date: new Date().toISOString().slice(0, 10)});
     } else {

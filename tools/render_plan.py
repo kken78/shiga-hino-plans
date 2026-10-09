@@ -46,6 +46,7 @@ DEFAULT_THEME = {"accent": "#1E4E9C", "accent2": "#C33D2E",
                  "danger": "#c25b46", "paper": "#f4f6f8"}
 CHART_FONT = 10.5  # チャート内フォント(2段のうち小)
 CHART_FONT2 = 11.5  # チャート内フォント(2段のうち大)
+TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 
 
 def esc(s):
@@ -311,7 +312,18 @@ class Renderer:
         return f'<div class="b-targets">{"".join(rows)}</div>'
 
     def b_table(self, b, tab_id, block_no):
-        head = "".join(f"<th>{esc(h)}</th>" for h in b["head"])
+        # 文章列(PLAN_SCHEMA §6-B): 2列目以降で数値を含まず、最長の文字列が
+        # TEXT_COL_MIN 字を超える列。見出しを含めて左寄せ・折り返しで表示する。
+        def raw(cell):
+            return cell["v"] if isinstance(cell, dict) else cell
+        text_cols = set()
+        for ci in range(1, len(b["head"])):
+            vals = [raw(r[ci]) for r in b["rows"] if ci < len(r)]
+            if vals and all(isinstance(v, str) for v in vals) \
+                    and max(len(v) for v in vals) > TEXT_COL_MIN:
+                text_cols.add(ci)
+        head = "".join(f'<th class="txt">{esc(h)}</th>' if ci in text_cols else f"<th>{esc(h)}</th>"
+                       for ci, h in enumerate(b["head"]))
         trs = []
         for row in b["rows"]:
             tds = []
@@ -331,7 +343,8 @@ class Renderer:
                             cls = (cls + " neg").strip()
                     else:
                         v = fmt(v)
-                classes = " ".join(c for c in (("num" if is_num else ""), cls) if c)
+                classes = " ".join(c for c in (("num" if is_num else ""),
+                                               ("txt" if ci in text_cols else ""), cls) if c)
                 cls_attr = f' class="{esc(classes)}"' if classes else ""
                 tds.append(f"<td{cls_attr}>{esc(v)}</td>")
             trs.append(f"<tr>{''.join(tds)}</tr>")

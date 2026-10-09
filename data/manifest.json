@@ -48,7 +48,7 @@
       "stat": "18,000人台",
       "statLabel": "めざす将来展望人口（人口ビジョン）の維持",
       "lead": "人口減少・超高齢社会に的をしぼった、総合計画の特化戦略。",
-      "summary": "総合計画のうち、人口減少と超高齢社会への対策に特化した施策をまとめた地方創生の戦略。「日野町人口ビジョン」が見通す将来展望人口18,000人台の維持と人口構造の安定をめざします。総合計画との整合のため計画期間を1年延長しています。",
+      "summary": "総合計画のうち、人口減少と超高齢社会への対策に特化した施策をまとめた地方創生の戦略。「日野町人口ビジョン」が見通す将来展望人口18,000人台の維持と人口構造の安定をめざします。「第6次日野町総合計画」の中間見直しを踏まえて第3期を策定するため、計画期間を1年延長し、令和8年度までとしています。",
       "points": [
         "目標は「将来展望人口18,000人台の維持」と人口構造の安定",
         "4つの基本目標のもとで約40の施策を展開",
@@ -61,7 +61,7 @@
       "dept": "企画振興課 企画人権担当",
       "url": "https://www.town.shiga-hino.lg.jp/0000005742.html",
       "posted": "2024年4月改訂",
-      "next": "令和8年度中に第3期を策定予定"
+      "next": "令和8年度中に第3期を策定予定（策定次第、第2期は終了）"
     },
     {
       "id": "kokudoriyou",
@@ -157,10 +157,12 @@
         "計画期間内の事業量・効果を明示",
         "国交付金の要件として公表"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 4,
+      "end": 8,
       "dept": "建設計画課",
       "url": "https://www.town.shiga-hino.lg.jp/0000006557.html",
-      "posted": "掲載ページ参照"
+      "posted": "2025年12月改訂"
     },
     {
       "id": "taishin",
@@ -335,9 +337,10 @@
         "緑の目標水準の設定"
       ],
       "verified": false,
+      "periodNote": "令和7年から20年後の令和27年を目標年次とする",
       "dept": "建設計画課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008540.html",
-      "posted": "掲載ページ参照"
+      "posted": "2025年12月"
     },
     {
       "id": "bunbetsu",
@@ -473,10 +476,12 @@
         "働きやすい職場環境・合理的配慮",
         "採用から定着までの支援体制"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 8,
+      "end": 10,
       "dept": "総務課",
       "url": "https://www.town.shiga-hino.lg.jp/0000004894.html",
-      "posted": "掲載ページ参照"
+      "posted": "2026年3月"
     },
     {
       "id": "katsuyaku-kyo",
@@ -562,9 +567,10 @@
         "子ども・子育て支援事業計画と整合"
       ],
       "verified": false,
+      "periodNote": "令和6年から令和11年までの6年間",
       "dept": "子ども支援課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008225.html",
-      "posted": "掲載ページ参照",
+      "posted": "2025年3月策定（2026年6月一部改正）",
       "next": "新こども園の整備を推進"
     },
     {
@@ -669,7 +675,7 @@
       "verified": false,
       "dept": "総務課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008676.html",
-      "posted": "掲載ページ参照"
+      "posted": "2026年3月改訂"
     },
     {
       "id": "tokutei-jigyo",
@@ -683,10 +689,12 @@
         "女性職員の登用目標",
         "子育て支援制度の周知・利用促進"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 8,
+      "end": 11,
       "dept": "総務課",
       "url": "https://www.town.shiga-hino.lg.jp/0000003356.html",
-      "posted": "掲載ページ参照"
+      "posted": "2026年4月改正"
     },
     {
       "id": "nogyo-tamen",
@@ -701,7 +709,7 @@
       ],
       "verified": false,
       "dept": "農林課",
-      "url": "https://www.town.shiga-hino.lg.jp/0000005605.html",
+      "url": "https://www.town.shiga-hino.lg.jp/0000008911.html",
       "posted": "2021年4月"
     },
     {

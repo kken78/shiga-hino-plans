@@ -1667,8 +1667,6 @@ function closePlanDetail(){
   _pdEl.classList.remove('is-open');
   document.body.classList.remove('pd-lock');
   if (_pdKey) document.removeEventListener('keydown', _pdKey);
-  // 埋め込みがbody直下に生成したツールチップ要素を後片付け（DOMの累積を防ぐ）
-  document.querySelectorAll('.hpshi-tip').forEach(n => n.remove());
   if (_pdTrigger && _pdTrigger.focus) _pdTrigger.focus();
   _pdTrigger = null;
 }

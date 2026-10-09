@@ -5,6 +5,7 @@
      (2) ページ全体が横にはみ出していないか(表の横スクロールは対象外)
      (3) チャートの中身がカードの幅からはみ出していないか
      (4) チャート内の同種ラベル(棒の名前・値、折れ線の目盛り)が重なっていないか
+     (5) 幅360pxの初期表示で、1つのチャートの高さが1200px(約2画面)以下か
    使い方: node tools/check_mobile.mjs docs/plans/<id>.html [...]
    Playwright が必要(npm i -D playwright && npx playwright install chromium)。
    見つからない場合は終了コード 2 で止まる(黙って合格にしない)。 */
@@ -13,6 +14,7 @@ import { pathToFileURL } from "node:url";
 
 const MIN_PX = 12;
 const WIDTHS = [360, 1024];
+const MAX_CHART_H = 1200;
 
 let chromium;
 try {
@@ -41,8 +43,8 @@ for (const file of process.argv.slice(2)) {
         await tabs[i].click();
         await page.waitForTimeout(250);
       }
-      const r = await page.evaluate(({ MIN_PX }) => {
-        const out = { min: Infinity, small: [], overflow: null, chartOverflow: [], overlaps: [] };
+      const r = await page.evaluate(({ MIN_PX, MAX_CHART_H, width }) => {
+        const out = { min: Infinity, small: [], overflow: null, chartOverflow: [], overlaps: [], tall: [] };
         const visible = (el) => {
           const s = getComputedStyle(el);
           if (s.display === "none" || s.visibility === "hidden") return false;
@@ -74,6 +76,8 @@ for (const file of process.argv.slice(2)) {
         const charts = [...document.querySelectorAll(".panel.active .b-chart")];
         charts.forEach((c, ci) => {
           if (c.scrollWidth > c.clientWidth + 1) out.chartOverflow.push(`chart#${ci} ${c.scrollWidth}>${c.clientWidth}`);
+          const h = c.getBoundingClientRect().height;
+          if (width === 360 && h > MAX_CHART_H) out.tall.push(`chart#${ci} ${Math.round(h)}px`);
           for (const sel of [".vb-l", ".vb-v", ".ln-x>span", ".ln-y>span", ".s100-s"]) {
             const els = [...c.querySelectorAll(sel)].filter(visible);
             const boxes = els.map((e) => {
@@ -95,12 +99,13 @@ for (const file of process.argv.slice(2)) {
           }
         });
         return out;
-      }, { MIN_PX });
+      }, { MIN_PX, MAX_CHART_H, width });
       const where = `${width}px tab${i + 1}`;
       if (r.min < minSeen) minSeen = r.min;
       if (r.small.length) errors.push(`${where}: ${MIN_PX}px 未満の文字 ${r.small.length}件(例 ${r.small.slice(0, 3).join("、")})`);
       if (r.overflow) errors.push(`${where}: ページが横にはみ出し ${r.overflow}`);
       r.chartOverflow.forEach((m) => errors.push(`${where}: チャートがカードからはみ出し ${m}`));
+      r.tall.forEach((m) => errors.push(`${where}: チャートが縦に長すぎる(上限${MAX_CHART_H}px) ${m}`));
       r.overlaps.slice(0, 5).forEach((m) => errors.push(`${where}: ラベルの重なり ${m}`));
       if (r.overlaps.length > 5) errors.push(`${where}: ラベルの重なり ほか${r.overlaps.length - 5}件`);
     }

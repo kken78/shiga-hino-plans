@@ -285,6 +285,21 @@
 .hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
 .hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
 .hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 長い横棒の一覧の折りたたみ(ADR-8 判断の優先順位 3・4)。:has() 非対応なら全件表示 */
+.hpv1 .hb-gap{display:none;grid-column:1/-1;color:var(--mut);text-align:center;line-height:1.2}
+.hpv1 .hbf:not(:has(details[open])) .fx{display:none}
+.hpv1 .hbf:not(:has(details[open])) .hb-gap{display:block}
+.hpv1 .more{margin-top:10px}
+.hpv1 .more>summary{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;cursor:pointer;
+  list-style:none;border:1px solid var(--line);border-radius:99px;font-size:var(--fs-small);font-weight:700;
+  color:var(--accent);background:var(--card)}
+.hpv1 .more>summary::-webkit-details-marker{display:none}
+.hpv1 .more .mc,.hpv1 .more[open] .mo{display:none}
+.hpv1 .more[open] .mc{display:inline}
+@media print{
+  .hpv1 .hbf .fx{display:contents!important}
+  .hpv1 .hbf .hb-gap,.hpv1 .more{display:none!important}
+}
 /* 狭い画面だけで使う表示(縦棒の代わりの横棒) */
 .hpv1 .narrow-only{display:none}
 .hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}

@@ -49,6 +49,7 @@ FS_CHART = 13       # --fs-chart(px)
 COL_GAP = 6         # 縦棒の列の間隔(px)。.vb の column-gap
 NARROW_W = 292      # 幅360pxの端末でのチャートの中身の幅(px)
 WIDE_W = 852        # 最大幅(920px)でのチャートの中身の幅(px)
+FOLD_MIN = 21       # 横棒がこの件数以上なら初期表示を畳む(ADR-8 判断の優先順位 3・4)
 INLINE_LABEL_W = 110  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 
@@ -495,18 +496,48 @@ class Renderer:
 
     def _hbar(self, rows, vw, extra_cls=""):
         """横棒部品 .hb。rows=[{label, sub?, segs:[(割合0-1, 色)], value, cls?}]。"""
+        n = len(rows)
+        fold = n >= FOLD_MIN
+        keep = set(range(n))
+        if fold:
+            # 初期表示に残す行: 先頭3件・強調行(日野町)とその前後2件・平均等・末尾1件
+            body_idx = [i for i, r in enumerate(rows) if r.get("cls") != "avg"]
+            keep = set(body_idx[:3] + body_idx[-1:])
+            for i, r in enumerate(rows):
+                if r.get("cls") == "em":
+                    keep.update(range(max(0, i - 2), min(n, i + 3)))
+                elif r.get("cls") == "avg":
+                    keep.add(i)
         out = []
-        for r in rows:
+        hidden_run = 0
+        for i, r in enumerate(rows):
+            if i not in keep:
+                hidden_run += 1
+            elif hidden_run:
+                out.append(f'<div class="hb-gap">…（{hidden_run}件）</div>')
+                hidden_run = 0
             sub = f'<span class="hb-sub">{esc(r["sub"])}</span>' if r.get("sub") else ""
             segs = "".join(f'<span style="width:{pct(f)};background:{c}"></span>' for f, c in r["segs"])
-            cls = f' {r["cls"]}' if r.get("cls") else ""
+            cls = (f' {r["cls"]}' if r.get("cls") else "") + ("" if i in keep else " fx")
             out.append(f'<div class="hb-r{cls}"><span class="hb-l">{esc(r["label"])}{sub}</span>'
                        f'<span class="hb-t">{segs}</span>'
                        f'<span class="hb-v num">{esc(r["value"])}</span></div>')
         if self._inline(f'{r["label"]} {r.get("sub") or ""}'.strip() for r in rows):
             extra_cls = (extra_cls + " inline-sm").strip()
-        cls = f" {extra_cls}" if extra_cls else ""
-        return f'<div class="hb{cls}" style="--vw:{vw}">{"".join(out)}</div>'
+        if hidden_run:
+            out.append(f'<div class="hb-gap">…（{hidden_run}件）</div>')
+        if not fold:
+            cls = f" {extra_cls}" if extra_cls else ""
+            return f'<div class="hb{cls}" style="--vw:{vw}">{"".join(out)}</div>'
+        # 畳む: 全行を出力し、初期表示では keep 以外を CSS で隠す。1回の操作で全件を表示でき、
+        # :has() 非対応のブラウザと印刷では全件が表示される(ADR-8 判断の優先順位 3)
+        inner = "inline-sm" if "inline-sm" in extra_cls else ""
+        outer = " ".join(c for c in extra_cls.split() if c != "inline-sm")
+        cls_i = f" {inner}" if inner else ""
+        cls_o = f" {outer}" if outer else ""
+        return (f'<div class="hbf{cls_o}"><div class="hb{cls_i}" style="--vw:{vw}">{"".join(out)}</div>'
+                f'<details class="more"><summary><span class="mo">すべて表示（全{len(body_idx)}件）</span>'
+                f'<span class="mc">折りたたむ</span></summary></details></div>')
 
     def _vbar(self, cols, extra_cls=""):
         """縦棒部品 .vb。cols=[{label, sub?, height(割合0-1), segs:[(積み上げ内の割合, 色)], value}]。"""

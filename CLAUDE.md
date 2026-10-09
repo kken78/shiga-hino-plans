@@ -143,10 +143,18 @@ koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出す�
 `tools/tokens.py`(load_tokens/apply_tokens・モデルA)が render_plan.py / build.py
 経由で各セレクタへ値代入する(移行A・ADR-6。計画=バイト不変、ハブ=計画側値へ収束)。
 
-検収(audit 突合)機構は ADR-7 に設計記録済み(実装は未着手): 台帳 `data/audit_log/<id>.tsv`
+検収(audit 突合)機構は ADR-7 のとおり実装済み(2026-10): 台帳 `data/audit_log/<id>.tsv`
 (検収状態の真実の源)+ `tools/audit_worksheet.py <id>` が生成する vanilla HTML ワークシート
 (ページ順・チェック欄・localStorage 下書き・エクスポートで台帳へ)の2層。突合キーは内容ハッシュで、
-値が変われば当該行は未検収へ戻る。kodomo は検収未実施。
+値が変われば当該行は未検収へ戻る。照合表 `build/audit/<id>.tsv` は8列(ADR-7 補遺 E)。
+台帳は kodomo・kokyo-kanri・kankyo のベースライン(全行未検収)を作成済み。手順:
+```bash
+python3 tools/audit_worksheet.py <id> --init          # 台帳のベースライン(初回のみ。そのままコミット)
+python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.worksheet.html(公開しない)
+#   ブラウザで原典と突合し「台帳形式でエクスポート」(印は下書き。台帳が正)
+python3 tools/audit_worksheet.py <id> --import <file> # 検証(行の一致・key・checked)して台帳を上書き
+git commit
+```
 
 ### Phase 1 の進捗
 
@@ -198,7 +206,7 @@ koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出す�
 - [ ] **kodomo の検収(audit 突合)**(ADR-7) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
   `build/audit/kodomo.tsv`(886行)を突合。2層機構(台帳 + ワークシート)で実施。完了条件は
   `data/audit_log/kodomo.tsv` の全行 checked。PDF は配置済み。
-  ※ 機構 `tools/audit_worksheet.py` は未実装 → 先に実装する。
+  機構 `tools/audit_worksheet.py` は実装済み(2026-10)。台帳のベースラインも作成済み。
 - [ ] `templates/hub.html` の `.hpshi-tip` 除去行(L875)を削除 — ADR-2 の embed 廃止により
   永久に0件の no-op(ADR-6 の「0件 no-op 禁止」と不整合)。ADR-7 の作業とは別コミットで。
 

@@ -494,10 +494,12 @@
         "働きやすい職場環境の整備",
         "相談・支援体制の確保"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 8,
+      "end": 10,
       "dept": "教育委員会",
       "url": "https://www.town.shiga-hino.lg.jp/0000004902.html",
-      "posted": "掲載ページ参照"
+      "posted": "2026年3月"
     },
     {
       "id": "kyoiku4",
@@ -552,7 +554,7 @@
       "end": 11,
       "dept": "子ども支援課",
       "url": "https://www.town.shiga-hino.lg.jp/0000005154.html",
-      "posted": "掲載ページ参照"
+      "posted": "2025年3月"
     },
     {
       "id": "youho",
@@ -643,7 +645,7 @@
       "periodNote": "平成29年度〜令和18年度（20年間）",
       "dept": "総務課",
       "url": "https://www.town.shiga-hino.lg.jp/0000003748.html",
-      "posted": "掲載ページ参照"
+      "posted": "2022年3月改定"
     },
     {
       "id": "suido2",

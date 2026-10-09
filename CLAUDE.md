@@ -215,8 +215,9 @@ git commit
   定型フローで起票。7タブ、audit 352行、ハブ登録済み。路線図(図16)は
   `data/assets/koutsu_map.jpg` に切り出し `figure` ブロックで参照。出典ページは印刷ページ番号
   (PDFページ−4)。各事業のスケジュール(工程)は年度範囲が確定できないため未収録。
-- [ ] **koutsu の検収(audit 突合)** — 原典 `sources_raw/koutsu/honpen.pdf` と
-  `build/audit/koutsu.tsv`(352行)を突合する。台帳のベースライン(全行未検収)は作成済み。
+- [x] **koutsu の検収(audit 突合)**(2026-10-09 検収済み) — 原典PDF
+  `sources_raw/koutsu/honpen.pdf` と `build/audit/koutsu.tsv`(352行)を突合し、
+  `data/audit_log/koutsu.tsv` の全352行が checked(確認者 kken78)。
 - [x] **kokyo-kanri(公共施設等総合管理計画)の追加**(2026-10) — Claude Design で作成した
   JSON を、原典(令和4年3月改定・54ページ)の全文テキストと照合・修正して追加。5タブ、
   audit 146行、ハブ登録済み。出典ページは印刷ページ番号(PDFページ−3)。

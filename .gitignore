@@ -3,3 +3,4 @@ sources_raw/
 __pycache__/
 .claude/settings.local.json
 node_modules/
+build/audit/*.worksheet.html

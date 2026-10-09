@@ -368,6 +368,13 @@
   .hpv1 .pb-l{text-align:left;margin-top:6px}
   .hpv1 .s100{grid-template-columns:minmax(0,1fr);row-gap:3px}
   .hpv1 .s100-l{text-align:left;margin-top:4px}
+  /* 名前が短い横棒(.inline-sm)は、狭い画面でも名前を同じ行に置いて縦に長くしない */
+  .hpv1{--chart-bar:12px}
+  .hpv1 .hb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);row-gap:5px}
+  .hpv1 .pb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .s100.inline-sm{grid-template-columns:fit-content(30%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .inline-sm .hb-l,.hpv1 .inline-sm .pb-l,.hpv1 .inline-sm .s100-l{text-align:right;margin-top:0}
+  .hpv1 .inline-sm .hb-l{grid-column:auto}
   .hpv1 .ln-x>.nw{display:none}
   .hpv1 .wide-only{display:none}
   .hpv1 .narrow-only{display:grid}

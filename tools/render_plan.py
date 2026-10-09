@@ -49,6 +49,7 @@ FS_CHART = 13       # --fs-chart(px)
 COL_GAP = 6         # 縦棒の列の間隔(px)。.vb の column-gap
 NARROW_W = 292      # 幅360pxの端末でのチャートの中身の幅(px)
 WIDE_W = 852        # 最大幅(920px)でのチャートの中身の幅(px)
+INLINE_LABEL_W = 110  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 
 
@@ -487,6 +488,11 @@ class Renderer:
         w = max((text_px(t, 1.0) for t in texts), default=2.0)
         return f"{math.ceil((w + 0.4) * 10) / 10}em"
 
+    @staticmethod
+    def _inline(labels):
+        """狭い画面でも名前を棒と同じ行に置けるか(名前が短い場合)。行数を減らして縦に長くしない。"""
+        return max((text_px(x, FS_CHART) for x in labels), default=0) <= INLINE_LABEL_W
+
     def _hbar(self, rows, vw, extra_cls=""):
         """横棒部品 .hb。rows=[{label, sub?, segs:[(割合0-1, 色)], value, cls?}]。"""
         out = []
@@ -497,6 +503,8 @@ class Renderer:
             out.append(f'<div class="hb-r{cls}"><span class="hb-l">{esc(r["label"])}{sub}</span>'
                        f'<span class="hb-t">{segs}</span>'
                        f'<span class="hb-v num">{esc(r["value"])}</span></div>')
+        if self._inline(f'{r["label"]} {r.get("sub") or ""}'.strip() for r in rows):
+            extra_cls = (extra_cls + " inline-sm").strip()
         cls = f" {extra_cls}" if extra_cls else ""
         return f'<div class="hb{cls}" style="--vw:{vw}">{"".join(out)}</div>'
 
@@ -635,7 +643,8 @@ class Renderer:
                             f'color:{self._ink(colors[si])}">{tx}</span>')
             rows.append(f'<div class="s100-r"><span class="s100-l">{esc(y["label"])}</span>'
                         f'<span class="s100-b">{"".join(segs)}</span></div>')
-        return f'<div class="s100">{"".join(rows)}</div>', self._legend([k["k"] for k in keys], colors)
+        cls = " inline-sm" if self._inline(y["label"] for y in years) else ""
+        return f'<div class="s100{cls}">{"".join(rows)}</div>', self._legend([k["k"] for k in keys], colors)
 
     def chart_pair_bars(self, b, tab_id, block_no):
         """2系列の横棒比較。各 row に a / b の2本を上下に描く。幅=v/max。
@@ -661,7 +670,8 @@ class Renderer:
                 f'<span class="hb-v num{vc}">{esc(fmt(v))}{esc(unit)}</span>' for v, c, vc in lines)
             groups.append(f'<div class="pb-g"><span class="pb-l">{esc(r["label"])}</span>'
                           f'<span class="pb-bars">{bars}</span></div>')
-        body = f'<div class="pb" style="--vw:{self._vw(vals)}">{"".join(groups)}</div>'
+        cls = " inline-sm" if self._inline(r["label"] for r in rows) else ""
+        body = f'<div class="pb{cls}" style="--vw:{self._vw(vals)}">{"".join(groups)}</div>'
         return body, self._legend([k["k"] for k in keys], colors)
 
     def chart_rank_bars(self, b, tab_id, block_no):

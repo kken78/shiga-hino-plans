@@ -23,7 +23,10 @@
   /* 型スケール(8段) */
   --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
   --fs-lead:15.5px; --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
-  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px;
+  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* チャート寸法(ADR-8) */
+  --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
+  --chart-track:#eef0f2; --chart-grid:#e4e8ee;
   --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
   --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
   color:var(--ink);
@@ -232,8 +235,58 @@
   padding:14px 16px;margin:0 0 12px}
 .hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
 .hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
-.hpv1 .b-chart svg{display:block;width:100%;height:auto}
-.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 4px;font-size:var(--fs-micro);color:var(--ink2)}
+.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 8px;font-size:var(--fs-chart);color:var(--ink2)}
+/* チャート部品(ADR-8)。文字はすべて HTML。棒の長さ・高さはレンダラーが値から計算した % */
+/* 横棒(rank_bars ほか): 名前 | 棒 | 値 */
+.hpv1 .hb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);
+  gap:5px 10px;align-items:center;font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .hb-r{display:contents}
+.hpv1 .hb-l{text-align:right;color:var(--ink2)}
+.hpv1 .hb-sub{color:var(--mut);margin-left:.4em}
+.hpv1 .hb-t{display:flex;height:var(--chart-bar);background:var(--chart-track);border-radius:4px;overflow:hidden}
+.hpv1 .hb-t>span{display:block;flex:none;height:100%}
+.hpv1 .hb-t>span:last-child{border-radius:0 4px 4px 0}
+.hpv1 .hb-v{text-align:right;font-weight:700;white-space:nowrap;color:var(--ink)}
+.hpv1 .hb-v.is-b{color:var(--ink2);font-weight:400}
+.hpv1 .hb-r.em .hb-l,.hpv1 .hb-r.em .hb-v{color:var(--accent2);font-weight:700}
+.hpv1 .hb-r.avg .hb-l{color:var(--ink);font-weight:700}
+/* 2系列の横棒(pair_bars): 名前 | (棒 | 値)×2 */
+.hpv1 .pb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr);gap:10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .pb-g{display:contents}
+.hpv1 .pb-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .pb-bars{display:grid;grid-template-columns:minmax(0,1fr) var(--vw,4em);gap:3px 10px;align-items:center}
+/* 100%積み上げの横棒(stacked_100): 名前 | 帯 */
+.hpv1 .s100{display:grid;grid-template-columns:fit-content(30%) minmax(0,1fr);gap:8px 10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .s100-r{display:contents}
+.hpv1 .s100-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .s100-b{display:flex;height:var(--chart-bar-l);border-radius:6px;overflow:hidden;box-shadow:inset 0 0 0 1px var(--line)}
+.hpv1 .s100-s{display:flex;flex:none;align-items:center;justify-content:center;overflow:hidden;
+  white-space:nowrap;font-weight:700}
+/* 縦棒(bars / stacked_bars): 列ごとに 値・棒・名前。目盛りは描かない */
+.hpv1 .vb{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);column-gap:6px;
+  padding-top:1.5em;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .vb-col{display:flex;flex-direction:column;min-width:0}
+.hpv1 .vb-t{height:var(--chart-h);display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  border-bottom:1px solid var(--line)}
+.hpv1 .vb-v{flex:none;font-weight:700;color:var(--ink);white-space:nowrap;padding-bottom:3px}
+.hpv1 .vb-s{flex:none;width:min(100%,var(--chart-col));display:flex;flex-direction:column-reverse;
+  border-radius:3px 3px 0 0;overflow:hidden}
+.hpv1 .vb-s>span{display:block;flex:none}
+.hpv1 .vb-l{margin-top:6px;text-align:center;font-weight:700;color:var(--ink2);overflow-wrap:anywhere}
+.hpv1 .vb-sub{display:block;font-weight:400;color:var(--mut)}
+/* 折れ線(line): 線と目盛り線は SVG(伸縮・線幅固定)、数値とラベルは HTML */
+.hpv1 .ln{padding-left:var(--ln-yw,3em);margin-top:10px;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .ln-plot{position:relative;height:var(--chart-h)}
+.hpv1 .ln-plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hpv1 .ln-g{stroke:var(--chart-grid);stroke-width:1}
+.hpv1 .ln-y{position:absolute;top:0;bottom:0;right:100%;width:var(--ln-yw,3em);padding-right:6px}
+.hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
+.hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
+.hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 狭い画面だけで使う表示(縦棒の代わりの横棒) */
+.hpv1 .narrow-only{display:none}
 .hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 
 .hpv1 .b-figure{margin:0 0 18px;background:var(--card);border:1px solid var(--line2);
@@ -310,13 +363,23 @@
 .hpv1 .foot .contact{margin-top:10px}
 
 @media (max-width:560px){
-  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px}
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
   .hpv1 .tab{padding:10px 11px 11px}
   /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
   .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
   .hpv1 .tabs::-webkit-scrollbar{display:none}
   .hpv1 .tab{flex:none;white-space:nowrap}
   .hpv1 .pgrid{grid-template-columns:1fr}
+  /* チャート: 名前は棒の上の行に置き、棒の長さを確保する(ADR-8) */
+  .hpv1 .hb{grid-template-columns:minmax(0,1fr) var(--vw,4em);row-gap:2px}
+  .hpv1 .hb-l{grid-column:1/-1;text-align:left;margin-top:6px}
+  .hpv1 .pb{grid-template-columns:minmax(0,1fr);row-gap:4px}
+  .hpv1 .pb-l{text-align:left;margin-top:6px}
+  .hpv1 .s100{grid-template-columns:minmax(0,1fr);row-gap:3px}
+  .hpv1 .s100-l{text-align:left;margin-top:4px}
+  .hpv1 .ln-x>.nw{display:none}
+  .hpv1 .wide-only{display:none}
+  .hpv1 .narrow-only{display:grid}
 }
 @media (prefers-reduced-motion:no-preference){
   .hpv1 .panel.active{animation:hpv1-in .18s ease-out}

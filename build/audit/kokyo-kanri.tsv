@@ -1,0 +1,147 @@
+tab	block	label	value	unit	source
+summary	1:kpi	公共建築物の棟数	241	棟	honpen p.9-10
+summary	1:kpi	築30年以上の公共建築物の割合	60	%	honpen p.9-10
+summary	1:kpi	旧耐震基準のままの公共建築物	7.2	%	honpen p.9-10
+summary	2:kpi	有形固定資産減価償却率	65.4	%	honpen p.6
+summary	2:kpi	維持管理運営費	2.42	億円	honpen p.6
+genjo	2:bigstat	住民1人当たりの公共施設延床面積	4.4	㎡/人	honpen p.14
+genjo	4:table	学校教育系施設/延床面積(㎡)	37765		honpen p.9
+genjo	4:table	学校教育系施設/構成比(%)	41.5		honpen p.9
+genjo	4:table	市民文化系施設/延床面積(㎡)	13130		honpen p.9
+genjo	4:table	市民文化系施設/構成比(%)	14.5		honpen p.9
+genjo	4:table	スポーツ・レクリエーション系施設/延床面積(㎡)	11108		honpen p.9
+genjo	4:table	スポーツ・レクリエーション系施設/構成比(%)	12.2		honpen p.9
+genjo	4:table	行政系施設/延床面積(㎡)	8664		honpen p.9
+genjo	4:table	行政系施設/構成比(%)	9.5		honpen p.9
+genjo	4:table	子育て支援施設/延床面積(㎡)	7980		honpen p.9
+genjo	4:table	子育て支援施設/構成比(%)	8.8		honpen p.9
+genjo	4:table	公営住宅/延床面積(㎡)	4742		honpen p.9
+genjo	4:table	公営住宅/構成比(%)	5.2		honpen p.9
+genjo	4:table	社会教育系施設/延床面積(㎡)	3762		honpen p.9
+genjo	4:table	社会教育系施設/構成比(%)	4.2		honpen p.9
+genjo	4:table	保健・福祉施設/延床面積(㎡)	2743		honpen p.9
+genjo	4:table	保健・福祉施設/構成比(%)	3.0		honpen p.9
+genjo	4:table	産業系施設/延床面積(㎡)	909		honpen p.9
+genjo	4:table	産業系施設/構成比(%)	1.0		honpen p.9
+genjo	4:table	公園/延床面積(㎡)	124		honpen p.9
+genjo	4:table	公園/構成比(%)	0.1		honpen p.9
+genjo	4:table	合計/延床面積(㎡)	90927		honpen p.9
+genjo	4:table	合計/構成比(%)	100.0		honpen p.9
+genjo	6:table	学校教育系施設/施設数	6		honpen p.27-44
+genjo	6:table	学校教育系施設/うち築30年以上	5		honpen p.27-44
+genjo	6:table	市民文化系施設/施設数	8		honpen p.27-44
+genjo	6:table	市民文化系施設/うち築30年以上	2		honpen p.27-44
+genjo	6:table	スポーツ・レクリエーション系施設/施設数	6		honpen p.27-44
+genjo	6:table	スポーツ・レクリエーション系施設/うち築30年以上	3		honpen p.27-44
+genjo	6:table	行政系施設/施設数	10		honpen p.27-44
+genjo	6:table	行政系施設/うち築30年以上	8		honpen p.27-44
+genjo	6:table	子育て支援施設/施設数	12		honpen p.27-44
+genjo	6:table	子育て支援施設/うち築30年以上	7		honpen p.27-44
+genjo	6:table	公営住宅/施設数	6		honpen p.27-44
+genjo	6:table	公営住宅/うち築30年以上	5		honpen p.27-44
+genjo	6:table	社会教育系施設/施設数	4		honpen p.27-44
+genjo	6:table	社会教育系施設/うち築30年以上	2		honpen p.27-44
+genjo	6:table	保健・福祉施設/施設数	5		honpen p.27-44
+genjo	6:table	保健・福祉施設/うち築30年以上	3		honpen p.27-44
+genjo	6:table	産業系施設/施設数	4		honpen p.27-44
+genjo	6:table	産業系施設/うち築30年以上	2		honpen p.27-44
+genjo	6:table	公園/施設数	4		honpen p.27-44
+genjo	6:table	公園/うち築30年以上	1		honpen p.27-44
+genjo	6:table	合計/施設数	65		honpen p.27-44
+genjo	6:table	合計/うち築30年以上	38		honpen p.27-44
+genjo	8:kpi	築30年以上	60	%	honpen p.10
+genjo	8:kpi	旧耐震基準時代（昭和56年以前）の建築	26	%	honpen p.10
+genjo	8:kpi	新基準または耐震補強済	92.8	%	honpen p.10
+genjo	12:table	一般道路（実延長）/数量	248129		honpen p.11-13
+genjo	12:table	自転車歩行者道（実延長）/数量	688		honpen p.11-13
+genjo	12:table	橋りょう（橋長15m以上）/数量	44		honpen p.11-13
+genjo	12:table	橋りょう（橋長15m未満）/数量	113		honpen p.11-13
+genjo	12:table	橋りょう（総面積）/数量	11326		honpen p.11-13
+genjo	12:table	上水道管路（総延長）/数量	250984		honpen p.11-13
+genjo	12:table	上水道施設/数量	18		honpen p.11-13
+genjo	12:table	下水道管路（総延長）/数量	230909		honpen p.11-13
+genjo	12:table	下水道施設（農業集落排水処理施設）/数量	9		honpen p.11-13
+genjo	14:chart.rank	豊郷町	8.71	㎡/人	honpen p.14
+genjo	14:chart.rank	甲良町	8.48	㎡/人	honpen p.14
+genjo	14:chart.rank	高島市	7.82	㎡/人	honpen p.14
+genjo	14:chart.rank	多賀町	7.1	㎡/人	honpen p.14
+genjo	14:chart.rank	米原市	5.93	㎡/人	honpen p.14
+genjo	14:chart.rank	長浜市	5.35	㎡/人	honpen p.14
+genjo	14:chart.rank	竜王町	5.19	㎡/人	honpen p.14
+genjo	14:chart.rank	愛荘町	5.07	㎡/人	honpen p.14
+genjo	14:chart.rank	近江八幡市	4.48	㎡/人	honpen p.14
+genjo	14:chart.rank	甲賀市	4.48	㎡/人	honpen p.14
+genjo	14:chart.rank	日野町	4.4	㎡/人	honpen p.14
+genjo	14:chart.rank	東近江市	4.3	㎡/人	honpen p.14
+genjo	14:chart.rank	野洲市	3.86	㎡/人	honpen p.14
+genjo	14:chart.rank	湖南市	3.3	㎡/人	honpen p.14
+genjo	14:chart.rank	栗東市	3.13	㎡/人	honpen p.14
+genjo	14:chart.rank	大津市	3.02	㎡/人	honpen p.14
+genjo	14:chart.rank	彦根市	2.85	㎡/人	honpen p.14
+genjo	14:chart.rank	草津市	2.64	㎡/人	honpen p.14
+genjo	14:chart.rank	守山市	2.59	㎡/人	honpen p.14
+genjo	14:chart.rank	滋賀県計	3.83	㎡/人	honpen p.14
+genjo	15:chart.rank	福井県越前町	10.12	㎡/人	honpen p.15
+genjo	15:chart.rank	宮城県加美町	9.51	㎡/人	honpen p.15
+genjo	15:chart.rank	鹿児島県さつま町	8.81	㎡/人	honpen p.15
+genjo	15:chart.rank	京都府与謝野町	7.31	㎡/人	honpen p.15
+genjo	15:chart.rank	山形県庄内町	6.74	㎡/人	honpen p.15
+genjo	15:chart.rank	栃木県那須町	6.41	㎡/人	honpen p.15
+genjo	15:chart.rank	岐阜県養老町	5.89	㎡/人	honpen p.15
+genjo	15:chart.rank	岐阜県垂井町	5.21	㎡/人	honpen p.15
+genjo	15:chart.rank	滋賀県愛荘町	5.07	㎡/人	honpen p.15
+genjo	15:chart.rank	山形県高畠町	4.72	㎡/人	honpen p.15
+genjo	15:chart.rank	青森県おいらせ町	4.57	㎡/人	honpen p.15
+genjo	15:chart.rank	岐阜県池田町	4.49	㎡/人	honpen p.15
+genjo	15:chart.rank	千葉県横芝光町	4.48	㎡/人	honpen p.15
+genjo	15:chart.rank	滋賀県日野町	4.4	㎡/人	honpen p.15
+genjo	15:chart.rank	福島県西郷村	4.36	㎡/人	honpen p.15
+genjo	15:chart.rank	香川県多度津町	4.3	㎡/人	honpen p.15
+genjo	15:chart.rank	岐阜県大野町	4.28	㎡/人	honpen p.15
+genjo	15:chart.rank	熊本県大津町	4.17	㎡/人	honpen p.15
+genjo	15:chart.rank	栃木県益子町	4.14	㎡/人	honpen p.15
+genjo	15:chart.rank	茨城県境町	4.13	㎡/人	honpen p.15
+genjo	15:chart.rank	長野県箕輪町	4.09	㎡/人	honpen p.15
+genjo	15:chart.rank	愛知県幸田町	3.89	㎡/人	honpen p.15
+genjo	15:chart.rank	埼玉県寄居町	3.71	㎡/人	honpen p.15
+genjo	15:chart.rank	愛知県大口町	3.62	㎡/人	honpen p.15
+genjo	15:chart.rank	三重県東員町	3.53	㎡/人	honpen p.15
+genjo	15:chart.rank	栃木県高根沢町	3.51	㎡/人	honpen p.15
+genjo	15:chart.rank	茨城県茨城町	3.5	㎡/人	honpen p.15
+genjo	15:chart.rank	群馬県大泉町	3.44	㎡/人	honpen p.15
+genjo	15:chart.rank	栃木県上三川町	3.34	㎡/人	honpen p.15
+genjo	15:chart.rank	福岡県苅田町	3.32	㎡/人	honpen p.15
+genjo	15:chart.rank	神奈川県愛川町	3.27	㎡/人	honpen p.15
+genjo	15:chart.rank	兵庫県稲美町	3.15	㎡/人	honpen p.15
+genjo	15:chart.rank	群馬県邑楽町	3.14	㎡/人	honpen p.15
+genjo	15:chart.rank	静岡県吉田町	3.09	㎡/人	honpen p.15
+genjo	15:chart.rank	愛知県武豊町	2.86	㎡/人	honpen p.15
+genjo	15:chart.rank	愛知県東浦町	2.74	㎡/人	honpen p.15
+genjo	15:chart.rank	三重県菰野町	2.65	㎡/人	honpen p.15
+genjo	15:chart.rank	埼玉県上里町	2.64	㎡/人	honpen p.15
+genjo	15:chart.rank	愛知県阿久比町	2.63	㎡/人	honpen p.15
+genjo	15:chart.rank	静岡県長泉町	2.61	㎡/人	honpen p.15
+genjo	15:chart.rank	全国計	3.78	㎡/人	honpen p.15
+zaisei	1:table	H7（最多）/人口(人)	23132		honpen p.4
+zaisei	1:table	R2/人口(人)	20964		honpen p.4
+zaisei	1:table	R12（将来展望）/人口(人)	19799		honpen p.4
+zaisei	1:table	R42（将来展望）/人口(人)	16027		honpen p.4
+zaisei	4:chart.bars	H28	2.5	億円	honpen p.6
+zaisei	4:chart.bars	H29	2.47	億円	honpen p.6
+zaisei	4:chart.bars	H30	2.63	億円	honpen p.6
+zaisei	4:chart.bars	R元	2.59	億円	honpen p.6
+zaisei	4:chart.bars	R2	2.42	億円	honpen p.6
+zaisei	6:chart.line	日野町/H28	65.3	%	honpen p.6
+zaisei	6:chart.line	日野町/H29	62.7	%	honpen p.6
+zaisei	6:chart.line	日野町/H30	64.2	%	honpen p.6
+zaisei	6:chart.line	日野町/R元	65.4	%	honpen p.6
+koushin	1:table	公共建築物（長寿命化型）/40年間の総額(億円)	251.3		honpen p.20-21
+koushin	1:table	公共建築物（長寿命化型）/1年当たり(億円)	6.3		honpen p.20-21
+koushin	1:table	公共建築物（従来型）/40年間の総額(億円)	378.9		honpen p.20-21
+koushin	1:table	公共建築物（従来型）/1年当たり(億円)	9.5		honpen p.20-21
+koushin	1:table	インフラ資産/40年間の総額(億円)	457.2		honpen p.20-21
+koushin	1:table	インフラ資産/1年当たり(億円)	11.4		honpen p.20-21
+koushin	3:table	公共建築物/過去5年間の投資的経費の年平均(億円)	3.8		honpen p.20-22
+koushin	3:table	公共建築物/将来更新費用の1年当たり(億円)	9.5		honpen p.20-22
+koushin	3:table	インフラ資産/過去5年間の投資的経費の年平均(億円)	6.3		honpen p.20-22
+koushin	3:table	インフラ資産/将来更新費用の1年当たり(億円)	11.4		honpen p.20-22

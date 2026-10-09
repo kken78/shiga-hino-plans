@@ -1,148 +1,148 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-e9160a3a354d6cca	summary	1	kpi		公共建築物の棟数	241	棟	honpen p.9-10				
-ca332e853ed0e2f2	summary	1	kpi		築30年以上の公共建築物の割合	60	%	honpen p.9-10				
-1e11158d53b68f53	summary	1	kpi		旧耐震基準のままの公共建築物	7.2	%	honpen p.9-10				
-97a6a5687e181c7e	summary	2	kpi		有形固定資産減価償却率	65.4	%	honpen p.6				
-ebc003434b89eb01	summary	2	kpi		維持管理運営費	2.42	億円	honpen p.6				
-5cfeda34203f6c95	genjo	2	bigstat	町が保有する公共建築物の量	住民1人当たりの公共施設延床面積	4.40	㎡/人	honpen p.14				
-e936ecb1d8b6965e	genjo	4	table	施設類型別の延床面積	学校教育系施設/延床面積(㎡)	37765		honpen p.9				
-2a3f0fc5fd502210	genjo	4	table	施設類型別の延床面積	学校教育系施設/構成比(%)	41.5		honpen p.9				
-923ce773aca194e1	genjo	4	table	施設類型別の延床面積	市民文化系施設/延床面積(㎡)	13130		honpen p.9				
-b3cef2cd2b430e2e	genjo	4	table	施設類型別の延床面積	市民文化系施設/構成比(%)	14.5		honpen p.9				
-f284dbaaa00b942a	genjo	4	table	施設類型別の延床面積	スポーツ・レクリエーション系施設/延床面積(㎡)	11108		honpen p.9				
-91e8b663f9dd896b	genjo	4	table	施設類型別の延床面積	スポーツ・レクリエーション系施設/構成比(%)	12.2		honpen p.9				
-faf3439d167c7dff	genjo	4	table	施設類型別の延床面積	行政系施設/延床面積(㎡)	8664		honpen p.9				
-dae09723d1fb7fd9	genjo	4	table	施設類型別の延床面積	行政系施設/構成比(%)	9.5		honpen p.9				
-2ee3fda58ba5fb89	genjo	4	table	施設類型別の延床面積	子育て支援施設/延床面積(㎡)	7980		honpen p.9				
-6d91474dad8d5868	genjo	4	table	施設類型別の延床面積	子育て支援施設/構成比(%)	8.8		honpen p.9				
-2c72ae746e5eee5c	genjo	4	table	施設類型別の延床面積	公営住宅/延床面積(㎡)	4742		honpen p.9				
-1c0fcbdacfdd19b1	genjo	4	table	施設類型別の延床面積	公営住宅/構成比(%)	5.2		honpen p.9				
-26220afd301c636c	genjo	4	table	施設類型別の延床面積	社会教育系施設/延床面積(㎡)	3762		honpen p.9				
-243a0c44bfc172f6	genjo	4	table	施設類型別の延床面積	社会教育系施設/構成比(%)	4.2		honpen p.9				
-e97cb4465bf3df49	genjo	4	table	施設類型別の延床面積	保健・福祉施設/延床面積(㎡)	2743		honpen p.9				
-2bf5ba9f7fb05203	genjo	4	table	施設類型別の延床面積	保健・福祉施設/構成比(%)	3.0		honpen p.9				
-3f5cf45a0b8a32f3	genjo	4	table	施設類型別の延床面積	産業系施設/延床面積(㎡)	909		honpen p.9				
-7c26a0465428ddde	genjo	4	table	施設類型別の延床面積	産業系施設/構成比(%)	1.0		honpen p.9				
-bf5b4f7dff7fdee4	genjo	4	table	施設類型別の延床面積	公園/延床面積(㎡)	124		honpen p.9				
-517178a9e610b82f	genjo	4	table	施設類型別の延床面積	公園/構成比(%)	0.1		honpen p.9				
-7ee0c38a8e677183	genjo	4	table	施設類型別の延床面積	合計/延床面積(㎡)	90927		honpen p.9				
-cd4341eef5c16ded	genjo	4	table	施設類型別の延床面積	合計/構成比(%)	100.0		honpen p.9				
-09983aa242d57f2c	genjo	6	table	施設類型別の施設数と築30年以上の施設数	学校教育系施設/施設数	6		honpen p.27-44				
-621eaa19b8c11e01	genjo	6	table	施設類型別の施設数と築30年以上の施設数	学校教育系施設/うち築30年以上	5		honpen p.27-44				
-c78ab506ad6c95d5	genjo	6	table	施設類型別の施設数と築30年以上の施設数	市民文化系施設/施設数	8		honpen p.27-44				
-621661b252d29e62	genjo	6	table	施設類型別の施設数と築30年以上の施設数	市民文化系施設/うち築30年以上	2		honpen p.27-44				
-2d95c2c694276d08	genjo	6	table	施設類型別の施設数と築30年以上の施設数	スポーツ・レクリエーション系施設/施設数	6		honpen p.27-44				
-befe4e7441d788ab	genjo	6	table	施設類型別の施設数と築30年以上の施設数	スポーツ・レクリエーション系施設/うち築30年以上	3		honpen p.27-44				
-10cc27d05741f85c	genjo	6	table	施設類型別の施設数と築30年以上の施設数	行政系施設/施設数	10		honpen p.27-44				
-623550db328da07f	genjo	6	table	施設類型別の施設数と築30年以上の施設数	行政系施設/うち築30年以上	8		honpen p.27-44				
-149fe065ed67dae3	genjo	6	table	施設類型別の施設数と築30年以上の施設数	子育て支援施設/施設数	12		honpen p.27-44				
-427409e9ceae05e1	genjo	6	table	施設類型別の施設数と築30年以上の施設数	子育て支援施設/うち築30年以上	7		honpen p.27-44				
-43cc382cd78a766a	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公営住宅/施設数	6		honpen p.27-44				
-895ce1f3762bc072	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公営住宅/うち築30年以上	5		honpen p.27-44				
-0d9c544c714e9b83	genjo	6	table	施設類型別の施設数と築30年以上の施設数	社会教育系施設/施設数	4		honpen p.27-44				
-1a3d4f6cbf12a665	genjo	6	table	施設類型別の施設数と築30年以上の施設数	社会教育系施設/うち築30年以上	2		honpen p.27-44				
-8af762f5c9c611cf	genjo	6	table	施設類型別の施設数と築30年以上の施設数	保健・福祉施設/施設数	5		honpen p.27-44				
-9ed7a642ea14b211	genjo	6	table	施設類型別の施設数と築30年以上の施設数	保健・福祉施設/うち築30年以上	3		honpen p.27-44				
-76ff53421c7efa9d	genjo	6	table	施設類型別の施設数と築30年以上の施設数	産業系施設/施設数	4		honpen p.27-44				
-ffde3f4565e42d84	genjo	6	table	施設類型別の施設数と築30年以上の施設数	産業系施設/うち築30年以上	2		honpen p.27-44				
-cc07ae92dd5a32c8	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公園/施設数	4		honpen p.27-44				
-01a6b55d98157769	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公園/うち築30年以上	1		honpen p.27-44				
-6769c10aa6c4e52d	genjo	6	table	施設類型別の施設数と築30年以上の施設数	合計/施設数	65		honpen p.27-44				
-5e85675316c9e0cf	genjo	6	table	施設類型別の施設数と築30年以上の施設数	合計/うち築30年以上	38		honpen p.27-44				
-8bbf78b16b292bb0	genjo	8	kpi	建築年度と耐震化の状況	築30年以上	60	%	honpen p.10				
-e044f14b0b7a1423	genjo	8	kpi	建築年度と耐震化の状況	旧耐震基準時代（昭和56年以前）の建築	26	%	honpen p.10				
-197e4ba07d1ac10d	genjo	8	kpi	建築年度と耐震化の状況	新基準または耐震補強済	92.8	%	honpen p.10				
-20af6b7dcf855941	genjo	12	table	インフラ資産の現況	一般道路（実延長）/数量	248129		honpen p.11-13				
-05d976b8d8d5fc39	genjo	12	table	インフラ資産の現況	自転車歩行者道（実延長）/数量	688		honpen p.11-13				
-ad9289121220ba42	genjo	12	table	インフラ資産の現況	橋りょう（橋長15m以上）/数量	44		honpen p.11-13				
-307d47bb65e00430	genjo	12	table	インフラ資産の現況	橋りょう（橋長15m未満）/数量	113		honpen p.11-13				
-6861ad91c837fcef	genjo	12	table	インフラ資産の現況	橋りょう（総面積）/数量	11326		honpen p.11-13				
-7e5f3d82f83f8521	genjo	12	table	インフラ資産の現況	上水道管路（総延長）/数量	250984		honpen p.11-13				
-746d09a88a4fd04e	genjo	12	table	インフラ資産の現況	上水道施設/数量	18		honpen p.11-13				
-5cd1298c7fcd3081	genjo	12	table	インフラ資産の現況	下水道管路（総延長）/数量	230909		honpen p.11-13				
-3e8861527981a419	genjo	12	table	インフラ資産の現況	下水道施設（農業集落排水処理施設）/数量	9		honpen p.11-13				
-036a65fab66d10e1	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	豊郷町	8.71	㎡/人	honpen p.14				
-974afa24ae2c672e	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	甲良町	8.48	㎡/人	honpen p.14				
-af5bd13cfaf052de	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	高島市	7.82	㎡/人	honpen p.14				
-4e301dee9a851a96	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	多賀町	7.10	㎡/人	honpen p.14				
-ecd0f1522fdae8ad	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	米原市	5.93	㎡/人	honpen p.14				
-e62faea25b884024	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	長浜市	5.35	㎡/人	honpen p.14				
-dae7d1d73b0dc1d0	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	竜王町	5.19	㎡/人	honpen p.14				
-ba540a5290105423	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	愛荘町	5.07	㎡/人	honpen p.14				
-3b933204b7be273a	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	近江八幡市	4.48	㎡/人	honpen p.14				
-fb3fc18cd06ce904	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	甲賀市	4.48	㎡/人	honpen p.14				
-2e21856cb6074166	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	日野町	4.40	㎡/人	honpen p.14				
-fc83685b0a9c8294	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	東近江市	4.30	㎡/人	honpen p.14				
-7d93b37216ac2b55	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	野洲市	3.86	㎡/人	honpen p.14				
-92b7a78372630b94	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	湖南市	3.30	㎡/人	honpen p.14				
-e0f1bf60ab7c6be0	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	栗東市	3.13	㎡/人	honpen p.14				
-16b37c10c69eadf3	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	大津市	3.02	㎡/人	honpen p.14				
-62a4eee6af28d2ac	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	彦根市	2.85	㎡/人	honpen p.14				
-ccdf1f6c50a59a8c	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	草津市	2.64	㎡/人	honpen p.14				
-2476bf4f76e59f9c	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	守山市	2.59	㎡/人	honpen p.14				
-b21f079f31be8e23	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	滋賀県計	3.83	㎡/人	honpen p.14				
-c30db835d43236c3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	福井県越前町	10.12	㎡/人	honpen p.15				
-45b0beef40c241c7	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	宮城県加美町	9.51	㎡/人	honpen p.15				
-fe7df6b718ffb962	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	鹿児島県さつま町	8.81	㎡/人	honpen p.15				
-02b36659d78d88c3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	京都府与謝野町	7.31	㎡/人	honpen p.15				
-2fd10e18662c1dd8	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	山形県庄内町	6.74	㎡/人	honpen p.15				
-8e9c88f41bf66767	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県那須町	6.41	㎡/人	honpen p.15				
-bcd2b2b0ad37ff04	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県養老町	5.89	㎡/人	honpen p.15				
-8290470ed6eae595	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県垂井町	5.21	㎡/人	honpen p.15				
-48d25674e8bf9199	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	滋賀県愛荘町	5.07	㎡/人	honpen p.15				
-f4aff0a648d7a511	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	山形県高畠町	4.72	㎡/人	honpen p.15				
-df5988d23b6c1a52	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	青森県おいらせ町	4.57	㎡/人	honpen p.15				
-91c137cf80560d52	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県池田町	4.49	㎡/人	honpen p.15				
-f4700e9e0ac3628a	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	千葉県横芝光町	4.48	㎡/人	honpen p.15				
-f5d8bae5668796c5	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	滋賀県日野町	4.40	㎡/人	honpen p.15				
-c13df412a42ce3a9	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	福島県西郷村	4.36	㎡/人	honpen p.15				
-9c339eff81485644	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	香川県多度津町	4.30	㎡/人	honpen p.15				
-2fa947bbcc59bf9c	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県大野町	4.28	㎡/人	honpen p.15				
-82c6d9f434129b62	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	熊本県大津町	4.17	㎡/人	honpen p.15				
-1e42105c651e7f3b	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県益子町	4.14	㎡/人	honpen p.15				
-543d6f48882bcf2e	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	茨城県境町	4.13	㎡/人	honpen p.15				
-f45c4fb8ecac5bd5	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	長野県箕輪町	4.09	㎡/人	honpen p.15				
-29e131e0ead4f74e	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県幸田町	3.89	㎡/人	honpen p.15				
-5c8e3e993c68c5ad	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	埼玉県寄居町	3.71	㎡/人	honpen p.15				
-79a0e47f9e97dce6	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県大口町	3.62	㎡/人	honpen p.15				
-60355fdba76f724d	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	三重県東員町	3.53	㎡/人	honpen p.15				
-4dfac1e51fadea50	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県高根沢町	3.51	㎡/人	honpen p.15				
-a81e23f6573f3b0c	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	茨城県茨城町	3.50	㎡/人	honpen p.15				
-6d1bd0c06bc17563	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	群馬県大泉町	3.44	㎡/人	honpen p.15				
-af199a9f98fb74b3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県上三川町	3.34	㎡/人	honpen p.15				
-a8176ec6ae29658a	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	福岡県苅田町	3.32	㎡/人	honpen p.15				
-b605157ec1be7a4c	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	神奈川県愛川町	3.27	㎡/人	honpen p.15				
-c19ed20bf228d100	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	兵庫県稲美町	3.15	㎡/人	honpen p.15				
-8e620d1d378d2bc4	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	群馬県邑楽町	3.14	㎡/人	honpen p.15				
-4aa10f876036fc30	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	静岡県吉田町	3.09	㎡/人	honpen p.15				
-4894d7c652480c4d	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県武豊町	2.86	㎡/人	honpen p.15				
-c25663ebeb50d729	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県東浦町	2.74	㎡/人	honpen p.15				
-58ee698e7c4678e3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	三重県菰野町	2.65	㎡/人	honpen p.15				
-b30c3033293487c8	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	埼玉県上里町	2.64	㎡/人	honpen p.15				
-b8827c0bc0be249b	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県阿久比町	2.63	㎡/人	honpen p.15				
-0bf4006a5944e83b	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	静岡県長泉町	2.61	㎡/人	honpen p.15				
-a38dab41e3576780	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	全国計	3.78	㎡/人	honpen p.15				
-56624fcaa4c3c0c3	zaisei	1	table	人口の推移と将来展望人口	H7（最多）/人口(人)	23132		honpen p.4				
-7b4831bea838fb83	zaisei	1	table	人口の推移と将来展望人口	R2/人口(人)	20964		honpen p.4				
-1684d9d04bb4f7a9	zaisei	1	table	人口の推移と将来展望人口	R12（将来展望）/人口(人)	19799		honpen p.4				
-a71b3afdf78d535b	zaisei	1	table	人口の推移と将来展望人口	R42（将来展望）/人口(人)	16027		honpen p.4				
-e597e5f4907a4645	zaisei	4	chart.bars	維持管理運営費の推移	H28	2.50	億円	honpen p.6				
-eaceb8869cb732b7	zaisei	4	chart.bars	維持管理運営費の推移	H29	2.47	億円	honpen p.6				
-de573d0e62d0331f	zaisei	4	chart.bars	維持管理運営費の推移	H30	2.63	億円	honpen p.6				
-3c0f4649c5682639	zaisei	4	chart.bars	維持管理運営費の推移	R元	2.59	億円	honpen p.6				
-a1af16dabcbf1319	zaisei	4	chart.bars	維持管理運営費の推移	R2	2.42	億円	honpen p.6				
-1db74846743053af	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/H28	65.3	%	honpen p.6				
-19541d0ffe60a5c2	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/H29	62.7	%	honpen p.6				
-77d969ee7533ec5f	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/H30	64.2	%	honpen p.6				
-670c3e2adeb77173	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/R元	65.4	%	honpen p.6				
-3535e90ac9d28a13	koushin	1	table	40年間の更新費用の試算	公共建築物（長寿命化型）/40年間の総額(億円)	251.3		honpen p.20-21				
-898b6c190e9b0e96	koushin	1	table	40年間の更新費用の試算	公共建築物（長寿命化型）/1年当たり(億円)	6.3		honpen p.20-21				
-42906d5ffc2fa544	koushin	1	table	40年間の更新費用の試算	公共建築物（従来型）/40年間の総額(億円)	378.9		honpen p.20-21				
-c6b00f4fcd5d39a0	koushin	1	table	40年間の更新費用の試算	公共建築物（従来型）/1年当たり(億円)	9.5		honpen p.20-21				
-44496ee53fb236ba	koushin	1	table	40年間の更新費用の試算	インフラ資産/40年間の総額(億円)	457.2		honpen p.20-21				
-b8177d3c8b4d1093	koushin	1	table	40年間の更新費用の試算	インフラ資産/1年当たり(億円)	11.4		honpen p.20-21				
-ec9b1671f610c388	koushin	3	table	過去の投資的経費との比較	公共建築物/過去5年間の投資的経費の年平均(億円)	3.8		honpen p.20-22				
-7b0ca8b998c6c92a	koushin	3	table	過去の投資的経費との比較	公共建築物/将来更新費用の1年当たり(億円)	9.5		honpen p.20-22				
-0533d2f3bd39f56b	koushin	3	table	過去の投資的経費との比較	インフラ資産/過去5年間の投資的経費の年平均(億円)	6.3		honpen p.20-22				
-55dbd7089fbc31ee	koushin	3	table	過去の投資的経費との比較	インフラ資産/将来更新費用の1年当たり(億円)	11.4		honpen p.20-22				
+e9160a3a354d6cca	summary	1	kpi		公共建築物の棟数	241	棟	honpen p.9-10	✓		2026-10-09	
+ca332e853ed0e2f2	summary	1	kpi		築30年以上の公共建築物の割合	60	%	honpen p.9-10	✓		2026-10-09	約60％
+1e11158d53b68f53	summary	1	kpi		旧耐震基準のままの公共建築物	7.2	%	honpen p.9-10	✓		2026-10-09	
+97a6a5687e181c7e	summary	2	kpi		有形固定資産減価償却率	65.4	%	honpen p.6	✓		2026-10-09	令和元年度
+ebc003434b89eb01	summary	2	kpi		維持管理運営費	2.42	億円	honpen p.6	✓		2026-10-09	令和2年度
+5cfeda34203f6c95	genjo	2	bigstat	町が保有する公共建築物の量	住民1人当たりの公共施設延床面積	4.40	㎡/人	honpen p.14	✓		2026-10-09	
+e936ecb1d8b6965e	genjo	4	table	施設類型別の延床面積	学校教育系施設/延床面積(㎡)	37765		honpen p.9	✓		2026-10-09	
+2a3f0fc5fd502210	genjo	4	table	施設類型別の延床面積	学校教育系施設/構成比(%)	41.5		honpen p.9	✓		2026-10-09	
+923ce773aca194e1	genjo	4	table	施設類型別の延床面積	市民文化系施設/延床面積(㎡)	13130		honpen p.9	✓		2026-10-09	
+b3cef2cd2b430e2e	genjo	4	table	施設類型別の延床面積	市民文化系施設/構成比(%)	14.5		honpen p.9	✓		2026-10-09	
+f284dbaaa00b942a	genjo	4	table	施設類型別の延床面積	スポーツ・レクリエーション系施設/延床面積(㎡)	11108		honpen p.9	✓		2026-10-09	
+91e8b663f9dd896b	genjo	4	table	施設類型別の延床面積	スポーツ・レクリエーション系施設/構成比(%)	12.2		honpen p.9	✓		2026-10-09	
+faf3439d167c7dff	genjo	4	table	施設類型別の延床面積	行政系施設/延床面積(㎡)	8664		honpen p.9	✓		2026-10-09	
+dae09723d1fb7fd9	genjo	4	table	施設類型別の延床面積	行政系施設/構成比(%)	9.5		honpen p.9	✓		2026-10-09	
+2ee3fda58ba5fb89	genjo	4	table	施設類型別の延床面積	子育て支援施設/延床面積(㎡)	7980		honpen p.9	✓		2026-10-09	
+6d91474dad8d5868	genjo	4	table	施設類型別の延床面積	子育て支援施設/構成比(%)	8.8		honpen p.9	✓		2026-10-09	
+2c72ae746e5eee5c	genjo	4	table	施設類型別の延床面積	公営住宅/延床面積(㎡)	4742		honpen p.9	✓		2026-10-09	
+1c0fcbdacfdd19b1	genjo	4	table	施設類型別の延床面積	公営住宅/構成比(%)	5.2		honpen p.9	✓		2026-10-09	
+26220afd301c636c	genjo	4	table	施設類型別の延床面積	社会教育系施設/延床面積(㎡)	3762		honpen p.9	✓		2026-10-09	
+243a0c44bfc172f6	genjo	4	table	施設類型別の延床面積	社会教育系施設/構成比(%)	4.2		honpen p.9	✓		2026-10-09	
+e97cb4465bf3df49	genjo	4	table	施設類型別の延床面積	保健・福祉施設/延床面積(㎡)	2743		honpen p.9	✓		2026-10-09	
+2bf5ba9f7fb05203	genjo	4	table	施設類型別の延床面積	保健・福祉施設/構成比(%)	3.0		honpen p.9	✓		2026-10-09	
+3f5cf45a0b8a32f3	genjo	4	table	施設類型別の延床面積	産業系施設/延床面積(㎡)	909		honpen p.9	✓		2026-10-09	
+7c26a0465428ddde	genjo	4	table	施設類型別の延床面積	産業系施設/構成比(%)	1.0		honpen p.9	✓		2026-10-09	
+bf5b4f7dff7fdee4	genjo	4	table	施設類型別の延床面積	公園/延床面積(㎡)	124		honpen p.9	✓		2026-10-09	
+517178a9e610b82f	genjo	4	table	施設類型別の延床面積	公園/構成比(%)	0.1		honpen p.9	✓		2026-10-09	
+7ee0c38a8e677183	genjo	4	table	施設類型別の延床面積	合計/延床面積(㎡)	90927		honpen p.9	✓		2026-10-09	
+cd4341eef5c16ded	genjo	4	table	施設類型別の延床面積	合計/構成比(%)	100.0		honpen p.9	✓		2026-10-09	
+09983aa242d57f2c	genjo	6	table	施設類型別の施設数と築30年以上の施設数	学校教育系施設/施設数	6		honpen p.27-44	✓		2026-10-09	
+621eaa19b8c11e01	genjo	6	table	施設類型別の施設数と築30年以上の施設数	学校教育系施設/うち築30年以上	5		honpen p.27-44	✓		2026-10-09	
+c78ab506ad6c95d5	genjo	6	table	施設類型別の施設数と築30年以上の施設数	市民文化系施設/施設数	8		honpen p.27-44	✓		2026-10-09	
+621661b252d29e62	genjo	6	table	施設類型別の施設数と築30年以上の施設数	市民文化系施設/うち築30年以上	2		honpen p.27-44	✓		2026-10-09	
+2d95c2c694276d08	genjo	6	table	施設類型別の施設数と築30年以上の施設数	スポーツ・レクリエーション系施設/施設数	6		honpen p.27-44	✓		2026-10-09	
+befe4e7441d788ab	genjo	6	table	施設類型別の施設数と築30年以上の施設数	スポーツ・レクリエーション系施設/うち築30年以上	3		honpen p.27-44	✓		2026-10-09	
+10cc27d05741f85c	genjo	6	table	施設類型別の施設数と築30年以上の施設数	行政系施設/施設数	10		honpen p.27-44	✓		2026-10-09	
+623550db328da07f	genjo	6	table	施設類型別の施設数と築30年以上の施設数	行政系施設/うち築30年以上	8		honpen p.27-44	✓		2026-10-09	
+149fe065ed67dae3	genjo	6	table	施設類型別の施設数と築30年以上の施設数	子育て支援施設/施設数	12		honpen p.27-44	✓		2026-10-09	
+427409e9ceae05e1	genjo	6	table	施設類型別の施設数と築30年以上の施設数	子育て支援施設/うち築30年以上	7		honpen p.27-44	✓		2026-10-09	
+43cc382cd78a766a	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公営住宅/施設数	6		honpen p.27-44	✓		2026-10-09	
+895ce1f3762bc072	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公営住宅/うち築30年以上	5		honpen p.27-44	✓		2026-10-09	
+0d9c544c714e9b83	genjo	6	table	施設類型別の施設数と築30年以上の施設数	社会教育系施設/施設数	4		honpen p.27-44	✓		2026-10-09	
+1a3d4f6cbf12a665	genjo	6	table	施設類型別の施設数と築30年以上の施設数	社会教育系施設/うち築30年以上	2		honpen p.27-44	✓		2026-10-09	
+8af762f5c9c611cf	genjo	6	table	施設類型別の施設数と築30年以上の施設数	保健・福祉施設/施設数	5		honpen p.27-44	✓		2026-10-09	
+9ed7a642ea14b211	genjo	6	table	施設類型別の施設数と築30年以上の施設数	保健・福祉施設/うち築30年以上	3		honpen p.27-44	✓		2026-10-09	
+76ff53421c7efa9d	genjo	6	table	施設類型別の施設数と築30年以上の施設数	産業系施設/施設数	4		honpen p.27-44	✓		2026-10-09	
+ffde3f4565e42d84	genjo	6	table	施設類型別の施設数と築30年以上の施設数	産業系施設/うち築30年以上	2		honpen p.27-44	✓		2026-10-09	
+cc07ae92dd5a32c8	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公園/施設数	4		honpen p.27-44	✓		2026-10-09	
+01a6b55d98157769	genjo	6	table	施設類型別の施設数と築30年以上の施設数	公園/うち築30年以上	1		honpen p.27-44	✓		2026-10-09	
+6769c10aa6c4e52d	genjo	6	table	施設類型別の施設数と築30年以上の施設数	合計/施設数	65		honpen p.27-44	✓		2026-10-09	
+5e85675316c9e0cf	genjo	6	table	施設類型別の施設数と築30年以上の施設数	合計/うち築30年以上	38		honpen p.27-44	✓		2026-10-09	
+8bbf78b16b292bb0	genjo	8	kpi	建築年度と耐震化の状況	築30年以上	60	%	honpen p.10	✓		2026-10-09	
+e044f14b0b7a1423	genjo	8	kpi	建築年度と耐震化の状況	旧耐震基準時代（昭和56年以前）の建築	26	%	honpen p.10	✓		2026-10-09	
+197e4ba07d1ac10d	genjo	8	kpi	建築年度と耐震化の状況	新基準または耐震補強済	92.8	%	honpen p.10	✓		2026-10-09	
+20af6b7dcf855941	genjo	12	table	インフラ資産の現況	一般道路（実延長）/数量	248129		honpen p.11-13	✓		2026-10-09	
+05d976b8d8d5fc39	genjo	12	table	インフラ資産の現況	自転車歩行者道（実延長）/数量	688		honpen p.11-13	✓		2026-10-09	
+ad9289121220ba42	genjo	12	table	インフラ資産の現況	橋りょう（橋長15m以上）/数量	44		honpen p.11-13	✓		2026-10-09	
+307d47bb65e00430	genjo	12	table	インフラ資産の現況	橋りょう（橋長15m未満）/数量	113		honpen p.11-13	✓		2026-10-09	
+6861ad91c837fcef	genjo	12	table	インフラ資産の現況	橋りょう（総面積）/数量	11326		honpen p.11-13	✓		2026-10-09	
+7e5f3d82f83f8521	genjo	12	table	インフラ資産の現況	上水道管路（総延長）/数量	250984		honpen p.11-13	✓		2026-10-09	
+746d09a88a4fd04e	genjo	12	table	インフラ資産の現況	上水道施設/数量	18		honpen p.11-13	✓		2026-10-09	
+5cd1298c7fcd3081	genjo	12	table	インフラ資産の現況	下水道管路（総延長）/数量	230909		honpen p.11-13	✓		2026-10-09	
+3e8861527981a419	genjo	12	table	インフラ資産の現況	下水道施設（農業集落排水処理施設）/数量	9		honpen p.11-13	✓		2026-10-09	
+036a65fab66d10e1	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	豊郷町	8.71	㎡/人	honpen p.14	✓		2026-10-09	
+974afa24ae2c672e	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	甲良町	8.48	㎡/人	honpen p.14	✓		2026-10-09	
+af5bd13cfaf052de	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	高島市	7.82	㎡/人	honpen p.14	✓		2026-10-09	
+4e301dee9a851a96	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	多賀町	7.10	㎡/人	honpen p.14	✓		2026-10-09	
+ecd0f1522fdae8ad	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	米原市	5.93	㎡/人	honpen p.14	✓		2026-10-09	
+e62faea25b884024	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	長浜市	5.35	㎡/人	honpen p.14	✓		2026-10-09	
+dae7d1d73b0dc1d0	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	竜王町	5.19	㎡/人	honpen p.14	✓		2026-10-09	
+ba540a5290105423	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	愛荘町	5.07	㎡/人	honpen p.14	✓		2026-10-09	
+3b933204b7be273a	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	近江八幡市	4.48	㎡/人	honpen p.14	✓		2026-10-09	
+fb3fc18cd06ce904	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	甲賀市	4.48	㎡/人	honpen p.14	✓		2026-10-09	
+2e21856cb6074166	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	日野町	4.40	㎡/人	honpen p.14	✓		2026-10-09	
+fc83685b0a9c8294	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	東近江市	4.30	㎡/人	honpen p.14	✓		2026-10-09	
+7d93b37216ac2b55	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	野洲市	3.86	㎡/人	honpen p.14	✓		2026-10-09	
+92b7a78372630b94	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	湖南市	3.30	㎡/人	honpen p.14	✓		2026-10-09	
+e0f1bf60ab7c6be0	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	栗東市	3.13	㎡/人	honpen p.14	✓		2026-10-09	
+16b37c10c69eadf3	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	大津市	3.02	㎡/人	honpen p.14	✓		2026-10-09	
+62a4eee6af28d2ac	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	彦根市	2.85	㎡/人	honpen p.14	✓		2026-10-09	
+ccdf1f6c50a59a8c	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	草津市	2.64	㎡/人	honpen p.14	✓		2026-10-09	
+2476bf4f76e59f9c	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	守山市	2.59	㎡/人	honpen p.14	✓		2026-10-09	
+b21f079f31be8e23	genjo	14	chart.rank	住民1人当たり公共施設延床面積（滋賀県内19市町）	滋賀県計	3.83	㎡/人	honpen p.14	✓		2026-10-09	
+c30db835d43236c3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	福井県越前町	10.12	㎡/人	honpen p.15	✓		2026-10-09	
+45b0beef40c241c7	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	宮城県加美町	9.51	㎡/人	honpen p.15	✓		2026-10-09	
+fe7df6b718ffb962	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	鹿児島県さつま町	8.81	㎡/人	honpen p.15	✓		2026-10-09	
+02b36659d78d88c3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	京都府与謝野町	7.31	㎡/人	honpen p.15	✓		2026-10-09	
+2fd10e18662c1dd8	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	山形県庄内町	6.74	㎡/人	honpen p.15	✓		2026-10-09	
+8e9c88f41bf66767	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県那須町	6.41	㎡/人	honpen p.15	✓		2026-10-09	
+bcd2b2b0ad37ff04	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県養老町	5.89	㎡/人	honpen p.15	✓		2026-10-09	
+8290470ed6eae595	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県垂井町	5.21	㎡/人	honpen p.15	✓		2026-10-09	
+48d25674e8bf9199	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	滋賀県愛荘町	5.07	㎡/人	honpen p.15	✓		2026-10-09	
+f4aff0a648d7a511	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	山形県高畠町	4.72	㎡/人	honpen p.15	✓		2026-10-09	
+df5988d23b6c1a52	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	青森県おいらせ町	4.57	㎡/人	honpen p.15	✓		2026-10-09	
+91c137cf80560d52	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県池田町	4.49	㎡/人	honpen p.15	✓		2026-10-09	
+f4700e9e0ac3628a	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	千葉県横芝光町	4.48	㎡/人	honpen p.15	✓		2026-10-09	
+f5d8bae5668796c5	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	滋賀県日野町	4.40	㎡/人	honpen p.15	✓		2026-10-09	
+c13df412a42ce3a9	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	福島県西郷村	4.36	㎡/人	honpen p.15	✓		2026-10-09	
+9c339eff81485644	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	香川県多度津町	4.30	㎡/人	honpen p.15	✓		2026-10-09	
+2fa947bbcc59bf9c	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	岐阜県大野町	4.28	㎡/人	honpen p.15	✓		2026-10-09	
+82c6d9f434129b62	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	熊本県大津町	4.17	㎡/人	honpen p.15	✓		2026-10-09	
+1e42105c651e7f3b	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県益子町	4.14	㎡/人	honpen p.15	✓		2026-10-09	
+543d6f48882bcf2e	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	茨城県境町	4.13	㎡/人	honpen p.15	✓		2026-10-09	
+f45c4fb8ecac5bd5	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	長野県箕輪町	4.09	㎡/人	honpen p.15	✓		2026-10-09	
+29e131e0ead4f74e	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県幸田町	3.89	㎡/人	honpen p.15	✓		2026-10-09	
+5c8e3e993c68c5ad	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	埼玉県寄居町	3.71	㎡/人	honpen p.15	✓		2026-10-09	
+79a0e47f9e97dce6	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県大口町	3.62	㎡/人	honpen p.15	✓		2026-10-09	
+60355fdba76f724d	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	三重県東員町	3.53	㎡/人	honpen p.15	✓		2026-10-09	
+4dfac1e51fadea50	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県高根沢町	3.51	㎡/人	honpen p.15	✓		2026-10-09	
+a81e23f6573f3b0c	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	茨城県茨城町	3.50	㎡/人	honpen p.15	✓		2026-10-09	
+6d1bd0c06bc17563	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	群馬県大泉町	3.44	㎡/人	honpen p.15	✓		2026-10-09	
+af199a9f98fb74b3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	栃木県上三川町	3.34	㎡/人	honpen p.15	✓		2026-10-09	
+a8176ec6ae29658a	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	福岡県苅田町	3.32	㎡/人	honpen p.15	✓		2026-10-09	
+b605157ec1be7a4c	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	神奈川県愛川町	3.27	㎡/人	honpen p.15	✓		2026-10-09	
+c19ed20bf228d100	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	兵庫県稲美町	3.15	㎡/人	honpen p.15	✓		2026-10-09	
+8e620d1d378d2bc4	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	群馬県邑楽町	3.14	㎡/人	honpen p.15	✓		2026-10-09	
+4aa10f876036fc30	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	静岡県吉田町	3.09	㎡/人	honpen p.15	✓		2026-10-09	
+4894d7c652480c4d	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県武豊町	2.86	㎡/人	honpen p.15	✓		2026-10-09	
+c25663ebeb50d729	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県東浦町	2.74	㎡/人	honpen p.15	✓		2026-10-09	
+58ee698e7c4678e3	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	三重県菰野町	2.65	㎡/人	honpen p.15	✓		2026-10-09	
+b30c3033293487c8	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	埼玉県上里町	2.64	㎡/人	honpen p.15	✓		2026-10-09	
+b8827c0bc0be249b	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	愛知県阿久比町	2.63	㎡/人	honpen p.15	✓		2026-10-09	
+0bf4006a5944e83b	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	静岡県長泉町	2.61	㎡/人	honpen p.15	✓		2026-10-09	
+a38dab41e3576780	genjo	15	chart.rank	住民1人当たり公共施設延床面積（全国類似団体40団体）	全国計	3.78	㎡/人	honpen p.15	✓		2026-10-09	
+56624fcaa4c3c0c3	zaisei	1	table	人口の推移と将来展望人口	H7（最多）/人口(人)	23132		honpen p.4	✓		2026-10-09	
+7b4831bea838fb83	zaisei	1	table	人口の推移と将来展望人口	R2/人口(人)	20964		honpen p.4	✓		2026-10-09	
+1684d9d04bb4f7a9	zaisei	1	table	人口の推移と将来展望人口	R12（将来展望）/人口(人)	19799		honpen p.4	✓		2026-10-09	
+a71b3afdf78d535b	zaisei	1	table	人口の推移と将来展望人口	R42（将来展望）/人口(人)	16027		honpen p.4	✓		2026-10-09	
+e597e5f4907a4645	zaisei	4	chart.bars	維持管理運営費の推移	H28	2.50	億円	honpen p.6	✓		2026-10-09	
+eaceb8869cb732b7	zaisei	4	chart.bars	維持管理運営費の推移	H29	2.47	億円	honpen p.6	✓		2026-10-09	
+de573d0e62d0331f	zaisei	4	chart.bars	維持管理運営費の推移	H30	2.63	億円	honpen p.6	✓		2026-10-09	
+3c0f4649c5682639	zaisei	4	chart.bars	維持管理運営費の推移	R元	2.59	億円	honpen p.6	✓		2026-10-09	
+a1af16dabcbf1319	zaisei	4	chart.bars	維持管理運営費の推移	R2	2.42	億円	honpen p.6	✓		2026-10-09	
+1db74846743053af	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/H28	65.3	%	honpen p.6	✓		2026-10-09	
+19541d0ffe60a5c2	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/H29	62.7	%	honpen p.6	✓		2026-10-09	
+77d969ee7533ec5f	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/H30	64.2	%	honpen p.6	✓		2026-10-09	
+670c3e2adeb77173	zaisei	6	chart.line	有形固定資産減価償却率の推移	日野町/R元	65.4	%	honpen p.6	✓		2026-10-09	
+3535e90ac9d28a13	koushin	1	table	40年間の更新費用の試算	公共建築物（長寿命化型）/40年間の総額(億円)	251.3		honpen p.20-21	✓		2026-10-09	
+898b6c190e9b0e96	koushin	1	table	40年間の更新費用の試算	公共建築物（長寿命化型）/1年当たり(億円)	6.3		honpen p.20-21	✓		2026-10-09	
+42906d5ffc2fa544	koushin	1	table	40年間の更新費用の試算	公共建築物（従来型）/40年間の総額(億円)	378.9		honpen p.20-21	✓		2026-10-09	
+c6b00f4fcd5d39a0	koushin	1	table	40年間の更新費用の試算	公共建築物（従来型）/1年当たり(億円)	9.5		honpen p.20-21	✓		2026-10-09	
+44496ee53fb236ba	koushin	1	table	40年間の更新費用の試算	インフラ資産/40年間の総額(億円)	457.2		honpen p.20-21	✓		2026-10-09	
+b8177d3c8b4d1093	koushin	1	table	40年間の更新費用の試算	インフラ資産/1年当たり(億円)	11.4		honpen p.20-21	✓		2026-10-09	
+ec9b1671f610c388	koushin	3	table	過去の投資的経費との比較	公共建築物/過去5年間の投資的経費の年平均(億円)	3.8		honpen p.20-22	✓		2026-10-09	
+7b0ca8b998c6c92a	koushin	3	table	過去の投資的経費との比較	公共建築物/将来更新費用の1年当たり(億円)	9.5		honpen p.20-22	✓		2026-10-09	
+0533d2f3bd39f56b	koushin	3	table	過去の投資的経費との比較	インフラ資産/過去5年間の投資的経費の年平均(億円)	6.3		honpen p.20-22	✓		2026-10-09	
+55dbd7089fbc31ee	koushin	3	table	過去の投資的経費との比較	インフラ資産/将来更新費用の1年当たり(億円)	11.4		honpen p.20-22	✓		2026-10-09	

@@ -52,8 +52,38 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+class Num(float):
+    """JSON の小数リテラルを保持する float(PLAN_SCHEMA §8 小数の表示桁)。
+
+    json.loads(parse_float=Num) で読み込む。演算結果は通常の float に戻るため、
+    レンダラーが計算した値(合計・目盛り等)には影響しない。str() はリテラルを返すので、
+    audit にも JSON に書いた表記(4.40 等)がそのまま出る。
+    """
+
+    def __new__(cls, lit):
+        obj = super().__new__(cls, lit)
+        obj.lit = lit
+        return obj
+
+    def __str__(self):
+        return self.lit
+
+
+def num_abs(n):
+    """絶対値。Num はリテラルの桁を保ったまま符号だけ外す。"""
+    lit = getattr(n, "lit", None)
+    if lit is not None:
+        return Num(lit.lstrip("-"))
+    return -n if n < 0 else n
+
+
 def fmt(n):
-    """数値の表示整形(桁区切り)。整形はレンダラーの仕事(SCHEMA §7-8)。"""
+    """数値の表示整形(桁区切り)。整形はレンダラーの仕事(SCHEMA §7-8)。
+    JSON の小数リテラル(Num)は書かれた桁数で表示する(SCHEMA §8)。"""
+    lit = getattr(n, "lit", None)
+    if lit is not None and "." in lit and "e" not in lit.lower():
+        digits = len(lit.split(".", 1)[1])
+        return f"{n:,.{digits}f}"
     if isinstance(n, float) and not n.is_integer():
         return f"{n:,}"
     return f"{int(n):,}"
@@ -296,7 +326,7 @@ class Renderer:
                                f"{row[0]}/{b['head'][ci]}", v, "", b.get("source"))
                     # 表示のみ和文会計表記に変換: 負値は「▲＋絶対値」+ 赤(neg)
                     if v < 0:
-                        v = "▲" + fmt(-v)
+                        v = "▲" + fmt(num_abs(v))
                         if "neg" not in cls.split():
                             cls = (cls + " neg").strip()
                     else:
@@ -799,7 +829,7 @@ def main(argv):
         return 2
     pid = argv[1]
     src = ROOT / "data" / "plans" / f"{pid}.json"
-    d = json.loads(src.read_text(encoding="utf-8"))
+    d = json.loads(src.read_text(encoding="utf-8"), parse_float=Num)
 
     r = Renderer(d)
     page = r.render()

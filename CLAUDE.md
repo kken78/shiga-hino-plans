@@ -21,6 +21,12 @@
 5. **スキーマが先**: 語彙を増やしたい場合は PLAN_SCHEMA.md を先に更新し、
    validate → render の順で実装を追従させる。実装先行は禁止。
 6. **手抜き禁止**: 検証をスキップしない。エラーを握りつぶさない。
+7. **見た目はデザインシステムに従う**(DESIGN.md ADR-8): 文字サイズは `--fs-*` トークンだけで
+   指定し(12px以上)、SVG の中に文字を置かない。チャートの寸法や画面幅ごとの配置は
+   レンダラーと shell.css が決め、計画ごとに調整しない(変えてよいのはテーマ色だけ)。
+   これらは validate.mjs(ゲートA)と check_mobile.mjs(ゲートB)が機械的に検査する。
+   規則にない場面は、ADR-8「判断の優先順位」(正確さ→読めること→全件にたどり着けること→
+   要点が先に見えること→一貫性→見た目の好み)で決め、決めた結果を ADR-8 の表に追記する。
 
 ## 新しい計画を1本追加する定型フロー
 
@@ -43,8 +49,12 @@ python3 tools/render_plan.py <id>
 #    → docs/plans/<id>.html
 #    → build/audit/<id>.tsv
 
-# 4) 出力検証(既存ハーネス)
+# 4) 出力検証(既存ハーネス+デザインシステムの静的検査 ADR-8 ゲートA)
 node tools/validate.mjs docs/plans/<id>.html
+#    実ブラウザでの表示検査(ADR-8 ゲートB。幅360px/1024pxで文字の大きさ・
+#    はみ出し・ラベルの重なりを検査)。Playwright が手元に無ければ省略してよい
+#    (プルリクエストで GitHub Actions が必ず実行する)
+node tools/check_mobile.mjs docs/plans/<id>.html
 
 # 5) ハブへ登録
 #    data/manifest.json の該当計画に "dashboard": "plans/<id>.html" を追記
@@ -76,6 +86,11 @@ python3 tools/build.py          # → docs/index.html 再生成
     node tools/validate.mjs "docs/plans/$id.html" || exit 1; done
   python3 tools/build.py
   ```
+  チャートやブロックの描き方を変えたときは、部品見本 `docs/plans/_charttest.html` を
+  幅360pxと1024pxで確かめ、`node tools/check_mobile.mjs docs/plans/*.html` も通す。
+- プルリクエストと main への push では、GitHub Actions(`.github/workflows/check.yml`)が
+  スキーマ検証・全計画の再生成・生成物の一致確認・ゲートA・ゲートBを自動で実行する。
+  生成物(docs/・build/)は JSON から再生成した結果と一致している必要がある。
 
 ## 抽出時の判断基準
 
@@ -108,7 +123,8 @@ python3 tools/build.py          # → docs/index.html 再生成
 audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに展開済み。
 
 チャートは全6 kind 実装済み(`bars` / `stacked_bars` / `stacked_100` /
-`line` / `pair_bars` / `rank_bars`)。ブロック語彙も全20種を実装
+`line` / `pair_bars` / `rank_bars`)。2026-10 にデザインシステム(DESIGN.md ADR-8)へ移行し、
+チャートは HTML/CSS の部品(折れ線の線だけ SVG)で描く。部品見本は `_charttest`。ブロック語彙も全20種を実装
 (programs の `intro`/`desc`、table の `fold`、ジャンプ目次 `toc` を含む)。
 出典表示は連続同一 source をラン末尾に集約(表示のみ・PLAN_SCHEMA §4)。
 移植の視覚リファレンスだった `sources_raw/hub-legacy.html`(旧ハブ・embed 入り。
@@ -118,7 +134,7 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
 koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出する(hub-legacy からの逆抽出は
 しない。kodomo の逆抽出は語彙確定のための Phase 1 限定の手段であり、その代償として audit
 886行の検収債務を負っている)。描画確認用フィクスチャは
-`data/plans/_charttest.json`(3種を1本に。id が `_` 始まりでも
+`data/plans/_charttest.json`(全チャート種と主要ブロックの部品見本。id が `_` 始まりでも
 `data/plans/*.json` の全計画ループに乗るので、レンダラー改修時に
 自動再描画・自動検証される)。
 

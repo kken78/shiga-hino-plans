@@ -1,0 +1,50 @@
+# 計画ダッシュボードの自動検査(DESIGN.md ADR-8)。
+# プルリクエストと main への push のたびに、CLAUDE.md の定型フローの検証を実行する。
+name: check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: スキーマ検証(validate_schema.py)
+        run: |
+          for f in data/plans/*.json; do python3 tools/validate_schema.py "$f" || exit 1; done
+
+      - name: 全計画とハブを再生成(render_plan.py・build.py)
+        run: |
+          for f in data/plans/*.json; do python3 tools/render_plan.py "$(basename "$f" .json)" || exit 1; done
+          python3 tools/build.py
+
+      - name: 生成物がコミットされたものと一致するか
+        run: |
+          if ! git diff --exit-code --stat -- docs build; then
+            echo "::error::docs/ または build/ が JSON から再生成した結果と一致しません。全計画を再描画してコミットしてください。"
+            exit 1
+          fi
+
+      - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
+        run: node tools/validate.mjs docs/plans/*.html
+
+      - name: 実ブラウザでの表示検査(check_mobile.mjs・ゲートB)
+        run: |
+          npm install --no-save --no-package-lock playwright@1.49.1
+          npx playwright install --with-deps chromium
+          node tools/check_mobile.mjs docs/plans/*.html

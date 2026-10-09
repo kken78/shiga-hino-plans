@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light">
-<title>チャート移植テスト用フィクスチャ｜日野町データポータル（非公式）</title>
-<meta name="description" content="stacked_100 / pair_bars / rank_bars の描画確認専用。原典なし。">
+<title>部品見本(デザインシステム ADR-8)｜日野町データポータル（非公式）</title>
+<meta name="description" content="全チャート種と主要ブロックの描画を確かめる見本ページ。データは架空で原典はない。">
 <style>
 /* shell.css — 計画ダッシュボード共通スタイル(schema v1)
    計画ごとの個性は :root のテーマ4変数のみ(render_plan.py が注入)。
@@ -22,7 +22,11 @@
   --r:14px; --r2:9px;
   /* 型スケール(8段) */
   --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
-  --fs-lead:15.5px; --fs-small:13px; --fs-micro:11.5px; --fs-kn:30px;
+  --fs-lead:15.5px; --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
+  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* チャート寸法(ADR-8) */
+  --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
+  --chart-track:#eef0f2; --chart-grid:#e4e8ee;
   --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
   --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
   color:var(--ink);
@@ -47,7 +51,7 @@
 .hpv1 .crumb a:hover{color:var(--accent)}
 .hpv1 .eyebrow{
   display:inline-flex;align-items:center;gap:9px;
-  font-size:12.5px;letter-spacing:.14em;font-weight:700;color:var(--accent);
+  font-size:var(--fs-small);letter-spacing:.14em;font-weight:700;color:var(--accent);
 }
 .hpv1 .eyebrow::before{content:"";width:22px;height:2px;background:var(--accent2);border-radius:2px}
 .hpv1 h1{
@@ -65,11 +69,11 @@
     color-mix(in srgb,var(--accent) 9%,transparent),
     color-mix(in srgb,var(--accent2) 9%,transparent));
   border:1px solid var(--line);
-  font-weight:700;font-size:14.5px;letter-spacing:.02em;
+  font-weight:700;font-size:var(--fs-body);letter-spacing:.02em;
   color:color-mix(in srgb,var(--accent) 80%,var(--ink));
   display:flex;gap:12px;align-items:baseline;
 }
-.hpv1 .vision-banner .lbl{font-size:11px;color:var(--mut);letter-spacing:.1em;flex:none}
+.hpv1 .vision-banner .lbl{font-size:var(--fs-micro);color:var(--mut);letter-spacing:.1em;flex:none}
 .hpv1 .lead{margin-top:12px;font-size:var(--fs-lead);color:var(--ink2)}
 
 /* ---------- タブ(番号=読む順序) ---------- */
@@ -79,7 +83,7 @@
 }
 .hpv1 .tab{
   appearance:none;border:0;background:none;cursor:pointer;
-  font:inherit;font-weight:700;font-size:14px;color:var(--ink2);
+  font:inherit;font-weight:700;font-size:var(--fs-tab);color:var(--ink2);
   padding:11px 15px 12px;border-radius:9px 9px 0 0;position:relative;
 }
 .hpv1 .tab .tn{color:var(--mut);font-size:var(--fs-micro);font-weight:800;margin-right:7px;letter-spacing:.05em}
@@ -108,7 +112,7 @@
 .hpv1 .phead{
   padding-left:12px;border-left:4px solid var(--accent);
 }
-.hpv1 .b-heading .sub{font-size:12.5px;color:var(--mut);margin-top:3px;padding-left:16px}
+.hpv1 .b-heading .sub{font-size:var(--fs-small);color:var(--mut);margin-top:3px;padding-left:16px}
 .hpv1 .b-note{
   display:flex;gap:8px;font-size:var(--fs-small);color:var(--ink2);
   margin:12px 0;padding:10px 13px;background:var(--card);
@@ -138,9 +142,9 @@
     color-mix(in srgb,var(--accent2) 8%,var(--card)));
   border:1px solid var(--line);
 }
-.hpv1 .b-vision .lbl{font-size:11px;letter-spacing:.14em;font-weight:800;color:var(--mut)}
+.hpv1 .b-vision .lbl{font-size:var(--fs-micro);letter-spacing:.14em;font-weight:800;color:var(--mut)}
 .hpv1 .b-vision .tx{
-  font-family:var(--serif);font-size:19px;font-weight:800;line-height:1.5;
+  font-family:var(--serif);font-size:var(--fs-vision);font-weight:800;line-height:1.5;
   margin-top:4px;color:color-mix(in srgb,var(--accent) 80%,var(--ink));
 }
 .hpv1 .b-aims{display:grid;gap:8px;margin:0 0 18px}
@@ -174,7 +178,7 @@
 
 /* タブ内ジャンプ目次(toc) — 薄いaccent背景の角丸リンクを横並び */
 .hpv1 .b-toc{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 20px}
-.hpv1 .b-toc .tl{font-size:12.5px;font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
+.hpv1 .b-toc .tl{font-size:var(--fs-small);font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
 .hpv1 .b-toc a{
   font-size:var(--fs-small);font-weight:700;text-decoration:none;color:var(--accent);line-height:1.5;
   background:color-mix(in srgb,var(--accent) 8%,var(--card));
@@ -198,7 +202,7 @@
 
 .hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;
   background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:18px 22px}
-.hpv1 .b-bigstat .v{font-size:44px;font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
+.hpv1 .b-bigstat .v{font-size:var(--fs-big);font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
 .hpv1 .b-bigstat .u{font-size:var(--fs-sub);font-weight:700;color:var(--mut)}
 .hpv1 .b-bigstat .l{font-weight:700}
 .hpv1 .b-bigstat .d{font-size:var(--fs-small);color:var(--ink2);flex-basis:100%}
@@ -207,9 +211,9 @@
 .hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
 .hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
 .hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
-.hpv1 .target .cur{font-size:22px;font-weight:800}
+.hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
 .hpv1 .target .ar{color:var(--mut)}
-.hpv1 .target .tar{font-size:22px;font-weight:800;color:var(--accent2)}
+.hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--accent2)}
 .hpv1 .target .tu{font-size:var(--fs-small);color:var(--mut);font-weight:700}
 .hpv1 .target .asof{font-size:var(--fs-micro);color:var(--mut)}
 .hpv1 .target svg{display:block;width:100%;height:6px;margin-top:9px}
@@ -231,8 +235,73 @@
   padding:14px 16px;margin:0 0 12px}
 .hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
 .hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
-.hpv1 .b-chart svg{display:block;width:100%;height:auto}
-.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 4px;font-size:var(--fs-micro);color:var(--ink2)}
+.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 8px;font-size:var(--fs-chart);color:var(--ink2)}
+/* チャート部品(ADR-8)。文字はすべて HTML。棒の長さ・高さはレンダラーが値から計算した % */
+/* 横棒(rank_bars ほか): 名前 | 棒 | 値 */
+.hpv1 .hb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);
+  gap:5px 10px;align-items:center;font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .hb-r{display:contents}
+.hpv1 .hb-l{text-align:right;color:var(--ink2)}
+.hpv1 .hb-sub{color:var(--mut);margin-left:.4em}
+.hpv1 .hb-t{display:flex;height:var(--chart-bar);background:var(--chart-track);border-radius:4px;overflow:hidden}
+.hpv1 .hb-t>span{display:block;flex:none;height:100%}
+.hpv1 .hb-t>span:last-child{border-radius:0 4px 4px 0}
+.hpv1 .hb-v{text-align:right;font-weight:700;white-space:nowrap;color:var(--ink)}
+.hpv1 .hb-v.is-b{color:var(--ink2);font-weight:400}
+.hpv1 .hb-r.em .hb-l,.hpv1 .hb-r.em .hb-v{color:var(--accent2);font-weight:700}
+.hpv1 .hb-r.avg .hb-l{color:var(--ink);font-weight:700}
+/* 2系列の横棒(pair_bars): 名前 | (棒 | 値)×2 */
+.hpv1 .pb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr);gap:10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .pb-g{display:contents}
+.hpv1 .pb-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .pb-bars{display:grid;grid-template-columns:minmax(0,1fr) var(--vw,4em);gap:3px 10px;align-items:center}
+/* 100%積み上げの横棒(stacked_100): 名前 | 帯 */
+.hpv1 .s100{display:grid;grid-template-columns:fit-content(30%) minmax(0,1fr);gap:8px 10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .s100-r{display:contents}
+.hpv1 .s100-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .s100-b{display:flex;height:var(--chart-bar-l);border-radius:6px;overflow:hidden;box-shadow:inset 0 0 0 1px var(--line)}
+.hpv1 .s100-s{display:flex;flex:none;align-items:center;justify-content:center;overflow:hidden;
+  white-space:nowrap;font-weight:700}
+/* 縦棒(bars / stacked_bars): 列ごとに 値・棒・名前。目盛りは描かない */
+.hpv1 .vb{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);column-gap:6px;
+  padding-top:1.5em;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .vb-col{display:flex;flex-direction:column;min-width:0}
+.hpv1 .vb-t{height:var(--chart-h);display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  border-bottom:1px solid var(--line)}
+.hpv1 .vb-v{flex:none;font-weight:700;color:var(--ink);white-space:nowrap;padding-bottom:3px}
+.hpv1 .vb-s{flex:none;width:min(100%,var(--chart-col));display:flex;flex-direction:column-reverse;
+  border-radius:3px 3px 0 0;overflow:hidden}
+.hpv1 .vb-s>span{display:block;flex:none}
+.hpv1 .vb-l{margin-top:6px;text-align:center;font-weight:700;color:var(--ink2);overflow-wrap:anywhere}
+.hpv1 .vb-sub{display:block;font-weight:400;color:var(--mut)}
+/* 折れ線(line): 線と目盛り線は SVG(伸縮・線幅固定)、数値とラベルは HTML */
+.hpv1 .ln{padding-left:var(--ln-yw,3em);margin-top:10px;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .ln-plot{position:relative;height:var(--chart-h)}
+.hpv1 .ln-plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hpv1 .ln-g{stroke:var(--chart-grid);stroke-width:1}
+.hpv1 .ln-y{position:absolute;top:0;bottom:0;right:100%;width:var(--ln-yw,3em);padding-right:6px}
+.hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
+.hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
+.hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 長い横棒の一覧の折りたたみ(ADR-8 判断の優先順位 3・4)。:has() 非対応なら全件表示 */
+.hpv1 .hb-gap{display:none;grid-column:1/-1;color:var(--mut);text-align:center;line-height:1.2}
+.hpv1 .hbf:not(:has(details[open])) .fx{display:none}
+.hpv1 .hbf:not(:has(details[open])) .hb-gap{display:block}
+.hpv1 .more{margin-top:10px}
+.hpv1 .more>summary{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;cursor:pointer;
+  list-style:none;border:1px solid var(--line);border-radius:99px;font-size:var(--fs-small);font-weight:700;
+  color:var(--accent);background:var(--card)}
+.hpv1 .more>summary::-webkit-details-marker{display:none}
+.hpv1 .more .mc,.hpv1 .more[open] .mo{display:none}
+.hpv1 .more[open] .mc{display:inline}
+@media print{
+  .hpv1 .hbf .fx{display:contents!important}
+  .hpv1 .hbf .hb-gap,.hpv1 .more{display:none!important}
+}
+/* 狭い画面だけで使う表示(縦棒の代わりの横棒) */
+.hpv1 .narrow-only{display:none}
 .hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 
 .hpv1 .b-figure{margin:0 0 18px;background:var(--card);border:1px solid var(--line2);
@@ -309,10 +378,30 @@
 .hpv1 .foot .contact{margin-top:10px}
 
 @media (max-width:560px){
-  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px}
-  .hpv1 .tab{padding:10px 11px 11px;font-size:13px}
-  .hpv1 .b-bigstat .v{font-size:34px}
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
+  .hpv1 .tab{padding:10px 11px 11px}
+  /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
+  .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .hpv1 .tabs::-webkit-scrollbar{display:none}
+  .hpv1 .tab{flex:none;white-space:nowrap}
   .hpv1 .pgrid{grid-template-columns:1fr}
+  /* チャート: 名前は棒の上の行に置き、棒の長さを確保する(ADR-8) */
+  .hpv1 .hb{grid-template-columns:minmax(0,1fr) var(--vw,4em);row-gap:2px}
+  .hpv1 .hb-l{grid-column:1/-1;text-align:left;margin-top:6px}
+  .hpv1 .pb{grid-template-columns:minmax(0,1fr);row-gap:4px}
+  .hpv1 .pb-l{text-align:left;margin-top:6px}
+  .hpv1 .s100{grid-template-columns:minmax(0,1fr);row-gap:3px}
+  .hpv1 .s100-l{text-align:left;margin-top:4px}
+  /* 名前が短い横棒(.inline-sm)は、狭い画面でも名前を同じ行に置いて縦に長くしない */
+  .hpv1{--chart-bar:12px}
+  .hpv1 .hb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);row-gap:5px}
+  .hpv1 .pb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .s100.inline-sm{grid-template-columns:fit-content(30%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .inline-sm .hb-l,.hpv1 .inline-sm .pb-l,.hpv1 .inline-sm .s100-l{text-align:right;margin-top:0}
+  .hpv1 .inline-sm .hb-l{grid-column:auto}
+  .hpv1 .ln-x>.nw{display:none}
+  .hpv1 .wide-only{display:none}
+  .hpv1 .narrow-only{display:grid}
 }
 @media (prefers-reduced-motion:no-preference){
   .hpv1 .panel.active{animation:hpv1-in .18s ease-out}
@@ -327,13 +416,13 @@
   <header class="head">
     <nav class="crumb"><a href="../index.html">← 計画ライブラリにもどる</a></nav>
     
-    <h1>チャート移植テスト用フィクスチャ</h1>
+    <h1>部品見本(デザインシステム ADR-8)</h1>
     <div class="metarow"><span>計画期間 <b class="num">R7〜R11年度</b></span><span>所管 <b>テスト</b></span></div>
     
-    <p class="lead">stacked_100 / pair_bars / rank_bars の描画確認専用。原典なし。</p>
+    <p class="lead">全チャート種と主要ブロックの描画を確かめる見本ページ。データは架空で原典はない。</p>
   </header>
-  <nav class="tabs" role="tablist" aria-label="このページの内容"><button class="tab" role="tab" data-tab="summary" aria-selected="true"><span class="tn num">01</span>まとめ</button><button class="tab" role="tab" data-tab="charts" aria-selected="false"><span class="tn num">02</span>チャート</button><button class="tab" role="tab" data-tab="tables" aria-selected="false"><span class="tn num">03</span>表</button></nav>
-  <section class="panel active" role="tabpanel" data-panel="summary"><div><div class="b-narrative"><p>これは検証用フィクスチャです。3種のチャートkindを描画します。</p></div></div></section><section class="panel" role="tabpanel" data-panel="charts"><div><div class="b-chart"><div class="cttl">stacked_100 テスト(18歳未満人口の構成比)</div><div class="cunit">単位：%</div><div class="legend"><span><span class="sw" style="background:#1E4E9C"></span>就学前</span><span><span class="sw" style="background:#7491c2"></span>小学生</span><span><span class="sw" style="background:#527ea1"></span>中学生</span><span><span class="sw" style="background:#C33D2E"></span>高校生</span></div><svg viewBox="0 0 720 96" role="img" aria-label="stacked_100 テスト(18歳未満人口の構成比)" preserveAspectRatio="xMidYMid meet"><text x="88" y="37.0" text-anchor="end" font-size="11.5" font-weight="700" fill="#4c5561">R2</text><rect x="96.0" y="22.0" width="185.3" height="22" fill="#1E4E9C"/><text x="188.7" y="37.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">30</text><rect x="281.3" y="22.0" width="208.6" height="22" fill="#7491c2"/><text x="385.6" y="37.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">34</text><rect x="489.9" y="22.0" width="104.8" height="22" fill="#527ea1"/><text x="542.3" y="37.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">17</text><rect x="594.7" y="22.0" width="111.3" height="22" fill="#C33D2E"/><text x="650.4" y="37.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">18</text><rect x="96" y="22.0" width="610.0" height="22" rx="6" fill="none" stroke="#dde3ea"/><text x="88" y="71.0" text-anchor="end" font-size="11.5" font-weight="700" fill="#4c5561">R6</text><rect x="96.0" y="56.0" width="169.2" height="22" fill="#1E4E9C"/><text x="180.6" y="71.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">28</text><rect x="265.2" y="56.0" width="215.4" height="22" fill="#7491c2"/><text x="372.8" y="71.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">35</text><rect x="480.5" y="56.0" width="115.7" height="22" fill="#527ea1"/><text x="538.4" y="71.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">19</text><rect x="596.2" y="56.0" width="109.8" height="22" fill="#C33D2E"/><text x="651.1" y="71.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">18</text><rect x="96" y="56.0" width="610.0" height="22" rx="6" fill="none" stroke="#dde3ea"/></svg></div></div><div><div class="b-chart"><div class="cttl">pair_bars テスト(日野町 vs 県平均)</div><div class="cunit">単位：%</div><div class="legend"><span><span class="sw" style="background:#1E4E9C"></span>日野町</span><span><span class="sw" style="background:#C33D2E"></span>県平均</span></div><svg viewBox="0 0 720 164" role="img" aria-label="pair_bars テスト(日野町 vs 県平均)" preserveAspectRatio="xMidYMid meet"><text x="142" y="37.0" text-anchor="end" font-size="10.5" font-weight="700" fill="#4c5561">満足度</text><rect x="150" y="16.0" width="514.0" height="15" rx="7" fill="#eef0f2"/><rect x="150" y="16.0" width="401.6" height="15" rx="7" fill="#1E4E9C"/><text x="557.6" y="28.0" font-size="10.5" font-weight="700" fill="#3a414c">62.5%</text><rect x="150" y="35.0" width="514.0" height="15" rx="7" fill="#eef0f2"/><rect x="150" y="35.0" width="354.0" height="15" rx="7" fill="#C33D2E"/><text x="510.0" y="47.0" font-size="10.5" font-weight="700" fill="#7b8a83">55.1%</text><text x="142" y="87.0" text-anchor="end" font-size="10.5" font-weight="700" fill="#4c5561">関心度</text><rect x="150" y="66.0" width="514.0" height="15" rx="7" fill="#eef0f2"/><rect x="150" y="66.0" width="308.4" height="15" rx="7" fill="#1E4E9C"/><text x="464.4" y="78.0" font-size="10.5" font-weight="700" fill="#3a414c">48.0%</text><rect x="150" y="85.0" width="514.0" height="15" rx="7" fill="#eef0f2"/><rect x="150" y="85.0" width="329.6" height="15" rx="7" fill="#C33D2E"/><text x="485.6" y="97.0" font-size="10.5" font-weight="700" fill="#7b8a83">51.3%</text><text x="142" y="137.0" text-anchor="end" font-size="10.5" font-weight="700" fill="#4c5561">参加率</text><rect x="150" y="116.0" width="514.0" height="15" rx="7" fill="#eef0f2"/><rect x="150" y="116.0" width="194.0" height="15" rx="7" fill="#1E4E9C"/><text x="350.0" y="128.0" font-size="10.5" font-weight="700" fill="#3a414c">30.2%</text></svg></div></div><div><div class="b-chart"><div class="cttl">rank_bars テスト(住民一人あたり公共施設面積・降順)</div><div class="cunit">単位：㎡/人</div><div class="legend"><span><span class="sw" style="background:#C33D2E"></span>日野町</span><span><span class="sw" style="background:#b0b7c3"></span>平均</span></div><svg viewBox="0 0 720 149" role="img" aria-label="rank_bars テスト(住民一人あたり公共施設面積・降順)" preserveAspectRatio="xMidYMid meet"><text x="65" y="23.5" text-anchor="end" font-size="10.5" font-weight="400" fill="#3a414c">甲賀市</text><rect x="73" y="12.0" width="591.0" height="15" rx="7" fill="#f2f0e9"/><rect x="73" y="12.0" width="573.3" height="15" rx="7" fill="#1E4E9C"/><text x="714" y="23.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#3a414c">5.82㎡/人</text><text x="65" y="45.5" text-anchor="end" font-size="10.5" font-weight="400" fill="#3a414c">東近江市</text><rect x="73" y="34.0" width="591.0" height="15" rx="7" fill="#f2f0e9"/><rect x="73" y="34.0" width="502.3" height="15" rx="7" fill="#839ec9"/><text x="714" y="45.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#3a414c">5.10㎡/人</text><text x="65" y="67.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#C33D2E">日野町</text><rect x="73" y="56.0" width="591.0" height="15" rx="7" fill="#f2f0e9"/><rect x="73" y="56.0" width="433.4" height="15" rx="7" fill="#C33D2E"/><text x="714" y="67.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#C33D2E">4.40㎡/人</text><text x="65" y="89.5" text-anchor="end" font-size="10.5" font-weight="400" fill="#3a414c">竜王町</text><rect x="73" y="78.0" width="591.0" height="15" rx="7" fill="#f2f0e9"/><rect x="73" y="78.0" width="398.9" height="15" rx="7" fill="#839ec9"/><text x="714" y="89.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#3a414c">4.05㎡/人</text><text x="65" y="111.5" text-anchor="end" font-size="10.5" font-weight="400" fill="#3a414c">近江八幡市</text><rect x="73" y="100.0" width="591.0" height="15" rx="7" fill="#f2f0e9"/><rect x="73" y="100.0" width="345.7" height="15" rx="7" fill="#1E4E9C"/><text x="714" y="111.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#3a414c">3.51㎡/人</text><text x="65" y="133.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#3a414c">県平均</text><rect x="73" y="122.0" width="591.0" height="15" rx="7" fill="#f2f0e9"/><rect x="73" y="122.0" width="377.3" height="15" rx="7" fill="#b0b7c3"/><text x="714" y="133.5" text-anchor="end" font-size="10.5" font-weight="700" fill="#3a414c">3.83㎡/人</text></svg></div></div><div class="src">テストデータ(架空)</div></section><section class="panel" role="tabpanel" data-panel="tables"><div><div class="b-table"><table><thead><tr><th>項目</th><th>値</th><th>単位</th><th class="txt">説明</th></tr></thead><tbody><tr><td>増減(負値・小数2桁)</td><td class="num neg">▲1.50</td><td>億円</td><td class="txt">負値は▲表記で、JSON に書いた桁数(2桁)を保って表示されることを確かめる行</td></tr><tr><td>整数</td><td class="num">1,200</td><td>人</td><td class="txt">―</td></tr><tr><td>小数1桁</td><td class="num">3.0</td><td>%</td><td class="txt">末尾が0の小数も「3.0」と表示されることを確かめる行</td></tr></tbody></table></div><div class="b-note"><span>「単位」列は20字以下の文字列だけなので右寄せ、「説明」列は20字を超えるので文章列(左寄せ・折り返し)になる。</span></div></div><div class="src">テストデータ(架空)</div></section>
+  <nav class="tabs" role="tablist" aria-label="このページの内容"><button class="tab" role="tab" data-tab="summary" aria-selected="true"><span class="tn num">01</span>まとめ</button><button class="tab" role="tab" data-tab="charts" aria-selected="false"><span class="tn num">02</span>チャート</button><button class="tab" role="tab" data-tab="blocks" aria-selected="false"><span class="tn num">03</span>ブロック</button><button class="tab" role="tab" data-tab="tables" aria-selected="false"><span class="tn num">04</span>表</button></nav>
+  <section class="panel active" role="tabpanel" data-panel="summary"><div><div class="b-narrative"><p>部品を変更したら、このページを幅360pxと1024pxで確かめる(tools/check_mobile.mjs)。データはすべて架空。</p></div></div></section><section class="panel" role="tabpanel" data-panel="charts"><div><div class="b-chart"><div class="cttl">stacked_100 テスト(18歳未満人口の構成比)</div><div class="cunit">単位：%</div><div class="legend"><span><span class="sw" style="background:#1E4E9C"></span>就学前</span><span><span class="sw" style="background:#7491c2"></span>小学生</span><span><span class="sw" style="background:#527ea1"></span>中学生</span><span><span class="sw" style="background:#C33D2E"></span>高校生</span></div><div class="s100 inline-sm"><div class="s100-r"><span class="s100-l">R2</span><span class="s100-b"><span class="s100-s" style="width:30.38%;background:#1E4E9C;color:#ffffff">30</span><span class="s100-s" style="width:34.20%;background:#7491c2;color:#ffffff">34</span><span class="s100-s" style="width:17.18%;background:#527ea1;color:#ffffff">17</span><span class="s100-s" style="width:18.25%;background:#C33D2E;color:#ffffff">18</span></span></div><div class="s100-r"><span class="s100-l">R6</span><span class="s100-b"><span class="s100-s" style="width:27.73%;background:#1E4E9C;color:#ffffff">28</span><span class="s100-s" style="width:35.31%;background:#7491c2;color:#ffffff">35</span><span class="s100-s" style="width:18.96%;background:#527ea1;color:#ffffff">19</span><span class="s100-s" style="width:18.00%;background:#C33D2E;color:#ffffff">18</span></span></div></div></div></div><div><div class="b-chart"><div class="cttl">pair_bars テスト(日野町 vs 県平均)</div><div class="cunit">単位：%</div><div class="legend"><span><span class="sw" style="background:#1E4E9C"></span>日野町</span><span><span class="sw" style="background:#C33D2E"></span>県平均</span></div><div class="pb inline-sm" style="--vw:3.5em"><div class="pb-g"><span class="pb-l">満足度</span><span class="pb-bars"><span class="hb-t"><span style="width:78.12%;background:#1E4E9C"></span></span><span class="hb-v num">62.5%</span><span class="hb-t"><span style="width:68.88%;background:#C33D2E"></span></span><span class="hb-v num is-b">55.1%</span></span></div><div class="pb-g"><span class="pb-l">関心度</span><span class="pb-bars"><span class="hb-t"><span style="width:60.00%;background:#1E4E9C"></span></span><span class="hb-v num">48.0%</span><span class="hb-t"><span style="width:64.12%;background:#C33D2E"></span></span><span class="hb-v num is-b">51.3%</span></span></div><div class="pb-g"><span class="pb-l">参加率</span><span class="pb-bars"><span class="hb-t"><span style="width:37.75%;background:#1E4E9C"></span></span><span class="hb-v num">30.2%</span></span></div></div></div></div><div><div class="b-chart"><div class="cttl">rank_bars テスト(住民一人あたり公共施設面積・降順)</div><div class="cunit">単位：㎡/人</div><div class="legend"><span><span class="sw" style="background:#C33D2E"></span>日野町</span><span><span class="sw" style="background:#b0b7c3"></span>平均</span></div><div class="hb inline-sm" style="--vw:5.5em"><div class="hb-r"><span class="hb-l">甲賀市</span><span class="hb-t"><span style="width:97.00%;background:#1E4E9C"></span></span><span class="hb-v num">5.82㎡/人</span></div><div class="hb-r"><span class="hb-l">東近江市</span><span class="hb-t"><span style="width:85.00%;background:#839ec9"></span></span><span class="hb-v num">5.10㎡/人</span></div><div class="hb-r em"><span class="hb-l">日野町</span><span class="hb-t"><span style="width:73.33%;background:#C33D2E"></span></span><span class="hb-v num">4.40㎡/人</span></div><div class="hb-r"><span class="hb-l">竜王町</span><span class="hb-t"><span style="width:67.50%;background:#839ec9"></span></span><span class="hb-v num">4.05㎡/人</span></div><div class="hb-r"><span class="hb-l">近江八幡市</span><span class="hb-t"><span style="width:58.50%;background:#1E4E9C"></span></span><span class="hb-v num">3.51㎡/人</span></div><div class="hb-r avg"><span class="hb-l">県平均</span><span class="hb-t"><span style="width:63.83%;background:#b0b7c3"></span></span><span class="hb-v num">3.83㎡/人</span></div></div></div></div><div><div class="b-chart"><div class="cttl">rank_bars テスト(25行。21行以上は初期表示を畳む)</div><div class="cunit">単位：㎡/人</div><div class="legend"><span><span class="sw" style="background:#C33D2E"></span>日野町</span><span><span class="sw" style="background:#b0b7c3"></span>平均</span></div><div class="hbf"><div class="hb inline-sm" style="--vw:5.5em"><div class="hb-r"><span class="hb-l">団体01</span><span class="hb-t"><span style="width:92.00%;background:#839ec9"></span></span><span class="hb-v num">9.20㎡/人</span></div><div class="hb-r"><span class="hb-l">団体02</span><span class="hb-t"><span style="width:89.00%;background:#839ec9"></span></span><span class="hb-v num">8.90㎡/人</span></div><div class="hb-r"><span class="hb-l">団体03</span><span class="hb-t"><span style="width:86.00%;background:#839ec9"></span></span><span class="hb-v num">8.60㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体04</span><span class="hb-t"><span style="width:83.00%;background:#839ec9"></span></span><span class="hb-v num">8.30㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体05</span><span class="hb-t"><span style="width:80.00%;background:#839ec9"></span></span><span class="hb-v num">8.00㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体06</span><span class="hb-t"><span style="width:77.00%;background:#839ec9"></span></span><span class="hb-v num">7.70㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体07</span><span class="hb-t"><span style="width:74.00%;background:#839ec9"></span></span><span class="hb-v num">7.40㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体08</span><span class="hb-t"><span style="width:71.00%;background:#839ec9"></span></span><span class="hb-v num">7.10㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体09</span><span class="hb-t"><span style="width:68.00%;background:#839ec9"></span></span><span class="hb-v num">6.80㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体10</span><span class="hb-t"><span style="width:65.00%;background:#839ec9"></span></span><span class="hb-v num">6.50㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体11</span><span class="hb-t"><span style="width:62.00%;background:#839ec9"></span></span><span class="hb-v num">6.20㎡/人</span></div><div class="hb-gap">…（8件）</div><div class="hb-r"><span class="hb-l">団体12</span><span class="hb-t"><span style="width:59.00%;background:#839ec9"></span></span><span class="hb-v num">5.90㎡/人</span></div><div class="hb-r"><span class="hb-l">団体13</span><span class="hb-t"><span style="width:56.00%;background:#839ec9"></span></span><span class="hb-v num">5.60㎡/人</span></div><div class="hb-r em"><span class="hb-l">団体14</span><span class="hb-t"><span style="width:53.00%;background:#C33D2E"></span></span><span class="hb-v num">5.30㎡/人</span></div><div class="hb-r"><span class="hb-l">団体15</span><span class="hb-t"><span style="width:50.00%;background:#839ec9"></span></span><span class="hb-v num">5.00㎡/人</span></div><div class="hb-r"><span class="hb-l">団体16</span><span class="hb-t"><span style="width:47.00%;background:#839ec9"></span></span><span class="hb-v num">4.70㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体17</span><span class="hb-t"><span style="width:44.00%;background:#839ec9"></span></span><span class="hb-v num">4.40㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体18</span><span class="hb-t"><span style="width:41.00%;background:#839ec9"></span></span><span class="hb-v num">4.10㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体19</span><span class="hb-t"><span style="width:38.00%;background:#839ec9"></span></span><span class="hb-v num">3.80㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体20</span><span class="hb-t"><span style="width:35.00%;background:#839ec9"></span></span><span class="hb-v num">3.50㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体21</span><span class="hb-t"><span style="width:32.00%;background:#839ec9"></span></span><span class="hb-v num">3.20㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体22</span><span class="hb-t"><span style="width:29.00%;background:#839ec9"></span></span><span class="hb-v num">2.90㎡/人</span></div><div class="hb-r fx"><span class="hb-l">団体23</span><span class="hb-t"><span style="width:26.00%;background:#839ec9"></span></span><span class="hb-v num">2.60㎡/人</span></div><div class="hb-gap">…（7件）</div><div class="hb-r"><span class="hb-l">団体24</span><span class="hb-t"><span style="width:23.00%;background:#839ec9"></span></span><span class="hb-v num">2.30㎡/人</span></div><div class="hb-r avg"><span class="hb-l">団体25</span><span class="hb-t"><span style="width:20.00%;background:#b0b7c3"></span></span><span class="hb-v num">2.00㎡/人</span></div></div><details class="more"><summary><span class="mo">すべて表示（全24件）</span><span class="mc">折りたたむ</span></summary></details></div></div></div><div><div class="b-chart"><div class="cttl">bars テスト(5列。どの幅でも縦棒)</div><div class="cunit">単位：億円</div><div class="vb"><div class="vb-col"><div class="vb-t"><span class="vb-v num">2.50</span><span class="vb-s" style="height:83.33%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H28</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">2.47</span><span class="vb-s" style="height:82.33%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H29</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">2.63</span><span class="vb-s" style="height:87.67%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H30</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">2.59</span><span class="vb-s" style="height:86.33%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">R元</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">2.42</span><span class="vb-s" style="height:80.67%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">R2</div></div></div></div></div><div><div class="b-chart"><div class="cttl">bars テスト(12列。狭い画面では横棒に切り替わる)</div><div class="cunit">単位：㎡</div><div class="vb wide-only"><div class="vb-col"><div class="vb-t"><span class="vb-v num">5,448</span><span class="vb-s" style="height:21.79%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">〜S45</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">2,002</span><span class="vb-s" style="height:8.01%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">S46-50</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">20,873</span><span class="vb-s" style="height:83.49%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">S51-56</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">3,846</span><span class="vb-s" style="height:15.38%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">S57-60</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">22,485</span><span class="vb-s" style="height:89.94%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">S61-H2</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">10,323</span><span class="vb-s" style="height:41.29%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H3-7</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">9,548</span><span class="vb-s" style="height:38.19%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H8-12</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">1,631</span><span class="vb-s" style="height:6.52%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H13-17</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">11,504</span><span class="vb-s" style="height:46.02%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H18-22</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">2,100</span><span class="vb-s" style="height:8.40%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H23-27</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">980</span><span class="vb-s" style="height:3.92%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">H28-R2</div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">63</span><span class="vb-s" style="height:0.25%"><span style="height:100.00%;background:#1E4E9C"></span></span></div><div class="vb-l">R3-</div></div></div><div class="hb narrow-only inline-sm" style="--vw:4.2em"><div class="hb-r"><span class="hb-l">〜S45</span><span class="hb-t"><span style="width:21.79%;background:#1E4E9C"></span></span><span class="hb-v num">5,448</span></div><div class="hb-r"><span class="hb-l">S46-50</span><span class="hb-t"><span style="width:8.01%;background:#1E4E9C"></span></span><span class="hb-v num">2,002</span></div><div class="hb-r"><span class="hb-l">S51-56</span><span class="hb-t"><span style="width:83.49%;background:#1E4E9C"></span></span><span class="hb-v num">20,873</span></div><div class="hb-r"><span class="hb-l">S57-60</span><span class="hb-t"><span style="width:15.38%;background:#1E4E9C"></span></span><span class="hb-v num">3,846</span></div><div class="hb-r"><span class="hb-l">S61-H2</span><span class="hb-t"><span style="width:89.94%;background:#1E4E9C"></span></span><span class="hb-v num">22,485</span></div><div class="hb-r"><span class="hb-l">H3-7</span><span class="hb-t"><span style="width:41.29%;background:#1E4E9C"></span></span><span class="hb-v num">10,323</span></div><div class="hb-r"><span class="hb-l">H8-12</span><span class="hb-t"><span style="width:38.19%;background:#1E4E9C"></span></span><span class="hb-v num">9,548</span></div><div class="hb-r"><span class="hb-l">H13-17</span><span class="hb-t"><span style="width:6.52%;background:#1E4E9C"></span></span><span class="hb-v num">1,631</span></div><div class="hb-r"><span class="hb-l">H18-22</span><span class="hb-t"><span style="width:46.02%;background:#1E4E9C"></span></span><span class="hb-v num">11,504</span></div><div class="hb-r"><span class="hb-l">H23-27</span><span class="hb-t"><span style="width:8.40%;background:#1E4E9C"></span></span><span class="hb-v num">2,100</span></div><div class="hb-r"><span class="hb-l">H28-R2</span><span class="hb-t"><span style="width:3.92%;background:#1E4E9C"></span></span><span class="hb-v num">980</span></div><div class="hb-r"><span class="hb-l">R3-</span><span class="hb-t"><span style="width:0.25%;background:#1E4E9C"></span></span><span class="hb-v num">63</span></div></div></div></div><div><div class="b-chart"><div class="cttl">stacked_bars テスト(4系列×5年、補足ラベルつき)</div><div class="cunit">単位：人</div><div class="legend"><span><span class="sw" style="background:#1E4E9C"></span>就学前</span><span><span class="sw" style="background:#7491c2"></span>小学生</span><span><span class="sw" style="background:#527ea1"></span>中学生</span><span><span class="sw" style="background:#C33D2E"></span>高校生</span></div><div class="vb"><div class="vb-col"><div class="vb-t"><span class="vb-v num">3,272</span><span class="vb-s" style="height:81.80%"><span style="height:30.38%;background:#1E4E9C"></span><span style="height:34.20%;background:#7491c2"></span><span style="height:17.18%;background:#527ea1"></span><span style="height:18.25%;background:#C33D2E"></span></span></div><div class="vb-l">R2<span class="vb-sub">2020</span></div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">3,194</span><span class="vb-s" style="height:79.85%"><span style="height:29.24%;background:#1E4E9C"></span><span style="height:35.60%;background:#7491c2"></span><span style="height:16.75%;background:#527ea1"></span><span style="height:18.41%;background:#C33D2E"></span></span></div><div class="vb-l">R3<span class="vb-sub">2021</span></div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">3,149</span><span class="vb-s" style="height:78.72%"><span style="height:28.58%;background:#1E4E9C"></span><span style="height:35.76%;background:#7491c2"></span><span style="height:17.15%;background:#527ea1"></span><span style="height:18.51%;background:#C33D2E"></span></span></div><div class="vb-l">R4<span class="vb-sub">2022</span></div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">3,075</span><span class="vb-s" style="height:76.88%"><span style="height:27.87%;background:#1E4E9C"></span><span style="height:34.80%;background:#7491c2"></span><span style="height:18.93%;background:#527ea1"></span><span style="height:18.41%;background:#C33D2E"></span></span></div><div class="vb-l">R5<span class="vb-sub">2023</span></div></div><div class="vb-col"><div class="vb-t"><span class="vb-v num">3,022</span><span class="vb-s" style="height:75.55%"><span style="height:27.73%;background:#1E4E9C"></span><span style="height:35.31%;background:#7491c2"></span><span style="height:18.96%;background:#527ea1"></span><span style="height:18.00%;background:#C33D2E"></span></span></div><div class="vb-l">R6<span class="vb-sub">2024</span></div></div></div></div></div><div><div class="b-chart"><div class="cttl">line テスト(2系列×19点、ymax指定)</div><div class="cunit">単位：%</div><div class="legend"><span><span class="sw" style="background:#1E4E9C"></span>系列A</span><span><span class="sw" style="background:#C33D2E"></span>系列B</span></div><div class="ln" style="--ln-yw:2.1em"><div class="ln-plot"><div class="ln-y"><span class="num" style="bottom:0.00%">0</span><span class="num" style="bottom:14.29%">10</span><span class="num" style="bottom:28.57%">20</span><span class="num" style="bottom:42.86%">30</span><span class="num" style="bottom:57.14%">40</span><span class="num" style="bottom:71.43%">50</span><span class="num" style="bottom:85.71%">60</span><span class="num" style="bottom:100.00%">70</span></div><svg viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><line class="ln-g" x1="0" y1="1000.0" x2="1000" y2="1000.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="857.1" x2="1000" y2="857.1" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="714.3" x2="1000" y2="714.3" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="571.4" x2="1000" y2="571.4" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="428.6" x2="1000" y2="428.6" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="285.7" x2="1000" y2="285.7" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="142.9" x2="1000" y2="142.9" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="0.0" x2="1000" y2="0.0" vector-effect="non-scaling-stroke"/><polyline points="0.0,255.7 55.6,228.6 111.1,211.4 166.7,188.6 222.2,167.1 277.8,141.4 333.3,128.6 388.9,118.6 444.4,107.1 500.0,97.1 555.6,85.7 611.1,80.0 666.7,72.9 722.2,67.1 777.8,60.0 833.3,55.7 888.9,51.4 944.4,44.3 1000.0,40.0" fill="none" stroke="#1E4E9C" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><polyline points="0.0,428.6 55.6,411.4 111.1,378.6 166.7,355.7 222.2,342.9 277.8,324.3 333.3,302.9 388.9,282.9 444.4,262.9 500.0,257.1 555.6,235.7 611.1,227.1 666.7,214.3 722.2,202.9 777.8,197.1 833.3,187.1 888.9,181.4 944.4,174.3 1000.0,171.4" fill="none" stroke="#C33D2E" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" vector-effect="non-scaling-stroke"/></svg></div><div class="ln-x"><span style="left:0.00%">S45</span><span class="nw" style="left:5.56%">S50</span><span class="nw" style="left:11.11%">S55</span><span style="left:16.67%">S60</span><span class="nw" style="left:22.22%">H2</span><span class="nw" style="left:27.78%">H7</span><span style="left:33.33%">H12</span><span class="nw" style="left:38.89%">H17</span><span class="nw" style="left:44.44%">H22</span><span style="left:50.00%">H27</span><span class="nw" style="left:55.56%">R2</span><span class="nw" style="left:61.11%">R7</span><span style="left:66.67%">R12</span><span class="nw" style="left:72.22%">R17</span><span class="nw" style="left:77.78%">R22</span><span style="left:83.33%">R27</span><span class="nw" style="left:88.89%">R32</span><span class="nw" style="left:94.44%">R37</span><span style="left:100.00%">R42</span></div></div></div></div><div class="src">テストデータ(架空)</div></section><section class="panel" role="tabpanel" data-panel="blocks"><div><div class="b-kpis"><div class="kpi"><div class="kl">総人口</div><div class="kn num">20,761<span class="ku">人</span></div><div class="kd"><span class="tr down">▼</span><span>4年で661人減</span></div><div class="asof">R6.4.1</div></div><div class="kpi"><div class="kl">待機児童</div><div class="kn num">8<span class="ku">人</span></div><div class="kd"><span class="tr flat">―</span><span>0・1歳児に集中</span></div><div class="asof">R6.4.1</div></div><div class="kpi"><div class="kl">減価償却率</div><div class="kn num">65.4<span class="ku">%</span></div><div class="kd"><span class="tr up">▲</span><span>類似団体46団体中38位</span></div><div class="asof">R元年度</div></div></div></div><div><div class="b-bigstat"><span class="v num">4.40</span><span class="u">㎡/人</span><span class="l">住民1人当たりの公共施設延床面積</span><div class="d">県計3.83㎡/人を上回る</div></div></div><div><div class="b-targets"><div class="target"><div class="tl">駅の利用者数</div><div class="tv"><span class="cur num">315,200</span><span class="asof">現状・R6年度</span><span class="ar">→</span><span class="tar num">328,000</span><span class="asof">目標・R11年度</span><span class="tu">人/年</span></div><svg viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true"><rect x="0" y="0" width="100" height="6" rx="3" fill="#d6dfed"/><rect x="0" y="0" width="96.1" height="6" rx="3" fill="#C33D2E"/></svg><div class="pct num">目標比 96.1%</div></div></div></div><div><div class="b-timeline"><div class="tlrow"><span class="sp num">R7〜R8</span><span>基本設計</span></div><div class="tlrow"><span class="sp num">R9〜R11</span><span>改修工事</span></div></div></div><div class="src">テストデータ(架空)</div></section><section class="panel" role="tabpanel" data-panel="tables"><div><div class="b-table"><table><thead><tr><th>項目</th><th>値</th><th>単位</th><th class="txt">説明</th></tr></thead><tbody><tr><td>増減(負値・小数2桁)</td><td class="num neg">▲1.50</td><td>億円</td><td class="txt">負値は▲表記で、JSON に書いた桁数(2桁)を保って表示されることを確かめる行</td></tr><tr><td>整数</td><td class="num">1,200</td><td>人</td><td class="txt">―</td></tr><tr><td>小数1桁</td><td class="num">3.0</td><td>%</td><td class="txt">末尾が0の小数も「3.0」と表示されることを確かめる行</td></tr></tbody></table></div><div class="b-note"><span>「単位」列は20字以下の文字列だけなので右寄せ、「説明」列は20字を超えるので文章列(左寄せ・折り返し)になる。</span></div></div><div class="src">テストデータ(架空)</div></section>
   <footer class="foot">
     <h2>出典・原典資料</h2>
     <ul><li>テストデータ(架空)</li></ul>

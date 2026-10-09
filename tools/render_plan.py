@@ -15,16 +15,16 @@
             figure timeline programs
             chart(bars/stacked_bars/stacked_100/line/pair_bars/rank_bars)
   未実装:   (なし)
-  移植メモ: stacked_100/pair_bars/rank_bars は sources_raw/hub-legacy.html の
-            .hkodomo(stack100/pairBars)と .hpshi(render)の座標計算を移植。
-            いずれも元は横バーの div 実装なので、SVG(viewBox 720×可変高)へ
-            横バーのまま写像した(縦棒の stacked_bars とはレイアウトが異なる)。
-            ・stack100: 各行=100%横積み。セグメント幅=v/total、ラベルは
-              セグメント幅≥9%のみ表示、文字色は txtOn 相当(WCAG輝度>0.30で暗)
-            ・pair_bars: a/b の2横バー。幅=v/max。b の値は淡色(元 pairBars 同じ)
-            ・rank_bars: avg 行を末尾へ寄せ元順(降順)維持=元 render と同一。
-              幅=max(v/top,1%)。強調 hino→accent2 / 1→accent / 0→accent淡 /
-              avg→灰トーン。色はテーマトークン経由(元の生HEXを写像)
+  チャートの描き方(DESIGN.md ADR-8 デザインシステム):
+            ・文字はすべて HTML で描き、SVG の中には置かない(スマホで縮小されるため)
+            ・横棒(rank_bars/pair_bars/stacked_100)は HTML の grid。狭い画面では
+              名前を棒の上の行に置く(shell.css の 560px 以下の規則)
+            ・縦棒(bars/stacked_bars)は HTML の列。幅360pxの本文(NARROW_W)に列が
+              収まらない場合は、狭い画面用の横棒も出して CSS で出し分ける
+            ・折れ線(line)は線と目盛り線だけ SVG(伸縮・線幅固定)、数値とラベルは HTML
+            ・stack100 のラベルはセグメント幅≥9%のみ、文字色は txtOn 相当
+              (WCAG輝度>0.30で暗)。rank_bars の色は hino→accent2 / 1→accent /
+              0→accent淡 / avg→灰(元 .hpshi render の写像を継承)
 """
 import base64
 import html
@@ -44,8 +44,13 @@ ASSETS = ROOT / "data" / "assets"
 
 DEFAULT_THEME = {"accent": "#1E4E9C", "accent2": "#C33D2E",
                  "danger": "#c25b46", "paper": "#f4f6f8"}
-CHART_FONT = 10.5  # チャート内フォント(2段のうち小)
-CHART_FONT2 = 11.5  # チャート内フォント(2段のうち大)
+# チャート部品の寸法(DESIGN.md ADR-8)。CSS のトークン(templates/shell.css)と同じ値にする
+FS_CHART = 13       # --fs-chart(px)
+COL_GAP = 6         # 縦棒の列の間隔(px)。.vb の column-gap
+NARROW_W = 292      # 幅360pxの端末でのチャートの中身の幅(px)
+WIDE_W = 852        # 最大幅(920px)でのチャートの中身の幅(px)
+FOLD_MIN = 21       # 横棒がこの件数以上なら初期表示を畳む(ADR-8 判断の優先順位 3・4)
+INLINE_LABEL_W = 110  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 
 
@@ -88,6 +93,33 @@ def fmt(n):
     if isinstance(n, float) and not n.is_integer():
         return f"{n:,}"
     return f"{int(n):,}"
+
+
+def text_px(s, fs):
+    """文字列の表示幅の見積り(px)。和文=1字、半角=0.62字(太字の数字でも収まる安全側)。"""
+    w = 0.0
+    for c in str(s):
+        o = ord(c)
+        w += fs if (o >= 0x2e80 or 0xff01 <= o <= 0xff60) else fs * 0.62
+    return w
+
+
+def tick_steps(top):
+    """目盛りの分割数。4〜7分割のうち、1目盛りが切りのよい値(1・2・2.5・5×10^n)に
+    なる最小の分割数。該当がなければ4。"""
+    for steps in range(4, 8):
+        step = top / steps
+        if step <= 0:
+            break
+        m = step / 10 ** math.floor(math.log10(step))
+        if any(abs(m - c) < 1e-9 for c in (1, 2, 2.5, 5, 10)):
+            return steps
+    return 4
+
+
+def pct(f):
+    """割合(0-1)を CSS の % 表記に。"""
+    return f"{max(f, 0.0) * 100:.2f}%"
 
 
 def nice_max(v):
@@ -450,222 +482,239 @@ class Renderer:
             for k, c in zip(names, colors))
         return f'<div class="legend">{items}</div>'
 
-    def _grid(self, W, pad_l, pad_r, pad_t, ih, top, steps=4, fmt_fn=fmt):
+    # --- チャート部品(DESIGN.md ADR-8)。文字はすべて HTML で描き、SVG には置かない ---
+    @staticmethod
+    def _vw(texts):
+        """横棒の値の列幅(em)。最長の値の文字幅から決める(列を行間で揃えるため)。"""
+        w = max((text_px(t, 1.0) for t in texts), default=2.0)
+        return f"{math.ceil((w + 0.4) * 10) / 10}em"
+
+    @staticmethod
+    def _inline(labels):
+        """狭い画面でも名前を棒と同じ行に置けるか(名前が短い場合)。行数を減らして縦に長くしない。"""
+        return max((text_px(x, FS_CHART) for x in labels), default=0) <= INLINE_LABEL_W
+
+    def _hbar(self, rows, vw, extra_cls=""):
+        """横棒部品 .hb。rows=[{label, sub?, segs:[(割合0-1, 色)], value, cls?}]。"""
+        n = len(rows)
+        fold = n >= FOLD_MIN
+        keep = set(range(n))
+        if fold:
+            # 初期表示に残す行: 先頭3件・強調行(日野町)とその前後2件・平均等・末尾1件
+            body_idx = [i for i, r in enumerate(rows) if r.get("cls") != "avg"]
+            keep = set(body_idx[:3] + body_idx[-1:])
+            for i, r in enumerate(rows):
+                if r.get("cls") == "em":
+                    keep.update(range(max(0, i - 2), min(n, i + 3)))
+                elif r.get("cls") == "avg":
+                    keep.add(i)
         out = []
-        for g in range(steps + 1):
-            gv = top / steps * g
-            gy = pad_t + ih - gv / top * ih
-            out.append(f'<line x1="{pad_l}" y1="{gy:.1f}" x2="{W - pad_r}" y2="{gy:.1f}" '
-                       f'stroke="#e4e8ee" stroke-width="1"/>')
-            out.append(f'<text x="{pad_l - 7}" y="{gy + 4:.1f}" text-anchor="end" '
-                       f'font-size="{CHART_FONT}" fill="#7d8692">{fmt_fn(round(gv, 2))}</text>')
-        return "".join(out)
+        hidden_run = 0
+        for i, r in enumerate(rows):
+            if i not in keep:
+                hidden_run += 1
+            elif hidden_run:
+                out.append(f'<div class="hb-gap">…（{hidden_run}件）</div>')
+                hidden_run = 0
+            sub = f'<span class="hb-sub">{esc(r["sub"])}</span>' if r.get("sub") else ""
+            segs = "".join(f'<span style="width:{pct(f)};background:{c}"></span>' for f, c in r["segs"])
+            cls = (f' {r["cls"]}' if r.get("cls") else "") + ("" if i in keep else " fx")
+            out.append(f'<div class="hb-r{cls}"><span class="hb-l">{esc(r["label"])}{sub}</span>'
+                       f'<span class="hb-t">{segs}</span>'
+                       f'<span class="hb-v num">{esc(r["value"])}</span></div>')
+        if self._inline(f'{r["label"]} {r.get("sub") or ""}'.strip() for r in rows):
+            extra_cls = (extra_cls + " inline-sm").strip()
+        if hidden_run:
+            out.append(f'<div class="hb-gap">…（{hidden_run}件）</div>')
+        if not fold:
+            cls = f" {extra_cls}" if extra_cls else ""
+            return f'<div class="hb{cls}" style="--vw:{vw}">{"".join(out)}</div>'
+        # 畳む: 全行を出力し、初期表示では keep 以外を CSS で隠す。1回の操作で全件を表示でき、
+        # :has() 非対応のブラウザと印刷では全件が表示される(ADR-8 判断の優先順位 3)
+        inner = "inline-sm" if "inline-sm" in extra_cls else ""
+        outer = " ".join(c for c in extra_cls.split() if c != "inline-sm")
+        cls_i = f" {inner}" if inner else ""
+        cls_o = f" {outer}" if outer else ""
+        return (f'<div class="hbf{cls_o}"><div class="hb{cls_i}" style="--vw:{vw}">{"".join(out)}</div>'
+                f'<details class="more"><summary><span class="mo">すべて表示（全{len(body_idx)}件）</span>'
+                f'<span class="mc">折りたたむ</span></summary></details></div>')
+
+    def _vbar(self, cols, extra_cls=""):
+        """縦棒部品 .vb。cols=[{label, sub?, height(割合0-1), segs:[(積み上げ内の割合, 色)], value}]。"""
+        out = []
+        for c in cols:
+            segs = "".join(f'<span style="height:{pct(f)};background:{col}"></span>' for f, col in c["segs"])
+            sub = f'<span class="vb-sub">{esc(c["sub"])}</span>' if c.get("sub") else ""
+            out.append(f'<div class="vb-col"><div class="vb-t">'
+                       f'<span class="vb-v num">{esc(c["value"])}</span>'
+                       f'<span class="vb-s" style="height:{pct(c["height"])}">{segs}</span></div>'
+                       f'<div class="vb-l">{esc(c["label"])}{sub}</div></div>')
+        cls = f" {extra_cls}" if extra_cls else ""
+        return f'<div class="vb{cls}">{"".join(out)}</div>'
+
+    @staticmethod
+    def _cols_fit(cols, width):
+        """縦棒の全列が幅 width(px)に文字の重なりなく収まるか(ADR-8 画面幅の規則)。"""
+        n = len(cols)
+        if n == 0:
+            return True
+        col_w = (width - COL_GAP * (n - 1)) / n
+        need = max(max(text_px(c["label"], FS_CHART), text_px(c.get("sub") or "", FS_CHART),
+                       text_px(c["value"], FS_CHART)) for c in cols) + 2
+        return col_w >= need
+
+    def _vertical(self, cols, hrows, vw):
+        """縦棒を描く。狭い画面の本文幅に収まらない場合は、狭い画面用に横棒も出す。"""
+        if not self._cols_fit(cols, WIDE_W):
+            return self._hbar(hrows, vw)            # 広い画面でも収まらない: 常に横棒
+        if self._cols_fit(cols, NARROW_W):
+            return self._vbar(cols)                 # どの幅でも縦棒
+        return self._vbar(cols, "wide-only") + self._hbar(hrows, vw, "narrow-only")
 
     def chart_bars(self, b, tab_id, block_no):
         years = b["years"]
-        W, H, pl, pr, pt, pb = 720, 300, 48, 14, 18, 46
-        iw, ih = W - pl - pr, H - pt - pb
         top = nice_max(max(y["v"] for y in years))
-        n = len(years)
-        slot = iw / n
-        bw = min(58, slot * 0.56)
         color = self.color(b.get("c"), 0)
-        parts = [self._grid(W, pl, pr, pt, ih, top)]
-        for i, y in enumerate(years):
+        cols, hrows = [], []
+        for y in years:
             self.audit(tab_id, block_no, "chart.bars", y["label"], y["v"],
                        b.get("unit"), b.get("source"))
-            cx = pl + slot * i + slot / 2
-            h = y["v"] / top * ih
-            parts.append(f'<rect x="{cx - bw / 2:.1f}" y="{pt + ih - h:.1f}" '
-                         f'width="{bw:.1f}" height="{h:.1f}" rx="3" fill="{color}"/>')
-            parts.append(f'<text x="{cx:.1f}" y="{pt + ih - h - 6:.1f}" text-anchor="middle" '
-                         f'font-size="{CHART_FONT2}" font-weight="700" fill="#232a33">{fmt(y["v"])}</text>')
-            parts.append(self._xlabel(cx, pt + ih, y))
-        svg = (f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{esc(b.get("title", ""))}" '
-               f'preserveAspectRatio="xMidYMid meet">{"".join(parts)}</svg>')
-        return svg, ""
-
-    def _xlabel(self, cx, base_y, y):
-        sub = (f'<text x="{cx:.1f}" y="{base_y + 32}" text-anchor="middle" '
-               f'font-size="{CHART_FONT}" fill="#7d8692">{esc(y["sub"])}</text>') if y.get("sub") else ""
-        return (f'<text x="{cx:.1f}" y="{base_y + 18}" text-anchor="middle" '
-                f'font-size="{CHART_FONT2}" font-weight="700" fill="#4c5561">{esc(y["label"])}</text>{sub}')
+            cols.append({"label": y["label"], "sub": y.get("sub"), "value": fmt(y["v"]),
+                         "height": y["v"] / top, "segs": [(1.0, color)]})
+            hrows.append({"label": y["label"], "sub": y.get("sub"), "value": fmt(y["v"]),
+                          "segs": [(y["v"] / top, color)]})
+        return self._vertical(cols, hrows, self._vw(c["value"] for c in cols)), ""
 
     def chart_stacked_bars(self, b, tab_id, block_no):
         keys, years = b["keys"], b["years"]
         colors = self.series_colors(keys)
-        W, H, pl, pr, pt, pb = 720, 300, 48, 14, 18, 46
-        iw, ih = W - pl - pr, H - pt - pb
         totals = [y.get("total", sum(y["series"])) for y in years]
         top = nice_max(max(totals))
-        n = len(years)
-        slot = iw / n
-        bw = min(58, slot * 0.56)
-        parts = [self._grid(W, pl, pr, pt, ih, top)]
+        cols, hrows = [], []
         for i, y in enumerate(years):
-            cx = pl + slot * i + slot / 2
-            acc = 0.0
             for si, v in enumerate(y["series"]):
                 self.audit(tab_id, block_no, "chart.stacked",
                            f'{y["label"]}/{keys[si]["k"]}', v, b.get("unit"), b.get("source"))
-                h = v / top * ih
-                y0 = pt + ih - (acc + v) / top * ih
-                parts.append(f'<rect x="{cx - bw / 2:.1f}" y="{y0:.1f}" width="{bw:.1f}" '
-                             f'height="{h:.1f}" fill="{colors[si]}"/>')
-                acc += v
-            parts.append(f'<text x="{cx:.1f}" y="{pt + ih - acc / top * ih - 6:.1f}" '
-                         f'text-anchor="middle" font-size="{CHART_FONT2}" font-weight="700" '
-                         f'fill="#232a33">{fmt(totals[i])}</text>')
-            parts.append(self._xlabel(cx, pt + ih, y))
-        svg = (f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{esc(b.get("title", ""))}" '
-               f'preserveAspectRatio="xMidYMid meet">{"".join(parts)}</svg>')
-        return svg, self._legend([k["k"] for k in keys], colors)
+            stack = sum(y["series"])
+            cols.append({"label": y["label"], "sub": y.get("sub"), "value": fmt(totals[i]),
+                         "height": stack / top,
+                         "segs": [((v / stack) if stack else 0.0, colors[si])
+                                  for si, v in enumerate(y["series"])]})
+            hrows.append({"label": y["label"], "sub": y.get("sub"), "value": fmt(totals[i]),
+                          "segs": [(v / top, colors[si]) for si, v in enumerate(y["series"])]})
+        body = self._vertical(cols, hrows, self._vw(c["value"] for c in cols))
+        return body, self._legend([k["k"] for k in keys], colors)
 
     def chart_line(self, b, tab_id, block_no):
         xlabels, lines = b["xlabels"], b["lines"]
         colors = self.series_colors(lines)
-        W, H, pl, pr, pt, pb = 720, 300, 44, 14, 18, 34
-        iw, ih = W - pl - pr, H - pt - pb
         top = b.get("ymax") or nice_max(max(v for ln in lines for v in ln["vals"]))
         n = len(xlabels)
-        step = iw / (n - 1) if n > 1 else iw
-        parts = [self._grid(W, pl, pr, pt, ih, top)]
+        S = 1000  # SVG の座標系(縦横比を固定せず伸縮。線の太さは画面上で固定)
+        parts = []
+        steps = tick_steps(top)
+        ticks = []
+        for g in range(steps + 1):
+            gv = top / steps * g
+            gy = S - gv / top * S
+            parts.append(f'<line class="ln-g" x1="0" y1="{gy:.1f}" x2="{S}" y2="{gy:.1f}" '
+                         f'vector-effect="non-scaling-stroke"/>')
+            ticks.append((g / steps, fmt(round(gv, 2))))
         for li, ln in enumerate(lines):
             pts = []
             for i, v in enumerate(ln["vals"]):
                 self.audit(tab_id, block_no, "chart.line",
                            f'{ln["k"]}/{xlabels[i]}', v, b.get("unit"), b.get("source"))
-                pts.append(f"{pl + step * i:.1f},{pt + ih - v / top * ih:.1f}")
+                x = S * i / (n - 1) if n > 1 else S / 2
+                pts.append(f"{x:.1f},{S - v / top * S:.1f}")
             dash = ' stroke-dasharray="6 4"' if ln.get("dash") else ""
             parts.append(f'<polyline points="{" ".join(pts)}" fill="none" '
                          f'stroke="{colors[li]}" stroke-width="2.5" '
-                         f'stroke-linejoin="round" stroke-linecap="round"{dash}/>')
-        show_every = max(1, math.ceil(n / 15))
+                         f'stroke-linejoin="round" stroke-linecap="round"{dash} '
+                         f'vector-effect="non-scaling-stroke"/>')
+        yw_em = max(text_px(t, 1.0) for _, t in ticks) + 0.8
+        yw = f"{math.ceil(yw_em * 10) / 10}em"
+        ylab = "".join(f'<span class="num" style="bottom:{pct(f)}">{esc(t)}</span>' for f, t in ticks)
+        # 横軸ラベルの間引き: 広い画面・狭い画面それぞれで重ならない間隔(ADR-8)
+        lab_w = max((text_px(x, FS_CHART) for x in xlabels), default=0) + 10
+        yw_px = yw_em * FS_CHART
+        k_wide = max(1, math.ceil(n * lab_w / (WIDE_W - yw_px)))
+        k_narrow = max(k_wide, math.ceil(n * lab_w / (NARROW_W - yw_px)))
+        xlab = []
         for i, xl in enumerate(xlabels):
-            if i % show_every:
+            if i % k_wide:
                 continue
-            parts.append(f'<text x="{pl + step * i:.1f}" y="{pt + ih + 18}" text-anchor="middle" '
-                         f'font-size="{CHART_FONT}" fill="#7d8692">{esc(xl)}</text>')
-        svg = (f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{esc(b.get("title", ""))}" '
-               f'preserveAspectRatio="xMidYMid meet">{"".join(parts)}</svg>')
-        return svg, self._legend([ln["k"] for ln in lines], colors)
+            cls = "" if i % k_narrow == 0 else ' class="nw"'
+            left = (i / (n - 1)) if n > 1 else 0.5
+            xlab.append(f'<span{cls} style="left:{pct(left)}">{esc(xl)}</span>')
+        svg = (f'<svg viewBox="0 0 {S} {S}" preserveAspectRatio="none" aria-hidden="true">'
+               f'{"".join(parts)}</svg>')
+        body = (f'<div class="ln" style="--ln-yw:{yw}"><div class="ln-plot">'
+                f'<div class="ln-y">{ylab}</div>{svg}</div>'
+                f'<div class="ln-x">{"".join(xlab)}</div></div>')
+        return body, self._legend([ln["k"] for ln in lines], colors)
 
     def chart_stacked_100(self, b, tab_id, block_no):
-        """100%横積みバー(元 .hkodomo stack100 を移植)。
-        各 year を1行の横バーにし、series を割合(v/total)で分割する。
+        """100%横積みの帯。各 year を1行にし、series を割合(v/total)で分割する。
         セグメント幅≥9%のときだけ整数%を中央表示(元 showTx = v>=9 と同じ)。"""
         keys, years = b["keys"], b["years"]
         colors = self.series_colors(keys)
-        W, pl, pr, pt, pb = 720, 96, 14, 16, 12
-        row_h, bar_h = 34, 22
-        n = len(years)
-        H = pt + n * row_h + pb
-        iw = W - pl - pr
-        parts = []
-        for i, y in enumerate(years):
+        rows = []
+        for y in years:
             total = y.get("total", sum(y["series"]))
-            ry = pt + row_h * i
-            by = ry + (row_h - bar_h) / 2
-            parts.append(f'<text x="{pl - 8}" y="{by + bar_h / 2 + 4:.1f}" text-anchor="end" '
-                         f'font-size="{CHART_FONT2}" font-weight="700" fill="#4c5561">{esc(y["label"])}</text>')
-            accf = 0.0
+            segs = []
             for si, v in enumerate(y["series"]):
                 self.audit(tab_id, block_no, "chart.stacked100",
                            f'{y["label"]}/{keys[si]["k"]}', v, b.get("unit"), b.get("source"))
                 frac = (v / total) if total else 0.0
                 if frac <= 0:
                     continue
-                x0 = pl + accf * iw
-                w = frac * iw
-                parts.append(f'<rect x="{x0:.1f}" y="{by:.1f}" width="{w:.1f}" '
-                             f'height="{bar_h}" fill="{colors[si]}"/>')
-                if frac * 100 >= 9:
-                    parts.append(f'<text x="{x0 + w / 2:.1f}" y="{by + bar_h / 2 + 4:.1f}" '
-                                 f'text-anchor="middle" font-size="{CHART_FONT}" font-weight="700" '
-                                 f'fill="{self._ink(colors[si])}">{frac * 100:.0f}</text>')
-                accf += frac
-            # 角丸の縁取りを上から重ねて pill 表現(元は overflow:hidden の角丸容器)
-            parts.append(f'<rect x="{pl}" y="{by:.1f}" width="{iw:.1f}" height="{bar_h}" '
-                         f'rx="6" fill="none" stroke="#dde3ea"/>')
-        svg = (f'<svg viewBox="0 0 {W} {H:.0f}" role="img" aria-label="{esc(b.get("title", ""))}" '
-               f'preserveAspectRatio="xMidYMid meet">{"".join(parts)}</svg>')
-        return svg, self._legend([k["k"] for k in keys], colors)
+                tx = f"{frac * 100:.0f}" if frac * 100 >= 9 else ""
+                segs.append(f'<span class="s100-s" style="width:{pct(frac)};background:{colors[si]};'
+                            f'color:{self._ink(colors[si])}">{tx}</span>')
+            rows.append(f'<div class="s100-r"><span class="s100-l">{esc(y["label"])}</span>'
+                        f'<span class="s100-b">{"".join(segs)}</span></div>')
+        cls = " inline-sm" if self._inline(y["label"] for y in years) else ""
+        return f'<div class="s100{cls}">{"".join(rows)}</div>', self._legend([k["k"] for k in keys], colors)
 
     def chart_pair_bars(self, b, tab_id, block_no):
-        """2系列の横バー比較(元 .hkodomo pairBars を移植)。
-        各 row に a / b の2本を上下に描く。幅=v/max。bの値ラベルは淡色。
-        元は max 既定=100(%前提)。ここでは block.max 指定が無ければ nice_max。"""
+        """2系列の横棒比較。各 row に a / b の2本を上下に描く。幅=v/max。
+        max 指定が無ければ nice_max。b の値は淡色。"""
         keys, rows = b["keys"], b["rows"]
         colors = self.series_colors(keys)
         has_b = len(keys) >= 2
-        W, pl, pr, pt, pb = 720, 150, 56, 16, 14
-        iw = W - pl - pr
-        sub_h, inner_gap, row_gap = 15, 4, 16
-        grp_h = sub_h * 2 + inner_gap if has_b else sub_h
-        row_pitch = grp_h + row_gap
-        n = len(rows)
-        H = pt + n * row_pitch - row_gap + pb
         allv = [r["a"] for r in rows] + [r["b"] for r in rows if has_b and r.get("b") is not None]
         top = b.get("max") or nice_max(max(allv) if allv else 1)
         unit = b.get("unit", "")
-
-        def hbar(x_w, y0, fill, val, vcolor):
-            w = max(val / top * iw, 0.0)
-            return (f'<rect x="{pl}" y="{y0:.1f}" width="{iw:.1f}" height="{sub_h}" rx="7" fill="#eef0f2"/>'
-                    f'<rect x="{pl}" y="{y0:.1f}" width="{w:.1f}" height="{sub_h}" rx="7" fill="{fill}"/>'
-                    f'<text x="{pl + w + 6:.1f}" y="{y0 + sub_h - 3:.1f}" font-size="{CHART_FONT}" '
-                    f'font-weight="700" fill="{vcolor}">{esc(fmt(val))}{esc(unit)}</text>')
-
-        parts = []
-        for i, r in enumerate(rows):
-            gy = pt + row_pitch * i
-            parts.append(f'<text x="{pl - 8}" y="{gy + grp_h / 2 + 4:.1f}" text-anchor="end" '
-                         f'font-size="{CHART_FONT}" font-weight="700" fill="#4c5561">{esc(r["label"])}</text>')
+        vals = [fmt(v) + unit for v in allv]
+        groups = []
+        for r in rows:
             self.audit(tab_id, block_no, "chart.pair",
                        f'{r["label"]}/{keys[0]["k"]}', r["a"], b.get("unit"), b.get("source"))
-            parts.append(hbar(iw, gy, colors[0], r["a"], "#3a414c"))
+            lines = [(r["a"], colors[0], "")]
             if has_b and r.get("b") is not None:
                 self.audit(tab_id, block_no, "chart.pair",
                            f'{r["label"]}/{keys[1]["k"]}', r["b"], b.get("unit"), b.get("source"))
-                parts.append(hbar(iw, gy + sub_h + inner_gap, colors[1], r["b"], "#7b8a83"))
-        svg = (f'<svg viewBox="0 0 {W} {H:.0f}" role="img" aria-label="{esc(b.get("title", ""))}" '
-               f'preserveAspectRatio="xMidYMid meet">{"".join(parts)}</svg>')
-        return svg, self._legend([k["k"] for k in keys], colors)
+                lines.append((r["b"], colors[1], " is-b"))
+            bars = "".join(
+                f'<span class="hb-t"><span style="width:{pct(max(v / top, 0.0))};background:{c}"></span></span>'
+                f'<span class="hb-v num{vc}">{esc(fmt(v))}{esc(unit)}</span>' for v, c, vc in lines)
+            groups.append(f'<div class="pb-g"><span class="pb-l">{esc(r["label"])}</span>'
+                          f'<span class="pb-bars">{bars}</span></div>')
+        cls = " inline-sm" if self._inline(r["label"] for r in rows) else ""
+        body = f'<div class="pb{cls}" style="--vw:{self._vw(vals)}">{"".join(groups)}</div>'
+        return body, self._legend([k["k"] for k in keys], colors)
 
     def chart_rank_bars(self, b, tab_id, block_no):
-        """降順ランキング横バー(元 .hpshi render を移植)。
+        """降順ランキングの横棒(元 .hpshi render を移植)。
         rows=[[名称, 値, 強調], ...]。強調: 0/1/"hino"/"avg"。
-        avg 行は末尾へ寄せ、それ以外は入力順(=降順で用意される)を保つ
-        (元 render の data.filter(!=avg).concat(avg) と同じ。値ソートはしない)。
-        幅=max(v/top, 1%)(元 Math.max(v/max*100,1))。色は元の生HEXを
-        テーマトークンへ写像: hino→accent2 / 1→accent / 0→accent淡 / avg→灰。"""
+        avg 行は末尾へ寄せ、それ以外は入力順(=降順で用意される)を保つ(値ソートはしない)。
+        幅=max(v/top, 1%)。色: hino→accent2 / 1→accent / 0→accent淡 / avg→灰。"""
         src = b["rows"]
 
         def flag(r):
             return r[2] if len(r) > 2 else 0
         rows = [r for r in src if flag(r) != "avg"] + [r for r in src if flag(r) == "avg"]
-        n = len(rows)
-        # --- 名前欄 pl とビューボックス幅 W を最長ラベルから自動算出((a)+(d)) ---
-        # 幅見積りは安全側: 和文=フォントサイズpx、半角英数記号=0.55倍。左余白+バー間隔込み。
-        # 短ラベル(フィクスチャ等)は pl が自動的に細くなり、長ラベルでも頭欠けしない。
-        # chart_rank_bars 内に閉じており、他チャートには波及しない。
-        name_fs = CHART_FONT
-        pr, pt, pb = 56, 12, 12
-        LEFT_MARGIN, GAP, PL_CAP, MIN_BAR_AREA = 12, 8, 340, 460
-
-        def _label_px(s, fs):
-            return sum((fs if ord(c) > 0x2e80 else fs * 0.55) for c in str(s))
-        max_label = max((_label_px(r[0], name_fs) for r in rows), default=0.0)
-        pl = max(72, math.ceil(max_label + LEFT_MARGIN + GAP))
-        if pl > PL_CAP and max_label > 0:
-            # 上限超過時は省略(…)せず、フォントを段階縮小して全ラベルを収める
-            name_fs = max(7.0, name_fs * (PL_CAP - LEFT_MARGIN - GAP) / max_label)
-            pl = PL_CAP
-        W = max(720, pl + pr + MIN_BAR_AREA)   # (d) 名前欄が広い分だけ横に拡張しバー長を確保
-        bar_h = 15
-        row_pitch = 22 if n <= 24 else 17
-        iw = W - pl - pr
-        H = pt + (row_pitch * (n - 1) if n else 0) + bar_h + pb
         vals = [r[1] for r in rows]
         top = nice_max(max(vals)) if vals else 1
         accent, accent2 = self.color("accent"), self.color("accent2")
@@ -673,31 +722,23 @@ class Renderer:
         avg_tone = "#b0b7c3"                    # 元 avg 別トーン
         unit = b.get("unit", "")
         has_hino = has_avg = False
-        parts = []
-        for i, r in enumerate(rows):
+        hrows = []
+        for r in rows:
             name, v, f = r[0], r[1], flag(r)
             self.audit(tab_id, block_no, "chart.rank", name, v, b.get("unit"), b.get("source"))
-            y = pt + row_pitch * i
-            cy = y + bar_h / 2
-            w = max(v / top * iw, iw * 0.01)
             if f == "hino":
-                fill, nmc, nmw, vc = accent2, accent2, "700", accent2
+                fill, cls = accent2, "em"
                 has_hino = True
             elif f == "avg":
-                fill, nmc, nmw, vc = avg_tone, "#3a414c", "700", "#3a414c"
+                fill, cls = avg_tone, "avg"
                 has_avg = True
             elif f == 1:
-                fill, nmc, nmw, vc = accent, "#3a414c", "400", "#3a414c"
+                fill, cls = accent, ""
             else:
-                fill, nmc, nmw, vc = fill0, "#3a414c", "400", "#3a414c"
-            parts.append(f'<text x="{pl - 8}" y="{cy + 4:.1f}" text-anchor="end" '
-                         f'font-size="{name_fs:.1f}" font-weight="{nmw}" fill="{nmc}">{esc(name)}</text>')
-            parts.append(f'<rect x="{pl}" y="{y:.1f}" width="{iw:.1f}" height="{bar_h}" rx="7" fill="#f2f0e9"/>')
-            parts.append(f'<rect x="{pl}" y="{y:.1f}" width="{w:.1f}" height="{bar_h}" rx="7" fill="{fill}"/>')
-            parts.append(f'<text x="{W - 6}" y="{cy + 4:.1f}" text-anchor="end" '
-                         f'font-size="{CHART_FONT}" font-weight="700" fill="{vc}">{esc(fmt(v))}{esc(unit)}</text>')
-        svg = (f'<svg viewBox="0 0 {W} {H:.0f}" role="img" aria-label="{esc(b.get("title", ""))}" '
-               f'preserveAspectRatio="xMidYMid meet">{"".join(parts)}</svg>')
+                fill, cls = fill0, ""
+            hrows.append({"label": name, "value": fmt(v) + unit, "cls": cls,
+                          "segs": [(max(v / top, 0.01), fill)]})
+        body = self._hbar(hrows, self._vw(r["value"] for r in hrows))
         leg_names, leg_cols = [], []
         if has_hino:
             leg_names.append("日野町")
@@ -706,7 +747,7 @@ class Renderer:
             leg_names.append("平均")
             leg_cols.append(avg_tone)
         legend = self._legend(leg_names, leg_cols) if leg_names else ""
-        return svg, legend
+        return body, legend
 
     # ---------- ページ組み立て ----------
     def _collect_toc(self, tab):

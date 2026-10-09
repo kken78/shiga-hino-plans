@@ -216,6 +216,7 @@ git commit
 - [x] **kokyo-kanri(公共施設等総合管理計画)の追加**(2026-10) — Claude Design で作成した
   JSON を、原典(令和4年3月改定・54ページ)の全文テキストと照合・修正して追加。5タブ、
   audit 146行、ハブ登録済み。出典ページは印刷ページ番号(PDFページ−3)。
-- [ ] **kokyo-kanri の検収(audit 突合)** — 原典PDFを `sources_raw/kokyo-kanri/` に配置し、
-  `build/audit/kokyo-kanri.tsv`(146行)と突合する。
+- [x] **kokyo-kanri の検収(audit 突合)**(2026-10-09 検収済み) — 原典PDF
+  `sources_raw/kokyo-kanri/honpen.pdf` と `build/audit/kokyo-kanri.tsv`(146行)を突合し、
+  `data/audit_log/kokyo-kanri.tsv` の全146行が checked(確認者 kken78)。
 - [ ] 他40計画の抽出 — 各原典PDFを配置してから定型フローで1本ずつ。

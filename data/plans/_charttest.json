@@ -2,9 +2,9 @@
   "schema_version": 1,
   "id": "zcharttest",
   "meta": {
-    "name": "チャート移植テスト用フィクスチャ",
+    "name": "部品見本(デザインシステム ADR-8)",
     "period": { "start": "R7", "end": "R11" },
-    "lead": "stacked_100 / pair_bars / rank_bars の描画確認専用。原典なし。",
+    "lead": "全チャート種と主要ブロックの描画を確かめる見本ページ。データは架空で原典はない。",
     "dept": "テスト",
     "url": "https://example.com/"
   },
@@ -16,7 +16,7 @@
       "id": "summary",
       "label": "まとめ",
       "blocks": [
-        { "type": "narrative", "text": "これは検証用フィクスチャです。3種のチャートkindを描画します。" }
+        { "type": "narrative", "text": "部品を変更したら、このページを幅360pxと1024pxで確かめる(tools/check_mobile.mjs)。データはすべて架空。" }
       ]
     },
     {
@@ -54,6 +54,72 @@
             ["県平均", 3.83, "avg"],
             ["近江八幡市", 3.51, 1]
           ]
+        },
+        {
+          "type": "chart", "kind": "bars", "source": "test",
+          "title": "bars テスト(5列。どの幅でも縦棒)", "unit": "億円",
+          "years": [
+            {"label": "H28", "v": 2.50}, {"label": "H29", "v": 2.47}, {"label": "H30", "v": 2.63},
+            {"label": "R元", "v": 2.59}, {"label": "R2", "v": 2.42}
+          ]
+        },
+        {
+          "type": "chart", "kind": "bars", "source": "test",
+          "title": "bars テスト(12列。狭い画面では横棒に切り替わる)", "unit": "㎡",
+          "years": [
+            {"label": "〜S45", "v": 5448}, {"label": "S46-50", "v": 2002}, {"label": "S51-56", "v": 20873},
+            {"label": "S57-60", "v": 3846}, {"label": "S61-H2", "v": 22485}, {"label": "H3-7", "v": 10323},
+            {"label": "H8-12", "v": 9548}, {"label": "H13-17", "v": 1631}, {"label": "H18-22", "v": 11504},
+            {"label": "H23-27", "v": 2100}, {"label": "H28-R2", "v": 980}, {"label": "R3-", "v": 63}
+          ]
+        },
+        {
+          "type": "chart", "kind": "stacked_bars", "source": "test",
+          "title": "stacked_bars テスト(4系列×5年、補足ラベルつき)", "unit": "人",
+          "keys": [ {"k": "就学前", "c": "accent"}, {"k": "小学生"}, {"k": "中学生"}, {"k": "高校生"} ],
+          "years": [
+            { "label": "R2", "sub": "2020", "series": [994, 1119, 562, 597] },
+            { "label": "R3", "sub": "2021", "series": [934, 1137, 535, 588] },
+            { "label": "R4", "sub": "2022", "series": [900, 1126, 540, 583] },
+            { "label": "R5", "sub": "2023", "series": [857, 1070, 582, 566] },
+            { "label": "R6", "sub": "2024", "series": [838, 1067, 573, 544] }
+          ]
+        },
+        {
+          "type": "chart", "kind": "line", "source": "test",
+          "title": "line テスト(2系列×19点、ymax指定)", "unit": "%", "ymax": 70,
+          "xlabels": ["S45", "S50", "S55", "S60", "H2", "H7", "H12", "H17", "H22", "H27", "R2", "R7", "R12", "R17", "R22", "R27", "R32", "R37", "R42"],
+          "lines": [
+            { "k": "系列A", "c": "accent", "vals": [52.1, 54.0, 55.2, 56.8, 58.3, 60.1, 61.0, 61.7, 62.5, 63.2, 64.0, 64.4, 64.9, 65.3, 65.8, 66.1, 66.4, 66.9, 67.2] },
+            { "k": "系列B", "c": "accent2", "dash": true, "vals": [40.0, 41.2, 43.5, 45.1, 46.0, 47.3, 48.8, 50.2, 51.6, 52.0, 53.5, 54.1, 55.0, 55.8, 56.2, 56.9, 57.3, 57.8, 58.0] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blocks",
+      "label": "ブロック",
+      "blocks": [
+        {
+          "type": "kpi_grid", "source": "test",
+          "items": [
+            { "label": "総人口", "value": 20761, "unit": "人", "asof": "R6.4.1", "delta": "4年で661人減", "trend": "down" },
+            { "label": "待機児童", "value": 8, "unit": "人", "asof": "R6.4.1", "delta": "0・1歳児に集中", "trend": "flat" },
+            { "label": "減価償却率", "value": 65.4, "unit": "%", "asof": "R元年度", "delta": "類似団体46団体中38位", "trend": "up" }
+          ]
+        },
+        { "type": "bigstat", "value": 4.40, "unit": "㎡/人", "label": "住民1人当たりの公共施設延床面積", "desc": "県計3.83㎡/人を上回る", "source": "test" },
+        {
+          "type": "targets", "source": "test",
+          "items": [
+            { "label": "駅の利用者数", "unit": "人/年",
+              "base": { "v": 312948, "asof": "R5年度" }, "target": { "v": 328000, "asof": "R11年度" },
+              "current": { "v": 315200, "asof": "R6年度" }, "higher_is_better": true }
+          ]
+        },
+        {
+          "type": "timeline", "source": "test",
+          "items": [ { "span": ["R7", "R8"], "label": "基本設計" }, { "span": ["R9", "R11"], "label": "改修工事" } ]
         }
       ]
     },

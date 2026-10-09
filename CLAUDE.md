@@ -211,8 +211,12 @@ git commit
   永久に0件の no-op(ADR-6 の「0件 no-op 禁止」と不整合)。ADR-7 の作業とは別コミットで。
 
 **原典PDF待ち(配置後に着手)**
-- [ ] **koutsu の移行** — 路線図JPEGを `data/assets/koutsu_map.jpg` に切り出し
-  `figure` ブロックで参照。前提: `sources_raw/koutsu/` に原典配置。
+- [x] **koutsu の移行**(2026-10) — 原典(令和6年3月策定・令和8年3月改訂・54ページ)から
+  定型フローで起票。7タブ、audit 352行、ハブ登録済み。路線図(図16)は
+  `data/assets/koutsu_map.jpg` に切り出し `figure` ブロックで参照。出典ページは印刷ページ番号
+  (PDFページ−4)。各事業のスケジュール(工程)は年度範囲が確定できないため未収録。
+- [ ] **koutsu の検収(audit 突合)** — 原典 `sources_raw/koutsu/honpen.pdf` と
+  `build/audit/koutsu.tsv`(352行)を突合する。台帳のベースライン(全行未検収)は作成済み。
 - [x] **kokyo-kanri(公共施設等総合管理計画)の追加**(2026-10) — Claude Design で作成した
   JSON を、原典(令和4年3月改定・54ページ)の全文テキストと照合・修正して追加。5タブ、
   audit 146行、ハブ登録済み。出典ページは印刷ページ番号(PDFページ−3)。

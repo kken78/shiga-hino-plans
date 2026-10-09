@@ -59,6 +59,7 @@ node tools/check_mobile.mjs docs/plans/<id>.html
 # 5) ハブへ登録
 #    data/manifest.json の該当計画に "dashboard": "plans/<id>.html" を追記
 python3 tools/build.py          # → docs/index.html 再生成
+node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-8)
 
 # 6) 人間の照合(Claude はここで止まり、依頼者に引き渡す)
 #    build/audit/<id>.tsv を原典PDFと突合してもらう

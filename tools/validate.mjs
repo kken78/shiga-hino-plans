@@ -6,7 +6,8 @@
         (6) SVG の中に <text> がない(文字は HTML で描く)
         (7) font-size の指定はトークン(var(--fs-*))の参照だけ
             (CSS・style 属性・SVG の font-size 属性・font 一括指定のすべて)
-        (8) --fs-* トークンの値は px で 12px 以上
+        (8) --fs-* トークンの値は 12px 以上(px、rem(1rem=16px で換算)、
+            clamp(最小値,…) は最小値で判定)
    使い方: node tools/validate.mjs docs/plans/<id>.html [...] */
 import { readFileSync, writeFileSync, rmSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -77,11 +78,17 @@ for (const path of process.argv.slice(2)) {
   }
 
   // (8) --fs-* の値は 12px 以上
+  const toPx = (v) => {
+    const c = /^clamp\(\s*([^,]+),/.exec(v);
+    if (c) v = c[1].trim();
+    const u = /^([\d.]+)(px|rem)$/.exec(v);
+    if (!u) return null;
+    return parseFloat(u[1]) * (u[2] === "rem" ? 16 : 1);
+  };
   for (const m of css.matchAll(/--fs-[\w-]+\s*:\s*([^;}]+)/g)) {
-    const v = m[1].trim();
-    const px = /^([\d.]+)px$/.exec(v);
-    if (!px) errors.push(`--fs-* の値が px でない: ${m[0].trim()}`);
-    else if (parseFloat(px[1]) < 12) errors.push(`--fs-* の値が 12px 未満: ${m[0].trim()}`);
+    const px = toPx(m[1].trim());
+    if (px === null) errors.push(`--fs-* の値を判定できない(px・rem・clamp のみ可): ${m[0].trim()}`);
+    else if (px < 12) errors.push(`--fs-* の値が 12px 未満: ${m[0].trim()}`);
   }
 
   const status = errors.length ? "NG" : "OK";

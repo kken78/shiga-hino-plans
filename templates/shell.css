@@ -13,7 +13,8 @@
   --r:14px; --r2:9px;
   /* 型スケール(8段) */
   --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
-  --fs-lead:15.5px; --fs-small:13px; --fs-micro:11.5px; --fs-kn:30px;
+  --fs-lead:15.5px; --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
+  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px;
   --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
   --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
   color:var(--ink);
@@ -38,7 +39,7 @@
 .hpv1 .crumb a:hover{color:var(--accent)}
 .hpv1 .eyebrow{
   display:inline-flex;align-items:center;gap:9px;
-  font-size:12.5px;letter-spacing:.14em;font-weight:700;color:var(--accent);
+  font-size:var(--fs-small);letter-spacing:.14em;font-weight:700;color:var(--accent);
 }
 .hpv1 .eyebrow::before{content:"";width:22px;height:2px;background:var(--accent2);border-radius:2px}
 .hpv1 h1{
@@ -56,11 +57,11 @@
     color-mix(in srgb,var(--accent) 9%,transparent),
     color-mix(in srgb,var(--accent2) 9%,transparent));
   border:1px solid var(--line);
-  font-weight:700;font-size:14.5px;letter-spacing:.02em;
+  font-weight:700;font-size:var(--fs-body);letter-spacing:.02em;
   color:color-mix(in srgb,var(--accent) 80%,var(--ink));
   display:flex;gap:12px;align-items:baseline;
 }
-.hpv1 .vision-banner .lbl{font-size:11px;color:var(--mut);letter-spacing:.1em;flex:none}
+.hpv1 .vision-banner .lbl{font-size:var(--fs-micro);color:var(--mut);letter-spacing:.1em;flex:none}
 .hpv1 .lead{margin-top:12px;font-size:var(--fs-lead);color:var(--ink2)}
 
 /* ---------- タブ(番号=読む順序) ---------- */
@@ -70,7 +71,7 @@
 }
 .hpv1 .tab{
   appearance:none;border:0;background:none;cursor:pointer;
-  font:inherit;font-weight:700;font-size:14px;color:var(--ink2);
+  font:inherit;font-weight:700;font-size:var(--fs-tab);color:var(--ink2);
   padding:11px 15px 12px;border-radius:9px 9px 0 0;position:relative;
 }
 .hpv1 .tab .tn{color:var(--mut);font-size:var(--fs-micro);font-weight:800;margin-right:7px;letter-spacing:.05em}
@@ -99,7 +100,7 @@
 .hpv1 .phead{
   padding-left:12px;border-left:4px solid var(--accent);
 }
-.hpv1 .b-heading .sub{font-size:12.5px;color:var(--mut);margin-top:3px;padding-left:16px}
+.hpv1 .b-heading .sub{font-size:var(--fs-small);color:var(--mut);margin-top:3px;padding-left:16px}
 .hpv1 .b-note{
   display:flex;gap:8px;font-size:var(--fs-small);color:var(--ink2);
   margin:12px 0;padding:10px 13px;background:var(--card);
@@ -129,9 +130,9 @@
     color-mix(in srgb,var(--accent2) 8%,var(--card)));
   border:1px solid var(--line);
 }
-.hpv1 .b-vision .lbl{font-size:11px;letter-spacing:.14em;font-weight:800;color:var(--mut)}
+.hpv1 .b-vision .lbl{font-size:var(--fs-micro);letter-spacing:.14em;font-weight:800;color:var(--mut)}
 .hpv1 .b-vision .tx{
-  font-family:var(--serif);font-size:19px;font-weight:800;line-height:1.5;
+  font-family:var(--serif);font-size:var(--fs-vision);font-weight:800;line-height:1.5;
   margin-top:4px;color:color-mix(in srgb,var(--accent) 80%,var(--ink));
 }
 .hpv1 .b-aims{display:grid;gap:8px;margin:0 0 18px}
@@ -165,7 +166,7 @@
 
 /* タブ内ジャンプ目次(toc) — 薄いaccent背景の角丸リンクを横並び */
 .hpv1 .b-toc{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 20px}
-.hpv1 .b-toc .tl{font-size:12.5px;font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
+.hpv1 .b-toc .tl{font-size:var(--fs-small);font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
 .hpv1 .b-toc a{
   font-size:var(--fs-small);font-weight:700;text-decoration:none;color:var(--accent);line-height:1.5;
   background:color-mix(in srgb,var(--accent) 8%,var(--card));
@@ -189,7 +190,7 @@
 
 .hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;
   background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:18px 22px}
-.hpv1 .b-bigstat .v{font-size:44px;font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
+.hpv1 .b-bigstat .v{font-size:var(--fs-big);font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
 .hpv1 .b-bigstat .u{font-size:var(--fs-sub);font-weight:700;color:var(--mut)}
 .hpv1 .b-bigstat .l{font-weight:700}
 .hpv1 .b-bigstat .d{font-size:var(--fs-small);color:var(--ink2);flex-basis:100%}
@@ -198,9 +199,9 @@
 .hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
 .hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
 .hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
-.hpv1 .target .cur{font-size:22px;font-weight:800}
+.hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
 .hpv1 .target .ar{color:var(--mut)}
-.hpv1 .target .tar{font-size:22px;font-weight:800;color:var(--accent2)}
+.hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--accent2)}
 .hpv1 .target .tu{font-size:var(--fs-small);color:var(--mut);font-weight:700}
 .hpv1 .target .asof{font-size:var(--fs-micro);color:var(--mut)}
 .hpv1 .target svg{display:block;width:100%;height:6px;margin-top:9px}
@@ -300,9 +301,12 @@
 .hpv1 .foot .contact{margin-top:10px}
 
 @media (max-width:560px){
-  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px}
-  .hpv1 .tab{padding:10px 11px 11px;font-size:13px}
-  .hpv1 .b-bigstat .v{font-size:34px}
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px}
+  .hpv1 .tab{padding:10px 11px 11px}
+  /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
+  .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .hpv1 .tabs::-webkit-scrollbar{display:none}
+  .hpv1 .tab{flex:none;white-space:nowrap}
   .hpv1 .pgrid{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:no-preference){

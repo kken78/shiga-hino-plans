@@ -1,0 +1,353 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	kpi		日野町営バスの利用者数	79091	人	honpen p.42
+summary	3	kpi		地域公共交通への行政負担額（日八線・町営バス・ＡＩオンデマンド交通・デマンドタクシー）	79527	千円	honpen p.42
+summary	3	kpi		地域公共交通空白地率	3.0	%	honpen p.42
+summary	3	kpi		民間タクシー常駐台数	1	台	honpen p.42
+summary	4	target.base		近江鉄道線日野駅の利用者数	312948	人/年	honpen p.42
+summary	4	target.target		近江鉄道線日野駅の利用者数	328000	人/年	honpen p.42
+summary	4	target.base		近江鉄道バス日八線の利用者数	198786	人/年	honpen p.42
+summary	4	target.target		近江鉄道バス日八線の利用者数	230000	人/年	honpen p.42
+summary	4	target.base		町内事業所の公共交通利用通勤者数	47	人	honpen p.42
+summary	4	target.target		町内事業所の公共交通利用通勤者数	100	人	honpen p.42
+chiiki	3	table	人口と世帯	平成2年/総人口	22391		honpen p.3
+chiiki	3	table	人口と世帯	平成2年/年少人口（0～14歳）	4472		honpen p.3
+chiiki	3	table	人口と世帯	平成2年/生産年齢人口（15～64歳）	14036		honpen p.3
+chiiki	3	table	人口と世帯	平成2年/老年人口（65歳以上）	3872		honpen p.3
+chiiki	3	table	人口と世帯	平成7年/総人口	23132		honpen p.3
+chiiki	3	table	人口と世帯	平成7年/年少人口（0～14歳）	4135		honpen p.3
+chiiki	3	table	人口と世帯	平成7年/生産年齢人口（15～64歳）	14518		honpen p.3
+chiiki	3	table	人口と世帯	平成7年/老年人口（65歳以上）	4479		honpen p.3
+chiiki	3	table	人口と世帯	平成12年/総人口	23022		honpen p.3
+chiiki	3	table	人口と世帯	平成12年/年少人口（0～14歳）	3613		honpen p.3
+chiiki	3	table	人口と世帯	平成12年/生産年齢人口（15～64歳）	14311		honpen p.3
+chiiki	3	table	人口と世帯	平成12年/老年人口（65歳以上）	5095		honpen p.3
+chiiki	3	table	人口と世帯	平成17年/総人口	22809		honpen p.3
+chiiki	3	table	人口と世帯	平成17年/年少人口（0～14歳）	3215		honpen p.3
+chiiki	3	table	人口と世帯	平成17年/生産年齢人口（15～64歳）	14262		honpen p.3
+chiiki	3	table	人口と世帯	平成17年/老年人口（65歳以上）	5332		honpen p.3
+chiiki	3	table	人口と世帯	平成22年/総人口	22870		honpen p.3
+chiiki	3	table	人口と世帯	平成22年/年少人口（0～14歳）	3043		honpen p.3
+chiiki	3	table	人口と世帯	平成22年/生産年齢人口（15～64歳）	14217		honpen p.3
+chiiki	3	table	人口と世帯	平成22年/老年人口（65歳以上）	5553		honpen p.3
+chiiki	3	table	人口と世帯	平成27年/総人口	21873		honpen p.3
+chiiki	3	table	人口と世帯	平成27年/年少人口（0～14歳）	2835		honpen p.3
+chiiki	3	table	人口と世帯	平成27年/生産年齢人口（15～64歳）	12840		honpen p.3
+chiiki	3	table	人口と世帯	平成27年/老年人口（65歳以上）	6088		honpen p.3
+chiiki	3	table	人口と世帯	令和2年/総人口	20964		honpen p.3
+chiiki	3	table	人口と世帯	令和2年/年少人口（0～14歳）	2575		honpen p.3
+chiiki	3	table	人口と世帯	令和2年/生産年齢人口（15～64歳）	11656		honpen p.3
+chiiki	3	table	人口と世帯	令和2年/老年人口（65歳以上）	6424		honpen p.3
+chiiki	4	table	人口と世帯	平成2年/世帯数	5676		honpen p.3
+chiiki	4	table	人口と世帯	平成2年/1世帯当たり人員（人/世帯）	3.9		honpen p.3
+chiiki	4	table	人口と世帯	平成7年/世帯数	6318		honpen p.3
+chiiki	4	table	人口と世帯	平成7年/1世帯当たり人員（人/世帯）	3.7		honpen p.3
+chiiki	4	table	人口と世帯	平成12年/世帯数	6693		honpen p.3
+chiiki	4	table	人口と世帯	平成12年/1世帯当たり人員（人/世帯）	3.4		honpen p.3
+chiiki	4	table	人口と世帯	平成17年/世帯数	7131		honpen p.3
+chiiki	4	table	人口と世帯	平成17年/1世帯当たり人員（人/世帯）	3.2		honpen p.3
+chiiki	4	table	人口と世帯	平成22年/世帯数	7678		honpen p.3
+chiiki	4	table	人口と世帯	平成22年/1世帯当たり人員（人/世帯）	3.0		honpen p.3
+chiiki	4	table	人口と世帯	平成27年/世帯数	7728		honpen p.3
+chiiki	4	table	人口と世帯	平成27年/1世帯当たり人員（人/世帯）	2.8		honpen p.3
+chiiki	4	table	人口と世帯	令和2年/世帯数	7932		honpen p.3
+chiiki	4	table	人口と世帯	令和2年/1世帯当たり人員（人/世帯）	2.6		honpen p.3
+chiiki	7	table	将来人口	令和7年/推計人口（社人研）	20200		honpen p.4
+chiiki	7	table	将来人口	令和7年/0～14歳	2300		honpen p.4
+chiiki	7	table	将来人口	令和7年/15～64歳	11316		honpen p.4
+chiiki	7	table	将来人口	令和7年/65歳以上	6584		honpen p.4
+chiiki	7	table	将来人口	令和7年/将来展望人口（総合計画）	20500		honpen p.4
+chiiki	7	table	将来人口	令和12年/推計人口（社人研）	19331		honpen p.4
+chiiki	7	table	将来人口	令和12年/0～14歳	1995		honpen p.4
+chiiki	7	table	将来人口	令和12年/15～64歳	10768		honpen p.4
+chiiki	7	table	将来人口	令和12年/65歳以上	6568		honpen p.4
+chiiki	7	table	将来人口	令和12年/将来展望人口（総合計画）	19799		honpen p.4
+chiiki	7	table	将来人口	令和17年/推計人口（社人研）	18424		honpen p.4
+chiiki	7	table	将来人口	令和17年/0～14歳	1789		honpen p.4
+chiiki	7	table	将来人口	令和17年/15～64歳	10180		honpen p.4
+chiiki	7	table	将来人口	令和17年/65歳以上	6455		honpen p.4
+chiiki	7	table	将来人口	令和17年/将来展望人口（総合計画）	19086		honpen p.4
+chiiki	7	table	将来人口	令和22年/推計人口（社人研）	17479		honpen p.4
+chiiki	7	table	将来人口	令和22年/0～14歳	1662		honpen p.4
+chiiki	7	table	将来人口	令和22年/15～64歳	9291		honpen p.4
+chiiki	7	table	将来人口	令和22年/65歳以上	6526		honpen p.4
+chiiki	7	table	将来人口	令和22年/将来展望人口（総合計画）	18319		honpen p.4
+chiiki	7	table	将来人口	令和27年/推計人口（社人研）	16477		honpen p.4
+chiiki	7	table	将来人口	令和27年/0～14歳	1546		honpen p.4
+chiiki	7	table	将来人口	令和27年/15～64歳	8493		honpen p.4
+chiiki	7	table	将来人口	令和27年/65歳以上	6438		honpen p.4
+chiiki	7	table	将来人口	令和27年/将来展望人口（総合計画）	17508		honpen p.4
+chiiki	7	table	将来人口	令和32年/推計人口（社人研）	15444		honpen p.4
+chiiki	7	table	将来人口	令和32年/0～14歳	1404		honpen p.4
+chiiki	7	table	将来人口	令和32年/15～64歳	7769		honpen p.4
+chiiki	7	table	将来人口	令和32年/65歳以上	6271		honpen p.4
+chiiki	7	table	将来人口	令和32年/将来展望人口（総合計画）	16858		honpen p.4
+chiiki	7	table	将来人口	令和37年/将来展望人口（総合計画）	16354		honpen p.4
+chiiki	7	table	将来人口	令和42年/将来展望人口（総合計画）	16027		honpen p.4
+chiiki	10	table	地区別人口	日野/人口（人）	8423		honpen p.5
+chiiki	10	table	地区別人口	日野/年少人口（0～14歳）	1262		honpen p.5
+chiiki	10	table	地区別人口	日野/生産年齢人口（15～64歳）	4904		honpen p.5
+chiiki	10	table	地区別人口	日野/老年人口（65歳以上）	2257		honpen p.5
+chiiki	10	table	地区別人口	日野/高齢化率（%）	26.8		honpen p.5
+chiiki	10	table	地区別人口	東桜谷/人口（人）	1387		honpen p.5
+chiiki	10	table	地区別人口	東桜谷/年少人口（0～14歳）	116		honpen p.5
+chiiki	10	table	地区別人口	東桜谷/生産年齢人口（15～64歳）	661		honpen p.5
+chiiki	10	table	地区別人口	東桜谷/老年人口（65歳以上）	610		honpen p.5
+chiiki	10	table	地区別人口	東桜谷/高齢化率（%）	44.0		honpen p.5
+chiiki	10	table	地区別人口	西桜谷/人口（人）	1102		honpen p.5
+chiiki	10	table	地区別人口	西桜谷/年少人口（0～14歳）	88		honpen p.5
+chiiki	10	table	地区別人口	西桜谷/生産年齢人口（15～64歳）	574		honpen p.5
+chiiki	10	table	地区別人口	西桜谷/老年人口（65歳以上）	440		honpen p.5
+chiiki	10	table	地区別人口	西桜谷/高齢化率（%）	39.9		honpen p.5
+chiiki	10	table	地区別人口	西大路/人口（人）	1782		honpen p.5
+chiiki	10	table	地区別人口	西大路/年少人口（0～14歳）	151		honpen p.5
+chiiki	10	table	地区別人口	西大路/生産年齢人口（15～64歳）	926		honpen p.5
+chiiki	10	table	地区別人口	西大路/老年人口（65歳以上）	705		honpen p.5
+chiiki	10	table	地区別人口	西大路/高齢化率（%）	39.6		honpen p.5
+chiiki	10	table	地区別人口	鎌掛/人口（人）	686		honpen p.5
+chiiki	10	table	地区別人口	鎌掛/年少人口（0～14歳）	59		honpen p.5
+chiiki	10	table	地区別人口	鎌掛/生産年齢人口（15～64歳）	335		honpen p.5
+chiiki	10	table	地区別人口	鎌掛/老年人口（65歳以上）	292		honpen p.5
+chiiki	10	table	地区別人口	鎌掛/高齢化率（%）	42.6		honpen p.5
+chiiki	10	table	地区別人口	南比都佐/人口（人）	2043		honpen p.5
+chiiki	10	table	地区別人口	南比都佐/年少人口（0～14歳）	192		honpen p.5
+chiiki	10	table	地区別人口	南比都佐/生産年齢人口（15～64歳）	1092		honpen p.5
+chiiki	10	table	地区別人口	南比都佐/老年人口（65歳以上）	759		honpen p.5
+chiiki	10	table	地区別人口	南比都佐/高齢化率（%）	37.2		honpen p.5
+chiiki	10	table	地区別人口	必佐/人口（人）	5541		honpen p.5
+chiiki	10	table	地区別人口	必佐/年少人口（0～14歳）	707		honpen p.5
+chiiki	10	table	地区別人口	必佐/生産年齢人口（15～64歳）	3164		honpen p.5
+chiiki	10	table	地区別人口	必佐/老年人口（65歳以上）	1670		honpen p.5
+chiiki	10	table	地区別人口	必佐/高齢化率（%）	30.1		honpen p.5
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流入人口/H7	3275	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流入人口/H12	4469	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流入人口/H17	5042	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流入人口/H22	5174	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流入人口/H27	5852	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流入人口/R2	6040	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流出人口/H7	5765	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流出人口/H12	5841	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流出人口/H17	6342	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流出人口/H22	6219	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流出人口/H27	6011	人	honpen p.8
+chiiki	13	chart.line	流入人口・流出人口の推移（年）	流出人口/R2	5503	人	honpen p.8
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	徒歩のみ/通勤者	2.5	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	徒歩のみ/通学者	1.7	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	鉄道・電車/通勤者	2.7	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	鉄道・電車/通学者	44.9	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	乗合バス/通勤者	0.9	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	乗合バス/通学者	13.4	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	勤め先・学校のバス/通勤者	0.8	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	勤め先・学校のバス/通学者	3.0	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	自家用車/通勤者	88.0	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	自家用車/通学者	18.0	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	ハイヤー・タクシー/通勤者	0.1	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	ハイヤー・タクシー/通学者	0.0	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	オートバイ/通勤者	0.7	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	オートバイ/通学者	1.8	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	自転車/通勤者	3.7	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	自転車/通学者	45.6	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	その他/通勤者	0.8	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	その他/通学者	4.2	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	利用交通手段「不詳」/通勤者	3.1	%	honpen p.9
+chiiki	14	chart.pair	利用交通手段別の通勤者・通学者の割合（15歳以上）	利用交通手段「不詳」/通学者	5.5	%	honpen p.9
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	近江鉄道	1.9	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	ＪＲ	2.7	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	近江鉄道バス	1.8	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	町営バス・デマンドタクシー	1.7	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	会社や施設、学校等の送迎バス	0.3	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	自家用車（自分で運転）	81.1	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	自家用車（家族・近所の方等が運転）	13.9	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	バイク	1.0	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	自転車	6.1	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	タクシー	0.3	%	honpen p.10
+chiiki	17	chart.rank	外出時の交通手段（原典の並び順）	徒歩	4.2	%	honpen p.10
+chiiki	20	table	自家用車での送迎	男性/送迎している	691		honpen p.11
+chiiki	20	table	自家用車での送迎	男性/送迎していない	1097		honpen p.11
+chiiki	20	table	自家用車での送迎	男性/送迎してもらっている	352		honpen p.11
+chiiki	20	table	自家用車での送迎	男性/送迎してもらっていない	669		honpen p.11
+chiiki	20	table	自家用車での送迎	女性/送迎している	777		honpen p.11
+chiiki	20	table	自家用車での送迎	女性/送迎していない	1154		honpen p.11
+chiiki	20	table	自家用車での送迎	女性/送迎してもらっている	528		honpen p.11
+chiiki	20	table	自家用車での送迎	女性/送迎してもらっていない	659		honpen p.11
+chiiki	20	table	自家用車での送迎	その他/送迎している	1		honpen p.11
+chiiki	20	table	自家用車での送迎	その他/送迎していない	4		honpen p.11
+chiiki	20	table	自家用車での送迎	その他/送迎してもらっている	4		honpen p.11
+chiiki	20	table	自家用車での送迎	その他/送迎してもらっていない	0		honpen p.11
+chiiki	20	table	自家用車での送迎	無回答/送迎している	86		honpen p.11
+chiiki	20	table	自家用車での送迎	無回答/送迎していない	197		honpen p.11
+chiiki	20	table	自家用車での送迎	無回答/送迎してもらっている	94		honpen p.11
+chiiki	20	table	自家用車での送迎	無回答/送迎してもらっていない	88		honpen p.11
+chiiki	20	table	自家用車での送迎	合計/送迎している	1555		honpen p.11
+chiiki	20	table	自家用車での送迎	合計/送迎していない	2452		honpen p.11
+chiiki	20	table	自家用車での送迎	合計/送迎してもらっている	978		honpen p.11
+chiiki	20	table	自家用車での送迎	合計/送迎してもらっていない	1416		honpen p.11
+chiiki	22	chart.rank	自家用車送迎に対する意向【送迎している方】（原典の並び順）	自分の時間が拘束され負担である	27.6	%	honpen p.12
+chiiki	22	chart.rank	自家用車送迎に対する意向【送迎している方】（原典の並び順）	精神的に負担である	9.5	%	honpen p.12
+chiiki	22	chart.rank	自家用車送迎に対する意向【送迎している方】（原典の並び順）	交通事故が怖い	12.4	%	honpen p.12
+chiiki	22	chart.rank	自家用車送迎に対する意向【送迎している方】（原典の並び順）	ガソリン代など費用を気にする	11.2	%	honpen p.12
+chiiki	22	chart.rank	自家用車送迎に対する意向【送迎している方】（原典の並び順）	負担は感じていない	57.8	%	honpen p.12
+chiiki	22	chart.rank	自家用車送迎に対する意向【送迎している方】（原典の並び順）	家族等との時間が取れて楽しみである	17.4	%	honpen p.12
+chiiki	23	chart.rank	自家用車送迎に対する意向【送迎してもらっている方】（原典の並び順）	相手に気兼ねする	38.9	%	honpen p.12
+chiiki	23	chart.rank	自家用車送迎に対する意向【送迎してもらっている方】（原典の並び順）	交通事故が怖い	15.8	%	honpen p.12
+chiiki	23	chart.rank	自家用車送迎に対する意向【送迎してもらっている方】（原典の並び順）	ガソリン代など費用を気にする	15.3	%	honpen p.12
+chiiki	23	chart.rank	自家用車送迎に対する意向【送迎してもらっている方】（原典の並び順）	好きな時間に移動できない	27.7	%	honpen p.12
+chiiki	23	chart.rank	自家用車送迎に対する意向【送迎してもらっている方】（原典の並び順）	負担をかけているとは思わない	34.1	%	honpen p.12
+chiiki	25	table	自家用車での送迎	送迎をやめたい/送迎している方（人）	428		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎をやめたい/送迎している方（%）	29.1		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎をやめたい/送迎してもらっている方（人）	425		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎をやめたい/送迎してもらっている方（%）	44.6		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎を続ける/送迎している方（人）	1045		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎を続ける/送迎している方（%）	70.9		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎を続ける/送迎してもらっている方（人）	527		honpen p.12
+chiiki	25	table	自家用車での送迎	送迎を続ける/送迎してもらっている方（%）	55.4		honpen p.12
+chiiki	25	table	自家用車での送迎	合計/送迎している方（人）	1473		honpen p.12
+chiiki	25	table	自家用車での送迎	合計/送迎している方（%）	100.0		honpen p.12
+chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（人）	952		honpen p.12
+chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（%）	100.0		honpen p.12
+genjo	3	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	koutsu_map.jpg		honpen p.13
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期	271440	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期外	76311	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期	272160	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期外	69251	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期	267420	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期外	67812	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期	280200	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期外	68916	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期	271654	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期外	73061	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期	263169	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期外	72166	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期	206233	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期外	48877	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期	239492	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期外	52432	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期	251484	人	honpen p.14
+genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期外	61464	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H28	156527	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H29	162547	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H30	190986	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R1	234851	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R2	199153	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R3	197462	人	honpen p.14
+genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R4	207435	人	honpen p.14
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期	49680	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期外	5394	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/福祉乗車証（推計）	38271	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期	49676	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期外	5393	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/福祉乗車証（推計）	38585	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期	49680	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期外	5392	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/福祉乗車証（推計）	56862	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期	45299	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期外	5744	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/福祉乗車証（推計）	41250	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期	45227	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期外	6262	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/福祉乗車証（推計）	29253	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期	45226	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期外	3858	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/福祉乗車証（推計）	22900	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期	43702	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期外	4469	人	honpen p.15
+genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/福祉乗車証（推計）	30920	人	honpen p.15
+genjo	14	table	日野町営バス	桜川線/平日：一般	14		honpen p.15
+genjo	14	table	日野町営バス	桜川線/平日：小学生	76		honpen p.15
+genjo	14	table	日野町営バス	桜川線/平日：計	90		honpen p.15
+genjo	14	table	日野町営バス	桜川線/土曜日：一般	7		honpen p.15
+genjo	14	table	日野町営バス	平子・西明寺線/平日：一般	36		honpen p.15
+genjo	14	table	日野町営バス	平子・西明寺線/平日：小学生	7		honpen p.15
+genjo	14	table	日野町営バス	平子・西明寺線/平日：計	43		honpen p.15
+genjo	14	table	日野町営バス	平子・西明寺線/土曜日：一般	8		honpen p.15
+genjo	14	table	日野町営バス	鎌掛線/平日：一般	64		honpen p.15
+genjo	14	table	日野町営バス	鎌掛線/平日：小学生	7		honpen p.15
+genjo	14	table	日野町営バス	鎌掛線/平日：計	71		honpen p.15
+genjo	14	table	日野町営バス	鎌掛線/土曜日：一般	14		honpen p.15
+genjo	14	table	日野町営バス	湖南サンライズ線/平日：一般	9		honpen p.15
+genjo	14	table	日野町営バス	湖南サンライズ線/平日：計	9		honpen p.15
+genjo	14	table	日野町営バス	湖南サンライズ線/土曜日：一般	7		honpen p.15
+genjo	14	table	日野町営バス	南比線/平日：一般	4		honpen p.15
+genjo	14	table	日野町営バス	南比線/平日：計	4		honpen p.15
+genjo	14	table	日野町営バス	中山線/平日：一般	1		honpen p.15
+genjo	14	table	日野町営バス	中山線/平日：計	1		honpen p.15
+genjo	17	table	タクシー	平成27年度/輸送人員（千人）	664		honpen p.16
+genjo	17	table	タクシー	平成27年度/営業収入（百万円）	815		honpen p.16
+genjo	17	table	タクシー	平成28年度/輸送人員（千人）	657		honpen p.16
+genjo	17	table	タクシー	平成28年度/営業収入（百万円）	794		honpen p.16
+genjo	17	table	タクシー	平成29年度/輸送人員（千人）	659		honpen p.16
+genjo	17	table	タクシー	平成29年度/営業収入（百万円）	800		honpen p.16
+genjo	17	table	タクシー	平成30年度/輸送人員（千人）	630		honpen p.16
+genjo	17	table	タクシー	平成30年度/営業収入（百万円）	777		honpen p.16
+genjo	17	table	タクシー	令和元年度/輸送人員（千人）	545		honpen p.16
+genjo	17	table	タクシー	令和元年度/営業収入（百万円）	688		honpen p.16
+genjo	17	table	タクシー	令和2年度/輸送人員（千人）	300		honpen p.16
+genjo	17	table	タクシー	令和2年度/営業収入（百万円）	380		honpen p.16
+genjo	17	table	タクシー	令和3年度/輸送人員（千人）	324		honpen p.16
+genjo	17	table	タクシー	令和3年度/営業収入（百万円）	427		honpen p.16
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	3月/利用件数	304		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	3月/1日当たり利用件数	13.8		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	4月/利用件数	417		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	4月/1日当たり利用件数	20.8		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	5月/利用件数	433		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	5月/1日当たり利用件数	21.6		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	6月/利用件数	457		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	6月/1日当たり利用件数	20.7		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	7月/利用件数	476		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	7月/1日当たり利用件数	23.8		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	8月/利用件数	454		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	8月/1日当たり利用件数	20.6		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	9月/利用件数	563		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	9月/1日当たり利用件数	28.2		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	10月/利用件数	467		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	10月/1日当たり利用件数	22.2		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	11月/利用件数	442		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	11月/1日当たり利用件数	21.6		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	12月/利用件数	445		honpen p.17
+genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	12月/1日当たり利用件数	21.6		honpen p.17
+genjo	24	table	公的資金の投入状況	平成24年度/支出額（千円）	54097		honpen p.18
+genjo	24	table	公的資金の投入状況	平成24年度/うち日野町営バス（千円）	44052		honpen p.18
+genjo	24	table	公的資金の投入状況	平成25年度/支出額（千円）	53733		honpen p.18
+genjo	24	table	公的資金の投入状況	平成25年度/うち日野町営バス（千円）	45730		honpen p.18
+genjo	24	table	公的資金の投入状況	平成26年度/支出額（千円）	59979		honpen p.18
+genjo	24	table	公的資金の投入状況	平成26年度/うち日野町営バス（千円）	50146		honpen p.18
+genjo	24	table	公的資金の投入状況	平成27年度/支出額（千円）	56821		honpen p.18
+genjo	24	table	公的資金の投入状況	平成27年度/うち日野町営バス（千円）	49375		honpen p.18
+genjo	24	table	公的資金の投入状況	平成28年度/支出額（千円）	58128		honpen p.18
+genjo	24	table	公的資金の投入状況	平成28年度/うち日野町営バス（千円）	49442		honpen p.18
+genjo	24	table	公的資金の投入状況	平成29年度/支出額（千円）	61382		honpen p.18
+genjo	24	table	公的資金の投入状況	平成29年度/うち日野町営バス（千円）	51167		honpen p.18
+genjo	24	table	公的資金の投入状況	平成30年度/支出額（千円）	65929		honpen p.18
+genjo	24	table	公的資金の投入状況	平成30年度/うち日野町営バス（千円）	53384		honpen p.18
+genjo	24	table	公的資金の投入状況	令和元年度/支出額（千円）	77537		honpen p.18
+genjo	24	table	公的資金の投入状況	令和元年度/うち日野町営バス（千円）	56434		honpen p.18
+genjo	24	table	公的資金の投入状況	令和2年度/支出額（千円）	90492		honpen p.18
+genjo	24	table	公的資金の投入状況	令和2年度/うち日野町営バス（千円）	60226		honpen p.18
+genjo	24	table	公的資金の投入状況	令和3年度/支出額（千円）	84521		honpen p.18
+genjo	24	table	公的資金の投入状況	令和3年度/うち日野町営バス（千円）	57004		honpen p.18
+genjo	24	table	公的資金の投入状況	令和4年度/支出額（千円）	110057		honpen p.18
+genjo	24	table	公的資金の投入状況	令和4年度/うち日野町営バス（千円）	57216		honpen p.18
+shisaku	3	programs	地域公共交通の活性化施策	事業数	19	件	honpen p.34-41
+mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道線日野駅利用者数/現状値	312948		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道線日野駅利用者数/目標値（令和10年度）	328000		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道バス日八線利用者数/現状値	198786		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道バス日八線利用者数/目標値（令和10年度）	230000		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	①日野町営バス利用者数/現状値	79091		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	①ＡＩオンデマンド交通利用者数/現状値	5600		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	①日野町営バスとＡＩオンデマンド交通の合計/目標値（令和10年度）	93000		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	②行政負担額（日八線・町営バス・ＡＩ・デマンドタクシー）/現状値	79527		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	②行政負担額（日八線・町営バス・ＡＩ・デマンドタクシー）/目標値（令和10年度）	79527		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	②行政負担額（近江鉄道線※）/現状値	20976		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	③近江鉄道バス日八線の収支率/現状値	43.2		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	③近江鉄道バス日八線の収支率/目標値（令和10年度）	51.1		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	③日野町営バスの収支率/現状値	7.9		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	③日野町営バスの収支率/目標値（令和10年度）	10.0		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	③ＡＩオンデマンド交通の収支率/現状値	4.7		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	③ＡＩオンデマンド交通の収支率/目標値（令和10年度）	4.7		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	④地域公共交通空白地率/現状値	3.0		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	④地域公共交通空白地率/目標値（令和10年度）	0		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	⑤「なないろ」・鉄道資料展示室の年間利用者数/現状値	16580		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	⑤「なないろ」・鉄道資料展示室の年間利用者数/目標値（令和10年度）	18000		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	⑥町内事業所の公共交通利用通勤者数/現状値	47		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	⑥町内事業所の公共交通利用通勤者数/目標値（令和10年度）	100		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	⑦民間タクシー常駐台数/現状値	1		honpen p.42
+mokuhyo	3	table	計画の評価指標と目標値	⑦民間タクシー常駐台数/目標値（令和10年度）	1		honpen p.42

@@ -40,6 +40,10 @@ jobs:
             exit 1
           fi
 
+      - name: 検収台帳の検証(audit_worksheet.py・ADR-7)
+        run: |
+          for f in data/audit_log/*.tsv; do [ -e "$f" ] || continue; python3 tools/audit_worksheet.py "$(basename "$f" .tsv)" || exit 1; done
+
       - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
         run: node tools/validate.mjs docs/index.html docs/plans/*.html
 

@@ -202,6 +202,7 @@
 .hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
 .hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
 .hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
+.hpv1 .target .tg{display:inline-flex;gap:8px;align-items:baseline;white-space:nowrap}
 .hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
 .hpv1 .target .ar{color:var(--mut)}
 .hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--accent2)}

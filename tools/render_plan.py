@@ -145,7 +145,9 @@ class Renderer:
     def __init__(self, d):
         self.d = d
         self.theme = {**DEFAULT_THEME, **d.get("theme", {})}
-        self.audit_rows = []  # (tab, block, label, value, unit, source)
+        self.audit_rows = []  # (tab, block_no, btype, block_label, label, value, unit, source)
+        self.last_heading = ""
+        self.block_label = ""
         # 自動配色(系列に c 指定がない場合): テーマから決定的に導出
         a, a2 = self.theme["accent"], self.theme["accent2"]
         self.auto_palette = [a, mix(a, "#ffffff", 0.38), "#527ea1",
@@ -186,8 +188,23 @@ class Renderer:
 
     # ---------- 監査 ----------
     def audit(self, tab, block_no, btype, label, value, unit, source):
-        self.audit_rows.append((tab, f"{block_no}:{btype}", label,
+        """照合表の1行(DESIGN.md ADR-7 補遺 E: 8列)。
+        block_label はブロックの意味ラベル(補遺 D)で、block() が設定する。"""
+        self.audit_rows.append((tab, block_no, btype, self.block_label, label,
                                 value, unit or "", source or ""))
+
+    @staticmethod
+    def _block_label(b, last_heading):
+        """block_label の導出(ADR-7 補遺 D): fold.label → title → 直近の先行 heading の text。
+        fold は文字列の場合 label として扱う。いずれも無ければ空文字(正当な状態)。"""
+        fold = b.get("fold")
+        if fold:
+            lab = fold if isinstance(fold, str) else fold.get("label", "")
+            if lab:
+                return str(lab)
+        if b.get("title"):
+            return str(b["title"])
+        return last_heading or ""
 
     # ---------- ブロックディスパッチ ----------
     def block(self, b, tab_id, block_no):
@@ -197,6 +214,9 @@ class Renderer:
             raise NotImplementedError(
                 f"ブロック type={t} は未実装。PLAN_SCHEMA.md を確認し、"
                 f"render_plan.py に b_{t} を実装すること(実装先行は禁止)。")
+        if t == "heading":
+            self.last_heading = str(b.get("text", ""))
+        self.block_label = self._block_label(b, self.last_heading)
         inner = fn(b, tab_id, block_no)
         anchor = f' id="{esc(b["anchor"])}"' if b.get("anchor") else ""
         src = b.get("source")
@@ -817,6 +837,7 @@ class Renderer:
                 f'aria-selected="{sel}"><span class="tn num">{ti + 1:02d}</span>'
                 f'{esc(tab["label"])}</button>')
             self.toc_entries = self._collect_toc(tab)  # b_toc が参照する目次エントリ
+            self.last_heading = ""  # block_label の導出はタブごとにやり直す(ADR-7 補遺 D)
             self.src_display = self._src_display_indices(tab)  # 出典を表示するindex集合
             blocks = "".join(self.block(b, tab["id"], bi)
                              for bi, b in enumerate(tab["blocks"]))
@@ -897,7 +918,7 @@ def main(argv):
         AUDIT.mkdir(parents=True, exist_ok=True)
         tsv = AUDIT / f"{pid}.tsv"
         with tsv.open("w", encoding="utf-8") as f:
-            f.write("tab\tblock\tlabel\tvalue\tunit\tsource\n")
+            f.write("tab\tblock_no\tbtype\tblock_label\tlabel\tvalue\tunit\tsource\n")
             for row in r.audit_rows:
                 f.write("\t".join(str(x) for x in row) + "\n")
         print(f"OK  {tsv}  ({len(r.audit_rows)} rows) — 原典PDFと突合してください")

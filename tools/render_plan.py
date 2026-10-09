@@ -354,12 +354,14 @@ class Renderer:
             cur_label = "現状" if cur else "基準"
             rows.append(
                 f'<div class="target"><div class="tl">{esc(it["label"])}</div>'
-                f'<div class="tv"><span class="cur num">{fmt(now["v"])}</span>'
-                f'<span class="asof">{cur_label}・{esc(now["asof"])}</span>'
-                f'<span class="ar">→</span>'
+                # 折り返しは「現状(基準)」と「→目標」の2群の間だけで起こす。
+                # 単位は目標値の直後に置き、単位だけが次の行に落ちないようにする
+                f'<div class="tv"><span class="tg"><span class="cur num">{fmt(now["v"])}</span>'
+                f'<span class="asof">{cur_label}・{esc(now["asof"])}</span></span>'
+                f'<span class="tg"><span class="ar">→</span>'
                 f'<span class="tar num">{fmt(target["v"])}</span>'
-                f'<span class="asof">目標・{esc(target["asof"])}</span>'
-                f'<span class="tu">{esc(it["unit"])}</span></div>'
+                f'<span class="tu">{esc(it["unit"])}</span>'
+                f'<span class="asof">目標・{esc(target["asof"])}</span></span></div>'
                 f'{bar}<div class="pct num">目標比 {pct:.1f}%</div></div>')
         return f'<div class="b-targets">{"".join(rows)}</div>'
 

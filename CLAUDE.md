@@ -207,8 +207,8 @@ git commit
   `build/audit/kodomo.tsv`(886行)を突合。2層機構(台帳 + ワークシート)で実施。完了条件は
   `data/audit_log/kodomo.tsv` の全行 checked。PDF は配置済み。
   機構 `tools/audit_worksheet.py` は実装済み(2026-10)。台帳のベースラインも作成済み。
-- [ ] `templates/hub.html` の `.hpshi-tip` 除去行(L875)を削除 — ADR-2 の embed 廃止により
-  永久に0件の no-op(ADR-6 の「0件 no-op 禁止」と不整合)。ADR-7 の作業とは別コミットで。
+- [x] `templates/hub.html` の `.hpshi-tip` 除去行を削除(2026-10) — ADR-2 の embed 廃止により
+  永久に0件の no-op だった(ADR-6 の「0件 no-op 禁止」と不整合)。
 
 **原典PDF待ち(配置後に着手)**
 - [x] **koutsu の移行**(2026-10) — 原典(令和6年3月策定・令和8年3月改訂・54ページ)から

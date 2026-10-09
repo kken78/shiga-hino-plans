@@ -41,10 +41,10 @@ jobs:
           fi
 
       - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
-        run: node tools/validate.mjs docs/plans/*.html
+        run: node tools/validate.mjs docs/index.html docs/plans/*.html
 
       - name: 実ブラウザでの表示検査(check_mobile.mjs・ゲートB)
         run: |
           npm install --no-save --no-package-lock playwright@1.49.1
           npx playwright install --with-deps chromium
-          node tools/check_mobile.mjs docs/plans/*.html
+          node tools/check_mobile.mjs docs/index.html docs/plans/*.html

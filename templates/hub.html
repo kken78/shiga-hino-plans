@@ -106,15 +106,18 @@ section{padding:52px 0 8px}
 .tl-axis{position:relative;height:26px;margin-left:190px;border-bottom:2px solid var(--line)}
 .tl-tick{position:absolute;top:0;height:100%;border-left:1px solid var(--line)}
 .tl-tick span{position:absolute;top:0;left:4px;font-size:var(--fs-3xs);color:var(--muted);font-weight:600}
-.tl-body{position:relative;padding-top:6px}
+.tl-body{position:relative;z-index:1;padding-top:6px}
 .tl-row{display:grid;grid-template-columns:190px 1fr;align-items:center;min-height:40px}
 .tl-name{font-size:var(--fs-2xs);font-weight:600;padding-right:14px;line-height:1.35;color:var(--ai-ink)}
+.tl-per{display:none;font-size:var(--fs-3xs);font-weight:700;color:var(--muted);margin-top:1px}
+.tl-row.is-tight .tl-per{display:block}
+.tl-row.is-tight .tl-bar span{visibility:hidden}
 .tl-track{position:relative;height:26px;border-left:1px dashed var(--line)}
 .tl-bar{position:absolute;top:2px;height:22px;background:linear-gradient(90deg,var(--ai),#3B6FBF);border-radius:6px;color:#fff;font-size:var(--fs-3xs);font-weight:700;display:flex;align-items:center;padding:0 8px;overflow:hidden;white-space:nowrap}
 .tl-bar.is-ending{background:linear-gradient(90deg,var(--warn),#D19A3F)}
 .tl-bar.is-ended{background:var(--gray)}
-.tl-today{position:absolute;top:22px;bottom:0;left:calc(190px + (100% - 190px) * var(--p,0));width:0;border-left:2px solid var(--shu);z-index:2}
-.tl-today em{position:absolute;top:-22px;left:-16px;font-style:normal;font-size:var(--fs-3xs);font-weight:700;color:#fff;background:var(--shu);border-radius:999px;padding:1px 8px}
+.tl-today{position:absolute;top:22px;bottom:0;left:calc(190px + (100% - 190px) * var(--p,0));width:0;border-left:2px solid var(--shu);z-index:0}
+.tl-today em{position:absolute;top:-22px;left:-1px;transform:translateX(-50%);white-space:nowrap;line-height:1.5;font-style:normal;font-size:var(--fs-3xs);font-weight:700;color:#fff;background:var(--shu);border-radius:999px;padding:1px 8px}
 .tl-note{margin-top:14px;font-size:var(--fs-3xs);color:var(--muted)}
 
 /* ---------- plan library ---------- */
@@ -675,7 +678,7 @@ function renderTimeline(){
   PLANS.filter(p => p.verified).sort((a, b) => a.start - b.start || a.end - b.end).forEach(p => {
     const st = planStatus(p);
     const row = el('div', 'tl-row');
-    row.appendChild(el('div', 'tl-name', esc(p.name)));
+    row.appendChild(el('div', 'tl-name', esc(p.name) + '<span class="tl-per">R' + p.start + '〜R' + p.end + '</span>'));
     const track = el('div', 'tl-track');
     const bar = el('div', 'tl-bar ' + (st === 'ending' ? 'is-ending' : st === 'ended' ? 'is-ended' : ''));
     const bs = fyStart(p.start), be = fyEndEx(p.end);
@@ -689,6 +692,17 @@ function renderTimeline(){
   });
   const pct = Math.min(1, Math.max(0, (NOW - domainS) / span));
   $('#tlToday').style.setProperty('--p', pct);
+  fitTimelineLabels();
+  let raf = 0;
+  window.addEventListener('resize', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(fitTimelineLabels); });
+}
+/* 棒の中に期間の文字が入りきらない行は、棒の文字を隠し、計画名の下に期間を出す(ADR-8 判断の優先順位2) */
+function fitTimelineLabels(){
+  document.querySelectorAll('#tlBody .tl-row').forEach(row => {
+    const bar = row.querySelector('.tl-bar'), s = bar.querySelector('span');
+    row.classList.remove('is-tight');
+    if (s.offsetWidth > bar.clientWidth - 16) row.classList.add('is-tight');
+  });
 }
 
 /* 3) 計画ライブラリ */

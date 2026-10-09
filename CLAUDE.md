@@ -115,7 +115,7 @@ audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに�
 `.hkodomo`=stack100/pairBars、`.hpshi`=render)は現存しない。git 未追跡
 (`sources_raw/` は .gitignore)で、旧 Pages `https://kken78.github.io/hino-plans/` も 404。
 参照の必要もない: 全6 kind・全20ブロックは実装済みで、リファレンスとしての役目は終えている。
-koutsu/shisetsu は本書の定型フローどおり原典PDFから抽出する(hub-legacy からの逆抽出は
+koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出する(hub-legacy からの逆抽出は
 しない。kodomo の逆抽出は語彙確定のための Phase 1 限定の手段であり、その代償として audit
 886行の検収債務を負っている)。描画確認用フィクスチャは
 `data/plans/_charttest.json`(3種を1本に。id が `_` 始まりでも
@@ -188,5 +188,9 @@ koutsu/shisetsu は本書の定型フローどおり原典PDFから抽出する(
 **原典PDF待ち(配置後に着手)**
 - [ ] **koutsu の移行** — 路線図JPEGを `data/assets/koutsu_map.jpg` に切り出し
   `figure` ブロックで参照。前提: `sources_raw/koutsu/` に原典配置。
-- [ ] **shisetsu の移行** — 前提: `sources_raw/shisetsu/` に原典配置。
+- [x] **kokyo-kanri(公共施設等総合管理計画)の追加**(2026-10) — Claude Design で作成した
+  JSON を、原典(令和4年3月改定・54ページ)の全文テキストと照合・修正して追加。5タブ、
+  audit 146行、ハブ登録済み。出典ページは印刷ページ番号(PDFページ−3)。
+- [ ] **kokyo-kanri の検収(audit 突合)** — 原典PDFを `sources_raw/kokyo-kanri/` に配置し、
+  `build/audit/kokyo-kanri.tsv`(146行)と突合する。
 - [ ] 他40計画の抽出 — 各原典PDFを配置してから定型フローで1本ずつ。

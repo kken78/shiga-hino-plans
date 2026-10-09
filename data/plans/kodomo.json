@@ -48,8 +48,20 @@
           "source": "jyuki",
           "items": [
             { "label": "総人口", "value": 20761, "unit": "人", "asof": "R6.4.1", "delta": "▲661人/4年(3.1%減)", "trend": "down" },
-            { "label": "18歳未満人口", "value": 3022, "unit": "人", "asof": "R6.4.1", "delta": "▲250人/4年(7.6%減)・総人口比14.6%", "trend": "down" },
-            { "label": "保育所 待機児童", "value": 8, "unit": "人", "asof": "R6.4.1", "delta": "0・1歳児に集中", "trend": "flat" },
+            { "label": "18歳未満人口", "value": 3022, "unit": "人", "asof": "R6.4.1", "delta": "▲250人/4年(7.6%減)・総人口比14.6%", "trend": "down" }
+          ]
+        },
+        {
+          "type": "kpi_grid",
+          "source": "honpen p.13",
+          "items": [
+            { "label": "保育所 待機児童", "value": 8, "unit": "人", "asof": "R6.4.1", "delta": "0・1歳児に集中", "trend": "flat" }
+          ]
+        },
+        {
+          "type": "kpi_grid",
+          "source": "honpen p.8",
+          "items": [
             { "label": "児童虐待相談", "value": 234, "unit": "件", "asof": "R5年度", "delta": "増減を繰り返し推移", "trend": "flat" }
           ]
         },
@@ -118,7 +130,7 @@
         },
         {
           "type": "table",
-          "source": "honpen",
+          "source": "honpen p.13",
           "head": ["年度", "R2", "R3", "R4", "R5", "R6"],
           "rows": [
             ["待機児童", 2, 3, 6, 4, { "v": 8, "cls": "neg" }]
@@ -164,8 +176,8 @@
             { "label": "父母ともに", "a": 56.7, "b": 48.7 },
             { "label": "主に母親", "a": 40.9, "b": 48.2 },
             { "label": "主に父親", "a": 0.5, "b": 0.5 },
-            { "label": "主に祖父母", "a": 1.0, "b": 1.0 },
-            { "label": "その他", "a": 0.0, "b": 0.0 },
+            { "label": "主に祖父母", "a": 1.0, "b": 1 },
+            { "label": "その他", "a": 0.0, "b": 0 },
             { "label": "無回答", "a": 1.0, "b": 1.5 }
           ]
         },

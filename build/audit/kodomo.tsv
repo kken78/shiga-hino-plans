@@ -1,8 +1,8 @@
 tab	block_no	btype	block_label	label	value	unit	source
 summary	2	kpi		総人口	20761	人	jyuki
 summary	2	kpi		18歳未満人口	3022	人	jyuki
-summary	2	kpi		保育所 待機児童	8	人	jyuki
-summary	2	kpi		児童虐待相談	234	件	jyuki
+summary	3	kpi		保育所 待機児童	8	人	honpen p.13
+summary	4	kpi		児童虐待相談	234	件	honpen p.8
 genjo	1	chart.stacked	18歳未満人口の推移	R2/就学前	994	人	jyuki
 genjo	1	chart.stacked	18歳未満人口の推移	R2/小学生	1119	人	jyuki
 genjo	1	chart.stacked	18歳未満人口の推移	R2/中学生	562	人	jyuki
@@ -53,11 +53,11 @@ genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/70	22.0	%	kokuch
 genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/75	9.3	%	kokucho
 genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/80	5.1	%	kokucho
 genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/85+	1.3	%	kokucho
-genjo	5	table	女性の年代別就業率	待機児童/R2	2		honpen
-genjo	5	table	女性の年代別就業率	待機児童/R3	3		honpen
-genjo	5	table	女性の年代別就業率	待機児童/R4	6		honpen
-genjo	5	table	女性の年代別就業率	待機児童/R5	4		honpen
-genjo	5	table	女性の年代別就業率	待機児童/R6	8		honpen
+genjo	5	table	女性の年代別就業率	待機児童/R2	2		honpen p.13
+genjo	5	table	女性の年代別就業率	待機児童/R3	3		honpen p.13
+genjo	5	table	女性の年代別就業率	待機児童/R4	6		honpen p.13
+genjo	5	table	女性の年代別就業率	待機児童/R5	4		honpen p.13
+genjo	5	table	女性の年代別就業率	待機児童/R6	8		honpen p.13
 needs	1	table		就学前児童アンケート/配布数(票)	400		honpen p.21
 needs	1	table		就学前児童アンケート/回収数(票)	203		honpen p.21
 needs	1	table		小学生アンケート/配布数(票)	400		honpen p.21
@@ -69,9 +69,9 @@ needs	3	chart.pair	主に子育てをしている人｜就学前	主に母親/�
 needs	3	chart.pair	主に子育てをしている人｜就学前	主に父親/今回 n=203	0.5	%	honpen p.21
 needs	3	chart.pair	主に子育てをしている人｜就学前	主に父親/前回 n=197	0.5	%	honpen p.21
 needs	3	chart.pair	主に子育てをしている人｜就学前	主に祖父母/今回 n=203	1.0	%	honpen p.21
-needs	3	chart.pair	主に子育てをしている人｜就学前	主に祖父母/前回 n=197	1.0	%	honpen p.21
+needs	3	chart.pair	主に子育てをしている人｜就学前	主に祖父母/前回 n=197	1	%	honpen p.21
 needs	3	chart.pair	主に子育てをしている人｜就学前	その他/今回 n=203	0.0	%	honpen p.21
-needs	3	chart.pair	主に子育てをしている人｜就学前	その他/前回 n=197	0.0	%	honpen p.21
+needs	3	chart.pair	主に子育てをしている人｜就学前	その他/前回 n=197	0	%	honpen p.21
 needs	3	chart.pair	主に子育てをしている人｜就学前	無回答/今回 n=203	1.0	%	honpen p.21
 needs	3	chart.pair	主に子育てをしている人｜就学前	無回答/前回 n=197	1.5	%	honpen p.21
 needs	4	chart.pair	主に子育てをしている人｜小学生	父母ともに/今回 n=182	53.3	%	honpen p.21

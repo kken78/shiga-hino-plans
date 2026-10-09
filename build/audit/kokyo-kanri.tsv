@@ -4,7 +4,7 @@ summary	1:kpi	築30年以上の公共建築物の割合	60	%	honpen p.9-10
 summary	1:kpi	旧耐震基準のままの公共建築物	7.2	%	honpen p.9-10
 summary	2:kpi	有形固定資産減価償却率	65.4	%	honpen p.6
 summary	2:kpi	維持管理運営費	2.42	億円	honpen p.6
-genjo	2:bigstat	住民1人当たりの公共施設延床面積	4.4	㎡/人	honpen p.14
+genjo	2:bigstat	住民1人当たりの公共施設延床面積	4.40	㎡/人	honpen p.14
 genjo	4:table	学校教育系施設/延床面積(㎡)	37765		honpen p.9
 genjo	4:table	学校教育系施設/構成比(%)	41.5		honpen p.9
 genjo	4:table	市民文化系施設/延床面積(㎡)	13130		honpen p.9
@@ -64,17 +64,17 @@ genjo	12:table	下水道施設（農業集落排水処理施設）/数量	9		hon
 genjo	14:chart.rank	豊郷町	8.71	㎡/人	honpen p.14
 genjo	14:chart.rank	甲良町	8.48	㎡/人	honpen p.14
 genjo	14:chart.rank	高島市	7.82	㎡/人	honpen p.14
-genjo	14:chart.rank	多賀町	7.1	㎡/人	honpen p.14
+genjo	14:chart.rank	多賀町	7.10	㎡/人	honpen p.14
 genjo	14:chart.rank	米原市	5.93	㎡/人	honpen p.14
 genjo	14:chart.rank	長浜市	5.35	㎡/人	honpen p.14
 genjo	14:chart.rank	竜王町	5.19	㎡/人	honpen p.14
 genjo	14:chart.rank	愛荘町	5.07	㎡/人	honpen p.14
 genjo	14:chart.rank	近江八幡市	4.48	㎡/人	honpen p.14
 genjo	14:chart.rank	甲賀市	4.48	㎡/人	honpen p.14
-genjo	14:chart.rank	日野町	4.4	㎡/人	honpen p.14
-genjo	14:chart.rank	東近江市	4.3	㎡/人	honpen p.14
+genjo	14:chart.rank	日野町	4.40	㎡/人	honpen p.14
+genjo	14:chart.rank	東近江市	4.30	㎡/人	honpen p.14
 genjo	14:chart.rank	野洲市	3.86	㎡/人	honpen p.14
-genjo	14:chart.rank	湖南市	3.3	㎡/人	honpen p.14
+genjo	14:chart.rank	湖南市	3.30	㎡/人	honpen p.14
 genjo	14:chart.rank	栗東市	3.13	㎡/人	honpen p.14
 genjo	14:chart.rank	大津市	3.02	㎡/人	honpen p.14
 genjo	14:chart.rank	彦根市	2.85	㎡/人	honpen p.14
@@ -94,9 +94,9 @@ genjo	15:chart.rank	山形県高畠町	4.72	㎡/人	honpen p.15
 genjo	15:chart.rank	青森県おいらせ町	4.57	㎡/人	honpen p.15
 genjo	15:chart.rank	岐阜県池田町	4.49	㎡/人	honpen p.15
 genjo	15:chart.rank	千葉県横芝光町	4.48	㎡/人	honpen p.15
-genjo	15:chart.rank	滋賀県日野町	4.4	㎡/人	honpen p.15
+genjo	15:chart.rank	滋賀県日野町	4.40	㎡/人	honpen p.15
 genjo	15:chart.rank	福島県西郷村	4.36	㎡/人	honpen p.15
-genjo	15:chart.rank	香川県多度津町	4.3	㎡/人	honpen p.15
+genjo	15:chart.rank	香川県多度津町	4.30	㎡/人	honpen p.15
 genjo	15:chart.rank	岐阜県大野町	4.28	㎡/人	honpen p.15
 genjo	15:chart.rank	熊本県大津町	4.17	㎡/人	honpen p.15
 genjo	15:chart.rank	栃木県益子町	4.14	㎡/人	honpen p.15
@@ -107,7 +107,7 @@ genjo	15:chart.rank	埼玉県寄居町	3.71	㎡/人	honpen p.15
 genjo	15:chart.rank	愛知県大口町	3.62	㎡/人	honpen p.15
 genjo	15:chart.rank	三重県東員町	3.53	㎡/人	honpen p.15
 genjo	15:chart.rank	栃木県高根沢町	3.51	㎡/人	honpen p.15
-genjo	15:chart.rank	茨城県茨城町	3.5	㎡/人	honpen p.15
+genjo	15:chart.rank	茨城県茨城町	3.50	㎡/人	honpen p.15
 genjo	15:chart.rank	群馬県大泉町	3.44	㎡/人	honpen p.15
 genjo	15:chart.rank	栃木県上三川町	3.34	㎡/人	honpen p.15
 genjo	15:chart.rank	福岡県苅田町	3.32	㎡/人	honpen p.15
@@ -126,7 +126,7 @@ zaisei	1:table	H7（最多）/人口(人)	23132		honpen p.4
 zaisei	1:table	R2/人口(人)	20964		honpen p.4
 zaisei	1:table	R12（将来展望）/人口(人)	19799		honpen p.4
 zaisei	1:table	R42（将来展望）/人口(人)	16027		honpen p.4
-zaisei	4:chart.bars	H28	2.5	億円	honpen p.6
+zaisei	4:chart.bars	H28	2.50	億円	honpen p.6
 zaisei	4:chart.bars	H29	2.47	億円	honpen p.6
 zaisei	4:chart.bars	H30	2.63	億円	honpen p.6
 zaisei	4:chart.bars	R元	2.59	億円	honpen p.6

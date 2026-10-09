@@ -13,8 +13,11 @@ charts	1:chart.pair	関心度/日野町	48.0	%	test
 charts	1:chart.pair	関心度/県平均	51.3	%	test
 charts	1:chart.pair	参加率/日野町	30.2	%	test
 charts	2:chart.rank	甲賀市	5.82	㎡/人	test
-charts	2:chart.rank	東近江市	5.1	㎡/人	test
-charts	2:chart.rank	日野町	4.4	㎡/人	test
+charts	2:chart.rank	東近江市	5.10	㎡/人	test
+charts	2:chart.rank	日野町	4.40	㎡/人	test
 charts	2:chart.rank	竜王町	4.05	㎡/人	test
 charts	2:chart.rank	近江八幡市	3.51	㎡/人	test
 charts	2:chart.rank	県平均	3.83	㎡/人	test
+tables	0:table	増減(負値・小数2桁)/値	-1.50		test
+tables	0:table	整数/値	1200		test
+tables	0:table	小数1桁/値	3.0		test

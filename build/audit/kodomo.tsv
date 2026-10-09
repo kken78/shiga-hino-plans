@@ -171,30 +171,30 @@ needs	16:table	家賃・住宅ローンの滞納/就学前 頻繁	0.5		honpen p.
 needs	16:table	家賃・住宅ローンの滞納/小学生 何度か	4.9		honpen p.28
 needs	16:table	家賃・住宅ローンの滞納/小学生 頻繁	1.6		honpen p.28
 hyoka	1:bigstat	計画全体の平均値	8.72	点	honpen p.30
-hyoka	2:table	Ⅰ ゆとりをもって子育てができるまち/平均値(点)	8.8		honpen p.30
-hyoka	2:table	Ⅱ 子どもが明るく元気に育つまち/平均値(点)	7.4		honpen p.30
+hyoka	2:table	Ⅰ ゆとりをもって子育てができるまち/平均値(点)	8.80		honpen p.30
+hyoka	2:table	Ⅱ 子どもが明るく元気に育つまち/平均値(点)	7.40		honpen p.30
 hyoka	2:table	Ⅲ 安心して子どもを生み育てることができるまち/平均値(点)	9.43		honpen p.30
 hyoka	4:chart.rank	第4節 妊娠・出産・子育ての切れ目ない支援	9.75	点	honpen p.30
 hyoka	4:chart.rank	第5節 子どもの未来を応援する仕組みづくり	9.17	点	honpen p.30
 hyoka	4:chart.rank	第1節 すべての子育て家庭への支援	9.12	点	honpen p.30
 hyoka	4:chart.rank	第2節 子どもの人権を尊重する環境づくり	8.13	点	honpen p.30
-hyoka	4:chart.rank	第3節 地域の子育て支援の強化	7.4	点	honpen p.30
+hyoka	4:chart.rank	第3節 地域の子育て支援の強化	7.40	点	honpen p.30
 hyoka	4:chart.rank	平均値	8.72	点	honpen p.30
-hyoka	6:chart.rank	1-2 家庭の教育力の向上	10.0	点	honpen p.31
-hyoka	6:chart.rank	1-3 障がいのある子どもへの支援	10.0	点	honpen p.31
-hyoka	6:chart.rank	4-1 母子保健サービスの充実	10.0	点	honpen p.31
-hyoka	6:chart.rank	4-2 小児医療等の充実	10.0	点	honpen p.31
-hyoka	6:chart.rank	4-4 放課後等の児童の健全育成の推進	10.0	点	honpen p.31
-hyoka	6:chart.rank	5-4 子育て家庭への経済的支援	10.0	点	honpen p.31
+hyoka	6:chart.rank	1-2 家庭の教育力の向上	10.00	点	honpen p.31
+hyoka	6:chart.rank	1-3 障がいのある子どもへの支援	10.00	点	honpen p.31
+hyoka	6:chart.rank	4-1 母子保健サービスの充実	10.00	点	honpen p.31
+hyoka	6:chart.rank	4-2 小児医療等の充実	10.00	点	honpen p.31
+hyoka	6:chart.rank	4-4 放課後等の児童の健全育成の推進	10.00	点	honpen p.31
+hyoka	6:chart.rank	5-4 子育て家庭への経済的支援	10.00	点	honpen p.31
 hyoka	6:chart.rank	5-1 豊かな心と健やかな体を育む学校教育の推進	9.23	点	honpen p.31
 hyoka	6:chart.rank	5-2 仕事と生活の調和ワーク・ライフ・バランスの実現	9.17	点	honpen p.31
 hyoka	6:chart.rank	2-2 子どもの虐待防止対策の推進	8.75	点	honpen p.31
 hyoka	6:chart.rank	4-3 多様な保育サービスの充実	8.75	点	honpen p.31
 hyoka	6:chart.rank	3-3 子育てに関する意識の啓発	8.33	点	honpen p.31
-hyoka	6:chart.rank	3-1 地域における子育て支援のネットワークづくり	8.0	点	honpen p.31
-hyoka	6:chart.rank	2-1 子どもの人権の尊重と権利擁護	7.5	点	honpen p.31
-hyoka	6:chart.rank	5-3 ひとり親家庭への支援	7.5	点	honpen p.31
-hyoka	6:chart.rank	1-1 家庭における子育てへの支援	7.0	点	honpen p.31
+hyoka	6:chart.rank	3-1 地域における子育て支援のネットワークづくり	8.00	点	honpen p.31
+hyoka	6:chart.rank	2-1 子どもの人権の尊重と権利擁護	7.50	点	honpen p.31
+hyoka	6:chart.rank	5-3 ひとり親家庭への支援	7.50	点	honpen p.31
+hyoka	6:chart.rank	1-1 家庭における子育てへの支援	7.00	点	honpen p.31
 hyoka	6:chart.rank	3-2 地域における子どもの居場所づくり	6.88	点	honpen p.31
 hyoka	6:chart.rank	3-4 安全で快適な子育て環境の整備	6.67	点	honpen p.31
 hyoka	6:chart.rank	平均値	8.72	点	honpen p.31

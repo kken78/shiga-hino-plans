@@ -1,0 +1,56 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	2	kpi		全体事業費	240	百万円	r3syakaishihonseibikeikaku p.1
+summary	2	kpi		計画期間	5	年間	r3syakaishihonseibikeikaku p.1
+summary	3	target.base		長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率	0	%	r3syakaishihonseibikeikaku p.1
+summary	3	target.target		長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率	100	%	r3syakaishihonseibikeikaku p.1
+jigyo	3	table	事業の内容と期間	A12-001/全体事業費（百万円）	240		r3syakaishihonseibikeikaku p.2
+jigyo	3	table	事業の内容と期間	合計/全体事業費（百万円）	240		r3syakaishihonseibikeikaku p.2
+jigyo	5	kpi	全体事業費の内訳	全体事業費の合計（A＋B＋C＋D）	240	百万円	r3syakaishihonseibikeikaku p.1
+jigyo	5	kpi	全体事業費の内訳	A	240	百万円	r3syakaishihonseibikeikaku p.1
+jigyo	5	kpi	全体事業費の内訳	B	0	百万円	r3syakaishihonseibikeikaku p.1
+jigyo	5	kpi	全体事業費の内訳	C	0	百万円	r3syakaishihonseibikeikaku p.1
+jigyo	5	kpi	全体事業費の内訳	D	0	百万円	r3syakaishihonseibikeikaku p.1
+jigyo	5	kpi	全体事業費の内訳	効果促進事業費の割合 C／（A＋B＋C＋D）	0	%	r3syakaishihonseibikeikaku p.1
+mokuhyo	3	table	指標と目標値	長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率/当初現況値 R4年度当初（%）	0		r3syakaishihonseibikeikaku p.1
+mokuhyo	3	table	指標と目標値	長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率/中間目標値 R6年度末（%）	50		r3syakaishihonseibikeikaku p.1
+mokuhyo	3	table	指標と目標値	長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率/最終目標値 R8年度末（%）	100		r3syakaishihonseibikeikaku p.1
+shikko	2	chart.pair	交付額と支払済額	R04/交付額（c）	49	百万円	r3syakaishihonseibikeikaku p.3
+shikko	2	chart.pair	交付額と支払済額	R04/支払済額（e）	46	百万円	r3syakaishihonseibikeikaku p.3
+shikko	2	chart.pair	交付額と支払済額	R05/交付額（c）	134	百万円	r3syakaishihonseibikeikaku p.3
+shikko	2	chart.pair	交付額と支払済額	R05/支払済額（e）	121	百万円	r3syakaishihonseibikeikaku p.3
+shikko	2	chart.pair	交付額と支払済額	R06/交付額（c）	64	百万円	r3syakaishihonseibikeikaku p.3
+shikko	2	chart.pair	交付額と支払済額	R06/支払済額（e）	77	百万円	r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	配分額（a）/R04	49		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	配分額（a）/R05	134		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	配分額（a）/R06	64		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	計画別流用増△減額（b）/R04	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	計画別流用増△減額（b）/R05	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	計画別流用増△減額（b）/R06	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	交付額（c=a+b）/R04	49		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	交付額（c=a+b）/R05	134		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	交付額（c=a+b）/R06	64		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	前年度からの繰越額（d）/R04	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	前年度からの繰越額（d）/R05	3		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	前年度からの繰越額（d）/R06	16		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	支払済額（e）/R04	46		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	支払済額（e）/R05	121		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	支払済額（e）/R06	77		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	翌年度繰越額（f）/R04	3		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	翌年度繰越額（f）/R05	16		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	翌年度繰越額（f）/R06	3		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	うち未契約繰越額（g）/R04	3		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	うち未契約繰越額（g）/R05	13		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	うち未契約繰越額（g）/R06	3		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	不用額（h=c+d-e-f）/R04	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	不用額（h=c+d-e-f）/R05	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	不用額（h=c+d-e-f）/R06	0		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R04	6.12		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R05	9.48		r3syakaishihonseibikeikaku p.3
+shikko	3	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R06	3.75		r3syakaishihonseibikeikaku p.3
+keii	5	table	前の計画の目標と事業	A12-001/全体事業費（百万円）	9		seibikeikaku p.2
+keii	5	table	前の計画の目標と事業	合計/全体事業費（百万円）	9		seibikeikaku p.2
+keii	6	table	前の計画の目標と事業	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/当初現況値 平成31年度当初（%）	0		seibikeikaku p.1
+keii	6	table	前の計画の目標と事業	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/中間目標値 平成32年度末（%）	100		seibikeikaku p.1
+keii	6	table	前の計画の目標と事業	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/最終目標値 平成32年度末（%）	100		seibikeikaku p.1
+keii	9	table	前の計画の事後評価	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/最終目標値（%）	100		jigohyoukasho p.4
+keii	9	table	前の計画の事後評価	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/最終実績値（%）	100		jigohyoukasho p.4

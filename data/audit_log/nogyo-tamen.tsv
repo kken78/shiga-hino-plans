@@ -1,7 +1,7 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-1bea465c74565eb5	summary	2	kpi		多面的機能支払（1号事業）で町が認定した計画（令和7年10月1日の公表分）	38	件	marugoto-r7 p.1-2				要人確認:H2 値が文字データにない
-873cd28d510cfd55	summary	3	kpi		中山間地域等直接支払（2号事業）で町が認定した計画	17	件	x2-r7 p.1				要人確認:H2 値が文字データにない
-f28c672fcb2d845c	summary	4	kpi		環境保全型農業直接支払（3号事業）で町が認定した計画	5	件	x3-r7 p.1				要人確認:H2 値が文字データにない
+1bea465c74565eb5	summary	2	kpi		多面的機能支払（1号事業）で町が認定した計画（令和7年10月1日の公表分）	38	件	marugoto-r7 p.1-2				
+873cd28d510cfd55	summary	3	kpi		中山間地域等直接支払（2号事業）で町が認定した計画	17	件	x2-r7 p.1				
+f28c672fcb2d845c	summary	4	kpi		環境保全型農業直接支払（3号事業）で町が認定した計画	5	件	x3-r7 p.1				
 777cc2cbd46b4003	kuiki	5	figure	区域図	農業の有する多面的機能の発揮の促進に関する計画区域（1号事業・3号事業）	nogyo-tamen_kuiki13.jpg		bessikuikizu1gou3gou p.1				要人確認:H2 数値でない
 d52c4a491ef9835b	kuiki	6	figure	区域図	農業の有する多面的機能の発揮の促進に関する計画区域（2号事業）	nogyo-tamen_kuiki2.jpg		bessikuikizu2gou p.1				要人確認:H2 数値でない

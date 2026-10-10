@@ -29,8 +29,8 @@ ebdc78685a1ab418	shisaku	10	kpi	計画期間内の収支	10年間の既存の企
 5179d184c3f13a78	genjo	4	table	水道事業の状況	平子・熊野地区簡易水道事業/計画一日最大給水量(m³/日)	53		honpen p.7	✓	auto:ai	2026-10-10	
 d49bfc8359486c0c	genjo	5	figure	2つの事業と給水区域	日野町水道事業給水区域および施設位置図	suido2_map.jpg		honpen p.13				要人確認:H2 数値でない
 843c7dcd0a334be9	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の基本料金(月額)	1270	円/m³	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-9d558635bacaff14	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の使用料金	29.20	円/m³	honpen p.8				要人確認:H2 値が文字データにない
-b570ca9187c1f2dd	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の未達料金	20.44	円/m³	honpen p.8				要人確認:H2 値が文字データにない
+9d558635bacaff14	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の使用料金	29.20	円/m³	honpen p.8				
+b570ca9187c1f2dd	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の未達料金	20.44	円/m³	honpen p.8				
 1cadf92f79f5a09b	genjo	12	table	配水池の竣工年度・規模	西部配水池/容量(m³)	2250		honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 3019115edfb7dec0	genjo	12	table	配水池の竣工年度・規模	中央配水池/容量(m³)	1478		honpen p.22	✓	auto:ai	2026-10-10	
 407fb7de581138ae	genjo	12	table	配水池の竣工年度・規模	東部配水池/容量(m³)	1358		honpen p.22	✓	auto:ai	2026-10-10	

@@ -81,21 +81,21 @@ ddd01f57411bc3a7	genjo	10	table	平均寿命と平均自立期間（平成27年�
 a2ddbb8c0a1d3586	genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 女性/平均寿命（歳）	87.62		honpen p.6	✓	auto:ai	2026-10-10	
 359843cada935176	genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 女性/平均自立期間（歳）	84.20		honpen p.6	✓	auto:ai	2026-10-10	
 0a19bf1fdda02eb5	genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 女性/差（年）	3.41		honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-487729465cf61bc1	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	悪性新生物	25.4	%	gaiyo p.2				要人確認:H2 値が文字データにない
-876eeb5c39b22aef	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	脳血管疾患	11.4	%	gaiyo p.2				要人確認:H2 値が文字データにない
-eecfa71c8077c9be	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	老衰	11.4	%	gaiyo p.2				要人確認:H2 値が文字データにない
-d5f808a3884b8eb3	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	肺炎	5.7	%	gaiyo p.2				要人確認:H2 値が文字データにない
-c183f5cf27c057b0	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	心疾患	3.7	%	gaiyo p.2				要人確認:H2 値が文字データにない
-86c3539c8e5c4e7e	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	不慮の事故	3.7	%	gaiyo p.2				要人確認:H2 値が文字データにない
-55c6349d5ff676e9	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	自殺	2.0	%	gaiyo p.2				要人確認:H2 値が文字データにない
-dfdf54098eed7f4c	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	糖尿病	1.7	%	gaiyo p.2				要人確認:H2 値が文字データにない
-14d35abde4dd77bc	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	腎不全	1.3	%	gaiyo p.2				要人確認:H2 値が文字データにない
-bc00fb676dc81c18	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	肝疾患	1.0	%	gaiyo p.2				要人確認:H2 値が文字データにない
-24dcd81a186be1c6	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	大動脈瘤及び解離	0.7	%	gaiyo p.2				要人確認:H2 値が文字データにない
-f3fa392936d9eb47	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	高血圧性疾患	0.3	%	gaiyo p.2				要人確認:H2 値が文字データにない
-9ba55e7c292d3434	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	結核	0.3	%	gaiyo p.2				要人確認:H2 値が文字データにない
-e4b685fadf507223	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	慢性閉塞性肺疾患	0.3	%	gaiyo p.2				要人確認:H2 値が文字データにない
-7c6c6f61949928b5	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	その他	31.1	%	gaiyo p.2				要人確認:H2 値が文字データにない
+487729465cf61bc1	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	悪性新生物	25.4	%	gaiyo p.2				
+876eeb5c39b22aef	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	脳血管疾患	11.4	%	gaiyo p.2				
+eecfa71c8077c9be	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	老衰	11.4	%	gaiyo p.2				
+d5f808a3884b8eb3	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	肺炎	5.7	%	gaiyo p.2				
+c183f5cf27c057b0	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	心疾患	3.7	%	gaiyo p.2				
+86c3539c8e5c4e7e	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	不慮の事故	3.7	%	gaiyo p.2				
+55c6349d5ff676e9	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	自殺	2.0	%	gaiyo p.2				
+dfdf54098eed7f4c	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	糖尿病	1.7	%	gaiyo p.2				
+14d35abde4dd77bc	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	腎不全	1.3	%	gaiyo p.2				
+bc00fb676dc81c18	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	肝疾患	1.0	%	gaiyo p.2				
+24dcd81a186be1c6	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	大動脈瘤及び解離	0.7	%	gaiyo p.2				
+f3fa392936d9eb47	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	高血圧性疾患	0.3	%	gaiyo p.2				
+9ba55e7c292d3434	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	結核	0.3	%	gaiyo p.2				
+e4b685fadf507223	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	慢性閉塞性肺疾患	0.3	%	gaiyo p.2				
+7c6c6f61949928b5	genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	その他	31.1	%	gaiyo p.2				
 eeda2e4b592cf71e	genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	悪性新生物/日野町	126.1		honpen p.7	✓	auto:ai	2026-10-10	
 d49ca622f8e5a1ca	genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	悪性新生物/東近江管内	104.6		honpen p.7	✓	auto:ai	2026-10-10	
 46926cbc8691e788	genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	悪性新生物/滋賀県	103.3		honpen p.7	✓	auto:ai	2026-10-10	
@@ -658,14 +658,14 @@ d1c781f13d09aeac	chosa	29	chart.stacked100	がん検診の受診状況	肺がん
 3e5f08b560b4e580	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/個人で受けた	14.9	%	honpen p.42	✓	auto:ai	2026-10-10	
 6056f8af3f440654	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/受けていない	47.0	%	honpen p.42	✓	auto:ai	2026-10-10	
 07d1826aee25b185	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/不明・無回答	11.9	%	honpen p.42	✓	auto:ai	2026-10-10	
-71343135ec5d1b8a	shisaku	6	programs	施策の体系と分野別の取り組み	事業数	14	件	honpen p.54-55				要人確認:H2 値が文字データにない
-fba525a6b93465eb	shisaku	7	programs	施策の体系と分野別の取り組み	事業数	11	件	honpen p.58-59				要人確認:H2 値が文字データにない
+71343135ec5d1b8a	shisaku	6	programs	施策の体系と分野別の取り組み	事業数	14	件	honpen p.54-55				
+fba525a6b93465eb	shisaku	7	programs	施策の体系と分野別の取り組み	事業数	11	件	honpen p.58-59				
 9c40eab3dbca4e63	shisaku	8	programs	施策の体系と分野別の取り組み	事業数	5	件	honpen p.60-61	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-4af02775c5957cfc	shisaku	9	programs	施策の体系と分野別の取り組み	事業数	6	件	honpen p.62-63				要人確認:H2 値が文字データにない
+4af02775c5957cfc	shisaku	9	programs	施策の体系と分野別の取り組み	事業数	6	件	honpen p.62-63				
 21475598c9532085	shisaku	10	programs	施策の体系と分野別の取り組み	事業数	4	件	honpen p.64	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
 9e3736da3d7d59d4	shisaku	11	programs	施策の体系と分野別の取り組み	事業数	4	件	honpen p.66-67	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-998e6bbf7763a7d1	shisaku	12	programs	施策の体系と分野別の取り組み	事業数	6	件	honpen p.68-69				要人確認:H2 値が文字データにない
-19c660e2538597ef	shisaku	13	programs	施策の体系と分野別の取り組み	事業数	21	件	honpen p.70-71				要人確認:H2 値が文字データにない
+998e6bbf7763a7d1	shisaku	12	programs	施策の体系と分野別の取り組み	事業数	6	件	honpen p.68-69				
+19c660e2538597ef	shisaku	13	programs	施策の体系と分野別の取り組み	事業数	21	件	honpen p.70-71				
 2c55151b569b3a48	mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	メタボ該当者（全体）/現状値（R2年度）	17.0		honpen p.56	✓	auto:ai	2026-10-10	
 8d681f722b338eb7	mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	メタボ該当者（男性）/現状値（R2年度）	26.8		honpen p.56	✓	auto:ai	2026-10-10	
 1599b8e8a63f4c02	mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	メタボ該当者（女性）/現状値（R2年度）	9.4		honpen p.56	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点

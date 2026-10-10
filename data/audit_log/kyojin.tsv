@@ -14,7 +14,7 @@ d343030a26315e5e	summary	3	target.base		生活や未来を支える強靱な社�
 36aef0cc7c464947	chiiki	4	kpi	想定される地震の被害	死者	31	人	honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 4a3f563e80e5dd62	chiiki	4	kpi	想定される地震の被害	負傷者	390	人	honpen p.4	✓	auto:ai	2026-10-10	
 7bd25fe40cb513a6	chiiki	4	kpi	想定される地震の被害	建物全壊	512	棟	honpen p.4	✓	auto:ai	2026-10-10	
-7634e5f166903858	chiiki	9	kpi	地形と地質	町の面積	117.60	㎢	honpen p.3				要人確認:H2 値が文字データにない
+7634e5f166903858	chiiki	9	kpi	地形と地質	町の面積	117.60	㎢	honpen p.3				
 f5e359da6d4203d5	chiiki	9	kpi	地形と地質	南北の長さ	12.3	km	honpen p.3	✓	auto:ai	2026-10-10	
 8eef7d377d271a45	chiiki	9	kpi	地形と地質	東西の長さ	14.5	km	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 8579669837b9c1ab	chiiki	13	kpi	気象	最も暑い8月の平均気温	26.7	℃	honpen p.5	✓	auto:ai	2026-10-10	

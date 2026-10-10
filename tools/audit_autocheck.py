@@ -175,6 +175,9 @@ class Source:
         return info
 
 
+IMAGE_PAGE_CHARS = 50   # 1ページの文字データがこれより少なければ、画像だけのページとみなす(sources_index の「OCRが必要」と同じ目安)
+
+
 def page_list(source):
     m = re.search(r"p\.(\d+)(?:-(\d+))?", source or "")
     if not m:
@@ -287,8 +290,11 @@ def stage1(rows, srcs, only=None):
             res.update(why="数値でない", h2=True); out[id(r)] = res; continue
         if len(pages) > 3:
             res.update(why="出典が4ページ以上(集計した値)", h2=True); out[id(r)] = res; continue
-        if not infos:
-            res.update(why="出典ページの文字データがない", h2=True); out[id(r)] = res; continue
+        if src is None:
+            res.update(why="出典の PDF がない", h2=True); out[id(r)] = res; continue
+        if sum(len(i["compact"]) for i in infos) < IMAGE_PAGE_CHARS * max(1, len(pages)):
+            # 原典が画像だけのページ(文字データがない・ほとんどない)。段1は効かないので段2(ページ画像)に回す
+            res.update(why="原典が画像(文字データがない)"); out[id(r)] = res; continue
         v = canon(r["value"])
         if v not in set().union(*(i["tokens"] for i in infos)):
             res.update(why="値が文字データにない", h2=True); out[id(r)] = res; continue
@@ -509,23 +515,30 @@ def cmd_select(pid):
     plan, rows, srcs = load(pid)
     res = stage1(rows, srcs)
     led = ledger_by_key(pid)
-    h2 = h4 = 0
+    h2 = h4 = cleared = 0
     for r in rows:
         L = led[r["key"]]
-        if res[id(r)]["h2"] and not L["note"].startswith(FOCUS) and not (L["checked"] == "✓" and not L["reviewer"].startswith("auto:")):
+        human = L["checked"] == "✓" and not L["reviewer"].startswith("auto:")
+        if res[id(r)]["h2"] and not L["note"].startswith(FOCUS) and not human:
             L["note"] = f"{FOCUS}H2 {res[id(r)]['why']}"; h2 += 1
+        elif not res[id(r)]["h2"] and L["note"].startswith(FOCUS + "H2") and not human:
+            # 規則が変わって H2 でなくなった行(例: 画像だけのページ)は印を外し、段2に回す
+            L["note"] = ""; cleared += 1
     blocks = defaultdict(list)
+    has_h4 = set()   # すでに H4 の行があるブロック(人が確認済みの行も含めて数える)
     for r in rows:
+        if led[r["key"]]["note"].startswith(FOCUS + "H4"):
+            has_h4.add((r["tab"], r["block_no"]))
         if led[r["key"]]["reviewer"] == "auto:ai":
             blocks[(r["tab"], r["block_no"])].append(r)
-    for lst in blocks.values():
-        if any(led[x["key"]]["note"].startswith(FOCUS + "H4") for x in lst):
+    for b, lst in blocks.items():
+        if b in has_h4:
             continue
         pick = max(lst, key=lambda x: (res[id(x)]["score"], [-ord(c) for c in x["key"]]))
         L = led[pick["key"]]
         L["note"] = f"{FOCUS}H4 難しさ{res[id(pick)]['score']}点"; h4 += 1
     save_ledger(pid, rows, led)
-    print(f"OK  要人確認 H2 {h2} 行・H4 {h4} 行を付けた")
+    print(f"OK  要人確認 H2 {h2} 行・H4 {h4} 行を付けた" + (f"(H2 でなくなった {cleared} 行の印を外した)" if cleared else ""))
     return 0
 
 

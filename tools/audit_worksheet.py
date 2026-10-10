@@ -13,6 +13,7 @@
   python3 tools/audit_worksheet.py <id>                  # 2) ワークシート生成
   python3 tools/audit_worksheet.py <id> --import <file>  # 5) エクスポートを検証して台帳へ反映
   python3 tools/audit_worksheet.py <id> --sync           # キー以外の列(block_no 等)だけ変わったとき台帳を合わせる
+  python3 tools/audit_worksheet.py <id> --focus          # 「要人確認:」の行だけのワークシート(ADR-7 補遺 L の段4)
 
 突合キー(ADR-7 補遺 B): hash(tab, btype, block_label, label, value, unit, source)。
 block_no は位置を示すだけの非キー列。値が訂正されるとキーが変わり、その行は
@@ -153,7 +154,10 @@ def cmd_import(pid, file):
 PAGE_RE = re.compile(r"p\.(\d+)")
 
 
-def cmd_worksheet(pid):
+FOCUS = "要人確認:"
+
+
+def cmd_worksheet(pid, focus=False):
     current = read_audit(pid)
     ledger = {r["key"]: r for r in read_ledger(pid)}
     stale = sum(1 for k in ledger if k not in {r["key"] for r in current})
@@ -165,18 +169,28 @@ def cmd_worksheet(pid):
         lg = ledger.get(r["key"], {})
         sid = r["source"].split(" ", 1)[0]
         m = PAGE_RE.search(r["source"])
+        note = lg.get("note", "")
+        reason, memo = ("", note)
+        if note.startswith(FOCUS):
+            reason, _, memo = note.partition(" / ")
         rows.append({**{c: r[c] for c in AUDIT_COLS}, "key": r["key"], "order": i,
                      "sid": sid, "page": int(m.group(1)) if m else None,
                      "checked": lg.get("checked", ""), "reviewer": lg.get("reviewer", ""),
-                     "date": lg.get("date", ""), "note": lg.get("note", "")})
+                     "date": lg.get("date", ""), "note": memo, "reason": reason})
     data = {"id": pid, "name": plan.get("meta", {}).get("name", pid), "sources": sources,
-            "cols": LEDGER_COLS, "comment": LEDGER_COMMENT, "rows": rows}
-    out = AUDIT_DIR / f"{pid}.worksheet.html"
+            "cols": LEDGER_COLS, "comment": LEDGER_COMMENT, "rows": rows, "focus": focus}
+    if focus and not any(r["reason"] for r in rows):
+        raise AuditError("要人確認の行がありません(先に audit_autocheck.py の --ai-record と --select を実行)")
+    out = AUDIT_DIR / (f"{pid}.focus.worksheet.html" if focus else f"{pid}.worksheet.html")
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     out.write_text(TEMPLATE.replace("{{TITLE}}", html.escape(data["name"]))
                    .replace("{{DATA}}", payload), encoding="utf-8")
     done = sum(1 for r in rows if r["checked"] == "✓")
-    print(f"OK  {out}  ({len(rows)} 行・検収済み {done}・台帳にあって照合表に無い行 {stale})")
+    if focus:
+        n = sum(1 for r in rows if r["reason"])
+        print(f"OK  {out}  (人が確認する行 {n}・全体 {len(rows)} 行)")
+    else:
+        print(f"OK  {out}  ({len(rows)} 行・検収済み {done}・台帳にあって照合表に無い行 {stale})")
     # ブラウザでそのまま開ける形も出す(相対パスでは開けない環境があるため)
     print(f"    ブラウザで開く: {out.resolve().as_uri()}")
 
@@ -246,9 +260,14 @@ const D = {{DATA}};
 const LS = "hino-audit:" + D.id;
 let draft = {};
 try { draft = JSON.parse(localStorage.getItem(LS) || "{}"); } catch (e) { draft = {}; }
+// --focus: 「要人確認:」の行だけを表示する。機械(auto:)の印は人の確認ではないので、未確認として表示する。
+// 人が印を付けなかった行は、エクスポートでは元の台帳の値をそのまま出す
+const VIEW = D.focus ? D.rows.filter(r => r.reason) : D.rows;
 const st = {};
 D.rows.forEach(r => {
-  st[r.key] = Object.assign({checked: r.checked, reviewer: r.reviewer, date: r.date, note: r.note}, draft[r.key] || {});
+  const auto = D.focus && r.reason && r.reviewer.startsWith("auto:");
+  const base = auto ? {checked: "", reviewer: "", date: ""} : {checked: r.checked, reviewer: r.reviewer, date: r.date};
+  st[r.key] = Object.assign(base, {note: r.note}, draft[r.key] || {});
 });
 document.getElementById("nm").textContent = D.name;
 const rv = document.getElementById("rv");
@@ -261,15 +280,15 @@ function save(k) {
   refresh();
 }
 function refresh() {
-  const n = D.rows.filter(r => st[r.key].checked === "✓").length;
-  document.getElementById("prog").textContent = `確認済み ${n} / ${D.rows.length} 行`;
+  const n = VIEW.filter(r => st[r.key].checked === "✓").length;
+  document.getElementById("prog").textContent = (D.focus ? "人の確認 " : "確認済み ") + `${n} / ${VIEW.length} 行`;
   document.getElementById("dr").textContent = Object.keys(draft).length ? `ブラウザに未反映の下書き ${Object.keys(draft).length} 行` : "";
 }
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c])); }
 
 // 並び: 出典ごとにページ順。ページの無い行は「ページ不明」として末尾(ADR-7)
 const groups = new Map();
-const sorted = D.rows.slice().sort((a, b) =>
+const sorted = VIEW.slice().sort((a, b) =>
   (a.page === null) - (b.page === null) || a.sid.localeCompare(b.sid) ||
   (a.page ?? 0) - (b.page ?? 0) || a.order - b.order);
 sorted.forEach(r => {
@@ -288,6 +307,7 @@ for (const [g, {sid, rows}] of groups) {
       `<div><div class="v">${esc(r.value)}<small>${esc(r.unit)}</small></div>` +
       `<div class="l">${esc(r.label)}</div>` +
       `<div class="meta">${esc(r.block_label || "(見出しなし)")}・${esc(r.tab)} / ${esc(r.btype)} #${esc(r.block_no)}・出典 ${esc(r.source)}</div>` +
+      (r.reason ? `<div class="meta"><b>${esc(r.reason)}</b></div>` : "") +
       `<div class="who"></div></div>` +
       `<input class="note" type="text" placeholder="メモ(不一致の内容など)"></div>`;
   }
@@ -331,9 +351,14 @@ document.getElementById("exp").addEventListener("click", () => {
   const clean = s => String(s).replace(/[\t\r\n]+/g, " ").trim();
   const lines = [D.cols.join("\t"), D.comment];
   D.rows.forEach(r => {
-    const s = st[r.key];
+    let s = st[r.key];
+    // 人が印を付けなかった機械の行は、元の台帳の値のまま出す
+    if (D.focus && r.reason && s.checked !== "✓" && r.reviewer.startsWith("auto:")) {
+      s = Object.assign({}, s, {checked: r.checked, reviewer: r.reviewer, date: r.date});
+    }
+    const note = r.reason ? (r.reason + (clean(s.note) ? " / " + clean(s.note) : "")) : clean(s.note);
     lines.push([r.key, r.tab, r.block_no, r.btype, r.block_label, r.label, r.value, r.unit, r.source,
-      s.checked, clean(s.reviewer), clean(s.date), clean(s.note)].join("\t"));
+      s.checked, clean(s.reviewer), clean(s.date), note].join("\t"));
   });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\n") + "\n"], {type: "text/tab-separated-values"}));
@@ -390,7 +415,7 @@ def main(argv):
                 raise AuditError("--import の後にエクスポートしたファイルを指定してください")
             cmd_import(pid, argv[i + 1])
         else:
-            cmd_worksheet(pid)
+            cmd_worksheet(pid, focus="--focus" in argv)
     except AuditError as e:
         print(f"NG  {e}", file=sys.stderr)
         return 1

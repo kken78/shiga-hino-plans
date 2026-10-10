@@ -659,19 +659,23 @@ class Renderer:
         ylab = "".join(f'<span class="num" style="bottom:{pct(f)}">{esc(t)}</span>' for f, t in ticks)
         # 横軸ラベルの間引き: 広い画面・狭い画面それぞれで重ならない間隔(ADR-8)
         lab_w = max((text_px(x, FS_CHART) for x in xlabels), default=0) + 10
-        yw_px = yw_em * FS_CHART
+        yw_px = (yw_em + (text_px(xlabels[-1], 1.0) / 2 if n else 0)) * FS_CHART   # 左の目盛りと右の余白
         k_wide = max(1, math.ceil(n * lab_w / (WIDE_W - yw_px)))
         k_narrow = max(k_wide, math.ceil(n * lab_w / (NARROW_W - yw_px)))
         xlab = []
+        # 間引きは右端(最新の年)から数える。最新の年のラベルを必ず残すため(ADR-8 判断の優先順位4)
         for i, xl in enumerate(xlabels):
-            if i % k_wide:
+            r = n - 1 - i
+            if r % k_wide:
                 continue
-            cls = "" if i % k_narrow == 0 else ' class="nw"'
+            cls = "" if r % k_narrow == 0 else ' class="nw"'
             left = (i / (n - 1)) if n > 1 else 0.5
             xlab.append(f'<span{cls} style="left:{pct(left)}">{esc(xl)}</span>')
         svg = (f'<svg viewBox="0 0 {S} {S}" preserveAspectRatio="none" aria-hidden="true">'
                f'{"".join(parts)}</svg>')
-        body = (f'<div class="ln" style="--ln-yw:{yw}"><div class="ln-plot">'
+        # 右端のラベル(最新の年)は点の真下に中央そろえで置くので、その半分の幅だけ右に余白をとる
+        xr = f"{math.ceil(text_px(xlabels[-1], 1.0) / 2 * 10) / 10}em" if n else "0em"
+        body = (f'<div class="ln" style="--ln-yw:{yw};--ln-xr:{xr}"><div class="ln-plot">'
                 f'<div class="ln-y">{ylab}</div>{svg}</div>'
                 f'<div class="ln-x">{"".join(xlab)}</div></div>')
         return body, self._legend([ln["k"] for ln in lines], colors)

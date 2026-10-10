@@ -27,7 +27,8 @@
     {
       "id": "honpen",
       "label": "日野町地域公共交通計画（令和6年3月・令和8年3月改訂）",
-      "url": "https://www.town.shiga-hino.lg.jp/0000007255.html"
+      "url": "https://www.town.shiga-hino.lg.jp/0000007255.html",
+      "pdf_page_offset": 4
     }
   ],
   "tabs": [

@@ -187,6 +187,30 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
    依頼者が判断する(注記するなら「原典どおり掲載(注記)」)
 どの扱いでも、指摘は記録に残し、43計画が片付いたあとで町へ一式で提供する。
 
+## 外部の利用者(hino-ronten)への連絡
+
+論点ノート(リポジトリ kken78/hino-ronten、2026-10-10 作成)は、計画・議会だより・会議録を横断して計画への言及を台帳にまとめる。
+このリポジトリを読むだけで、書き込まない。読んでいるのは `data/manifest.json`・`data/plans/*.json`・`data/sources_index.tsv`・
+`sources_raw/<id>/` の原典PDF で、読む版は特定のコミットに固定している(2026-10 時点は b80dcf3)。
+
+**事前に知らせる変更**(5種類。2026-10-11、依頼者の指定):
+1. manifest の name(hino-ronten は照合に使う)
+2. 計画の id(変更・追加・削除)
+3. manifest の start・end(periodNote を含む)
+4. programs の節・基本施策・事業の番号(no)と名前(name)。とくに kodomo と koutsu
+   (hino-ronten は `node:<id>/<節>/<基本施策>/<事業>` のキーで事業を指す)
+5. 台帳 `data/sources_index.tsv` の id と file
+
+これらを含むプルリクエストは、本文に「hino-ronten に影響」と書いて変更点を挙げ、マージの前に依頼者に知らせる。
+
+**済んだら知らせる作業**(hino-ronten の後の工程の材料になる):
+- jisshi(第6次総合計画 実施計画)の主要事業を、事業の単位(programs ブロック。概算事業費を含む)で構造化すること。
+  hino-ronten の工程5(資料編)で使う
+- sogo6 の検収(OCR した原典での照合。段4 の人による確認は依頼者が行う)と、施策体系の構造化
+
+**このリポジトリで扱わないもの**:
+- 当初予算の附表「主な事業」(2026-10-11、依頼者の判断。扱い方は hino-ronten 側で決める)
+
 ## 抽出時の判断基準
 
 - どのタブ構成にするかは計画の性格で決める。参考パターン:
@@ -256,7 +280,9 @@ git commit
 ```
 
 原典の台帳 `data/sources_index.tsv`(2026-10 作成)は、43計画の掲載ページから取得した原典ファイル1つにつき1行の記録
-(文書を取得できなかった計画は file を空欄にし、理由を note に書く)。列は id / file / label(掲載ページのリンクの文字)/ url /
+(file が空欄の行は2通りある。文書を取得できなかった計画は、理由を note に書く。原典PDFの代わりに町の掲載ページ(HTML)を
+出典にした行は、note の先頭を「掲載ページ(HTML)」とし、label にページの題、fetched に内容を確かめた日を書く。HTML は保存しないので
+bytes・sha256・pages・text_chars は空欄)。列は id / file / label(掲載ページのリンクの文字)/ url /
 bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り出せた空白以外の文字数)/ fetched(取得日。空欄は台帳以前からある原典)/ note。
 原典PDFそのものは `sources_raw/<id>/` に置き、リポジトリには入れない(.gitignore の対象。同じ版かどうかは url と sha256 で確かめる)。
 ファイル名は本編 honpen.pdf(章ごとの分割は honpen-01.pdf …)、概要版 gaiyo.pdf、資料編 shiryo.pdf、それ以外は元のファイル名を英小文字にしたもの。

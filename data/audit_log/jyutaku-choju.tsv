@@ -1,0 +1,554 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+77ed3b41cea9881f	summary	1	kpi		町営住宅の管理戸数	72	戸	honpen p.24-26				
+7465a8786ca32471	summary	1	kpi		募集を停止している住宅(中山大谷団地)	15	戸	honpen p.24-26				
+1227c84126bd4397	summary	1	kpi		耐用年数をすでに過ぎた住宅	15	戸	honpen p.24-26				
+b6167a244bd26428	summary	1	kpi		計画期間中に耐用年数を過ぎる住宅	39	戸	honpen p.24-26				
+9435069581c2d178	summary	2	kpi		入居率(政策空家を含む)	65.3	%	honpen p.34				
+89346b35a16ea767	summary	2	kpi		入居率(政策空家を除く)	78.3	%	honpen p.34				
+b2a2e3d724b57642	summary	3	kpi		著しい困窮年収未満の世帯数	259	世帯	honpen p.49				
+9cc9f45c27dc7923	summary	3	kpi		住宅の供給可能量	418	戸	honpen p.49				
+e93ba1f390ff0333	summary	3	kpi		充足数(供給可能量−世帯数)	159	戸	honpen p.49				
+30a3c3e33b1f59b2	stock	3	table	町営住宅の団地と戸数	第1内池団地 A号棟/戸数	8		honpen p.24				
+6039837a4e28c211	stock	3	table	町営住宅の団地と戸数	第1内池団地 B号棟/戸数	4		honpen p.24				
+cc334ef7cc9e595e	stock	3	table	町営住宅の団地と戸数	第1内池団地 C号棟/戸数	6		honpen p.24				
+790a9a2c1945b447	stock	3	table	町営住宅の団地と戸数	第1内池団地 D号棟/戸数	6		honpen p.24				
+b246b419512d08fa	stock	3	table	町営住宅の団地と戸数	第2内池団地/戸数	18		honpen p.24				
+2a096d0f23668aec	stock	3	table	町営住宅の団地と戸数	中山大谷団地 1号棟/戸数	3		honpen p.24				
+7fb446b532089758	stock	3	table	町営住宅の団地と戸数	中山大谷団地 3号棟/戸数	3		honpen p.24				
+9f5e98a5e958f1d8	stock	3	table	町営住宅の団地と戸数	中山大谷団地 6号棟/戸数	3		honpen p.24				
+bf3ec0918134c696	stock	3	table	町営住宅の団地と戸数	中山大谷団地 7号棟/戸数	3		honpen p.24				
+1d6e0383981e1e11	stock	3	table	町営住宅の団地と戸数	中山大谷団地 8号棟/戸数	3		honpen p.24				
+692022b0477800b1	stock	3	table	町営住宅の団地と戸数	西山団地 1号棟/戸数	4		honpen p.24				
+271b26fef1d34896	stock	3	table	町営住宅の団地と戸数	西山団地 2号棟/戸数	5		honpen p.24				
+f0d41dd4a384abec	stock	3	table	町営住宅の団地と戸数	西山団地 3号棟/戸数	2		honpen p.24				
+0184d1dbeda0a104	stock	3	table	町営住宅の団地と戸数	西山団地 5号棟/戸数	2		honpen p.24				
+9b8440aaf73c971b	stock	3	table	町営住宅の団地と戸数	西山団地 6号棟/戸数	2		honpen p.24				
+5e2e4dabaf62895b	stock	4	table	各団地から主要施設までの距離	第1内池団地/日野駅(m)	400		honpen p.25	✓	auto:pdftext	2026-10-10	
+b8a6c1311cc98876	stock	4	table	各団地から主要施設までの距離	第1内池団地/日野町役場(m)	2100		honpen p.25	✓	auto:pdftext	2026-10-10	
+c3c3a6047ec4c1ea	stock	4	table	各団地から主要施設までの距離	第1内池団地/必佐小学校(m)	700		honpen p.25	✓	auto:pdftext	2026-10-10	
+bfc6795ea7b28537	stock	4	table	各団地から主要施設までの距離	第1内池団地/日野中学校(m)	1700		honpen p.25	✓	auto:pdftext	2026-10-10	
+0c41140028dbaadf	stock	4	table	各団地から主要施設までの距離	第2内池団地/日野駅(m)	400		honpen p.25	✓	auto:pdftext	2026-10-10	
+f81d810ea335789d	stock	4	table	各団地から主要施設までの距離	第2内池団地/日野町役場(m)	2100		honpen p.25	✓	auto:pdftext	2026-10-10	
+cf8bf5a90e4e1131	stock	4	table	各団地から主要施設までの距離	第2内池団地/必佐小学校(m)	730		honpen p.25	✓	auto:pdftext	2026-10-10	
+765831826d45b536	stock	4	table	各団地から主要施設までの距離	第2内池団地/日野中学校(m)	1700		honpen p.25	✓	auto:pdftext	2026-10-10	
+88e306dffb4dfa6c	stock	4	table	各団地から主要施設までの距離	中山大谷団地/日野駅(m)	1700		honpen p.25	✓	auto:pdftext	2026-10-10	
+de9677f3e4389a86	stock	4	table	各団地から主要施設までの距離	中山大谷団地/日野町役場(m)	4100		honpen p.25	✓	auto:pdftext	2026-10-10	
+13bcab45f238ffbd	stock	4	table	各団地から主要施設までの距離	中山大谷団地/必佐小学校(m)	1700		honpen p.25	✓	auto:pdftext	2026-10-10	
+8e5e1bc815b49e5b	stock	4	table	各団地から主要施設までの距離	中山大谷団地/日野中学校(m)	3700		honpen p.25	✓	auto:pdftext	2026-10-10	
+80dfb0ba80bafbdc	stock	4	table	各団地から主要施設までの距離	西山団地/日野駅(m)	2000		honpen p.25	✓	auto:pdftext	2026-10-10	
+14b4378ce63d9264	stock	4	table	各団地から主要施設までの距離	西山団地/日野町役場(m)	4100		honpen p.25	✓	auto:pdftext	2026-10-10	
+08d9644694ac9173	stock	4	table	各団地から主要施設までの距離	西山団地/必佐小学校(m)	1900		honpen p.25	✓	auto:pdftext	2026-10-10	
+ed5fc1a27b7468bb	stock	4	table	各団地から主要施設までの距離	西山団地/日野中学校(m)	3900		honpen p.25				
+48b63a7586ee6476	stock	7	chart.bars	耐用年数の経過状況(現状)	1/2未満	18	戸	honpen p.26				
+8f4efdef17b92164	stock	7	chart.bars	耐用年数の経過状況(現状)	1/2以上	39	戸	honpen p.26				
+245fb4ed710adb02	stock	7	chart.bars	耐用年数の経過状況(現状)	既に経過	15	戸	honpen p.26				
+370b276ef03c8f94	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 A号棟/建築年度	2001		honpen p.27				
+4fa43b8a18c36bde	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 A号棟/戸数	8		honpen p.27				
+9e0d9ff4b17bd56f	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 A号棟/階数	2		honpen p.27				
+f96a4dbab992578c	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 A号棟/耐用年数	30		honpen p.27				
+effeac0ceee684c9	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 A号棟/耐用年限	2031		honpen p.27				
+16134c27af205b1b	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 A号棟/経過年数	21		honpen p.27				
+5a0399d4be035390	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 B号棟/建築年度	2001		honpen p.27				
+6c9a8d0331992918	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 B号棟/戸数	4		honpen p.27				
+c92193e6d143952b	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 B号棟/階数	2		honpen p.27				
+9e8c30c76c7b7eff	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 B号棟/耐用年数	30		honpen p.27				
+e683f5da56a16532	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 B号棟/耐用年限	2031		honpen p.27				
+f4fb1111b42a4b1e	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 B号棟/経過年数	21		honpen p.27				
+a675aad18356fbf2	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 C号棟/建築年度	2002		honpen p.27				
+72f1f8dfdb5defea	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 C号棟/戸数	6		honpen p.27				
+d5a2b5837533a7be	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 C号棟/階数	2		honpen p.27				
+7ee550885e6a2922	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 C号棟/耐用年数	30		honpen p.27				
+d527ed2fff30fd30	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 C号棟/耐用年限	2032		honpen p.27				
+1f9ce8df0e1a172d	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 C号棟/経過年数	20		honpen p.27				
+fae30e5f766a8c67	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 D号棟/建築年度	2002		honpen p.27				
+0d96cf745c3b2e9f	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 D号棟/戸数	6		honpen p.27				
+3146df30293c8610	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 D号棟/階数	2		honpen p.27				
+40b6d05dc4abbb07	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 D号棟/耐用年数	30		honpen p.27				
+10f2762f8acd7284	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 D号棟/耐用年限	2032		honpen p.27				
+bcbd223caa448a26	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第1内池団地 D号棟/経過年数	20		honpen p.27				
+0999afab7d9c6f13	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第2内池団地/建築年度	1988		honpen p.27				
+a73ef86cd9e74ff7	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第2内池団地/戸数	18		honpen p.27				
+a804ad9ad079c78c	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第2内池団地/階数	3		honpen p.27				
+77f296dd1dbe1fb6	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第2内池団地/耐用年数	70		honpen p.27				
+95a66a59b5a262fe	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第2内池団地/耐用年限	2058		honpen p.27				
+d161100d6f622715	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	第2内池団地/経過年数	34		honpen p.27				
+9775350d30e01da6	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 1号棟/建築年度	1974		honpen p.27				
+c20f714bd14e31e4	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 1号棟/戸数	3		honpen p.27				
+98c57817bb898535	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 1号棟/階数	1		honpen p.27				
+3748a9fc5b25f838	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 1号棟/耐用年数	45		honpen p.27				
+1e602f8113b9c574	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 1号棟/耐用年限	2019		honpen p.27				
+cfd10063cfa70e48	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 1号棟/経過年数	48		honpen p.27				
+50d510037fe03a17	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 3号棟/建築年度	1974		honpen p.27				
+7fc2b8c6478039fb	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 3号棟/戸数	3		honpen p.27				
+39341a18b734ccfb	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 3号棟/階数	1		honpen p.27				
+65c9253501742c71	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 3号棟/耐用年数	45		honpen p.27				
+89f8c31210811e9f	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 3号棟/耐用年限	2019		honpen p.27				
+ebdd81dd5cce719d	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 3号棟/経過年数	48		honpen p.27				
+f6bcfc5e10b174dc	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 6号棟/建築年度	1974		honpen p.27				
+1ad31faca7e57bc9	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 6号棟/戸数	3		honpen p.27				
+4a20ba443dcad562	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 6号棟/階数	1		honpen p.27				
+a1f0e84460c7dc4b	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 6号棟/耐用年数	45		honpen p.27				
+7d40a48ad4db713e	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 6号棟/耐用年限	2019		honpen p.27				
+ddb3d216f2d5cf04	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 6号棟/経過年数	48		honpen p.27				
+40361ca03315e992	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 7号棟/建築年度	1974		honpen p.27				
+6bc79a332d798928	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 7号棟/戸数	3		honpen p.27				
+9b68ae6f36f5432e	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 7号棟/階数	1		honpen p.27				
+af421440aa86275e	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 7号棟/耐用年数	45		honpen p.27				
+6b5fd18c5799384e	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 7号棟/耐用年限	2019		honpen p.27				
+f450ea35c6822e48	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 7号棟/経過年数	48		honpen p.27				
+0caf96dfdc95092a	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 8号棟/建築年度	1974		honpen p.27				
+b331ab8e2b33bf3d	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 8号棟/戸数	3		honpen p.27				
+d767d450dc8278c4	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 8号棟/階数	1		honpen p.27				
+0329029ba8173f19	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 8号棟/耐用年数	45		honpen p.27				
+8aa83c07b51fbeaf	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 8号棟/耐用年限	2019		honpen p.27				
+bf52678ebd196b50	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	中山大谷団地 8号棟/経過年数	48		honpen p.27				
+9152f3226eac7b3f	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 1号棟/建築年度	1984		honpen p.27				
+c450180b8163a835	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 1号棟/戸数	4		honpen p.27				
+eb44fc06da3978c7	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 1号棟/階数	2		honpen p.27				
+ffc97a4c88552fe0	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 1号棟/耐用年数	45		honpen p.27				
+b4ac060e7b561012	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 1号棟/耐用年限	2029		honpen p.27				
+18a41f51a0742b8a	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 1号棟/経過年数	38		honpen p.27				
+c87238cde23a06f1	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 2号棟/建築年度	1984		honpen p.27				
+e5b2d62914652ce8	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 2号棟/戸数	5		honpen p.27				
+0958f34be6487f5c	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 2号棟/階数	2		honpen p.27				
+eb7634951499275f	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 2号棟/耐用年数	45		honpen p.27				
+c9c23b0c5d06ce1e	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 2号棟/耐用年限	2029		honpen p.27				
+41e8e55454ac4f99	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 2号棟/経過年数	38		honpen p.27				
+071534bb5a57380a	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 3号棟/建築年度	1984		honpen p.27				
+41095211e0c55518	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 3号棟/戸数	2		honpen p.27				
+3326dabaed2c5e92	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 3号棟/階数	2		honpen p.27				
+1ee831b482d51b34	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 3号棟/耐用年数	45		honpen p.27				
+f8abd38dfe2b97f2	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 3号棟/耐用年限	2029		honpen p.27				
+a901fc988b207b23	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 3号棟/経過年数	38		honpen p.27				
+fcdd98160184e271	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 4号棟/建築年度	1984		honpen p.27				
+a0cb5ecd74dbf406	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 4号棟/戸数	2		honpen p.27				
+9e2664d814b24826	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 4号棟/階数	2		honpen p.27				
+9d5044b86c4d7cba	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 4号棟/耐用年数	45		honpen p.27				
+14b56beee58924e9	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 4号棟/耐用年限	2029		honpen p.27				
+db5735f9dfc918a2	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 4号棟/経過年数	38		honpen p.27				
+da1f6e79ba4012ec	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 5号棟/建築年度	1984		honpen p.27				
+ef18db30b53f7180	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 5号棟/戸数	2		honpen p.27				
+a3370929f0e61f6d	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 5号棟/階数	2		honpen p.27				
+251603a716632335	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 5号棟/耐用年数	45		honpen p.27				
+ea967a4be7896323	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 5号棟/耐用年限	2029		honpen p.27				
+c462c17baad51a8b	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	西山団地 5号棟/経過年数	38		honpen p.27				
+596466523f66dee8	stock	8	table	建築年度・構造・階数別管理戸数(棟ごと)	計/戸数	72		honpen p.27				
+96c7bfc787979e2a	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 A号棟/戸数	8		honpen p.29				
+a87300bb96f04268	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 A号棟/住戸専有面積(㎡)	62.80		honpen p.29				
+f35e84941e06e553	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 B号棟/戸数	4		honpen p.29				
+b9ad8a8107e62394	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 B号棟/住戸専有面積(㎡)	75.35		honpen p.29				
+b432e4a74513a4dd	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 C号棟/戸数	6		honpen p.29				
+41561f7451b90b9b	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 C号棟/住戸専有面積(㎡)	62.80		honpen p.29				
+5f19287f207e50c9	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 D号棟/戸数	6		honpen p.29				
+c8ce56883447aaff	stock	11	table	住戸専有面積と間取り(棟ごと)	第1内池団地 D号棟/住戸専有面積(㎡)	75.35		honpen p.29				
+5a8a83f5e21b6080	stock	11	table	住戸専有面積と間取り(棟ごと)	第2内池団地/戸数	18		honpen p.29				
+5ec70b13a7d1145b	stock	11	table	住戸専有面積と間取り(棟ごと)	第2内池団地/住戸専有面積(㎡)	67.42		honpen p.29				
+cababc6069bfd7ed	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 1号棟/戸数	3		honpen p.29				
+9de346d5a9bb1b6f	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 1号棟/住戸専有面積(㎡)	44.90		honpen p.29				
+9cfdb4604d3f71e8	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 3号棟/戸数	3		honpen p.29				
+e4c49fb1222c43c9	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 3号棟/住戸専有面積(㎡)	44.90		honpen p.29				
+9ff1c0988db01641	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 6号棟/戸数	3		honpen p.29				
+4181c9adef2dbe1f	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 6号棟/住戸専有面積(㎡)	44.90		honpen p.29				
+23266cf0877835a8	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 7号棟/戸数	3		honpen p.29				
+8e4c5759d8b1d713	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 7号棟/住戸専有面積(㎡)	44.90		honpen p.29				
+d78474ea9b12dc81	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 8号棟/戸数	3		honpen p.29				
+47b44bb324d89e33	stock	11	table	住戸専有面積と間取り(棟ごと)	中山大谷団地 8号棟/住戸専有面積(㎡)	44.90		honpen p.29				
+d83a0d7b2cf0be91	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 1号棟/戸数	4		honpen p.29				
+7b0036dba88eb3a9	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 1号棟/住戸専有面積(㎡)	62.70		honpen p.29				
+fd9d715dc414f614	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 2号棟/戸数	5		honpen p.29				
+4b8a829251819155	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 2号棟/住戸専有面積(㎡)	62.70		honpen p.29				
+f6d6ac904273ce37	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 3号棟/戸数	2		honpen p.29				
+8ca7014627d07698	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 3号棟/住戸専有面積(㎡)	62.70		honpen p.29				
+eeeff227486d7bdf	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 5号棟/戸数	2		honpen p.29				
+dfa1a6c737026e2e	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 5号棟/住戸専有面積(㎡)	62.70		honpen p.29				
+6ad5933b6cef9537	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 6号棟/戸数	2		honpen p.29				
+412de77ff9f7bf76	stock	11	table	住戸専有面積と間取り(棟ごと)	西山団地 6号棟/住戸専有面積(㎡)	62.70		honpen p.29				
+5b8cb1a04c80cac6	stock	11	table	住戸専有面積と間取り(棟ごと)	合計/戸数	72		honpen p.29				
+06b4b7e478b6a866	stock	14	table	立地と敷地	第1内池団地/敷地面積(㎡)	2802.70		honpen p.30				
+5ebd23420e9ac3f6	stock	14	table	立地と敷地	第2内池団地/敷地面積(㎡)	2433.00		honpen p.30				
+3b1fb649ea7f8218	stock	14	table	立地と敷地	中山大谷団地/敷地面積(㎡)	5609.00		honpen p.30				
+b24f352db94e6ad1	stock	14	table	立地と敷地	西山団地/敷地面積(㎡)	1634.22		honpen p.30				
+ea8561422606ab67	stock	14	table	立地と敷地	合計/敷地面積(㎡)	12478.92		honpen p.30				
+ab8dfe4fed3875a3	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 A号棟/戸数	8		honpen p.34				
+82f5faf1b94cb934	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 A号棟/入居数	8		honpen p.34	✓	auto:pdftext	2026-10-10	
+8a9e6a60b9167a3c	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 A号棟/入居率(%)	100.0		honpen p.34	✓	auto:pdftext	2026-10-10	
+399b9783f652ad13	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 B号棟/戸数	4		honpen p.34				
+0ce2b4b25b24e52c	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 B号棟/入居数	3		honpen p.34	✓	auto:pdftext	2026-10-10	
+a3b78b7c5f98da97	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 B号棟/入居率(%)	75.0		honpen p.34	✓	auto:pdftext	2026-10-10	
+697e47c54067396c	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 C号棟/戸数	6		honpen p.34				
+3b7c45c39b15051e	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 C号棟/入居数	5		honpen p.34	✓	auto:pdftext	2026-10-10	
+77101e05dd022bc7	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 C号棟/入居率(%)	83.3		honpen p.34	✓	auto:pdftext	2026-10-10	
+388acbe364b0e050	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 D号棟/戸数	6		honpen p.34				
+5f9643cc8acd5ea3	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 D号棟/入居数	5		honpen p.34	✓	auto:pdftext	2026-10-10	
+2c498db76704243c	kyoju	3	table	棟ごとの入居数と入居率	第1内池団地 D号棟/入居率(%)	83.3		honpen p.34	✓	auto:pdftext	2026-10-10	
+5adbae5fc7724170	kyoju	3	table	棟ごとの入居数と入居率	第2内池団地/戸数	18		honpen p.34				
+40db1fe5b0e58f1b	kyoju	3	table	棟ごとの入居数と入居率	第2内池団地/入居数	13		honpen p.34	✓	auto:pdftext	2026-10-10	
+5633759cd354f475	kyoju	3	table	棟ごとの入居数と入居率	第2内池団地/入居率(%)	72.2		honpen p.34	✓	auto:pdftext	2026-10-10	
+0bc871a86656c117	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 1号棟/戸数	3		honpen p.34				
+7b7bbddcd6c30584	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 1号棟/入居率(%)	0.0		honpen p.34				
+a339d42824364df2	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 3号棟/戸数	3		honpen p.34				
+52d6936238cd60e8	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 3号棟/入居率(%)	0.0		honpen p.34				
+771d831881953ea3	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 6号棟/戸数	3		honpen p.34				
+2498bd617a620570	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 6号棟/入居数	1		honpen p.34	✓	auto:pdftext	2026-10-10	
+3bc724a50a7c75bb	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 6号棟/入居率(%)	33.3		honpen p.34	✓	auto:pdftext	2026-10-10	
+a4e15b46068b7388	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 7号棟/戸数	3		honpen p.34				
+d91a8944d99bed0e	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 7号棟/入居数	2		honpen p.34	✓	auto:pdftext	2026-10-10	
+3db53c46e387adc3	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 7号棟/入居率(%)	66.7		honpen p.34	✓	auto:pdftext	2026-10-10	
+4b937c5daff64744	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 8号棟/戸数	3		honpen p.34				
+7f208f35be84a821	kyoju	3	table	棟ごとの入居数と入居率	中山大谷団地 8号棟/入居率(%)	0.0		honpen p.34				
+4ac178489b20a6e1	kyoju	3	table	棟ごとの入居数と入居率	西山団地 1号棟/戸数	4		honpen p.34				
+3ad823eae053c3cf	kyoju	3	table	棟ごとの入居数と入居率	西山団地 1号棟/入居数	2		honpen p.34				
+32f96bbeb5115df0	kyoju	3	table	棟ごとの入居数と入居率	西山団地 1号棟/入居率(%)	50.0		honpen p.34				
+e151816378434837	kyoju	3	table	棟ごとの入居数と入居率	西山団地 2号棟/戸数	5		honpen p.34				
+6fa929a72095ec17	kyoju	3	table	棟ごとの入居数と入居率	西山団地 2号棟/入居数	3		honpen p.34				
+0963e44f43a3648e	kyoju	3	table	棟ごとの入居数と入居率	西山団地 2号棟/入居率(%)	60.0		honpen p.34				
+9c7e92ffb1567a16	kyoju	3	table	棟ごとの入居数と入居率	西山団地 3号棟/戸数	2		honpen p.34				
+fdab37343150b975	kyoju	3	table	棟ごとの入居数と入居率	西山団地 3号棟/入居数	1		honpen p.34				
+09277ef00193b272	kyoju	3	table	棟ごとの入居数と入居率	西山団地 3号棟/入居率(%)	50.0		honpen p.34				
+f82e91eaa0819d25	kyoju	3	table	棟ごとの入居数と入居率	西山団地 5号棟/戸数	2		honpen p.34				
+2a77042b4501c276	kyoju	3	table	棟ごとの入居数と入居率	西山団地 5号棟/入居数	2		honpen p.34				
+a610844c3a16f0c8	kyoju	3	table	棟ごとの入居数と入居率	西山団地 5号棟/入居率(%)	100.0		honpen p.34				
+d385752bf518b55b	kyoju	3	table	棟ごとの入居数と入居率	西山団地 6号棟/戸数	2		honpen p.34				
+e630acb5d01d3dfd	kyoju	3	table	棟ごとの入居数と入居率	西山団地 6号棟/入居数	2		honpen p.34				
+3296244d1e6856a4	kyoju	3	table	棟ごとの入居数と入居率	西山団地 6号棟/入居率(%)	100.0		honpen p.34				
+d729f321fbeb8604	kyoju	3	table	棟ごとの入居数と入居率	合計(政策空家含む)/戸数	72		honpen p.34				
+01e7c2af59c58d4e	kyoju	3	table	棟ごとの入居数と入居率	合計(政策空家含む)/入居数	47		honpen p.34				
+47fd4c96f06bdb3b	kyoju	3	table	棟ごとの入居数と入居率	合計(政策空家含む)/入居率(%)	65.3		honpen p.34				
+dd388c8a8b858fd8	kyoju	3	table	棟ごとの入居数と入居率	合計(政策空家除く)/戸数	60		honpen p.34				
+136f2dd0c6c80cde	kyoju	3	table	棟ごとの入居数と入居率	合計(政策空家除く)/入居数	47		honpen p.34				
+11e57444cb7e2fb5	kyoju	3	table	棟ごとの入居数と入居率	合計(政策空家除く)/入居率(%)	78.3		honpen p.34				
+e511cce7169425c7	kyoju	6	chart.bars	入居者の年齢	20歳未満	21	人	honpen p.36				
+b384493d1c9f3789	kyoju	6	chart.bars	入居者の年齢	20〜29歳	8	人	honpen p.36				
+a00e9f62a8ea3c17	kyoju	6	chart.bars	入居者の年齢	30〜39歳	5	人	honpen p.36				
+946eb605443afee6	kyoju	6	chart.bars	入居者の年齢	40〜49歳	14	人	honpen p.36				
+91a7769f1ed43945	kyoju	6	chart.bars	入居者の年齢	50〜59歳	13	人	honpen p.36				
+34af2e6306f73784	kyoju	6	chart.bars	入居者の年齢	60〜64歳	3	人	honpen p.36				
+04f0cd811b96ee2e	kyoju	6	chart.bars	入居者の年齢	65歳以上	26	人	honpen p.36				
+1c879bba3fa6cb73	kyoju	7	chart.bars	世帯人員	1人	22	世帯	honpen p.36				
+3f9573fcfc808c7d	kyoju	7	chart.bars	世帯人員	2人	16	世帯	honpen p.36				
+c9c0119039b92702	kyoju	7	chart.bars	世帯人員	3人	4	世帯	honpen p.36				
+07cebda00df49bd0	kyoju	7	chart.bars	世帯人員	4人	3	世帯	honpen p.36				
+9b6e41eed396d46a	kyoju	7	chart.bars	世帯人員	5人	0	世帯	honpen p.36				
+326a65984355f4d5	kyoju	7	chart.bars	世帯人員	6人	2	世帯	honpen p.36				
+b1c7053bd2a47bb3	kyoju	7	chart.bars	世帯人員	7人以上	0	世帯	honpen p.36				
+aac3adb2d0aa42f7	kyoju	8	chart.bars	団地での入居期間	5年未満	7	世帯	honpen p.37				
+eea34d1855800242	kyoju	8	chart.bars	団地での入居期間	5〜9年	11	世帯	honpen p.37				
+2322f518eed61b8b	kyoju	8	chart.bars	団地での入居期間	10〜14年	4	世帯	honpen p.37				
+ab32d7e953711a6d	kyoju	8	chart.bars	団地での入居期間	15〜19年	11	世帯	honpen p.37				
+c7174a55df3f82bc	kyoju	8	chart.bars	団地での入居期間	20〜24年	1	世帯	honpen p.37				
+471b37e4ca935931	kyoju	8	chart.bars	団地での入居期間	25〜29年	7	世帯	honpen p.37				
+876252490d70ca71	kyoju	8	chart.bars	団地での入居期間	30年以上	6	世帯	honpen p.37				
+818ef28f98953aa5	kyoju	11	table	募集と応募	H22(2010)/募集(件)	2		honpen p.38				
+1d474d3bd5b55562	kyoju	11	table	募集と応募	H22(2010)/応募(件)	9		honpen p.38				
+8d69564df7e5f3c6	kyoju	11	table	募集と応募	H22(2010)/応募/募集(倍)	4.50		honpen p.38				
+80a99fa3c870635c	kyoju	11	table	募集と応募	H23(2011)/募集(件)	5		honpen p.38				
+493a57889345b2ef	kyoju	11	table	募集と応募	H23(2011)/応募(件)	0		honpen p.38				
+c975015ed55b66bc	kyoju	11	table	募集と応募	H23(2011)/応募/募集(倍)	0.00		honpen p.38				
+b960c09568dd9864	kyoju	11	table	募集と応募	H24(2012)/募集(件)	3		honpen p.38				
+9963f061d006b625	kyoju	11	table	募集と応募	H24(2012)/応募(件)	9		honpen p.38				
+e6bf9753e378d2a2	kyoju	11	table	募集と応募	H24(2012)/応募/募集(倍)	3.00		honpen p.38				
+20eaa849c2298fa2	kyoju	11	table	募集と応募	H25(2013)/募集(件)	3		honpen p.38				
+acbac39285f2c46c	kyoju	11	table	募集と応募	H25(2013)/応募(件)	5		honpen p.38				
+b9393d1c94e4d03b	kyoju	11	table	募集と応募	H25(2013)/応募/募集(倍)	1.67		honpen p.38				
+586a3ac993e54cf6	kyoju	11	table	募集と応募	H26(2014)/募集(件)	5		honpen p.38				
+7adcd70b74c8d100	kyoju	11	table	募集と応募	H26(2014)/応募(件)	10		honpen p.38				
+d2a078f8895f78be	kyoju	11	table	募集と応募	H26(2014)/応募/募集(倍)	2.00		honpen p.38				
+97119200351590d0	kyoju	11	table	募集と応募	H27(2015)/募集(件)	3		honpen p.38				
+c73697014404aea2	kyoju	11	table	募集と応募	H27(2015)/応募(件)	8		honpen p.38				
+f8a60c02a776c42d	kyoju	11	table	募集と応募	H27(2015)/応募/募集(倍)	2.67		honpen p.38				
+ba2c175d77690660	kyoju	11	table	募集と応募	H28(2016)/募集(件)	8		honpen p.38				
+16abc0cb47f4a5a6	kyoju	11	table	募集と応募	H28(2016)/応募(件)	11		honpen p.38				
+b47d99aabed864f5	kyoju	11	table	募集と応募	H28(2016)/応募/募集(倍)	1.38		honpen p.38				
+61b82ec165feb8b9	kyoju	11	table	募集と応募	H29(2017)/募集(件)	8		honpen p.38				
+f80c776d109033a8	kyoju	11	table	募集と応募	H29(2017)/応募(件)	5		honpen p.38				
+539e85dc09456306	kyoju	11	table	募集と応募	H29(2017)/応募/募集(倍)	0.63		honpen p.38				
+9f67c88cda3f4232	kyoju	11	table	募集と応募	H30(2018)/募集(件)	7		honpen p.38				
+91f4b02070b729d0	kyoju	11	table	募集と応募	H30(2018)/応募(件)	3		honpen p.38				
+dad8c435c6856471	kyoju	11	table	募集と応募	H30(2018)/応募/募集(倍)	0.43		honpen p.38				
+21ff951017b93e47	kyoju	11	table	募集と応募	R元(2019)/募集(件)	5		honpen p.38				
+876c2ebb6920b187	kyoju	11	table	募集と応募	R元(2019)/応募(件)	2		honpen p.38				
+6c25518a375c60b7	kyoju	11	table	募集と応募	R元(2019)/応募/募集(倍)	0.40		honpen p.38				
+16cbcaffd7b8e5c0	kyoju	11	table	募集と応募	R2(2020)/募集(件)	5		honpen p.38				
+eb821ab3ff2adb90	kyoju	11	table	募集と応募	R2(2020)/応募(件)	2		honpen p.38				
+f655ca362f314c75	kyoju	11	table	募集と応募	R2(2020)/応募/募集(倍)	0.40		honpen p.38				
+71c6f21ea2bc6c74	kyoju	11	table	募集と応募	R3(2021)/募集(件)	4		honpen p.38				
+c1813557b6a88a97	kyoju	11	table	募集と応募	R3(2021)/応募(件)	4		honpen p.38				
+f2c37d028a5be20c	kyoju	11	table	募集と応募	R3(2021)/応募/募集(倍)	1.00		honpen p.38				
+8a22b2f4b4d6df46	kyoju	11	table	募集と応募	2010-2021/募集(件)	58		honpen p.38	✓	auto:pdftext	2026-10-10	
+56619992fd0bdcfe	kyoju	11	table	募集と応募	2010-2021/応募(件)	68		honpen p.38	✓	auto:pdftext	2026-10-10	
+931799375a30efb0	kyoju	11	table	募集と応募	2010-2021/応募/募集(倍)	1.17		honpen p.38				
+050012e6644f56cd	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第1内池団地/戸数	24		honpen p.38				
+85449b84ad5e21cd	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第1内池団地/募集(件)	13		honpen p.38				
+1839880fc83730ab	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第1内池団地/応募(件)	27		honpen p.38				
+62ed310b2c0fac41	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第1内池団地/応募/募集(倍)	2.08		honpen p.38				
+e5876edc8b769e05	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第2内池団地/戸数	18		honpen p.38				
+b9243fa87a55a0ab	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第2内池団地/募集(件)	27		honpen p.38				
+9a97b37b6c7589dc	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第2内池団地/応募(件)	32		honpen p.38				
+c1299af69a949618	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	第2内池団地/応募/募集(倍)	1.19		honpen p.38				
+e4ebcb7af54b6f85	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	中山大谷団地/戸数	15		honpen p.38				
+5e0577787b3fa83c	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	中山大谷団地/募集(件)	0		honpen p.38				
+4b56b73d4f9cca22	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	中山大谷団地/応募(件)	0		honpen p.38				
+186641e35efe42c6	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	西山団地/戸数	15		honpen p.38				
+c1ae61ec851ea573	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	西山団地/募集(件)	18		honpen p.38				
+ddba7f86d3a17f39	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	西山団地/応募(件)	9		honpen p.38				
+2647d1fe7b157ab0	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	西山団地/応募/募集(倍)	0.50		honpen p.38				
+e81f1138e0b9a784	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	合計/戸数	72		honpen p.38				
+2093507999623956	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	合計/募集(件)	58		honpen p.38				
+45648edc635cbf60	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	合計/応募(件)	68		honpen p.38				
+910d1cdd7716d7a3	kyoju	12	table	団地別の募集・応募(2010-2021の合計)	合計/応募/募集(倍)	1.17		honpen p.38				
+b3620d83a60ee1ed	juyou	5	table	人口と世帯の推移	S60(1985)/人口(人)	22009		honpen p.5				
+9b79008946a7411f	juyou	5	table	人口と世帯の推移	S60(1985)/世帯数(世帯)	5398		honpen p.5				
+9f6b19c21c30dbaf	juyou	5	table	人口と世帯の推移	H2(1990)/人口(人)	22391		honpen p.5				
+c415c68fd04ca890	juyou	5	table	人口と世帯の推移	H2(1990)/世帯数(世帯)	5676		honpen p.5				
+15f8cbf62f296ba7	juyou	5	table	人口と世帯の推移	H7(1995)/人口(人)	23132		honpen p.5				
+6decfffbb177ae7e	juyou	5	table	人口と世帯の推移	H7(1995)/世帯数(世帯)	6318		honpen p.5				
+548dad40a246b82e	juyou	5	table	人口と世帯の推移	H12(2000)/人口(人)	23022		honpen p.5				
+5020733425fd76b8	juyou	5	table	人口と世帯の推移	H12(2000)/世帯数(世帯)	6693		honpen p.5				
+f05fa319288582a1	juyou	5	table	人口と世帯の推移	H17(2005)/人口(人)	22809		honpen p.5				
+ff9bb9193a2f45c3	juyou	5	table	人口と世帯の推移	H17(2005)/世帯数(世帯)	7131		honpen p.5				
+f2ed42aa1408d806	juyou	5	table	人口と世帯の推移	H22(2010)/人口(人)	22870		honpen p.5				
+fa10fd491fb30e6c	juyou	5	table	人口と世帯の推移	H22(2010)/世帯数(世帯)	7678		honpen p.5				
+18c8675be00fbe45	juyou	5	table	人口と世帯の推移	H27(2015)/人口(人)	21873		honpen p.5				
+855408bb16e029ca	juyou	5	table	人口と世帯の推移	H27(2015)/世帯数(世帯)	7728		honpen p.5				
+fea652238f624b2c	juyou	5	table	人口と世帯の推移	R2(2020)/人口(人)	20964		honpen p.5				
+8e1915f955dd2f1c	juyou	5	table	人口と世帯の推移	R2(2020)/世帯数(世帯)	7932		honpen p.5				
+d37475fb705e29ea	juyou	8	chart.bars	将来世帯数の推計(合計)	H27	7720	世帯	honpen p.41				
+0c994b7b6a07c54c	juyou	8	chart.bars	将来世帯数の推計(合計)	R2	7538	世帯	honpen p.41				
+6fc7e65aa8aae06c	juyou	8	chart.bars	将来世帯数の推計(合計)	R7	7299	世帯	honpen p.41				
+353cd3f1791d49c4	juyou	8	chart.bars	将来世帯数の推計(合計)	R12	7030	世帯	honpen p.41				
+822b9519cd4fb027	juyou	8	chart.bars	将来世帯数の推計(合計)	R17	6725	世帯	honpen p.41				
+eacf5e58fc740821	juyou	8	chart.bars	将来世帯数の推計(合計)	R22	6398	世帯	honpen p.41				
+b7a56a6ab728e366	juyou	8	chart.bars	将来世帯数の推計(合計)	R27	5976	世帯	honpen p.41				
+e5e0c572aacc73b0	juyou	11	table	公営住宅に入居できる世帯と、特に支援が必要な世帯	借家世帯数/R2(2020)年度	1324		honpen p.42-43				
+e50d49c8cf1d3f96	juyou	11	table	公営住宅に入居できる世帯と、特に支援が必要な世帯	借家世帯数/R27(2045)年度	1070		honpen p.42-43				
+bdd2b3eec10ecbb6	juyou	11	table	公営住宅に入居できる世帯と、特に支援が必要な世帯	公営住宅の入居資格世帯数/R2(2020)年度	406		honpen p.42-43				
+c927db9a5caae278	juyou	11	table	公営住宅に入居できる世帯と、特に支援が必要な世帯	公営住宅の入居資格世帯数/R27(2045)年度	331		honpen p.42-43				
+eb49d58b72f091af	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	公営住宅の入居資格世帯数/R2	406	世帯	honpen p.44				
+dd91969fb348a20d	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	公営住宅の入居資格世帯数/R7	395	世帯	honpen p.44				
+b3cd791a1cefc428	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	公営住宅の入居資格世帯数/R12	382	世帯	honpen p.44				
+5cc76eaf01a0746a	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	公営住宅の入居資格世帯数/R17	366	世帯	honpen p.44				
+e7282dad8431c586	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	公営住宅の入居資格世帯数/R22	351	世帯	honpen p.44				
+8642edcbdc197f71	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	公営住宅の入居資格世帯数/R27	331	世帯	honpen p.44				
+3114992683afa2ff	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	著しい困窮年収水準未満の世帯数/R2	259	世帯	honpen p.44	✓	auto:pdftext	2026-10-10	
+c872d0096fba2606	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	著しい困窮年収水準未満の世帯数/R7	256	世帯	honpen p.44	✓	auto:pdftext	2026-10-10	
+1a4de3cb7c968fc0	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	著しい困窮年収水準未満の世帯数/R12	254	世帯	honpen p.44	✓	auto:pdftext	2026-10-10	
+1914aef64063c715	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	著しい困窮年収水準未満の世帯数/R17	247	世帯	honpen p.44	✓	auto:pdftext	2026-10-10	
+4e18234ff78eba07	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	著しい困窮年収水準未満の世帯数/R22	239	世帯	honpen p.44	✓	auto:pdftext	2026-10-10	
+71f9e9dcab12f1a1	juyou	12	chart.line	公営住宅の入居資格世帯数と著しい困窮年収水準未満の世帯数の推計	著しい困窮年収水準未満の世帯数/R27	226	世帯	honpen p.44	✓	auto:pdftext	2026-10-10	
+0d960454b054901a	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	1人(60歳以上)/R2(2020)	53		honpen p.44				
+9c641b6a535b5f53	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	1人(60歳以上)/R7(2025)	55		honpen p.44				
+a65a53031c7cb08c	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	1人(60歳以上)/R12(2030)	57		honpen p.44				
+05f7800b2b9ba84a	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	1人(60歳以上)/R17(2035)	58		honpen p.44				
+9e5fa55c89712064	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	1人(60歳以上)/R22(2040)	58		honpen p.44				
+42d6926534b6ddbe	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	1人(60歳以上)/R27(2045)	58		honpen p.44	✓	auto:pdftext	2026-10-10	
+8a337d0e251bed41	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	2人/R2(2020)	91		honpen p.44				
+3f64d4d884d73ac2	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	2人/R7(2025)	88		honpen p.44	✓	auto:pdftext	2026-10-10	
+f6f39ff3bdfa72bf	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	2人/R12(2030)	87		honpen p.44	✓	auto:pdftext	2026-10-10	
+faaa924b42cad4d3	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	2人/R17(2035)	85		honpen p.44	✓	auto:pdftext	2026-10-10	
+c114014c09da5672	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	2人/R22(2040)	82		honpen p.44	✓	auto:pdftext	2026-10-10	
+bf3e49c9bdb8fb9f	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	2人/R27(2045)	78		honpen p.44	✓	auto:pdftext	2026-10-10	
+ab3136bcc84b7bc2	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	3人/R2(2020)	60		honpen p.44				
+b7193515517f6ecd	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	3人/R7(2025)	59		honpen p.44	✓	auto:pdftext	2026-10-10	
+e9f4b388572d1ee3	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	3人/R12(2030)	57		honpen p.44	✓	auto:pdftext	2026-10-10	
+0a1b3d22247ae172	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	3人/R17(2035)	54		honpen p.44	✓	auto:pdftext	2026-10-10	
+15b6df89f872d92c	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	3人/R22(2040)	50		honpen p.44	✓	auto:pdftext	2026-10-10	
+91d28ca33776130e	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	3人/R27(2045)	46		honpen p.44	✓	auto:pdftext	2026-10-10	
+772730ffb9ca8ef2	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	4人/R2(2020)	40		honpen p.44				
+db28d36f9c8fd71b	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	4人/R7(2025)	39		honpen p.44	✓	auto:pdftext	2026-10-10	
+5a938dbf665ecdd5	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	4人/R12(2030)	37		honpen p.44	✓	auto:pdftext	2026-10-10	
+3746c91694237eb3	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	4人/R17(2035)	36		honpen p.44	✓	auto:pdftext	2026-10-10	
+21d61980bb3683a3	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	4人/R22(2040)	34		honpen p.44	✓	auto:pdftext	2026-10-10	
+fe886ed928a0d58a	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	4人/R27(2045)	31		honpen p.44	✓	auto:pdftext	2026-10-10	
+2971a412faac47e8	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	5人/R2(2020)	13		honpen p.44				
+e241015a0f9596b9	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	5人/R7(2025)	13		honpen p.44	✓	auto:pdftext	2026-10-10	
+1e202c128a85163a	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	5人/R12(2030)	13		honpen p.44	✓	auto:pdftext	2026-10-10	
+3ff85734812b149d	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	5人/R17(2035)	13		honpen p.44	✓	auto:pdftext	2026-10-10	
+1eaa1927af5cdd6f	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	5人/R22(2040)	12		honpen p.44	✓	auto:pdftext	2026-10-10	
+21d9f7aca12e38fa	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	5人/R27(2045)	12		honpen p.44	✓	auto:pdftext	2026-10-10	
+f7b1a9059859ca43	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	6人以上/R2(2020)	2		honpen p.44				
+75d0c7d839b53013	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	6人以上/R7(2025)	2		honpen p.44	✓	auto:pdftext	2026-10-10	
+a0271c2a8b44fc6c	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	6人以上/R12(2030)	2		honpen p.44				
+d1ca91a72038c942	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	6人以上/R17(2035)	2		honpen p.44	✓	auto:pdftext	2026-10-10	
+6de8e2ae5a013d66	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	6人以上/R22(2040)	2		honpen p.44	✓	auto:pdftext	2026-10-10	
+49785575d7f3b558	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	6人以上/R27(2045)	2		honpen p.44	✓	auto:pdftext	2026-10-10	
+55dfa321d2f7da8f	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	合計/R2(2020)	259		honpen p.44	✓	auto:pdftext	2026-10-10	
+fea5ca267ef59281	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	合計/R7(2025)	256		honpen p.44	✓	auto:pdftext	2026-10-10	
+b22725d7c2b62ae1	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	合計/R12(2030)	254		honpen p.44	✓	auto:pdftext	2026-10-10	
+0d8fdef3fd15fe1a	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	合計/R17(2035)	247		honpen p.44	✓	auto:pdftext	2026-10-10	
+d26eaa1498a7e9e0	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	合計/R22(2040)	239		honpen p.44	✓	auto:pdftext	2026-10-10	
+83db99d48ade5db2	juyou	13	table	世帯人員別の著しい困窮年収水準未満の世帯数(社人研推計)	合計/R27(2045)	226		honpen p.44	✓	auto:pdftext	2026-10-10	
+c3b12758caad9200	juyou	16	table	第6次日野町総合計画の人口で補正	①社人研推計(人)/R2(2020)	20959		honpen p.45				
+75a9ae8c8bb027b8	juyou	16	table	第6次日野町総合計画の人口で補正	①社人研推計(人)/R7(2025)	19989		honpen p.45	✓	auto:pdftext	2026-10-10	
+d87ff9908d011524	juyou	16	table	第6次日野町総合計画の人口で補正	①社人研推計(人)/R12(2030)	19006		honpen p.45				
+62f85b62afd27c34	juyou	16	table	第6次日野町総合計画の人口で補正	①社人研推計(人)/R17(2035)	17973		honpen p.45				
+a8b435084a000d74	juyou	16	table	第6次日野町総合計画の人口で補正	①社人研推計(人)/R22(2040)	16862		honpen p.45				
+990ea90d6c790804	juyou	16	table	第6次日野町総合計画の人口で補正	①社人研推計(人)/R27(2045)	15735		honpen p.45	✓	auto:pdftext	2026-10-10	
+69b187efcdb38c23	juyou	16	table	第6次日野町総合計画の人口で補正	②第6次日野町総合計画(人)/R2(2020)	20975		honpen p.45				
+780d1b04e2ebfdc5	juyou	16	table	第6次日野町総合計画の人口で補正	②第6次日野町総合計画(人)/R7(2025)	20500		honpen p.45				
+a29bf3c8d68f6812	juyou	16	table	第6次日野町総合計画の人口で補正	②第6次日野町総合計画(人)/R12(2030)	19799		honpen p.45				
+d95f4135a95c2993	juyou	16	table	第6次日野町総合計画の人口で補正	②第6次日野町総合計画(人)/R17(2035)	19086		honpen p.45				
+ca8410600e9e4b28	juyou	16	table	第6次日野町総合計画の人口で補正	②第6次日野町総合計画(人)/R22(2040)	18319		honpen p.45				
+251a4f7e8eae1b2b	juyou	16	table	第6次日野町総合計画の人口で補正	②第6次日野町総合計画(人)/R27(2045)	17508		honpen p.45	✓	auto:pdftext	2026-10-10	
+503905d064b8dff6	juyou	16	table	第6次日野町総合計画の人口で補正	②/①/R2(2020)	1.001		honpen p.45				
+cc332eff207156be	juyou	16	table	第6次日野町総合計画の人口で補正	②/①/R7(2025)	1.026		honpen p.45				
+f80e6818c8fe6e79	juyou	16	table	第6次日野町総合計画の人口で補正	②/①/R12(2030)	1.042		honpen p.45				
+8e83db21f7832182	juyou	16	table	第6次日野町総合計画の人口で補正	②/①/R17(2035)	1.062		honpen p.45				
+4d2cfec0bc13ebb4	juyou	16	table	第6次日野町総合計画の人口で補正	②/①/R22(2040)	1.086		honpen p.45				
+f2790ca64c238e69	juyou	16	table	第6次日野町総合計画の人口で補正	②/①/R27(2045)	1.113		honpen p.45	✓	auto:pdftext	2026-10-10	
+39ee54a451496d4a	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数1(社人研)/R2(2020)	259		honpen p.45	✓	auto:pdftext	2026-10-10	
+581489676395415d	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数1(社人研)/R7(2025)	256		honpen p.45	✓	auto:pdftext	2026-10-10	
+719039fd72a05439	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数1(社人研)/R12(2030)	254		honpen p.45	✓	auto:pdftext	2026-10-10	
+dc726fc48efc37ae	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数1(社人研)/R17(2035)	247		honpen p.45	✓	auto:pdftext	2026-10-10	
+f540fe0488341311	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数1(社人研)/R22(2040)	239		honpen p.45	✓	auto:pdftext	2026-10-10	
+f05d4560e6fb39e9	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数1(社人研)/R27(2045)	226		honpen p.45	✓	auto:pdftext	2026-10-10	
+ea59f9fe5afc7739	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数2(第6次日野町総合計画補正)/R2(2020)	259		honpen p.45				
+b4546fca25496ab8	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数2(第6次日野町総合計画補正)/R7(2025)	263		honpen p.45				
+902bb4f4a8a48012	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数2(第6次日野町総合計画補正)/R12(2030)	264		honpen p.45				
+b1fd22c40fe4daef	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数2(第6次日野町総合計画補正)/R17(2035)	262		honpen p.45				
+7b72b05b5247ad83	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数2(第6次日野町総合計画補正)/R22(2040)	259		honpen p.45				
+b0740e2a19a2e0b9	juyou	16	table	第6次日野町総合計画の人口で補正	著しい困窮年収未満の世帯数2(第6次日野町総合計画補正)/R27(2045)	252		honpen p.45	✓	auto:pdftext	2026-10-10	
+19e3a0c4f971fa06	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	1人(60歳以上)/R2(2020)	53		honpen p.46				
+1cec90f20b666d6d	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	1人(60歳以上)/R7(2025)	57		honpen p.46				
+d6c51a69c0b7f710	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	1人(60歳以上)/R12(2030)	59		honpen p.46				
+09cee85c92a70342	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	1人(60歳以上)/R17(2035)	61		honpen p.46				
+059fcbe698e2e9e0	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	1人(60歳以上)/R22(2040)	63		honpen p.46				
+fbafae94f7280c44	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	1人(60歳以上)/R27(2045)	64		honpen p.46	✓	auto:pdftext	2026-10-10	
+08330faed20087be	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	2人/R2(2020)	91		honpen p.46				
+d797d3e9a46437c6	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	2人/R7(2025)	91		honpen p.46				
+26fe97df63b2c70b	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	2人/R12(2030)	91		honpen p.46				
+a2bc239699e83eba	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	2人/R17(2035)	90		honpen p.46				
+89162271eeae3cf4	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	2人/R22(2040)	89		honpen p.46				
+17c59b95a3533923	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	2人/R27(2045)	86		honpen p.46	✓	auto:pdftext	2026-10-10	
+9273e2514b8546a6	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	3人/R2(2020)	60		honpen p.46				
+74e05aa5b0fe133c	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	3人/R7(2025)	60		honpen p.46				
+0c6b3b46848483c8	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	3人/R12(2030)	59		honpen p.46				
+89a03eb4e0cbeccb	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	3人/R17(2035)	57		honpen p.46				
+203aef2d8a78fe66	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	3人/R22(2040)	54		honpen p.46				
+b11ac556709be157	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	3人/R27(2045)	51		honpen p.46	✓	auto:pdftext	2026-10-10	
+6e0dc20466f5ed6c	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	4人/R2(2020)	40		honpen p.46				
+75a4cc50a818d554	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	4人/R7(2025)	40		honpen p.46				
+cd19d874de06c7d1	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	4人/R12(2030)	39		honpen p.46				
+3f76c92bacc0fac2	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	4人/R17(2035)	38		honpen p.46				
+c00cb8c79ba9ba86	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	4人/R22(2040)	37		honpen p.46				
+23faa544e7095ef8	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	4人/R27(2045)	35		honpen p.46	✓	auto:pdftext	2026-10-10	
+148c3cac9568f0f6	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	5人/R2(2020)	13		honpen p.46				
+0472e49764ebd563	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	5人/R7(2025)	14		honpen p.46				
+5522986d01859097	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	5人/R12(2030)	14		honpen p.46				
+3cd88bef9853c14d	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	5人/R17(2035)	14		honpen p.46				
+aa894b345ce32eb4	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	5人/R22(2040)	13		honpen p.46				
+6ceafe0ecdc17793	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	5人/R27(2045)	13		honpen p.46	✓	auto:pdftext	2026-10-10	
+6fcec9d3f293dd6b	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	6人以上/R2(2020)	2		honpen p.46				
+bc6bae049d0227ca	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	6人以上/R7(2025)	2		honpen p.46				
+96322352ceade934	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	6人以上/R12(2030)	2		honpen p.46				
+3e7e36cc85043978	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	6人以上/R17(2035)	2		honpen p.46				
+89da483cdea51ea5	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	6人以上/R22(2040)	2		honpen p.46				
+1b1d0b2a7bedf9d6	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	6人以上/R27(2045)	2		honpen p.46	✓	auto:pdftext	2026-10-10	
+4698517adf85e5b2	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	合計/R2(2020)	259		honpen p.46				
+27138246aaad480b	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	合計/R7(2025)	263		honpen p.46				
+9030e1b6cdee3220	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	合計/R12(2030)	264		honpen p.46				
+f0c70639783e36ff	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	合計/R17(2035)	262		honpen p.46				
+341f75e82e3d7856	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	合計/R22(2040)	259		honpen p.46				
+79b726a49ce7ffb7	juyou	17	table	世帯人員別の著しい困窮年収未満の世帯数(第6次日野町総合計画で補正)	合計/R27(2045)	252		honpen p.46	✓	auto:pdftext	2026-10-10	
+a5a5ef8ecf92a5e6	juyou	20	table	家賃が安く一定の質がある民間賃貸住宅	低廉な家賃かつ一定の質が確保された民間賃貸住宅/低廉な家賃の賃貸住宅(戸)	540		honpen p.48				
+cb5af8ec75041db5	juyou	20	table	家賃が安く一定の質がある民間賃貸住宅	低廉な家賃かつ一定の質が確保された民間賃貸住宅/民営借家の割合(%)	75.4		honpen p.48				
+a9f0ead91d0e7d5a	juyou	20	table	家賃が安く一定の質がある民間賃貸住宅	低廉な家賃かつ一定の質が確保された民間賃貸住宅/新耐震基準以降の住宅率(%)	88.6		honpen p.48				
+c2479a38cfb5fe17	juyou	20	table	家賃が安く一定の質がある民間賃貸住宅	低廉な家賃かつ一定の質が確保された民間賃貸住宅/戸数	361		honpen p.48				
+bf2d95b518e72436	juyou	23	table	住宅の需給バランス	町営住宅数(政策空家を除く)/R2(2020)	57		honpen p.49	✓	auto:pdftext	2026-10-10	
+61639f68b66854fb	juyou	23	table	住宅の需給バランス	町営住宅数(政策空家を除く)/R7(2025)	57		honpen p.49	✓	auto:pdftext	2026-10-10	
+55d3a5beaa685918	juyou	23	table	住宅の需給バランス	町営住宅数(政策空家を除く)/R12(2030)	57		honpen p.49	✓	auto:pdftext	2026-10-10	
+0fa2273285f31cff	juyou	23	table	住宅の需給バランス	町営住宅数(政策空家を除く)/R17(2035)	57		honpen p.49	✓	auto:pdftext	2026-10-10	
+c0bccdea5b310c4f	juyou	23	table	住宅の需給バランス	町営住宅数(政策空家を除く)/R22(2040)	57		honpen p.49	✓	auto:pdftext	2026-10-10	
+b504a667a5e1fd03	juyou	23	table	住宅の需給バランス	町営住宅数(政策空家を除く)/R27(2045)	57		honpen p.49	✓	auto:pdftext	2026-10-10	
+a72c578846eba2d7	juyou	23	table	住宅の需給バランス	県営住宅数/R2(2020)	0		honpen p.49				
+126953a97e1a7fa1	juyou	23	table	住宅の需給バランス	県営住宅数/R7(2025)	0		honpen p.49				
+f0804e1f60946740	juyou	23	table	住宅の需給バランス	県営住宅数/R12(2030)	0		honpen p.49				
+062e7347cd94c3d6	juyou	23	table	住宅の需給バランス	県営住宅数/R17(2035)	0		honpen p.49				
+6f9825ffeebfc3fc	juyou	23	table	住宅の需給バランス	県営住宅数/R22(2040)	0		honpen p.49				
+32fcf8303df20a5a	juyou	23	table	住宅の需給バランス	県営住宅数/R27(2045)	0		honpen p.49	✓	auto:pdftext	2026-10-10	
+7bdb55940b30eba9	juyou	23	table	住宅の需給バランス	UR・公社の賃貸住宅/R2(2020)	0		honpen p.49				
+52a5077a81df88b8	juyou	23	table	住宅の需給バランス	UR・公社の賃貸住宅/R7(2025)	0		honpen p.49				
+8d06518e000aa0c8	juyou	23	table	住宅の需給バランス	UR・公社の賃貸住宅/R12(2030)	0		honpen p.49				
+564dc3860d9c2b5d	juyou	23	table	住宅の需給バランス	UR・公社の賃貸住宅/R17(2035)	0		honpen p.49				
+486df8e35ce0ccec	juyou	23	table	住宅の需給バランス	UR・公社の賃貸住宅/R22(2040)	0		honpen p.49				
+08639d9ad12cd636	juyou	23	table	住宅の需給バランス	UR・公社の賃貸住宅/R27(2045)	0		honpen p.49	✓	auto:pdftext	2026-10-10	
+3125bdd466e226c6	juyou	23	table	住宅の需給バランス	著しい困窮年収未満の世帯に対応した民間賃貸住宅数/R2(2020)	361		honpen p.49				
+d2a369e736265921	juyou	23	table	住宅の需給バランス	著しい困窮年収未満の世帯に対応した民間賃貸住宅数/R7(2025)	361		honpen p.49				
+e6b33d496026e153	juyou	23	table	住宅の需給バランス	著しい困窮年収未満の世帯に対応した民間賃貸住宅数/R12(2030)	361		honpen p.49				
+4a54a1b65109da42	juyou	23	table	住宅の需給バランス	著しい困窮年収未満の世帯に対応した民間賃貸住宅数/R17(2035)	361		honpen p.49				
+c193e9c241bf2f6d	juyou	23	table	住宅の需給バランス	著しい困窮年収未満の世帯に対応した民間賃貸住宅数/R22(2040)	361		honpen p.49				
+3e47e5bb9a072d00	juyou	23	table	住宅の需給バランス	著しい困窮年収未満の世帯に対応した民間賃貸住宅数/R27(2045)	361		honpen p.49				
+232d8fd0be28ef5b	juyou	23	table	住宅の需給バランス	①合計/R2(2020)	418		honpen p.49				
+2ebe1256794aaeb9	juyou	23	table	住宅の需給バランス	①合計/R7(2025)	418		honpen p.49				
+0bbeca77207ad106	juyou	23	table	住宅の需給バランス	①合計/R12(2030)	418		honpen p.49				
+aed0fe7ebd5d4487	juyou	23	table	住宅の需給バランス	①合計/R17(2035)	418		honpen p.49				
+8c13f6aab9ac6715	juyou	23	table	住宅の需給バランス	①合計/R22(2040)	418		honpen p.49				
+f7d0a2079e310d6b	juyou	23	table	住宅の需給バランス	①合計/R27(2045)	418		honpen p.49				
+3843256f98d389df	juyou	23	table	住宅の需給バランス	②著しい困窮年収未満の世帯数2(第6次日野町総合計画で補正)/R2(2020)	259		honpen p.49				
+016453d1d6352129	juyou	23	table	住宅の需給バランス	②著しい困窮年収未満の世帯数2(第6次日野町総合計画で補正)/R7(2025)	263		honpen p.49				
+14ca3485dec6d3cf	juyou	23	table	住宅の需給バランス	②著しい困窮年収未満の世帯数2(第6次日野町総合計画で補正)/R12(2030)	264		honpen p.49				
+e2c4f7480ecba446	juyou	23	table	住宅の需給バランス	②著しい困窮年収未満の世帯数2(第6次日野町総合計画で補正)/R17(2035)	262		honpen p.49				
+d991f9ceec5b11c7	juyou	23	table	住宅の需給バランス	②著しい困窮年収未満の世帯数2(第6次日野町総合計画で補正)/R22(2040)	259		honpen p.49				
+79a397e670cb2fed	juyou	23	table	住宅の需給バランス	②著しい困窮年収未満の世帯数2(第6次日野町総合計画で補正)/R27(2045)	252		honpen p.49				
+b0589d098c665102	juyou	23	table	住宅の需給バランス	①−②充足(不足)数/R2(2020)	159		honpen p.49				
+e63079ba9542a8b3	juyou	23	table	住宅の需給バランス	①−②充足(不足)数/R7(2025)	155		honpen p.49				
+929dd2b246365350	juyou	23	table	住宅の需給バランス	①−②充足(不足)数/R12(2030)	154		honpen p.49				
+3fe0ee05f4015062	juyou	23	table	住宅の需給バランス	①−②充足(不足)数/R17(2035)	156		honpen p.49				
+f1521ba7eec6ec1d	juyou	23	table	住宅の需給バランス	①−②充足(不足)数/R22(2040)	159		honpen p.49				
+c751a63189e128f2	juyou	23	table	住宅の需給バランス	①−②充足(不足)数/R27(2045)	166		honpen p.49				
+0cf9e962f0e812b0	hoshin	13	target.base	上位計画の指標	町営住宅入居率(第6次日野町総合計画の指標)	88	%	honpen p.18				
+2b0b16d7523818e5	hoshin	13	target.target	上位計画の指標	町営住宅入居率(第6次日野町総合計画の指標)	95	%	honpen p.18				
+94f92c7f36c964e5	jigyo	4	timeline	団地ごとの予定	第2内池団地:給水設備、排水設備、貯水槽、給水ポンプ、ガス設備、電力幹線(長寿命化)	R6		gaiyo p.9				
+10442b90970dcfee	jigyo	4	timeline	団地ごとの予定	第2内池団地:屋根塗装、床防水、外壁塗装(長寿命化)	R7		gaiyo p.9				
+782916480bbb6c63	jigyo	4	timeline	団地ごとの予定	中山大谷団地 1・3・8号棟:除却	R7		gaiyo p.9				
+584723730f48cecd	jigyo	4	timeline	団地ごとの予定	西山団地:屋根塗装、床防水、外壁塗装、電力幹線(長寿命化)	R8〜R10		gaiyo p.9				
+412f608126a81caf	jigyo	4	timeline	団地ごとの予定	第1内池団地 A・B・C・D棟:屋根塗装、床防水、外壁塗装、電力幹線(長寿命化)	R11〜R14		gaiyo p.9				
+b05b6b312bede517	jigyo	6	table	団地ごとの戸数・構造・次期点検時期	第1内池団地(A・B)/戸数	12		gaiyo p.9				
+661e8ffb08a8e842	jigyo	6	table	団地ごとの戸数・構造・次期点検時期	第1内池団地(C・D)/戸数	12		gaiyo p.9				
+d22a0fd3b4865150	jigyo	6	table	団地ごとの戸数・構造・次期点検時期	第2内池団地/戸数	18		gaiyo p.9				
+4b7bc4ee2fd865e2	jigyo	6	table	団地ごとの戸数・構造・次期点検時期	西山団地/戸数	15		gaiyo p.9				
+eb580d0479320f98	jigyo	6	table	団地ごとの戸数・構造・次期点検時期	中山大谷団地(1・3・8)/戸数	9		gaiyo p.9				
+d520eb1b0eb58886	jigyo	6	table	団地ごとの戸数・構造・次期点検時期	中山大谷団地(6・7)/戸数	6		gaiyo p.9				
+ce8de0af548285f1	jigyo	9	table	ライフサイクルコストの縮減効果	第1内池団地/LCC縮減効果(千円/年)	4803		gaiyo p.9				
+676324188a834f5c	jigyo	9	table	ライフサイクルコストの縮減効果	第2内池団地/LCC縮減効果(千円/年)	1410		gaiyo p.9				
+df5eb2e18523625d	jigyo	9	table	ライフサイクルコストの縮減効果	西山団地/LCC縮減効果(千円/年)	2146		gaiyo p.9				
+aa9457d4eebdaca8	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 A/戸数	8		gaiyo p.10				
+b7ac7a57702cf07d	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 A/建設年度	2001		gaiyo p.10				
+f3d6c00ec9af5af2	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 A/戸当り(円/年)	200965		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+a9b176842d7b2816	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 A/団地全体(円/年)	1607716		gaiyo p.10				
+c22e4ce10d2f76c4	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 B/戸数	4		gaiyo p.10				
+32cb80edf9eb3c3e	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 B/建設年度	2001		gaiyo p.10				
+ebbc32cdf47ec261	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 B/戸当り(円/年)	198774		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+9ce8f72091e3d5c2	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 B/団地全体(円/年)	795098		gaiyo p.10				
+2c12d11f377c7d33	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 C/戸数	6		gaiyo p.10				
+d5abe51a02d77336	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 C/建設年度	2002		gaiyo p.10				
+225c2b3311e636dc	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 C/戸当り(円/年)	200647		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+6c23c17e98f84587	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 C/団地全体(円/年)	1203885		gaiyo p.10				
+b91d4ab4db503b60	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 D/戸数	6		gaiyo p.10				
+cd6d4b69f99a1c95	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 D/建設年度	2002		gaiyo p.10				
+74682401e09066e8	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 D/戸当り(円/年)	199452		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+b59f90044e8bf00b	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第1内池団地 D/団地全体(円/年)	1196713		gaiyo p.10				
+e95357daf9fedaaf	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第2内池団地/戸数	18		gaiyo p.10				
+c09cc785ee3a9735	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第2内池団地/建設年度	1988		gaiyo p.10				
+62a2b1ac27cd8997	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第2内池団地/戸当り(円/年)	78279		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+b933628f132b279f	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	第2内池団地/団地全体(円/年)	1409024		gaiyo p.10				
+a5e77dd73384623b	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 1号棟/戸数	4		gaiyo p.10				
+f07b044298b10a02	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 1号棟/建設年度	1984		gaiyo p.10				
+190583ca025acfc9	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 1号棟/戸当り(円/年)	83569		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+6dca0202b8b99649	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 1号棟/団地全体(円/年)	334276		gaiyo p.10				
+f4ce193253ef6287	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 2号棟/戸数	5		gaiyo p.10				
+5c98b45bb94a0038	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 2号棟/建設年度	1984		gaiyo p.10				
+dbec067913282fb8	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 2号棟/戸当り(円/年)	83926		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+1ed038131a2e0495	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 2号棟/団地全体(円/年)	419630		gaiyo p.10				
+4b95afc10c0b77d8	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 3号棟/戸数	2		gaiyo p.10				
+e1798b94222e20d4	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 3号棟/建設年度	1984		gaiyo p.10				
+85bc25592a1583e7	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 3号棟/戸当り(円/年)	82276		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+170ae4773b4c76b3	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 3号棟/団地全体(円/年)	164552		gaiyo p.10				
+492e40b0a798d8d7	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 5号棟/戸数	2		gaiyo p.10				
+cd39a53f97cac0bc	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 5号棟/建設年度	1984		gaiyo p.10				
+ddbfa6deecc77a02	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 5号棟/戸当り(円/年)	82276		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+e4c53ef2fa0fcfc6	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 5号棟/団地全体(円/年)	164552		gaiyo p.10				
+496f7d1f06b0e668	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 6号棟/戸数	2		gaiyo p.10				
+a384f81d372e0f83	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 6号棟/建設年度	1984		gaiyo p.10				
+a7a4eeaa2b15190f	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 6号棟/戸当り(円/年)	73371		gaiyo p.10	✓	auto:pdftext	2026-10-10	
+81471d856a1634c1	jigyo	10	table	住棟別のライフサイクルコストの縮減効果	西山団地 6号棟/団地全体(円/年)	146743		gaiyo p.10				

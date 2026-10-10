@@ -1,0 +1,299 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+f3722d8b47b476f7	summary	2	kpi		日野町の自殺者数（5年間の合計）	24	人	honpen p.6				
+53723a289e4a7532	summary	2	kpi		日野町の自殺死亡率	22.40	人/10万人	honpen p.6				
+8e62fb27d520b463	summary	2	kpi		全国の自殺死亡率	16.40	人/10万人	honpen p.6				
+4ab181ac83e5e815	summary	2	kpi		滋賀県の自殺死亡率	16.17	人/10万人	honpen p.6				
+9d3bc5ea58e6835b	summary	3	target.base		自殺死亡率（目標は13.0以下）	22.4	人/10万人	honpen p.44				
+e27ac5c8d5baf5ee	summary	3	target.target		自殺死亡率（目標は13.0以下）	13.0	人/10万人	honpen p.44				
+dc0927109d1881db	summary	3	target.base		自殺者数（目標は14人以下）	24	人	honpen p.44				
+98ddb0e0e1d22791	summary	3	target.target		自殺者数（目標は14人以下）	14	人	honpen p.44				
+9bc6e01e9d7113f5	genjo	4	kpi	全国の自殺者数の推移	全国の自殺者数（最多の年）	34427	人	honpen p.3				
+6719ea8cfa49afd6	genjo	4	kpi	全国の自殺者数の推移	全国の自殺者数	21881	人	honpen p.3				
+a788bd9c87b3b65c	genjo	5	kpi	全国の自殺者数の推移	全国の小中高生の自殺者数（過去最多）	514	人	honpen p.4				
+d417d11cb0aa6c52	genjo	5	kpi	全国の自殺者数の推移	日本の自殺死亡率（先進国G7の7か国で最も高い）	15.7	人/10万人	honpen p.4				
+8c51e17c2d8d6cf3	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	1位 男性40～59歳有職同居/自殺者数（5年計・人）	4		honpen p.6	✓	auto:pdftext	2026-10-10	
+3dbe37a9159b1bf7	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	1位 男性40～59歳有職同居/割合（%）	16.7		honpen p.6				
+00a5547a883016bb	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	1位 男性40～59歳有職同居/自殺死亡率（10万対）	37.6		honpen p.6	✓	auto:pdftext	2026-10-10	
+d7b7ce03f0666511	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	2位 女性60歳以上無職同居/自殺者数（5年計・人）	4		honpen p.6	✓	auto:pdftext	2026-10-10	
+98265f0d56a90351	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	2位 女性60歳以上無職同居/割合（%）	16.7		honpen p.6				
+e8e8bb420669895f	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	2位 女性60歳以上無職同居/自殺死亡率（10万対）	27.5		honpen p.6	✓	auto:pdftext	2026-10-10	
+7f69f22969d95a12	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	3位 男性60歳以上無職同居/自殺者数（5年計・人）	3		honpen p.6	✓	auto:pdftext	2026-10-10	
+f62bf1dff70316b5	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	3位 男性60歳以上無職同居/割合（%）	12.5		honpen p.6				
+b901a49d73596b1a	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	3位 男性60歳以上無職同居/自殺死亡率（10万対）	36.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+87136ff816e33886	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	4位 男性40～59歳有職独居/自殺者数（5年計・人）	2		honpen p.6	✓	auto:pdftext	2026-10-10	
+f9c5bcdad8ab85de	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	4位 男性40～59歳有職独居/割合（%）	8.3		honpen p.6				
+602ea749eab99032	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	4位 男性40～59歳有職独居/自殺死亡率（10万対）	111.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+8a00b079fee2d14b	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	5位 男性20～39歳有職独居/自殺者数（5年計・人）	2		honpen p.6				
+f9cef4f0c2482b4c	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	5位 男性20～39歳有職独居/割合（%）	8.3		honpen p.6				
+e8af54a299e46cfb	genjo	9	table	表1－3 日野町（自殺者数合計24人・自殺死亡率22.40）	5位 男性20～39歳有職独居/自殺死亡率（10万対）	73.4		honpen p.6				
+d52076d1052792de	genjo	10	table	表1－2 滋賀県の上位5区分	1位 男性40～59歳有職同居/自殺者数（5年計・人）	146		honpen p.6	✓	auto:pdftext	2026-10-10	
+0d4280a34cf97075	genjo	10	table	表1－2 滋賀県の上位5区分	1位 男性40～59歳有職同居/割合（%）	12.7		honpen p.6				
+a0cfa97f873040fd	genjo	10	table	表1－2 滋賀県の上位5区分	1位 男性40～59歳有職同居/自殺死亡率（10万対）	19.2		honpen p.6	✓	auto:pdftext	2026-10-10	
+9e96b780c3c248c0	genjo	10	table	表1－2 滋賀県の上位5区分	2位 男性60歳以上無職同居/自殺者数（5年計・人）	131		honpen p.6	✓	auto:pdftext	2026-10-10	
+b0f5aee2a29104d8	genjo	10	table	表1－2 滋賀県の上位5区分	2位 男性60歳以上無職同居/割合（%）	11.4		honpen p.6				
+fc425b927adbf945	genjo	10	table	表1－2 滋賀県の上位5区分	2位 男性60歳以上無職同居/自殺死亡率（10万対）	26.1		honpen p.6	✓	auto:pdftext	2026-10-10	
+c1929cc433837af6	genjo	10	table	表1－2 滋賀県の上位5区分	3位 女性60歳以上無職同居/自殺者数（5年計・人）	108		honpen p.6	✓	auto:pdftext	2026-10-10	
+3bafc3d401e9dfa1	genjo	10	table	表1－2 滋賀県の上位5区分	3位 女性60歳以上無職同居/割合（%）	9.4		honpen p.6				
+8bb027a57a4202a0	genjo	10	table	表1－2 滋賀県の上位5区分	3位 女性60歳以上無職同居/自殺死亡率（10万対）	13.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+7034f415ef422fd7	genjo	10	table	表1－2 滋賀県の上位5区分	4位 男性20～39歳有職同居/自殺者数（5年計・人）	85		honpen p.6	✓	auto:pdftext	2026-10-10	
+0b4ff955098ca9b4	genjo	10	table	表1－2 滋賀県の上位5区分	4位 男性20～39歳有職同居/割合（%）	7.4		honpen p.6				
+a79a6f18d1fb6434	genjo	10	table	表1－2 滋賀県の上位5区分	4位 男性20～39歳有職同居/自殺死亡率（10万対）	17.6		honpen p.6	✓	auto:pdftext	2026-10-10	
+c743f8e74d2a6cf1	genjo	10	table	表1－2 滋賀県の上位5区分	5位 男性60歳以上無職独居/自殺者数（5年計・人）	65		honpen p.6				
+1ecebfad1d053ccb	genjo	10	table	表1－2 滋賀県の上位5区分	5位 男性60歳以上無職独居/割合（%）	5.7		honpen p.6				
+ea1fb6f1640be025	genjo	10	table	表1－2 滋賀県の上位5区分	5位 男性60歳以上無職独居/自殺死亡率（10万対）	88.2		honpen p.6				
+0bf463408f10ea7e	genjo	11	table	表1－1 全国の上位5区分	1位 男性60歳以上無職同居/自殺者数（5年計・人）	11983		honpen p.6	✓	auto:pdftext	2026-10-10	
+6ebd3719935a3938	genjo	11	table	表1－1 全国の上位5区分	1位 男性60歳以上無職同居/割合（%）	11.5		honpen p.6				
+80c948809d9b9f8d	genjo	11	table	表1－1 全国の上位5区分	1位 男性60歳以上無職同居/自殺死亡率（10万対）	28.1		honpen p.6	✓	auto:pdftext	2026-10-10	
+a515e229827ee673	genjo	11	table	表1－1 全国の上位5区分	2位 男性40～59歳有職同居/自殺者数（5年計・人）	10359		honpen p.6	✓	auto:pdftext	2026-10-10	
+232cdb85352e16d1	genjo	11	table	表1－1 全国の上位5区分	2位 男性40～59歳有職同居/割合（%）	10.0		honpen p.6				
+9b4f155bb95174d0	genjo	11	table	表1－1 全国の上位5区分	2位 男性40～59歳有職同居/自殺死亡率（10万対）	15.9		honpen p.6	✓	auto:pdftext	2026-10-10	
+880a2606f5deb6a5	genjo	11	table	表1－1 全国の上位5区分	3位 女性60歳以上無職同居/自殺者数（5年計・人）	9007		honpen p.6	✓	auto:pdftext	2026-10-10	
+caa57a39d512cd4d	genjo	11	table	表1－1 全国の上位5区分	3位 女性60歳以上無職同居/割合（%）	8.7		honpen p.6				
+71942b192a405fd6	genjo	11	table	表1－1 全国の上位5区分	3位 女性60歳以上無職同居/自殺死亡率（10万対）	12.6		honpen p.6	✓	auto:pdftext	2026-10-10	
+997b7a4730f44d49	genjo	11	table	表1－1 全国の上位5区分	4位 男性60歳以上無職独居/自殺者数（5年計・人）	7575		honpen p.6	✓	auto:pdftext	2026-10-10	
+80aab252c005dc2a	genjo	11	table	表1－1 全国の上位5区分	4位 男性60歳以上無職独居/割合（%）	7.3		honpen p.6				
+436cc36536bb8bc1	genjo	11	table	表1－1 全国の上位5区分	4位 男性60歳以上無職独居/自殺死亡率（10万対）	83.1		honpen p.6	✓	auto:pdftext	2026-10-10	
+fc7f8b780200ffcc	genjo	11	table	表1－1 全国の上位5区分	5位 男性20～39歳有職同居/自殺者数（5年計・人）	6168		honpen p.6				
+743a54dffe8c1e12	genjo	11	table	表1－1 全国の上位5区分	5位 男性20～39歳有職同居/割合（%）	5.9		honpen p.6				
+db0a061c6393a751	genjo	11	table	表1－1 全国の上位5区分	5位 男性20～39歳有職同居/自殺死亡率（10万対）	15.7		honpen p.6				
+3d1b9f65b09d5abc	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 有職 同居/日野町（%）	4.2		honpen p.7				
+3859b6a01a51d1f0	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 有職 同居/滋賀県（%）	7.4		honpen p.7				
+c729165da9b94fbc	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 有職 同居/全国（%）	5.9		honpen p.7				
+4d69b439c91b8573	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 有職 独居/日野町（%）	8.3		honpen p.7				
+0ce9a9fda11e91be	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 有職 独居/滋賀県（%）	2.8		honpen p.7				
+5bedf91426abbbae	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 有職 独居/全国（%）	3.9		honpen p.7				
+03027c32865c2a88	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 無職 同居/日野町（%）	0.0		honpen p.7				
+f9139225e5db32b2	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 無職 同居/滋賀県（%）	5.3		honpen p.7				
+813727297f296c8c	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 無職 同居/全国（%）	4.0		honpen p.7				
+97f1f092bea71d72	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 無職 独居/日野町（%）	0.0		honpen p.7				
+47d326c1fad3b67f	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 無職 独居/滋賀県（%）	2.2		honpen p.7				
+0b067f8fe58687a0	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 20～39歳 無職 独居/全国（%）	2.2		honpen p.7				
+bcdfd654df2f12e3	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 有職 同居/日野町（%）	16.7		honpen p.7				
+03be678520999a4c	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 有職 同居/滋賀県（%）	12.7		honpen p.7				
+8fdbfedab065404f	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 有職 同居/全国（%）	10.0		honpen p.7				
+8f7304be67dda56a	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 有職 独居/日野町（%）	8.3		honpen p.7				
+4621514f6762151f	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 有職 独居/滋賀県（%）	4.3		honpen p.7				
+d516d26cd8af8aea	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 有職 独居/全国（%）	4.7		honpen p.7				
+b8bb9087c7bfc9b8	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 無職 同居/日野町（%）	4.2		honpen p.7				
+1620317cbac93b73	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 無職 同居/滋賀県（%）	5.0		honpen p.7				
+7334eae978188f28	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 無職 同居/全国（%）	4.6		honpen p.7				
+f2f2046de3b78e5b	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 無職 独居/日野町（%）	0.0		honpen p.7				
+1478d123f311e23e	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 無職 独居/滋賀県（%）	4.2		honpen p.7				
+a84187956a017c88	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 40～59歳 無職 独居/全国（%）	4.1		honpen p.7				
+ad1a64ae0e0bf35c	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 有職 同居/日野町（%）	0.0		honpen p.7				
+248cddf9a706b1b3	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 有職 同居/滋賀県（%）	3.5		honpen p.7				
+6f8f66e89024f91b	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 有職 同居/全国（%）	3.9		honpen p.7				
+c958abeb6a497981	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 有職 独居/日野町（%）	0.0		honpen p.7				
+1096b81082c1eb29	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 有職 独居/滋賀県（%）	0.8		honpen p.7				
+e9ba471dc0f4cb4e	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 有職 独居/全国（%）	1.7		honpen p.7				
+e1ef2cf57789c15d	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 無職 同居/日野町（%）	12.5		honpen p.7				
+94af7615cf6e700c	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 無職 同居/滋賀県（%）	11.4		honpen p.7				
+8685fc6e87bd77e8	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 無職 同居/全国（%）	11.5		honpen p.7				
+0131d564920a23a1	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 無職 独居/日野町（%）	4.2		honpen p.7				
+e450c7424a322497	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 無職 独居/滋賀県（%）	5.7		honpen p.7				
+9102b2177e4ff502	genjo	15	table	【男性】区分ごとの自殺者の割合	男性 60歳以上 無職 独居/全国（%）	7.3		honpen p.7				
+f949edf52cf0ea4d	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 有職 同居/日野町	12.8		honpen p.7				
+73e51218d9843406	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 有職 同居/滋賀県	17.6		honpen p.7				
+c6ce94d954fb2564	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 有職 同居/全国	15.7		honpen p.7				
+520ccdf9dfe74d5d	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 有職 独居/日野町	73.4		honpen p.7				
+d9d92834290cd5ee	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 有職 独居/滋賀県	22.0		honpen p.7				
+9157931bceb2d59c	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 有職 独居/全国	27.9		honpen p.7				
+ab01ae24cf1f173d	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 無職 同居/日野町	0.0		honpen p.7				
+b89115594fab6968	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 無職 同居/滋賀県	59.4		honpen p.7				
+4924cc6f6127de84	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 無職 同居/全国	50.9		honpen p.7				
+6ad9b172fe56e814	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 無職 独居/日野町	0.0		honpen p.7				
+f79d884b71c9ca34	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 無職 独居/滋賀県	95.8		honpen p.7				
+7b6d0de4ed846f82	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 20～39歳 無職 独居/全国	90.0		honpen p.7				
+d12b0fe62a0cd3ba	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 有職 同居/日野町	37.6		honpen p.7				
+cb9af1e5a51d7c38	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 有職 同居/滋賀県	19.2		honpen p.7				
+1b90c9b8529fc447	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 有職 同居/全国	15.9		honpen p.7				
+03978e50e7855256	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 有職 独居/日野町	111.8		honpen p.7				
+95d993a8207140f8	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 有職 独居/滋賀県	39.6		honpen p.7				
+56204627dae8e364	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 有職 独居/全国	36.1		honpen p.7				
+e7df6cd7b370375f	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 無職 同居/日野町	155.6		honpen p.7				
+62af1e4e82824fce	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 無職 同居/滋賀県	121.4		honpen p.7				
+6e839c37abbd45a0	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 無職 同居/全国	95.6		honpen p.7				
+522586a5eacaf7a4	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 無職 独居/日野町	0.0		honpen p.7				
+c2f17e6ba48e7802	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 無職 独居/滋賀県	351.1		honpen p.7				
+94a918391dabd92d	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 40～59歳 無職 独居/全国	233.6		honpen p.7				
+9de0d6faf0d6d5cb	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 有職 同居/日野町	0.0		honpen p.7				
+3ff329f8f3710e93	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 有職 同居/滋賀県	11.0		honpen p.7				
+2cc6248e16fd0244	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 有職 同居/全国	12.0		honpen p.7				
+ced08948dff81ab9	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 有職 独居/日野町	0.0		honpen p.7				
+4569256670241c46	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 有職 独居/滋賀県	20.4		honpen p.7				
+2187ed9e60126f4b	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 有職 独居/全国	30.3		honpen p.7				
+cc44f6a513f25803	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 無職 同居/日野町	36.3		honpen p.7				
+569e9fc5d652417c	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 無職 同居/滋賀県	26.1		honpen p.7				
+b485d09cc3668ba8	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 無職 同居/全国	28.1		honpen p.7				
+6f0f20660e202a5c	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 無職 独居/日野町	88.1		honpen p.7				
+d3f40c8745297cdc	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 無職 独居/滋賀県	88.2		honpen p.7				
+2bd81bdb1c18d410	genjo	16	table	【男性】区分ごとの自殺死亡率（10万対）	男性 60歳以上 無職 独居/全国	83.1		honpen p.7				
+e11eaca5431e3602	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 有職 同居/日野町（%）	0.0		honpen p.7				
+d8362287795d2361	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 有職 同居/滋賀県（%）	2.0		honpen p.7				
+2dbd52751a54300a	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 有職 同居/全国（%）	1.9		honpen p.7				
+465a45603a441ad1	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 有職 独居/日野町（%）	0.0		honpen p.7				
+c5eb9db46e447e9f	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 有職 独居/滋賀県（%）	0.9		honpen p.7				
+665a5569e98c07ca	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 有職 独居/全国（%）	1.1		honpen p.7				
+ca7c63e84bcff43a	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 無職 同居/日野町（%）	0.0		honpen p.7				
+c8de8dd4b691cb01	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 無職 同居/滋賀県（%）	3.4		honpen p.7				
+54a335663926929d	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 無職 同居/全国（%）	2.9		honpen p.7				
+ea513ecff6a3926b	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 無職 独居/日野町（%）	0.0		honpen p.7				
+979020b97974f381	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 無職 独居/滋賀県（%）	0.8		honpen p.7				
+c4a34d37ae3b8e53	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 20～39歳 無職 独居/全国（%）	1.0		honpen p.7				
+b8004576854fe2cc	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 有職 同居/日野町（%）	4.2		honpen p.7				
+6742cc212ea5d4c3	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 有職 同居/滋賀県（%）	3.2		honpen p.7				
+6bcb00f2b42566ca	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 有職 同居/全国（%）	2.6		honpen p.7				
+72729e5c5b669cff	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 有職 独居/日野町（%）	4.2		honpen p.7				
+bcffbbbd971f4b4d	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 有職 独居/滋賀県（%）	0.4		honpen p.7				
+b835bb689b150515	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 有職 独居/全国（%）	0.7		honpen p.7				
+796a6e91474fd3dc	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 無職 同居/日野町（%）	4.2		honpen p.7				
+2a8dbcf1a7d6a9d2	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 無職 同居/滋賀県（%）	5.1		honpen p.7				
+8a3066fe1afcc9fe	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 無職 同居/全国（%）	5.2		honpen p.7				
+e32a05be6b15bb09	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 無職 独居/日野町（%）	0.0		honpen p.7				
+4fb0275cca781cef	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 無職 独居/滋賀県（%）	1.1		honpen p.7				
+1a24216c5aeba268	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 40～59歳 無職 独居/全国（%）	1.4		honpen p.7				
+e9eb29580b77dc9b	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 有職 同居/日野町（%）	8.3		honpen p.7				
+0bfdc1cd8860fc33	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 有職 同居/滋賀県（%）	0.8		honpen p.7				
+92563e66bcb53fbd	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 有職 同居/全国（%）	0.8		honpen p.7				
+fae6b71de8296fcc	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 有職 独居/日野町（%）	0.0		honpen p.7				
+fa130556912e2b70	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 有職 独居/滋賀県（%）	0.4		honpen p.7				
+ec95f48cfd11b94a	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 有職 独居/全国（%）	0.3		honpen p.7				
+ee39d705ef7ad98a	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 無職 同居/日野町（%）	16.7		honpen p.7				
+bce55aa843ce8cd7	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 無職 同居/滋賀県（%）	9.4		honpen p.7				
+d6bfac03db9349c1	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 無職 同居/全国（%）	8.7		honpen p.7				
+42fb978339747a22	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 無職 独居/日野町（%）	4.2		honpen p.7				
+7963afd606e9fe1d	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 無職 独居/滋賀県（%）	2.9		honpen p.7				
+9d4073dc63564f16	genjo	17	table	【女性】区分ごとの自殺者の割合	女性 60歳以上 無職 独居/全国（%）	4.1		honpen p.7				
+676abf55651b63c5	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 有職 同居/日野町	0.0		honpen p.7				
+d83b47074e18d927	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 有職 同居/滋賀県	6.1		honpen p.7				
+1bc4a8ed6c544a9a	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 有職 同居/全国	6.3		honpen p.7				
+014bb29e5e392be1	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 有職 独居/日野町	0.0		honpen p.7				
+c1ed8c8c92c75253	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 有職 独居/滋賀県	17.8		honpen p.7				
+b5b31a0abe9e3b7b	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 有職 独居/全国	12.7		honpen p.7				
+8c71396b6259a217	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 無職 同居/日野町	0.0		honpen p.7				
+660db6ce8bbd9b18	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 無職 同居/滋賀県	15.8		honpen p.7				
+8ff4a8827a084331	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 無職 同居/全国	15.8		honpen p.7				
+2f8c3cd4dcbd89db	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 無職 独居/日野町	0.0		honpen p.7				
+7cc3623f663a3c3e	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 無職 独居/滋賀県	46.4		honpen p.7				
+44aeb1769b6474e1	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 20～39歳 無職 独居/全国	35.9		honpen p.7				
+aa7def40bb7f364c	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 有職 同居/日野町	12.8		honpen p.7				
+cfc5f7078da2e52f	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 有職 同居/滋賀県	7.5		honpen p.7				
+bc60547eb25a9d48	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 有職 同居/全国	6.3		honpen p.7				
+bb90b31796b98cdb	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 有職 独居/日野町	231.1		honpen p.7				
+0e2240231ce46a50	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 有職 独居/滋賀県	13.5		honpen p.7				
+640efcdd0baca2f3	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 有職 独居/全国	13.0		honpen p.7				
+931bc5fc18f7d25f	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 無職 同居/日野町	24.5		honpen p.7				
+d11e96c3205bcd61	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 無職 同居/滋賀県	15.0		honpen p.7				
+dbf442585f675d27	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 無職 同居/全国	16.5		honpen p.7				
+afa11f10b7833d3d	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 無職 独居/日野町	0.0		honpen p.7				
+feb5416d434d09a1	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 無職 独居/滋賀県	53.8		honpen p.7				
+e3287cbf72d762e4	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 40～59歳 無職 独居/全国	43.6		honpen p.7				
+5ca7a4381e5560a8	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 有職 同居/日野町	67.3		honpen p.7				
+bffc7a7a43fc7035	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 有職 同居/滋賀県	6.2		honpen p.7				
+f1fa35731a9b8357	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 有職 同居/全国	5.5		honpen p.7				
+cc1ed4d6b80a1171	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 有職 独居/日野町	0.0		honpen p.7				
+d279064c418b3529	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 有職 独居/滋賀県	20.7		honpen p.7				
+0971da29bcca8175	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 有職 独居/全国	7.7		honpen p.7				
+c06d3f7ac06dacad	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 無職 同居/日野町	27.5		honpen p.7				
+76e227d09af76ba7	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 無職 同居/滋賀県	13.3		honpen p.7				
+5fb26adb03b094f2	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 無職 同居/全国	12.6		honpen p.7				
+f0c2da17304794f6	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 無職 独居/日野町	47.8		honpen p.7				
+85af48b752cb7fa7	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 無職 独居/滋賀県	19.2		honpen p.7				
+e2430dcad14f31f2	genjo	18	table	【女性】区分ごとの自殺死亡率（10万対）	女性 60歳以上 無職 独居/全国	20.2		honpen p.7				
+dae8a3e30de3bd0e	genjo	25	table	有職者と無職者の自殺の内訳	有職/日野町（人）	13		honpen p.9				
+f6b3f540a3749130	genjo	25	table	有職者と無職者の自殺の内訳	有職/日野町（%）	54.2		honpen p.9				
+86a810fca44b0298	genjo	25	table	有職者と無職者の自殺の内訳	有職/滋賀県（人）	457		honpen p.9				
+8791b5e19741ba60	genjo	25	table	有職者と無職者の自殺の内訳	有職/滋賀県（%）	40.1		honpen p.9				
+b93d7f75396c4b00	genjo	25	table	有職者と無職者の自殺の内訳	有職/全国（人）	39331		honpen p.9				
+7c84634396dfa7ec	genjo	25	table	有職者と無職者の自殺の内訳	有職/全国（%）	38.7		honpen p.9				
+9e00fb722ed2970a	genjo	25	table	有職者と無職者の自殺の内訳	無職/日野町（人）	11		honpen p.9				
+14a3ba79e69e6515	genjo	25	table	有職者と無職者の自殺の内訳	無職/日野町（%）	45.8		honpen p.9				
+8ce4e1093fa1f023	genjo	25	table	有職者と無職者の自殺の内訳	無職/滋賀県（人）	682		honpen p.9				
+a55d35ce204855ec	genjo	25	table	有職者と無職者の自殺の内訳	無職/滋賀県（%）	59.9		honpen p.9				
+1095a750feaaf057	genjo	25	table	有職者と無職者の自殺の内訳	無職/全国（人）	62306		honpen p.9				
+4515e21b051c1f2d	genjo	25	table	有職者と無職者の自殺の内訳	無職/全国（%）	61.3		honpen p.9				
+0145d6b60ed961e2	genjo	25	table	有職者と無職者の自殺の内訳	合計/日野町（人）	24		honpen p.9				
+b43e3fa7f08a1dd1	genjo	25	table	有職者と無職者の自殺の内訳	合計/日野町（%）	100.0		honpen p.9				
+3ed0ee58fc8b8f6e	genjo	25	table	有職者と無職者の自殺の内訳	合計/滋賀県（人）	1139		honpen p.9				
+be720b551172405e	genjo	25	table	有職者と無職者の自殺の内訳	合計/滋賀県（%）	100.0		honpen p.9				
+ed4310ea2b3761aa	genjo	25	table	有職者と無職者の自殺の内訳	合計/全国（人）	101637		honpen p.9				
+c8fed57aac664e37	genjo	25	table	有職者と無職者の自殺の内訳	合計/全国（%）	100.0		honpen p.9				
+1a535123350b235e	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 60歳代/同居人あり（人）	0		honpen p.9				
+0bc78a83fc83b962	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 60歳代/同居人なし（人）	0		honpen p.9				
+2c8368f23093c439	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 60歳代/同居人あり（%）	0.0		honpen p.9				
+db2bee0d00353485	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 60歳代/同居人なし（%）	0.0		honpen p.9				
+70da6582789c487f	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 70歳代/同居人あり（人）	0		honpen p.9				
+354694c15af30334	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 70歳代/同居人なし（人）	0		honpen p.9				
+ec315db5218c48c2	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 70歳代/同居人あり（%）	0.0		honpen p.9				
+b33fad5ae7ff64fa	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 70歳代/同居人なし（%）	0.0		honpen p.9				
+79563e406576be3a	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 80歳以上/同居人あり（人）	3		honpen p.9				
+572763de1fc23c2d	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 80歳以上/同居人なし（人）	1		honpen p.9				
+a207f6d1eb2f035e	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 80歳以上/同居人あり（%）	27.3		honpen p.9				
+b51418fc10ee1666	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	男性 80歳以上/同居人なし（%）	9.1		honpen p.9				
+fa43a0478ecb649f	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 60歳代/同居人あり（人）	3		honpen p.9				
+b013344b5ac8f5fd	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 60歳代/同居人なし（人）	0		honpen p.9				
+cfe29282f31b93e7	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 60歳代/同居人あり（%）	27.3		honpen p.9				
+a5330b9774ad2185	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 60歳代/同居人なし（%）	0.0		honpen p.9				
+cd682f0dce1608ee	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 70歳代/同居人あり（人）	2		honpen p.9				
+c21d0cbf16d0b6f5	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 70歳代/同居人なし（人）	1		honpen p.9				
+bdf37a4c79458332	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 70歳代/同居人あり（%）	18.2		honpen p.9				
+255e4bd859309097	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 70歳代/同居人なし（%）	9.1		honpen p.9				
+dfe97d002b75abec	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 80歳以上/同居人あり（人）	1		honpen p.9				
+0822d9e9c63aa613	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 80歳以上/同居人なし（人）	0		honpen p.9				
+d4cc511756be0fa6	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 80歳以上/同居人あり（%）	9.1		honpen p.9				
+6f4bb27d921bd03f	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	女性 80歳以上/同居人なし（%）	0.0		honpen p.9				
+2b7209b14583d7e5	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	合計/同居人あり（人）	9		honpen p.9				
+bc626020b5ed3244	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	合計/同居人なし（人）	2		honpen p.9				
+1e54ea85ff0bccac	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	合計/同居人あり（%）	81.8		honpen p.9				
+b6bb65c1754265c4	genjo	28	table	日野町の60歳以上の自殺（同居人の有無別）	合計/同居人なし（%）	18.2		honpen p.9				
+4f843abe040abc22	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	日野町/60歳以上の自殺者（人）	11		honpen p.9				
+352464d64a6c67a3	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	日野町/同居人あり（人）	9		honpen p.9				
+4728de0658202db4	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	日野町/同居人あり（%）	81.8		honpen p.9				
+1458771d48db8cb4	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	日野町/同居人なし（%）	18.2		honpen p.9				
+a195440d96cc182c	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	滋賀県/60歳以上の自殺者（人）	400		honpen p.9				
+1b38a389a844955e	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	滋賀県/同居人あり（人）	288		honpen p.9				
+5bfd0228da7010e1	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	滋賀県/同居人あり（%）	72.0		honpen p.9				
+687a15c15d5e4a2d	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	滋賀県/同居人なし（%）	28.0		honpen p.9				
+b182a825365c67ac	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	全国/60歳以上の自殺者（人）	39943		honpen p.9				
+f3003eb7b13be455	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	全国/同居人あり（人）	25901		honpen p.9				
+3cce413bb7173ba8	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	全国/同居人あり（%）	64.8		honpen p.9				
+768604feba776cbf	genjo	29	table	60歳以上の自殺のうち同居人ありの割合（比較）	全国/同居人なし（%）	35.2		honpen p.9				
+65e7119a875a2e06	shisaku	5	programs	基本施策	事業数	30	件	honpen p.15-20				
+45262f79b0ab5f93	shisaku	6	programs	基本施策	事業数	15	件	honpen p.21-23				
+52ad2ffa0e08bf75	shisaku	7	programs	基本施策	事業数	17	件	honpen p.24-26				
+bbd1dda5613ba9ba	shisaku	8	programs	基本施策	事業数	79	件	honpen p.27-39				
+ec6e4d7d376d97e6	shisaku	9	programs	基本施策	事業数	9	件	honpen p.40-41				
+ff99ba3871b1f43e	mokuhyo	4	table	自殺者数・自殺死亡率の実績と目標	第1期計画 自殺統計（H25～H29）/自殺者数（人）	26		honpen p.44				
+0749ce5d5bfe71ff	mokuhyo	4	table	自殺者数・自殺死亡率の実績と目標	第1期計画 自殺統計（H25～H29）/自殺死亡率	23.4		honpen p.44				
+e8bc45b2db3c85e9	mokuhyo	4	table	自殺者数・自殺死亡率の実績と目標	第2期計画 自殺統計【実績】（H30～R4）/自殺者数（人）	24		honpen p.44				
+e0f5072a3096b748	mokuhyo	4	table	自殺者数・自殺死亡率の実績と目標	第2期計画 自殺統計【実績】（H30～R4）/自殺死亡率	22.4		honpen p.44	✓	auto:pdftext	2026-10-10	
+5c00d6a8ccf8c6f0	mokuhyo	5	target.base	自殺者数・自殺死亡率	自殺死亡率（目標は13.0以下）	22.4	人/10万人	honpen p.44				
+ef255b833ee1e384	mokuhyo	5	target.target	自殺者数・自殺死亡率	自殺死亡率（目標は13.0以下）	13.0	人/10万人	honpen p.44				
+15858ea419b85233	mokuhyo	5	target.base	自殺者数・自殺死亡率	自殺者数（目標は14人以下）	24	人	honpen p.44				
+e11bbcee9c6a7795	mokuhyo	5	target.target	自殺者数・自殺死亡率	自殺者数（目標は14人以下）	14	人	honpen p.44				
+a5b2145f9b153eb6	mokuhyo	8	table	第1期計画の実績	ゲートキーパー養成講座（回）/R1	2		honpen p.44				
+74c2e03f08cf9477	mokuhyo	8	table	第1期計画の実績	ゲートキーパー養成講座（回）/R2	0		honpen p.44				
+ad7985b3667c4c83	mokuhyo	8	table	第1期計画の実績	ゲートキーパー養成講座（回）/R3	0		honpen p.44				
+80dec91346a88036	mokuhyo	8	table	第1期計画の実績	ゲートキーパー養成講座（回）/R4	0		honpen p.44				
+63000a8337cb5bdd	mokuhyo	8	table	第1期計画の実績	ゲートキーパー養成講座（回）/R5	0		honpen p.44	✓	auto:pdftext	2026-10-10	
+613e8ac3d8a37276	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	子育てボランティア登録数/現状	24		honpen p.45				
+66a2d8dae85aa465	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	子育てボランティア登録数/R7目標	25		honpen p.45				
+b3789f8e527b7577	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	子育てサポーター数/現状	10		honpen p.45				
+a05769aef5d1b789	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	子育てサポーター数/R7目標	10		honpen p.45				
+7b3fa0d3a1e57580	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	カルチャー教室参加者数/現状	161		honpen p.45				
+cf1cf14a65912539	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	カルチャー教室参加者数/R7目標	170		honpen p.45				
+3863454c11747673	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	居場所利用人数（ひきこもり支援）/現状	14		honpen p.45				
+ce732a4e3da4dc6e	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	居場所利用人数（ひきこもり支援）/R7目標	7		honpen p.45				
+26bc7ecffe644e16	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	特定健診受診率/現状	39.30		honpen p.45				
+c992843b85ebd7c9	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	特定健診受診率/R7目標	41.00		honpen p.45				
+b3a5d31ddd559bc5	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	高齢者サロン開催団体数/現状	13		honpen p.45				
+e128de4243bc5c63	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	高齢者サロン開催団体数/R7目標	24		honpen p.45				
+9ea4709abd3f9b2c	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	介護予防ボランティア養成数（延べ）/現状	339		honpen p.45				
+6ebbb7adc33ff486	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	介護予防ボランティア養成数（延べ）/R7目標	385		honpen p.45				
+0a749f4e3e14e628	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	刑法犯認知件数/現状	81		honpen p.45				
+323471cdf5053a6f	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	刑法犯認知件数/R7目標	55		honpen p.45				
+c4f2ed99c4a74ef0	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	消費相談件数/現状	45		honpen p.45				
+d92b45a8ca4dfc80	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	消費相談件数/R7目標	45		honpen p.45				
+a4a0d39060e74fed	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	交通事故件数/現状	22		honpen p.45				
+e270ef486aa4840e	mokuhyo	12	table	日野町くらし安心ひとづくり総合戦略の数値目標	交通事故件数/R7目標	21		honpen p.45				

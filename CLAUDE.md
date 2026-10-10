@@ -163,6 +163,7 @@ python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.wor
 #   ブラウザで開くときはフルパス(file:///…)で開く。ツールが表示する「ブラウザで開く:」の行をそのまま使える
 #   ブラウザで原典と突合し「台帳形式でエクスポート」(印は下書き。台帳が正)
 python3 tools/audit_worksheet.py <id> --import <file> # 検証(行の一致・key・checked)して台帳を上書き
+python3 tools/audit_worksheet.py <id> --sync          # 文章ブロックを足してブロック番号だけずれたとき(検収の印はそのまま)
 git commit
 ```
 

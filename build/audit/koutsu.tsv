@@ -204,128 +204,128 @@ chiiki	25	table	自家用車での送迎	合計/送迎している方（人）	1
 chiiki	25	table	自家用車での送迎	合計/送迎している方（%）	100.0		honpen p.12
 chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（人）	952		honpen p.12
 chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（%）	100.0		honpen p.12
-genjo	3	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	koutsu_map.jpg		honpen p.13
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期	271440	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期外	76311	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期	272160	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期外	69251	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期	267420	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期外	67812	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期	280200	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期外	68916	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期	271654	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期外	73061	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期	263169	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期外	72166	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期	206233	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期外	48877	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期	239492	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期外	52432	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期	251484	人	honpen p.14
-genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期外	61464	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H28	156527	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H29	162547	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H30	190986	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R1	234851	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R2	199153	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R3	197462	人	honpen p.14
-genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R4	207435	人	honpen p.14
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期	49680	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期外	5394	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/福祉乗車証（推計）	38271	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期	49676	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期外	5393	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/福祉乗車証（推計）	38585	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期	49680	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期外	5392	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/福祉乗車証（推計）	56862	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期	45299	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期外	5744	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/福祉乗車証（推計）	41250	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期	45227	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期外	6262	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/福祉乗車証（推計）	29253	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期	45226	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期外	3858	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/福祉乗車証（推計）	22900	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期	43702	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期外	4469	人	honpen p.15
-genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/福祉乗車証（推計）	30920	人	honpen p.15
-genjo	14	table	日野町営バス	桜川線/平日：一般	14		honpen p.15
-genjo	14	table	日野町営バス	桜川線/平日：小学生	76		honpen p.15
-genjo	14	table	日野町営バス	桜川線/平日：計	90		honpen p.15
-genjo	14	table	日野町営バス	桜川線/土曜日：一般	7		honpen p.15
-genjo	14	table	日野町営バス	平子・西明寺線/平日：一般	36		honpen p.15
-genjo	14	table	日野町営バス	平子・西明寺線/平日：小学生	7		honpen p.15
-genjo	14	table	日野町営バス	平子・西明寺線/平日：計	43		honpen p.15
-genjo	14	table	日野町営バス	平子・西明寺線/土曜日：一般	8		honpen p.15
-genjo	14	table	日野町営バス	鎌掛線/平日：一般	64		honpen p.15
-genjo	14	table	日野町営バス	鎌掛線/平日：小学生	7		honpen p.15
-genjo	14	table	日野町営バス	鎌掛線/平日：計	71		honpen p.15
-genjo	14	table	日野町営バス	鎌掛線/土曜日：一般	14		honpen p.15
-genjo	14	table	日野町営バス	湖南サンライズ線/平日：一般	9		honpen p.15
-genjo	14	table	日野町営バス	湖南サンライズ線/平日：計	9		honpen p.15
-genjo	14	table	日野町営バス	湖南サンライズ線/土曜日：一般	7		honpen p.15
-genjo	14	table	日野町営バス	南比線/平日：一般	4		honpen p.15
-genjo	14	table	日野町営バス	南比線/平日：計	4		honpen p.15
-genjo	14	table	日野町営バス	中山線/平日：一般	1		honpen p.15
-genjo	14	table	日野町営バス	中山線/平日：計	1		honpen p.15
-genjo	17	table	タクシー	平成27年度/輸送人員（千人）	664		honpen p.16
-genjo	17	table	タクシー	平成27年度/営業収入（百万円）	815		honpen p.16
-genjo	17	table	タクシー	平成28年度/輸送人員（千人）	657		honpen p.16
-genjo	17	table	タクシー	平成28年度/営業収入（百万円）	794		honpen p.16
-genjo	17	table	タクシー	平成29年度/輸送人員（千人）	659		honpen p.16
-genjo	17	table	タクシー	平成29年度/営業収入（百万円）	800		honpen p.16
-genjo	17	table	タクシー	平成30年度/輸送人員（千人）	630		honpen p.16
-genjo	17	table	タクシー	平成30年度/営業収入（百万円）	777		honpen p.16
-genjo	17	table	タクシー	令和元年度/輸送人員（千人）	545		honpen p.16
-genjo	17	table	タクシー	令和元年度/営業収入（百万円）	688		honpen p.16
-genjo	17	table	タクシー	令和2年度/輸送人員（千人）	300		honpen p.16
-genjo	17	table	タクシー	令和2年度/営業収入（百万円）	380		honpen p.16
-genjo	17	table	タクシー	令和3年度/輸送人員（千人）	324		honpen p.16
-genjo	17	table	タクシー	令和3年度/営業収入（百万円）	427		honpen p.16
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	3月/利用件数	304		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	3月/1日当たり利用件数	13.8		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	4月/利用件数	417		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	4月/1日当たり利用件数	20.8		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	5月/利用件数	433		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	5月/1日当たり利用件数	21.6		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	6月/利用件数	457		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	6月/1日当たり利用件数	20.7		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	7月/利用件数	476		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	7月/1日当たり利用件数	23.8		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	8月/利用件数	454		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	8月/1日当たり利用件数	20.6		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	9月/利用件数	563		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	9月/1日当たり利用件数	28.2		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	10月/利用件数	467		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	10月/1日当たり利用件数	22.2		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	11月/利用件数	442		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	11月/1日当たり利用件数	21.6		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	12月/利用件数	445		honpen p.17
-genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	12月/1日当たり利用件数	21.6		honpen p.17
-genjo	24	table	公的資金の投入状況	平成24年度/支出額（千円）	54097		honpen p.18
-genjo	24	table	公的資金の投入状況	平成24年度/うち日野町営バス（千円）	44052		honpen p.18
-genjo	24	table	公的資金の投入状況	平成25年度/支出額（千円）	53733		honpen p.18
-genjo	24	table	公的資金の投入状況	平成25年度/うち日野町営バス（千円）	45730		honpen p.18
-genjo	24	table	公的資金の投入状況	平成26年度/支出額（千円）	59979		honpen p.18
-genjo	24	table	公的資金の投入状況	平成26年度/うち日野町営バス（千円）	50146		honpen p.18
-genjo	24	table	公的資金の投入状況	平成27年度/支出額（千円）	56821		honpen p.18
-genjo	24	table	公的資金の投入状況	平成27年度/うち日野町営バス（千円）	49375		honpen p.18
-genjo	24	table	公的資金の投入状況	平成28年度/支出額（千円）	58128		honpen p.18
-genjo	24	table	公的資金の投入状況	平成28年度/うち日野町営バス（千円）	49442		honpen p.18
-genjo	24	table	公的資金の投入状況	平成29年度/支出額（千円）	61382		honpen p.18
-genjo	24	table	公的資金の投入状況	平成29年度/うち日野町営バス（千円）	51167		honpen p.18
-genjo	24	table	公的資金の投入状況	平成30年度/支出額（千円）	65929		honpen p.18
-genjo	24	table	公的資金の投入状況	平成30年度/うち日野町営バス（千円）	53384		honpen p.18
-genjo	24	table	公的資金の投入状況	令和元年度/支出額（千円）	77537		honpen p.18
-genjo	24	table	公的資金の投入状況	令和元年度/うち日野町営バス（千円）	56434		honpen p.18
-genjo	24	table	公的資金の投入状況	令和2年度/支出額（千円）	90492		honpen p.18
-genjo	24	table	公的資金の投入状況	令和2年度/うち日野町営バス（千円）	60226		honpen p.18
-genjo	24	table	公的資金の投入状況	令和3年度/支出額（千円）	84521		honpen p.18
-genjo	24	table	公的資金の投入状況	令和3年度/うち日野町営バス（千円）	57004		honpen p.18
-genjo	24	table	公的資金の投入状況	令和4年度/支出額（千円）	110057		honpen p.18
-genjo	24	table	公的資金の投入状況	令和4年度/うち日野町営バス（千円）	57216		honpen p.18
+genjo	4	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	koutsu_map.jpg		honpen p.13
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期	271440	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期外	76311	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期	272160	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期外	69251	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期	267420	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期外	67812	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期	280200	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期外	68916	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期	271654	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期外	73061	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期	263169	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期外	72166	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期	206233	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期外	48877	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期	239492	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期外	52432	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期	251484	人	honpen p.14
+genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期外	61464	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H28	156527	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H29	162547	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H30	190986	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R1	234851	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R2	199153	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R3	197462	人	honpen p.14
+genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R4	207435	人	honpen p.14
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期	49680	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期外	5394	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/福祉乗車証（推計）	38271	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期	49676	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期外	5393	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/福祉乗車証（推計）	38585	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期	49680	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期外	5392	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/福祉乗車証（推計）	56862	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期	45299	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期外	5744	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/福祉乗車証（推計）	41250	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期	45227	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期外	6262	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/福祉乗車証（推計）	29253	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期	45226	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期外	3858	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/福祉乗車証（推計）	22900	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期	43702	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期外	4469	人	honpen p.15
+genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/福祉乗車証（推計）	30920	人	honpen p.15
+genjo	15	table	日野町営バス	桜川線/平日：一般	14		honpen p.15
+genjo	15	table	日野町営バス	桜川線/平日：小学生	76		honpen p.15
+genjo	15	table	日野町営バス	桜川線/平日：計	90		honpen p.15
+genjo	15	table	日野町営バス	桜川線/土曜日：一般	7		honpen p.15
+genjo	15	table	日野町営バス	平子・西明寺線/平日：一般	36		honpen p.15
+genjo	15	table	日野町営バス	平子・西明寺線/平日：小学生	7		honpen p.15
+genjo	15	table	日野町営バス	平子・西明寺線/平日：計	43		honpen p.15
+genjo	15	table	日野町営バス	平子・西明寺線/土曜日：一般	8		honpen p.15
+genjo	15	table	日野町営バス	鎌掛線/平日：一般	64		honpen p.15
+genjo	15	table	日野町営バス	鎌掛線/平日：小学生	7		honpen p.15
+genjo	15	table	日野町営バス	鎌掛線/平日：計	71		honpen p.15
+genjo	15	table	日野町営バス	鎌掛線/土曜日：一般	14		honpen p.15
+genjo	15	table	日野町営バス	湖南サンライズ線/平日：一般	9		honpen p.15
+genjo	15	table	日野町営バス	湖南サンライズ線/平日：計	9		honpen p.15
+genjo	15	table	日野町営バス	湖南サンライズ線/土曜日：一般	7		honpen p.15
+genjo	15	table	日野町営バス	南比線/平日：一般	4		honpen p.15
+genjo	15	table	日野町営バス	南比線/平日：計	4		honpen p.15
+genjo	15	table	日野町営バス	中山線/平日：一般	1		honpen p.15
+genjo	15	table	日野町営バス	中山線/平日：計	1		honpen p.15
+genjo	18	table	タクシー	平成27年度/輸送人員（千人）	664		honpen p.16
+genjo	18	table	タクシー	平成27年度/営業収入（百万円）	815		honpen p.16
+genjo	18	table	タクシー	平成28年度/輸送人員（千人）	657		honpen p.16
+genjo	18	table	タクシー	平成28年度/営業収入（百万円）	794		honpen p.16
+genjo	18	table	タクシー	平成29年度/輸送人員（千人）	659		honpen p.16
+genjo	18	table	タクシー	平成29年度/営業収入（百万円）	800		honpen p.16
+genjo	18	table	タクシー	平成30年度/輸送人員（千人）	630		honpen p.16
+genjo	18	table	タクシー	平成30年度/営業収入（百万円）	777		honpen p.16
+genjo	18	table	タクシー	令和元年度/輸送人員（千人）	545		honpen p.16
+genjo	18	table	タクシー	令和元年度/営業収入（百万円）	688		honpen p.16
+genjo	18	table	タクシー	令和2年度/輸送人員（千人）	300		honpen p.16
+genjo	18	table	タクシー	令和2年度/営業収入（百万円）	380		honpen p.16
+genjo	18	table	タクシー	令和3年度/輸送人員（千人）	324		honpen p.16
+genjo	18	table	タクシー	令和3年度/営業収入（百万円）	427		honpen p.16
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	3月/利用件数	304		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	3月/1日当たり利用件数	13.8		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	4月/利用件数	417		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	4月/1日当たり利用件数	20.8		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	5月/利用件数	433		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	5月/1日当たり利用件数	21.6		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	6月/利用件数	457		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	6月/1日当たり利用件数	20.7		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	7月/利用件数	476		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	7月/1日当たり利用件数	23.8		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	8月/利用件数	454		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	8月/1日当たり利用件数	20.6		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	9月/利用件数	563		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	9月/1日当たり利用件数	28.2		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	10月/利用件数	467		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	10月/1日当たり利用件数	22.2		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	11月/利用件数	442		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	11月/1日当たり利用件数	21.6		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	12月/利用件数	445		honpen p.17
+genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	12月/1日当たり利用件数	21.6		honpen p.17
+genjo	25	table	公的資金の投入状況	平成24年度/支出額（千円）	54097		honpen p.18
+genjo	25	table	公的資金の投入状況	平成24年度/うち日野町営バス（千円）	44052		honpen p.18
+genjo	25	table	公的資金の投入状況	平成25年度/支出額（千円）	53733		honpen p.18
+genjo	25	table	公的資金の投入状況	平成25年度/うち日野町営バス（千円）	45730		honpen p.18
+genjo	25	table	公的資金の投入状況	平成26年度/支出額（千円）	59979		honpen p.18
+genjo	25	table	公的資金の投入状況	平成26年度/うち日野町営バス（千円）	50146		honpen p.18
+genjo	25	table	公的資金の投入状況	平成27年度/支出額（千円）	56821		honpen p.18
+genjo	25	table	公的資金の投入状況	平成27年度/うち日野町営バス（千円）	49375		honpen p.18
+genjo	25	table	公的資金の投入状況	平成28年度/支出額（千円）	58128		honpen p.18
+genjo	25	table	公的資金の投入状況	平成28年度/うち日野町営バス（千円）	49442		honpen p.18
+genjo	25	table	公的資金の投入状況	平成29年度/支出額（千円）	61382		honpen p.18
+genjo	25	table	公的資金の投入状況	平成29年度/うち日野町営バス（千円）	51167		honpen p.18
+genjo	25	table	公的資金の投入状況	平成30年度/支出額（千円）	65929		honpen p.18
+genjo	25	table	公的資金の投入状況	平成30年度/うち日野町営バス（千円）	53384		honpen p.18
+genjo	25	table	公的資金の投入状況	令和元年度/支出額（千円）	77537		honpen p.18
+genjo	25	table	公的資金の投入状況	令和元年度/うち日野町営バス（千円）	56434		honpen p.18
+genjo	25	table	公的資金の投入状況	令和2年度/支出額（千円）	90492		honpen p.18
+genjo	25	table	公的資金の投入状況	令和2年度/うち日野町営バス（千円）	60226		honpen p.18
+genjo	25	table	公的資金の投入状況	令和3年度/支出額（千円）	84521		honpen p.18
+genjo	25	table	公的資金の投入状況	令和3年度/うち日野町営バス（千円）	57004		honpen p.18
+genjo	25	table	公的資金の投入状況	令和4年度/支出額（千円）	110057		honpen p.18
+genjo	25	table	公的資金の投入状況	令和4年度/うち日野町営バス（千円）	57216		honpen p.18
 shisaku	3	programs	地域公共交通の活性化施策	事業数	19	件	honpen p.34-41
 mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道線日野駅利用者数/現状値	312948		honpen p.42
 mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道線日野駅利用者数/目標値（令和10年度）	328000		honpen p.42

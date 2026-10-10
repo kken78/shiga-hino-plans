@@ -1,0 +1,530 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+448c064bb278141f	summary	1	target.base		主任級以上の女性職員割合（町長部局等）	34.1	%	honpen p.12	✓	auto:ai	2026-10-10	
+811a43da559e6432	summary	1	target.target		主任級以上の女性職員割合（町長部局等）	37	%	honpen p.12	✓	auto:ai	2026-10-10	
+cb073a36cc6fc0c4	summary	1	target.base		管理職の女性職員割合（町長部局等）	23.9	%	honpen p.12	✓	auto:ai	2026-10-10	
+1eb1922a93a2ca92	summary	1	target.target		管理職の女性職員割合（町長部局等）	25	%	honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+3a438dba93fc3e75	summary	1	target.base		職員の年次休暇の平均取得日数（町長部局等）	10.7	日	honpen p.12	✓	auto:ai	2026-10-10	
+bd3d8d871565e1ac	summary	1	target.target		職員の年次休暇の平均取得日数（町長部局等）	12	日	honpen p.12	✓	auto:ai	2026-10-10	
+a7ad04245f30ae72	summary	1	target.base		職員一人当たりの年間平均時間外勤務時間数（町長部局等）	21.1	時間	honpen p.12	✓	auto:ai	2026-10-10	
+222d2cc6632c3667	summary	1	target.target		職員一人当たりの年間平均時間外勤務時間数（町長部局等）	15	時間	honpen p.12	✓	auto:ai	2026-10-10	
+c5b6cf1e2caee6b3	summary	2	kpi		男性職員の育児休業取得率	50.0	%	honpen p.2	✓	auto:ai	2026-10-10	
+96da39410db3099c	summary	2	kpi		妻の出産補助休暇取得率	50.0	%	honpen p.2	✓	auto:ai	2026-10-10	
+008922874955034d	summary	2	kpi		男性職員の育児参加のための休暇取得率	0.0	%	honpen p.2				要人確認:H1 A=一致/中 B=一致/中
+95decfbc534fe450	summary	2	kpi		年次有給休暇の取得日数5日未満の職員割合	25.6	%	honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+c25267fdbfe1e411	mokuhyo	3	target.base	町長部局等の目標	主任級以上の女性職員割合（町長部局等）	34.1	%	honpen p.12	✓	auto:ai	2026-10-10	
+55328b385045ba14	mokuhyo	3	target.target	町長部局等の目標	主任級以上の女性職員割合（町長部局等）	37	%	honpen p.12	✓	auto:ai	2026-10-10	
+ee5c3e6deb1a1064	mokuhyo	3	target.base	町長部局等の目標	管理職の女性職員割合（町長部局等）	23.9	%	honpen p.12	✓	auto:ai	2026-10-10	
+5c90155267b5aa12	mokuhyo	3	target.target	町長部局等の目標	管理職の女性職員割合（町長部局等）	25	%	honpen p.12	✓	auto:ai	2026-10-10	
+107e121f1df81657	mokuhyo	3	target.base	町長部局等の目標	職員の年次休暇の平均取得日数（町長部局等）	10.7	日	honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+8293aededd20a637	mokuhyo	3	target.target	町長部局等の目標	職員の年次休暇の平均取得日数（町長部局等）	12	日	honpen p.12	✓	auto:ai	2026-10-10	
+3d3d16b0198f4d86	mokuhyo	3	target.base	町長部局等の目標	職員一人当たりの年間平均時間外勤務時間数（町長部局等）	21.1	時間	honpen p.12	✓	auto:ai	2026-10-10	
+3a597d5357b21b50	mokuhyo	3	target.target	町長部局等の目標	職員一人当たりの年間平均時間外勤務時間数（町長部局等）	15	時間	honpen p.12	✓	auto:ai	2026-10-10	
+dc01a9fbcfd9ad05	mokuhyo	4	table	現状値が目標の文に書かれていない目標（令和11年度末）	年次有給休暇の取得日数5日未満の職員割合/目標値	0		honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+548a906f792e2cba	mokuhyo	4	table	現状値が目標の文に書かれていない目標（令和11年度末）	男性職員の育児参加のための休暇取得率/目標値	30		honpen p.12	✓	auto:ai	2026-10-10	
+c48bed6ababba2c9	mokuhyo	4	table	現状値が目標の文に書かれていない目標（令和11年度末）	妻の出産補助休暇取得率/目標値	100		honpen p.12	✓	auto:ai	2026-10-10	
+4404654b2553ab3a	mokuhyo	4	table	現状値が目標の文に書かれていない目標（令和11年度末）	男性職員の育児休業の取得率/目標値	80		honpen p.12	✓	auto:ai	2026-10-10	
+aa826441f84ff586	mokuhyo	8	table	中部清掃組合の目標①（令和11年度末）	男性職員の育児参加のための休暇取得率/目標値	15		honpen p.12	✓	auto:ai	2026-10-10	
+39a9115096c37694	mokuhyo	8	table	中部清掃組合の目標①（令和11年度末）	妻の出産補助休暇取得率/目標値	100		honpen p.12	✓	auto:ai	2026-10-10	
+27bf42ee97695e49	mokuhyo	8	table	中部清掃組合の目標①（令和11年度末）	男性職員の育児休業の取得率/目標値	80		honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+54b5ac5c382e3221	mokuhyo	9	target.base	中部清掃組合の目標	職員一人当たりの年間平均時間外勤務時間数（中部清掃組合）	9.0	時間	honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+796be5d350b7cbab	mokuhyo	9	target.target	中部清掃組合の目標	職員一人当たりの年間平均時間外勤務時間数（中部清掃組合）	9.0	時間	honpen p.13	✓	auto:ai	2026-10-10	
+e3af47a7fcb8fcbc	torikumi	3	programs	職員の勤務環境の整備に関する取組み	事業数	6	件	honpen p.14-15				要人確認:H1 A=一致/中 B=一致/中
+dc0995fe5ec0ae29	hyoka	3	table	前計画の数値目標の達成状況	①主任級以上の女性職員割合（%）/R2（基準）	32.2		honpen p.2	✓	auto:pdftext	2026-10-10	
+51a78080786698bb	hyoka	3	table	前計画の数値目標の達成状況	①主任級以上の女性職員割合（%）/R4	38.9		honpen p.2	✓	auto:pdftext	2026-10-10	
+ef89f320b4c2ac7a	hyoka	3	table	前計画の数値目標の達成状況	①主任級以上の女性職員割合（%）/R5	35.5		honpen p.2	✓	auto:pdftext	2026-10-10	
+d9cffd4ce85c7504	hyoka	3	table	前計画の数値目標の達成状況	①主任級以上の女性職員割合（%）/R6	34.1		honpen p.2	✓	auto:pdftext	2026-10-10	
+808818641b3443e0	hyoka	3	table	前計画の数値目標の達成状況	②管理職の女性職員割合（%）/R2（基準）	21.4		honpen p.2	✓	auto:pdftext	2026-10-10	
+47fa7b2ba775277a	hyoka	3	table	前計画の数値目標の達成状況	②管理職の女性職員割合（%）/R4	21.7		honpen p.2	✓	auto:pdftext	2026-10-10	
+012bfc2a2a0e6b89	hyoka	3	table	前計画の数値目標の達成状況	②管理職の女性職員割合（%）/R5	22.9		honpen p.2	✓	auto:pdftext	2026-10-10	
+d3395057b1ada249	hyoka	3	table	前計画の数値目標の達成状況	②管理職の女性職員割合（%）/R6	23.9		honpen p.2	✓	auto:pdftext	2026-10-10	
+a8e40c7012e15bb8	hyoka	3	table	前計画の数値目標の達成状況	③年次有給休暇平均取得日数（日）/R2（基準）	7.7		honpen p.2	✓	auto:pdftext	2026-10-10	
+4c411784c0c2770b	hyoka	3	table	前計画の数値目標の達成状況	③年次有給休暇平均取得日数（日）/R4	8.8		honpen p.2	✓	auto:pdftext	2026-10-10	
+212699f01f86ee24	hyoka	3	table	前計画の数値目標の達成状況	③年次有給休暇平均取得日数（日）/R5	10.2		honpen p.2	✓	auto:pdftext	2026-10-10	
+cf238965a6ee05c6	hyoka	3	table	前計画の数値目標の達成状況	③年次有給休暇平均取得日数（日）/R6	10.7		honpen p.2	✓	auto:pdftext	2026-10-10	
+bf7e4b0b35e5179c	hyoka	3	table	前計画の数値目標の達成状況	④年次有給休暇取得日数5日未満職員割合（%）/R2（基準）	36.4		honpen p.2	✓	auto:pdftext	2026-10-10	
+181c9c3387c3a08b	hyoka	3	table	前計画の数値目標の達成状況	④年次有給休暇取得日数5日未満職員割合（%）/R4	34.4		honpen p.2	✓	auto:ai	2026-10-10	
+52ae117d9f7d1073	hyoka	3	table	前計画の数値目標の達成状況	④年次有給休暇取得日数5日未満職員割合（%）/R5	27.5		honpen p.2	✓	auto:ai	2026-10-10	
+efa9dfd9813b59d5	hyoka	3	table	前計画の数値目標の達成状況	④年次有給休暇取得日数5日未満職員割合（%）/R6	25.6		honpen p.2	✓	auto:ai	2026-10-10	
+3274211138fbc7a5	hyoka	3	table	前計画の数値目標の達成状況	⑤男性職員の育児参加のための休暇取得率（%）/R2（基準）	0.0		honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+7ef8e9e821d7573f	hyoka	3	table	前計画の数値目標の達成状況	⑤男性職員の育児参加のための休暇取得率（%）/R4	0.0		honpen p.2	✓	auto:ai	2026-10-10	
+1f4eb0b7fd377785	hyoka	3	table	前計画の数値目標の達成状況	⑤男性職員の育児参加のための休暇取得率（%）/R5	20.0		honpen p.2	✓	auto:ai	2026-10-10	
+376b576d2fab5c9a	hyoka	3	table	前計画の数値目標の達成状況	⑤男性職員の育児参加のための休暇取得率（%）/R6	0.0		honpen p.2	✓	auto:ai	2026-10-10	
+af93cb594db7b9cd	hyoka	3	table	前計画の数値目標の達成状況	⑥妻の出産補助休暇取得率（%）/R2（基準）	85.7		honpen p.2	✓	auto:ai	2026-10-10	
+5a11212205651841	hyoka	3	table	前計画の数値目標の達成状況	⑥妻の出産補助休暇取得率（%）/R4	40.0		honpen p.2	✓	auto:ai	2026-10-10	
+c4766ffd1f5198ec	hyoka	3	table	前計画の数値目標の達成状況	⑥妻の出産補助休暇取得率（%）/R5	60.0		honpen p.2	✓	auto:ai	2026-10-10	
+0c096917ca6c773f	hyoka	3	table	前計画の数値目標の達成状況	⑥妻の出産補助休暇取得率（%）/R6	50.0		honpen p.2	✓	auto:ai	2026-10-10	
+b4c097e6cedc84c0	hyoka	3	table	前計画の数値目標の達成状況	⑦男性職員の育児休業取得率（%）/R2（基準）	0.0		honpen p.2	✓	auto:ai	2026-10-10	
+b8449fc95b8bf00e	hyoka	3	table	前計画の数値目標の達成状況	⑦男性職員の育児休業取得率（%）/R4	0.0		honpen p.2	✓	auto:ai	2026-10-10	
+f10c489071fc3421	hyoka	3	table	前計画の数値目標の達成状況	⑦男性職員の育児休業取得率（%）/R5	0.0		honpen p.2	✓	auto:ai	2026-10-10	
+7b7874528a93ec6c	hyoka	3	table	前計画の数値目標の達成状況	⑦男性職員の育児休業取得率（%）/R6	50.0		honpen p.2	✓	auto:ai	2026-10-10	
+956a43e395b9ff7e	hyoka	5	chart.line	女性職員の割合の推移	主任級以上の女性職員割合/R2	32.2	%	honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+34c83921538af97f	hyoka	5	chart.line	女性職員の割合の推移	主任級以上の女性職員割合/R4	38.9	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+bcd5630b2779901b	hyoka	5	chart.line	女性職員の割合の推移	主任級以上の女性職員割合/R5	35.5	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+b3fe2707ed2394ae	hyoka	5	chart.line	女性職員の割合の推移	主任級以上の女性職員割合/R6	34.1	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+4b82ba39939a4e36	hyoka	5	chart.line	女性職員の割合の推移	管理職の女性職員割合/R2	21.4	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+c5a08022ac69cb48	hyoka	5	chart.line	女性職員の割合の推移	管理職の女性職員割合/R4	21.7	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+06240106337d97de	hyoka	5	chart.line	女性職員の割合の推移	管理職の女性職員割合/R5	22.9	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+c8d70c077f927ce6	hyoka	5	chart.line	女性職員の割合の推移	管理職の女性職員割合/R6	23.9	%	honpen p.2	✓	auto:pdftext	2026-10-10	
+eee1879ac74c2ffc	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R2	7.7	日	honpen p.2	✓	auto:ai	2026-10-10	
+ec9a86a49c36ad17	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R4	8.8	日	honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+c825d5ba43e53da8	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R5	10.2	日	honpen p.2	✓	auto:ai	2026-10-10	
+be4ebdc62ed47214	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R6	10.7	日	honpen p.2	✓	auto:ai	2026-10-10	
+8891b52217bcda20	hyoka	10	table	中部清掃組合の数値目標に係る進捗状況	男性職員の育児参加のための休暇取得率（%）/R2（基準）	0.0		sincyokur6 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+e0cb29f4aa6c93bf	hyoka	10	table	中部清掃組合の数値目標に係る進捗状況	妻の出産補助休暇取得率（%）/R2（基準）	0.0		sincyokur6 p.1	✓	auto:ai	2026-10-10	
+62dcba3ca392ba1e	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/行政職・一般事務・社会福祉士・保健師等	3		honpen p.4	✓	auto:ai	2026-10-10	
+9cf587f27b8a7180	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/保育士・教諭	0		honpen p.4	✓	auto:ai	2026-10-10	
+a5d79bf14f6e1ab6	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/労務職	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+dd10878d14079dac	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/合計	3		honpen p.4	✓	auto:ai	2026-10-10	
+73b4fe82535b0e46	genjo	4	table	女性職員の採用割合（令和6年度）	女性（人）/行政職・一般事務・社会福祉士・保健師等	3		honpen p.4	✓	auto:ai	2026-10-10	
+b4a7403b7660cd8e	genjo	4	table	女性職員の採用割合（令和6年度）	女性（人）/保育士・教諭	4		honpen p.4	✓	auto:ai	2026-10-10	
+e468aac98cd77d12	genjo	4	table	女性職員の採用割合（令和6年度）	女性（人）/労務職	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+118b022f7d44099b	genjo	4	table	女性職員の採用割合（令和6年度）	女性（人）/合計	7		honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+8863c74e4909a58e	genjo	4	table	女性職員の採用割合（令和6年度）	合計（人）/行政職・一般事務・社会福祉士・保健師等	6		honpen p.4	✓	auto:ai	2026-10-10	
+3b1dd96ac832eb63	genjo	4	table	女性職員の採用割合（令和6年度）	合計（人）/保育士・教諭	4		honpen p.4	✓	auto:ai	2026-10-10	
+f6e887c8cffd172c	genjo	4	table	女性職員の採用割合（令和6年度）	合計（人）/労務職	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+fa9ee22bd5556752	genjo	4	table	女性職員の採用割合（令和6年度）	合計（人）/合計	10		honpen p.4	✓	auto:ai	2026-10-10	
+95e45b8bf6697269	genjo	4	table	女性職員の採用割合（令和6年度）	女性割合（%）/行政職・一般事務・社会福祉士・保健師等	50.0		honpen p.4	✓	auto:ai	2026-10-10	
+87caa5fbb3d0ca51	genjo	4	table	女性職員の採用割合（令和6年度）	女性割合（%）/保育士・教諭	100.0		honpen p.4	✓	auto:ai	2026-10-10	
+1903a58d5c5f8e83	genjo	4	table	女性職員の採用割合（令和6年度）	女性割合（%）/合計	70.0		honpen p.4	✓	auto:ai	2026-10-10	
+be760968010eb36c	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	男性（年）/行政職・一般事務・社会福祉士・保健師等	20.8		honpen p.4	✓	auto:ai	2026-10-10	
+8da3c825169c5099	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	男性（年）/合計	20.8		honpen p.4	✓	auto:ai	2026-10-10	
+ae01870b0474326f	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	女性（年）/行政職・一般事務・社会福祉士・保健師等	16.5		honpen p.4	✓	auto:ai	2026-10-10	
+fb20036ec5b197b7	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	女性（年）/保育士・教諭	1		honpen p.4	✓	auto:ai	2026-10-10	
+995641e9a1be78fb	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	女性（年）/労務職	33.0		honpen p.4	✓	auto:pdftext	2026-10-10	
+cf3c05d249b516ce	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	女性（年）/合計	16.8		honpen p.4	✓	auto:ai	2026-10-10	
+6eff93efdffd860a	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	合計（年）/行政職・一般事務・社会福祉士・保健師等	18.7		honpen p.4	✓	auto:ai	2026-10-10	
+b65267704d829f66	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	合計（年）/保育士・教諭	1		honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+60717bedd62ec97b	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	合計（年）/労務職	33.0		honpen p.4	✓	auto:pdftext	2026-10-10	
+ec8aed713a630e3c	genjo	5	table	平均継続勤務年数（令和6年度末退職者）	合計（年）/合計	18.8		honpen p.4	✓	auto:ai	2026-10-10	
+6fb2528c50e9ee12	genjo	6	table	離職率（令和6年度）	男性/職員数（人）	128		honpen p.4	✓	auto:pdftext	2026-10-10	
+1084fa13b627d14d	genjo	6	table	離職率（令和6年度）	男性/離職者数（人）	7		honpen p.4	✓	auto:pdftext	2026-10-10	
+5d3f404826133413	genjo	6	table	離職率（令和6年度）	男性/離職率（%）	5.5		honpen p.4	✓	auto:pdftext	2026-10-10	
+c3a8fc1250f0e364	genjo	6	table	離職率（令和6年度）	女性/職員数（人）	106		honpen p.4	✓	auto:pdftext	2026-10-10	
+e3b1a07868d55c67	genjo	6	table	離職率（令和6年度）	女性/離職者数（人）	8		honpen p.4	✓	auto:pdftext	2026-10-10	
+6afff4bed90ede3d	genjo	6	table	離職率（令和6年度）	女性/離職率（%）	7.5		honpen p.4	✓	auto:pdftext	2026-10-10	
+cebc207b4b355fb2	genjo	6	table	離職率（令和6年度）	合計/職員数（人）	234		honpen p.4	✓	auto:pdftext	2026-10-10	
+6d9f991780da81ce	genjo	6	table	離職率（令和6年度）	合計/離職者数（人）	15		honpen p.4	✓	auto:pdftext	2026-10-10	
+934d5f456f1c7afc	genjo	6	table	離職率（令和6年度）	合計/離職率（%）	6.4		honpen p.4	✓	auto:pdftext	2026-10-10	
+13a6237f01ffda9f	genjo	7	table	離職者の年代別割合（令和6年度）	60歳以上65歳未満/男性 職員数（人）	3		honpen p.4-5	✓	auto:ai	2026-10-10	
+5381708d0a79b99c	genjo	7	table	離職者の年代別割合（令和6年度）	60歳以上65歳未満/男性 離職者数（人）	3		honpen p.4-5	✓	auto:ai	2026-10-10	
+23ab5c175061a8f5	genjo	7	table	離職者の年代別割合（令和6年度）	60歳以上65歳未満/男性 離職率（%）	100		honpen p.4-5	✓	auto:ai	2026-10-10	
+be3cd824d405fe38	genjo	7	table	離職者の年代別割合（令和6年度）	60歳以上65歳未満/女性 職員数（人）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+53989ae7947a3137	genjo	7	table	離職者の年代別割合（令和6年度）	60歳以上65歳未満/女性 離職者数（人）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+fbc7bfc2034a19b1	genjo	7	table	離職者の年代別割合（令和6年度）	60歳以上65歳未満/女性 離職率（%）	100		honpen p.4-5	✓	auto:ai	2026-10-10	
+6decfd08552712c5	genjo	7	table	離職者の年代別割合（令和6年度）	55歳以上60歳未満/男性 職員数（人）	11		honpen p.4-5	✓	auto:ai	2026-10-10	
+30896fa873430d40	genjo	7	table	離職者の年代別割合（令和6年度）	55歳以上60歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+8f065e8c0894b269	genjo	7	table	離職者の年代別割合（令和6年度）	55歳以上60歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+0cb1139538a6d6fd	genjo	7	table	離職者の年代別割合（令和6年度）	55歳以上60歳未満/女性 職員数（人）	7		honpen p.4-5	✓	auto:ai	2026-10-10	
+e19dcfc87d842392	genjo	7	table	離職者の年代別割合（令和6年度）	55歳以上60歳未満/女性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+8e6f978e35067cf3	genjo	7	table	離職者の年代別割合（令和6年度）	55歳以上60歳未満/女性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+bde854937df3a841	genjo	7	table	離職者の年代別割合（令和6年度）	50歳以上55歳未満/男性 職員数（人）	15		honpen p.4-5	✓	auto:ai	2026-10-10	
+841a3ad697921cb1	genjo	7	table	離職者の年代別割合（令和6年度）	50歳以上55歳未満/男性 離職者数（人）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+79e916646a127de7	genjo	7	table	離職者の年代別割合（令和6年度）	50歳以上55歳未満/男性 離職率（%）	6.7		honpen p.4-5	✓	auto:ai	2026-10-10	
+ed1d7663f5d33c58	genjo	7	table	離職者の年代別割合（令和6年度）	50歳以上55歳未満/女性 職員数（人）	13		honpen p.4-5	✓	auto:ai	2026-10-10	
+2930753192c8a986	genjo	7	table	離職者の年代別割合（令和6年度）	50歳以上55歳未満/女性 離職者数（人）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+b6e9408dbf529e08	genjo	7	table	離職者の年代別割合（令和6年度）	50歳以上55歳未満/女性 離職率（%）	7.7		honpen p.4-5	✓	auto:ai	2026-10-10	
+e4bdda0140e1afd9	genjo	7	table	離職者の年代別割合（令和6年度）	45歳以上50歳未満/男性 職員数（人）	17		honpen p.4-5	✓	auto:ai	2026-10-10	
+93efa202ff35ed4f	genjo	7	table	離職者の年代別割合（令和6年度）	45歳以上50歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+b11f5b61fd0d60fe	genjo	7	table	離職者の年代別割合（令和6年度）	45歳以上50歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+dbfe7d8f94fbe6ad	genjo	7	table	離職者の年代別割合（令和6年度）	45歳以上50歳未満/女性 職員数（人）	13		honpen p.4-5	✓	auto:ai	2026-10-10	
+0326e5c9101e04ce	genjo	7	table	離職者の年代別割合（令和6年度）	45歳以上50歳未満/女性 離職者数（人）	2		honpen p.4-5	✓	auto:ai	2026-10-10	
+e77bc59b28c69a1d	genjo	7	table	離職者の年代別割合（令和6年度）	45歳以上50歳未満/女性 離職率（%）	15.4		honpen p.4-5	✓	auto:ai	2026-10-10	
+0fe958cd409db981	genjo	7	table	離職者の年代別割合（令和6年度）	40歳以上45歳未満/男性 職員数（人）	18		honpen p.4-5	✓	auto:ai	2026-10-10	
+792ff4b1fe233ee7	genjo	7	table	離職者の年代別割合（令和6年度）	40歳以上45歳未満/男性 離職者数（人）	3		honpen p.4-5	✓	auto:ai	2026-10-10	
+83f3aea0451ebd98	genjo	7	table	離職者の年代別割合（令和6年度）	40歳以上45歳未満/男性 離職率（%）	16.7		honpen p.4-5	✓	auto:ai	2026-10-10	
+f7c9112edddbdaa6	genjo	7	table	離職者の年代別割合（令和6年度）	40歳以上45歳未満/女性 職員数（人）	11		honpen p.4-5	✓	auto:ai	2026-10-10	
+337e90fb75894b7a	genjo	7	table	離職者の年代別割合（令和6年度）	40歳以上45歳未満/女性 離職者数（人）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+a3f3be2912373336	genjo	7	table	離職者の年代別割合（令和6年度）	40歳以上45歳未満/女性 離職率（%）	9.1		honpen p.4-5	✓	auto:ai	2026-10-10	
+0b197f7447ac6acf	genjo	7	table	離職者の年代別割合（令和6年度）	35歳以上40歳未満/男性 職員数（人）	15		honpen p.4-5	✓	auto:ai	2026-10-10	
+f2b821272c51a137	genjo	7	table	離職者の年代別割合（令和6年度）	35歳以上40歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+514ed1e8a3a2c4e3	genjo	7	table	離職者の年代別割合（令和6年度）	35歳以上40歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+bee728ab24defcec	genjo	7	table	離職者の年代別割合（令和6年度）	35歳以上40歳未満/女性 職員数（人）	20		honpen p.4-5	✓	auto:ai	2026-10-10	
+021786f0aa8c286c	genjo	7	table	離職者の年代別割合（令和6年度）	35歳以上40歳未満/女性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+ddd7271894350be4	genjo	7	table	離職者の年代別割合（令和6年度）	35歳以上40歳未満/女性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+875138ddf1753502	genjo	7	table	離職者の年代別割合（令和6年度）	30歳以上35歳未満/男性 職員数（人）	31		honpen p.4-5	✓	auto:ai	2026-10-10	
+2a9f025c6bb41913	genjo	7	table	離職者の年代別割合（令和6年度）	30歳以上35歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+87b8d2a90962563a	genjo	7	table	離職者の年代別割合（令和6年度）	30歳以上35歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+be7da7fa11799a88	genjo	7	table	離職者の年代別割合（令和6年度）	30歳以上35歳未満/女性 職員数（人）	13		honpen p.4-5	✓	auto:ai	2026-10-10	
+80b4bf82e401f495	genjo	7	table	離職者の年代別割合（令和6年度）	30歳以上35歳未満/女性 離職者数（人）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+dc8eaf8fdd175662	genjo	7	table	離職者の年代別割合（令和6年度）	30歳以上35歳未満/女性 離職率（%）	7.7		honpen p.4-5	✓	auto:ai	2026-10-10	
+994420653a2c8ea9	genjo	7	table	離職者の年代別割合（令和6年度）	25歳以上30歳未満/男性 職員数（人）	14		honpen p.4-5	✓	auto:ai	2026-10-10	
+8d37893862dbce71	genjo	7	table	離職者の年代別割合（令和6年度）	25歳以上30歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+489a82bc03fd10cf	genjo	7	table	離職者の年代別割合（令和6年度）	25歳以上30歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+dedbad53672cb17b	genjo	7	table	離職者の年代別割合（令和6年度）	25歳以上30歳未満/女性 職員数（人）	15		honpen p.4-5	✓	auto:ai	2026-10-10	
+3917047d35881bb5	genjo	7	table	離職者の年代別割合（令和6年度）	25歳以上30歳未満/女性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+03f33f042d4defad	genjo	7	table	離職者の年代別割合（令和6年度）	25歳以上30歳未満/女性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+78e74dbdad21d355	genjo	7	table	離職者の年代別割合（令和6年度）	20歳以上25歳未満/男性 職員数（人）	4		honpen p.4-5	✓	auto:ai	2026-10-10	
+1caa0b6f5f9e4ca0	genjo	7	table	離職者の年代別割合（令和6年度）	20歳以上25歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+79b8984eab08a3a4	genjo	7	table	離職者の年代別割合（令和6年度）	20歳以上25歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+9c950cf23cc163e2	genjo	7	table	離職者の年代別割合（令和6年度）	20歳以上25歳未満/女性 職員数（人）	13		honpen p.4-5	✓	auto:ai	2026-10-10	
+a95e63e562a11df8	genjo	7	table	離職者の年代別割合（令和6年度）	20歳以上25歳未満/女性 離職者数（人）	2		honpen p.4-5	✓	auto:ai	2026-10-10	
+3a9bf9bb3529a330	genjo	7	table	離職者の年代別割合（令和6年度）	20歳以上25歳未満/女性 離職率（%）	15.4		honpen p.4-5	✓	auto:ai	2026-10-10	
+ddbcd34e813bbcbb	genjo	7	table	離職者の年代別割合（令和6年度）	20歳未満/男性 職員数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+8de56a9447b3dd85	genjo	7	table	離職者の年代別割合（令和6年度）	20歳未満/男性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+30d5d818fc505244	genjo	7	table	離職者の年代別割合（令和6年度）	20歳未満/男性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+a0915c5487e2b7bf	genjo	7	table	離職者の年代別割合（令和6年度）	20歳未満/女性 職員数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+74c14fa12bf6a6ab	genjo	7	table	離職者の年代別割合（令和6年度）	20歳未満/女性 離職者数（人）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+bde627e86fba0815	genjo	7	table	離職者の年代別割合（令和6年度）	20歳未満/女性 離職率（%）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+2134f3b7c46f64f7	genjo	9	table	管理的地位に占める女性職員の割合（令和6年4月1日現在）	男性/人数（人）	35		honpen p.5	✓	auto:ai	2026-10-10	
+0999fedf8020f58d	genjo	9	table	管理的地位に占める女性職員の割合（令和6年4月1日現在）	女性/人数（人）	11		honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+8b6c24afedaacb89	genjo	9	table	管理的地位に占める女性職員の割合（令和6年4月1日現在）	合計/人数（人）	46		honpen p.5	✓	auto:ai	2026-10-10	
+bf810be69a3477c3	genjo	10	chart.stacked100	各役職段階の男女の人数	主監級/男性	5	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+e0910c327902c4bf	genjo	10	chart.stacked100	各役職段階の男女の人数	主監級/女性	0	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+3d410a4a39e08c13	genjo	10	chart.stacked100	各役職段階の男女の人数	課長級/男性	20	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+d26ef0195b520210	genjo	10	chart.stacked100	各役職段階の男女の人数	課長級/女性	5	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+91a20fa91c42ab5a	genjo	10	chart.stacked100	各役職段階の男女の人数	課長補佐級/男性	12	人	honpen p.5	✓	auto:ai	2026-10-10	
+effb590e5cfa395a	genjo	10	chart.stacked100	各役職段階の男女の人数	課長補佐級/女性	11	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+f0b67d098a27ffcc	genjo	10	chart.stacked100	各役職段階の男女の人数	主任級/男性	23	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+de8f175683df5691	genjo	10	chart.stacked100	各役職段階の男女の人数	主任級/女性	15	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+2a8e69eb6f579386	genjo	10	chart.stacked100	各役職段階の男女の人数	主査級/男性	30	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+6f5965f4f45797b4	genjo	10	chart.stacked100	各役職段階の男女の人数	主査級/女性	29	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+504626d0dc5d0543	genjo	10	chart.stacked100	各役職段階の男女の人数	主任主事級/男性	19	人	honpen p.5	✓	auto:ai	2026-10-10	
+174600b72254805f	genjo	10	chart.stacked100	各役職段階の男女の人数	主任主事級/女性	9	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+6e481c02cd8363af	genjo	10	chart.stacked100	各役職段階の男女の人数	主事・主事補級/男性	11	人	honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+3b40720666b03ffb	genjo	10	chart.stacked100	各役職段階の男女の人数	主事・主事補級/女性	27	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+996298a7bdcd9197	genjo	10	chart.stacked100	各役職段階の男女の人数	労務職/男性	5	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+9b1e8f7433255394	genjo	10	chart.stacked100	各役職段階の男女の人数	労務職/女性	9	人	honpen p.5	✓	auto:pdftext	2026-10-10	
+68377710e6898529	genjo	11	table	各役職段階に占める女性職員の割合	主監級/男性（人）	5		honpen p.5	✓	auto:pdftext	2026-10-10	
+362bd8c09b923fb3	genjo	11	table	各役職段階に占める女性職員の割合	主監級/女性（人）	0		honpen p.5	✓	auto:pdftext	2026-10-10	
+166558bf602ef4e8	genjo	11	table	各役職段階に占める女性職員の割合	主監級/合計（人）	5		honpen p.5	✓	auto:pdftext	2026-10-10	
+fc84525a46b9440a	genjo	11	table	各役職段階に占める女性職員の割合	主監級/女性割合（%）	0.0		honpen p.5	✓	auto:ai	2026-10-10	
+f5278556e7609a3a	genjo	11	table	各役職段階に占める女性職員の割合	課長級/男性（人）	20		honpen p.5	✓	auto:pdftext	2026-10-10	
+bb2f4caa77e15f82	genjo	11	table	各役職段階に占める女性職員の割合	課長級/女性（人）	5		honpen p.5	✓	auto:pdftext	2026-10-10	
+d09f3b59eaed9535	genjo	11	table	各役職段階に占める女性職員の割合	課長級/合計（人）	25		honpen p.5	✓	auto:pdftext	2026-10-10	
+22e312b2e08f76bc	genjo	11	table	各役職段階に占める女性職員の割合	課長級/女性割合（%）	20.0		honpen p.5	✓	auto:ai	2026-10-10	
+9eda3292a8d8120e	genjo	11	table	各役職段階に占める女性職員の割合	課長級/女性職員割合の伸び率（%）	119.8		honpen p.5	✓	auto:ai	2026-10-10	
+3eb2cbdfaa98180d	genjo	11	table	各役職段階に占める女性職員の割合	課長補佐級/男性（人）	12		honpen p.5	✓	auto:pdftext	2026-10-10	
+6c28413c260ffa51	genjo	11	table	各役職段階に占める女性職員の割合	課長補佐級/女性（人）	11		honpen p.5	✓	auto:pdftext	2026-10-10	
+1a233b1b00b7f6c1	genjo	11	table	各役職段階に占める女性職員の割合	課長補佐級/合計（人）	23		honpen p.5	✓	auto:pdftext	2026-10-10	
+e27df612113c3be4	genjo	11	table	各役職段階に占める女性職員の割合	課長補佐級/女性割合（%）	47.8		honpen p.5	✓	auto:ai	2026-10-10	
+f766e5421696e4e8	genjo	11	table	各役職段階に占める女性職員の割合	課長補佐級/女性職員割合の伸び率（%）	89.7		honpen p.5	✓	auto:ai	2026-10-10	
+ca28cb8553ba6299	genjo	11	table	各役職段階に占める女性職員の割合	主任級/男性（人）	23		honpen p.5	✓	auto:pdftext	2026-10-10	
+178acc00c18349b0	genjo	11	table	各役職段階に占める女性職員の割合	主任級/女性（人）	15		honpen p.5	✓	auto:pdftext	2026-10-10	
+8345e0d2fd2f2d02	genjo	11	table	各役職段階に占める女性職員の割合	主任級/合計（人）	38		honpen p.5	✓	auto:pdftext	2026-10-10	
+a2e339ac045c9b01	genjo	11	table	各役職段階に占める女性職員の割合	主任級/女性割合（%）	39.5		honpen p.5	✓	auto:ai	2026-10-10	
+cce714f6bbcee225	genjo	11	table	各役職段階に占める女性職員の割合	主任級/女性職員割合の伸び率（%）	78.9		honpen p.5	✓	auto:ai	2026-10-10	
+059b137961e5ebcc	genjo	11	table	各役職段階に占める女性職員の割合	主査級/男性（人）	30		honpen p.5	✓	auto:pdftext	2026-10-10	
+3b6d7b0b165ad1f9	genjo	11	table	各役職段階に占める女性職員の割合	主査級/女性（人）	29		honpen p.5	✓	auto:pdftext	2026-10-10	
+d99845c191dd69cb	genjo	11	table	各役職段階に占める女性職員の割合	主査級/合計（人）	59		honpen p.5	✓	auto:pdftext	2026-10-10	
+13e213be5916f2b4	genjo	11	table	各役職段階に占める女性職員の割合	主査級/女性割合（%）	49.2		honpen p.5	✓	auto:ai	2026-10-10	
+2735282b04667875	genjo	11	table	各役職段階に占める女性職員の割合	主査級/女性職員割合の伸び率（%）	87.0		honpen p.5	✓	auto:ai	2026-10-10	
+4b1c392590886ba2	genjo	11	table	各役職段階に占める女性職員の割合	主任主事級/男性（人）	19		honpen p.5	✓	auto:pdftext	2026-10-10	
+19567b05d1dba997	genjo	11	table	各役職段階に占める女性職員の割合	主任主事級/女性（人）	9		honpen p.5	✓	auto:pdftext	2026-10-10	
+37ad1a3817d6a6a7	genjo	11	table	各役職段階に占める女性職員の割合	主任主事級/合計（人）	28		honpen p.5	✓	auto:pdftext	2026-10-10	
+86a8c7af0b2882ab	genjo	11	table	各役職段階に占める女性職員の割合	主任主事級/女性割合（%）	32.1		honpen p.5	✓	auto:ai	2026-10-10	
+ad1e6c51d89bef21	genjo	11	table	各役職段階に占める女性職員の割合	主任主事級/女性職員割合の伸び率（%）	120.4		honpen p.5	✓	auto:ai	2026-10-10	
+9341d1e90a482004	genjo	11	table	各役職段階に占める女性職員の割合	主事・主事補級/男性（人）	11		honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+5af57e97bc1372b2	genjo	11	table	各役職段階に占める女性職員の割合	主事・主事補級/女性（人）	27		honpen p.5	✓	auto:pdftext	2026-10-10	
+706fe37b64244aa8	genjo	11	table	各役職段階に占める女性職員の割合	主事・主事補級/合計（人）	38		honpen p.5	✓	auto:pdftext	2026-10-10	
+af170c3ad34091a9	genjo	11	table	各役職段階に占める女性職員の割合	主事・主事補級/女性割合（%）	70.3		honpen p.5	✓	auto:ai	2026-10-10	
+908667e858d9a251	genjo	11	table	各役職段階に占める女性職員の割合	主事・主事補級/女性職員割合の伸び率（%）	118.3		honpen p.5	✓	auto:ai	2026-10-10	
+d8b820209a298476	genjo	11	table	各役職段階に占める女性職員の割合	労務職/男性（人）	5		honpen p.5	✓	auto:pdftext	2026-10-10	
+0e11d4e8a8804905	genjo	11	table	各役職段階に占める女性職員の割合	労務職/女性（人）	9		honpen p.5	✓	auto:pdftext	2026-10-10	
+ae229d8db5a12932	genjo	11	table	各役職段階に占める女性職員の割合	労務職/合計（人）	14		honpen p.5	✓	auto:pdftext	2026-10-10	
+aff34ae5ed4ae27f	genjo	11	table	各役職段階に占める女性職員の割合	労務職/女性割合（%）	64.3		honpen p.5	✓	auto:ai	2026-10-10	
+1e74d0f645bd9926	genjo	11	table	各役職段階に占める女性職員の割合	労務職/女性職員割合の伸び率（%）	93.4		honpen p.5	✓	auto:ai	2026-10-10	
+667ea640efdc1df8	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/4月	25.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+43d177e8e6600a2e	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/5月	19.2		honpen p.6	✓	auto:pdftext	2026-10-10	
+b7fddc8aef269da5	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/6月	22.5		honpen p.6	✓	auto:pdftext	2026-10-10	
+addc78b4c57bafee	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/7月	28.9		honpen p.6	✓	auto:pdftext	2026-10-10	
+18f91450d400b058	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/8月	15.1		honpen p.6	✓	auto:pdftext	2026-10-10	
+ac455033eb20c1f0	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/9月	15.9		honpen p.6	✓	auto:pdftext	2026-10-10	
+0b863e715aae33a5	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/10月	34.4		honpen p.6	✓	auto:ai	2026-10-10	
+eb56bece44e7baf6	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/11月	20.8		honpen p.6	✓	auto:ai	2026-10-10	
+64182380b32c5058	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/12月	14.5		honpen p.6	✓	auto:ai	2026-10-10	
+bb6b6dc7e260bbfb	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/1月	16.3		honpen p.6	✓	auto:ai	2026-10-10	
+a1c6eb3da291995c	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/2月	17.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+adc8fdd55d35855e	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁/3月	22.5		honpen p.6	✓	auto:ai	2026-10-10	
+b6bff8dfe57f1f50	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/4月	6.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+c9f23670ffeab56f	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/5月	6.7		honpen p.6	✓	auto:pdftext	2026-10-10	
+6be57a8a72c66a49	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/6月	10		honpen p.6	✓	auto:pdftext	2026-10-10	
+cbc494648cf4793b	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/7月	8.2		honpen p.6	✓	auto:pdftext	2026-10-10	
+748a79cdff29f594	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/8月	7.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+f553a468ccd04d3f	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/9月	5.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+1434d932d0c499dc	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/10月	13		honpen p.6	✓	auto:ai	2026-10-10	
+d494c27c0308b59f	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/11月	7.2		honpen p.6	✓	auto:ai	2026-10-10	
+730bfbf72d89663c	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/12月	4.1		honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+9dd583c9b3fa084a	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/1月	5.9		honpen p.6	✓	auto:ai	2026-10-10	
+a8aed2e2e8c16377	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/2月	7.6		honpen p.6	✓	auto:pdftext	2026-10-10	
+c8922dc9e7cd33b6	genjo	13	table	超過勤務の状況 各月の一人当たり平均時間（時間）	本庁以外/3月	8.7		honpen p.6	✓	auto:ai	2026-10-10	
+2deeb2bf470de787	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/4月	17.2		honpen p.6	✓	auto:pdftext	2026-10-10	
+10972d261ce60394	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/5月	11.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+360b28b4d5e235e6	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/6月	18.5		honpen p.6	✓	auto:pdftext	2026-10-10	
+31f788b33bcc54bd	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/7月	24.5		honpen p.6	✓	auto:pdftext	2026-10-10	
+9017c38ed5b66316	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/8月	5.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+8faa99b472eda1c9	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/9月	5.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+1668221662cd7918	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/10月	31.6		honpen p.6	✓	auto:ai	2026-10-10	
+2c6114f5cfcc6c66	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/11月	14.2		honpen p.6	✓	auto:ai	2026-10-10	
+36f4267a81b73dd2	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/12月	9.0		honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+647f8f03147cb3f8	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/1月	9.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+7712ddbefc5ba336	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/2月	12.3		honpen p.6	✓	auto:ai	2026-10-10	
+5783d6cda001cc96	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁/3月	20.0		honpen p.6	✓	auto:ai	2026-10-10	
+b33769a833b3b04b	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/4月	0.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+5ac2389567d462a3	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/5月	0.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+a3e1e77cbdd7e7df	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/6月	3.7		honpen p.6	✓	auto:pdftext	2026-10-10	
+6f3bc527722222c2	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/7月	0.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+1e3d25909ed22399	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/8月	6.7		honpen p.6	✓	auto:pdftext	2026-10-10	
+5f7c681c18818d5a	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/9月	0.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+94c48658a7398db8	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/10月	0.0		honpen p.6	✓	auto:ai	2026-10-10	
+3aca3a6391aea192	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/11月	0.0		honpen p.6	✓	auto:ai	2026-10-10	
+5b4e74a0443c217e	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/12月	0.0		honpen p.6	✓	auto:ai	2026-10-10	
+cfde20f58b1c2fb1	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/1月	0.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+b76f2b0cf6b33b0b	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/2月	0.0		honpen p.6	✓	auto:ai	2026-10-10	
+e3f7cd7cee1bc992	genjo	14	table	月45時間を超える超過勤務を行った職員割合（%）	本庁以外/3月	0.0		honpen p.6	✓	auto:ai	2026-10-10	
+17e0af6b8f17ff84	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/4月	26		honpen p.6	✓	auto:pdftext	2026-10-10	
+4d8c8fdfaa05f8ce	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/5月	17		honpen p.6	✓	auto:pdftext	2026-10-10	
+c62b82cc3a04fcea	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/6月	28		honpen p.6	✓	auto:pdftext	2026-10-10	
+6216babb1b8246a2	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/7月	37		honpen p.6	✓	auto:pdftext	2026-10-10	
+630e63ee7a9864d3	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/8月	9		honpen p.6	✓	auto:pdftext	2026-10-10	
+c33a10dc5160bb9e	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/9月	9		honpen p.6	✓	auto:pdftext	2026-10-10	
+a75b749fcfa224ed	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/10月	49		honpen p.6	✓	auto:ai	2026-10-10	
+2388f7ae8c0fbca3	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/11月	22		honpen p.6	✓	auto:ai	2026-10-10	
+4314e8ab0b39073e	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/12月	14		honpen p.6	✓	auto:ai	2026-10-10	
+d3c0ea9529ff2eaf	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/1月	14		honpen p.6	✓	auto:pdftext	2026-10-10	
+3a298fcc6c7a4c2a	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/2月	19		honpen p.6	✓	auto:pdftext	2026-10-10	
+3ef18ede8c396264	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁/3月	31		honpen p.6	✓	auto:pdftext	2026-10-10	
+50a78ee44183ea07	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/4月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+3293715b206ffb70	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/5月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+2d902d715a9612b4	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/6月	1		honpen p.6	✓	auto:pdftext	2026-10-10	
+2f7614ed707774e5	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/7月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+85f4d32936d7f07e	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/8月	2		honpen p.6	✓	auto:pdftext	2026-10-10	
+a3e7aa37ed125933	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/9月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+b20f7b25fd06742d	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/10月	0		honpen p.6	✓	auto:ai	2026-10-10	
+02da9cc1d58638af	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/11月	0		honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+848008c5d1f2cf07	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/12月	0		honpen p.6	✓	auto:ai	2026-10-10	
+76c7517b4fe33bc2	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/1月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+8d1b07d1028e36f2	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/2月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+13d374eb1cd9b419	genjo	15	table	月45時間を超える超過勤務を行った職員数（人）	本庁以外/3月	0		honpen p.6	✓	auto:pdftext	2026-10-10	
+2eb4a944d2d61817	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/4月	31.1		honpen p.6	✓	auto:pdftext	2026-10-10	
+f7ecaf1c1dbe4cf6	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/5月	27.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+f3c16005f56ba25f	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/6月	31.4		honpen p.6	✓	auto:pdftext	2026-10-10	
+c0d48cc95500385c	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/7月	31.4		honpen p.6	✓	auto:pdftext	2026-10-10	
+7ba2118d73a84782	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/8月	21.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+d4f33fd5c1b07c57	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/9月	26.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+c745977497552e7f	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/10月	27.0		honpen p.6	✓	auto:ai	2026-10-10	
+59941bac1a684036	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/11月	24.1		honpen p.6	✓	auto:ai	2026-10-10	
+e0175943e76873a7	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/12月	20.8		honpen p.6	✓	auto:ai	2026-10-10	
+d8bf035512dd3ff0	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/1月	19.2		honpen p.6	✓	auto:pdftext	2026-10-10	
+f7d61cdeca1b843b	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/2月	24.6		honpen p.6	✓	auto:ai	2026-10-10	
+6a87b2a0b6bba657	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁/3月	31.2		honpen p.6	✓	auto:ai	2026-10-10	
+882706bf7ba05b84	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/4月	17.7		honpen p.6	✓	auto:pdftext	2026-10-10	
+16132aa065eb012d	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/5月	18.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+98d7cee57f8eb88b	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/6月	20.6		honpen p.6	✓	auto:pdftext	2026-10-10	
+14746b457ed3db4c	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/7月	22.7		honpen p.6	✓	auto:pdftext	2026-10-10	
+6f0ebfefec4eebfd	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/8月	17.8		honpen p.6	✓	auto:pdftext	2026-10-10	
+eb7c2bacd9e13c56	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/9月	14.0		honpen p.6	✓	auto:pdftext	2026-10-10	
+6053c062958036d0	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/10月	18.6		honpen p.6	✓	auto:ai	2026-10-10	
+c036fc3adb71c6e4	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/11月	14.2		honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+bd33104998c1d62e	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/12月	11.9		honpen p.6	✓	auto:ai	2026-10-10	
+dd999d64e2fb38e5	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/1月	14.3		honpen p.6	✓	auto:pdftext	2026-10-10	
+1f61aab63c68a9c0	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/2月	19.3		honpen p.6	✓	auto:ai	2026-10-10	
+5632cc50224f67d2	genjo	16	table	管理的地位にある職員の超過勤務 各月の一人当たり平均時間（時間）	本庁以外/3月	25.3		honpen p.6	✓	auto:ai	2026-10-10	
+64ab138017157700	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/4月	30.8		honpen p.7	✓	auto:pdftext	2026-10-10	
+05c1f9e225e924c7	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/5月	15.4		honpen p.7	✓	auto:pdftext	2026-10-10	
+c24b57b1b6041cf3	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/6月	25.6		honpen p.7	✓	auto:pdftext	2026-10-10	
+ba852dbfe5df37cd	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/7月	28.2		honpen p.7	✓	auto:pdftext	2026-10-10	
+948f903d79c7972c	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/8月	5.1		honpen p.7	✓	auto:pdftext	2026-10-10	
+fb8e0d4172b7024f	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/9月	7.7		honpen p.7	✓	auto:pdftext	2026-10-10	
+5dbdb18f36d51e65	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/10月	15.4		honpen p.7	✓	auto:ai	2026-10-10	
+89df0df19d5965f3	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/11月	20.5		honpen p.7	✓	auto:ai	2026-10-10	
+fd3485132d2a7e40	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/12月	10.3		honpen p.7	✓	auto:ai	2026-10-10	
+34645efd3ffcf283	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/1月	7.7		honpen p.7	✓	auto:pdftext	2026-10-10	
+ec90317b6abf5f10	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/2月	15.4		honpen p.7	✓	auto:ai	2026-10-10	
+09ee4ac1c50c3fb7	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁/3月	20.5		honpen p.7	✓	auto:ai	2026-10-10	
+39e0579067a22483	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/4月	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+6926c9c9683c45f4	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/5月	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+dffc6ab91f73c02a	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/6月	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+df197050405bde7f	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/7月	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+bb714c523d553e59	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/8月	12.5		honpen p.7	✓	auto:pdftext	2026-10-10	
+2240dbabf512c31e	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/9月	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+8d098fddffcd1bc6	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/10月	0.0		honpen p.7	✓	auto:ai	2026-10-10	
+65e9a0cdb467db8a	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/11月	0.0		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+ba297a6db10751f1	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/12月	0.0		honpen p.7	✓	auto:ai	2026-10-10	
+44cddc4b7941d136	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/1月	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+4a773a452b042fe7	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/2月	12.5		honpen p.7	✓	auto:ai	2026-10-10	
+c5184f0be02e1bf7	genjo	17	table	管理的地位にある職員で月45時間を超える超過勤務を行った職員割合（%）	本庁以外/3月	2.1		honpen p.7	✓	auto:ai	2026-10-10	
+563383f2b6a59ab3	genjo	19	table	育児休業制度の利用状況（令和6年度新規取得者）	男性/育児休業対象者（名）	4		honpen p.7	✓	auto:pdftext	2026-10-10	
+75667c03b020bbfe	genjo	19	table	育児休業制度の利用状況（令和6年度新規取得者）	男性/うち育休取得者（名）	2		honpen p.7	✓	auto:pdftext	2026-10-10	
+f5765b3a286c2797	genjo	19	table	育児休業制度の利用状況（令和6年度新規取得者）	男性/取得率（%）	50.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+9ebe586133c06735	genjo	19	table	育児休業制度の利用状況（令和6年度新規取得者）	女性/育児休業対象者（名）	3		honpen p.7	✓	auto:pdftext	2026-10-10	
+ad5e8cec1172e551	genjo	19	table	育児休業制度の利用状況（令和6年度新規取得者）	女性/うち育休取得者（名）	3		honpen p.7	✓	auto:pdftext	2026-10-10	
+e3445ed96a1251be	genjo	19	table	育児休業制度の利用状況（令和6年度新規取得者）	女性/取得率（%）	100.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+894a10ede6b29d25	genjo	20	table	育児休業の取得期間分布状況（令和6年度）	男性/人数（名）	2		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+8d81c0390960b61f	genjo	20	table	育児休業の取得期間分布状況（令和6年度）	女性/人数（名）	2		honpen p.7				要人確認:H1 A=一致/中 B=一致/中
+26b380553b2d0545	genjo	20	table	育児休業の取得期間分布状況（令和6年度）	女性/人数（名）	1		honpen p.7				要人確認:H1 A=一致/中 B=一致/中
+11652a4a8f8ed131	genjo	20	table	育児休業の取得期間分布状況（令和6年度）	女性/人数（名）	0		honpen p.7				要人確認:H1 A=一致/中 B=一致/中
+f5282004adf4f83d	genjo	21	table	妻の出産補助休暇・育児参加のための休暇の取得状況（令和6年度）	妻の出産補助休暇/対象者（名）	4		honpen p.7	✓	auto:pdftext	2026-10-10	
+aee4d8902376bbde	genjo	21	table	妻の出産補助休暇・育児参加のための休暇の取得状況（令和6年度）	妻の出産補助休暇/取得者数（名）	2		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+52531c4867650fca	genjo	21	table	妻の出産補助休暇・育児参加のための休暇の取得状況（令和6年度）	妻の出産補助休暇/取得率（%）	50.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+e95e00df73284f6e	genjo	21	table	妻の出産補助休暇・育児参加のための休暇の取得状況（令和6年度）	育児参加のための休暇/対象者（名）	4		honpen p.7	✓	auto:pdftext	2026-10-10	
+c2516964c77a949a	genjo	21	table	妻の出産補助休暇・育児参加のための休暇の取得状況（令和6年度）	育児参加のための休暇/取得者数（名）	0		honpen p.7	✓	auto:pdftext	2026-10-10	
+b53f27261a9ec350	genjo	21	table	妻の出産補助休暇・育児参加のための休暇の取得状況（令和6年度）	育児参加のための休暇/取得率（%）	0.0		honpen p.7	✓	auto:pdftext	2026-10-10	
+78db922540d29571	genjo	22	table	妻の出産補助休暇取得日数分布状況（令和6年度）	1日未満/人数（名）	1		honpen p.7	✓	auto:ai	2026-10-10	
+eeac2e365ae0962a	genjo	22	table	妻の出産補助休暇取得日数分布状況（令和6年度）	1日/人数（名）	0		honpen p.7	✓	auto:ai	2026-10-10	
+76d688b7f0498955	genjo	22	table	妻の出産補助休暇取得日数分布状況（令和6年度）	2日/人数（名）	1		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+fbfa4879f80c509d	genjo	24	table	年次有給休暇取得日数等（令和6年1月1日～12月31日）	正規職員/年間一人当たり平均取得日数（日）	10.7		honpen p.8	✓	auto:pdftext	2026-10-10	
+19d168b7092ebce7	genjo	24	table	年次有給休暇取得日数等（令和6年1月1日～12月31日）	正規職員/取得日数5日未満の職員割合（%）	25.6		honpen p.8	✓	auto:pdftext	2026-10-10	
+358c7945dc38966b	genjo	28	table	中部清掃組合 管理的地位に占める女性職員の割合（令和6年4月1日現在）	男性/人数（人）	5		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+ea8f0eb8d8447f9f	genjo	28	table	中部清掃組合 管理的地位に占める女性職員の割合（令和6年4月1日現在）	女性/人数（人）	0		honpen p.10	✓	auto:ai	2026-10-10	
+8eaeeb8af8c74fea	genjo	28	table	中部清掃組合 管理的地位に占める女性職員の割合（令和6年4月1日現在）	合計/人数（人）	5		honpen p.10	✓	auto:ai	2026-10-10	
+0fb0ff89aa92e94a	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長級/男性（人）	3		honpen p.10	✓	auto:pdftext	2026-10-10	
+3c5b776993a5ee0a	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+272b11b74e465274	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長級/合計（人）	3		honpen p.10	✓	auto:pdftext	2026-10-10	
+b35fc7b0f465a124	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+ef8285820b5478fc	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	参事級/男性（人）	1		honpen p.10	✓	auto:pdftext	2026-10-10	
+ccd92f2c142af179	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	参事級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+bbffec6420e555b2	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	参事級/合計（人）	1		honpen p.10	✓	auto:pdftext	2026-10-10	
+12f1c0020fe8176e	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	参事級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+44c811d16b4ff137	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長補佐級/男性（人）	2		honpen p.10	✓	auto:pdftext	2026-10-10	
+f61e3ef1ab3565ce	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長補佐級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+c837b1fd6e1db7ed	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長補佐級/合計（人）	2		honpen p.10	✓	auto:pdftext	2026-10-10	
+c4e23e0fd7fd9838	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	課長補佐級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+4ecfb8c59e3b743e	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	係長級/男性（人）	1		honpen p.10	✓	auto:pdftext	2026-10-10	
+c4048ae1d8537e2c	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	係長級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+9db4ac5a81c6999e	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	係長級/合計（人）	1		honpen p.10	✓	auto:pdftext	2026-10-10	
+a615108f57518f89	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	係長級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+cf41d0dea6b69ed3	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主査級/男性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+3a8639444ca24deb	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主査級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+cff8430d55aeb8ee	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主査級/合計（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+9d25eb63334971ab	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主査級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+a9455cb8ea43ce65	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主任主事・主任技師級/男性（人）	1		honpen p.10	✓	auto:pdftext	2026-10-10	
+3cf28aed4d282521	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主任主事・主任技師級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+709ccc11f9dec1fa	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主任主事・主任技師級/合計（人）	1		honpen p.10	✓	auto:pdftext	2026-10-10	
+6fd413792ae9502c	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主任主事・主任技師級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+f9d31fbac757f6f3	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主事・技師級/男性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+4c13c9d59bc2592e	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主事・技師級/女性（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+38b04dd6fe5d1bf0	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主事・技師級/合計（人）	0		honpen p.10	✓	auto:pdftext	2026-10-10	
+527c19b439f14c83	genjo	29	table	中部清掃組合 各役職段階に占める女性職員の割合	主事・技師級/女性割合（%）	0.0		honpen p.10	✓	auto:pdftext	2026-10-10	
+9d8ee0fe8f4d8fab	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/4月	11.3		honpen p.10	✓	auto:pdftext	2026-10-10	
+a4c84391ad8d703c	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/5月	1.3		honpen p.10	✓	auto:pdftext	2026-10-10	
+3b64dad8a2854a94	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/6月	5.7		honpen p.10	✓	auto:pdftext	2026-10-10	
+6e90d32e0d7884e4	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/7月	9.3		honpen p.10	✓	auto:pdftext	2026-10-10	
+8b55881bff4347b7	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/8月	4.7		honpen p.10	✓	auto:pdftext	2026-10-10	
+194be9e6619e01f5	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/9月	12.0		honpen p.10	✓	auto:ai	2026-10-10	
+f1e40bab4f3bcc23	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/10月	17.3		honpen p.10	✓	auto:ai	2026-10-10	
+0d9464f1f054f74e	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/11月	9.7		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+b332cdd6ebf75d01	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/12月	16.0		honpen p.10	✓	auto:ai	2026-10-10	
+916f8b5dd22e503f	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/1月	3.3		honpen p.10	✓	auto:ai	2026-10-10	
+b4008933656e0094	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/2月	10.3		honpen p.10	✓	auto:pdftext	2026-10-10	
+e638c9423db68012	genjo	30	table	中部清掃組合 超過勤務の状況 各月の一人当たり平均時間（時間）	職員/3月	7.0		honpen p.10	✓	auto:ai	2026-10-10	
+90d685534824df24	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	育児休業（男性）/対象者（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+52d31059a3f236ce	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	育児休業（男性）/取得者数（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+b6e3febba1db8894	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	育児休業（女性）/対象者（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+f8c6a96a356e3c27	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	育児休業（女性）/取得者数（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+c74f96cff4077d69	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	妻の出産補助休暇/対象者（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+52501e712016aa1a	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	妻の出産補助休暇/取得者数（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+5fbdedd2d19ef0a0	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	育児参加のための休暇/対象者（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+f489ee1e1c2e84e7	genjo	31	table	中部清掃組合 育児休業・子育てにかかる休暇（令和6年度）	育児参加のための休暇/取得者数（名）	0		honpen p.10-11	✓	auto:pdftext	2026-10-10	
+c917575744875844	genjo	32	table	中部清掃組合 年次有給休暇取得日数等（令和6年1月1日～12月31日）	正規職員/年間一人当たり平均取得日数（日）	11.2		honpen p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+8017b2562ce82aef	suii	5	table	H28.7 公表	女性職員の採用割合/女性（人）	2		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+3a89e0e8c24a67d8	suii	5	table	H28.7 公表	女性職員の採用割合/合計（人）	6		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+b48736cc6cb10ab4	suii	5	table	H28.7 公表	女性職員の採用割合/女性割合（%）	33.3		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+da8ed1f83de86b86	suii	5	table	H28.7 公表	管理的地位に占める女性職員の割合/女性（人）	10		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+4f68aff284f3cc35	suii	5	table	H28.7 公表	管理的地位に占める女性職員の割合/合計（人）	43		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+181b51c592269ba2	suii	5	table	H28.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	23.3		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+7d6984fbc279ca99	suii	5	table	H28.7 公表	主任級以上の女性職員割合/女性（人）	27		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+4e085dbde83705e0	suii	5	table	H28.7 公表	主任級以上の女性職員割合/合計（人）	92		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+66f864556f4d155c	suii	5	table	H28.7 公表	主任級以上の女性職員割合/女性割合（%）	29.3		h28-houdai17joukouhyou p.1	✓	auto:ai	2026-10-10	
+003a6a44dedc921f	suii	6	table	H29.7 公表	女性職員の採用割合/女性（人）	7		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+4fd2e9cc69b34831	suii	6	table	H29.7 公表	女性職員の採用割合/合計（人）	17		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+b2af9533a4822f30	suii	6	table	H29.7 公表	女性職員の採用割合/女性割合（%）	41.2		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+0698b7065eb7fbf0	suii	6	table	H29.7 公表	管理的地位に占める女性職員の割合/女性（人）	9		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+01e233f6593eaa75	suii	6	table	H29.7 公表	管理的地位に占める女性職員の割合/合計（人）	45		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+0d04ca117cdaa46b	suii	6	table	H29.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	20.0		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+839fc5fcaca5446c	suii	6	table	H29.7 公表	主任級以上の女性職員割合/女性（人）	24		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+268f22dbb507be6b	suii	6	table	H29.7 公表	主任級以上の女性職員割合/合計（人）	81		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+58e509a0d6282759	suii	6	table	H29.7 公表	主任級以上の女性職員割合/女性割合（%）	29.6		h29-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+766b02db7f5be4bd	suii	7	table	H30.7 公表	女性職員の採用割合/女性（人）	6		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+33ca8a722ca91f58	suii	7	table	H30.7 公表	女性職員の採用割合/合計（人）	19		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+77ce6a205f54c3fd	suii	7	table	H30.7 公表	女性職員の採用割合/女性割合（%）	31.6		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+1c1e9cdb528839f9	suii	7	table	H30.7 公表	管理的地位に占める女性職員の割合/女性（人）	8		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+9a9d5863fc667cc0	suii	7	table	H30.7 公表	管理的地位に占める女性職員の割合/合計（人）	42		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+6afd100aacbbf579	suii	7	table	H30.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	19.0		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+fd12965f19741f8d	suii	7	table	H30.7 公表	主任級以上の女性職員割合/女性（人）	26		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+a8b86a2215f06998	suii	7	table	H30.7 公表	主任級以上の女性職員割合/合計（人）	88		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+f575691bbeb2c4ef	suii	7	table	H30.7 公表	主任級以上の女性職員割合/女性割合（%）	29.5		h30-houdai17jou1 p.1	✓	auto:ai	2026-10-10	
+408a9ea655bd9142	suii	8	table	R1.7 公表	女性職員の採用割合/女性（人）	5		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+f817e85db85f3ebc	suii	8	table	R1.7 公表	女性職員の採用割合/合計（人）	13		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+1bb1a71b1b95b036	suii	8	table	R1.7 公表	女性職員の採用割合/女性割合（%）	38.5		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+32ffb19d9f5fa402	suii	8	table	R1.7 公表	管理的地位に占める女性職員の割合/女性（人）	10		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+12d1a75591698d56	suii	8	table	R1.7 公表	管理的地位に占める女性職員の割合/合計（人）	42		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+c33955684a685951	suii	8	table	R1.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	23.8		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+288aed20ffbf44ce	suii	8	table	R1.7 公表	主任級以上の女性職員割合/女性（人）	27		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+c2ac9fdf3ca5c4bc	suii	8	table	R1.7 公表	主任級以上の女性職員割合/合計（人）	88		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+3b62e06acb0bb7f1	suii	8	table	R1.7 公表	主任級以上の女性職員割合/女性割合（%）	30.7		r01-houdai17jou p.1	✓	auto:ai	2026-10-10	
+40e08b3073af91c4	suii	9	table	R2.7 公表	女性職員の採用割合/女性（人）	4		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+1260e84b0ecefda4	suii	9	table	R2.7 公表	女性職員の採用割合/合計（人）	13		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+52b9212c53e2f882	suii	9	table	R2.7 公表	女性職員の採用割合/女性割合（%）	30.8		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+8eea6590ea2accc7	suii	9	table	R2.7 公表	管理的地位に占める女性職員の割合/女性（人）	11		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+f02a7c8e5bf257c9	suii	9	table	R2.7 公表	管理的地位に占める女性職員の割合/合計（人）	41		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+c8870b84698480c7	suii	9	table	R2.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	26.8		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+d1ba78919011b8be	suii	9	table	R2.7 公表	主任級以上の女性職員割合/女性（人）	29		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+3dc0794f558ddea0	suii	9	table	R2.7 公表	主任級以上の女性職員割合/合計（人）	84		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+c2a3e7623d7ddabe	suii	9	table	R2.7 公表	主任級以上の女性職員割合/女性割合（%）	34.5		r2-houdai21jou p.1-2	✓	auto:ai	2026-10-10	
+abd50b875e26b120	suii	10	table	R3.7 公表	女性職員の採用割合/女性（人）	6		r3-21jou p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+43e9a2668fd25ae1	suii	10	table	R3.7 公表	女性職員の採用割合/合計（人）	14		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+e47290d49562fcab	suii	10	table	R3.7 公表	女性職員の採用割合/女性割合（%）	42.9		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+a9a3b76f776b162d	suii	10	table	R3.7 公表	管理的地位に占める女性職員の割合/女性（人）	11		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+f4ffb1d9a1a68468	suii	10	table	R3.7 公表	管理的地位に占める女性職員の割合/合計（人）	41		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+97a1c89a1cf3a5e5	suii	10	table	R3.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	26.8		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+16489894db9d73b0	suii	10	table	R3.7 公表	主任級以上の女性職員割合/女性（人）	28		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+d067d95939bfb9da	suii	10	table	R3.7 公表	主任級以上の女性職員割合/合計（人）	87		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+3a92b03d86833b55	suii	10	table	R3.7 公表	主任級以上の女性職員割合/女性割合（%）	32.2		r3-21jou p.1-2	✓	auto:ai	2026-10-10	
+059c5b1955ee9e00	suii	11	table	R4.7 公表	女性職員の採用割合/女性（人）	11		r4-21jou p.1-2	✓	auto:pdftext	2026-10-10	
+8d1d754b2a039e0a	suii	11	table	R4.7 公表	女性職員の採用割合/合計（人）	16		r4-21jou p.1-2	✓	auto:pdftext	2026-10-10	
+e577d384e5691da4	suii	11	table	R4.7 公表	女性職員の採用割合/女性割合（%）	68.8		r4-21jou p.1-2	✓	auto:ai	2026-10-10	
+4e941e7488549d12	suii	11	table	R4.7 公表	管理的地位に占める女性職員の割合/女性（人）	9		r4-21jou p.1-2	✓	auto:ai	2026-10-10	
+55cf2ecc41d3e024	suii	11	table	R4.7 公表	管理的地位に占める女性職員の割合/合計（人）	43		r4-21jou p.1-2	✓	auto:ai	2026-10-10	
+94171be98c9ee9fb	suii	11	table	R4.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	20.9		r4-21jou p.1-2	✓	auto:ai	2026-10-10	
+d940d576ef61a917	suii	11	table	R4.7 公表	主任級以上の女性職員割合/女性（人）	31		r4-21jou p.1-2	✓	auto:ai	2026-10-10	
+058bf7c79cec2821	suii	11	table	R4.7 公表	主任級以上の女性職員割合/合計（人）	86		r4-21jou p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+f93e89e617a857f1	suii	11	table	R4.7 公表	主任級以上の女性職員割合/女性割合（%）	36.0		r4-21jou p.1-2	✓	auto:ai	2026-10-10	
+a316dcecafed97d8	suii	12	table	R5.6 公表	女性職員の採用割合/女性（人）	10		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+ede91ebc882156de	suii	12	table	R5.6 公表	女性職員の採用割合/合計（人）	14		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+4575f1d53171b63b	suii	12	table	R5.6 公表	女性職員の採用割合/女性割合（%）	71.4		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+e41d5a5db98c35dd	suii	12	table	R5.6 公表	管理的地位に占める女性職員の割合/女性（人）	10		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+4eeedbbcb5fb2bdc	suii	12	table	R5.6 公表	管理的地位に占める女性職員の割合/合計（人）	46		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+e899da3c84d88ead	suii	12	table	R5.6 公表	管理的地位に占める女性職員の割合/女性割合（%）	21.7		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+752318ef253dcba2	suii	12	table	R5.6 公表	主任級以上の女性職員割合/女性（人）	35		x21jour5 p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+f51214a96f626b65	suii	12	table	R5.6 公表	主任級以上の女性職員割合/合計（人）	90		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+1cd272748c4b69bf	suii	12	table	R5.6 公表	主任級以上の女性職員割合/女性割合（%）	38.9		x21jour5 p.1-2	✓	auto:ai	2026-10-10	
+84927282f5a5d8a4	suii	13	table	R6.6 公表	女性職員の採用割合/女性（人）	7		x21jour6 p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+f052b670a48f8bf1	suii	13	table	R6.6 公表	女性職員の採用割合/合計（人）	9		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+b54b3741c0cad140	suii	13	table	R6.6 公表	女性職員の採用割合/女性割合（%）	77.8		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+b0991a20f49b72ef	suii	13	table	R6.6 公表	管理的地位に占める女性職員の割合/女性（人）	10		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+7ab8957bf6633cb9	suii	13	table	R6.6 公表	管理的地位に占める女性職員の割合/合計（人）	51		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+5da845583ddc7d0e	suii	13	table	R6.6 公表	管理的地位に占める女性職員の割合/女性割合（%）	19.6		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+ed6a8cd21b1f14ec	suii	13	table	R6.6 公表	主任級以上の女性職員割合/女性（人）	33		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+b3b6b4b1b3a3d1af	suii	13	table	R6.6 公表	主任級以上の女性職員割合/合計（人）	93		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+756f761ce17bcae3	suii	13	table	R6.6 公表	主任級以上の女性職員割合/女性割合（%）	35.5		x21jour6 p.1-2	✓	auto:ai	2026-10-10	
+9a55bdb7997418aa	suii	14	table	R7.6 公表	女性職員の採用割合/女性（人）	7		x21jour7 p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+e6fd451d91e49e4d	suii	14	table	R7.6 公表	女性職員の採用割合/合計（人）	10		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+17e626de0cda0783	suii	14	table	R7.6 公表	女性職員の採用割合/女性割合（%）	70.0		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+639583f2dace06e5	suii	14	table	R7.6 公表	管理的地位に占める女性職員の割合/女性（人）	11		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+a5a4de9058685fd5	suii	14	table	R7.6 公表	管理的地位に占める女性職員の割合/合計（人）	46		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+6d1835ea09d3ee96	suii	14	table	R7.6 公表	管理的地位に占める女性職員の割合/女性割合（%）	23.9		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+8fd0713325dcf7ac	suii	14	table	R7.6 公表	主任級以上の女性職員割合/女性（人）	31		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+f8181b029ab3d951	suii	14	table	R7.6 公表	主任級以上の女性職員割合/合計（人）	91		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+5a44bbfd8820dc22	suii	14	table	R7.6 公表	主任級以上の女性職員割合/女性割合（%）	34.1		x21jour7 p.1-2	✓	auto:ai	2026-10-10	
+642232a478acddfd	suii	15	table	R8.7 公表	女性職員の採用割合/女性（人）	6		x21jour8 p.1-2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+0bcc77b278d35224	suii	15	table	R8.7 公表	女性職員の採用割合/合計（人）	12		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+32757fe085ae6426	suii	15	table	R8.7 公表	女性職員の採用割合/女性割合（%）	50.0		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+ed98909de15aa5fc	suii	15	table	R8.7 公表	管理的地位に占める女性職員の割合/女性（人）	10		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+1e72c799a2889661	suii	15	table	R8.7 公表	管理的地位に占める女性職員の割合/合計（人）	46		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+524aa7f44cb41b33	suii	15	table	R8.7 公表	管理的地位に占める女性職員の割合/女性割合（%）	21.74		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+8ea05a2fe254eac8	suii	15	table	R8.7 公表	主任級以上の女性職員割合/女性（人）	28		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+83c442afe0925b33	suii	15	table	R8.7 公表	主任級以上の女性職員割合/合計（人）	87		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+4d1a1bf177edbd7f	suii	15	table	R8.7 公表	主任級以上の女性職員割合/女性割合（%）	32.2		x21jour8 p.1-2	✓	auto:ai	2026-10-10	
+dfbeb7f0f8545665	suii	18	table	令和4年度 職員の給与の男女の差異（R5.6 公表）	任期の定めのない常勤職員/男女の給与の差異（%）	83.6		x21jour5 p.6	✓	auto:ai	2026-10-10	
+c9d25e482e907f08	suii	18	table	令和4年度 職員の給与の男女の差異（R5.6 公表）	任期の定めのない常勤職員以外の職員/男女の給与の差異（%）	98.3		x21jour5 p.6	✓	auto:ai	2026-10-10	
+3bb4a07c9597d180	suii	18	table	令和4年度 職員の給与の男女の差異（R5.6 公表）	全職員/男女の給与の差異（%）	66.2		x21jour5 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+8dd6fed0d3de7a99	suii	19	table	令和5年度 職員の給与の男女の差異（R6.6 公表）	任期の定めのない常勤職員/男女の給与の差異（%）	78.8		x21jour6 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d71b1b8fe1051a40	suii	19	table	令和5年度 職員の給与の男女の差異（R6.6 公表）	任期の定めのない常勤職員以外の職員/男女の給与の差異（%）	96.4		x21jour6 p.6	✓	auto:ai	2026-10-10	
+d8d51eef1a01c65b	suii	19	table	令和5年度 職員の給与の男女の差異（R6.6 公表）	全職員/男女の給与の差異（%）	66.7		x21jour6 p.6	✓	auto:ai	2026-10-10	
+5632fb46886e9287	suii	20	table	令和6年度 職員の給与の男女の差異（R7.6 公表）	任期の定めのない常勤職員/男女の給与の差異（%）	77.9		x21jour7 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+bd53b203d50cde56	suii	20	table	令和6年度 職員の給与の男女の差異（R7.6 公表）	任期の定めのない常勤職員以外の職員/男女の給与の差異（%）	89.1		x21jour7 p.6	✓	auto:ai	2026-10-10	
+b3b96a312ce55932	suii	20	table	令和6年度 職員の給与の男女の差異（R7.6 公表）	全職員/男女の給与の差異（%）	69.1		x21jour7 p.6	✓	auto:ai	2026-10-10	
+969f901ec39b74c5	suii	21	table	令和7年度 職員の給与の男女の差異（R8.7 公表）	任期の定めのない常勤職員/男女の給与の差異（%）	80.7		x21jour8 p.6	✓	auto:ai	2026-10-10	
+a1ece426e9f3b6c4	suii	21	table	令和7年度 職員の給与の男女の差異（R8.7 公表）	任期の定めのない常勤職員以外の職員/男女の給与の差異（%）	97.1		x21jour8 p.6	✓	auto:ai	2026-10-10	
+836f9e97463b7921	suii	21	table	令和7年度 職員の給与の男女の差異（R8.7 公表）	全職員/男女の給与の差異（%）	69.5		x21jour8 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点

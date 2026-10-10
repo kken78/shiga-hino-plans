@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>地域防災計画｜日野町データポータル（非公式）</title>
+<meta name="description" content="地震・風水害・原子力災害から町民の生命、身体及び財産を守るため、町・県・防災関係機関・町民がそれぞれ何をするかを、ふだんの備え（災害予防）、災害時の対応（災害応急対策）、復旧・復興の段階ごとに定めた計画です。">
+<style>
+/* shell.css — 計画ダッシュボード共通スタイル(schema v1)
+   計画ごとの個性は :root のテーマ4変数のみ(render_plan.py が注入)。
+   既存3ダッシュボードの意匠系(明朝見出し・eyebrow・理念バナー・
+   番号付きタブ)を共通化したもの。 */
+
+.hpv1{
+  /* テーマ(render時に上書き) */
+  --accent:#1E4E9C; --accent2:#C33D2E; --danger:#c25b46; --paper:#f4f6f8;
+  /* 派生・共通トークン */
+  --ink:#232a33; --ink2:#4c5561; --mut:#7d8692;
+  --card:#ffffff; --line:#dfe4ea; --line2:#edf0f4;
+  --ok:#2f6d5f;
+  --r:14px; --r2:9px;
+  /* 型スケール(8段) */
+  --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
+  --fs-lead:15.5px; --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
+  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* チャート寸法(ADR-8) */
+  --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
+  --chart-track:#eef0f2; --chart-grid:#e4e8ee;
+  --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
+  --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:var(--fs-body); line-height:1.75;
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+.hpv1 *{box-sizing:border-box}
+.hpv1 :where(h1,h2,h3,h4,p,ul,ol,figure,dl,dd){margin:0}
+.hpv1 .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+.hpv1 a{color:var(--accent)}
+.hpv1 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.hpv1 .wrap{max-width:920px;margin:0 auto;padding:0 18px 56px}
+
+/* ---------- ヘッダー ---------- */
+.hpv1 .head{padding:30px 0 0}
+.hpv1 .crumb{font-size:var(--fs-small);margin-bottom:14px}
+.hpv1 .crumb a{text-decoration:none;color:var(--ink2)}
+.hpv1 .crumb a:hover{color:var(--accent)}
+.hpv1 .eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:var(--fs-small);letter-spacing:.14em;font-weight:700;color:var(--accent);
+}
+.hpv1 .eyebrow::before{content:"";width:22px;height:2px;background:var(--accent2);border-radius:2px}
+.hpv1 h1{
+  font-family:var(--serif);font-size:var(--fs-title);font-weight:800;
+  letter-spacing:.01em;line-height:1.3;margin-top:10px;
+}
+.hpv1 .metarow{
+  display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;
+  font-size:var(--fs-small);color:var(--ink2);
+}
+.hpv1 .metarow b{color:var(--ink)}
+.hpv1 .vision-banner{
+  margin-top:14px;padding:12px 16px;border-radius:var(--r2);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 9%,transparent),
+    color-mix(in srgb,var(--accent2) 9%,transparent));
+  border:1px solid var(--line);
+  font-weight:700;font-size:var(--fs-body);letter-spacing:.02em;
+  color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+  display:flex;gap:12px;align-items:baseline;
+}
+.hpv1 .vision-banner .lbl{font-size:var(--fs-micro);color:var(--mut);letter-spacing:.1em;flex:none}
+.hpv1 .lead{margin-top:12px;font-size:var(--fs-lead);color:var(--ink2)}
+
+/* ---------- タブ(番号=読む順序) ---------- */
+.hpv1 .tabs{
+  display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line);
+  flex-wrap:wrap;position:sticky;top:0;background:var(--paper);z-index:5;
+}
+.hpv1 .tab{
+  appearance:none;border:0;background:none;cursor:pointer;
+  font:inherit;font-weight:700;font-size:var(--fs-tab);color:var(--ink2);
+  padding:11px 15px 12px;border-radius:9px 9px 0 0;position:relative;
+}
+.hpv1 .tab .tn{color:var(--mut);font-size:var(--fs-micro);font-weight:800;margin-right:7px;letter-spacing:.05em}
+.hpv1 .tab:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.hpv1 .tab[aria-selected="true"]{color:var(--ink)}
+.hpv1 .tab[aria-selected="true"] .tn{color:var(--accent2)}
+.hpv1 .tab[aria-selected="true"]::after{
+  content:"";position:absolute;left:10px;right:10px;bottom:-1px;height:3px;
+  background:var(--accent);border-radius:3px 3px 0 0;
+}
+.hpv1 .panel{display:none;padding-top:26px}
+.hpv1 .panel.active{display:block}
+
+/* ---------- 汎用ブロック ---------- */
+.hpv1 .b-narrative{max-width:44em;margin:0 0 18px}
+.hpv1 .b-heading{margin:30px 0 12px}
+/* 統一セクション見出し(.b-heading h2 / .phead / .b-chart .cttl を1系統へ)
+   共通:明朝・fs-sec(17)・700・ink。区切り線(左4px accent + pad-left12)は
+   箱の外の見出しだけ。.cttl は箱の中なので字面のみ統一(左ボーダーなし)。 */
+.hpv1 .b-heading h2,
+.hpv1 .phead,
+.hpv1 .b-ttl,
+.hpv1 .b-chart .cttl{
+  font-family:var(--serif);font-size:var(--fs-sec);font-weight:700;color:var(--ink);line-height:1.4;
+}
+.hpv1 .b-heading h2,
+.hpv1 .phead{
+  padding-left:12px;border-left:4px solid var(--accent);
+}
+.hpv1 .b-heading .sub{font-size:var(--fs-small);color:var(--mut);margin-top:3px;padding-left:16px}
+.hpv1 .b-note{
+  display:flex;gap:8px;font-size:var(--fs-small);color:var(--ink2);
+  margin:12px 0;padding:10px 13px;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .b-note::before{content:"◦";color:var(--accent2);font-weight:800}
+.hpv1 .b-bullets{margin:0 0 18px}
+.hpv1 .b-bullets .t{font-weight:700;margin-bottom:6px}
+.hpv1 .b-bullets ul{padding-left:1.3em}
+.hpv1 .b-bullets li{margin:4px 0}
+.hpv1 .b-bullets li::marker{color:var(--accent)}
+.hpv1 .b-callout{
+  margin:18px 0;padding:14px 18px;border-radius:var(--r2);
+  border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));
+  background:color-mix(in srgb,var(--accent) 5%,var(--card));
+}
+.hpv1 .b-callout .t{font-weight:800;color:var(--accent);margin-bottom:4px}
+.hpv1 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.hpv1 .chip{
+  font-size:var(--fs-micro);font-weight:700;padding:3px 10px;border-radius:99px;
+  background:var(--card);border:1px solid var(--line);color:var(--ink2);
+}
+.hpv1 .b-vision{
+  margin:6px 0 20px;padding:18px 20px;border-radius:var(--r);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 10%,var(--card)),
+    color-mix(in srgb,var(--accent2) 8%,var(--card)));
+  border:1px solid var(--line);
+}
+.hpv1 .b-vision .lbl{font-size:var(--fs-micro);letter-spacing:.14em;font-weight:800;color:var(--mut)}
+.hpv1 .b-vision .tx{
+  font-family:var(--serif);font-size:var(--fs-vision);font-weight:800;line-height:1.5;
+  margin-top:4px;color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+}
+.hpv1 .b-aims{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .aim{
+  display:flex;gap:12px;align-items:baseline;padding:12px 15px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .aim .no{
+  font-family:var(--serif);font-weight:800;color:var(--accent);flex:none;
+  min-width:1.6em;text-align:center;
+}
+.hpv1 .aim .t{font-weight:700}
+.hpv1 .aim .d{font-size:var(--fs-small);color:var(--ink2);margin-top:2px}
+.hpv1 .b-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .card{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:14px 16px}
+.hpv1 .card .ct{font-weight:800;margin-bottom:4px}
+.hpv1 .card .cd{font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-challenges .card{border-left:4px solid var(--danger)}
+.hpv1 .b-fields{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .field{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:12px 15px}
+.hpv1 .field .ft{font-weight:800;font-size:var(--fs-sub)}
+.hpv1 .field .fd{font-size:var(--fs-small);color:var(--ink2);margin-top:3px}
+.hpv1 .b-actions{
+  margin:20px 0;padding:16px 18px;border-radius:var(--r);
+  background:color-mix(in srgb,var(--ok) 7%,var(--card));
+  border:1px solid color-mix(in srgb,var(--ok) 25%,var(--line));
+}
+.hpv1 .b-actions .t{font-weight:800;color:var(--ok);margin-bottom:8px}
+.hpv1 .b-actions ul{padding-left:1.3em}
+.hpv1 .b-actions li{margin:4px 0}
+
+/* タブ内ジャンプ目次(toc) — 薄いaccent背景の角丸リンクを横並び */
+.hpv1 .b-toc{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 20px}
+.hpv1 .b-toc .tl{font-size:var(--fs-small);font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
+.hpv1 .b-toc a{
+  font-size:var(--fs-small);font-weight:700;text-decoration:none;color:var(--accent);line-height:1.5;
+  background:color-mix(in srgb,var(--accent) 8%,var(--card));
+  border:1px solid color-mix(in srgb,var(--accent) 20%,var(--line));
+  padding:5px 12px;border-radius:99px;
+}
+.hpv1 .b-toc a:hover{background:color-mix(in srgb,var(--accent) 15%,var(--card));border-color:var(--accent)}
+/* アンカージャンプ位置補正:sticky タブバー(.tabs top:0)の下に隠れないよう余白 */
+.hpv1 .panel [id]{scroll-margin-top:64px}
+
+/* ---------- データ系ブロック ---------- */
+.hpv1 .b-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .kpi{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 15px 12px}
+.hpv1 .kpi .kl{font-size:var(--fs-small);font-weight:700;color:var(--ink2)}
+.hpv1 .kpi .kn{font-size:var(--fs-kn);font-weight:800;line-height:1.15;margin-top:2px;letter-spacing:-.01em}
+.hpv1 .kpi .ku{font-size:var(--fs-small);font-weight:700;color:var(--mut);margin-left:3px}
+.hpv1 .kpi .kd{font-size:var(--fs-micro);color:var(--ink2);margin-top:5px;display:flex;gap:6px;align-items:baseline}
+.hpv1 .kpi .tr{font-weight:800;flex:none}
+.hpv1 .kpi .tr.down{color:var(--danger)} .hpv1 .kpi .tr.up{color:var(--ok)} .hpv1 .kpi .tr.flat{color:var(--mut)}
+.hpv1 .kpi .asof{font-size:var(--fs-micro);color:var(--mut)}
+
+.hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:18px 22px}
+.hpv1 .b-bigstat .v{font-size:var(--fs-big);font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
+.hpv1 .b-bigstat .u{font-size:var(--fs-sub);font-weight:700;color:var(--mut)}
+.hpv1 .b-bigstat .l{font-weight:700}
+.hpv1 .b-bigstat .d{font-size:var(--fs-small);color:var(--ink2);flex-basis:100%}
+
+.hpv1 .b-targets{display:grid;gap:10px;margin:0 0 18px}
+.hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
+.hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
+.hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
+.hpv1 .target .tg{display:inline-flex;gap:8px;align-items:baseline;white-space:nowrap}
+.hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
+.hpv1 .target .ar{color:var(--mut)}
+.hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--accent2)}
+.hpv1 .target .tu{font-size:var(--fs-small);color:var(--mut);font-weight:700}
+.hpv1 .target .asof{font-size:var(--fs-micro);color:var(--mut)}
+.hpv1 .target svg{display:block;width:100%;height:6px;margin-top:9px}
+.hpv1 .target .pct{font-size:var(--fs-micro);color:var(--ink2);margin-top:4px}
+
+.hpv1 .b-table{margin:0 0 18px;overflow:auto;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2)}
+.hpv1 table{border-collapse:collapse;width:100%;font-size:var(--fs-small)}
+.hpv1 th,.hpv1 td{padding:8px 13px;text-align:right;border-bottom:1px solid var(--line2);white-space:nowrap}
+.hpv1 th:first-child,.hpv1 td:first-child{text-align:left}
+.hpv1 th.txt,.hpv1 td.txt{text-align:left;white-space:normal;min-width:16em}
+.hpv1 thead th{background:color-mix(in srgb,var(--accent) 6%,var(--card));font-weight:700;color:var(--ink2)}
+.hpv1 tbody tr:last-child td{border-bottom:0}
+.hpv1 td.neg{color:var(--danger);font-weight:800}
+.hpv1 td.pos{color:var(--ok);font-weight:800}
+.hpv1 td.em{font-weight:800}
+
+.hpv1 .b-chart{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+  padding:14px 16px;margin:0 0 12px}
+.hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
+.hpv1 .b-ttl{margin:4px 0 6px}  /* 表の題(table.title)。字面は統一セクション見出しと同じ */
+.hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
+.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 8px;font-size:var(--fs-chart);color:var(--ink2)}
+/* チャート部品(ADR-8)。文字はすべて HTML。棒の長さ・高さはレンダラーが値から計算した % */
+/* 横棒(rank_bars ほか): 名前 | 棒 | 値 */
+.hpv1 .hb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);
+  gap:5px 10px;align-items:center;font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .hb-r{display:contents}
+.hpv1 .hb-l{text-align:right;color:var(--ink2)}
+.hpv1 .hb-sub{color:var(--mut);margin-left:.4em}
+.hpv1 .hb-t{display:flex;height:var(--chart-bar);background:var(--chart-track);border-radius:4px;overflow:hidden}
+.hpv1 .hb-t>span{display:block;flex:none;height:100%}
+.hpv1 .hb-t>span:last-child{border-radius:0 4px 4px 0}
+.hpv1 .hb-v{text-align:right;font-weight:700;white-space:nowrap;color:var(--ink)}
+.hpv1 .hb-v.is-b{color:var(--ink2);font-weight:400}
+.hpv1 .hb-r.em .hb-l,.hpv1 .hb-r.em .hb-v{color:var(--accent2);font-weight:700}
+.hpv1 .hb-r.avg .hb-l{color:var(--ink);font-weight:700}
+/* 2系列の横棒(pair_bars): 名前 | (棒 | 値)×2 */
+.hpv1 .pb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr);gap:10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .pb-g{display:contents}
+.hpv1 .pb-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .pb-bars{display:grid;grid-template-columns:minmax(0,1fr) var(--vw,4em);gap:3px 10px;align-items:center}
+/* 100%積み上げの横棒(stacked_100): 名前 | 帯 */
+.hpv1 .s100{display:grid;grid-template-columns:fit-content(30%) minmax(0,1fr);gap:8px 10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .s100-r{display:contents}
+.hpv1 .s100-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .s100-b{display:flex;height:var(--chart-bar-l);border-radius:6px;overflow:hidden;box-shadow:inset 0 0 0 1px var(--line)}
+.hpv1 .s100-s{display:flex;flex:none;align-items:center;justify-content:center;overflow:hidden;
+  white-space:nowrap;font-weight:700}
+/* 縦棒(bars / stacked_bars): 列ごとに 値・棒・名前。目盛りは描かない */
+.hpv1 .vb{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);column-gap:6px;
+  padding-top:1.5em;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .vb-col{display:flex;flex-direction:column;min-width:0}
+.hpv1 .vb-t{height:var(--chart-h);display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  border-bottom:1px solid var(--line)}
+.hpv1 .vb-v{flex:none;font-weight:700;color:var(--ink);white-space:nowrap;padding-bottom:3px}
+.hpv1 .vb-s{flex:none;width:min(100%,var(--chart-col));display:flex;flex-direction:column-reverse;
+  border-radius:3px 3px 0 0;overflow:hidden}
+.hpv1 .vb-s>span{display:block;flex:none}
+.hpv1 .vb-l{margin-top:6px;text-align:center;font-weight:700;color:var(--ink2);overflow-wrap:anywhere}
+.hpv1 .vb-sub{display:block;font-weight:400;color:var(--mut)}
+/* 折れ線(line): 線と目盛り線は SVG(伸縮・線幅固定)、数値とラベルは HTML */
+.hpv1 .ln{padding-left:var(--ln-yw,3em);padding-right:var(--ln-xr,0);margin-top:10px;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .ln-plot{position:relative;height:var(--chart-h)}
+.hpv1 .ln-plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hpv1 .ln-g{stroke:var(--chart-grid);stroke-width:1}
+.hpv1 .ln-y{position:absolute;top:0;bottom:0;right:100%;width:var(--ln-yw,3em);padding-right:6px}
+.hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
+.hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
+.hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 長い横棒の一覧の折りたたみ(ADR-8 判断の優先順位 3・4)。:has() 非対応なら全件表示 */
+.hpv1 .hb-gap{display:none;grid-column:1/-1;color:var(--mut);text-align:center;line-height:1.2}
+.hpv1 .hbf:not(:has(details[open])) .fx{display:none}
+.hpv1 .hbf:not(:has(details[open])) .hb-gap{display:block}
+.hpv1 .more{margin-top:10px}
+.hpv1 .more>summary{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;cursor:pointer;
+  list-style:none;border:1px solid var(--line);border-radius:99px;font-size:var(--fs-small);font-weight:700;
+  color:var(--accent);background:var(--card)}
+.hpv1 .more>summary::-webkit-details-marker{display:none}
+.hpv1 .more .mc,.hpv1 .more[open] .mo{display:none}
+.hpv1 .more[open] .mc{display:inline}
+@media print{
+  .hpv1 .hbf .fx{display:contents!important}
+  .hpv1 .hbf .hb-gap,.hpv1 .more{display:none!important}
+}
+/* 狭い画面だけで使う表示(縦棒の代わりの横棒) */
+.hpv1 .narrow-only{display:none}
+.hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+
+.hpv1 .b-figure{margin:0 0 18px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:12px}
+.hpv1 .b-figure img{display:block;width:100%;height:auto;border-radius:6px}
+.hpv1 .b-figure figcaption{font-size:var(--fs-small);color:var(--ink2);margin-top:8px}
+
+.hpv1 .b-timeline{display:grid;gap:6px;margin:0 0 18px}
+.hpv1 .tlrow{display:flex;gap:12px;align-items:center;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);padding:9px 14px}
+.hpv1 .tlrow .sp{font-weight:800;color:var(--accent);flex:none;min-width:7em}
+.hpv1 .b-programs{margin:0 0 18px}
+.hpv1 .pgroup{margin-bottom:16px}
+.hpv1 .phead{margin-bottom:8px}  /* 旧・下border/accent文字色は統一セクション見出しへ集約 */
+.hpv1 .psub{font-weight:700;font-size:var(--fs-small);color:var(--ink2);margin:9px 0 5px}
+.hpv1 .pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;align-items:start}
+.hpv1 .ev{display:flex;gap:9px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:9px 12px;font-size:var(--fs-small)}
+.hpv1 .ev .no{font-weight:800;color:var(--accent);flex:none}
+.hpv1 .ev .etwrap{min-width:0}
+.hpv1 .ev .et{font-weight:700}
+.hpv1 .ev .ed{color:var(--mut);font-size:var(--fs-micro);margin-top:1px}
+
+/* programs 案2: グループの方向性・視点(常時表示) */
+.hpv1 .pintro{background:color-mix(in srgb,var(--accent) 6%,var(--card));
+  border:1px solid var(--line2);border-radius:var(--r2);padding:10px 13px;margin:0 0 9px}
+.hpv1 .pintro-item{margin:7px 0}
+.hpv1 .pintro-item:first-child{margin-top:0}
+.hpv1 .pintro-item:last-child{margin-bottom:0}
+.hpv1 .pih{font-weight:700;font-size:var(--fs-small);color:var(--accent)}
+.hpv1 .pih::before{content:"◎ "}
+.hpv1 .pib{font-size:var(--fs-small);color:var(--ink2);margin-top:1px}
+
+/* programs 案2: 事業内容(desc)の折りたたみ details/summary */
+.hpv1 .ev.evd{display:block;padding:0;cursor:pointer}
+.hpv1 .ev.evd>summary{display:flex;gap:9px;align-items:center;
+  padding:9px 12px;min-height:44px;list-style:none}
+.hpv1 .ev.evd>summary::-webkit-details-marker{display:none}
+.hpv1 .ev.evd>summary .etwrap{flex:1}
+.hpv1 .ev.evd>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .ev.evd[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .ev.evd[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .edesc{padding:9px 12px 11px;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .edesc p{margin:0 0 6px}
+.hpv1 .edesc p:last-child{margin-bottom:0}
+
+/* table 折りたたみ(fold) — programs の details と同方式 */
+.hpv1 .b-foldtbl{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);margin:0 0 12px}
+.hpv1 .b-foldtbl>summary{display:flex;gap:9px;align-items:center;padding:10px 13px;min-height:44px;list-style:none;cursor:pointer}
+.hpv1 .b-foldtbl>summary::-webkit-details-marker{display:none}
+.hpv1 .b-foldtbl>summary .ftwrap{flex:1;min-width:0}
+.hpv1 .b-foldtbl>summary .ftl{font-weight:700;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-foldtbl>summary .fts{font-size:var(--fs-micro);color:var(--mut);margin-top:1px}
+.hpv1 .b-foldtbl>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .b-foldtbl[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .b-foldtbl[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .b-foldtbl .b-table{margin:12px;border:none;border-radius:0}
+.hpv1 .b-foldtbl .b-note{margin:0 12px 12px}
+
+.hpv1 .src{font-size:var(--fs-micro);color:var(--mut);margin:2px 0 16px;text-align:right}
+.hpv1 .src::before{content:"出典："}
+
+/* ---------- フッター ---------- */
+.hpv1 .foot{margin-top:44px;border-top:1px solid var(--line);padding-top:20px;
+  font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .foot h2{font-size:var(--fs-sub);font-weight:800;font-family:var(--serif);margin-bottom:8px}
+.hpv1 .foot ul{padding-left:1.3em}
+.hpv1 .foot .disclaim{margin-top:14px;padding:11px 14px;border-radius:var(--r2);
+  background:var(--card);border:1px solid var(--line2)}
+.hpv1 .foot .contact{margin-top:10px}
+
+@media (max-width:560px){
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
+  .hpv1 .tab{padding:10px 11px 11px}
+  /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
+  .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .hpv1 .tabs::-webkit-scrollbar{display:none}
+  .hpv1 .tab{flex:none;white-space:nowrap}
+  .hpv1 .pgrid{grid-template-columns:1fr}
+  /* チャート: 名前は棒の上の行に置き、棒の長さを確保する(ADR-8) */
+  .hpv1 .hb{grid-template-columns:minmax(0,1fr) var(--vw,4em);row-gap:2px}
+  .hpv1 .hb-l{grid-column:1/-1;text-align:left;margin-top:6px}
+  .hpv1 .pb{grid-template-columns:minmax(0,1fr);row-gap:4px}
+  .hpv1 .pb-l{text-align:left;margin-top:6px}
+  .hpv1 .s100{grid-template-columns:minmax(0,1fr);row-gap:3px}
+  .hpv1 .s100-l{text-align:left;margin-top:4px}
+  /* 名前が短い横棒(.inline-sm)は、狭い画面でも名前を同じ行に置いて縦に長くしない */
+  .hpv1{--chart-bar:12px}
+  .hpv1 .hb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);row-gap:5px}
+  .hpv1 .pb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .s100.inline-sm{grid-template-columns:fit-content(30%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .inline-sm .hb-l,.hpv1 .inline-sm .pb-l,.hpv1 .inline-sm .s100-l{text-align:right;margin-top:0}
+  .hpv1 .inline-sm .hb-l{grid-column:auto}
+  .hpv1 .ln-x>.nw{display:none}
+  .hpv1 .wide-only{display:none}
+  .hpv1 .narrow-only{display:grid}
+}
+@media (prefers-reduced-motion:no-preference){
+  .hpv1 .panel.active{animation:hpv1-in .18s ease-out}
+  @keyframes hpv1-in{from{opacity:.4;transform:translateY(3px)}to{opacity:1;transform:none}}
+}
+
+.hpv1{ --accent:#a03a2c;--accent2:#2d5f7a;--danger:#c25b46;--paper:#f4f6f8; }
+</style>
+</head>
+<body class="hpv1" data-hp-root>
+<div class="wrap">
+  <header class="head">
+    <nav class="crumb"><a href="../index.html">← 計画ライブラリにもどる</a></nav>
+    <div class="eyebrow">災害対策基本法第42条にもとづき日野町防災会議が作成する計画</div>
+    <h1>日野町地域防災計画</h1>
+    <div class="metarow"><span>計画期間 <b class="num">R5〜定めなし年度</b>（令和6年3月改定（地震災害対策・風水害対策編、原子力災害対策編）。原典に計画期間の定めはなく、毎年検討を加え、必要があるときは修正する（開始は改定した令和6年3月を含む令和5年度とした））</span><span>所管 <b>総務課</b></span><span>公表 <b>令和6年3月改定</b></span></div>
+    
+    <p class="lead">地震・風水害・原子力災害から町民の生命、身体及び財産を守るため、町・県・防災関係機関・町民がそれぞれ何をするかを、ふだんの備え（災害予防）、災害時の対応（災害応急対策）、復旧・復興の段階ごとに定めた計画です。</p>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="このページの内容"><button class="tab" role="tab" data-tab="summary" aria-selected="true"><span class="tn num">01</span>まとめ</button><button class="tab" role="tab" data-tab="saigai" aria-selected="false"><span class="tn num">02</span>想定する災害</button><button class="tab" role="tab" data-tab="hinan" aria-selected="false"><span class="tn num">03</span>避難</button><button class="tab" role="tab" data-tab="sonae" aria-selected="false"><span class="tn num">04</span>備えと役割</button><button class="tab" role="tab" data-tab="taisei" aria-selected="false"><span class="tn num">05</span>町の体制</button><button class="tab" role="tab" data-tab="shien" aria-selected="false"><span class="tn num">06</span>被災後の支援</button><button class="tab" role="tab" data-tab="genshi" aria-selected="false"><span class="tn num">07</span>原子力災害</button></nav>
+  <section class="panel active" role="tabpanel" data-panel="summary"><div><div class="b-narrative"><p>日野町地域防災計画は、災害対策基本法にもとづいて日野町防災会議がつくる計画です。地震や大雨などの災害が起きたとき、また起きるおそれがあるときに、町・県・国の機関・町民などがそれぞれ何をするかを決め、町民の命・からだ・財産を守ることを目的にしています。</p><p>計画は「地震災害対策・風水害対策編」と「原子力災害対策編」に分かれ、ふだんの備え（災害予防）、災害が起きたときの対応（災害応急対策）、その後の立て直し（災害復旧・復興）の順に定めています。町民と事業者には、「自らの命は自ら守る」という防災の原点に立って、食糧の備蓄などの備えと、町の防災活動への協力を求めています。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.1-3</div><div><div class="b-vision"><div class="lbl">災害対策の基本理念</div><div class="tx">住民の生命及び財産の保護、社会生活の維持</div></div></div><div><div class="b-aims"><div class="aim"><span class="no">1</span><div><div class="t">防災まちづくりの推進</div><div class="d">公共施設等の整備や治山・治水事業などの取り組みを進め、安全な防災まちづくりを目指します。</div></div></div><div class="aim"><span class="no">2</span><div><div class="t">総合的な防災体制の確立</div><div class="d">風水害に対する警戒体制、災害発生時の災害活動体制、水防力の強化、生活必需物資の備蓄をはじめとする救援・救助・救護の支援体制、防災無線の整備などの情報収集・伝達体制を着実に整備します。</div></div></div><div class="aim"><span class="no">3</span><div><div class="t">避難行動要支援者の避難支援体制の整備</div><div class="d">高齢者、障がい者、外国人、妊産婦等の避難行動要支援者に配慮した体制や施設の整備を進め、災害時に遅滞なく避難・救護活動を行える体制を確立します。</div></div></div><div class="aim"><span class="no">4</span><div><div class="t">住民の防災行動力の向上</div><div class="d">防災訓練の強化、自主防災組織の育成、防災知識の啓発を行い、地域の防災リーダーとなる防災士の育成や、災害ボランティアとの連携による体制づくりを進めます。</div></div></div></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.32</div><div><div class="b-kpis"><div class="kpi"><div class="kl">全壊する建物（鈴鹿西縁断層帯 ケース2・想定最大震度7）</div><div class="kn num">512<span class="ku">棟</span></div><div class="asof">H26.3 県公表</div></div><div class="kpi"><div class="kl">死者数（鈴鹿西縁断層帯 ケース2・冬の深夜）</div><div class="kn num">31<span class="ku">人</span></div><div class="asof">H26.3 県公表</div></div><div class="kpi"><div class="kl">1週間後の全避難者（鈴鹿西縁断層帯 ケース2）</div><div class="kn num">4,825<span class="ku">人</span></div><div class="asof">H26.3 県公表</div></div><div class="kpi"><div class="kl">3日後の避難所生活者（南海トラフ巨大地震 陸側ケース）</div><div class="kn num">2,194<span class="ku">人</span></div><div class="asof">H26.3 県公表</div></div></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.19</div><div><div class="b-actions"><div class="t">わたしたちにできること</div><ul><li>家族構成に応じて3日分の飲料水と食糧を備える（飲料水は1人3リットル×3日分、食糧は1人3食×3日分が目安）</li><li>ハザードマップなどで地域の災害リスクと避難場所・避難路を確かめ、マイ・タイムラインで一人ひとりの避難計画を立てておく</li><li>警戒レベル3（高齢者等避難）で避難に時間がかかる人は避難を始め、警戒レベル4（避難指示）で速やかに避難する</li><li>自主防災組織の活動や地域の防災訓練に参加する</li><li>ペットと同行避難するための準備をしておく</li><li>事業所は防災計画をつくり、従業員の任務分担、訓練、地域住民との協力を決めておく</li></ul></div></div><div><div class="b-note"><span>出典ページは各編の印刷ページ番号です（地震災害対策・風水害対策編は honpen-01、原子力災害対策編は honpen-02）。指定避難所や地域避難集合場所の一覧は計画の資料編に載っていますが、このダッシュボードの原典には資料編が含まれていないため載せていません。地震の被害想定は、滋賀県地震被害想定（平成26年3月26日公表）の日野町の結果です。</span></div></div></section><section class="panel" role="tabpanel" data-panel="saigai"><div><div class="b-narrative"><p>日野町に被害を及ぼした過去の地震は内陸型地震が多く、活断層による内陸直下型地震への警戒が必要です。あわせて、南海トラフ沿いで発生する南海トラフ巨大地震への警戒も必要です。滋賀県の地震被害想定では、町で被害の規模が大きいのは鈴鹿西縁断層帯の地震と南海トラフ巨大地震です。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.18-19</div><div><nav class="b-toc"><a href="#sec-saigai-1">地震の被害想定</a><a href="#sec-saigai-2">地震が起きる確率</a><a href="#sec-saigai-3">風水害の特性</a><a href="#sec-saigai-4">町内の災害に備える施設・区域</a><a href="#sec-saigai-5">日野町のすがた</a></nav></div><div id="sec-saigai-1"><div class="b-heading"><h2>地震の被害想定</h2><div class="sub">滋賀県地震被害想定（平成26年3月26日公表）による日野町の結果</div></div></div><div><div class="b-ttl">鈴鹿西縁断層帯の地震</div><div class="b-table"><table><thead><tr><th>項目</th><th>ケース1</th><th>ケース2</th></tr></thead><tbody><tr><td>想定最大震度</td><td>7</td><td>7</td></tr><tr><td>全壊棟数</td><td class="num">435</td><td class="num">512</td></tr><tr><td>半壊棟数</td><td class="num">1,668</td><td class="num">1,773</td></tr><tr><td>死者数（冬深夜）</td><td class="num">25</td><td class="num">31</td></tr><tr><td>負傷者数（冬深夜）</td><td class="num">348</td><td class="num">390</td></tr><tr><td>停電件数（直後）</td><td class="num">15,172</td><td class="num">15,955</td></tr><tr><td>断水人口（直後）</td><td class="num">13,997</td><td class="num">16,213</td></tr><tr><td>避難所生活者（1日後）</td><td class="num">996</td><td class="num">1,158</td></tr><tr><td>避難所生活者（3日後）</td><td class="num">1,630</td><td class="num">1,928</td></tr><tr><td>避難所生活者（1週間後）</td><td class="num">1,983</td><td class="num">2,412</td></tr><tr><td>全避難者（1週間後）</td><td class="num">3,966</td><td class="num">4,825</td></tr></tbody></table></div></div><div><div class="b-ttl">南海トラフ巨大地震</div><div class="b-table"><table><thead><tr><th>項目</th><th>基本ケース</th><th>陸側ケース</th></tr></thead><tbody><tr><td>想定最大震度</td><td>6弱</td><td>6強</td></tr><tr><td>全壊棟数</td><td class="num">60</td><td class="num">283</td></tr><tr><td>半壊棟数</td><td class="num">672</td><td class="num">1,963</td></tr><tr><td>死者数（冬深夜）</td><td>－</td><td class="num">13</td></tr><tr><td>負傷者数（冬深夜）</td><td class="num">38</td><td class="num">272</td></tr><tr><td>停電件数（直後）</td><td class="num">14,991</td><td class="num">16,344</td></tr><tr><td>断水人口（直後）</td><td class="num">8,904</td><td class="num">13,995</td></tr><tr><td>避難所生活者（1日後）</td><td class="num">249</td><td class="num">781</td></tr><tr><td>避難所生活者（3日後）</td><td class="num">407</td><td class="num">2,194</td></tr><tr><td>避難所生活者（1週間後）</td><td class="num">430</td><td class="num">2,306</td></tr><tr><td>全避難者（1週間後）</td><td class="num">860</td><td class="num">4,613</td></tr></tbody></table></div><div class="b-note"><span>単位は、全壊棟数・半壊棟数が棟、停電件数が件（契約口数）、それ以外は人。死者数・負傷者数は、想定した3つの時間帯（夏正午・冬夕方・冬深夜）のうち冬深夜の値で、原典の（ ）内に示された家具転倒等の人数は省いた。避難所生活者は、自宅での炊事が困難なこと等により避難所で飲料水・食料を受け取り自宅で就寝する者を含む人数。全避難者は、知人・親戚宅もしくは賃貸住宅等での避難生活者を含む人数。「－」は原典の表記どおり。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.19</div><div><div class="b-narrative"><p>鈴鹿西縁断層帯地震のケース1は断層帯の南部を、ケース2は北部を破壊開始点としています。南海トラフ巨大地震の基本ケースは内閣府が推計した過去の地震記録等にもとづく強震動生成域を、陸側ケースは強震動生成域の位置をシフトしたケースの中で滋賀県での震度が最も大きく推計されているものです。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.20</div><div><details class="b-foldtbl"><summary><div class="ftwrap"><div class="ftl">12ケースすべての想定最大震度と建物被害</div><div class="fts">最大は鈴鹿西縁断層帯の震度7</div></div><span class="caret" aria-hidden="true"></span></summary><div class="b-table"><table><thead><tr><th>断層帯・ケース</th><th>想定最大震度</th><th>全壊棟数（棟）</th><th>半壊棟数（棟）</th></tr></thead><tbody><tr><td>琵琶湖西岸断層帯 ケース1</td><td>5強</td><td>－</td><td>－</td></tr><tr><td>琵琶湖西岸断層帯 ケース2</td><td>5強</td><td>－</td><td class="num">5</td></tr><tr><td>花折断層帯 ケース2</td><td>5強</td><td>－</td><td class="num">10</td></tr><tr><td>花折断層帯 ケース3</td><td>5強</td><td>－</td><td class="num">31</td></tr><tr><td>木津川断層帯 ケース1</td><td>6弱</td><td class="num">29</td><td class="num">363</td></tr><tr><td>木津川断層帯 ケース3</td><td>6弱</td><td class="num">10</td><td class="num">198</td></tr><tr><td>鈴鹿西縁断層帯 ケース1</td><td>7</td><td class="num">435</td><td class="num">1,668</td></tr><tr><td>鈴鹿西縁断層帯 ケース2</td><td>7</td><td class="num">512</td><td class="num">1,773</td></tr><tr><td>柳ヶ瀬関ヶ原断層帯 ケース1</td><td>5強</td><td>－</td><td class="num">8</td></tr><tr><td>柳ヶ瀬関ヶ原断層帯 ケース2</td><td>5弱</td><td>－</td><td>－</td></tr><tr><td>南海トラフ巨大地震 基本ケース</td><td>6弱</td><td class="num">60</td><td class="num">672</td></tr><tr><td>南海トラフ巨大地震 陸側ケース</td><td>6強</td><td class="num">283</td><td class="num">1,963</td></tr></tbody></table></div><div class="b-note"><span>「－」は原典の表記どおり。</span></div></details></div><div><div class="b-chart"><div class="cttl">断水人口の推移（地震後）</div><div class="cunit">単位：人</div><div class="legend"><span><span class="sw" style="background:#a03a2c"></span>鈴鹿西縁断層帯 ケース2</span><span><span class="sw" style="background:#2d5f7a"></span>南海トラフ巨大地震 陸側ケース</span></div><div class="ln" style="--ln-yw:4.6em;--ln-xr:1.9em"><div class="ln-plot"><div class="ln-y"><span class="num" style="bottom:0.00%">0</span><span class="num" style="bottom:25.00%">5,000</span><span class="num" style="bottom:50.00%">10,000</span><span class="num" style="bottom:75.00%">15,000</span><span class="num" style="bottom:100.00%">20,000</span></div><svg viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><line class="ln-g" x1="0" y1="1000.0" x2="1000" y2="1000.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="750.0" x2="1000" y2="750.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="500.0" x2="1000" y2="500.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="250.0" x2="1000" y2="250.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="0.0" x2="1000" y2="0.0" vector-effect="non-scaling-stroke"/><polyline points="0.0,189.4 142.9,209.3 285.7,239.3 428.6,273.7 571.4,421.1 714.3,895.9 857.1,991.4 1000.0,999.4" fill="none" stroke="#a03a2c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><polyline points="0.0,300.2 142.9,109.8 285.7,127.2 428.6,232.1 571.4,573.4 714.3,948.0 857.1,997.2 1000.0,999.9" fill="none" stroke="#2d5f7a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" vector-effect="non-scaling-stroke"/></svg></div><div class="ln-x"><span class="nw" style="left:0.00%">直後</span><span style="left:14.29%">1日後</span><span class="nw" style="left:28.57%">2日後</span><span class="nw" style="left:42.86%">3日後</span><span style="left:57.14%">1週間後</span><span class="nw" style="left:71.43%">1か月後</span><span class="nw" style="left:85.71%">2か月後</span><span style="left:100.00%">3か月後</span></div></div></div><div class="b-note"><span>横軸の間隔は経過時間の長さに比例しない。南海トラフ巨大地震の陸側ケースでは、地震直後より1日後の断水人口が多い。</span></div></div><div><div class="b-chart"><div class="cttl">停電件数の推移（地震後）</div><div class="cunit">単位：件</div><div class="legend"><span><span class="sw" style="background:#a03a2c"></span>鈴鹿西縁断層帯 ケース2</span><span><span class="sw" style="background:#2d5f7a"></span>南海トラフ巨大地震 陸側ケース</span></div><div class="ln" style="--ln-yw:4.6em;--ln-xr:1.9em"><div class="ln-plot"><div class="ln-y"><span class="num" style="bottom:0.00%">0</span><span class="num" style="bottom:25.00%">5,000</span><span class="num" style="bottom:50.00%">10,000</span><span class="num" style="bottom:75.00%">15,000</span><span class="num" style="bottom:100.00%">20,000</span></div><svg viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><line class="ln-g" x1="0" y1="1000.0" x2="1000" y2="1000.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="750.0" x2="1000" y2="750.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="500.0" x2="1000" y2="500.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="250.0" x2="1000" y2="250.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="0.0" x2="1000" y2="0.0" vector-effect="non-scaling-stroke"/><polyline points="0.0,202.2 250.0,673.9 500.0,844.2 750.0,922.4 1000.0,999.9" fill="none" stroke="#a03a2c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><polyline points="0.0,182.8 250.0,306.5 500.0,458.1 750.0,652.7 1000.0,996.5" fill="none" stroke="#2d5f7a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" vector-effect="non-scaling-stroke"/></svg></div><div class="ln-x"><span style="left:0.00%">直後</span><span class="nw" style="left:25.00%">1日後</span><span style="left:50.00%">2日後</span><span class="nw" style="left:75.00%">3日後</span><span style="left:100.00%">1週間後</span></div></div></div><div class="b-note"><span>停電件数は契約口数。横軸の間隔は経過時間の長さに比例しない。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.19</div><div id="sec-saigai-2"><div class="b-heading"><h2>地震が起きる確率</h2><div class="sub">地震調査研究推進本部の長期評価（算定基準日：令和6年1月1日）</div></div></div><div><div class="b-table"><table><thead><tr><th>震源</th><th>今後30年以内</th><th>今後50年以内</th><th>地震の規模</th></tr></thead><tbody><tr><td>鈴鹿西縁断層帯（約44km）</td><td>0.08－0.2％</td><td>0.1－0.3％</td><td>M7.6程度</td></tr><tr><td>頓宮断層（約31km）</td><td>1％以下</td><td>2％以下</td><td>M7.3程度</td></tr><tr><td>南海トラフ巨大地震</td><td>70％-80％</td><td>90％程度もしくはそれ以上</td><td>M8～M9クラス</td></tr></tbody></table></div><div class="b-note"><span>南海トラフ巨大地震の今後10年以内の発生確率は30％程度。鈴鹿西縁断層帯は最新活動の時期が特定できていないため、地震発生確率が時間的に不変とした考え方（ポアソン過程）で長期確率を求めている。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.20</div><div><div class="b-narrative"><p>南海トラフ地震防災対策推進地域：平成26年3月の中央防災会議で、南海トラフ地震により著しい被害が生じるおそれがあるため防災対策を推進する必要がある地域として、日野町を含む29都府県707市町村の区域が指定されました。滋賀県は、平成26年3月28日現在で県内全域が推進地域に指定されています。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.31</div><div id="sec-saigai-3"><div class="b-heading"><h2>風水害の特性</h2></div></div><div><div class="b-bullets"><div class="t">県の気象災害の特性と町の注意点</div><ul><li>県下の風水害は6月から9月までの間に発生しており、6～7月は主として梅雨前線、8～9月は台風による。</li><li>県下の河川はいずれも小河川で、天井川や尻無川が多いため、豪雨の時には水位が急上昇して破堤や溢水の小規模災害が起こりやすい。洪水波が下流へ到達する時間も非常に短い。</li><li>大型台風が県域の東側を北東進するとき、台風に伴う湿った強風が山の斜面に吹きつけて鈴鹿などの山岳地帯に豪雨が降り、大きな被害が発生する（例：昭和28年台風第13号、伊勢湾台風、平成25年台風第18号）。</li><li>大型台風が県域の西側を北東進するとき、暴風による被害が発生する。</li><li>町内の中小河川や農業用水路など、集中豪雨により溢水するおそれがある場所の浸水予測を示した「地先の安全度マップ」が県によって作成されている。土砂災害のリスクについては滋賀県防災情報マップを活用し、大雨に対する警戒は引き続き必要である。</li><li>県南部にある本町の積雪量は少ないが、鉄道の遅延・運休や道路の凍結による渋滞など交通障害はあり得る。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.29-30</div><div><div class="b-ttl">日野町の主な台風被害（「近江日野の歴史」より）</div><div class="b-table"><table><thead><tr><th>台風</th><th class="txt">日野町の主な被害</th></tr></thead><tbody><tr><td>大正2年の台風</td><td class="txt">日野川流域で死者1人、家屋の流失倒壊25戸、床上・床下浸水293戸などの被害。東桜谷村杣で佐久良川が1箇所決壊したほか、広範囲にわたって橋梁や道路に被害が出た。</td></tr><tr><td>室戸台風（昭和9年）</td><td class="txt">鎌掛村で5棟、西桜谷村で1棟の住家が半壊。土砂崩れにより西大路村で163ha、鎌掛村で53haにわたって被害が出た。</td></tr><tr><td>伊勢湾台風（昭和34年）</td><td class="txt">日野署管内で死者1人、家屋の全壊4戸、半壊8戸、流失1戸、床上浸水63戸、床下浸水776戸。堤防決壊が10箇所、山崩れが24箇所で発生し、水田の冠水は459haに及んだ。</td></tr><tr><td>第二室戸台風（昭和36年）</td><td class="txt">軽傷者3人、住家の全壊2戸、半壊17戸、一部損壊147戸、公共の建物の半壊2戸、一部損壊48戸など。</td></tr><tr><td>昭和40年台風第24号</td><td class="txt">住家の半壊7戸、一部損壊50戸、床上浸水37戸、床下浸水1,158戸、山林崩壊88箇所、道路被害146箇所、橋梁被害51箇所、河川被害173箇所など。</td></tr><tr><td>昭和47年台風第20号</td><td class="txt">住家の一部損壊279戸、床下浸水309戸、町道崩壊56箇所、河川の護岸崩壊158箇所、山林崩壊322箇所。</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.25-26</div><div><div class="b-narrative"><p>台風以外の豪雨では、昭和49年7月24～25日の低気圧による集中豪雨で、町内で床上浸水2戸、床下浸水148戸、町道破損22箇所、県道破損11箇所、河川破損87箇所などの被害が出ました。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.29</div><div id="sec-saigai-4"><div class="b-heading"><h2>町内の災害に備える施設・区域</h2></div></div><div><div class="b-kpis"><div class="kpi"><div class="kl">防災重点ため池</div><div class="kn num">82<span class="ku">ヶ所</span></div></div><div class="kpi"><div class="kl">農業用工作物（頭首工、水門、樋門、樋管等）</div><div class="kn num">115<span class="ku">ヶ所</span></div></div></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.40</div><div><div class="b-kpis"><div class="kpi"><div class="kl">地すべり防止区域（国土交通大臣指定）</div><div class="kn num">5<span class="ku">ヶ所</span></div></div><div class="kpi"><div class="kl">地すべり防止区域（農林水産大臣指定）</div><div class="kn num">2<span class="ku">ヶ所</span></div></div></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.42-43</div><div><div class="b-narrative"><p>防災重点ため池や農業用工作物は築造後の経年とともに老朽化が進んでおり、緊急に整備を必要とする施設は河川管理者と協議して必要な措置を行います。ため池の決壊による水害の危険性は、ため池ハザードマップ等で周知します。また、町内には急傾斜地崩壊危険箇所も数多く点在しており、県が指定する土砂災害警戒区域では、警戒避難体制の整備・周知、住宅等の新規立地の抑制、既存住宅の移転促進などのソフト対策を進めます。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.40-44</div><div id="sec-saigai-5"><div class="b-heading"><h2>日野町のすがた</h2></div></div><div><div class="b-narrative"><p>日野町は滋賀県の南東部にあり、南北は約12.3km、東西は約14.5km、面積は117.60km²です。鈴鹿山脈から町の中央部を西流する日野川水系によって、大きく北部地域、中央低地、南部地域の3つに分かれています。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.11</div><div><div class="b-kpis"><div class="kpi"><div class="kl">人口（国勢調査）</div><div class="kn num">20,964<span class="ku">人</span></div><div class="asof">R2.10.1</div></div><div class="kpi"><div class="kl">世帯数（国勢調査）</div><div class="kn num">7,932<span class="ku">世帯</span></div><div class="asof">R2.10.1</div></div></div></div><div><div class="b-chart"><div class="cttl">人口の推移（国勢調査）</div><div class="cunit">単位：人</div><div class="legend"><span><span class="sw" style="background:#a03a2c"></span>人口</span></div><div class="ln" style="--ln-yw:4.6em;--ln-xr:0.7em"><div class="ln-plot"><div class="ln-y"><span class="num" style="bottom:0.00%">0</span><span class="num" style="bottom:16.67%">5,000</span><span class="num" style="bottom:33.33%">10,000</span><span class="num" style="bottom:50.00%">15,000</span><span class="num" style="bottom:66.67%">20,000</span><span class="num" style="bottom:83.33%">25,000</span><span class="num" style="bottom:100.00%">30,000</span></div><svg viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><line class="ln-g" x1="0" y1="1000.0" x2="1000" y2="1000.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="833.3" x2="1000" y2="833.3" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="666.7" x2="1000" y2="666.7" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="500.0" x2="1000" y2="500.0" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="333.3" x2="1000" y2="333.3" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="166.7" x2="1000" y2="166.7" vector-effect="non-scaling-stroke"/><line class="ln-g" x1="0" y1="0.0" x2="1000" y2="0.0" vector-effect="non-scaling-stroke"/><polyline points="0.0,115.9 66.7,130.8 133.3,178.3 200.0,233.6 266.7,286.1 333.3,308.2 400.0,302.9 466.7,277.3 533.3,266.4 600.0,253.6 666.7,228.9 733.3,232.6 800.0,239.7 866.7,237.7 933.3,270.9 1000.0,301.2" fill="none" stroke="#a03a2c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></div><div class="ln-x"><span style="left:0.00%">S22</span><span class="nw" style="left:6.67%">S25</span><span class="nw" style="left:13.33%">S30</span><span style="left:20.00%">S35</span><span class="nw" style="left:26.67%">S40</span><span class="nw" style="left:33.33%">S45</span><span style="left:40.00%">S50</span><span class="nw" style="left:46.67%">S55</span><span class="nw" style="left:53.33%">S60</span><span style="left:60.00%">H2</span><span class="nw" style="left:66.67%">H7</span><span class="nw" style="left:73.33%">H12</span><span style="left:80.00%">H17</span><span class="nw" style="left:86.67%">H22</span><span class="nw" style="left:93.33%">H27</span><span style="left:100.00%">R2</span></div></div></div><div class="b-note"><span>昭和50年代以降は工業団地の誘致や住宅団地の開発に伴い人口が増加に転じ、現在はやや減少の傾向にある。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.15</div></section><section class="panel" role="tabpanel" data-panel="hinan"><div><div class="b-narrative"><p>状況に応じた適切な安全確保措置をとることが避難であり、自らの判断で近くの安全な場所へ移動したり緊急安全確保を行ったりすることも避難の選択肢です。マイ・タイムライン等で一人ひとりが避難計画を立てておくことで、逃げ遅れゼロをめざします。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.68</div><div><nav class="b-toc"><a href="#sec-hinan-1">警戒レベルと避難情報</a><a href="#sec-hinan-2">川の水位と避難情報</a><a href="#sec-hinan-3">土砂災害と避難情報</a><a href="#sec-hinan-4">避難する場所</a><a href="#sec-hinan-5">避難所の運営</a><a href="#sec-hinan-6">福祉避難所の協定施設</a><a href="#sec-hinan-7">避難行動要支援者の支援</a></nav></div><div id="sec-hinan-1"><div class="b-heading"><h2>警戒レベルと避難情報</h2></div></div><div><div class="b-ttl">警戒レベル</div><div class="b-table"><table><thead><tr><th>警戒レベル</th><th class="txt">避難行動等</th><th>避難情報等</th><th class="txt">防災気象情報</th></tr></thead><tbody><tr><td>警戒レベル1</td><td class="txt">災害への心構えを高める</td><td>早期注意情報（気象庁が発表）</td><td class="txt">早期注意情報</td></tr><tr><td>警戒レベル2</td><td class="txt">避難に備え、ハザードマップ等により、自らの避難行動を確認する</td><td>洪水注意報、大雨注意報 等</td><td class="txt">大雨注意報、洪水注意報、氾濫注意報</td></tr><tr><td>警戒レベル3</td><td class="txt">避難に時間を要する人とその支援者は避難する。その他の人は、避難の準備を整える</td><td>高齢者等避難（町が発令）</td><td class="txt">大雨警報（浸水害）、大雨警報（土砂災害）、洪水警報</td></tr><tr><td>警戒レベル4</td><td class="txt">速やかに避難先へ避難する。公的な避難場所までの移動が危険と判断される場合は、近くの安全な場所や、自宅内のより安全な場所へ避難</td><td>避難指示（町が発令）</td><td class="txt">土砂災害警戒情報</td></tr><tr><td>警戒レベル5</td><td class="txt">既に災害が発生している状況。命を守るための最善の行動をとる</td><td>緊急安全確保（町が発令）</td><td class="txt">氾濫発生情報、大雨特別警報（浸水害）、大雨特別警報（土砂災害）</td></tr></tbody></table></div><div class="b-note"><span>緊急安全確保は、町が災害を確実に把握できるものではないため、災害が発生した場合に、必ず発令されるものではない。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.183-184</div><div><div class="b-cards "><div class="card"><div class="ct">高齢者等避難（警戒レベル3）</div><div class="cd">要配慮者等、特に避難行動に時間を要する者は、計画された指定避難所への避難行動を開始（避難支援者は支援行動を開始）。それ以外の者は、家族等との連絡、非常用持出品の用意等、避難準備を開始。</div></div><div class="card"><div class="ct">避難指示（警戒レベル4）</div><div class="cd">通常の避難行動ができる者は、計画された避難所等への避難行動を開始し、確実な避難行動を直ちに完了。未だ避難していない対象住民は、直ちに避難行動に移るとともに、そのいとまがない場合は生命を守る最低限の行動。</div></div><div class="card"><div class="ct">緊急安全確保（警戒レベル5）</div><div class="cd">災害がすでに発生しており、命を守る最善の行動をとる。</div></div><div class="card"><div class="ct">屋内での退避等の安全確保措置</div><div class="cd">屋外を移動して立ち退くことでかえって命に危険が及ぶおそれがある場合に指示する。屋内の安全な場所で待機し、外にいる場合は速やかに屋内に退避する。</div></div></div></div><div><div class="b-narrative"><p>避難情報は、防災行政無線、広報車、テレビ・ラジオ、緊急速報メール、日野町行政情報メール配信サービス（日野め～る）、Ｌアラート、日野町防災アプリ、戸別受信機（緊急告知ラジオ）などで伝えます。避難指示では、必要に応じて戸別に口頭でも伝えます。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.180-181</div><div id="sec-hinan-2"><div class="b-heading"><h2>川の水位と避難情報</h2><div class="sub">日野川・佐久良川などの氾濫</div></div></div><div><div class="b-ttl">氾濫注意水位（警戒水位）</div><div class="b-table"><table><thead><tr><th>観測所</th><th>河川</th><th>水位（ｍ）</th></tr></thead><tbody><tr><td>別所橋</td><td>日野川</td><td class="num">2.00</td></tr><tr><td>増田橋</td><td>日野川</td><td class="num">2.25</td></tr><tr><td>諸木大橋</td><td>佐久良川</td><td class="num">1.90</td></tr></tbody></table></div><div class="b-note"><span>洪水警報が発表され氾濫注意水位（警戒水位）に到達したときなどに高齢者等避難（警戒レベル3）を、氾濫注意水位を超えなおも降雨が予想されるとき、洪水キキクルで危険（紫）が出現した場合、堤防の決壊につながるような漏水や亀裂等を発見したときなどに避難指示（警戒レベル4）を発令する。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.182</div><div id="sec-hinan-3"><div class="b-heading"><h2>土砂災害と避難情報</h2></div></div><div><div class="b-narrative"><p>土砂災害警戒区域などでは、大雨警報（土砂災害）が発表され、県の土木防災情報システムによる土砂災害降雨危険度で赤色（警戒レベル3相当）となった場合などに高齢者等避難を、土砂災害警戒情報が発表された場合や土砂災害降雨危険度で薄紫色（警戒レベル4相当）となった場合などに避難指示を、大雨特別警報（土砂災害）が発表された場合などに緊急安全確保を発令します。近隣で次のような前兆現象が見つかったときも、避難指示の発令につながります。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.182-183</div><div><div class="b-fields"><div class="field"><div class="ft">土石流の前兆</div><div class="fd">渓流内で転石の音、流木発生、土臭い臭い、地鳴り、流水の急激な濁り、渓流水位激減</div></div><div class="field"><div class="ft">がけ崩れの前兆</div><div class="fd">小石がぱらぱら落下、新たな湧水発生、湧水の濁り、湧水の停止、湧水の噴き出し、亀裂の発生、斜面のはらみだし、小石がぽろぽろ落下、地鳴り</div></div><div class="field"><div class="ft">地すべりの前兆</div><div class="fd">池や沼の水かさの急変、亀裂・段差の発生・拡大、落石・小崩落、斜面のはらみだし、構造物のはらみだし・クラック、根の切れる音、樹木の傾き、地鳴り・山鳴り、地面の震動</div></div></div></div><div id="sec-hinan-4"><div class="b-heading"><h2>避難する場所</h2></div></div><div><div class="b-fields"><div class="field"><div class="ft">地域避難集合場所</div><div class="fd">自治会単位において、災害時に身の安全を守る場所及び安否の確認を行うために住民が集う場所。町と自治会等が自治会ごとに選定する。</div></div><div class="field"><div class="ft">指定緊急避難場所</div><div class="fd">地震等の災害の危険から逃れるための場所。対応する災害種別を明らかにして町が指定する。</div></div><div class="field"><div class="ft">指定避難所</div><div class="fd">災害の危険性や災害による被害の影響から避難した住民等が一時的に滞在するための施設。小中学校、公民館等の公共施設を指定し、施設管理者や住民（自主防災組織等）の協力を得て開設する。</div></div><div class="field"><div class="ft">福祉避難所</div><div class="fd">要配慮者が指定避難所等での避難生活ができない場合等に備えて指定する避難所。社会福祉施設等と協定を締結している。</div></div></div></div><div><div class="b-note"><span>地域避難集合場所と指定避難所・指定緊急避難場所の一覧は、計画の資料編（資料19・資料20）にあります。資料編はこのダッシュボードの原典に含まれていないため、一覧は載せていません。</span></div></div><div><div class="b-bullets"><div class="t">避難するときの決まり</div><ul><li>避難の順位は、①避難行動要支援者、②防災活動従事者以外の住民、③防災活動従事者。</li><li>避難に際して、家屋内の火気及び危険物の始末を完全にする。</li><li>緊急の場合の携行品は、現金、貴金属、常備薬以外の日用品等、身の回り品を最小限にする。</li><li>最初の避難場所が危険と判断された場合は、他の避難場所へ移動する。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.185</div><div id="sec-hinan-5"><div class="b-heading"><h2>避難所の運営</h2></div></div><div><div class="b-narrative"><p>町は指定避難所に地区班を派遣し、自主防災組織等と連携して、避難者による自主的な運営を促します。車中泊避難者やペットへの対策、女性の参画を進め、避難者のプライバシー確保、女性や子育て家庭のニーズへの配慮、感染症対策に取り組みます。炊き出し等の救援活動は自主防災組織等の住民組織やボランティアが運営し、町職員が補助・支援します。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.186-187</div><div><div class="b-bullets"><div class="t">要配慮者である避難者への配慮</div><ul><li>民生班、民生委員等の定期的な訪問による実態調査</li><li>避難者の障がいや身体状況に応じた適切な措置を受けられる施設への移送</li><li>避難者の事情に応じた保健師、ホームヘルパー等の派遣</li><li>女性の更衣や授乳等のためのスペースの確保、生理用品、女性用下着の女性による配布</li><li>高齢者、障がい者に配慮したバリアフリー化</li><li>高齢者、障がい者、乳幼児等に配慮した食糧の支給</li><li>人工呼吸器や吸引機等の医療機器の電源の確保</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.187</div><div id="sec-hinan-6"><div class="b-heading"><h2>福祉避難所の協定施設</h2></div></div><div><div class="b-ttl">福祉避難所協定施設一覧</div><div class="b-table"><table><thead><tr><th>施設名</th><th>所在地</th><th>事業者名</th></tr></thead><tbody><tr><td>特別養護老人ホーム 白寿荘</td><td>松尾359番地</td><td>社会福祉法人 湖東会</td></tr><tr><td>特別養護老人ホーム 誉の松</td><td>深山口524番地</td><td>社会福祉法人 日野友愛会</td></tr><tr><td>介護老人保健施設 リスタあすなろ</td><td>上野田246番地</td><td>医療法人社団 昴会</td></tr><tr><td>ゆめさとグループホーム</td><td>西大路434番地2</td><td>株式会社 ドリエジョ</td></tr><tr><td>わたむきの里作業所</td><td>上野田805番地</td><td>社会福祉法人 わたむきの里福祉会</td></tr><tr><td>ひのたに園</td><td>松尾121番地</td><td>社会福祉法人 グロー</td></tr></tbody></table></div><div class="b-note"><span>協定は平成26年12月1日から。誉の松は土砂災害警戒区域内等の施設に該当する。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.79</div><div id="sec-hinan-7"><div class="b-heading"><h2>避難行動要支援者の支援</h2></div></div><div><div class="b-bullets"><ul><li>町は、他者の支援がなければ避難できない在宅の人で、家族等による必要な支援を受けることが困難な人（避難行動要支援者）の名簿を作成し、1年に1回更新する。</li><li>名簿情報は、日野町避難行動要支援者に係る名簿情報の提供等に関する条例（令和5年日野町条例第2号）に基づき、避難支援等関係者に提供する。</li><li>一人ひとりの避難行動要支援者について、具体的な避難支援方法を定めた「避難行動要支援者避難支援プラン（個別計画）」を策定し、避難体制の整備に努める。</li><li>自治会は、民生委員・児童委員等と連携して避難行動要支援者の実態把握に努め、迅速に安否確認や避難誘導、救助活動が行えるよう地域防災訓練を実施する。</li><li>浸水想定区域や土砂災害警戒区域内の要配慮者利用施設の管理者等は、「避難確保計画」を作成して町へ報告し、避難訓練を実施する。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.75-80</div></section><section class="panel" role="tabpanel" data-panel="sonae"><div><div class="b-narrative"><p>町民及び事業者等は、「自らの命は自ら守る」という防災の原点に立って、食糧の備蓄や消火・救助活動に協力するとともに、町及び各機関が実施する防災活動に協力します。また、町民及び事業者等は、必要に応じて自発的に防災活動に関する計画を作成し、地区防災計画の素案として町に提案することができます。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.3</div><div><nav class="b-toc"><a href="#sec-sonae-1">家庭での備え</a><a href="#sec-sonae-2">町の備蓄</a><a href="#sec-sonae-3">断水したときの給水</a><a href="#sec-sonae-4">地域の自主防災組織</a><a href="#sec-sonae-5">防災訓練と防災教育</a><a href="#sec-sonae-6">事業所の役割</a><a href="#sec-sonae-7">災害ボランティア</a></nav></div><div id="sec-sonae-1"><div class="b-heading"><h2>家庭での備え</h2></div></div><div><div class="b-ttl">各家庭における備蓄（家族構成に応じた3日分）</div><div class="b-table"><table><thead><tr><th>品目</th><th>備蓄の目安</th></tr></thead><tbody><tr><td>飲料水</td><td>3リットル×3日分／1人</td></tr><tr><td>食糧</td><td>3食×3日分／1人</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.72</div><div><div class="b-bullets"><div class="t">町が知識の普及を進める「災害時の備え」</div><ul><li>気象予警報の種類と避難準備等の対応</li><li>避難する場合の非常持出品等</li><li>飼い主による家庭動物の同行避難及び指定避難所等での飼養準備</li><li>地域避難集合場所及び指定緊急避難場所、指定避難所と避難経路</li><li>災害発生時の連絡系統</li><li>復旧及び生活再建のための保険・共済等への加入</li><li>その他災害時に家庭で備えておくべき予防・安全対策</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.82</div><div id="sec-sonae-2"><div class="b-heading"><h2>町の備蓄</h2></div></div><div><div class="b-narrative"><p>町は、県が実施した地震被害想定の結果を参考に、南海トラフ巨大地震が発生した場合の3日目の避難所生活者数2,194人分を目標に備蓄を行います。食糧はアルファ化米やクラッカーを中心に備蓄するほか、粉ミルク・液体ミルク等の乳幼児用のもの、高齢者用のもの、食物アレルギーに配慮したものの備蓄に努めます。</p></div></div><div><div class="b-ttl">2,194人分の目標数量</div><div class="b-table"><table><thead><tr><th>品目</th><th>目標数量</th><th>単位</th></tr></thead><tbody><tr><td>飲料水（500mℓ）</td><td class="num">2,000</td><td>本</td></tr><tr><td>飲料水（2.0ℓ）</td><td class="num">3,000</td><td>本</td></tr><tr><td>飲料水の合計</td><td class="num">7,000</td><td>ℓ</td></tr><tr><td>アルファ化米</td><td class="num">4,500</td><td>食</td></tr><tr><td>保存用クラッカー</td><td class="num">1,000</td><td>食</td></tr><tr><td>保存用ビスコ</td><td class="num">2,000</td><td>食</td></tr><tr><td>缶入りパン</td><td class="num">1,500</td><td>食</td></tr><tr><td>食糧の合計</td><td class="num">9,000</td><td>食</td></tr></tbody></table></div><div class="b-note"><span>1人あたりの供給は、飲料水が3ℓ（1日分）、食糧が3食（1日分。食物アレルギー対応分を含む）。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.72</div><div><div class="b-bullets"><div class="t">そのほかの備蓄</div><ul><li>生活必需品は、指定避難所等での保温と休息を第一に考えて毛布を備蓄するほか、乳児や大人用の紙おむつ、女性の生理用品、マスク等の感染症対策を含めた衛生用品の備蓄に努める。</li><li>仮設トイレ、消毒剤、脱臭剤等の緊急用資機材は、レンタル業界等との支援協定を締結する等により、迅速かつ円滑に調達する体制を整備する。</li><li>自主防災組織の防災用資機材の整備を支援し、地域防災拠点（公共施設、消防施設等）に災害応急活動に必要な資機材の備蓄に努める。</li><li>拠点備蓄倉庫を整備し、備蓄品は定期的に点検して適宜補充・更新する。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.72-73</div><div id="sec-sonae-3"><div class="b-heading"><h2>断水したときの給水</h2></div></div><div><div class="b-ttl">災害発生後の時間経過ごとの給水計画</div><div class="b-table"><table><thead><tr><th>時期</th><th class="txt">住民</th><th class="txt">町本部</th></tr></thead><tbody><tr><td>災害発生後24時間程度まで</td><td class="txt">原則として家庭に備蓄した飲料水で対応する（1日1人3リットル目安）</td><td class="txt">水道施設・住民の被害状況等の把握、給水係の編成、給水場所の設置。給水に着手（病院など人命救助の観点から緊急性が高い施設への給水を優先）。日本水道協会滋賀県支部等への応援依頼</td></tr><tr><td>災害発生後おおむね3日目まで</td><td class="txt">上記事項の継続。応急給水により飲料水等を確保。家庭用井戸の活用（近隣家庭への協力）</td><td class="txt">各給水場所において飲料水・生活用水の給水を実施（給水車等を使用）。給水状況・水道の復旧見込み等に関する広報</td></tr><tr><td>災害発生後4日目以降</td><td class="txt">上記事項の継続。応急給水活動に協力</td><td class="txt">上記事項の継続。地域外の応援車両等を活用した飲料水等の運搬給水</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.191</div><div id="sec-sonae-4"><div class="b-heading"><h2>地域の自主防災組織</h2></div></div><div><div class="b-narrative"><p>住民の共助の精神にもとづく自主防災組織は、基本的には各行政区を単位として設置を図ります。町は、組織の設立や運営を支援し、結成後も運営や資材調達、訓練等に助言します。また、地域コミュニティ活動の中心的な人や消防団ＯＢ等に呼びかけ、研修や訓練等を通じて防災士などリーダーの育成を図り、女性の参画の促進に努めます。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.84-85</div><div><div class="b-bullets"><div class="t">自主防災組織の活動</div><ul><li>あらゆる災害の予防活動</li><li>大地震や風水害時における出火防止、初期消火、水防活動</li><li>被災者の救出及び安否確認、行方不明者等の捜索、身元確認</li><li>避難立退きの受入れ、炊き出し、生活必需物資の配給</li><li>負傷者の応急手当、応急復旧作業</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.84</div><div><div class="b-bullets"><div class="t">自主防災計画で考えておくこと</div><ul><li>地域住民は、その周辺及び危険が予想される箇所を点検し、その状況を把握するとともに対策を講じておく。</li><li>地域住民は、個人としてできうる任務を分担する。</li><li>自主防災訓練の時期・内容等を計画し、町が行う訓練にも積極的に参加する。</li><li>防災機関、本部、各班及び各世帯の体系的連絡方法、情報交換等を決めておく。</li><li>出火防止、消火に関する役割、消火用その他資機材の配置場所等を周知徹底し、点検整備を行う。</li><li>地域避難集合場所、指定避難所、避難路、避難の伝達、誘導方法、避難時の携行物資を検討しておく。</li><li>負傷者の救出、搬送方法、救護所の開設を検討しておく。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.85</div><div id="sec-sonae-5"><div class="b-heading"><h2>防災訓練と防災教育</h2></div></div><div><div class="b-bullets"><ul><li>防災関係機関が合同して、または図上により、総合防災訓練を年1回以上実施するよう努める。時期は原則として防災週間内又は災害発生が予想される時期の前。</li><li>町、東近江行政組合消防本部・消防団などは、自主防災組織の避難訓練を支援し、学校、公共施設、事業所、工場等の避難訓練を指導する。</li><li>土砂災害警戒区域では、毎年梅雨期及び台風期の前並びにその期間中に土砂災害に対する総合的な防災訓練を実施するなど、住民等による主体的な避難訓練が実施されるよう支援する。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.88-89</div><div><div class="b-ttl">防災知識の普及を重点的に行う期間</div><div class="b-table"><table><thead><tr><th>事項</th><th>期間</th></tr></thead><tbody><tr><td>風水害予防に関する事項</td><td>5月～10月</td></tr><tr><td>水防月間</td><td>5月1日～5月31日</td></tr><tr><td>土砂災害防止月間</td><td>6月1日～6月30日</td></tr><tr><td>がけ崩れ防災週間</td><td>6月1日～6月7日</td></tr><tr><td>火災予防（春季）</td><td>3月1日～3月7日</td></tr><tr><td>火災予防（秋季）</td><td>11月9日～11月15日</td></tr><tr><td>火災予防（冬季）</td><td>1月26日</td></tr><tr><td>防災週間</td><td>8月30日～9月5日</td></tr><tr><td>防災の日</td><td>9月1日</td></tr><tr><td>防災とボランティア週間</td><td>1月15日～1月21日</td></tr><tr><td>防災とボランティアの日</td><td>1月17日</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.81-82</div><div id="sec-sonae-6"><div class="b-heading"><h2>事業所の役割</h2></div></div><div><div class="b-bullets"><ul><li>ホール、大型商業施設、学校、旅館、病院等多数の者が利用する施設、危険物等を製造・保管・取り扱う施設、多人数が従事する工場・事業所などの代表者や責任者は、自主防災組織を編成し、あらかじめ消防、防災計画を作成する。</li><li>防災計画には、職員の任務分担、防災訓練の時期・内容、体系的な連絡方法、出火防止・消火の役割、負傷者の救出・搬送・救護、避難集合場所・避難経路・避難の伝達方法・非常持出し、地域住民との協力などを記載する。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.85-86</div><div id="sec-sonae-7"><div class="b-heading"><h2>災害ボランティア</h2></div></div><div><div class="b-narrative"><p>町は、県社会福祉協議会、町社会福祉協議会やボランティア関係機関・団体と連携して、災害時の支援活動の必要性を啓発します。災害発生時に迅速・的確に災害ボランティアセンターが開設できるよう、あらかじめ設置場所の確保や整備を行い、ボランティアコーディネーターの養成に努めます。災害ボランティアは、活動に際しボランティア活動保険に加入します。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.91</div></section><section class="panel" role="tabpanel" data-panel="taisei"><div><div class="b-narrative"><p>町は、町の地域並びに町民の生命、身体及び財産を災害から保護するため、防災の第一次的責任者として、国の機関、公共機関、他の地方公共団体などの協力を得て防災活動を実施します。県は、災害が町の区域を越えて広域にわたるときや、町で処理することが困難なときなどに防災活動を実施し、町の活動を援助・調整します。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.3</div><div><nav class="b-toc"><a href="#sec-taisei-1">地震が起きたときの職員の配備</a><a href="#sec-taisei-2">大雨・台風のときの職員の配備</a><a href="#sec-taisei-3">災害対策本部</a><a href="#sec-taisei-4">情報の集め方と伝え方</a><a href="#sec-taisei-5">災害時の応援協定と業務継続</a><a href="#sec-taisei-6">緊急輸送道路とヘリコプター離着陸場</a></nav></div><div id="sec-taisei-1"><div class="b-heading"><h2>地震が起きたときの職員の配備</h2><div class="sub">勤務時間外に地震が発生した場合</div></div></div><div><div class="b-ttl">災害時の配備体制（地震災害時等）</div><div class="b-table"><table><thead><tr><th>体制</th><th class="txt">震度階</th><th class="txt">勤務時間外での配備体制</th></tr></thead><tbody><tr><td>警戒体制（第1号指令）</td><td class="txt">震度4、南海トラフ地震臨時情報（調査中）</td><td class="txt">本部員（総務課長、建設計画課長、地域防災室長）、総務班・土木班のあらかじめ指定された職員、消防班（副団長）。その他の職員については自宅待機</td></tr><tr><td>災害警戒本部体制（第2号指令）</td><td class="txt">震度5弱、震度5強、南海トラフ地震臨時情報（巨大地震注意）（巨大地震警戒）</td><td class="txt">本部指令室（本部長、副本部長、本部員）、本部付各班（班長、副班長、総務班、土木班、上下水道班、民生班）、地区班（班長、副班長）。その他の職員については自宅待機</td></tr><tr><td>災害対策本部体制（第3号指令）</td><td class="txt">震度6弱以上</td><td class="txt">本部指令室（本部長、副本部長、本部員）、本部付各班の全員、地区班の全員（所定の場所へ）。その他の職員も参集</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.104</div><div><div class="b-narrative"><p>震度3以下の場合も、被害状況を判断のうえ初期活動を行います。震度6弱以上の地震が発生した場合は、町長が本部長となって直ちに災害対策本部を設置し、全職員が自主登庁します。また、町域で震度4以上の地震が発生した場合は、雁ｹ谷溜、日渓溜、西鎌掛池、鎌掛池の緊急点検を、震度5弱以上の場合は防災重点ため池の緊急点検を行い、県に報告します。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.102-105</div><div id="sec-taisei-2"><div class="b-heading"><h2>大雨・台風のときの職員の配備</h2></div></div><div><div class="b-ttl">災害時の配備体制（風水害時）</div><div class="b-table"><table><thead><tr><th>配備体制</th><th class="txt">配備時期</th></tr></thead><tbody><tr><td>警戒体制（1号体制）</td><td class="txt">彦根地方気象台から強風、大雨、洪水注意報のいずれかが発表され、町長が必要と認めるとき。又は注意報発表が予想される時点であって、事前の体制確立が必要であると建設計画課長が認めるとき</td></tr><tr><td>警戒体制（2号体制）</td><td class="txt">彦根地方気象台から強風、大雨、洪水注意報のいずれかが発表され、本町への影響が予測されると町長が認めるとき</td></tr><tr><td>水防本部体制（第1号指令）</td><td class="txt">彦根地方気象台から暴風、大雨、洪水警報が発表され、本町に影響を受ける可能性が高いと町長が認めるとき</td></tr><tr><td>災害警戒本部体制（第2号指令）</td><td class="txt">彦根地方気象台から特別警報が発表され、又は中規模災害が発生し、又は災害の発生が確実に予想されるとき</td></tr><tr><td>災害対策本部体制（第3号指令）</td><td class="txt">大規模災害が発生し、又は災害の発生が確実に予測されるとき</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.112-113</div><div id="sec-taisei-3"><div class="b-heading"><h2>災害対策本部</h2></div></div><div><div class="b-bullets"><ul><li>本部長は町長。町長不在の場合は副町長を本部長代理とし、副町長も不在の場合は、教育長、総務政策主監、産業建設主監、総務課長、建設計画課長、地域防災室長の順に本部長代理とする。</li><li>設置場所は、第1候補が日野町役場庁舎、第2候補が日野公民館。2つの建物の被害が甚大で設置が困難な場合は、本部長の指示に従い他の場所に早急に設置する。</li><li>本部長及び副本部長、本部員で構成される本部会議が災害対策の方針を決定し、本部員から各班長を経由してすみやかに全職員に伝達する。</li><li>活動内容は、地震災害情報の収集（被害状況、気象状況）、地区連絡所の設置、住民への指示、ライフラインの確保、県・近隣市町との連絡・応援要請など。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.106</div><div id="sec-taisei-4"><div class="b-heading"><h2>情報の集め方と伝え方</h2></div></div><div><div class="b-narrative"><p>気象予警報や地震情報は、彦根地方気象台が発表した情報を県防災行政無線（ファックス）や全国瞬時警報システム（Ｊアラート）を通じて収集し、テレビ等でもあわせて確認します。被害情報は、町職員、消防団及び住民からの情報収集を基本とします。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.57</div><div><div class="b-bullets"><div class="t">住民への情報伝達の方法</div><ul><li>自治会（自主防災組織を含む）による情報伝達（電話等）</li><li>広報車による情報伝達</li><li>テレビ、ラジオ（NHK大津放送局、びわ湖放送㈱、㈱エフエム滋賀等）による情報伝達</li><li>Ｌアラート（ＴＶデータ放送等）による情報伝達</li><li>ホームページやＳＮＳによる情報伝達</li><li>同報系防災行政無線による情報伝達（屋外拡声器）</li><li>緊急速報メールによる情報伝達</li><li>日野町行政情報メール配信サービス（日野め～る）による情報伝達</li><li>日野町防災アプリによる情報伝達</li><li>戸別受信機（緊急告知ラジオ）による情報伝達</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.58</div><div id="sec-taisei-5"><div class="b-heading"><h2>災害時の応援協定と業務継続</h2></div></div><div><div class="b-narrative"><p>町は、災害時の応急対策や優先度の高い通常業務を続けるため、業務継続計画（ＢＣＰ）を策定し、教育・訓練・点検や計画の評価・検証を踏まえた改訂を行います。また、県・自衛隊への応援派遣要請の体制づくり、市町間の相互応援に向けた受援計画の策定、関係団体との協定の締結を進めます。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.54-55</div><div><details class="b-foldtbl"><summary><div class="ftwrap"><div class="ftl">災害時応援協定等締結一覧</div><div class="fts">国・地方公共団体等・民間事業所等との協定</div></div><span class="caret" aria-hidden="true"></span></summary><div class="b-table"><table><thead><tr><th>区分・番号</th><th class="txt">協定等名称</th><th class="txt">締結相手等</th><th>締結日</th></tr></thead><tbody><tr><td>国 1</td><td class="txt">災害時等の応援に関する申し合わせ</td><td class="txt">近畿地方整備局</td><td>H24.10.3</td></tr><tr><td>地方公共団体等 1</td><td class="txt">東近江の防災に関する応援協定</td><td class="txt">東近江行政組合及び構成市町</td><td>H8.3.23</td></tr><tr><td>地方公共団体等 2</td><td class="txt">滋賀県下消防団広域相互応援協定</td><td class="txt">滋賀県下全市町</td><td>H10.5.30</td></tr><tr><td>地方公共団体等 3</td><td class="txt">災害時応急対策活動の相互応援に関する協定</td><td class="txt">全国小さくても輝く自治体フォーラムの会 34町村</td><td>H25.6.29</td></tr><tr><td>地方公共団体等 4</td><td class="txt">滋賀県町村会災害相互応援協定</td><td class="txt">滋賀県内6町</td><td>H28.10.11</td></tr><tr><td>民間 1</td><td class="txt">災害時における応急救援活動への応援に関する協定</td><td class="txt">日野町建設工業会</td><td>H17.8.3</td></tr><tr><td>民間 2</td><td class="txt">災害時の医療救護活動に関する協定（東近江管内市町共同）</td><td class="txt">東近江薬剤師会、一般社団法人八幡蒲生薬剤師会</td><td>H21.3.19</td></tr><tr><td>民間 3</td><td class="txt">災害時の医療救護活動に関する協定（東近江管内市町共同）</td><td class="txt">近江八幡市蒲生郡医師会、東近江医師会</td><td>H21.3.23</td></tr><tr><td>民間 4</td><td class="txt">災害時の医療救護活動に関する協定（東近江管内市町共同）</td><td class="txt">滋賀県歯科医師会湖東支部</td><td>H21.3.25</td></tr><tr><td>民間 5</td><td class="txt">災害時における電気設備の応急復旧等の応援に関する協定</td><td class="txt">滋賀県電気工事工業組合</td><td>H21.9.30</td></tr><tr><td>民間 6</td><td class="txt">災害時におけるエルピーガス設備の応急復旧等の応援に関する協定</td><td class="txt">（社）滋賀県エルピーガス協会八日市支部</td><td>H21.10.28</td></tr><tr><td>民間 7</td><td class="txt">災害時における応急救援活動への応援に関する協定</td><td class="txt">滋賀県造園協会東地区</td><td>H23.12.7</td></tr><tr><td>民間 8</td><td class="txt">災害救助に必要な物資の調達に関する協定</td><td class="txt">（株）平和堂</td><td>H26.5.29</td></tr><tr><td>民間 9</td><td class="txt">災害時における物資供給に関する協定</td><td class="txt">ＮＰＯ法人コメリ災害対策センター</td><td>H26.7.14</td></tr><tr><td>民間 10</td><td class="txt">災害時に要配慮者の避難施設として社会福祉施設等を使用することに関する協定</td><td class="txt">（福）湖東会 特別養護老人ホーム白寿荘</td><td>H26.12.1</td></tr><tr><td>民間 11</td><td class="txt">災害時に要配慮者の避難施設として社会福祉施設等を使用することに関する協定</td><td class="txt">（福）日野友愛会 特別養護老人ホーム誉の松</td><td>H26.12.1</td></tr><tr><td>民間 12</td><td class="txt">災害時に要配慮者の避難施設として社会福祉施設等を使用することに関する協定</td><td class="txt">（医）昴会 介護老人保健施設リスタあすなろ</td><td>H26.12.1</td></tr><tr><td>民間 13</td><td class="txt">災害時に要配慮者の避難施設として社会福祉施設等を使用することに関する協定</td><td class="txt">（株）ドリエジョ ゆめさとグループホーム</td><td>H26.12.1</td></tr><tr><td>民間 14</td><td class="txt">災害時に要配慮者の避難施設として社会福祉施設等を使用することに関する協定</td><td class="txt">（福）わたむきの里福祉会 わたむきの里作業所</td><td>H26.12.1</td></tr><tr><td>民間 15</td><td class="txt">災害時に要配慮者の避難施設として社会福祉施設等を使用することに関する協定</td><td class="txt">（福）グロー ひのたに園</td><td>H26.12.1</td></tr><tr><td>民間 16</td><td class="txt">災害時における一時避難場所施設利用に関する協定</td><td class="txt">（株）ダイフク</td><td>H27.3.9</td></tr><tr><td>民間 17</td><td class="txt">災害時における生活物資の調達等に関する協定</td><td class="txt">日野町商工会</td><td>H28.9.27</td></tr><tr><td>民間 18</td><td class="txt">災害時における消火水等の供給協力に関する協定</td><td class="txt">湖東生コン（協組）</td><td>H29.2.13</td></tr><tr><td>民間 19</td><td class="txt">災害発生時における段ボール製品の調達に関する協定</td><td class="txt">新江州（株）・セッツカートン（株）</td><td>H29.6.26</td></tr><tr><td>民間 20</td><td class="txt">災害時における救援復旧活動の支援に関する協定</td><td class="txt">（株）ヒロセ</td><td>H29.8.17</td></tr><tr><td>民間 21</td><td class="txt">災害発生時における蒲生郡日野町と日野町内郵便局の協力に関する協定</td><td class="txt">日野町内郵便局（8局）</td><td>H29.8.22</td></tr><tr><td>民間 22</td><td class="txt">災害時における地図製品等の供給等に関する協定</td><td class="txt">（株）ゼンリン</td><td>H30.1.12</td></tr><tr><td>民間 23</td><td class="txt">災害時における救援復旧活動の支援に関する協定</td><td class="txt">（株）日映日野</td><td>H30.7.9</td></tr><tr><td>民間 24</td><td class="txt">災害時におけるダンボール製品の調達に関する協定</td><td class="txt">山田ダンボール（株）</td><td>H30.8.16</td></tr><tr><td>民間 25</td><td class="txt">災害時における災害廃棄物の処理等に関する協定</td><td class="txt">（株）カンポ</td><td>H30.11.21</td></tr><tr><td>民間 26</td><td class="txt">災害時における物資の提供に関する協定</td><td class="txt">青木油脂工業（株）滋賀工場</td><td>R1.12.25</td></tr><tr><td>民間 27</td><td class="txt">災害時等における緊急告知ラジオ放送に関する協定</td><td class="txt">㈱エフエム滋賀</td><td>R2.8.24</td></tr><tr><td>民間 28</td><td class="txt">災害に係る情報発信等に関する協定</td><td class="txt">ヤフー㈱</td><td>R3.3.1</td></tr><tr><td>民間 29</td><td class="txt">災害時における救援復旧活動の支援に関する協定</td><td class="txt">㈱阪元光夫商店</td><td>R3.3.9</td></tr><tr><td>民間 30</td><td class="txt">滋賀県日野町と日本郵便株式会社との包括的連携に関する協定</td><td class="txt">日本郵便(株)</td><td>R3.3.25</td></tr><tr><td>民間 31</td><td class="txt">災害時等における無人航空機の運用に関する協定</td><td class="txt">(株)オカイチ・ＷｏｒｋｓＯｋａ</td><td>R4.1.18</td></tr><tr><td>民間 32</td><td class="txt">安全で安心して暮らせるまちづくりに関する協定</td><td class="txt">生活協同組合コープしが</td><td>R4.2.24</td></tr><tr><td>民間 33</td><td class="txt">災害廃棄物等の処理に関する基本協定</td><td class="txt">大栄環境(株)</td><td>R3.7.30</td></tr><tr><td>民間 34</td><td class="txt">災害時における一時避難場所施設利用に関する協定</td><td class="txt">グリーン近江農業協同組合</td><td>R4.8.2</td></tr><tr><td>民間 35</td><td class="txt">大規模災害時における道路警戒や電気設備等の復旧に係る相互連携・協力に関する協定</td><td class="txt">関西電力送配電(株)</td><td>R4.10.3</td></tr><tr><td>民間 36</td><td class="txt">災害時における下水道管路施設の復旧支援協力に関する協定</td><td class="txt">公益財団法人日本下水道管路管理業協会</td><td>R2.4.17</td></tr><tr><td>民間 37</td><td class="txt">災害時における下水道施設の技術支援協力に関する協定</td><td class="txt">公益財団法人全国上下水道コンサルタント協会</td><td>R2.4.17</td></tr><tr><td>民間 38</td><td class="txt">自然災害時における下水道管渠施設に係る応急対策の支援協力に関する協定</td><td class="txt">一般社団法人滋賀県下水道管路維持協会</td><td>R2.4.17</td></tr><tr><td>民間 39</td><td class="txt">被災者生活再建支援制度の実施にかかる事務委託契約</td><td class="txt">被災者生活再建支援法人(公財)都道府県センター</td><td>R5.1.30</td></tr></tbody></table></div><div class="b-note"><span>地方公共団体等の3と4の締結相手等の数は日野町を含む。民間事業所等には他市町との共同締結を含む。各協定等で一部更新等が行われた場合は、協定等名称は最新の名称を、締結日は最初の日付を記載している（原典の注記）。</span></div></details></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.55-56</div><div id="sec-taisei-6"><div class="b-heading"><h2>緊急輸送道路とヘリコプター離着陸場</h2></div></div><div><div class="b-narrative"><p>県の地域防災計画では、町内の国道307号と国道477号が第二次緊急輸送道路です。町は、防災活動拠点（公共施設、消防施設等）と指定避難所を結ぶ道路を第3次緊急輸送道路として確保し、平常時から道路施設の維持管理・強化に努めます。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.69</div><div><details class="b-foldtbl"><summary><div class="ftwrap"><div class="ftl">第3次緊急輸送道路の一覧</div></div><span class="caret" aria-hidden="true"></span></summary><div class="b-table"><table><thead><tr><th>番号</th><th>種別</th><th>路線名</th></tr></thead><tbody><tr><td>1</td><td>国道</td><td>307号</td></tr><tr><td>2</td><td>国道</td><td>477号</td></tr><tr><td>3</td><td>主要地方道</td><td>土山蒲生近江八幡線</td></tr><tr><td>4</td><td>主要地方道</td><td>石原八日市線</td></tr><tr><td>5</td><td>一般県道</td><td>桜川西中在寺線</td></tr><tr><td>6</td><td>一般県道</td><td>中里山上日野線</td></tr><tr><td>7</td><td>一般県道</td><td>西明寺安部居線</td></tr><tr><td>8</td><td>一般県道</td><td>西明寺水口線</td></tr><tr><td>9</td><td>一般県道</td><td>日野徳原線</td></tr><tr><td>10</td><td>町道</td><td>大窪音羽線</td></tr><tr><td>11</td><td>町道</td><td>鎌掛線</td></tr><tr><td>12</td><td>町道</td><td>鎌掛深山口線</td></tr><tr><td>13</td><td>町道</td><td>松尾村井線</td></tr><tr><td>14</td><td>町道</td><td>日野松尾線</td></tr><tr><td>15</td><td>町道</td><td>日野中部２号線</td></tr><tr><td>16</td><td>町道</td><td>村井団地４号線</td></tr><tr><td>17</td><td>町道</td><td>横町線</td></tr><tr><td>18</td><td>町道</td><td>西大路鎌掛線</td></tr><tr><td>19</td><td>町道</td><td>日野南部線</td></tr><tr><td>20</td><td>町道</td><td>小御門十禅師線</td></tr><tr><td>21</td><td>町道</td><td>小御門線</td></tr><tr><td>22</td><td>町道</td><td>石原鳥居平線</td></tr><tr><td>23</td><td>町道</td><td>工業団地１号線</td></tr><tr><td>24</td><td>町道</td><td>三十坪石原線</td></tr><tr><td>25</td><td>町道</td><td>内池水口線</td></tr><tr><td>26</td><td>町道</td><td>石原増田線</td></tr><tr><td>27</td><td>農道</td><td>日野東部地区広域農道</td></tr></tbody></table></div></details></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.69-70</div><div><div class="b-ttl">災害時緊急ヘリコプター離着陸場一覧</div><div class="b-table"><table><thead><tr><th>飛行場外離着陸場名</th><th>所在地</th></tr></thead><tbody><tr><td>内池公園グラウンド</td><td>大字内池133番地</td></tr><tr><td>熊野多目的グラウンド</td><td>大字熊野429番地付近</td></tr><tr><td>大谷公園野球場</td><td>大字大谷341番地1</td></tr><tr><td>ブルーメの丘駐車場</td><td>大字西大路843番地</td></tr><tr><td>日野川ダム公園運動広場</td><td>大字西大路地先</td></tr></tbody></table></div><div class="b-note"><span>大谷公園野球場と日野川ダム公園運動広場は、県が防災対応離着陸場に指定。町は内池公園グラウンドを物資供給拠点として定め、物資輸送の際には優先的に使用する。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.70</div></section><section class="panel" role="tabpanel" data-panel="shien"><div><div class="b-narrative"><p>災害により被害を受けた人に対し、町は日野町住宅災害見舞金、災害弔慰金、災害障害見舞金などを支給し、低所得の人には災害援護資金などの貸付を行って、被災者の早期の立ち直りと生活の安定を図ります。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.250</div><div><nav class="b-toc"><a href="#sec-shien-1">日野町住宅災害見舞金</a><a href="#sec-shien-2">災害弔慰金・災害障害見舞金・災害援護資金</a><a href="#sec-shien-3">社会福祉協議会の見舞金と生活福祉資金</a><a href="#sec-shien-4">被災者生活再建支援金</a><a href="#sec-shien-5">税・保険料の減免など</a></nav></div><div id="sec-shien-1"><div class="b-heading"><h2>日野町住宅災害見舞金</h2><div class="sub">火災、地震、水害その他の非常災害で住宅に損害を受けた人に支給</div></div></div><div><div class="b-table"><table><thead><tr><th>損害の程度</th><th>損傷・損壊の割合（延床面積比）</th><th>支給額（万円以内）</th></tr></thead><tbody><tr><td>全焼、又は全壊</td><td>70パーセント以上</td><td class="num">10</td></tr><tr><td>2分の1が焼失し、又は損壊</td><td>50パーセント以上70パーセント未満</td><td class="num">6</td></tr><tr><td>3分の1が焼失し、又は損壊</td><td>30パーセント以上50パーセント未満</td><td class="num">4</td></tr><tr><td>10分の1が焼失し、又は損壊</td><td>10パーセント以上30パーセント未満</td><td class="num">2</td></tr><tr><td>床上浸水</td><td>浸水がその住宅の床上に達したもの</td><td class="num">1</td></tr></tbody></table></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.250</div><div id="sec-shien-2"><div class="b-heading"><h2>災害弔慰金・災害障害見舞金・災害援護資金</h2><div class="sub">「日野町災害弔慰金の支給等に関する条例」にもとづく</div></div></div><div><div class="b-table"><table><thead><tr><th>区分</th><th>支給額（万円）</th></tr></thead><tbody><tr><td>災害弔慰金（生計維持者死亡の場合）</td><td class="num">500</td></tr><tr><td>災害弔慰金（生計維持者以外の死亡の場合）</td><td class="num">250</td></tr><tr><td>災害障害見舞金（生計維持者の場合）</td><td class="num">250</td></tr><tr><td>災害障害見舞金（その他の場合）</td><td class="num">125</td></tr></tbody></table></div><div class="b-note"><span>災害弔慰金の額は、災害障害見舞金を受けている場合はその額を控除した額とする。災害援護資金の貸付限度額は150万円以上350万円以内で、償還は10年（据置期間3年を含む）。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.251</div><div id="sec-shien-3"><div class="b-heading"><h2>社会福祉協議会の見舞金と生活福祉資金</h2></div></div><div><div class="b-ttl">善意銀行住宅災害見舞金</div><div class="b-table"><table><thead><tr><th>住宅の損害の程度</th><th>見舞金（円）</th></tr></thead><tbody><tr><td>全焼または全壊（延べ床面積の70％以上）</td><td class="num">30,000</td></tr><tr><td>半焼または半壊（同30％以上70％未満）</td><td class="num">15,000</td></tr><tr><td>一部焼または一部損壊（同10％以上30％未満）</td><td class="num">7,500</td></tr><tr><td>床上浸水</td><td class="num">10,000</td></tr><tr><td>床下浸水</td><td class="num">5,000</td></tr></tbody></table></div><div class="b-note"><span>災害救助法が適用される災害により被害を受けた場合を除く。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.251</div><div><div class="b-ttl">生活福祉資金（低所得者世帯への貸付）</div><div class="b-table"><table><thead><tr><th>資金の内容</th><th>貸付限度額（万円以内）</th></tr></thead><tbody><tr><td>被災したことにより臨時に必要となる経費</td><td class="num">150</td></tr><tr><td>被災したことにより住宅の補修等に必要な経費</td><td class="num">250</td></tr></tbody></table></div><div class="b-note"><span>措置期間は貸付の日から6月以内、償還期間は措置期間経過後7年以内。連帯保証人を立てる場合は無利子、連帯保証人がいない場合は年1.5％（措置期間経過後）。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.252</div><div id="sec-shien-4"><div class="b-heading"><h2>被災者生活再建支援金</h2><div class="sub">被災者生活再建支援法にもとづく</div></div></div><div><div class="b-bullets"><div class="t">対象となる自然災害</div><ul><li>災害救助法が適用される程度の災害</li><li>町内で10世帯以上の住宅が全壊する被害が発生した自然災害</li><li>県内で100世帯以上の住宅が全壊する被害が発生した自然災害</li><li>県内で上の区域に隣接し、町内で5世帯以上の住宅が全壊する被害が発生した自然災害</li></ul></div></div><div><div class="b-fields"><div class="field"><div class="ft">①全壊</div><div class="fd">住宅が全壊した世帯</div></div><div class="field"><div class="ft">②解体</div><div class="fd">住宅が半壊又は住宅の敷地に被害が生じ、その住宅をやむを得ず解体した世帯</div></div><div class="field"><div class="ft">③長期避難</div><div class="fd">災害による危険な状態が継続し、住宅に居住不能な状態が長期間継続している世帯</div></div><div class="field"><div class="ft">④大規模半壊</div><div class="fd">住宅が半壊し、大規模な補修を行わなければ居住することが困難な世帯</div></div><div class="field"><div class="ft">⑤</div><div class="fd">①から④を除く世帯で、相当規模の補修を行わなければ居住することが困難な世帯</div></div></div></div><div><div class="b-ttl">基礎支援金（住宅の被害程度に応じて支給）</div><div class="b-table"><table><thead><tr><th>住宅の被害程度</th><th>支給額（万円）</th></tr></thead><tbody><tr><td>全壊（①）</td><td class="num">100</td></tr><tr><td>解体（②）</td><td class="num">100</td></tr><tr><td>長期避難（③）</td><td class="num">100</td></tr><tr><td>大規模半壊（④）</td><td class="num">50</td></tr></tbody></table></div></div><div><div class="b-ttl">加算支援金（住宅の再建方法に応じて支給）</div><div class="b-table"><table><thead><tr><th>住宅の再建方法</th><th>①②③④の世帯（万円）</th><th>⑤の世帯（万円）</th></tr></thead><tbody><tr><td>建設・購入</td><td class="num">200</td><td class="num">100</td></tr><tr><td>補修</td><td class="num">100</td><td class="num">50</td></tr><tr><td>賃借（公営住宅以外）</td><td class="num">50</td><td class="num">25</td></tr></tbody></table></div><div class="b-note"><span>支給額は基礎支援金と加算支援金の合計額。世帯人数が1人の場合は、各該当欄の金額の3／4の額。いったん住宅を賃借した後、自ら居住する住宅を建設・購入（又は補修）する場合は、合計で200（、100または50）万円。</span></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.253</div><div id="sec-shien-5"><div class="b-heading"><h2>税・保険料の減免など</h2></div></div><div><div class="b-bullets"><ul><li>町税等を納付することが困難と認められるときは、徴収猶予及び減免等の納税緩和措置を講ずる。</li><li>災害により著しく価値を減じた固定資産は、必要があると認められるものについて固定資産税を減免する。</li><li>国民健康保険税、介護保険料は、減免、徴収猶予など適切な措置を講ずる。後期高齢者医療保険料は、滋賀県後期高齢者医療広域連合が減免、徴収猶予などの措置を講ずる。</li></ul></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.254</div><div><div class="b-narrative"><p>義援金は、県、町及び日本赤十字社、県共同募金会など支援関係団体で構成する募集（配分）委員会を組織し、報道機関の協力を得て募集することを原則とし、義援金総額や被災状況等を考慮した配分基準を定めて配分します。</p></div></div><div class="src">日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月） p.252</div></section><section class="panel" role="tabpanel" data-panel="genshi"><div><div class="b-narrative"><p>原子力災害対策編は、福井県に所在する原子力事業所で、放射性物質又は放射線が異常な水準で事業所外へ放出されることによる原子力災害の発生と拡大を防ぎ、復旧を図るために、町がとるべき措置を定めたものです。この編に定めのない事項は、地震災害対策・風水害対策編によります。</p></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.1</div><div><nav class="b-toc"><a href="#sec-genshi-1">原子力発電所と日野町</a><a href="#sec-genshi-2">想定している事態</a><a href="#sec-genshi-3">屋内退避と避難</a><a href="#sec-genshi-4">防護措置の判断基準（OIL）</a><a href="#sec-genshi-5">ふだんからの備え</a><a href="#sec-genshi-6">事故のあと</a></nav></div><div id="sec-genshi-1"><div class="b-heading"><h2>原子力発電所と日野町</h2></div></div><div><div class="b-narrative"><p>県北部と隣接する福井県には、4市町（敦賀市、美浜町、高浜町、おおい町）に6つの原子力事業所が所在し、計15基の原子力施設が設置されています。</p></div></div><div><div class="b-chart"><div class="cttl">日野町から各発電所までの直線距離（約）</div><div class="cunit">単位：km</div><div class="hb inline-sm" style="--vw:2.9em"><div class="hb-r"><span class="hb-l">大飯発電所</span><span class="hb-t"><span style="width:74.00%;background:#cb938b"></span></span><span class="hb-v num">74km</span></div><div class="hb-r"><span class="hb-l">美浜発電所</span><span class="hb-t"><span style="width:75.00%;background:#cb938b"></span></span><span class="hb-v num">75km</span></div><div class="hb-r"><span class="hb-l">敦賀発電所</span><span class="hb-t"><span style="width:79.00%;background:#cb938b"></span></span><span class="hb-v num">79km</span></div><div class="hb-r"><span class="hb-l">高浜発電所</span><span class="hb-t"><span style="width:83.00%;background:#cb938b"></span></span><span class="hb-v num">83km</span></div></div></div><div class="b-note"><span>原典の値はいずれも「約」。最も近いのは関西電力（株）の大飯発電所。</span></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.2</div><div><div class="b-narrative"><p>県は、原子力災害対策を重点的に充実すべき地域を包含する市を高島市と長浜市（関係周辺市）としています。異常事態発生時の気象状況により、万一、日野町など関係周辺市以外の地域に影響が及び、又は及ぶおそれのある場合は、関係周辺市で行う災害応急対策に準じて必要な措置を講じます。</p></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.9</div><div id="sec-genshi-2"><div class="b-heading"><h2>想定している事態</h2></div></div><div><div class="b-narrative"><p>計画の基礎となる事故の想定は、東京電力（株）福島第一原子力発電所の事故を踏まえ、滋賀県が想定した前提条件（敦賀・美浜・大飯・高浜の各発電所からの放出）によるものです。放射性物質拡散予測シミュレーションの結果、希ガスによる外部被ばく線量は10mSvを大きく下回り、緊急の防護措置を講ずべき水準にはないと予測されています。放射性ヨウ素による甲状腺被ばく等価線量は、半径30～50kmの範囲で100mSv～500mSv、それ以外の県内ほぼ全域で50mSv～100mSvと予測されており、本町においても、住民は自宅等への屋内退避を考慮する必要があると判断できるとしています。</p></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.6-7</div><div><div class="b-fields"><div class="field"><div class="ft">PAZ（予防的防護措置を準備する区域）</div><div class="fd">急速に進展する事故においても放射線被ばくによる重篤な確定的影響等を回避し又は最小化するため、放射性物質が放出される前の段階から予防的に防護措置を準備する区域。原子力施設から概ね半径5kmが目安。</div></div><div class="field"><div class="ft">UPZ（緊急防護措置を準備する区域）</div><div class="fd">確率的影響のリスクを低減するため、緊急防護措置を準備する区域。原子力施設から概ね半径30kmが目安。</div></div><div class="field"><div class="ft">OIL（運用上の介入レベル）</div><div class="fd">緊急時の環境放射線モニタリングの測定結果と照らし合わせて、避難（一時移転を含む）、飲食物の摂取制限、安定ヨウ素剤の服用など、防護措置の実施を判断する基準。</div></div></div></div><div id="sec-genshi-3"><div class="b-heading"><h2>屋内退避と避難</h2></div></div><div><div class="b-bullets"><ul><li>原子力緊急事態宣言が発出され、国または県から屋内退避の指示を受けたときは、町はすみやかに住民に屋内退避を指示する。屋内退避では、窓を閉め、エアコン・換気扇を止め気密性に配慮する。</li><li>本町に影響が及ぶと予測される場合は、コンクリート建家の屋内への退避を指示する。退避所までは基本的に徒歩で移動するが、移動の際に被ばくするおそれ等がある場合は、一時的に自宅等で屋内退避する。屋内退避指示は最低でも数日間は経過しなければ解除されない。</li><li>退避所に備蓄されている飲食物等は、汚染状況が判明するまで使用しない。</li><li>避難が決定された場合、避難は原則として公共交通機関、自衛隊等により避難所まで輸送する。状況に応じ、自家用車での避難を指示する場合は、交通誘導整理を行う警察官等の指示に必ず従う。</li><li>町が避難または屋内退避等の対象区域となった場合は、県、医療機関と連携し、原則として医師の関与の下で安定ヨウ素剤を配布し、服用を指示する。</li><li>学校、社会福祉施設等の長は、県及び町の指示等に基づき、児童生徒、入所者等を退避・避難させ、保護者等へ連絡する。</li></ul></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.36-39</div><div><div class="b-note"><span>町が指定した避難所以外に避難した場合は、町の災害対策本部に居場所と連絡先を連絡するよう、区長を通じて住民等へ周知します（原子力災害対策編 p.42）。</span></div></div><div id="sec-genshi-4"><div class="b-heading"><h2>防護措置の判断基準（OIL）</h2></div></div><div><div class="b-ttl">OILと防護措置について（別表1 防護措置基準）</div><div class="b-table"><table><thead><tr><th>基準</th><th>初期設定値</th><th>単位</th><th class="txt">防護措置の概要</th></tr></thead><tbody><tr><td>OIL1（緊急防護措置）</td><td class="num">500</td><td>μSv/h</td><td class="txt">数時間内を目途に区域を特定し、避難等を実施（移動が困難な者の一時屋内退避を含む）</td></tr><tr><td>OIL4（緊急防護措置）</td><td class="num">40,000</td><td>cpm（β線）</td><td class="txt">避難又は一時移転の基準に基づいて避難等した避難者等に避難退域時検査を実施して、基準を超える際は迅速に簡易除染等を実施</td></tr><tr><td>OIL2（早期防護措置）</td><td class="num">20</td><td>μSv/h</td><td class="txt">1日内を目途に区域を特定し、地域生産物の摂取を制限するとともに、1週間程度内に一時移転を実施</td></tr><tr><td>飲食物に係るスクリーニング基準</td><td class="num">0.5</td><td>μSv/h</td><td class="txt">数日内を目途に飲食物中の放射性核種濃度を測定すべき区域を特定</td></tr></tbody></table></div><div class="b-note"><span>μSv/h の値は地上1mで計測した場合の空間放射線量率。OIL4は皮膚から数cmでの検出器の計数率で、1ヶ月後の値は13,000cpm。「初期設定値」は緊急事態当初に用いる値で、必要な場合には改定される。</span></div></div><div><details class="b-foldtbl"><summary><div class="ftwrap"><div class="ftl">OIL6 飲食物の摂取を制限する際の基準</div><div class="fts">1週間内を目途に飲食物中の放射性核種濃度を測定・分析</div></div><span class="caret" aria-hidden="true"></span></summary><div class="b-table"><table><thead><tr><th>核種</th><th>飲料水・牛乳・乳製品（Bq/kg）</th><th>野菜類・穀類・肉・卵・魚・その他（Bq/kg）</th></tr></thead><tbody><tr><td>放射性ヨウ素</td><td class="num">300</td><td class="num">2,000</td></tr><tr><td>放射性セシウム</td><td class="num">200</td><td class="num">500</td></tr><tr><td>プルトニウム及び超ウラン元素のアルファ核種</td><td class="num">1</td><td class="num">10</td></tr><tr><td>ウラン</td><td class="num">20</td><td class="num">100</td></tr></tbody></table></div><div class="b-note"><span>放射性ヨウ素の野菜類等の値（2,000Bq/kg）は、根菜、芋類を除く野菜類が対象。</span></div></details></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.35</div><div id="sec-genshi-5"><div class="b-heading"><h2>ふだんからの備え</h2></div></div><div><div class="b-bullets"><div class="t">町が住民に広報する原子力防災の知識</div><ul><li>放射性物質及び放射線の特性</li><li>原子力施設の概要</li><li>原子力災害とその特性</li><li>放射線による健康への影響及び放射線防護</li><li>緊急時に、町、国及び県等が講じる対策の内容</li><li>屋内退避の方法（窓を閉め、エアコン・換気扇を止め気密性に配慮など）</li><li>屋内退避所、避難所</li><li>安定ヨウ素剤の服用</li><li>放射性物質による汚染の除去</li><li>避難行動要支援者への支援</li><li>緊急時にとるべき行動</li></ul></div></div><div><div class="b-narrative"><p>町立小中学校では、文部科学省発行「放射線等に関する副読本」を活用して、児童・生徒に放射線に関する教育を行います。</p></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.21</div><div id="sec-genshi-6"><div class="b-heading"><h2>事故のあと</h2></div></div><div><div class="b-bullets"><ul><li>原子力緊急事態解除宣言の後、県が行う環境放射線モニタリングの結果を入手し、すみやかに住民等に公表する。</li><li>県と連携して、立ち入り制限、交通規制、飲食物の出荷制限、摂取制限等の各種制限措置を解除する。</li><li>避難及び屋内退避の措置をとった住民等が、災害時に当該地域に所在した旨を証明し、避難所等においてとった措置等を記録する。</li><li>国及び県と連携し、住まいの確保、生活資金等の支給、心身のケアなど、被災した住民の生活再建を支援する。</li><li>科学的根拠に基づく農林水産業、地場産業の産品等の適切な流通等が確保されるよう広報し、風評被害等の影響を軽減する。</li><li>国及び県とともに、居住者等に対する心身の健康相談及び健康調査を行う体制を整備する。</li></ul></div></div><div class="src">日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり） p.45-46</div></section>
+  <footer class="foot">
+    <h2>出典・原典資料</h2>
+    <ul><li>日野町地域防災計画（地震災害対策・風水害対策編）改定版（令和6年3月）（<a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000003/3126/r5tiikibousaikeikaku(zisinn.huusuigai).pdf" target="_blank" rel="noopener">リンク</a>）</li><li>日野町地域防災計画（原子力災害対策編）改定版（令和6年3月。表紙に「修正案」の表記あり）（<a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000003/3126/r5tiikibousaikeikaku(gennsiryokusaigai).pdf" target="_blank" rel="noopener">リンク</a>）</li></ul>
+    <p class="contact">お問い合わせ：総務課</p>
+    <div class="disclaim">このページは公表資料をもとに要点をまとめた<b>非公式</b>のダッシュボードです。
+    図表は原典の数値から機械的に描画しています。正式な内容は
+    <a href="https://www.town.shiga-hino.lg.jp/0000003126.html" target="_blank" rel="noopener">日野町の公式ページ（外部サイト）</a>でご確認ください。</div>
+  </footer>
+</div>
+<script>
+/* runtime.js — 共通ランタイム(タブ切替のみ)。冪等・依存ゼロ。 */
+(function(){
+  "use strict";
+  var roots = document.querySelectorAll('.hpv1[data-hp-root]');
+  roots.forEach(function(root){
+    if (root.dataset.hpInit) return;      /* 再実行に対して冪等 */
+    root.dataset.hpInit = '1';
+    var tabs = root.querySelectorAll('.tab');
+    var panels = root.querySelectorAll('.panel');
+    function select(id){
+      tabs.forEach(function(t){ t.setAttribute('aria-selected', String(t.dataset.tab === id)); });
+      panels.forEach(function(p){ p.classList.toggle('active', p.dataset.panel === id); });
+      if (history.replaceState) history.replaceState(null, '', '#' + id);
+    }
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ select(t.dataset.tab); });
+    });
+    var h = location.hash.replace('#','');
+    if (h && root.querySelector('.panel[data-panel="' + h.replace(/[^a-z0-9_-]/g,'') + '"]')) select(h);
+  });
+})();
+
+</script>
+</body>
+</html>

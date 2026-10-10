@@ -53,25 +53,25 @@ fdbf6529e28b2656	jigyo	8	table	効果促進事業	C16-018/全体事業費（百�
 b68ee20856338807	jigyo	8	table	効果促進事業	C16-019/全体事業費（百万円）	15		x0000598658 p.15				
 3c9ee3d64af81db0	jigyo	10	table	交付金の執行状況	配分額（a）/R03	72		x0000598658 p.17				
 ef5b8493732e50b7	jigyo	10	table	交付金の執行状況	配分額（a）/R04	52		x0000598658 p.17				
-40c653909cfdf3ad	jigyo	10	table	交付金の執行状況	配分額（a）/R05	44		x0000598658 p.17				
+40c653909cfdf3ad	jigyo	10	table	交付金の執行状況	配分額（a）/R05	44		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 ff94798b37a8f54e	jigyo	10	table	交付金の執行状況	計画別流用増△減額（b）/R03	0		x0000598658 p.17				
 4059b894963867a4	jigyo	10	table	交付金の執行状況	計画別流用増△減額（b）/R04	0		x0000598658 p.17				
-e666ce68589e865e	jigyo	10	table	交付金の執行状況	計画別流用増△減額（b）/R05	0		x0000598658 p.17				
+e666ce68589e865e	jigyo	10	table	交付金の執行状況	計画別流用増△減額（b）/R05	0		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 445bda1eb547e4d2	jigyo	10	table	交付金の執行状況	交付額（c＝a＋b）/R03	72		x0000598658 p.17				
 63520208b09a088f	jigyo	10	table	交付金の執行状況	交付額（c＝a＋b）/R04	52		x0000598658 p.17				
-d4b2d60672f76839	jigyo	10	table	交付金の執行状況	交付額（c＝a＋b）/R05	44		x0000598658 p.17				
+d4b2d60672f76839	jigyo	10	table	交付金の執行状況	交付額（c＝a＋b）/R05	44		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 850c39e94c467b74	jigyo	10	table	交付金の執行状況	前年度からの繰越額（d）/R03	0		x0000598658 p.17				
 2f8d49dc4b0d5258	jigyo	10	table	交付金の執行状況	前年度からの繰越額（d）/R04	0		x0000598658 p.17				
-f89a2db97c5cd2f7	jigyo	10	table	交付金の執行状況	前年度からの繰越額（d）/R05	0		x0000598658 p.17				
+f89a2db97c5cd2f7	jigyo	10	table	交付金の執行状況	前年度からの繰越額（d）/R05	0		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 a82da43be843794e	jigyo	10	table	交付金の執行状況	支払済額（e）/R03	71		x0000598658 p.17				
 0253336655b4350b	jigyo	10	table	交付金の執行状況	支払済額（e）/R04	51		x0000598658 p.17				
-afc0a4ae9a465a0a	jigyo	10	table	交付金の執行状況	支払済額（e）/R05	43		x0000598658 p.17				
+afc0a4ae9a465a0a	jigyo	10	table	交付金の執行状況	支払済額（e）/R05	43		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 32d703743a317cfb	jigyo	10	table	交付金の執行状況	翌年度繰越額（f）/R03	0		x0000598658 p.17				
 91c70ced48e748fe	jigyo	10	table	交付金の執行状況	翌年度繰越額（f）/R04	0		x0000598658 p.17				
-ebb822d460713aa8	jigyo	10	table	交付金の執行状況	翌年度繰越額（f）/R05	0		x0000598658 p.17				
+ebb822d460713aa8	jigyo	10	table	交付金の執行状況	翌年度繰越額（f）/R05	0		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 db4efba1fcb436a9	jigyo	10	table	交付金の執行状況	うち未契約繰越額（g）/R03	0		x0000598658 p.17				
 86a2d7680ffc14d2	jigyo	10	table	交付金の執行状況	うち未契約繰越額（g）/R04	0		x0000598658 p.17				
-475e21ab18198c9d	jigyo	10	table	交付金の執行状況	うち未契約繰越額（g）/R05	0		x0000598658 p.17				
+475e21ab18198c9d	jigyo	10	table	交付金の執行状況	うち未契約繰越額（g）/R05	0		x0000598658 p.17	✓	auto:pdftext	2026-10-10	
 d9520a3e91b0b862	jigyo	10	table	交付金の執行状況	不用額（h＝c＋d−e−f）/R03	1		x0000598658 p.17				
 23fac0edd8aa66e3	jigyo	10	table	交付金の執行状況	不用額（h＝c＋d−e−f）/R04	1		x0000598658 p.17				
 441e3af423c318ed	jigyo	10	table	交付金の執行状況	不用額（h＝c＋d−e−f）/R05	1		x0000598658 p.17				

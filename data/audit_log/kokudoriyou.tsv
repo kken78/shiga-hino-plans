@@ -1,498 +1,498 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-46ccbfcb3a51454d	summary	2	kpi		町土面積	11760	ha	honpen p.20				
-3641cc9c9dcb74f5	summary	2	kpi		森林の面積の目標	5983	ha	honpen p.20				
-b6d050ff8a3ca225	summary	2	kpi		農地の面積の目標	1903	ha	honpen p.20				
-1fc74b9034471fa3	summary	2	kpi		宅地の面積の目標	835	ha	honpen p.20				
-9e3a40c3ee2ffec4	summary	2	kpi		道路の面積の目標	483	ha	honpen p.20				
-2963e7b9826a06c6	summary	3	kpi		想定人口	19500	人	honpen p.19				
-b4077c78421d624e	summary	3	kpi		想定世帯数	8400	世帯	honpen p.19				
-61aa340757a9bf37	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/面積 R3（2021年）	1970		honpen p.20				
-946563a07f90f260	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/面積 R13（2031年）	1903		honpen p.20				
-4f98b0fe7f4f0bc4	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/構成比 R3（2021年）	16.8		honpen p.20				
-8be78ef09635172b	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/構成比 R13（2031年）	16.2		honpen p.20				
-a31fdf277c2dca4d	mokuhyo	2	table	利用区分ごとの規模の目標	農地/面積 R3（2021年）	1970		honpen p.20				
-af32e482ad7e1413	mokuhyo	2	table	利用区分ごとの規模の目標	農地/面積 R13（2031年）	1903		honpen p.20				
-82b3d3f752293df2	mokuhyo	2	table	利用区分ごとの規模の目標	農地/構成比 R3（2021年）	16.8		honpen p.20				
-de1ae55dbebe7a30	mokuhyo	2	table	利用区分ごとの規模の目標	農地/構成比 R13（2031年）	16.2		honpen p.20				
-bafcf8ce39d3951d	mokuhyo	2	table	利用区分ごとの規模の目標	森林/面積 R3（2021年）	6105		honpen p.20				
-07b1b0f2e0286e9d	mokuhyo	2	table	利用区分ごとの規模の目標	森林/面積 R13（2031年）	5983		honpen p.20				
-dad34744de9a86b5	mokuhyo	2	table	利用区分ごとの規模の目標	森林/構成比 R3（2021年）	51.9		honpen p.20				
-2f1ebfa37cdc87af	mokuhyo	2	table	利用区分ごとの規模の目標	森林/構成比 R13（2031年）	50.9		honpen p.20				
-20c0ccd9d5bbdedd	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/面積 R3（2021年）	484		honpen p.20				
-071718325f2ddeb1	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/面積 R13（2031年）	495		honpen p.20				
-0fb682538e3f19ac	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/構成比 R3（2021年）	4.1		honpen p.20				
-08d565d38aa5b282	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/構成比 R13（2031年）	4.2		honpen p.20				
-6a179427ac6da704	mokuhyo	2	table	利用区分ごとの規模の目標	水面/面積 R3（2021年）	150		honpen p.20				
-c4b75bdf9093b833	mokuhyo	2	table	利用区分ごとの規模の目標	水面/面積 R13（2031年）	162		honpen p.20				
-54e309195978ab21	mokuhyo	2	table	利用区分ごとの規模の目標	水面/構成比 R3（2021年）	1.3		honpen p.20				
-c4622e0910a44a3d	mokuhyo	2	table	利用区分ごとの規模の目標	水面/構成比 R13（2031年）	1.3		honpen p.20				
-783c245d8cd8902e	mokuhyo	2	table	利用区分ごとの規模の目標	河川/面積 R3（2021年）	221		honpen p.20				
-71c9d8cb11f1ee7d	mokuhyo	2	table	利用区分ごとの規模の目標	河川/面積 R13（2031年）	221		honpen p.20				
-29507ff866852387	mokuhyo	2	table	利用区分ごとの規模の目標	河川/構成比 R3（2021年）	1.9		honpen p.20				
-9d4c80a4e4fbdb19	mokuhyo	2	table	利用区分ごとの規模の目標	河川/構成比 R13（2031年）	1.9		honpen p.20				
-8017ae0c8c5e04dc	mokuhyo	2	table	利用区分ごとの規模の目標	水路/面積 R3（2021年）	113		honpen p.20				
-e1d9ce60305bd33c	mokuhyo	2	table	利用区分ごとの規模の目標	水路/面積 R13（2031年）	112		honpen p.20				
-3ca61073c5c71ecc	mokuhyo	2	table	利用区分ごとの規模の目標	水路/構成比 R3（2021年）	1.0		honpen p.20				
-f54e9d3ef1f883a2	mokuhyo	2	table	利用区分ごとの規模の目標	水路/構成比 R13（2031年）	1.0		honpen p.20				
-a9b468d0cce99fe7	mokuhyo	2	table	利用区分ごとの規模の目標	道路/面積 R3（2021年）	463		honpen p.20				
-a4e09e6c75b9bf0a	mokuhyo	2	table	利用区分ごとの規模の目標	道路/面積 R13（2031年）	483		honpen p.20				
-1abf2fc8e1a39d60	mokuhyo	2	table	利用区分ごとの規模の目標	道路/構成比 R3（2021年）	3.9		honpen p.20				
-8c82c957704db403	mokuhyo	2	table	利用区分ごとの規模の目標	道路/構成比 R13（2031年）	4.1		honpen p.20				
-ed9ec1ddbeceac1d	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/面積 R3（2021年）	312		honpen p.20				
-0688fcb97cb4dd65	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/面積 R13（2031年）	332		honpen p.20				
-cc4b7e8cb619e4d0	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/構成比 R3（2021年）	2.7		honpen p.20				
-ed99b7100ea8bc99	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/構成比 R13（2031年）	2.8		honpen p.20				
-e932eeb4e748b9a9	mokuhyo	2	table	利用区分ごとの規模の目標	農道/面積 R3（2021年）	122		honpen p.20				
-45d71055ef9421f9	mokuhyo	2	table	利用区分ごとの規模の目標	農道/面積 R13（2031年）	122		honpen p.20				
-8c189305971f111a	mokuhyo	2	table	利用区分ごとの規模の目標	農道/構成比 R3（2021年）	1.0		honpen p.20				
-1157d552ca7eb212	mokuhyo	2	table	利用区分ごとの規模の目標	農道/構成比 R13（2031年）	1.0		honpen p.20				
-d7bde2c98cb1e3fc	mokuhyo	2	table	利用区分ごとの規模の目標	林道/面積 R3（2021年）	29		honpen p.20				
-312d0332237aaa11	mokuhyo	2	table	利用区分ごとの規模の目標	林道/面積 R13（2031年）	29		honpen p.20				
-0d22094d88a9fa7f	mokuhyo	2	table	利用区分ごとの規模の目標	林道/構成比 R3（2021年）	0.2		honpen p.20				
-7d14abf11a3a06af	mokuhyo	2	table	利用区分ごとの規模の目標	林道/構成比 R13（2031年）	0.2		honpen p.20				
-9ecd3ec2cf565de2	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/面積 R3（2021年）	738		honpen p.20				
-69cbff5b7e44041f	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/面積 R13（2031年）	835		honpen p.20				
-52862d2451dd5497	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/構成比 R3（2021年）	6.3		honpen p.20				
-19b3bcb38270a27b	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/構成比 R13（2031年）	7.1		honpen p.20				
-60dd07baf0f8c574	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/面積 R3（2021年）	360		honpen p.20				
-f5b7659c5eb90dbb	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/面積 R13（2031年）	372		honpen p.20				
-ccfc291e23464b5d	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/構成比 R3（2021年）	3.1		honpen p.20				
-d2a484e64153f954	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/構成比 R13（2031年）	3.2		honpen p.20				
-90061d699ba03419	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/面積 R3（2021年）	242		honpen p.20				
-f692302892cb5daf	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/面積 R13（2031年）	327		honpen p.20				
-6da4c446a9c7fb81	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/構成比 R3（2021年）	2.1		honpen p.20				
-47f886718aecdc00	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/構成比 R13（2031年）	2.8		honpen p.20				
-0b8773a93546d082	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/面積 R3（2021年）	136		honpen p.20				
-88be5ee283979a27	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/面積 R13（2031年）	136		honpen p.20				
-a20b0ae86782aaac	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/構成比 R3（2021年）	1.2		honpen p.20				
-beebb6ba342fe01f	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/構成比 R13（2031年）	1.2		honpen p.20				
-f4eb01603c12696b	mokuhyo	2	table	利用区分ごとの規模の目標	その他/面積 R3（2021年）	2000		honpen p.20				
-bd81fab17e0895b8	mokuhyo	2	table	利用区分ごとの規模の目標	その他/面積 R13（2031年）	2061		honpen p.20				
-c78f56d0e97caf4b	mokuhyo	2	table	利用区分ごとの規模の目標	その他/構成比 R3（2021年）	17.0		honpen p.20				
-e55ea443e85dc446	mokuhyo	2	table	利用区分ごとの規模の目標	その他/構成比 R13（2031年）	17.5		honpen p.20				
-1a9c9cba185377bc	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/面積 R3（2021年）	11760		honpen p.20				
-153742d7cd2c2a32	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/面積 R13（2031年）	11760		honpen p.20				
-40006e00b55705d3	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/構成比 R3（2021年）	100.0		honpen p.20				
-45f68232cc730f2d	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/構成比 R13（2031年）	100.0		honpen p.20				
-8c7654d8f2fb860f	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	農用地/R3（2021年）	1970	ha	honpen p.20				
-df67cda1ff18cd91	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	農用地/R13（2031年）の目標	1903	ha	honpen p.20				
-057af24a5494de9c	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	森林/R3（2021年）	6105	ha	honpen p.20				
-844d7b9b995d7312	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	森林/R13（2031年）の目標	5983	ha	honpen p.20				
-465d64b56cfcbc2a	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	水面・河川・水路/R3（2021年）	484	ha	honpen p.20				
-f030fbef7d2d1250	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	水面・河川・水路/R13（2031年）の目標	495	ha	honpen p.20				
-c3f23b4f080c05f1	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	道路/R3（2021年）	463	ha	honpen p.20				
-b7c0c93b9e5a77a5	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	道路/R13（2031年）の目標	483	ha	honpen p.20				
-70790a64da3b2e0c	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	宅地/R3（2021年）	738	ha	honpen p.20				
-9ef7a6700c33b19e	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	宅地/R13（2031年）の目標	835	ha	honpen p.20				
-22b707bae13387a0	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R3（2021年）	2000	ha	honpen p.20				
-daab567effcacb87	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R13（2031年）の目標	2061	ha	honpen p.20				
-bb24844e61bad951	mokuhyo	6	figure	土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29				
-bc652bd6a9d7f2f8	chiiki	2	figure	地域別の町土利用の基本方向	地域区分図	kokudoriyou_chiiki.jpg		honpen p.16				
-8233bd0e799269f8	genjo	2	kpi	日野町の土地のすがた	町土面積	117.6	㎢	shiryo p.2				
-44dd2c998d057180	genjo	2	kpi	日野町の土地のすがた	可住地面積	56.36	㎢	shiryo p.2				
-8c042a6ddcd52ded	genjo	2	kpi	日野町の土地のすがた	森林	6106	ha	shiryo p.2				
-63302319f8a8a02f	genjo	2	kpi	日野町の土地のすがた	農用地	1980	ha	shiryo p.2				
-140dba3cccba1119	genjo	2	kpi	日野町の土地のすがた	宅地	731	ha	shiryo p.2				
-3c966c362432b104	genjo	2	kpi	日野町の土地のすがた	道路	462	ha	shiryo p.2				
-898ac0f4b4ff13a2	genjo	6	table	利用区分別面積の推移	農用地/H23	2031		shiryo p.3				
-cd0e360f429b55b3	genjo	6	table	利用区分別面積の推移	農用地/H24	2021		shiryo p.3				
-d981b709a2aeb316	genjo	6	table	利用区分別面積の推移	農用地/H25	2021		shiryo p.3				
-94d59bbacc01f376	genjo	6	table	利用区分別面積の推移	農用地/H26	2020		shiryo p.3				
-c0b22182e5ef33bd	genjo	6	table	利用区分別面積の推移	農用地/H27	2009		shiryo p.3				
-99e537ba0c16faeb	genjo	6	table	利用区分別面積の推移	農用地/H28	2009		shiryo p.3				
-868e0230cf3c4d44	genjo	6	table	利用区分別面積の推移	農用地/H29	2010		shiryo p.3				
-0c0f436d45508ccc	genjo	6	table	利用区分別面積の推移	農用地/H30	1991		shiryo p.3				
-41b3bdb4ff8281bd	genjo	6	table	利用区分別面積の推移	農用地/R元	1989		shiryo p.3				
-6a247d689eda42f3	genjo	6	table	利用区分別面積の推移	農用地/R2	1980		shiryo p.3				
-0e2643c25beb9c05	genjo	6	table	利用区分別面積の推移	農地/H23	2031		shiryo p.3				
-c82d5c04f726c2a0	genjo	6	table	利用区分別面積の推移	農地/H24	2021		shiryo p.3				
-3317269e6fe239fc	genjo	6	table	利用区分別面積の推移	農地/H25	2021		shiryo p.3				
-7adfec32034bd021	genjo	6	table	利用区分別面積の推移	農地/H26	2020		shiryo p.3				
-919d3cbd17a47569	genjo	6	table	利用区分別面積の推移	農地/H27	2009		shiryo p.3				
-0eabd4432cb3eb44	genjo	6	table	利用区分別面積の推移	農地/H28	2009		shiryo p.3				
-cc2eaf66727a0e7c	genjo	6	table	利用区分別面積の推移	農地/H29	2010		shiryo p.3				
-22c434e24bc9675f	genjo	6	table	利用区分別面積の推移	農地/H30	1991		shiryo p.3				
-c45b345183da3996	genjo	6	table	利用区分別面積の推移	農地/R元	1989		shiryo p.3				
-921239be893e1329	genjo	6	table	利用区分別面積の推移	農地/R2	1980		shiryo p.3				
-a572b1a9209bd6d4	genjo	6	table	利用区分別面積の推移	森林/H23	6125		shiryo p.3				
-7a1f90e42ad08353	genjo	6	table	利用区分別面積の推移	森林/H24	6125		shiryo p.3				
-157fcf8aed8e59c6	genjo	6	table	利用区分別面積の推移	森林/H25	6125		shiryo p.3				
-2ccc678edff48817	genjo	6	table	利用区分別面積の推移	森林/H26	6124		shiryo p.3				
-71f0f7e003dc7cff	genjo	6	table	利用区分別面積の推移	森林/H27	6116		shiryo p.3				
-5aaad2d75fbd2dce	genjo	6	table	利用区分別面積の推移	森林/H28	6116		shiryo p.3				
-d564b01117335580	genjo	6	table	利用区分別面積の推移	森林/H29	6115		shiryo p.3				
-35bf37289d5fefb8	genjo	6	table	利用区分別面積の推移	森林/H30	6115		shiryo p.3				
-0432175b5afdab84	genjo	6	table	利用区分別面積の推移	森林/R元	6107		shiryo p.3				
-74ca6c5993366196	genjo	6	table	利用区分別面積の推移	森林/R2	6106		shiryo p.3				
-e765046d0e76bae1	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H23	485		shiryo p.3				
-810df92058dbbf4d	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H24	485		shiryo p.3				
-5e5c4fd0b322861c	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H25	485		shiryo p.3				
-733e6a64859b1f0c	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H26	485		shiryo p.3				
-03aebe5b21ada2e9	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H27	485		shiryo p.3				
-a84aedea773e58a2	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H28	485		shiryo p.3				
-38d4215c777e1cbf	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H29	485		shiryo p.3				
-97e47930bb98e525	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H30	484		shiryo p.3				
-37233cb0855e3551	genjo	6	table	利用区分別面積の推移	水面・河川・水路/R元	484		shiryo p.3				
-07c2a183409cb1f5	genjo	6	table	利用区分別面積の推移	水面・河川・水路/R2	484		shiryo p.3				
-29bc47f6408d3215	genjo	6	table	利用区分別面積の推移	水面/H23	150		shiryo p.3				
-8ed6527958801ee5	genjo	6	table	利用区分別面積の推移	水面/H24	150		shiryo p.3				
-9c0e1440afae8355	genjo	6	table	利用区分別面積の推移	水面/H25	150		shiryo p.3				
-edde22eccc9a8ca5	genjo	6	table	利用区分別面積の推移	水面/H26	150		shiryo p.3				
-bcb6e2ae56f97db0	genjo	6	table	利用区分別面積の推移	水面/H27	150		shiryo p.3				
-1d6c50270afb9f46	genjo	6	table	利用区分別面積の推移	水面/H28	150		shiryo p.3				
-4500427205d9cec0	genjo	6	table	利用区分別面積の推移	水面/H29	150		shiryo p.3				
-ebaab3e894ae340a	genjo	6	table	利用区分別面積の推移	水面/H30	150		shiryo p.3				
-f7a60038396a9b3a	genjo	6	table	利用区分別面積の推移	水面/R元	150		shiryo p.3				
-3e49c85978bdfdbb	genjo	6	table	利用区分別面積の推移	水面/R2	150		shiryo p.3				
-ecdc3f9beed45d98	genjo	6	table	利用区分別面積の推移	河川/H23	221		shiryo p.3				
-addac8a8fc131a80	genjo	6	table	利用区分別面積の推移	河川/H24	221		shiryo p.3				
-b030690c959344d8	genjo	6	table	利用区分別面積の推移	河川/H25	221		shiryo p.3				
-5008e88a19537050	genjo	6	table	利用区分別面積の推移	河川/H26	221		shiryo p.3				
-4299ab8c7f2e853f	genjo	6	table	利用区分別面積の推移	河川/H27	221		shiryo p.3				
-539f14165deff2bf	genjo	6	table	利用区分別面積の推移	河川/H28	221		shiryo p.3				
-b2dfe2274eb98df9	genjo	6	table	利用区分別面積の推移	河川/H29	221		shiryo p.3				
-b16c756158ee74c8	genjo	6	table	利用区分別面積の推移	河川/H30	221		shiryo p.3				
-8cd2992b0912a1d0	genjo	6	table	利用区分別面積の推移	河川/R元	221		shiryo p.3				
-6aa963211cbe8d35	genjo	6	table	利用区分別面積の推移	河川/R2	221		shiryo p.3				
-81ac15c396732332	genjo	6	table	利用区分別面積の推移	水路/H23	114		shiryo p.3				
-8aeae5f9d8ee9421	genjo	6	table	利用区分別面積の推移	水路/H24	114		shiryo p.3				
-ca7b00a532aa40e7	genjo	6	table	利用区分別面積の推移	水路/H25	114		shiryo p.3				
-567864a4cce0bde9	genjo	6	table	利用区分別面積の推移	水路/H26	114		shiryo p.3				
-4349cb6317e58e6c	genjo	6	table	利用区分別面積の推移	水路/H27	114		shiryo p.3				
-fcb04ca44b3d95c0	genjo	6	table	利用区分別面積の推移	水路/H28	114		shiryo p.3				
-bca5ac0091df8694	genjo	6	table	利用区分別面積の推移	水路/H29	114		shiryo p.3				
-7d5cf701a85e3891	genjo	6	table	利用区分別面積の推移	水路/H30	113		shiryo p.3				
-85f9caf1937dde30	genjo	6	table	利用区分別面積の推移	水路/R元	113		shiryo p.3				
-265f539766587073	genjo	6	table	利用区分別面積の推移	水路/R2	113		shiryo p.3				
-b4b50c8395638301	genjo	6	table	利用区分別面積の推移	道路/H23	441		shiryo p.3				
-82e067f05eef9405	genjo	6	table	利用区分別面積の推移	道路/H24	441		shiryo p.3				
-eb16eef4bed21d9e	genjo	6	table	利用区分別面積の推移	道路/H25	441		shiryo p.3				
-2b0503f44df93944	genjo	6	table	利用区分別面積の推移	道路/H26	445		shiryo p.3				
-80a97755888e2db0	genjo	6	table	利用区分別面積の推移	道路/H27	448		shiryo p.3				
-4f6c1e60ffb6a608	genjo	6	table	利用区分別面積の推移	道路/H28	454		shiryo p.3				
-815d166bb4404fee	genjo	6	table	利用区分別面積の推移	道路/H29	472		shiryo p.3				
-dc4d94aee476fc95	genjo	6	table	利用区分別面積の推移	道路/H30	472		shiryo p.3				
-e86ac310fec67b33	genjo	6	table	利用区分別面積の推移	道路/R元	462		shiryo p.3				
-8354246856466359	genjo	6	table	利用区分別面積の推移	道路/R2	462		shiryo p.3				
-ae4db3da449b725f	genjo	6	table	利用区分別面積の推移	一般道路/H23	289		shiryo p.3				
-a75c18895e0d723d	genjo	6	table	利用区分別面積の推移	一般道路/H24	289		shiryo p.3				
-aca981c18b473102	genjo	6	table	利用区分別面積の推移	一般道路/H25	289		shiryo p.3				
-556e47f5ccb4e0ea	genjo	6	table	利用区分別面積の推移	一般道路/H26	293		shiryo p.3				
-895fe81a80044c9b	genjo	6	table	利用区分別面積の推移	一般道路/H27	296		shiryo p.3				
-59f6ab66b23ec249	genjo	6	table	利用区分別面積の推移	一般道路/H28	302		shiryo p.3				
-ba8c9512a7a51100	genjo	6	table	利用区分別面積の推移	一般道路/H29	320		shiryo p.3				
-3d4311b43fffafa2	genjo	6	table	利用区分別面積の推移	一般道路/H30	320		shiryo p.3				
-6b5549ba29e7f4bc	genjo	6	table	利用区分別面積の推移	一般道路/R元	311		shiryo p.3				
-c2acb98ed3999532	genjo	6	table	利用区分別面積の推移	一般道路/R2	311		shiryo p.3				
-840b13f3cbb69994	genjo	6	table	利用区分別面積の推移	農道/H23	123		shiryo p.3				
-188cce9caabc0b4b	genjo	6	table	利用区分別面積の推移	農道/H24	123		shiryo p.3				
-5a555f5579084f6d	genjo	6	table	利用区分別面積の推移	農道/H25	123		shiryo p.3				
-b9d635e761945e23	genjo	6	table	利用区分別面積の推移	農道/H26	123		shiryo p.3				
-8df5a3985c78d566	genjo	6	table	利用区分別面積の推移	農道/H27	123		shiryo p.3				
-168a3116503b3c0b	genjo	6	table	利用区分別面積の推移	農道/H28	123		shiryo p.3				
-c51efa0b15315ccf	genjo	6	table	利用区分別面積の推移	農道/H29	123		shiryo p.3				
-a6616f03b3b00462	genjo	6	table	利用区分別面積の推移	農道/H30	123		shiryo p.3				
-619d98e76d9ac664	genjo	6	table	利用区分別面積の推移	農道/R元	122		shiryo p.3				
-596ffe49f8d55442	genjo	6	table	利用区分別面積の推移	農道/R2	122		shiryo p.3				
-ffa08a1d1587fffd	genjo	6	table	利用区分別面積の推移	林道/H23	29		shiryo p.3				
-810ea3aa42c7f8e7	genjo	6	table	利用区分別面積の推移	林道/H24	29		shiryo p.3				
-17c65797c97b9390	genjo	6	table	利用区分別面積の推移	林道/H25	29		shiryo p.3				
-86cad8df0702332f	genjo	6	table	利用区分別面積の推移	林道/H26	29		shiryo p.3				
-beb3e57cd99f3fe0	genjo	6	table	利用区分別面積の推移	林道/H27	29		shiryo p.3				
-c7f492a90dc12d62	genjo	6	table	利用区分別面積の推移	林道/H28	29		shiryo p.3				
-09f8f79e8e3f019b	genjo	6	table	利用区分別面積の推移	林道/H29	29		shiryo p.3				
-252e480d1c3fd600	genjo	6	table	利用区分別面積の推移	林道/H30	29		shiryo p.3				
-40baae3a58ece094	genjo	6	table	利用区分別面積の推移	林道/R元	29		shiryo p.3				
-f466346158a30e57	genjo	6	table	利用区分別面積の推移	林道/R2	29		shiryo p.3				
-844f61b81fad6f70	genjo	6	table	利用区分別面積の推移	宅地/H23	703		shiryo p.3				
-486a382500577e4d	genjo	6	table	利用区分別面積の推移	宅地/H24	705		shiryo p.3				
-a31aa48031856948	genjo	6	table	利用区分別面積の推移	宅地/H25	709		shiryo p.3				
-f850e2fd7d952160	genjo	6	table	利用区分別面積の推移	宅地/H26	710		shiryo p.3				
-abeb02c5e0db09a0	genjo	6	table	利用区分別面積の推移	宅地/H27	718		shiryo p.3				
-074fb9a1a16aeb4e	genjo	6	table	利用区分別面積の推移	宅地/H28	719		shiryo p.3				
-02fabbcf2df4c63b	genjo	6	table	利用区分別面積の推移	宅地/H29	722		shiryo p.3				
-c663748fa5c19f29	genjo	6	table	利用区分別面積の推移	宅地/H30	723		shiryo p.3				
-d3c356a14ea0d77b	genjo	6	table	利用区分別面積の推移	宅地/R元	728		shiryo p.3				
-1885792c1456b7b9	genjo	6	table	利用区分別面積の推移	宅地/R2	731		shiryo p.3				
-2240a4029f44ab3d	genjo	6	table	利用区分別面積の推移	住宅地/H23	345		shiryo p.3				
-03fe37feaf4adfe8	genjo	6	table	利用区分別面積の推移	住宅地/H24	347		shiryo p.3				
-40750bd63309b621	genjo	6	table	利用区分別面積の推移	住宅地/H25	348		shiryo p.3				
-08fa1fdbb425a581	genjo	6	table	利用区分別面積の推移	住宅地/H26	348		shiryo p.3				
-3da61c929b4bffb7	genjo	6	table	利用区分別面積の推移	住宅地/H27	349		shiryo p.3				
-6bfd4e4ca77012b9	genjo	6	table	利用区分別面積の推移	住宅地/H28	351		shiryo p.3				
-c20e024a86d643df	genjo	6	table	利用区分別面積の推移	住宅地/H29	352		shiryo p.3				
-f4b48fb5294011ba	genjo	6	table	利用区分別面積の推移	住宅地/H30	353		shiryo p.3				
-0863b776a8943da1	genjo	6	table	利用区分別面積の推移	住宅地/R元	354		shiryo p.3				
-e78eca1c32c63708	genjo	6	table	利用区分別面積の推移	住宅地/R2	355		shiryo p.3				
-ba27e4f296e5c8dc	genjo	6	table	利用区分別面積の推移	工業用地/H23	236		shiryo p.3				
-55b809760d914655	genjo	6	table	利用区分別面積の推移	工業用地/H24	240		shiryo p.3				
-8abdc45cb998591b	genjo	6	table	利用区分別面積の推移	工業用地/H25	230		shiryo p.3				
-708ea7ff10584784	genjo	6	table	利用区分別面積の推移	工業用地/H26	239		shiryo p.3				
-d3f8de2154cf0ccc	genjo	6	table	利用区分別面積の推移	工業用地/H27	242		shiryo p.3				
-320a58001fcec1d4	genjo	6	table	利用区分別面積の推移	工業用地/H28	242		shiryo p.3				
-c5229a6c770663bc	genjo	6	table	利用区分別面積の推移	工業用地/H29	254		shiryo p.3				
-cc85529b96b48074	genjo	6	table	利用区分別面積の推移	工業用地/H30	238		shiryo p.3				
-4e0debb925585636	genjo	6	table	利用区分別面積の推移	工業用地/R元	238		shiryo p.3				
-e0568b1771ba0dca	genjo	6	table	利用区分別面積の推移	工業用地/R2	240		shiryo p.3				
-2b17477f3d11faf1	genjo	6	table	利用区分別面積の推移	その他の宅地/H23	122		shiryo p.3				
-0d9e618ddc21c815	genjo	6	table	利用区分別面積の推移	その他の宅地/H24	118		shiryo p.3				
-87edcbfd60dca1a2	genjo	6	table	利用区分別面積の推移	その他の宅地/H25	131		shiryo p.3				
-935a1e0f89b3f783	genjo	6	table	利用区分別面積の推移	その他の宅地/H26	123		shiryo p.3				
-a5bd20990edb0b0b	genjo	6	table	利用区分別面積の推移	その他の宅地/H27	127		shiryo p.3				
-c23ce0de7d905a33	genjo	6	table	利用区分別面積の推移	その他の宅地/H28	126		shiryo p.3				
-d7644607ea522868	genjo	6	table	利用区分別面積の推移	その他の宅地/H29	116		shiryo p.3				
-30d507021fe90e51	genjo	6	table	利用区分別面積の推移	その他の宅地/H30	132		shiryo p.3				
-110263a37267c3a9	genjo	6	table	利用区分別面積の推移	その他の宅地/R元	136		shiryo p.3				
-36c8f62cb5b100ab	genjo	6	table	利用区分別面積の推移	その他の宅地/R2	136		shiryo p.3				
-915e2a43ac988796	genjo	6	table	利用区分別面積の推移	その他/H23	1978		shiryo p.3				
-e1d6b3b4a0dfef32	genjo	6	table	利用区分別面積の推移	その他/H24	1986		shiryo p.3				
-e43e32cb32baf077	genjo	6	table	利用区分別面積の推移	その他/H25	1982		shiryo p.3				
-ae9a9475af3bb5e1	genjo	6	table	利用区分別面積の推移	その他/H26	1979		shiryo p.3				
-471f49b833c07a6d	genjo	6	table	利用区分別面積の推移	その他/H27	1984		shiryo p.3				
-d90176ace02aaa63	genjo	6	table	利用区分別面積の推移	その他/H28	1977		shiryo p.3				
-8f2ecb24828835b0	genjo	6	table	利用区分別面積の推移	その他/H29	1956		shiryo p.3				
-d15759554ad7b5f6	genjo	6	table	利用区分別面積の推移	その他/H30	1975		shiryo p.3				
-38d727b0f3d22d6f	genjo	6	table	利用区分別面積の推移	その他/R元	1990		shiryo p.3				
-e48d6a1f89cec8ae	genjo	6	table	利用区分別面積の推移	その他/R2	1997		shiryo p.3				
-fc8b5f18883edf56	genjo	6	table	利用区分別面積の推移	合計/H23	11763		shiryo p.3				
-0600d2ec6f8596b2	genjo	6	table	利用区分別面積の推移	合計/H24	11763		shiryo p.3				
-0bb752c51dc41ad1	genjo	6	table	利用区分別面積の推移	合計/H25	11763		shiryo p.3				
-db65eeb78ca7a7f5	genjo	6	table	利用区分別面積の推移	合計/H26	11763		shiryo p.3				
-a08942bc9e15faa3	genjo	6	table	利用区分別面積の推移	合計/H27	11760		shiryo p.3				
-4b0db9785961217c	genjo	6	table	利用区分別面積の推移	合計/H28	11760		shiryo p.3				
-21cdd787d8000407	genjo	6	table	利用区分別面積の推移	合計/H29	11760		shiryo p.3				
-70b78bddb80ce01d	genjo	6	table	利用区分別面積の推移	合計/H30	11760		shiryo p.3				
-aa84f63888f8dad5	genjo	6	table	利用区分別面積の推移	合計/R元	11760		shiryo p.3				
-725fc2f743c02fff	genjo	6	table	利用区分別面積の推移	合計/R2	11760		shiryo p.3				
-37a7a57b8965c044	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H26	1.3	ha	shiryo p.5				
-457d43bc23995942	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H27	1.7	ha	shiryo p.5				
-c4253175afacbfc9	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H28	3.1	ha	shiryo p.5				
-6d191bfeb419b125	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H29	3.7	ha	shiryo p.5				
-5381c3bea63908a8	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H30	3.3	ha	shiryo p.5				
-b73e1787f4a07a8f	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/R元	5.4	ha	shiryo p.5				
-dde0d52423522292	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/R2	3.3	ha	shiryo p.5				
-cc518d57cd9583ba	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H26	0.5	ha	shiryo p.5				
-81ab5b070a83566b	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H27	0.4	ha	shiryo p.5				
-7f072f796c59b2a1	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H28	1.1	ha	shiryo p.5				
-7b687b4b1006a2b4	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H29	0.6	ha	shiryo p.5				
-7a0efe8419a1b1db	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H30	0.0	ha	shiryo p.5				
-502ce8d417027f7f	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/R元	0.9	ha	shiryo p.5				
-46b7b673b1e4a1a4	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/R2	0.0	ha	shiryo p.5				
-1ba976a7472aac59	genjo	12	table	自然条件	綿向山/標高（m）	1110		shiryo p.6				
-54d3d38de1ba5a19	genjo	12	table	自然条件	竜王山/標高（m）	826		shiryo p.6				
-75d28a343102fd29	genjo	12	table	自然条件	宝殿ヶ岳/標高（m）	508		shiryo p.6				
-be51dac428616b53	genjo	12	table	自然条件	正法寺山/標高（m）	361		shiryo p.6				
-813be79bee8ba618	genjo	12	table	自然条件	石子山/標高（m）	342		shiryo p.6				
-a6b2eaf1d68e7847	genjo	12	table	自然条件	小嶽/標高（m）	308		shiryo p.6				
-03689b8862a366d8	genjo	12	table	自然条件	丸山/標高（m）	270		shiryo p.6				
-d219f1e92db8cbd8	genjo	14	table	自然条件	日野川/延長（m）	14859		shiryo p.7				
-3a1c4e63112be7d5	genjo	14	table	自然条件	佐久良川/延長（m）	10569		shiryo p.7				
-c5b1ffcf42b7511c	genjo	14	table	自然条件	出雲川/延長（m）	9350		shiryo p.7				
-1fcca99dc5868436	genjo	14	table	自然条件	内池川/延長（m）	700		shiryo p.7				
-e75e85bebbdd3154	genjo	14	table	自然条件	黒道川/延長（m）	990		shiryo p.7				
-fd8b83da71717ff9	genjo	14	table	自然条件	上人谷川/延長（m）	490		shiryo p.7				
-b180deaab0c0afa0	genjo	20	table	土地利用の規制	第一種低層住居専用地域/面積（ha）	16.2		shiryo p.8				
-daf8e36134aa0484	genjo	20	table	土地利用の規制	第一種低層住居専用地域/町全域構成比（%）	0.1		shiryo p.8				
+46ccbfcb3a51454d	summary	2	kpi		町土面積	11760	ha	honpen p.20	✓	auto:ai	2026-10-10	
+3641cc9c9dcb74f5	summary	2	kpi		森林の面積の目標	5983	ha	honpen p.20	✓	auto:ai	2026-10-10	
+b6d050ff8a3ca225	summary	2	kpi		農地の面積の目標	1903	ha	honpen p.20	✓	auto:ai	2026-10-10	
+1fc74b9034471fa3	summary	2	kpi		宅地の面積の目標	835	ha	honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+9e3a40c3ee2ffec4	summary	2	kpi		道路の面積の目標	483	ha	honpen p.20	✓	auto:ai	2026-10-10	
+2963e7b9826a06c6	summary	3	kpi		想定人口	19500	人	honpen p.19	✓	auto:ai	2026-10-10	
+b4077c78421d624e	summary	3	kpi		想定世帯数	8400	世帯	honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+61aa340757a9bf37	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/面積 R3（2021年）	1970		honpen p.20	✓	auto:ai	2026-10-10	
+946563a07f90f260	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/面積 R13（2031年）	1903		honpen p.20	✓	auto:ai	2026-10-10	
+4f98b0fe7f4f0bc4	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/構成比 R3（2021年）	16.8		honpen p.20	✓	auto:ai	2026-10-10	
+8be78ef09635172b	mokuhyo	2	table	利用区分ごとの規模の目標	農用地/構成比 R13（2031年）	16.2		honpen p.20	✓	auto:ai	2026-10-10	
+a31fdf277c2dca4d	mokuhyo	2	table	利用区分ごとの規模の目標	農地/面積 R3（2021年）	1970		honpen p.20	✓	auto:ai	2026-10-10	
+af32e482ad7e1413	mokuhyo	2	table	利用区分ごとの規模の目標	農地/面積 R13（2031年）	1903		honpen p.20	✓	auto:ai	2026-10-10	
+82b3d3f752293df2	mokuhyo	2	table	利用区分ごとの規模の目標	農地/構成比 R3（2021年）	16.8		honpen p.20	✓	auto:ai	2026-10-10	
+de1ae55dbebe7a30	mokuhyo	2	table	利用区分ごとの規模の目標	農地/構成比 R13（2031年）	16.2		honpen p.20	✓	auto:ai	2026-10-10	
+bafcf8ce39d3951d	mokuhyo	2	table	利用区分ごとの規模の目標	森林/面積 R3（2021年）	6105		honpen p.20	✓	auto:ai	2026-10-10	
+07b1b0f2e0286e9d	mokuhyo	2	table	利用区分ごとの規模の目標	森林/面積 R13（2031年）	5983		honpen p.20	✓	auto:ai	2026-10-10	
+dad34744de9a86b5	mokuhyo	2	table	利用区分ごとの規模の目標	森林/構成比 R3（2021年）	51.9		honpen p.20	✓	auto:ai	2026-10-10	
+2f1ebfa37cdc87af	mokuhyo	2	table	利用区分ごとの規模の目標	森林/構成比 R13（2031年）	50.9		honpen p.20	✓	auto:ai	2026-10-10	
+20c0ccd9d5bbdedd	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/面積 R3（2021年）	484		honpen p.20	✓	auto:ai	2026-10-10	
+071718325f2ddeb1	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/面積 R13（2031年）	495		honpen p.20	✓	auto:ai	2026-10-10	
+0fb682538e3f19ac	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/構成比 R3（2021年）	4.1		honpen p.20	✓	auto:ai	2026-10-10	
+08d565d38aa5b282	mokuhyo	2	table	利用区分ごとの規模の目標	水面・河川・水路/構成比 R13（2031年）	4.2		honpen p.20	✓	auto:ai	2026-10-10	
+6a179427ac6da704	mokuhyo	2	table	利用区分ごとの規模の目標	水面/面積 R3（2021年）	150		honpen p.20	✓	auto:ai	2026-10-10	
+c4b75bdf9093b833	mokuhyo	2	table	利用区分ごとの規模の目標	水面/面積 R13（2031年）	162		honpen p.20	✓	auto:ai	2026-10-10	
+54e309195978ab21	mokuhyo	2	table	利用区分ごとの規模の目標	水面/構成比 R3（2021年）	1.3		honpen p.20	✓	auto:ai	2026-10-10	
+c4622e0910a44a3d	mokuhyo	2	table	利用区分ごとの規模の目標	水面/構成比 R13（2031年）	1.3		honpen p.20	✓	auto:ai	2026-10-10	
+783c245d8cd8902e	mokuhyo	2	table	利用区分ごとの規模の目標	河川/面積 R3（2021年）	221		honpen p.20	✓	auto:ai	2026-10-10	
+71c9d8cb11f1ee7d	mokuhyo	2	table	利用区分ごとの規模の目標	河川/面積 R13（2031年）	221		honpen p.20	✓	auto:ai	2026-10-10	
+29507ff866852387	mokuhyo	2	table	利用区分ごとの規模の目標	河川/構成比 R3（2021年）	1.9		honpen p.20	✓	auto:ai	2026-10-10	
+9d4c80a4e4fbdb19	mokuhyo	2	table	利用区分ごとの規模の目標	河川/構成比 R13（2031年）	1.9		honpen p.20	✓	auto:ai	2026-10-10	
+8017ae0c8c5e04dc	mokuhyo	2	table	利用区分ごとの規模の目標	水路/面積 R3（2021年）	113		honpen p.20	✓	auto:ai	2026-10-10	
+e1d9ce60305bd33c	mokuhyo	2	table	利用区分ごとの規模の目標	水路/面積 R13（2031年）	112		honpen p.20	✓	auto:ai	2026-10-10	
+3ca61073c5c71ecc	mokuhyo	2	table	利用区分ごとの規模の目標	水路/構成比 R3（2021年）	1.0		honpen p.20	✓	auto:ai	2026-10-10	
+f54e9d3ef1f883a2	mokuhyo	2	table	利用区分ごとの規模の目標	水路/構成比 R13（2031年）	1.0		honpen p.20	✓	auto:ai	2026-10-10	
+a9b468d0cce99fe7	mokuhyo	2	table	利用区分ごとの規模の目標	道路/面積 R3（2021年）	463		honpen p.20	✓	auto:ai	2026-10-10	
+a4e09e6c75b9bf0a	mokuhyo	2	table	利用区分ごとの規模の目標	道路/面積 R13（2031年）	483		honpen p.20	✓	auto:ai	2026-10-10	
+1abf2fc8e1a39d60	mokuhyo	2	table	利用区分ごとの規模の目標	道路/構成比 R3（2021年）	3.9		honpen p.20	✓	auto:ai	2026-10-10	
+8c82c957704db403	mokuhyo	2	table	利用区分ごとの規模の目標	道路/構成比 R13（2031年）	4.1		honpen p.20	✓	auto:ai	2026-10-10	
+ed9ec1ddbeceac1d	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/面積 R3（2021年）	312		honpen p.20	✓	auto:ai	2026-10-10	
+0688fcb97cb4dd65	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/面積 R13（2031年）	332		honpen p.20	✓	auto:ai	2026-10-10	
+cc4b7e8cb619e4d0	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/構成比 R3（2021年）	2.7		honpen p.20	✓	auto:ai	2026-10-10	
+ed99b7100ea8bc99	mokuhyo	2	table	利用区分ごとの規模の目標	一般道路/構成比 R13（2031年）	2.8		honpen p.20	✓	auto:ai	2026-10-10	
+e932eeb4e748b9a9	mokuhyo	2	table	利用区分ごとの規模の目標	農道/面積 R3（2021年）	122		honpen p.20	✓	auto:ai	2026-10-10	
+45d71055ef9421f9	mokuhyo	2	table	利用区分ごとの規模の目標	農道/面積 R13（2031年）	122		honpen p.20	✓	auto:ai	2026-10-10	
+8c189305971f111a	mokuhyo	2	table	利用区分ごとの規模の目標	農道/構成比 R3（2021年）	1.0		honpen p.20	✓	auto:ai	2026-10-10	
+1157d552ca7eb212	mokuhyo	2	table	利用区分ごとの規模の目標	農道/構成比 R13（2031年）	1.0		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d7bde2c98cb1e3fc	mokuhyo	2	table	利用区分ごとの規模の目標	林道/面積 R3（2021年）	29		honpen p.20	✓	auto:ai	2026-10-10	
+312d0332237aaa11	mokuhyo	2	table	利用区分ごとの規模の目標	林道/面積 R13（2031年）	29		honpen p.20	✓	auto:ai	2026-10-10	
+0d22094d88a9fa7f	mokuhyo	2	table	利用区分ごとの規模の目標	林道/構成比 R3（2021年）	0.2		honpen p.20	✓	auto:ai	2026-10-10	
+7d14abf11a3a06af	mokuhyo	2	table	利用区分ごとの規模の目標	林道/構成比 R13（2031年）	0.2		honpen p.20	✓	auto:ai	2026-10-10	
+9ecd3ec2cf565de2	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/面積 R3（2021年）	738		honpen p.20	✓	auto:ai	2026-10-10	
+69cbff5b7e44041f	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/面積 R13（2031年）	835		honpen p.20	✓	auto:ai	2026-10-10	
+52862d2451dd5497	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/構成比 R3（2021年）	6.3		honpen p.20	✓	auto:ai	2026-10-10	
+19b3bcb38270a27b	mokuhyo	2	table	利用区分ごとの規模の目標	宅地/構成比 R13（2031年）	7.1		honpen p.20	✓	auto:ai	2026-10-10	
+60dd07baf0f8c574	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/面積 R3（2021年）	360		honpen p.20	✓	auto:ai	2026-10-10	
+f5b7659c5eb90dbb	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/面積 R13（2031年）	372		honpen p.20	✓	auto:ai	2026-10-10	
+ccfc291e23464b5d	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/構成比 R3（2021年）	3.1		honpen p.20	✓	auto:ai	2026-10-10	
+d2a484e64153f954	mokuhyo	2	table	利用区分ごとの規模の目標	住宅地/構成比 R13（2031年）	3.2		honpen p.20	✓	auto:ai	2026-10-10	
+90061d699ba03419	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/面積 R3（2021年）	242		honpen p.20	✓	auto:ai	2026-10-10	
+f692302892cb5daf	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/面積 R13（2031年）	327		honpen p.20	✓	auto:ai	2026-10-10	
+6da4c446a9c7fb81	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/構成比 R3（2021年）	2.1		honpen p.20	✓	auto:ai	2026-10-10	
+47f886718aecdc00	mokuhyo	2	table	利用区分ごとの規模の目標	工業用地/構成比 R13（2031年）	2.8		honpen p.20	✓	auto:ai	2026-10-10	
+0b8773a93546d082	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/面積 R3（2021年）	136		honpen p.20	✓	auto:ai	2026-10-10	
+88be5ee283979a27	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/面積 R13（2031年）	136		honpen p.20	✓	auto:ai	2026-10-10	
+a20b0ae86782aaac	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/構成比 R3（2021年）	1.2		honpen p.20	✓	auto:ai	2026-10-10	
+beebb6ba342fe01f	mokuhyo	2	table	利用区分ごとの規模の目標	その他の宅地/構成比 R13（2031年）	1.2		honpen p.20	✓	auto:ai	2026-10-10	
+f4eb01603c12696b	mokuhyo	2	table	利用区分ごとの規模の目標	その他/面積 R3（2021年）	2000		honpen p.20	✓	auto:ai	2026-10-10	
+bd81fab17e0895b8	mokuhyo	2	table	利用区分ごとの規模の目標	その他/面積 R13（2031年）	2061		honpen p.20	✓	auto:ai	2026-10-10	
+c78f56d0e97caf4b	mokuhyo	2	table	利用区分ごとの規模の目標	その他/構成比 R3（2021年）	17.0		honpen p.20	✓	auto:ai	2026-10-10	
+e55ea443e85dc446	mokuhyo	2	table	利用区分ごとの規模の目標	その他/構成比 R13（2031年）	17.5		honpen p.20	✓	auto:ai	2026-10-10	
+1a9c9cba185377bc	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/面積 R3（2021年）	11760		honpen p.20	✓	auto:ai	2026-10-10	
+153742d7cd2c2a32	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/面積 R13（2031年）	11760		honpen p.20	✓	auto:ai	2026-10-10	
+40006e00b55705d3	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/構成比 R3（2021年）	100.0		honpen p.20	✓	auto:ai	2026-10-10	
+45f68232cc730f2d	mokuhyo	2	table	利用区分ごとの規模の目標	町土面積/構成比 R13（2031年）	100.0		honpen p.20	✓	auto:ai	2026-10-10	
+8c7654d8f2fb860f	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	農用地/R3（2021年）	1970	ha	honpen p.20	✓	auto:ai	2026-10-10	
+df67cda1ff18cd91	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	農用地/R13（2031年）の目標	1903	ha	honpen p.20	✓	auto:ai	2026-10-10	
+057af24a5494de9c	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	森林/R3（2021年）	6105	ha	honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+844d7b9b995d7312	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	森林/R13（2031年）の目標	5983	ha	honpen p.20	✓	auto:ai	2026-10-10	
+465d64b56cfcbc2a	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	水面・河川・水路/R3（2021年）	484	ha	honpen p.20	✓	auto:ai	2026-10-10	
+f030fbef7d2d1250	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	水面・河川・水路/R13（2031年）の目標	495	ha	honpen p.20	✓	auto:ai	2026-10-10	
+c3f23b4f080c05f1	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	道路/R3（2021年）	463	ha	honpen p.20	✓	auto:ai	2026-10-10	
+b7c0c93b9e5a77a5	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	道路/R13（2031年）の目標	483	ha	honpen p.20	✓	auto:ai	2026-10-10	
+70790a64da3b2e0c	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	宅地/R3（2021年）	738	ha	honpen p.20	✓	auto:ai	2026-10-10	
+9ef7a6700c33b19e	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	宅地/R13（2031年）の目標	835	ha	honpen p.20	✓	auto:ai	2026-10-10	
+22b707bae13387a0	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R3（2021年）	2000	ha	honpen p.20	✓	auto:ai	2026-10-10	
+daab567effcacb87	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R13（2031年）の目標	2061	ha	honpen p.20	✓	auto:ai	2026-10-10	
+bb24844e61bad951	mokuhyo	6	figure	土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29				要人確認:H2 数値でない
+bc652bd6a9d7f2f8	chiiki	2	figure	地域別の町土利用の基本方向	地域区分図	kokudoriyou_chiiki.jpg		honpen p.16				要人確認:H2 数値でない
+8233bd0e799269f8	genjo	2	kpi	日野町の土地のすがた	町土面積	117.6	㎢	shiryo p.2				要人確認:H2 値が文字データにない
+44dd2c998d057180	genjo	2	kpi	日野町の土地のすがた	可住地面積	56.36	㎢	shiryo p.2	✓	auto:ai	2026-10-10	
+8c042a6ddcd52ded	genjo	2	kpi	日野町の土地のすがた	森林	6106	ha	shiryo p.2	✓	auto:ai	2026-10-10	
+63302319f8a8a02f	genjo	2	kpi	日野町の土地のすがた	農用地	1980	ha	shiryo p.2	✓	auto:ai	2026-10-10	
+140dba3cccba1119	genjo	2	kpi	日野町の土地のすがた	宅地	731	ha	shiryo p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+3c966c362432b104	genjo	2	kpi	日野町の土地のすがた	道路	462	ha	shiryo p.2	✓	auto:ai	2026-10-10	
+898ac0f4b4ff13a2	genjo	6	table	利用区分別面積の推移	農用地/H23	2031		shiryo p.3	✓	auto:ai	2026-10-10	
+cd0e360f429b55b3	genjo	6	table	利用区分別面積の推移	農用地/H24	2021		shiryo p.3	✓	auto:ai	2026-10-10	
+d981b709a2aeb316	genjo	6	table	利用区分別面積の推移	農用地/H25	2021		shiryo p.3	✓	auto:ai	2026-10-10	
+94d59bbacc01f376	genjo	6	table	利用区分別面積の推移	農用地/H26	2020		shiryo p.3	✓	auto:ai	2026-10-10	
+c0b22182e5ef33bd	genjo	6	table	利用区分別面積の推移	農用地/H27	2009		shiryo p.3	✓	auto:ai	2026-10-10	
+99e537ba0c16faeb	genjo	6	table	利用区分別面積の推移	農用地/H28	2009		shiryo p.3	✓	auto:ai	2026-10-10	
+868e0230cf3c4d44	genjo	6	table	利用区分別面積の推移	農用地/H29	2010		shiryo p.3	✓	auto:ai	2026-10-10	
+0c0f436d45508ccc	genjo	6	table	利用区分別面積の推移	農用地/H30	1991		shiryo p.3	✓	auto:ai	2026-10-10	
+41b3bdb4ff8281bd	genjo	6	table	利用区分別面積の推移	農用地/R元	1989		shiryo p.3	✓	auto:ai	2026-10-10	
+6a247d689eda42f3	genjo	6	table	利用区分別面積の推移	農用地/R2	1980		shiryo p.3	✓	auto:ai	2026-10-10	
+0e2643c25beb9c05	genjo	6	table	利用区分別面積の推移	農地/H23	2031		shiryo p.3	✓	auto:ai	2026-10-10	
+c82d5c04f726c2a0	genjo	6	table	利用区分別面積の推移	農地/H24	2021		shiryo p.3	✓	auto:ai	2026-10-10	
+3317269e6fe239fc	genjo	6	table	利用区分別面積の推移	農地/H25	2021		shiryo p.3	✓	auto:ai	2026-10-10	
+7adfec32034bd021	genjo	6	table	利用区分別面積の推移	農地/H26	2020		shiryo p.3	✓	auto:ai	2026-10-10	
+919d3cbd17a47569	genjo	6	table	利用区分別面積の推移	農地/H27	2009		shiryo p.3	✓	auto:ai	2026-10-10	
+0eabd4432cb3eb44	genjo	6	table	利用区分別面積の推移	農地/H28	2009		shiryo p.3	✓	auto:ai	2026-10-10	
+cc2eaf66727a0e7c	genjo	6	table	利用区分別面積の推移	農地/H29	2010		shiryo p.3	✓	auto:ai	2026-10-10	
+22c434e24bc9675f	genjo	6	table	利用区分別面積の推移	農地/H30	1991		shiryo p.3	✓	auto:ai	2026-10-10	
+c45b345183da3996	genjo	6	table	利用区分別面積の推移	農地/R元	1989		shiryo p.3	✓	auto:ai	2026-10-10	
+921239be893e1329	genjo	6	table	利用区分別面積の推移	農地/R2	1980		shiryo p.3	✓	auto:ai	2026-10-10	
+a572b1a9209bd6d4	genjo	6	table	利用区分別面積の推移	森林/H23	6125		shiryo p.3	✓	auto:ai	2026-10-10	
+7a1f90e42ad08353	genjo	6	table	利用区分別面積の推移	森林/H24	6125		shiryo p.3	✓	auto:ai	2026-10-10	
+157fcf8aed8e59c6	genjo	6	table	利用区分別面積の推移	森林/H25	6125		shiryo p.3	✓	auto:ai	2026-10-10	
+2ccc678edff48817	genjo	6	table	利用区分別面積の推移	森林/H26	6124		shiryo p.3	✓	auto:ai	2026-10-10	
+71f0f7e003dc7cff	genjo	6	table	利用区分別面積の推移	森林/H27	6116		shiryo p.3	✓	auto:ai	2026-10-10	
+5aaad2d75fbd2dce	genjo	6	table	利用区分別面積の推移	森林/H28	6116		shiryo p.3	✓	auto:ai	2026-10-10	
+d564b01117335580	genjo	6	table	利用区分別面積の推移	森林/H29	6115		shiryo p.3	✓	auto:ai	2026-10-10	
+35bf37289d5fefb8	genjo	6	table	利用区分別面積の推移	森林/H30	6115		shiryo p.3	✓	auto:ai	2026-10-10	
+0432175b5afdab84	genjo	6	table	利用区分別面積の推移	森林/R元	6107		shiryo p.3	✓	auto:ai	2026-10-10	
+74ca6c5993366196	genjo	6	table	利用区分別面積の推移	森林/R2	6106		shiryo p.3	✓	auto:ai	2026-10-10	
+e765046d0e76bae1	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H23	485		shiryo p.3	✓	auto:ai	2026-10-10	
+810df92058dbbf4d	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H24	485		shiryo p.3	✓	auto:ai	2026-10-10	
+5e5c4fd0b322861c	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H25	485		shiryo p.3	✓	auto:ai	2026-10-10	
+733e6a64859b1f0c	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H26	485		shiryo p.3	✓	auto:ai	2026-10-10	
+03aebe5b21ada2e9	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H27	485		shiryo p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+a84aedea773e58a2	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H28	485		shiryo p.3	✓	auto:ai	2026-10-10	
+38d4215c777e1cbf	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H29	485		shiryo p.3	✓	auto:ai	2026-10-10	
+97e47930bb98e525	genjo	6	table	利用区分別面積の推移	水面・河川・水路/H30	484		shiryo p.3	✓	auto:ai	2026-10-10	
+37233cb0855e3551	genjo	6	table	利用区分別面積の推移	水面・河川・水路/R元	484		shiryo p.3	✓	auto:ai	2026-10-10	
+07c2a183409cb1f5	genjo	6	table	利用区分別面積の推移	水面・河川・水路/R2	484		shiryo p.3	✓	auto:ai	2026-10-10	
+29bc47f6408d3215	genjo	6	table	利用区分別面積の推移	水面/H23	150		shiryo p.3	✓	auto:ai	2026-10-10	
+8ed6527958801ee5	genjo	6	table	利用区分別面積の推移	水面/H24	150		shiryo p.3	✓	auto:ai	2026-10-10	
+9c0e1440afae8355	genjo	6	table	利用区分別面積の推移	水面/H25	150		shiryo p.3	✓	auto:ai	2026-10-10	
+edde22eccc9a8ca5	genjo	6	table	利用区分別面積の推移	水面/H26	150		shiryo p.3	✓	auto:ai	2026-10-10	
+bcb6e2ae56f97db0	genjo	6	table	利用区分別面積の推移	水面/H27	150		shiryo p.3	✓	auto:ai	2026-10-10	
+1d6c50270afb9f46	genjo	6	table	利用区分別面積の推移	水面/H28	150		shiryo p.3	✓	auto:ai	2026-10-10	
+4500427205d9cec0	genjo	6	table	利用区分別面積の推移	水面/H29	150		shiryo p.3	✓	auto:ai	2026-10-10	
+ebaab3e894ae340a	genjo	6	table	利用区分別面積の推移	水面/H30	150		shiryo p.3	✓	auto:ai	2026-10-10	
+f7a60038396a9b3a	genjo	6	table	利用区分別面積の推移	水面/R元	150		shiryo p.3	✓	auto:ai	2026-10-10	
+3e49c85978bdfdbb	genjo	6	table	利用区分別面積の推移	水面/R2	150		shiryo p.3	✓	auto:ai	2026-10-10	
+ecdc3f9beed45d98	genjo	6	table	利用区分別面積の推移	河川/H23	221		shiryo p.3	✓	auto:ai	2026-10-10	
+addac8a8fc131a80	genjo	6	table	利用区分別面積の推移	河川/H24	221		shiryo p.3	✓	auto:ai	2026-10-10	
+b030690c959344d8	genjo	6	table	利用区分別面積の推移	河川/H25	221		shiryo p.3	✓	auto:ai	2026-10-10	
+5008e88a19537050	genjo	6	table	利用区分別面積の推移	河川/H26	221		shiryo p.3	✓	auto:ai	2026-10-10	
+4299ab8c7f2e853f	genjo	6	table	利用区分別面積の推移	河川/H27	221		shiryo p.3	✓	auto:ai	2026-10-10	
+539f14165deff2bf	genjo	6	table	利用区分別面積の推移	河川/H28	221		shiryo p.3	✓	auto:ai	2026-10-10	
+b2dfe2274eb98df9	genjo	6	table	利用区分別面積の推移	河川/H29	221		shiryo p.3	✓	auto:ai	2026-10-10	
+b16c756158ee74c8	genjo	6	table	利用区分別面積の推移	河川/H30	221		shiryo p.3	✓	auto:ai	2026-10-10	
+8cd2992b0912a1d0	genjo	6	table	利用区分別面積の推移	河川/R元	221		shiryo p.3	✓	auto:ai	2026-10-10	
+6aa963211cbe8d35	genjo	6	table	利用区分別面積の推移	河川/R2	221		shiryo p.3	✓	auto:ai	2026-10-10	
+81ac15c396732332	genjo	6	table	利用区分別面積の推移	水路/H23	114		shiryo p.3	✓	auto:ai	2026-10-10	
+8aeae5f9d8ee9421	genjo	6	table	利用区分別面積の推移	水路/H24	114		shiryo p.3	✓	auto:ai	2026-10-10	
+ca7b00a532aa40e7	genjo	6	table	利用区分別面積の推移	水路/H25	114		shiryo p.3	✓	auto:ai	2026-10-10	
+567864a4cce0bde9	genjo	6	table	利用区分別面積の推移	水路/H26	114		shiryo p.3	✓	auto:ai	2026-10-10	
+4349cb6317e58e6c	genjo	6	table	利用区分別面積の推移	水路/H27	114		shiryo p.3	✓	auto:ai	2026-10-10	
+fcb04ca44b3d95c0	genjo	6	table	利用区分別面積の推移	水路/H28	114		shiryo p.3	✓	auto:ai	2026-10-10	
+bca5ac0091df8694	genjo	6	table	利用区分別面積の推移	水路/H29	114		shiryo p.3	✓	auto:ai	2026-10-10	
+7d5cf701a85e3891	genjo	6	table	利用区分別面積の推移	水路/H30	113		shiryo p.3	✓	auto:ai	2026-10-10	
+85f9caf1937dde30	genjo	6	table	利用区分別面積の推移	水路/R元	113		shiryo p.3	✓	auto:ai	2026-10-10	
+265f539766587073	genjo	6	table	利用区分別面積の推移	水路/R2	113		shiryo p.3	✓	auto:ai	2026-10-10	
+b4b50c8395638301	genjo	6	table	利用区分別面積の推移	道路/H23	441		shiryo p.3	✓	auto:ai	2026-10-10	
+82e067f05eef9405	genjo	6	table	利用区分別面積の推移	道路/H24	441		shiryo p.3	✓	auto:ai	2026-10-10	
+eb16eef4bed21d9e	genjo	6	table	利用区分別面積の推移	道路/H25	441		shiryo p.3	✓	auto:ai	2026-10-10	
+2b0503f44df93944	genjo	6	table	利用区分別面積の推移	道路/H26	445		shiryo p.3	✓	auto:ai	2026-10-10	
+80a97755888e2db0	genjo	6	table	利用区分別面積の推移	道路/H27	448		shiryo p.3	✓	auto:ai	2026-10-10	
+4f6c1e60ffb6a608	genjo	6	table	利用区分別面積の推移	道路/H28	454		shiryo p.3	✓	auto:ai	2026-10-10	
+815d166bb4404fee	genjo	6	table	利用区分別面積の推移	道路/H29	472		shiryo p.3	✓	auto:ai	2026-10-10	
+dc4d94aee476fc95	genjo	6	table	利用区分別面積の推移	道路/H30	472		shiryo p.3	✓	auto:ai	2026-10-10	
+e86ac310fec67b33	genjo	6	table	利用区分別面積の推移	道路/R元	462		shiryo p.3	✓	auto:ai	2026-10-10	
+8354246856466359	genjo	6	table	利用区分別面積の推移	道路/R2	462		shiryo p.3	✓	auto:ai	2026-10-10	
+ae4db3da449b725f	genjo	6	table	利用区分別面積の推移	一般道路/H23	289		shiryo p.3	✓	auto:ai	2026-10-10	
+a75c18895e0d723d	genjo	6	table	利用区分別面積の推移	一般道路/H24	289		shiryo p.3	✓	auto:ai	2026-10-10	
+aca981c18b473102	genjo	6	table	利用区分別面積の推移	一般道路/H25	289		shiryo p.3	✓	auto:ai	2026-10-10	
+556e47f5ccb4e0ea	genjo	6	table	利用区分別面積の推移	一般道路/H26	293		shiryo p.3	✓	auto:ai	2026-10-10	
+895fe81a80044c9b	genjo	6	table	利用区分別面積の推移	一般道路/H27	296		shiryo p.3	✓	auto:ai	2026-10-10	
+59f6ab66b23ec249	genjo	6	table	利用区分別面積の推移	一般道路/H28	302		shiryo p.3	✓	auto:ai	2026-10-10	
+ba8c9512a7a51100	genjo	6	table	利用区分別面積の推移	一般道路/H29	320		shiryo p.3	✓	auto:ai	2026-10-10	
+3d4311b43fffafa2	genjo	6	table	利用区分別面積の推移	一般道路/H30	320		shiryo p.3	✓	auto:ai	2026-10-10	
+6b5549ba29e7f4bc	genjo	6	table	利用区分別面積の推移	一般道路/R元	311		shiryo p.3	✓	auto:ai	2026-10-10	
+c2acb98ed3999532	genjo	6	table	利用区分別面積の推移	一般道路/R2	311		shiryo p.3	✓	auto:ai	2026-10-10	
+840b13f3cbb69994	genjo	6	table	利用区分別面積の推移	農道/H23	123		shiryo p.3	✓	auto:ai	2026-10-10	
+188cce9caabc0b4b	genjo	6	table	利用区分別面積の推移	農道/H24	123		shiryo p.3	✓	auto:ai	2026-10-10	
+5a555f5579084f6d	genjo	6	table	利用区分別面積の推移	農道/H25	123		shiryo p.3	✓	auto:ai	2026-10-10	
+b9d635e761945e23	genjo	6	table	利用区分別面積の推移	農道/H26	123		shiryo p.3	✓	auto:ai	2026-10-10	
+8df5a3985c78d566	genjo	6	table	利用区分別面積の推移	農道/H27	123		shiryo p.3	✓	auto:ai	2026-10-10	
+168a3116503b3c0b	genjo	6	table	利用区分別面積の推移	農道/H28	123		shiryo p.3	✓	auto:ai	2026-10-10	
+c51efa0b15315ccf	genjo	6	table	利用区分別面積の推移	農道/H29	123		shiryo p.3	✓	auto:ai	2026-10-10	
+a6616f03b3b00462	genjo	6	table	利用区分別面積の推移	農道/H30	123		shiryo p.3	✓	auto:ai	2026-10-10	
+619d98e76d9ac664	genjo	6	table	利用区分別面積の推移	農道/R元	122		shiryo p.3	✓	auto:ai	2026-10-10	
+596ffe49f8d55442	genjo	6	table	利用区分別面積の推移	農道/R2	122		shiryo p.3	✓	auto:ai	2026-10-10	
+ffa08a1d1587fffd	genjo	6	table	利用区分別面積の推移	林道/H23	29		shiryo p.3	✓	auto:ai	2026-10-10	
+810ea3aa42c7f8e7	genjo	6	table	利用区分別面積の推移	林道/H24	29		shiryo p.3	✓	auto:ai	2026-10-10	
+17c65797c97b9390	genjo	6	table	利用区分別面積の推移	林道/H25	29		shiryo p.3	✓	auto:ai	2026-10-10	
+86cad8df0702332f	genjo	6	table	利用区分別面積の推移	林道/H26	29		shiryo p.3	✓	auto:ai	2026-10-10	
+beb3e57cd99f3fe0	genjo	6	table	利用区分別面積の推移	林道/H27	29		shiryo p.3	✓	auto:ai	2026-10-10	
+c7f492a90dc12d62	genjo	6	table	利用区分別面積の推移	林道/H28	29		shiryo p.3	✓	auto:ai	2026-10-10	
+09f8f79e8e3f019b	genjo	6	table	利用区分別面積の推移	林道/H29	29		shiryo p.3	✓	auto:ai	2026-10-10	
+252e480d1c3fd600	genjo	6	table	利用区分別面積の推移	林道/H30	29		shiryo p.3	✓	auto:ai	2026-10-10	
+40baae3a58ece094	genjo	6	table	利用区分別面積の推移	林道/R元	29		shiryo p.3	✓	auto:ai	2026-10-10	
+f466346158a30e57	genjo	6	table	利用区分別面積の推移	林道/R2	29		shiryo p.3	✓	auto:ai	2026-10-10	
+844f61b81fad6f70	genjo	6	table	利用区分別面積の推移	宅地/H23	703		shiryo p.3	✓	auto:ai	2026-10-10	
+486a382500577e4d	genjo	6	table	利用区分別面積の推移	宅地/H24	705		shiryo p.3	✓	auto:ai	2026-10-10	
+a31aa48031856948	genjo	6	table	利用区分別面積の推移	宅地/H25	709		shiryo p.3	✓	auto:ai	2026-10-10	
+f850e2fd7d952160	genjo	6	table	利用区分別面積の推移	宅地/H26	710		shiryo p.3	✓	auto:ai	2026-10-10	
+abeb02c5e0db09a0	genjo	6	table	利用区分別面積の推移	宅地/H27	718		shiryo p.3	✓	auto:ai	2026-10-10	
+074fb9a1a16aeb4e	genjo	6	table	利用区分別面積の推移	宅地/H28	719		shiryo p.3	✓	auto:ai	2026-10-10	
+02fabbcf2df4c63b	genjo	6	table	利用区分別面積の推移	宅地/H29	722		shiryo p.3	✓	auto:ai	2026-10-10	
+c663748fa5c19f29	genjo	6	table	利用区分別面積の推移	宅地/H30	723		shiryo p.3	✓	auto:ai	2026-10-10	
+d3c356a14ea0d77b	genjo	6	table	利用区分別面積の推移	宅地/R元	728		shiryo p.3	✓	auto:ai	2026-10-10	
+1885792c1456b7b9	genjo	6	table	利用区分別面積の推移	宅地/R2	731		shiryo p.3	✓	auto:ai	2026-10-10	
+2240a4029f44ab3d	genjo	6	table	利用区分別面積の推移	住宅地/H23	345		shiryo p.3	✓	auto:ai	2026-10-10	
+03fe37feaf4adfe8	genjo	6	table	利用区分別面積の推移	住宅地/H24	347		shiryo p.3	✓	auto:ai	2026-10-10	
+40750bd63309b621	genjo	6	table	利用区分別面積の推移	住宅地/H25	348		shiryo p.3	✓	auto:ai	2026-10-10	
+08fa1fdbb425a581	genjo	6	table	利用区分別面積の推移	住宅地/H26	348		shiryo p.3	✓	auto:ai	2026-10-10	
+3da61c929b4bffb7	genjo	6	table	利用区分別面積の推移	住宅地/H27	349		shiryo p.3	✓	auto:ai	2026-10-10	
+6bfd4e4ca77012b9	genjo	6	table	利用区分別面積の推移	住宅地/H28	351		shiryo p.3	✓	auto:ai	2026-10-10	
+c20e024a86d643df	genjo	6	table	利用区分別面積の推移	住宅地/H29	352		shiryo p.3	✓	auto:ai	2026-10-10	
+f4b48fb5294011ba	genjo	6	table	利用区分別面積の推移	住宅地/H30	353		shiryo p.3	✓	auto:ai	2026-10-10	
+0863b776a8943da1	genjo	6	table	利用区分別面積の推移	住宅地/R元	354		shiryo p.3	✓	auto:ai	2026-10-10	
+e78eca1c32c63708	genjo	6	table	利用区分別面積の推移	住宅地/R2	355		shiryo p.3	✓	auto:ai	2026-10-10	
+ba27e4f296e5c8dc	genjo	6	table	利用区分別面積の推移	工業用地/H23	236		shiryo p.3	✓	auto:ai	2026-10-10	
+55b809760d914655	genjo	6	table	利用区分別面積の推移	工業用地/H24	240		shiryo p.3	✓	auto:ai	2026-10-10	
+8abdc45cb998591b	genjo	6	table	利用区分別面積の推移	工業用地/H25	230		shiryo p.3	✓	auto:ai	2026-10-10	
+708ea7ff10584784	genjo	6	table	利用区分別面積の推移	工業用地/H26	239		shiryo p.3	✓	auto:ai	2026-10-10	
+d3f8de2154cf0ccc	genjo	6	table	利用区分別面積の推移	工業用地/H27	242		shiryo p.3	✓	auto:ai	2026-10-10	
+320a58001fcec1d4	genjo	6	table	利用区分別面積の推移	工業用地/H28	242		shiryo p.3	✓	auto:ai	2026-10-10	
+c5229a6c770663bc	genjo	6	table	利用区分別面積の推移	工業用地/H29	254		shiryo p.3	✓	auto:ai	2026-10-10	
+cc85529b96b48074	genjo	6	table	利用区分別面積の推移	工業用地/H30	238		shiryo p.3	✓	auto:ai	2026-10-10	
+4e0debb925585636	genjo	6	table	利用区分別面積の推移	工業用地/R元	238		shiryo p.3	✓	auto:ai	2026-10-10	
+e0568b1771ba0dca	genjo	6	table	利用区分別面積の推移	工業用地/R2	240		shiryo p.3	✓	auto:ai	2026-10-10	
+2b17477f3d11faf1	genjo	6	table	利用区分別面積の推移	その他の宅地/H23	122		shiryo p.3	✓	auto:ai	2026-10-10	
+0d9e618ddc21c815	genjo	6	table	利用区分別面積の推移	その他の宅地/H24	118		shiryo p.3	✓	auto:ai	2026-10-10	
+87edcbfd60dca1a2	genjo	6	table	利用区分別面積の推移	その他の宅地/H25	131		shiryo p.3	✓	auto:ai	2026-10-10	
+935a1e0f89b3f783	genjo	6	table	利用区分別面積の推移	その他の宅地/H26	123		shiryo p.3	✓	auto:ai	2026-10-10	
+a5bd20990edb0b0b	genjo	6	table	利用区分別面積の推移	その他の宅地/H27	127		shiryo p.3	✓	auto:ai	2026-10-10	
+c23ce0de7d905a33	genjo	6	table	利用区分別面積の推移	その他の宅地/H28	126		shiryo p.3	✓	auto:ai	2026-10-10	
+d7644607ea522868	genjo	6	table	利用区分別面積の推移	その他の宅地/H29	116		shiryo p.3	✓	auto:ai	2026-10-10	
+30d507021fe90e51	genjo	6	table	利用区分別面積の推移	その他の宅地/H30	132		shiryo p.3	✓	auto:ai	2026-10-10	
+110263a37267c3a9	genjo	6	table	利用区分別面積の推移	その他の宅地/R元	136		shiryo p.3	✓	auto:ai	2026-10-10	
+36c8f62cb5b100ab	genjo	6	table	利用区分別面積の推移	その他の宅地/R2	136		shiryo p.3	✓	auto:ai	2026-10-10	
+915e2a43ac988796	genjo	6	table	利用区分別面積の推移	その他/H23	1978		shiryo p.3	✓	auto:ai	2026-10-10	
+e1d6b3b4a0dfef32	genjo	6	table	利用区分別面積の推移	その他/H24	1986		shiryo p.3	✓	auto:ai	2026-10-10	
+e43e32cb32baf077	genjo	6	table	利用区分別面積の推移	その他/H25	1982		shiryo p.3	✓	auto:ai	2026-10-10	
+ae9a9475af3bb5e1	genjo	6	table	利用区分別面積の推移	その他/H26	1979		shiryo p.3	✓	auto:ai	2026-10-10	
+471f49b833c07a6d	genjo	6	table	利用区分別面積の推移	その他/H27	1984		shiryo p.3	✓	auto:ai	2026-10-10	
+d90176ace02aaa63	genjo	6	table	利用区分別面積の推移	その他/H28	1977		shiryo p.3	✓	auto:ai	2026-10-10	
+8f2ecb24828835b0	genjo	6	table	利用区分別面積の推移	その他/H29	1956		shiryo p.3	✓	auto:ai	2026-10-10	
+d15759554ad7b5f6	genjo	6	table	利用区分別面積の推移	その他/H30	1975		shiryo p.3	✓	auto:ai	2026-10-10	
+38d727b0f3d22d6f	genjo	6	table	利用区分別面積の推移	その他/R元	1990		shiryo p.3	✓	auto:ai	2026-10-10	
+e48d6a1f89cec8ae	genjo	6	table	利用区分別面積の推移	その他/R2	1997		shiryo p.3	✓	auto:ai	2026-10-10	
+fc8b5f18883edf56	genjo	6	table	利用区分別面積の推移	合計/H23	11763		shiryo p.3	✓	auto:ai	2026-10-10	
+0600d2ec6f8596b2	genjo	6	table	利用区分別面積の推移	合計/H24	11763		shiryo p.3	✓	auto:ai	2026-10-10	
+0bb752c51dc41ad1	genjo	6	table	利用区分別面積の推移	合計/H25	11763		shiryo p.3	✓	auto:ai	2026-10-10	
+db65eeb78ca7a7f5	genjo	6	table	利用区分別面積の推移	合計/H26	11763		shiryo p.3	✓	auto:ai	2026-10-10	
+a08942bc9e15faa3	genjo	6	table	利用区分別面積の推移	合計/H27	11760		shiryo p.3	✓	auto:ai	2026-10-10	
+4b0db9785961217c	genjo	6	table	利用区分別面積の推移	合計/H28	11760		shiryo p.3	✓	auto:ai	2026-10-10	
+21cdd787d8000407	genjo	6	table	利用区分別面積の推移	合計/H29	11760		shiryo p.3	✓	auto:ai	2026-10-10	
+70b78bddb80ce01d	genjo	6	table	利用区分別面積の推移	合計/H30	11760		shiryo p.3	✓	auto:ai	2026-10-10	
+aa84f63888f8dad5	genjo	6	table	利用区分別面積の推移	合計/R元	11760		shiryo p.3	✓	auto:ai	2026-10-10	
+725fc2f743c02fff	genjo	6	table	利用区分別面積の推移	合計/R2	11760		shiryo p.3	✓	auto:ai	2026-10-10	
+37a7a57b8965c044	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H26	1.3	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+457d43bc23995942	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H27	1.7	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+c4253175afacbfc9	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H28	3.1	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+6d191bfeb419b125	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H29	3.7	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+5381c3bea63908a8	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/H30	3.3	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+b73e1787f4a07a8f	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/R元	5.4	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+dde0d52423522292	genjo	9	chart.line	農地転用面積の推移	農地転用（申請案件）/R2	3.3	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+cc518d57cd9583ba	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H26	0.5	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+81ab5b070a83566b	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H27	0.4	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+7f072f796c59b2a1	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H28	1.1	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+7b687b4b1006a2b4	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H29	0.6	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+7a0efe8419a1b1db	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/H30	0.0	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+502ce8d417027f7f	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/R元	0.9	ha	shiryo p.5	✓	auto:ai	2026-10-10	
+46b7b673b1e4a1a4	genjo	9	chart.line	農地転用面積の推移	農地転用（町事業）/R2	0.0	ha	shiryo p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+1ba976a7472aac59	genjo	12	table	自然条件	綿向山/標高（m）	1110		shiryo p.6	✓	auto:ai	2026-10-10	
+54d3d38de1ba5a19	genjo	12	table	自然条件	竜王山/標高（m）	826		shiryo p.6	✓	auto:ai	2026-10-10	
+75d28a343102fd29	genjo	12	table	自然条件	宝殿ヶ岳/標高（m）	508		shiryo p.6	✓	auto:ai	2026-10-10	
+be51dac428616b53	genjo	12	table	自然条件	正法寺山/標高（m）	361		shiryo p.6	✓	auto:ai	2026-10-10	
+813be79bee8ba618	genjo	12	table	自然条件	石子山/標高（m）	342		shiryo p.6	✓	auto:ai	2026-10-10	
+a6b2eaf1d68e7847	genjo	12	table	自然条件	小嶽/標高（m）	308		shiryo p.6	✓	auto:ai	2026-10-10	
+03689b8862a366d8	genjo	12	table	自然条件	丸山/標高（m）	270		shiryo p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d219f1e92db8cbd8	genjo	14	table	自然条件	日野川/延長（m）	14859		shiryo p.7	✓	auto:ai	2026-10-10	
+3a1c4e63112be7d5	genjo	14	table	自然条件	佐久良川/延長（m）	10569		shiryo p.7	✓	auto:ai	2026-10-10	
+c5b1ffcf42b7511c	genjo	14	table	自然条件	出雲川/延長（m）	9350		shiryo p.7	✓	auto:ai	2026-10-10	
+1fcca99dc5868436	genjo	14	table	自然条件	内池川/延長（m）	700		shiryo p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+e75e85bebbdd3154	genjo	14	table	自然条件	黒道川/延長（m）	990		shiryo p.7	✓	auto:ai	2026-10-10	
+fd8b83da71717ff9	genjo	14	table	自然条件	上人谷川/延長（m）	490		shiryo p.7	✓	auto:ai	2026-10-10	
+b180deaab0c0afa0	genjo	20	table	土地利用の規制	第一種低層住居専用地域/面積（ha）	16.2		shiryo p.8	✓	auto:ai	2026-10-10	
+daf8e36134aa0484	genjo	20	table	土地利用の規制	第一種低層住居専用地域/町全域構成比（%）	0.1		shiryo p.8	✓	auto:ai	2026-10-10	
 204bdac75fdb91aa	genjo	20	table	土地利用の規制	第一種低層住居専用地域/用途地域構成比（%）	2.3		shiryo p.8	✓	auto:pdftext	2026-10-10	
-31b2058b2601e30a	genjo	20	table	土地利用の規制	第二種低層住居専用地域/面積（ha）	0.0		shiryo p.8				
-52d544aa3dc02ec6	genjo	20	table	土地利用の規制	第二種低層住居専用地域/町全域構成比（%）	0.0		shiryo p.8				
+31b2058b2601e30a	genjo	20	table	土地利用の規制	第二種低層住居専用地域/面積（ha）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	
+52d544aa3dc02ec6	genjo	20	table	土地利用の規制	第二種低層住居専用地域/町全域構成比（%）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	
 90e66ba0c73f8b70	genjo	20	table	土地利用の規制	第二種低層住居専用地域/用途地域構成比（%）	0.0		shiryo p.8	✓	auto:pdftext	2026-10-10	
-c3590cc107297c28	genjo	20	table	土地利用の規制	第一種中高層住居専用地域/面積（ha）	82.7		shiryo p.8				
-723957d1baad480f	genjo	20	table	土地利用の規制	第一種中高層住居専用地域/町全域構成比（%）	0.7		shiryo p.8				
+c3590cc107297c28	genjo	20	table	土地利用の規制	第一種中高層住居専用地域/面積（ha）	82.7		shiryo p.8	✓	auto:ai	2026-10-10	
+723957d1baad480f	genjo	20	table	土地利用の規制	第一種中高層住居専用地域/町全域構成比（%）	0.7		shiryo p.8	✓	auto:ai	2026-10-10	
 6f1a2d7166415a34	genjo	20	table	土地利用の規制	第一種中高層住居専用地域/用途地域構成比（%）	11.9		shiryo p.8	✓	auto:pdftext	2026-10-10	
-4e2306ca2a3080f1	genjo	20	table	土地利用の規制	第二種中高層住居専用地域/面積（ha）	28.2		shiryo p.8				
-4834d24ab5680571	genjo	20	table	土地利用の規制	第二種中高層住居専用地域/町全域構成比（%）	0.2		shiryo p.8				
+4e2306ca2a3080f1	genjo	20	table	土地利用の規制	第二種中高層住居専用地域/面積（ha）	28.2		shiryo p.8	✓	auto:ai	2026-10-10	
+4834d24ab5680571	genjo	20	table	土地利用の規制	第二種中高層住居専用地域/町全域構成比（%）	0.2		shiryo p.8	✓	auto:ai	2026-10-10	
 3c36f61898cc7990	genjo	20	table	土地利用の規制	第二種中高層住居専用地域/用途地域構成比（%）	4.1		shiryo p.8	✓	auto:pdftext	2026-10-10	
-21f7de96fe2175b8	genjo	20	table	土地利用の規制	第一種住居地域/面積（ha）	120.7		shiryo p.8				
-05d4d47e9aff2194	genjo	20	table	土地利用の規制	第一種住居地域/町全域構成比（%）	1.0		shiryo p.8				
+21f7de96fe2175b8	genjo	20	table	土地利用の規制	第一種住居地域/面積（ha）	120.7		shiryo p.8	✓	auto:ai	2026-10-10	
+05d4d47e9aff2194	genjo	20	table	土地利用の規制	第一種住居地域/町全域構成比（%）	1.0		shiryo p.8	✓	auto:ai	2026-10-10	
 9d0a7cd8d0f9eac2	genjo	20	table	土地利用の規制	第一種住居地域/用途地域構成比（%）	17.4		shiryo p.8	✓	auto:pdftext	2026-10-10	
-abe2af1a41f2e455	genjo	20	table	土地利用の規制	第二種住居地域/面積（ha）	5.7		shiryo p.8				
-e8c52da1dcaca149	genjo	20	table	土地利用の規制	第二種住居地域/町全域構成比（%）	0.0		shiryo p.8				
+abe2af1a41f2e455	genjo	20	table	土地利用の規制	第二種住居地域/面積（ha）	5.7		shiryo p.8	✓	auto:ai	2026-10-10	
+e8c52da1dcaca149	genjo	20	table	土地利用の規制	第二種住居地域/町全域構成比（%）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	
 f3c7933587a63f05	genjo	20	table	土地利用の規制	第二種住居地域/用途地域構成比（%）	0.8		shiryo p.8	✓	auto:pdftext	2026-10-10	
-57056da403745f28	genjo	20	table	土地利用の規制	準住居地域/面積（ha）	0.0		shiryo p.8				
-2cf07005e6526c78	genjo	20	table	土地利用の規制	準住居地域/町全域構成比（%）	0.0		shiryo p.8				
+57056da403745f28	genjo	20	table	土地利用の規制	準住居地域/面積（ha）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	
+2cf07005e6526c78	genjo	20	table	土地利用の規制	準住居地域/町全域構成比（%）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 ca5421aa5db2661d	genjo	20	table	土地利用の規制	準住居地域/用途地域構成比（%）	0.0		shiryo p.8	✓	auto:pdftext	2026-10-10	
-faf987287ef1ef9e	genjo	20	table	土地利用の規制	田園住居地域/面積（ha）	0.0		shiryo p.8				
-e41bca42e471a618	genjo	20	table	土地利用の規制	田園住居地域/町全域構成比（%）	0.0		shiryo p.8				
+faf987287ef1ef9e	genjo	20	table	土地利用の規制	田園住居地域/面積（ha）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	
+e41bca42e471a618	genjo	20	table	土地利用の規制	田園住居地域/町全域構成比（%）	0.0		shiryo p.8	✓	auto:ai	2026-10-10	
 559a59ee96c3a5d2	genjo	20	table	土地利用の規制	田園住居地域/用途地域構成比（%）	0.0		shiryo p.8	✓	auto:pdftext	2026-10-10	
-ab6b5d7e76bed681	genjo	20	table	土地利用の規制	近隣商業地域/面積（ha）	41.2		shiryo p.8				
-2f64caa2d2b67347	genjo	20	table	土地利用の規制	近隣商業地域/町全域構成比（%）	0.4		shiryo p.8				
-af78eda9f2914e9f	genjo	20	table	土地利用の規制	近隣商業地域/用途地域構成比（%）	5.9		shiryo p.8				
-48bb294dd6cce868	genjo	20	table	土地利用の規制	商業地域/面積（ha）	6.4		shiryo p.8				
-fdd038a38ff6508b	genjo	20	table	土地利用の規制	商業地域/町全域構成比（%）	0.1		shiryo p.8				
-166603d0ca68292f	genjo	20	table	土地利用の規制	商業地域/用途地域構成比（%）	0.9		shiryo p.8				
-714c16850e0e813c	genjo	20	table	土地利用の規制	準工業地域/面積（ha）	6.6		shiryo p.8				
-5b2d8df0b1122fcc	genjo	20	table	土地利用の規制	準工業地域/町全域構成比（%）	0.1		shiryo p.8				
-ba3f2073470d0562	genjo	20	table	土地利用の規制	準工業地域/用途地域構成比（%）	1.0		shiryo p.8				
-beb63d1a6dbbe635	genjo	20	table	土地利用の規制	工業地域/面積（ha）	48.0		shiryo p.8				
-c6cf540d27e8adc2	genjo	20	table	土地利用の規制	工業地域/町全域構成比（%）	0.4		shiryo p.8				
-18912bb20aa84d69	genjo	20	table	土地利用の規制	工業地域/用途地域構成比（%）	6.9		shiryo p.8				
-5e76755971246314	genjo	20	table	土地利用の規制	工業専用地域/面積（ha）	338.9		shiryo p.8				
-6fe4430dcc33d199	genjo	20	table	土地利用の規制	工業専用地域/町全域構成比（%）	2.9		shiryo p.8				
-1c221eadc88b36a3	genjo	20	table	土地利用の規制	工業専用地域/用途地域構成比（%）	48.8		shiryo p.8				
-be1b9b3779f7f97f	genjo	20	table	土地利用の規制	市街化区域 合計（A）/面積（ha）	694.6		shiryo p.8				
-5476983a8a851ab1	genjo	20	table	土地利用の規制	市街化区域 合計（A）/町全域構成比（%）	5.9		shiryo p.8				
-c98677c254a4f907	genjo	20	table	土地利用の規制	市街化区域 合計（A）/用途地域構成比（%）	100.0		shiryo p.8				
-84deaa0f95887ae1	genjo	20	table	土地利用の規制	市街化調整区域（B）/面積（ha）	11065.4		shiryo p.8				
-20d3cc9d9935c22f	genjo	20	table	土地利用の規制	市街化調整区域（B）/町全域構成比（%）	94.1		shiryo p.8				
-c989aade03e2b90b	genjo	20	table	土地利用の規制	町全域（A+B）/面積（ha）	11760.0		shiryo p.8				
-c64b2abfa5791fce	genjo	20	table	土地利用の規制	町全域（A+B）/町全域構成比（%）	100.0		shiryo p.8				
+ab6b5d7e76bed681	genjo	20	table	土地利用の規制	近隣商業地域/面積（ha）	41.2		shiryo p.8	✓	auto:ai	2026-10-10	
+2f64caa2d2b67347	genjo	20	table	土地利用の規制	近隣商業地域/町全域構成比（%）	0.4		shiryo p.8	✓	auto:ai	2026-10-10	
+af78eda9f2914e9f	genjo	20	table	土地利用の規制	近隣商業地域/用途地域構成比（%）	5.9		shiryo p.8	✓	auto:ai	2026-10-10	
+48bb294dd6cce868	genjo	20	table	土地利用の規制	商業地域/面積（ha）	6.4		shiryo p.8	✓	auto:ai	2026-10-10	
+fdd038a38ff6508b	genjo	20	table	土地利用の規制	商業地域/町全域構成比（%）	0.1		shiryo p.8	✓	auto:ai	2026-10-10	
+166603d0ca68292f	genjo	20	table	土地利用の規制	商業地域/用途地域構成比（%）	0.9		shiryo p.8	✓	auto:ai	2026-10-10	
+714c16850e0e813c	genjo	20	table	土地利用の規制	準工業地域/面積（ha）	6.6		shiryo p.8	✓	auto:ai	2026-10-10	
+5b2d8df0b1122fcc	genjo	20	table	土地利用の規制	準工業地域/町全域構成比（%）	0.1		shiryo p.8	✓	auto:ai	2026-10-10	
+ba3f2073470d0562	genjo	20	table	土地利用の規制	準工業地域/用途地域構成比（%）	1.0		shiryo p.8	✓	auto:ai	2026-10-10	
+beb63d1a6dbbe635	genjo	20	table	土地利用の規制	工業地域/面積（ha）	48.0		shiryo p.8	✓	auto:ai	2026-10-10	
+c6cf540d27e8adc2	genjo	20	table	土地利用の規制	工業地域/町全域構成比（%）	0.4		shiryo p.8	✓	auto:ai	2026-10-10	
+18912bb20aa84d69	genjo	20	table	土地利用の規制	工業地域/用途地域構成比（%）	6.9		shiryo p.8	✓	auto:ai	2026-10-10	
+5e76755971246314	genjo	20	table	土地利用の規制	工業専用地域/面積（ha）	338.9		shiryo p.8	✓	auto:ai	2026-10-10	
+6fe4430dcc33d199	genjo	20	table	土地利用の規制	工業専用地域/町全域構成比（%）	2.9		shiryo p.8	✓	auto:ai	2026-10-10	
+1c221eadc88b36a3	genjo	20	table	土地利用の規制	工業専用地域/用途地域構成比（%）	48.8		shiryo p.8	✓	auto:ai	2026-10-10	
+be1b9b3779f7f97f	genjo	20	table	土地利用の規制	市街化区域 合計（A）/面積（ha）	694.6		shiryo p.8	✓	auto:ai	2026-10-10	
+5476983a8a851ab1	genjo	20	table	土地利用の規制	市街化区域 合計（A）/町全域構成比（%）	5.9		shiryo p.8	✓	auto:ai	2026-10-10	
+c98677c254a4f907	genjo	20	table	土地利用の規制	市街化区域 合計（A）/用途地域構成比（%）	100.0		shiryo p.8	✓	auto:ai	2026-10-10	
+84deaa0f95887ae1	genjo	20	table	土地利用の規制	市街化調整区域（B）/面積（ha）	11065.4		shiryo p.8	✓	auto:ai	2026-10-10	
+20d3cc9d9935c22f	genjo	20	table	土地利用の規制	市街化調整区域（B）/町全域構成比（%）	94.1		shiryo p.8	✓	auto:ai	2026-10-10	
+c989aade03e2b90b	genjo	20	table	土地利用の規制	町全域（A+B）/面積（ha）	11760.0		shiryo p.8	✓	auto:ai	2026-10-10	
+c64b2abfa5791fce	genjo	20	table	土地利用の規制	町全域（A+B）/町全域構成比（%）	100.0		shiryo p.8	✓	auto:ai	2026-10-10	
 65f01b95d6e68da4	genjo	22	table	土地利用の規制	いせの地区地区計画/地区計画面積（ha）	6.4		shiryo p.10	✓	auto:pdftext	2026-10-10	
-8a43ff684de1429b	genjo	22	table	土地利用の規制	いせの地区地区計画/地区整備計画面積（ha）	6.4		shiryo p.10				
+8a43ff684de1429b	genjo	22	table	土地利用の規制	いせの地区地区計画/地区整備計画面積（ha）	6.4		shiryo p.10	✓	auto:ai	2026-10-10	
 88b2e881632d5fcd	genjo	22	table	土地利用の規制	松尾西地区地区計画/地区計画面積（ha）	4.6		shiryo p.10	✓	auto:pdftext	2026-10-10	
-cc27c29e1b2937ff	genjo	22	table	土地利用の規制	松尾西地区地区計画/地区整備計画面積（ha）	4.6		shiryo p.10				
+cc27c29e1b2937ff	genjo	22	table	土地利用の規制	松尾西地区地区計画/地区整備計画面積（ha）	4.6		shiryo p.10	✓	auto:ai	2026-10-10	
 26bbd97ca206dc20	genjo	22	table	土地利用の規制	東部地区地区計画/地区計画面積（ha）	20.7		shiryo p.10	✓	auto:pdftext	2026-10-10	
-fc77d3392c35a325	genjo	22	table	土地利用の規制	東部地区地区計画/地区整備計画面積（ha）	6.5		shiryo p.10				
+fc77d3392c35a325	genjo	22	table	土地利用の規制	東部地区地区計画/地区整備計画面積（ha）	6.5		shiryo p.10	✓	auto:ai	2026-10-10	
 4db4b1a28351d88d	genjo	22	table	土地利用の規制	松尾北地区地区計画/地区計画面積（ha）	10.0		shiryo p.10	✓	auto:pdftext	2026-10-10	
-9dba85927ac66ceb	genjo	22	table	土地利用の規制	松尾北地区地区計画/地区整備計画面積（ha）	10.0		shiryo p.10				
+9dba85927ac66ceb	genjo	22	table	土地利用の規制	松尾北地区地区計画/地区整備計画面積（ha）	10.0		shiryo p.10	✓	auto:ai	2026-10-10	
 6eebdba84e1d69da	genjo	22	table	土地利用の規制	北脇地区地区計画/地区計画面積（ha）	5.9		shiryo p.10	✓	auto:pdftext	2026-10-10	
-d4ce302e9c0e5f5f	genjo	22	table	土地利用の規制	北脇地区地区計画/地区整備計画面積（ha）	5.9		shiryo p.10				
+d4ce302e9c0e5f5f	genjo	22	table	土地利用の規制	北脇地区地区計画/地区整備計画面積（ha）	5.9		shiryo p.10	✓	auto:ai	2026-10-10	
 ca7d341603f8cc1c	genjo	22	table	土地利用の規制	日田西地区地区計画/地区計画面積（ha）	0.5		shiryo p.10	✓	auto:pdftext	2026-10-10	
-60f605d3e9c096ed	genjo	22	table	土地利用の規制	日田西地区地区計画/地区整備計画面積（ha）	0.5		shiryo p.10				
+60f605d3e9c096ed	genjo	22	table	土地利用の規制	日田西地区地区計画/地区整備計画面積（ha）	0.5		shiryo p.10	✓	auto:ai	2026-10-10	
 99784705fc6ca716	genjo	22	table	土地利用の規制	西大路西地区地区計画/地区計画面積（ha）	0.8		shiryo p.10	✓	auto:pdftext	2026-10-10	
-24e067f76731fc62	genjo	22	table	土地利用の規制	西大路西地区地区計画/地区整備計画面積（ha）	0.8		shiryo p.10				
+24e067f76731fc62	genjo	22	table	土地利用の規制	西大路西地区地区計画/地区整備計画面積（ha）	0.8		shiryo p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
 7897285a5d61b774	genjo	22	table	土地利用の規制	内池地区地区計画/地区計画面積（ha）	1.0		shiryo p.10	✓	auto:pdftext	2026-10-10	
-d3b9c95152e94ba6	genjo	22	table	土地利用の規制	内池地区地区計画/地区整備計画面積（ha）	1.0		shiryo p.10				
-70f4465c238902b1	genjo	24	chart.bars	保安林種別面積	水源かん養	290.01	ha	shiryo p.11				
-b2485f3e2d3664e7	genjo	24	chart.bars	保安林種別面積	土砂流出防備	1734.25	ha	shiryo p.11				
-1ed045de0924289c	genjo	24	chart.bars	保安林種別面積	保健	66.47	ha	shiryo p.11				
-73ac7231681ee7f6	genjo	24	chart.bars	保安林種別面積	風致	7.58	ha	shiryo p.11				
-5dad1064923f2ff9	genjo	25	table	土地利用の規制	特別保護地区/面積（ha）	19		shiryo p.12				
-e550560b5c8bbd59	genjo	25	table	土地利用の規制	第1種特別地域/面積（ha）	78		shiryo p.12				
-1595c3cdda9c1f99	genjo	25	table	土地利用の規制	第2種特別地域/面積（ha）	50		shiryo p.12				
-22777e3c7283764c	genjo	25	table	土地利用の規制	第3種特別地域/面積（ha）	1072		shiryo p.12				
-65590c323cb22c65	genjo	28	table	地価の推移	日野（県）-1/地積（㎡）	375		shiryo p.12				
-1d6f70eafaea504f	genjo	28	table	地価の推移	日野（県）-1/H29	20500		shiryo p.12				
-a5e4110318914ad9	genjo	28	table	地価の推移	日野（県）-1/H30	20100		shiryo p.12				
-c725bfb0f567d107	genjo	28	table	地価の推移	日野（県）-1/R元	19600		shiryo p.12				
-de4cd743227e3719	genjo	28	table	地価の推移	日野（県）-1/R2	19000		shiryo p.12				
-fbe43b33d8c1a1cc	genjo	28	table	地価の推移	日野（県）-1/R3	18400		shiryo p.12				
-01377f455ae4dc11	genjo	28	table	地価の推移	日野（県）-2/地積（㎡）	350		shiryo p.12				
-3db494b984641c8d	genjo	28	table	地価の推移	日野（県）-2/H29	36400		shiryo p.12				
-7045f6b5196c7c17	genjo	28	table	地価の推移	日野（県）-2/H30	36300		shiryo p.12				
-6114cea67e3b624c	genjo	28	table	地価の推移	日野（県）-2/R元	36200		shiryo p.12				
-c8b4fd3f4e84ef1b	genjo	28	table	地価の推移	日野（県）-2/R2	36100		shiryo p.12				
-8327d070c3f2904a	genjo	28	table	地価の推移	日野（県）-2/R3	36100		shiryo p.12				
-8dc43004a5504375	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	357		shiryo p.12				
-13f7e866ca6e3b26	genjo	28	table	地価の推移	日野（県）-3/H29	16700		shiryo p.12				
-7c1cd677a5d7d778	genjo	28	table	地価の推移	日野（県）-3/H30	16200		shiryo p.12				
-1dfd866cc6beea6e	genjo	28	table	地価の推移	日野（県）-3/R元	16000		shiryo p.12				
-56172b232cce9a61	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	565		shiryo p.12				
-71f1bb51d24cacd1	genjo	28	table	地価の推移	日野（県）-3/R2	15700		shiryo p.12				
-5852eeb6559575fb	genjo	28	table	地価の推移	日野（県）-3/R3	15300		shiryo p.12				
-c663ad35e2903a2e	genjo	28	table	地価の推移	日野（県）-4/地積（㎡）	452		shiryo p.12				
-c7894f564a48fae7	genjo	28	table	地価の推移	日野（県）-4/H29	15700		shiryo p.12				
-6da7073a6f14798b	genjo	28	table	地価の推移	日野（県）-4/H30	15200		shiryo p.12				
-f6182513df296e01	genjo	28	table	地価の推移	日野（県）-4/R元	14800		shiryo p.12				
-3395cbc781b00562	genjo	28	table	地価の推移	日野（県）-4/R2	14400		shiryo p.12				
-cf4bfbb776ca2af3	genjo	28	table	地価の推移	日野（県）-4/R3	14000		shiryo p.12				
-4afb866f15736c5e	genjo	28	table	地価の推移	日野（県）-5/地積（㎡）	536		shiryo p.12				
-5995c7a0b46cf953	genjo	28	table	地価の推移	日野（県）-5/H29	10900		shiryo p.12				
-cdbfdeef65af6889	genjo	28	table	地価の推移	日野（県）-5/H30	10700		shiryo p.12				
-071ae6ba843ba811	genjo	28	table	地価の推移	日野（県）-5/R元	10300		shiryo p.12				
-8a003c74d40b325b	genjo	28	table	地価の推移	日野（県）-5/R2	9900		shiryo p.12				
-deb44de8e1d4edfc	genjo	28	table	地価の推移	日野（県）-5/R3	9500		shiryo p.12				
-3c0838167bb1f267	genjo	28	table	地価の推移	日野（県）-6/地積（㎡）	475		shiryo p.12				
-7f05360f22e0944e	genjo	28	table	地価の推移	日野（県）-6/H29	10200		shiryo p.12				
-f48d52e5ae181cfe	genjo	28	table	地価の推移	日野（県）-6/H30	10000		shiryo p.12				
-51c8894bc00b1506	genjo	28	table	地価の推移	日野（県）-6/R元	9800		shiryo p.12				
-a54cb74cdac3178e	genjo	28	table	地価の推移	日野（県）-6/R2	9500		shiryo p.12				
-856327cd6b706f2c	genjo	28	table	地価の推移	日野（県）-6/R3	9200		shiryo p.12				
-e59faedbe69da679	genjo	28	table	地価の推移	日野（県）5-1/地積（㎡）	1098		shiryo p.12				
-6626fef506498205	genjo	28	table	地価の推移	日野（県）5-1/H29	47100		shiryo p.12				
-26fcaac110a89e42	genjo	28	table	地価の推移	日野（県）5-1/H30	46500		shiryo p.12				
-e9ea9a1e5b8495f6	genjo	28	table	地価の推移	日野（県）5-1/R元	46500		shiryo p.12				
-64593fd3defd1a45	genjo	28	table	地価の推移	日野（県）5-1/R2	46400		shiryo p.12				
-957058c1cb138097	genjo	28	table	地価の推移	日野（県）5-1/R3	46300		shiryo p.12				
-a420d0a01233d803	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H2	22391	人	shiryo p.15				
-e3c1be787684582f	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H7	23132	人	shiryo p.15				
-752bf17c74fc5b49	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H12	23022	人	shiryo p.15				
-1ecaf3742c2339f0	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H17	22809	人	shiryo p.15				
-13cfcab794e1098a	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H22	22870	人	shiryo p.15				
-9d5b6545ba2b7180	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H27	21873	人	shiryo p.15				
-6abe5ebc718aa8e3	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R2	20964	人	shiryo p.15				
-2b09f6a63a189e75	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R7	19989	人	shiryo p.15				
-b0ea7320b96b1db8	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R12	19006	人	shiryo p.15				
-448bba626ccb6358	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R17	17973	人	shiryo p.15				
-b5bc9818d06ab6ac	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R22	16862	人	shiryo p.15				
-4593a8cfc2e515aa	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R27	15735	人	shiryo p.15				
-c1f266805f28747e	kurashi	4	table	人口	65歳以上/H2	3872		shiryo p.15				
-656d24cc459a1500	kurashi	4	table	人口	65歳以上/H7	4479		shiryo p.15				
-2fd6eff61919d85c	kurashi	4	table	人口	65歳以上/H12	5095		shiryo p.15				
-ac4083c545fb947a	kurashi	4	table	人口	65歳以上/H17	5332		shiryo p.15				
-f82da8590b3800ce	kurashi	4	table	人口	65歳以上/H22	5553		shiryo p.15				
-c2c6fb92291a80a5	kurashi	4	table	人口	65歳以上/H27	6088		shiryo p.15				
-f4d6c422cfb99538	kurashi	4	table	人口	65歳以上/R2	6424		shiryo p.15				
-8516e54fd319becd	kurashi	4	table	人口	65歳以上/R7	6406		shiryo p.15				
-5ff7a9d9cb0cdb85	kurashi	4	table	人口	65歳以上/R12	6387		shiryo p.15				
-0606d5efc22fbd2a	kurashi	4	table	人口	65歳以上/R17	6271		shiryo p.15				
-25e7b4a49b9bc748	kurashi	4	table	人口	65歳以上/R22	6263		shiryo p.15				
-7d402254809e28a8	kurashi	4	table	人口	65歳以上/R27	6163		shiryo p.15				
-07493cff13715bab	kurashi	4	table	人口	15〜64歳/H2	14036		shiryo p.15				
-8f64f8c58091cf57	kurashi	4	table	人口	15〜64歳/H7	14518		shiryo p.15				
-f7bd5d945477e10e	kurashi	4	table	人口	15〜64歳/H12	14311		shiryo p.15				
-0c2c2ca3de864e9a	kurashi	4	table	人口	15〜64歳/H17	14262		shiryo p.15				
-46e1476a9064a997	kurashi	4	table	人口	15〜64歳/H22	14217		shiryo p.15				
-646753ac9225fb4b	kurashi	4	table	人口	15〜64歳/H27	12840		shiryo p.15				
-8659a6610d9ae9b4	kurashi	4	table	人口	15〜64歳/R2	11656		shiryo p.15				
-18042886ee7fd2c3	kurashi	4	table	人口	15〜64歳/R7	11209		shiryo p.15				
-4288293ca722b67b	kurashi	4	table	人口	15〜64歳/R12	10442		shiryo p.15				
-c9536c0521391102	kurashi	4	table	人口	15〜64歳/R17	9727		shiryo p.15				
-f46050aacc05a4f2	kurashi	4	table	人口	15〜64歳/R22	8796		shiryo p.15				
-fc3d4cbf55c61762	kurashi	4	table	人口	15〜64歳/R27	7937		shiryo p.15				
-79c46173b81b8cdb	kurashi	4	table	人口	15歳未満/H2	4472		shiryo p.15				
-a79dcd98fd46d703	kurashi	4	table	人口	15歳未満/H7	4135		shiryo p.15				
-2e3d3fe8a321a9fd	kurashi	4	table	人口	15歳未満/H12	3613		shiryo p.15				
-6fc5c096bdbc4409	kurashi	4	table	人口	15歳未満/H17	3215		shiryo p.15				
-c96f1a561a11adcc	kurashi	4	table	人口	15歳未満/H22	3043		shiryo p.15				
-3d1ecf5a18c8d2f1	kurashi	4	table	人口	15歳未満/H27	2835		shiryo p.15				
-94b8b6eae0d8c199	kurashi	4	table	人口	15歳未満/R2	2575		shiryo p.15				
-8f07079fead92249	kurashi	4	table	人口	15歳未満/R7	2374		shiryo p.15				
-8f28469733097487	kurashi	4	table	人口	15歳未満/R12	2177		shiryo p.15				
-215630c144274ea8	kurashi	4	table	人口	15歳未満/R17	1975		shiryo p.15				
-8075cad6e1dbcaff	kurashi	4	table	人口	15歳未満/R22	1803		shiryo p.15				
-7bd606f845f2092f	kurashi	4	table	人口	15歳未満/R27	1635		shiryo p.15				
-ba103cd91c3a750d	kurashi	4	table	人口	人口（年齢不詳を含む）/H2	22391		shiryo p.15				
-c672ce7effe5b5d6	kurashi	4	table	人口	人口（年齢不詳を含む）/H7	23132		shiryo p.15				
-c6dcdc1131192ad7	kurashi	4	table	人口	人口（年齢不詳を含む）/H12	23022		shiryo p.15				
-e4c83ce940dfb6e1	kurashi	4	table	人口	人口（年齢不詳を含む）/H17	22809		shiryo p.15				
-c8a05a041033f3ae	kurashi	4	table	人口	人口（年齢不詳を含む）/H22	22870		shiryo p.15				
-b13f7ba007121e4f	kurashi	4	table	人口	人口（年齢不詳を含む）/H27	21873		shiryo p.15				
-a3c3dd45b7952d70	kurashi	4	table	人口	人口（年齢不詳を含む）/R2	20964		shiryo p.15				
-a402b4bbb58d09d3	kurashi	4	table	人口	人口（年齢不詳を含む）/R7	19989		shiryo p.15				
-eaa78a1dfe2b0e53	kurashi	4	table	人口	人口（年齢不詳を含む）/R12	19006		shiryo p.15				
-bf37950657f27b31	kurashi	4	table	人口	人口（年齢不詳を含む）/R17	17973		shiryo p.15				
-5490ba4b82f38c1b	kurashi	4	table	人口	人口（年齢不詳を含む）/R22	16862		shiryo p.15				
-22a0b0ddcb9ff177	kurashi	4	table	人口	人口（年齢不詳を含む）/R27	15735		shiryo p.15				
+d3b9c95152e94ba6	genjo	22	table	土地利用の規制	内池地区地区計画/地区整備計画面積（ha）	1.0		shiryo p.10	✓	auto:ai	2026-10-10	
+70f4465c238902b1	genjo	24	chart.bars	保安林種別面積	水源かん養	290.01	ha	shiryo p.11	✓	auto:ai	2026-10-10	
+b2485f3e2d3664e7	genjo	24	chart.bars	保安林種別面積	土砂流出防備	1734.25	ha	shiryo p.11	✓	auto:ai	2026-10-10	
+1ed045de0924289c	genjo	24	chart.bars	保安林種別面積	保健	66.47	ha	shiryo p.11	✓	auto:ai	2026-10-10	
+73ac7231681ee7f6	genjo	24	chart.bars	保安林種別面積	風致	7.58	ha	shiryo p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+5dad1064923f2ff9	genjo	25	table	土地利用の規制	特別保護地区/面積（ha）	19		shiryo p.12	✓	auto:ai	2026-10-10	
+e550560b5c8bbd59	genjo	25	table	土地利用の規制	第1種特別地域/面積（ha）	78		shiryo p.12	✓	auto:ai	2026-10-10	
+1595c3cdda9c1f99	genjo	25	table	土地利用の規制	第2種特別地域/面積（ha）	50		shiryo p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+22777e3c7283764c	genjo	25	table	土地利用の規制	第3種特別地域/面積（ha）	1072		shiryo p.12	✓	auto:ai	2026-10-10	
+65590c323cb22c65	genjo	28	table	地価の推移	日野（県）-1/地積（㎡）	375		shiryo p.12	✓	auto:ai	2026-10-10	
+1d6f70eafaea504f	genjo	28	table	地価の推移	日野（県）-1/H29	20500		shiryo p.12	✓	auto:ai	2026-10-10	
+a5e4110318914ad9	genjo	28	table	地価の推移	日野（県）-1/H30	20100		shiryo p.12	✓	auto:ai	2026-10-10	
+c725bfb0f567d107	genjo	28	table	地価の推移	日野（県）-1/R元	19600		shiryo p.12	✓	auto:ai	2026-10-10	
+de4cd743227e3719	genjo	28	table	地価の推移	日野（県）-1/R2	19000		shiryo p.12	✓	auto:ai	2026-10-10	
+fbe43b33d8c1a1cc	genjo	28	table	地価の推移	日野（県）-1/R3	18400		shiryo p.12	✓	auto:ai	2026-10-10	
+01377f455ae4dc11	genjo	28	table	地価の推移	日野（県）-2/地積（㎡）	350		shiryo p.12	✓	auto:ai	2026-10-10	
+3db494b984641c8d	genjo	28	table	地価の推移	日野（県）-2/H29	36400		shiryo p.12	✓	auto:ai	2026-10-10	
+7045f6b5196c7c17	genjo	28	table	地価の推移	日野（県）-2/H30	36300		shiryo p.12	✓	auto:ai	2026-10-10	
+6114cea67e3b624c	genjo	28	table	地価の推移	日野（県）-2/R元	36200		shiryo p.12	✓	auto:ai	2026-10-10	
+c8b4fd3f4e84ef1b	genjo	28	table	地価の推移	日野（県）-2/R2	36100		shiryo p.12	✓	auto:ai	2026-10-10	
+8327d070c3f2904a	genjo	28	table	地価の推移	日野（県）-2/R3	36100		shiryo p.12	✓	auto:ai	2026-10-10	
+8dc43004a5504375	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	357		shiryo p.12				要人確認:H1 A=一致/中 B=一致/中
+13f7e866ca6e3b26	genjo	28	table	地価の推移	日野（県）-3/H29	16700		shiryo p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+7c1cd677a5d7d778	genjo	28	table	地価の推移	日野（県）-3/H30	16200		shiryo p.12	✓	auto:ai	2026-10-10	
+1dfd866cc6beea6e	genjo	28	table	地価の推移	日野（県）-3/R元	16000		shiryo p.12	✓	auto:ai	2026-10-10	
+56172b232cce9a61	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	565		shiryo p.12				要人確認:H1 A=一致/中 B=一致/中
+71f1bb51d24cacd1	genjo	28	table	地価の推移	日野（県）-3/R2	15700		shiryo p.12	✓	auto:ai	2026-10-10	
+5852eeb6559575fb	genjo	28	table	地価の推移	日野（県）-3/R3	15300		shiryo p.12	✓	auto:ai	2026-10-10	
+c663ad35e2903a2e	genjo	28	table	地価の推移	日野（県）-4/地積（㎡）	452		shiryo p.12	✓	auto:ai	2026-10-10	
+c7894f564a48fae7	genjo	28	table	地価の推移	日野（県）-4/H29	15700		shiryo p.12	✓	auto:ai	2026-10-10	
+6da7073a6f14798b	genjo	28	table	地価の推移	日野（県）-4/H30	15200		shiryo p.12	✓	auto:ai	2026-10-10	
+f6182513df296e01	genjo	28	table	地価の推移	日野（県）-4/R元	14800		shiryo p.12	✓	auto:ai	2026-10-10	
+3395cbc781b00562	genjo	28	table	地価の推移	日野（県）-4/R2	14400		shiryo p.12	✓	auto:ai	2026-10-10	
+cf4bfbb776ca2af3	genjo	28	table	地価の推移	日野（県）-4/R3	14000		shiryo p.12	✓	auto:ai	2026-10-10	
+4afb866f15736c5e	genjo	28	table	地価の推移	日野（県）-5/地積（㎡）	536		shiryo p.12	✓	auto:ai	2026-10-10	
+5995c7a0b46cf953	genjo	28	table	地価の推移	日野（県）-5/H29	10900		shiryo p.12	✓	auto:ai	2026-10-10	
+cdbfdeef65af6889	genjo	28	table	地価の推移	日野（県）-5/H30	10700		shiryo p.12	✓	auto:ai	2026-10-10	
+071ae6ba843ba811	genjo	28	table	地価の推移	日野（県）-5/R元	10300		shiryo p.12	✓	auto:ai	2026-10-10	
+8a003c74d40b325b	genjo	28	table	地価の推移	日野（県）-5/R2	9900		shiryo p.12	✓	auto:ai	2026-10-10	
+deb44de8e1d4edfc	genjo	28	table	地価の推移	日野（県）-5/R3	9500		shiryo p.12	✓	auto:ai	2026-10-10	
+3c0838167bb1f267	genjo	28	table	地価の推移	日野（県）-6/地積（㎡）	475		shiryo p.12	✓	auto:ai	2026-10-10	
+7f05360f22e0944e	genjo	28	table	地価の推移	日野（県）-6/H29	10200		shiryo p.12	✓	auto:ai	2026-10-10	
+f48d52e5ae181cfe	genjo	28	table	地価の推移	日野（県）-6/H30	10000		shiryo p.12	✓	auto:ai	2026-10-10	
+51c8894bc00b1506	genjo	28	table	地価の推移	日野（県）-6/R元	9800		shiryo p.12	✓	auto:ai	2026-10-10	
+a54cb74cdac3178e	genjo	28	table	地価の推移	日野（県）-6/R2	9500		shiryo p.12	✓	auto:ai	2026-10-10	
+856327cd6b706f2c	genjo	28	table	地価の推移	日野（県）-6/R3	9200		shiryo p.12	✓	auto:ai	2026-10-10	
+e59faedbe69da679	genjo	28	table	地価の推移	日野（県）5-1/地積（㎡）	1098		shiryo p.12	✓	auto:ai	2026-10-10	
+6626fef506498205	genjo	28	table	地価の推移	日野（県）5-1/H29	47100		shiryo p.12	✓	auto:ai	2026-10-10	
+26fcaac110a89e42	genjo	28	table	地価の推移	日野（県）5-1/H30	46500		shiryo p.12	✓	auto:ai	2026-10-10	
+e9ea9a1e5b8495f6	genjo	28	table	地価の推移	日野（県）5-1/R元	46500		shiryo p.12	✓	auto:ai	2026-10-10	
+64593fd3defd1a45	genjo	28	table	地価の推移	日野（県）5-1/R2	46400		shiryo p.12	✓	auto:ai	2026-10-10	
+957058c1cb138097	genjo	28	table	地価の推移	日野（県）5-1/R3	46300		shiryo p.12	✓	auto:ai	2026-10-10	
+a420d0a01233d803	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H2	22391	人	shiryo p.15				要人確認:H2 値が文字データにない
+e3c1be787684582f	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H7	23132	人	shiryo p.15				要人確認:H2 値が文字データにない
+752bf17c74fc5b49	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H12	23022	人	shiryo p.15				要人確認:H2 値が文字データにない
+1ecaf3742c2339f0	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H17	22809	人	shiryo p.15				要人確認:H2 値が文字データにない
+13cfcab794e1098a	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H22	22870	人	shiryo p.15				要人確認:H2 値が文字データにない
+9d5b6545ba2b7180	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H27	21873	人	shiryo p.15				要人確認:H2 値が文字データにない
+6abe5ebc718aa8e3	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R2	20964	人	shiryo p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+2b09f6a63a189e75	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R7	19989	人	shiryo p.15				要人確認:H2 値が文字データにない
+b0ea7320b96b1db8	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R12	19006	人	shiryo p.15				要人確認:H2 値が文字データにない
+448bba626ccb6358	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R17	17973	人	shiryo p.15				要人確認:H2 値が文字データにない
+b5bc9818d06ab6ac	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R22	16862	人	shiryo p.15				要人確認:H2 値が文字データにない
+4593a8cfc2e515aa	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R27	15735	人	shiryo p.15				要人確認:H2 値が文字データにない
+c1f266805f28747e	kurashi	4	table	人口	65歳以上/H2	3872		shiryo p.15				要人確認:H2 値が文字データにない
+656d24cc459a1500	kurashi	4	table	人口	65歳以上/H7	4479		shiryo p.15				要人確認:H2 値が文字データにない
+2fd6eff61919d85c	kurashi	4	table	人口	65歳以上/H12	5095		shiryo p.15				要人確認:H2 値が文字データにない
+ac4083c545fb947a	kurashi	4	table	人口	65歳以上/H17	5332		shiryo p.15				要人確認:H2 値が文字データにない
+f82da8590b3800ce	kurashi	4	table	人口	65歳以上/H22	5553		shiryo p.15				要人確認:H2 値が文字データにない
+c2c6fb92291a80a5	kurashi	4	table	人口	65歳以上/H27	6088		shiryo p.15				要人確認:H2 値が文字データにない
+f4d6c422cfb99538	kurashi	4	table	人口	65歳以上/R2	6424		shiryo p.15				要人確認:H2 値が文字データにない
+8516e54fd319becd	kurashi	4	table	人口	65歳以上/R7	6406		shiryo p.15				要人確認:H2 値が文字データにない
+5ff7a9d9cb0cdb85	kurashi	4	table	人口	65歳以上/R12	6387		shiryo p.15				要人確認:H2 値が文字データにない
+0606d5efc22fbd2a	kurashi	4	table	人口	65歳以上/R17	6271		shiryo p.15				要人確認:H2 値が文字データにない
+25e7b4a49b9bc748	kurashi	4	table	人口	65歳以上/R22	6263		shiryo p.15				要人確認:H2 値が文字データにない
+7d402254809e28a8	kurashi	4	table	人口	65歳以上/R27	6163		shiryo p.15				要人確認:H2 値が文字データにない
+07493cff13715bab	kurashi	4	table	人口	15〜64歳/H2	14036		shiryo p.15				要人確認:H2 値が文字データにない
+8f64f8c58091cf57	kurashi	4	table	人口	15〜64歳/H7	14518		shiryo p.15				要人確認:H2 値が文字データにない
+f7bd5d945477e10e	kurashi	4	table	人口	15〜64歳/H12	14311		shiryo p.15				要人確認:H2 値が文字データにない
+0c2c2ca3de864e9a	kurashi	4	table	人口	15〜64歳/H17	14262		shiryo p.15				要人確認:H2 値が文字データにない
+46e1476a9064a997	kurashi	4	table	人口	15〜64歳/H22	14217		shiryo p.15				要人確認:H2 値が文字データにない
+646753ac9225fb4b	kurashi	4	table	人口	15〜64歳/H27	12840		shiryo p.15				要人確認:H2 値が文字データにない
+8659a6610d9ae9b4	kurashi	4	table	人口	15〜64歳/R2	11656		shiryo p.15				要人確認:H2 値が文字データにない
+18042886ee7fd2c3	kurashi	4	table	人口	15〜64歳/R7	11209		shiryo p.15				要人確認:H2 値が文字データにない
+4288293ca722b67b	kurashi	4	table	人口	15〜64歳/R12	10442		shiryo p.15				要人確認:H2 値が文字データにない
+c9536c0521391102	kurashi	4	table	人口	15〜64歳/R17	9727		shiryo p.15				要人確認:H2 値が文字データにない
+f46050aacc05a4f2	kurashi	4	table	人口	15〜64歳/R22	8796		shiryo p.15				要人確認:H2 値が文字データにない
+fc3d4cbf55c61762	kurashi	4	table	人口	15〜64歳/R27	7937		shiryo p.15				要人確認:H2 値が文字データにない
+79c46173b81b8cdb	kurashi	4	table	人口	15歳未満/H2	4472		shiryo p.15				要人確認:H2 値が文字データにない
+a79dcd98fd46d703	kurashi	4	table	人口	15歳未満/H7	4135		shiryo p.15				要人確認:H2 値が文字データにない
+2e3d3fe8a321a9fd	kurashi	4	table	人口	15歳未満/H12	3613		shiryo p.15				要人確認:H2 値が文字データにない
+6fc5c096bdbc4409	kurashi	4	table	人口	15歳未満/H17	3215		shiryo p.15				要人確認:H2 値が文字データにない
+c96f1a561a11adcc	kurashi	4	table	人口	15歳未満/H22	3043		shiryo p.15				要人確認:H2 値が文字データにない
+3d1ecf5a18c8d2f1	kurashi	4	table	人口	15歳未満/H27	2835		shiryo p.15				要人確認:H2 値が文字データにない
+94b8b6eae0d8c199	kurashi	4	table	人口	15歳未満/R2	2575		shiryo p.15				要人確認:H2 値が文字データにない
+8f07079fead92249	kurashi	4	table	人口	15歳未満/R7	2374		shiryo p.15				要人確認:H2 値が文字データにない
+8f28469733097487	kurashi	4	table	人口	15歳未満/R12	2177		shiryo p.15				要人確認:H2 値が文字データにない
+215630c144274ea8	kurashi	4	table	人口	15歳未満/R17	1975		shiryo p.15				要人確認:H2 値が文字データにない
+8075cad6e1dbcaff	kurashi	4	table	人口	15歳未満/R22	1803		shiryo p.15				要人確認:H2 値が文字データにない
+7bd606f845f2092f	kurashi	4	table	人口	15歳未満/R27	1635		shiryo p.15				要人確認:H2 値が文字データにない
+ba103cd91c3a750d	kurashi	4	table	人口	人口（年齢不詳を含む）/H2	22391		shiryo p.15				要人確認:H2 値が文字データにない
+c672ce7effe5b5d6	kurashi	4	table	人口	人口（年齢不詳を含む）/H7	23132		shiryo p.15				要人確認:H2 値が文字データにない
+c6dcdc1131192ad7	kurashi	4	table	人口	人口（年齢不詳を含む）/H12	23022		shiryo p.15				要人確認:H2 値が文字データにない
+e4c83ce940dfb6e1	kurashi	4	table	人口	人口（年齢不詳を含む）/H17	22809		shiryo p.15				要人確認:H2 値が文字データにない
+c8a05a041033f3ae	kurashi	4	table	人口	人口（年齢不詳を含む）/H22	22870		shiryo p.15				要人確認:H2 値が文字データにない
+b13f7ba007121e4f	kurashi	4	table	人口	人口（年齢不詳を含む）/H27	21873		shiryo p.15				要人確認:H2 値が文字データにない
+a3c3dd45b7952d70	kurashi	4	table	人口	人口（年齢不詳を含む）/R2	20964		shiryo p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+a402b4bbb58d09d3	kurashi	4	table	人口	人口（年齢不詳を含む）/R7	19989		shiryo p.15				要人確認:H2 値が文字データにない
+eaa78a1dfe2b0e53	kurashi	4	table	人口	人口（年齢不詳を含む）/R12	19006		shiryo p.15				要人確認:H2 値が文字データにない
+bf37950657f27b31	kurashi	4	table	人口	人口（年齢不詳を含む）/R17	17973		shiryo p.15				要人確認:H2 値が文字データにない
+5490ba4b82f38c1b	kurashi	4	table	人口	人口（年齢不詳を含む）/R22	16862		shiryo p.15				要人確認:H2 値が文字データにない
+22a0b0ddcb9ff177	kurashi	4	table	人口	人口（年齢不詳を含む）/R27	15735		shiryo p.15				要人確認:H2 値が文字データにない
 da01e76164823776	kurashi	7	table	人口動態	自然動態/H23	-66		shiryo p.16	✓	auto:pdftext	2026-10-10	
 f68477e08c443799	kurashi	7	table	人口動態	自然動態/H24	-49		shiryo p.16	✓	auto:pdftext	2026-10-10	
 0699c063f3bc5a4c	kurashi	7	table	人口動態	自然動態/H25	-81		shiryo p.16	✓	auto:pdftext	2026-10-10	
 0451e11dcadde326	kurashi	7	table	人口動態	自然動態/H26	-51		shiryo p.16	✓	auto:pdftext	2026-10-10	
 a9a1463e5fd4d32f	kurashi	7	table	人口動態	自然動態/H27	-82		shiryo p.16	✓	auto:pdftext	2026-10-10	
-cdd43d0713cd4f92	kurashi	7	table	人口動態	自然動態/H28	-105		shiryo p.16				
-7b2c22775766ffb8	kurashi	7	table	人口動態	自然動態/H29	-109		shiryo p.16				
-6fc3b62c8a483686	kurashi	7	table	人口動態	自然動態/H30	-141		shiryo p.16				
+cdd43d0713cd4f92	kurashi	7	table	人口動態	自然動態/H28	-105		shiryo p.16	✓	auto:ai	2026-10-10	
+7b2c22775766ffb8	kurashi	7	table	人口動態	自然動態/H29	-109		shiryo p.16	✓	auto:ai	2026-10-10	
+6fc3b62c8a483686	kurashi	7	table	人口動態	自然動態/H30	-141		shiryo p.16	✓	auto:ai	2026-10-10	
 134a49ac8fc9a8b9	kurashi	7	table	人口動態	自然動態/R元	-109		shiryo p.16	✓	auto:pdftext	2026-10-10	
-03193665ce2be468	kurashi	7	table	人口動態	自然動態/R2	-99		shiryo p.16				
+03193665ce2be468	kurashi	7	table	人口動態	自然動態/R2	-99		shiryo p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 dddf170ba4f51355	kurashi	7	table	人口動態	社会動態/H23	-56		shiryo p.16	✓	auto:pdftext	2026-10-10	
 0c1df5c4a687e6d5	kurashi	7	table	人口動態	社会動態/H24	170		shiryo p.16	✓	auto:pdftext	2026-10-10	
 0aace419b13e860f	kurashi	7	table	人口動態	社会動態/H25	-182		shiryo p.16	✓	auto:pdftext	2026-10-10	
 2ec6b4528f959841	kurashi	7	table	人口動態	社会動態/H26	-93		shiryo p.16	✓	auto:pdftext	2026-10-10	
 a60549acbbc8c6d2	kurashi	7	table	人口動態	社会動態/H27	-100		shiryo p.16	✓	auto:pdftext	2026-10-10	
-74dd6cd55ab6e9fb	kurashi	7	table	人口動態	社会動態/H28	-127		shiryo p.16				
-fe3bfa087caeed15	kurashi	7	table	人口動態	社会動態/H29	-36		shiryo p.16				
-304a45c6686e930b	kurashi	7	table	人口動態	社会動態/H30	-77		shiryo p.16				
+74dd6cd55ab6e9fb	kurashi	7	table	人口動態	社会動態/H28	-127		shiryo p.16	✓	auto:ai	2026-10-10	
+fe3bfa087caeed15	kurashi	7	table	人口動態	社会動態/H29	-36		shiryo p.16	✓	auto:ai	2026-10-10	
+304a45c6686e930b	kurashi	7	table	人口動態	社会動態/H30	-77		shiryo p.16	✓	auto:ai	2026-10-10	
 38272582b7f1588f	kurashi	7	table	人口動態	社会動態/R元	123		shiryo p.16	✓	auto:pdftext	2026-10-10	
-360759beb9eb38d6	kurashi	7	table	人口動態	社会動態/R2	-91		shiryo p.16				
+360759beb9eb38d6	kurashi	7	table	人口動態	社会動態/R2	-91		shiryo p.16	✓	auto:ai	2026-10-10	
 66a276a4e4ed36fc	kurashi	7	table	人口動態	人口動態/H23	-122		shiryo p.16	✓	auto:pdftext	2026-10-10	
 5b015fb0b5d2de33	kurashi	7	table	人口動態	人口動態/H24	121		shiryo p.16	✓	auto:pdftext	2026-10-10	
 127e327e3a0d01cb	kurashi	7	table	人口動態	人口動態/H25	-263		shiryo p.16	✓	auto:pdftext	2026-10-10	
 683f567a88231b26	kurashi	7	table	人口動態	人口動態/H26	-144		shiryo p.16	✓	auto:pdftext	2026-10-10	
 9cf34f2333a66b9a	kurashi	7	table	人口動態	人口動態/H27	-182		shiryo p.16	✓	auto:pdftext	2026-10-10	
-1d17bec6e82f6195	kurashi	7	table	人口動態	人口動態/H28	-232		shiryo p.16				
-cf3bce2dcfa2f0ec	kurashi	7	table	人口動態	人口動態/H29	-145		shiryo p.16				
-680e2f110046f68f	kurashi	7	table	人口動態	人口動態/H30	-218		shiryo p.16				
+1d17bec6e82f6195	kurashi	7	table	人口動態	人口動態/H28	-232		shiryo p.16	✓	auto:ai	2026-10-10	
+cf3bce2dcfa2f0ec	kurashi	7	table	人口動態	人口動態/H29	-145		shiryo p.16	✓	auto:ai	2026-10-10	
+680e2f110046f68f	kurashi	7	table	人口動態	人口動態/H30	-218		shiryo p.16	✓	auto:ai	2026-10-10	
 bcdbc1fe5e91cbc1	kurashi	7	table	人口動態	人口動態/R元	14		shiryo p.16	✓	auto:pdftext	2026-10-10	
 833523e500c0eeba	kurashi	7	table	人口動態	人口動態/R2	-190		shiryo p.16	✓	auto:pdftext	2026-10-10	
 02e0bba4b762a3e2	kurashi	10	table	世帯数	世帯数（世帯）/H2	5676		shiryo p.16	✓	auto:pdftext	2026-10-10	
@@ -500,199 +500,199 @@ bcdbc1fe5e91cbc1	kurashi	7	table	人口動態	人口動態/R元	14		shiryo p.16	
 29cfc5bdfd698129	kurashi	10	table	世帯数	世帯数（世帯）/H12	6693		shiryo p.16	✓	auto:pdftext	2026-10-10	
 bd6165f59bf2882e	kurashi	10	table	世帯数	世帯数（世帯）/H17	7131		shiryo p.16	✓	auto:pdftext	2026-10-10	
 295806a1974c711b	kurashi	10	table	世帯数	世帯数（世帯）/H22	7678		shiryo p.16	✓	auto:pdftext	2026-10-10	
-fc8aea05b089c9a0	kurashi	10	table	世帯数	世帯数（世帯）/H27	7728		shiryo p.16				
-5a7509de5fc549b3	kurashi	10	table	世帯数	世帯数（世帯）/R2	7932		shiryo p.16				
-c7753dbec192746b	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H2	3.9		shiryo p.16				
+fc8aea05b089c9a0	kurashi	10	table	世帯数	世帯数（世帯）/H27	7728		shiryo p.16	✓	auto:ai	2026-10-10	
+5a7509de5fc549b3	kurashi	10	table	世帯数	世帯数（世帯）/R2	7932		shiryo p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+c7753dbec192746b	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H2	3.9		shiryo p.16	✓	auto:ai	2026-10-10	
 a003be695ab5d072	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H7	3.7		shiryo p.16	✓	auto:pdftext	2026-10-10	
 322957568cd442bc	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H12	3.4		shiryo p.16	✓	auto:pdftext	2026-10-10	
 3bacbfef63d7c709	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H17	3.2		shiryo p.16	✓	auto:pdftext	2026-10-10	
 f34582b63b78db11	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H22	3.0		shiryo p.16	✓	auto:pdftext	2026-10-10	
 1e5b3cc99ede888a	kurashi	10	table	世帯数	1世帯当たりの人員（人）/H27	2.8		shiryo p.16	✓	auto:pdftext	2026-10-10	
-6b308740763a6a99	kurashi	10	table	世帯数	1世帯当たりの人員（人）/R2	2.6		shiryo p.16				
-4d9b0e3f3fa922fc	kurashi	13	chart.stacked100	産業構造の推移	H7/1次産業	8.9	%	shiryo p.17				
-56bd6b570fae2749	kurashi	13	chart.stacked100	産業構造の推移	H7/2次産業	46.1	%	shiryo p.17				
-720d726303fde9b9	kurashi	13	chart.stacked100	産業構造の推移	H7/3次産業	44.9	%	shiryo p.17				
-72291313e05bfa2b	kurashi	13	chart.stacked100	産業構造の推移	H7/分類不能	0.1	%	shiryo p.17				
-dda175830e03a75b	kurashi	13	chart.stacked100	産業構造の推移	H12/1次産業	5.6	%	shiryo p.17				
-6ef6cc83d88ae7c3	kurashi	13	chart.stacked100	産業構造の推移	H12/2次産業	44.5	%	shiryo p.17				
-a3118300cdaed02d	kurashi	13	chart.stacked100	産業構造の推移	H12/3次産業	49.7	%	shiryo p.17				
-4790276a215af0cb	kurashi	13	chart.stacked100	産業構造の推移	H12/分類不能	0.2	%	shiryo p.17				
-ed8078a1a01beaab	kurashi	13	chart.stacked100	産業構造の推移	H17/1次産業	7.6	%	shiryo p.17				
-e8dd86f0e2df659c	kurashi	13	chart.stacked100	産業構造の推移	H17/2次産業	42.3	%	shiryo p.17				
-efe0cc2d647c33a5	kurashi	13	chart.stacked100	産業構造の推移	H17/3次産業	49.5	%	shiryo p.17				
-d72fcb369f2c1d06	kurashi	13	chart.stacked100	産業構造の推移	H17/分類不能	0.5	%	shiryo p.17				
-45022b8fee05be11	kurashi	13	chart.stacked100	産業構造の推移	H22/1次産業	5.0	%	shiryo p.17				
-ff7160f521404c31	kurashi	13	chart.stacked100	産業構造の推移	H22/2次産業	42.7	%	shiryo p.17				
-dc1b1be522fb3289	kurashi	13	chart.stacked100	産業構造の推移	H22/3次産業	48.1	%	shiryo p.17				
-8516c40e4a660286	kurashi	13	chart.stacked100	産業構造の推移	H22/分類不能	4.2	%	shiryo p.17				
-421f897c53d7d4e7	kurashi	13	chart.stacked100	産業構造の推移	H27/1次産業	4.9	%	shiryo p.17				
-e79e60fa091ae8bd	kurashi	13	chart.stacked100	産業構造の推移	H27/2次産業	41.3	%	shiryo p.17				
-585bc3c540204a08	kurashi	13	chart.stacked100	産業構造の推移	H27/3次産業	50.3	%	shiryo p.17				
-fe15ca6ee3b8b3bb	kurashi	13	chart.stacked100	産業構造の推移	H27/分類不能	3.5	%	shiryo p.17				
-f7cfc2faa94b4127	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H7	1851		shiryo p.18				
-96cca03c3b86aa21	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H12	1671		shiryo p.18				
-0f8440947cfeaf45	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H17	1511		shiryo p.18				
-2159b1ebf93707e6	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H22	1309		shiryo p.18				
-bb9d4472a56b0159	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H27	1112		shiryo p.18				
-01fad2c870c101d8	kurashi	16	table	農家と経営耕地面積	農家数（戸）/R2	833		shiryo p.18				
-85a45fe45903052c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H7	191522		shiryo p.18				
-0bb8aed7687ef86b	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H12	179039		shiryo p.18				
-b71f8491d784b261	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H17	169900		shiryo p.18				
-e21ea319b7b7cb1a	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H22	160649		shiryo p.18				
-63cda36ffd3700ed	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H27	143240		shiryo p.18				
-f7968b3f9ed2b63c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/R2	147000		shiryo p.18				
+6b308740763a6a99	kurashi	10	table	世帯数	1世帯当たりの人員（人）/R2	2.6		shiryo p.16	✓	auto:ai	2026-10-10	
+4d9b0e3f3fa922fc	kurashi	13	chart.stacked100	産業構造の推移	H7/1次産業	8.9	%	shiryo p.17	✓	auto:ai	2026-10-10	
+56bd6b570fae2749	kurashi	13	chart.stacked100	産業構造の推移	H7/2次産業	46.1	%	shiryo p.17	✓	auto:ai	2026-10-10	
+720d726303fde9b9	kurashi	13	chart.stacked100	産業構造の推移	H7/3次産業	44.9	%	shiryo p.17	✓	auto:ai	2026-10-10	
+72291313e05bfa2b	kurashi	13	chart.stacked100	産業構造の推移	H7/分類不能	0.1	%	shiryo p.17	✓	auto:ai	2026-10-10	
+dda175830e03a75b	kurashi	13	chart.stacked100	産業構造の推移	H12/1次産業	5.6	%	shiryo p.17	✓	auto:ai	2026-10-10	
+6ef6cc83d88ae7c3	kurashi	13	chart.stacked100	産業構造の推移	H12/2次産業	44.5	%	shiryo p.17	✓	auto:ai	2026-10-10	
+a3118300cdaed02d	kurashi	13	chart.stacked100	産業構造の推移	H12/3次産業	49.7	%	shiryo p.17	✓	auto:ai	2026-10-10	
+4790276a215af0cb	kurashi	13	chart.stacked100	産業構造の推移	H12/分類不能	0.2	%	shiryo p.17	✓	auto:ai	2026-10-10	
+ed8078a1a01beaab	kurashi	13	chart.stacked100	産業構造の推移	H17/1次産業	7.6	%	shiryo p.17	✓	auto:ai	2026-10-10	
+e8dd86f0e2df659c	kurashi	13	chart.stacked100	産業構造の推移	H17/2次産業	42.3	%	shiryo p.17	✓	auto:ai	2026-10-10	
+efe0cc2d647c33a5	kurashi	13	chart.stacked100	産業構造の推移	H17/3次産業	49.5	%	shiryo p.17	✓	auto:ai	2026-10-10	
+d72fcb369f2c1d06	kurashi	13	chart.stacked100	産業構造の推移	H17/分類不能	0.5	%	shiryo p.17	✓	auto:ai	2026-10-10	
+45022b8fee05be11	kurashi	13	chart.stacked100	産業構造の推移	H22/1次産業	5.0	%	shiryo p.17	✓	auto:ai	2026-10-10	
+ff7160f521404c31	kurashi	13	chart.stacked100	産業構造の推移	H22/2次産業	42.7	%	shiryo p.17	✓	auto:ai	2026-10-10	
+dc1b1be522fb3289	kurashi	13	chart.stacked100	産業構造の推移	H22/3次産業	48.1	%	shiryo p.17	✓	auto:ai	2026-10-10	
+8516c40e4a660286	kurashi	13	chart.stacked100	産業構造の推移	H22/分類不能	4.2	%	shiryo p.17	✓	auto:ai	2026-10-10	
+421f897c53d7d4e7	kurashi	13	chart.stacked100	産業構造の推移	H27/1次産業	4.9	%	shiryo p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+e79e60fa091ae8bd	kurashi	13	chart.stacked100	産業構造の推移	H27/2次産業	41.3	%	shiryo p.17	✓	auto:ai	2026-10-10	
+585bc3c540204a08	kurashi	13	chart.stacked100	産業構造の推移	H27/3次産業	50.3	%	shiryo p.17	✓	auto:ai	2026-10-10	
+fe15ca6ee3b8b3bb	kurashi	13	chart.stacked100	産業構造の推移	H27/分類不能	3.5	%	shiryo p.17	✓	auto:ai	2026-10-10	
+f7cfc2faa94b4127	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H7	1851		shiryo p.18				要人確認:H2 値が文字データにない
+96cca03c3b86aa21	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H12	1671		shiryo p.18				要人確認:H2 値が文字データにない
+0f8440947cfeaf45	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H17	1511		shiryo p.18				要人確認:H2 値が文字データにない
+2159b1ebf93707e6	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H22	1309		shiryo p.18				要人確認:H2 値が文字データにない
+bb9d4472a56b0159	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H27	1112		shiryo p.18				要人確認:H2 値が文字データにない
+01fad2c870c101d8	kurashi	16	table	農家と経営耕地面積	農家数（戸）/R2	833		shiryo p.18				要人確認:H2 値が文字データにない
+85a45fe45903052c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H7	191522		shiryo p.18				要人確認:H2 値が文字データにない
+0bb8aed7687ef86b	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H12	179039		shiryo p.18				要人確認:H2 値が文字データにない
+b71f8491d784b261	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H17	169900		shiryo p.18				要人確認:H2 値が文字データにない
+e21ea319b7b7cb1a	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H22	160649		shiryo p.18				要人確認:H2 値が文字データにない
+63cda36ffd3700ed	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H27	143240		shiryo p.18				要人確認:H2 値が文字データにない
+f7968b3f9ed2b63c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/R2	147000		shiryo p.18				要人確認:H2 値が文字データにない
 52999a3957928dc4	kurashi	19	table	工業	事業所数/H21	83		shiryo p.18	✓	auto:pdftext	2026-10-10	
-4ee4be1eedd744d3	kurashi	19	table	工業	事業所数/H22	81		shiryo p.18				
-c3c2e4bd00759da6	kurashi	19	table	工業	事業所数/H23	85		shiryo p.18				
-f06c72d7e8ab3a33	kurashi	19	table	工業	事業所数/H24	80		shiryo p.18				
+4ee4be1eedd744d3	kurashi	19	table	工業	事業所数/H22	81		shiryo p.18	✓	auto:ai	2026-10-10	
+c3c2e4bd00759da6	kurashi	19	table	工業	事業所数/H23	85		shiryo p.18	✓	auto:ai	2026-10-10	
+f06c72d7e8ab3a33	kurashi	19	table	工業	事業所数/H24	80		shiryo p.18	✓	auto:ai	2026-10-10	
 5d0f5e17477da0c6	kurashi	19	table	工業	事業所数/H25	86		shiryo p.18	✓	auto:pdftext	2026-10-10	
-42e9cdf3297259bf	kurashi	19	table	工業	事業所数/H26	86		shiryo p.18				
-f080159b47d06b92	kurashi	19	table	工業	事業所数/H27	87		shiryo p.18				
+42e9cdf3297259bf	kurashi	19	table	工業	事業所数/H26	86		shiryo p.18	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+f080159b47d06b92	kurashi	19	table	工業	事業所数/H27	87		shiryo p.18	✓	auto:ai	2026-10-10	
 5ac748615bf8c3ec	kurashi	19	table	工業	事業所数/H29	85		shiryo p.18	✓	auto:pdftext	2026-10-10	
 86f5ba33703b7631	kurashi	19	table	工業	事業所数/H30	77		shiryo p.18	✓	auto:pdftext	2026-10-10	
 0160d2cc469be891	kurashi	19	table	工業	事業所数/R元	76		shiryo p.18	✓	auto:pdftext	2026-10-10	
-6f09f79ec209e357	kurashi	19	table	工業	事業所数/R2	75		shiryo p.18				
+6f09f79ec209e357	kurashi	19	table	工業	事業所数/R2	75		shiryo p.18	✓	auto:ai	2026-10-10	
 b149c928f0ce470d	kurashi	19	table	工業	従業者数（人）/H21	4475		shiryo p.18	✓	auto:pdftext	2026-10-10	
-49e296212e54210f	kurashi	19	table	工業	従業者数（人）/H22	4502		shiryo p.18				
-9b48a50241eafe77	kurashi	19	table	工業	従業者数（人）/H23	4027		shiryo p.18				
-428e0dd8b2ece11a	kurashi	19	table	工業	従業者数（人）/H24	4360		shiryo p.18				
+49e296212e54210f	kurashi	19	table	工業	従業者数（人）/H22	4502		shiryo p.18	✓	auto:ai	2026-10-10	
+9b48a50241eafe77	kurashi	19	table	工業	従業者数（人）/H23	4027		shiryo p.18	✓	auto:ai	2026-10-10	
+428e0dd8b2ece11a	kurashi	19	table	工業	従業者数（人）/H24	4360		shiryo p.18	✓	auto:ai	2026-10-10	
 1f9e74ac94f4a529	kurashi	19	table	工業	従業者数（人）/H25	5235		shiryo p.18	✓	auto:pdftext	2026-10-10	
-ef27e54dde0eb156	kurashi	19	table	工業	従業者数（人）/H26	5178		shiryo p.18				
-e46055be773f2f7a	kurashi	19	table	工業	従業者数（人）/H27	4574		shiryo p.18				
+ef27e54dde0eb156	kurashi	19	table	工業	従業者数（人）/H26	5178		shiryo p.18	✓	auto:ai	2026-10-10	
+e46055be773f2f7a	kurashi	19	table	工業	従業者数（人）/H27	4574		shiryo p.18	✓	auto:ai	2026-10-10	
 198afdb95353938a	kurashi	19	table	工業	従業者数（人）/H29	5086		shiryo p.18	✓	auto:pdftext	2026-10-10	
 59e3b4ea0351055b	kurashi	19	table	工業	従業者数（人）/H30	5251		shiryo p.18	✓	auto:pdftext	2026-10-10	
 724e7568f0697eee	kurashi	19	table	工業	従業者数（人）/R元	5365		shiryo p.18	✓	auto:pdftext	2026-10-10	
-939fcd30f8f2873d	kurashi	19	table	工業	従業者数（人）/R2	5660		shiryo p.18				
-a28c103a9d56885f	kurashi	20	chart.bars	製造品出荷額等の推移	H22	20999371	万円	shiryo p.19				
-47c4888a29fab1a6	kurashi	20	chart.bars	製造品出荷額等の推移	H23	19446669	万円	shiryo p.19				
-1573d79053c8fb5e	kurashi	20	chart.bars	製造品出荷額等の推移	H24	22477370	万円	shiryo p.19				
-08dad38a24111da9	kurashi	20	chart.bars	製造品出荷額等の推移	H25	21620060	万円	shiryo p.19				
-3a046ff4f0950d37	kurashi	20	chart.bars	製造品出荷額等の推移	H26	23186452	万円	shiryo p.19				
-72d16d624522028d	kurashi	20	chart.bars	製造品出荷額等の推移	H27	26809226	万円	shiryo p.19				
-c4923e2dfea06941	kurashi	20	chart.bars	製造品出荷額等の推移	H29	29359114	万円	shiryo p.19				
-fb30259c724a37b6	kurashi	20	chart.bars	製造品出荷額等の推移	H30	31871145	万円	shiryo p.19				
-3bc704f72e4ae83d	kurashi	20	chart.bars	製造品出荷額等の推移	R元	35863137	万円	shiryo p.19				
-c0f542061542f2af	kurashi	20	chart.bars	製造品出荷額等の推移	R2	35098246	万円	shiryo p.19				
+939fcd30f8f2873d	kurashi	19	table	工業	従業者数（人）/R2	5660		shiryo p.18	✓	auto:ai	2026-10-10	
+a28c103a9d56885f	kurashi	20	chart.bars	製造品出荷額等の推移	H22	20999371	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+47c4888a29fab1a6	kurashi	20	chart.bars	製造品出荷額等の推移	H23	19446669	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+1573d79053c8fb5e	kurashi	20	chart.bars	製造品出荷額等の推移	H24	22477370	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+08dad38a24111da9	kurashi	20	chart.bars	製造品出荷額等の推移	H25	21620060	万円	shiryo p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+3a046ff4f0950d37	kurashi	20	chart.bars	製造品出荷額等の推移	H26	23186452	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+72d16d624522028d	kurashi	20	chart.bars	製造品出荷額等の推移	H27	26809226	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+c4923e2dfea06941	kurashi	20	chart.bars	製造品出荷額等の推移	H29	29359114	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+fb30259c724a37b6	kurashi	20	chart.bars	製造品出荷額等の推移	H30	31871145	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+3bc704f72e4ae83d	kurashi	20	chart.bars	製造品出荷額等の推移	R元	35863137	万円	shiryo p.19	✓	auto:ai	2026-10-10	
+c0f542061542f2af	kurashi	20	chart.bars	製造品出荷額等の推移	R2	35098246	万円	shiryo p.19	✓	auto:ai	2026-10-10	
 d37c14534d50ce5c	kurashi	23	table	商業	事業所数/H6	285		shiryo p.19	✓	auto:pdftext	2026-10-10	
 c4a6440889dfd5b4	kurashi	23	table	商業	事業所数/H9	270		shiryo p.19	✓	auto:pdftext	2026-10-10	
 12601f4f5e70ed74	kurashi	23	table	商業	事業所数/H11	284		shiryo p.19	✓	auto:pdftext	2026-10-10	
 d56babb3cc896d59	kurashi	23	table	商業	事業所数/H14	252		shiryo p.19	✓	auto:pdftext	2026-10-10	
 48b94446dc6fd610	kurashi	23	table	商業	事業所数/H16	231		shiryo p.19	✓	auto:pdftext	2026-10-10	
-c91010d98590ab38	kurashi	23	table	商業	事業所数/H19	204		shiryo p.19				
-d1c13ccc8d8e0790	kurashi	23	table	商業	事業所数/H24	145		shiryo p.19				
-91c3b1fb46a02492	kurashi	23	table	商業	事業所数/H26	134		shiryo p.19				
-641d063b51a55d83	kurashi	23	table	商業	事業所数/H28	148		shiryo p.19				
+c91010d98590ab38	kurashi	23	table	商業	事業所数/H19	204		shiryo p.19	✓	auto:ai	2026-10-10	
+d1c13ccc8d8e0790	kurashi	23	table	商業	事業所数/H24	145		shiryo p.19	✓	auto:ai	2026-10-10	
+91c3b1fb46a02492	kurashi	23	table	商業	事業所数/H26	134		shiryo p.19	✓	auto:ai	2026-10-10	
+641d063b51a55d83	kurashi	23	table	商業	事業所数/H28	148		shiryo p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
 9a06263899de6020	kurashi	23	table	商業	従業者数（人）/H6	1022		shiryo p.19	✓	auto:pdftext	2026-10-10	
 d3b456cce0f7e92f	kurashi	23	table	商業	従業者数（人）/H9	1195		shiryo p.19	✓	auto:pdftext	2026-10-10	
 e33b7ac49afd9044	kurashi	23	table	商業	従業者数（人）/H11	1302		shiryo p.19	✓	auto:pdftext	2026-10-10	
 54b586a55fba7246	kurashi	23	table	商業	従業者数（人）/H14	1349		shiryo p.19	✓	auto:pdftext	2026-10-10	
 e03cc2e733f2fc6b	kurashi	23	table	商業	従業者数（人）/H16	1070		shiryo p.19	✓	auto:pdftext	2026-10-10	
-5031b626b172751f	kurashi	23	table	商業	従業者数（人）/H19	1111		shiryo p.19				
-3d85f9b435ea7bc8	kurashi	23	table	商業	従業者数（人）/H24	764		shiryo p.19				
-5f459c0d0836a131	kurashi	23	table	商業	従業者数（人）/H26	679		shiryo p.19				
-684c0d520f98a344	kurashi	23	table	商業	従業者数（人）/H28	1008		shiryo p.19				
+5031b626b172751f	kurashi	23	table	商業	従業者数（人）/H19	1111		shiryo p.19	✓	auto:ai	2026-10-10	
+3d85f9b435ea7bc8	kurashi	23	table	商業	従業者数（人）/H24	764		shiryo p.19	✓	auto:ai	2026-10-10	
+5f459c0d0836a131	kurashi	23	table	商業	従業者数（人）/H26	679		shiryo p.19	✓	auto:ai	2026-10-10	
+684c0d520f98a344	kurashi	23	table	商業	従業者数（人）/H28	1008		shiryo p.19	✓	auto:ai	2026-10-10	
 80ce68ec1f950bd7	kurashi	24	table	商業	小売販売額（百万円）/H6	15840		shiryo p.20	✓	auto:pdftext	2026-10-10	
 a373f43125bc0d2e	kurashi	24	table	商業	小売販売額（百万円）/H9	15783		shiryo p.20	✓	auto:pdftext	2026-10-10	
-dde62d6ec08fbf01	kurashi	24	table	商業	小売販売額（百万円）/H11	17394		shiryo p.20				
-420cf7764936d43d	kurashi	24	table	商業	小売販売額（百万円）/H14	15096		shiryo p.20				
-13375a7c1900fa0c	kurashi	24	table	商業	小売販売額（百万円）/H16	14025		shiryo p.20				
-d8bae8a9b095ef12	kurashi	24	table	商業	小売販売額（百万円）/H19	13522		shiryo p.20				
-9a54052055ebedac	kurashi	24	table	商業	小売販売額（百万円）/H24	10894		shiryo p.20				
-d09e554431b925ca	kurashi	24	table	商業	小売販売額（百万円）/H26	10781		shiryo p.20				
+dde62d6ec08fbf01	kurashi	24	table	商業	小売販売額（百万円）/H11	17394		shiryo p.20	✓	auto:ai	2026-10-10	
+420cf7764936d43d	kurashi	24	table	商業	小売販売額（百万円）/H14	15096		shiryo p.20	✓	auto:ai	2026-10-10	
+13375a7c1900fa0c	kurashi	24	table	商業	小売販売額（百万円）/H16	14025		shiryo p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+d8bae8a9b095ef12	kurashi	24	table	商業	小売販売額（百万円）/H19	13522		shiryo p.20	✓	auto:ai	2026-10-10	
+9a54052055ebedac	kurashi	24	table	商業	小売販売額（百万円）/H24	10894		shiryo p.20	✓	auto:ai	2026-10-10	
+d09e554431b925ca	kurashi	24	table	商業	小売販売額（百万円）/H26	10781		shiryo p.20	✓	auto:ai	2026-10-10	
 58cdfeec274a881a	kurashi	24	table	商業	小売販売額（百万円）/H28	15066		shiryo p.20	✓	auto:pdftext	2026-10-10	
-ebb7a1ebaec192a6	kurashi	24	table	商業	小売業売り場面積（㎡）/H6	15310		shiryo p.20				
-399f561f69522383	kurashi	24	table	商業	小売業売り場面積（㎡）/H9	17727		shiryo p.20				
-9b830c6999b05033	kurashi	24	table	商業	小売業売り場面積（㎡）/H11	20462		shiryo p.20				
-9f21d591bf98d8af	kurashi	24	table	商業	小売業売り場面積（㎡）/H14	16226		shiryo p.20				
-b135049fa05ac226	kurashi	24	table	商業	小売業売り場面積（㎡）/H16	15688		shiryo p.20				
-422e841bf261e171	kurashi	24	table	商業	小売業売り場面積（㎡）/H19	17150		shiryo p.20				
-846df2a0d92e1ae4	kurashi	24	table	商業	小売業売り場面積（㎡）/H24	13923		shiryo p.20				
-186e2070e75204fb	kurashi	24	table	商業	小売業売り場面積（㎡）/H26	13597		shiryo p.20				
+ebb7a1ebaec192a6	kurashi	24	table	商業	小売業売り場面積（㎡）/H6	15310		shiryo p.20	✓	auto:ai	2026-10-10	
+399f561f69522383	kurashi	24	table	商業	小売業売り場面積（㎡）/H9	17727		shiryo p.20	✓	auto:ai	2026-10-10	
+9b830c6999b05033	kurashi	24	table	商業	小売業売り場面積（㎡）/H11	20462		shiryo p.20	✓	auto:ai	2026-10-10	
+9f21d591bf98d8af	kurashi	24	table	商業	小売業売り場面積（㎡）/H14	16226		shiryo p.20	✓	auto:ai	2026-10-10	
+b135049fa05ac226	kurashi	24	table	商業	小売業売り場面積（㎡）/H16	15688		shiryo p.20	✓	auto:ai	2026-10-10	
+422e841bf261e171	kurashi	24	table	商業	小売業売り場面積（㎡）/H19	17150		shiryo p.20	✓	auto:ai	2026-10-10	
+846df2a0d92e1ae4	kurashi	24	table	商業	小売業売り場面積（㎡）/H24	13923		shiryo p.20	✓	auto:ai	2026-10-10	
+186e2070e75204fb	kurashi	24	table	商業	小売業売り場面積（㎡）/H26	13597		shiryo p.20	✓	auto:ai	2026-10-10	
 ef82070fd84fca74	kurashi	24	table	商業	小売業売り場面積（㎡）/H28	18228		shiryo p.20	✓	auto:pdftext	2026-10-10	
 68ffe1f5f954cec8	kurashi	27	table	観光	宿泊客/H23	17400		shiryo p.20	✓	auto:pdftext	2026-10-10	
 b8b73884abc8e42d	kurashi	27	table	観光	宿泊客/H24	14200		shiryo p.20	✓	auto:pdftext	2026-10-10	
 4e0b56bbfb743f78	kurashi	27	table	観光	宿泊客/H25	17800		shiryo p.20	✓	auto:pdftext	2026-10-10	
 04a3617161fdd415	kurashi	27	table	観光	宿泊客/H26	16900		shiryo p.20	✓	auto:pdftext	2026-10-10	
-815409409ff71c16	kurashi	27	table	観光	宿泊客/H27	20000		shiryo p.20				
-cb6592803ab11209	kurashi	27	table	観光	宿泊客/H28	23500		shiryo p.20				
-661bbecebc9262df	kurashi	27	table	観光	宿泊客/H29	22200		shiryo p.20				
-a2e69cff76c36f9c	kurashi	27	table	観光	宿泊客/H30	22800		shiryo p.20				
-cb8a8e931a79527b	kurashi	27	table	観光	宿泊客/R元	24400		shiryo p.20				
-ea2c3f672f0902cd	kurashi	27	table	観光	宿泊客/R2	8500		shiryo p.20				
+815409409ff71c16	kurashi	27	table	観光	宿泊客/H27	20000		shiryo p.20	✓	auto:ai	2026-10-10	
+cb6592803ab11209	kurashi	27	table	観光	宿泊客/H28	23500		shiryo p.20	✓	auto:ai	2026-10-10	
+661bbecebc9262df	kurashi	27	table	観光	宿泊客/H29	22200		shiryo p.20	✓	auto:ai	2026-10-10	
+a2e69cff76c36f9c	kurashi	27	table	観光	宿泊客/H30	22800		shiryo p.20	✓	auto:ai	2026-10-10	
+cb8a8e931a79527b	kurashi	27	table	観光	宿泊客/R元	24400		shiryo p.20	✓	auto:ai	2026-10-10	
+ea2c3f672f0902cd	kurashi	27	table	観光	宿泊客/R2	8500		shiryo p.20	✓	auto:ai	2026-10-10	
 33ab1fef7a8087d5	kurashi	27	table	観光	日帰り客/H23	572500		shiryo p.20	✓	auto:pdftext	2026-10-10	
 ba72743af0ef73de	kurashi	27	table	観光	日帰り客/H24	569800		shiryo p.20	✓	auto:pdftext	2026-10-10	
 2f59ff15c81911c9	kurashi	27	table	観光	日帰り客/H25	638600		shiryo p.20	✓	auto:pdftext	2026-10-10	
 a4c71a380b69762a	kurashi	27	table	観光	日帰り客/H26	619700		shiryo p.20	✓	auto:pdftext	2026-10-10	
-755361660acf2e05	kurashi	27	table	観光	日帰り客/H27	587900		shiryo p.20				
-79f75be5aad7508c	kurashi	27	table	観光	日帰り客/H28	558400		shiryo p.20				
-6da969bf8e093aed	kurashi	27	table	観光	日帰り客/H29	535800		shiryo p.20				
-43d84a2ee90cec54	kurashi	27	table	観光	日帰り客/H30	550800		shiryo p.20				
-5f104dfcfff3aa19	kurashi	27	table	観光	日帰り客/R元	715700		shiryo p.20				
-7266c29966dcac04	kurashi	27	table	観光	日帰り客/R2	394300		shiryo p.20				
-ee937b0a5142ad1c	kurashi	30	table	道路	日野中央線/延長（m）	2040		shiryo p.21				
-4c257b5e35038658	kurashi	30	table	道路	日野中央線/幅員（m）	14		shiryo p.21				
-dce19885d98a77bc	kurashi	30	table	道路	日野中央線/改良済（m）	1570		shiryo p.21				
-b916c8ac7949af57	kurashi	30	table	道路	日野中央線/概成済（m）	430		shiryo p.21				
-511babc8dd50c416	kurashi	30	table	道路	日野中央線/整備延長 合計（m）	2000		shiryo p.21				
-7fdb5ed779a983cb	kurashi	30	table	道路	日野中央線/整備率 改良済（%）	77		shiryo p.21				
-f3a66125016fdbaa	kurashi	30	table	道路	日野中央線/整備率 概成済（%）	21.1		shiryo p.21				
-60e6ae7cab2ffacc	kurashi	30	table	道路	日野中央線/整備率 合計（%）	98.1		shiryo p.21				
-f62d3ca0e2f96b1c	kurashi	30	table	道路	八日市日野線/延長（m）	10500		shiryo p.21				
-862d4d8893fd87f1	kurashi	30	table	道路	八日市日野線/幅員（m）	22		shiryo p.21				
-435e4bbeefd16bfb	kurashi	30	table	道路	八日市日野線/改良済（m）	490		shiryo p.21				
-68c0d75286d48da8	kurashi	30	table	道路	八日市日野線/概成済（m）	170		shiryo p.21				
-2055d71d96764db3	kurashi	30	table	道路	八日市日野線/整備延長 合計（m）	660		shiryo p.21				
-f1269aeadb9f310c	kurashi	30	table	道路	八日市日野線/整備率 改良済（%）	6.8		shiryo p.21				
-e98b4d008eb26a9d	kurashi	30	table	道路	八日市日野線/整備率 概成済（%）	2.4		shiryo p.21				
-69570d3081a9fc40	kurashi	30	table	道路	八日市日野線/整備率 合計（%）	9.2		shiryo p.21				
-3ab685740a19a7a2	kurashi	30	table	道路	松尾村井線/延長（m）	1710		shiryo p.21				
-b5b17624104c580c	kurashi	30	table	道路	松尾村井線/幅員（m）	18		shiryo p.21				
-aed310547ddd03ae	kurashi	30	table	道路	松尾村井線/改良済（m）	1710		shiryo p.21				
-f0b06ed9cf54c8ff	kurashi	30	table	道路	松尾村井線/概成済（m）	0		shiryo p.21				
-64ef2b18a1ed3aa4	kurashi	30	table	道路	松尾村井線/整備延長 合計（m）	1710		shiryo p.21				
-b9e85c4d4b4aaba7	kurashi	30	table	道路	松尾村井線/整備率 改良済（%）	100		shiryo p.21				
-ed6f15042c891564	kurashi	30	table	道路	松尾村井線/整備率 概成済（%）	0		shiryo p.21				
-307ab61c467ca40d	kurashi	30	table	道路	松尾村井線/整備率 合計（%）	100		shiryo p.21				
-c344d9f663f42255	kurashi	30	table	道路	日野松尾線/延長（m）	590		shiryo p.21				
-39bf9f15c1cea2d4	kurashi	30	table	道路	日野松尾線/幅員（m）	18		shiryo p.21				
-77b2a26a4988caf9	kurashi	30	table	道路	日野松尾線/改良済（m）	590		shiryo p.21				
-f34eeb85c5e98a00	kurashi	30	table	道路	日野松尾線/概成済（m）	0		shiryo p.21				
-97e8892841e4cdb1	kurashi	30	table	道路	日野松尾線/整備延長 合計（m）	590		shiryo p.21				
-a448b506394ff5d2	kurashi	30	table	道路	日野松尾線/整備率 改良済（%）	100		shiryo p.21				
-3d543419b94fa952	kurashi	30	table	道路	日野松尾線/整備率 概成済（%）	0		shiryo p.21				
-7b33de5f5ccbff49	kurashi	30	table	道路	日野松尾線/整備率 合計（%）	100		shiryo p.21				
-11845eb3340a33af	kurashi	30	table	道路	北脇奧之池線/延長（m）	1140		shiryo p.21				
-84e6b5395e44fafd	kurashi	30	table	道路	北脇奧之池線/幅員（m）	12		shiryo p.21				
-d6d75ac09579efd6	kurashi	30	table	道路	北脇奧之池線/改良済（m）	0		shiryo p.21				
-1e593eab37227dea	kurashi	30	table	道路	北脇奧之池線/概成済（m）	1140		shiryo p.21				
-ce58df171d4ac3ee	kurashi	30	table	道路	北脇奧之池線/整備延長 合計（m）	1140		shiryo p.21				
-c20e43f838194bd4	kurashi	30	table	道路	北脇奧之池線/整備率 改良済（%）	0		shiryo p.21				
-582a33f538a08100	kurashi	30	table	道路	北脇奧之池線/整備率 概成済（%）	100		shiryo p.21				
-bc6e0f80d93c0b37	kurashi	30	table	道路	北脇奧之池線/整備率 合計（%）	100		shiryo p.21				
-e564dfc4cf0a08e3	kurashi	37	table	公園・緑地	内池公園/面積（ha）	1.7		shiryo p.24				
-40d88fc441253f17	kurashi	37	table	公園・緑地	内池公園/整備率（%）	94.1		shiryo p.24				
-584e5c7d9b45a3b8	kurashi	37	table	公園・緑地	松尾公園/面積（ha）	1.7		shiryo p.24				
-f806e057ad42d53d	kurashi	37	table	公園・緑地	松尾公園/整備率（%）	94.1		shiryo p.24				
-f1101ebdcb34b142	kurashi	37	table	公園・緑地	大谷公園/面積（ha）	7.4		shiryo p.24				
-0b93f472becd335e	kurashi	37	table	公園・緑地	大谷公園/整備率（%）	97.3		shiryo p.24				
-ff59ebd13e6d50a6	kurashi	37	table	公園・緑地	山王公園/面積（ha）	5.8		shiryo p.24				
-afd9eda7f1a82a67	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/H28年度	16748		shiryo p.26				
-2dfa765ccd05b672	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/H29年度	16632		shiryo p.26				
-bf64e213d930387a	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/H30年度	16631		shiryo p.26				
-b2eddd93ddc63a46	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/R元年度	16665		shiryo p.26				
-1a9d4f0a04c69d16	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/R2年度	16564		shiryo p.26				
-ea59866046c38bea	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/H28年度	77.0		shiryo p.26				
-18b31ee0b9d17405	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/H29年度	77.0		shiryo p.26				
-31ffc61d4fa9bf83	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/H30年度	77.6		shiryo p.26				
-9500bb828f94dde8	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/R元年度	77.8		shiryo p.26				
-2ba02ae561e191dd	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/R2年度	78.2		shiryo p.26				
-bdf101c76837fb25	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/H28年度	4611		shiryo p.26				
-49cb5f727ca8aef0	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/H29年度	4543		shiryo p.26				
-6a4f5c8c1166dd2e	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/H30年度	4426		shiryo p.26				
-884b732c5bac2380	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/R元年度	4385		shiryo p.26				
-d19cb6919fb79c65	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/R2年度	4314		shiryo p.26				
-2010b9b34473afe7	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/H28年度	21.2		shiryo p.26				
-f42532182f45aed3	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/H29年度	21.1		shiryo p.26				
-d335c1aceb555294	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/H30年度	20.7		shiryo p.26				
-d1f1e9aaadc3299b	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/R元年度	20.5		shiryo p.26				
-c18ba7ee7514ec88	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/R2年度	20.4		shiryo p.26				
+755361660acf2e05	kurashi	27	table	観光	日帰り客/H27	587900		shiryo p.20	✓	auto:ai	2026-10-10	
+79f75be5aad7508c	kurashi	27	table	観光	日帰り客/H28	558400		shiryo p.20	✓	auto:ai	2026-10-10	
+6da969bf8e093aed	kurashi	27	table	観光	日帰り客/H29	535800		shiryo p.20	✓	auto:ai	2026-10-10	
+43d84a2ee90cec54	kurashi	27	table	観光	日帰り客/H30	550800		shiryo p.20	✓	auto:ai	2026-10-10	
+5f104dfcfff3aa19	kurashi	27	table	観光	日帰り客/R元	715700		shiryo p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+7266c29966dcac04	kurashi	27	table	観光	日帰り客/R2	394300		shiryo p.20	✓	auto:ai	2026-10-10	
+ee937b0a5142ad1c	kurashi	30	table	道路	日野中央線/延長（m）	2040		shiryo p.21	✓	auto:ai	2026-10-10	
+4c257b5e35038658	kurashi	30	table	道路	日野中央線/幅員（m）	14		shiryo p.21	✓	auto:ai	2026-10-10	
+dce19885d98a77bc	kurashi	30	table	道路	日野中央線/改良済（m）	1570		shiryo p.21	✓	auto:ai	2026-10-10	
+b916c8ac7949af57	kurashi	30	table	道路	日野中央線/概成済（m）	430		shiryo p.21	✓	auto:ai	2026-10-10	
+511babc8dd50c416	kurashi	30	table	道路	日野中央線/整備延長 合計（m）	2000		shiryo p.21	✓	auto:ai	2026-10-10	
+7fdb5ed779a983cb	kurashi	30	table	道路	日野中央線/整備率 改良済（%）	77		shiryo p.21	✓	auto:ai	2026-10-10	
+f3a66125016fdbaa	kurashi	30	table	道路	日野中央線/整備率 概成済（%）	21.1		shiryo p.21	✓	auto:ai	2026-10-10	
+60e6ae7cab2ffacc	kurashi	30	table	道路	日野中央線/整備率 合計（%）	98.1		shiryo p.21	✓	auto:ai	2026-10-10	
+f62d3ca0e2f96b1c	kurashi	30	table	道路	八日市日野線/延長（m）	10500		shiryo p.21	✓	auto:ai	2026-10-10	
+862d4d8893fd87f1	kurashi	30	table	道路	八日市日野線/幅員（m）	22		shiryo p.21	✓	auto:ai	2026-10-10	
+435e4bbeefd16bfb	kurashi	30	table	道路	八日市日野線/改良済（m）	490		shiryo p.21	✓	auto:ai	2026-10-10	
+68c0d75286d48da8	kurashi	30	table	道路	八日市日野線/概成済（m）	170		shiryo p.21	✓	auto:ai	2026-10-10	
+2055d71d96764db3	kurashi	30	table	道路	八日市日野線/整備延長 合計（m）	660		shiryo p.21	✓	auto:ai	2026-10-10	
+f1269aeadb9f310c	kurashi	30	table	道路	八日市日野線/整備率 改良済（%）	6.8		shiryo p.21	✓	auto:ai	2026-10-10	
+e98b4d008eb26a9d	kurashi	30	table	道路	八日市日野線/整備率 概成済（%）	2.4		shiryo p.21	✓	auto:ai	2026-10-10	
+69570d3081a9fc40	kurashi	30	table	道路	八日市日野線/整備率 合計（%）	9.2		shiryo p.21	✓	auto:ai	2026-10-10	
+3ab685740a19a7a2	kurashi	30	table	道路	松尾村井線/延長（m）	1710		shiryo p.21	✓	auto:ai	2026-10-10	
+b5b17624104c580c	kurashi	30	table	道路	松尾村井線/幅員（m）	18		shiryo p.21	✓	auto:ai	2026-10-10	
+aed310547ddd03ae	kurashi	30	table	道路	松尾村井線/改良済（m）	1710		shiryo p.21	✓	auto:ai	2026-10-10	
+f0b06ed9cf54c8ff	kurashi	30	table	道路	松尾村井線/概成済（m）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+64ef2b18a1ed3aa4	kurashi	30	table	道路	松尾村井線/整備延長 合計（m）	1710		shiryo p.21	✓	auto:ai	2026-10-10	
+b9e85c4d4b4aaba7	kurashi	30	table	道路	松尾村井線/整備率 改良済（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+ed6f15042c891564	kurashi	30	table	道路	松尾村井線/整備率 概成済（%）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+307ab61c467ca40d	kurashi	30	table	道路	松尾村井線/整備率 合計（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+c344d9f663f42255	kurashi	30	table	道路	日野松尾線/延長（m）	590		shiryo p.21	✓	auto:ai	2026-10-10	
+39bf9f15c1cea2d4	kurashi	30	table	道路	日野松尾線/幅員（m）	18		shiryo p.21	✓	auto:ai	2026-10-10	
+77b2a26a4988caf9	kurashi	30	table	道路	日野松尾線/改良済（m）	590		shiryo p.21	✓	auto:ai	2026-10-10	
+f34eeb85c5e98a00	kurashi	30	table	道路	日野松尾線/概成済（m）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+97e8892841e4cdb1	kurashi	30	table	道路	日野松尾線/整備延長 合計（m）	590		shiryo p.21	✓	auto:ai	2026-10-10	
+a448b506394ff5d2	kurashi	30	table	道路	日野松尾線/整備率 改良済（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+3d543419b94fa952	kurashi	30	table	道路	日野松尾線/整備率 概成済（%）	0		shiryo p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+7b33de5f5ccbff49	kurashi	30	table	道路	日野松尾線/整備率 合計（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+11845eb3340a33af	kurashi	30	table	道路	北脇奧之池線/延長（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
+84e6b5395e44fafd	kurashi	30	table	道路	北脇奧之池線/幅員（m）	12		shiryo p.21	✓	auto:ai	2026-10-10	
+d6d75ac09579efd6	kurashi	30	table	道路	北脇奧之池線/改良済（m）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+1e593eab37227dea	kurashi	30	table	道路	北脇奧之池線/概成済（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
+ce58df171d4ac3ee	kurashi	30	table	道路	北脇奧之池線/整備延長 合計（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
+c20e43f838194bd4	kurashi	30	table	道路	北脇奧之池線/整備率 改良済（%）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+582a33f538a08100	kurashi	30	table	道路	北脇奧之池線/整備率 概成済（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+bc6e0f80d93c0b37	kurashi	30	table	道路	北脇奧之池線/整備率 合計（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+e564dfc4cf0a08e3	kurashi	37	table	公園・緑地	内池公園/面積（ha）	1.7		shiryo p.24	✓	auto:ai	2026-10-10	
+40d88fc441253f17	kurashi	37	table	公園・緑地	内池公園/整備率（%）	94.1		shiryo p.24	✓	auto:ai	2026-10-10	
+584e5c7d9b45a3b8	kurashi	37	table	公園・緑地	松尾公園/面積（ha）	1.7		shiryo p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+f806e057ad42d53d	kurashi	37	table	公園・緑地	松尾公園/整備率（%）	94.1		shiryo p.24	✓	auto:ai	2026-10-10	
+f1101ebdcb34b142	kurashi	37	table	公園・緑地	大谷公園/面積（ha）	7.4		shiryo p.24	✓	auto:ai	2026-10-10	
+0b93f472becd335e	kurashi	37	table	公園・緑地	大谷公園/整備率（%）	97.3		shiryo p.24	✓	auto:ai	2026-10-10	
+ff59ebd13e6d50a6	kurashi	37	table	公園・緑地	山王公園/面積（ha）	5.8		shiryo p.24	✓	auto:ai	2026-10-10	
+afd9eda7f1a82a67	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/H28年度	16748		shiryo p.26	✓	auto:ai	2026-10-10	
+2dfa765ccd05b672	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/H29年度	16632		shiryo p.26	✓	auto:ai	2026-10-10	
+bf64e213d930387a	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/H30年度	16631		shiryo p.26	✓	auto:ai	2026-10-10	
+b2eddd93ddc63a46	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/R元年度	16665		shiryo p.26	✓	auto:ai	2026-10-10	
+1a9d4f0a04c69d16	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	処理区域内人口（人）/R2年度	16564		shiryo p.26	✓	auto:ai	2026-10-10	
+ea59866046c38bea	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/H28年度	77.0		shiryo p.26	✓	auto:ai	2026-10-10	
+18b31ee0b9d17405	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/H29年度	77.0		shiryo p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+31ffc61d4fa9bf83	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/H30年度	77.6		shiryo p.26	✓	auto:ai	2026-10-10	
+9500bb828f94dde8	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/R元年度	77.8		shiryo p.26	✓	auto:ai	2026-10-10	
+2ba02ae561e191dd	kurashi	40	table	下水道整備の状況【公共下水道・特定環境保全公共下水道】	普及率（%）/R2年度	78.2		shiryo p.26	✓	auto:ai	2026-10-10	
+bdf101c76837fb25	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/H28年度	4611		shiryo p.26	✓	auto:ai	2026-10-10	
+49cb5f727ca8aef0	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/H29年度	4543		shiryo p.26	✓	auto:ai	2026-10-10	
+6a4f5c8c1166dd2e	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/H30年度	4426		shiryo p.26	✓	auto:ai	2026-10-10	
+884b732c5bac2380	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/R元年度	4385		shiryo p.26	✓	auto:ai	2026-10-10	
+d19cb6919fb79c65	kurashi	41	table	下水道整備の状況【農村下水道】	処理区域内人口（人）/R2年度	4314		shiryo p.26	✓	auto:ai	2026-10-10	
+2010b9b34473afe7	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/H28年度	21.2		shiryo p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+f42532182f45aed3	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/H29年度	21.1		shiryo p.26	✓	auto:ai	2026-10-10	
+d335c1aceb555294	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/H30年度	20.7		shiryo p.26	✓	auto:ai	2026-10-10	
+d1f1e9aaadc3299b	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/R元年度	20.5		shiryo p.26	✓	auto:ai	2026-10-10	
+c18ba7ee7514ec88	kurashi	41	table	下水道整備の状況【農村下水道】	普及率（%）/R2年度	20.4		shiryo p.26	✓	auto:ai	2026-10-10	

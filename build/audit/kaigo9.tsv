@@ -1,0 +1,1901 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	kpi		総人口	20878	人	honpen p.4
+summary	3	kpi		65歳以上の人口	6529	人	honpen p.4
+summary	3	kpi		高齢化率	31.3	%	honpen p.4
+summary	3	kpi		75歳以上の人口	3531	人	honpen p.4
+summary	4	kpi		要支援・要介護の認定者数	1078	人	honpen p.7
+summary	4	kpi		認定率（65歳以上人口に対する割合）	16.5	%	honpen p.7
+summary	5	kpi		介護保険料の基準額（月額）	6200	円	honpen p.59
+summary	5	kpi		介護保険料の基準額（年額）	74400	円	honpen p.59
+genjo	4	chart.stacked	年齢区分別の人口の推移	H30/後期高齢者（75歳以上）	3243	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	H30/前期高齢者（65〜74歳）	3090	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	H30/40〜64歳	6790	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	H30/0〜39歳	8405	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R1/後期高齢者（75歳以上）	3317	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R1/前期高齢者（65〜74歳）	3076	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R1/40〜64歳	6772	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R1/0〜39歳	8353	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R2/後期高齢者（75歳以上）	3311	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R2/前期高齢者（65〜74歳）	3158	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R2/40〜64歳	6703	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R2/0〜39歳	8150	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R3/後期高齢者（75歳以上）	3351	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R3/前期高齢者（65〜74歳）	3172	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R3/40〜64歳	6672	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R3/0〜39歳	7941	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R4/後期高齢者（75歳以上）	3429	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R4/前期高齢者（65〜74歳）	3111	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R4/40〜64歳	6663	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R4/0〜39歳	7828	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R5/後期高齢者（75歳以上）	3531	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R5/前期高齢者（65〜74歳）	2998	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R5/40〜64歳	6649	人	honpen p.4
+genjo	4	chart.stacked	年齢区分別の人口の推移	R5/0〜39歳	7700	人	honpen p.4
+genjo	5	table	人口の推移（表）	総人口/H30	21528		honpen p.5
+genjo	5	table	人口の推移（表）	総人口/R1	21518		honpen p.5
+genjo	5	table	人口の推移（表）	総人口/R2	21322		honpen p.5
+genjo	5	table	人口の推移（表）	総人口/R3	21136		honpen p.5
+genjo	5	table	人口の推移（表）	総人口/R4	21031		honpen p.5
+genjo	5	table	人口の推移（表）	総人口/R5	20878		honpen p.5
+genjo	5	table	人口の推移（表）	0〜14歳/H30	2713		honpen p.5
+genjo	5	table	人口の推移（表）	0〜14歳/R1	2701		honpen p.5
+genjo	5	table	人口の推移（表）	0〜14歳/R2	2654		honpen p.5
+genjo	5	table	人口の推移（表）	0〜14歳/R3	2576		honpen p.5
+genjo	5	table	人口の推移（表）	0〜14歳/R4	2547		honpen p.5
+genjo	5	table	人口の推移（表）	0〜14歳/R5	2510		honpen p.5
+genjo	5	table	人口の推移（表）	15〜39歳/H30	5692		honpen p.5
+genjo	5	table	人口の推移（表）	15〜39歳/R1	5652		honpen p.5
+genjo	5	table	人口の推移（表）	15〜39歳/R2	5496		honpen p.5
+genjo	5	table	人口の推移（表）	15〜39歳/R3	5365		honpen p.5
+genjo	5	table	人口の推移（表）	15〜39歳/R4	5281		honpen p.5
+genjo	5	table	人口の推移（表）	15〜39歳/R5	5190		honpen p.5
+genjo	5	table	人口の推移（表）	40〜64歳/H30	6790		honpen p.5
+genjo	5	table	人口の推移（表）	40〜64歳/R1	6772		honpen p.5
+genjo	5	table	人口の推移（表）	40〜64歳/R2	6703		honpen p.5
+genjo	5	table	人口の推移（表）	40〜64歳/R3	6672		honpen p.5
+genjo	5	table	人口の推移（表）	40〜64歳/R4	6663		honpen p.5
+genjo	5	table	人口の推移（表）	40〜64歳/R5	6649		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上/H30	6333		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上/R1	6393		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上/R2	6469		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上/R3	6523		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上/R4	6540		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上/R5	6529		honpen p.5
+genjo	5	table	人口の推移（表）	65〜74歳/H30	3090		honpen p.5
+genjo	5	table	人口の推移（表）	65〜74歳/R1	3076		honpen p.5
+genjo	5	table	人口の推移（表）	65〜74歳/R2	3158		honpen p.5
+genjo	5	table	人口の推移（表）	65〜74歳/R3	3172		honpen p.5
+genjo	5	table	人口の推移（表）	65〜74歳/R4	3111		honpen p.5
+genjo	5	table	人口の推移（表）	65〜74歳/R5	2998		honpen p.5
+genjo	5	table	人口の推移（表）	75〜84歳/H30	1996		honpen p.5
+genjo	5	table	人口の推移（表）	75〜84歳/R1	2040		honpen p.5
+genjo	5	table	人口の推移（表）	75〜84歳/R2	2015		honpen p.5
+genjo	5	table	人口の推移（表）	75〜84歳/R3	2024		honpen p.5
+genjo	5	table	人口の推移（表）	75〜84歳/R4	2099		honpen p.5
+genjo	5	table	人口の推移（表）	75〜84歳/R5	2236		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上/H30	1247		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上/R1	1277		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上/R2	1296		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上/R3	1327		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上/R4	1330		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上/R5	1295		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上の割合（%）/H30	29.4		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上の割合（%）/R1	29.7		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上の割合（%）/R2	30.3		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上の割合（%）/R3	30.9		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上の割合（%）/R4	31.1		honpen p.5
+genjo	5	table	人口の推移（表）	65歳以上の割合（%）/R5	31.3		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上の割合（%）/H30	5.8		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上の割合（%）/R1	5.9		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上の割合（%）/R2	6.1		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上の割合（%）/R3	6.3		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上の割合（%）/R4	6.3		honpen p.5
+genjo	5	table	人口の推移（表）	85歳以上の割合（%）/R5	6.2		honpen p.5
+genjo	8	chart.stacked100	一般世帯における高齢者のいる世帯の割合（令和2年）	日野町/高齢者のいる世帯	49.9	%	honpen p.6
+genjo	8	chart.stacked100	一般世帯における高齢者のいる世帯の割合（令和2年）	日野町/高齢者のいない世帯	50.1	%	honpen p.6
+genjo	8	chart.stacked100	一般世帯における高齢者のいる世帯の割合（令和2年）	滋賀県/高齢者のいる世帯	40.6	%	honpen p.6
+genjo	8	chart.stacked100	一般世帯における高齢者のいる世帯の割合（令和2年）	滋賀県/高齢者のいない世帯	59.4	%	honpen p.6
+genjo	8	chart.stacked100	一般世帯における高齢者のいる世帯の割合（令和2年）	全国/高齢者のいる世帯	40.7	%	honpen p.6
+genjo	8	chart.stacked100	一般世帯における高齢者のいる世帯の割合（令和2年）	全国/高齢者のいない世帯	59.3	%	honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/一般世帯数	7918		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/うち高齢者のいる世帯	3950		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/単独世帯・親族世帯	3937		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/単独世帯	733		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/夫婦のみ世帯	1084		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/その他の親族同居世帯	2120		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（世帯）/その他世帯	13		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/一般世帯数	100.0		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/うち高齢者のいる世帯	49.9		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/単独世帯・親族世帯	49.7		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/単独世帯	9.3		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/夫婦のみ世帯	13.7		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/その他の親族同居世帯	26.8		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	日野町（%）/その他世帯	0.2		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/一般世帯数	570529		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/うち高齢者のいる世帯	231504		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/単独世帯・親族世帯	230197		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/単独世帯	53625		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/夫婦のみ世帯	73220		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/その他の親族同居世帯	103352		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（世帯）/その他世帯	1307		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/一般世帯数	100.0		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/うち高齢者のいる世帯	40.6		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/単独世帯・親族世帯	40.3		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/単独世帯	9.4		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/夫婦のみ世帯	12.8		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/その他の親族同居世帯	18.1		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	滋賀県（%）/その他世帯	0.2		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/一般世帯数	55704949		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/うち高齢者のいる世帯	22655031		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/単独世帯・親族世帯	22524170		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/単独世帯	6716806		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/夫婦のみ世帯	6848041		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/その他の親族同居世帯	8959323		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（世帯）/その他世帯	130861		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/一般世帯数	100.0		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/うち高齢者のいる世帯	40.7		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/単独世帯・親族世帯	40.4		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/単独世帯	12.1		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/夫婦のみ世帯	12.3		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/その他の親族同居世帯	16.1		honpen p.6
+genjo	9	table	高齢者のいる世帯の状況（令和2年）	全国（%）/その他世帯	0.2		honpen p.6
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要支援1	74	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要支援2	104	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要介護1	220	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要介護2	226	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要介護3	156	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要介護4	140	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	H30/要介護5	122	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要支援1	79	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要支援2	105	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要介護1	253	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要介護2	228	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要介護3	149	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要介護4	147	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R1/要介護5	105	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要支援1	91	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要支援2	101	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要介護1	244	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要介護2	223	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要介護3	167	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要介護4	133	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R2/要介護5	103	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要支援1	87	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要支援2	110	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要介護1	241	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要介護2	223	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要介護3	161	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要介護4	164	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R3/要介護5	90	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要支援1	80	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要支援2	122	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要介護1	247	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要介護2	197	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要介護3	196	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要介護4	169	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R4/要介護5	94	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要支援1	84	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要支援2	103	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要介護1	243	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要介護2	214	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要介護3	203	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要介護4	140	人	honpen p.8
+genjo	12	chart.stacked	要支援・要介護度別の認定者数	R5/要介護5	91	人	honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定者数（人）/H30	1042		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定者数（人）/R1	1066		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定者数（人）/R2	1062		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定者数（人）/R3	1076		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定者数（人）/R4	1105		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定者数（人）/R5	1078		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定率（%）/H30	16.5		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定率（%）/R1	16.7		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定率（%）/R2	16.4		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定率（%）/R3	16.5		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定率（%）/R4	16.9		honpen p.8
+genjo	13	table	要支援・要介護の認定者	認定率（%）/R5	16.5		honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	40〜64歳	0.2	%	honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	65〜69歳	1.4	%	honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	70〜74歳	4.4	%	honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	75〜79歳	8.7	%	honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	80〜84歳	18.3	%	honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	85〜89歳	40.4	%	honpen p.8
+genjo	14	chart.bars	年齢別の認定者の出現率（令和5年）	90歳以上	68.5	%	honpen p.8
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	高島市	35.9	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	多賀町	33.9	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	甲良町	33.3	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	日野町	30.6	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	米原市	29.7	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	長浜市	28.5	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	甲賀市	28.2	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	竜王町	28.1	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	豊郷町	27.8	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	近江八幡市	27.7	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	東近江市	26.8	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	大津市	26.2	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	野洲市	26.1	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	彦根市	24.9	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	湖南市	24.6	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	愛荘町	22.0	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	守山市	21.7	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	草津市	20.9	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	栗東市	19.1	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	全国	28.0	%	honpen p.9
+genjo	17	chart.rank	高齢化率の県内比較（令和2年）	滋賀県	25.8	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	高島市	20.5	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	甲良町	20.4	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	豊郷町	20.2	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	大津市	20.1	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	長浜市	19.9	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	米原市	19.6	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	彦根市	18.8	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	草津市	18.1	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	野洲市	18.1	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	愛荘町	17.7	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	守山市	17.6	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	甲賀市	17.6	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	日野町	16.4	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	竜王町	16.4	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	栗東市	16.2	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	東近江市	15.6	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	多賀町	15.4	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	近江八幡市	14.9	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	湖南市	14.8	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	全国	19.4	%	honpen p.9
+genjo	18	chart.rank	要支援・要介護認定率の県内比較（令和5年）	滋賀県	18.3	%	honpen p.9
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	多賀町	4.1	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	高島市	3.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	米原市	3.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	日野町	3.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	甲良町	3.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	豊郷町	3.4	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	愛荘町	3.4	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	長浜市	3.3	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	野洲市	3.1	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	甲賀市	3.0	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	湖南市	2.8	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	東近江市	2.8	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	彦根市	2.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	草津市	2.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	近江八幡市	2.5	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	守山市	2.5	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	栗東市	2.5	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	竜王町	2.3	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	大津市	2.1	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	全国	2.7	%	honpen p.10
+genjo	19	chart.rank	施設サービスの受給率（令和4年）	滋賀県	2.8	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	大津市	1.1	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	竜王町	0.9	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	愛荘町	0.8	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	近江八幡市	0.8	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	甲賀市	0.8	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	豊郷町	0.8	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	多賀町	0.7	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	彦根市	0.7	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	長浜市	0.7	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	高島市	0.7	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	守山市	0.7	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	米原市	0.7	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	草津市	0.6	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	野洲市	0.6	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	日野町	0.6	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	甲良町	0.6	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	東近江市	0.5	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	湖南市	0.4	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	栗東市	0.4	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	全国	1.2	%	honpen p.10
+genjo	20	chart.rank	居住系サービスの受給率（令和4年）	滋賀県	0.8	%	honpen p.10
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	米原市	12.7	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	甲良町	11.8	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	長浜市	11.7	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	高島市	11.7	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	大津市	11.6	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	豊郷町	11.4	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	守山市	11.3	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	彦根市	11.1	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	栗東市	10.4	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	野洲市	10.4	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	草津市	10.3	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	甲賀市	10.1	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	日野町	9.8	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	竜王町	9.6	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	愛荘町	9.6	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	近江八幡市	9.5	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	東近江市	9.2	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	湖南市	8.5	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	多賀町	8.4	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	全国	10.4	%	honpen p.11
+genjo	21	chart.rank	在宅サービスの受給率（令和4年）	滋賀県	10.7	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	H27	104	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	H28	103	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	H29	99	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	H30	94	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	R元	94	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	R2	93	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	R3	91	%	honpen p.11
+genjo	24	chart.bars	総給付費の計画値に対する実績の比率	R4	86	%	honpen p.11
+chosa	3	table	アンケート調査の概要	①介護予防・日常生活圏域ニーズ調査/配布数	1800		honpen p.12
+chosa	3	table	アンケート調査の概要	①介護予防・日常生活圏域ニーズ調査/回収数	1221		honpen p.12
+chosa	3	table	アンケート調査の概要	①介護予防・日常生活圏域ニーズ調査/回収率（%）	67.8		honpen p.12
+chosa	3	table	アンケート調査の概要	②在宅介護実態調査/配布数	875		honpen p.12
+chosa	3	table	アンケート調査の概要	②在宅介護実態調査/回収数	506		honpen p.12
+chosa	3	table	アンケート調査の概要	②在宅介護実態調査/回収率（%）	57.8		honpen p.12
+chosa	3	table	アンケート調査の概要	③事業所調査/配布数	14		honpen p.12
+chosa	3	table	アンケート調査の概要	③事業所調査/回収数	9		honpen p.12
+chosa	3	table	アンケート調査の概要	③事業所調査/回収率（%）	64.3		honpen p.12
+chosa	3	table	アンケート調査の概要	④介護支援専門員調査/配布数	19		honpen p.12
+chosa	3	table	アンケート調査の概要	④介護支援専門員調査/回収数	19		honpen p.12
+chosa	3	table	アンケート調査の概要	④介護支援専門員調査/回収率（%）	100.0		honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	家計の状況/改善した	2.3	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	家計の状況/悪化した	16.2	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	家計の状況/変化なし	76.5	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	家計の状況/無回答	5.0	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	身体的な健康状態/改善した	1.6	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	身体的な健康状態/悪化した	11.9	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	身体的な健康状態/変化なし	81.7	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	身体的な健康状態/無回答	4.8	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	精神的なストレスの状況/改善した	1.7	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	精神的なストレスの状況/悪化した	24.7	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	精神的なストレスの状況/変化なし	68.9	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	精神的なストレスの状況/無回答	4.8	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	通院や買い物などの外出状況/改善した	3.6	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	通院や買い物などの外出状況/悪化した	18.0	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	通院や買い物などの外出状況/変化なし	73.8	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	通院や買い物などの外出状況/無回答	4.6	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	趣味活動の状況/改善した	2.9	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	趣味活動の状況/悪化した	22.3	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	趣味活動の状況/変化なし	69.6	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	趣味活動の状況/無回答	5.2	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	地域の人との関係・交流/改善した	3.2	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	地域の人との関係・交流/悪化した	35.9	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	地域の人との関係・交流/変化なし	56.3	%	honpen p.12
+chosa	6	chart.stacked100	【ニーズ調査】新型コロナウイルス感染症の影響による変化	地域の人との関係・交流/無回答	4.7	%	honpen p.12
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	高齢者が知識や経験を活かして働くことができる場の確保	14.7	%	honpen p.13
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	地域社会に貢献することができるようなボランティア活動への支援	5.8	%	honpen p.13
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	趣味やスポーツ、生涯学習などへの参加しやすい機会づくり	24.9	%	honpen p.13
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	多世代にわたる住民が交流できる機会や場の確保	13.2	%	honpen p.13
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	その他	2.7	%	honpen p.13
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	特にない	21.2	%	honpen p.13
+chosa	9	chart.rank	【ニーズ調査】生きがいを持って暮らすために望むこと	無回答	17.4	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	自治会・町内会・老人会	14.1	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	社会福祉協議会・民生委員	18.2	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	ケアマネジャー	7.3	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	医師・歯科医師・看護師	27.4	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	地域包括支援センター・役場	13.6	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	その他	4.8	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	そのような人はいない	33.5	%	honpen p.13
+chosa	12	chart.rank	【ニーズ調査】家族や友人・知人以外の相談相手	無回答	8.3	%	honpen p.13
+chosa	15	chart.rank	【ニーズ調査】かかりつけの医療機関を決めているか	大きな病院に決めている	29.0	%	honpen p.13
+chosa	15	chart.rank	【ニーズ調査】かかりつけの医療機関を決めているか	診療所（医院）に決めている	55.9	%	honpen p.13
+chosa	15	chart.rank	【ニーズ調査】かかりつけの医療機関を決めているか	決めていない	12.0	%	honpen p.13
+chosa	15	chart.rank	【ニーズ調査】かかりつけの医療機関を決めているか	無回答	3.2	%	honpen p.13
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	日中の排泄	12.4	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	夜間の排泄	15.1	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	食事の介助（食べる時）	4.7	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	入浴・洗身	10.1	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	身だしなみ（洗顔・歯磨き等）	0.9	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	衣服の着脱	2.1	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	屋内の移乗・移動	4.7	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	外出の付き添い、送迎等	15.4	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	服薬	4.1	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	認知症状への対応	25.7	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	医療面での対応（経管栄養、ストーマ 等）	2.4	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	食事の準備（調理等）	8.0	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	その他の家事（掃除、洗濯、買い物 等）	7.7	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	金銭管理や生活面に必要な諸手続き	7.4	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	その他	4.4	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	不安に感じていることは、特にない	2.7	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	主な介護者に確認しないと、わからない	0.0	%	honpen p.14
+chosa	18	chart.rank	【在宅介護実態調査】介護者が不安に感じる介護	無回答	43.2	%	honpen p.14
+chosa	21	chart.rank	【ニーズ調査】成年後見制度を知っているか	知っている	20.5	%	honpen p.14
+chosa	21	chart.rank	【ニーズ調査】成年後見制度を知っているか	聞いたことはあるが、詳しくは知らない	50.0	%	honpen p.14
+chosa	21	chart.rank	【ニーズ調査】成年後見制度を知っているか	聞いたこともない	26.0	%	honpen p.14
+chosa	21	chart.rank	【ニーズ調査】成年後見制度を知っているか	無回答	3.5	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	自宅等で、家族だけの介護を受けて暮らしたい	6.3	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	自宅等で、家族の介護と介護保険サービスを利用しながら暮らしたい	27.2	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	自宅等で、家族に面倒をかけないように主に介護保険サービスを利用して暮らしたい	34.6	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	有料老人ホームなどの介護付きの住まいで暮らしたい	5.7	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	特別養護老人ホームなどの介護保険施設で暮らしたい	8.2	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	その他	0.9	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	わからない	11.5	%	honpen p.14
+chosa	24	chart.rank	【ニーズ調査】望む介護のあり方	無回答	5.7	%	honpen p.14
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	主な介護者が仕事を辞めた（転職除く）	10.7	%	honpen p.15
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	主な介護者以外の家族・親族が仕事を辞めた（転職除く）	1.5	%	honpen p.15
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	主な介護者が転職した	2.1	%	honpen p.15
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	主な介護者以外の家族・親族が転職した	0.9	%	honpen p.15
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	介護のために仕事を辞めた家族・親族はいない	59.5	%	honpen p.15
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	わからない	4.7	%	honpen p.15
+chosa	27	chart.rank	【在宅介護実態調査】介護のための離職の有無	無回答	21.0	%	honpen p.15
+chosa	30	chart.rank	【在宅介護実態調査】介護保険サービスの利用への影響	感染拡大によって、必要なサービスが利用できないことがあった	29.2	%	honpen p.15
+chosa	30	chart.rank	【在宅介護実態調査】介護保険サービスの利用への影響	感染拡大防止のため、必要なサービスの利用を控えたことがあった	11.5	%	honpen p.15
+chosa	30	chart.rank	【在宅介護実態調査】介護保険サービスの利用への影響	感染拡大状況に関わらず、必要なサービスを問題なく利用できた	20.4	%	honpen p.15
+chosa	30	chart.rank	【在宅介護実態調査】介護保険サービスの利用への影響	感染拡大状況に関わらず、介護保険サービスを利用する必要がなかった	13.2	%	honpen p.15
+chosa	30	chart.rank	【在宅介護実態調査】介護保険サービスの利用への影響	その他	5.1	%	honpen p.15
+chosa	30	chart.rank	【在宅介護実態調査】介護保険サービスの利用への影響	無回答	20.6	%	honpen p.15
+chosa	33	chart.rank	【事業所調査】介護職員の数は適切か	不足している	0	事業所	honpen p.15
+chosa	33	chart.rank	【事業所調査】介護職員の数は適切か	やや不足している	7	事業所	honpen p.15
+chosa	33	chart.rank	【事業所調査】介護職員の数は適切か	過不足なく適切	2	事業所	honpen p.15
+chosa	33	chart.rank	【事業所調査】介護職員の数は適切か	やや多すぎる	0	事業所	honpen p.15
+chosa	33	chart.rank	【事業所調査】介護職員の数は適切か	多すぎる	0	事業所	honpen p.15
+chosa	33	chart.rank	【事業所調査】介護職員の数は適切か	無回答	0	事業所	honpen p.15
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	調理や掃除、洗濯やゴミ出し等の家事支援	68.4	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	通院や買い物、サロン等への移動支援	94.7	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	外出時の同行支援	68.4	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	買い物や各種手続き等の代行支援	63.2	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	地域のサロンなどの通いの場	26.3	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	おたっしゃ教室などの運動教室	10.5	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	地域での見守り、声かけ	57.9	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	配食サービス	36.8	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	移動販売	36.8	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	その他	5.3	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	特にない	0.0	%	honpen p.16
+chosa	36	chart.rank	【事業所調査】充実すべき生活支援サービス	無回答	0.0	%	honpen p.16
+shisaku	10	target.base	目標指標	地域ケア個別会議の開催回数	3	回／年	honpen p.33
+shisaku	10	target.target	目標指標	地域ケア個別会議の開催回数	4	回／年	honpen p.33
+shisaku	10	target.base	目標指標	高齢者への相談対応件数	1271	件／年	honpen p.33
+shisaku	10	target.target	目標指標	高齢者への相談対応件数	1600	件／年	honpen p.33
+shisaku	10	target.base	目標指標	介護予防ボランティア養成数（延べ）	339	人	honpen p.33
+shisaku	10	target.target	目標指標	介護予防ボランティア養成数（延べ）	420	人	honpen p.33
+shisaku	12	target.base	目標指標	高齢者の通いの場（＝介護予防教室等）の参加率	6.9	%	honpen p.35
+shisaku	12	target.target	目標指標	高齢者の通いの場（＝介護予防教室等）の参加率	8.0	%	honpen p.35
+shisaku	12	target.base	目標指標	高齢者交流サロン開催団体数	12	団体	honpen p.35
+shisaku	12	target.target	目標指標	高齢者交流サロン開催団体数	24	団体	honpen p.35
+shisaku	14	target.base	目標指標	緊急通報システムの設置数	11	件	honpen p.37
+shisaku	14	target.target	目標指標	緊急通報システムの設置数	30	件	honpen p.37
+shisaku	14	target.base	目標指標	高齢者虐待防止に関する研修等の開催回数	1	回／年	honpen p.37
+shisaku	14	target.target	目標指標	高齢者虐待防止に関する研修等の開催回数	1	回／年	honpen p.37
+shisaku	16	target.base	目標指標	認知症キャラバンメイト数（累計）	45	人	honpen p.39
+shisaku	16	target.target	目標指標	認知症キャラバンメイト数（累計）	60	人	honpen p.39
+shisaku	16	target.base	目標指標	認知症サポーター養成講座修了者数（累計）	7971	人	honpen p.39
+shisaku	16	target.target	目標指標	認知症サポーター養成講座修了者数（累計）	9000	人	honpen p.39
+shisaku	18	target.base	目標指標	移動支援の利用者数	241	人／年	honpen p.41
+shisaku	18	target.target	目標指標	移動支援の利用者数	300	人／年	honpen p.41
+shisaku	18	target.base	目標指標	介護職員初任者研修の受講者数	0	人／年	honpen p.41
+shisaku	18	target.target	目標指標	介護職員初任者研修の受講者数	5	人／年	honpen p.41
+shisaku	18	target.base	目標指標	ケアプラン点検の実施数（介護給付適正化事業）	10	件／年	honpen p.41
+shisaku	18	target.target	目標指標	ケアプラン点検の実施数（介護給付適正化事業）	30	件／年	honpen p.41
+shisaku	18	target.base	目標指標	医療情報との突合・縦覧点検の実施割合（介護給付適正化事業）	100	%	honpen p.41
+shisaku	18	target.target	目標指標	医療情報との突合・縦覧点検の実施割合（介護給付適正化事業）	100	%	honpen p.41
+shisaku	20	programs	施策と事業	事業数	14	件	honpen p.33-34
+shisaku	21	programs	施策と事業	事業数	16	件	honpen p.35-36
+shisaku	22	programs	施策と事業	事業数	19	件	honpen p.37-38
+shisaku	23	programs	施策と事業	事業数	11	件	honpen p.39-40
+shisaku	24	programs	施策と事業	事業数	17	件	honpen p.41-42
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/後期高齢者（75歳以上）	3351	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/前期高齢者（65〜74歳）	3172	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/40〜64歳	6672	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/0〜39歳	7941	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R4/後期高齢者（75歳以上）	3429	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R4/前期高齢者（65〜74歳）	3111	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R4/40〜64歳	6663	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R4/0〜39歳	7828	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R5/後期高齢者（75歳以上）	3531	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R5/前期高齢者（65〜74歳）	2998	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R5/40〜64歳	6649	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R5/0〜39歳	7700	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R6/後期高齢者（75歳以上）	3663	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R6/前期高齢者（65〜74歳）	2877	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R6/40〜64歳	6649	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R6/0〜39歳	7573	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R7/後期高齢者（75歳以上）	3777	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R7/前期高齢者（65〜74歳）	2797	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R7/40〜64歳	6598	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R7/0〜39歳	7469	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R8/後期高齢者（75歳以上）	3844	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R8/前期高齢者（65〜74歳）	2740	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R8/40〜64歳	6566	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R8/0〜39歳	7359	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R12/後期高齢者（75歳以上）	3991	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R12/前期高齢者（65〜74歳）	2598	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R12/40〜64歳	6378	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R12/0〜39歳	6961	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R17/後期高齢者（75歳以上）	3977	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R17/前期高齢者（65〜74歳）	2429	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R17/40〜64歳	6131	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R17/0〜39歳	6546	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R22/後期高齢者（75歳以上）	3831	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R22/前期高齢者（65〜74歳）	2544	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R22/40〜64歳	5631	人	honpen p.47
+service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R22/0〜39歳	6050	人	honpen p.47
+service	6	table	将来人口の推計（表）	総数（人）/R3	21136		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R4	21031		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R5	20878		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R6	20762		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R7	20641		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R8	20509		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R12	19928		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R17	19083		honpen p.48
+service	6	table	将来人口の推計（表）	総数（人）/R22	18056		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R3	2576		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R4	2547		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R5	2510		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R6	2456		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R7	2385		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R8	2337		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R12	2123		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R17	1898		honpen p.48
+service	6	table	将来人口の推計（表）	0〜14歳（人）/R22	1734		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R3	5365		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R4	5281		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R5	5190		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R6	5117		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R7	5084		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R8	5022		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R12	4838		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R17	4648		honpen p.48
+service	6	table	将来人口の推計（表）	15〜39歳（人）/R22	4316		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R3	6672		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R4	6663		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R5	6649		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R6	6649		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R7	6598		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R8	6566		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R12	6378		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R17	6131		honpen p.48
+service	6	table	将来人口の推計（表）	40〜64歳（人）/R22	5631		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R3	6523		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R4	6540		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R5	6529		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R6	6540		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R7	6574		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R8	6584		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R12	6589		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R17	6406		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上（人）/R22	6375		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R3	3172		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R4	3111		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R5	2998		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R6	2877		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R7	2797		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R8	2740		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R12	2598		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R17	2429		honpen p.48
+service	6	table	将来人口の推計（表）	65〜74歳（人）/R22	2544		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R3	1450		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R4	1420		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R5	1395		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R6	1355		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R7	1359		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R8	1355		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R12	1303		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R17	1188		honpen p.48
+service	6	table	将来人口の推計（表）	65〜69歳（人）/R22	1417		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R3	1722		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R4	1691		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R5	1603		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R6	1522		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R7	1438		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R8	1385		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R12	1295		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R17	1241		honpen p.48
+service	6	table	将来人口の推計（表）	70〜74歳（人）/R22	1127		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R3	3351		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R4	3429		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R5	3531		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R6	3663		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R7	3777		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R8	3844		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R12	3991		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R17	3977		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上（人）/R22	3831		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R3	1107		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R4	1181		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R5	1304		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R6	1378		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R7	1525		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R8	1589		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R12	1337		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R17	1201		honpen p.48
+service	6	table	将来人口の推計（表）	75〜79歳（人）/R22	1146		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R3	917		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R4	918		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R5	932		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R6	1009		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R7	962		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R8	957		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R12	1333		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R17	1163		honpen p.48
+service	6	table	将来人口の推計（表）	80〜84歳（人）/R22	1042		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R3	760		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R4	759		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R5	710		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R6	673		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R7	690		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R8	687		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R12	731		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R17	1009		honpen p.48
+service	6	table	将来人口の推計（表）	85〜89歳（人）/R22	885		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R3	567		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R4	571		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R5	585		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R6	603		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R7	600		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R8	611		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R12	590		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R17	604		honpen p.48
+service	6	table	将来人口の推計（表）	90歳以上（人）/R22	758		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R3	30.9		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R4	31.1		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R5	31.3		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R6	31.5		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R7	31.8		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R8	32.1		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R12	33.1		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R17	33.6		honpen p.48
+service	6	table	将来人口の推計（表）	65歳以上の割合（%）/R22	35.3		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R3	15.9		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R4	16.3		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R5	16.9		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R6	17.6		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R7	18.3		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R8	18.7		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R12	20.0		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R17	20.8		honpen p.48
+service	6	table	将来人口の推計（表）	75歳以上の割合（%）/R22	21.2		honpen p.48
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R3	6523		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R4	6540		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R5	6529		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R6	6540		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R7	6574		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R8	6584		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R12	6589		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R17	6406		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	第1号被保険者数（人）/R22	6375		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R3	1076		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R4	1105		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R5	1078		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R6	1097		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R7	1106		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R8	1113		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R12	1154		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R17	1231		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定者数（人）/R22	1238		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R3	87		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R4	80		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R5	84		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R6	83		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R7	84		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R8	83		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R12	89		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R17	97		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援1（人）/R22	94		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R3	110		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R4	122		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R5	103		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R6	108		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R7	110		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R8	109		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R12	119		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R17	119		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要支援2（人）/R22	116		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R3	241		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R4	247		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R5	243		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R6	249		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R7	248		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R8	251		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R12	262		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R17	285		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護1（人）/R22	286		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R3	223		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R4	197		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R5	214		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R6	211		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R7	216		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R8	217		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R12	223		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R17	238		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護2（人）/R22	237		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R3	161		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R4	196		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R5	203		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R6	215		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R7	219		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R8	222		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R12	228		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R17	247		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護3（人）/R22	253		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R3	164		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R4	169		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R5	140		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R6	140		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R7	137		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R8	138		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R12	138		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R17	146		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護4（人）/R22	152		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R3	90		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R4	94		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R5	91		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R6	91		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R7	92		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R8	93		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R12	95		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R17	99		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	要介護5（人）/R22	100		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R3	16.5		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R4	16.9		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R5	16.5		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R6	16.8		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R7	16.8		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R8	16.9		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R12	17.5		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R17	19.2		honpen p.50
+service	9	table	要支援・要介護の認定者数の推計	認定率（%）/R22	19.4		honpen p.50
+service	12	table	わたむき圏域の現況	日野地区/面積（㎢）	12.00		honpen p.45
+service	12	table	わたむき圏域の現況	日野地区/人口（人）	8224		honpen p.45
+service	12	table	わたむき圏域の現況	日野地区/世帯数（世帯）	3548		honpen p.45
+service	12	table	わたむき圏域の現況	日野地区/高齢者人口（人）	1982		honpen p.45
+service	12	table	わたむき圏域の現況	日野地区/高齢化率（%）	24.1		honpen p.45
+service	12	table	わたむき圏域の現況	東桜谷地区/面積（㎢）	24.50		honpen p.45
+service	12	table	わたむき圏域の現況	東桜谷地区/人口（人）	1355		honpen p.45
+service	12	table	わたむき圏域の現況	東桜谷地区/世帯数（世帯）	520		honpen p.45
+service	12	table	わたむき圏域の現況	東桜谷地区/高齢者人口（人）	620		honpen p.45
+service	12	table	わたむき圏域の現況	東桜谷地区/高齢化率（%）	45.8		honpen p.45
+service	12	table	わたむき圏域の現況	西桜谷地区/面積（㎢）	10.80		honpen p.45
+service	12	table	わたむき圏域の現況	西桜谷地区/人口（人）	1052		honpen p.45
+service	12	table	わたむき圏域の現況	西桜谷地区/世帯数（世帯）	445		honpen p.45
+service	12	table	わたむき圏域の現況	西桜谷地区/高齢者人口（人）	438		honpen p.45
+service	12	table	わたむき圏域の現況	西桜谷地区/高齢化率（%）	41.6		honpen p.45
+service	12	table	わたむき圏域の現況	西大路地区/面積（㎢）	27.63		honpen p.45
+service	12	table	わたむき圏域の現況	西大路地区/人口（人）	1834		honpen p.45
+service	12	table	わたむき圏域の現況	西大路地区/世帯数（世帯）	791		honpen p.45
+service	12	table	わたむき圏域の現況	西大路地区/高齢者人口（人）	701		honpen p.45
+service	12	table	わたむき圏域の現況	西大路地区/高齢化率（%）	38.2		honpen p.45
+service	12	table	わたむき圏域の現況	圏域計/面積（㎢）	74.93		honpen p.45
+service	12	table	わたむき圏域の現況	圏域計/人口（人）	12465		honpen p.45
+service	12	table	わたむき圏域の現況	圏域計/世帯数（世帯）	5304		honpen p.45
+service	12	table	わたむき圏域の現況	圏域計/高齢者人口（人）	3741		honpen p.45
+service	12	table	わたむき圏域の現況	圏域計/高齢化率（%）	30.0		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	日野地区/居宅介護支援事業所	4		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	日野地区/訪問介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	日野地区/通所介護	3		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	日野地区/通所リハ	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	日野地区/介護3施設（特養・老健・療養）	2		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	日野地区/地域密着型通所介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	西桜谷地区/小規模多機能型居宅介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	西大路地区/通所介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	西大路地区/認知症対応型共同生活介護	2		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/居宅介護支援事業所	4		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/訪問介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/通所介護	4		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/通所リハ	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/介護3施設（特養・老健・療養）	2		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/養護老人ホーム・ケアハウス	0		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/地域密着型通所介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/認知症対応型通所介護	0		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/小規模多機能型居宅介護	1		honpen p.45
+service	13	table	わたむき圏域の介護サービス事業所等（か所）	圏域計/認知症対応型共同生活介護	2		honpen p.45
+service	14	table	わたむき圏域の地域密着型サービスの整備見込み（か所）	看護小規模多機能型居宅介護/R7	1		honpen p.45
+service	14	table	わたむき圏域の地域密着型サービスの整備見込み（か所）	圏域計/R6	0		honpen p.45
+service	14	table	わたむき圏域の地域密着型サービスの整備見込み（か所）	圏域計/R7	1		honpen p.45
+service	14	table	わたむき圏域の地域密着型サービスの整備見込み（か所）	圏域計/R8	0		honpen p.45
+service	15	table	しゃくなげ圏域の現況	鎌掛地区/面積（㎢）	14.00		honpen p.46
+service	15	table	しゃくなげ圏域の現況	鎌掛地区/人口（人）	678		honpen p.46
+service	15	table	しゃくなげ圏域の現況	鎌掛地区/世帯数（世帯）	251		honpen p.46
+service	15	table	しゃくなげ圏域の現況	鎌掛地区/高齢者人口（人）	313		honpen p.46
+service	15	table	しゃくなげ圏域の現況	鎌掛地区/高齢化率（%）	46.2		honpen p.46
+service	15	table	しゃくなげ圏域の現況	南比都佐地区/面積（㎢）	13.90		honpen p.46
+service	15	table	しゃくなげ圏域の現況	南比都佐地区/人口（人）	2047		honpen p.46
+service	15	table	しゃくなげ圏域の現況	南比都佐地区/世帯数（世帯）	777		honpen p.46
+service	15	table	しゃくなげ圏域の現況	南比都佐地区/高齢者人口（人）	741		honpen p.46
+service	15	table	しゃくなげ圏域の現況	南比都佐地区/高齢化率（%）	36.2		honpen p.46
+service	15	table	しゃくなげ圏域の現況	必佐地区/面積（㎢）	14.80		honpen p.46
+service	15	table	しゃくなげ圏域の現況	必佐地区/人口（人）	5688		honpen p.46
+service	15	table	しゃくなげ圏域の現況	必佐地区/世帯数（世帯）	2421		honpen p.46
+service	15	table	しゃくなげ圏域の現況	必佐地区/高齢者人口（人）	1734		honpen p.46
+service	15	table	しゃくなげ圏域の現況	必佐地区/高齢化率（%）	30.5		honpen p.46
+service	15	table	しゃくなげ圏域の現況	圏域計/面積（㎢）	42.70		honpen p.46
+service	15	table	しゃくなげ圏域の現況	圏域計/人口（人）	8413		honpen p.46
+service	15	table	しゃくなげ圏域の現況	圏域計/世帯数（世帯）	3449		honpen p.46
+service	15	table	しゃくなげ圏域の現況	圏域計/高齢者人口（人）	2788		honpen p.46
+service	15	table	しゃくなげ圏域の現況	圏域計/高齢化率（%）	33.1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	南比都佐地区/通所介護	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	南比都佐地区/介護3施設（特養・老健・療養）	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	南比都佐地区/養護老人ホーム・ケアハウス	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	必佐地区/居宅介護支援事業所	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	必佐地区/訪問介護	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	必佐地区/認知症対応型通所介護	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/居宅介護支援事業所	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/訪問介護	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/通所介護	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/通所リハ	0		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/介護3施設（特養・老健・療養）	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/養護老人ホーム・ケアハウス	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/地域密着型通所介護	0		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/認知症対応型通所介護	1		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/小規模多機能型居宅介護	0		honpen p.46
+service	16	table	しゃくなげ圏域の介護サービス事業所等（か所）	圏域計/認知症対応型共同生活介護	0		honpen p.46
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R3	27.6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R4	41.4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R5	45.6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R6	57.7		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R7	57.7		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R8	57.7		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（回数）/R22	63.4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R3	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R4	6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R5	8		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R6	10		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R7	10		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R8	10		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問看護（人数）/R22	11		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R3	37.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R4	15.3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R5	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R6	17.6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R7	17.6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R8	17.6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（回数）/R22	17.6		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R3	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R4	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R5	0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R6	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R7	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R8	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防訪問リハビリテーション（人数）/R22	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R3	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R4	5		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R5	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R6	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R7	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R8	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防居宅療養管理指導（人数）/R22	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R3	13		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R4	11		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R5	13		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R6	15		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R7	15		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R8	15		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防通所リハビリテーション（人数）/R22	16		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R3	0.9		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R4	2.8		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R5	3.9		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R6	4.1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R7	4.1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R8	4.1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（日数）/R22	4.1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R3	0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R4	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R5	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R6	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R7	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R8	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所生活介護（人数）/R22	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R3	2.1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R4	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R5	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R6	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R7	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R8	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防短期入所療養介護（老健）（日数）/R22	0.0		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R3	103		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R4	98		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R5	96		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R6	98		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R7	101		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R8	102		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防福祉用具貸与（人数）/R22	111		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R3	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R4	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R5	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R6	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R7	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R8	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	特定介護予防福祉用具購入費（人数）/R22	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R3	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R4	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R5	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R6	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R7	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R8	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防住宅改修（人数）/R22	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R3	5.8		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R4	4.7		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R5	3.3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R6	7.3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R7	7.3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R8	7.3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（回数）/R22	7.3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R3	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R4	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R5	1		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R6	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R7	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R8	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防認知症対応型通所介護（人数）/R22	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R3	5		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R4	4		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R5	2		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R6	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R7	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R8	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防小規模多機能型居宅介護（人数）/R22	3		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R3	104		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R4	110		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R5	110		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R6	120		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R7	123		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R8	123		honpen p.51
+service	20	table	予防給付（要支援1・2）の利用量	介護予防支援（人数）/R22	132		honpen p.51
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R3	3297.6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R4	3573.6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R5	3700.7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R6	3964.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R7	4110.6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R8	4234.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（回数）/R22	4558.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R3	162		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R4	169		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R5	164		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R6	173		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R7	182		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R8	187		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問介護（人数）/R22	203		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R3	91.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R4	96.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R5	111.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R6	120.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R7	121.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R8	121.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（回数）/R22	127.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R3	16		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R4	17		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R5	21		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R6	23		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R7	23		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R8	23		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問入浴介護（人数）/R22	24		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R3	396.8		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R4	416.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R5	544.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R6	599.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R7	606.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R8	611.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（回数）/R22	655.4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R3	59		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R4	62		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R5	76		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R6	83		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R7	83		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R8	84		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問看護（人数）/R22	89		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R3	264.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R4	245.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R5	263.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R6	283.4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R7	283.4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R8	292.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（回数）/R22	311.6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R3	23		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R4	22		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R5	25		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R6	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R7	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R8	28		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	訪問リハビリテーション（人数）/R22	30		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R3	34		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R4	39		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R5	55		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R6	58		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R7	59		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R8	60		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅療養管理指導（人数）/R22	65		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R3	2632.7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R4	2502.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R5	2568.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R6	2914.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R7	2949.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R8	2999.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（回数）/R22	3301.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R3	263		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R4	265		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R5	235		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R6	266		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R7	269		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R8	273		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所介護（人数）/R22	301		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R3	643.7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R4	504.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R5	481.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R6	494.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R7	538.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R8	551.6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（回数）/R22	596.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R3	86		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R4	71		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R5	68		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R6	70		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R7	76		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R8	78		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	通所リハビリテーション（人数）/R22	84		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R3	732.7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R4	662.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R5	573.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R6	573.8		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R7	590.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R8	590.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（日数）/R22	626.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R3	80		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R4	72		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R5	80		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R6	82		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R7	84		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R8	84		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所生活介護（人数）/R22	91		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R3	228.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R4	147.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R5	122.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R6	122.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R7	122.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R8	122.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（日数）/R22	144.6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R3	25		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R4	17		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R5	15		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R6	15		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R7	15		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R8	15		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	短期入所療養介護（老健）（人数）/R22	18		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R3	351		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R4	371		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R5	377		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R6	395		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R7	397		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R8	406		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	福祉用具貸与（人数）/R22	447		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R3	6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R4	6		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R5	4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R6	5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R7	5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R8	5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定福祉用具購入費（人数）/R22	5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R3	3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R4	3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R5	2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R6	3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R7	3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R8	3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	住宅改修費（人数）/R22	3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R3	8		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R4	10		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R5	11		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R6	12		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R7	12		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R8	12		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	特定施設入居者生活介護（人数）/R22	14		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R3	210.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R4	199.4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R5	256.4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R6	264.2		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R7	278.3		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R8	298.4		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（回数）/R22	327.8		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R3	19		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R4	18		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R5	28		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R6	29		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R7	30		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R8	32		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	地域密着型通所介護（人数）/R22	35		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R3	252.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R4	246.5		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R5	216.7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R6	242.1		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R7	243.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R8	243.0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（回数）/R22	259.9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R3	26		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R4	26		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R5	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R6	30		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R7	30		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R8	30		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型通所介護（人数）/R22	32		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R3	20		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R4	19		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R5	20		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R6	22		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R7	25		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R8	26		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	小規模多機能型居宅介護（人数）/R22	23		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R3	26		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R4	26		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R5	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R6	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R7	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R8	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	認知症対応型共同生活介護（人数）/R22	27		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R3	0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R4	0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R5	0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R6	0		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R7	9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R8	18		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	看護小規模多機能型居宅介護（人数）/R22	18		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R3	138		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R4	141		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R5	150		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R6	150		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R7	150		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R8	150		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人福祉施設（人数）/R22	170		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R3	95		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R4	99		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R5	92		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R6	92		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R7	92		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R8	92		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護老人保健施設（人数）/R22	109		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R3	10		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R4	9		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R5	7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R6	7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R7	7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R8	7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	介護医療院（人数）/R22	7		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R3	491		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R4	503		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R5	494		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R6	501		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R7	507		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R8	516		honpen p.52
+service	21	table	介護給付（要介護1〜5）の利用量	居宅介護支援（人数）/R22	571		honpen p.52
+service	24	table	総給付費の見込み（千円）	予防給付費/R3	30877		honpen p.53
+service	24	table	総給付費の見込み（千円）	予防給付費/R4	28342		honpen p.53
+service	24	table	総給付費の見込み（千円）	予防給付費/R5	27799		honpen p.53
+service	24	table	総給付費の見込み（千円）	予防給付費/R6	32630		honpen p.53
+service	24	table	総給付費の見込み（千円）	予防給付費/R7	35247		honpen p.53
+service	24	table	総給付費の見込み（千円）	予防給付費/R8	35333		honpen p.53
+service	24	table	総給付費の見込み（千円）	予防給付費/R22	37411		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R3	1760731		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R4	1752561		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R5	1780926		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R6	1878072		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R7	1934067		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R8	1984047		honpen p.53
+service	24	table	総給付費の見込み（千円）	介護給付費/R22	2182951		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R3	1791608		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R4	1780903		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R5	1808725		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R6	1910702		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R7	1969314		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R8	2019380		honpen p.53
+service	24	table	総給付費の見込み（千円）	総給付費/R22	2220362		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R3	19419		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R4	17276		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R5	18791		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R6	21863		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R7	24298		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R8	24384		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（１）介護予防サービス/R22	25957		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R3	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R4	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R6	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R7	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R8	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問入浴介護/R22	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R3	1355		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R4	1704		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R5	2125		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R6	2634		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R7	2637		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R8	2637		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問看護/R22	2907		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R3	1236		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R4	442		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R6	599		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R7	600		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R8	600		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防訪問リハビリテーション/R22	600		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R3	87		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R4	285		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R5	315		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R6	320		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R7	320		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R8	320		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防居宅療養管理指導/R22	320		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R3	5712		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R4	4497		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R5	6127		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R6	7242		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R7	7251		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R8	7251		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防通所リハビリテーション/R22	7765		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R3	70		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R4	213		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R5	358		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R6	382		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R7	382		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R8	382		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所生活介護/R22	382		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R3	226		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R4	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R6	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R7	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R8	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（老健）/R22	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R3	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R4	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R6	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R7	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R8	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（病院等）/R22	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R3	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R4	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R6	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R7	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R8	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防短期入所療養介護（介護医療院）/R22	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R3	8867		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R4	8443		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R5	8408		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R6	8579		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R7	8841		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R8	8927		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防福祉用具貸与/R22	9716		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R3	551		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R4	569		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R5	194		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R6	843		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R7	843		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R8	843		honpen p.53
+service	25	table	予防給付費の内訳（千円）	特定介護予防福祉用具購入費/R22	843		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R3	1314		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R4	1123		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R5	1264		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R6	1264		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R7	3424		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R8	3424		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防住宅改修/R22	3424		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R3	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R4	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R6	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R7	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R8	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防特定施設入居者生活介護/R22	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R3	5176		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R4	4939		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R5	2924		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R6	4038		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R7	4043		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R8	4043		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（２）地域密着型介護予防サービス/R22	4043		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R3	628		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R4	475		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R5	337		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R6	769		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R7	770		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R8	770		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型通所介護/R22	770		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R3	4548		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R4	4464		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R5	2587		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R6	3269		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R7	3273		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R8	3273		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防小規模多機能型居宅介護/R22	3273		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R3	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R4	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R5	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R6	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R7	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R8	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	介護予防認知症対応型共同生活介護/R22	0		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R3	6281		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R4	6127		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R5	6083		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R6	6729		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R7	6906		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R8	6906		honpen p.53
+service	25	table	予防給付費の内訳（千円）	（３）介護予防支援/R22	7411		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R3	30877		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R4	28342		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R5	27799		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R6	32630		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R7	35247		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R8	35333		honpen p.53
+service	25	table	予防給付費の内訳（千円）	合計/R22	37411		honpen p.53
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R3	694396		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R4	673954		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R5	683775		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R6	752765		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R7	770299		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R8	784505		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（１）居宅サービス/R22	852549		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R3	125452		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R4	135428		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R5	137281		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R6	148759		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R7	154773		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R8	159370		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問介護/R22	171841		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R3	13883		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R4	14673		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R5	17017		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R6	18621		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R7	18944		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R8	18944		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問入浴介護/R22	19824		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R3	32005		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R4	33585		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R5	41935		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R6	46601		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R7	47184		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R8	47510		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問看護/R22	50703		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R3	9250		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R4	8762		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R5	9498		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R6	10346		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R7	10360		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R8	10675		honpen p.54
+service	26	table	介護給付費の内訳（千円）	訪問リハビリテーション/R22	11390		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R3	3442		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R4	3551		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R5	5197		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R6	5573		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R7	5681		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R8	5783		honpen p.54
+service	26	table	介護給付費の内訳（千円）	居宅療養管理指導/R22	6254		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R3	254171		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R4	240242		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R5	248332		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R6	286926		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R7	290814		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R8	296348		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所介護/R22	323973		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R3	64809		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R4	50423		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R5	47840		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R6	50176		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R7	54759		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R8	56421		honpen p.54
+service	26	table	介護給付費の内訳（千円）	通所リハビリテーション/R22	60335		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R3	76556		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R4	70081		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R5	60875		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R6	61678		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R7	63472		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R8	63472		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所生活介護/R22	67093		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R3	28921		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R4	18896		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R5	15615		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R6	15836		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R7	15856		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R8	15856		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（老健）/R22	18913		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R7	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R8	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（病院等）/R22	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R7	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R8	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	短期入所療養介護（介護医療院）/R22	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R3	62767		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R4	68593		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R5	69298		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R6	71899		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R7	72067		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R8	73737		honpen p.54
+service	26	table	介護給付費の内訳（千円）	福祉用具貸与/R22	80306		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R3	1864		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R4	1908		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R5	1089		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R6	1496		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R7	1496		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R8	1496		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定福祉用具購入費/R22	1496		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R3	3194		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R4	2986		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R5	1992		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R6	4152		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R7	4152		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R8	4152		honpen p.54
+service	26	table	介護給付費の内訳（千円）	住宅改修費/R22	4152		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R3	18081		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R4	24825		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R5	27806		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R6	30702		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R7	30741		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R8	30741		honpen p.54
+service	26	table	介護給付費の内訳（千円）	特定施設入居者生活介護/R22	36269		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R3	187992		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R4	182268		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R5	201935		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R6	216156		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R7	252471		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R8	286650		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（２）地域密着型サービス/R22	286778		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R7	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R8	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	定期巡回・随時対応型訪問介護看護/R22	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R7	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R8	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	夜間対応型訪問介護/R22	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R3	22138		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R4	22332		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R5	29092		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R6	30822		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R7	32029		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R8	34172		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型通所介護/R22	37725		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R3	36160		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R4	36218		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R5	31660		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R6	35966		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R7	36059		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R8	36059		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型通所介護/R22	38553		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R3	48678		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R4	44568		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R5	52509		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R6	59501		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R7	65496		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R8	68625		honpen p.54
+service	26	table	介護給付費の内訳（千円）	小規模多機能型居宅介護/R22	62706		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R3	81016		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R4	79150		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R5	88674		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R6	89867		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R7	89981		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R8	89981		honpen p.54
+service	26	table	介護給付費の内訳（千円）	認知症対応型共同生活介護/R22	89981		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R7	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R8	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型特定施設入居者生活介護/R22	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R7	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R8	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	地域密着型介護老人福祉施設入所者生活介護/R22	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R3	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R6	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R7	28906		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R8	57813		honpen p.54
+service	26	table	介護給付費の内訳（千円）	看護小規模多機能型居宅介護/R22	57813		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R3	785732		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R4	803939		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R5	810968		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R6	822417		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R7	823457		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R8	823457		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（３）施設サービス/R22	945080		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R3	436098		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R4	441153		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R5	475280		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R6	481990		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R7	482599		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R8	482599		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人福祉施設/R22	546209		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R3	303787		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R4	320276		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R5	303149		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R6	307429		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R7	307818		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R8	307818		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護老人保健施設/R22	365831		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R3	44208		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R4	42510		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R5	32539		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R6	32998		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R7	33040		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R8	33040		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護医療院/R22	33040		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護療養型医療施設/R3	1639		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護療養型医療施設/R4	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	介護療養型医療施設/R5	0		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R3	92611		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R4	92400		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R5	84248		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R6	86734		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R7	87840		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R8	89435		honpen p.54
+service	26	table	介護給付費の内訳（千円）	（４）居宅介護支援/R22	98544		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R3	1760731		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R4	1752561		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R5	1780926		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R6	1878072		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R7	1934067		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R8	1984047		honpen p.54
+service	26	table	介護給付費の内訳（千円）	合計/R22	2182951		honpen p.54
+hokenryo	6	table	標準給付費（円）	総給付費【A】/R6	1910702000		honpen p.55
+hokenryo	6	table	標準給付費（円）	総給付費【A】/R7	1969314000		honpen p.55
+hokenryo	6	table	標準給付費（円）	総給付費【A】/R8	2019380000		honpen p.55
+hokenryo	6	table	標準給付費（円）	総給付費【A】/R22	2220362000		honpen p.55
+hokenryo	6	table	標準給付費（円）	特定入所者介護サービス費等給付額（財政影響額調整後）【B】/R6	60981023		honpen p.55
+hokenryo	6	table	標準給付費（円）	特定入所者介護サービス費等給付額（財政影響額調整後）【B】/R7	61559125		honpen p.55
+hokenryo	6	table	標準給付費（円）	特定入所者介護サービス費等給付額（財政影響額調整後）【B】/R8	61948740		honpen p.55
+hokenryo	6	table	標準給付費（円）	特定入所者介護サービス費等給付額（財政影響額調整後）【B】/R22	67861084		honpen p.55
+hokenryo	6	table	標準給付費（円）	　特定入所者介護サービス費等給付額【B’】/R6	60132157		honpen p.55
+hokenryo	6	table	標準給付費（円）	　特定入所者介護サービス費等給付額【B’】/R7	60625492		honpen p.55
+hokenryo	6	table	標準給付費（円）	　特定入所者介護サービス費等給付額【B’】/R8	61009198		honpen p.55
+hokenryo	6	table	標準給付費（円）	　特定入所者介護サービス費等給付額【B’】/R22	67861084		honpen p.55
+hokenryo	6	table	標準給付費（円）	　制度改正に伴う財政影響額【B”】/R6	848866		honpen p.55
+hokenryo	6	table	標準給付費（円）	　制度改正に伴う財政影響額【B”】/R7	933633		honpen p.55
+hokenryo	6	table	標準給付費（円）	　制度改正に伴う財政影響額【B”】/R8	939542		honpen p.55
+hokenryo	6	table	標準給付費（円）	　制度改正に伴う財政影響額【B”】/R22	0		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額介護サービス費等給付額（財政影響額調整後）【C】/R6	38095116		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額介護サービス費等給付額（財政影響額調整後）【C】/R7	38462954		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額介護サービス費等給付額（財政影響額調整後）【C】/R8	38706390		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額介護サービス費等給付額（財政影響額調整後）【C】/R22	42310699		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等給付額【C’】/R6	37491791		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等給付額【C’】/R7	37799381		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等給付額【C’】/R8	38038617		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等給付額【C’】/R22	42310699		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等の見直し等に伴う財政影響額【C”】/R6	603325		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等の見直し等に伴う財政影響額【C”】/R7	663573		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等の見直し等に伴う財政影響額【C”】/R8	667773		honpen p.55
+hokenryo	6	table	標準給付費（円）	　高額介護サービス費等の見直し等に伴う財政影響額【C”】/R22	0		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額医療合算介護サービス費等給付額【D】/R6	5246733		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額医療合算介護サービス費等給付額【D】/R7	5289778		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額医療合算介護サービス費等給付額【D】/R8	5323258		honpen p.55
+hokenryo	6	table	標準給付費（円）	高額医療合算介護サービス費等給付額【D】/R22	5921108		honpen p.55
+hokenryo	6	table	標準給付費（円）	算定対象審査支払手数料【E】/R6	2003635		honpen p.55
+hokenryo	6	table	標準給付費（円）	算定対象審査支払手数料【E】/R7	2063399		honpen p.55
+hokenryo	6	table	標準給付費（円）	算定対象審査支払手数料【E】/R8	2116731		honpen p.55
+hokenryo	6	table	標準給付費（円）	算定対象審査支払手数料【E】/R22	2328920		honpen p.55
+hokenryo	6	table	標準給付費（円）	標準給付費見込額（A+B+C+D+E）/R6	2017028507		honpen p.55
+hokenryo	6	table	標準給付費（円）	標準給付費見込額（A+B+C+D+E）/R7	2076689256		honpen p.55
+hokenryo	6	table	標準給付費（円）	標準給付費見込額（A+B+C+D+E）/R8	2127475119		honpen p.55
+hokenryo	6	table	標準給付費（円）	標準給付費見込額（A+B+C+D+E）/第9期計	6221192882		honpen p.55
+hokenryo	6	table	標準給付費（円）	標準給付費見込額（A+B+C+D+E）/R22	2338783811		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	介護予防・日常生活支援総合事業費/R6	32758165		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	介護予防・日常生活支援総合事業費/R7	32936388		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	介護予防・日常生活支援総合事業費/R8	32988500		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	介護予防・日常生活支援総合事業費/R22	32124274		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（地域包括支援センターの運営）及び任意事業/R6	21574652		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（地域包括支援センターの運営）及び任意事業/R7	21752848		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（地域包括支援センターの運営）及び任意事業/R8	21805260		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（地域包括支援センターの運営）及び任意事業/R22	33411874		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（社会保障充実分）/R6	19902475		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（社会保障充実分）/R7	20005943		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（社会保障充実分）/R8	20036376		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	包括的支援事業（社会保障充実分）/R22	19869000		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	地域支援事業費/R6	74235292		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	地域支援事業費/R7	74695179		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	地域支援事業費/R8	74830136		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	地域支援事業費/第9期計	223760607		honpen p.55
+hokenryo	7	table	地域支援事業費（円）	地域支援事業費/R22	85405148		honpen p.55
+hokenryo	8	table	市町村特別給付費（円）	介護用品支給事業（おむつ助成）/R6	12702000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	介護用品支給事業（おむつ助成）/R7	12702000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	介護用品支給事業（おむつ助成）/R8	12702000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	介護用品支給事業（おむつ助成）/R22	13800000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	市町村特別給付費/R6	12702000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	市町村特別給付費/R7	12702000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	市町村特別給付費/R8	12702000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	市町村特別給付費/第9期計	38106000		honpen p.56
+hokenryo	8	table	市町村特別給付費（円）	市町村特別給付費/R22	13800000		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	施設給付費/第1号被保険者	23.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	施設給付費/第2号被保険者	27.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	施設給付費/国	15.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	施設給付費/国の調整交付金	5.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	施設給付費/滋賀県	17.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	施設給付費/日野町	12.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	居宅給付費/第1号被保険者	23.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	居宅給付費/第2号被保険者	27.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	居宅給付費/国	20.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	居宅給付費/国の調整交付金	5.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	居宅給付費/滋賀県	12.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	居宅給付費/日野町	12.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	介護予防・日常生活支援総合事業/第1号被保険者	23.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	介護予防・日常生活支援総合事業/第2号被保険者	27.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	介護予防・日常生活支援総合事業/国	20.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	介護予防・日常生活支援総合事業/国の調整交付金	5.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	介護予防・日常生活支援総合事業/滋賀県	12.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	介護予防・日常生活支援総合事業/日野町	12.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	包括的支援事業及び任意事業/第1号被保険者	23.0		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	包括的支援事業及び任意事業/国	38.5		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	包括的支援事業及び任意事業/滋賀県	19.25		honpen p.56
+hokenryo	11	table	介護給付費・地域支援事業費の財源内訳（%）	包括的支援事業及び任意事業/日野町	19.25		honpen p.56
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	標準給付費見込額（A）/第9期合計	6221192882		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	標準給付費見込額（A）/R6	2017028507		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	標準給付費見込額（A）/R7	2076689256		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	標準給付費見込額（A）/R8	2127475119		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	地域支援事業費（B）/第9期合計	223760607		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	地域支援事業費（B）/R6	74235292		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	地域支援事業費（B）/R7	74695179		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	地域支援事業費（B）/R8	74830136		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	第1号被保険者負担分相当額（D）＝（A+B）×0.23/第9期合計	1482339302		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	第1号被保険者負担分相当額（D）＝（A+B）×0.23/R6	480990674		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	第1号被保険者負担分相当額（D）＝（A+B）×0.23/R7	494818420		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	第1号被保険者負担分相当額（D）＝（A+B）×0.23/R8	506530209		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金相当額（E）/第9期合計	315993797		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金相当額（E）/R6	102489334		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金相当額（E）/R7	105481282		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金相当額（E）/R8	108023181		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金見込額（F）/第9期合計	250170000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金見込額（F）/R6	86501000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金見込額（F）/R7	84596000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	調整交付金見込額（F）/R8	79073000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	財政安定化基金拠出金見込額（G）/第9期合計	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	財政安定化基金償還金（H）/第9期合計	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	準備基金取崩額（I）/第9期合計	100800000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	審査支払手数料差引額（J）/第9期合計	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	審査支払手数料差引額（J）/R6	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	審査支払手数料差引額（J）/R7	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	審査支払手数料差引額（J）/R8	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	市町村特別給付費等（K）/第9期合計	38106000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	市町村特別給付費等（K）/R6	12702000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	市町村特別給付費等（K）/R7	12702000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	市町村特別給付費等（K）/R8	12702000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	市町村相互財政安定化事業負担額（L）/第9期合計	0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	保険者機能強化推進交付金等の交付見込額（M）/第9期合計	9000000		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	保険料収納必要額（N）＝D+E−F+G+H−I+J+K+L−M/第9期合計	1476469099		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	予定収納率（O）（%）/第9期合計	98.0		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	所得段階別加入割合補正後の被保険者数（P）（人）/第9期合計	20251		honpen p.58
+hokenryo	14	table	保険料収納必要額と基準額の計算（円）	第1号被保険者の保険料基準月額（Q）＝N÷O÷P÷12/第9期合計	6200		honpen p.58
+hokenryo	17	table	所得段階別介護保険料（円）	第1段階/基準額に対する割合	0.455		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第1段階/月額	2821		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第1段階/年額	33852		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第1段階/軽減後の割合	0.285		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第1段階/軽減後の月額	1767		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第1段階/軽減後の年額	21204		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第2段階/基準額に対する割合	0.65		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第2段階/月額	4030		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第2段階/年額	48360		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第2段階/軽減後の割合	0.45		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第2段階/軽減後の月額	2790		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第2段階/軽減後の年額	33480		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第3段階/基準額に対する割合	0.69		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第3段階/月額	4278		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第3段階/年額	51336		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第3段階/軽減後の割合	0.685		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第3段階/軽減後の月額	4247		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第3段階/軽減後の年額	50964		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第4段階/基準額に対する割合	0.88		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第4段階/月額	5456		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第4段階/年額	65472		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第5段階/基準額に対する割合	1.00		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第5段階/月額	6200		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第5段階/年額	74400		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第6段階/基準額に対する割合	1.13		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第6段階/月額	7006		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第6段階/年額	84072		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第7段階/基準額に対する割合	1.25		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第7段階/月額	7750		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第7段階/年額	93000		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第8段階/基準額に対する割合	1.50		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第8段階/月額	9300		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第8段階/年額	111600		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第9段階/基準額に対する割合	1.70		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第9段階/月額	10540		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第9段階/年額	126480		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第10段階/基準額に対する割合	1.85		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第10段階/月額	11470		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第10段階/年額	137640		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第11段階/基準額に対する割合	2.00		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第11段階/月額	12400		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第11段階/年額	148800		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第12段階/基準額に対する割合	2.20		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第12段階/月額	13640		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第12段階/年額	163680		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第13段階/基準額に対する割合	2.30		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第13段階/月額	14260		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第13段階/年額	171120		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第14段階/基準額に対する割合	2.40		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第14段階/月額	14880		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第14段階/年額	178560		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第15段階/基準額に対する割合	2.60		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第15段階/月額	16120		honpen p.59
+hokenryo	17	table	所得段階別介護保険料（円）	第15段階/年額	193440		honpen p.59
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第1段階/基準額に対する割合	0.50		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第1段階/軽減後の割合	0.30		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第2段階/基準額に対する割合	0.70		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第2段階/軽減後の割合	0.45		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第3段階/基準額に対する割合	0.75		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第3段階/軽減後の割合	0.70		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第4段階/基準額に対する割合	0.88		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第5段階/基準額に対する割合	1.00		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第6段階/基準額に対する割合	1.13		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第7段階/基準額に対する割合	1.25		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第8段階/基準額に対する割合	1.50		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第9段階/基準額に対する割合	1.60		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第10段階/基準額に対する割合	1.70		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第11段階/基準額に対する割合	1.80		honpen p.57
+hokenryo	20	table	第8期の所得段階と基準額に対する割合	第12段階/基準額に対する割合	1.90		honpen p.57
+hyoka	4	table	施策領域ごとの指標の達成度（%）	計画全体/達成	10.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	計画全体/未達成（改善）	25.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	計画全体/未達成（変化なし）	22.5		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	計画全体/未達成（悪化）	42.5		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(1) 高齢期の社会参画と生きがいづくり/未達成（変化なし）	14.3		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(1) 高齢期の社会参画と生きがいづくり/未達成（悪化）	85.7		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(2) 高齢期をいきいきと過ごすための健康づくり・介護予防/未達成（改善）	66.7		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(2) 高齢期をいきいきと過ごすための健康づくり・介護予防/未達成（変化なし）	33.3		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(3) 住み慣れた地域で安心して暮らすことができる環境づくり/未達成（改善）	80.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(3) 住み慣れた地域で安心して暮らすことができる環境づくり/未達成（変化なし）	20.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実/未達成（改善）	20.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実/未達成（変化なし）	20.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実/未達成（悪化）	60.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(5) 高齢者が安心して利用できるサービス提供体制の構築/達成	40.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(5) 高齢者が安心して利用できるサービス提供体制の構築/未達成（悪化）	60.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進/達成	50.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進/未達成（変化なし）	50.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(7) 地域で自分らしく暮らすことができる認知症対策の充実/達成	10.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(7) 地域で自分らしく暮らすことができる認知症対策の充実/未達成（改善）	10.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(7) 地域で自分らしく暮らすことができる認知症対策の充実/未達成（変化なし）	30.0		honpen p.18
+hyoka	4	table	施策領域ごとの指標の達成度（%）	(7) 地域で自分らしく暮らすことができる認知症対策の充実/未達成（悪化）	50.0		honpen p.18
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：ボランティアのグループ/R2現状値	30.2		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：ボランティアのグループ/R5目標値	33.2		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：ボランティアのグループ/R4実績	25.0		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：スポーツ関係のグループやクラブ/R2現状値	37.5		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：スポーツ関係のグループやクラブ/R5目標値	40.5		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：スポーツ関係のグループやクラブ/R4実績	31.2		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：趣味関係のグループ/R2現状値	40.0		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：趣味関係のグループ/R5目標値	43.0		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：趣味関係のグループ/R4実績	32.5		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：学習・教養サークル/R2現状値	20.0		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：学習・教養サークル/R5目標値	23.0		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：学習・教養サークル/R4実績	16.3		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：収入のある仕事/R2現状値	38.6		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：収入のある仕事/R5目標値	41.6		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	地域活動等への参加率（ニーズ調査）：収入のある仕事/R4実績	33.6		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	高齢者交流サロン開催団体数【総合計画共通】/R2現状値	14		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	高齢者交流サロン開催団体数【総合計画共通】/R5目標値	20		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	高齢者交流サロン開催団体数【総合計画共通】/R4実績	12		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	就労的活動支援コーディネーター（就労的活動支援員）の設置数/R2現状値	0		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	就労的活動支援コーディネーター（就労的活動支援員）の設置数/R5目標値	1		honpen p.19
+hyoka	5	table	指標の達成度一覧：(1) 高齢期の社会参画と生きがいづくり	就労的活動支援コーディネーター（就労的活動支援員）の設置数/R4実績	0		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	ハイリスク者等への訪問支援件数（年間）/R2現状値	0		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	ハイリスク者等への訪問支援件数（年間）/R5目標値	120		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	ハイリスク者等への訪問支援件数（年間）/R4実績	39		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	訪問型サービスC修了者数（累計）/R2現状値	2		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	訪問型サービスC修了者数（累計）/R5目標値	20		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	訪問型サービスC修了者数（累計）/R4実績	2		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	くらし元気応援教室修了者数（累計）/R2現状値	4		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	くらし元気応援教室修了者数（累計）/R5目標値	50		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	くらし元気応援教室修了者数（累計）/R4実績	24		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	介護予防ボランティアの養成数（累計）【総合計画共通】/R2現状値	319		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	介護予防ボランティアの養成数（累計）【総合計画共通】/R5目標値	359		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	介護予防ボランティアの養成数（累計）【総合計画共通】/R4実績	339		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	男性のための運動の場/R2現状値	3		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	男性のための運動の場/R5目標値	5		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	男性のための運動の場/R4実績	4		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	地域包括支援センターに配置するリハビリテーション専門職数/R2現状値	1		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	地域包括支援センターに配置するリハビリテーション専門職数/R5目標値	2		honpen p.19
+hyoka	6	table	指標の達成度一覧：(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	地域包括支援センターに配置するリハビリテーション専門職数/R4実績	1		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	公民館単位での協議体の設置数【総合計画共通】/R2現状値	1		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	公民館単位での協議体の設置数【総合計画共通】/R5目標値	4		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	公民館単位での協議体の設置数【総合計画共通】/R4実績	1		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	生活支援コーディネーターの設置数/R2現状値	1		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	生活支援コーディネーターの設置数/R5目標値	3		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	生活支援コーディネーターの設置数/R4実績	2		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	地域支え合いに取り組む団体数【総合計画共通】/R2現状値	2		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	地域支え合いに取り組む団体数【総合計画共通】/R5目標値	8		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	地域支え合いに取り組む団体数【総合計画共通】/R4実績	3		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	移動支援の運転ボランティアの養成数（累計）/R2現状値	35		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	移動支援の運転ボランティアの養成数（累計）/R5目標値	100		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	移動支援の運転ボランティアの養成数（累計）/R4実績	46		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	移動支援の利用者数（年間）/R2現状値	170		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	移動支援の利用者数（年間）/R5目標値	500		honpen p.19
+hyoka	7	table	指標の達成度一覧：(3) 住み慣れた地域で安心して暮らすことができる環境づくり	移動支援の利用者数（年間）/R4実績	241		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア個別会議の開催回数（年間）/R2現状値	4		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア個別会議の開催回数（年間）/R5目標値	4		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア個別会議の開催回数（年間）/R4実績	3		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア個別会議で取り上げるケース数（年間）/R2現状値	12		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア個別会議で取り上げるケース数（年間）/R5目標値	12		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア個別会議で取り上げるケース数（年間）/R4実績	6		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア推進会議の開催数（年間）/R2現状値	1		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア推進会議の開催数（年間）/R5目標値	2		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	地域ケア推進会議の開催数（年間）/R4実績	1		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	医療・介護連携に係る研修会の開催数（年間）/R2現状値	3		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	医療・介護連携に係る研修会の開催数（年間）/R5目標値	3		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	医療・介護連携に係る研修会の開催数（年間）/R4実績	2		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	外来・入退院時等における医療と介護の専門職の連携の回数（年間）/R2現状値	0		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	外来・入退院時等における医療と介護の専門職の連携の回数（年間）/R5目標値	20		honpen p.19
+hyoka	8	table	指標の達成度一覧：(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	外来・入退院時等における医療と介護の専門職の連携の回数（年間）/R4実績	10		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	居宅介護支援事業者との連絡会議の開催数（年間）/R2現状値	6		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	居宅介護支援事業者との連絡会議の開催数（年間）/R5目標値	6		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	居宅介護支援事業者との連絡会議の開催数（年間）/R4実績	6		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	地域包括支援センターによる高齢者への訪問相談件数（年間）【総合計画共通】/R2現状値	1400		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	地域包括支援センターによる高齢者への訪問相談件数（年間）【総合計画共通】/R5目標値	1640		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	地域包括支援センターによる高齢者への訪問相談件数（年間）【総合計画共通】/R4実績	1271		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	介護職員初任者研修の受講者数（年間）/R2現状値	5		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	介護職員初任者研修の受講者数（年間）/R5目標値	10		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	介護職員初任者研修の受講者数（年間）/R4実績	0		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	介護給付費適正化事業の主要５事業のうち実施事業数/R2現状値	5		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	介護給付費適正化事業の主要５事業のうち実施事業数/R5目標値	5		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	介護給付費適正化事業の主要５事業のうち実施事業数/R4実績	5		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	ケアプラン点検数（年間）/R2現状値	20		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	ケアプラン点検数（年間）/R5目標値	30		honpen p.19
+hyoka	9	table	指標の達成度一覧：(5) 高齢者が安心して利用できるサービス提供体制の構築	ケアプラン点検数（年間）/R4実績	10		honpen p.19
+hyoka	10	table	指標の達成度一覧：(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	高齢者虐待防止に関する研修等の開催回数（年間）/R2現状値	1		honpen p.19
+hyoka	10	table	指標の達成度一覧：(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	高齢者虐待防止に関する研修等の開催回数（年間）/R5目標値	2		honpen p.19
+hyoka	10	table	指標の達成度一覧：(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	高齢者虐待防止に関する研修等の開催回数（年間）/R4実績	1		honpen p.19
+hyoka	10	table	指標の達成度一覧：(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	国の成年後見制度利用促進基本計画に定める中核機関の設置数/R2現状値	0		honpen p.19
+hyoka	10	table	指標の達成度一覧：(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	国の成年後見制度利用促進基本計画に定める中核機関の設置数/R5目標値	1		honpen p.19
+hyoka	10	table	指標の達成度一覧：(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	国の成年後見制度利用促進基本計画に定める中核機関の設置数/R4実績	1		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症初期集中支援チーム開催数（年間）/R2現状値	2		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症初期集中支援チーム開催数（年間）/R5目標値	3		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症初期集中支援チーム開催数（年間）/R4実績	2		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症初期集中支援チームの検討の結果支援につなげた件数（年間）/R2現状値	6		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症初期集中支援チームの検討の結果支援につなげた件数（年間）/R5目標値	20		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症初期集中支援チームの検討の結果支援につなげた件数（年間）/R4実績	5		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症地域支援推進員数/R2現状値	1		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症地域支援推進員数/R5目標値	1		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症地域支援推進員数/R4実績	1		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症キャラバンメイト数【総合計画共通】/R2現状値	48		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症キャラバンメイト数【総合計画共通】/R5目標値	65		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症キャラバンメイト数【総合計画共通】/R4実績	45		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症サポーター養成講座修了者数（累計）【総合計画共通】/R2現状値	7500		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症サポーター養成講座修了者数（累計）【総合計画共通】/R5目標値	8700		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症サポーター養成講座修了者数（累計）【総合計画共通】/R4実績	7971		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症カフェ開催箇所数/R2現状値	2		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症カフェ開催箇所数/R5目標値	3		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症カフェ開催箇所数/R4実績	2		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症カフェ開催回数（年間）/R2現状値	18		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症カフェ開催回数（年間）/R5目標値	30		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症カフェ開催回数（年間）/R4実績	18		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症日常生活自立度Ⅱ以上の認定者の在宅比率【東近江圏域共通】/R2現状値	70.9		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症日常生活自立度Ⅱ以上の認定者の在宅比率【東近江圏域共通】/R5目標値	73.0		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症日常生活自立度Ⅱ以上の認定者の在宅比率【東近江圏域共通】/R4実績	59.5		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症の対応・治療に関して正しい知識を持っている人の割合（ニーズ調査）【東近江圏域共通】/R2現状値	83.1		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症の対応・治療に関して正しい知識を持っている人の割合（ニーズ調査）【東近江圏域共通】/R5目標値	88.0		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症の対応・治療に関して正しい知識を持っている人の割合（ニーズ調査）【東近江圏域共通】/R4実績	81.3		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症の人への適切な接し方について知っている人の割合（ニーズ調査）【東近江圏域共通】/R2現状値	19.2		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症の人への適切な接し方について知っている人の割合（ニーズ調査）【東近江圏域共通】/R5目標値	30.0		honpen p.19
+hyoka	11	table	指標の達成度一覧：(7) 地域で自分らしく暮らすことができる認知症対策の充実	認知症の人への適切な接し方について知っている人の割合（ニーズ調査）【東近江圏域共通】/R4実績	16.6		honpen p.19
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(2) 高齢期をいきいきと過ごすための健康づくり・介護予防	9.55	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(5) 高齢者が安心して利用できるサービス提供体制の構築	9.31	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(6) 高齢者の尊厳ある暮らしを守るための権利擁護の推進	9.00	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(3) 住み慣れた地域で安心して暮らすことができる環境づくり	8.23	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(7) 地域で自分らしく暮らすことができる認知症対策の充実	8.18	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(1) 高齢期の社会参画と生きがいづくり	7.78	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	(4) 安心して年を重ねることができる介護・医療等の多職種連携の充実	7.50	点	honpen p.20
+hyoka	14	chart.rank	施策領域ごとの進捗度（平均値）	計画全体（83事業の平均値）	8.60	点	honpen p.20
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	2-① 健康づくりの推進と健康寿命の延伸	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	2-③ 自立支援に向けた介護予防マネジメントの推進	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	3-⑤ ユニバーサルデザインのまちづくりの推進	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	5-① 介護保険サービスの充実	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	5-③ 家族介護者支援の充実	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	5-⑤ 介護保険事業の適正運営	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	6-② 成年後見制度の利用支援	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	6-③ 消費者生活対策の推進	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	6-④ 生活安全に係る普及啓発	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	7-① 早期発見と対応の充実	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	7-③ 認知症予防活動の推進	10.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	1-① 多様な生きがいづくりと居場所づくり	9.58	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	2-② 介護予防の充実	9.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	3-④ 日常生活の安心と災害時の備えの確保	9.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	5-④ 人材の確保と育成・定着	8.75	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	5-⑥ 感染症対策の推進	8.75	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	4-① 在宅医療・介護連携の推進	8.33	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	5-② 地域包括支援センターの機能強化	8.33	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	3-① 地域共生社会づくりの推進	8.33	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	7-② 認知症に関する普及啓発と認知症本人の社会参加の場づくり	7.14	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	3-② 住民や民間等による生活支援サービスの充実	5.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	3-③ 住まいと住まい方の充実	5.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	4-② 終末期・看取りに関する連携の推進	5.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	6-① 高齢者虐待の防止と対策の推進	5.00	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	1-② 働く場と機会づくりの促進	4.17	点	honpen p.21
+hyoka	15	chart.rank	施策ごとの進捗度（平均値）	全体の平均値	8.60	点	honpen p.21

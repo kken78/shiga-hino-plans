@@ -63,11 +63,13 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 
 # 6) 検収(DESIGN.md ADR-7 補遺 L の4段)
 #    段1 プログラムによる照合: python3 tools/audit_autocheck.py <id>(原典PDFが必要)
-#    段2 AI による照合: 段1で一致にならなかった行を、起票の経緯を渡さない AI が画像も見て照合
-#    段3 文章の点検: 照合表に入らない文章を、起票の経緯を渡さない AI が原典と突き合わせる
-#        (A〜E に分け、D を直す。結果はプルリクエストに書く)
-#    段4 人による抜き取り(Claude はここで止まり、依頼者に引き渡す):
-#        無作為の30行と、段1・段2で判断できなかった行を人が原典と見比べる
+#        値・項目名・行の値の並び・列見出しの位置がすべて合う行だけを auto:pdftext で記録
+#    段2 AI 2人による照合: 段1で一致にならなかった行を、起票の経緯を渡さない AI 2人が別々に、
+#        出典ページの画像で行と列の対応まで確かめる。2人とも「一致・確信度 高」の行だけ auto:ai で記録
+#    段3 文章の点検: 照合表に入らない文章と、原典の中の文章と数値の整合・誤字を AI が突き合わせる。
+#        指摘は data/source_issues/<id>.tsv に記録(原典の誤りは43計画が片付いてから町へ一式で提供)
+#    段4 人による確認(Claude はここで止まり、依頼者に引き渡す):
+#        規則 H1〜H4(ADR-7 補遺 L)で選んだ行と、段3の指摘を人が原典と見比べる
 ```
 
 3〜5 はどれか一つでも失敗したら先に進まない。修正して再実行する。
@@ -153,8 +155,8 @@ koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出す�
 (ページ順・チェック欄・localStorage 下書き・エクスポートで台帳へ)の2層。突合キーは内容ハッシュで、
 値が変われば当該行は未検収へ戻る。照合表 `build/audit/<id>.tsv` は8列(ADR-7 補遺 E)。
 台帳は kodomo・kokyo-kanri・koutsu・kankyo を作成済み。2026-10 に、照合の主体を機械に移し、
-人は抜き取りで確かめる方式に改めた(ADR-7 補遺 L。段1〜4は上の定型フロー 6))。
-ワークシートは段4(人による抜き取り)で使う。手順:
+人は規則で選んだ行だけを見る方式に改めた(ADR-7 補遺 L。段1〜4は上の定型フロー 6)。方法を比べた検証の結果も
+補遺 L にある)。ワークシートは段4(人による確認)で使う。手順:
 ```bash
 python3 tools/audit_worksheet.py <id> --init          # 台帳のベースライン(初回のみ。そのままコミット)
 python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.worksheet.html(公開しない)
@@ -212,10 +214,11 @@ git commit
   - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
     Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
 - [ ] **kodomo の検収(audit 突合)**(ADR-7 補遺 L) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
-  `build/audit/kodomo.tsv`(886行)。照合表の全行の AI による照合(PR #14)と、文章の点検(PR #15)は済み。
-  残りは段1(`tools/audit_autocheck.py` の実装と適用)、段2の台帳への記録、段4(人による抜き取り)。
-- [ ] **`tools/audit_autocheck.py` の実装**(ADR-7 補遺 L 段1) — 原典 PDF の文字データから、照合表の各行の値と
-  項目名が出典ページにあるかを調べ、一致した行を台帳に `auto:pdftext` で記録する。
+  `build/audit/kodomo.tsv`(886行)。文章の点検(PR #15)と、段3の原典の点検(`data/source_issues/kodomo.tsv`)は済み。
+  残りは段1・段2の台帳への記録と、段4(人による確認)。
+- [ ] **`tools/audit_autocheck.py` の実装**(ADR-7 補遺 L 段1・段4の選定) — 段1の規則による照合、
+  `--selftest`(誤りを入れたコピーで素通りを測る)、H2・H4 の選定、台帳への `auto:pdftext` の記録。
+- [ ] **koutsu・kokyo-kanri の段3の指摘への対応**(H3) — `data/source_issues/<id>.tsv` の各指摘の扱いを決める。
 - [x] `templates/hub.html` の `.hpshi-tip` 除去行を削除(2026-10) — ADR-2 の embed 廃止により
   永久に0件の no-op だった(ADR-6 の「0件 no-op 禁止」と不整合)。
 

@@ -96,6 +96,7 @@
    箱の外の見出しだけ。.cttl は箱の中なので字面のみ統一(左ボーダーなし)。 */
 .hpv1 .b-heading h2,
 .hpv1 .phead,
+.hpv1 .b-ttl,
 .hpv1 .b-chart .cttl{
   font-family:var(--serif);font-size:var(--fs-sec);font-weight:700;color:var(--ink);line-height:1.4;
 }
@@ -226,6 +227,7 @@
 .hpv1 .b-chart{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
   padding:14px 16px;margin:0 0 12px}
 .hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
+.hpv1 .b-ttl{margin:4px 0 6px}  /* 表の題(table.title)。字面は統一セクション見出しと同じ */
 .hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
 .hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 8px;font-size:var(--fs-chart);color:var(--ink2)}
 /* チャート部品(ADR-8)。文字はすべて HTML。棒の長さ・高さはレンダラーが値から計算した % */

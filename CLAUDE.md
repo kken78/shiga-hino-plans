@@ -280,7 +280,9 @@ git commit
 ```
 
 原典の台帳 `data/sources_index.tsv`(2026-10 作成)は、43計画の掲載ページから取得した原典ファイル1つにつき1行の記録
-(文書を取得できなかった計画は file を空欄にし、理由を note に書く)。列は id / file / label(掲載ページのリンクの文字)/ url /
+(file が空欄の行は2通りある。文書を取得できなかった計画は、理由を note に書く。原典PDFの代わりに町の掲載ページ(HTML)を
+出典にした行は、note の先頭を「掲載ページ(HTML)」とし、label にページの題、fetched に内容を確かめた日を書く。HTML は保存しないので
+bytes・sha256・pages・text_chars は空欄)。列は id / file / label(掲載ページのリンクの文字)/ url /
 bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り出せた空白以外の文字数)/ fetched(取得日。空欄は台帳以前からある原典)/ note。
 原典PDFそのものは `sources_raw/<id>/` に置き、リポジトリには入れない(.gitignore の対象。同じ版かどうかは url と sha256 で確かめる)。
 ファイル名は本編 honpen.pdf(章ごとの分割は honpen-01.pdf …)、概要版 gaiyo.pdf、資料編 shiryo.pdf、それ以外は元のファイル名を英小文字にしたもの。

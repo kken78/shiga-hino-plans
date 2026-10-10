@@ -1,0 +1,45 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	2	target.base		既存ストックの適正な維持・管理（公営住宅政策空家の除却率）	25	%	keikaku p.3
+summary	2	target.target		既存ストックの適正な維持・管理（公営住宅政策空家の除却率）	85	%	keikaku p.3
+summary	2	target.base		改善（駐車場外灯LED化）棟数の割合	0	%	keikaku p.3
+summary	2	target.target		改善（駐車場外灯LED化）棟数の割合	100	%	keikaku p.3
+summary	3	kpi		公営住宅政策空家の除却	12	戸	keikaku p.5
+summary	3	kpi		外壁・屋根改修設計業務委託	5	棟	keikaku p.5
+summary	3	kpi		外灯改修工事	5	棟	keikaku p.5
+summary	3	kpi		基幹事業の交付期間内事業費（概算）	35	百万円	keikaku p.5
+genjo	1	kpi	地域と町営住宅の現況	人口	20964	人	keikaku p.2
+genjo	1	kpi	地域と町営住宅の現況	世帯数	7932	世帯	keikaku p.2
+genjo	1	kpi	地域と町営住宅の現況	町営住宅の団地数	6	団地	keikaku p.2
+genjo	1	kpi	地域と町営住宅の現況	町営住宅の戸数	89	戸	keikaku p.2
+jigyo	3	programs	事業の内容	事業数	3	件	keikaku p.4
+jigyo	6	table	事業費	公営住宅等ストック総合改善事業（長寿命化計画の見直し）/交付期間内事業費（百万円）	4		keikaku p.5
+jigyo	6	table	事業費	公営住宅等ストック総合改善事業（外壁・屋根改修設計業務委託）/交付期間内事業費（百万円）	10		keikaku p.5
+jigyo	6	table	事業費	公営住宅等ストック総合改善事業（外灯改修工事）/交付期間内事業費（百万円）	1		keikaku p.5
+jigyo	6	table	事業費	公営住宅等整備事業（公営住宅政策空家の除却）/交付期間内事業費（百万円）	20		keikaku p.5
+jigyo	6	table	事業費	合計/交付期間内事業費（百万円）	35		keikaku p.5
+jigyo	7	table	事業費	地域住宅政策推進事業（住生活基本計画の見直し）/交付期間内事業費（百万円）	4		keikaku p.5
+jigyo	7	table	事業費	合計/交付期間内事業費（百万円）	4		keikaku p.5
+jigyo	9	table	社会資本総合整備計画での事業と期間	A15-001/全体事業費（百万円）	4		seibikeikaku p.2
+jigyo	9	table	社会資本総合整備計画での事業と期間	A15-002/全体事業費（百万円）	20		seibikeikaku p.2
+jigyo	9	table	社会資本総合整備計画での事業と期間	A15-003/全体事業費（百万円）	15		seibikeikaku p.2
+jigyo	9	table	社会資本総合整備計画での事業と期間	合計/全体事業費（百万円）	39		seibikeikaku p.2
+jigyo	10	kpi	社会資本総合整備計画での事業と期間	全体事業費の合計（A＋B＋C＋D）	39	百万円	seibikeikaku p.1
+jigyo	10	kpi	社会資本総合整備計画での事業と期間	A	39	百万円	seibikeikaku p.1
+jigyo	10	kpi	社会資本総合整備計画での事業と期間	B	0	百万円	seibikeikaku p.1
+jigyo	10	kpi	社会資本総合整備計画での事業と期間	C	0	百万円	seibikeikaku p.1
+jigyo	10	kpi	社会資本総合整備計画での事業と期間	D	0	百万円	seibikeikaku p.1
+jigyo	10	kpi	社会資本総合整備計画での事業と期間	効果促進事業費の割合 C／（A＋B＋C＋D）	0	%	seibikeikaku p.1
+jigyo	13	figure	事業の場所	日野町地域住宅計画 位置図	shasi-jyutaku_map.jpg		zumenn p.1
+mokuhyo	3	table	指標と目標値	既存ストックの適正な維持・管理/従前値（R4年度）	25		keikaku p.3
+mokuhyo	3	table	指標と目標値	既存ストックの適正な維持・管理/目標値（R8年度）	85		keikaku p.3
+mokuhyo	3	table	指標と目標値	改善（駐車場外灯LED化）棟数の割合/従前値（R4年度）	0		keikaku p.3
+mokuhyo	3	table	指標と目標値	改善（駐車場外灯LED化）棟数の割合/目標値（R8年度）	100		keikaku p.3
+mokuhyo	7	table	交付金の執行状況	配分額（a）/R04	3		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	計画別流用増△減額（b）/R04	0		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	交付額（c=a+b）/R04	3		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	前年度からの繰越額（d）/R04	0		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	支払済額（e）/R04	3		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	翌年度繰越額（f）/R04	0		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	うち未契約繰越額（g）/R04	0		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	不用額（h=c+d-e-f）/R04	0		seibikeikaku p.3
+mokuhyo	7	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R04	0		seibikeikaku p.3

@@ -1,0 +1,962 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+dbb8dec9cf92ccac	summary	3	kpi		1世帯当たりの人員	2.64	人/世帯	honpen p.71-72	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+9e3d52c0f9698e2c	summary	3	kpi		持ち家率	79.3	%	honpen p.71-72	✓	auto:ai	2026-10-10	
+431f07399b5a3a3a	summary	3	kpi		今後10年間に住宅の支援が必要な世帯数（推計）	118	世帯	honpen p.71-72	✓	auto:ai	2026-10-10	
+4fec1898e874da5d	summary	3	kpi		活用可能な町営住宅数	57	戸	honpen p.71-72	✓	auto:ai	2026-10-10	
+9a13413f5e7c0cb9	summary	4	kpi		住宅の耐震化率（約）	68.7	%	honpen p.73-74	✓	auto:ai	2026-10-10	
+0e9096203677cf02	summary	4	kpi		新耐震基準施行前に建てられた住宅（約）	1900	件	honpen p.73-74	✓	auto:ai	2026-10-10	
+b24ca73c1c994efa	summary	4	kpi		空家の増加（H27年度と比較、約）	29	%	honpen p.73-74	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+a0fe2a79e480068a	jinko	3	table	人口と世帯数	昭和60年/人口（人）	22009		honpen p.19	✓	auto:ai	2026-10-10	
+fb96fc06ab1831d5	jinko	3	table	人口と世帯数	昭和60年/世帯数（世帯）	5398		honpen p.19	✓	auto:ai	2026-10-10	
+12b1df4dc913b584	jinko	3	table	人口と世帯数	昭和60年/1世帯あたり人員（人／世帯）	4.08		honpen p.19	✓	auto:ai	2026-10-10	
+3a842fc8b664b8d1	jinko	3	table	人口と世帯数	平成2年/人口（人）	22391		honpen p.19	✓	auto:ai	2026-10-10	
+797cdf4b9b663962	jinko	3	table	人口と世帯数	平成2年/世帯数（世帯）	5676		honpen p.19	✓	auto:ai	2026-10-10	
+842b04477a7cbaf3	jinko	3	table	人口と世帯数	平成2年/1世帯あたり人員（人／世帯）	3.94		honpen p.19	✓	auto:ai	2026-10-10	
+4d16be9a11718987	jinko	3	table	人口と世帯数	平成2年/人口増減率（％）	1.7		honpen p.19	✓	auto:ai	2026-10-10	
+92efbe057e0de146	jinko	3	table	人口と世帯数	平成7年/人口（人）	23132		honpen p.19	✓	auto:ai	2026-10-10	
+64f9937a61aa5992	jinko	3	table	人口と世帯数	平成7年/世帯数（世帯）	6318		honpen p.19	✓	auto:ai	2026-10-10	
+23a989c2e9fe1aec	jinko	3	table	人口と世帯数	平成7年/1世帯あたり人員（人／世帯）	3.66		honpen p.19	✓	auto:ai	2026-10-10	
+8be194606e00896e	jinko	3	table	人口と世帯数	平成7年/人口増減率（％）	3.3		honpen p.19	✓	auto:ai	2026-10-10	
+1f6e14b505051c01	jinko	3	table	人口と世帯数	平成12年/人口（人）	23022		honpen p.19	✓	auto:ai	2026-10-10	
+35c96807d981b103	jinko	3	table	人口と世帯数	平成12年/世帯数（世帯）	6693		honpen p.19	✓	auto:ai	2026-10-10	
+751047409e4cbfaa	jinko	3	table	人口と世帯数	平成12年/1世帯あたり人員（人／世帯）	3.44		honpen p.19	✓	auto:ai	2026-10-10	
+eeb81a849b58e158	jinko	3	table	人口と世帯数	平成12年/人口増減率（％）	-0.5		honpen p.19	✓	auto:ai	2026-10-10	
+2147ca9a5ece8f77	jinko	3	table	人口と世帯数	平成17年/人口（人）	22809		honpen p.19	✓	auto:ai	2026-10-10	
+46a29a2849a73af4	jinko	3	table	人口と世帯数	平成17年/世帯数（世帯）	7131		honpen p.19	✓	auto:ai	2026-10-10	
+15d71779dbc85395	jinko	3	table	人口と世帯数	平成17年/1世帯あたり人員（人／世帯）	3.20		honpen p.19	✓	auto:ai	2026-10-10	
+ee692febc49148c4	jinko	3	table	人口と世帯数	平成17年/人口増減率（％）	-0.9		honpen p.19	✓	auto:ai	2026-10-10	
+c7eafebc8566badc	jinko	3	table	人口と世帯数	平成22年/人口（人）	22870		honpen p.19	✓	auto:ai	2026-10-10	
+3de0951f88816ad8	jinko	3	table	人口と世帯数	平成22年/世帯数（世帯）	7678		honpen p.19	✓	auto:ai	2026-10-10	
+cf8bf310ac854c42	jinko	3	table	人口と世帯数	平成22年/1世帯あたり人員（人／世帯）	2.98		honpen p.19	✓	auto:ai	2026-10-10	
+080e0435144b2853	jinko	3	table	人口と世帯数	平成22年/人口増減率（％）	0.3		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+45a8e2c76a75211b	jinko	3	table	人口と世帯数	平成27年/人口（人）	21873		honpen p.19	✓	auto:ai	2026-10-10	
+4e69ad5b62d8f7ea	jinko	3	table	人口と世帯数	平成27年/世帯数（世帯）	7728		honpen p.19	✓	auto:ai	2026-10-10	
+a50d082f3d3b46d6	jinko	3	table	人口と世帯数	平成27年/1世帯あたり人員（人／世帯）	2.83		honpen p.19	✓	auto:ai	2026-10-10	
+2e14add164974fd0	jinko	3	table	人口と世帯数	平成27年/人口増減率（％）	-4.4		honpen p.19	✓	auto:ai	2026-10-10	
+dd81913b8b834ef9	jinko	3	table	人口と世帯数	令和2年/人口（人）	20964		honpen p.19	✓	auto:ai	2026-10-10	
+ee08a01b0076c87a	jinko	3	table	人口と世帯数	令和2年/世帯数（世帯）	7932		honpen p.19	✓	auto:ai	2026-10-10	
+e95cfbf671242e59	jinko	3	table	人口と世帯数	令和2年/1世帯あたり人員（人／世帯）	2.64		honpen p.19	✓	auto:ai	2026-10-10	
+f9166d435d9a9861	jinko	3	table	人口と世帯数	令和2年/人口増減率（％）	-4.2		honpen p.19	✓	auto:ai	2026-10-10	
+b3d8d65a0410036e	jinko	6	table	年齢3区分別の人口	総数/昭和60年	22009		honpen p.20	✓	auto:ai	2026-10-10	
+b583e5729c5d1f08	jinko	6	table	年齢3区分別の人口	総数/平成2年	22391		honpen p.20	✓	auto:ai	2026-10-10	
+633a987254e66943	jinko	6	table	年齢3区分別の人口	総数/平成7年	23132		honpen p.20	✓	auto:ai	2026-10-10	
+cf4d2687b3ebc4a0	jinko	6	table	年齢3区分別の人口	総数/平成12年	23022		honpen p.20	✓	auto:ai	2026-10-10	
+77c6c7a034d69884	jinko	6	table	年齢3区分別の人口	総数/平成17年	22809		honpen p.20	✓	auto:ai	2026-10-10	
+6509e0269f18a60e	jinko	6	table	年齢3区分別の人口	総数/平成22年	22870		honpen p.20	✓	auto:ai	2026-10-10	
+dddda3f993906957	jinko	6	table	年齢3区分別の人口	総数/平成27年	21873		honpen p.20	✓	auto:ai	2026-10-10	
+ade4de608266ea49	jinko	6	table	年齢3区分別の人口	総数/令和2年	20964		honpen p.20	✓	auto:ai	2026-10-10	
+d83e6710c84d2892	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/昭和60年	4700		honpen p.20	✓	auto:ai	2026-10-10	
+4af0a15d6e0ed9cf	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成2年	4472		honpen p.20	✓	auto:ai	2026-10-10	
+6bd3e76947ea01f0	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成7年	4135		honpen p.20	✓	auto:ai	2026-10-10	
+416db55432445167	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成12年	3613		honpen p.20	✓	auto:ai	2026-10-10	
+c4d4f0f119374128	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成17年	3215		honpen p.20	✓	auto:ai	2026-10-10	
+1a840fb993ac0052	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成22年	3043		honpen p.20	✓	auto:ai	2026-10-10	
+0226cebab8e6a7b5	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成27年	2835		honpen p.20	✓	auto:ai	2026-10-10	
+b0bf9b4f2fc0b52e	jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/令和2年	2575		honpen p.20	✓	auto:ai	2026-10-10	
+f91d3ae366c62eaf	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/昭和60年	21.35		honpen p.20	✓	auto:ai	2026-10-10	
+fe12a88640b250b6	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成2年	19.97		honpen p.20	✓	auto:ai	2026-10-10	
+ca8ae5e577a2bea5	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成7年	17.88		honpen p.20	✓	auto:ai	2026-10-10	
+fd78c03caf42aa99	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成12年	15.69		honpen p.20	✓	auto:ai	2026-10-10	
+0de648f35dc1da76	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成17年	14.10		honpen p.20	✓	auto:ai	2026-10-10	
+db1fc7680174f06a	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成22年	13.31		honpen p.20	✓	auto:ai	2026-10-10	
+01c1a3612dc238c5	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成27年	12.96		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+29f6095bdbeb860b	jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/令和2年	12.28		honpen p.20	✓	auto:ai	2026-10-10	
+947ed5dee5d90104	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/昭和60年	13889		honpen p.20	✓	auto:ai	2026-10-10	
+cd268c8f10bf4633	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成2年	14036		honpen p.20	✓	auto:ai	2026-10-10	
+684beabaa6e746f4	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成7年	14518		honpen p.20	✓	auto:ai	2026-10-10	
+f8fb32243b6e8e4f	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成12年	14311		honpen p.20	✓	auto:ai	2026-10-10	
+30e49ce4146a263c	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成17年	14262		honpen p.20	✓	auto:ai	2026-10-10	
+1b0be40218d0864f	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成22年	14217		honpen p.20	✓	auto:ai	2026-10-10	
+4231d33124849d06	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成27年	12840		honpen p.20	✓	auto:ai	2026-10-10	
+1b90c5d935cd5a16	jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/令和2年	11656		honpen p.20	✓	auto:ai	2026-10-10	
+9494289ccc96c808	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/昭和60年	63.11		honpen p.20	✓	auto:ai	2026-10-10	
+3f22cd458e8e104d	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成2年	62.69		honpen p.20	✓	auto:ai	2026-10-10	
+80a9c56f3b8b2fa7	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成7年	62.76		honpen p.20	✓	auto:ai	2026-10-10	
+aa23b6f14c4344a5	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成12年	62.16		honpen p.20	✓	auto:ai	2026-10-10	
+2ebca9e18e92c4b6	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成17年	62.53		honpen p.20	✓	auto:ai	2026-10-10	
+3a1700aa31dde65c	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成22年	62.16		honpen p.20	✓	auto:ai	2026-10-10	
+341a5f6008386b90	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成27年	58.70		honpen p.20	✓	auto:ai	2026-10-10	
+b75095e5ba91bd48	jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/令和2年	55.60		honpen p.20	✓	auto:ai	2026-10-10	
+dca14769b6757e68	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/昭和60年	3420		honpen p.20	✓	auto:ai	2026-10-10	
+0f665d72724f8749	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成2年	3872		honpen p.20	✓	auto:ai	2026-10-10	
+f9243faf935aac67	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成7年	4479		honpen p.20	✓	auto:ai	2026-10-10	
+3d90f26a3c630266	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成12年	5095		honpen p.20	✓	auto:ai	2026-10-10	
+50fbb9166f4d4bea	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成17年	5332		honpen p.20	✓	auto:ai	2026-10-10	
+8bf17effd8f1c827	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成22年	5553		honpen p.20	✓	auto:ai	2026-10-10	
+9306c887b915868d	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成27年	6088		honpen p.20	✓	auto:ai	2026-10-10	
+e9eba8ad842756fb	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/令和2年	6424		honpen p.20	✓	auto:ai	2026-10-10	
+0a74cc9f7ed82ffd	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/昭和60年	15.54		honpen p.20	✓	auto:ai	2026-10-10	
+692b5ac7f2f779f8	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成2年	17.29		honpen p.20	✓	auto:ai	2026-10-10	
+604e7737d85f8157	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成7年	19.36		honpen p.20	✓	auto:ai	2026-10-10	
+7b3e3c02f279f959	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成12年	22.13		honpen p.20	✓	auto:ai	2026-10-10	
+1b7ed71aa521cd3b	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成17年	23.38		honpen p.20	✓	auto:ai	2026-10-10	
+a8b175fbf46bb4c5	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成22年	24.28		honpen p.20	✓	auto:ai	2026-10-10	
+68f136c9ff5bbe8d	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成27年	27.83		honpen p.20	✓	auto:ai	2026-10-10	
+dba97240bfb00364	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/令和2年	30.64		honpen p.20	✓	auto:ai	2026-10-10	
+ab0bc166aa1b3c8d	jinko	9	chart.stacked	世帯人員別世帯数	H17/1人	1491	世帯	honpen p.21				要人確認:H2 値が文字データにない
+51c98154c470d121	jinko	9	chart.stacked	世帯人員別世帯数	H17/2人	1545	世帯	honpen p.21				要人確認:H2 値が文字データにない
+ff32a2c18a1bc39a	jinko	9	chart.stacked	世帯人員別世帯数	H17/3人	1295	世帯	honpen p.21				要人確認:H2 値が文字データにない
+f05c09c557554105	jinko	9	chart.stacked	世帯人員別世帯数	H17/4人	1217	世帯	honpen p.21				要人確認:H2 値が文字データにない
+1c5f116849643769	jinko	9	chart.stacked	世帯人員別世帯数	H17/5人	757	世帯	honpen p.21				要人確認:H2 値が文字データにない
+6f0a5f18492b8e31	jinko	9	chart.stacked	世帯人員別世帯数	H17/6人	500	世帯	honpen p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ8点
+6330902f49216afe	jinko	9	chart.stacked	世帯人員別世帯数	H17/7人以上	315	世帯	honpen p.21				要人確認:H2 値が文字データにない
+b52a8e0c9c6c2e78	jinko	9	chart.stacked	世帯人員別世帯数	H22/1人	1955	世帯	honpen p.21				要人確認:H2 値が文字データにない
+96445dc53ed19ad9	jinko	9	chart.stacked	世帯人員別世帯数	H22/2人	1687	世帯	honpen p.21				要人確認:H2 値が文字データにない
+40d7ac8f4b3c2495	jinko	9	chart.stacked	世帯人員別世帯数	H22/3人	1371	世帯	honpen p.21				要人確認:H2 値が文字データにない
+c188ea6de492dae4	jinko	9	chart.stacked	世帯人員別世帯数	H22/4人	1276	世帯	honpen p.21				要人確認:H2 値が文字データにない
+c9d2acd9b85c51bb	jinko	9	chart.stacked	世帯人員別世帯数	H22/5人	703	世帯	honpen p.21				要人確認:H2 値が文字データにない
+0b283bce55dca9f6	jinko	9	chart.stacked	世帯人員別世帯数	H22/6人	395	世帯	honpen p.21				要人確認:H2 値が文字データにない
+56b25baa0a62359d	jinko	9	chart.stacked	世帯人員別世帯数	H22/7人以上	281	世帯	honpen p.21				要人確認:H2 値が文字データにない
+5f8c45108ed1f4d7	jinko	9	chart.stacked	世帯人員別世帯数	H27/1人	1993	世帯	honpen p.21				要人確認:H2 値が文字データにない
+2e09166896fc6cf4	jinko	9	chart.stacked	世帯人員別世帯数	H27/2人	1925	世帯	honpen p.21				要人確認:H2 値が文字データにない
+9c40190f531a3b27	jinko	9	chart.stacked	世帯人員別世帯数	H27/3人	1448	世帯	honpen p.21				要人確認:H2 値が文字データにない
+e6e5dc9c7bc07a4e	jinko	9	chart.stacked	世帯人員別世帯数	H27/4人	1206	世帯	honpen p.21				要人確認:H2 値が文字データにない
+d322c0e9f3140693	jinko	9	chart.stacked	世帯人員別世帯数	H27/5人	642	世帯	honpen p.21				要人確認:H2 値が文字データにない
+333c1230ab8156d8	jinko	9	chart.stacked	世帯人員別世帯数	H27/6人	330	世帯	honpen p.21				要人確認:H2 値が文字データにない
+53dd736739febc71	jinko	9	chart.stacked	世帯人員別世帯数	H27/7人以上	176	世帯	honpen p.21				要人確認:H2 値が文字データにない
+7657d9016723696d	jinko	9	chart.stacked	世帯人員別世帯数	R2/1人	2287	世帯	honpen p.21				要人確認:H2 値が文字データにない
+452a94c212565ac8	jinko	9	chart.stacked	世帯人員別世帯数	R2/2人	2113	世帯	honpen p.21				要人確認:H2 値が文字データにない
+0474c2f983934a8a	jinko	9	chart.stacked	世帯人員別世帯数	R2/3人	1474	世帯	honpen p.21				要人確認:H2 値が文字データにない
+947a1b5c5040c77e	jinko	9	chart.stacked	世帯人員別世帯数	R2/4人	1147	世帯	honpen p.21				要人確認:H2 値が文字データにない
+397acb06a24c80f7	jinko	9	chart.stacked	世帯人員別世帯数	R2/5人	523	世帯	honpen p.21				要人確認:H2 値が文字データにない
+8e2dfe3ad16c708d	jinko	9	chart.stacked	世帯人員別世帯数	R2/6人	256	世帯	honpen p.21				要人確認:H2 値が文字データにない
+f3e4e5650e191848	jinko	9	chart.stacked	世帯人員別世帯数	R2/7人以上	118	世帯	honpen p.21				要人確認:H2 値が文字データにない
+6e9f9eec995e1fcb	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成17年	1163		honpen p.22				要人確認:H2 値が文字データにない
+87a5ab200f89904f	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成22年	1275		honpen p.22				要人確認:H2 値が文字データにない
+bc333d7ad18e8fc4	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成27年	1427		honpen p.22				要人確認:H2 値が文字データにない
+42397decf82318be	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/令和2年	1552		honpen p.22				要人確認:H2 値が文字データにない
+b2012a7d999d55e6	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成17年	1929		honpen p.22				要人確認:H2 値が文字データにない
+542d8cf76103923f	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成22年	2002		honpen p.22				要人確認:H2 値が文字データにない
+2fc98e062fc26f8e	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成27年	2082		honpen p.22				要人確認:H2 値が文字データにない
+71f3cf1ef7b841b7	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/令和2年	2087		honpen p.22				要人確認:H2 値が文字データにない
+688d96b0541fb966	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成17年	91		honpen p.22				要人確認:H2 値が文字データにない
+e332d0eeda3c9f17	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成22年	90		honpen p.22				要人確認:H2 値が文字データにない
+1ca908674e1e45fc	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成27年	102		honpen p.22				要人確認:H2 値が文字データにない
+6269d7af844f062e	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/令和2年	115		honpen p.22				要人確認:H2 値が文字データにない
+52ac1cd41cc494cc	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成17年	381		honpen p.22				要人確認:H2 値が文字データにない
+225a6f777c3d4e47	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成22年	403		honpen p.22				要人確認:H2 値が文字データにない
+61d84216e88a8bb3	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成27年	503		honpen p.22				要人確認:H2 値が文字データにない
+d28f2ed38a4dfd60	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/令和2年	551		honpen p.22				要人確認:H2 値が文字データにない
+9507d14d96d2b9cc	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成17年	2044		honpen p.22				要人確認:H2 値が文字データにない
+fa5c46df75bc0064	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成22年	1872		honpen p.22				要人確認:H2 値が文字データにない
+4b9fcc8e94964c8f	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成27年	1561		honpen p.22				要人確認:H2 値が文字データにない
+589f31d41ffa30ce	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/令和2年	1252		honpen p.22				要人確認:H2 値が文字データにない
+3c365f23752866ad	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成17年	21		honpen p.22				要人確認:H2 値が文字データにない
+861abf695c047ade	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成22年	63		honpen p.22				要人確認:H2 値が文字データにない
+d488fff0ea672639	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成27年	49		honpen p.22				要人確認:H2 値が文字データにない
+c7644f959fb59278	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/令和2年	51		honpen p.22				要人確認:H2 値が文字データにない
+14daf734b6dc3396	jinko	10	table	世帯の人数と家族の型	単独世帯/平成17年	1491		honpen p.22				要人確認:H2 値が文字データにない
+58e1b5ad9ad231cb	jinko	10	table	世帯の人数と家族の型	単独世帯/平成22年	1955		honpen p.22				要人確認:H2 値が文字データにない
+e2db7827712a112b	jinko	10	table	世帯の人数と家族の型	単独世帯/平成27年	1993		honpen p.22				要人確認:H2 値が文字データにない
+ac4a0c7474571f6f	jinko	10	table	世帯の人数と家族の型	単独世帯/令和2年	2287		honpen p.22				要人確認:H2 値が文字データにない
+c94e55f79da56b65	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成22年	8		honpen p.22				要人確認:H2 値が文字データにない
+d32a96d1c02f8801	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成27年	3		honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+a9981f085bf4e001	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/令和2年	23		honpen p.22				要人確認:H2 値が文字データにない
+83bbe52bf0f58a4c	jinko	13	chart.stacked	ひとり親世帯の推移	H17/母子世帯	73	世帯	honpen p.22				要人確認:H2 値が文字データにない
+a2df65e5d86d5032	jinko	13	chart.stacked	ひとり親世帯の推移	H17/父子世帯	14	世帯	honpen p.22				要人確認:H2 値が文字データにない
+d3d7df80a7f7ddc0	jinko	13	chart.stacked	ひとり親世帯の推移	H22/母子世帯	87	世帯	honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+0c243937796b97b7	jinko	13	chart.stacked	ひとり親世帯の推移	H22/父子世帯	10	世帯	honpen p.22				要人確認:H2 値が文字データにない
+99ceabcbf1b9a3ca	jinko	13	chart.stacked	ひとり親世帯の推移	H27/母子世帯	98	世帯	honpen p.22				要人確認:H2 値が文字データにない
+dab744726aeb676b	jinko	13	chart.stacked	ひとり親世帯の推移	H27/父子世帯	13	世帯	honpen p.22				要人確認:H2 値が文字データにない
+50a387d7aa834efb	jinko	13	chart.stacked	ひとり親世帯の推移	R2/母子世帯	81	世帯	honpen p.22				要人確認:H2 値が文字データにない
+affd43dd3777d73c	jinko	13	chart.stacked	ひとり親世帯の推移	R2/父子世帯	14	世帯	honpen p.22				要人確認:H2 値が文字データにない
+79144abd4764e0d0	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成17年	3480		honpen p.24	✓	auto:ai	2026-10-10	
+2554afdf06956a01	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成22年	3600		honpen p.24				要人確認:H2 値が文字データにない
+83fb3eb900b5b8a9	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成27年	3840		honpen p.24				要人確認:H2 値が文字データにない
+490a81684bcf70b9	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/令和2年	3950		honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+849e05507f73fb5a	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成17年	651		honpen p.24				要人確認:H2 値が文字データにない
+564f1b41145c87db	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成22年	730		honpen p.24				要人確認:H2 値が文字データにない
+a265fcc4f99a76fa	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成27年	926		honpen p.24				要人確認:H2 値が文字データにない
+54b7158e0d20dfc1	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/令和2年	1084		honpen p.24				要人確認:H2 値が文字データにない
+2c380f13ea792a85	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成17年	440		honpen p.24				要人確認:H2 値が文字データにない
+68c6b8343c6b444b	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成22年	525		honpen p.24				要人確認:H2 値が文字データにない
+b72433494766c923	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成27年	596		honpen p.24				要人確認:H2 値が文字データにない
+f52e9d9a908212b8	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/令和2年	733		honpen p.24				要人確認:H2 値が文字データにない
+7c5e93a65e0c1763	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成17年	1513		honpen p.24				要人確認:H2 値が文字データにない
+a4db2f7130585881	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成22年	1343		honpen p.24				要人確認:H2 値が文字データにない
+725fb714d2f37810	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成27年	1096		honpen p.24				要人確認:H2 値が文字データにない
+fd30482f8e5ccb19	jinko	15	table	特に配慮すべき世帯	3世代世帯/令和2年	808		honpen p.24				要人確認:H2 値が文字データにない
+42c8b76967002c69	jinko	17	chart.stacked	障がい者世帯の推移	H25/身体障害者手帳所持者	954		honpen p.24				要人確認:H2 値が文字データにない
+d95da45d265aafc1	jinko	17	chart.stacked	障がい者世帯の推移	H25/療育手帳所持者	233		honpen p.24				要人確認:H2 値が文字データにない
+ac7838cd098a82d1	jinko	17	chart.stacked	障がい者世帯の推移	H25/精神障害者保健福祉手帳所持者	139		honpen p.24				要人確認:H2 値が文字データにない
+cd754af3cc0e42b2	jinko	17	chart.stacked	障がい者世帯の推移	H26/身体障害者手帳所持者	948		honpen p.24				要人確認:H2 値が文字データにない
+a15966d5b7680c1b	jinko	17	chart.stacked	障がい者世帯の推移	H26/療育手帳所持者	242		honpen p.24				要人確認:H2 値が文字データにない
+ae0522204b588077	jinko	17	chart.stacked	障がい者世帯の推移	H26/精神障害者保健福祉手帳所持者	138		honpen p.24				要人確認:H2 値が文字データにない
+965ba7a55f22fe53	jinko	17	chart.stacked	障がい者世帯の推移	H27/身体障害者手帳所持者	968		honpen p.24				要人確認:H2 値が文字データにない
+174684b0e9e4318c	jinko	17	chart.stacked	障がい者世帯の推移	H27/療育手帳所持者	244		honpen p.24				要人確認:H2 値が文字データにない
+341296114bf959a9	jinko	17	chart.stacked	障がい者世帯の推移	H27/精神障害者保健福祉手帳所持者	143		honpen p.24				要人確認:H2 値が文字データにない
+68e57b4e86eb3b70	jinko	17	chart.stacked	障がい者世帯の推移	H28/身体障害者手帳所持者	947		honpen p.24				要人確認:H2 値が文字データにない
+c5fd3d4c41ec0559	jinko	17	chart.stacked	障がい者世帯の推移	H28/療育手帳所持者	247		honpen p.24				要人確認:H2 値が文字データにない
+f83fbbb8a000a6e5	jinko	17	chart.stacked	障がい者世帯の推移	H28/精神障害者保健福祉手帳所持者	146		honpen p.24				要人確認:H2 値が文字データにない
+72d5e92f51bec601	jinko	17	chart.stacked	障がい者世帯の推移	H29/身体障害者手帳所持者	927		honpen p.24				要人確認:H2 値が文字データにない
+99cb99bf3bd53a04	jinko	17	chart.stacked	障がい者世帯の推移	H29/療育手帳所持者	261		honpen p.24				要人確認:H2 値が文字データにない
+2b0f45265f21e526	jinko	17	chart.stacked	障がい者世帯の推移	H29/精神障害者保健福祉手帳所持者	141		honpen p.24				要人確認:H2 値が文字データにない
+2a62c26022cb811f	jinko	17	chart.stacked	障がい者世帯の推移	H30/身体障害者手帳所持者	906		honpen p.24				要人確認:H2 値が文字データにない
+968cafd104a816c3	jinko	17	chart.stacked	障がい者世帯の推移	H30/療育手帳所持者	274		honpen p.24				要人確認:H2 値が文字データにない
+bd412ac091db361b	jinko	17	chart.stacked	障がい者世帯の推移	H30/精神障害者保健福祉手帳所持者	133		honpen p.24				要人確認:H2 値が文字データにない
+edc335bd954d85cf	jinko	17	chart.stacked	障がい者世帯の推移	H31/身体障害者手帳所持者	890		honpen p.24				要人確認:H2 値が文字データにない
+920d4c2581b02897	jinko	17	chart.stacked	障がい者世帯の推移	H31/療育手帳所持者	282		honpen p.24				要人確認:H2 値が文字データにない
+d412e1657e86be9e	jinko	17	chart.stacked	障がい者世帯の推移	H31/精神障害者保健福祉手帳所持者	134		honpen p.24				要人確認:H2 値が文字データにない
+85db504eab2dd17b	jinko	17	chart.stacked	障がい者世帯の推移	R2/身体障害者手帳所持者	879		honpen p.24				要人確認:H2 値が文字データにない
+91759ae929ec1970	jinko	17	chart.stacked	障がい者世帯の推移	R2/療育手帳所持者	283		honpen p.24				要人確認:H2 値が文字データにない
+6d784da9890bc2e5	jinko	17	chart.stacked	障がい者世帯の推移	R2/精神障害者保健福祉手帳所持者	128		honpen p.24				要人確認:H2 値が文字データにない
+f79066a58d6f77a0	jutaku	3	table	住宅の数と空き家	住宅数/平成15年	8000		honpen p.25	✓	auto:ai	2026-10-10	
+645d9d6b9cca7bbe	jutaku	3	table	住宅の数と空き家	住宅数/平成20年	8420		honpen p.25	✓	auto:ai	2026-10-10	
+b2aa0f2e46360094	jutaku	3	table	住宅の数と空き家	住宅数/平成25年	9330		honpen p.25	✓	auto:ai	2026-10-10	
+6ced0f8764037b97	jutaku	3	table	住宅の数と空き家	住宅数/平成30年	9360		honpen p.25	✓	auto:ai	2026-10-10	
+93a1c0f832d53846	jutaku	3	table	住宅の数と空き家	居住世帯あり/平成15年	6550		honpen p.25	✓	auto:ai	2026-10-10	
+884265e4a24626f4	jutaku	3	table	住宅の数と空き家	居住世帯あり/平成20年	7270		honpen p.25	✓	auto:ai	2026-10-10	
+9f6087ddac7e5a07	jutaku	3	table	住宅の数と空き家	居住世帯あり/平成25年	7830		honpen p.25	✓	auto:ai	2026-10-10	
+c8e298a2d5e43d88	jutaku	3	table	住宅の数と空き家	居住世帯あり/平成30年	7590		honpen p.25	✓	auto:ai	2026-10-10	
+07e5139135d42ea2	jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成15年	70		honpen p.25	✓	auto:ai	2026-10-10	
+e1020fec03a27cdb	jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成20年	10		honpen p.25	✓	auto:ai	2026-10-10	
+51765b744ec9afae	jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成25年	0		honpen p.25	✓	auto:ai	2026-10-10	
+a73f4fbd9f3dd3b9	jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成30年	50		honpen p.25	✓	auto:ai	2026-10-10	
+47c567de4d12b5ca	jutaku	3	table	住宅の数と空き家	空き家 総数/平成15年	1370		honpen p.25	✓	auto:ai	2026-10-10	
+40b257502c9a78ce	jutaku	3	table	住宅の数と空き家	空き家 総数/平成20年	1140		honpen p.25	✓	auto:ai	2026-10-10	
+6119c83704cf1070	jutaku	3	table	住宅の数と空き家	空き家 総数/平成25年	1500		honpen p.25	✓	auto:ai	2026-10-10	
+b611c724482b773b	jutaku	3	table	住宅の数と空き家	空き家 総数/平成30年	1700		honpen p.25	✓	auto:ai	2026-10-10	
+5035d46a81428fd4	jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成15年	70		honpen p.25	✓	auto:ai	2026-10-10	
+83e93840ef58c9e2	jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成20年	0		honpen p.25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+cae4c2e22dc3ceb4	jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成25年	30		honpen p.25	✓	auto:ai	2026-10-10	
+cc6ae6404951f406	jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成30年	80		honpen p.25	✓	auto:ai	2026-10-10	
+c6ab9b953e8bc57f	jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成15年	220		honpen p.25	✓	auto:ai	2026-10-10	
+4b1ee3265f134a2d	jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成20年	310		honpen p.25	✓	auto:ai	2026-10-10	
+eb92a6e3801dcc51	jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成25年	380		honpen p.25	✓	auto:ai	2026-10-10	
+76bce0a5cd97e31e	jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成30年	460		honpen p.25	✓	auto:ai	2026-10-10	
+31560baa1505dd90	jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成15年	10		honpen p.25	✓	auto:ai	2026-10-10	
+07ca64f66cc9e155	jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成20年	10		honpen p.25	✓	auto:ai	2026-10-10	
+2c91950af3f03c61	jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成25年	40		honpen p.25	✓	auto:ai	2026-10-10	
+4e75ba88c6b38603	jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成30年	30		honpen p.25	✓	auto:ai	2026-10-10	
+2932db1af1424efe	jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成15年	1070		honpen p.25	✓	auto:ai	2026-10-10	
+65dd8d99cb9c3935	jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成20年	820		honpen p.25	✓	auto:ai	2026-10-10	
+7fe02c667f0ccbbd	jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成25年	1060		honpen p.25	✓	auto:ai	2026-10-10	
+8f6f466dadacc278	jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成30年	1120		honpen p.25	✓	auto:ai	2026-10-10	
+b824fe5d2e3699d0	jutaku	3	table	住宅の数と空き家	建築中/平成15年	20		honpen p.25	✓	auto:ai	2026-10-10	
+d5bbc44f187beb93	jutaku	3	table	住宅の数と空き家	建築中/平成20年	0		honpen p.25	✓	auto:ai	2026-10-10	
+03609a5ad2ba6ee4	jutaku	3	table	住宅の数と空き家	建築中/平成25年	0		honpen p.25	✓	auto:ai	2026-10-10	
+350f5f0c3c3ceb8a	jutaku	3	table	住宅の数と空き家	建築中/平成30年	20		honpen p.25	✓	auto:ai	2026-10-10	
+5899577c328f47d1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/空家の数（戸）	210		honpen p.28				要人確認:H2 値が文字データにない
+cdf67868e71807e1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/すぐに入居可能（A）	95		honpen p.28				要人確認:H2 値が文字データにない
+e353ebeeafee5eec	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	72		honpen p.28				要人確認:H2 値が文字データにない
+fae1c2d17e57f416	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	29		honpen p.28				要人確認:H2 値が文字データにない
+a2b794d49ebb6b7d	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/倒壊の危険性有（D）	14		honpen p.28				要人確認:H2 値が文字データにない
+7a89be41d2246275	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/空家の数（戸）	58		honpen p.28				要人確認:H2 値が文字データにない
+16d762aa8b1d2313	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	21		honpen p.28				要人確認:H2 値が文字データにない
+99d71f267338556c	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	16		honpen p.28				要人確認:H2 値が文字データにない
+1cc6318f94491430	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28				要人確認:H2 値が文字データにない
+4d977a4282adadf2	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	5		honpen p.28				要人確認:H2 値が文字データにない
+5708924757e9c522	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/空家の数（戸）	39		honpen p.28				要人確認:H2 値が文字データにない
+12fc54bd6dbeadbb	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	9		honpen p.28				要人確認:H2 値が文字データにない
+925d0fc12c123931	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	19		honpen p.28				要人確認:H2 値が文字データにない
+5f11bf81e9135309	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	5		honpen p.28				要人確認:H2 値が文字データにない
+ebef1cc61e7987f5	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	6		honpen p.28				要人確認:H2 値が文字データにない
+66bd8822cc8afedb	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/空家の数（戸）	61		honpen p.28				要人確認:H2 値が文字データにない
+91b4b02403716d47	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/すぐに入居可能（A）	19		honpen p.28				要人確認:H2 値が文字データにない
+665839733846b936	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	27		honpen p.28	✓	auto:ai	2026-10-10	
+d8c0ecbda25d20b4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	13		honpen p.28				要人確認:H2 値が文字データにない
+184af76d271b71bf	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	
+4a50faf39193a6b0	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/空家の数（戸）	27		honpen p.28	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+b419f9852faa1c0f	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	17		honpen p.28				要人確認:H2 値が文字データにない
+dfd69292408e8f04	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	3		honpen p.28				要人確認:H2 値が文字データにない
+955b9f0a7e79ed72	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	5		honpen p.28				要人確認:H2 値が文字データにない
+020454db9c7bb12b	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	
+ac98764c0698ffca	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/空家の数（戸）	21		honpen p.28				要人確認:H2 値が文字データにない
+0e0b5dc853841856	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	12		honpen p.28				要人確認:H2 値が文字データにない
+2b07f4b45dc23c78	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	4		honpen p.28				要人確認:H2 値が文字データにない
+7eed310c2604b4cf	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	5		honpen p.28				要人確認:H2 値が文字データにない
+efcdd9a1696d6847	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	0		honpen p.28				要人確認:H2 値が文字データにない
+1b324fb954acc501	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/空家の数（戸）	141		honpen p.28				要人確認:H2 値が文字データにない
+39a32445e7d3964c	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/すぐに入居可能（A）	36		honpen p.28				要人確認:H2 値が文字データにない
+5aaced34080474a6	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	57		honpen p.28				要人確認:H2 値が文字データにない
+57ee264e97726c57	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	32		honpen p.28				要人確認:H2 値が文字データにない
+148575809d7211b6	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	16		honpen p.28				要人確認:H2 値が文字データにない
+d391a20a884fc6b4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/空家の数（戸）	557		honpen p.28				要人確認:H2 値が文字データにない
+bcbef0fce8700532	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/すぐに入居可能（A）	209		honpen p.28				要人確認:H2 値が文字データにない
+355d477b89a40ae1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	198		honpen p.28				要人確認:H2 値が文字データにない
+1c9d6c0e1414cc49	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	105		honpen p.28				要人確認:H2 値が文字データにない
+8ea27ecdb6eb0da4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/倒壊の危険性有（D）	45		honpen p.28				要人確認:H2 値が文字データにない
+d5918b3a4986c053	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/空家の数（戸）	179		honpen p.28				要人確認:H2 値が文字データにない
+a68e0db2748bded8	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/すぐに入居可能（A）	78		honpen p.28				要人確認:H2 値が文字データにない
+f834cb019b866f32	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	70		honpen p.28				要人確認:H2 値が文字データにない
+f418cd6c6b90af63	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	23		honpen p.28				要人確認:H2 値が文字データにない
+2ad94c246d82410e	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/倒壊の危険性有（D）	8		honpen p.28				要人確認:H2 値が文字データにない
+6bf88715e759b492	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/空家の数（戸）	54		honpen p.28				要人確認:H2 値が文字データにない
+e37fb5eb8fff6183	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	12		honpen p.28				要人確認:H2 値が文字データにない
+ec9f1c85c7c839e2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	19		honpen p.28				要人確認:H2 値が文字データにない
+7313ab78ebc0aca2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28				要人確認:H2 値が文字データにない
+0d5bc63e84857378	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	7		honpen p.28				要人確認:H2 値が文字データにない
+31cbbbdb8cef13a0	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/空家の数（戸）	32		honpen p.28				要人確認:H2 値が文字データにない
+a8277ab187c2a41e	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	5		honpen p.28				要人確認:H2 値が文字データにない
+c9d97e06a722b3ce	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	22		honpen p.28				要人確認:H2 値が文字データにない
+6d2d28526edc19e7	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	2		honpen p.28	✓	auto:ai	2026-10-10	
+1effc75dbd2bb897	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	3		honpen p.28				要人確認:H2 値が文字データにない
+f4b1ae684bde0767	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/空家の数（戸）	44		honpen p.28				要人確認:H2 値が文字データにない
+4c1fe091dc3aa977	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/すぐに入居可能（A）	16		honpen p.28				要人確認:H2 値が文字データにない
+bf711f414ee0d98f	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	18		honpen p.28				要人確認:H2 値が文字データにない
+0e7f14ec30b39605	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	8		honpen p.28				要人確認:H2 値が文字データにない
+5321c38a15185690	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+dafafdd5724079ea	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/空家の数（戸）	17		honpen p.28				要人確認:H2 値が文字データにない
+d4453ed7045b2dcd	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	7		honpen p.28				要人確認:H2 値が文字データにない
+c932c37a7eb15441	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	2		honpen p.28	✓	auto:ai	2026-10-10	
+e2d8031109e69cbf	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	7		honpen p.28				要人確認:H2 値が文字データにない
+6766b557e649beb9	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	1		honpen p.28				要人確認:H2 値が文字データにない
+ca4d7b7a97572c55	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/空家の数（戸）	22		honpen p.28				要人確認:H2 値が文字データにない
+9b1f385e37641689	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	13		honpen p.28				要人確認:H2 値が文字データにない
+4e43afd63eb4d018	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	8		honpen p.28				要人確認:H2 値が文字データにない
+b1c585f82ded7a81	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	2		honpen p.28	✓	auto:ai	2026-10-10	
+b6f54bb39c9ec9ce	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	1		honpen p.28				要人確認:H2 値が文字データにない
+599fb8961463c16f	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/空家の数（戸）	83		honpen p.28				要人確認:H2 値が文字データにない
+e3163ff8ac2e8024	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/すぐに入居可能（A）	29		honpen p.28				要人確認:H2 値が文字データにない
+faac16e9375fc9d3	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	33		honpen p.28				要人確認:H2 値が文字データにない
+0bdede8eaaa3b968	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	19		honpen p.28				要人確認:H2 値が文字データにない
+c04846b38b205ca2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	
+9c30452830ecc8a0	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/空家の数（戸）	431		honpen p.28				要人確認:H2 値が文字データにない
+57c8f4efabfcf964	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/すぐに入居可能（A）	160		honpen p.28				要人確認:H2 値が文字データにない
+6ea5cf9428a9212d	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	170		honpen p.28				要人確認:H2 値が文字データにない
+f8dcb22929a22cfc	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	77		honpen p.28				要人確認:H2 値が文字データにない
+1fe5acb364846121	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/倒壊の危険性有（D）	24		honpen p.28				要人確認:H2 値が文字データにない
+e13062de3531b07b	jutaku	11	table	持ち家と借家	一般世帯数/平成7年	6043		honpen p.26	✓	auto:ai	2026-10-10	
+3092b30256c3af4b	jutaku	11	table	持ち家と借家	一般世帯数/平成12年	6330		honpen p.26	✓	auto:ai	2026-10-10	
+7fab61914288c000	jutaku	11	table	持ち家と借家	一般世帯数/平成17年	6758		honpen p.26	✓	auto:ai	2026-10-10	
+a51d8e31c89039e1	jutaku	11	table	持ち家と借家	一般世帯数/平成22年	7573		honpen p.26	✓	auto:ai	2026-10-10	
+53b3753fa23cb22a	jutaku	11	table	持ち家と借家	一般世帯数/平成27年	7249		honpen p.26	✓	auto:ai	2026-10-10	
+6cefa39c3873cadd	jutaku	11	table	持ち家と借家	一般世帯数/令和2年	7655		honpen p.26	✓	auto:ai	2026-10-10	
+eece871f155457d4	jutaku	11	table	持ち家と借家	持ち家/平成7年	5276		honpen p.26	✓	auto:ai	2026-10-10	
+8603749060974e31	jutaku	11	table	持ち家と借家	持ち家/平成12年	5506		honpen p.26	✓	auto:ai	2026-10-10	
+85d63b3390ae270a	jutaku	11	table	持ち家と借家	持ち家/平成17年	5714		honpen p.26	✓	auto:ai	2026-10-10	
+e40239d6b69c6ac1	jutaku	11	table	持ち家と借家	持ち家/平成22年	5849		honpen p.26	✓	auto:ai	2026-10-10	
+8efdea3878cbe518	jutaku	11	table	持ち家と借家	持ち家/平成27年	5951		honpen p.26	✓	auto:ai	2026-10-10	
+2c4c26481b8aebb7	jutaku	11	table	持ち家と借家	持ち家/令和2年	6070		honpen p.26	✓	auto:ai	2026-10-10	
+58bdc91ab4f05261	jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成7年	132		honpen p.26	✓	auto:ai	2026-10-10	
+32b1788101d63d6d	jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成12年	133		honpen p.26	✓	auto:ai	2026-10-10	
+95caab41da260d4a	jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成17年	131		honpen p.26	✓	auto:ai	2026-10-10	
+9c6ebe7d245e5c74	jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成22年	94		honpen p.26	✓	auto:ai	2026-10-10	
+2e9e2857847b31fb	jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成27年	76		honpen p.26	✓	auto:ai	2026-10-10	
+6ec05677b420f8d0	jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/令和2年	52		honpen p.26	✓	auto:ai	2026-10-10	
+44a300625871c93d	jutaku	11	table	持ち家と借家	民間借家/平成7年	348		honpen p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+e1ff273a6c12d18a	jutaku	11	table	持ち家と借家	民間借家/平成12年	415		honpen p.26	✓	auto:ai	2026-10-10	
+dc58b97409b0004a	jutaku	11	table	持ち家と借家	民間借家/平成17年	696		honpen p.26	✓	auto:ai	2026-10-10	
+661f3c9409c8d3b0	jutaku	11	table	持ち家と借家	民間借家/平成22年	941		honpen p.26	✓	auto:ai	2026-10-10	
+a8148f5d1920d96f	jutaku	11	table	持ち家と借家	民間借家/平成27年	953		honpen p.26	✓	auto:ai	2026-10-10	
+bf2db33ebda633ad	jutaku	11	table	持ち家と借家	民間借家/令和2年	1152		honpen p.26	✓	auto:ai	2026-10-10	
+365b622da57800bd	jutaku	11	table	持ち家と借家	給与住宅/平成7年	231		honpen p.26	✓	auto:ai	2026-10-10	
+faa8c700cc42d0ba	jutaku	11	table	持ち家と借家	給与住宅/平成12年	237		honpen p.26	✓	auto:ai	2026-10-10	
+9d099b67109e8924	jutaku	11	table	持ち家と借家	給与住宅/平成17年	180		honpen p.26	✓	auto:ai	2026-10-10	
+56168b324de0978e	jutaku	11	table	持ち家と借家	給与住宅/平成22年	642		honpen p.26	✓	auto:ai	2026-10-10	
+33190777318c5316	jutaku	11	table	持ち家と借家	給与住宅/平成27年	206		honpen p.26	✓	auto:ai	2026-10-10	
+c482886f37ce5b5f	jutaku	11	table	持ち家と借家	給与住宅/令和2年	298		honpen p.26	✓	auto:ai	2026-10-10	
+40e93339e1a43dbb	jutaku	11	table	持ち家と借家	間借り/平成7年	56		honpen p.26	✓	auto:ai	2026-10-10	
+f972a8f6395986b1	jutaku	11	table	持ち家と借家	間借り/平成12年	39		honpen p.26	✓	auto:ai	2026-10-10	
+1000bd0f01fd4c31	jutaku	11	table	持ち家と借家	間借り/平成17年	37		honpen p.26	✓	auto:ai	2026-10-10	
+f9b64fe208dd8533	jutaku	11	table	持ち家と借家	間借り/平成22年	47		honpen p.26	✓	auto:ai	2026-10-10	
+b8250430618e9d79	jutaku	11	table	持ち家と借家	間借り/平成27年	63		honpen p.26	✓	auto:ai	2026-10-10	
+e759b497f6fa5b39	jutaku	11	table	持ち家と借家	間借り/令和2年	83		honpen p.26	✓	auto:ai	2026-10-10	
+2d6e8bcfcaa97619	jutaku	14	table	住宅の広さと建てた時期	持ち家/総数	168.86		honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+99b9855bacbf841e	jutaku	14	table	住宅の広さと建てた時期	持ち家/一戸建て	169.33		honpen p.29	✓	auto:ai	2026-10-10	
+d047f6bf7ca2f88f	jutaku	14	table	住宅の広さと建てた時期	持ち家/長屋建て	37.00		honpen p.29	✓	auto:ai	2026-10-10	
+f1ce1291e1de706a	jutaku	14	table	住宅の広さと建てた時期	借家/総数	57.14		honpen p.29	✓	auto:pdftext	2026-10-10	
+eddd357c2be5d90b	jutaku	14	table	住宅の広さと建てた時期	借家/一戸建て	124.05		honpen p.29	✓	auto:ai	2026-10-10	
+c95bead8d1415644	jutaku	14	table	住宅の広さと建てた時期	借家/長屋建て	44.28		honpen p.29	✓	auto:ai	2026-10-10	
+87de134504da1e0b	jutaku	14	table	住宅の広さと建てた時期	借家/共同住宅	45.00		honpen p.29	✓	auto:pdftext	2026-10-10	
+bf335fe7f25d956c	jutaku	14	table	住宅の広さと建てた時期	総数/総数	150.28		honpen p.29	✓	auto:pdftext	2026-10-10	
+935184533d14a200	jutaku	14	table	住宅の広さと建てた時期	総数/一戸建て	167.96		honpen p.29	✓	auto:ai	2026-10-10	
+d372ca529845abd1	jutaku	14	table	住宅の広さと建てた時期	総数/長屋建て	43.59		honpen p.29	✓	auto:ai	2026-10-10	
+afaf8cc8123238a9	jutaku	14	table	住宅の広さと建てた時期	総数/共同住宅	45.00		honpen p.29	✓	auto:pdftext	2026-10-10	
+594e5ed8ca70b671	jutaku	16	table	住宅の広さと建てた時期	総数/総数	7590		honpen p.30	✓	auto:pdftext	2026-10-10	
+5d631ccbb9328398	jutaku	16	table	住宅の広さと建てた時期	総数/持ち家	6000		honpen p.30	✓	auto:pdftext	2026-10-10	
+b91793b72cd45e15	jutaku	16	table	住宅の広さと建てた時期	総数/借家	1200		honpen p.30	✓	auto:pdftext	2026-10-10	
+5539ef18d39a13be	jutaku	16	table	住宅の広さと建てた時期	昭和45年以前/総数	1010		honpen p.30	✓	auto:ai	2026-10-10	
+7c00a0b5d6003c16	jutaku	16	table	住宅の広さと建てた時期	昭和45年以前/持ち家	980		honpen p.30	✓	auto:pdftext	2026-10-10	
+3b408088bbe8f70d	jutaku	16	table	住宅の広さと建てた時期	昭和45年以前/借家	30		honpen p.30	✓	auto:pdftext	2026-10-10	
+8dc18bb5f16f568e	jutaku	16	table	住宅の広さと建てた時期	昭和46〜昭和55年/総数	890		honpen p.30	✓	auto:ai	2026-10-10	
+69c60035f8a0697b	jutaku	16	table	住宅の広さと建てた時期	昭和46〜昭和55年/持ち家	800		honpen p.30	✓	auto:pdftext	2026-10-10	
+90d5c31681b605a5	jutaku	16	table	住宅の広さと建てた時期	昭和46〜昭和55年/借家	90		honpen p.30	✓	auto:pdftext	2026-10-10	
+c4a52c8120fdb392	jutaku	16	table	住宅の広さと建てた時期	昭和56〜平成2年/総数	1090		honpen p.30	✓	auto:ai	2026-10-10	
+2b0c4c7b5062be30	jutaku	16	table	住宅の広さと建てた時期	昭和56〜平成2年/持ち家	1010		honpen p.30	✓	auto:pdftext	2026-10-10	
+9047751169aba15c	jutaku	16	table	住宅の広さと建てた時期	昭和56〜平成2年/借家	90		honpen p.30	✓	auto:pdftext	2026-10-10	
+7c3c52e47f534570	jutaku	16	table	住宅の広さと建てた時期	平成3〜平成12年/総数	1600		honpen p.30	✓	auto:ai	2026-10-10	
+f46b46e64d0aa788	jutaku	16	table	住宅の広さと建てた時期	平成3〜平成12年/持ち家	1270		honpen p.30	✓	auto:pdftext	2026-10-10	
+7db57a32f5cec13c	jutaku	16	table	住宅の広さと建てた時期	平成3〜平成12年/借家	330		honpen p.30	✓	auto:pdftext	2026-10-10	
+c1aef411214edc17	jutaku	16	table	住宅の広さと建てた時期	平成13〜平成22年/総数	1180		honpen p.30	✓	auto:ai	2026-10-10	
+3ba44fd0a3bf9a43	jutaku	16	table	住宅の広さと建てた時期	平成13〜平成22年/持ち家	830		honpen p.30	✓	auto:pdftext	2026-10-10	
+ec87c51bceba8880	jutaku	16	table	住宅の広さと建てた時期	平成13〜平成22年/借家	360		honpen p.30	✓	auto:pdftext	2026-10-10	
+f6955047a46fa44e	jutaku	16	table	住宅の広さと建てた時期	平成23〜平成27年/総数	600		honpen p.30	✓	auto:ai	2026-10-10	
+c5999a63708260c3	jutaku	16	table	住宅の広さと建てた時期	平成23〜平成27年/持ち家	460		honpen p.30	✓	auto:ai	2026-10-10	
+15c382c5ca24d813	jutaku	16	table	住宅の広さと建てた時期	平成23〜平成27年/借家	140		honpen p.30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+68ac2184b78c50bd	jutaku	16	table	住宅の広さと建てた時期	平成28〜平成30年/総数	140		honpen p.30	✓	auto:ai	2026-10-10	
+1c52a6f62df498f8	jutaku	16	table	住宅の広さと建てた時期	平成28〜平成30年/持ち家	130		honpen p.30	✓	auto:ai	2026-10-10	
+25923ba8ad84c18d	jutaku	16	table	住宅の広さと建てた時期	平成28〜平成30年/借家	10		honpen p.30	✓	auto:ai	2026-10-10	
+9f9202061929c41e	jutaku	18	table	住宅の広さと建てた時期	総数 戸数/最低居住面積水準以上の世帯	6740		honpen p.31	✓	auto:ai	2026-10-10	
+46942a523d3f7432	jutaku	18	table	住宅の広さと建てた時期	総数 戸数/最低居住面積水準未満の世帯	450		honpen p.31	✓	auto:ai	2026-10-10	
+57d04a3eba183291	jutaku	18	table	住宅の広さと建てた時期	総数 戸数/総数	7590		honpen p.31				要人確認:H1 A=一致/中 B=一致/中
+88ed9cc9277247c1	jutaku	18	table	住宅の広さと建てた時期	総数 戸数/誘導居住面積水準以上の世帯	5330		honpen p.31	✓	auto:ai	2026-10-10	
+5a3d568d7aa3382a	jutaku	18	table	住宅の広さと建てた時期	総数 戸数/誘導居住面積水準未満の世帯	1860		honpen p.31	✓	auto:ai	2026-10-10	
+927b53f6292c06a5	jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/最低居住面積水準以上の世帯	88.8		honpen p.31	✓	auto:ai	2026-10-10	
+028aa562750d8c37	jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/最低居住面積水準未満の世帯	5.9		honpen p.31	✓	auto:ai	2026-10-10	
+4a29d6bec8b4642f	jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/総数	100.0		honpen p.31				要人確認:H1 A=一致/中 B=一致/中
+c2f4f59d430c0ada	jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/誘導居住面積水準以上の世帯	70.2		honpen p.31	✓	auto:ai	2026-10-10	
+98bc9ca737e14101	jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/誘導居住面積水準未満の世帯	24.5		honpen p.31	✓	auto:ai	2026-10-10	
+77f0d8c13df29dcd	jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/最低居住面積水準以上の世帯	5950		honpen p.31	✓	auto:ai	2026-10-10	
+3649515c61078400	jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/最低居住面積水準未満の世帯	50		honpen p.31	✓	auto:ai	2026-10-10	
+4771d455a286d610	jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/総数	6000		honpen p.31				要人確認:H1 A=一致/中 B=一致/中
+dd26b8851a620cab	jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/誘導居住面積水準以上の世帯	5080		honpen p.31	✓	auto:ai	2026-10-10	
+571bb2a9b9db76e9	jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/誘導居住面積水準未満の世帯	920		honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+8229b5626254012c	jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/最低居住面積水準以上の世帯	99.2		honpen p.31	✓	auto:ai	2026-10-10	
+f9c9e3f41ef39023	jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/最低居住面積水準未満の世帯	0.8		honpen p.31	✓	auto:ai	2026-10-10	
+09c0a4fb7d0bac72	jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/総数	100.0		honpen p.31				要人確認:H1 A=一致/中 B=一致/中
+177a0e1ef20ab24d	jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/誘導居住面積水準以上の世帯	84.7		honpen p.31	✓	auto:ai	2026-10-10	
+3134b8c5cbdd5b1a	jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/誘導居住面積水準未満の世帯	15.3		honpen p.31	✓	auto:ai	2026-10-10	
+cf72f33cd9c1b576	jutaku	18	table	住宅の広さと建てた時期	借家 戸数/最低居住面積水準以上の世帯	790		honpen p.31	✓	auto:ai	2026-10-10	
+6bb118df88301a36	jutaku	18	table	住宅の広さと建てた時期	借家 戸数/最低居住面積水準未満の世帯	400		honpen p.31	✓	auto:ai	2026-10-10	
+80fd111b60abe865	jutaku	18	table	住宅の広さと建てた時期	借家 戸数/総数	1200		honpen p.31				要人確認:H1 A=一致/中 B=一致/中
+67fb6384bd9b4dbb	jutaku	18	table	住宅の広さと建てた時期	借家 戸数/誘導居住面積水準以上の世帯	260		honpen p.31	✓	auto:ai	2026-10-10	
+b19fc9a48e2c9dac	jutaku	18	table	住宅の広さと建てた時期	借家 戸数/誘導居住面積水準未満の世帯	940		honpen p.31	✓	auto:ai	2026-10-10	
+5f54cdd99636032e	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/最低居住面積水準以上の世帯	65.8		honpen p.31	✓	auto:ai	2026-10-10	
+d65c3150607b65c5	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/最低居住面積水準未満の世帯	33.3		honpen p.31	✓	auto:ai	2026-10-10	
+838b33b2fb585328	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/総数	100.0		honpen p.31				要人確認:H1 A=一致/中 B=一致/中
+f6faad51e4df4711	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/誘導居住面積水準以上の世帯	21.7		honpen p.31	✓	auto:ai	2026-10-10	
+2f73fc4c9c840582	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/誘導居住面積水準未満の世帯	78.3		honpen p.31	✓	auto:ai	2026-10-10	
+c5a01b9037c18c76	jutaku	22	table	住宅の耐震化	計/住宅総数	8020		honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+5cb3db743471c120	jutaku	22	table	住宅の耐震化	計/うち一戸建	6560		honpen p.33				要人確認:H2 値が文字データにない
+a1e2c0592f0a8b95	jutaku	22	table	住宅の耐震化	計/うち共同等	1460		honpen p.33				要人確認:H2 値が文字データにない
+609920e6e3163918	jutaku	22	table	住宅の耐震化	計/耐震性あり	5510		honpen p.33				要人確認:H1 A=一致/高 B=一致/中
+f9c36ef75368f6af	jutaku	22	table	住宅の耐震化	昭和55年以前/住宅総数	3340		honpen p.33				要人確認:H2 値が文字データにない
+dd9528c79a6c70b4	jutaku	22	table	住宅の耐震化	昭和55年以前/うち一戸建	2770		honpen p.33				要人確認:H2 値が文字データにない
+2295eae3f152b66e	jutaku	22	table	住宅の耐震化	昭和55年以前/うち共同等	570		honpen p.33				要人確認:H2 値が文字データにない
+864309e8268e7993	jutaku	22	table	住宅の耐震化	昭和55年以前/耐震性あり	830		honpen p.33				要人確認:H2 値が文字データにない
+735449b059954509	jutaku	22	table	住宅の耐震化	昭和56年以降/住宅総数	4680		honpen p.33				要人確認:H2 値が文字データにない
+78248f811890904b	jutaku	22	table	住宅の耐震化	昭和56年以降/うち一戸建	3790		honpen p.33				要人確認:H2 値が文字データにない
+c5ddc59fe4d736b2	jutaku	22	table	住宅の耐震化	昭和56年以降/うち共同等	890		honpen p.33				要人確認:H2 値が文字データにない
+7c1c2c79fc7a56b5	jutaku	22	table	住宅の耐震化	昭和56年以降/耐震性あり	4680		honpen p.33				要人確認:H2 値が文字データにない
+dc86537f02d11c07	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/総数	7590		honpen p.34	✓	auto:ai	2026-10-10	
+e0264a2d044ffbfa	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員2ｍ未満の道路	310		honpen p.34	✓	auto:ai	2026-10-10	
+4a96af01795d2ad0	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員2〜4ｍ未満の道路	3090		honpen p.34	✓	auto:ai	2026-10-10	
+eea9adb38cd0052e	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員4〜6ｍ未満の道路	3730		honpen p.34	✓	auto:ai	2026-10-10	
+c236fddcdf4e2413	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員6〜10ｍ未満の道路	300		honpen p.34	✓	auto:ai	2026-10-10	
+578398ec541fc4ae	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員10ｍ以上の道路	110		honpen p.34	✓	auto:ai	2026-10-10	
+23eb87599c2c5d67	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/敷地が道路に接していない	40		honpen p.34	✓	auto:ai	2026-10-10	
+41815263505d4166	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/総数	100.0		honpen p.34	✓	auto:ai	2026-10-10	
+85d3f37506b85be7	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員2ｍ未満の道路	4.1		honpen p.34	✓	auto:ai	2026-10-10	
+ed8ad7d1f2d79751	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員2〜4ｍ未満の道路	40.7		honpen p.34	✓	auto:ai	2026-10-10	
+2e96b4997dbb507c	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員4〜6ｍ未満の道路	49.1		honpen p.34	✓	auto:ai	2026-10-10	
+aa0c2f170d8ccf76	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員6〜10ｍ未満の道路	4.0		honpen p.34	✓	auto:ai	2026-10-10	
+24cd371e682fbea2	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員10ｍ以上の道路	1.4		honpen p.34	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+dbc5d700ab2baec6	jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/敷地が道路に接していない	0.5		honpen p.34	✓	auto:ai	2026-10-10	
+e090f066feebc81c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/総数	250		honpen p.37	✓	auto:pdftext	2026-10-10	
+675b0ef308a35232	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/持ち家	78		honpen p.37	✓	auto:pdftext	2026-10-10	
+65c7b44fce9c5fa3	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/貸家	172		honpen p.37	✓	auto:pdftext	2026-10-10	
+2e6dbabdabb27caf	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+911ef4301db2118e	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/分譲住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+5fdf105d8fd4ee10	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/総数	150		honpen p.37	✓	auto:pdftext	2026-10-10	
+3c3bcf6d79b2cbd9	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/持ち家	96		honpen p.37	✓	auto:pdftext	2026-10-10	
+564efb6d67912ac4	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/貸家	53		honpen p.37	✓	auto:pdftext	2026-10-10	
+0b9312c2ef52982c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/給与住宅	1		honpen p.37	✓	auto:pdftext	2026-10-10	
+77c91f8d2aa62317	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/分譲住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+c074217f333464c4	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/総数	312		honpen p.37	✓	auto:pdftext	2026-10-10	
+7e70b85357849d14	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/持ち家	74		honpen p.37	✓	auto:pdftext	2026-10-10	
+3a2044215c88fd38	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/貸家	238		honpen p.37	✓	auto:pdftext	2026-10-10	
+ce3402b1fab60e7f	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+aa3cecb33f0053ec	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/分譲住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+41e87ccbc23fc8e6	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/総数	136		honpen p.37	✓	auto:pdftext	2026-10-10	
+70aa0d5491ce265b	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/持ち家	75		honpen p.37	✓	auto:pdftext	2026-10-10	
+dd33964d92025967	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/貸家	61		honpen p.37	✓	auto:pdftext	2026-10-10	
+cc1cd12a06c1fdc5	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+991dfd2d26fc564b	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/分譲住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+89c47aa1445730c3	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/総数	70		honpen p.37	✓	auto:ai	2026-10-10	
+b766f8da12b40c98	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/持ち家	47		honpen p.37	✓	auto:pdftext	2026-10-10	
+1a0c60e06a9e6cc3	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/貸家	22		honpen p.37	✓	auto:pdftext	2026-10-10	
+380caffdf813ebbe	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+4b5937708c768cfe	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/分譲住宅	1		honpen p.37	✓	auto:ai	2026-10-10	
+29373855de0d262a	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/総数	91		honpen p.37	✓	auto:ai	2026-10-10	
+9e43085ed1cd502b	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/持ち家	74		honpen p.37	✓	auto:pdftext	2026-10-10	
+ea2fe42fd331475d	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/貸家	17		honpen p.37	✓	auto:pdftext	2026-10-10	
+e299e249c6ed9977	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+a732bfd6d80bd89e	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/分譲住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+63a4b727125c5162	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/総数	52		honpen p.37	✓	auto:ai	2026-10-10	
+73cd2b805fbe5d61	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/持ち家	48		honpen p.37	✓	auto:pdftext	2026-10-10	
+11115591b0204e23	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/貸家	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+61af1492731da1cb	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+bb1909148e338ed4	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/分譲住宅	4		honpen p.37	✓	auto:ai	2026-10-10	
+29222a80b6c0d99c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/総数	86		honpen p.37	✓	auto:ai	2026-10-10	
+1957c016bff418a9	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/持ち家	66		honpen p.37	✓	auto:pdftext	2026-10-10	
+8204bd9142e2054a	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/貸家	10		honpen p.37	✓	auto:pdftext	2026-10-10	
+dbdd0b15fa1286b3	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/給与住宅	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+baa10bc6c18691f2	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/分譲住宅	10		honpen p.37	✓	auto:ai	2026-10-10	
+c263c0df20e6fb1d	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/総数	75		honpen p.37	✓	auto:ai	2026-10-10	
+57be206f53fc4f94	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/持ち家	72		honpen p.37	✓	auto:pdftext	2026-10-10	
+18a7cba6e38d523c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/貸家	0		honpen p.37	✓	auto:pdftext	2026-10-10	
+a06aac80d94fcc6d	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/給与住宅	1		honpen p.37	✓	auto:pdftext	2026-10-10	
+cd3dec1cb9835373	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/分譲住宅	2		honpen p.37	✓	auto:ai	2026-10-10	
+88550d9bdd0d211c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/総数	70		honpen p.37	✓	auto:ai	2026-10-10	
+b0d07597feff9524	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/持ち家	58		honpen p.37	✓	auto:ai	2026-10-10	
+be769673ef8311b3	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/貸家	4		honpen p.37	✓	auto:ai	2026-10-10	
+3170aea82a528edd	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/給与住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+014f546080933c24	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/分譲住宅	8		honpen p.37	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+38a118999ea78b2b	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/総数	84		honpen p.37	✓	auto:ai	2026-10-10	
+9bbf405729abe3f8	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/持ち家	71		honpen p.37	✓	auto:ai	2026-10-10	
+e0af74641d28821f	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/貸家	0		honpen p.37	✓	auto:ai	2026-10-10	
+d5887773c4bc0726	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/給与住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+73c7dc4a4d15ab3d	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/分譲住宅	13		honpen p.37	✓	auto:ai	2026-10-10	
+40488122ff701a14	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/総数	71		honpen p.37	✓	auto:ai	2026-10-10	
+436d5d85daebd07c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/持ち家	56		honpen p.37	✓	auto:ai	2026-10-10	
+14ee084271f3ab91	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/貸家	8		honpen p.37	✓	auto:ai	2026-10-10	
+e4a8cedb10c48b94	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/給与住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+48c9af892b9bbbfa	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/分譲住宅	7		honpen p.37	✓	auto:ai	2026-10-10	
+981cb46b5c240882	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/総数	66		honpen p.37	✓	auto:ai	2026-10-10	
+ace53ea787711d8b	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/持ち家	55		honpen p.37	✓	auto:ai	2026-10-10	
+98803730a4ee9711	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/貸家	0		honpen p.37	✓	auto:ai	2026-10-10	
+1b7560728705581c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/給与住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+14af475143d4d40c	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/分譲住宅	11		honpen p.37	✓	auto:ai	2026-10-10	
+9d518f22908741b3	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/総数	70		honpen p.37	✓	auto:ai	2026-10-10	
+949014cb5f5f1c71	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/持ち家	66		honpen p.37	✓	auto:ai	2026-10-10	
+584567de89887044	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/貸家	4		honpen p.37	✓	auto:ai	2026-10-10	
+18d34997c90ad542	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/給与住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+c7654251db9c83c9	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/分譲住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+fb206cf8eef1d310	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/総数	72		honpen p.37	✓	auto:ai	2026-10-10	
+84f6150cfb196d7d	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/持ち家	61		honpen p.37	✓	auto:ai	2026-10-10	
+b7080738c175c355	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/貸家	8		honpen p.37	✓	auto:ai	2026-10-10	
+bb86c27449fab4cd	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/給与住宅	0		honpen p.37	✓	auto:ai	2026-10-10	
+7f2c77fd1db8f7d5	jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/分譲住宅	3		honpen p.37	✓	auto:ai	2026-10-10	
+9e2204c2d81c6eaa	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/面積（㎡）	331		honpen p.39	✓	auto:ai	2026-10-10	
+d362f16b83ede0e2	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/平成30年	11500		honpen p.39	✓	auto:ai	2026-10-10	
+86e99a9386bcdcaa	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/平成31年	11400		honpen p.39	✓	auto:ai	2026-10-10	
+30581456ae40ddd4	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/令和2年	11100		honpen p.39	✓	auto:ai	2026-10-10	
+4e7818375406e5b8	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/令和3年	10700		honpen p.39	✓	auto:ai	2026-10-10	
+19c1fe3aa0d766b1	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/令和4年	10300		honpen p.39	✓	auto:ai	2026-10-10	
+b190f16fc3a4ff92	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/面積（㎡）	496		honpen p.39	✓	auto:ai	2026-10-10	
+f731ce93069c70b3	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/平成30年	23200		honpen p.39	✓	auto:ai	2026-10-10	
+1679311171d76612	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/平成31年	22900		honpen p.39	✓	auto:ai	2026-10-10	
+1f8cf5a323f3e0fb	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/令和2年	22600		honpen p.39	✓	auto:ai	2026-10-10	
+756a242ed61460ee	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/令和3年	21900		honpen p.39	✓	auto:ai	2026-10-10	
+47bdb57d4642fc91	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/令和4年	21200		honpen p.39	✓	auto:ai	2026-10-10	
+c97c86bf5b70b3be	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/面積（㎡）	213		honpen p.39	✓	auto:ai	2026-10-10	
+421244990e09a2d7	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/平成30年	25100		honpen p.39	✓	auto:ai	2026-10-10	
+9f24abd0b299fda4	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/平成31年	25000		honpen p.39	✓	auto:ai	2026-10-10	
+b84d15b4f410541a	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/令和2年	24900		honpen p.39	✓	auto:ai	2026-10-10	
+5eaa2aa7de1e4e8f	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/令和3年	24800		honpen p.39	✓	auto:ai	2026-10-10	
+1f0979813839cec5	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/令和4年	24700		honpen p.39	✓	auto:ai	2026-10-10	
+5751a5d9bdb0122e	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/面積（㎡）	546		honpen p.39	✓	auto:ai	2026-10-10	
+6ccc0dd609aeb8be	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/平成30年	12100		honpen p.39	✓	auto:ai	2026-10-10	
+2af6d7dbeb321995	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/平成31年	11900		honpen p.39	✓	auto:ai	2026-10-10	
+6c57a4812b470073	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/令和2年	11600		honpen p.39	✓	auto:ai	2026-10-10	
+342ca2b53126b92d	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/令和3年	11200		honpen p.39	✓	auto:ai	2026-10-10	
+c3cc947c871d61ec	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/令和4年	10800		honpen p.39	✓	auto:ai	2026-10-10	
+e028f193028e4c89	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/面積（㎡）	167		honpen p.39	✓	auto:ai	2026-10-10	
+cb934edc243dbe6a	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/平成30年	11600		honpen p.39	✓	auto:ai	2026-10-10	
+3dc1564e1c840f8b	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/平成31年	11400		honpen p.39	✓	auto:ai	2026-10-10	
+57ca0c550d47a79e	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/令和2年	11300		honpen p.39	✓	auto:ai	2026-10-10	
+3b6c4911e073240e	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/令和3年	10900		honpen p.39	✓	auto:ai	2026-10-10	
+5f1a1ba75b079d01	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/令和4年	10500		honpen p.39	✓	auto:ai	2026-10-10	
+e531a2ead2f429ba	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/面積（㎡）	240		honpen p.39	✓	auto:ai	2026-10-10	
+d8b393c607a81191	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/平成30年	30600		honpen p.39	✓	auto:ai	2026-10-10	
+e318f89f60f0b38e	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/平成31年	30100		honpen p.39	✓	auto:ai	2026-10-10	
+1143304758957469	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/令和2年	29600		honpen p.39	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+d1a8c8c7e6648821	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/令和3年	28900		honpen p.39	✓	auto:ai	2026-10-10	
+375b175928ca77bf	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/令和4年	28100		honpen p.39	✓	auto:ai	2026-10-10	
+b7920845b5e1a04e	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/面積（㎡）	59895		honpen p.39	✓	auto:ai	2026-10-10	
+ddecaa366101168b	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/平成30年	13900		honpen p.39	✓	auto:ai	2026-10-10	
+c4aedab32a86f1e6	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/平成31年	14000		honpen p.39	✓	auto:ai	2026-10-10	
+cf02a3c829cef8cb	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/令和2年	14100		honpen p.39	✓	auto:ai	2026-10-10	
+58aeb1b60aa97238	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/令和3年	14100		honpen p.39	✓	auto:ai	2026-10-10	
+2555bfc63575d166	jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/令和4年	14200		honpen p.39	✓	auto:ai	2026-10-10	
+72e413dd82fbbb87	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/面積（㎡）	375		honpen p.39	✓	auto:ai	2026-10-10	
+564d811e49f171e3	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/平成30年	20100		honpen p.39	✓	auto:ai	2026-10-10	
+1d9302bf52e8d64b	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/平成31年	19600		honpen p.39	✓	auto:ai	2026-10-10	
+3050dd4fdce6e0ae	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/令和2年	19000		honpen p.39	✓	auto:ai	2026-10-10	
+1dd9c31e42fba23b	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/令和3年	18400		honpen p.39	✓	auto:ai	2026-10-10	
+7d0874bdff01be33	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/令和4年	17800		honpen p.39	✓	auto:ai	2026-10-10	
+213f28c2081ff69c	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/面積（㎡）	350		honpen p.39	✓	auto:ai	2026-10-10	
+6b73ab8383a3197f	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/平成30年	36300		honpen p.39	✓	auto:ai	2026-10-10	
+649e93d8baf1dd19	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/平成31年	36200		honpen p.39	✓	auto:ai	2026-10-10	
+647a92d42b006d2a	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/令和2年	36100		honpen p.39	✓	auto:ai	2026-10-10	
+bfc9f4a89a025fa2	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/令和3年	36100		honpen p.39	✓	auto:ai	2026-10-10	
+8073c6ad8668aaf5	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/令和4年	36500		honpen p.39	✓	auto:ai	2026-10-10	
+abdcb9f40eabb71d	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/面積（㎡）	357		honpen p.39	✓	auto:ai	2026-10-10	
+3c0a9401e89992f1	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/平成30年	16200		honpen p.39	✓	auto:ai	2026-10-10	
+b3166b26c77143ba	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/平成31年	16000		honpen p.39	✓	auto:ai	2026-10-10	
+94994fa58535bab5	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/令和2年	15700		honpen p.39	✓	auto:ai	2026-10-10	
+95bc87b3a37fe8dd	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/令和3年	15300		honpen p.39	✓	auto:ai	2026-10-10	
+503f23eea8a9a8df	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/令和4年	15000		honpen p.39	✓	auto:ai	2026-10-10	
+cb0801e03dff5197	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/面積（㎡）	452		honpen p.39	✓	auto:ai	2026-10-10	
+1e5c8f50ae11737a	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/平成30年	15200		honpen p.39	✓	auto:ai	2026-10-10	
+969b0fc9131e94b0	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/平成31年	14800		honpen p.39	✓	auto:ai	2026-10-10	
+f2ee02cd590355b5	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/令和2年	14400		honpen p.39	✓	auto:ai	2026-10-10	
+72a66e3351fce2e0	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/令和3年	14000		honpen p.39	✓	auto:ai	2026-10-10	
+67c7fa0592e42cd3	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/令和4年	13700		honpen p.39	✓	auto:ai	2026-10-10	
+6b324671024de450	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/面積（㎡）	536		honpen p.39	✓	auto:ai	2026-10-10	
+52f53b83e5bb0a1a	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/平成30年	10700		honpen p.39	✓	auto:ai	2026-10-10	
+10eb5ac593b6a4b1	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/平成31年	10300		honpen p.39	✓	auto:ai	2026-10-10	
+9554a0afbe3a0125	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/令和2年	9900		honpen p.39	✓	auto:ai	2026-10-10	
+44a96d9bf61bf33a	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/令和3年	9500		honpen p.39	✓	auto:ai	2026-10-10	
+e7586c72586e530c	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/令和4年	9200		honpen p.39	✓	auto:ai	2026-10-10	
+d50f6442af65440e	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/面積（㎡）	1098		honpen p.39	✓	auto:ai	2026-10-10	
+cc805ff28650666d	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/平成30年	46500		honpen p.39	✓	auto:ai	2026-10-10	
+d528aeec4a6ed6f7	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/平成31年	46500		honpen p.39	✓	auto:ai	2026-10-10	
+a987931285dffc04	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/令和2年	46400		honpen p.39	✓	auto:ai	2026-10-10	
+4fdff31afef8b129	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/令和3年	46300		honpen p.39	✓	auto:ai	2026-10-10	
+e3f5274d92353b76	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/令和4年	46300		honpen p.39	✓	auto:ai	2026-10-10	
+0f63e8c3fdd9ab08	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/面積（㎡）	475		honpen p.39	✓	auto:ai	2026-10-10	
+7e7106f1353a5c08	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/平成30年	10000		honpen p.39	✓	auto:ai	2026-10-10	
+7a287cf41fa73ac0	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/平成31年	9800		honpen p.39	✓	auto:ai	2026-10-10	
+b9978d333fdb95ff	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/令和2年	9500		honpen p.39	✓	auto:ai	2026-10-10	
+2250a13d8d9a9665	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/令和3年	9200		honpen p.39	✓	auto:ai	2026-10-10	
+03bfa7c1aff568e7	jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/令和4年	8900		honpen p.39	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+f0a41ecffaa4b4f7	jutaku	38	table	リフォーム（増改築）	持ち家をリフォームする場合/助成限度額（万円）	10		honpen p.42	✓	auto:ai	2026-10-10	
+bb3ce8a28507a30e	jutaku	38	table	リフォーム（増改築）	空き家をリフォームする場合（持ち家から世帯の一部転居予定者、町内賃貸住宅からの転居予定者、転入予定者）/助成限度額（万円）	20		honpen p.42	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+c2e6823cbba0d335	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	町域（都市計画区域）/面積（ha）	11760		honpen p.46	✓	auto:ai	2026-10-10	
+c47e1be4360f290c	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	町域（都市計画区域）/町域に対する割合（％）	100.0		honpen p.46	✓	auto:ai	2026-10-10	
+a2e0ee2e0db7728c	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化区域/面積（ha）	694.6		honpen p.46	✓	auto:ai	2026-10-10	
+a5b6d29ddd1af1f7	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化区域/町域に対する割合（％）	5.9		honpen p.46	✓	auto:ai	2026-10-10	
+bedffeef29cd30e5	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化区域/市街化区域に対する割合（％）	100.0		honpen p.46	✓	auto:ai	2026-10-10	
+97a9aff30f211b46	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種低層住居専用地域/面積（ha）	16.2		honpen p.46	✓	auto:ai	2026-10-10	
+e7b158db7f0f234b	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種低層住居専用地域/町域に対する割合（％）	0.1		honpen p.46	✓	auto:ai	2026-10-10	
+eb7311f54a318639	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種低層住居専用地域/市街化区域に対する割合（％）	2.3		honpen p.46	✓	auto:ai	2026-10-10	
+e029cc858fa877e7	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種中高層住居専用地域/面積（ha）	82.7		honpen p.46	✓	auto:ai	2026-10-10	
+d19565caaf9cba46	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種中高層住居専用地域/町域に対する割合（％）	0.7		honpen p.46	✓	auto:ai	2026-10-10	
+a24cfd23049f3fb1	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種中高層住居専用地域/市街化区域に対する割合（％）	11.9		honpen p.46	✓	auto:ai	2026-10-10	
+df9c65167e3083bd	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種中高層住居専用地域/面積（ha）	28.2		honpen p.46	✓	auto:ai	2026-10-10	
+39fc3b5482f81e22	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種中高層住居専用地域/町域に対する割合（％）	0.2		honpen p.46	✓	auto:ai	2026-10-10	
+2b51c95e3e802ce8	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種中高層住居専用地域/市街化区域に対する割合（％）	4.1		honpen p.46	✓	auto:ai	2026-10-10	
+74355641d271a1ca	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種住居地域/面積（ha）	120.7		honpen p.46	✓	auto:ai	2026-10-10	
+be9aa160f9933c89	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種住居地域/町域に対する割合（％）	1.0		honpen p.46	✓	auto:ai	2026-10-10	
+41033317dd16e524	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種住居地域/市街化区域に対する割合（％）	17.4		honpen p.46	✓	auto:ai	2026-10-10	
+6562203f6dc5a21e	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種住居地域/面積（ha）	5.7		honpen p.46	✓	auto:ai	2026-10-10	
+c14fde8dccf37a21	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種住居地域/町域に対する割合（％）	0.1		honpen p.46	✓	auto:ai	2026-10-10	
+c3a2a1bb6747be5a	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種住居地域/市街化区域に対する割合（％）	0.8		honpen p.46	✓	auto:ai	2026-10-10	
+5f2c257905cde012	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	近隣商業地域/面積（ha）	41.2		honpen p.46	✓	auto:ai	2026-10-10	
+b6bcf353aecb2dc0	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	近隣商業地域/町域に対する割合（％）	0.4		honpen p.46	✓	auto:ai	2026-10-10	
+15bc67468f7c0f27	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	近隣商業地域/市街化区域に対する割合（％）	5.9		honpen p.46	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+76d9e25ea7b94df2	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	商業地域/面積（ha）	6.4		honpen p.46	✓	auto:ai	2026-10-10	
+82bb3be369a48bec	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	商業地域/町域に対する割合（％）	0.1		honpen p.46	✓	auto:ai	2026-10-10	
+186b73044a32d65b	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	商業地域/市街化区域に対する割合（％）	0.9		honpen p.46	✓	auto:ai	2026-10-10	
+9b6f2ea4a8b574ce	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	準工業地域/面積（ha）	6.6		honpen p.46	✓	auto:ai	2026-10-10	
+873b2d594c756dbd	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	準工業地域/町域に対する割合（％）	0.1		honpen p.46	✓	auto:ai	2026-10-10	
+e1aec27a70d055d9	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	準工業地域/市街化区域に対する割合（％）	1.0		honpen p.46	✓	auto:ai	2026-10-10	
+5a3a5a168d1d29af	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業地域/面積（ha）	48.0		honpen p.46	✓	auto:ai	2026-10-10	
+3ac55ae884014853	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業地域/町域に対する割合（％）	0.4		honpen p.46	✓	auto:ai	2026-10-10	
+2f08f1fb9dd08326	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業地域/市街化区域に対する割合（％）	6.9		honpen p.46	✓	auto:ai	2026-10-10	
+d24b33cb71c3fd6e	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業専用地域/面積（ha）	338.9		honpen p.46	✓	auto:ai	2026-10-10	
+51847fa7aa4ed5f3	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業専用地域/町域に対する割合（％）	2.9		honpen p.46	✓	auto:ai	2026-10-10	
+2c0a95fff056c41b	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業専用地域/市街化区域に対する割合（％）	48.8		honpen p.46	✓	auto:ai	2026-10-10	
+686f09f0b7a52d47	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化調整区域/面積（ha）	11065.4		honpen p.46	✓	auto:ai	2026-10-10	
+63cebd0d61d8b319	jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化調整区域/町域に対する割合（％）	94.1		honpen p.46	✓	auto:ai	2026-10-10	
+8f23dac8d7a2f519	koe	2	kpi	住宅・住環境に関するアンケート	配布数	1029	票	honpen p.50	✓	auto:ai	2026-10-10	
+dd059d4d1b125fa3	koe	2	kpi	住宅・住環境に関するアンケート	回収数	522	票	honpen p.50	✓	auto:ai	2026-10-10	
+72d97df4aaa93020	koe	2	kpi	住宅・住環境に関するアンケート	回収率	50.7	%	honpen p.50	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+9c2389dac11072d5	koe	6	table	問1 回答者の年齢	10・20代/回答数（人）	34		honpen p.51	✓	auto:ai	2026-10-10	
+5c9a86c593e21ca2	koe	6	table	問1 回答者の年齢	10・20代/割合（％）	6.5		honpen p.51	✓	auto:ai	2026-10-10	
+b7df3425d2fcd4ca	koe	6	table	問1 回答者の年齢	30代/回答数（人）	49		honpen p.51	✓	auto:ai	2026-10-10	
+bfa85dfcd220daeb	koe	6	table	問1 回答者の年齢	30代/割合（％）	9.4		honpen p.51	✓	auto:ai	2026-10-10	
+e7f6fdf090736fb5	koe	6	table	問1 回答者の年齢	40代/回答数（人）	78		honpen p.51	✓	auto:ai	2026-10-10	
+98b0252025099e05	koe	6	table	問1 回答者の年齢	40代/割合（％）	14.9		honpen p.51	✓	auto:ai	2026-10-10	
+513e27b0ba736e71	koe	6	table	問1 回答者の年齢	50代/回答数（人）	66		honpen p.51	✓	auto:ai	2026-10-10	
+95c005ceb4c0dc65	koe	6	table	問1 回答者の年齢	50代/割合（％）	12.6		honpen p.51	✓	auto:ai	2026-10-10	
+c962311178d546ba	koe	6	table	問1 回答者の年齢	60代/回答数（人）	129		honpen p.51	✓	auto:ai	2026-10-10	
+3750ee0b1797da53	koe	6	table	問1 回答者の年齢	60代/割合（％）	24.7		honpen p.51	✓	auto:ai	2026-10-10	
+d8f5c2ea50d8ff5b	koe	6	table	問1 回答者の年齢	70代以上/回答数（人）	165		honpen p.51	✓	auto:ai	2026-10-10	
+bedf89c705eaa758	koe	6	table	問1 回答者の年齢	70代以上/割合（％）	31.6		honpen p.51	✓	auto:ai	2026-10-10	
+026549f01c2839e1	koe	6	table	問1 回答者の年齢	無回答/回答数（人）	1		honpen p.51	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+290e72225932c19a	koe	6	table	問1 回答者の年齢	無回答/割合（％）	0.2		honpen p.51	✓	auto:ai	2026-10-10	
+32ef6770b7946f74	koe	6	table	問1 回答者の年齢	合計/回答数（人）	522		honpen p.51	✓	auto:ai	2026-10-10	
+313a174cb1f3812a	koe	6	table	問1 回答者の年齢	合計/割合（％）	100.0		honpen p.51	✓	auto:ai	2026-10-10	
+4adc48449915ea05	koe	7	table	問6 住宅の居住面積	35㎡（約10坪）未満/回答数（人）	10		honpen p.53	✓	auto:ai	2026-10-10	
+52f6995db061e10c	koe	7	table	問6 住宅の居住面積	35㎡（約10坪）未満/割合（％）	1.9		honpen p.53	✓	auto:ai	2026-10-10	
+79be85f194681aa8	koe	7	table	問6 住宅の居住面積	35〜50㎡（約10〜15坪）未満/回答数（人）	16		honpen p.53	✓	auto:ai	2026-10-10	
+fdf7b7e9aed7b8f1	koe	7	table	問6 住宅の居住面積	35〜50㎡（約10〜15坪）未満/割合（％）	3.1		honpen p.53	✓	auto:ai	2026-10-10	
+3fd79c6c4d599193	koe	7	table	問6 住宅の居住面積	50〜100㎡（約15〜30坪）未満/回答数（人）	65		honpen p.53	✓	auto:ai	2026-10-10	
+2782bd1c90f3cc25	koe	7	table	問6 住宅の居住面積	50〜100㎡（約15〜30坪）未満/割合（％）	12.5		honpen p.53	✓	auto:ai	2026-10-10	
+ec04ff626a6adbfd	koe	7	table	問6 住宅の居住面積	100〜150㎡（約30〜45坪）未満/回答数（人）	110		honpen p.53	✓	auto:ai	2026-10-10	
+13241690927eb7e2	koe	7	table	問6 住宅の居住面積	100〜150㎡（約30〜45坪）未満/割合（％）	21.1		honpen p.53	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+2556eb1f4461c7a6	koe	7	table	問6 住宅の居住面積	150〜200㎡（約45〜60坪）未満/回答数（人）	87		honpen p.53	✓	auto:ai	2026-10-10	
+b2b04ddf31ae0000	koe	7	table	問6 住宅の居住面積	150〜200㎡（約45〜60坪）未満/割合（％）	16.7		honpen p.53	✓	auto:ai	2026-10-10	
+bc3102ce8f97e496	koe	7	table	問6 住宅の居住面積	200㎡（約60坪）以上/回答数（人）	182		honpen p.53	✓	auto:ai	2026-10-10	
+eff49f22bfb0ccec	koe	7	table	問6 住宅の居住面積	200㎡（約60坪）以上/割合（％）	34.9		honpen p.53	✓	auto:ai	2026-10-10	
+aee00f1ade33abc6	koe	7	table	問6 住宅の居住面積	無回答/回答数（人）	52		honpen p.53	✓	auto:ai	2026-10-10	
+3b17afac295e4628	koe	7	table	問6 住宅の居住面積	無回答/割合（％）	10.0		honpen p.53	✓	auto:ai	2026-10-10	
+502b055bff638023	koe	7	table	問6 住宅の居住面積	合計/回答数（人）	522		honpen p.53	✓	auto:ai	2026-10-10	
+6b6c35193dca088f	koe	7	table	問6 住宅の居住面積	合計/割合（％）	100.0		honpen p.53	✓	auto:ai	2026-10-10	
+59c147ded37d3313	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/満足	51	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+ff84793cc0365997	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/やや満足	83	人	honpen p.54	✓	auto:ai	2026-10-10	
+bec294d232a30f18	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/どちらともいえない	121	人	honpen p.54	✓	auto:ai	2026-10-10	
+aa924331b1f32ba7	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/やや不満	116	人	honpen p.54	✓	auto:ai	2026-10-10	
+e9d26a2635c24a44	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/不満	105	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+ffd8cff96101a6fe	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/無回答	46	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+ca368e957a70bca7	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/満足	71	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+d77971f87d41aa41	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/やや満足	132	人	honpen p.54	✓	auto:ai	2026-10-10	
+ce93fdef85870900	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/どちらともいえない	105	人	honpen p.54	✓	auto:ai	2026-10-10	
+c940ee5c7b389fcd	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/やや不満	123	人	honpen p.54	✓	auto:ai	2026-10-10	
+88673ed0db0b94bc	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/不満	67	人	honpen p.54	✓	auto:ai	2026-10-10	
+083c8548cc5e02b7	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/無回答	24	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+7bd4d53fcf0cead9	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/満足	52	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+ab02dd806eecfda2	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/やや満足	130	人	honpen p.54	✓	auto:ai	2026-10-10	
+bc6923bcb0f5fd17	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/どちらともいえない	153	人	honpen p.54	✓	auto:ai	2026-10-10	
+4054992cbe446e66	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/やや不満	102	人	honpen p.54	✓	auto:ai	2026-10-10	
+26572792a67bb558	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/不満	57	人	honpen p.54	✓	auto:ai	2026-10-10	
+8c1a039c07c8c54a	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/無回答	28	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+b206b005a2f331b8	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/満足	52	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+8345a727505678b5	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/やや満足	110	人	honpen p.54	✓	auto:ai	2026-10-10	
+c9b9c5c322ec6c24	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/どちらともいえない	164	人	honpen p.54	✓	auto:ai	2026-10-10	
+7c101f9e7208def8	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/やや不満	101	人	honpen p.54	✓	auto:ai	2026-10-10	
+24e392ff2ed634bf	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/不満	64	人	honpen p.54	✓	auto:ai	2026-10-10	
+9a6fe708aac8ca63	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/無回答	31	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+52fda2a2426dda1a	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/満足	53	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+6795c8940943e58d	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/やや満足	121	人	honpen p.54	✓	auto:ai	2026-10-10	
+a9388ef451e8bc94	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/どちらともいえない	138	人	honpen p.54	✓	auto:ai	2026-10-10	
+5e271916d9b77eec	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/やや不満	126	人	honpen p.54	✓	auto:ai	2026-10-10	
+9807785b21e1c38e	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/不満	60	人	honpen p.54	✓	auto:ai	2026-10-10	
+e88936fe3958aef1	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/無回答	24	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+c9b12a6ffb16f98c	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/満足	130	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+9989361a2ca1c850	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/やや満足	175	人	honpen p.54	✓	auto:ai	2026-10-10	
+55fee65a72b75004	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/どちらともいえない	142	人	honpen p.54	✓	auto:ai	2026-10-10	
+69ffe2d4d458a154	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/やや不満	33	人	honpen p.54	✓	auto:ai	2026-10-10	
+0128c304d3078c65	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/不満	15	人	honpen p.54	✓	auto:ai	2026-10-10	
+392cf2fe5287234c	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/無回答	27	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+f621e4609cd6c3ce	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/満足	67	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+2488c3a5019d615e	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/やや満足	155	人	honpen p.54	✓	auto:ai	2026-10-10	
+e916f7deb74462d3	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/どちらともいえない	208	人	honpen p.54	✓	auto:ai	2026-10-10	
+42da6b1d418ac5df	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/やや不満	42	人	honpen p.54	✓	auto:ai	2026-10-10	
+e0fd88cbc1efe870	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/不満	23	人	honpen p.54	✓	auto:ai	2026-10-10	
+37ebc9f546d3e9ff	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/無回答	27	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+c523cab8132f2b0c	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/満足	99	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+e232c8abc87b60a8	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/やや満足	158	人	honpen p.54	✓	auto:ai	2026-10-10	
+04812122e78c321b	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/どちらともいえない	186	人	honpen p.54	✓	auto:ai	2026-10-10	
+70f8d8727d5c0a2c	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/やや不満	31	人	honpen p.54	✓	auto:ai	2026-10-10	
+00fa8ac3e511d334	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/不満	18	人	honpen p.54	✓	auto:ai	2026-10-10	
+1d5d6e24d4155001	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/無回答	30	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+d129fb879b706f35	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/満足	54	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+d1af481a9f7fec2f	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/やや満足	142	人	honpen p.54	✓	auto:ai	2026-10-10	
+1c4e451e9a0e5114	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/どちらともいえない	223	人	honpen p.54	✓	auto:ai	2026-10-10	
+fb8e930938f09ae0	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/やや不満	50	人	honpen p.54	✓	auto:ai	2026-10-10	
+fc993a3bbf996a2f	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/不満	20	人	honpen p.54	✓	auto:ai	2026-10-10	
+da555c5a457a4a91	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/無回答	33	人	honpen p.54	✓	auto:pdftext	2026-10-10	
+7e17ab63990f6528	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/満足	25	人	honpen p.54	✓	auto:ai	2026-10-10	
+2905541e1272faf9	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/やや満足	160	人	honpen p.54	✓	auto:ai	2026-10-10	
+4d6229e1bb4f18a9	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/どちらともいえない	179	人	honpen p.54	✓	auto:ai	2026-10-10	
+47b888306b33caf4	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/やや不満	89	人	honpen p.54	✓	auto:ai	2026-10-10	
+553c46e186689b57	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/不満	33	人	honpen p.54	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+88bf1c8402d3603b	koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/無回答	36	人	honpen p.54	✓	auto:ai	2026-10-10	
+ee25cf89a46b3732	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/満足	188	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+9f5916052e43a6a7	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/やや満足	159	人	honpen p.56	✓	auto:ai	2026-10-10	
+e793e5512f922c16	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/どちらともいえない	91	人	honpen p.56	✓	auto:ai	2026-10-10	
+704aecfb9222b2e1	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/やや不満	51	人	honpen p.56	✓	auto:ai	2026-10-10	
+bcfc6dcd7493ac5e	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/不満	9	人	honpen p.56	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+f72c42e3c9ecba94	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/無回答	24	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+67ed76992417d8bc	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/満足	183	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+24c4ef42dcefb63b	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/やや満足	153	人	honpen p.56	✓	auto:ai	2026-10-10	
+a82a070386f29cab	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/どちらともいえない	89	人	honpen p.56	✓	auto:ai	2026-10-10	
+bc204c34e7b5189e	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/やや不満	57	人	honpen p.56	✓	auto:ai	2026-10-10	
+ca14e8ed7bc64bc9	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/不満	17	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+c9aa5773ce886d02	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/無回答	23	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+afcddfc05586d867	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/満足	195	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+1a5849ea5d6841fd	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/やや満足	171	人	honpen p.56	✓	auto:ai	2026-10-10	
+5cd32a7840cbafff	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/どちらともいえない	75	人	honpen p.56	✓	auto:ai	2026-10-10	
+fc155cf210137150	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/やや不満	41	人	honpen p.56	✓	auto:ai	2026-10-10	
+b67f6c290c566182	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/不満	17	人	honpen p.56	✓	auto:ai	2026-10-10	
+6f27f29bd1bd076c	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/無回答	23	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+b0c1cf1a67c9d7cb	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/満足	68	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+33d1447799b7704e	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/やや満足	111	人	honpen p.56	✓	auto:ai	2026-10-10	
+f9db47756827a4f9	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/どちらともいえない	170	人	honpen p.56	✓	auto:ai	2026-10-10	
+7f24a994d5f6a8a5	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/やや不満	104	人	honpen p.56	✓	auto:ai	2026-10-10	
+4f1c2e43fb474006	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/不満	50	人	honpen p.56	✓	auto:ai	2026-10-10	
+9aaefc279627732f	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/無回答	19	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+ba4f79de36fd87ef	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/満足	70	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+92522b41a85ddc71	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/やや満足	117	人	honpen p.56	✓	auto:ai	2026-10-10	
+507e32e8657ec61e	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/どちらともいえない	138	人	honpen p.56	✓	auto:ai	2026-10-10	
+6fd75fbbf0dd5ced	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/やや不満	109	人	honpen p.56	✓	auto:ai	2026-10-10	
+f0d20a0fff2d8d0b	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/不満	46	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+4d97c2e2880404a9	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/無回答	42	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+fe7c71978fd4b619	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/満足	54	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+c28d092fef3834ab	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/やや満足	95	人	honpen p.56	✓	auto:ai	2026-10-10	
+360946a03ce973b0	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/どちらともいえない	138	人	honpen p.56	✓	auto:ai	2026-10-10	
+d2a9da7213632f85	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/やや不満	123	人	honpen p.56	✓	auto:ai	2026-10-10	
+e2d244a643c435f0	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/不満	78	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+c939d06880a792c6	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/無回答	34	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+910388d074e423d6	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/満足	106	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+5f3265f4fa4c7581	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/やや満足	164	人	honpen p.56	✓	auto:ai	2026-10-10	
+b888a604ea7dfaa6	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/どちらともいえない	129	人	honpen p.56	✓	auto:ai	2026-10-10	
+e3f4d7cd2efd5981	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/やや不満	62	人	honpen p.56	✓	auto:ai	2026-10-10	
+7a54bb240c4712d2	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/不満	28	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+1559bb4adf574f6a	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/無回答	33	人	honpen p.56	✓	auto:pdftext	2026-10-10	
+78d998572e0358e8	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/満足	212	人	honpen p.56	✓	auto:ai	2026-10-10	
+3dc490fad3351f22	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/やや満足	162	人	honpen p.56	✓	auto:ai	2026-10-10	
+b9e4ccaf6420e19a	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/どちらともいえない	64	人	honpen p.56	✓	auto:ai	2026-10-10	
+66c3d47d973d1f00	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/やや不満	37	人	honpen p.56	✓	auto:ai	2026-10-10	
+8becdf1cd0d7daa2	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/不満	17	人	honpen p.56	✓	auto:ai	2026-10-10	
+b2248a6c0f328ebe	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/無回答	30	人	honpen p.56	✓	auto:ai	2026-10-10	
+76b65d8933581481	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/満足	116	人	honpen p.56	✓	auto:ai	2026-10-10	
+06a81350cf7f2c42	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/やや満足	106	人	honpen p.56	✓	auto:ai	2026-10-10	
+58acae81e205eab6	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/どちらともいえない	189	人	honpen p.56	✓	auto:ai	2026-10-10	
+b65000978fb4d0f5	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/やや不満	53	人	honpen p.56	✓	auto:ai	2026-10-10	
+26def1898cc6be11	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/不満	19	人	honpen p.56	✓	auto:ai	2026-10-10	
+c451244e74e39045	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/無回答	39	人	honpen p.56	✓	auto:ai	2026-10-10	
+71bcb48fdb09c6d2	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/満足	66	人	honpen p.56	✓	auto:ai	2026-10-10	
+35e1b4716cf58d8f	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/やや満足	104	人	honpen p.56	✓	auto:ai	2026-10-10	
+88070b2fa4b365f0	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/どちらともいえない	185	人	honpen p.56	✓	auto:ai	2026-10-10	
+f6daf8fe47c3fba9	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/やや不満	88	人	honpen p.56	✓	auto:ai	2026-10-10	
+ab657af69b1ff567	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/不満	47	人	honpen p.56	✓	auto:ai	2026-10-10	
+cb100131f19ccf70	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/無回答	32	人	honpen p.56	✓	auto:ai	2026-10-10	
+cddb3edd79c9a61f	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/満足	81	人	honpen p.56	✓	auto:ai	2026-10-10	
+fe7f1bc2242fb710	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/やや満足	194	人	honpen p.56	✓	auto:ai	2026-10-10	
+06e09221fb9770d7	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/どちらともいえない	131	人	honpen p.56	✓	auto:ai	2026-10-10	
+a1e6b88d8da9fab4	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/やや不満	56	人	honpen p.56	✓	auto:ai	2026-10-10	
+869bf2145a0e7187	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/不満	23	人	honpen p.56	✓	auto:ai	2026-10-10	
+0e985fa25014efd4	koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/無回答	37	人	honpen p.56	✓	auto:ai	2026-10-10	
+1d94f643d1a4e9b9	koe	15	table	これからの住まい	住み続ける予定である/回答数（人）	350		honpen p.58	✓	auto:ai	2026-10-10	
+b39cbeb8acf61e07	koe	15	table	これからの住まい	住み続ける予定である/割合（％）	67.0		honpen p.58	✓	auto:ai	2026-10-10	
+765443bfe9c61ab8	koe	15	table	これからの住まい	転居予定（希望）である/回答数（人）	21		honpen p.58	✓	auto:ai	2026-10-10	
+90fa66ebad85e9a4	koe	15	table	これからの住まい	転居予定（希望）である/割合（％）	4.0		honpen p.58	✓	auto:ai	2026-10-10	
+b3f42579782f71d6	koe	15	table	これからの住まい	将来のことは分からない/回答数（人）	127		honpen p.58	✓	auto:ai	2026-10-10	
+52aeb6be6befe3fe	koe	15	table	これからの住まい	将来のことは分からない/割合（％）	24.3		honpen p.58	✓	auto:ai	2026-10-10	
+24c5d8518ce5a571	koe	15	table	これからの住まい	その他/回答数（人）	3		honpen p.58	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+9e72fa2ce52b5148	koe	15	table	これからの住まい	その他/割合（％）	0.6		honpen p.58	✓	auto:ai	2026-10-10	
+3b2a2ce77b8f38c8	koe	15	table	これからの住まい	無回答/回答数（人）	21		honpen p.58	✓	auto:ai	2026-10-10	
+d0054240e48dbfbf	koe	15	table	これからの住まい	無回答/割合（％）	4.0		honpen p.58	✓	auto:ai	2026-10-10	
+ac380e12640da129	koe	15	table	これからの住まい	合計/回答数（人）	522		honpen p.58	✓	auto:ai	2026-10-10	
+274051ca083fe80f	koe	15	table	これからの住まい	合計/割合（％）	100.0		honpen p.58	✓	auto:ai	2026-10-10	
+23005b6d0c3f6925	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	日野町内/回答数（人）	6		honpen p.58	✓	auto:ai	2026-10-10	
+9255e9d88d017e78	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	日野町内/割合（％）	28.6		honpen p.58	✓	auto:ai	2026-10-10	
+76c37f1e40f40d7e	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	隣接市町/回答数（人）	5		honpen p.58	✓	auto:ai	2026-10-10	
+f704bb59a188ee9a	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	隣接市町/割合（％）	23.8		honpen p.58	✓	auto:ai	2026-10-10	
+c1ce63f543191450	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	滋賀県内（日野町・隣接市町以外）/回答数（人）	4		honpen p.58	✓	auto:ai	2026-10-10	
+722716a611ff769c	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	滋賀県内（日野町・隣接市町以外）/割合（％）	19.0		honpen p.58	✓	auto:ai	2026-10-10	
+d8fd1eb4730ad47b	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	京都府/回答数（人）	1		honpen p.58	✓	auto:ai	2026-10-10	
+0990a9545b40db15	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	京都府/割合（％）	4.8		honpen p.58	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+acf95b6a1833ae06	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	大阪府/回答数（人）	0		honpen p.58	✓	auto:ai	2026-10-10	
+c91285afde3a84b4	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	大阪府/割合（％）	0.0		honpen p.58	✓	auto:ai	2026-10-10	
+5388e4d559715ccb	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他の都道府県/回答数（人）	4		honpen p.58	✓	auto:ai	2026-10-10	
+d9515400b52de09b	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他の都道府県/割合（％）	19.0		honpen p.58	✓	auto:ai	2026-10-10	
+66250800fda5bcc9	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他（外国など）/回答数（人）	0		honpen p.58	✓	auto:ai	2026-10-10	
+1ada5eb48d60366b	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他（外国など）/割合（％）	0.0		honpen p.58	✓	auto:ai	2026-10-10	
+93f8d99c8e50eb0c	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	無回答/回答数（人）	1		honpen p.58	✓	auto:ai	2026-10-10	
+256011be4fdd7586	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	無回答/割合（％）	4.8		honpen p.58	✓	auto:ai	2026-10-10	
+6470a201ffc9f91d	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	合計/回答数（人）	21		honpen p.58	✓	auto:ai	2026-10-10	
+212415c5914fa3af	koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	合計/割合（％）	100.0		honpen p.58	✓	auto:ai	2026-10-10	
+2bea1cffd92dc2c1	koe	20	table	問14 これまでの建て替え・増改築	増改築（リフォーム）を行った/回答数（人）	219		honpen p.61	✓	auto:ai	2026-10-10	
+a1b6876b3ae494a0	koe	20	table	問14 これまでの建て替え・増改築	増改築（リフォーム）を行った/割合（％）	42.0		honpen p.61	✓	auto:ai	2026-10-10	
+d41b42dbaffbbcf1	koe	20	table	問14 これまでの建て替え・増改築	前の住宅を壊して建て替えた/回答数（人）	99		honpen p.61	✓	auto:ai	2026-10-10	
+55f5a11a592229f9	koe	20	table	問14 これまでの建て替え・増改築	前の住宅を壊して建て替えた/割合（％）	19.0		honpen p.61	✓	auto:ai	2026-10-10	
+3e766bdf228b6a62	koe	20	table	問14 これまでの建て替え・増改築	敷地内に新築した/回答数（人）	29		honpen p.61	✓	auto:ai	2026-10-10	
+e274d5f084f110b6	koe	20	table	問14 これまでの建て替え・増改築	敷地内に新築した/割合（％）	5.6		honpen p.61	✓	auto:ai	2026-10-10	
+bf782e79113bc3af	koe	20	table	問14 これまでの建て替え・増改築	したことがない/回答数（人）	147		honpen p.61	✓	auto:ai	2026-10-10	
+aefee7b13d55933e	koe	20	table	問14 これまでの建て替え・増改築	したことがない/割合（％）	28.2		honpen p.61	✓	auto:ai	2026-10-10	
+a1df3ce09252d8a0	koe	20	table	問14 これまでの建て替え・増改築	その他/回答数（人）	20		honpen p.61	✓	auto:ai	2026-10-10	
+dd55c60cb6809101	koe	20	table	問14 これまでの建て替え・増改築	その他/割合（％）	3.8		honpen p.61	✓	auto:ai	2026-10-10	
+23c2681ac556eda1	koe	20	table	問14 これまでの建て替え・増改築	無回答/回答数（人）	8		honpen p.61	✓	auto:ai	2026-10-10	
+b32759024ed66cf0	koe	20	table	問14 これまでの建て替え・増改築	無回答/割合（％）	1.5		honpen p.61	✓	auto:ai	2026-10-10	
+2a48593341dac737	koe	20	table	問14 これまでの建て替え・増改築	合計/回答数（人）	522		honpen p.61	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+a4997dbe37e6b64e	koe	20	table	問14 これまでの建て替え・増改築	合計/割合（％）	100.0		honpen p.61	✓	auto:ai	2026-10-10	
+3feabff87b2fb1bc	koe	21	table	問15 今後のリフォームの必要性	早急にリフォームが必要/回答数（人）	21		honpen p.61	✓	auto:ai	2026-10-10	
+e2c24fa162a6e9e8	koe	21	table	問15 今後のリフォームの必要性	早急にリフォームが必要/割合（％）	4.0		honpen p.61	✓	auto:ai	2026-10-10	
+a34f0d486a81462a	koe	21	table	問15 今後のリフォームの必要性	いずれはリフォームしたい/回答数（人）	186		honpen p.61	✓	auto:ai	2026-10-10	
+e446480fc0ad6fe9	koe	21	table	問15 今後のリフォームの必要性	いずれはリフォームしたい/割合（％）	35.6		honpen p.61	✓	auto:ai	2026-10-10	
+9d140584cd714e30	koe	21	table	問15 今後のリフォームの必要性	必要ない/回答数（人）	264		honpen p.61	✓	auto:ai	2026-10-10	
+e3d1097374924894	koe	21	table	問15 今後のリフォームの必要性	必要ない/割合（％）	50.6		honpen p.61	✓	auto:ai	2026-10-10	
+2cae5d55608c5220	koe	21	table	問15 今後のリフォームの必要性	その他/回答数（人）	36		honpen p.61	✓	auto:ai	2026-10-10	
+042f2366112c4428	koe	21	table	問15 今後のリフォームの必要性	その他/割合（％）	6.9		honpen p.61	✓	auto:ai	2026-10-10	
+a44de9273a20e0d2	koe	21	table	問15 今後のリフォームの必要性	無回答/回答数（人）	15		honpen p.61	✓	auto:ai	2026-10-10	
+b24e029eeb4583ae	koe	21	table	問15 今後のリフォームの必要性	無回答/割合（％）	2.9		honpen p.61	✓	auto:ai	2026-10-10	
+0910a0d28aad3e5b	koe	21	table	問15 今後のリフォームの必要性	合計/回答数（人）	522		honpen p.61	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+298763870d2ac027	koe	21	table	問15 今後のリフォームの必要性	合計/割合（％）	100.0		honpen p.61	✓	auto:ai	2026-10-10	
+b4db3bc5a3a59c3b	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	台所などの設備	102	人	honpen p.62	✓	auto:ai	2026-10-10	
+7e0e40e7b0066a14	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	バリアフリー化	92	人	honpen p.62	✓	auto:ai	2026-10-10	
+8f6e9a3143d373c2	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	住宅の模様替え	60	人	honpen p.62	✓	auto:ai	2026-10-10	
+837af2dc233ba365	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	耐震改修	59	人	honpen p.62	✓	auto:ai	2026-10-10	
+38c50185ab081808	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	その他	29	人	honpen p.62	✓	auto:ai	2026-10-10	
+5e97ea7d87e8bbfe	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	防犯設備	23	人	honpen p.62	✓	auto:ai	2026-10-10	
+b5f8fddeefb42acc	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	桟敷窓の設置や板塀の設置、修復	11	人	honpen p.62	✓	auto:ai	2026-10-10	
+dff9339e74a5d4b7	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	伝統的建物に合わせた修復	10	人	honpen p.62	✓	auto:ai	2026-10-10	
+b74d9e7cd411c339	koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	二世帯住宅化	9	人	honpen p.62	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+306817fa3e4082d7	koe	25	table	リフォーム	資金がない/回答数（人）	211		honpen p.63	✓	auto:ai	2026-10-10	
+0a4f53360bf862ef	koe	25	table	リフォーム	資金がない/割合（％）	40.4		honpen p.63	✓	auto:ai	2026-10-10	
+1d0467157f7bf92a	koe	25	table	リフォーム	相談するところがない/回答数（人）	34		honpen p.63	✓	auto:ai	2026-10-10	
+6191b62f90604c0c	koe	25	table	リフォーム	相談するところがない/割合（％）	6.5		honpen p.63	✓	auto:ai	2026-10-10	
+184ca62eea738007	koe	25	table	リフォーム	業者が見つからない/回答数（人）	26		honpen p.63	✓	auto:ai	2026-10-10	
+59999fe955472c27	koe	25	table	リフォーム	業者が見つからない/割合（％）	5.0		honpen p.63	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+57f4b3855ed37dfd	koe	25	table	リフォーム	その他/回答数（人）	81		honpen p.63	✓	auto:ai	2026-10-10	
+fe0537698f54da49	koe	25	table	リフォーム	その他/割合（％）	15.5		honpen p.63	✓	auto:ai	2026-10-10	
+c349b429ccb2594c	koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	住みよいまちづくりの推進	261	人	honpen p.63	✓	auto:ai	2026-10-10	
+7403ae4c5a7f9a13	koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	リフォーム等補助制度の充実	229	人	honpen p.63	✓	auto:ai	2026-10-10	
+5557fdae5344df8c	koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	空き家の流通や利活用の推進	177	人	honpen p.63	✓	auto:ai	2026-10-10	
+96d6833c0a03ca66	koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	子育て世帯への支援強化	158	人	honpen p.63	✓	auto:ai	2026-10-10	
+d2df17ab9e0f3566	koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	その他	66	人	honpen p.63	✓	auto:ai	2026-10-10	
+23d2a7a8bb79c57b	koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	公営住宅等の建設・充実	25	人	honpen p.63	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+6380f396315866e4	koe	29	table	町に期待すること	空き家対策/件数	11		honpen p.64	✓	auto:ai	2026-10-10	
+ad6d9ba365ae4d2d	koe	29	table	町に期待すること	空き家対策/割合（％）	16		honpen p.64	✓	auto:ai	2026-10-10	
+fedb75f390e82089	koe	29	table	町に期待すること	リフォーム補助制度の見直し・拡充/件数	7		honpen p.64	✓	auto:ai	2026-10-10	
+3088f1b23ccd114a	koe	29	table	町に期待すること	リフォーム補助制度の見直し・拡充/割合（％）	10		honpen p.64	✓	auto:ai	2026-10-10	
+d85c70fbb2de14a3	koe	29	table	町に期待すること	インフラ整備、道路整備/件数	5		honpen p.64	✓	auto:ai	2026-10-10	
+6dc6d2cf11655092	koe	29	table	町に期待すること	インフラ整備、道路整備/割合（％）	7		honpen p.64	✓	auto:ai	2026-10-10	
+35c4921459cd8ded	koe	29	table	町に期待すること	公共交通の充実/件数	8		honpen p.64	✓	auto:ai	2026-10-10	
+f1d92844abee80d1	koe	29	table	町に期待すること	公共交通の充実/割合（％）	12		honpen p.64	✓	auto:ai	2026-10-10	
+acd3e2611f94fd54	koe	29	table	町に期待すること	若年層の定着強化、老後の不安解消/件数	7		honpen p.64	✓	auto:ai	2026-10-10	
+4fd33da15fea4e55	koe	29	table	町に期待すること	若年層の定着強化、老後の不安解消/割合（％）	10		honpen p.64	✓	auto:ai	2026-10-10	
+4c71025c8a42ec56	koe	29	table	町に期待すること	安全対策（街灯の整備、空き家の見回り等）/件数	7		honpen p.64	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+662385f9a73adbf4	koe	29	table	町に期待すること	安全対策（街灯の整備、空き家の見回り等）/割合（％）	10		honpen p.64	✓	auto:ai	2026-10-10	
+b8c70e29029b63f4	koe	29	table	町に期待すること	福祉・子育て支援の充実/件数	7		honpen p.64	✓	auto:ai	2026-10-10	
+143aaff7927103a3	koe	29	table	町に期待すること	福祉・子育て支援の充実/割合（％）	10		honpen p.64	✓	auto:ai	2026-10-10	
+870fb9f06bdf69a5	koe	29	table	町に期待すること	公共施設・公園の整備/件数	6		honpen p.64	✓	auto:ai	2026-10-10	
+b649f7bd512d2844	koe	29	table	町に期待すること	公共施設・公園の整備/割合（％）	9		honpen p.64	✓	auto:ai	2026-10-10	
+6b942de133b8400c	koe	29	table	町に期待すること	都市計画の見直し/件数	4		honpen p.64	✓	auto:ai	2026-10-10	
+92630694ded9f8a5	koe	29	table	町に期待すること	都市計画の見直し/割合（％）	6		honpen p.64	✓	auto:ai	2026-10-10	
+8165e6821c6a9be0	koe	29	table	町に期待すること	その他/件数	7		honpen p.64	✓	auto:ai	2026-10-10	
+4f86cc839e12a8d3	koe	29	table	町に期待すること	その他/割合（％）	10		honpen p.64	✓	auto:ai	2026-10-10	
+f9faeaef5a2839c5	shisaku	4	programs		事業数	14	件	honpen p.81-83				要人確認:H2 値が文字データにない
+f0ae7c021ca129eb	shisaku	6	programs		事業数	10	件	honpen p.84-85				要人確認:H2 値が文字データにない
+74ad6e06ff0a2295	shisaku	7	programs		事業数	11	件	honpen p.86-88				要人確認:H2 値が文字データにない
+1817184d54e8b392	shisaku	8	programs		事業数	15	件	honpen p.89-91				要人確認:H2 値が文字データにない
+f888f4403399b9fd	choei	1	kpi	町営住宅のいま	町が管理している町営住宅	72	戸	honpen p.92	✓	auto:ai	2026-10-10	
+583c54f5aefbf988	choei	1	kpi	町営住宅のいま	うち新規募集を停止している住宅	15	戸	honpen p.92	✓	auto:ai	2026-10-10	
+1b27f6e52b22ae3c	choei	1	kpi	町営住宅のいま	活用可能な町営住宅	57	戸	honpen p.92	✓	auto:ai	2026-10-10	
+45c643033a2c3d8c	choei	1	kpi	町営住宅のいま	平成13年以降に建築された住宅（第一内池団地）	24	戸	honpen p.92	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+777e468ca4075512	choei	6	table	団地の所在地と戸数	第1内池団地 A号棟/戸数	8		honpen p.43	✓	auto:ai	2026-10-10	
+3bad153f12890323	choei	6	table	団地の所在地と戸数	第1内池団地 B号棟/戸数	4		honpen p.43	✓	auto:ai	2026-10-10	
+4d3aa5e6ed6f3051	choei	6	table	団地の所在地と戸数	第1内池団地 C号棟/戸数	6		honpen p.43	✓	auto:ai	2026-10-10	
+e65c084719b3ff78	choei	6	table	団地の所在地と戸数	第1内池団地 D号棟/戸数	6		honpen p.43	✓	auto:ai	2026-10-10	
+5779b99c78a50323	choei	6	table	団地の所在地と戸数	第2内池団地/戸数	18		honpen p.43	✓	auto:ai	2026-10-10	
+713fd097fb36335c	choei	6	table	団地の所在地と戸数	中山大谷団地 1号棟/戸数	3		honpen p.43	✓	auto:ai	2026-10-10	
+2a9a484d5392145f	choei	6	table	団地の所在地と戸数	中山大谷団地 3号棟/戸数	3		honpen p.43	✓	auto:ai	2026-10-10	
+25b60c79b2cf1b5b	choei	6	table	団地の所在地と戸数	中山大谷団地 6号棟/戸数	3		honpen p.43	✓	auto:ai	2026-10-10	
+c86e7efd6fd62ece	choei	6	table	団地の所在地と戸数	中山大谷団地 7号棟/戸数	3		honpen p.43	✓	auto:ai	2026-10-10	
+dc8fa29351c7e0a7	choei	6	table	団地の所在地と戸数	中山大谷団地 8号棟/戸数	3		honpen p.43	✓	auto:ai	2026-10-10	
+74bf5299530563ca	choei	6	table	団地の所在地と戸数	西山団地 1号棟/戸数	4		honpen p.43	✓	auto:ai	2026-10-10	要人確認:H4 難しさ8点
+fcf49ab15382851b	choei	6	table	団地の所在地と戸数	西山団地 2号棟/戸数	5		honpen p.43	✓	auto:ai	2026-10-10	
+a6b4026d095fcf39	choei	6	table	団地の所在地と戸数	西山団地 3号棟/戸数	2		honpen p.43	✓	auto:ai	2026-10-10	
+f1f8044bd9c595ae	choei	6	table	団地の所在地と戸数	西山団地 5号棟/戸数	2		honpen p.43	✓	auto:ai	2026-10-10	
+a80fdfb0a8ca785f	choei	6	table	団地の所在地と戸数	西山団地 6号棟/戸数	2		honpen p.43	✓	auto:ai	2026-10-10	
+c588aa2343fcbde3	choei	7	table	団地の所在地と戸数	第1内池団地/日野駅	400		honpen p.44	✓	auto:pdftext	2026-10-10	
+d261748d8227c2ad	choei	7	table	団地の所在地と戸数	第1内池団地/日野町役場	2100		honpen p.44	✓	auto:pdftext	2026-10-10	
+90dcb4ac17fb2386	choei	7	table	団地の所在地と戸数	第1内池団地/必佐小学校	700		honpen p.44	✓	auto:pdftext	2026-10-10	
+9e55bde913d378d8	choei	7	table	団地の所在地と戸数	第1内池団地/日野中学校	1700		honpen p.44	✓	auto:ai	2026-10-10	
+14d307d589ff2da9	choei	7	table	団地の所在地と戸数	第2内池団地/日野駅	430		honpen p.44	✓	auto:pdftext	2026-10-10	
+bbc2ed0323a0d2c3	choei	7	table	団地の所在地と戸数	第2内池団地/日野町役場	2100		honpen p.44	✓	auto:pdftext	2026-10-10	
+7876112eb3f58f91	choei	7	table	団地の所在地と戸数	第2内池団地/必佐小学校	730		honpen p.44	✓	auto:pdftext	2026-10-10	
+052ff9563c9bbdf2	choei	7	table	団地の所在地と戸数	第2内池団地/日野中学校	1700		honpen p.44	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+6c23f47c7da8324d	choei	7	table	団地の所在地と戸数	中山大谷団地/日野駅	1700		honpen p.44	✓	auto:pdftext	2026-10-10	
+da35dcf9d7a517a3	choei	7	table	団地の所在地と戸数	中山大谷団地/日野町役場	4100		honpen p.44	✓	auto:pdftext	2026-10-10	
+e51c59fd924d5811	choei	7	table	団地の所在地と戸数	中山大谷団地/必佐小学校	1700		honpen p.44	✓	auto:pdftext	2026-10-10	
+8ca341fdc4694227	choei	7	table	団地の所在地と戸数	中山大谷団地/日野中学校	3700		honpen p.44	✓	auto:ai	2026-10-10	
+d0c0145235a6b684	choei	7	table	団地の所在地と戸数	西山団地/日野駅	2000		honpen p.44	✓	auto:pdftext	2026-10-10	
+77c1307b77f2368d	choei	7	table	団地の所在地と戸数	西山団地/日野町役場	4300		honpen p.44	✓	auto:pdftext	2026-10-10	
+39d7a5a47bdeaa78	choei	7	table	団地の所在地と戸数	西山団地/必佐小学校	1900		honpen p.44	✓	auto:pdftext	2026-10-10	
+6f0709c3ae0a0402	choei	7	table	団地の所在地と戸数	西山団地/日野中学校	3900		honpen p.44	✓	auto:ai	2026-10-10	
+627b43ec60014a81	choei	10	table	住宅に困窮する世帯の推計	（1）最低居住面積水準未満かつ著しい困窮年収未満/世帯数	49		honpen p.67	✓	auto:ai	2026-10-10	
+9050e405005e3f06	choei	10	table	住宅に困窮する世帯の推計	（1）最低居住面積水準未満かつ著しい困窮年収未満/算入率（％）	100		honpen p.67	✓	auto:ai	2026-10-10	
+c23e15388428bd06	choei	10	table	住宅に困窮する世帯の推計	（2）最低居住面積水準未満かつ著しい困窮年収以上/世帯数	20		honpen p.67	✓	auto:ai	2026-10-10	
+0740c731cb790df3	choei	10	table	住宅に困窮する世帯の推計	（2）最低居住面積水準未満かつ著しい困窮年収以上/算入率（％）	100		honpen p.67	✓	auto:ai	2026-10-10	
+6f0ebc41f3465c9e	choei	10	table	住宅に困窮する世帯の推計	（3）最低居住面積水準以上かつ著しい困窮年収未満のうち高家賃負担率以上/世帯数	47		honpen p.67	✓	auto:ai	2026-10-10	
+3271853a6d5b9341	choei	10	table	住宅に困窮する世帯の推計	（3）最低居住面積水準以上かつ著しい困窮年収未満のうち高家賃負担率以上/算入率（％）	100		honpen p.67	✓	auto:ai	2026-10-10	
+bf61f1f6d35a5d7c	choei	10	table	住宅に困窮する世帯の推計	（4）最低居住面積水準以上かつ著しい困窮年収以上のうち高家賃負担率以上/世帯数	2		honpen p.67	✓	auto:ai	2026-10-10	
+56367d2ae209c942	choei	10	table	住宅に困窮する世帯の推計	（4）最低居住面積水準以上かつ著しい困窮年収以上のうち高家賃負担率以上/算入率（％）	40		honpen p.67	✓	auto:ai	2026-10-10	
+12db619b697ad6ef	choei	10	table	住宅に困窮する世帯の推計	要支援世帯数（標準）合計/世帯数	118		honpen p.67	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+96f16fa12121dd7e	choei	12	table	住宅に困窮する世帯の推計	要支援世帯数（必須）/令和3〜12年度	69		honpen p.68	✓	auto:ai	2026-10-10	
+21c6a47a69dcb842	choei	12	table	住宅に困窮する世帯の推計	公営住宅供給目標量/令和3〜12年度	57		honpen p.68	✓	auto:ai	2026-10-10	
+e9c7e37245ee8ded	choei	12	table	住宅に困窮する世帯の推計	町営住宅入居募集/令和3〜12年度	57		honpen p.68	✓	auto:ai	2026-10-10	
+a150eaf62dab0344	choei	12	table	住宅に困窮する世帯の推計	町営住宅建て替え/令和3〜12年度	0		honpen p.68	✓	auto:ai	2026-10-10	
+23f450792590ce39	choei	12	table	住宅に困窮する世帯の推計	町営住宅新規整備/令和3〜12年度	0		honpen p.68	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+2e6b31cffe53a297	choei	12	table	住宅に困窮する世帯の推計	公営以外の公的住宅供給目標量/令和3〜12年度	0		honpen p.68	✓	auto:ai	2026-10-10	
+d50f528ad13f6179	choei	12	table	住宅に困窮する世帯の推計	その他公営住宅（サ高住等）/令和3〜12年度	0		honpen p.68	✓	auto:ai	2026-10-10	
+2856db09762adfdc	choei	12	table	住宅に困窮する世帯の推計	セーフティネット住宅/令和3〜12年度	0		honpen p.68	✓	auto:ai	2026-10-10	
+8c114d72d5804c5b	choei	12	table	住宅に困窮する世帯の推計	公営住宅等供給目標量/令和3〜12年度	57		honpen p.68	✓	auto:ai	2026-10-10	
+2c2c636ebed3bd64	choei	12	table	住宅に困窮する世帯の推計	充足率（％）/令和3〜12年度	82.6		honpen p.68	✓	auto:ai	2026-10-10	

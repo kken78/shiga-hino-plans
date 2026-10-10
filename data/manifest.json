@@ -29,17 +29,17 @@
       "lead": "総合計画の施策を、3年間の具体事業に落とし込む計画。毎年見直します。",
       "summary": "総合計画の基本計画で定めた施策を「どの事業で実現するか」に具体化する計画。3年間を計画期間とし、社会経済情勢や財政状況の変化を踏まえて毎年度ローリング（見直し）します。",
       "points": [
-        "3年間・毎年度ローリング改定（直近は令和6〜8年度）",
-        "各施策に具体事業・所管課・概算事業費を明示",
+        "3年間・毎年度ローリング改定（直近は令和8〜10年度）",
+        "分野ごとに主要事業・事業の概要・概算事業費を明示",
         "財政計画と連動し、実現可能性を担保"
       ],
       "verified": true,
-      "start": 6,
-      "end": 8,
+      "start": 8,
+      "end": 10,
       "periodBadge": "毎年度見直し",
       "dept": "企画振興課 企画人権担当",
       "url": "https://www.town.shiga-hino.lg.jp/0000005740.html",
-      "posted": "2025年5月"
+      "posted": "2026年4月"
     },
     {
       "id": "senryaku2",
@@ -90,9 +90,11 @@
         "仕事と生活の調和（ワーク・ライフ・バランス）",
         "DV・ハラスメントの防止と相談体制"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 6,
+      "end": 10,
       "url": "https://www.town.shiga-hino.lg.jp/0000001643.html",
-      "posted": "2019年10月"
+      "posted": "2024年3月"
     },
     {
       "id": "toshimaster",
@@ -269,7 +271,7 @@
       "end": 10,
       "dept": "交通環境政策課",
       "url": "https://www.town.shiga-hino.lg.jp/0000007948.html",
-      "posted": "2026年6月更新"
+      "posted": "2024年1月"
     },
     {
       "id": "kyoryo",
@@ -323,7 +325,7 @@
       "end": 12,
       "dept": "交通環境政策課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008267.html",
-      "posted": "2025年7月"
+      "posted": "2025年5月"
     },
     {
       "id": "midori",
@@ -430,7 +432,7 @@
       "verified": false,
       "dept": "福祉保健課 地域共生推進担当",
       "url": "https://www.town.shiga-hino.lg.jp/0000005894.html",
-      "posted": "2021年9月"
+      "posted": "2021年3月"
     },
     {
       "id": "kenko-shokuiku4",
@@ -535,7 +537,7 @@
       "ended": true,
       "periodNote": "第4期（令和7年度〜）へ移行済み",
       "url": "https://www.town.shiga-hino.lg.jp/0000005265.html",
-      "posted": "2020年9月"
+      "posted": "2020年3月"
     },
     {
       "id": "kodomo",
@@ -730,7 +732,7 @@
       "verified": false,
       "dept": "農林課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008410.html",
-      "posted": "2025年8月"
+      "posted": "2023年4月"
     },
     {
       "id": "chiiki-nogyo",

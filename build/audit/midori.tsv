@@ -1,0 +1,434 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	2	kpi		町全体の緑被率	89.9	%	gaiyo p.2
+summary	2	kpi		市街化区域の緑被率	40.0	%	gaiyo p.2
+summary	2	kpi		町全体の緑地率	88.2	%	gaiyo p.2
+summary	3	target.base		緑被（都市計画区域面積に対する割合）	90	%	honpen p.67
+summary	3	target.target		緑被（都市計画区域面積に対する割合）	90	%	honpen p.67
+summary	3	target.base		一人当たりの都市公園等面積	19.0	㎡/人	honpen p.67
+summary	3	target.target		一人当たりの都市公園等面積	22.7	㎡/人	honpen p.67
+summary	3	target.base		緑地や公園等のレクリエーション施設が利用しやすいと答えた住民の割合	34.1	%	honpen p.67
+summary	3	target.target		緑地や公園等のレクリエーション施設が利用しやすいと答えた住民の割合	40.0	%	honpen p.67
+midori	4	table	緑被面積及び割合	樹林地、草地/市街化区域 面積（㎡）	2356215		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/市街化区域 割合（%）	32.9		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/市街化調整区域 面積（㎡）	77570355		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/市街化調整区域 割合（%）	70.2		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/合計 面積（㎡）	79926570		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/合計 割合（%）	68.0		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/市街化区域 面積（㎡）	380483		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/市街化区域 割合（%）	5.3		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/市街化調整区域 面積（㎡）	22664589		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/市街化調整区域 割合（%）	20.5		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/合計 面積（㎡）	23045072		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/合計 割合（%）	19.6		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/市街化区域 面積（㎡）	123246		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/市街化区域 割合（%）	1.7		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/市街化調整区域 面積（㎡）	2629562		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/市街化調整区域 割合（%）	2.4		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/合計 面積（㎡）	2752808		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/合計 割合（%）	2.3		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/市街化区域 面積（㎡）	2859944		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/市街化区域 割合（%）	40.0		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/市街化調整区域 面積（㎡）	102864505		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/市街化調整区域 割合（%）	93.1		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/合計 面積（㎡）	105724450		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/合計 割合（%）	89.9		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/市街化区域 面積（㎡）	1766724		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/市街化区域 割合（%）	24.7		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/市街化調整区域 面積（㎡）	102002837		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/市街化調整区域 割合（%）	92.4		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/合計 面積（㎡）	103769561		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/合計 割合（%）	88.2		gaiyo p.2
+midori	8	table	緑地面積の内訳	内池公園/市街化区域（㎡）	16000		honpen p.47
+midori	8	table	緑地面積の内訳	内池公園/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	内池公園/合計（㎡）	16000		honpen p.47
+midori	8	table	緑地面積の内訳	松尾公園/市街化区域（㎡）	16000		honpen p.47
+midori	8	table	緑地面積の内訳	松尾公園/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	松尾公園/合計（㎡）	16000		honpen p.47
+midori	8	table	緑地面積の内訳	大谷公園/市街化区域（㎡）	72000		honpen p.47
+midori	8	table	緑地面積の内訳	大谷公園/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	大谷公園/合計（㎡）	72000		honpen p.47
+midori	8	table	緑地面積の内訳	山王公園/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	山王公園/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	山王公園/合計（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	都市公園 小計/市街化区域（㎡）	104000		honpen p.47
+midori	8	table	緑地面積の内訳	都市公園 小計/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	都市公園 小計/合計（㎡）	104000		honpen p.47
+midori	8	table	緑地面積の内訳	日野小学校/市街化区域（㎡）	27649		honpen p.47
+midori	8	table	緑地面積の内訳	日野小学校/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	日野小学校/合計（㎡）	27649		honpen p.47
+midori	8	table	緑地面積の内訳	西大路小学校/市街化区域（㎡）	19661		honpen p.47
+midori	8	table	緑地面積の内訳	西大路小学校/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	西大路小学校/合計（㎡）	19661		honpen p.47
+midori	8	table	緑地面積の内訳	南比都佐小学校/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	南比都佐小学校/市街化調整区域（㎡）	18735		honpen p.47
+midori	8	table	緑地面積の内訳	南比都佐小学校/合計（㎡）	18735		honpen p.47
+midori	8	table	緑地面積の内訳	必佐小学校/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	必佐小学校/市街化調整区域（㎡）	22047		honpen p.47
+midori	8	table	緑地面積の内訳	必佐小学校/合計（㎡）	22047		honpen p.47
+midori	8	table	緑地面積の内訳	桜谷小学校/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	桜谷小学校/市街化調整区域（㎡）	25382		honpen p.47
+midori	8	table	緑地面積の内訳	桜谷小学校/合計（㎡）	25382		honpen p.47
+midori	8	table	緑地面積の内訳	日野中学校/市街化区域（㎡）	38957		honpen p.47
+midori	8	table	緑地面積の内訳	日野中学校/市街化調整区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	日野中学校/合計（㎡）	38957		honpen p.47
+midori	8	table	緑地面積の内訳	日野高等学校/市街化区域（㎡）	38733		honpen p.47
+midori	8	table	緑地面積の内訳	日野高等学校/市街化調整区域（㎡）	12396		honpen p.47
+midori	8	table	緑地面積の内訳	日野高等学校/合計（㎡）	51129		honpen p.47
+midori	8	table	緑地面積の内訳	教育施設 小計/市街化区域（㎡）	124999		honpen p.47
+midori	8	table	緑地面積の内訳	教育施設 小計/市街化調整区域（㎡）	78561		honpen p.47
+midori	8	table	緑地面積の内訳	教育施設 小計/合計（㎡）	203560		honpen p.47
+midori	8	table	緑地面積の内訳	滋賀農業公園ブルーメの丘/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	滋賀農業公園ブルーメの丘/市街化調整区域（㎡）	270631		honpen p.47
+midori	8	table	緑地面積の内訳	滋賀農業公園ブルーメの丘/合計（㎡）	270631		honpen p.47
+midori	8	table	緑地面積の内訳	滋賀県立畜産技術振興センター/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	滋賀県立畜産技術振興センター/市街化調整区域（㎡）	464920		honpen p.47
+midori	8	table	緑地面積の内訳	滋賀県立畜産技術振興センター/合計（㎡）	464920		honpen p.47
+midori	8	table	緑地面積の内訳	農業公園 小計/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	農業公園 小計/市街化調整区域（㎡）	735551		honpen p.47
+midori	8	table	緑地面積の内訳	農業公園 小計/合計（㎡）	735551		honpen p.47
+midori	8	table	緑地面積の内訳	日野川ダム公園グラウンド/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	日野川ダム公園グラウンド/市街化調整区域（㎡）	22816		honpen p.47
+midori	8	table	緑地面積の内訳	日野川ダム公園グラウンド/合計（㎡）	22816		honpen p.47
+midori	8	table	緑地面積の内訳	公共施設緑地 小計/市街化区域（㎡）	124999		honpen p.47
+midori	8	table	緑地面積の内訳	公共施設緑地 小計/市街化調整区域（㎡）	836928		honpen p.47
+midori	8	table	緑地面積の内訳	公共施設緑地 小計/合計（㎡）	961927		honpen p.47
+midori	8	table	緑地面積の内訳	社寺境内地/市街化区域（㎡）	126844		honpen p.47
+midori	8	table	緑地面積の内訳	社寺境内地/市街化調整区域（㎡）	1034588		honpen p.47
+midori	8	table	緑地面積の内訳	社寺境内地/合計（㎡）	1161432		honpen p.47
+midori	8	table	緑地面積の内訳	都市公園以外 小計/市街化区域（㎡）	251843		honpen p.47
+midori	8	table	緑地面積の内訳	都市公園以外 小計/市街化調整区域（㎡）	1871516		honpen p.47
+midori	8	table	緑地面積の内訳	都市公園以外 小計/合計（㎡）	2123358		honpen p.47
+midori	8	table	緑地面積の内訳	施設緑地 小計/市街化区域（㎡）	355843		honpen p.47
+midori	8	table	緑地面積の内訳	施設緑地 小計/市街化調整区域（㎡）	1871516		honpen p.47
+midori	8	table	緑地面積の内訳	施設緑地 小計/合計（㎡）	2227358		honpen p.47
+midori	8	table	緑地面積の内訳	自然公園/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	自然公園/市街化調整区域（㎡）	12303614		honpen p.47
+midori	8	table	緑地面積の内訳	自然公園/合計（㎡）	12303614		honpen p.47
+midori	8	table	緑地面積の内訳	農業振興地域/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	農業振興地域/市街化調整区域（㎡）	67712085		honpen p.47
+midori	8	table	緑地面積の内訳	農業振興地域/合計（㎡）	67712085		honpen p.47
+midori	8	table	緑地面積の内訳	河川区域/市街化区域（㎡）	3580		honpen p.47
+midori	8	table	緑地面積の内訳	河川区域/市街化調整区域（㎡）	2193063		honpen p.47
+midori	8	table	緑地面積の内訳	河川区域/合計（㎡）	2196643		honpen p.47
+midori	8	table	緑地面積の内訳	保安林区域/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	保安林区域/市街化調整区域（㎡）	20117525		honpen p.47
+midori	8	table	緑地面積の内訳	保安林区域/合計（㎡）	20117525		honpen p.47
+midori	8	table	緑地面積の内訳	地域森林計画対象民有林/市街化区域（㎡）	709065		honpen p.47
+midori	8	table	緑地面積の内訳	地域森林計画対象民有林/市街化調整区域（㎡）	66775385		honpen p.47
+midori	8	table	緑地面積の内訳	地域森林計画対象民有林/合計（㎡）	67484451		honpen p.47
+midori	8	table	緑地面積の内訳	史跡・名勝・天然記念物/市街化区域（㎡）	0		honpen p.47
+midori	8	table	緑地面積の内訳	史跡・名勝・天然記念物/市街化調整区域（㎡）	301224		honpen p.47
+midori	8	table	緑地面積の内訳	史跡・名勝・天然記念物/合計（㎡）	301224		honpen p.47
+midori	8	table	緑地面積の内訳	工場立地法による工場植栽地/市街化区域（㎡）	694939		honpen p.47
+midori	8	table	緑地面積の内訳	工場立地法による工場植栽地/市街化調整区域（㎡）	21269		honpen p.47
+midori	8	table	緑地面積の内訳	工場立地法による工場植栽地/合計（㎡）	716208		honpen p.47
+midori	8	table	緑地面積の内訳	法によるもの 小計（重複を考慮した全体の面積）/市街化区域（㎡）	1407585		honpen p.47
+midori	8	table	緑地面積の内訳	法によるもの 小計（重複を考慮した全体の面積）/市街化調整区域（㎡）	101964402		honpen p.47
+midori	8	table	緑地面積の内訳	法によるもの 小計（重複を考慮した全体の面積）/合計（㎡）	103371988		honpen p.47
+midori	8	table	緑地面積の内訳	沿道景観区域/市街化区域（㎡）	78450		honpen p.47
+midori	8	table	緑地面積の内訳	沿道景観区域/市街化調整区域（㎡）	674437		honpen p.47
+midori	8	table	緑地面積の内訳	沿道景観区域/合計（㎡）	752887		honpen p.47
+midori	8	table	緑地面積の内訳	地域性緑地 小計（重複を考慮した全体の面積）/市街化区域（㎡）	1486035		honpen p.47
+midori	8	table	緑地面積の内訳	地域性緑地 小計（重複を考慮した全体の面積）/市街化調整区域（㎡）	101965782		honpen p.47
+midori	8	table	緑地面積の内訳	地域性緑地 小計（重複を考慮した全体の面積）/合計（㎡）	103451817		honpen p.47
+midori	8	table	緑地面積の内訳	合計（重複を考慮した全体の面積）/市街化区域（㎡）	1766724		honpen p.47
+midori	8	table	緑地面積の内訳	合計（重複を考慮した全体の面積）/市街化調整区域（㎡）	102002837		honpen p.47
+midori	8	table	緑地面積の内訳	合計（重複を考慮した全体の面積）/合計（㎡）	103769561		honpen p.47
+midori	11	table	都市公園一覧（近隣公園）	内池公園/計画面積（ha）	1.70		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	内池公園/供用面積（ha）	1.60		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	内池公園/整備率（%）	94.1		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	松尾公園/計画面積（ha）	1.70		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	松尾公園/供用面積（ha）	1.60		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	松尾公園/整備率（%）	94.1		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	大谷公園/計画面積（ha）	7.40		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	大谷公園/供用面積（ha）	7.20		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	大谷公園/整備率（%）	97.3		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	山王公園/計画面積（ha）	5.80		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	合計/計画面積（ha）	16.6		honpen p.32
+midori	11	table	都市公園一覧（近隣公園）	合計/供用面積（ha）	10.4		honpen p.32
+koe	4	table	配布数と回答数	配布数（件）/値	2500		honpen p.49
+koe	4	table	配布数と回答数	有効回答数（件）/値	1209		honpen p.49
+koe	4	table	配布数と回答数	有効回答率（%）/値	48.24		honpen p.49
+koe	8	table	配布数と回収数	配布数（件）/町民意識調査	1000		honpen p.50
+koe	8	table	配布数と回収数	配布数（件）/事業者調査	100		honpen p.50
+koe	8	table	配布数と回収数	有効回収数（件）/町民意識調査	364		honpen p.50
+koe	8	table	配布数と回収数	有効回収数（件）/事業者調査	47		honpen p.50
+koe	8	table	配布数と回収数	有効回収率（%）/町民意識調査	36.4		honpen p.50
+koe	8	table	配布数と回収数	有効回収率（%）/事業者調査	47.0		honpen p.50
+koe	11	chart.stacked100	町内の緑地や公園等レクリエーション施設についてどう感じていますか	全体（n=364）/とても利用しやすい	2.2	%	honpen p.51
+koe	11	chart.stacked100	町内の緑地や公園等レクリエーション施設についてどう感じていますか	全体（n=364）/利用しやすい	31.9	%	honpen p.51
+koe	11	chart.stacked100	町内の緑地や公園等レクリエーション施設についてどう感じていますか	全体（n=364）/少し利用しにくい	20.1	%	honpen p.51
+koe	11	chart.stacked100	町内の緑地や公園等レクリエーション施設についてどう感じていますか	全体（n=364）/利用しにくい	10.7	%	honpen p.51
+koe	11	chart.stacked100	町内の緑地や公園等レクリエーション施設についてどう感じていますか	全体（n=364）/どちらともいえない	28.6	%	honpen p.51
+koe	11	chart.stacked100	町内の緑地や公園等レクリエーション施設についてどう感じていますか	全体（n=364）/不明・無回答	6.6	%	honpen p.51
+koe	12	chart.stacked100	日野町の自然環境が以前（10年程前）と比べ、どのように変わってきていると思いますか	全体（n=364）/全体的に良くなった	3.0	%	honpen p.52
+koe	12	chart.stacked100	日野町の自然環境が以前（10年程前）と比べ、どのように変わってきていると思いますか	全体（n=364）/少しは良くなった	15.1	%	honpen p.52
+koe	12	chart.stacked100	日野町の自然環境が以前（10年程前）と比べ、どのように変わってきていると思いますか	全体（n=364）/ほとんど変わっていない	49.7	%	honpen p.52
+koe	12	chart.stacked100	日野町の自然環境が以前（10年程前）と比べ、どのように変わってきていると思いますか	全体（n=364）/少し悪くなった	21.2	%	honpen p.52
+koe	12	chart.stacked100	日野町の自然環境が以前（10年程前）と比べ、どのように変わってきていると思いますか	全体（n=364）/全体的に悪くなった	5.5	%	honpen p.52
+koe	12	chart.stacked100	日野町の自然環境が以前（10年程前）と比べ、どのように変わってきていると思いますか	全体（n=364）/不明・無回答	5.5	%	honpen p.52
+koe	13	chart.stacked100	日野町の自然環境についての満足度はどの程度ですか	全体（n=364）/満足	6.9	%	honpen p.53
+koe	13	chart.stacked100	日野町の自然環境についての満足度はどの程度ですか	全体（n=364）/やや満足	15.4	%	honpen p.53
+koe	13	chart.stacked100	日野町の自然環境についての満足度はどの程度ですか	全体（n=364）/ふつう	60.7	%	honpen p.53
+koe	13	chart.stacked100	日野町の自然環境についての満足度はどの程度ですか	全体（n=364）/やや不満	9.1	%	honpen p.53
+koe	13	chart.stacked100	日野町の自然環境についての満足度はどの程度ですか	全体（n=364）/不満	2.5	%	honpen p.53
+koe	13	chart.stacked100	日野町の自然環境についての満足度はどの程度ですか	全体（n=364）/不明・無回答	5.5	%	honpen p.53
+koe	14	chart.stacked100	町内のウォーキングルートや登山・トレイルコースを利用したいと思いますか	全体（n=364）/ぜひ利用したい	6.9	%	honpen p.52
+koe	14	chart.stacked100	町内のウォーキングルートや登山・トレイルコースを利用したいと思いますか	全体（n=364）/ときどき利用したい	32.1	%	honpen p.52
+koe	14	chart.stacked100	町内のウォーキングルートや登山・トレイルコースを利用したいと思いますか	全体（n=364）/あまり利用したいと思わない	56.0	%	honpen p.52
+koe	14	chart.stacked100	町内のウォーキングルートや登山・トレイルコースを利用したいと思いますか	全体（n=364）/不明・無回答	4.9	%	honpen p.52
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	自宅	84.9	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	趣味の集まり	22.3	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	公民館・図書館などの公共施設	12.9	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	お寺・神社	11.5	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	友人宅	10.2	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	公園などの野外スペース	10.2	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	飲食店・ショッピングセンターなどのフードコート	6.6	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	職場・学校	3.8	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	特になし	3.3	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	その他	1.9	%	honpen p.56
+koe	15	chart.rank	あなたの居心地がよいと思える場所はどこですか	不明・無回答	5.2	%	honpen p.56
+koe	17	chart.stacked100	町内の田んぼや里山の荒廃についてどう感じていますか	全体（n=364）/とても気にしている（心配している）	27.2	%	honpen p.52
+koe	17	chart.stacked100	町内の田んぼや里山の荒廃についてどう感じていますか	全体（n=364）/少し気になっている（少し心配している）	48.9	%	honpen p.52
+koe	17	chart.stacked100	町内の田んぼや里山の荒廃についてどう感じていますか	全体（n=364）/全く気にならない（心配していない）	6.0	%	honpen p.52
+koe	17	chart.stacked100	町内の田んぼや里山の荒廃についてどう感じていますか	全体（n=364）/どちらともいえない	13.5	%	honpen p.52
+koe	17	chart.stacked100	町内の田んぼや里山の荒廃についてどう感じていますか	全体（n=364）/不明・無回答	4.4	%	honpen p.52
+koe	18	chart.stacked100	所有されている山林の整備はされていますか。また整備されていない場合は、整備したいと考えていますか	山林の所有者（n=109）/整備されている	10.1	%	honpen p.53
+koe	18	chart.stacked100	所有されている山林の整備はされていますか。また整備されていない場合は、整備したいと考えていますか	山林の所有者（n=109）/整備されておらず、整備したいと考えている	37.6	%	honpen p.53
+koe	18	chart.stacked100	所有されている山林の整備はされていますか。また整備されていない場合は、整備したいと考えていますか	山林の所有者（n=109）/整備されておらず、整備したいとも考えていない	50.5	%	honpen p.53
+koe	18	chart.stacked100	所有されている山林の整備はされていますか。また整備されていない場合は、整備したいと考えていますか	山林の所有者（n=109）/不明・無回答	1.8	%	honpen p.53
+koe	20	chart.stacked100	あなたは、環境問題に興味がありますか	全体（n=364）/とても興味がある	19.2	%	honpen p.51
+koe	20	chart.stacked100	あなたは、環境問題に興味がありますか	全体（n=364）/少し興味がある	56.9	%	honpen p.51
+koe	20	chart.stacked100	あなたは、環境問題に興味がありますか	全体（n=364）/あまり興味がない	13.5	%	honpen p.51
+koe	20	chart.stacked100	あなたは、環境問題に興味がありますか	全体（n=364）/全く興味がない	1.4	%	honpen p.51
+koe	20	chart.stacked100	あなたは、環境問題に興味がありますか	全体（n=364）/分からない	5.5	%	honpen p.51
+koe	20	chart.stacked100	あなたは、環境問題に興味がありますか	全体（n=364）/不明・無回答	3.6	%	honpen p.51
+koe	21	chart.stacked100	あなたは、環境問題に関する取り組みをしていますか	全体（n=364）/取り組みをしている	44.0	%	honpen p.51
+koe	21	chart.stacked100	あなたは、環境問題に関する取り組みをしていますか	全体（n=364）/取り組みをしていない	49.2	%	honpen p.51
+koe	21	chart.stacked100	あなたは、環境問題に関する取り組みをしていますか	全体（n=364）/不明・無回答	6.9	%	honpen p.51
+koe	22	chart.stacked100	あなたは環境保全活動への参加・協力が可能ですか	全体（n=364）/積極的に参加・協力したい	3.6	%	honpen p.54
+koe	22	chart.stacked100	あなたは環境保全活動への参加・協力が可能ですか	全体（n=364）/できれば参加・協力したい	47.5	%	honpen p.54
+koe	22	chart.stacked100	あなたは環境保全活動への参加・協力が可能ですか	全体（n=364）/あまり参加・協力したくない	30.2	%	honpen p.54
+koe	22	chart.stacked100	あなたは環境保全活動への参加・協力が可能ですか	全体（n=364）/参加・協力したくない	10.2	%	honpen p.54
+koe	22	chart.stacked100	あなたは環境保全活動への参加・協力が可能ですか	全体（n=364）/不明・無回答	8.5	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	住まい周辺の清掃・美化活動	53.8	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	リサイクル活動やごみ減量化	35.4	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	道路や公園、水辺等の清掃・美化活動	29.1	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	地域の産物を活用した地産地消活動	18.1	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	町の緑化活動、雑木林等の保全活動	13.7	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	環境についての学習会や講習会	12.9	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	省エネ対策や自然エネルギー利用促進活動	10.7	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	野鳥や草花など自然観察会や調査	9.3	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	緑地や水辺、学校での生物生息環境づくり	5.5	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	その他	3.3	%	honpen p.54
+koe	23	chart.rank	どのような環境保全活動なら、参加や協力をしてみたいですか	不明・無回答	13.2	%	honpen p.54
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	自転車や歩道環境の整備	48.6	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	田んぼや里山の管理	42.0	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	空き缶等のごみの不法投棄規制	38.7	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	野生鳥獣害対策	34.3	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	ごみの減量化	29.1	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	町並みや景観の保全	26.4	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	地産地消（町内で購入しやすい施策）	26.4	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	公共の広場や公園の充実	23.1	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	河川等の水質汚濁防止	22.0	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	自然の緑化や水辺の保護・保全	20.1	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	自然と触れ合う場所の整備	17.6	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	悪臭の防止	11.0	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	省エネ、創エネの取り組み	11.0	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	地下水汚染防止	10.4	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	大気汚染の防止	9.9	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	動植物の調査（分布や生息状況など）	8.2	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	騒音防止	7.4	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	広告・看板等の規制による町並みの美化	6.6	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	振動防止	2.5	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	その他	3.0	%	honpen p.55
+koe	24	chart.rank	日野町は、環境保全の中で何を優先して行うべきと考えますか	不明・無回答	8.5	%	honpen p.55
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	自然環境の保護（森林を守る）	35.7	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	地球温暖化対策（温室効果ガスの削減）	31.3	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	地産地消（地元のものを購入する）	30.5	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	ごみの減量（ごみの発生や資源の消費自体を減らす）	29.4	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	エネルギー対策（省エネ・再エネ）	28.6	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	歴史文化景観の保全（歴史的建造物や町並みの保存）	22.0	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	公園や緑化活動（木や草を植え、緑を増やす）	19.8	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	環境ビジネスの推進（環境問題解決に取り組む企業の誘致、育成）	15.9	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	環境公害対策（環境公害の防止）	15.1	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	環境教育、学習（環境に関する学習機会の提供）	12.1	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	生物多様性の保全（生態系や様々な種の保存）	9.3	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	その他	3.3	%	honpen p.50
+koe	25	chart.rank	日野町が2050年にどのような環境の先進地になってほしいですか	不明・無回答	5.8	%	honpen p.50
+hoshin	8	table	緑の目標指標	緑被（都市計画区域面積に対する割合）/現況	90		honpen p.67
+hoshin	8	table	緑の目標指標	緑被（都市計画区域面積に対する割合）/将来（R27年）	90		honpen p.67
+hoshin	8	table	緑の目標指標	緑被（市街化区域面積に対する割合）/現況	40		honpen p.67
+hoshin	8	table	緑の目標指標	住民アンケート（自然環境の変化）※1/現況	18.1		honpen p.67
+hoshin	8	table	緑の目標指標	一人当たりの都市公園等面積/現況	19.0		honpen p.67
+hoshin	8	table	緑の目標指標	一人当たりの都市公園等面積/将来（R27年）	22.7		honpen p.67
+hoshin	8	table	緑の目標指標	住民アンケート（緑地や公園等の利用しやすさ）※2/現況	34.1		honpen p.67
+hoshin	8	table	緑の目標指標	住民アンケート（緑地や公園等の利用しやすさ）※2/将来（R27年）	40.0		honpen p.67
+hoshin	10	table	都市公園等の整備の長期目標	内池公園（㎡）/現状	16000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	内池公園（㎡）/R27年	16000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	松尾公園（㎡）/現状	16000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	松尾公園（㎡）/R27年	16000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	大谷公園（㎡）/現状	72000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	大谷公園（㎡）/R27年	72000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	山王公園（㎡）/現状	0		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	山王公園（㎡）/R27年	0		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	都市公園 小計（㎡）/現状	104000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	都市公園 小計（㎡）/R27年	104000		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	日野川ダム公園グラウンド（㎡）/現状	22816		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	日野川ダム公園グラウンド（㎡）/R27年	22816		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	滋賀農業公園「ブルーメの丘」（㎡）/現状	270631		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	滋賀農業公園「ブルーメの丘」（㎡）/R27年	270631		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	その他 小計（㎡）/現状	293447		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	その他 小計（㎡）/R27年	293447		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	都市公園等面積合計①（㎡）/現状	397447		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	都市公園等面積合計①（㎡）/R27年	397447		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	日野町人口②（人）/現状	20964		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	日野町人口②（人）/R27年	17500		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	一人当たり都市公園等面積③＝①/②（㎡/人）/現状	19.0		honpen p.68
+hoshin	10	table	都市公園等の整備の長期目標	一人当たり都市公園等面積③＝①/②（㎡/人）/R27年	22.7		honpen p.68
+hoshin	13	table	人口の将来見通し	人口（人）/現況（R2年）	20964		honpen p.67
+hoshin	13	table	人口の将来見通し	都市計画区域面積（ha）/現況（R2年）	11760		honpen p.67
+hoshin	13	table	人口の将来見通し	都市計画区域面積（ha）/将来（R27年）	11760		honpen p.67
+hoshin	16	figure	緑の将来像	緑の将来像	midori_shoraizo.jpg		honpen p.74
+shisaku	3	programs	緑地の保全及び緑化推進のための施策	事業数	23	件	honpen p.77-81
+machi	4	chart.bars	人口の推移（国勢調査）	H2	22391	人	honpen p.25
+machi	4	chart.bars	人口の推移（国勢調査）	H7	23132	人	honpen p.25
+machi	4	chart.bars	人口の推移（国勢調査）	H12	23022	人	honpen p.25
+machi	4	chart.bars	人口の推移（国勢調査）	H17	22809	人	honpen p.25
+machi	4	chart.bars	人口の推移（国勢調査）	H22	22870	人	honpen p.25
+machi	4	chart.bars	人口の推移（国勢調査）	H27	21873	人	honpen p.25
+machi	4	chart.bars	人口の推移（国勢調査）	R2	20964	人	honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/H2	4472		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/H7	4135		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/H12	3613		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/H17	3215		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/H22	3043		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/H27	2835		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	年少人口（0～14歳）/R2	2575		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/H2	14036		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/H7	14518		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/H12	14311		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/H17	14262		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/H22	14217		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/H27	12840		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	生産年齢人口（15～64歳）/R2	11656		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/H2	3872		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/H7	4479		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/H12	5095		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/H17	5332		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/H22	5553		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/H27	6088		honpen p.25
+machi	5	table	年齢3区分別の人口（国勢調査、人）	老年人口（65歳以上）/R2	6424		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/H2	5676		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/H7	6318		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/H12	6693		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/H17	7131		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/H22	7678		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/H27	7728		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	世帯数（世帯）/R2	7932		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/H2	3.9		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/H7	3.7		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/H12	3.4		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/H17	3.2		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/H22	3.0		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/H27	2.8		honpen p.25
+machi	6	table	世帯数の推移（国勢調査）	1世帯当たり人員（人/世帯）/R2	2.6		honpen p.25
+machi	9	chart.line	将来人口推計	将来展望人口（第6次日野町総合計画）/R7	20500	人	honpen p.26
+machi	9	chart.line	将来人口推計	将来展望人口（第6次日野町総合計画）/R12	19799	人	honpen p.26
+machi	9	chart.line	将来人口推計	将来展望人口（第6次日野町総合計画）/R17	19086	人	honpen p.26
+machi	9	chart.line	将来人口推計	将来展望人口（第6次日野町総合計画）/R22	18319	人	honpen p.26
+machi	9	chart.line	将来人口推計	将来展望人口（第6次日野町総合計画）/R27	17508	人	honpen p.26
+machi	9	chart.line	将来人口推計	将来展望人口（第6次日野町総合計画）/R32	16858	人	honpen p.26
+machi	9	chart.line	将来人口推計	国立社会保障・人口問題研究所の推計（令和5年推計）/R7	20200	人	honpen p.26
+machi	9	chart.line	将来人口推計	国立社会保障・人口問題研究所の推計（令和5年推計）/R12	19331	人	honpen p.26
+machi	9	chart.line	将来人口推計	国立社会保障・人口問題研究所の推計（令和5年推計）/R17	18424	人	honpen p.26
+machi	9	chart.line	将来人口推計	国立社会保障・人口問題研究所の推計（令和5年推計）/R22	17479	人	honpen p.26
+machi	9	chart.line	将来人口推計	国立社会保障・人口問題研究所の推計（令和5年推計）/R27	16477	人	honpen p.26
+machi	9	chart.line	将来人口推計	国立社会保障・人口問題研究所の推計（令和5年推計）/R32	15444	人	honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	0～14歳/R7	11.4		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	0～14歳/R12	10.3		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	0～14歳/R17	9.7		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	0～14歳/R22	9.5		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	0～14歳/R27	9.4		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	0～14歳/R32	9.1		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	15～64歳/R7	56.0		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	15～64歳/R12	55.7		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	15～64歳/R17	55.3		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	15～64歳/R22	53.2		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	15～64歳/R27	51.5		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	15～64歳/R32	50.3		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	65歳以上/R7	32.6		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	65歳以上/R12	34.0		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	65歳以上/R17	35.0		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	65歳以上/R22	37.3		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	65歳以上/R27	39.1		honpen p.26
+machi	10	table	年齢3区分の割合（国立社会保障・人口問題研究所の推計、%）	65歳以上/R32	40.6		honpen p.26
+machi	13	table	土地利用現況（構成割合）	田/構成割合（%）	17.5		honpen p.28
+machi	13	table	土地利用現況（構成割合）	畑/構成割合（%）	2.2		honpen p.28
+machi	13	table	土地利用現況（構成割合）	農地 小計/構成割合（%）	19.6		honpen p.28
+machi	13	table	土地利用現況（構成割合）	山林/構成割合（%）	55.3		honpen p.28
+machi	13	table	土地利用現況（構成割合）	水面/構成割合（%）	2.3		honpen p.28
+machi	13	table	土地利用現況（構成割合）	その他自然地/構成割合（%）	6.1		honpen p.28
+machi	13	table	土地利用現況（構成割合）	自然的土地利用 小計/構成割合（%）	83.3		honpen p.28
+machi	13	table	土地利用現況（構成割合）	住宅用地/構成割合（%）	3.7		honpen p.28
+machi	13	table	土地利用現況（構成割合）	商業用地/構成割合（%）	0.7		honpen p.28
+machi	13	table	土地利用現況（構成割合）	工業用地/構成割合（%）	1.7		honpen p.28
+machi	13	table	土地利用現況（構成割合）	宅地 小計/構成割合（%）	6.1		honpen p.28
+machi	13	table	土地利用現況（構成割合）	農林漁業施設用地/構成割合（%）	0.3		honpen p.28
+machi	13	table	土地利用現況（構成割合）	公益施設用地/構成割合（%）	1.1		honpen p.28
+machi	13	table	土地利用現況（構成割合）	道路用地/構成割合（%）	4.5		honpen p.28
+machi	13	table	土地利用現況（構成割合）	交通施設用地/構成割合（%）	0.1		honpen p.28
+machi	13	table	土地利用現況（構成割合）	公共空地/構成割合（%）	0.5		honpen p.28
+machi	13	table	土地利用現況（構成割合）	その他公的施設用地/構成割合（%）	0.0		honpen p.28
+machi	13	table	土地利用現況（構成割合）	その他の空地①（ゴルフ場）/構成割合（%）	2.6		honpen p.28
+machi	13	table	土地利用現況（構成割合）	その他の空地②（太陽光発電施設）/構成割合（%）	0.4		honpen p.28
+machi	13	table	土地利用現況（構成割合）	その他の空地③（平面駐車場）/構成割合（%）	0.1		honpen p.28
+machi	13	table	土地利用現況（構成割合）	その他の空地④/構成割合（%）	0.9		honpen p.28
+machi	13	table	土地利用現況（構成割合）	都市的土地利用 小計/構成割合（%）	16.7		honpen p.28
+machi	13	table	土地利用現況（構成割合）	合計/構成割合（%）	100.0		honpen p.28
+machi	14	table	土地利用状況の推移（%）	田/S51年（1976年）	24.1		honpen p.29
+machi	14	table	土地利用状況の推移（%）	田/R3年（2021年）	19.3		honpen p.29
+machi	14	table	土地利用状況の推移（%）	その他の農用地/S51年（1976年）	1.2		honpen p.29
+machi	14	table	土地利用状況の推移（%）	その他の農用地/R3年（2021年）	1.6		honpen p.29
+machi	14	table	土地利用状況の推移（%）	森林/S51年（1976年）	59.3		honpen p.29
+machi	14	table	土地利用状況の推移（%）	森林/R3年（2021年）	64.4		honpen p.29
+machi	14	table	土地利用状況の推移（%）	荒地/S51年（1976年）	2.3		honpen p.29
+machi	14	table	土地利用状況の推移（%）	荒地/R3年（2021年）	0.7		honpen p.29
+machi	14	table	土地利用状況の推移（%）	建物用地/S51年（1976年）	4.8		honpen p.29
+machi	14	table	土地利用状況の推移（%）	建物用地/R3年（2021年）	8.5		honpen p.29
+machi	14	table	土地利用状況の推移（%）	道路・鉄道/S51年（1976年）	0.0		honpen p.29
+machi	14	table	土地利用状況の推移（%）	道路・鉄道/R3年（2021年）	0.2		honpen p.29
+machi	14	table	土地利用状況の推移（%）	その他の用地/S51年（1976年）	5.7		honpen p.29
+machi	14	table	土地利用状況の推移（%）	その他の用地/R3年（2021年）	2.5		honpen p.29
+machi	14	table	土地利用状況の推移（%）	河川地及び湖沼/S51年（1976年）	2.6		honpen p.29
+machi	14	table	土地利用状況の推移（%）	河川地及び湖沼/R3年（2021年）	2.8		honpen p.29
+machi	14	table	土地利用状況の推移（%）	合計/S51年（1976年）	100.0		honpen p.29
+machi	14	table	土地利用状況の推移（%）	合計/R3年（2021年）	100.0		honpen p.29
+machi	17	table	区域区分	市街化区域（A）/面積（ha）	715.6		honpen p.30
+machi	17	table	区域区分	市街化区域（A）/構成比（%）	6.1		honpen p.30
+machi	17	table	区域区分	市街化調整区域（B）/面積（ha）	11044.4		honpen p.30
+machi	17	table	区域区分	市街化調整区域（B）/構成比（%）	93.9		honpen p.30
+machi	17	table	区域区分	都市計画区域（A＋B）/面積（ha）	11760.0		honpen p.30
+machi	17	table	区域区分	都市計画区域（A＋B）/構成比（%）	100.0		honpen p.30
+machi	18	table	市街化区域の用途地域	第一種低層住居専用地域/面積（ha）	16.2		honpen p.30
+machi	18	table	市街化区域の用途地域	第一種低層住居専用地域/構成比（%）	2.3		honpen p.30
+machi	18	table	市街化区域の用途地域	第一種中高層住居専用地域/面積（ha）	82.7		honpen p.30
+machi	18	table	市街化区域の用途地域	第一種中高層住居専用地域/構成比（%）	11.6		honpen p.30
+machi	18	table	市街化区域の用途地域	第一種住居地域/面積（ha）	120.7		honpen p.30
+machi	18	table	市街化区域の用途地域	第一種住居地域/構成比（%）	16.9		honpen p.30
+machi	18	table	市街化区域の用途地域	第二種中高層住居専用地域/面積（ha）	28.2		honpen p.30
+machi	18	table	市街化区域の用途地域	第二種中高層住居専用地域/構成比（%）	3.9		honpen p.30
+machi	18	table	市街化区域の用途地域	第二種住居地域/面積（ha）	5.7		honpen p.30
+machi	18	table	市街化区域の用途地域	第二種住居地域/構成比（%）	0.8		honpen p.30
+machi	18	table	市街化区域の用途地域	近隣商業地域/面積（ha）	41.2		honpen p.30
+machi	18	table	市街化区域の用途地域	近隣商業地域/構成比（%）	5.8		honpen p.30
+machi	18	table	市街化区域の用途地域	商業地域/面積（ha）	6.4		honpen p.30
+machi	18	table	市街化区域の用途地域	商業地域/構成比（%）	0.9		honpen p.30
+machi	18	table	市街化区域の用途地域	準工業地域/面積（ha）	6.6		honpen p.30
+machi	18	table	市街化区域の用途地域	準工業地域/構成比（%）	0.9		honpen p.30
+machi	18	table	市街化区域の用途地域	工業地域/面積（ha）	69		honpen p.30
+machi	18	table	市街化区域の用途地域	工業地域/構成比（%）	9.6		honpen p.30
+machi	18	table	市街化区域の用途地域	工業専用地域/面積（ha）	338.9		honpen p.30
+machi	18	table	市街化区域の用途地域	工業専用地域/構成比（%）	47.4		honpen p.30
+machi	18	table	市街化区域の用途地域	計/面積（ha）	715.6		honpen p.30
+machi	18	table	市街化区域の用途地域	計/構成比（%）	100.0		honpen p.30

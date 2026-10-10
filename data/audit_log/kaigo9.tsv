@@ -456,11 +456,11 @@ c99cb6fc5729330e	shisaku	18	target.base	目標指標	ケアプラン点検の実
 5f5f0144acc40abd	shisaku	18	target.target	目標指標	ケアプラン点検の実施数（介護給付適正化事業）	30	件／年	honpen p.41	✓	auto:ai	2026-10-10	
 2d5b1627fdff1a42	shisaku	18	target.base	目標指標	医療情報との突合・縦覧点検の実施割合（介護給付適正化事業）	100	%	honpen p.41	✓	auto:ai	2026-10-10	
 52168ba1e1ebebf1	shisaku	18	target.target	目標指標	医療情報との突合・縦覧点検の実施割合（介護給付適正化事業）	100	%	honpen p.41	✓	auto:ai	2026-10-10	
-a1d5455722e806d1	shisaku	20	programs	施策と事業	事業数	14	件	honpen p.33-34				
-e95e66be66d68c65	shisaku	21	programs	施策と事業	事業数	16	件	honpen p.35-36				
-9dd77d12fa026976	shisaku	22	programs	施策と事業	事業数	19	件	honpen p.37-38				
-24b29e5b4223a9ed	shisaku	23	programs	施策と事業	事業数	11	件	honpen p.39-40				
-76209dc12d4edfb1	shisaku	24	programs	施策と事業	事業数	17	件	honpen p.41-42				
+a1d5455722e806d1	shisaku	20	programs	施策と事業	事業数	14	件	honpen p.33-34	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+e95e66be66d68c65	shisaku	21	programs	施策と事業	事業数	16	件	honpen p.35-36	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+9dd77d12fa026976	shisaku	22	programs	施策と事業	事業数	19	件	honpen p.37-38	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+24b29e5b4223a9ed	shisaku	23	programs	施策と事業	事業数	11	件	honpen p.39-40	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+76209dc12d4edfb1	shisaku	24	programs	施策と事業	事業数	17	件	honpen p.41-42	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 1474345b0e2fee34	service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/後期高齢者（75歳以上）	3351	人	honpen p.47	✓	auto:ai	2026-10-10	
 21ec70ab4cec85cc	service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/前期高齢者（65〜74歳）	3172	人	honpen p.47	✓	auto:ai	2026-10-10	
 97c2fa13428a0f19	service	5	chart.stacked	将来人口（R3〜R5は実績、R6以降は推計）	R3/40〜64歳	6672	人	honpen p.47	✓	auto:ai	2026-10-10	

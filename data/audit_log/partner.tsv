@@ -5,12 +5,12 @@ key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date
 8b67aa4ed809e935	summary	3	kpi		附属機関の委員に占める女性の比率	30.7	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
 86bdeac10be70da3	summary	3	kpi		町職員の管理職に占める女性の比率	12.5	%	honpen-04 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 091ce081de98577c	genjo	3	chart.bars	日野町の人口の推計	2020年	20964	人	honpen-04 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-3f02cce90ae5a722	genjo	3	chart.bars	日野町の人口の推計	2025年	20200	人	honpen-04 p.1				
-c4ef6a668799ab8e	genjo	3	chart.bars	日野町の人口の推計	2030年	19331	人	honpen-04 p.1				
-c06bf881c4c7a4de	genjo	3	chart.bars	日野町の人口の推計	2035年	18424	人	honpen-04 p.1				
-ebde56c3960da2bc	genjo	3	chart.bars	日野町の人口の推計	2040年	17479	人	honpen-04 p.1				
-1d56d342aa335ba6	genjo	3	chart.bars	日野町の人口の推計	2045年	16477	人	honpen-04 p.1				
-5c8368d4bf66b810	genjo	3	chart.bars	日野町の人口の推計	2050年	15444	人	honpen-04 p.1				
+3f02cce90ae5a722	genjo	3	chart.bars	日野町の人口の推計	2025年	20200	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
+c4ef6a668799ab8e	genjo	3	chart.bars	日野町の人口の推計	2030年	19331	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
+c06bf881c4c7a4de	genjo	3	chart.bars	日野町の人口の推計	2035年	18424	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
+ebde56c3960da2bc	genjo	3	chart.bars	日野町の人口の推計	2040年	17479	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
+1d56d342aa335ba6	genjo	3	chart.bars	日野町の人口の推計	2045年	16477	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
+5c8368d4bf66b810	genjo	3	chart.bars	日野町の人口の推計	2050年	15444	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
 d751a00116918002	genjo	6	chart.pair	日野町の年齢別労働力率	15〜19歳/女性	19.3	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 9ae2cab758fd5ef3	genjo	6	chart.pair	日野町の年齢別労働力率	15〜19歳/男性	16.9	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 f4b3f06166378adf	genjo	6	chart.pair	日野町の年齢別労働力率	20〜24歳/女性	72.6	%	honpen-04 p.2	✓	auto:ai	2026-10-10	

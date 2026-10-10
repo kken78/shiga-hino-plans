@@ -195,13 +195,13 @@ c7e6d043e666e13d	genjo	17	table	用途地域	工業地域/面積(ha)	48.0		honpe
 69371875de92b4ce	genjo	17	table	用途地域	工業専用地域/面積(ha)	338.9		honpen-05 p.8	✓	auto:ai	2026-10-10	
 18f974fc931fbdf5	genjo	17	table	用途地域	工業専用地域/町全域構成比(%)	2.9		honpen-05 p.8	✓	auto:ai	2026-10-10	
 dd5b7cd6e3e3b992	genjo	17	table	用途地域	工業専用地域/用途地域構成比(%)	48.8		honpen-05 p.8	✓	auto:ai	2026-10-10	
-4e2b6ceff832ee15	genjo	17	table	用途地域	市街化区域 合計(A)/面積(ha)	694.6		honpen-05 p.8				
-101933ac4877a6d2	genjo	17	table	用途地域	市街化区域 合計(A)/町全域構成比(%)	5.9		honpen-05 p.8				
-05ccc0caca3150dd	genjo	17	table	用途地域	市街化区域 合計(A)/用途地域構成比(%)	100.0		honpen-05 p.8				
+4e2b6ceff832ee15	genjo	17	table	用途地域	市街化区域 合計(A)/面積(ha)	694.6		honpen-05 p.8				要人確認:H1 A=一致/中 B=一致/中
+101933ac4877a6d2	genjo	17	table	用途地域	市街化区域 合計(A)/町全域構成比(%)	5.9		honpen-05 p.8	✓	auto:ai	2026-10-10	
+05ccc0caca3150dd	genjo	17	table	用途地域	市街化区域 合計(A)/用途地域構成比(%)	100.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
 0da585e1059fcdd6	genjo	17	table	用途地域	市街化調整区域(B)/面積(ha)	11065.4		honpen-05 p.8	✓	auto:ai	2026-10-10	
 922f53ac101fc163	genjo	17	table	用途地域	市街化調整区域(B)/町全域構成比(%)	94.1		honpen-05 p.8	✓	auto:ai	2026-10-10	
-4f2f851001468f55	genjo	17	table	用途地域	町全域(A+B)/面積(ha)	11760.0		honpen-05 p.8				
-588e0aaf7ef46d31	genjo	17	table	用途地域	町全域(A+B)/町全域構成比(%)	100.0		honpen-05 p.8				
+4f2f851001468f55	genjo	17	table	用途地域	町全域(A+B)/面積(ha)	11760.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
+588e0aaf7ef46d31	genjo	17	table	用途地域	町全域(A+B)/町全域構成比(%)	100.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
 b961c2202199dd51	genjo	20	table	空き家	日野/空家の数	210		honpen-03 p.13	✓	auto:ai	2026-10-10	
 7d93b463c206477d	genjo	20	table	空き家	日野/すぐに入居可能(A)	95		honpen-03 p.13	✓	auto:ai	2026-10-10	
 91c9436315363227	genjo	20	table	空き家	日野/入居するには修繕を要する(B)	72		honpen-03 p.13	✓	auto:ai	2026-10-10	
@@ -230,18 +230,18 @@ bd36154b9559ec96	genjo	20	table	空き家	鎌掛/空家の数	27		honpen-03 p.13
 4d0e900215c8a9e6	genjo	20	table	空き家	南比都佐/空家の数	21		honpen-03 p.13	✓	auto:ai	2026-10-10	
 404d175be4a962b9	genjo	20	table	空き家	南比都佐/すぐに入居可能(A)	12		honpen-03 p.13	✓	auto:ai	2026-10-10	
 b58c01391308a7ed	genjo	20	table	空き家	南比都佐/入居するには修繕を要する(B)	4		honpen-03 p.13	✓	auto:ai	2026-10-10	
-10ce43bdeaf15f46	genjo	20	table	空き家	南比都佐/放置すると倒壊の危険有(C)	5		honpen-03 p.13	✓	auto:ai	2026-10-10	
+10ce43bdeaf15f46	genjo	20	table	空き家	南比都佐/放置すると倒壊の危険有(C)	5		honpen-03 p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 2883e147da34ba57	genjo	20	table	空き家	南比都佐/倒壊の危険性有(D)	0		honpen-03 p.13	✓	auto:ai	2026-10-10	
 26c5a5291f4a1dd9	genjo	20	table	空き家	必佐/空家の数	141		honpen-03 p.13	✓	auto:ai	2026-10-10	
 1f1f97f1fc3042ee	genjo	20	table	空き家	必佐/すぐに入居可能(A)	36		honpen-03 p.13	✓	auto:ai	2026-10-10	
 ba40f06260702d1b	genjo	20	table	空き家	必佐/入居するには修繕を要する(B)	57		honpen-03 p.13	✓	auto:ai	2026-10-10	
 ad1d7b9e417bd219	genjo	20	table	空き家	必佐/放置すると倒壊の危険有(C)	32		honpen-03 p.13	✓	auto:ai	2026-10-10	
 aac637dbfe02dca5	genjo	20	table	空き家	必佐/倒壊の危険性有(D)	16		honpen-03 p.13	✓	auto:ai	2026-10-10	
-aaab08fd4c86c234	genjo	20	table	空き家	合計/空家の数	557		honpen-03 p.13				
-7ef78d1647ec9db5	genjo	20	table	空き家	合計/すぐに入居可能(A)	209		honpen-03 p.13				
-6d661b65f07e009e	genjo	20	table	空き家	合計/入居するには修繕を要する(B)	198		honpen-03 p.13				
-7a8a3d7d0d6fbb1a	genjo	20	table	空き家	合計/放置すると倒壊の危険有(C)	105		honpen-03 p.13				
-3397de64c26d500c	genjo	20	table	空き家	合計/倒壊の危険性有(D)	45		honpen-03 p.13				
+aaab08fd4c86c234	genjo	20	table	空き家	合計/空家の数	557		honpen-03 p.13	✓	auto:ai	2026-10-10	
+7ef78d1647ec9db5	genjo	20	table	空き家	合計/すぐに入居可能(A)	209		honpen-03 p.13	✓	auto:ai	2026-10-10	
+6d661b65f07e009e	genjo	20	table	空き家	合計/入居するには修繕を要する(B)	198		honpen-03 p.13	✓	auto:ai	2026-10-10	
+7a8a3d7d0d6fbb1a	genjo	20	table	空き家	合計/放置すると倒壊の危険有(C)	105		honpen-03 p.13	✓	auto:ai	2026-10-10	
+3397de64c26d500c	genjo	20	table	空き家	合計/倒壊の危険性有(D)	45		honpen-03 p.13	✓	auto:ai	2026-10-10	
 ae424e0e1d842ca4	genjo	21	chart.rank	住宅全体に対する空家率(地区別)	東桜谷地区	11.5	%	honpen-03 p.14				要人確認:H1 A=一致/中 B=一致/中
 795f0af77fbb0e2e	genjo	21	chart.rank	住宅全体に対する空家率(地区別)	鎌掛地区	10.98	%	honpen-03 p.14	✓	auto:ai	2026-10-10	
 9a4e28f3e0ce9560	genjo	21	chart.rank	住宅全体に対する空家率(地区別)	西桜谷地区	10.4	%	honpen-03 p.14				要人確認:H1 A=一致/中 B=一致/中

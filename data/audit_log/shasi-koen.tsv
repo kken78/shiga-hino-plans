@@ -1,0 +1,57 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+dd18c43c8c62f329	summary	2	kpi		全体事業費	240	百万円	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+da6b3640a338be4b	summary	2	kpi		計画期間	5	年間	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+1dfdb666589e1f58	summary	3	target.base		長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率	0	%	r3syakaishihonseibikeikaku p.1				要人確認:H1 A=一致/中 B=一致/中
+947aa398aea43e96	summary	3	target.target		長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率	100	%	r3syakaishihonseibikeikaku p.1				要人確認:H1 A=一致/中 B=一致/中
+bc4c5782bafc4702	jigyo	3	table	事業の内容と期間	A12-001/全体事業費（百万円）	240		r3syakaishihonseibikeikaku p.2	✓	auto:ai	2026-10-10	
+6dcb6d081ed26a2f	jigyo	3	table	事業の内容と期間	合計/全体事業費（百万円）	240		r3syakaishihonseibikeikaku p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+6cea4e49ca9fee7e	jigyo	5	kpi	全体事業費の内訳	全体事業費の合計（A＋B＋C＋D）	240	百万円	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+2458213067318d85	jigyo	5	kpi	全体事業費の内訳	A	240	百万円	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+6d374525ea7e02af	jigyo	5	kpi	全体事業費の内訳	B	0	百万円	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+a353d1ebb204ff05	jigyo	5	kpi	全体事業費の内訳	C	0	百万円	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+147f48702aab5040	jigyo	5	kpi	全体事業費の内訳	D	0	百万円	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2f203d5dbb31ac6b	jigyo	5	kpi	全体事業費の内訳	効果促進事業費の割合 C／（A＋B＋C＋D）	0	%	r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+32a4ec0a95695447	mokuhyo	3	table	指標と目標値	長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率/当初現況値 R4年度当初（%）	0		r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+136681a7a8f5574c	mokuhyo	3	table	指標と目標値	長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率/中間目標値 R6年度末（%）	50		r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+05bd44fac00cbfc6	mokuhyo	3	table	指標と目標値	長寿命化計画に基づく、改修・更新が必要な施設の改修・更新の実施率/最終目標値 R8年度末（%）	100		r3syakaishihonseibikeikaku p.1	✓	auto:ai	2026-10-10	
+b78cd0b410f7a0a5	shikko	2	chart.pair	交付額と支払済額	R04/交付額（c）	49	百万円	r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+3b28cc9b0447272f	shikko	2	chart.pair	交付額と支払済額	R04/支払済額（e）	46	百万円	r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+bb32b7f030364d10	shikko	2	chart.pair	交付額と支払済額	R05/交付額（c）	134	百万円	r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+5f7a849115c3fe14	shikko	2	chart.pair	交付額と支払済額	R05/支払済額（e）	121	百万円	r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+cb90e44f043e90dc	shikko	2	chart.pair	交付額と支払済額	R06/交付額（c）	64	百万円	r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+af2391c337db62e6	shikko	2	chart.pair	交付額と支払済額	R06/支払済額（e）	77	百万円	r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+ba2d46096ac30c82	shikko	3	table	交付金の執行状況	配分額（a）/R04	49		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+1ccf4829d84d398c	shikko	3	table	交付金の執行状況	配分額（a）/R05	134		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+3670aa94cc717975	shikko	3	table	交付金の執行状況	配分額（a）/R06	64		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+104f2ae314cd2336	shikko	3	table	交付金の執行状況	計画別流用増△減額（b）/R04	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+bf508be23fdb4c83	shikko	3	table	交付金の執行状況	計画別流用増△減額（b）/R05	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+da7b2c92d6fb7622	shikko	3	table	交付金の執行状況	計画別流用増△減額（b）/R06	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+74343a330c2411e3	shikko	3	table	交付金の執行状況	交付額（c=a+b）/R04	49		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+fc83c5b4bada0ba8	shikko	3	table	交付金の執行状況	交付額（c=a+b）/R05	134		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+f59faf1b6003e112	shikko	3	table	交付金の執行状況	交付額（c=a+b）/R06	64		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+fcff8baa7ccc7d5e	shikko	3	table	交付金の執行状況	前年度からの繰越額（d）/R04	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+f802dc9787f435d9	shikko	3	table	交付金の執行状況	前年度からの繰越額（d）/R05	3		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+5e9641f82f09e7ec	shikko	3	table	交付金の執行状況	前年度からの繰越額（d）/R06	16		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+dcc078e86ce1e262	shikko	3	table	交付金の執行状況	支払済額（e）/R04	46		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+3f1cb32adf423341	shikko	3	table	交付金の執行状況	支払済額（e）/R05	121		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+ce0dccf557ef2ec8	shikko	3	table	交付金の執行状況	支払済額（e）/R06	77		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+9cc3274f83f52bc0	shikko	3	table	交付金の執行状況	翌年度繰越額（f）/R04	3		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+258c393d2603b9c1	shikko	3	table	交付金の執行状況	翌年度繰越額（f）/R05	16		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+18e887c067088cc7	shikko	3	table	交付金の執行状況	翌年度繰越額（f）/R06	3		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+1582ae11e97a1b5c	shikko	3	table	交付金の執行状況	うち未契約繰越額（g）/R04	3		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+772a03903714c3df	shikko	3	table	交付金の執行状況	うち未契約繰越額（g）/R05	13		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+394f3b70874aa498	shikko	3	table	交付金の執行状況	うち未契約繰越額（g）/R06	3		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+e47b4d7210901f6d	shikko	3	table	交付金の執行状況	不用額（h=c+d-e-f）/R04	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+504546ebd12de16c	shikko	3	table	交付金の執行状況	不用額（h=c+d-e-f）/R05	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+10a77148eacf685d	shikko	3	table	交付金の執行状況	不用額（h=c+d-e-f）/R06	0		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+356e4f149ef78851	shikko	3	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R04	6.12		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+e3fa94f7acdf5479	shikko	3	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R05	9.48		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+042dff0be7ad1831	shikko	3	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R06	3.75		r3syakaishihonseibikeikaku p.3	✓	auto:ai	2026-10-10	
+b9c83ab967afa786	keii	5	table	前の計画の目標と事業	A12-001/全体事業費（百万円）	9		seibikeikaku p.2	✓	auto:ai	2026-10-10	
+8d3896837cc0b27b	keii	5	table	前の計画の目標と事業	合計/全体事業費（百万円）	9		seibikeikaku p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+29c6c65772e733c5	keii	6	table	前の計画の目標と事業	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/当初現況値 平成31年度当初（%）	0		seibikeikaku p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+1957a97d30f70df2	keii	6	table	前の計画の目標と事業	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/中間目標値 平成32年度末（%）	100		seibikeikaku p.1	✓	auto:ai	2026-10-10	
+9acd7a0bebd535fb	keii	6	table	前の計画の目標と事業	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/最終目標値 平成32年度末（%）	100		seibikeikaku p.1	✓	auto:ai	2026-10-10	
+23512bfae8eb1306	keii	9	table	前の計画の事後評価	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/最終目標値（%）	100		jigohyoukasho p.4				要人確認:H1 A=一致/中 B=一致/中
+46c11b2518bc4a52	keii	9	table	前の計画の事後評価	施設の老朽化に対し適切な長寿命化計画を策定された都市公園の割合/最終実績値（%）	100		jigohyoukasho p.4				要人確認:H1 A=一致/中 B=一致/中

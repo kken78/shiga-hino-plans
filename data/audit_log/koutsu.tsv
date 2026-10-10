@@ -205,128 +205,128 @@ c14d631f7b92b142	chiiki	25	table	自家用車での送迎	送迎を続ける/送
 dccac880861572be	chiiki	25	table	自家用車での送迎	合計/送迎している方（%）	100.0		honpen p.12	✓	kken78	2026-10-09	
 a07607c8e4561056	chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（人）	952		honpen p.12	✓	kken78	2026-10-09	
 d910d6fcd85c6433	chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（%）	100.0		honpen p.12	✓	kken78	2026-10-09	
-12899f2a1e44eeeb	genjo	3	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	koutsu_map.jpg		honpen p.13	✓	kken78	2026-10-09	
-7fdb9d4a514f14de	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期	271440	人	honpen p.14	✓	kken78	2026-10-09	
-b811f58496df4781	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期外	76311	人	honpen p.14	✓	kken78	2026-10-09	
-ed8caf674a8d04e7	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期	272160	人	honpen p.14	✓	kken78	2026-10-09	
-4fbd04a2ddfe82d5	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期外	69251	人	honpen p.14	✓	kken78	2026-10-09	
-84d6dc0f6040a3ef	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期	267420	人	honpen p.14	✓	kken78	2026-10-09	
-5e1fb3cec2be7a32	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期外	67812	人	honpen p.14	✓	kken78	2026-10-09	
-7c572d375e3bca54	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期	280200	人	honpen p.14	✓	kken78	2026-10-09	
-35d7c4340d5c90bf	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期外	68916	人	honpen p.14	✓	kken78	2026-10-09	
-cc887c85780658c0	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期	271654	人	honpen p.14	✓	kken78	2026-10-09	
-c9d430a504572d64	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期外	73061	人	honpen p.14	✓	kken78	2026-10-09	
-323a0691521dab3f	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期	263169	人	honpen p.14	✓	kken78	2026-10-09	
-ee961af2e37da43c	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期外	72166	人	honpen p.14	✓	kken78	2026-10-09	
-3d1a0bd8ef628dfb	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期	206233	人	honpen p.14	✓	kken78	2026-10-09	
-e2533fcd4c739bae	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期外	48877	人	honpen p.14	✓	kken78	2026-10-09	
-10fa4f0c0c91b1ea	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期	239492	人	honpen p.14	✓	kken78	2026-10-09	
-3a02d9d2890eb14f	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期外	52432	人	honpen p.14	✓	kken78	2026-10-09	
-e7aff78751d5bfeb	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期	251484	人	honpen p.14	✓	kken78	2026-10-09	
-facee8768ee8f74a	genjo	6	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期外	61464	人	honpen p.14	✓	kken78	2026-10-09	
-1500aed87a6b0da9	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H28	156527	人	honpen p.14	✓	kken78	2026-10-09	
-42ced14ef2600333	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H29	162547	人	honpen p.14	✓	kken78	2026-10-09	
-03613091f2209ae0	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H30	190986	人	honpen p.14	✓	kken78	2026-10-09	
-8931ceaad4afb11a	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R1	234851	人	honpen p.14	✓	kken78	2026-10-09	
-6f1e32a922e1c05c	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R2	199153	人	honpen p.14	✓	kken78	2026-10-09	
-ebfcff7f81179540	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R3	197462	人	honpen p.14	✓	kken78	2026-10-09	
-e2502bc290f2a066	genjo	9	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R4	207435	人	honpen p.14	✓	kken78	2026-10-09	
-b36e374813fb2ee8	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期	49680	人	honpen p.15	✓	kken78	2026-10-09	
-9e168fb9bae3fd1f	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期外	5394	人	honpen p.15	✓	kken78	2026-10-09	
-66fa985e12850ca7	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/福祉乗車証（推計）	38271	人	honpen p.15	✓	kken78	2026-10-09	
-96c7e23f49bd03de	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期	49676	人	honpen p.15	✓	kken78	2026-10-09	
-ec53a03eca802f77	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期外	5393	人	honpen p.15	✓	kken78	2026-10-09	
-e1460b7cbf58717f	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/福祉乗車証（推計）	38585	人	honpen p.15	✓	kken78	2026-10-09	
-26ad24480672ce16	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期	49680	人	honpen p.15	✓	kken78	2026-10-09	
-73ecfb7707e3d1d0	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期外	5392	人	honpen p.15	✓	kken78	2026-10-09	
-a0168aa8bc9c7325	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/福祉乗車証（推計）	56862	人	honpen p.15	✓	kken78	2026-10-09	
-7209c1a6a9dc68c7	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期	45299	人	honpen p.15	✓	kken78	2026-10-09	
-4946e9244fce8519	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期外	5744	人	honpen p.15	✓	kken78	2026-10-09	
-eeb41f2f2be63c36	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/福祉乗車証（推計）	41250	人	honpen p.15	✓	kken78	2026-10-09	
-c96b5c66b514b1c9	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期	45227	人	honpen p.15	✓	kken78	2026-10-09	
-b1557dcf572aa6a0	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期外	6262	人	honpen p.15	✓	kken78	2026-10-09	
-714a9f965a900807	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/福祉乗車証（推計）	29253	人	honpen p.15	✓	kken78	2026-10-09	
-e80824018f96f0fa	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期	45226	人	honpen p.15	✓	kken78	2026-10-09	
-85cd01cb2b24aff6	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期外	3858	人	honpen p.15	✓	kken78	2026-10-09	
-82c0b9148f7c51e5	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/福祉乗車証（推計）	22900	人	honpen p.15	✓	kken78	2026-10-09	
-f25d939642a21a10	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期	43702	人	honpen p.15	✓	kken78	2026-10-09	
-89bd7247902a3afc	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期外	4469	人	honpen p.15	✓	kken78	2026-10-09	
-d276a3b14f9a4d3c	genjo	12	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/福祉乗車証（推計）	30920	人	honpen p.15	✓	kken78	2026-10-09	
-7fc1a0e2980dab37	genjo	14	table	日野町営バス	桜川線/平日：一般	14		honpen p.15	✓	kken78	2026-10-09	
-f7dc01fee3fdd038	genjo	14	table	日野町営バス	桜川線/平日：小学生	76		honpen p.15	✓	kken78	2026-10-09	
-99b44b9cbe280f3d	genjo	14	table	日野町営バス	桜川線/平日：計	90		honpen p.15	✓	kken78	2026-10-09	
-9678dfaf47f18b57	genjo	14	table	日野町営バス	桜川線/土曜日：一般	7		honpen p.15	✓	kken78	2026-10-09	
-847e1f8ba5dcab41	genjo	14	table	日野町営バス	平子・西明寺線/平日：一般	36		honpen p.15	✓	kken78	2026-10-09	
-9676616016a45eac	genjo	14	table	日野町営バス	平子・西明寺線/平日：小学生	7		honpen p.15	✓	kken78	2026-10-09	
-6af6b3ec320a3774	genjo	14	table	日野町営バス	平子・西明寺線/平日：計	43		honpen p.15	✓	kken78	2026-10-09	
-aa99c349f61e73f7	genjo	14	table	日野町営バス	平子・西明寺線/土曜日：一般	8		honpen p.15	✓	kken78	2026-10-09	
-2d7c84c78cedbe66	genjo	14	table	日野町営バス	鎌掛線/平日：一般	64		honpen p.15	✓	kken78	2026-10-09	
-441e081ef1d8f2e9	genjo	14	table	日野町営バス	鎌掛線/平日：小学生	7		honpen p.15	✓	kken78	2026-10-09	
-50c6ac5c7518262b	genjo	14	table	日野町営バス	鎌掛線/平日：計	71		honpen p.15	✓	kken78	2026-10-09	
-4ec617649a37111e	genjo	14	table	日野町営バス	鎌掛線/土曜日：一般	14		honpen p.15	✓	kken78	2026-10-09	
-c32820f7898182ce	genjo	14	table	日野町営バス	湖南サンライズ線/平日：一般	9		honpen p.15	✓	kken78	2026-10-09	
-822d50349558a046	genjo	14	table	日野町営バス	湖南サンライズ線/平日：計	9		honpen p.15	✓	kken78	2026-10-09	
-062d65464d380892	genjo	14	table	日野町営バス	湖南サンライズ線/土曜日：一般	7		honpen p.15	✓	kken78	2026-10-09	
-246f435d9229043e	genjo	14	table	日野町営バス	南比線/平日：一般	4		honpen p.15	✓	kken78	2026-10-09	
-375ab1cab422bf45	genjo	14	table	日野町営バス	南比線/平日：計	4		honpen p.15	✓	kken78	2026-10-09	
-d3c02fc429d2e8bf	genjo	14	table	日野町営バス	中山線/平日：一般	1		honpen p.15	✓	kken78	2026-10-09	
-5a9f89aff6a5d8fd	genjo	14	table	日野町営バス	中山線/平日：計	1		honpen p.15	✓	kken78	2026-10-09	
-0033fee582fab885	genjo	17	table	タクシー	平成27年度/輸送人員（千人）	664		honpen p.16	✓	kken78	2026-10-09	
-a78892c69fbcc8d1	genjo	17	table	タクシー	平成27年度/営業収入（百万円）	815		honpen p.16	✓	kken78	2026-10-09	
-23b7e3d917da98a7	genjo	17	table	タクシー	平成28年度/輸送人員（千人）	657		honpen p.16	✓	kken78	2026-10-09	
-fed977a61645d6c7	genjo	17	table	タクシー	平成28年度/営業収入（百万円）	794		honpen p.16	✓	kken78	2026-10-09	
-696b83ff9afb9d20	genjo	17	table	タクシー	平成29年度/輸送人員（千人）	659		honpen p.16	✓	kken78	2026-10-09	
-f2f8e1d5e2730479	genjo	17	table	タクシー	平成29年度/営業収入（百万円）	800		honpen p.16	✓	kken78	2026-10-09	
-5fb53507502463fb	genjo	17	table	タクシー	平成30年度/輸送人員（千人）	630		honpen p.16	✓	kken78	2026-10-09	
-84d4ad8815d927af	genjo	17	table	タクシー	平成30年度/営業収入（百万円）	777		honpen p.16	✓	kken78	2026-10-09	
-2d89f7da1b47ff3a	genjo	17	table	タクシー	令和元年度/輸送人員（千人）	545		honpen p.16	✓	kken78	2026-10-09	
-e66b9e90856164a5	genjo	17	table	タクシー	令和元年度/営業収入（百万円）	688		honpen p.16	✓	kken78	2026-10-09	
-08c2ddcd4dd7b87b	genjo	17	table	タクシー	令和2年度/輸送人員（千人）	300		honpen p.16	✓	kken78	2026-10-09	
-899ccd229b977101	genjo	17	table	タクシー	令和2年度/営業収入（百万円）	380		honpen p.16	✓	kken78	2026-10-09	
-200bfe6333ab5944	genjo	17	table	タクシー	令和3年度/輸送人員（千人）	324		honpen p.16	✓	kken78	2026-10-09	
-0a603482250da062	genjo	17	table	タクシー	令和3年度/営業収入（百万円）	427		honpen p.16	✓	kken78	2026-10-09	
-6bf9a99f840baf3d	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	3月/利用件数	304		honpen p.17	✓	kken78	2026-10-09	
-81477046b3cf062d	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	3月/1日当たり利用件数	13.8		honpen p.17	✓	kken78	2026-10-09	
-5b138669a3f59fe8	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	4月/利用件数	417		honpen p.17	✓	kken78	2026-10-09	
-21b5f4bc3111e36f	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	4月/1日当たり利用件数	20.8		honpen p.17	✓	kken78	2026-10-09	
-9d97bf827cfa0e6b	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	5月/利用件数	433		honpen p.17	✓	kken78	2026-10-09	
-1ad84bcadd4acce1	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	5月/1日当たり利用件数	21.6		honpen p.17	✓	kken78	2026-10-09	
-3e4cc585dafeca75	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	6月/利用件数	457		honpen p.17	✓	kken78	2026-10-09	
-2612b13d7d40cf9b	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	6月/1日当たり利用件数	20.7		honpen p.17	✓	kken78	2026-10-09	
-667f15f89a77a2ed	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	7月/利用件数	476		honpen p.17	✓	kken78	2026-10-09	
-7d3df04413c2d3e9	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	7月/1日当たり利用件数	23.8		honpen p.17	✓	kken78	2026-10-09	
-3025041445a81a37	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	8月/利用件数	454		honpen p.17	✓	kken78	2026-10-09	
-353028b94fddf4a3	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	8月/1日当たり利用件数	20.6		honpen p.17	✓	kken78	2026-10-09	
-352a9efcbaa70ae4	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	9月/利用件数	563		honpen p.17	✓	kken78	2026-10-09	
-68a68c6b3c729539	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	9月/1日当たり利用件数	28.2		honpen p.17	✓	kken78	2026-10-09	
-53f57e30ce7b8471	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	10月/利用件数	467		honpen p.17	✓	kken78	2026-10-09	
-8e28149d1b53659e	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	10月/1日当たり利用件数	22.2		honpen p.17	✓	kken78	2026-10-09	
-19d9ace619d5b4ae	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	11月/利用件数	442		honpen p.17	✓	kken78	2026-10-09	
-a6edb13b113ba58d	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	11月/1日当たり利用件数	21.6		honpen p.17	✓	kken78	2026-10-09	
-f5fd2e38abee162d	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	12月/利用件数	445		honpen p.17	✓	kken78	2026-10-09	
-42cb91bbdd574cb8	genjo	20	table	デマンドタクシーとＡＩオンデマンド交通	12月/1日当たり利用件数	21.6		honpen p.17	✓	kken78	2026-10-09	
-27b510423232326f	genjo	24	table	公的資金の投入状況	平成24年度/支出額（千円）	54097		honpen p.18	✓	kken78	2026-10-09	
-67c336004129a53c	genjo	24	table	公的資金の投入状況	平成24年度/うち日野町営バス（千円）	44052		honpen p.18	✓	kken78	2026-10-09	
-7b228637ca23bae6	genjo	24	table	公的資金の投入状況	平成25年度/支出額（千円）	53733		honpen p.18	✓	kken78	2026-10-09	
-52e0530311243389	genjo	24	table	公的資金の投入状況	平成25年度/うち日野町営バス（千円）	45730		honpen p.18	✓	kken78	2026-10-09	
-57a30dcd73d8a362	genjo	24	table	公的資金の投入状況	平成26年度/支出額（千円）	59979		honpen p.18	✓	kken78	2026-10-09	
-a8a5736373297e62	genjo	24	table	公的資金の投入状況	平成26年度/うち日野町営バス（千円）	50146		honpen p.18	✓	kken78	2026-10-09	
-2ce04f7d7935b161	genjo	24	table	公的資金の投入状況	平成27年度/支出額（千円）	56821		honpen p.18	✓	kken78	2026-10-09	
-d6ff46728c83e678	genjo	24	table	公的資金の投入状況	平成27年度/うち日野町営バス（千円）	49375		honpen p.18	✓	kken78	2026-10-09	
-a0bd77d8361f16e4	genjo	24	table	公的資金の投入状況	平成28年度/支出額（千円）	58128		honpen p.18	✓	kken78	2026-10-09	
-db636fa1b2902d1d	genjo	24	table	公的資金の投入状況	平成28年度/うち日野町営バス（千円）	49442		honpen p.18	✓	kken78	2026-10-09	
-253031e8ac251d84	genjo	24	table	公的資金の投入状況	平成29年度/支出額（千円）	61382		honpen p.18	✓	kken78	2026-10-09	
-dbd3bc2eb5ef2131	genjo	24	table	公的資金の投入状況	平成29年度/うち日野町営バス（千円）	51167		honpen p.18	✓	kken78	2026-10-09	
-c0e2c83c7c60c6f6	genjo	24	table	公的資金の投入状況	平成30年度/支出額（千円）	65929		honpen p.18	✓	kken78	2026-10-09	
-52336fedad568af2	genjo	24	table	公的資金の投入状況	平成30年度/うち日野町営バス（千円）	53384		honpen p.18	✓	kken78	2026-10-09	
-bb337f8eb753068a	genjo	24	table	公的資金の投入状況	令和元年度/支出額（千円）	77537		honpen p.18	✓	kken78	2026-10-09	
-8ffc15696db63be7	genjo	24	table	公的資金の投入状況	令和元年度/うち日野町営バス（千円）	56434		honpen p.18	✓	kken78	2026-10-09	
-814124ef79827054	genjo	24	table	公的資金の投入状況	令和2年度/支出額（千円）	90492		honpen p.18	✓	kken78	2026-10-09	
-c41e0b06a6e4a9ba	genjo	24	table	公的資金の投入状況	令和2年度/うち日野町営バス（千円）	60226		honpen p.18	✓	kken78	2026-10-09	
-d504039d171865f0	genjo	24	table	公的資金の投入状況	令和3年度/支出額（千円）	84521		honpen p.18	✓	kken78	2026-10-09	
-4d0463d6ad19d4b0	genjo	24	table	公的資金の投入状況	令和3年度/うち日野町営バス（千円）	57004		honpen p.18	✓	kken78	2026-10-09	
-79050d055338196a	genjo	24	table	公的資金の投入状況	令和4年度/支出額（千円）	110057		honpen p.18	✓	kken78	2026-10-09	
-1feea904a920b6c0	genjo	24	table	公的資金の投入状況	令和4年度/うち日野町営バス（千円）	57216		honpen p.18	✓	kken78	2026-10-09	
+12899f2a1e44eeeb	genjo	4	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	koutsu_map.jpg		honpen p.13	✓	kken78	2026-10-09	
+7fdb9d4a514f14de	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期	271440	人	honpen p.14	✓	kken78	2026-10-09	
+b811f58496df4781	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期外	76311	人	honpen p.14	✓	kken78	2026-10-09	
+ed8caf674a8d04e7	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期	272160	人	honpen p.14	✓	kken78	2026-10-09	
+4fbd04a2ddfe82d5	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期外	69251	人	honpen p.14	✓	kken78	2026-10-09	
+84d6dc0f6040a3ef	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期	267420	人	honpen p.14	✓	kken78	2026-10-09	
+5e1fb3cec2be7a32	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H28/定期外	67812	人	honpen p.14	✓	kken78	2026-10-09	
+7c572d375e3bca54	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期	280200	人	honpen p.14	✓	kken78	2026-10-09	
+35d7c4340d5c90bf	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H29/定期外	68916	人	honpen p.14	✓	kken78	2026-10-09	
+cc887c85780658c0	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期	271654	人	honpen p.14	✓	kken78	2026-10-09	
+c9d430a504572d64	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H30/定期外	73061	人	honpen p.14	✓	kken78	2026-10-09	
+323a0691521dab3f	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期	263169	人	honpen p.14	✓	kken78	2026-10-09	
+ee961af2e37da43c	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R1/定期外	72166	人	honpen p.14	✓	kken78	2026-10-09	
+3d1a0bd8ef628dfb	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期	206233	人	honpen p.14	✓	kken78	2026-10-09	
+e2533fcd4c739bae	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R2/定期外	48877	人	honpen p.14	✓	kken78	2026-10-09	
+10fa4f0c0c91b1ea	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期	239492	人	honpen p.14	✓	kken78	2026-10-09	
+3a02d9d2890eb14f	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R3/定期外	52432	人	honpen p.14	✓	kken78	2026-10-09	
+e7aff78751d5bfeb	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期	251484	人	honpen p.14	✓	kken78	2026-10-09	
+facee8768ee8f74a	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	R4/定期外	61464	人	honpen p.14	✓	kken78	2026-10-09	
+1500aed87a6b0da9	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H28	156527	人	honpen p.14	✓	kken78	2026-10-09	
+42ced14ef2600333	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H29	162547	人	honpen p.14	✓	kken78	2026-10-09	
+03613091f2209ae0	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	H30	190986	人	honpen p.14	✓	kken78	2026-10-09	
+8931ceaad4afb11a	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R1	234851	人	honpen p.14	✓	kken78	2026-10-09	
+6f1e32a922e1c05c	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R2	199153	人	honpen p.14	✓	kken78	2026-10-09	
+ebfcff7f81179540	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R3	197462	人	honpen p.14	✓	kken78	2026-10-09	
+e2502bc290f2a066	genjo	10	chart.bars	近江鉄道バス日八線乗客数の推移（年度）	R4	207435	人	honpen p.14	✓	kken78	2026-10-09	
+b36e374813fb2ee8	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期	49680	人	honpen p.15	✓	kken78	2026-10-09	
+9e168fb9bae3fd1f	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/定期外	5394	人	honpen p.15	✓	kken78	2026-10-09	
+66fa985e12850ca7	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H28/福祉乗車証（推計）	38271	人	honpen p.15	✓	kken78	2026-10-09	
+96c7e23f49bd03de	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期	49676	人	honpen p.15	✓	kken78	2026-10-09	
+ec53a03eca802f77	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/定期外	5393	人	honpen p.15	✓	kken78	2026-10-09	
+e1460b7cbf58717f	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H29/福祉乗車証（推計）	38585	人	honpen p.15	✓	kken78	2026-10-09	
+26ad24480672ce16	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期	49680	人	honpen p.15	✓	kken78	2026-10-09	
+73ecfb7707e3d1d0	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/定期外	5392	人	honpen p.15	✓	kken78	2026-10-09	
+a0168aa8bc9c7325	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	H30/福祉乗車証（推計）	56862	人	honpen p.15	✓	kken78	2026-10-09	
+7209c1a6a9dc68c7	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期	45299	人	honpen p.15	✓	kken78	2026-10-09	
+4946e9244fce8519	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/定期外	5744	人	honpen p.15	✓	kken78	2026-10-09	
+eeb41f2f2be63c36	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R1/福祉乗車証（推計）	41250	人	honpen p.15	✓	kken78	2026-10-09	
+c96b5c66b514b1c9	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期	45227	人	honpen p.15	✓	kken78	2026-10-09	
+b1557dcf572aa6a0	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/定期外	6262	人	honpen p.15	✓	kken78	2026-10-09	
+714a9f965a900807	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R2/福祉乗車証（推計）	29253	人	honpen p.15	✓	kken78	2026-10-09	
+e80824018f96f0fa	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期	45226	人	honpen p.15	✓	kken78	2026-10-09	
+85cd01cb2b24aff6	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/定期外	3858	人	honpen p.15	✓	kken78	2026-10-09	
+82c0b9148f7c51e5	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R3/福祉乗車証（推計）	22900	人	honpen p.15	✓	kken78	2026-10-09	
+f25d939642a21a10	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期	43702	人	honpen p.15	✓	kken78	2026-10-09	
+89bd7247902a3afc	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/定期外	4469	人	honpen p.15	✓	kken78	2026-10-09	
+d276a3b14f9a4d3c	genjo	13	chart.stacked	日野町営バス年間利用者数の推移（年度）	R4/福祉乗車証（推計）	30920	人	honpen p.15	✓	kken78	2026-10-09	
+7fc1a0e2980dab37	genjo	15	table	日野町営バス	桜川線/平日：一般	14		honpen p.15	✓	kken78	2026-10-09	
+f7dc01fee3fdd038	genjo	15	table	日野町営バス	桜川線/平日：小学生	76		honpen p.15	✓	kken78	2026-10-09	
+99b44b9cbe280f3d	genjo	15	table	日野町営バス	桜川線/平日：計	90		honpen p.15	✓	kken78	2026-10-09	
+9678dfaf47f18b57	genjo	15	table	日野町営バス	桜川線/土曜日：一般	7		honpen p.15	✓	kken78	2026-10-09	
+847e1f8ba5dcab41	genjo	15	table	日野町営バス	平子・西明寺線/平日：一般	36		honpen p.15	✓	kken78	2026-10-09	
+9676616016a45eac	genjo	15	table	日野町営バス	平子・西明寺線/平日：小学生	7		honpen p.15	✓	kken78	2026-10-09	
+6af6b3ec320a3774	genjo	15	table	日野町営バス	平子・西明寺線/平日：計	43		honpen p.15	✓	kken78	2026-10-09	
+aa99c349f61e73f7	genjo	15	table	日野町営バス	平子・西明寺線/土曜日：一般	8		honpen p.15	✓	kken78	2026-10-09	
+2d7c84c78cedbe66	genjo	15	table	日野町営バス	鎌掛線/平日：一般	64		honpen p.15	✓	kken78	2026-10-09	
+441e081ef1d8f2e9	genjo	15	table	日野町営バス	鎌掛線/平日：小学生	7		honpen p.15	✓	kken78	2026-10-09	
+50c6ac5c7518262b	genjo	15	table	日野町営バス	鎌掛線/平日：計	71		honpen p.15	✓	kken78	2026-10-09	
+4ec617649a37111e	genjo	15	table	日野町営バス	鎌掛線/土曜日：一般	14		honpen p.15	✓	kken78	2026-10-09	
+c32820f7898182ce	genjo	15	table	日野町営バス	湖南サンライズ線/平日：一般	9		honpen p.15	✓	kken78	2026-10-09	
+822d50349558a046	genjo	15	table	日野町営バス	湖南サンライズ線/平日：計	9		honpen p.15	✓	kken78	2026-10-09	
+062d65464d380892	genjo	15	table	日野町営バス	湖南サンライズ線/土曜日：一般	7		honpen p.15	✓	kken78	2026-10-09	
+246f435d9229043e	genjo	15	table	日野町営バス	南比線/平日：一般	4		honpen p.15	✓	kken78	2026-10-09	
+375ab1cab422bf45	genjo	15	table	日野町営バス	南比線/平日：計	4		honpen p.15	✓	kken78	2026-10-09	
+d3c02fc429d2e8bf	genjo	15	table	日野町営バス	中山線/平日：一般	1		honpen p.15	✓	kken78	2026-10-09	
+5a9f89aff6a5d8fd	genjo	15	table	日野町営バス	中山線/平日：計	1		honpen p.15	✓	kken78	2026-10-09	
+0033fee582fab885	genjo	18	table	タクシー	平成27年度/輸送人員（千人）	664		honpen p.16	✓	kken78	2026-10-09	
+a78892c69fbcc8d1	genjo	18	table	タクシー	平成27年度/営業収入（百万円）	815		honpen p.16	✓	kken78	2026-10-09	
+23b7e3d917da98a7	genjo	18	table	タクシー	平成28年度/輸送人員（千人）	657		honpen p.16	✓	kken78	2026-10-09	
+fed977a61645d6c7	genjo	18	table	タクシー	平成28年度/営業収入（百万円）	794		honpen p.16	✓	kken78	2026-10-09	
+696b83ff9afb9d20	genjo	18	table	タクシー	平成29年度/輸送人員（千人）	659		honpen p.16	✓	kken78	2026-10-09	
+f2f8e1d5e2730479	genjo	18	table	タクシー	平成29年度/営業収入（百万円）	800		honpen p.16	✓	kken78	2026-10-09	
+5fb53507502463fb	genjo	18	table	タクシー	平成30年度/輸送人員（千人）	630		honpen p.16	✓	kken78	2026-10-09	
+84d4ad8815d927af	genjo	18	table	タクシー	平成30年度/営業収入（百万円）	777		honpen p.16	✓	kken78	2026-10-09	
+2d89f7da1b47ff3a	genjo	18	table	タクシー	令和元年度/輸送人員（千人）	545		honpen p.16	✓	kken78	2026-10-09	
+e66b9e90856164a5	genjo	18	table	タクシー	令和元年度/営業収入（百万円）	688		honpen p.16	✓	kken78	2026-10-09	
+08c2ddcd4dd7b87b	genjo	18	table	タクシー	令和2年度/輸送人員（千人）	300		honpen p.16	✓	kken78	2026-10-09	
+899ccd229b977101	genjo	18	table	タクシー	令和2年度/営業収入（百万円）	380		honpen p.16	✓	kken78	2026-10-09	
+200bfe6333ab5944	genjo	18	table	タクシー	令和3年度/輸送人員（千人）	324		honpen p.16	✓	kken78	2026-10-09	
+0a603482250da062	genjo	18	table	タクシー	令和3年度/営業収入（百万円）	427		honpen p.16	✓	kken78	2026-10-09	
+6bf9a99f840baf3d	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	3月/利用件数	304		honpen p.17	✓	kken78	2026-10-09	
+81477046b3cf062d	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	3月/1日当たり利用件数	13.8		honpen p.17	✓	kken78	2026-10-09	
+5b138669a3f59fe8	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	4月/利用件数	417		honpen p.17	✓	kken78	2026-10-09	
+21b5f4bc3111e36f	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	4月/1日当たり利用件数	20.8		honpen p.17	✓	kken78	2026-10-09	
+9d97bf827cfa0e6b	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	5月/利用件数	433		honpen p.17	✓	kken78	2026-10-09	
+1ad84bcadd4acce1	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	5月/1日当たり利用件数	21.6		honpen p.17	✓	kken78	2026-10-09	
+3e4cc585dafeca75	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	6月/利用件数	457		honpen p.17	✓	kken78	2026-10-09	
+2612b13d7d40cf9b	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	6月/1日当たり利用件数	20.7		honpen p.17	✓	kken78	2026-10-09	
+667f15f89a77a2ed	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	7月/利用件数	476		honpen p.17	✓	kken78	2026-10-09	
+7d3df04413c2d3e9	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	7月/1日当たり利用件数	23.8		honpen p.17	✓	kken78	2026-10-09	
+3025041445a81a37	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	8月/利用件数	454		honpen p.17	✓	kken78	2026-10-09	
+353028b94fddf4a3	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	8月/1日当たり利用件数	20.6		honpen p.17	✓	kken78	2026-10-09	
+352a9efcbaa70ae4	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	9月/利用件数	563		honpen p.17	✓	kken78	2026-10-09	
+68a68c6b3c729539	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	9月/1日当たり利用件数	28.2		honpen p.17	✓	kken78	2026-10-09	
+53f57e30ce7b8471	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	10月/利用件数	467		honpen p.17	✓	kken78	2026-10-09	
+8e28149d1b53659e	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	10月/1日当たり利用件数	22.2		honpen p.17	✓	kken78	2026-10-09	
+19d9ace619d5b4ae	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	11月/利用件数	442		honpen p.17	✓	kken78	2026-10-09	
+a6edb13b113ba58d	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	11月/1日当たり利用件数	21.6		honpen p.17	✓	kken78	2026-10-09	
+f5fd2e38abee162d	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	12月/利用件数	445		honpen p.17	✓	kken78	2026-10-09	
+42cb91bbdd574cb8	genjo	21	table	デマンドタクシーとＡＩオンデマンド交通	12月/1日当たり利用件数	21.6		honpen p.17	✓	kken78	2026-10-09	
+27b510423232326f	genjo	25	table	公的資金の投入状況	平成24年度/支出額（千円）	54097		honpen p.18	✓	kken78	2026-10-09	
+67c336004129a53c	genjo	25	table	公的資金の投入状況	平成24年度/うち日野町営バス（千円）	44052		honpen p.18	✓	kken78	2026-10-09	
+7b228637ca23bae6	genjo	25	table	公的資金の投入状況	平成25年度/支出額（千円）	53733		honpen p.18	✓	kken78	2026-10-09	
+52e0530311243389	genjo	25	table	公的資金の投入状況	平成25年度/うち日野町営バス（千円）	45730		honpen p.18	✓	kken78	2026-10-09	
+57a30dcd73d8a362	genjo	25	table	公的資金の投入状況	平成26年度/支出額（千円）	59979		honpen p.18	✓	kken78	2026-10-09	
+a8a5736373297e62	genjo	25	table	公的資金の投入状況	平成26年度/うち日野町営バス（千円）	50146		honpen p.18	✓	kken78	2026-10-09	
+2ce04f7d7935b161	genjo	25	table	公的資金の投入状況	平成27年度/支出額（千円）	56821		honpen p.18	✓	kken78	2026-10-09	
+d6ff46728c83e678	genjo	25	table	公的資金の投入状況	平成27年度/うち日野町営バス（千円）	49375		honpen p.18	✓	kken78	2026-10-09	
+a0bd77d8361f16e4	genjo	25	table	公的資金の投入状況	平成28年度/支出額（千円）	58128		honpen p.18	✓	kken78	2026-10-09	
+db636fa1b2902d1d	genjo	25	table	公的資金の投入状況	平成28年度/うち日野町営バス（千円）	49442		honpen p.18	✓	kken78	2026-10-09	
+253031e8ac251d84	genjo	25	table	公的資金の投入状況	平成29年度/支出額（千円）	61382		honpen p.18	✓	kken78	2026-10-09	
+dbd3bc2eb5ef2131	genjo	25	table	公的資金の投入状況	平成29年度/うち日野町営バス（千円）	51167		honpen p.18	✓	kken78	2026-10-09	
+c0e2c83c7c60c6f6	genjo	25	table	公的資金の投入状況	平成30年度/支出額（千円）	65929		honpen p.18	✓	kken78	2026-10-09	
+52336fedad568af2	genjo	25	table	公的資金の投入状況	平成30年度/うち日野町営バス（千円）	53384		honpen p.18	✓	kken78	2026-10-09	
+bb337f8eb753068a	genjo	25	table	公的資金の投入状況	令和元年度/支出額（千円）	77537		honpen p.18	✓	kken78	2026-10-09	
+8ffc15696db63be7	genjo	25	table	公的資金の投入状況	令和元年度/うち日野町営バス（千円）	56434		honpen p.18	✓	kken78	2026-10-09	
+814124ef79827054	genjo	25	table	公的資金の投入状況	令和2年度/支出額（千円）	90492		honpen p.18	✓	kken78	2026-10-09	
+c41e0b06a6e4a9ba	genjo	25	table	公的資金の投入状況	令和2年度/うち日野町営バス（千円）	60226		honpen p.18	✓	kken78	2026-10-09	
+d504039d171865f0	genjo	25	table	公的資金の投入状況	令和3年度/支出額（千円）	84521		honpen p.18	✓	kken78	2026-10-09	
+4d0463d6ad19d4b0	genjo	25	table	公的資金の投入状況	令和3年度/うち日野町営バス（千円）	57004		honpen p.18	✓	kken78	2026-10-09	
+79050d055338196a	genjo	25	table	公的資金の投入状況	令和4年度/支出額（千円）	110057		honpen p.18	✓	kken78	2026-10-09	
+1feea904a920b6c0	genjo	25	table	公的資金の投入状況	令和4年度/うち日野町営バス（千円）	57216		honpen p.18	✓	kken78	2026-10-09	
 d34e651275f99bfe	shisaku	3	programs	地域公共交通の活性化施策	事業数	19	件	honpen p.34-41	✓	kken78	2026-10-09	
 8d4d1a071ab9466f	mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道線日野駅利用者数/現状値	312948		honpen p.42	✓	kken78	2026-10-09	
 a1b2ff9ada3131fb	mokuhyo	3	table	計画の評価指標と目標値	①近江鉄道線日野駅利用者数/目標値（令和10年度）	328000		honpen p.42	✓	kken78	2026-10-09	

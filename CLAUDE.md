@@ -80,6 +80,7 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 #        規則 H1〜H4(ADR-7 補遺 L)で選んだ行と、段3の指摘を人が原典と見比べる
 #        python3 tools/audit_worksheet.py <id> --focus   # 要人確認の行だけのワークシート → --import
 #        python3 tools/audit_autocheck.py <id> --status  # 完了の判定
+#        python3 tools/audit_index.py                    # 全計画の要人確認のワークシートと目次 build/audit/index.html を作る
 ```
 
 3〜5 はどれか一つでも失敗したら先に進まない。修正して再実行する。

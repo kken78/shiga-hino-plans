@@ -454,7 +454,7 @@ fe9f82822023d435	koso	9	chart.line	日野町の将来展望人口	社人研準�
 3b0cdc20d58e7b19	koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R32	14630	人	honpen-08 p.3	✓	auto:ai	2026-10-10	
 532bba3527775c09	koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R37	13535	人	honpen-08 p.3	✓	auto:ai	2026-10-10	
 50b23777e1fb0611	koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R42	12459	人	honpen-08 p.3	✓	auto:ai	2026-10-10	
-3b3f25c566af587c	koso	16	figure	将来の都市構造	将来都市構造図	toshimaster_kozo.jpg		honpen-08 p.7				要人確認:H2 数値でない
+3b3f25c566af587c	koso	17	figure	将来の都市構造	将来都市構造図	toshimaster_kozo.jpg		honpen-08 p.7				要人確認:H2 数値でない
 94cfab76beaafd0c	hoshin	2	programs	分野別方針	事業数	16	件	honpen-09 p.1-5				要人確認:H2 出典が4ページ以上(集計した値)
 d1c385c999c195e6	hoshin	3	programs	分野別方針	事業数	5	件	honpen-09 p.7-9				要人確認:H1 A=一致/中 B=一致/中
 71d15219788ae8d2	hoshin	4	programs	分野別方針	事業数	4	件	honpen-10 p.1-2				要人確認:H1 A=一致/中 B=一致/中

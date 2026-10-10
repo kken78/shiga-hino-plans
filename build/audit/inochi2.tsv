@@ -1,12 +1,12 @@
 tab	block_no	btype	block_label	label	value	unit	source
-summary	2	kpi		日野町の自殺者数（5年間の合計）	24	人	honpen p.6
-summary	2	kpi		日野町の自殺死亡率	22.40	人/10万人	honpen p.6
-summary	2	kpi		全国の自殺死亡率	16.40	人/10万人	honpen p.6
-summary	2	kpi		滋賀県の自殺死亡率	16.17	人/10万人	honpen p.6
-summary	3	target.base		自殺死亡率（目標は13.0以下）	22.4	人/10万人	honpen p.44
-summary	3	target.target		自殺死亡率（目標は13.0以下）	13.0	人/10万人	honpen p.44
-summary	3	target.base		自殺者数（目標は14人以下）	24	人	honpen p.44
-summary	3	target.target		自殺者数（目標は14人以下）	14	人	honpen p.44
+summary	3	kpi		日野町の自殺者数（5年間の合計）	24	人	honpen p.6
+summary	3	kpi		日野町の自殺死亡率	22.40	人/10万人	honpen p.6
+summary	3	kpi		全国の自殺死亡率	16.40	人/10万人	honpen p.6
+summary	3	kpi		滋賀県の自殺死亡率	16.17	人/10万人	honpen p.6
+summary	4	target.base		自殺死亡率（目標は13.0以下）	22.4	人/10万人	honpen p.44
+summary	4	target.target		自殺死亡率（目標は13.0以下）	13.0	人/10万人	honpen p.44
+summary	4	target.base		自殺者数（目標は14人以下）	24	人	honpen p.44
+summary	4	target.target		自殺者数（目標は14人以下）	14	人	honpen p.44
 genjo	4	kpi	全国の自殺者数の推移	全国の自殺者数（最多の年）	34427	人	honpen p.3
 genjo	4	kpi	全国の自殺者数の推移	全国の自殺者数	21881	人	honpen p.3
 genjo	5	kpi	全国の自殺者数の推移	全国の小中高生の自殺者数（過去最多）	514	人	honpen p.4

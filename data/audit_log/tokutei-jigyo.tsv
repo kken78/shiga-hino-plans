@@ -70,8 +70,8 @@ eee1879ac74c2ffc	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R2	7
 ec9a86a49c36ad17	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R4	8.8	日	honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
 c825d5ba43e53da8	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R5	10.2	日	honpen p.2	✓	auto:ai	2026-10-10	
 be4ebdc62ed47214	hyoka	6	chart.bars	年次有給休暇の平均取得日数	R6	10.7	日	honpen p.2	✓	auto:ai	2026-10-10	
-8891b52217bcda20	hyoka	10	table	中部清掃組合の数値目標に係る進捗状況	男性職員の育児参加のための休暇取得率（%）/R2（基準）	0.0		sincyokur6 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-e0cb29f4aa6c93bf	hyoka	10	table	中部清掃組合の数値目標に係る進捗状況	妻の出産補助休暇取得率（%）/R2（基準）	0.0		sincyokur6 p.1	✓	auto:ai	2026-10-10	
+8891b52217bcda20	hyoka	11	table	中部清掃組合の数値目標に係る進捗状況	男性職員の育児参加のための休暇取得率（%）/R2（基準）	0.0		sincyokur6 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+e0cb29f4aa6c93bf	hyoka	11	table	中部清掃組合の数値目標に係る進捗状況	妻の出産補助休暇取得率（%）/R2（基準）	0.0		sincyokur6 p.1	✓	auto:ai	2026-10-10	
 62dcba3ca392ba1e	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/行政職・一般事務・社会福祉士・保健師等	3		honpen p.4	✓	auto:ai	2026-10-10	
 9cf587f27b8a7180	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/保育士・教諭	0		honpen p.4	✓	auto:ai	2026-10-10	
 a5d79bf14f6e1ab6	genjo	4	table	女性職員の採用割合（令和6年度）	男性（人）/労務職	0		honpen p.4	✓	auto:pdftext	2026-10-10	

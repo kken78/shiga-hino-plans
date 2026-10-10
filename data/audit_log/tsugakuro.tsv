@@ -1,0 +1,31 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+ace10e2d3a5e2c28	summary	1	kpi		要対策箇所（5つの小学校区の合計）	50	か所	honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+612377471815b57d	summary	1	kpi		対応年度が「完了」の箇所	43	か所	honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+bfa2bfc7604b7768	summary	1	kpi		「事業実施中」の箇所	2	か所	honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+e458ebfd302fb4c5	summary	1	kpi		「内容検討中」の箇所	1	か所	honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+358924db635f53ca	summary	1	kpi		「未」の箇所	3	か所	honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+f95c8531218ce382	kasho	4	table	対応状況のまとめ	日野小学校区/要対策箇所	10		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+a299d64e3b3d50bd	kasho	4	table	対応状況のまとめ	日野小学校区/完了	9		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+b55e955d348163fe	kasho	4	table	対応状況のまとめ	日野小学校区/完了以外	1		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+bbc450fdb6abbd1d	kasho	4	table	対応状況のまとめ	桜谷小学校区/要対策箇所	9		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+5d322212b15fa167	kasho	4	table	対応状況のまとめ	桜谷小学校区/完了	8		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+790e1af8abce0dcc	kasho	4	table	対応状況のまとめ	桜谷小学校区/完了以外	1		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+a298204fa8668b7b	kasho	4	table	対応状況のまとめ	西大路小学校区/要対策箇所	7		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+a2ab4277b96d998e	kasho	4	table	対応状況のまとめ	西大路小学校区/完了	6		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+89a3e647a7cc6c93	kasho	4	table	対応状況のまとめ	西大路小学校区/完了以外	1		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+1da2f2aa59b75104	kasho	4	table	対応状況のまとめ	南比都佐小学校区/要対策箇所	11		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+87ebcc01851d3018	kasho	4	table	対応状況のまとめ	南比都佐小学校区/完了	9		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+5320eb38be20d96d	kasho	4	table	対応状況のまとめ	南比都佐小学校区/完了以外	2		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+ee8892fe84daf8c5	kasho	4	table	対応状況のまとめ	必佐小学校区/要対策箇所	13		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+5c84378938db278c	kasho	4	table	対応状況のまとめ	必佐小学校区/完了	11		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+82558d2ac9cd6ffb	kasho	4	table	対応状況のまとめ	必佐小学校区/完了以外	2		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+72ecff352d416743	kasho	4	table	対応状況のまとめ	合計/要対策箇所	50		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+f3ba4611ec7a0424	kasho	4	table	対応状況のまとめ	合計/完了	43		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+a73db2bd10832fd8	kasho	4	table	対応状況のまとめ	合計/完了以外	7		honpen p.4-14				要人確認:H2 出典が4ページ以上(集計した値)
+97d740cd77317b5c	kasho	7	figure	日野小学校区	通学路・未就学児移動経路 対策箇所図【日野小学校区①】	tsugakuro_map_hino.jpg		honpen p.5				要人確認:H2 数値でない
+31cfa4cea66410d9	kasho	11	figure	桜谷小学校区	通学路・未就学児移動経路 対策箇所図【桜谷小学校区①】	tsugakuro_map_sakuradani1.jpg		honpen p.8				要人確認:H2 数値でない
+37d1733c0b5a1e13	kasho	12	figure	桜谷小学校区	通学路・未就学児移動経路 対策箇所図【桜谷小学校区②】	tsugakuro_map_sakuradani2.jpg		honpen p.9				要人確認:H2 数値でない
+c2f3a9624a5b2bdb	kasho	15	figure	西大路小学校区	通学路・未就学児移動経路 対策箇所図【西大路小学校区】	tsugakuro_map_nishioji.jpg		honpen p.11				要人確認:H2 数値でない
+20b71e6a55256c19	kasho	18	figure	南比都佐小学校区	通学路・未就学児移動経路 対策箇所図【南比都佐小学校区】	tsugakuro_map_minamihitosa.jpg		honpen p.13				要人確認:H2 数値でない
+f0344a62bee1bc06	kasho	21	figure	必佐小学校区	通学路・未就学児移動経路 対策箇所図【必佐小学校区】	tsugakuro_map_hissa.jpg		honpen p.15				要人確認:H2 数値でない

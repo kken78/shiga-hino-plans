@@ -145,11 +145,16 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
    python3 tools/audit_autocheck.py <id> --select
    python3 tools/audit_autocheck.py <id> --status      # 段4(人)が残るので「未完了」でよい
    ```
+4b. 統合の前の手直し: 段3で kind=ダッシュボード とされた誤りと、正しい表記が一つに決まる原典の誤字(ダッシュボードに
+   載っているもの)を直し、`data/source_issues/<id>.tsv` の status を「ダッシュボードで対応」、action に内容を書く。
+   再生成して値が変わった行は `python3 tools/audit_worksheet.py <id> --reconcile` で台帳を合わせ(同じキーの行は印を
+   引き継ぎ、変わった行は未検収になる)、その行だけ `--ai-items` から段2をやり直して `--ai-record`・`--select`。
+   数値・固有名詞・事実関係の誤りの疑いは直さず、プルリクエストの「判断を仰ぐ点」に書く。
 5. 統合: `batch-<番号>` に各 `plan-<id>` を `git merge --no-ff` で取り込み、`data/manifest.json` に
    `"dashboard": "plans/<id>.html"` を足して `python3 tools/build.py`・`node tools/validate.mjs docs/index.html`。
    プッシュしてプルリクエストを作り(本文に計画ごとの行数・段1/段2/要人確認の件数・段3の指摘件数・判断を仰ぐ点)、
    CI の結果を待つ。CI が通ればマージし、作業ツリーを片付けて次のバッチへ進む。
-   **バッチ1だけはマージせずに止め**、依頼者(とクラウドの Claude)の確認を待つ。
+   バッチ1は確認のため止めた(2026-10-10 に PR #30 でマージ済み)。バッチ2以降は、CI が通れば続けてマージしてよい。
 6. 進捗: `/home/kken78/GitHub/hino-wt/PROGRESS.md` に、バッチと計画ごとの状態(起票・段1・段2・段3・PR番号)を
    書き足す。取りまとめ役のセッションが途中で切れても、新しいセッションがこのファイルから再開できるようにする。
 
@@ -235,6 +240,7 @@ python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.wor
 #   ブラウザで原典と突合し「台帳形式でエクスポート」(印は下書き。台帳が正)
 python3 tools/audit_worksheet.py <id> --import <file> # 検証(行の一致・key・checked)して台帳を上書き
 python3 tools/audit_worksheet.py <id> --sync          # 文章ブロックを足してブロック番号だけずれたとき(検収の印はそのまま)
+python3 tools/audit_worksheet.py <id> --reconcile     # 値を直して照合キーが変わったとき(同じキーの行は印を引き継ぎ、変わった行は未検収)
 git commit
 ```
 

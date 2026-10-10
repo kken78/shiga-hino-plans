@@ -183,7 +183,7 @@ git commit
   ③連続同一 source の出典表示集約。
   ※ここでの「完成」は**実装が完成**の意味。**最終検収(人間による audit 突合=
   `build/audit/kodomo.tsv` を原典 `sources_raw/kodomo/honpen.pdf` と照合)は
-  次工程**で、まだ未実施。
+  次工程**で、2026-10-10 に完了(下の残タスク参照)。
 
 ### 残タスク
 
@@ -220,9 +220,9 @@ git commit
     3897746(ハブ側)。
   - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
     Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
-- [ ] **kodomo の検収(audit 突合)**(ADR-7 補遺 L) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
-  `build/audit/kodomo.tsv`(886行)。文章の点検(PR #15)と、段3の原典の点検(`data/source_issues/kodomo.tsv`)は済み。
-  残りは段1・段2の台帳への記録と、段4(人による確認)。
+- [x] **kodomo の検収(audit 突合)**(2026-10-10 検収済み・ADR-7 補遺 L) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
+  `build/audit/kodomo.tsv`(886行)。段1 330行・段2 540行を機械で照合(PR #19)、要人確認60行を人が確認(PR #20、
+  確認者 kken78)。段3の指摘32件はすべて判断済み(`data/source_issues/kodomo.tsv`)。`--status` で完了。
 - [x] **`tools/audit_autocheck.py` の実装**(2026-10) — 段1の照合、`--selftest`、段2の設問と取り込み、
   H2・H4 の選定、`--status`。ワークシートの `--focus`。kodomo で段1 330行・素通り1.0%(selftest)。
 - [ ] **koutsu・kokyo-kanri の段3の指摘への対応**(H3) — `data/source_issues/<id>.tsv` の各指摘の扱いを決める。

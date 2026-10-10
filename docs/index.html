@@ -105,7 +105,9 @@ section{padding:52px 0 8px}
 .tl-plot{position:relative;padding-top:24px}
 .tl-axis{position:relative;height:26px;margin-left:190px;border-bottom:2px solid var(--line)}
 .tl-tick{position:absolute;top:0;height:100%;border-left:1px solid var(--line)}
-.tl-tick span{position:absolute;top:0;left:4px;font-size:var(--fs-3xs);color:var(--muted);font-weight:600}
+.tl-tick span{position:absolute;top:0;left:4px;font-size:var(--fs-3xs);color:var(--muted);font-weight:600;white-space:nowrap;z-index:1;background:var(--card);padding-right:2px}
+.tl-tick.is-off span{display:none}
+.tl-tick.is-end span{left:auto;right:0}
 .tl-body{position:relative;z-index:1;padding-top:6px}
 .tl-row{display:grid;grid-template-columns:190px 1fr;align-items:center;min-height:40px}
 .tl-name{font-size:var(--fs-2xs);font-weight:600;padding-right:14px;line-height:1.35;color:var(--ai-ink)}
@@ -244,7 +246,6 @@ tr.total th,tr.total td{border-top:2px solid var(--ai-ink);font-weight:700;backg
   .tl-row{grid-template-columns:112px 1fr}
   .tl-name{font-size:var(--fs-3xs)}
   .tl-today{left:calc(112px + (100% - 112px) * var(--p,0))}
-  .tl-tick:nth-child(even) span{display:none}
   .learn-grid{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr}
 }
@@ -1499,6 +1500,7 @@ function renderTimeline(){
   for (let r = TL_FROM; r <= TL_TO; r++){
     const tick = el('div', 'tl-tick', '<span>R' + r + '</span>');
     tick.style.left = ((fyStart(r) - domainS) / span * 100) + '%';
+    tick.style.width = ((fyEndEx(r) - fyStart(r)) / span * 100) + '%';   // その年度の幅(右そろえの基準)
     axis.appendChild(tick);
   }
   const body = $('#tlBody');
@@ -1519,9 +1521,38 @@ function renderTimeline(){
   });
   const pct = Math.min(1, Math.max(0, (NOW - domainS) / span));
   $('#tlToday').style.setProperty('--p', pct);
+  fitTimelineAxis();
   fitTimelineLabels();
   let raf = 0;
-  window.addEventListener('resize', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(fitTimelineLabels); });
+  window.addEventListener('resize', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { fitTimelineAxis(); fitTimelineLabels(); }); });
+}
+/* 目盛りの間引き(ADR-8): 目盛りの文字の幅と年表の幅を測り、重ならない最小の間隔で間引く。
+   間引きは右端(最新の年)から数え、最新の年を必ず残す。最新の年が枠に収まらなければ右端に右そろえで置き、
+   ほかの目盛りで枠からはみ出るものは出さない */
+function fitTimelineAxis(){
+  const axis = $('#tlAxis'), ticks = [...axis.children], n = ticks.length, GAP = 6;
+  ticks.forEach(t => t.classList.remove('is-off', 'is-end'));
+  const A = axis.getBoundingClientRect(), W = A.width;
+  const box = ticks.map(t => { const q = t.firstChild.getBoundingClientRect(); return { x: q.left - A.left, dx: 0, w: q.width }; });
+  for (let step = 1; step <= n; step++){
+    const show = [];   // 右端から step おきに選び、左から右の順に並べる
+    for (let i = n - 1; i >= 0; i -= step){
+      const b = box[i];
+      let L = b.x + b.dx, end = false;
+      if (L + b.w > W){
+        if (i !== n - 1) continue;          // 最新の年以外で枠からはみ出るものは出さない
+        L = W - b.w; end = true;            // 最新の年は右端に右そろえ
+      }
+      show.unshift({ i, L, R: L + b.w, end });
+    }
+    const ok = show.every((s, k) => s.L >= 0 && (k === 0 || s.L >= show[k - 1].R + GAP));
+    if (ok || step === n){
+      const keep = new Set(show.map(s => s.i));
+      ticks.forEach((t, i) => t.classList.toggle('is-off', !keep.has(i)));
+      show.forEach(s => ticks[s.i].classList.toggle('is-end', s.end));
+      return;
+    }
+  }
 }
 /* 棒の中に期間の文字が入りきらない行は、棒の文字を隠し、計画名の下に期間を出す(ADR-8 判断の優先順位2) */
 function fitTimelineLabels(){

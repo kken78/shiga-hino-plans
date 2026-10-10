@@ -252,4 +252,10 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
 - [x] **kokyo-kanri の検収(audit 突合)**(2026-10-09 検収済み) — 原典PDF
   `sources_raw/kokyo-kanri/honpen.pdf` と `build/audit/kokyo-kanri.tsv`(146行)を突合し、
   `data/audit_log/kokyo-kanri.tsv` の全146行が checked(確認者 kken78)。
-- [ ] 他40計画の抽出 — 各原典PDFを配置してから定型フローで1本ずつ。
+- [ ] 残り36計画の抽出 — 原典は `sources_raw/<id>/` に取得済み(`data/sources_index.tsv`、2026-10)。定型フローで1本ずつ。
+  ダッシュボード済みは kodomo・koutsu・kokyo-kanri・kankyo・kyoiku4 の5計画。
+  - 本編がどれか決まっていない計画(kyoryo・shasi-jyutaku・shasi-jishin・shasi-koen)と、文字を取り出せないPDF
+    (台帳の note に「OCRが必要」。主に toshimaster・sogo6)は、その計画に着手するときに扱いを決める。
+    OCR した文字で段1を使えるかは、最初に `--selftest` で確かめる。
+  - **kanbatsu・chiiki-nogyo はダッシュボードを作らない**(2026-10-10、依頼者の判断)。掲載ページに計画の文書が
+    公開されていない(kanbatsu は「農林課窓口で閲覧」、chiiki-nogyo は変更の様式と農地一覧表だけ)。ハブのカードはそのまま残す。

@@ -1,0 +1,102 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	2	kpi		起きてはならない最悪の事態	39	事態	honpen p.10-11
+summary	2	kpi		推進する施策	49	施策	honpen p.10-11
+summary	2	kpi		重要業績指標（KPI）	12	指標	honpen p.10-11
+summary	3	target.base		住宅の耐震化率	68.7	%	honpen p.40
+summary	3	target.target		住宅の耐震化率	95	%	honpen p.40
+summary	3	target.base		上水道管路の耐震化率	6.4	%	honpen p.40
+summary	3	target.target		上水道管路の耐震化率	11.9	%	honpen p.40
+summary	3	target.base		橋梁長寿命化修繕計画に基づく対策実施数	42	か所	honpen p.40
+summary	3	target.target		橋梁長寿命化修繕計画に基づく対策実施数	47	か所	honpen p.40
+summary	3	target.base		生活や未来を支える強靱な社会インフラの整備・道路整備延長	2.5	km	honpen p.40
+summary	3	target.target		生活や未来を支える強靱な社会インフラの整備・道路整備延長	3.5	km	honpen p.40
+chiiki	4	kpi	想定される地震の被害	死者	31	人	honpen p.4
+chiiki	4	kpi	想定される地震の被害	負傷者	390	人	honpen p.4
+chiiki	4	kpi	想定される地震の被害	建物全壊	512	棟	honpen p.4
+chiiki	9	kpi	地形と地質	町の面積	117.60	㎢	honpen p.3
+chiiki	9	kpi	地形と地質	南北の長さ	12.3	km	honpen p.3
+chiiki	9	kpi	地形と地質	東西の長さ	14.5	km	honpen p.3
+chiiki	13	kpi	気象	最も暑い8月の平均気温	26.7	℃	honpen p.5
+chiiki	13	kpi	気象	最も寒い1月の平均気温	3.1	℃	honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	降水量/平年値	1440.5		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	降水量/資料年数	30		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	平均気温/平年値	14.5		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	平均気温/資料年数	30		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	日最高気温/平年値	19.8		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	日最高気温/資料年数	30		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	日最低気温/平年値	9.8		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	日最低気温/資料年数	30		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	平均風速/平年値	1.8		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	平均風速/資料年数	30		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	日照時間/平年値	1781.3		honpen p.5
+chiiki	14	table	東近江地域気象観測所における平年値	日照時間/資料年数	24		honpen p.5
+risk	6	kpi	目標1 直接死を最大限防ぐ	住宅の耐震化率	68.7	%	honpen p.21
+risk	6	kpi	目標1 直接死を最大限防ぐ	S55年以前の住宅の耐震化率	24.9	%	honpen p.21
+hoshin	4	programs	国土強靱化の推進方針	事業数	49	件	honpen p.11-19
+kpi	4	target.base	数値で示された目標	消防団員の団員数	185	人	honpen p.40-41
+kpi	4	target.target	数値で示された目標	消防団員の団員数	185	人	honpen p.40-41
+kpi	4	target.base	数値で示された目標	住宅の耐震化率	68.7	%	honpen p.40-41
+kpi	4	target.target	数値で示された目標	住宅の耐震化率	95	%	honpen p.40-41
+kpi	4	target.base	数値で示された目標	特定既存不適格建築物の耐震化率	89.8	%	honpen p.40-41
+kpi	4	target.target	数値で示された目標	特定既存不適格建築物の耐震化率	95	%	honpen p.40-41
+kpi	4	target.base	数値で示された目標	上水道管路の耐震化率	6.4	%	honpen p.40-41
+kpi	4	target.target	数値で示された目標	上水道管路の耐震化率	11.9	%	honpen p.40-41
+kpi	4	target.base	数値で示された目標	生活や未来を支える強靱な社会インフラの整備・道路整備延長	2.5	km	honpen p.40-41
+kpi	4	target.target	数値で示された目標	生活や未来を支える強靱な社会インフラの整備・道路整備延長	3.5	km	honpen p.40-41
+kpi	4	target.base	数値で示された目標	橋梁長寿命化修繕計画に基づく対策実施数	42	か所	honpen p.40-41
+kpi	4	target.target	数値で示された目標	橋梁長寿命化修繕計画に基づく対策実施数	47	か所	honpen p.40-41
+kpi	4	target.base	数値で示された目標	町内におけるニホンジカの年間捕獲頭数	416	頭	honpen p.40-41
+kpi	4	target.target	数値で示された目標	町内におけるニホンジカの年間捕獲頭数	450	頭	honpen p.40-41
+kpi	4	target.base	数値で示された目標	地籍調査実施地区数	8	地区	honpen p.40-41
+kpi	4	target.target	数値で示された目標	地籍調査実施地区数	11	地区	honpen p.40-41
+kpi	4	target.base	数値で示された目標	災害廃棄物処理計画の策定	100	%	honpen p.40-41
+kpi	4	target.target	数値で示された目標	災害廃棄物処理計画の策定	100	%	honpen p.40-41
+kpi	4	target.base	数値で示された目標	日野町防災士育成支援	20	人	honpen p.40-41
+kpi	4	target.target	数値で示された目標	日野町防災士育成支援	20	人	honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	ひのメール登録者数/現況	3828		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	防災アプリ登録者数/現況	4567		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	戸別受信機設置数/現況	545		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	消防団員の団員数/現況	185		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	消防団員の団員数/目標	185		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	住宅の耐震化率/現況	68.7		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	住宅の耐震化率/目標	95		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/現況	89.8		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/目標	95		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	上水道管路の耐震化率/現況	6.4		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	上水道管路の耐震化率/目標	11.9		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	道路整備延長/現況	2.5		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	道路整備延長/目標	3.5		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	橋梁長寿命化修繕計画に基づく対策実施数/現況	42		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	橋梁長寿命化修繕計画に基づく対策実施数/目標	47		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	町内におけるニホンジカの年間捕獲頭数/現況	416		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	町内におけるニホンジカの年間捕獲頭数/目標	450		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	地籍調査実施地区数/現況	8		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	地籍調査実施地区数/目標	11		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	災害廃棄物処理計画の策定/現況	100		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	災害廃棄物処理計画の策定/目標	100		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	日野町防災士育成支援/現況	20		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	日野町防災士育成支援/目標	20		honpen p.40-41
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	ひのメール登録者数/現況	3040		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	消防団員の団員数/現況	185		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	消防団員の団員数/目標	185		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	住宅の耐震化率/現況	68.7		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	住宅の耐震化率/目標	95		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/現況	89.8		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/目標	95		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	上水道管路の耐震化率/現況	1.7		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	上水道管路の耐震化率/目標	11.9		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	道路整備延長/現況	0.8		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	道路整備延長/目標	2.2		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	橋梁長寿命化修繕計画に基づく対策実施数/現況	25		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	橋梁長寿命化修繕計画に基づく対策実施数/目標	37		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	町内におけるニホンジカの年間捕獲頭数/現況	316		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	町内におけるニホンジカの年間捕獲頭数/目標	350		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	地籍調査実施地区数/現況	7		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	地籍調査実施地区数/目標	9		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	災害廃棄物処理計画の策定/現況	0		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	災害廃棄物処理計画の策定/目標	100		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	日野町防災士育成支援/現況	18		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	日野町防災士育成支援/目標	20		kokudokyoujinnkatiikikeikaku p.39-40
+jigyo	8	table	主要幹線道路等ネットワークの整備（重点）	(1)西大路鎌掛線 西大路・鎌掛工区（全体計画）/全体事業費（億円）	43.0		honpen p.42
+jigyo	8	table	主要幹線道路等ネットワークの整備（重点）	(1)西大路鎌掛線 2工区/全体事業費（億円）	33.0		honpen p.42
+jigyo	8	table	主要幹線道路等ネットワークの整備（重点）	町道奥之池線/全体事業費（億円）	3.0		honpen p.42

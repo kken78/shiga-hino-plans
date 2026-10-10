@@ -1,0 +1,30 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	1	kpi		要対策箇所（5つの小学校区の合計）	50	か所	honpen p.4-14
+summary	1	kpi		対応年度が「完了」の箇所	43	か所	honpen p.4-14
+summary	1	kpi		「事業実施中」の箇所	2	か所	honpen p.4-14
+summary	1	kpi		「内容検討中」の箇所	1	か所	honpen p.4-14
+summary	1	kpi		「未」の箇所	3	か所	honpen p.4-14
+kasho	4	table	対応状況のまとめ	日野小学校区/要対策箇所	10		honpen p.4-14
+kasho	4	table	対応状況のまとめ	日野小学校区/完了	9		honpen p.4-14
+kasho	4	table	対応状況のまとめ	日野小学校区/完了以外	1		honpen p.4-14
+kasho	4	table	対応状況のまとめ	桜谷小学校区/要対策箇所	9		honpen p.4-14
+kasho	4	table	対応状況のまとめ	桜谷小学校区/完了	8		honpen p.4-14
+kasho	4	table	対応状況のまとめ	桜谷小学校区/完了以外	1		honpen p.4-14
+kasho	4	table	対応状況のまとめ	西大路小学校区/要対策箇所	7		honpen p.4-14
+kasho	4	table	対応状況のまとめ	西大路小学校区/完了	6		honpen p.4-14
+kasho	4	table	対応状況のまとめ	西大路小学校区/完了以外	1		honpen p.4-14
+kasho	4	table	対応状況のまとめ	南比都佐小学校区/要対策箇所	11		honpen p.4-14
+kasho	4	table	対応状況のまとめ	南比都佐小学校区/完了	9		honpen p.4-14
+kasho	4	table	対応状況のまとめ	南比都佐小学校区/完了以外	2		honpen p.4-14
+kasho	4	table	対応状況のまとめ	必佐小学校区/要対策箇所	13		honpen p.4-14
+kasho	4	table	対応状況のまとめ	必佐小学校区/完了	11		honpen p.4-14
+kasho	4	table	対応状況のまとめ	必佐小学校区/完了以外	2		honpen p.4-14
+kasho	4	table	対応状況のまとめ	合計/要対策箇所	50		honpen p.4-14
+kasho	4	table	対応状況のまとめ	合計/完了	43		honpen p.4-14
+kasho	4	table	対応状況のまとめ	合計/完了以外	7		honpen p.4-14
+kasho	7	figure	日野小学校区	通学路・未就学児移動経路 対策箇所図【日野小学校区①】	tsugakuro_map_hino.jpg		honpen p.5
+kasho	11	figure	桜谷小学校区	通学路・未就学児移動経路 対策箇所図【桜谷小学校区①】	tsugakuro_map_sakuradani1.jpg		honpen p.8
+kasho	12	figure	桜谷小学校区	通学路・未就学児移動経路 対策箇所図【桜谷小学校区②】	tsugakuro_map_sakuradani2.jpg		honpen p.9
+kasho	15	figure	西大路小学校区	通学路・未就学児移動経路 対策箇所図【西大路小学校区】	tsugakuro_map_nishioji.jpg		honpen p.11
+kasho	18	figure	南比都佐小学校区	通学路・未就学児移動経路 対策箇所図【南比都佐小学校区】	tsugakuro_map_minamihitosa.jpg		honpen p.13
+kasho	21	figure	必佐小学校区	通学路・未就学児移動経路 対策箇所図【必佐小学校区】	tsugakuro_map_hissa.jpg		honpen p.15

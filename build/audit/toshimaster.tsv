@@ -1,0 +1,497 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	kpi		総人口	20964	人	honpen-03 p.1-2
+summary	3	kpi		65歳以上の割合	31.1	%	honpen-03 p.1-2
+summary	3	kpi		総人口の推計(社人研)	15735	人	honpen-03 p.1-2
+summary	3	kpi		65歳以上の割合の推計(社人研)	39.2	%	honpen-03 p.1-2
+summary	4	kpi		将来展望人口(この計画で想定する人口)	18000	人	honpen-08 p.3
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	H2	22391	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	H7	23132	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	H12	23022	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	H17	22809	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	H22	22870	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	H27	21873	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	R2	20964	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	R7	19989	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	R12	19006	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	R17	17973	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	R22	16862	人	honpen-03 p.1
+genjo	4	chart.bars	総人口の推移(年齢不詳を含む)	R27	15735	人	honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成2年/65歳以上	3872		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成2年/15〜64歳	14036		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成2年/15歳未満	4472		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成2年/人口(年齢不詳を含む)	22391		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成7年/65歳以上	4479		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成7年/15〜64歳	14518		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成7年/15歳未満	4135		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成7年/人口(年齢不詳を含む)	23132		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成12年/65歳以上	5095		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成12年/15〜64歳	14311		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成12年/15歳未満	3613		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成12年/人口(年齢不詳を含む)	23022		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成17年/65歳以上	5332		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成17年/15〜64歳	14262		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成17年/15歳未満	3215		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成17年/人口(年齢不詳を含む)	22809		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成22年/65歳以上	5553		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成22年/15〜64歳	14217		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成22年/15歳未満	3043		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成22年/人口(年齢不詳を含む)	22870		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成27年/65歳以上	6088		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成27年/15〜64歳	12840		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成27年/15歳未満	2835		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	平成27年/人口(年齢不詳を含む)	21873		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和2年/65歳以上	6424		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和2年/15〜64歳	11656		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和2年/15歳未満	2575		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和2年/人口(年齢不詳を含む)	20964		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和7年(推計)/65歳以上	6406		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和7年(推計)/15〜64歳	11209		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和7年(推計)/15歳未満	2374		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和7年(推計)/人口(年齢不詳を含む)	19989		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和12年(推計)/65歳以上	6387		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和12年(推計)/15〜64歳	10442		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和12年(推計)/15歳未満	2177		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和12年(推計)/人口(年齢不詳を含む)	19006		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和17年(推計)/65歳以上	6271		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和17年(推計)/15〜64歳	9727		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和17年(推計)/15歳未満	1975		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和17年(推計)/人口(年齢不詳を含む)	17973		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和22年(推計)/65歳以上	6263		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和22年(推計)/15〜64歳	8796		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和22年(推計)/15歳未満	1803		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和22年(推計)/人口(年齢不詳を含む)	16862		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和27年(推計)/65歳以上	6163		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和27年(推計)/15〜64歳	7937		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和27年(推計)/15歳未満	1635		honpen-03 p.1
+genjo	5	table	年齢3区分別の人口(表)	令和27年(推計)/人口(年齢不詳を含む)	15735		honpen-03 p.1
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H2/15歳未満	20.0	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H2/15〜64歳	62.7	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H2/65歳以上	17.3	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H7/15歳未満	17.9	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H7/15〜64歳	62.8	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H7/65歳以上	19.4	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H12/15歳未満	15.7	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H12/15〜64歳	62.2	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H12/65歳以上	22.1	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H17/15歳未満	14.1	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H17/15〜64歳	62.5	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H17/65歳以上	23.4	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H22/15歳未満	13.3	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H22/15〜64歳	62.3	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H22/65歳以上	24.3	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H27/15歳未満	13.0	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H27/15〜64歳	59.0	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	H27/65歳以上	28.0	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R2/15歳未満	12.5	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R2/15〜64歳	56.4	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R2/65歳以上	31.1	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R7推計/15歳未満	11.9	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R7推計/15〜64歳	56.1	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R7推計/65歳以上	32.0	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R12推計/15歳未満	11.5	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R12推計/15〜64歳	54.9	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R12推計/65歳以上	33.6	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R17推計/15歳未満	11.0	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R17推計/15〜64歳	54.1	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R17推計/65歳以上	34.9	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R22推計/15歳未満	10.7	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R22推計/15〜64歳	52.2	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R22推計/65歳以上	37.1	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R27推計/15歳未満	10.4	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R27推計/15〜64歳	50.4	%	honpen-03 p.2
+genjo	6	chart.stacked100	年齢3区分別の人口の割合	R27推計/65歳以上	39.2	%	honpen-03 p.2
+genjo	9	table	人口動態	平成23年/自然動態	-66		honpen-03 p.3
+genjo	9	table	人口動態	平成23年/社会動態	-56		honpen-03 p.3
+genjo	9	table	人口動態	平成23年/人口動態	-122		honpen-03 p.3
+genjo	9	table	人口動態	平成24年/自然動態	-49		honpen-03 p.3
+genjo	9	table	人口動態	平成24年/社会動態	170		honpen-03 p.3
+genjo	9	table	人口動態	平成24年/人口動態	121		honpen-03 p.3
+genjo	9	table	人口動態	平成25年/自然動態	-81		honpen-03 p.3
+genjo	9	table	人口動態	平成25年/社会動態	-182		honpen-03 p.3
+genjo	9	table	人口動態	平成25年/人口動態	-263		honpen-03 p.3
+genjo	9	table	人口動態	平成26年/自然動態	-51		honpen-03 p.3
+genjo	9	table	人口動態	平成26年/社会動態	-93		honpen-03 p.3
+genjo	9	table	人口動態	平成26年/人口動態	-144		honpen-03 p.3
+genjo	9	table	人口動態	平成27年/自然動態	-82		honpen-03 p.3
+genjo	9	table	人口動態	平成27年/社会動態	-100		honpen-03 p.3
+genjo	9	table	人口動態	平成27年/人口動態	-182		honpen-03 p.3
+genjo	9	table	人口動態	平成28年/自然動態	-105		honpen-03 p.3
+genjo	9	table	人口動態	平成28年/社会動態	-127		honpen-03 p.3
+genjo	9	table	人口動態	平成28年/人口動態	-232		honpen-03 p.3
+genjo	9	table	人口動態	平成29年/自然動態	-109		honpen-03 p.3
+genjo	9	table	人口動態	平成29年/社会動態	-36		honpen-03 p.3
+genjo	9	table	人口動態	平成29年/人口動態	-145		honpen-03 p.3
+genjo	9	table	人口動態	平成30年/自然動態	-141		honpen-03 p.3
+genjo	9	table	人口動態	平成30年/社会動態	-77		honpen-03 p.3
+genjo	9	table	人口動態	平成30年/人口動態	-218		honpen-03 p.3
+genjo	9	table	人口動態	令和元年/自然動態	-109		honpen-03 p.3
+genjo	9	table	人口動態	令和元年/社会動態	123		honpen-03 p.3
+genjo	9	table	人口動態	令和元年/人口動態	14		honpen-03 p.3
+genjo	9	table	人口動態	令和2年/自然動態	-99		honpen-03 p.3
+genjo	9	table	人口動態	令和2年/社会動態	-91		honpen-03 p.3
+genjo	9	table	人口動態	令和2年/人口動態	-190		honpen-03 p.3
+genjo	12	table	昼夜間人口と通勤・通学	平成7年/夜間人口(人)	23132		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成7年/昼間人口(人)	20813		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成7年/昼夜間人口比率(%)	90.0		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成12年/夜間人口(人)	23019		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成12年/昼間人口(人)	21647		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成12年/昼夜間人口比率(%)	94.0		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成17年/夜間人口(人)	22809		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成17年/昼間人口(人)	21510		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成17年/昼夜間人口比率(%)	94.3		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成22年/夜間人口(人)	22870		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成22年/昼間人口(人)	21825		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成22年/昼夜間人口比率(%)	95.4		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成27年/夜間人口(人)	21873		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成27年/昼間人口(人)	21714		honpen-03 p.4
+genjo	12	table	昼夜間人口と通勤・通学	平成27年/昼夜間人口比率(%)	99.3		honpen-03 p.4
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流入/H7	3394	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流入/H12	4469	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流入/H17	5042	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流入/H22	5174	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流入/H27	5852	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流出/H7	5713	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流出/H12	5841	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流出/H17	6342	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流出/H22	6219	人	honpen-03 p.6
+genjo	14	chart.line	通勤・通学の流入・流出の推移	流出/H27	6011	人	honpen-03 p.6
+genjo	17	table	用途地域	第一種低層住居専用地域/面積(ha)	16.2		honpen-05 p.8
+genjo	17	table	用途地域	第一種低層住居専用地域/町全域構成比(%)	0.1		honpen-05 p.8
+genjo	17	table	用途地域	第一種低層住居専用地域/用途地域構成比(%)	2.3		honpen-05 p.8
+genjo	17	table	用途地域	第二種低層住居専用地域/面積(ha)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	第二種低層住居専用地域/町全域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	第二種低層住居専用地域/用途地域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	第一種中高層住居専用地域/面積(ha)	82.7		honpen-05 p.8
+genjo	17	table	用途地域	第一種中高層住居専用地域/町全域構成比(%)	0.7		honpen-05 p.8
+genjo	17	table	用途地域	第一種中高層住居専用地域/用途地域構成比(%)	11.9		honpen-05 p.8
+genjo	17	table	用途地域	第二種中高層住居専用地域/面積(ha)	28.2		honpen-05 p.8
+genjo	17	table	用途地域	第二種中高層住居専用地域/町全域構成比(%)	0.2		honpen-05 p.8
+genjo	17	table	用途地域	第二種中高層住居専用地域/用途地域構成比(%)	4.1		honpen-05 p.8
+genjo	17	table	用途地域	第一種住居地域/面積(ha)	120.7		honpen-05 p.8
+genjo	17	table	用途地域	第一種住居地域/町全域構成比(%)	1.0		honpen-05 p.8
+genjo	17	table	用途地域	第一種住居地域/用途地域構成比(%)	17.4		honpen-05 p.8
+genjo	17	table	用途地域	第二種住居地域/面積(ha)	5.7		honpen-05 p.8
+genjo	17	table	用途地域	第二種住居地域/町全域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	第二種住居地域/用途地域構成比(%)	0.8		honpen-05 p.8
+genjo	17	table	用途地域	準住居地域/面積(ha)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	準住居地域/町全域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	準住居地域/用途地域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	田園住居地域/面積(ha)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	田園住居地域/町全域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	田園住居地域/用途地域構成比(%)	0.0		honpen-05 p.8
+genjo	17	table	用途地域	近隣商業地域/面積(ha)	41.2		honpen-05 p.8
+genjo	17	table	用途地域	近隣商業地域/町全域構成比(%)	0.4		honpen-05 p.8
+genjo	17	table	用途地域	近隣商業地域/用途地域構成比(%)	5.9		honpen-05 p.8
+genjo	17	table	用途地域	商業地域/面積(ha)	6.4		honpen-05 p.8
+genjo	17	table	用途地域	商業地域/町全域構成比(%)	0.1		honpen-05 p.8
+genjo	17	table	用途地域	商業地域/用途地域構成比(%)	0.9		honpen-05 p.8
+genjo	17	table	用途地域	準工業地域/面積(ha)	6.6		honpen-05 p.8
+genjo	17	table	用途地域	準工業地域/町全域構成比(%)	0.1		honpen-05 p.8
+genjo	17	table	用途地域	準工業地域/用途地域構成比(%)	1.0		honpen-05 p.8
+genjo	17	table	用途地域	工業地域/面積(ha)	48.0		honpen-05 p.8
+genjo	17	table	用途地域	工業地域/町全域構成比(%)	0.4		honpen-05 p.8
+genjo	17	table	用途地域	工業地域/用途地域構成比(%)	6.9		honpen-05 p.8
+genjo	17	table	用途地域	工業専用地域/面積(ha)	338.9		honpen-05 p.8
+genjo	17	table	用途地域	工業専用地域/町全域構成比(%)	2.9		honpen-05 p.8
+genjo	17	table	用途地域	工業専用地域/用途地域構成比(%)	48.8		honpen-05 p.8
+genjo	17	table	用途地域	市街化区域 合計(A)/面積(ha)	694.6		honpen-05 p.8
+genjo	17	table	用途地域	市街化区域 合計(A)/町全域構成比(%)	5.9		honpen-05 p.8
+genjo	17	table	用途地域	市街化区域 合計(A)/用途地域構成比(%)	100.0		honpen-05 p.8
+genjo	17	table	用途地域	市街化調整区域(B)/面積(ha)	11065.4		honpen-05 p.8
+genjo	17	table	用途地域	市街化調整区域(B)/町全域構成比(%)	94.1		honpen-05 p.8
+genjo	17	table	用途地域	町全域(A+B)/面積(ha)	11760.0		honpen-05 p.8
+genjo	17	table	用途地域	町全域(A+B)/町全域構成比(%)	100.0		honpen-05 p.8
+genjo	20	table	空き家	日野/空家の数	210		honpen-03 p.13
+genjo	20	table	空き家	日野/すぐに入居可能(A)	95		honpen-03 p.13
+genjo	20	table	空き家	日野/入居するには修繕を要する(B)	72		honpen-03 p.13
+genjo	20	table	空き家	日野/放置すると倒壊の危険有(C)	29		honpen-03 p.13
+genjo	20	table	空き家	日野/倒壊の危険性有(D)	14		honpen-03 p.13
+genjo	20	table	空き家	東桜谷/空家の数	58		honpen-03 p.13
+genjo	20	table	空き家	東桜谷/すぐに入居可能(A)	21		honpen-03 p.13
+genjo	20	table	空き家	東桜谷/入居するには修繕を要する(B)	16		honpen-03 p.13
+genjo	20	table	空き家	東桜谷/放置すると倒壊の危険有(C)	16		honpen-03 p.13
+genjo	20	table	空き家	東桜谷/倒壊の危険性有(D)	5		honpen-03 p.13
+genjo	20	table	空き家	西桜谷/空家の数	39		honpen-03 p.13
+genjo	20	table	空き家	西桜谷/すぐに入居可能(A)	9		honpen-03 p.13
+genjo	20	table	空き家	西桜谷/入居するには修繕を要する(B)	19		honpen-03 p.13
+genjo	20	table	空き家	西桜谷/放置すると倒壊の危険有(C)	5		honpen-03 p.13
+genjo	20	table	空き家	西桜谷/倒壊の危険性有(D)	6		honpen-03 p.13
+genjo	20	table	空き家	西大路/空家の数	61		honpen-03 p.13
+genjo	20	table	空き家	西大路/すぐに入居可能(A)	19		honpen-03 p.13
+genjo	20	table	空き家	西大路/入居するには修繕を要する(B)	27		honpen-03 p.13
+genjo	20	table	空き家	西大路/放置すると倒壊の危険有(C)	13		honpen-03 p.13
+genjo	20	table	空き家	西大路/倒壊の危険性有(D)	2		honpen-03 p.13
+genjo	20	table	空き家	鎌掛/空家の数	27		honpen-03 p.13
+genjo	20	table	空き家	鎌掛/すぐに入居可能(A)	17		honpen-03 p.13
+genjo	20	table	空き家	鎌掛/入居するには修繕を要する(B)	3		honpen-03 p.13
+genjo	20	table	空き家	鎌掛/放置すると倒壊の危険有(C)	5		honpen-03 p.13
+genjo	20	table	空き家	鎌掛/倒壊の危険性有(D)	2		honpen-03 p.13
+genjo	20	table	空き家	南比都佐/空家の数	21		honpen-03 p.13
+genjo	20	table	空き家	南比都佐/すぐに入居可能(A)	12		honpen-03 p.13
+genjo	20	table	空き家	南比都佐/入居するには修繕を要する(B)	4		honpen-03 p.13
+genjo	20	table	空き家	南比都佐/放置すると倒壊の危険有(C)	5		honpen-03 p.13
+genjo	20	table	空き家	南比都佐/倒壊の危険性有(D)	0		honpen-03 p.13
+genjo	20	table	空き家	必佐/空家の数	141		honpen-03 p.13
+genjo	20	table	空き家	必佐/すぐに入居可能(A)	36		honpen-03 p.13
+genjo	20	table	空き家	必佐/入居するには修繕を要する(B)	57		honpen-03 p.13
+genjo	20	table	空き家	必佐/放置すると倒壊の危険有(C)	32		honpen-03 p.13
+genjo	20	table	空き家	必佐/倒壊の危険性有(D)	16		honpen-03 p.13
+genjo	20	table	空き家	合計/空家の数	557		honpen-03 p.13
+genjo	20	table	空き家	合計/すぐに入居可能(A)	209		honpen-03 p.13
+genjo	20	table	空き家	合計/入居するには修繕を要する(B)	198		honpen-03 p.13
+genjo	20	table	空き家	合計/放置すると倒壊の危険有(C)	105		honpen-03 p.13
+genjo	20	table	空き家	合計/倒壊の危険性有(D)	45		honpen-03 p.13
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	東桜谷地区	11.5	%	honpen-03 p.14
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	鎌掛地区	10.98	%	honpen-03 p.14
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	西桜谷地区	10.4	%	honpen-03 p.14
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	西大路地区	10.39	%	honpen-03 p.14
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	日野地区	9.69	%	honpen-03 p.14
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	必佐地区	7.52	%	honpen-03 p.14
+genjo	21	chart.rank	住宅全体に対する空家率(地区別)	南比都佐地区	3.3	%	honpen-03 p.14
+genjo	24	table	都市計画公園と下水道	内池公園/計画決定 面積(ha)	1.7		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	内池公園/供用 面積(ha)	1.6		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	内池公園/整備率(%)	94.1		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	松尾公園/計画決定 面積(ha)	1.7		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	松尾公園/供用 面積(ha)	1.6		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	松尾公園/整備率(%)	94.1		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	大谷公園/計画決定 面積(ha)	7.4		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	大谷公園/供用 面積(ha)	7.2		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	大谷公園/整備率(%)	97.3		honpen-04 p.3
+genjo	24	table	都市計画公園と下水道	山王公園/計画決定 面積(ha)	5.8		honpen-04 p.3
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成25年度/処理区域内 人口(人)	16286		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成25年度/処理区域内 普及率(%)	73.1		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成25年度/水洗便所設置 人口(人)	12555		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成25年度/水洗化率(%)	77.1		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成26年度/処理区域内 人口(人)	16906		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成26年度/処理区域内 普及率(%)	76.2		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成26年度/水洗便所設置 人口(人)	12893		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成26年度/水洗化率(%)	76.3		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成27年度/処理区域内 人口(人)	16764		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成27年度/処理区域内 普及率(%)	76.5		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成27年度/水洗便所設置 人口(人)	13066		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成27年度/水洗化率(%)	77.9		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成28年度/処理区域内 人口(人)	16748		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成28年度/処理区域内 普及率(%)	77.0		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成28年度/水洗便所設置 人口(人)	13334		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成28年度/水洗化率(%)	79.6		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成29年度/処理区域内 人口(人)	16632		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成29年度/処理区域内 普及率(%)	77.0		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成29年度/水洗便所設置 人口(人)	13473		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成29年度/水洗化率(%)	81.0		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成30年度/処理区域内 人口(人)	16631		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成30年度/処理区域内 普及率(%)	77.6		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成30年度/水洗便所設置 人口(人)	13678		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	平成30年度/水洗化率(%)	82.2		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和元年度/処理区域内 人口(人)	16621		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和元年度/処理区域内 普及率(%)	77.8		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和元年度/水洗便所設置 人口(人)	13931		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和元年度/水洗化率(%)	83.6		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和2年度/処理区域内 人口(人)	16564		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和2年度/処理区域内 普及率(%)	78.2		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和2年度/水洗便所設置 人口(人)	13937		honpen-04 p.5
+genjo	26	table	公共下水道・特定環境保全公共下水道(表)	令和2年度/水洗化率(%)	84.1		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成25年度/処理区域内 人口(人)	4912		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成25年度/処理区域内 普及率(%)	22.1		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成25年度/水洗便所設置 人口(人)	4808		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成25年度/水洗化率(%)	97.9		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成26年度/処理区域内 人口(人)	4853		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成26年度/処理区域内 普及率(%)	21.9		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成26年度/水洗便所設置 人口(人)	4765		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成26年度/水洗化率(%)	98.2		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成27年度/処理区域内 人口(人)	4749		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成27年度/処理区域内 普及率(%)	21.7		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成27年度/水洗便所設置 人口(人)	4662		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成27年度/水洗化率(%)	98.2		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成28年度/処理区域内 人口(人)	4611		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成28年度/処理区域内 普及率(%)	21.2		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成28年度/水洗便所設置 人口(人)	4533		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成28年度/水洗化率(%)	98.3		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成29年度/処理区域内 人口(人)	4543		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成29年度/処理区域内 普及率(%)	21.1		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成29年度/水洗便所設置 人口(人)	4472		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成29年度/水洗化率(%)	98.4		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成30年度/処理区域内 人口(人)	4426		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成30年度/処理区域内 普及率(%)	20.7		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成30年度/水洗便所設置 人口(人)	4361		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	平成30年度/水洗化率(%)	98.5		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和元年度/処理区域内 人口(人)	4385		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和元年度/処理区域内 普及率(%)	20.5		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和元年度/水洗便所設置 人口(人)	4311		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和元年度/水洗化率(%)	98.3		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和2年度/処理区域内 人口(人)	4314		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和2年度/処理区域内 普及率(%)	20.4		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和2年度/水洗便所設置 人口(人)	4250		honpen-04 p.5
+genjo	27	table	農業集落排水(農村下水道)(表)	令和2年度/水洗化率(%)	98.5		honpen-04 p.5
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H26/定期	271440	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H26/定期外	76311	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H27/定期	272160	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H27/定期外	69251	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H28/定期	267420	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H28/定期外	67812	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H29/定期	280200	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H29/定期外	68916	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H30/定期	271654	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	H30/定期外	73061	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	R1/定期	263169	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	R1/定期外	72166	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	R2/定期	206233	人	honpen-04 p.6
+genjo	30	chart.stacked	近江鉄道日野駅の乗降客数	R2/定期外	48877	人	honpen-04 p.6
+genjo	32	chart.bars	近江鉄道バスの乗降客数	H26	144238	人	honpen-04 p.7
+genjo	32	chart.bars	近江鉄道バスの乗降客数	H27	155137	人	honpen-04 p.7
+genjo	32	chart.bars	近江鉄道バスの乗降客数	H28	156527	人	honpen-04 p.7
+genjo	32	chart.bars	近江鉄道バスの乗降客数	H29	162547	人	honpen-04 p.7
+genjo	32	chart.bars	近江鉄道バスの乗降客数	H30	190986	人	honpen-04 p.7
+genjo	32	chart.bars	近江鉄道バスの乗降客数	R1	232737	人	honpen-04 p.7
+genjo	32	chart.bars	近江鉄道バスの乗降客数	R2	185845	人	honpen-04 p.7
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H26/定期	54033	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H26/定期外	5683	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H27/定期	52114	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H27/定期外	5062	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H28/定期	49680	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H28/定期外	5394	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H29/定期	49976	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H29/定期外	5393	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H30/定期	49680	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	H30/定期外	5392	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	R1/定期	45299	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	R1/定期外	5744	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	R2/定期	45227	人	honpen-04 p.8
+genjo	34	chart.stacked	コミュニティバス(町営バス)の乗降客数	R2/定期外	6262	人	honpen-04 p.8
+genjo	37	chart.bars	製造品出荷額等	H22	20999371	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H23	19446669	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H24	22477370	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H25	21620060	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H26	23186452	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H27	26809226	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H29	29359114	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	H30	31871145	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	R1	35863137	万円	honpen-04 p.11
+genjo	37	chart.bars	製造品出荷額等	R2	35098246	万円	honpen-04 p.11
+genjo	39	table	産業	平成23年/宿泊客(人)	17400		honpen-04 p.12
+genjo	39	table	産業	平成23年/日帰り客(人)	572500		honpen-04 p.12
+genjo	39	table	産業	平成24年/宿泊客(人)	14200		honpen-04 p.12
+genjo	39	table	産業	平成24年/日帰り客(人)	569800		honpen-04 p.12
+genjo	39	table	産業	平成25年/宿泊客(人)	17800		honpen-04 p.12
+genjo	39	table	産業	平成25年/日帰り客(人)	638600		honpen-04 p.12
+genjo	39	table	産業	平成26年/宿泊客(人)	16900		honpen-04 p.12
+genjo	39	table	産業	平成26年/日帰り客(人)	619700		honpen-04 p.12
+genjo	39	table	産業	平成27年/宿泊客(人)	20000		honpen-04 p.12
+genjo	39	table	産業	平成27年/日帰り客(人)	587900		honpen-04 p.12
+genjo	39	table	産業	平成28年/宿泊客(人)	23500		honpen-04 p.12
+genjo	39	table	産業	平成28年/日帰り客(人)	558400		honpen-04 p.12
+genjo	39	table	産業	平成29年/宿泊客(人)	22200		honpen-04 p.12
+genjo	39	table	産業	平成29年/日帰り客(人)	535800		honpen-04 p.12
+genjo	39	table	産業	平成30年/宿泊客(人)	22800		honpen-04 p.12
+genjo	39	table	産業	平成30年/日帰り客(人)	550800		honpen-04 p.12
+genjo	39	table	産業	令和元年/宿泊客(人)	24400		honpen-04 p.12
+genjo	39	table	産業	令和元年/日帰り客(人)	715700		honpen-04 p.12
+genjo	39	table	産業	令和2年/宿泊客(人)	8500		honpen-04 p.12
+genjo	39	table	産業	令和2年/日帰り客(人)	394300		honpen-04 p.12
+genjo	41	table	産業	平成7年/農家数(戸)	1851		honpen-04 p.13
+genjo	41	table	産業	平成7年/経営耕地面積(a)	191522		honpen-04 p.13
+genjo	41	table	産業	平成12年/農家数(戸)	1671		honpen-04 p.13
+genjo	41	table	産業	平成12年/経営耕地面積(a)	179039		honpen-04 p.13
+genjo	41	table	産業	平成17年/農家数(戸)	1511		honpen-04 p.13
+genjo	41	table	産業	平成17年/経営耕地面積(a)	169900		honpen-04 p.13
+genjo	41	table	産業	平成22年/農家数(戸)	1309		honpen-04 p.13
+genjo	41	table	産業	平成22年/経営耕地面積(a)	160649		honpen-04 p.13
+genjo	41	table	産業	平成27年/農家数(戸)	1112		honpen-04 p.13
+genjo	41	table	産業	平成27年/経営耕地面積(a)	143240		honpen-04 p.13
+genjo	41	table	産業	令和2年/農家数(戸)	833		honpen-04 p.13
+genjo	41	table	産業	令和2年/経営耕地面積(a)	147000		honpen-04 p.13
+kadai	3	kpi	住民意識調査	配布数	2500	部	honpen-06 p.5
+kadai	3	kpi	住民意識調査	有効回答数	1283	部	honpen-06 p.5
+kadai	3	kpi	住民意識調査	有効回答率	51.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然災害が少ない/そう思う	47.2	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然災害が少ない/ややそう思う	42.5	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然災害が少ない/あまり思わない	7.7	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然災害が少ない/思わない	1.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然災害が少ない/不明・無回答	1.2	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然環境が良い/そう思う	42.9	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然環境が良い/ややそう思う	45.2	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然環境が良い/あまり思わない	8.0	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然環境が良い/思わない	1.9	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	自然環境が良い/不明・無回答	2.0	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	治安が良い/そう思う	33.6	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	治安が良い/ややそう思う	47.7	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	治安が良い/あまり思わない	14.0	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	治安が良い/思わない	2.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	治安が良い/不明・無回答	2.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	交通の便が良い/そう思う	2.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	交通の便が良い/ややそう思う	9.6	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	交通の便が良い/あまり思わない	34.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	交通の便が良い/思わない	52.1	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	交通の便が良い/不明・無回答	1.7	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	スポーツ施設が多い/そう思う	2.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	スポーツ施設が多い/ややそう思う	14.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	スポーツ施設が多い/あまり思わない	55.8	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	スポーツ施設が多い/思わない	24.5	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	スポーツ施設が多い/不明・無回答	3.1	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	産業が活発だ/そう思う	5.2	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	産業が活発だ/ややそう思う	21.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	産業が活発だ/あまり思わない	51.0	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	産業が活発だ/思わない	19.3	%	honpen-06 p.5
+kadai	6	chart.stacked100	日野町の良いところ(良いところ・改善が必要なところの上位3項目)	産業が活発だ/不明・無回答	3.3	%	honpen-06 p.5
+kadai	7	chart.stacked100	まちづくりに関わっているという実感	住民全体/実感している	4.1	%	honpen-06 p.6
+kadai	7	chart.stacked100	まちづくりに関わっているという実感	住民全体/やや実感している	19.0	%	honpen-06 p.6
+kadai	7	chart.stacked100	まちづくりに関わっているという実感	住民全体/あまり実感していない	43.3	%	honpen-06 p.6
+kadai	7	chart.stacked100	まちづくりに関わっているという実感	住民全体/実感していない	30.4	%	honpen-06 p.6
+kadai	7	chart.stacked100	まちづくりに関わっているという実感	住民全体/不明・無回答	3.2	%	honpen-06 p.6
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R7	20500	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R12	19799	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R17	19086	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R22	18319	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R27	17508	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R32	16858	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R37	16354	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	将来展望人口/R42	16027	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R7	19989	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R12	19004	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R17	17974	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R22	16862	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R27	15734	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R32	14630	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R37	13535	人	honpen-08 p.3
+koso	9	chart.line	日野町の将来展望人口	社人研準拠推計/R42	12459	人	honpen-08 p.3
+koso	16	figure	将来の都市構造	将来都市構造図	toshimaster_kozo.jpg		honpen-08 p.7
+hoshin	2	programs	分野別方針	事業数	16	件	honpen-09 p.1-5
+hoshin	3	programs	分野別方針	事業数	5	件	honpen-09 p.7-9
+hoshin	4	programs	分野別方針	事業数	4	件	honpen-10 p.1-2
+hoshin	5	programs	分野別方針	事業数	3	件	honpen-10 p.3
+hoshin	6	programs	分野別方針	事業数	0	件	honpen-10 p.5
+hoshin	7	programs	分野別方針	事業数	7	件	honpen-10 p.6-9
+hoshin	8	programs	分野別方針	事業数	4	件	honpen-10 p.10-11
+chiiki	5	table	日野中部地域	平成12年/人口(人)	15957		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成12年/世帯(世帯)	4835		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成17年/人口(人)	16142		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成17年/世帯(世帯)	5307		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成22年/人口(人)	16632		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成22年/世帯(世帯)	5845		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成27年/人口(人)	16107		honpen-11 p.2
+chiiki	5	table	日野中部地域	平成27年/世帯(世帯)	5891		honpen-11 p.2
+chiiki	5	table	日野中部地域	令和2年/人口(人)	15746		honpen-11 p.2
+chiiki	5	table	日野中部地域	令和2年/世帯(世帯)	6161		honpen-11 p.2
+chiiki	10	programs	日野中部地域	事業数	5	件	honpen-11 p.6-7
+chiiki	13	table	日野北部地域	平成12年/人口(人)	3540		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成12年/世帯(世帯)	979		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成17年/人口(人)	3306		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成17年/世帯(世帯)	937		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成22年/人口(人)	3077		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成22年/世帯(世帯)	952		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成27年/人口(人)	2800		honpen-12 p.1
+chiiki	13	table	日野北部地域	平成27年/世帯(世帯)	926		honpen-12 p.1
+chiiki	13	table	日野北部地域	令和2年/人口(人)	2489		honpen-12 p.1
+chiiki	13	table	日野北部地域	令和2年/世帯(世帯)	878		honpen-12 p.1
+chiiki	18	programs	日野北部地域	事業数	5	件	honpen-12 p.5-6
+chiiki	21	table	日野南部地域	平成12年/人口(人)	3525		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成12年/世帯(世帯)	879		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成17年/人口(人)	3361		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成17年/世帯(世帯)	887		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成22年/人口(人)	3161		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成22年/世帯(世帯)	881		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成27年/人口(人)	2966		honpen-13 p.1
+chiiki	21	table	日野南部地域	平成27年/世帯(世帯)	911		honpen-13 p.1
+chiiki	21	table	日野南部地域	令和2年/人口(人)	2729		honpen-13 p.1
+chiiki	21	table	日野南部地域	令和2年/世帯(世帯)	893		honpen-13 p.1
+chiiki	26	programs	日野南部地域	事業数	5	件	honpen-13 p.5
+suishin	2	programs	まちづくりの推進方策	事業数	10	件	honpen-14 p.1-4

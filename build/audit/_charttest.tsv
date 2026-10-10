@@ -127,6 +127,6 @@ blocks	2	target.current		駅の利用者数	315200	人/年	test
 blocks	2	target.target		駅の利用者数	328000	人/年	test
 blocks	3	timeline		基本設計	R7〜R8		test
 blocks	3	timeline		改修工事	R9〜R11		test
-tables	0	table		増減(負値・小数2桁)/値	-1.50		test
-tables	0	table		整数/値	1200		test
-tables	0	table		小数1桁/値	3.0		test
+tables	0	table	table テスト(表の題)	増減(負値・小数2桁)/値	-1.50		test
+tables	0	table	table テスト(表の題)	整数/値	1200		test
+tables	0	table	table テスト(表の題)	小数1桁/値	3.0		test

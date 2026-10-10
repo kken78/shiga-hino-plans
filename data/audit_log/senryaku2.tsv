@@ -1,0 +1,528 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+9812e4c71615c83f	summary	2	kpi		日野町の人口	20975	人	honpen p.7-8	✓	auto:ai	2026-10-10	
+d0cd45962aa01420	summary	2	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8	✓	auto:ai	2026-10-10	
+6e45eb242310cbb1	summary	2	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8				要人確認:H2 値が文字データにない
+26674d4dc6482962	summary	2	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8	✓	auto:ai	2026-10-10	
+79acc5e3f0e38541	summary	2	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8	✓	auto:ai	2026-10-10	
+c7da366047ac01e1	summary	2	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+6ad70fe294390496	summary	4	target.base		出生数（住民基本台帳）過去3年平均	149	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+f22ae40ab345b21b	summary	4	target.target		出生数（住民基本台帳）過去3年平均	170	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+3b45bde1484dbc03	summary	4	target.base		創業件数（累計）	12	件	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+fa9b929ac26798b1	summary	4	target.target		創業件数（累計）	25	件	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+107681b49e692bf8	summary	4	target.base		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+1d949aad5e7047d3	summary	4	target.target		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+3eb2e50c5b6146a0	summary	4	target.base		観光入込客数（年間）過去3年平均	623900	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+40fa7e32916d8194	summary	4	target.target		観光入込客数（年間）過去3年平均	650000	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+6afa4cbfc78e10f8	summary	4	target.base		転入者数（住民基本台帳）過去3年平均	777	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+f69a8309f881e5b2	summary	4	target.target		転入者数（住民基本台帳）過去3年平均	780	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+90b59872f663ab07	summary	4	target.base		転出者数（住民基本台帳）過去3年平均	760	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+497fdc8f682e0d90	summary	4	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+313e187efdf9ed29	summary	4	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+36ecedf6f7ee872f	summary	4	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+1ba99d7485345a63	jinko	4	chart.line	日野町の人口推移	総人口/大正4	22355	人	honpen p.7				要人確認:H2 値が文字データにない
+66c2bd2c0fda9f09	jinko	4	chart.line	日野町の人口推移	総人口/大正9	21601	人	honpen p.7				要人確認:H2 値が文字データにない
+cf5ced2ea2572222	jinko	4	chart.line	日野町の人口推移	総人口/大正14	21473	人	honpen p.7				要人確認:H2 値が文字データにない
+40058c77fb601616	jinko	4	chart.line	日野町の人口推移	総人口/昭和5	21931	人	honpen p.7				要人確認:H2 値が文字データにない
+ff087160443afcb2	jinko	4	chart.line	日野町の人口推移	総人口/昭和10	21808	人	honpen p.7				要人確認:H2 値が文字データにない
+97ead8e8cfc69baf	jinko	4	chart.line	日野町の人口推移	総人口/昭和15	21059	人	honpen p.7				要人確認:H2 値が文字データにない
+2b3fadf1d78349a8	jinko	4	chart.line	日野町の人口推移	総人口/昭和22	26524	人	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+9f3522071ca742a4	jinko	4	chart.line	日野町の人口推移	総人口/昭和25	26075	人	honpen p.7				要人確認:H2 値が文字データにない
+f7e68afce8ec4f69	jinko	4	chart.line	日野町の人口推移	総人口/昭和30	24652	人	honpen p.7				要人確認:H2 値が文字データにない
+74d1042a489c7158	jinko	4	chart.line	日野町の人口推移	総人口/昭和35	22992	人	honpen p.7				要人確認:H2 値が文字データにない
+a2d22f2a44c326f3	jinko	4	chart.line	日野町の人口推移	総人口/昭和40	21416	人	honpen p.7				要人確認:H2 値が文字データにない
+ae6ab742a8fade5c	jinko	4	chart.line	日野町の人口推移	総人口/昭和45	20754	人	honpen p.7				要人確認:H2 値が文字データにない
+42b858a29f8a904e	jinko	4	chart.line	日野町の人口推移	総人口/昭和50	20913	人	honpen p.7				要人確認:H2 値が文字データにない
+492eb011ecd5c64e	jinko	4	chart.line	日野町の人口推移	総人口/昭和55	21680	人	honpen p.7				要人確認:H2 値が文字データにない
+fbe528215ac5a769	jinko	4	chart.line	日野町の人口推移	総人口/昭和60	22009	人	honpen p.7				要人確認:H2 値が文字データにない
+f5d1061274eb35f8	jinko	4	chart.line	日野町の人口推移	総人口/平成2	22391	人	honpen p.7				要人確認:H2 値が文字データにない
+2a6d57abefcbab41	jinko	4	chart.line	日野町の人口推移	総人口/平成7	23132	人	honpen p.7				要人確認:H2 値が文字データにない
+d57769cee5534b83	jinko	4	chart.line	日野町の人口推移	総人口/平成12	23022	人	honpen p.7				要人確認:H2 値が文字データにない
+01b78331eeba3e65	jinko	4	chart.line	日野町の人口推移	総人口/平成17	22809	人	honpen p.7				要人確認:H2 値が文字データにない
+872cc27c1e9724cc	jinko	4	chart.line	日野町の人口推移	総人口/平成22	22870	人	honpen p.7				要人確認:H2 値が文字データにない
+26ad348b75f7a5f2	jinko	4	chart.line	日野町の人口推移	総人口/平成27	21873	人	honpen p.7				要人確認:H2 値が文字データにない
+e1cea920b99e272a	jinko	4	chart.line	日野町の人口推移	総人口/令和2	20975	人	honpen p.7	✓	auto:ai	2026-10-10	
+e7af8e8128396e38	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/0〜14歳	26.1	%	honpen p.7				要人確認:H2 値が文字データにない
+9543431a28fb3708	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/15〜64歳	64.2	%	honpen p.7				要人確認:H2 値が文字データにない
+19b368baf61fb967	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/65歳以上	9.7	%	honpen p.7				要人確認:H2 値が文字データにない
+6fb9f782a6870d2d	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/0〜14歳	22.2	%	honpen p.7				要人確認:H2 値が文字データにない
+374d888011f59aaf	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/15〜64歳	66.2	%	honpen p.7				要人確認:H2 値が文字データにない
+b12821f19f505c55	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/65歳以上	11.5	%	honpen p.7				要人確認:H2 値が文字データにない
+6fb2d492313d4165	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/0〜14歳	20.7	%	honpen p.7				要人確認:H2 値が文字データにない
+b10c9c298b7818b0	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/15〜64歳	66.5	%	honpen p.7				要人確認:H2 値が文字データにない
+e62a739c3b85b2d2	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/65歳以上	12.8	%	honpen p.7				要人確認:H2 値が文字データにない
+ea5c0f5d027b2118	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/0〜14歳	21.3	%	honpen p.7				要人確認:H2 値が文字データにない
+b38eeb8f2ee1919f	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/15〜64歳	64.6	%	honpen p.7				要人確認:H2 値が文字データにない
+6d5160f2c124b288	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/65歳以上	14.1	%	honpen p.7				要人確認:H2 値が文字データにない
+c9dafe35522a823b	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/0〜14歳	21.4	%	honpen p.7				要人確認:H2 値が文字データにない
+d038ef28cd5edf1d	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/15〜64歳	63.1	%	honpen p.7				要人確認:H2 値が文字データにない
+072b7a0f8a436cad	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/65歳以上	15.5	%	honpen p.7				要人確認:H2 値が文字データにない
+4bc7044bf3e7efd5	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/0〜14歳	20.0	%	honpen p.7				要人確認:H2 値が文字データにない
+20d2b68903c8ca76	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/15〜64歳	62.7	%	honpen p.7				要人確認:H2 値が文字データにない
+274da373dcb22a3a	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/65歳以上	17.3	%	honpen p.7				要人確認:H2 値が文字データにない
+65f075444d82d475	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/0〜14歳	17.9	%	honpen p.7				要人確認:H2 値が文字データにない
+469bf6a07f268d46	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/15〜64歳	62.8	%	honpen p.7				要人確認:H2 値が文字データにない
+8961da698ff21e76	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/65歳以上	19.4	%	honpen p.7				要人確認:H2 値が文字データにない
+8069efb85af17f04	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/0〜14歳	15.7	%	honpen p.7				要人確認:H2 値が文字データにない
+5cb2f11117682baa	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/15〜64歳	62.2	%	honpen p.7				要人確認:H2 値が文字データにない
+be519af82d303211	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/65歳以上	22.1	%	honpen p.7				要人確認:H2 値が文字データにない
+d5463e739ca62b61	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/0〜14歳	14.1	%	honpen p.7				要人確認:H2 値が文字データにない
+6ab54e6a73b413bd	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/15〜64歳	62.5	%	honpen p.7				要人確認:H2 値が文字データにない
+4289f4f4b0c1b910	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/65歳以上	23.4	%	honpen p.7				要人確認:H2 値が文字データにない
+91ecabbfbd3aee72	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/0〜14歳	13.3	%	honpen p.7				要人確認:H2 値が文字データにない
+67456f772eb23108	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/15〜64歳	62.2	%	honpen p.7				要人確認:H2 値が文字データにない
+a13d955990047960	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/65歳以上	24.3	%	honpen p.7				要人確認:H2 値が文字データにない
+e315891fc84a5f17	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/0〜14歳	13.0	%	honpen p.7				要人確認:H2 値が文字データにない
+2c89a4e3be31eb83	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/15〜64歳	58.7	%	honpen p.7				要人確認:H2 値が文字データにない
+d8396018beda01d9	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/65歳以上	27.8	%	honpen p.7				要人確認:H2 値が文字データにない
+f760ad155a2ec4ca	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/0〜14歳	12.5	%	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+fde42f2a27633b50	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/15〜64歳	57.1	%	honpen p.7				要人確認:H2 値が文字データにない
+06cf76be3be49028	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/65歳以上	30.4	%	honpen p.7				要人確認:H2 値が文字データにない
+c96ac998f447995e	jinko	9	kpi	将来展望人口	将来展望人口	19500	人	honpen p.8	✓	auto:ai	2026-10-10	
+63b9b0c0329618da	jinko	9	kpi	将来展望人口	将来展望人口	16000	人	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d82601f9885c2b34	jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/将来展望人口	20500	人	honpen p.8				要人確認:H2 値が文字データにない
+c8904bd80e9d97ec	jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/社人研準拠推計	19989	人	honpen p.8				要人確認:H2 値が文字データにない
+f3842466952a7da1	jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/将来展望人口	19799	人	honpen p.8				要人確認:H2 値が文字データにない
+47a11a27f6961385	jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/社人研準拠推計	19004	人	honpen p.8				要人確認:H2 値が文字データにない
+7fec86a94fac1783	jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/将来展望人口	19086	人	honpen p.8				要人確認:H2 値が文字データにない
+1c8c154298932ccf	jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/社人研準拠推計	17974	人	honpen p.8				要人確認:H2 値が文字データにない
+74b0f50551fa0296	jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/将来展望人口	18319	人	honpen p.8				要人確認:H2 値が文字データにない
+199b9c4a12b5119c	jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/社人研準拠推計	16862	人	honpen p.8				要人確認:H2 値が文字データにない
+03d8790f339ee08b	jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/将来展望人口	17508	人	honpen p.8				要人確認:H2 値が文字データにない
+0a151ba0cf680261	jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/社人研準拠推計	15734	人	honpen p.8				要人確認:H2 値が文字データにない
+d22ca726f507ed0d	jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/将来展望人口	16858	人	honpen p.8				要人確認:H2 値が文字データにない
+6558291bb1d3c26c	jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/社人研準拠推計	14630	人	honpen p.8				要人確認:H2 値が文字データにない
+ab4eda572d710cda	jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/将来展望人口	16354	人	honpen p.8				要人確認:H2 値が文字データにない
+81dbfd48e0e651b5	jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/社人研準拠推計	13535	人	honpen p.8				要人確認:H2 値が文字データにない
+95c06cba4b8f331d	jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/将来展望人口	16027	人	honpen p.8				要人確認:H2 値が文字データにない
+903f1467826c99eb	jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/社人研準拠推計	12459	人	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+d3d1dbb75027dd10	torikumi	6	programs	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	事業数	11	件	honpen p.14-16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+106b3a1eaad883c8	torikumi	10	programs	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	事業数	8	件	honpen p.17-19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+c1499ede1a529ef2	torikumi	14	programs	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	事業数	6	件	honpen p.20-22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+ad2f116b0b85d9c3	torikumi	18	programs	基本目標4 くらしやすい地域を育み、安心して住み続けられるまちをつくる	事業数	15	件	honpen p.23-27				要人確認:H2 出典が4ページ以上(集計した値)
+156fc146abd7ba94	kpi	5	target.base	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	出生数（住民基本台帳）過去3年平均	149	人	honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+193087e1ee6c6272	kpi	5	target.target	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	出生数（住民基本台帳）過去3年平均	170	人	honpen p.14	✓	auto:ai	2026-10-10	
+f5c489328bb97de4	kpi	8	target.base	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15	✓	auto:ai	2026-10-10	
+f89e8069aeaac3ad	kpi	8	target.target	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15	✓	auto:ai	2026-10-10	
+fe877c0ae76880a8	kpi	8	target.base	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定子ども園、子育て支援施設等利用率）	82	%	honpen p.14-15	✓	auto:ai	2026-10-10	
+fd72a289521f64b9	kpi	8	target.target	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定子ども園、子育て支援施設等利用率）	85	%	honpen p.14-15	✓	auto:ai	2026-10-10	
+93ee709542ada5ad	kpi	8	target.base	子育てにやさしい風土づくり	保育所等待機児童数	1	件	honpen p.14-15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+aca8567363c4f023	kpi	8	target.target	子育てにやさしい風土づくり	保育所等待機児童数	0	件	honpen p.14-15	✓	auto:ai	2026-10-10	
+e339e28b52127539	kpi	8	target.base	子育てにやさしい風土づくり	地域学校協働活動ボランティア登録数	271	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+5b3b32104104f547	kpi	8	target.target	子育てにやさしい風土づくり	地域学校協働活動ボランティア登録数	350	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+8b4f800784c0efb9	kpi	8	target.base	子育てにやさしい風土づくり	コミュニティ・スクールの実施校数	0	校	honpen p.14-15	✓	auto:ai	2026-10-10	
+47feb42a32832ffd	kpi	8	target.target	子育てにやさしい風土づくり	コミュニティ・スクールの実施校数	6	校	honpen p.14-15	✓	auto:ai	2026-10-10	
+7dbfb3c475ea9e7c	kpi	8	target.base	子育てにやさしい風土づくり	ファミリーサポートセンター会員数	272	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+ecaeddad4a995003	kpi	8	target.target	子育てにやさしい風土づくり	ファミリーサポートセンター会員数	290	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+46851483a3d71db8	kpi	8	target.base	子育てにやさしい風土づくり	子育てボランティア登録者数	24	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+28be0259a4ee69d4	kpi	8	target.target	子育てにやさしい風土づくり	子育てボランティア登録者数	25	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+cc5978e58f0ddcdb	kpi	8	target.base	子育てにやさしい風土づくり	放課後児童クラブ入所人数	369	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+8069db73c2102664	kpi	8	target.target	子育てにやさしい風土づくり	放課後児童クラブ入所人数	500	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+f5ea2e08e66c778a	kpi	8	target.base	子育てにやさしい風土づくり	子育てサポーター数	9	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+22dee6c6ef4e7d01	kpi	8	target.target	子育てにやさしい風土づくり	子育てサポーター数	12	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+3b18fc67c1d25653	kpi	8	target.base	子育てにやさしい風土づくり	ミニスポーツ教室参加者数	353	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+b95758c242353e7d	kpi	8	target.target	子育てにやさしい風土づくり	ミニスポーツ教室参加者数	350	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+059bf97183f6976b	kpi	8	target.base	子育てにやさしい風土づくり	カルチャー教室参加者数	172	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+6afb0b2844fa8847	kpi	8	target.target	子育てにやさしい風土づくり	カルチャー教室参加者数	170	人	honpen p.14-15	✓	auto:ai	2026-10-10	
+d6f1323dc64b559f	kpi	11	target.base	生涯にわたる学びと活躍の推進	公民館利用者数	86695	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+01e4cc3b4c307143	kpi	11	target.target	生涯にわたる学びと活躍の推進	公民館利用者数	88000	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+a310de366f864c28	kpi	11	target.base	生涯にわたる学びと活躍の推進	授業におけるクラス別小学校図書館使用状況（学校司書認知件数）	27	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+659c6de71cffbbc9	kpi	11	target.target	生涯にわたる学びと活躍の推進	授業におけるクラス別小学校図書館使用状況（学校司書認知件数）	52	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+4e221c03e21fe540	kpi	11	target.base	生涯にわたる学びと活躍の推進	授業におけるクラス別中学校図書館使用状況（学校司書認知件数）	3.7	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+65bf3b663dc73528	kpi	11	target.target	生涯にわたる学びと活躍の推進	授業におけるクラス別中学校図書館使用状況（学校司書認知件数）	12	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+491c2977876f8af2	kpi	11	target.base	生涯にわたる学びと活躍の推進	文化祭の参加者数	4000	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+6407bdeecb1a9c5b	kpi	11	target.target	生涯にわたる学びと活躍の推進	文化祭の参加者数	4600	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+c42c567ed27771bf	kpi	11	target.base	生涯にわたる学びと活躍の推進	文化祭の出演者数・出展者数	171	団体	honpen p.15-16	✓	auto:ai	2026-10-10	
+7a6a59792cbc8415	kpi	11	target.target	生涯にわたる学びと活躍の推進	文化祭の出演者数・出展者数	180	団体	honpen p.15-16	✓	auto:ai	2026-10-10	
+ecacc7a7e4d816bc	kpi	11	target.base	生涯にわたる学びと活躍の推進	ふるさと学習（学校向け出前講座・展示活動等）実施回数	6	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+6e65c039cc89b02f	kpi	11	target.target	生涯にわたる学びと活躍の推進	ふるさと学習（学校向け出前講座・展示活動等）実施回数	15	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+81a6b11628273609	kpi	11	target.base	生涯にわたる学びと活躍の推進	ふるさと学習（地域向け講座・学習会等）実施回数	4	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+1d2827c9dab12957	kpi	11	target.target	生涯にわたる学びと活躍の推進	ふるさと学習（地域向け講座・学習会等）実施回数	7	回	honpen p.15-16	✓	auto:ai	2026-10-10	
+5396283490ade955	kpi	11	target.base	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による出産後の女性の復職者の増加数（累計）	8	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+be03de5a9484ca84	kpi	11	target.target	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による出産後の女性の復職者の増加数（累計）	27	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+37838b10d103fb58	kpi	11	target.base	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による新規就労者数（累計）	1	人	honpen p.15-16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+247b10de1418aeb3	kpi	11	target.target	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による新規就労者数（累計）	27	人	honpen p.15-16	✓	auto:ai	2026-10-10	
+82c7f5b27c25314b	kpi	13	target.base	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	創業件数（累計）	12	件	honpen p.17	✓	auto:ai	2026-10-10	
+d7ead5178f8614ee	kpi	13	target.target	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	創業件数（累計）	25	件	honpen p.17	✓	auto:ai	2026-10-10	
+6f9a1bbcc279668a	kpi	13	target.base	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d4a7f5decb7ac873	kpi	13	target.target	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.17	✓	auto:ai	2026-10-10	
+5b6090394eab3e05	kpi	15	target.base	生活の基盤となる町内産業の持続発展	人・農地プランの作成集落数	21	集落	honpen p.17-19	✓	auto:ai	2026-10-10	
+a47bd89f9b0a25b2	kpi	15	target.target	生活の基盤となる町内産業の持続発展	人・農地プランの作成集落数	25	集落	honpen p.17-19	✓	auto:ai	2026-10-10	
+bd2b991d10f13486	kpi	15	target.base	生活の基盤となる町内産業の持続発展	インショップ販売額	26890	千円	honpen p.17-19	✓	auto:ai	2026-10-10	
+b435045603c1859d	kpi	15	target.target	生活の基盤となる町内産業の持続発展	インショップ販売額	30400	千円	honpen p.17-19	✓	auto:ai	2026-10-10	
+8fbb019250c10e55	kpi	15	target.base	生活の基盤となる町内産業の持続発展	日野菜出荷量	42	t	honpen p.17-19	✓	auto:ai	2026-10-10	
+2c8e674002bf807f	kpi	15	target.target	生活の基盤となる町内産業の持続発展	日野菜出荷量	56	t	honpen p.17-19	✓	auto:ai	2026-10-10	
+964fa45fa356f92d	kpi	15	target.base	生活の基盤となる町内産業の持続発展	獣肉販売量	805	kg	honpen p.17-19	✓	auto:ai	2026-10-10	
+2adc34282e8263f8	kpi	15	target.target	生活の基盤となる町内産業の持続発展	獣肉販売量	1200	kg	honpen p.17-19	✓	auto:ai	2026-10-10	
+37bf5484a8021ea3	kpi	15	target.base	生活の基盤となる町内産業の持続発展	町産木材の搬出量	1380	㎥	honpen p.17-19	✓	auto:ai	2026-10-10	
+884a7fd8f08bf19e	kpi	15	target.target	生活の基盤となる町内産業の持続発展	町産木材の搬出量	2900	㎥	honpen p.17-19	✓	auto:ai	2026-10-10	
+0098b8a7650dda3a	kpi	15	target.base	生活の基盤となる町内産業の持続発展	おさんぽカード利用ポイント数	473	万ポイント	honpen p.17-19	✓	auto:ai	2026-10-10	
+e89e274bd98e67c7	kpi	15	target.target	生活の基盤となる町内産業の持続発展	おさんぽカード利用ポイント数	500	万ポイント	honpen p.17-19	✓	auto:ai	2026-10-10	
+d9621ba17c47fa58	kpi	15	target.base	生活の基盤となる町内産業の持続発展	住宅リフォーム等促進事業における工事費実績額	329	百万円	honpen p.17-19	✓	auto:ai	2026-10-10	
+0df3e5abd88f5f3b	kpi	15	target.target	生活の基盤となる町内産業の持続発展	住宅リフォーム等促進事業における工事費実績額	330	百万円	honpen p.17-19	✓	auto:ai	2026-10-10	
+2591d103c31ef2b5	kpi	15	target.base	生活の基盤となる町内産業の持続発展	創業件数（累計）	12	件	honpen p.17-19	✓	auto:ai	2026-10-10	
+82dd4eabfd799146	kpi	15	target.target	生活の基盤となる町内産業の持続発展	創業件数（累計）	25	件	honpen p.17-19	✓	auto:ai	2026-10-10	
+7be7f41395d24ebb	kpi	15	target.base	生活の基盤となる町内産業の持続発展	新規企業立地数	1	件	honpen p.17-19	✓	auto:ai	2026-10-10	
+4700848209943165	kpi	15	target.target	生活の基盤となる町内産業の持続発展	新規企業立地数	3	件	honpen p.17-19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+2c3236e53e16a819	kpi	15	target.base	生活の基盤となる町内産業の持続発展	サテライトオフィス等の設置	0	件	honpen p.17-19	✓	auto:ai	2026-10-10	
+638865d8ede4b5fe	kpi	15	target.target	生活の基盤となる町内産業の持続発展	サテライトオフィス等の設置	1	件	honpen p.17-19	✓	auto:ai	2026-10-10	
+0c45bef1741968a2	kpi	15	target.base	生活の基盤となる町内産業の持続発展	サテライトオフィス等施設を利用する企業の数（累計）	0	社・団体	honpen p.17-19	✓	auto:ai	2026-10-10	
+48ca1af6a8bc2dd7	kpi	15	target.target	生活の基盤となる町内産業の持続発展	サテライトオフィス等施設を利用する企業の数（累計）	6	社・団体	honpen p.17-19	✓	auto:ai	2026-10-10	
+f751e553b1ccdb95	kpi	15	target.base	生活の基盤となる町内産業の持続発展	町内企業に勤務する従業員のうち町内居住者の割合	21.5	%	honpen p.17-19	✓	auto:ai	2026-10-10	
+6fbf9da0f631e2f9	kpi	15	target.target	生活の基盤となる町内産業の持続発展	町内企業に勤務する従業員のうち町内居住者の割合	27.0	%	honpen p.17-19	✓	auto:ai	2026-10-10	
+15622dc9b8ab3e9a	kpi	17	target.base	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	観光入込客数（年間）過去3年平均	623900	人	honpen p.20	✓	auto:ai	2026-10-10	
+b3e757fefc62306f	kpi	17	target.target	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	観光入込客数（年間）過去3年平均	650000	人	honpen p.20	✓	auto:ai	2026-10-10	
+4a7f5aad22044633	kpi	17	target.base	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転入者数（住民基本台帳）過去3年平均	777	人	honpen p.20	✓	auto:ai	2026-10-10	
+1b83d19f7553460c	kpi	17	target.target	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転入者数（住民基本台帳）過去3年平均	780	人	honpen p.20	✓	auto:ai	2026-10-10	
+0e65719fef838e71	kpi	17	target.base	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転出者数（住民基本台帳）過去3年平均	760	人	honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d508b8887d5324c2	kpi	17	target.target	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転出者数（住民基本台帳）過去3年平均	710	人	honpen p.20	✓	auto:ai	2026-10-10	
+f0aa7ca0b7037efc	kpi	20	target.base	まちの魅力を活かした賑わいの創出	住宅リフォーム等促進事業による空き家リフォーム助成件数	0	件	honpen p.20-21	✓	auto:ai	2026-10-10	
+14199da7f7826d65	kpi	20	target.target	まちの魅力を活かした賑わいの創出	住宅リフォーム等促進事業による空き家リフォーム助成件数	5	件	honpen p.20-21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+6d4a5770c011e913	kpi	20	target.base	まちの魅力を活かした賑わいの創出	ふるさと応援寄附の返礼品額	1489	千円	honpen p.20-21	✓	auto:ai	2026-10-10	
+dd56fbaf8b85f8ae	kpi	20	target.target	まちの魅力を活かした賑わいの創出	ふるさと応援寄附の返礼品額	9000	千円	honpen p.20-21	✓	auto:ai	2026-10-10	
+4e59ba08d8fb72d5	kpi	20	target.base	まちの魅力を活かした賑わいの創出	観光入込客数（年間）過去3年平均	623900	人	honpen p.20-21	✓	auto:ai	2026-10-10	
+c3b377cd3f0fbc71	kpi	20	target.target	まちの魅力を活かした賑わいの創出	観光入込客数（年間）過去3年平均	650000	人	honpen p.20-21	✓	auto:ai	2026-10-10	
+328bcfeb8a3a8272	kpi	20	target.base	まちの魅力を活かした賑わいの創出	農泊受入人数	3563	人	honpen p.20-21	✓	auto:ai	2026-10-10	
+77620142305cd410	kpi	20	target.target	まちの魅力を活かした賑わいの創出	農泊受入人数	4000	人	honpen p.20-21	✓	auto:ai	2026-10-10	
+3dc965b1bc866999	kpi	22	target.base	居心地のいい都市基盤の整備	町内の公共交通機関の住民1人あたりの年間利用回数	12.8	回/人	honpen p.21-22	✓	auto:ai	2026-10-10	
+442301d386b843ab	kpi	22	target.target	居心地のいい都市基盤の整備	町内の公共交通機関の住民1人あたりの年間利用回数	14.0	回/人	honpen p.21-22	✓	auto:ai	2026-10-10	
+b8f569fde1c11a7b	kpi	22	target.base	居心地のいい都市基盤の整備	定住に関する相談件数	22	件	honpen p.21-22	✓	auto:ai	2026-10-10	
+ca93f4e5fb31663a	kpi	22	target.target	居心地のいい都市基盤の整備	定住に関する相談件数	27	件	honpen p.21-22	✓	auto:ai	2026-10-10	
+8fd813f5735aeae8	kpi	22	target.base	居心地のいい都市基盤の整備	空き家・空き地情報登録制度での移住定住者数（累計）	142	人	honpen p.21-22	✓	auto:ai	2026-10-10	
+cda0ff8e249747f1	kpi	22	target.target	居心地のいい都市基盤の整備	空き家・空き地情報登録制度での移住定住者数（累計）	230	人	honpen p.21-22	✓	auto:ai	2026-10-10	
+32f595a5ed48fe9f	kpi	22	target.base	居心地のいい都市基盤の整備	「日野め～る」の登録者数	3157	人	honpen p.21-22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+4b64b7fe2ba1591a	kpi	22	target.target	居心地のいい都市基盤の整備	「日野め～る」の登録者数	4000	人	honpen p.21-22	✓	auto:ai	2026-10-10	
+e8c7cea708466027	kpi	22	target.base	居心地のいい都市基盤の整備	町ホームページアクセス数	3065615	アクセス	honpen p.21-22	✓	auto:ai	2026-10-10	
+4237b61a5b09e354	kpi	22	target.target	居心地のいい都市基盤の整備	町ホームページアクセス数	4400000	アクセス	honpen p.21-22	✓	auto:ai	2026-10-10	
+51918248c60083a5	kpi	24	target.base	基本目標4 くらしやすい地域を育み、安心して住み続けられるまちをつくる	人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.23	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+f04b15aadc40ad86	kpi	24	target.target	基本目標4 くらしやすい地域を育み、安心して住み続けられるまちをつくる	人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.23	✓	auto:ai	2026-10-10	
+c4f6c10b33822b6a	kpi	26	target.base	住民が主人公の地域形成	まちづくり計画の策定自治会数（累計）	16	自治会	honpen p.23-24	✓	auto:ai	2026-10-10	
+a88a45339bde9c84	kpi	26	target.target	住民が主人公の地域形成	まちづくり計画の策定自治会数（累計）	25	自治会	honpen p.23-24	✓	auto:ai	2026-10-10	
+e133dd9b9638414b	kpi	26	target.base	住民が主人公の地域形成	公民館利用者数	86695	人	honpen p.23-24	✓	auto:ai	2026-10-10	
+d2211870b32896cb	kpi	26	target.target	住民が主人公の地域形成	公民館利用者数	88000	人	honpen p.23-24	✓	auto:ai	2026-10-10	
+a5d5fe0cca568a13	kpi	26	target.base	住民が主人公の地域形成	団体同士の交流の機会の創出（累計）	0	回	honpen p.23-24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+e3003efd1956cb1d	kpi	26	target.target	住民が主人公の地域形成	団体同士の交流の機会の創出（累計）	7	回	honpen p.23-24	✓	auto:ai	2026-10-10	
+8abf5f68dbdd2cb2	kpi	26	target.base	住民が主人公の地域形成	ふるさと応援寄附の寄附者数	197	人	honpen p.23-24	✓	auto:ai	2026-10-10	
+65cdcf31e42b4c86	kpi	26	target.target	住民が主人公の地域形成	ふるさと応援寄附の寄附者数	1200	人	honpen p.23-24	✓	auto:ai	2026-10-10	
+17537aea6ff07ef6	kpi	26	target.base	住民が主人公の地域形成	「語学講座」の受講者数	23	人	honpen p.23-24	✓	auto:ai	2026-10-10	
+3679fc833936c688	kpi	26	target.target	住民が主人公の地域形成	「語学講座」の受講者数	30	人	honpen p.23-24	✓	auto:ai	2026-10-10	
+2a020aa7300f53ad	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人が居場所を通じて就労（福祉就労含む）につながった人数	0	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+a22c1f275b7378f8	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人が居場所を通じて就労（福祉就労含む）につながった人数	3	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+0e40b2ae54d25bb2	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人の居場所を利用する人数	5	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+7af5160e73443c65	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人の居場所を利用する人数	7	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+148f8e7a87bc4c29	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	ボランティアの方が障がいのある方と共同で事業を行う回数	0	回	honpen p.24-26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+e9d7cb0315bdfb9e	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	ボランティアの方が障がいのある方と共同で事業を行う回数	1	回	honpen p.24-26	✓	auto:ai	2026-10-10	
+d6f2bd629060a8e6	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	生活習慣の改善に関心を持っている、または実施している住民の割合（健診アンケートより）	72.6	%	honpen p.24-26	✓	auto:ai	2026-10-10	
+7f90a319d693aaa6	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	生活習慣の改善に関心を持っている、または実施している住民の割合（健診アンケートより）	75.0	%	honpen p.24-26	✓	auto:ai	2026-10-10	
+bf9c78b44c6a3edc	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	特定健診受診率	39.4	%	honpen p.24-26	✓	auto:ai	2026-10-10	
+b6f0b52430380544	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	特定健診受診率	39.9	%	honpen p.24-26	✓	auto:ai	2026-10-10	
+99ed76eef882ad8c	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	高齢者交流サロン開催団体数	14	団体	honpen p.24-26	✓	auto:ai	2026-10-10	
+05dcde2369577a50	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	高齢者交流サロン開催団体数	24	団体	honpen p.24-26	✓	auto:ai	2026-10-10	
+7c0300b1c27ee149	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	介護予防ボランティア養成数（延べ）	319	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+b40dabc3366618fc	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	介護予防ボランティア養成数（延べ）	420	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+2255e4cfc169f506	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	町内グループホームの定員数	29	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+417e75cf9249dd27	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	町内グループホームの定員数	44	人	honpen p.24-26	✓	auto:ai	2026-10-10	
+ea5447cc6032b634	kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	図書館を利用（貸出）した町民の割合	18.4	%	honpen p.24-26	✓	auto:ai	2026-10-10	
+3c12b94a2d8b33f2	kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	図書館を利用（貸出）した町民の割合	19.6	%	honpen p.24-26	✓	auto:ai	2026-10-10	
+358dc8f03b5c5c62	kpi	30	target.base	人と豊かな自然との共生	一日一人あたり可燃ごみ量	495	g	honpen p.26-27	✓	auto:ai	2026-10-10	
+4d411e4733b4e08e	kpi	30	target.target	人と豊かな自然との共生	一日一人あたり可燃ごみ量	474	g	honpen p.26-27	✓	auto:ai	2026-10-10	
+126c4bb1239b662d	kpi	30	target.base	人と豊かな自然との共生	生ごみ処理容器購入件数（年間）	10	台	honpen p.26-27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+7629d72e1fc50b7e	kpi	30	target.target	人と豊かな自然との共生	生ごみ処理容器購入件数（年間）	10	台	honpen p.26-27	✓	auto:ai	2026-10-10	
+d3091529e5df7fd1	kpi	30	target.base	人と豊かな自然との共生	清掃活動の参加人数	250	人	honpen p.26-27	✓	auto:ai	2026-10-10	
+b73c33807ed2e018	kpi	30	target.target	人と豊かな自然との共生	清掃活動の参加人数	300	人	honpen p.26-27	✓	auto:ai	2026-10-10	
+98025d250e6d1f85	kpi	30	target.base	人と豊かな自然との共生	河川愛護事業参加人数	3870	人	honpen p.26-27	✓	auto:ai	2026-10-10	
+30f4d2338f26b6a3	kpi	30	target.target	人と豊かな自然との共生	河川愛護事業参加人数	3700	人	honpen p.26-27	✓	auto:ai	2026-10-10	
+21b573e58d457acc	kpi	33	target.base	災害や危機への備えの強化	刑法犯認知件数	55	件	honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+b5d8cebd543934ab	kpi	33	target.target	災害や危機への備えの強化	刑法犯認知件数	55	件	honpen p.27	✓	auto:ai	2026-10-10	
+a7c63d75a21003b2	kpi	33	target.base	災害や危機への備えの強化	消費相談件数	41	件	honpen p.27	✓	auto:ai	2026-10-10	
+2b5c92cf0589f460	kpi	33	target.target	災害や危機への備えの強化	消費相談件数	45	件	honpen p.27	✓	auto:ai	2026-10-10	
+e7fe15d5363c91d4	kpi	33	target.base	災害や危機への備えの強化	交通事故件数	40	件	honpen p.27	✓	auto:ai	2026-10-10	
+632d746f97069135	kpi	33	target.target	災害や危機への備えの強化	交通事故件数	21	件	honpen p.27	✓	auto:ai	2026-10-10	
+372597f04d4cd234	kpi	33	target.base	災害や危機への備えの強化	消防団団員数	185	人	honpen p.27	✓	auto:ai	2026-10-10	
+4d7e526185ca828b	kpi	33	target.target	災害や危機への備えの強化	消防団団員数	185	人	honpen p.27	✓	auto:ai	2026-10-10	
+c25588183d6a6cde	kpi	33	target.base	災害や危機への備えの強化	自主防災組織の組織数	15	組織	honpen p.27	✓	auto:ai	2026-10-10	
+89b3441b68be909a	kpi	33	target.target	災害や危機への備えの強化	自主防災組織の組織数	25	組織	honpen p.27	✓	auto:ai	2026-10-10	
+8304064a6e9ca0f6	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量S	37		honpen p.2	✓	auto:pdftext	2026-10-10	
+71de5278a01b08f4	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量A	2		honpen p.2	✓	auto:pdftext	2026-10-10	
+25a22058751fc449	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量B	3		honpen p.2	✓	auto:pdftext	2026-10-10	
+1adc0daf6f17ac22	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量C	0		honpen p.2	✓	auto:pdftext	2026-10-10	
+ffe9b99af4e65a4d	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量D	8		honpen p.2	✓	auto:pdftext	2026-10-10	
+2eefe85ef750f310	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+4dc8a6f23d862835	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量S	38		honpen p.2	✓	auto:ai	2026-10-10	
+25bdc47afae1e0f6	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量A	2		honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+e7389330ec0904bb	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量B	3		honpen p.2	✓	auto:ai	2026-10-10	
+3eee95c4bfd34182	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量C	2		honpen p.2	✓	auto:ai	2026-10-10	
+5bf66bb899cb5223	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量D	5		honpen p.2	✓	auto:ai	2026-10-10	
+6e477d626142f7ba	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+1f15d0104283fe12	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量S	32		honpen p.2	✓	auto:ai	2026-10-10	
+62f1267e4399b3c5	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量A	8		honpen p.2	✓	auto:ai	2026-10-10	
+7d98a88381816897	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量B	3		honpen p.2	✓	auto:ai	2026-10-10	
+c06b87e38d5bd046	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量C	3		honpen p.2	✓	auto:ai	2026-10-10	
+b664e5095f27bfc5	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量D	4		honpen p.2	✓	auto:ai	2026-10-10	
+7f9c3a25b6e510a6	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+49bd3367ae5ad9fa	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量S	30		honpen p.2	✓	auto:ai	2026-10-10	
+03c17b27be618bb2	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量A	13		honpen p.2	✓	auto:ai	2026-10-10	
+9d5aa756eb5bb1d1	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量B	3		honpen p.2	✓	auto:ai	2026-10-10	
+97238276cf318a93	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量C	2		honpen p.2	✓	auto:ai	2026-10-10	
+e89b72a778525580	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量D	2		honpen p.2	✓	auto:ai	2026-10-10	
+59b53c93ad389434	kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+c188337b107b2074	kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量S	26		honpen p.2	✓	auto:pdftext	2026-10-10	
+98855e18a806907f	kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量A	14		honpen p.2	✓	auto:pdftext	2026-10-10	
+5c4f20fe544bf333	kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量B	5		honpen p.2	✓	auto:pdftext	2026-10-10	
+3a5b2a9e5a8f8524	kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量C	1		honpen p.2	✓	auto:pdftext	2026-10-10	
+dacad4d61b43dc8a	kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量D	4		honpen p.2	✓	auto:pdftext	2026-10-10	
+91a6cc2e29c4d266	kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+f6e184e0581c25a9	kensho	7	table	取り組み内容の評価（質的検証）	H27/質S	0		honpen p.2	✓	auto:pdftext	2026-10-10	
+fbb95413f7d7722a	kensho	7	table	取り組み内容の評価（質的検証）	H27/質A	0		honpen p.2	✓	auto:pdftext	2026-10-10	
+2dcd50b5693804b4	kensho	7	table	取り組み内容の評価（質的検証）	H27/質B	30		honpen p.2	✓	auto:pdftext	2026-10-10	
+8cb25ee881ba5c36	kensho	7	table	取り組み内容の評価（質的検証）	H27/質C	18		honpen p.2	✓	auto:pdftext	2026-10-10	
+46be7dac4aa14157	kensho	7	table	取り組み内容の評価（質的検証）	H27/質D	2		honpen p.2	✓	auto:pdftext	2026-10-10	
+3585a516a0b6465e	kensho	7	table	取り組み内容の評価（質的検証）	H27/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+5e0b27177f4b699c	kensho	7	table	取り組み内容の評価（質的検証）	H28/質S	0		honpen p.2	✓	auto:ai	2026-10-10	
+964483444eef89ba	kensho	7	table	取り組み内容の評価（質的検証）	H28/質A	0		honpen p.2	✓	auto:ai	2026-10-10	
+eb3c377d6d228223	kensho	7	table	取り組み内容の評価（質的検証）	H28/質B	29		honpen p.2	✓	auto:ai	2026-10-10	
+5e1b7b9eb2abc271	kensho	7	table	取り組み内容の評価（質的検証）	H28/質C	21		honpen p.2	✓	auto:ai	2026-10-10	
+8c8976b46eccc7fc	kensho	7	table	取り組み内容の評価（質的検証）	H28/質D	0		honpen p.2	✓	auto:ai	2026-10-10	
+cf06670336c4e437	kensho	7	table	取り組み内容の評価（質的検証）	H28/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+1c89a498ee41dc20	kensho	7	table	取り組み内容の評価（質的検証）	H29/質S	0		honpen p.2	✓	auto:ai	2026-10-10	
+c4c105496224aaac	kensho	7	table	取り組み内容の評価（質的検証）	H29/質A	1		honpen p.2	✓	auto:ai	2026-10-10	
+f45016d609fa08e1	kensho	7	table	取り組み内容の評価（質的検証）	H29/質B	37		honpen p.2	✓	auto:ai	2026-10-10	
+753ced52a45f15a7	kensho	7	table	取り組み内容の評価（質的検証）	H29/質C	12		honpen p.2	✓	auto:ai	2026-10-10	
+dd52d9efc4f6b022	kensho	7	table	取り組み内容の評価（質的検証）	H29/質D	0		honpen p.2	✓	auto:ai	2026-10-10	
+01a2bb854a5c31d8	kensho	7	table	取り組み内容の評価（質的検証）	H29/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+c5014910c81ec4ce	kensho	7	table	取り組み内容の評価（質的検証）	H30/質S	0		honpen p.2	✓	auto:ai	2026-10-10	
+964c35255a7e95de	kensho	7	table	取り組み内容の評価（質的検証）	H30/質A	1		honpen p.2	✓	auto:ai	2026-10-10	
+f76c5d82eb969508	kensho	7	table	取り組み内容の評価（質的検証）	H30/質B	46		honpen p.2	✓	auto:ai	2026-10-10	
+145116688071e3d8	kensho	7	table	取り組み内容の評価（質的検証）	H30/質C	3		honpen p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+b6c62e2efad747d5	kensho	7	table	取り組み内容の評価（質的検証）	H30/質D	0		honpen p.2	✓	auto:ai	2026-10-10	
+ef26e1f851846fd4	kensho	7	table	取り組み内容の評価（質的検証）	H30/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+626085b821d155f7	kensho	7	table	取り組み内容の評価（質的検証）	R1/質S	0		honpen p.2	✓	auto:pdftext	2026-10-10	
+e6359d26affc704c	kensho	7	table	取り組み内容の評価（質的検証）	R1/質A	2		honpen p.2	✓	auto:pdftext	2026-10-10	
+750868b98955c8fe	kensho	7	table	取り組み内容の評価（質的検証）	R1/質B	47		honpen p.2	✓	auto:pdftext	2026-10-10	
+15c1da57b9f84c74	kensho	7	table	取り組み内容の評価（質的検証）	R1/質C	1		honpen p.2	✓	auto:pdftext	2026-10-10	
+4a8313121938538a	kensho	7	table	取り組み内容の評価（質的検証）	R1/質D	0		honpen p.2	✓	auto:pdftext	2026-10-10	
+32e5c0c00ddd0697	kensho	7	table	取り組み内容の評価（質的検証）	R1/合計	50		honpen p.2	✓	auto:ai	2026-10-10	
+b12644af7771bce1	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/S	0		honpen p.3	✓	auto:pdftext	2026-10-10	
+814363847a4eb38a	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/A	3		honpen p.3	✓	auto:pdftext	2026-10-10	
+89c6e7c9e292f2e9	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/B	6		honpen p.3	✓	auto:pdftext	2026-10-10	
+7376eb2d4a898746	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/C	1		honpen p.3	✓	auto:pdftext	2026-10-10	
+5b34778a139d8c29	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/D	0		honpen p.3	✓	auto:pdftext	2026-10-10	
+f58bb129435d321e	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/合計	10		honpen p.3	✓	auto:ai	2026-10-10	
+d93e98872c6c2841	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+4a4d9d5bccff58e6	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/A	6		honpen p.3	✓	auto:ai	2026-10-10	
+9f6743a93fda9a20	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/B	2		honpen p.3	✓	auto:ai	2026-10-10	
+5570ae601ea8124f	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/C	2		honpen p.3	✓	auto:ai	2026-10-10	
+e023999132634ef1	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+daad3e1352ab0237	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/合計	10		honpen p.3	✓	auto:ai	2026-10-10	
+b3d82d38c2f6c112	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+1b4891b07d11fc71	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/A	6		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+e31e0bdb18834495	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/B	3		honpen p.3	✓	auto:ai	2026-10-10	
+69f2a0a1c13f0f6c	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+5ea260ba5ef1af71	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+3121ea1802ccbf94	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/合計	10		honpen p.3	✓	auto:ai	2026-10-10	
+b991bc348ee19e4b	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+efaf62252de151a1	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/A	4		honpen p.3	✓	auto:ai	2026-10-10	
+45d47952b71649bc	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/B	6		honpen p.3	✓	auto:ai	2026-10-10	
+6aad40cf7f98bf47	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/C	0		honpen p.3	✓	auto:ai	2026-10-10	
+2e741cbba2ee1ae9	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+3f4b616bf0e6eae9	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/合計	10		honpen p.3	✓	auto:ai	2026-10-10	
+3ac8bb6f49384b18	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+2a3235737d5869f4	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/A	5		honpen p.3	✓	auto:ai	2026-10-10	
+c039a9e1e10e280e	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/B	5		honpen p.3	✓	auto:ai	2026-10-10	
+98c3a22f740ae68a	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/C	0		honpen p.3	✓	auto:ai	2026-10-10	
+fdb673782eba53d6	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+646e4ac9aae7418a	kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/合計	10		honpen p.3	✓	auto:ai	2026-10-10	
+3b1f83f285a0a42e	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+3fdcedc67d5c9629	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/A	4		honpen p.3	✓	auto:ai	2026-10-10	
+7ad4e3f233ec016c	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/B	5		honpen p.3	✓	auto:ai	2026-10-10	
+9e4e3a9d9d04cd88	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+4313a8cb85c22e91	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/D	1		honpen p.3	✓	auto:ai	2026-10-10	
+0260600251dd581d	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/合計	11		honpen p.3	✓	auto:ai	2026-10-10	
+3a42382940b5860c	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+8628088530c00100	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/A	7		honpen p.3	✓	auto:ai	2026-10-10	
+8f7fd005f40b1a1d	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/B	3		honpen p.3	✓	auto:ai	2026-10-10	
+0594d9070c450b9c	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/C	1		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+d7321db2f5767e99	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+fe558b4ecd5a4dbc	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/合計	11		honpen p.3	✓	auto:ai	2026-10-10	
+4416ea2cf804520d	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+95b3e7482656a57a	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/A	7		honpen p.3	✓	auto:ai	2026-10-10	
+9e4fed68f75507d8	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/B	3		honpen p.3	✓	auto:ai	2026-10-10	
+75ba22e2e646f17b	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+5ca16b92a9761ab6	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+d682ea5d32b5d13e	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/合計	11		honpen p.3	✓	auto:ai	2026-10-10	
+461a6582fce7a703	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+48f532abf49f6b21	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/A	4		honpen p.3	✓	auto:ai	2026-10-10	
+e03d9d96f062f633	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/B	6		honpen p.3	✓	auto:ai	2026-10-10	
+1e776269ed3905b1	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+ce47f7bdf004c376	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+f1e93e1069854071	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/合計	11		honpen p.3	✓	auto:ai	2026-10-10	
+0cc172d071db66e4	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+417e17e2093a41fe	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/A	5		honpen p.3	✓	auto:ai	2026-10-10	
+6e40d2b7a46fcdcd	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/B	5		honpen p.3	✓	auto:ai	2026-10-10	
+231f3bea0d6bb176	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+7efdb5af2c74b6e5	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+c437d8f3bc49eb00	kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/合計	11		honpen p.3	✓	auto:ai	2026-10-10	
+f0c8c8a646bba23a	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+056a7f6fc66f2e0b	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/A	4		honpen p.3	✓	auto:ai	2026-10-10	
+fee005f51c1f0908	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/B	8		honpen p.3	✓	auto:ai	2026-10-10	
+4216321136b37cc6	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/C	3		honpen p.3	✓	auto:ai	2026-10-10	
+db34780006bcf4e0	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+7e4828ad5370a562	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/合計	15		honpen p.3	✓	auto:ai	2026-10-10	
+67010390e33b5d42	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+df448e8984895d02	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/A	6		honpen p.3	✓	auto:ai	2026-10-10	
+e27e238d61fe565e	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/B	7		honpen p.3	✓	auto:ai	2026-10-10	
+fd8e8d7e688f270c	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/C	2		honpen p.3	✓	auto:ai	2026-10-10	
+0ba0e16af748107e	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/D	0		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+faa3a2c61578a4e2	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/合計	15		honpen p.3	✓	auto:ai	2026-10-10	
+d2601919f923959a	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+bcd61a66115f7747	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/A	6		honpen p.3	✓	auto:ai	2026-10-10	
+33025b0db09914b8	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/B	7		honpen p.3	✓	auto:ai	2026-10-10	
+adfd9ba0bc82113c	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/C	2		honpen p.3	✓	auto:ai	2026-10-10	
+ce30f7153d4f5996	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+0e693c081fc18af1	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/合計	15		honpen p.3	✓	auto:ai	2026-10-10	
+ea8b42e3280cfa01	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+7b37d5ceabb89158	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/A	13		honpen p.3	✓	auto:ai	2026-10-10	
+b736bb1c258329f6	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/B	1		honpen p.3	✓	auto:ai	2026-10-10	
+6a41b292cd80f8b7	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+3f767f82cd3ab7f6	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+4d553b221ec0f5ea	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/合計	15		honpen p.3	✓	auto:ai	2026-10-10	
+4f4b7cf575e32b39	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+ecebba61aedad617	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/A	13		honpen p.3	✓	auto:ai	2026-10-10	
+5c5e935bda55248f	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/B	2		honpen p.3	✓	auto:ai	2026-10-10	
+d435d8f8aad00874	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/C	0		honpen p.3	✓	auto:ai	2026-10-10	
+8f0f0bf84f44c04d	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+8881638307aef365	kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/合計	15		honpen p.3	✓	auto:ai	2026-10-10	
+18ec3739c690b6e5	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+294c2baa6a542eb5	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/A	8		honpen p.3	✓	auto:ai	2026-10-10	
+70cdf697759b7f26	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/B	3		honpen p.3	✓	auto:ai	2026-10-10	
+3d1dc7bd935f4e8f	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/C	3		honpen p.3	✓	auto:ai	2026-10-10	
+b3ec52b09a3156e9	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+3c116c8c15a436d0	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/合計	14		honpen p.3	✓	auto:ai	2026-10-10	
+f6c1a4c7486719e1	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+7104c2de619f85a1	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/A	7		honpen p.3	✓	auto:ai	2026-10-10	
+156f8315b8605ddc	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/B	5		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+7b02981040bedb6b	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/C	2		honpen p.3	✓	auto:ai	2026-10-10	
+70f53066745c8b26	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+469db2be526fabad	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/合計	14		honpen p.3	✓	auto:ai	2026-10-10	
+3c377532571b573d	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+b0af7b67467b410c	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/A	9		honpen p.3	✓	auto:ai	2026-10-10	
+47bda853ed562dc3	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/B	5		honpen p.3	✓	auto:ai	2026-10-10	
+3332f98747a23df9	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/C	0		honpen p.3	✓	auto:ai	2026-10-10	
+1b395c1123b97d2b	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+5720be4f436461f8	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/合計	14		honpen p.3	✓	auto:ai	2026-10-10	
+9ab40dd3c85016f6	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+6744c0772596ca43	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/A	10		honpen p.3	✓	auto:ai	2026-10-10	
+20055791ee80bc71	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/B	4		honpen p.3	✓	auto:ai	2026-10-10	
+6abe2086d1df5bb6	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/C	0		honpen p.3	✓	auto:ai	2026-10-10	
+31fef0431b88da64	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+289ca5ee47fb0138	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/合計	14		honpen p.3	✓	auto:ai	2026-10-10	
+11fe3bdfa5aed560	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+7f653029476e5b21	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/A	13		honpen p.3	✓	auto:ai	2026-10-10	
+602db46126e77d3a	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/B	1		honpen p.3	✓	auto:ai	2026-10-10	
+35b71cd3e4f377bc	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/C	0		honpen p.3	✓	auto:ai	2026-10-10	
+748d0a6a7ab6ea73	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+4dc4853f167de49f	kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/合計	14		honpen p.3	✓	auto:ai	2026-10-10	
+5d165a26aaf0948e	kensho	15	table	総合計（全施策）	H27/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+8d5d60309328b718	kensho	15	table	総合計（全施策）	H27/A	19		honpen p.3	✓	auto:ai	2026-10-10	
+43909f3c636e5f73	kensho	15	table	総合計（全施策）	H27/B	22		honpen p.3	✓	auto:ai	2026-10-10	
+070524c7761c533e	kensho	15	table	総合計（全施策）	H27/C	8		honpen p.3	✓	auto:ai	2026-10-10	
+1c413411f351fdc9	kensho	15	table	総合計（全施策）	H27/D	1		honpen p.3	✓	auto:ai	2026-10-10	
+d225502ffab8af55	kensho	15	table	総合計（全施策）	H27/合計	50		honpen p.3	✓	auto:ai	2026-10-10	
+0f592181fde86c95	kensho	15	table	総合計（全施策）	H28/S	0		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+0bb37ecdebcde32d	kensho	15	table	総合計（全施策）	H28/A	26		honpen p.3	✓	auto:ai	2026-10-10	
+35834efad2851e27	kensho	15	table	総合計（全施策）	H28/B	17		honpen p.3	✓	auto:ai	2026-10-10	
+f1da99eded1e2271	kensho	15	table	総合計（全施策）	H28/C	7		honpen p.3	✓	auto:ai	2026-10-10	
+17cd40456037bb01	kensho	15	table	総合計（全施策）	H28/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+fb940236d801d379	kensho	15	table	総合計（全施策）	H28/合計	50		honpen p.3	✓	auto:ai	2026-10-10	
+65f702444bbad6bf	kensho	15	table	総合計（全施策）	H29/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+99e1ba0061ab5e56	kensho	15	table	総合計（全施策）	H29/A	28		honpen p.3	✓	auto:ai	2026-10-10	
+0851a767d50948f5	kensho	15	table	総合計（全施策）	H29/B	18		honpen p.3	✓	auto:ai	2026-10-10	
+1613a227e85164af	kensho	15	table	総合計（全施策）	H29/C	4		honpen p.3	✓	auto:ai	2026-10-10	
+7b75f9e07317e0fc	kensho	15	table	総合計（全施策）	H29/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+11ae2d84dadf3e35	kensho	15	table	総合計（全施策）	H29/合計	50		honpen p.3	✓	auto:ai	2026-10-10	
+f8b21f850d51150a	kensho	15	table	総合計（全施策）	H30/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+239e8d51583c1319	kensho	15	table	総合計（全施策）	H30/A	31		honpen p.3	✓	auto:ai	2026-10-10	
+0b8850975b803469	kensho	15	table	総合計（全施策）	H30/B	17		honpen p.3	✓	auto:ai	2026-10-10	
+d10f734c6edff01e	kensho	15	table	総合計（全施策）	H30/C	2		honpen p.3	✓	auto:ai	2026-10-10	
+aede1e443ac2bd01	kensho	15	table	総合計（全施策）	H30/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+2cf2ba8e2453f5fb	kensho	15	table	総合計（全施策）	H30/合計	50		honpen p.3	✓	auto:ai	2026-10-10	
+9ac72321d344bda7	kensho	15	table	総合計（全施策）	R1/S	0		honpen p.3	✓	auto:ai	2026-10-10	
+24cbef4193a4db77	kensho	15	table	総合計（全施策）	R1/A	36		honpen p.3	✓	auto:ai	2026-10-10	
+35cb914c909873fb	kensho	15	table	総合計（全施策）	R1/B	13		honpen p.3	✓	auto:ai	2026-10-10	
+d4aa387051b3ce78	kensho	15	table	総合計（全施策）	R1/C	1		honpen p.3	✓	auto:ai	2026-10-10	
+77298caa0ecda520	kensho	15	table	総合計（全施策）	R1/D	0		honpen p.3	✓	auto:ai	2026-10-10	
+8cd616dfb8223307	kensho	15	table	総合計（全施策）	R1/合計	50		honpen p.3	✓	auto:ai	2026-10-10	
+4665d3e31d5ca384	kensho	18	table	創業件数（累計）	基準値/値（件）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+d5bb53dbd8545ca0	kensho	18	table	創業件数（累計）	H27/値（件）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+a58215cdfe280604	kensho	18	table	創業件数（累計）	H28/値（件）	1		honpen p.4-5	✓	auto:ai	2026-10-10	
+44480702caf78926	kensho	18	table	創業件数（累計）	H29/値（件）	1		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+a7ce89a2d1c29315	kensho	18	table	創業件数（累計）	H30/値（件）	2		honpen p.4-5	✓	auto:ai	2026-10-10	
+f41c1f536a4ac49d	kensho	18	table	創業件数（累計）	R1/値（件）	4		honpen p.4-5	✓	auto:ai	2026-10-10	
+471461105bad3c90	kensho	18	table	創業件数（累計）	第1期の目標/値（件）	15		honpen p.4-5	✓	auto:ai	2026-10-10	
+afb966a5490c1227	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	基準値/値（%）	21.2		honpen p.4-5	✓	auto:ai	2026-10-10	
+f27ce8707da93574	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H27/値（%）	26.7		honpen p.4-5	✓	auto:ai	2026-10-10	
+0beeeb0454ce115b	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H28/値（%）	18.7		honpen p.4-5	✓	auto:ai	2026-10-10	
+6115aee7c0e38161	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H29/値（%）	10.0		honpen p.4-5	✓	auto:ai	2026-10-10	
+d86aa44462518ede	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H30/値（%）	23.9		honpen p.4-5	✓	auto:ai	2026-10-10	
+17dd180aeb61fd55	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	R1/値（%）	25.6		honpen p.4-5	✓	auto:ai	2026-10-10	
+f61f0fed59a996b8	kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	第1期の目標/値（%）	30		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+b19cf403e539d1ef	kensho	20	table	観光入込客数（年間）	基準値/値（人）	625667		honpen p.4-5	✓	auto:ai	2026-10-10	
+dc64cdec900f643b	kensho	20	table	観光入込客数（年間）	H27/値（人）	619500		honpen p.4-5	✓	auto:ai	2026-10-10	
+59a7738493511f39	kensho	20	table	観光入込客数（年間）	H28/値（人）	595400		honpen p.4-5	✓	auto:ai	2026-10-10	
+278afa822ddd90b4	kensho	20	table	観光入込客数（年間）	H29/値（人）	569166		honpen p.4-5	✓	auto:ai	2026-10-10	
+239e310013ba451c	kensho	20	table	観光入込客数（年間）	H30/値（人）	573333		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+cee228a9b0c350f6	kensho	20	table	観光入込客数（年間）	R1/値（人）	625166		honpen p.4-5	✓	auto:ai	2026-10-10	
+24e4118900944fa1	kensho	20	table	観光入込客数（年間）	第1期の目標/値（人）	635000		honpen p.4-5	✓	auto:ai	2026-10-10	
+33be8cc6a9cc3011	kensho	21	table	転入者数（住民基本台帳）	基準値/値（人）	678		honpen p.4-5	✓	auto:ai	2026-10-10	
+2753bbc7028f64a8	kensho	21	table	転入者数（住民基本台帳）	H27/値（人）	717		honpen p.4-5	✓	auto:ai	2026-10-10	
+596c4a1edd6d8932	kensho	21	table	転入者数（住民基本台帳）	H28/値（人）	713		honpen p.4-5	✓	auto:ai	2026-10-10	
+d2bcb31f78b5e699	kensho	21	table	転入者数（住民基本台帳）	H29/値（人）	715		honpen p.4-5	✓	auto:ai	2026-10-10	
+3f60705487ec7430	kensho	21	table	転入者数（住民基本台帳）	H30/値（人）	696		honpen p.4-5	✓	auto:ai	2026-10-10	
+262884bccaf0b985	kensho	21	table	転入者数（住民基本台帳）	R1/値（人）	765		honpen p.4-5	✓	auto:ai	2026-10-10	
+1913aca3a8eab031	kensho	21	table	転入者数（住民基本台帳）	第1期の目標/値（人）	730		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+525b0622aa719c2f	kensho	22	table	転出者数（住民基本台帳）	基準値/値（人）	806		honpen p.4-5	✓	auto:ai	2026-10-10	
+a186f84abd131211	kensho	22	table	転出者数（住民基本台帳）	H27/値（人）	843		honpen p.4-5	✓	auto:ai	2026-10-10	
+3982be7d46b6c420	kensho	22	table	転出者数（住民基本台帳）	H28/値（人）	820		honpen p.4-5	✓	auto:ai	2026-10-10	
+8a34c61b586b377b	kensho	22	table	転出者数（住民基本台帳）	H29/値（人）	801		honpen p.4-5	✓	auto:ai	2026-10-10	
+9face506fc6e215e	kensho	22	table	転出者数（住民基本台帳）	H30/値（人）	766		honpen p.4-5	✓	auto:ai	2026-10-10	
+208039660a2ec25e	kensho	22	table	転出者数（住民基本台帳）	R1/値（人）	734		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+992c877fe36fdef7	kensho	22	table	転出者数（住民基本台帳）	第1期の目標/値（人）	710		honpen p.4-5	✓	auto:ai	2026-10-10	
+9e54058ba852e603	kensho	23	table	出生数（住民基本台帳）	基準値/値（人）	180		honpen p.4-5	✓	auto:ai	2026-10-10	
+9f49efe0fa08a2b9	kensho	23	table	出生数（住民基本台帳）	H27/値（人）	174		honpen p.4-5	✓	auto:ai	2026-10-10	
+db336f35a37e148a	kensho	23	table	出生数（住民基本台帳）	H28/値（人）	174		honpen p.4-5	✓	auto:ai	2026-10-10	
+a735246d908444c3	kensho	23	table	出生数（住民基本台帳）	H29/値（人）	159		honpen p.4-5	✓	auto:ai	2026-10-10	
+72cb43aea4fea189	kensho	23	table	出生数（住民基本台帳）	H30/値（人）	156		honpen p.4-5	✓	auto:ai	2026-10-10	
+629d3f84e9331b17	kensho	23	table	出生数（住民基本台帳）	R1/値（人）	160		honpen p.4-5	✓	auto:ai	2026-10-10	
+478035be83d0728a	kensho	23	table	出生数（住民基本台帳）	第1期の目標/値（人）	175		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+c9b946db257b9eee	kensho	24	table	合計特殊出生率	基準値/値	1.59		honpen p.4-5	✓	auto:ai	2026-10-10	
+b9cc4e550912ff77	kensho	24	table	合計特殊出生率	H27/値	1.51		honpen p.4-5	✓	auto:ai	2026-10-10	
+95b062b91c8c6d6f	kensho	24	table	合計特殊出生率	H28/値	1.48		honpen p.4-5	✓	auto:ai	2026-10-10	
+efb9eb60dba1ad6f	kensho	24	table	合計特殊出生率	H29/値	1.38		honpen p.4-5	✓	auto:ai	2026-10-10	
+104caa92650b7210	kensho	24	table	合計特殊出生率	H30/値	1.58		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+332f19bfb60568a1	kensho	24	table	合計特殊出生率	第1期の目標/値	1.62		honpen p.4-5	✓	auto:ai	2026-10-10	
+6d79a2f63a06fa8f	kensho	25	table	人と人をつなぐ場の創出	基準値/値（か所）	0		honpen p.4-5	✓	auto:ai	2026-10-10	
+a3e31aa98062ad5f	kensho	25	table	人と人をつなぐ場の創出	H27/値（か所）	2		honpen p.4-5	✓	auto:ai	2026-10-10	
+6606e0405c55aeef	kensho	25	table	人と人をつなぐ場の創出	H28/値（か所）	5		honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+02121a21f54b568b	kensho	25	table	人と人をつなぐ場の創出	H29/値（か所）	11		honpen p.4-5	✓	auto:ai	2026-10-10	
+4a01ba4abb36be8e	kensho	25	table	人と人をつなぐ場の創出	H30/値（か所）	16		honpen p.4-5	✓	auto:ai	2026-10-10	
+8792d809215efb32	kensho	25	table	人と人をつなぐ場の創出	R1/値（か所）	20		honpen p.4-5	✓	auto:ai	2026-10-10	
+57e4c537e5ca7fce	kensho	25	table	人と人をつなぐ場の創出	第1期の目標/値（か所）	20		honpen p.4-5	✓	auto:ai	2026-10-10	
+1e3fd0a353ec03b3	susume	18	table	文化祭の参加者数	改正前/目標値（人）	4200		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+45c9c9672685f157	susume	18	table	文化祭の参加者数	改正後/目標値（人）	4600		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	
+79d084e23380b000	susume	19	table	ふるさと学習（学校向け出前講座・展示活動等）実施回数	改正前/目標値（回）	11		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	
+070ab59fc6c2e64a	susume	19	table	ふるさと学習（学校向け出前講座・展示活動等）実施回数	改正後/目標値（回）	15		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+544d05ef94675714	susume	20	table	インショップ販売額	改正前/目標値（千円）	30000		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	
+3a1ee347ed865373	susume	20	table	インショップ販売額	改正後/目標値（千円）	30400		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+1b65c6f1c257e6ec	susume	21	table	獣肉販売量	改正前/目標値（kg）	830		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+ce1d01cfdf9e7d68	susume	21	table	獣肉販売量	改正後/目標値（kg）	1200		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	
+c1c8aa32ba3b71f8	susume	22	table	町産木材の搬出量	改正前/目標値（㎥）	2500		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	
+027628fc45c29fe1	susume	22	table	町産木材の搬出量	改正後/目標値（㎥）	2900		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+4543315c5dc95912	susume	23	table	サテライトオフィス等施設を利用する企業の数（累計）	改正後/目標値（社・団体）	6		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+17aa9f6d3af1943d	susume	24	table	まちづくり計画の策定自治会数（累計）	改正前/目標値（自治会）	24		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+5ba8313e13a00d4f	susume	24	table	まちづくり計画の策定自治会数（累計）	改正後/目標値（自治会）	25		r6-3taisyouhyou p.1	✓	auto:ai	2026-10-10	
+e8c9cfec0b85c3e6	susume	25	table	団体同士の交流の機会の創出（累計）	改正前/目標値（回）	5		r6-3taisyouhyou p.2	✓	auto:ai	2026-10-10	
+a26b16d4179af5bf	susume	25	table	団体同士の交流の機会の創出（累計）	改正後/目標値（回）	7		r6-3taisyouhyou p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+c77675fda577da0e	susume	26	table	介護予防ボランティア養成数（延べ）	改正前/目標値（人）	385		r6-3taisyouhyou p.2	✓	auto:ai	2026-10-10	
+8a60c6f3b4e63433	susume	26	table	介護予防ボランティア養成数（延べ）	改正後/目標値（人）	420		r6-3taisyouhyou p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+b647359c7d724f64	susume	27	table	清掃活動の参加人数	改正前/目標値（人）	250		r6-3taisyouhyou p.2	✓	auto:ai	2026-10-10	
+39f88133bc3e5033	susume	27	table	清掃活動の参加人数	改正後/目標値（人）	300		r6-3taisyouhyou p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点

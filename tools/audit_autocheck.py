@@ -314,7 +314,8 @@ def stage1(rows, srcs, only=None):
             res.update(why="原典が画像(文字データがない)"); out[id(r)] = res; continue
         v = canon(r["value"])
         if v not in set().union(*(i["tokens"] for i in infos)):
-            res.update(why="値が文字データにない", h2=True); out[id(r)] = res; continue
+            # 画像で貼られた表・グラフなど。段1は効かないので段2(ページ画像)に回す(2026-10 改定)
+            res.update(why="値が文字データにない"); out[id(r)] = res; continue
         compact = "".join(i["compact"] for i in infos)
         ps = parts(r["label"])
         yr = [part_match(p, compact) for p in ps if year_variants(p) is not None]

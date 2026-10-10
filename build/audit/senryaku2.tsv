@@ -1,0 +1,527 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	kpi		日野町の人口	20975	人	honpen p.7-8
+summary	3	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8
+summary	3	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8
+summary	3	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8
+summary	3	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8
+summary	3	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8
+summary	5	target.base		出生数（住民基本台帳）過去3年平均	149	人	honpen p.14-23
+summary	5	target.target		出生数（住民基本台帳）過去3年平均	170	人	honpen p.14-23
+summary	5	target.base		創業件数（累計）	12	件	honpen p.14-23
+summary	5	target.target		創業件数（累計）	25	件	honpen p.14-23
+summary	5	target.base		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.14-23
+summary	5	target.target		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.14-23
+summary	5	target.base		観光入込客数（年間）過去3年平均	623900	人	honpen p.14-23
+summary	5	target.target		観光入込客数（年間）過去3年平均	650000	人	honpen p.14-23
+summary	5	target.base		転入者数（住民基本台帳）過去3年平均	777	人	honpen p.14-23
+summary	5	target.target		転入者数（住民基本台帳）過去3年平均	780	人	honpen p.14-23
+summary	5	target.base		転出者数（住民基本台帳）過去3年平均	760	人	honpen p.14-23
+summary	5	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23
+summary	5	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23
+summary	5	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23
+jinko	4	chart.line	日野町の人口推移	総人口/大正4	22355	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/大正9	21601	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/大正14	21473	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和5	21931	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和10	21808	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和15	21059	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和22	26524	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和25	26075	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和30	24652	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和35	22992	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和40	21416	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和45	20754	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和50	20913	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和55	21680	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/昭和60	22009	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/平成2	22391	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/平成7	23132	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/平成12	23022	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/平成17	22809	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/平成22	22870	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/平成27	21873	人	honpen p.7
+jinko	4	chart.line	日野町の人口推移	総人口/令和2	20975	人	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/0〜14歳	26.1	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/15〜64歳	64.2	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/65歳以上	9.7	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/0〜14歳	22.2	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/15〜64歳	66.2	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/65歳以上	11.5	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/0〜14歳	20.7	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/15〜64歳	66.5	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/65歳以上	12.8	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/0〜14歳	21.3	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/15〜64歳	64.6	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/65歳以上	14.1	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/0〜14歳	21.4	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/15〜64歳	63.1	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/65歳以上	15.5	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/0〜14歳	20.0	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/15〜64歳	62.7	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/65歳以上	17.3	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/0〜14歳	17.9	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/15〜64歳	62.8	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/65歳以上	19.4	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/0〜14歳	15.7	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/15〜64歳	62.2	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/65歳以上	22.1	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/0〜14歳	14.1	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/15〜64歳	62.5	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/65歳以上	23.4	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/0〜14歳	13.3	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/15〜64歳	62.2	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/65歳以上	24.3	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/0〜14歳	13.0	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/15〜64歳	58.7	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/65歳以上	27.8	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/0〜14歳	12.5	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/15〜64歳	57.1	%	honpen p.7
+jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/65歳以上	30.4	%	honpen p.7
+jinko	9	kpi	将来展望人口	将来展望人口	19500	人	honpen p.8
+jinko	9	kpi	将来展望人口	将来展望人口	16000	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/将来展望人口	20500	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/社人研準拠推計	19989	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/将来展望人口	19799	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/社人研準拠推計	19004	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/将来展望人口	19086	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/社人研準拠推計	17974	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/将来展望人口	18319	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/社人研準拠推計	16862	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/将来展望人口	17508	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/社人研準拠推計	15734	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/将来展望人口	16858	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/社人研準拠推計	14630	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/将来展望人口	16354	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/社人研準拠推計	13535	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/将来展望人口	16027	人	honpen p.8
+jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/社人研準拠推計	12459	人	honpen p.8
+torikumi	6	programs	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	事業数	11	件	honpen p.14-16
+torikumi	10	programs	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	事業数	8	件	honpen p.17-19
+torikumi	14	programs	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	事業数	6	件	honpen p.20-22
+torikumi	18	programs	基本目標4 くらしやすい地域を育み、安心して住み続けられるまちをつくる	事業数	15	件	honpen p.23-27
+kpi	5	target.base	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	出生数（住民基本台帳）過去3年平均	149	人	honpen p.14
+kpi	5	target.target	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	出生数（住民基本台帳）過去3年平均	170	人	honpen p.14
+kpi	8	target.base	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定こども園、子育て支援施設等利用率）	82	%	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定こども園、子育て支援施設等利用率）	85	%	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	保育所等待機児童数	1	件	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	保育所等待機児童数	0	件	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	地域学校協働活動ボランティア登録数	271	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	地域学校協働活動ボランティア登録数	350	人	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	コミュニティ・スクールの実施校数	0	校	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	コミュニティ・スクールの実施校数	6	校	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	ファミリーサポートセンター会員数	272	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	ファミリーサポートセンター会員数	290	人	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	子育てボランティア登録者数	24	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	子育てボランティア登録者数	25	人	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	放課後児童クラブ入所人数	369	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	放課後児童クラブ入所人数	500	人	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	子育てサポーター数	9	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	子育てサポーター数	12	人	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	ミニスポーツ教室参加者数	353	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	ミニスポーツ教室参加者数	350	人	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	カルチャー教室参加者数	172	人	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	カルチャー教室参加者数	170	人	honpen p.14-15
+kpi	11	target.base	生涯にわたる学びと活躍の推進	公民館利用者数	86695	人	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	公民館利用者数	88000	人	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	授業におけるクラス別小学校図書館使用状況（学校司書認知件数）	27	回	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	授業におけるクラス別小学校図書館使用状況（学校司書認知件数）	52	回	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	授業におけるクラス別中学校図書館使用状況（学校司書認知件数）	3.7	回	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	授業におけるクラス別中学校図書館使用状況（学校司書認知件数）	12	回	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	文化祭の参加者数	4000	人	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	文化祭の参加者数	4600	人	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	文化祭の出演者数・出展者数	171	団体	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	文化祭の出演者数・出展者数	180	団体	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	ふるさと学習（学校向け出前講座・展示活動等）実施回数	6	回	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	ふるさと学習（学校向け出前講座・展示活動等）実施回数	15	回	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	ふるさと学習（地域向け講座・学習会等）実施回数	4	回	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	ふるさと学習（地域向け講座・学習会等）実施回数	7	回	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による出産後の女性の復職者の増加数（累計）	8	人	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による出産後の女性の復職者の増加数（累計）	27	人	honpen p.15-16
+kpi	11	target.base	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による新規就労者数（累計）	1	人	honpen p.15-16
+kpi	11	target.target	生涯にわたる学びと活躍の推進	女性活躍支援施設「ぽけっと」における事業による新規就労者数（累計）	27	人	honpen p.15-16
+kpi	13	target.base	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	創業件数（累計）	12	件	honpen p.17
+kpi	13	target.target	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	創業件数（累計）	25	件	honpen p.17
+kpi	13	target.base	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.17
+kpi	13	target.target	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.17
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	人・農地プランの作成集落数	21	集落	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	人・農地プランの作成集落数	25	集落	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	インショップ販売額	26890	千円	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	インショップ販売額	30400	千円	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	日野菜出荷量	42	t	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	日野菜出荷量	56	t	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	獣肉販売量	805	kg	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	獣肉販売量	1200	kg	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	町産木材の搬出量	1380	㎥	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	町産木材の搬出量	2900	㎥	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	おさんぽカード利用ポイント数	473	万ポイント	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	おさんぽカード利用ポイント数	500	万ポイント	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	住宅リフォーム等促進事業における工事費実績額	329	百万円	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	住宅リフォーム等促進事業における工事費実績額	330	百万円	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	創業件数（累計）	12	件	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	創業件数（累計）	25	件	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	新規企業立地数	1	件	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	新規企業立地数	3	件	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	サテライトオフィス等の設置	0	件	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	サテライトオフィス等の設置	1	件	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	サテライトオフィス等施設を利用する企業の数（累計）	0	社・団体	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	サテライトオフィス等施設を利用する企業の数（累計）	6	社・団体	honpen p.17-19
+kpi	15	target.base	生活の基盤となる町内産業の持続発展	町内企業に勤務する従業員のうち町内居住者の割合	21.5	%	honpen p.17-19
+kpi	15	target.target	生活の基盤となる町内産業の持続発展	町内企業に勤務する従業員のうち町内居住者の割合	27.0	%	honpen p.17-19
+kpi	17	target.base	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	観光入込客数（年間）過去3年平均	623900	人	honpen p.20
+kpi	17	target.target	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	観光入込客数（年間）過去3年平均	650000	人	honpen p.20
+kpi	17	target.base	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転入者数（住民基本台帳）過去3年平均	777	人	honpen p.20
+kpi	17	target.target	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転入者数（住民基本台帳）過去3年平均	780	人	honpen p.20
+kpi	17	target.base	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転出者数（住民基本台帳）過去3年平均	760	人	honpen p.20
+kpi	17	target.target	基本目標3 まちの魅力を活かし、交流を育み新しい人の流れをつくる	転出者数（住民基本台帳）過去3年平均	710	人	honpen p.20
+kpi	20	target.base	まちの魅力を活かした賑わいの創出	住宅リフォーム等促進事業による空き家リフォーム助成件数	0	件	honpen p.20-21
+kpi	20	target.target	まちの魅力を活かした賑わいの創出	住宅リフォーム等促進事業による空き家リフォーム助成件数	5	件	honpen p.20-21
+kpi	20	target.base	まちの魅力を活かした賑わいの創出	ふるさと応援寄附の返礼品額	1489	千円	honpen p.20-21
+kpi	20	target.target	まちの魅力を活かした賑わいの創出	ふるさと応援寄附の返礼品額	9000	千円	honpen p.20-21
+kpi	20	target.base	まちの魅力を活かした賑わいの創出	観光入込客数（年間）過去3年平均	623900	人	honpen p.20-21
+kpi	20	target.target	まちの魅力を活かした賑わいの創出	観光入込客数（年間）過去3年平均	650000	人	honpen p.20-21
+kpi	20	target.base	まちの魅力を活かした賑わいの創出	農泊受入人数	3563	人	honpen p.20-21
+kpi	20	target.target	まちの魅力を活かした賑わいの創出	農泊受入人数	4000	人	honpen p.20-21
+kpi	22	target.base	居心地のいい都市基盤の整備	町内の公共交通機関の住民1人あたりの年間利用回数	12.8	回/人	honpen p.21-22
+kpi	22	target.target	居心地のいい都市基盤の整備	町内の公共交通機関の住民1人あたりの年間利用回数	14.0	回/人	honpen p.21-22
+kpi	22	target.base	居心地のいい都市基盤の整備	定住に関する相談件数	22	件	honpen p.21-22
+kpi	22	target.target	居心地のいい都市基盤の整備	定住に関する相談件数	27	件	honpen p.21-22
+kpi	22	target.base	居心地のいい都市基盤の整備	空き家・空き地情報登録制度での移住定住者数（累計）	142	人	honpen p.21-22
+kpi	22	target.target	居心地のいい都市基盤の整備	空き家・空き地情報登録制度での移住定住者数（累計）	230	人	honpen p.21-22
+kpi	22	target.base	居心地のいい都市基盤の整備	「日野め～る」の登録者数	3157	人	honpen p.21-22
+kpi	22	target.target	居心地のいい都市基盤の整備	「日野め～る」の登録者数	4000	人	honpen p.21-22
+kpi	22	target.base	居心地のいい都市基盤の整備	町ホームページアクセス数	3065615	アクセス	honpen p.21-22
+kpi	22	target.target	居心地のいい都市基盤の整備	町ホームページアクセス数	4400000	アクセス	honpen p.21-22
+kpi	24	target.base	基本目標4 くらしやすい地域を育み、安心して住み続けられるまちをつくる	人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.23
+kpi	24	target.target	基本目標4 くらしやすい地域を育み、安心して住み続けられるまちをつくる	人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.23
+kpi	26	target.base	住民が主人公の地域形成	まちづくり計画の策定自治会数（累計）	16	自治会	honpen p.23-24
+kpi	26	target.target	住民が主人公の地域形成	まちづくり計画の策定自治会数（累計）	25	自治会	honpen p.23-24
+kpi	26	target.base	住民が主人公の地域形成	公民館利用者数	86695	人	honpen p.23-24
+kpi	26	target.target	住民が主人公の地域形成	公民館利用者数	88000	人	honpen p.23-24
+kpi	26	target.base	住民が主人公の地域形成	団体同士の交流の機会の創出（累計）	0	回	honpen p.23-24
+kpi	26	target.target	住民が主人公の地域形成	団体同士の交流の機会の創出（累計）	7	回	honpen p.23-24
+kpi	26	target.base	住民が主人公の地域形成	ふるさと応援寄附の寄附者数	197	人	honpen p.23-24
+kpi	26	target.target	住民が主人公の地域形成	ふるさと応援寄附の寄附者数	1200	人	honpen p.23-24
+kpi	26	target.base	住民が主人公の地域形成	「語学講座」の受講者数	23	人	honpen p.23-24
+kpi	26	target.target	住民が主人公の地域形成	「語学講座」の受講者数	30	人	honpen p.23-24
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人が居場所を通じて就労（福祉就労含む）につながった人数	0	人	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人が居場所を通じて就労（福祉就労含む）につながった人数	3	人	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人の居場所を利用する人数	5	人	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	ひきこもってしまった人の居場所を利用する人数	7	人	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	ボランティアの方が障がいのある方と共同で事業を行う回数	0	回	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	ボランティアの方が障がいのある方と共同で事業を行う回数	1	回	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	生活習慣の改善に関心を持っている、または実施している住民の割合（健診アンケートより）	72.6	%	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	生活習慣の改善に関心を持っている、または実施している住民の割合（健診アンケートより）	75.0	%	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	特定健診受診率	39.4	%	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	特定健診受診率	39.9	%	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	高齢者交流サロン開催団体数	14	団体	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	高齢者交流サロン開催団体数	24	団体	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	介護予防ボランティア養成数（延べ）	319	人	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	介護予防ボランティア養成数（延べ）	420	人	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	町内グループホームの定員数	29	人	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	町内グループホームの定員数	44	人	honpen p.24-26
+kpi	28	target.base	健やかで思いやりのある地域共生社会の形成	図書館を利用（貸出）した町民の割合	18.4	%	honpen p.24-26
+kpi	28	target.target	健やかで思いやりのある地域共生社会の形成	図書館を利用（貸出）した町民の割合	19.6	%	honpen p.24-26
+kpi	30	target.base	人と豊かな自然との共生	一日一人あたり可燃ごみ量	495	g	honpen p.26-27
+kpi	30	target.target	人と豊かな自然との共生	一日一人あたり可燃ごみ量	474	g	honpen p.26-27
+kpi	30	target.base	人と豊かな自然との共生	生ごみ処理容器購入件数（年間）	10	台	honpen p.26-27
+kpi	30	target.target	人と豊かな自然との共生	生ごみ処理容器購入件数（年間）	10	台	honpen p.26-27
+kpi	30	target.base	人と豊かな自然との共生	清掃活動の参加人数	250	人	honpen p.26-27
+kpi	30	target.target	人と豊かな自然との共生	清掃活動の参加人数	300	人	honpen p.26-27
+kpi	30	target.base	人と豊かな自然との共生	河川愛護事業参加人数	3870	人	honpen p.26-27
+kpi	30	target.target	人と豊かな自然との共生	河川愛護事業参加人数	3700	人	honpen p.26-27
+kpi	33	target.base	災害や危機への備えの強化	刑法犯認知件数	55	件	honpen p.27
+kpi	33	target.target	災害や危機への備えの強化	刑法犯認知件数	55	件	honpen p.27
+kpi	33	target.base	災害や危機への備えの強化	消費相談件数	41	件	honpen p.27
+kpi	33	target.target	災害や危機への備えの強化	消費相談件数	45	件	honpen p.27
+kpi	33	target.base	災害や危機への備えの強化	交通事故件数	40	件	honpen p.27
+kpi	33	target.target	災害や危機への備えの強化	交通事故件数	21	件	honpen p.27
+kpi	33	target.base	災害や危機への備えの強化	消防団団員数	185	人	honpen p.27
+kpi	33	target.target	災害や危機への備えの強化	消防団団員数	185	人	honpen p.27
+kpi	33	target.base	災害や危機への備えの強化	自主防災組織の組織数	15	組織	honpen p.27
+kpi	33	target.target	災害や危機への備えの強化	自主防災組織の組織数	25	組織	honpen p.27
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量S	37		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量A	2		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量B	3		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量C	0		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/量D	8		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H27/合計	50		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量S	38		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量A	2		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量B	3		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量C	2		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/量D	5		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H28/合計	50		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量S	32		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量A	8		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量B	3		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量C	3		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/量D	4		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H29/合計	50		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量S	30		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量A	13		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量B	3		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量C	2		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/量D	2		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	H30/合計	50		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量S	26		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量A	14		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量B	5		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量C	1		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/量D	4		honpen p.2
+kensho	4	table	数値目標（KPI）の達成度（量的検証）	R1/合計	50		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H27/質S	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H27/質A	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H27/質B	30		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H27/質C	18		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H27/質D	2		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H27/合計	50		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H28/質S	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H28/質A	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H28/質B	29		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H28/質C	21		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H28/質D	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H28/合計	50		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H29/質S	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H29/質A	1		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H29/質B	37		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H29/質C	12		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H29/質D	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H29/合計	50		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H30/質S	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H30/質A	1		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H30/質B	46		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H30/質C	3		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H30/質D	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	H30/合計	50		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	R1/質S	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	R1/質A	2		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	R1/質B	47		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	R1/質C	1		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	R1/質D	0		honpen p.2
+kensho	7	table	取り組み内容の評価（質的検証）	R1/合計	50		honpen p.2
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/S	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/A	3		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/B	6		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/C	1		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/D	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H27/合計	10		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/S	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/A	6		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/B	2		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/C	2		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/D	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H28/合計	10		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/S	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/A	6		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/B	3		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/C	1		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/D	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H29/合計	10		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/S	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/A	4		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/B	6		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/C	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/D	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	H30/合計	10		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/S	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/A	5		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/B	5		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/C	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/D	0		honpen p.3
+kensho	11	table	第1期 基本目標1 まちのたからで雇用を創る	R1/合計	10		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/S	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/A	4		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/B	5		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/C	1		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/D	1		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H27/合計	11		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/S	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/A	7		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/B	3		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/C	1		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/D	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H28/合計	11		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/S	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/A	7		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/B	3		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/C	1		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/D	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H29/合計	11		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/S	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/A	4		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/B	6		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/C	1		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/D	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	H30/合計	11		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/S	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/A	5		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/B	5		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/C	1		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/D	0		honpen p.3
+kensho	12	table	第1期 基本目標2 出会いと発見で人の流れを作る	R1/合計	11		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/S	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/A	4		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/B	8		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/C	3		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/D	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H27/合計	15		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/S	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/A	6		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/B	7		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/C	2		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/D	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H28/合計	15		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/S	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/A	6		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/B	7		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/C	2		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/D	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H29/合計	15		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/S	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/A	13		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/B	1		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/C	1		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/D	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	H30/合計	15		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/S	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/A	13		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/B	2		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/C	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/D	0		honpen p.3
+kensho	13	table	第1期 基本目標3 結婚・出産・子育ての希望をみんなで支えてかなえる	R1/合計	15		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/S	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/A	8		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/B	3		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/C	3		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/D	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H27/合計	14		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/S	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/A	7		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/B	5		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/C	2		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/D	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H28/合計	14		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/S	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/A	9		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/B	5		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/C	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/D	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H29/合計	14		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/S	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/A	10		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/B	4		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/C	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/D	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	H30/合計	14		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/S	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/A	13		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/B	1		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/C	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/D	0		honpen p.3
+kensho	14	table	第1期 基本目標4 くらしやすい地域とつながり、安心して住み続けられるまちをつくる	R1/合計	14		honpen p.3
+kensho	15	table	総合計（全施策）	H27/S	0		honpen p.3
+kensho	15	table	総合計（全施策）	H27/A	19		honpen p.3
+kensho	15	table	総合計（全施策）	H27/B	22		honpen p.3
+kensho	15	table	総合計（全施策）	H27/C	8		honpen p.3
+kensho	15	table	総合計（全施策）	H27/D	1		honpen p.3
+kensho	15	table	総合計（全施策）	H27/合計	50		honpen p.3
+kensho	15	table	総合計（全施策）	H28/S	0		honpen p.3
+kensho	15	table	総合計（全施策）	H28/A	26		honpen p.3
+kensho	15	table	総合計（全施策）	H28/B	17		honpen p.3
+kensho	15	table	総合計（全施策）	H28/C	7		honpen p.3
+kensho	15	table	総合計（全施策）	H28/D	0		honpen p.3
+kensho	15	table	総合計（全施策）	H28/合計	50		honpen p.3
+kensho	15	table	総合計（全施策）	H29/S	0		honpen p.3
+kensho	15	table	総合計（全施策）	H29/A	28		honpen p.3
+kensho	15	table	総合計（全施策）	H29/B	18		honpen p.3
+kensho	15	table	総合計（全施策）	H29/C	4		honpen p.3
+kensho	15	table	総合計（全施策）	H29/D	0		honpen p.3
+kensho	15	table	総合計（全施策）	H29/合計	50		honpen p.3
+kensho	15	table	総合計（全施策）	H30/S	0		honpen p.3
+kensho	15	table	総合計（全施策）	H30/A	31		honpen p.3
+kensho	15	table	総合計（全施策）	H30/B	17		honpen p.3
+kensho	15	table	総合計（全施策）	H30/C	2		honpen p.3
+kensho	15	table	総合計（全施策）	H30/D	0		honpen p.3
+kensho	15	table	総合計（全施策）	H30/合計	50		honpen p.3
+kensho	15	table	総合計（全施策）	R1/S	0		honpen p.3
+kensho	15	table	総合計（全施策）	R1/A	36		honpen p.3
+kensho	15	table	総合計（全施策）	R1/B	13		honpen p.3
+kensho	15	table	総合計（全施策）	R1/C	1		honpen p.3
+kensho	15	table	総合計（全施策）	R1/D	0		honpen p.3
+kensho	15	table	総合計（全施策）	R1/合計	50		honpen p.3
+kensho	18	table	創業件数（累計）	基準値/値（件）	0		honpen p.4-5
+kensho	18	table	創業件数（累計）	H27/値（件）	1		honpen p.4-5
+kensho	18	table	創業件数（累計）	H28/値（件）	1		honpen p.4-5
+kensho	18	table	創業件数（累計）	H29/値（件）	1		honpen p.4-5
+kensho	18	table	創業件数（累計）	H30/値（件）	2		honpen p.4-5
+kensho	18	table	創業件数（累計）	R1/値（件）	4		honpen p.4-5
+kensho	18	table	創業件数（累計）	第1期の目標/値（件）	15		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	基準値/値（%）	21.2		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H27/値（%）	26.7		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H28/値（%）	18.7		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H29/値（%）	10.0		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	H30/値（%）	23.9		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	R1/値（%）	25.6		honpen p.4-5
+kensho	19	table	町内企業への新規学卒就職者の町内在住者比率	第1期の目標/値（%）	30		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	基準値/値（人）	625667		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	H27/値（人）	619500		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	H28/値（人）	595400		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	H29/値（人）	569166		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	H30/値（人）	573333		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	R1/値（人）	625166		honpen p.4-5
+kensho	20	table	観光入込客数（年間）	第1期の目標/値（人）	635000		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	基準値/値（人）	678		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	H27/値（人）	717		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	H28/値（人）	713		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	H29/値（人）	715		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	H30/値（人）	696		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	R1/値（人）	765		honpen p.4-5
+kensho	21	table	転入者数（住民基本台帳）	第1期の目標/値（人）	730		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	基準値/値（人）	806		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	H27/値（人）	843		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	H28/値（人）	820		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	H29/値（人）	801		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	H30/値（人）	766		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	R1/値（人）	734		honpen p.4-5
+kensho	22	table	転出者数（住民基本台帳）	第1期の目標/値（人）	710		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	基準値/値（人）	180		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	H27/値（人）	174		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	H28/値（人）	174		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	H29/値（人）	159		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	H30/値（人）	156		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	R1/値（人）	160		honpen p.4-5
+kensho	23	table	出生数（住民基本台帳）	第1期の目標/値（人）	175		honpen p.4-5
+kensho	24	table	合計特殊出生率	基準値/値	1.59		honpen p.4-5
+kensho	24	table	合計特殊出生率	H27/値	1.51		honpen p.4-5
+kensho	24	table	合計特殊出生率	H28/値	1.48		honpen p.4-5
+kensho	24	table	合計特殊出生率	H29/値	1.38		honpen p.4-5
+kensho	24	table	合計特殊出生率	H30/値	1.58		honpen p.4-5
+kensho	24	table	合計特殊出生率	第1期の目標/値	1.62		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	基準値/値（か所）	0		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	H27/値（か所）	2		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	H28/値（か所）	5		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	H29/値（か所）	11		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	H30/値（か所）	16		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	R1/値（か所）	20		honpen p.4-5
+kensho	25	table	人と人をつなぐ場の創出	第1期の目標/値（か所）	20		honpen p.4-5
+susume	18	table	文化祭の参加者数	改正前/目標値（人）	4200		r6-3taisyouhyou p.1
+susume	18	table	文化祭の参加者数	改正後/目標値（人）	4600		r6-3taisyouhyou p.1
+susume	19	table	ふるさと学習（学校向け出前講座・展示活動等）実施回数	改正前/目標値（回）	11		r6-3taisyouhyou p.1
+susume	19	table	ふるさと学習（学校向け出前講座・展示活動等）実施回数	改正後/目標値（回）	15		r6-3taisyouhyou p.1
+susume	20	table	インショップ販売額	改正前/目標値（千円）	30000		r6-3taisyouhyou p.1
+susume	20	table	インショップ販売額	改正後/目標値（千円）	30400		r6-3taisyouhyou p.1
+susume	21	table	獣肉販売量	改正前/目標値（kg）	830		r6-3taisyouhyou p.1
+susume	21	table	獣肉販売量	改正後/目標値（kg）	1200		r6-3taisyouhyou p.1
+susume	22	table	町産木材の搬出量	改正前/目標値（㎥）	2500		r6-3taisyouhyou p.1
+susume	22	table	町産木材の搬出量	改正後/目標値（㎥）	2900		r6-3taisyouhyou p.1
+susume	23	table	サテライトオフィス等施設を利用する企業の数（累計）	改正後/目標値（社・団体）	6		r6-3taisyouhyou p.1
+susume	24	table	まちづくり計画の策定自治会数（累計）	改正前/目標値（自治会）	24		r6-3taisyouhyou p.1
+susume	24	table	まちづくり計画の策定自治会数（累計）	改正後/目標値（自治会）	25		r6-3taisyouhyou p.1
+susume	25	table	団体同士の交流の機会の創出（累計）	改正前/目標値（回）	5		r6-3taisyouhyou p.2
+susume	25	table	団体同士の交流の機会の創出（累計）	改正後/目標値（回）	7		r6-3taisyouhyou p.2
+susume	26	table	介護予防ボランティア養成数（延べ）	改正前/目標値（人）	385		r6-3taisyouhyou p.2
+susume	26	table	介護予防ボランティア養成数（延べ）	改正後/目標値（人）	420		r6-3taisyouhyou p.2
+susume	27	table	清掃活動の参加人数	改正前/目標値（人）	250		r6-3taisyouhyou p.2
+susume	27	table	清掃活動の参加人数	改正後/目標値（人）	300		r6-3taisyouhyou p.2

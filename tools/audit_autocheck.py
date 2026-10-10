@@ -495,6 +495,8 @@ def cmd_ai_record(pid, fa, fb):
             continue
         if a["判定"] == b["判定"] == "一致" and a["確信度"] == b["確信度"] == "高":
             L.update(checked="✓", reviewer="auto:ai", date=today); ok += 1
+            if L["note"].startswith(FOCUS + "H1"):   # やり直しで一致になった行は、前回の H1 の印を外す
+                L["note"] = ""
         else:
             why = f"A={a['判定']}/{a['確信度']} B={b['判定']}/{b['確信度']}"
             L["note"] = f"{FOCUS}H1 {why}"; h1 += 1

@@ -13,6 +13,8 @@
   python3 tools/audit_worksheet.py <id>                  # 2) ワークシート生成
   python3 tools/audit_worksheet.py <id> --import <file>  # 5) エクスポートを検証して台帳へ反映
   python3 tools/audit_worksheet.py <id> --sync           # キー以外の列(block_no 等)だけ変わったとき台帳を合わせる
+  python3 tools/audit_worksheet.py <id> --reconcile      # 値を直してキーが変わったとき: 同じキーの行は印を引き継ぎ、
+                                                         #   新しいキーの行は未検収で加え、消えたキーの行は捨てる
   python3 tools/audit_worksheet.py <id> --focus          # 「要人確認:」の行だけのワークシート(ADR-7 補遺 L の段4)
 
 突合キー(ADR-7 補遺 B): hash(tab, btype, block_label, label, value, unit, source)。
@@ -383,7 +385,7 @@ def cmd_sync(pid):
     missing, extra = cur_keys - led_keys, led_keys - cur_keys
     if missing or extra:
         raise AuditError(f"台帳の行が今の照合表と一致しません: 台帳に無い {len(missing)} 行・"
-                         f"照合表に無い {len(extra)} 行。値が変わった場合は --sync ではなく作り直しの手順で")
+                         f"照合表に無い {len(extra)} 行。値を直してキーが変わった場合は --reconcile で")
     by_key = {r["key"]: r for r in led}
     rows = []
     changed = 0
@@ -399,6 +401,31 @@ def cmd_sync(pid):
     print(f"OK  {ledger_path(pid)}  (列を更新した行 {changed}・検収済み {n} / {len(rows)} 行はそのまま)")
 
 
+def cmd_reconcile(pid):
+    """値を直して照合キーが変わったあと、台帳を今の照合表に合わせる。
+    キーが同じ行は検収の印(checked・reviewer・date・note)を引き継ぎ、照合表由来の列は今の値にする。
+    新しいキーの行は未検収で加える。照合表から消えたキーの行は捨てる(件数を表示する)。
+    捨てた行の印は戻らないので、使うのは値を直したときだけにする(ADR-7 補遺 L)。"""
+    current = read_audit(pid)
+    led = read_ledger(pid)
+    by_key = {r["key"]: r for r in led}
+    cur_keys = {r["key"] for r in current}
+    rows, kept, added = [], 0, 0
+    for r in current:
+        old = by_key.get(r["key"])
+        if old is None:
+            rows.append(dict(r, checked="", reviewer="", date="", note="")); added += 1
+        else:
+            new = dict(old)
+            for c in AUDIT_COLS:
+                new[c] = r[c]
+            rows.append(new); kept += 1
+    dropped = sum(1 for r in led if r["key"] not in cur_keys)
+    write_ledger(pid, rows)
+    n = sum(1 for r in rows if r["checked"] == "✓")
+    print(f"OK  {ledger_path(pid)}  (引き継ぎ {kept}・未検収で追加 {added}・捨てた行 {dropped}・検収済み {n} / {len(rows)} 行)")
+
+
 def main(argv):
     if len(argv) < 2:
         print(__doc__)
@@ -409,6 +436,8 @@ def main(argv):
             cmd_init(pid)
         elif "--sync" in argv:
             cmd_sync(pid)
+        elif "--reconcile" in argv:
+            cmd_reconcile(pid)
         elif "--import" in argv:
             i = argv.index("--import")
             if i + 1 >= len(argv):

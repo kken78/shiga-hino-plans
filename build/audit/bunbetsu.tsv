@@ -1,0 +1,176 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	2	kpi		容器包装廃棄物の排出量の見込み	1202.2	t	honpen p.2
+summary	2	kpi		容器包装廃棄物の排出量の見込み	1160.6	t	honpen p.2
+summary	2	kpi		製品プラスチックの排出量の見込み	40.9	t	honpen p.2
+summary	2	kpi		製品プラスチックの排出量の見込み	39.4	t	honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	容器包装廃棄物/R8	1202.2		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	容器包装廃棄物/R9	1191.7		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	容器包装廃棄物/R10	1181.2		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	容器包装廃棄物/R11	1170.9		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	容器包装廃棄物/R12	1160.6		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	製品プラスチック/R8	40.9		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	製品プラスチック/R9	40.5		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	製品プラスチック/R10	40.1		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	製品プラスチック/R11	39.8		honpen p.2
+mikomi	3	table	排出量の見込み（容器包装廃棄物・製品プラスチック）	製品プラスチック/R12	39.4		honpen p.2
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	ペットボトル	51.7	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	段ボール製の容器	46.1	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	無色のガラス製容器	44.2	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	茶色のガラス製容器	40.4	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	その他のガラス製容器	16.4	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	スチール製の容器	13.1	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	アルミ製の容器	9.7	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	飲料用紙容器（紙パック）	3.3	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	その他のプラスチック製容器包装	0.2	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	その他の紙製容器包装	0	t	honpen p.4
+mikomi	5	chart.rank	令和8年度の分別収集の見込み量（品目別・多い順）	製品プラスチック	0	t	honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	スチール製の容器/R8	13.1		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	スチール製の容器/R9	13.01		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	スチール製の容器/R10	12.9		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	スチール製の容器/R11	12.8		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	スチール製の容器/R12	12.7		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	アルミ製の容器/R8	9.7		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	アルミ製の容器/R9	9.7		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	アルミ製の容器/R10	9.6		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	アルミ製の容器/R11	9.5		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	アルミ製の容器/R12	9.4		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	無色のガラス製容器/R8	44.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	無色のガラス製容器/R9	43.8		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	無色のガラス製容器/R10	43.4		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	無色のガラス製容器/R11	43.0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	無色のガラス製容器/R12	42.7		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	茶色のガラス製容器/R8	40.4		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	茶色のガラス製容器/R9	40.1		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	茶色のガラス製容器/R10	39.7		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	茶色のガラス製容器/R11	39.4		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	茶色のガラス製容器/R12	39.0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のガラス製容器/R8	16.4		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のガラス製容器/R9	16.3		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のガラス製容器/R10	16.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のガラス製容器/R11	16.0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のガラス製容器/R12	15.9		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	飲料用紙容器（紙パック）/R8	3.3		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	飲料用紙容器（紙パック）/R9	3.3		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	飲料用紙容器（紙パック）/R10	3.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	飲料用紙容器（紙パック）/R11	3.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	飲料用紙容器（紙パック）/R12	3.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	段ボール製の容器/R8	46.1		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	段ボール製の容器/R9	45.6		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	段ボール製の容器/R10	45.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	段ボール製の容器/R11	44.9		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	段ボール製の容器/R12	44.5		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他の紙製容器包装/R8	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他の紙製容器包装/R9	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他の紙製容器包装/R10	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他の紙製容器包装/R11	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他の紙製容器包装/R12	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	ペットボトル（PET製の容器）/R8	51.7		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	ペットボトル（PET製の容器）/R9	51.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	ペットボトル（PET製の容器）/R10	50.8		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	ペットボトル（PET製の容器）/R11	50.3		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	ペットボトル（PET製の容器）/R12	49.9		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のプラスチック製容器包装/R8	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のプラスチック製容器包装/R9	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のプラスチック製容器包装/R10	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のプラスチック製容器包装/R11	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	その他のプラスチック製容器包装/R12	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	うち白色トレイ/R8	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	うち白色トレイ/R9	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	うち白色トレイ/R10	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	うち白色トレイ/R11	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	うち白色トレイ/R12	0.2		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	製品プラスチック/R8	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	製品プラスチック/R9	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	製品プラスチック/R10	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	製品プラスチック/R11	0		honpen p.4
+mikomi	6	table	品目ごとの分別収集の見込み量（合計）	製品プラスチック/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 引渡量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 引渡量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 引渡量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 引渡量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 引渡量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 独自処理量/R8	44.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 独自処理量/R9	43.8		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 独自処理量/R10	43.4		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 独自処理量/R11	43.0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	無色のガラス製容器 独自処理量/R12	42.7		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 引渡量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 引渡量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 引渡量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 引渡量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 引渡量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 独自処理量/R8	40.4		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 独自処理量/R9	40.1		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 独自処理量/R10	39.7		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 独自処理量/R11	39.4		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	茶色のガラス製容器 独自処理量/R12	39.0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 引渡量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 引渡量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 引渡量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 引渡量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 引渡量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 独自処理量/R8	16.4		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 独自処理量/R9	16.3		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 独自処理量/R10	16.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 独自処理量/R11	16.0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のガラス製容器 独自処理量/R12	15.9		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 引渡量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 引渡量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 引渡量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 引渡量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 引渡量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 独自処理量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 独自処理量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 独自処理量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 独自処理量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他の紙製容器包装 独自処理量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 引渡量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 引渡量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 引渡量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 引渡量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 引渡量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 独自処理量/R8	51.7		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 独自処理量/R9	51.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 独自処理量/R10	50.8		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 独自処理量/R11	50.3		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	ペットボトル 独自処理量/R12	49.9		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 引渡量/R8	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 引渡量/R9	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 引渡量/R10	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 引渡量/R11	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 引渡量/R12	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 独自処理量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 独自処理量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 独自処理量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 独自処理量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	その他のプラスチック製容器包装 独自処理量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 引渡量/R8	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 引渡量/R9	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 引渡量/R10	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 引渡量/R11	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 引渡量/R12	0.2		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 独自処理量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 独自処理量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 独自処理量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 独自処理量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	うち白色トレイ 独自処理量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 引渡量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 引渡量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 引渡量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 引渡量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 引渡量/R12	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 独自処理量/R8	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 独自処理量/R9	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 独自処理量/R10	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 独自処理量/R11	0		honpen p.4
+mikomi	7	table	引渡量と独自処理量の内訳	製品プラスチック 独自処理量/R12	0		honpen p.4
+mikomi	10	table	見込みの算定方法	人口（人）/R8	20023		honpen p.5
+mikomi	10	table	見込みの算定方法	人口（人）/R9	19848		honpen p.5
+mikomi	10	table	見込みの算定方法	人口（人）/R10	19674		honpen p.5
+mikomi	10	table	見込みの算定方法	人口（人）/R11	19502		honpen p.5
+mikomi	10	table	見込みの算定方法	人口（人）/R12	19331		honpen p.5
+mikomi	10	table	見込みの算定方法	対前年度比の減少率（%）/R8	0.875		honpen p.5
+mikomi	10	table	見込みの算定方法	対前年度比の減少率（%）/R9	0.875		honpen p.5
+mikomi	10	table	見込みの算定方法	対前年度比の減少率（%）/R10	0.875		honpen p.5
+mikomi	10	table	見込みの算定方法	対前年度比の減少率（%）/R11	0.875		honpen p.5
+mikomi	10	table	見込みの算定方法	対前年度比の減少率（%）/R12	0.878		honpen p.5

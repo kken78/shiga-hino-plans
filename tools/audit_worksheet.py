@@ -12,6 +12,7 @@
   python3 tools/audit_worksheet.py <id> --init           # 1) 台帳のベースライン作成(初回のみ)
   python3 tools/audit_worksheet.py <id>                  # 2) ワークシート生成
   python3 tools/audit_worksheet.py <id> --import <file>  # 5) エクスポートを検証して台帳へ反映
+  python3 tools/audit_worksheet.py <id> --sync           # キー以外の列(block_no 等)だけ変わったとき台帳を合わせる
 
 突合キー(ADR-7 補遺 B): hash(tab, btype, block_label, label, value, unit, source)。
 block_no は位置を示すだけの非キー列。値が訂正されるとキーが変わり、その行は
@@ -346,6 +347,33 @@ refresh();
 """
 
 
+def cmd_sync(pid):
+    """照合キーが同じ行について、台帳の照合表由来の列(block_no など)を今の照合表に合わせる。
+    検収の印(checked・reviewer・date・note)はそのまま。キーに含まれない列だけが変わったとき
+    (例: 文章ブロックを足してブロック番号がずれたとき)に使う。行の過不足があれば止まる。"""
+    current = read_audit(pid)
+    led = read_ledger(pid)
+    cur_keys = {r["key"] for r in current}
+    led_keys = {r["key"] for r in led}
+    missing, extra = cur_keys - led_keys, led_keys - cur_keys
+    if missing or extra:
+        raise AuditError(f"台帳の行が今の照合表と一致しません: 台帳に無い {len(missing)} 行・"
+                         f"照合表に無い {len(extra)} 行。値が変わった場合は --sync ではなく作り直しの手順で")
+    by_key = {r["key"]: r for r in led}
+    rows = []
+    changed = 0
+    for r in current:
+        old = by_key[r["key"]]
+        new = dict(old)
+        for c in AUDIT_COLS:
+            new[c] = r[c]
+        changed += any(old[c] != new[c] for c in AUDIT_COLS)
+        rows.append(new)
+    write_ledger(pid, rows)
+    n = sum(1 for r in rows if r["checked"] == "✓")
+    print(f"OK  {ledger_path(pid)}  (列を更新した行 {changed}・検収済み {n} / {len(rows)} 行はそのまま)")
+
+
 def main(argv):
     if len(argv) < 2:
         print(__doc__)
@@ -354,6 +382,8 @@ def main(argv):
     try:
         if "--init" in argv:
             cmd_init(pid)
+        elif "--sync" in argv:
+            cmd_sync(pid)
         elif "--import" in argv:
             i = argv.index("--import")
             if i + 1 >= len(argv):

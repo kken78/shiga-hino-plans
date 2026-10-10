@@ -7,15 +7,15 @@ ad79d02122d2e5db	summary	2	kpi		待機児童数	3	人	honpen p.9				要人確認
 eb0711f3cc53991e	summary	3	kpi		町立施設の施設面積計	6318	㎡	honpen p.33	✓	auto:ai	2026-10-10	
 6de697b8c6ccdb96	summary	3	kpi		再編後の施設面積計	4525	㎡	honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 729042a58f048152	summary	3	kpi		新設の幼保連携型認定こども園	3000	㎡	honpen p.33				要人確認:H1 A=一致/中 B=一致/中
-ecbc6b297b50b4ea	saihen	4	table	町立幼児教育保育施設の再編整備について	西大路幼稚園/延床面積(㎡)	531		honpen p.25				要人確認:H2 値が文字データにない
-ef3d15f82db4cc9e	saihen	4	table	町立幼児教育保育施設の再編整備について	こばと園/延床面積(㎡)	810		honpen p.25				要人確認:H2 値が文字データにない
-d05eb1f8c4f15f21	saihen	4	table	町立幼児教育保育施設の再編整備について	あおぞら園鎌掛分園/延床面積(㎡)	408		honpen p.25				要人確認:H2 値が文字データにない
-d9ebac790ee7d43f	saihen	4	table	町立幼児教育保育施設の再編整備について	南比都佐幼稚園/延床面積(㎡)	676		honpen p.25				要人確認:H2 値が文字データにない
-8afeb25048bf813e	saihen	4	table	町立幼児教育保育施設の再編整備について	あおぞら園/延床面積(㎡)	706		honpen p.25				要人確認:H2 値が文字データにない
-dec46577c64c0289	saihen	4	table	町立幼児教育保育施設の再編整備について	日野幼稚園/延床面積(㎡)	1043		honpen p.25				要人確認:H2 値が文字データにない
-5eb297d2db5f8f37	saihen	4	table	町立幼児教育保育施設の再編整備について	必佐幼稚園/延床面積(㎡)	1160		honpen p.25				要人確認:H2 値が文字データにない
-09386395c093a310	saihen	4	table	町立幼児教育保育施設の再編整備について	桜谷こども園 第1園舎(旧幼稚園)/延床面積(㎡)	469		honpen p.25				要人確認:H2 値が文字データにない
-c7f498885d891efa	saihen	4	table	町立幼児教育保育施設の再編整備について	桜谷こども園 第2園舎(旧保育所)/延床面積(㎡)	515		honpen p.25				要人確認:H2 値が文字データにない
+ecbc6b297b50b4ea	saihen	4	table	町立幼児教育保育施設の再編整備について	西大路幼稚園/延床面積(㎡)	531		honpen p.25	✓	auto:ai	2026-10-10	
+ef3d15f82db4cc9e	saihen	4	table	町立幼児教育保育施設の再編整備について	こばと園/延床面積(㎡)	810		honpen p.25	✓	auto:ai	2026-10-10	
+d05eb1f8c4f15f21	saihen	4	table	町立幼児教育保育施設の再編整備について	あおぞら園鎌掛分園/延床面積(㎡)	408		honpen p.25	✓	auto:ai	2026-10-10	
+d9ebac790ee7d43f	saihen	4	table	町立幼児教育保育施設の再編整備について	南比都佐幼稚園/延床面積(㎡)	676		honpen p.25	✓	auto:ai	2026-10-10	
+8afeb25048bf813e	saihen	4	table	町立幼児教育保育施設の再編整備について	あおぞら園/延床面積(㎡)	706		honpen p.25	✓	auto:ai	2026-10-10	
+dec46577c64c0289	saihen	4	table	町立幼児教育保育施設の再編整備について	日野幼稚園/延床面積(㎡)	1043		honpen p.25	✓	auto:ai	2026-10-10	
+5eb297d2db5f8f37	saihen	4	table	町立幼児教育保育施設の再編整備について	必佐幼稚園/延床面積(㎡)	1160		honpen p.25	✓	auto:ai	2026-10-10	
+09386395c093a310	saihen	4	table	町立幼児教育保育施設の再編整備について	桜谷こども園 第1園舎(旧幼稚園)/延床面積(㎡)	469		honpen p.25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+c7f498885d891efa	saihen	4	table	町立幼児教育保育施設の再編整備について	桜谷こども園 第2園舎(旧保育所)/延床面積(㎡)	515		honpen p.25	✓	auto:ai	2026-10-10	
 4c6cc2473e9eeb28	saihen	5	figure	施設ごとの整備方針	日野町幼稚園・保育園・認定こども園 配置図(令和6年9月30日時点)	youho_map.jpg		honpen p.22				要人確認:H2 数値でない
 f745a33cda08bbe7	schedule	4	timeline	施設ごとの移行の時期	全施設で地区説明会・保護者説明会を実施	R6		honpen p.32				要人確認:H2 数値でない
 a472de268fa270ee	schedule	4	timeline	施設ごとの移行の時期	保育所あおぞら園鎌掛分園: 民間運営による地域型保育(小規模保育事業)施設として開設	R7		honpen p.32				要人確認:H2 数値でない

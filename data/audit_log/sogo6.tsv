@@ -1,85 +1,85 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-de79942d9da01b76	summary	2	kpi		将来展望人口(令和12年)	19500	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-cfb0da87ace206ae	summary	2	kpi		将来展望人口(令和42年)	16000	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-1f6d56017414a9d6	summary	2	kpi		社人研準拠推計の人口(令和42年)	12459	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-9fb22fc01c394c1a	summary	3	kpi		総人口	20975	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-7311737bcb70a0ec	summary	3	kpi		65歳以上の人口の割合	30.4	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-44d574e81e0df7ab	summary	3	kpi		0〜14歳の人口の割合	12.5	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-42ccebb8597648bd	jinko	2	chart.bars	日野町の人口の推移	T4	22355	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-b4253587eaefe120	jinko	2	chart.bars	日野町の人口の推移	T9	21601	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-8cd15c4863773ea4	jinko	2	chart.bars	日野町の人口の推移	T14	21473	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-169d25dbca61097e	jinko	2	chart.bars	日野町の人口の推移	S5	21931	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-1f9080820c937a83	jinko	2	chart.bars	日野町の人口の推移	S10	21808	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-8ec2175865b31e5d	jinko	2	chart.bars	日野町の人口の推移	S15	21059	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-47ff29a4af37e6c1	jinko	2	chart.bars	日野町の人口の推移	S22	26524	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-3dee67193a2da9da	jinko	2	chart.bars	日野町の人口の推移	S25	26075	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-bd10c5f7d113c914	jinko	2	chart.bars	日野町の人口の推移	S30	24652	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-3b77c1e1fa8e9adf	jinko	2	chart.bars	日野町の人口の推移	S35	22992	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-2af00140b0c94a53	jinko	2	chart.bars	日野町の人口の推移	S40	21416	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-0f36e26882929605	jinko	2	chart.bars	日野町の人口の推移	S45	20754	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-d02fb84e6a839aec	jinko	2	chart.bars	日野町の人口の推移	S50	20913	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-30a2d585d415a7a3	jinko	2	chart.bars	日野町の人口の推移	S55	21680	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-d9080fb4c0d64309	jinko	2	chart.bars	日野町の人口の推移	S60	22009	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-e4f0c1b3b63952fd	jinko	2	chart.bars	日野町の人口の推移	H2	22391	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-96729298a8627d43	jinko	2	chart.bars	日野町の人口の推移	H7	23132	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-b4fac58688664efe	jinko	2	chart.bars	日野町の人口の推移	H12	23022	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-30959d22f1c9e146	jinko	2	chart.bars	日野町の人口の推移	H17	22809	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-7ef02206c87812ef	jinko	2	chart.bars	日野町の人口の推移	H22	22870	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-05855273b3ee21c5	jinko	2	chart.bars	日野町の人口の推移	H27	21873	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-23792d85b93c673b	jinko	2	chart.bars	日野町の人口の推移	R2	20975	人	honpen-02 p.3				要人確認:H2 値が文字データにない
-b64c99e8624bbcaa	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/0〜14歳	26.1	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-cd9cf1d22294a0c2	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/15〜64歳	64.2	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-78c2e9bf0c51e498	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/65歳以上	9.7	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-81312377bcdb7480	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S45/0〜14歳	22.2	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-6130e3d237c9bf7a	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S45/15〜64歳	66.2	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-64cc73aee75725c3	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S45/65歳以上	11.5	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-549a6b537a8fdca9	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S50/0〜14歳	20.7	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-b19d92232e61ac35	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S50/15〜64歳	66.5	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-ee8c64540e6191fb	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S50/65歳以上	12.8	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-accb1c05cdab1f2e	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S55/0〜14歳	21.3	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-3eaa05625b2d88e3	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S55/15〜64歳	64.6	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-db4d242084ddbd57	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S55/65歳以上	14.1	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-2063ff2ec7a0bc15	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S60/0〜14歳	21.4	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-8016859377d9e64d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S60/15〜64歳	63.1	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-e3bf0ae9d78c618e	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S60/65歳以上	15.5	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-2e173c99805d7695	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H2/0〜14歳	20.0	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-d5e97c7b4c4c148f	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H2/15〜64歳	62.7	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-a0050ee8e3282dac	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H2/65歳以上	17.3	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-59c7351d3be851db	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/0〜14歳	17.9	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-636a38a33cb1112d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/15〜64歳	62.8	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-a7e4ea9bb2f94188	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/65歳以上	19.4	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-40ad81a4bd4436ff	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/0〜14歳	15.7	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-09175f92cafb26bc	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/15〜64歳	62.2	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-9ac51eebb474c195	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/65歳以上	22.1	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-3acde4cb7cf64b84	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/0〜14歳	14.1	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-c63f126c19bc102a	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/15〜64歳	62.5	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-c18e7ab515fc452d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/65歳以上	23.4	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-f730c5f6c3e66285	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H22/0〜14歳	13.3	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-7aa0715ba5bbf49d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H22/15〜64歳	62.2	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-8e2bef384f3346c5	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H22/65歳以上	24.3	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-1b5e46e77a1781a1	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H27/0〜14歳	13.0	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-f8bc23a65f49c646	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H27/15〜64歳	58.7	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-7dd8e32ef36876cb	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H27/65歳以上	27.8	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-527336f546d16735	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	R2/0〜14歳	12.5	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-4717315f81a4cea2	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	R2/15〜64歳	57.1	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-1a807276d370f6af	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	R2/65歳以上	30.4	%	honpen-02 p.3				要人確認:H2 値が文字データにない
-891c8a3e62ab9bed	jinko	5	chart.pair	日野町の人口の将来展望	R7/将来展望人口	20500	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-1e7c62206eae2531	jinko	5	chart.pair	日野町の人口の将来展望	R7/社人研準拠推計	19989	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-c162f8923fb1d614	jinko	5	chart.pair	日野町の人口の将来展望	R12/将来展望人口	19799	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-cd6531527b366859	jinko	5	chart.pair	日野町の人口の将来展望	R12/社人研準拠推計	19004	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-f11cc48ec73c7cd3	jinko	5	chart.pair	日野町の人口の将来展望	R17/将来展望人口	19086	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-91dfadbf60fdf2e4	jinko	5	chart.pair	日野町の人口の将来展望	R17/社人研準拠推計	17974	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-3d97e5ddd99d645d	jinko	5	chart.pair	日野町の人口の将来展望	R22/将来展望人口	18319	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-3b9b333c9b44d403	jinko	5	chart.pair	日野町の人口の将来展望	R22/社人研準拠推計	16862	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-b658e3ca76a1f51d	jinko	5	chart.pair	日野町の人口の将来展望	R27/将来展望人口	17508	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-9d7a3f42bdee9b91	jinko	5	chart.pair	日野町の人口の将来展望	R27/社人研準拠推計	15734	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-6c5f8af89919e993	jinko	5	chart.pair	日野町の人口の将来展望	R32/将来展望人口	16858	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-1e69870e5bf195d8	jinko	5	chart.pair	日野町の人口の将来展望	R32/社人研準拠推計	14630	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-9c91b81f503ebad7	jinko	5	chart.pair	日野町の人口の将来展望	R37/将来展望人口	16354	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-910f13a7c095e1a5	jinko	5	chart.pair	日野町の人口の将来展望	R37/社人研準拠推計	13535	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-83012570ae4f5b5c	jinko	5	chart.pair	日野町の人口の将来展望	R42/将来展望人口	16027	人	honpen-02 p.4				要人確認:H2 値が文字データにない
-e7989c89caa06b6d	jinko	5	chart.pair	日野町の人口の将来展望	R42/社人研準拠推計	12459	人	honpen-02 p.4				要人確認:H2 値が文字データにない
+de79942d9da01b76	summary	2	kpi		将来展望人口(令和12年)	19500	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+cfb0da87ace206ae	summary	2	kpi		将来展望人口(令和42年)	16000	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+1f6d56017414a9d6	summary	2	kpi		社人研準拠推計の人口(令和42年)	12459	人	honpen-02 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+9fb22fc01c394c1a	summary	3	kpi		総人口	20975	人	honpen-02 p.3				要人確認:H1 A=一致/中 B=一致/高
+7311737bcb70a0ec	summary	3	kpi		65歳以上の人口の割合	30.4	%	honpen-02 p.3				要人確認:H1 A=一致/中 B=一致/高
+44d574e81e0df7ab	summary	3	kpi		0〜14歳の人口の割合	12.5	%	honpen-02 p.3				要人確認:H1 A=一致/中 B=一致/高
+42ccebb8597648bd	jinko	2	chart.bars	日野町の人口の推移	T4	22355	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+b4253587eaefe120	jinko	2	chart.bars	日野町の人口の推移	T9	21601	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+8cd15c4863773ea4	jinko	2	chart.bars	日野町の人口の推移	T14	21473	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+169d25dbca61097e	jinko	2	chart.bars	日野町の人口の推移	S5	21931	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+1f9080820c937a83	jinko	2	chart.bars	日野町の人口の推移	S10	21808	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+8ec2175865b31e5d	jinko	2	chart.bars	日野町の人口の推移	S15	21059	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+47ff29a4af37e6c1	jinko	2	chart.bars	日野町の人口の推移	S22	26524	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+3dee67193a2da9da	jinko	2	chart.bars	日野町の人口の推移	S25	26075	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+bd10c5f7d113c914	jinko	2	chart.bars	日野町の人口の推移	S30	24652	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+3b77c1e1fa8e9adf	jinko	2	chart.bars	日野町の人口の推移	S35	22992	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+2af00140b0c94a53	jinko	2	chart.bars	日野町の人口の推移	S40	21416	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+0f36e26882929605	jinko	2	chart.bars	日野町の人口の推移	S45	20754	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+d02fb84e6a839aec	jinko	2	chart.bars	日野町の人口の推移	S50	20913	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+30a2d585d415a7a3	jinko	2	chart.bars	日野町の人口の推移	S55	21680	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+d9080fb4c0d64309	jinko	2	chart.bars	日野町の人口の推移	S60	22009	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+e4f0c1b3b63952fd	jinko	2	chart.bars	日野町の人口の推移	H2	22391	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+96729298a8627d43	jinko	2	chart.bars	日野町の人口の推移	H7	23132	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+b4fac58688664efe	jinko	2	chart.bars	日野町の人口の推移	H12	23022	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+30959d22f1c9e146	jinko	2	chart.bars	日野町の人口の推移	H17	22809	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+7ef02206c87812ef	jinko	2	chart.bars	日野町の人口の推移	H22	22870	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+05855273b3ee21c5	jinko	2	chart.bars	日野町の人口の推移	H27	21873	人	honpen-02 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+23792d85b93c673b	jinko	2	chart.bars	日野町の人口の推移	R2	20975	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
+b64c99e8624bbcaa	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/0〜14歳	26.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+cd9cf1d22294a0c2	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/15〜64歳	64.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+78c2e9bf0c51e498	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/65歳以上	9.7	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+81312377bcdb7480	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S45/0〜14歳	22.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+6130e3d237c9bf7a	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S45/15〜64歳	66.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+64cc73aee75725c3	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S45/65歳以上	11.5	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+549a6b537a8fdca9	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S50/0〜14歳	20.7	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+b19d92232e61ac35	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S50/15〜64歳	66.5	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+ee8c64540e6191fb	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S50/65歳以上	12.8	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+accb1c05cdab1f2e	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S55/0〜14歳	21.3	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+3eaa05625b2d88e3	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S55/15〜64歳	64.6	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+db4d242084ddbd57	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S55/65歳以上	14.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+2063ff2ec7a0bc15	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S60/0〜14歳	21.4	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+8016859377d9e64d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S60/15〜64歳	63.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+e3bf0ae9d78c618e	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S60/65歳以上	15.5	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+2e173c99805d7695	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H2/0〜14歳	20.0	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+d5e97c7b4c4c148f	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H2/15〜64歳	62.7	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+a0050ee8e3282dac	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H2/65歳以上	17.3	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+59c7351d3be851db	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/0〜14歳	17.9	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+636a38a33cb1112d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/15〜64歳	62.8	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+a7e4ea9bb2f94188	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/65歳以上	19.4	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+40ad81a4bd4436ff	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/0〜14歳	15.7	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+09175f92cafb26bc	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/15〜64歳	62.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+9ac51eebb474c195	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/65歳以上	22.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+3acde4cb7cf64b84	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/0〜14歳	14.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+c63f126c19bc102a	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/15〜64歳	62.5	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+c18e7ab515fc452d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/65歳以上	23.4	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+f730c5f6c3e66285	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H22/0〜14歳	13.3	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+7aa0715ba5bbf49d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H22/15〜64歳	62.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+8e2bef384f3346c5	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H22/65歳以上	24.3	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+1b5e46e77a1781a1	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H27/0〜14歳	13.0	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+f8bc23a65f49c646	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H27/15〜64歳	58.7	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+7dd8e32ef36876cb	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H27/65歳以上	27.8	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+527336f546d16735	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	R2/0〜14歳	12.5	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+4717315f81a4cea2	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	R2/15〜64歳	57.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+1a807276d370f6af	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	R2/65歳以上	30.4	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
+891c8a3e62ab9bed	jinko	5	chart.pair	日野町の人口の将来展望	R7/将来展望人口	20500	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+1e7c62206eae2531	jinko	5	chart.pair	日野町の人口の将来展望	R7/社人研準拠推計	19989	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+c162f8923fb1d614	jinko	5	chart.pair	日野町の人口の将来展望	R12/将来展望人口	19799	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+cd6531527b366859	jinko	5	chart.pair	日野町の人口の将来展望	R12/社人研準拠推計	19004	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+f11cc48ec73c7cd3	jinko	5	chart.pair	日野町の人口の将来展望	R17/将来展望人口	19086	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+91dfadbf60fdf2e4	jinko	5	chart.pair	日野町の人口の将来展望	R17/社人研準拠推計	17974	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+3d97e5ddd99d645d	jinko	5	chart.pair	日野町の人口の将来展望	R22/将来展望人口	18319	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+3b9b333c9b44d403	jinko	5	chart.pair	日野町の人口の将来展望	R22/社人研準拠推計	16862	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+b658e3ca76a1f51d	jinko	5	chart.pair	日野町の人口の将来展望	R27/将来展望人口	17508	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+9d7a3f42bdee9b91	jinko	5	chart.pair	日野町の人口の将来展望	R27/社人研準拠推計	15734	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+6c5f8af89919e993	jinko	5	chart.pair	日野町の人口の将来展望	R32/将来展望人口	16858	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+1e69870e5bf195d8	jinko	5	chart.pair	日野町の人口の将来展望	R32/社人研準拠推計	14630	人	honpen-02 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+9c91b81f503ebad7	jinko	5	chart.pair	日野町の人口の将来展望	R37/将来展望人口	16354	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+910f13a7c095e1a5	jinko	5	chart.pair	日野町の人口の将来展望	R37/社人研準拠推計	13535	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+83012570ae4f5b5c	jinko	5	chart.pair	日野町の人口の将来展望	R42/将来展望人口	16027	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
+e7989c89caa06b6d	jinko	5	chart.pair	日野町の人口の将来展望	R42/社人研準拠推計	12459	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 724f7d394cbe37e0	kousou	7	bigstat	これからのまちづくりに向けた5つの課題	第5次総合計画の内部評価で「C:達成に向けて実施している」の評価が占めた割合	83.6	%	honpen-01 p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 6b32d5c16c7dddca	kousou	9	programs	将来像を実現するための10の政策	事業数	10	件	honpen-02 p.7-15				要人確認:H2 出典が4ページ以上(集計した値)
 4a6119bc255aac73	kousou	11	programs	5つの政策の柱と34の分野	事業数	34	件	honpen-03 p.2-3				要人確認:H1 A=一致/中 B=一致/中
@@ -431,231 +431,231 @@ be170e25482b89e4	mokuhyo	74	table	㉞ 財政基盤	町税収納率(滞納繰越�
 0018936adeb2441a	suishin	2	timeline	計画の期間と進め方	基本構想(10年間)	R3〜R12		honpen-01 p.9				要人確認:H2 数値でない
 ebf6e38491d53bb9	suishin	2	timeline	計画の期間と進め方	基本計画(5年間。5年後に計画の進捗と時代の変化を踏まえて見直す)	R3〜R7		honpen-01 p.9				要人確認:H2 数値でない
 4822d2339f2ecf13	suishin	2	timeline	計画の期間と進め方	見直し後の基本計画(原典の図による)	R8〜R12		honpen-01 p.9				要人確認:H2 数値でない
-58e28aaa4a1efcd0	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H12/歳入	880	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-149065325bc24618	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H12/歳出	859	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-0801281322a47236	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H15/歳入	801	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-c5e15d75952454e8	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H15/歳出	777	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-36cf43b39a02a743	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H18/歳入	745	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-221f14800370952d	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H18/歳出	720	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-b1ff4b5752b014da	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳入	862	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-05e949345e6e3961	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳出	825	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-44a443f96cab7a83	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H24/歳入	862	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-b15707e75a18074c	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H24/歳出	821	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-6bbda1f353dd43cf	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H25/歳入	1032	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-9afd4e48927e5fc3	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H25/歳出	993	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-f25d50b42ab16d1b	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H26/歳入	896	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-4f64a86e54e9a521	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H26/歳出	849	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-1f7dac75f9706a73	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H27/歳入	865	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-6f08d40ed5201fc1	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H27/歳出	822	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-332e44ee5e4150bb	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H28/歳入	918	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-eac3e573d31bde8d	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H28/歳出	860	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-1670aa70bb5f64cd	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H29/歳入	921	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-8c4acae9bf37b99a	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H29/歳出	876	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-fac6484281ef49bd	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H30/歳入	948	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-c5c865e18b0a19bb	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H30/歳出	897	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-6544d55daf4031c0	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	R1/歳入	964	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-85355c3365b8e42f	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	R1/歳出	914	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
+58e28aaa4a1efcd0	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H12/歳入	880	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+149065325bc24618	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H12/歳出	859	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+0801281322a47236	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H15/歳入	801	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+c5e15d75952454e8	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H15/歳出	777	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+36cf43b39a02a743	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H18/歳入	745	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+221f14800370952d	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H18/歳出	720	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+b1ff4b5752b014da	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳入	862	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+05e949345e6e3961	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳出	825	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+44a443f96cab7a83	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H24/歳入	862	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+b15707e75a18074c	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H24/歳出	821	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+6bbda1f353dd43cf	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H25/歳入	1032	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+9afd4e48927e5fc3	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H25/歳出	993	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+f25d50b42ab16d1b	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H26/歳入	896	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+4f64a86e54e9a521	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H26/歳出	849	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+1f7dac75f9706a73	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H27/歳入	865	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+6f08d40ed5201fc1	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H27/歳出	822	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+332e44ee5e4150bb	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H28/歳入	918	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+eac3e573d31bde8d	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H28/歳出	860	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+1670aa70bb5f64cd	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H29/歳入	921	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+8c4acae9bf37b99a	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H29/歳出	876	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+fac6484281ef49bd	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H30/歳入	948	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+c5c865e18b0a19bb	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H30/歳出	897	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+6544d55daf4031c0	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	R1/歳入	964	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+85355c3365b8e42f	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	R1/歳出	914	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 9b2926dde8783838	suishin	9	chart.bars	歳入歳出差引	H12	21	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 e9678dd5d9066c9b	suishin	9	chart.bars	歳入歳出差引	H15	24	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 c93c85a79e1706ac	suishin	9	chart.bars	歳入歳出差引	H18	25	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
-a84f4be55771e8c5	suishin	9	chart.bars	歳入歳出差引	H21	37	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-e88a6cef845b5de2	suishin	9	chart.bars	歳入歳出差引	H24	41	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
+a84f4be55771e8c5	suishin	9	chart.bars	歳入歳出差引	H21	37	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+e88a6cef845b5de2	suishin	9	chart.bars	歳入歳出差引	H24	41	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 0a6c846c2d78f62f	suishin	9	chart.bars	歳入歳出差引	H25	40	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-4cb6ff6b096dae9a	suishin	9	chart.bars	歳入歳出差引	H26	47	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-d015cfb0a1571cc5	suishin	9	chart.bars	歳入歳出差引	H27	43	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-5cb5f88ef360c504	suishin	9	chart.bars	歳入歳出差引	H28	58	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-f772fdd77ead29bb	suishin	9	chart.bars	歳入歳出差引	H29	45	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-0d3afc67513f1836	suishin	9	chart.bars	歳入歳出差引	H30	52	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
+4cb6ff6b096dae9a	suishin	9	chart.bars	歳入歳出差引	H26	47	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+d015cfb0a1571cc5	suishin	9	chart.bars	歳入歳出差引	H27	43	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+5cb5f88ef360c504	suishin	9	chart.bars	歳入歳出差引	H28	58	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+f772fdd77ead29bb	suishin	9	chart.bars	歳入歳出差引	H29	45	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+0d3afc67513f1836	suishin	9	chart.bars	歳入歳出差引	H30	52	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 83bfde55275be7a2	suishin	9	chart.bars	歳入歳出差引	R1	50	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
-c5f9159005e46021	suishin	10	chart.stacked	義務的経費の傾向	H12/人件費	176	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
+c5f9159005e46021	suishin	10	chart.stacked	義務的経費の傾向	H12/人件費	176	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 59a3b7466c47cbdf	suishin	10	chart.stacked	義務的経費の傾向	H12/扶助費	40	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-c2adbb252bc6689d	suishin	10	chart.stacked	義務的経費の傾向	H12/公債費	121	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-cdc56698d44a8bda	suishin	10	chart.stacked	義務的経費の傾向	H15/人件費	174	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-f980c33c9f5d4e9d	suishin	10	chart.stacked	義務的経費の傾向	H15/扶助費	63	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-fb493b57dfcbb6ec	suishin	10	chart.stacked	義務的経費の傾向	H15/公債費	96	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-3e3007ce18afacb2	suishin	10	chart.stacked	義務的経費の傾向	H18/人件費	155	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-eaf94d459118e5cd	suishin	10	chart.stacked	義務的経費の傾向	H18/扶助費	72	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-f35e9b897edc0e47	suishin	10	chart.stacked	義務的経費の傾向	H18/公債費	78	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-53d5fff6a20b4905	suishin	10	chart.stacked	義務的経費の傾向	H21/人件費	148	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-709257e35500cf69	suishin	10	chart.stacked	義務的経費の傾向	H21/扶助費	83	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-f18dc218e6e26767	suishin	10	chart.stacked	義務的経費の傾向	H21/公債費	80	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-3c41c3c179bd7e58	suishin	10	chart.stacked	義務的経費の傾向	H24/人件費	154	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-c8afbfa4e0268e38	suishin	10	chart.stacked	義務的経費の傾向	H24/扶助費	120	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-7755a2f6e79975bf	suishin	10	chart.stacked	義務的経費の傾向	H24/公債費	62	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-5628d3b9106850c0	suishin	10	chart.stacked	義務的経費の傾向	H25/人件費	146	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-74162bb88fd58fa2	suishin	10	chart.stacked	義務的経費の傾向	H25/扶助費	122	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-c484f283d48266c2	suishin	10	chart.stacked	義務的経費の傾向	H25/公債費	61	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-bb9e6b5fcc07009d	suishin	10	chart.stacked	義務的経費の傾向	H26/人件費	156	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-55a47e84ccfa2101	suishin	10	chart.stacked	義務的経費の傾向	H26/扶助費	140	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-3e6cf319ae098950	suishin	10	chart.stacked	義務的経費の傾向	H26/公債費	56	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-3e9f427f64a07b66	suishin	10	chart.stacked	義務的経費の傾向	H27/人件費	153	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-bb135d74375b7d90	suishin	10	chart.stacked	義務的経費の傾向	H27/扶助費	146	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-e09e18413a933cf1	suishin	10	chart.stacked	義務的経費の傾向	H27/公債費	59	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-15c9c69df8859320	suishin	10	chart.stacked	義務的経費の傾向	H28/人件費	154	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-550a52e91e9706cb	suishin	10	chart.stacked	義務的経費の傾向	H28/扶助費	156	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-73935937b77ef950	suishin	10	chart.stacked	義務的経費の傾向	H28/公債費	59	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-0eef23251bbb00f6	suishin	10	chart.stacked	義務的経費の傾向	H29/人件費	154	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-f30cce7f6f57b1d8	suishin	10	chart.stacked	義務的経費の傾向	H29/扶助費	161	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-45095c403e8f3c3c	suishin	10	chart.stacked	義務的経費の傾向	H29/公債費	66	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-00e1d08fc63dce80	suishin	10	chart.stacked	義務的経費の傾向	H30/人件費	155	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-a301f88f39a651f4	suishin	10	chart.stacked	義務的経費の傾向	H30/扶助費	161	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-4784cda22ff165fc	suishin	10	chart.stacked	義務的経費の傾向	H30/公債費	69	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-36942ca076cc27c6	suishin	10	chart.stacked	義務的経費の傾向	R1/人件費	154	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-e126157d02319f25	suishin	10	chart.stacked	義務的経費の傾向	R1/扶助費	166	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-7889af758aeab8bc	suishin	10	chart.stacked	義務的経費の傾向	R1/公債費	75	千万円	honpen-06 p.4				要人確認:H2 値が文字データにない
-53f978cc759cc391	suishin	12	chart.stacked	町債残高の推移	H12/臨時財政対策債を除く町債	760	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
+c2adbb252bc6689d	suishin	10	chart.stacked	義務的経費の傾向	H12/公債費	121	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+cdc56698d44a8bda	suishin	10	chart.stacked	義務的経費の傾向	H15/人件費	174	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+f980c33c9f5d4e9d	suishin	10	chart.stacked	義務的経費の傾向	H15/扶助費	63	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+fb493b57dfcbb6ec	suishin	10	chart.stacked	義務的経費の傾向	H15/公債費	96	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+3e3007ce18afacb2	suishin	10	chart.stacked	義務的経費の傾向	H18/人件費	155	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+eaf94d459118e5cd	suishin	10	chart.stacked	義務的経費の傾向	H18/扶助費	72	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+f35e9b897edc0e47	suishin	10	chart.stacked	義務的経費の傾向	H18/公債費	78	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+53d5fff6a20b4905	suishin	10	chart.stacked	義務的経費の傾向	H21/人件費	148	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+709257e35500cf69	suishin	10	chart.stacked	義務的経費の傾向	H21/扶助費	83	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+f18dc218e6e26767	suishin	10	chart.stacked	義務的経費の傾向	H21/公債費	80	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+3c41c3c179bd7e58	suishin	10	chart.stacked	義務的経費の傾向	H24/人件費	154	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+c8afbfa4e0268e38	suishin	10	chart.stacked	義務的経費の傾向	H24/扶助費	120	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+7755a2f6e79975bf	suishin	10	chart.stacked	義務的経費の傾向	H24/公債費	62	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+5628d3b9106850c0	suishin	10	chart.stacked	義務的経費の傾向	H25/人件費	146	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+74162bb88fd58fa2	suishin	10	chart.stacked	義務的経費の傾向	H25/扶助費	122	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+c484f283d48266c2	suishin	10	chart.stacked	義務的経費の傾向	H25/公債費	61	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+bb9e6b5fcc07009d	suishin	10	chart.stacked	義務的経費の傾向	H26/人件費	156	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+55a47e84ccfa2101	suishin	10	chart.stacked	義務的経費の傾向	H26/扶助費	140	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+3e6cf319ae098950	suishin	10	chart.stacked	義務的経費の傾向	H26/公債費	56	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+3e9f427f64a07b66	suishin	10	chart.stacked	義務的経費の傾向	H27/人件費	153	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+bb135d74375b7d90	suishin	10	chart.stacked	義務的経費の傾向	H27/扶助費	146	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+e09e18413a933cf1	suishin	10	chart.stacked	義務的経費の傾向	H27/公債費	59	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+15c9c69df8859320	suishin	10	chart.stacked	義務的経費の傾向	H28/人件費	154	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+550a52e91e9706cb	suishin	10	chart.stacked	義務的経費の傾向	H28/扶助費	156	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+73935937b77ef950	suishin	10	chart.stacked	義務的経費の傾向	H28/公債費	59	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+0eef23251bbb00f6	suishin	10	chart.stacked	義務的経費の傾向	H29/人件費	154	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+f30cce7f6f57b1d8	suishin	10	chart.stacked	義務的経費の傾向	H29/扶助費	161	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+45095c403e8f3c3c	suishin	10	chart.stacked	義務的経費の傾向	H29/公債費	66	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+00e1d08fc63dce80	suishin	10	chart.stacked	義務的経費の傾向	H30/人件費	155	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+a301f88f39a651f4	suishin	10	chart.stacked	義務的経費の傾向	H30/扶助費	161	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+4784cda22ff165fc	suishin	10	chart.stacked	義務的経費の傾向	H30/公債費	69	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+36942ca076cc27c6	suishin	10	chart.stacked	義務的経費の傾向	R1/人件費	154	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+e126157d02319f25	suishin	10	chart.stacked	義務的経費の傾向	R1/扶助費	166	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+7889af758aeab8bc	suishin	10	chart.stacked	義務的経費の傾向	R1/公債費	75	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
+53f978cc759cc391	suishin	12	chart.stacked	町債残高の推移	H12/臨時財政対策債を除く町債	760	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 b44d5690c889cce1	suishin	12	chart.stacked	町債残高の推移	H12/臨時財政対策債	0	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ9点
-728deaa4af987565	suishin	12	chart.stacked	町債残高の推移	H15/臨時財政対策債を除く町債	606	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-c75dc31b7b5c9fcf	suishin	12	chart.stacked	町債残高の推移	H15/臨時財政対策債	90	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-28f010fb2c4dfe9c	suishin	12	chart.stacked	町債残高の推移	H18/臨時財政対策債を除く町債	457	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-475a6473c89fe1b3	suishin	12	chart.stacked	町債残高の推移	H18/臨時財政対策債	179	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-9c4e662bf20d1a3b	suishin	12	chart.stacked	町債残高の推移	H21/臨時財政対策債を除く町債	413	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-cb93953002718032	suishin	12	chart.stacked	町債残高の推移	H21/臨時財政対策債	238	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-600497725db8dbef	suishin	12	chart.stacked	町債残高の推移	H24/臨時財政対策債を除く町債	350	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-501154edc358bd45	suishin	12	chart.stacked	町債残高の推移	H24/臨時財政対策債	369	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-2f7cd26a49901ebe	suishin	12	chart.stacked	町債残高の推移	H25/臨時財政対策債を除く町債	395	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-1cd503fdb845ab7d	suishin	12	chart.stacked	町債残高の推移	H25/臨時財政対策債	413	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-d1afb3911d99ed7f	suishin	12	chart.stacked	町債残高の推移	H26/臨時財政対策債を除く町債	381	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-66efa9cf34c83cba	suishin	12	chart.stacked	町債残高の推移	H26/臨時財政対策債	445	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-d8eba10e879847d6	suishin	12	chart.stacked	町債残高の推移	H27/臨時財政対策債を除く町債	364	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-ff690184452d865b	suishin	12	chart.stacked	町債残高の推移	H27/臨時財政対策債	468	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-9e57beb4d3ee434f	suishin	12	chart.stacked	町債残高の推移	H28/臨時財政対策債を除く町債	382	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-ee531ef4a4b29081	suishin	12	chart.stacked	町債残高の推移	H28/臨時財政対策債	483	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-c816d1f76335c5c9	suishin	12	chart.stacked	町債残高の推移	H29/臨時財政対策債を除く町債	383	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-98aeadf784704486	suishin	12	chart.stacked	町債残高の推移	H29/臨時財政対策債	489	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-b56fcb2fab21de83	suishin	12	chart.stacked	町債残高の推移	H30/臨時財政対策債を除く町債	369	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-14b1a1936a2719b7	suishin	12	chart.stacked	町債残高の推移	H30/臨時財政対策債	499	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-ce8db159f1813977	suishin	12	chart.stacked	町債残高の推移	R1/臨時財政対策債を除く町債	351	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-2d1b952458c576d4	suishin	12	chart.stacked	町債残高の推移	R1/臨時財政対策債	492	千万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-5f2c8604e8e9ec01	suishin	13	chart.stacked	基金の推移	H12/財政調整基金	472	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-3b9a4e2b9fc91299	suishin	13	chart.stacked	基金の推移	H12/減債基金	135	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
+728deaa4af987565	suishin	12	chart.stacked	町債残高の推移	H15/臨時財政対策債を除く町債	606	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+c75dc31b7b5c9fcf	suishin	12	chart.stacked	町債残高の推移	H15/臨時財政対策債	90	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+28f010fb2c4dfe9c	suishin	12	chart.stacked	町債残高の推移	H18/臨時財政対策債を除く町債	457	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+475a6473c89fe1b3	suishin	12	chart.stacked	町債残高の推移	H18/臨時財政対策債	179	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+9c4e662bf20d1a3b	suishin	12	chart.stacked	町債残高の推移	H21/臨時財政対策債を除く町債	413	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+cb93953002718032	suishin	12	chart.stacked	町債残高の推移	H21/臨時財政対策債	238	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+600497725db8dbef	suishin	12	chart.stacked	町債残高の推移	H24/臨時財政対策債を除く町債	350	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+501154edc358bd45	suishin	12	chart.stacked	町債残高の推移	H24/臨時財政対策債	369	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+2f7cd26a49901ebe	suishin	12	chart.stacked	町債残高の推移	H25/臨時財政対策債を除く町債	395	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+1cd503fdb845ab7d	suishin	12	chart.stacked	町債残高の推移	H25/臨時財政対策債	413	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+d1afb3911d99ed7f	suishin	12	chart.stacked	町債残高の推移	H26/臨時財政対策債を除く町債	381	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+66efa9cf34c83cba	suishin	12	chart.stacked	町債残高の推移	H26/臨時財政対策債	445	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+d8eba10e879847d6	suishin	12	chart.stacked	町債残高の推移	H27/臨時財政対策債を除く町債	364	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+ff690184452d865b	suishin	12	chart.stacked	町債残高の推移	H27/臨時財政対策債	468	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+9e57beb4d3ee434f	suishin	12	chart.stacked	町債残高の推移	H28/臨時財政対策債を除く町債	382	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+ee531ef4a4b29081	suishin	12	chart.stacked	町債残高の推移	H28/臨時財政対策債	483	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+c816d1f76335c5c9	suishin	12	chart.stacked	町債残高の推移	H29/臨時財政対策債を除く町債	383	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+98aeadf784704486	suishin	12	chart.stacked	町債残高の推移	H29/臨時財政対策債	489	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+b56fcb2fab21de83	suishin	12	chart.stacked	町債残高の推移	H30/臨時財政対策債を除く町債	369	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+14b1a1936a2719b7	suishin	12	chart.stacked	町債残高の推移	H30/臨時財政対策債	499	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+ce8db159f1813977	suishin	12	chart.stacked	町債残高の推移	R1/臨時財政対策債を除く町債	351	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+2d1b952458c576d4	suishin	12	chart.stacked	町債残高の推移	R1/臨時財政対策債	492	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+5f2c8604e8e9ec01	suishin	13	chart.stacked	基金の推移	H12/財政調整基金	472	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+3b9a4e2b9fc91299	suishin	13	chart.stacked	基金の推移	H12/減債基金	135	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 90f96a815542aaa7	suishin	13	chart.stacked	基金の推移	H15/財政調整基金	700	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
 bb7026b44237af0d	suishin	13	chart.stacked	基金の推移	H15/減債基金	50	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
-414d6dd90396a202	suishin	13	chart.stacked	基金の推移	H18/財政調整基金	853	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-3658b008d489379d	suishin	13	chart.stacked	基金の推移	H18/減債基金	171	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-340a7fb54f4e1477	suishin	13	chart.stacked	基金の推移	H21/財政調整基金	1055	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-f2e06c23ab283a57	suishin	13	chart.stacked	基金の推移	H21/減債基金	261	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-1d333faf07ba04d6	suishin	13	chart.stacked	基金の推移	H24/財政調整基金	1060	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-765472408dad6680	suishin	13	chart.stacked	基金の推移	H24/減債基金	289	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-2179ac5bbafb6c15	suishin	13	chart.stacked	基金の推移	H25/財政調整基金	1062	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-5b77df3d82f73955	suishin	13	chart.stacked	基金の推移	H25/減債基金	290	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-5af800c3130394af	suishin	13	chart.stacked	基金の推移	H26/財政調整基金	1063	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-a18a3093ffcba8a1	suishin	13	chart.stacked	基金の推移	H26/減債基金	411	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-a44b66f256f3ab21	suishin	13	chart.stacked	基金の推移	H27/財政調整基金	1064	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-7c983839cb31c15a	suishin	13	chart.stacked	基金の推移	H27/減債基金	411	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-2d19637763495164	suishin	13	chart.stacked	基金の推移	H28/財政調整基金	1064	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-51a1c17a9703328f	suishin	13	chart.stacked	基金の推移	H28/減債基金	412	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-e360507276810c2e	suishin	13	chart.stacked	基金の推移	H29/財政調整基金	971	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-f2c2f7b04cc472bd	suishin	13	chart.stacked	基金の推移	H29/減債基金	332	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-57b3caed98359ed0	suishin	13	chart.stacked	基金の推移	H30/財政調整基金	972	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-ed03e3b35d9cd854	suishin	13	chart.stacked	基金の推移	H30/減債基金	473	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-f48fb35521ed05ce	suishin	13	chart.stacked	基金の推移	R1/財政調整基金	1052	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-9daf8afa5c0bfe59	suishin	13	chart.stacked	基金の推移	R1/減債基金	473	百万円	honpen-06 p.5				要人確認:H2 値が文字データにない
-20a81dfe5654d8b4	suishin	14	chart.bars	経常収支比率の推移	H12	75.3	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-d8a7a3a0c30609ab	suishin	14	chart.bars	経常収支比率の推移	H15	83.1	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-ff47eb8530448918	suishin	14	chart.bars	経常収支比率の推移	H18	85.0	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-30df08df76392b3d	suishin	14	chart.bars	経常収支比率の推移	H21	86.0	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-81b55a8af7500562	suishin	14	chart.bars	経常収支比率の推移	H24	88.7	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-46006c26297069bd	suishin	14	chart.bars	経常収支比率の推移	H25	84.5	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-00377c0132be3ef3	suishin	14	chart.bars	経常収支比率の推移	H26	87.4	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-9de105638590c2fa	suishin	14	chart.bars	経常収支比率の推移	H27	87.0	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-bfa625357ab8ca9c	suishin	14	chart.bars	経常収支比率の推移	H28	88.2	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-76de73e80880190f	suishin	14	chart.bars	経常収支比率の推移	H29	94.0	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-7f7e4ba9cea7d4e6	suishin	14	chart.bars	経常収支比率の推移	H30	84.6	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-4e2a26128b796cb6	suishin	14	chart.bars	経常収支比率の推移	R1	89.6	%	honpen-06 p.5				要人確認:H2 値が文字データにない
-d7c3185c572d3d8e	koe	3	kpi	住民意識調査	配布数	2500	件	honpen-07 p.2				要人確認:H2 値が文字データにない
-4902775c2c0a06de	koe	3	kpi	住民意識調査	回収数	1285	件	honpen-07 p.2				要人確認:H2 値が文字データにない
-0487d50831d87742	koe	3	kpi	住民意識調査	有効回答数	1283	件	honpen-07 p.2				要人確認:H2 値が文字データにない
-a992a74a9aefd88d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/そう思う	15.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-dadcabf2c5c6e8ad	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/ややそう思う	39.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-a7f0fb8d80492891	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/あまり思わない	35.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-a2699d59c0eae4e3	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/思わない	7.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-05a9065a2291cde2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/不明・無回答	2.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-99bde53a2ae1840a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/そう思う	11.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-567d79c13459dfbc	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/ややそう思う	39.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-27df9faedd63ac93	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/あまり思わない	40.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-611c328318101346	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/思わない	6.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-381267139fa7125e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/不明・無回答	2.7	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-ebcd54552c3886f2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/そう思う	11.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-31238519cfb9fcaa	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/ややそう思う	41.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-c8d53e9df759b233	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/あまり思わない	35.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-ef54ade24727573e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/思わない	6.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-ca5ae49b2915a113	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/不明・無回答	5.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-8b9e9a5b3ea968dc	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/そう思う	8.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-4818a59dcf906d74	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/ややそう思う	37.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-1644385cbcc06ee8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/あまり思わない	40.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-61e2dd959751407c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/思わない	9.5	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-5455436cd5fa678b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/不明・無回答	4.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-523d1b57a8e64e28	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/そう思う	2.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-a09ff64e775e0dff	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/ややそう思う	14.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-56279a4d939501fa	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/あまり思わない	55.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-a3bd0d0e312e4080	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/思わない	24.5	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-b7bad81eee8eeddf	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/不明・無回答	3.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-c1f386994191f9da	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/そう思う	5.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-d71bf79d0f5f64b4	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/ややそう思う	21.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-9dbe735859d86b6b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/あまり思わない	51.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-518d25d9a25ca0c8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/思わない	19.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-c9dc55f4468f709d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/不明・無回答	3.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-c52e4180059e272e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/そう思う	10.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-930a044d8dcbb472	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/ややそう思う	31.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-7dc204a4f17d804c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/あまり思わない	36.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-5852342687755914	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/思わない	19.5	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-2115ad6c9407b7a4	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/不明・無回答	1.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-e2f17a210c90948a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/そう思う	42.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-546a97fd9fcec306	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/ややそう思う	45.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-d822c90ca6b2c4c8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/あまり思わない	8.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-883a558e47841651	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/思わない	1.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-88ac701ac36c7a07	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/不明・無回答	2.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-41e14f105e35c942	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/そう思う	47.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-4d9d733a418e7414	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/ややそう思う	42.5	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-61a24057a40c4cc5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/あまり思わない	7.7	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-7940dbf29e2164eb	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/思わない	1.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-219bad23078d3d4f	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/不明・無回答	1.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-0ec99b67d6fc7028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/そう思う	33.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-83f2df08ff3bd13a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/ややそう思う	47.7	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-6de6a8082c0b622e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/あまり思わない	14.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-666733e831e6a028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/思わない	2.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-acde23ba6a4ded1b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/不明・無回答	2.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-698251e6ec81928a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/そう思う	2.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-ef935f4f84686841	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/ややそう思う	9.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-5bfcabdd42c72e94	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/あまり思わない	34.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-9a0d0d57a190d9d8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/思わない	52.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-4f4d0ea890443db3	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/不明・無回答	1.7	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-4ed97c8bdd25ac43	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/そう思う	22.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-285c2a8bc8579151	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/ややそう思う	45.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-331c710085f9e90a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/あまり思わない	25.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-40e8136887fe9e84	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/思わない	4.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-c1b9365f4b14623b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/不明・無回答	2.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-425642cca3d365cd	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/そう思う	21.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-aa46b2d18c6a1c3c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/ややそう思う	49.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-7499cdca57ce11be	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/あまり思わない	24.7	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-82b1922099157862	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/思わない	3.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-7f31984e244e8ab2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/不明・無回答	1.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-bd457c81ac45e21b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/そう思う	11.5	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-9fbf269a2579dcf2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/ややそう思う	41.4	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-722001e6c8cabc32	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/あまり思わない	38.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-adc39dee93be3bdf	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/思わない	6.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-e632b726761cfcf3	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/不明・無回答	2.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-401d28069769013c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/そう思う	5.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-5f3864c594b58cfd	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/ややそう思う	26.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-d99ee6e1ef2d4053	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/あまり思わない	47.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-4a5df76c9ebfbc38	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/思わない	18.2	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-5ca059cf72df214d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/不明・無回答	2.1	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-37f61c392c43d429	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/そう思う	15.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-f5e0f68b146c4ec8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/ややそう思う	45.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-00d6161c0913b264	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/あまり思わない	29.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-54bdd218cd82b44c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/思わない	7.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-3c05bd9528eb53ee	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/不明・無回答	1.7	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-894c0a6f03034a42	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/そう思う	14.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-41a1d4e75be3d065	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/ややそう思う	45.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-ff98e3928ba14459	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/あまり思わない	28.9	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-f57966dd70747397	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/思わない	10.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-4ca73d533d5f8f6e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/不明・無回答	1.8	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-7348d4dde4790240	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/そう思う	20.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-5014c8bf515299d5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/ややそう思う	44.0	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-fd429597d4a7ef84	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/あまり思わない	24.6	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-13ef84dee1c4d1a5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/思わない	8.5	%	honpen-07 p.3				要人確認:H2 値が文字データにない
-1db51549b3bd98f0	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/不明・無回答	2.3	%	honpen-07 p.3				要人確認:H2 値が文字データにない
+414d6dd90396a202	suishin	13	chart.stacked	基金の推移	H18/財政調整基金	853	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+3658b008d489379d	suishin	13	chart.stacked	基金の推移	H18/減債基金	171	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+340a7fb54f4e1477	suishin	13	chart.stacked	基金の推移	H21/財政調整基金	1055	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+f2e06c23ab283a57	suishin	13	chart.stacked	基金の推移	H21/減債基金	261	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+1d333faf07ba04d6	suishin	13	chart.stacked	基金の推移	H24/財政調整基金	1060	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+765472408dad6680	suishin	13	chart.stacked	基金の推移	H24/減債基金	289	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+2179ac5bbafb6c15	suishin	13	chart.stacked	基金の推移	H25/財政調整基金	1062	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+5b77df3d82f73955	suishin	13	chart.stacked	基金の推移	H25/減債基金	290	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+5af800c3130394af	suishin	13	chart.stacked	基金の推移	H26/財政調整基金	1063	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+a18a3093ffcba8a1	suishin	13	chart.stacked	基金の推移	H26/減債基金	411	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+a44b66f256f3ab21	suishin	13	chart.stacked	基金の推移	H27/財政調整基金	1064	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+7c983839cb31c15a	suishin	13	chart.stacked	基金の推移	H27/減債基金	411	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+2d19637763495164	suishin	13	chart.stacked	基金の推移	H28/財政調整基金	1064	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+51a1c17a9703328f	suishin	13	chart.stacked	基金の推移	H28/減債基金	412	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+e360507276810c2e	suishin	13	chart.stacked	基金の推移	H29/財政調整基金	971	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+f2c2f7b04cc472bd	suishin	13	chart.stacked	基金の推移	H29/減債基金	332	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+57b3caed98359ed0	suishin	13	chart.stacked	基金の推移	H30/財政調整基金	972	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+ed03e3b35d9cd854	suishin	13	chart.stacked	基金の推移	H30/減債基金	473	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+f48fb35521ed05ce	suishin	13	chart.stacked	基金の推移	R1/財政調整基金	1052	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+9daf8afa5c0bfe59	suishin	13	chart.stacked	基金の推移	R1/減債基金	473	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
+20a81dfe5654d8b4	suishin	14	chart.bars	経常収支比率の推移	H12	75.3	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+d8a7a3a0c30609ab	suishin	14	chart.bars	経常収支比率の推移	H15	83.1	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+ff47eb8530448918	suishin	14	chart.bars	経常収支比率の推移	H18	85.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+30df08df76392b3d	suishin	14	chart.bars	経常収支比率の推移	H21	86.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+81b55a8af7500562	suishin	14	chart.bars	経常収支比率の推移	H24	88.7	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+46006c26297069bd	suishin	14	chart.bars	経常収支比率の推移	H25	84.5	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+00377c0132be3ef3	suishin	14	chart.bars	経常収支比率の推移	H26	87.4	%	honpen-06 p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+9de105638590c2fa	suishin	14	chart.bars	経常収支比率の推移	H27	87.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+bfa625357ab8ca9c	suishin	14	chart.bars	経常収支比率の推移	H28	88.2	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+76de73e80880190f	suishin	14	chart.bars	経常収支比率の推移	H29	94.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+7f7e4ba9cea7d4e6	suishin	14	chart.bars	経常収支比率の推移	H30	84.6	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+4e2a26128b796cb6	suishin	14	chart.bars	経常収支比率の推移	R1	89.6	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
+d7c3185c572d3d8e	koe	3	kpi	住民意識調査	配布数	2500	件	honpen-07 p.2	✓	auto:ai	2026-10-10	
+4902775c2c0a06de	koe	3	kpi	住民意識調査	回収数	1285	件	honpen-07 p.2	✓	auto:ai	2026-10-10	
+0487d50831d87742	koe	3	kpi	住民意識調査	有効回答数	1283	件	honpen-07 p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+a992a74a9aefd88d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/そう思う	15.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+dadcabf2c5c6e8ad	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/ややそう思う	39.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+a7f0fb8d80492891	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/あまり思わない	35.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+a2699d59c0eae4e3	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/思わない	7.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+05a9065a2291cde2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/不明・無回答	2.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+99bde53a2ae1840a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/そう思う	11.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+567d79c13459dfbc	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/ややそう思う	39.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+27df9faedd63ac93	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/あまり思わない	40.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+611c328318101346	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/思わない	6.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+381267139fa7125e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	福祉サービスが充実している/不明・無回答	2.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+ebcd54552c3886f2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/そう思う	11.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+31238519cfb9fcaa	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/ややそう思う	41.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+c8d53e9df759b233	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/あまり思わない	35.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+ef54ade24727573e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/思わない	6.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+ca5ae49b2915a113	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	保育・子育て支援が充実している/不明・無回答	5.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+8b9e9a5b3ea968dc	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/そう思う	8.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+4818a59dcf906d74	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/ややそう思う	37.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+1644385cbcc06ee8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/あまり思わない	40.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+61e2dd959751407c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/思わない	9.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+5455436cd5fa678b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	教育環境が良い/不明・無回答	4.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+523d1b57a8e64e28	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/そう思う	2.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+a09ff64e775e0dff	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/ややそう思う	14.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+56279a4d939501fa	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/あまり思わない	55.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+a3bd0d0e312e4080	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/思わない	24.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+b7bad81eee8eeddf	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	スポーツ施設が多い/不明・無回答	3.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+c1f386994191f9da	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/そう思う	5.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+d71bf79d0f5f64b4	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/ややそう思う	21.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+9dbe735859d86b6b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/あまり思わない	51.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+518d25d9a25ca0c8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/思わない	19.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+c9dc55f4468f709d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	産業が活発だ/不明・無回答	3.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+c52e4180059e272e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/そう思う	10.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+930a044d8dcbb472	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/ややそう思う	31.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+7dc204a4f17d804c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/あまり思わない	36.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+5852342687755914	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/思わない	19.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+2115ad6c9407b7a4	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買い物の利便性が良い/不明・無回答	1.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+e2f17a210c90948a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/そう思う	42.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+546a97fd9fcec306	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/ややそう思う	45.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+d822c90ca6b2c4c8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/あまり思わない	8.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+883a558e47841651	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/思わない	1.9	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+88ac701ac36c7a07	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/不明・無回答	2.0	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+41e14f105e35c942	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/そう思う	47.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+4d9d733a418e7414	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/ややそう思う	42.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+61a24057a40c4cc5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/あまり思わない	7.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+7940dbf29e2164eb	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/思わない	1.3	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+219bad23078d3d4f	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/不明・無回答	1.2	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+0ec99b67d6fc7028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/そう思う	33.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+83f2df08ff3bd13a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/ややそう思う	47.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+6de6a8082c0b622e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/あまり思わない	14.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+666733e831e6a028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/思わない	2.3	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+acde23ba6a4ded1b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/不明・無回答	2.3	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+698251e6ec81928a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/そう思う	2.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+ef935f4f84686841	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/ややそう思う	9.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+5bfcabdd42c72e94	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/あまり思わない	34.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+9a0d0d57a190d9d8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/思わない	52.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+4f4d0ea890443db3	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/不明・無回答	1.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+4ed97c8bdd25ac43	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/そう思う	22.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+285c2a8bc8579151	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/ややそう思う	45.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+331c710085f9e90a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/あまり思わない	25.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+40e8136887fe9e84	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/思わない	4.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+c1b9365f4b14623b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	景観が良い/不明・無回答	2.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+425642cca3d365cd	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/そう思う	21.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+aa46b2d18c6a1c3c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/ややそう思う	49.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+7499cdca57ce11be	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/あまり思わない	24.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+82b1922099157862	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/思わない	3.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+7f31984e244e8ab2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	歴史・文化資源が多い/不明・無回答	1.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+bd457c81ac45e21b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/そう思う	11.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+9fbf269a2579dcf2	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/ややそう思う	41.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+722001e6c8cabc32	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/あまり思わない	38.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+adc39dee93be3bdf	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/思わない	6.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+e632b726761cfcf3	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	地域活動が活発だ/不明・無回答	2.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+401d28069769013c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/そう思う	5.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+5f3864c594b58cfd	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/ややそう思う	26.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+d99ee6e1ef2d4053	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/あまり思わない	47.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+4a5df76c9ebfbc38	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/思わない	18.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+5ca059cf72df214d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/不明・無回答	2.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+37f61c392c43d429	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/そう思う	15.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+f5e0f68b146c4ec8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/ややそう思う	45.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+00d6161c0913b264	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/あまり思わない	29.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+54bdd218cd82b44c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/思わない	7.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+3c05bd9528eb53ee	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/不明・無回答	1.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+894c0a6f03034a42	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/そう思う	14.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+41a1d4e75be3d065	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/ややそう思う	45.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+ff98e3928ba14459	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/あまり思わない	28.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+f57966dd70747397	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/思わない	10.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+4ca73d533d5f8f6e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/不明・無回答	1.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+7348d4dde4790240	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/そう思う	20.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+5014c8bf515299d5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/ややそう思う	44.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+fd429597d4a7ef84	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/あまり思わない	24.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+13ef84dee1c4d1a5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/思わない	8.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
+1db51549b3bd98f0	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	これからも住み続けたい町だ/不明・無回答	2.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 3edb6454a0ea66ff	koe	8	table	各地区まちづくり懇談会	日野地区/参加者(人)	30		honpen-07 p.7	✓	auto:ai	2026-10-10	
 7a33bc0123379807	koe	8	table	各地区まちづくり懇談会	東桜谷地区/参加者(人)	19		honpen-07 p.7	✓	auto:ai	2026-10-10	
 b175f6d16bc4e5d0	koe	8	table	各地区まちづくり懇談会	西桜谷地区/参加者(人)	19		honpen-07 p.7	✓	auto:ai	2026-10-10	

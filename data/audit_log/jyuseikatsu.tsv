@@ -94,113 +94,113 @@ e9eba8ad842756fb	jinko	6	table	年齢3区分別の人口	高齢者人口（65歳
 a8b175fbf46bb4c5	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成22年	24.28		honpen p.20	✓	auto:ai	2026-10-10	
 68f136c9ff5bbe8d	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成27年	27.83		honpen p.20	✓	auto:ai	2026-10-10	
 dba97240bfb00364	jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/令和2年	30.64		honpen p.20	✓	auto:ai	2026-10-10	
-ab0bc166aa1b3c8d	jinko	9	chart.stacked	世帯人員別世帯数	H17/1人	1491	世帯	honpen p.21				要人確認:H2 値が文字データにない
-51c98154c470d121	jinko	9	chart.stacked	世帯人員別世帯数	H17/2人	1545	世帯	honpen p.21				要人確認:H2 値が文字データにない
-ff32a2c18a1bc39a	jinko	9	chart.stacked	世帯人員別世帯数	H17/3人	1295	世帯	honpen p.21				要人確認:H2 値が文字データにない
-f05c09c557554105	jinko	9	chart.stacked	世帯人員別世帯数	H17/4人	1217	世帯	honpen p.21				要人確認:H2 値が文字データにない
-1c5f116849643769	jinko	9	chart.stacked	世帯人員別世帯数	H17/5人	757	世帯	honpen p.21				要人確認:H2 値が文字データにない
+ab0bc166aa1b3c8d	jinko	9	chart.stacked	世帯人員別世帯数	H17/1人	1491	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+51c98154c470d121	jinko	9	chart.stacked	世帯人員別世帯数	H17/2人	1545	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+ff32a2c18a1bc39a	jinko	9	chart.stacked	世帯人員別世帯数	H17/3人	1295	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+f05c09c557554105	jinko	9	chart.stacked	世帯人員別世帯数	H17/4人	1217	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+1c5f116849643769	jinko	9	chart.stacked	世帯人員別世帯数	H17/5人	757	世帯	honpen p.21	✓	auto:ai	2026-10-10	
 6f0a5f18492b8e31	jinko	9	chart.stacked	世帯人員別世帯数	H17/6人	500	世帯	honpen p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ8点
-6330902f49216afe	jinko	9	chart.stacked	世帯人員別世帯数	H17/7人以上	315	世帯	honpen p.21				要人確認:H2 値が文字データにない
-b52a8e0c9c6c2e78	jinko	9	chart.stacked	世帯人員別世帯数	H22/1人	1955	世帯	honpen p.21				要人確認:H2 値が文字データにない
-96445dc53ed19ad9	jinko	9	chart.stacked	世帯人員別世帯数	H22/2人	1687	世帯	honpen p.21				要人確認:H2 値が文字データにない
-40d7ac8f4b3c2495	jinko	9	chart.stacked	世帯人員別世帯数	H22/3人	1371	世帯	honpen p.21				要人確認:H2 値が文字データにない
-c188ea6de492dae4	jinko	9	chart.stacked	世帯人員別世帯数	H22/4人	1276	世帯	honpen p.21				要人確認:H2 値が文字データにない
-c9d2acd9b85c51bb	jinko	9	chart.stacked	世帯人員別世帯数	H22/5人	703	世帯	honpen p.21				要人確認:H2 値が文字データにない
-0b283bce55dca9f6	jinko	9	chart.stacked	世帯人員別世帯数	H22/6人	395	世帯	honpen p.21				要人確認:H2 値が文字データにない
-56b25baa0a62359d	jinko	9	chart.stacked	世帯人員別世帯数	H22/7人以上	281	世帯	honpen p.21				要人確認:H2 値が文字データにない
-5f8c45108ed1f4d7	jinko	9	chart.stacked	世帯人員別世帯数	H27/1人	1993	世帯	honpen p.21				要人確認:H2 値が文字データにない
-2e09166896fc6cf4	jinko	9	chart.stacked	世帯人員別世帯数	H27/2人	1925	世帯	honpen p.21				要人確認:H2 値が文字データにない
-9c40190f531a3b27	jinko	9	chart.stacked	世帯人員別世帯数	H27/3人	1448	世帯	honpen p.21				要人確認:H2 値が文字データにない
-e6e5dc9c7bc07a4e	jinko	9	chart.stacked	世帯人員別世帯数	H27/4人	1206	世帯	honpen p.21				要人確認:H2 値が文字データにない
-d322c0e9f3140693	jinko	9	chart.stacked	世帯人員別世帯数	H27/5人	642	世帯	honpen p.21				要人確認:H2 値が文字データにない
-333c1230ab8156d8	jinko	9	chart.stacked	世帯人員別世帯数	H27/6人	330	世帯	honpen p.21				要人確認:H2 値が文字データにない
-53dd736739febc71	jinko	9	chart.stacked	世帯人員別世帯数	H27/7人以上	176	世帯	honpen p.21				要人確認:H2 値が文字データにない
-7657d9016723696d	jinko	9	chart.stacked	世帯人員別世帯数	R2/1人	2287	世帯	honpen p.21				要人確認:H2 値が文字データにない
-452a94c212565ac8	jinko	9	chart.stacked	世帯人員別世帯数	R2/2人	2113	世帯	honpen p.21				要人確認:H2 値が文字データにない
-0474c2f983934a8a	jinko	9	chart.stacked	世帯人員別世帯数	R2/3人	1474	世帯	honpen p.21				要人確認:H2 値が文字データにない
-947a1b5c5040c77e	jinko	9	chart.stacked	世帯人員別世帯数	R2/4人	1147	世帯	honpen p.21				要人確認:H2 値が文字データにない
-397acb06a24c80f7	jinko	9	chart.stacked	世帯人員別世帯数	R2/5人	523	世帯	honpen p.21				要人確認:H2 値が文字データにない
-8e2dfe3ad16c708d	jinko	9	chart.stacked	世帯人員別世帯数	R2/6人	256	世帯	honpen p.21				要人確認:H2 値が文字データにない
-f3e4e5650e191848	jinko	9	chart.stacked	世帯人員別世帯数	R2/7人以上	118	世帯	honpen p.21				要人確認:H2 値が文字データにない
-6e9f9eec995e1fcb	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成17年	1163		honpen p.22				要人確認:H2 値が文字データにない
-87a5ab200f89904f	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成22年	1275		honpen p.22				要人確認:H2 値が文字データにない
-bc333d7ad18e8fc4	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成27年	1427		honpen p.22				要人確認:H2 値が文字データにない
-42397decf82318be	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/令和2年	1552		honpen p.22				要人確認:H2 値が文字データにない
-b2012a7d999d55e6	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成17年	1929		honpen p.22				要人確認:H2 値が文字データにない
-542d8cf76103923f	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成22年	2002		honpen p.22				要人確認:H2 値が文字データにない
-2fc98e062fc26f8e	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成27年	2082		honpen p.22				要人確認:H2 値が文字データにない
-71f3cf1ef7b841b7	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/令和2年	2087		honpen p.22				要人確認:H2 値が文字データにない
-688d96b0541fb966	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成17年	91		honpen p.22				要人確認:H2 値が文字データにない
-e332d0eeda3c9f17	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成22年	90		honpen p.22				要人確認:H2 値が文字データにない
-1ca908674e1e45fc	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成27年	102		honpen p.22				要人確認:H2 値が文字データにない
-6269d7af844f062e	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/令和2年	115		honpen p.22				要人確認:H2 値が文字データにない
-52ac1cd41cc494cc	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成17年	381		honpen p.22				要人確認:H2 値が文字データにない
-225a6f777c3d4e47	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成22年	403		honpen p.22				要人確認:H2 値が文字データにない
-61d84216e88a8bb3	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成27年	503		honpen p.22				要人確認:H2 値が文字データにない
-d28f2ed38a4dfd60	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/令和2年	551		honpen p.22				要人確認:H2 値が文字データにない
-9507d14d96d2b9cc	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成17年	2044		honpen p.22				要人確認:H2 値が文字データにない
-fa5c46df75bc0064	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成22年	1872		honpen p.22				要人確認:H2 値が文字データにない
-4b9fcc8e94964c8f	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成27年	1561		honpen p.22				要人確認:H2 値が文字データにない
-589f31d41ffa30ce	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/令和2年	1252		honpen p.22				要人確認:H2 値が文字データにない
-3c365f23752866ad	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成17年	21		honpen p.22				要人確認:H2 値が文字データにない
-861abf695c047ade	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成22年	63		honpen p.22				要人確認:H2 値が文字データにない
-d488fff0ea672639	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成27年	49		honpen p.22				要人確認:H2 値が文字データにない
-c7644f959fb59278	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/令和2年	51		honpen p.22				要人確認:H2 値が文字データにない
-14daf734b6dc3396	jinko	10	table	世帯の人数と家族の型	単独世帯/平成17年	1491		honpen p.22				要人確認:H2 値が文字データにない
-58e1b5ad9ad231cb	jinko	10	table	世帯の人数と家族の型	単独世帯/平成22年	1955		honpen p.22				要人確認:H2 値が文字データにない
-e2db7827712a112b	jinko	10	table	世帯の人数と家族の型	単独世帯/平成27年	1993		honpen p.22				要人確認:H2 値が文字データにない
-ac4a0c7474571f6f	jinko	10	table	世帯の人数と家族の型	単独世帯/令和2年	2287		honpen p.22				要人確認:H2 値が文字データにない
-c94e55f79da56b65	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成22年	8		honpen p.22				要人確認:H2 値が文字データにない
+6330902f49216afe	jinko	9	chart.stacked	世帯人員別世帯数	H17/7人以上	315	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+b52a8e0c9c6c2e78	jinko	9	chart.stacked	世帯人員別世帯数	H22/1人	1955	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+96445dc53ed19ad9	jinko	9	chart.stacked	世帯人員別世帯数	H22/2人	1687	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+40d7ac8f4b3c2495	jinko	9	chart.stacked	世帯人員別世帯数	H22/3人	1371	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+c188ea6de492dae4	jinko	9	chart.stacked	世帯人員別世帯数	H22/4人	1276	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+c9d2acd9b85c51bb	jinko	9	chart.stacked	世帯人員別世帯数	H22/5人	703	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+0b283bce55dca9f6	jinko	9	chart.stacked	世帯人員別世帯数	H22/6人	395	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+56b25baa0a62359d	jinko	9	chart.stacked	世帯人員別世帯数	H22/7人以上	281	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+5f8c45108ed1f4d7	jinko	9	chart.stacked	世帯人員別世帯数	H27/1人	1993	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+2e09166896fc6cf4	jinko	9	chart.stacked	世帯人員別世帯数	H27/2人	1925	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+9c40190f531a3b27	jinko	9	chart.stacked	世帯人員別世帯数	H27/3人	1448	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+e6e5dc9c7bc07a4e	jinko	9	chart.stacked	世帯人員別世帯数	H27/4人	1206	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+d322c0e9f3140693	jinko	9	chart.stacked	世帯人員別世帯数	H27/5人	642	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+333c1230ab8156d8	jinko	9	chart.stacked	世帯人員別世帯数	H27/6人	330	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+53dd736739febc71	jinko	9	chart.stacked	世帯人員別世帯数	H27/7人以上	176	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+7657d9016723696d	jinko	9	chart.stacked	世帯人員別世帯数	R2/1人	2287	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+452a94c212565ac8	jinko	9	chart.stacked	世帯人員別世帯数	R2/2人	2113	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+0474c2f983934a8a	jinko	9	chart.stacked	世帯人員別世帯数	R2/3人	1474	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+947a1b5c5040c77e	jinko	9	chart.stacked	世帯人員別世帯数	R2/4人	1147	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+397acb06a24c80f7	jinko	9	chart.stacked	世帯人員別世帯数	R2/5人	523	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+8e2dfe3ad16c708d	jinko	9	chart.stacked	世帯人員別世帯数	R2/6人	256	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+f3e4e5650e191848	jinko	9	chart.stacked	世帯人員別世帯数	R2/7人以上	118	世帯	honpen p.21	✓	auto:ai	2026-10-10	
+6e9f9eec995e1fcb	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成17年	1163		honpen p.22	✓	auto:ai	2026-10-10	
+87a5ab200f89904f	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成22年	1275		honpen p.22	✓	auto:ai	2026-10-10	
+bc333d7ad18e8fc4	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成27年	1427		honpen p.22	✓	auto:ai	2026-10-10	
+42397decf82318be	jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/令和2年	1552		honpen p.22	✓	auto:ai	2026-10-10	
+b2012a7d999d55e6	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成17年	1929		honpen p.22	✓	auto:ai	2026-10-10	
+542d8cf76103923f	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成22年	2002		honpen p.22	✓	auto:ai	2026-10-10	
+2fc98e062fc26f8e	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成27年	2082		honpen p.22	✓	auto:ai	2026-10-10	
+71f3cf1ef7b841b7	jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/令和2年	2087		honpen p.22	✓	auto:ai	2026-10-10	
+688d96b0541fb966	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成17年	91		honpen p.22	✓	auto:ai	2026-10-10	
+e332d0eeda3c9f17	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成22年	90		honpen p.22	✓	auto:ai	2026-10-10	
+1ca908674e1e45fc	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成27年	102		honpen p.22	✓	auto:ai	2026-10-10	
+6269d7af844f062e	jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/令和2年	115		honpen p.22	✓	auto:ai	2026-10-10	
+52ac1cd41cc494cc	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成17年	381		honpen p.22	✓	auto:ai	2026-10-10	
+225a6f777c3d4e47	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成22年	403		honpen p.22	✓	auto:ai	2026-10-10	
+61d84216e88a8bb3	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成27年	503		honpen p.22	✓	auto:ai	2026-10-10	
+d28f2ed38a4dfd60	jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/令和2年	551		honpen p.22	✓	auto:ai	2026-10-10	
+9507d14d96d2b9cc	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成17年	2044		honpen p.22	✓	auto:ai	2026-10-10	
+fa5c46df75bc0064	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成22年	1872		honpen p.22	✓	auto:ai	2026-10-10	
+4b9fcc8e94964c8f	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成27年	1561		honpen p.22	✓	auto:ai	2026-10-10	
+589f31d41ffa30ce	jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/令和2年	1252		honpen p.22	✓	auto:ai	2026-10-10	
+3c365f23752866ad	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成17年	21		honpen p.22	✓	auto:ai	2026-10-10	
+861abf695c047ade	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成22年	63		honpen p.22	✓	auto:ai	2026-10-10	
+d488fff0ea672639	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成27年	49		honpen p.22	✓	auto:ai	2026-10-10	
+c7644f959fb59278	jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/令和2年	51		honpen p.22	✓	auto:ai	2026-10-10	
+14daf734b6dc3396	jinko	10	table	世帯の人数と家族の型	単独世帯/平成17年	1491		honpen p.22	✓	auto:ai	2026-10-10	
+58e1b5ad9ad231cb	jinko	10	table	世帯の人数と家族の型	単独世帯/平成22年	1955		honpen p.22	✓	auto:ai	2026-10-10	
+e2db7827712a112b	jinko	10	table	世帯の人数と家族の型	単独世帯/平成27年	1993		honpen p.22	✓	auto:ai	2026-10-10	
+ac4a0c7474571f6f	jinko	10	table	世帯の人数と家族の型	単独世帯/令和2年	2287		honpen p.22	✓	auto:ai	2026-10-10	
+c94e55f79da56b65	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成22年	8		honpen p.22	✓	auto:ai	2026-10-10	
 d32a96d1c02f8801	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成27年	3		honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-a9981f085bf4e001	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/令和2年	23		honpen p.22				要人確認:H2 値が文字データにない
-83bbe52bf0f58a4c	jinko	13	chart.stacked	ひとり親世帯の推移	H17/母子世帯	73	世帯	honpen p.22				要人確認:H2 値が文字データにない
-a2df65e5d86d5032	jinko	13	chart.stacked	ひとり親世帯の推移	H17/父子世帯	14	世帯	honpen p.22				要人確認:H2 値が文字データにない
+a9981f085bf4e001	jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/令和2年	23		honpen p.22	✓	auto:ai	2026-10-10	
+83bbe52bf0f58a4c	jinko	13	chart.stacked	ひとり親世帯の推移	H17/母子世帯	73	世帯	honpen p.22	✓	auto:ai	2026-10-10	
+a2df65e5d86d5032	jinko	13	chart.stacked	ひとり親世帯の推移	H17/父子世帯	14	世帯	honpen p.22	✓	auto:ai	2026-10-10	
 d3d7df80a7f7ddc0	jinko	13	chart.stacked	ひとり親世帯の推移	H22/母子世帯	87	世帯	honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-0c243937796b97b7	jinko	13	chart.stacked	ひとり親世帯の推移	H22/父子世帯	10	世帯	honpen p.22				要人確認:H2 値が文字データにない
-99ceabcbf1b9a3ca	jinko	13	chart.stacked	ひとり親世帯の推移	H27/母子世帯	98	世帯	honpen p.22				要人確認:H2 値が文字データにない
-dab744726aeb676b	jinko	13	chart.stacked	ひとり親世帯の推移	H27/父子世帯	13	世帯	honpen p.22				要人確認:H2 値が文字データにない
-50a387d7aa834efb	jinko	13	chart.stacked	ひとり親世帯の推移	R2/母子世帯	81	世帯	honpen p.22				要人確認:H2 値が文字データにない
-affd43dd3777d73c	jinko	13	chart.stacked	ひとり親世帯の推移	R2/父子世帯	14	世帯	honpen p.22				要人確認:H2 値が文字データにない
+0c243937796b97b7	jinko	13	chart.stacked	ひとり親世帯の推移	H22/父子世帯	10	世帯	honpen p.22	✓	auto:ai	2026-10-10	
+99ceabcbf1b9a3ca	jinko	13	chart.stacked	ひとり親世帯の推移	H27/母子世帯	98	世帯	honpen p.22	✓	auto:ai	2026-10-10	
+dab744726aeb676b	jinko	13	chart.stacked	ひとり親世帯の推移	H27/父子世帯	13	世帯	honpen p.22	✓	auto:ai	2026-10-10	
+50a387d7aa834efb	jinko	13	chart.stacked	ひとり親世帯の推移	R2/母子世帯	81	世帯	honpen p.22	✓	auto:ai	2026-10-10	
+affd43dd3777d73c	jinko	13	chart.stacked	ひとり親世帯の推移	R2/父子世帯	14	世帯	honpen p.22	✓	auto:ai	2026-10-10	
 79144abd4764e0d0	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成17年	3480		honpen p.24	✓	auto:ai	2026-10-10	
-2554afdf06956a01	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成22年	3600		honpen p.24				要人確認:H2 値が文字データにない
-83fb3eb900b5b8a9	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成27年	3840		honpen p.24				要人確認:H2 値が文字データにない
+2554afdf06956a01	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成22年	3600		honpen p.24	✓	auto:ai	2026-10-10	
+83fb3eb900b5b8a9	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成27年	3840		honpen p.24	✓	auto:ai	2026-10-10	
 490a81684bcf70b9	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/令和2年	3950		honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-849e05507f73fb5a	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成17年	651		honpen p.24				要人確認:H2 値が文字データにない
-564f1b41145c87db	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成22年	730		honpen p.24				要人確認:H2 値が文字データにない
-a265fcc4f99a76fa	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成27年	926		honpen p.24				要人確認:H2 値が文字データにない
-54b7158e0d20dfc1	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/令和2年	1084		honpen p.24				要人確認:H2 値が文字データにない
-2c380f13ea792a85	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成17年	440		honpen p.24				要人確認:H2 値が文字データにない
-68c6b8343c6b444b	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成22年	525		honpen p.24				要人確認:H2 値が文字データにない
-b72433494766c923	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成27年	596		honpen p.24				要人確認:H2 値が文字データにない
-f52e9d9a908212b8	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/令和2年	733		honpen p.24				要人確認:H2 値が文字データにない
-7c5e93a65e0c1763	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成17年	1513		honpen p.24				要人確認:H2 値が文字データにない
-a4db2f7130585881	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成22年	1343		honpen p.24				要人確認:H2 値が文字データにない
-725fb714d2f37810	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成27年	1096		honpen p.24				要人確認:H2 値が文字データにない
-fd30482f8e5ccb19	jinko	15	table	特に配慮すべき世帯	3世代世帯/令和2年	808		honpen p.24				要人確認:H2 値が文字データにない
-42c8b76967002c69	jinko	17	chart.stacked	障がい者世帯の推移	H25/身体障害者手帳所持者	954		honpen p.24				要人確認:H2 値が文字データにない
-d95da45d265aafc1	jinko	17	chart.stacked	障がい者世帯の推移	H25/療育手帳所持者	233		honpen p.24				要人確認:H2 値が文字データにない
-ac7838cd098a82d1	jinko	17	chart.stacked	障がい者世帯の推移	H25/精神障害者保健福祉手帳所持者	139		honpen p.24				要人確認:H2 値が文字データにない
-cd754af3cc0e42b2	jinko	17	chart.stacked	障がい者世帯の推移	H26/身体障害者手帳所持者	948		honpen p.24				要人確認:H2 値が文字データにない
-a15966d5b7680c1b	jinko	17	chart.stacked	障がい者世帯の推移	H26/療育手帳所持者	242		honpen p.24				要人確認:H2 値が文字データにない
-ae0522204b588077	jinko	17	chart.stacked	障がい者世帯の推移	H26/精神障害者保健福祉手帳所持者	138		honpen p.24				要人確認:H2 値が文字データにない
-965ba7a55f22fe53	jinko	17	chart.stacked	障がい者世帯の推移	H27/身体障害者手帳所持者	968		honpen p.24				要人確認:H2 値が文字データにない
-174684b0e9e4318c	jinko	17	chart.stacked	障がい者世帯の推移	H27/療育手帳所持者	244		honpen p.24				要人確認:H2 値が文字データにない
-341296114bf959a9	jinko	17	chart.stacked	障がい者世帯の推移	H27/精神障害者保健福祉手帳所持者	143		honpen p.24				要人確認:H2 値が文字データにない
-68e57b4e86eb3b70	jinko	17	chart.stacked	障がい者世帯の推移	H28/身体障害者手帳所持者	947		honpen p.24				要人確認:H2 値が文字データにない
-c5fd3d4c41ec0559	jinko	17	chart.stacked	障がい者世帯の推移	H28/療育手帳所持者	247		honpen p.24				要人確認:H2 値が文字データにない
-f83fbbb8a000a6e5	jinko	17	chart.stacked	障がい者世帯の推移	H28/精神障害者保健福祉手帳所持者	146		honpen p.24				要人確認:H2 値が文字データにない
-72d5e92f51bec601	jinko	17	chart.stacked	障がい者世帯の推移	H29/身体障害者手帳所持者	927		honpen p.24				要人確認:H2 値が文字データにない
-99cb99bf3bd53a04	jinko	17	chart.stacked	障がい者世帯の推移	H29/療育手帳所持者	261		honpen p.24				要人確認:H2 値が文字データにない
-2b0f45265f21e526	jinko	17	chart.stacked	障がい者世帯の推移	H29/精神障害者保健福祉手帳所持者	141		honpen p.24				要人確認:H2 値が文字データにない
-2a62c26022cb811f	jinko	17	chart.stacked	障がい者世帯の推移	H30/身体障害者手帳所持者	906		honpen p.24				要人確認:H2 値が文字データにない
-968cafd104a816c3	jinko	17	chart.stacked	障がい者世帯の推移	H30/療育手帳所持者	274		honpen p.24				要人確認:H2 値が文字データにない
-bd412ac091db361b	jinko	17	chart.stacked	障がい者世帯の推移	H30/精神障害者保健福祉手帳所持者	133		honpen p.24				要人確認:H2 値が文字データにない
-edc335bd954d85cf	jinko	17	chart.stacked	障がい者世帯の推移	H31/身体障害者手帳所持者	890		honpen p.24				要人確認:H2 値が文字データにない
-920d4c2581b02897	jinko	17	chart.stacked	障がい者世帯の推移	H31/療育手帳所持者	282		honpen p.24				要人確認:H2 値が文字データにない
-d412e1657e86be9e	jinko	17	chart.stacked	障がい者世帯の推移	H31/精神障害者保健福祉手帳所持者	134		honpen p.24				要人確認:H2 値が文字データにない
-85db504eab2dd17b	jinko	17	chart.stacked	障がい者世帯の推移	R2/身体障害者手帳所持者	879		honpen p.24				要人確認:H2 値が文字データにない
-91759ae929ec1970	jinko	17	chart.stacked	障がい者世帯の推移	R2/療育手帳所持者	283		honpen p.24				要人確認:H2 値が文字データにない
-6d784da9890bc2e5	jinko	17	chart.stacked	障がい者世帯の推移	R2/精神障害者保健福祉手帳所持者	128		honpen p.24				要人確認:H2 値が文字データにない
+849e05507f73fb5a	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成17年	651		honpen p.24	✓	auto:ai	2026-10-10	
+564f1b41145c87db	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成22年	730		honpen p.24	✓	auto:ai	2026-10-10	
+a265fcc4f99a76fa	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成27年	926		honpen p.24	✓	auto:ai	2026-10-10	
+54b7158e0d20dfc1	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/令和2年	1084		honpen p.24	✓	auto:ai	2026-10-10	
+2c380f13ea792a85	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成17年	440		honpen p.24	✓	auto:ai	2026-10-10	
+68c6b8343c6b444b	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成22年	525		honpen p.24	✓	auto:ai	2026-10-10	
+b72433494766c923	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成27年	596		honpen p.24	✓	auto:ai	2026-10-10	
+f52e9d9a908212b8	jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/令和2年	733		honpen p.24	✓	auto:ai	2026-10-10	
+7c5e93a65e0c1763	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成17年	1513		honpen p.24	✓	auto:ai	2026-10-10	
+a4db2f7130585881	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成22年	1343		honpen p.24	✓	auto:ai	2026-10-10	
+725fb714d2f37810	jinko	15	table	特に配慮すべき世帯	3世代世帯/平成27年	1096		honpen p.24	✓	auto:ai	2026-10-10	
+fd30482f8e5ccb19	jinko	15	table	特に配慮すべき世帯	3世代世帯/令和2年	808		honpen p.24	✓	auto:ai	2026-10-10	
+42c8b76967002c69	jinko	17	chart.stacked	障がい者世帯の推移	H25/身体障害者手帳所持者	954		honpen p.24	✓	auto:ai	2026-10-10	
+d95da45d265aafc1	jinko	17	chart.stacked	障がい者世帯の推移	H25/療育手帳所持者	233		honpen p.24	✓	auto:ai	2026-10-10	
+ac7838cd098a82d1	jinko	17	chart.stacked	障がい者世帯の推移	H25/精神障害者保健福祉手帳所持者	139		honpen p.24	✓	auto:ai	2026-10-10	
+cd754af3cc0e42b2	jinko	17	chart.stacked	障がい者世帯の推移	H26/身体障害者手帳所持者	948		honpen p.24	✓	auto:ai	2026-10-10	
+a15966d5b7680c1b	jinko	17	chart.stacked	障がい者世帯の推移	H26/療育手帳所持者	242		honpen p.24	✓	auto:ai	2026-10-10	
+ae0522204b588077	jinko	17	chart.stacked	障がい者世帯の推移	H26/精神障害者保健福祉手帳所持者	138		honpen p.24	✓	auto:ai	2026-10-10	
+965ba7a55f22fe53	jinko	17	chart.stacked	障がい者世帯の推移	H27/身体障害者手帳所持者	968		honpen p.24	✓	auto:ai	2026-10-10	
+174684b0e9e4318c	jinko	17	chart.stacked	障がい者世帯の推移	H27/療育手帳所持者	244		honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+341296114bf959a9	jinko	17	chart.stacked	障がい者世帯の推移	H27/精神障害者保健福祉手帳所持者	143		honpen p.24	✓	auto:ai	2026-10-10	
+68e57b4e86eb3b70	jinko	17	chart.stacked	障がい者世帯の推移	H28/身体障害者手帳所持者	947		honpen p.24	✓	auto:ai	2026-10-10	
+c5fd3d4c41ec0559	jinko	17	chart.stacked	障がい者世帯の推移	H28/療育手帳所持者	247		honpen p.24	✓	auto:ai	2026-10-10	
+f83fbbb8a000a6e5	jinko	17	chart.stacked	障がい者世帯の推移	H28/精神障害者保健福祉手帳所持者	146		honpen p.24	✓	auto:ai	2026-10-10	
+72d5e92f51bec601	jinko	17	chart.stacked	障がい者世帯の推移	H29/身体障害者手帳所持者	927		honpen p.24	✓	auto:ai	2026-10-10	
+99cb99bf3bd53a04	jinko	17	chart.stacked	障がい者世帯の推移	H29/療育手帳所持者	261		honpen p.24	✓	auto:ai	2026-10-10	
+2b0f45265f21e526	jinko	17	chart.stacked	障がい者世帯の推移	H29/精神障害者保健福祉手帳所持者	141		honpen p.24	✓	auto:ai	2026-10-10	
+2a62c26022cb811f	jinko	17	chart.stacked	障がい者世帯の推移	H30/身体障害者手帳所持者	906		honpen p.24	✓	auto:ai	2026-10-10	
+968cafd104a816c3	jinko	17	chart.stacked	障がい者世帯の推移	H30/療育手帳所持者	274		honpen p.24	✓	auto:ai	2026-10-10	
+bd412ac091db361b	jinko	17	chart.stacked	障がい者世帯の推移	H30/精神障害者保健福祉手帳所持者	133		honpen p.24	✓	auto:ai	2026-10-10	
+edc335bd954d85cf	jinko	17	chart.stacked	障がい者世帯の推移	H31/身体障害者手帳所持者	890		honpen p.24	✓	auto:ai	2026-10-10	
+920d4c2581b02897	jinko	17	chart.stacked	障がい者世帯の推移	H31/療育手帳所持者	282		honpen p.24	✓	auto:ai	2026-10-10	
+d412e1657e86be9e	jinko	17	chart.stacked	障がい者世帯の推移	H31/精神障害者保健福祉手帳所持者	134		honpen p.24	✓	auto:ai	2026-10-10	
+85db504eab2dd17b	jinko	17	chart.stacked	障がい者世帯の推移	R2/身体障害者手帳所持者	879		honpen p.24	✓	auto:ai	2026-10-10	
+91759ae929ec1970	jinko	17	chart.stacked	障がい者世帯の推移	R2/療育手帳所持者	283		honpen p.24	✓	auto:ai	2026-10-10	
+6d784da9890bc2e5	jinko	17	chart.stacked	障がい者世帯の推移	R2/精神障害者保健福祉手帳所持者	128		honpen p.24	✓	auto:ai	2026-10-10	
 f79066a58d6f77a0	jutaku	3	table	住宅の数と空き家	住宅数/平成15年	8000		honpen p.25	✓	auto:ai	2026-10-10	
 645d9d6b9cca7bbe	jutaku	3	table	住宅の数と空き家	住宅数/平成20年	8420		honpen p.25	✓	auto:ai	2026-10-10	
 b2aa0f2e46360094	jutaku	3	table	住宅の数と空き家	住宅数/平成25年	9330		honpen p.25	✓	auto:ai	2026-10-10	
@@ -237,86 +237,86 @@ b824fe5d2e3699d0	jutaku	3	table	住宅の数と空き家	建築中/平成15年	2
 d5bbc44f187beb93	jutaku	3	table	住宅の数と空き家	建築中/平成20年	0		honpen p.25	✓	auto:ai	2026-10-10	
 03609a5ad2ba6ee4	jutaku	3	table	住宅の数と空き家	建築中/平成25年	0		honpen p.25	✓	auto:ai	2026-10-10	
 350f5f0c3c3ceb8a	jutaku	3	table	住宅の数と空き家	建築中/平成30年	20		honpen p.25	✓	auto:ai	2026-10-10	
-5899577c328f47d1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/空家の数（戸）	210		honpen p.28				要人確認:H2 値が文字データにない
-cdf67868e71807e1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/すぐに入居可能（A）	95		honpen p.28				要人確認:H2 値が文字データにない
-e353ebeeafee5eec	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	72		honpen p.28				要人確認:H2 値が文字データにない
-fae1c2d17e57f416	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	29		honpen p.28				要人確認:H2 値が文字データにない
-a2b794d49ebb6b7d	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/倒壊の危険性有（D）	14		honpen p.28				要人確認:H2 値が文字データにない
-7a89be41d2246275	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/空家の数（戸）	58		honpen p.28				要人確認:H2 値が文字データにない
-16d762aa8b1d2313	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	21		honpen p.28				要人確認:H2 値が文字データにない
-99d71f267338556c	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	16		honpen p.28				要人確認:H2 値が文字データにない
-1cc6318f94491430	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28				要人確認:H2 値が文字データにない
-4d977a4282adadf2	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	5		honpen p.28				要人確認:H2 値が文字データにない
-5708924757e9c522	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/空家の数（戸）	39		honpen p.28				要人確認:H2 値が文字データにない
-12fc54bd6dbeadbb	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	9		honpen p.28				要人確認:H2 値が文字データにない
-925d0fc12c123931	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	19		honpen p.28				要人確認:H2 値が文字データにない
-5f11bf81e9135309	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	5		honpen p.28				要人確認:H2 値が文字データにない
-ebef1cc61e7987f5	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	6		honpen p.28				要人確認:H2 値が文字データにない
-66bd8822cc8afedb	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/空家の数（戸）	61		honpen p.28				要人確認:H2 値が文字データにない
-91b4b02403716d47	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/すぐに入居可能（A）	19		honpen p.28				要人確認:H2 値が文字データにない
+5899577c328f47d1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/空家の数（戸）	210		honpen p.28	✓	auto:ai	2026-10-10	
+cdf67868e71807e1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/すぐに入居可能（A）	95		honpen p.28	✓	auto:ai	2026-10-10	
+e353ebeeafee5eec	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	72		honpen p.28	✓	auto:ai	2026-10-10	
+fae1c2d17e57f416	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	29		honpen p.28	✓	auto:ai	2026-10-10	
+a2b794d49ebb6b7d	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/倒壊の危険性有（D）	14		honpen p.28	✓	auto:ai	2026-10-10	
+7a89be41d2246275	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/空家の数（戸）	58		honpen p.28	✓	auto:ai	2026-10-10	
+16d762aa8b1d2313	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	21		honpen p.28	✓	auto:ai	2026-10-10	
+99d71f267338556c	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	16		honpen p.28	✓	auto:ai	2026-10-10	
+1cc6318f94491430	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28	✓	auto:ai	2026-10-10	
+4d977a4282adadf2	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	5		honpen p.28	✓	auto:ai	2026-10-10	
+5708924757e9c522	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/空家の数（戸）	39		honpen p.28	✓	auto:ai	2026-10-10	
+12fc54bd6dbeadbb	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	9		honpen p.28	✓	auto:ai	2026-10-10	
+925d0fc12c123931	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	19		honpen p.28	✓	auto:ai	2026-10-10	
+5f11bf81e9135309	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	5		honpen p.28	✓	auto:ai	2026-10-10	
+ebef1cc61e7987f5	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	6		honpen p.28	✓	auto:ai	2026-10-10	
+66bd8822cc8afedb	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/空家の数（戸）	61		honpen p.28	✓	auto:ai	2026-10-10	
+91b4b02403716d47	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/すぐに入居可能（A）	19		honpen p.28	✓	auto:ai	2026-10-10	
 665839733846b936	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	27		honpen p.28	✓	auto:ai	2026-10-10	
-d8c0ecbda25d20b4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	13		honpen p.28				要人確認:H2 値が文字データにない
+d8c0ecbda25d20b4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	13		honpen p.28	✓	auto:ai	2026-10-10	
 184af76d271b71bf	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	
 4a50faf39193a6b0	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/空家の数（戸）	27		honpen p.28	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
-b419f9852faa1c0f	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	17		honpen p.28				要人確認:H2 値が文字データにない
-dfd69292408e8f04	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	3		honpen p.28				要人確認:H2 値が文字データにない
-955b9f0a7e79ed72	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	5		honpen p.28				要人確認:H2 値が文字データにない
+b419f9852faa1c0f	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	17		honpen p.28	✓	auto:ai	2026-10-10	
+dfd69292408e8f04	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	3		honpen p.28	✓	auto:ai	2026-10-10	
+955b9f0a7e79ed72	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	5		honpen p.28	✓	auto:ai	2026-10-10	
 020454db9c7bb12b	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	
-ac98764c0698ffca	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/空家の数（戸）	21		honpen p.28				要人確認:H2 値が文字データにない
-0e0b5dc853841856	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	12		honpen p.28				要人確認:H2 値が文字データにない
-2b07f4b45dc23c78	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	4		honpen p.28				要人確認:H2 値が文字データにない
-7eed310c2604b4cf	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	5		honpen p.28				要人確認:H2 値が文字データにない
-efcdd9a1696d6847	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	0		honpen p.28				要人確認:H2 値が文字データにない
-1b324fb954acc501	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/空家の数（戸）	141		honpen p.28				要人確認:H2 値が文字データにない
-39a32445e7d3964c	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/すぐに入居可能（A）	36		honpen p.28				要人確認:H2 値が文字データにない
-5aaced34080474a6	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	57		honpen p.28				要人確認:H2 値が文字データにない
-57ee264e97726c57	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	32		honpen p.28				要人確認:H2 値が文字データにない
-148575809d7211b6	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	16		honpen p.28				要人確認:H2 値が文字データにない
-d391a20a884fc6b4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/空家の数（戸）	557		honpen p.28				要人確認:H2 値が文字データにない
-bcbef0fce8700532	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/すぐに入居可能（A）	209		honpen p.28				要人確認:H2 値が文字データにない
-355d477b89a40ae1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	198		honpen p.28				要人確認:H2 値が文字データにない
-1c9d6c0e1414cc49	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	105		honpen p.28				要人確認:H2 値が文字データにない
-8ea27ecdb6eb0da4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/倒壊の危険性有（D）	45		honpen p.28				要人確認:H2 値が文字データにない
-d5918b3a4986c053	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/空家の数（戸）	179		honpen p.28				要人確認:H2 値が文字データにない
-a68e0db2748bded8	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/すぐに入居可能（A）	78		honpen p.28				要人確認:H2 値が文字データにない
-f834cb019b866f32	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	70		honpen p.28				要人確認:H2 値が文字データにない
-f418cd6c6b90af63	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	23		honpen p.28				要人確認:H2 値が文字データにない
-2ad94c246d82410e	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/倒壊の危険性有（D）	8		honpen p.28				要人確認:H2 値が文字データにない
-6bf88715e759b492	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/空家の数（戸）	54		honpen p.28				要人確認:H2 値が文字データにない
-e37fb5eb8fff6183	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	12		honpen p.28				要人確認:H2 値が文字データにない
-ec9f1c85c7c839e2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	19		honpen p.28				要人確認:H2 値が文字データにない
-7313ab78ebc0aca2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28				要人確認:H2 値が文字データにない
-0d5bc63e84857378	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	7		honpen p.28				要人確認:H2 値が文字データにない
-31cbbbdb8cef13a0	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/空家の数（戸）	32		honpen p.28				要人確認:H2 値が文字データにない
-a8277ab187c2a41e	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	5		honpen p.28				要人確認:H2 値が文字データにない
-c9d97e06a722b3ce	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	22		honpen p.28				要人確認:H2 値が文字データにない
+ac98764c0698ffca	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/空家の数（戸）	21		honpen p.28	✓	auto:ai	2026-10-10	
+0e0b5dc853841856	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	12		honpen p.28	✓	auto:ai	2026-10-10	
+2b07f4b45dc23c78	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	4		honpen p.28	✓	auto:ai	2026-10-10	
+7eed310c2604b4cf	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	5		honpen p.28	✓	auto:ai	2026-10-10	
+efcdd9a1696d6847	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	0		honpen p.28	✓	auto:ai	2026-10-10	
+1b324fb954acc501	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/空家の数（戸）	141		honpen p.28	✓	auto:ai	2026-10-10	
+39a32445e7d3964c	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/すぐに入居可能（A）	36		honpen p.28	✓	auto:ai	2026-10-10	
+5aaced34080474a6	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	57		honpen p.28	✓	auto:ai	2026-10-10	
+57ee264e97726c57	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	32		honpen p.28	✓	auto:ai	2026-10-10	
+148575809d7211b6	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	16		honpen p.28	✓	auto:ai	2026-10-10	
+d391a20a884fc6b4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/空家の数（戸）	557		honpen p.28	✓	auto:ai	2026-10-10	
+bcbef0fce8700532	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/すぐに入居可能（A）	209		honpen p.28	✓	auto:ai	2026-10-10	
+355d477b89a40ae1	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	198		honpen p.28	✓	auto:ai	2026-10-10	
+1c9d6c0e1414cc49	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	105		honpen p.28	✓	auto:ai	2026-10-10	
+8ea27ecdb6eb0da4	jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/倒壊の危険性有（D）	45		honpen p.28	✓	auto:ai	2026-10-10	
+d5918b3a4986c053	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/空家の数（戸）	179		honpen p.28	✓	auto:ai	2026-10-10	
+a68e0db2748bded8	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/すぐに入居可能（A）	78		honpen p.28	✓	auto:ai	2026-10-10	
+f834cb019b866f32	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	70		honpen p.28	✓	auto:ai	2026-10-10	
+f418cd6c6b90af63	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	23		honpen p.28	✓	auto:ai	2026-10-10	
+2ad94c246d82410e	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/倒壊の危険性有（D）	8		honpen p.28	✓	auto:ai	2026-10-10	
+6bf88715e759b492	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/空家の数（戸）	54		honpen p.28	✓	auto:ai	2026-10-10	
+e37fb5eb8fff6183	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	12		honpen p.28	✓	auto:ai	2026-10-10	
+ec9f1c85c7c839e2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	19		honpen p.28	✓	auto:ai	2026-10-10	
+7313ab78ebc0aca2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28	✓	auto:ai	2026-10-10	
+0d5bc63e84857378	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	7		honpen p.28	✓	auto:ai	2026-10-10	
+31cbbbdb8cef13a0	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/空家の数（戸）	32		honpen p.28	✓	auto:ai	2026-10-10	
+a8277ab187c2a41e	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	5		honpen p.28	✓	auto:ai	2026-10-10	
+c9d97e06a722b3ce	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	22		honpen p.28	✓	auto:ai	2026-10-10	
 6d2d28526edc19e7	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	2		honpen p.28	✓	auto:ai	2026-10-10	
-1effc75dbd2bb897	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	3		honpen p.28				要人確認:H2 値が文字データにない
-f4b1ae684bde0767	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/空家の数（戸）	44		honpen p.28				要人確認:H2 値が文字データにない
-4c1fe091dc3aa977	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/すぐに入居可能（A）	16		honpen p.28				要人確認:H2 値が文字データにない
-bf711f414ee0d98f	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	18		honpen p.28				要人確認:H2 値が文字データにない
-0e7f14ec30b39605	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	8		honpen p.28				要人確認:H2 値が文字データにない
+1effc75dbd2bb897	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	3		honpen p.28	✓	auto:ai	2026-10-10	
+f4b1ae684bde0767	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/空家の数（戸）	44		honpen p.28	✓	auto:ai	2026-10-10	
+4c1fe091dc3aa977	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/すぐに入居可能（A）	16		honpen p.28	✓	auto:ai	2026-10-10	
+bf711f414ee0d98f	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	18		honpen p.28	✓	auto:ai	2026-10-10	
+0e7f14ec30b39605	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	8		honpen p.28	✓	auto:ai	2026-10-10	
 5321c38a15185690	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-dafafdd5724079ea	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/空家の数（戸）	17		honpen p.28				要人確認:H2 値が文字データにない
-d4453ed7045b2dcd	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	7		honpen p.28				要人確認:H2 値が文字データにない
+dafafdd5724079ea	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/空家の数（戸）	17		honpen p.28	✓	auto:ai	2026-10-10	
+d4453ed7045b2dcd	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	7		honpen p.28	✓	auto:ai	2026-10-10	
 c932c37a7eb15441	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	2		honpen p.28	✓	auto:ai	2026-10-10	
-e2d8031109e69cbf	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	7		honpen p.28				要人確認:H2 値が文字データにない
-6766b557e649beb9	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	1		honpen p.28				要人確認:H2 値が文字データにない
-ca4d7b7a97572c55	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/空家の数（戸）	22		honpen p.28				要人確認:H2 値が文字データにない
-9b1f385e37641689	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	13		honpen p.28				要人確認:H2 値が文字データにない
-4e43afd63eb4d018	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	8		honpen p.28				要人確認:H2 値が文字データにない
+e2d8031109e69cbf	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	7		honpen p.28	✓	auto:ai	2026-10-10	
+6766b557e649beb9	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	1		honpen p.28	✓	auto:ai	2026-10-10	
+ca4d7b7a97572c55	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/空家の数（戸）	22		honpen p.28	✓	auto:ai	2026-10-10	
+9b1f385e37641689	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	13		honpen p.28	✓	auto:ai	2026-10-10	
+4e43afd63eb4d018	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	8		honpen p.28	✓	auto:ai	2026-10-10	
 b1c585f82ded7a81	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	2		honpen p.28	✓	auto:ai	2026-10-10	
-b6f54bb39c9ec9ce	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	1		honpen p.28				要人確認:H2 値が文字データにない
-599fb8961463c16f	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/空家の数（戸）	83		honpen p.28				要人確認:H2 値が文字データにない
-e3163ff8ac2e8024	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/すぐに入居可能（A）	29		honpen p.28				要人確認:H2 値が文字データにない
-faac16e9375fc9d3	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	33		honpen p.28				要人確認:H2 値が文字データにない
-0bdede8eaaa3b968	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	19		honpen p.28				要人確認:H2 値が文字データにない
+b6f54bb39c9ec9ce	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	1		honpen p.28	✓	auto:ai	2026-10-10	
+599fb8961463c16f	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/空家の数（戸）	83		honpen p.28	✓	auto:ai	2026-10-10	
+e3163ff8ac2e8024	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/すぐに入居可能（A）	29		honpen p.28	✓	auto:ai	2026-10-10	
+faac16e9375fc9d3	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	33		honpen p.28	✓	auto:ai	2026-10-10	
+0bdede8eaaa3b968	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	19		honpen p.28	✓	auto:ai	2026-10-10	
 c04846b38b205ca2	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	2		honpen p.28	✓	auto:ai	2026-10-10	
-9c30452830ecc8a0	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/空家の数（戸）	431		honpen p.28				要人確認:H2 値が文字データにない
-57c8f4efabfcf964	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/すぐに入居可能（A）	160		honpen p.28				要人確認:H2 値が文字データにない
-6ea5cf9428a9212d	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	170		honpen p.28				要人確認:H2 値が文字データにない
-f8dcb22929a22cfc	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	77		honpen p.28				要人確認:H2 値が文字データにない
-1fe5acb364846121	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/倒壊の危険性有（D）	24		honpen p.28				要人確認:H2 値が文字データにない
+9c30452830ecc8a0	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/空家の数（戸）	431		honpen p.28	✓	auto:ai	2026-10-10	
+57c8f4efabfcf964	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/すぐに入居可能（A）	160		honpen p.28	✓	auto:ai	2026-10-10	
+6ea5cf9428a9212d	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	170		honpen p.28	✓	auto:ai	2026-10-10	
+f8dcb22929a22cfc	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	77		honpen p.28	✓	auto:ai	2026-10-10	
+1fe5acb364846121	jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/倒壊の危険性有（D）	24		honpen p.28	✓	auto:ai	2026-10-10	
 e13062de3531b07b	jutaku	11	table	持ち家と借家	一般世帯数/平成7年	6043		honpen p.26	✓	auto:ai	2026-10-10	
 3092b30256c3af4b	jutaku	11	table	持ち家と借家	一般世帯数/平成12年	6330		honpen p.26	✓	auto:ai	2026-10-10	
 7fab61914288c000	jutaku	11	table	持ち家と借家	一般世帯数/平成17年	6758		honpen p.26	✓	auto:ai	2026-10-10	
@@ -419,17 +419,17 @@ d65c3150607b65c5	jutaku	18	table	住宅の広さと建てた時期	借家 割合
 f6faad51e4df4711	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/誘導居住面積水準以上の世帯	21.7		honpen p.31	✓	auto:ai	2026-10-10	
 2f73fc4c9c840582	jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/誘導居住面積水準未満の世帯	78.3		honpen p.31	✓	auto:ai	2026-10-10	
 c5a01b9037c18c76	jutaku	22	table	住宅の耐震化	計/住宅総数	8020		honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-5cb3db743471c120	jutaku	22	table	住宅の耐震化	計/うち一戸建	6560		honpen p.33				要人確認:H2 値が文字データにない
-a1e2c0592f0a8b95	jutaku	22	table	住宅の耐震化	計/うち共同等	1460		honpen p.33				要人確認:H2 値が文字データにない
+5cb3db743471c120	jutaku	22	table	住宅の耐震化	計/うち一戸建	6560		honpen p.33				要人確認:H1 A=一致/高 B=一致/中
+a1e2c0592f0a8b95	jutaku	22	table	住宅の耐震化	計/うち共同等	1460		honpen p.33				要人確認:H1 A=一致/高 B=一致/中
 609920e6e3163918	jutaku	22	table	住宅の耐震化	計/耐震性あり	5510		honpen p.33				要人確認:H1 A=一致/高 B=一致/中
-f9c36ef75368f6af	jutaku	22	table	住宅の耐震化	昭和55年以前/住宅総数	3340		honpen p.33				要人確認:H2 値が文字データにない
-dd9528c79a6c70b4	jutaku	22	table	住宅の耐震化	昭和55年以前/うち一戸建	2770		honpen p.33				要人確認:H2 値が文字データにない
-2295eae3f152b66e	jutaku	22	table	住宅の耐震化	昭和55年以前/うち共同等	570		honpen p.33				要人確認:H2 値が文字データにない
-864309e8268e7993	jutaku	22	table	住宅の耐震化	昭和55年以前/耐震性あり	830		honpen p.33				要人確認:H2 値が文字データにない
-735449b059954509	jutaku	22	table	住宅の耐震化	昭和56年以降/住宅総数	4680		honpen p.33				要人確認:H2 値が文字データにない
-78248f811890904b	jutaku	22	table	住宅の耐震化	昭和56年以降/うち一戸建	3790		honpen p.33				要人確認:H2 値が文字データにない
-c5ddc59fe4d736b2	jutaku	22	table	住宅の耐震化	昭和56年以降/うち共同等	890		honpen p.33				要人確認:H2 値が文字データにない
-7c1c2c79fc7a56b5	jutaku	22	table	住宅の耐震化	昭和56年以降/耐震性あり	4680		honpen p.33				要人確認:H2 値が文字データにない
+f9c36ef75368f6af	jutaku	22	table	住宅の耐震化	昭和55年以前/住宅総数	3340		honpen p.33	✓	auto:ai	2026-10-10	
+dd9528c79a6c70b4	jutaku	22	table	住宅の耐震化	昭和55年以前/うち一戸建	2770		honpen p.33	✓	auto:ai	2026-10-10	
+2295eae3f152b66e	jutaku	22	table	住宅の耐震化	昭和55年以前/うち共同等	570		honpen p.33	✓	auto:ai	2026-10-10	
+864309e8268e7993	jutaku	22	table	住宅の耐震化	昭和55年以前/耐震性あり	830		honpen p.33	✓	auto:ai	2026-10-10	
+735449b059954509	jutaku	22	table	住宅の耐震化	昭和56年以降/住宅総数	4680		honpen p.33	✓	auto:ai	2026-10-10	
+78248f811890904b	jutaku	22	table	住宅の耐震化	昭和56年以降/うち一戸建	3790		honpen p.33	✓	auto:ai	2026-10-10	
+c5ddc59fe4d736b2	jutaku	22	table	住宅の耐震化	昭和56年以降/うち共同等	890		honpen p.33	✓	auto:ai	2026-10-10	
+7c1c2c79fc7a56b5	jutaku	22	table	住宅の耐震化	昭和56年以降/耐震性あり	4680		honpen p.33	✓	auto:ai	2026-10-10	
 dc86537f02d11c07	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/総数	7590		honpen p.34	✓	auto:ai	2026-10-10	
 e0264a2d044ffbfa	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員2ｍ未満の道路	310		honpen p.34	✓	auto:ai	2026-10-10	
 4a96af01795d2ad0	jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員2〜4ｍ未満の道路	3090		honpen p.34	✓	auto:ai	2026-10-10	
@@ -902,10 +902,10 @@ b649f7bd512d2844	koe	29	table	町に期待すること	公共施設・公園の�
 92630694ded9f8a5	koe	29	table	町に期待すること	都市計画の見直し/割合（％）	6		honpen p.64	✓	auto:ai	2026-10-10	
 8165e6821c6a9be0	koe	29	table	町に期待すること	その他/件数	7		honpen p.64	✓	auto:ai	2026-10-10	
 4f86cc839e12a8d3	koe	29	table	町に期待すること	その他/割合（％）	10		honpen p.64	✓	auto:ai	2026-10-10	
-f9faeaef5a2839c5	shisaku	4	programs		事業数	14	件	honpen p.81-83				要人確認:H2 値が文字データにない
-f0ae7c021ca129eb	shisaku	6	programs		事業数	10	件	honpen p.84-85				要人確認:H2 値が文字データにない
-74ad6e06ff0a2295	shisaku	7	programs		事業数	11	件	honpen p.86-88				要人確認:H2 値が文字データにない
-1817184d54e8b392	shisaku	8	programs		事業数	15	件	honpen p.89-91				要人確認:H2 値が文字データにない
+f9faeaef5a2839c5	shisaku	4	programs		事業数	14	件	honpen p.81-83	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+f0ae7c021ca129eb	shisaku	6	programs		事業数	10	件	honpen p.84-85	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+74ad6e06ff0a2295	shisaku	7	programs		事業数	11	件	honpen p.86-88	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+1817184d54e8b392	shisaku	8	programs		事業数	15	件	honpen p.89-91	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 f888f4403399b9fd	choei	1	kpi	町営住宅のいま	町が管理している町営住宅	72	戸	honpen p.92	✓	auto:ai	2026-10-10	
 583c54f5aefbf988	choei	1	kpi	町営住宅のいま	うち新規募集を停止している住宅	15	戸	honpen p.92	✓	auto:ai	2026-10-10	
 1b27f6e52b22ae3c	choei	1	kpi	町営住宅のいま	活用可能な町営住宅	57	戸	honpen p.92	✓	auto:ai	2026-10-10	

@@ -284,19 +284,19 @@ efa5fb2d8b45f2c8	mokuhyo	6	kpi	住宅の耐震化の見通し	既存住宅のう
 408bd8c70b83a732	mokuhyo	6	kpi	住宅の耐震化の見通し	新築される住宅	1710	戸	honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 77dc1fbb40fd1649	mokuhyo	6	kpi	住宅の耐震化の見通し	耐震改修の目標設定戸数	1580	戸	honpen p.13	✓	auto:ai	2026-10-10	
 6841bae29a29dee2	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成27年度	8020		honpen p.13	✓	auto:ai	2026-10-10	
-e7c1dba8df2f4ab8	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成32年度	8720		honpen p.13				要人確認:H2 値が文字データにない
+e7c1dba8df2f4ab8	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成32年度	8720		honpen p.13	✓	auto:ai	2026-10-10	
 4bc656eaa264ce05	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成37年度	9200		honpen p.13				要人確認:H1 A=一致/中 B=一致/中
 c83d5ed6fab0a983	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成37年度（目標）	9200		honpen p.13				要人確認:H1 A=一致/中 B=一致/中
-d2f04973b6e9620f	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成32年度	930		honpen p.13				要人確認:H2 値が文字データにない
+d2f04973b6e9620f	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成32年度	930		honpen p.13	✓	auto:ai	2026-10-10	
 8d8c9ef3c6635823	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成37年度	1710		honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 9f2aab486caea4a4	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成37年度（目標）	1710		honpen p.13	✓	auto:ai	2026-10-10	
-3aa01486f3e3d65e	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成27年度	5510		honpen p.13				要人確認:H2 値が文字データにない
-8c8b4bebc7100f05	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成32年度	5490		honpen p.13				要人確認:H2 値が文字データにない
-46d355e07497f444	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成37年度	5450		honpen p.13				要人確認:H2 値が文字データにない
-067c08e0cd2cee56	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成37年度（目標）	5450		honpen p.13				要人確認:H2 値が文字データにない
+3aa01486f3e3d65e	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成27年度	5510		honpen p.13	✓	auto:ai	2026-10-10	
+8c8b4bebc7100f05	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成32年度	5490		honpen p.13	✓	auto:ai	2026-10-10	
+46d355e07497f444	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成37年度	5450		honpen p.13	✓	auto:ai	2026-10-10	
+067c08e0cd2cee56	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成37年度（目標）	5450		honpen p.13	✓	auto:ai	2026-10-10	
 e95e0864930683bd	mokuhyo	7	table	住宅の耐震化の見通し	促進必要戸数（耐震改修）/平成37年度（目標）	1580		honpen p.13	✓	auto:ai	2026-10-10	
 13e326a41938a0cb	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成27年度	2510		honpen p.13	✓	auto:ai	2026-10-10	
-2ca17d74feb4bad2	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成32年度	2300		honpen p.13				要人確認:H2 値が文字データにない
+2ca17d74feb4bad2	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成32年度	2300		honpen p.13	✓	auto:ai	2026-10-10	
 376220bfcf8a8949	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成37年度	2040		honpen p.13	✓	auto:ai	2026-10-10	
 e6cdf632d8b50dd0	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成37年度（目標）	460		honpen p.13	✓	auto:ai	2026-10-10	
 857b84e8ea132f67	mokuhyo	8	table	世帯数および住宅戸数の将来推計	①推計人口/H27年	21958		honpen p.14	✓	auto:ai	2026-10-10	
@@ -317,17 +317,17 @@ d7649f6a27aa5a2a	mokuhyo	8	table	世帯数および住宅戸数の将来推計	�
 d6e3d355a0c296cc	mokuhyo	8	table	世帯数および住宅戸数の将来推計	⑥住宅数の推計/H27年	8020		honpen p.14	✓	auto:ai	2026-10-10	
 1ef2277448f8d729	mokuhyo	8	table	世帯数および住宅戸数の将来推計	⑥住宅数の推計/H32年	8720		honpen p.14	✓	auto:ai	2026-10-10	
 25d708028febc0ce	mokuhyo	8	table	世帯数および住宅戸数の将来推計	⑥住宅数の推計/H37年	9200		honpen p.14	✓	auto:ai	2026-10-10	
-8ec8ac983130e5e3	mokuhyo	11	table	特定既存耐震不適格建築物の目標	建築物数（棟）/平成27年度末	118		honpen p.14				要人確認:H2 値が文字データにない
-3aaf4a79731cbb5b	mokuhyo	11	table	特定既存耐震不適格建築物の目標	建築物数（棟）/平成37年度末（目標）	118		honpen p.14				要人確認:H2 値が文字データにない
-3f847f502397ffd7	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性あり（棟）/平成27年度末	106		honpen p.14				要人確認:H2 値が文字データにない
-1d06339c50748b19	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性あり（棟）/平成37年度末（目標）	112		honpen p.14				要人確認:H2 値が文字データにない
-807ac74aac3ed3ff	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性ありの割合（％）/平成27年度末	89.8		honpen p.14				要人確認:H2 値が文字データにない
+8ec8ac983130e5e3	mokuhyo	11	table	特定既存耐震不適格建築物の目標	建築物数（棟）/平成27年度末	118		honpen p.14	✓	auto:ai	2026-10-10	
+3aaf4a79731cbb5b	mokuhyo	11	table	特定既存耐震不適格建築物の目標	建築物数（棟）/平成37年度末（目標）	118		honpen p.14	✓	auto:ai	2026-10-10	
+3f847f502397ffd7	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性あり（棟）/平成27年度末	106		honpen p.14	✓	auto:ai	2026-10-10	
+1d06339c50748b19	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性あり（棟）/平成37年度末（目標）	112		honpen p.14	✓	auto:ai	2026-10-10	
+807ac74aac3ed3ff	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性ありの割合（％）/平成27年度末	89.8		honpen p.14	✓	auto:ai	2026-10-10	
 d3bcca6c1ec937d8	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性ありの割合（％）/平成37年度末（目標）	95		honpen p.14	✓	auto:ai	2026-10-10	
 60cc4a8ebf8b3667	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震化が必要な棟数（棟）/平成37年度末（目標）	6		honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-5f955228b5de326c	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分（棟）/平成27年度末	12		honpen p.14				要人確認:H2 値が文字データにない
+5f955228b5de326c	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分（棟）/平成27年度末	12		honpen p.14	✓	auto:ai	2026-10-10	
 848b7d7a5516374f	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分（棟）/平成37年度末（目標）	6		honpen p.14	✓	auto:ai	2026-10-10	
-ef8a2ad9b1c9429d	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分の割合（％）/平成27年度末	10.2		honpen p.14				要人確認:H2 値が文字データにない
-0d6dc0f2772e77a3	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分の割合（％）/平成37年度末（目標）	5.0		honpen p.14				要人確認:H2 値が文字データにない
+ef8a2ad9b1c9429d	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分の割合（％）/平成27年度末	10.2		honpen p.14	✓	auto:ai	2026-10-10	
+0d6dc0f2772e77a3	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分の割合（％）/平成37年度末（目標）	5.0		honpen p.14	✓	auto:ai	2026-10-10	
 97c5dd3a10991a3d	mokuhyo	14	target.base	町が所有する建築物の目標	防災上特に重要な町有施設の耐震化率	97.6	%	honpen p.15	✓	auto:ai	2026-10-10	
 cfd167eaff5bbf4d	mokuhyo	14	target.target	町が所有する建築物の目標	防災上特に重要な町有施設の耐震化率	100.0	%	honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
 694c666b43a47884	shien	12	table	木造住宅耐震・バリアフリー改修等事業	50万円＜対象工事費≦100万円/補助基本額（万円）	10		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点

@@ -3,7 +3,7 @@ key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date
 28a650425284e20a	summary	1	kpi		町が管理する橋	156	橋	keikaku p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
 a352dbddaf4fe56c	summary	1	kpi		橋の延長の合計	2135.4	m	keikaku p.22	✓	auto:ai	2026-10-10	
 14c930e6f89638f9	summary	2	kpi		判定Ⅲ（早期措置段階）の橋	5	橋	keikaku p.48	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-8eec4b652ea03bab	summary	2	kpi		判定Ⅳ（緊急措置段階）の橋	0	橋	keikaku p.48				要人確認:H2 値が文字データにない
+8eec4b652ea03bab	summary	2	kpi		判定Ⅳ（緊急措置段階）の橋	0	橋	keikaku p.48	✓	auto:ai	2026-10-10	
 6f2c329f59911080	summary	4	kpi		新技術等の活用を検討する橋	16	橋	keikaku p.106	✓	auto:ai	2026-10-10	
 8c9a898e6afb02fc	summary	4	kpi		新技術等による費用の縮減	4	%程度	keikaku p.106	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
 b29440ce38107168	genjo	2	table	町が管理する橋	橋長15m以上/管理橋梁数	44		keikaku p.22	✓	auto:ai	2026-10-10	
@@ -42,18 +42,18 @@ cf4325f5e3eecdbf	genjo	3	table	町が管理する橋	橋長15m未満（112橋）
 c5683bb209d0761c	genjo	3	table	町が管理する橋	橋長15m未満（112橋）/PC橋	30		keikaku p.33	✓	auto:ai	2026-10-10	
 78addd86a59b64ae	genjo	3	table	町が管理する橋	橋長15m未満（112橋）/RC橋	66		keikaku p.33	✓	auto:ai	2026-10-10	
 5a604c3dacc69a73	genjo	3	table	町が管理する橋	橋長15m未満（112橋）/その他	5		keikaku p.33	✓	auto:ai	2026-10-10	
-18a37619d71fb5b4	genjo	5	kpi	古くなる橋が急に増える	建設後50年以上の橋（現在）	66	橋	tyoujumyoukakeikakur6-4 p.1				要人確認:H2 値が文字データにない
-2ad80cffe15c1f32	genjo	5	kpi	古くなる橋が急に増える	建設後50年以上の橋（10年後）	113	橋	tyoujumyoukakeikakur6-4 p.1				要人確認:H2 値が文字データにない
+18a37619d71fb5b4	genjo	5	kpi	古くなる橋が急に増える	建設後50年以上の橋（現在）	66	橋	tyoujumyoukakeikakur6-4 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+2ad80cffe15c1f32	genjo	5	kpi	古くなる橋が急に増える	建設後50年以上の橋（10年後）	113	橋	tyoujumyoukakeikakur6-4 p.1	✓	auto:ai	2026-10-10	
 19cecdb233879622	genjo	7	table	古くなる橋が急に増える	橋長15m以上（判明42橋）/現在（2024年）	22		keikaku p.29-30	✓	auto:ai	2026-10-10	
 2d32ec9af66b68ed	genjo	7	table	古くなる橋が急に増える	橋長15m以上（判明42橋）/10年後	29		keikaku p.29-30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 4369700373dc96d1	genjo	7	table	古くなる橋が急に増える	橋長15m以上（判明42橋）/20年後	38		keikaku p.29-30	✓	auto:ai	2026-10-10	
 ac39d1e00f378b0a	genjo	7	table	古くなる橋が急に増える	橋長15m未満（判明30橋）/現在（2024年）	15		keikaku p.29-30	✓	auto:ai	2026-10-10	
 55b48a97265c7b22	genjo	7	table	古くなる橋が急に増える	橋長15m未満（判明30橋）/10年後	20		keikaku p.29-30	✓	auto:ai	2026-10-10	
 a47bdad91470e2f3	genjo	7	table	古くなる橋が急に増える	橋長15m未満（判明30橋）/20年後	27		keikaku p.29-30	✓	auto:ai	2026-10-10	
-14626070246733d3	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅰ	108	橋	keikaku p.48				要人確認:H2 値が文字データにない
-eb0cc0c94ebee450	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅱ	43	橋	keikaku p.48				要人確認:H2 値が文字データにない
+14626070246733d3	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅰ	108	橋	keikaku p.48	✓	auto:ai	2026-10-10	
+eb0cc0c94ebee450	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅱ	43	橋	keikaku p.48	✓	auto:ai	2026-10-10	
 d9d12c56755e5a40	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅲ	5	橋	keikaku p.48	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
-260215214401dded	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅳ	0	橋	keikaku p.48				要人確認:H2 値が文字データにない
+260215214401dded	genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅳ	0	橋	keikaku p.48	✓	auto:ai	2026-10-10	
 aa9bdb673c874f15	genjo	10	table	点検による健全性の診断	0012 別所橋/点検年度	2019		keikaku p.48	✓	auto:ai	2026-10-10	
 7755c9b439851180	genjo	10	table	点検による健全性の診断	0012 別所橋/橋長(m)	81.9		keikaku p.48	✓	auto:ai	2026-10-10	
 652a7b18a404fd30	genjo	10	table	点検による健全性の診断	0012 別所橋/架設年	1930		keikaku p.48	✓	auto:ai	2026-10-10	
@@ -71,18 +71,18 @@ f3c1ad998cc0b46d	genjo	10	table	点検による健全性の診断	0044 広域跨
 59f35456b315c622	genjo	10	table	点検による健全性の診断	0044 広域跨線橋（石原橋）/架設年	1974		keikaku p.48	✓	auto:ai	2026-10-10	
 04c2c8133769d66e	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅰ	30		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/中
 afb4000284f4c248	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅱ	14		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/中
-bb60259254f971d5	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅲ	0		tenkenkekka202603 p.1-3				要人確認:H2 値が文字データにない
-6243956af3ec5367	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅳ	0		tenkenkekka202603 p.1-3				要人確認:H2 値が文字データにない
+bb60259254f971d5	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅲ	0		tenkenkekka202603 p.1-3	✓	auto:ai	2026-10-10	
+6243956af3ec5367	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅳ	0		tenkenkekka202603 p.1-3	✓	auto:ai	2026-10-10	
 a3fa706b1374f6bb	genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/計	44		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/高
 deb6fde3141113f8	genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅰ	81		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/中
 7c053cd31ef50bba	genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅱ	31		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/中
-eaf67eb94f9afd13	genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅲ	0		tenkenkekka202603 p.1-3				要人確認:H2 値が文字データにない
-0f2436c7f3081627	genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅳ	0		tenkenkekka202603 p.1-3				要人確認:H2 値が文字データにない
+eaf67eb94f9afd13	genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅲ	0		tenkenkekka202603 p.1-3	✓	auto:ai	2026-10-10	
+0f2436c7f3081627	genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅳ	0		tenkenkekka202603 p.1-3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 8c75414da2cb1efd	genjo	13	table	最新の点検結果	橋長15m未満/計	112		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/高
 468097b90301867e	genjo	13	table	最新の点検結果	合計/判定Ⅰ	111		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/中
 4cf201f27bb5962a	genjo	13	table	最新の点検結果	合計/判定Ⅱ	45		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/中
-35462255a578f8fa	genjo	13	table	最新の点検結果	合計/判定Ⅲ	0		tenkenkekka202603 p.1-3				要人確認:H2 値が文字データにない
-7db82901d59c8ea3	genjo	13	table	最新の点検結果	合計/判定Ⅳ	0		tenkenkekka202603 p.1-3				要人確認:H2 値が文字データにない
+35462255a578f8fa	genjo	13	table	最新の点検結果	合計/判定Ⅲ	0		tenkenkekka202603 p.1-3	✓	auto:ai	2026-10-10	
+7db82901d59c8ea3	genjo	13	table	最新の点検結果	合計/判定Ⅳ	0		tenkenkekka202603 p.1-3	✓	auto:ai	2026-10-10	
 a27e659009417afe	genjo	13	table	最新の点検結果	合計/計	156		tenkenkekka202603 p.1-3				要人確認:H1 A=一致/中 B=一致/高
 1e0a92c18d0638dd	yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0001 高橋（西大路鎌掛線）/橋長(m)	50.3		keikaku p.145	✓	auto:ai	2026-10-10	
 748eab5a1aa15f71	yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0001 高橋（西大路鎌掛線）/補修設計(千円)	7700		keikaku p.145	✓	auto:pdftext	2026-10-10	
@@ -161,87 +161,87 @@ da1c3a7e875e1a2e	yotei	4	table	橋長15m未満（観察保全型）11橋の対�
 48becb1c16ee1bff	yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/補修設計(千円)	3300		keikaku p.145	✓	auto:ai	2026-10-10	
 67d2e87faff003e4	yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/工事(千円)	25641		keikaku p.145	✓	auto:ai	2026-10-10	
 5d43e59591e13aff	yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/合計(千円)	28941		keikaku p.145	✓	auto:ai	2026-10-10	
-7fb5890f94f3c967	yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/事業優先順位	1		keikaku p.171				要人確認:H2 値が文字データにない
-d1ffdbf1331dede6	yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/調査設計費(千円)	3700		keikaku p.171				要人確認:H2 値が文字データにない
-8d0e861b3cb519db	yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/補修工事費(千円)	15870		keikaku p.171				要人確認:H2 値が文字データにない
-b9356d5a531e200a	yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/事業優先順位	1		keikaku p.171				要人確認:H2 値が文字データにない
-a13b4eefa266dbbc	yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/調査設計費(千円)	2900		keikaku p.171				要人確認:H2 値が文字データにない
-e174f8cca43a0f50	yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/補修工事費(千円)	590		keikaku p.171				要人確認:H2 値が文字データにない
-79b670cd7c8fe6d0	yotei	7	table	いつ、どの橋を直すか	0014 安土橋/事業優先順位	5		keikaku p.171				要人確認:H2 値が文字データにない
-5266e5f7daa38721	yotei	7	table	いつ、どの橋を直すか	0014 安土橋/補修工事費(千円)	20319		keikaku p.171				要人確認:H2 値が文字データにない
-77dc729a8c09bc77	yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/事業優先順位	5		keikaku p.171				要人確認:H2 値が文字データにない
-1867023dc05e6e84	yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/調査設計費(千円)	3300		keikaku p.171				要人確認:H2 値が文字データにない
-77679e13ff48b654	yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/補修工事費(千円)	2384		keikaku p.171				要人確認:H2 値が文字データにない
-57b2e676af3fa8e4	yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/事業優先順位	5		keikaku p.171				要人確認:H2 値が文字データにない
-05fd003e0e6c7369	yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/調査設計費(千円)	3200		keikaku p.171				要人確認:H2 値が文字データにない
-dd524c97b0b77af6	yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/補修工事費(千円)	12341		keikaku p.171				要人確認:H2 値が文字データにない
-fd4a09c61fe97a44	yotei	7	table	いつ、どの橋を直すか	0162 前川橋/事業優先順位	5		keikaku p.171				要人確認:H2 値が文字データにない
-7194fac8cd08084a	yotei	7	table	いつ、どの橋を直すか	0162 前川橋/調査設計費(千円)	3300		keikaku p.171				要人確認:H2 値が文字データにない
-dea6f13f4f73274f	yotei	7	table	いつ、どの橋を直すか	0162 前川橋/補修工事費(千円)	25641		keikaku p.171				要人確認:H2 値が文字データにない
-2ed7bbf585e31d94	yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/事業優先順位	12		keikaku p.171				要人確認:H2 値が文字データにない
-dfe3b5f3c8e1a387	yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/調査設計費(千円)	3700		keikaku p.171				要人確認:H2 値が文字データにない
-6c567cd455f7df09	yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/補修工事費(千円)	19448		keikaku p.171				要人確認:H2 値が文字データにない
-d53a463ed9b22631	yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/事業優先順位	12		keikaku p.171				要人確認:H2 値が文字データにない
-c37a989be8ea3f6d	yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/調査設計費(千円)	2800		keikaku p.171				要人確認:H2 値が文字データにない
-7eb8e5f797ad8a7c	yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/補修工事費(千円)	499		keikaku p.171				要人確認:H2 値が文字データにない
-8e7f32f2d1cf7880	yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/事業優先順位	12		keikaku p.171				要人確認:H2 値が文字データにない
-390635eb57a4ffb1	yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/調査設計費(千円)	2900		keikaku p.171				要人確認:H2 値が文字データにない
-ac5b805ae7d507e9	yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/補修工事費(千円)	6299		keikaku p.171				要人確認:H2 値が文字データにない
-b06efa1b0e765633	yotei	7	table	いつ、どの橋を直すか	0097 御門橋/事業優先順位	16		keikaku p.171				要人確認:H2 値が文字データにない
-5f9e829ba0836221	yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/事業優先順位	16		keikaku p.171				要人確認:H2 値が文字データにない
-55f1efe9538acabd	yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/調査設計費(千円)	2800		keikaku p.171				要人確認:H2 値が文字データにない
-2cccbde263885735	yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/補修工事費(千円)	6216		keikaku p.171				要人確認:H2 値が文字データにない
-2c6bcd39b6f7b469	yotei	7	table	いつ、どの橋を直すか	0001 高橋/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-4405645c3a5808c0	yotei	7	table	いつ、どの橋を直すか	0001 高橋/調査設計費(千円)	7700		keikaku p.171				要人確認:H2 値が文字データにない
-e5f3dad67319d53f	yotei	7	table	いつ、どの橋を直すか	0001 高橋/補修工事費(千円)	26142		keikaku p.171				要人確認:H2 値が文字データにない
-0716e0c407b4fad2	yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-204dfe39e1b947cf	yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/調査設計費(千円)	6300		keikaku p.171				要人確認:H2 値が文字データにない
-0e69c37bef649c89	yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/補修工事費(千円)	1590		keikaku p.171				要人確認:H2 値が文字データにない
-1b5d531df12351fe	yotei	7	table	いつ、どの橋を直すか	0028 前川橋/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-37d4c1086b4e4636	yotei	7	table	いつ、どの橋を直すか	0028 前川橋/調査設計費(千円)	3600		keikaku p.171				要人確認:H2 値が文字データにない
-66baef0b43dca0fd	yotei	7	table	いつ、どの橋を直すか	0028 前川橋/補修工事費(千円)	4405		keikaku p.171				要人確認:H2 値が文字データにない
-e1cb8ca4d95b027d	yotei	7	table	いつ、どの橋を直すか	0030 野出橋/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-240960aba9026dcf	yotei	7	table	いつ、どの橋を直すか	0030 野出橋/調査設計費(千円)	7000		keikaku p.171				要人確認:H2 値が文字データにない
-0c02162f3941e98e	yotei	7	table	いつ、どの橋を直すか	0030 野出橋/補修工事費(千円)	19029		keikaku p.171				要人確認:H2 値が文字データにない
-24667ec4d476da60	yotei	7	table	いつ、どの橋を直すか	0032 野上橋/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-ab83108846ececea	yotei	7	table	いつ、どの橋を直すか	0032 野上橋/調査設計費(千円)	8000		keikaku p.171				要人確認:H2 値が文字データにない
-e085bdd2e6e636cf	yotei	7	table	いつ、どの橋を直すか	0040 原橋（上記工種以外）/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-fff247de227a7bef	yotei	7	table	いつ、どの橋を直すか	0040 原橋（上記工種以外）/補修工事費(千円)	25474		keikaku p.171				要人確認:H2 値が文字データにない
-cacc908457ff8a5e	yotei	7	table	いつ、どの橋を直すか	0040 原橋（防護柵補修）/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-e4c3858cd46e1351	yotei	7	table	いつ、どの橋を直すか	0040 原橋（防護柵補修）/補修工事費(千円)	11105		keikaku p.171				要人確認:H2 値が文字データにない
-582979c45330465b	yotei	7	table	いつ、どの橋を直すか	0042 河原橋/事業優先順位	23		keikaku p.171				要人確認:H2 値が文字データにない
-9a37f552f8161e21	yotei	7	table	いつ、どの橋を直すか	0042 河原橋/調査設計費(千円)	3900		keikaku p.171				要人確認:H2 値が文字データにない
-1474276fa1921cf1	yotei	7	table	いつ、どの橋を直すか	0085 西の宮橋/事業優先順位	34		keikaku p.171				要人確認:H2 値が文字データにない
-03d2f2ea173a7bcd	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/工事費（予防保全型）	20319	千円	keikaku p.171				要人確認:H2 値が文字データにない
-73b546ca13d67ea8	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/工事費（観察保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-61a5eb790c0529b9	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/委託費（点検及び計画）	17765	千円	keikaku p.171				要人確認:H2 値が文字データにない
-66e1747e6acf70ca	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/工事費（予防保全型）	25474	千円	keikaku p.171				要人確認:H2 値が文字データにない
-b9a08133d55bbf2c	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/工事費（観察保全型）	6600	千円	keikaku p.171				要人確認:H2 値が文字データにない
-b64336fd13f052f5	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/委託費（点検及び計画）	7458	千円	keikaku p.171				要人確認:H2 値が文字データにない
-e756d3dfb0c873e1	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/工事費（予防保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-7aee549f293f45a4	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/工事費（観察保全型）	29060	千円	keikaku p.171				要人確認:H2 値が文字データにない
-26c2906031f85828	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/委託費（点検及び計画）	12243	千円	keikaku p.171				要人確認:H2 値が文字データにない
-b5af7b9ebee51d75	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/工事費（予防保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-f6ad28e519c484ec	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/工事費（観察保全型）	28541	千円	keikaku p.171				要人確認:H2 値が文字データにない
-5b7377f558e3f5a9	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/委託費（点検及び計画）	12782	千円	keikaku p.171				要人確認:H2 値が文字データにない
-6e97063558c1e67f	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/工事費（予防保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-3f400b89500c4314	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/工事費（観察保全型）	25223	千円	keikaku p.171				要人確認:H2 値が文字データにない
-04c920fed87886f2	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/委託費（点検及び計画）	14839	千円	keikaku p.171				要人確認:H2 値が文字データにない
-40b7e9621a1814ff	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/工事費（予防保全型）	2800	千円	keikaku p.171				要人確認:H2 値が文字データにない
-24cb3f5877a6575b	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/工事費（観察保全型）	19448	千円	keikaku p.171				要人確認:H2 値が文字データにない
-2c320d0db2f1e86d	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/委託費（点検及び計画）	17765	千円	keikaku p.171				要人確認:H2 値が文字データにない
-3019f56d1716f337	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/工事費（予防保全型）	31321	千円	keikaku p.171				要人確認:H2 値が文字データにない
-db715462f073f140	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/工事費（観察保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-41b0dc3412ac3f46	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/委託費（点検及び計画）	7458	千円	keikaku p.171				要人確認:H2 値が文字データにない
-1286c4771f5dfa23	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/工事費（予防保全型）	27732	千円	keikaku p.171				要人確認:H2 値が文字データにない
-656e61f20325df8e	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/工事費（観察保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-dc59127bca24d052	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/委託費（点検及び計画）	12243	千円	keikaku p.171				要人確認:H2 値が文字データにない
-1d7f03c6647f3c5f	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/工事費（予防保全型）	22500	千円	keikaku p.171				要人確認:H2 値が文字データにない
-7557c08d318f0418	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/工事費（観察保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-88dd0816cb61cae9	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/委託費（点検及び計画）	12782	千円	keikaku p.171				要人確認:H2 値が文字データにない
-0e732e8021b2bed0	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/工事費（予防保全型）	23434	千円	keikaku p.171				要人確認:H2 値が文字データにない
-1de13e0a6f56e96d	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/工事費（観察保全型）	0	千円	keikaku p.171				要人確認:H2 値が文字データにない
-ac568769ef53f00b	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/委託費（点検及び計画）	14839	千円	keikaku p.171				要人確認:H2 値が文字データにない
+7fb5890f94f3c967	yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/事業優先順位	1		keikaku p.171	✓	auto:ai	2026-10-10	
+d1ffdbf1331dede6	yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/調査設計費(千円)	3700		keikaku p.171	✓	auto:ai	2026-10-10	
+8d0e861b3cb519db	yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/補修工事費(千円)	15870		keikaku p.171	✓	auto:ai	2026-10-10	
+b9356d5a531e200a	yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/事業優先順位	1		keikaku p.171	✓	auto:ai	2026-10-10	
+a13b4eefa266dbbc	yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/調査設計費(千円)	2900		keikaku p.171	✓	auto:ai	2026-10-10	
+e174f8cca43a0f50	yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/補修工事費(千円)	590		keikaku p.171	✓	auto:ai	2026-10-10	
+79b670cd7c8fe6d0	yotei	7	table	いつ、どの橋を直すか	0014 安土橋/事業優先順位	5		keikaku p.171	✓	auto:ai	2026-10-10	
+5266e5f7daa38721	yotei	7	table	いつ、どの橋を直すか	0014 安土橋/補修工事費(千円)	20319		keikaku p.171	✓	auto:ai	2026-10-10	
+77dc729a8c09bc77	yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/事業優先順位	5		keikaku p.171	✓	auto:ai	2026-10-10	
+1867023dc05e6e84	yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/調査設計費(千円)	3300		keikaku p.171	✓	auto:ai	2026-10-10	
+77679e13ff48b654	yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/補修工事費(千円)	2384		keikaku p.171	✓	auto:ai	2026-10-10	
+57b2e676af3fa8e4	yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/事業優先順位	5		keikaku p.171	✓	auto:ai	2026-10-10	
+05fd003e0e6c7369	yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/調査設計費(千円)	3200		keikaku p.171	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+dd524c97b0b77af6	yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/補修工事費(千円)	12341		keikaku p.171	✓	auto:ai	2026-10-10	
+fd4a09c61fe97a44	yotei	7	table	いつ、どの橋を直すか	0162 前川橋/事業優先順位	5		keikaku p.171	✓	auto:ai	2026-10-10	
+7194fac8cd08084a	yotei	7	table	いつ、どの橋を直すか	0162 前川橋/調査設計費(千円)	3300		keikaku p.171	✓	auto:ai	2026-10-10	
+dea6f13f4f73274f	yotei	7	table	いつ、どの橋を直すか	0162 前川橋/補修工事費(千円)	25641		keikaku p.171	✓	auto:ai	2026-10-10	
+2ed7bbf585e31d94	yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/事業優先順位	12		keikaku p.171	✓	auto:ai	2026-10-10	
+dfe3b5f3c8e1a387	yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/調査設計費(千円)	3700		keikaku p.171	✓	auto:ai	2026-10-10	
+6c567cd455f7df09	yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/補修工事費(千円)	19448		keikaku p.171	✓	auto:ai	2026-10-10	
+d53a463ed9b22631	yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/事業優先順位	12		keikaku p.171	✓	auto:ai	2026-10-10	
+c37a989be8ea3f6d	yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/調査設計費(千円)	2800		keikaku p.171	✓	auto:ai	2026-10-10	
+7eb8e5f797ad8a7c	yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/補修工事費(千円)	499		keikaku p.171	✓	auto:ai	2026-10-10	
+8e7f32f2d1cf7880	yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/事業優先順位	12		keikaku p.171	✓	auto:ai	2026-10-10	
+390635eb57a4ffb1	yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/調査設計費(千円)	2900		keikaku p.171	✓	auto:ai	2026-10-10	
+ac5b805ae7d507e9	yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/補修工事費(千円)	6299		keikaku p.171	✓	auto:ai	2026-10-10	
+b06efa1b0e765633	yotei	7	table	いつ、どの橋を直すか	0097 御門橋/事業優先順位	16		keikaku p.171	✓	auto:ai	2026-10-10	
+5f9e829ba0836221	yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/事業優先順位	16		keikaku p.171	✓	auto:ai	2026-10-10	
+55f1efe9538acabd	yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/調査設計費(千円)	2800		keikaku p.171	✓	auto:ai	2026-10-10	
+2cccbde263885735	yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/補修工事費(千円)	6216		keikaku p.171	✓	auto:ai	2026-10-10	
+2c6bcd39b6f7b469	yotei	7	table	いつ、どの橋を直すか	0001 高橋/事業優先順位	23		keikaku p.171	✓	auto:ai	2026-10-10	
+4405645c3a5808c0	yotei	7	table	いつ、どの橋を直すか	0001 高橋/調査設計費(千円)	7700		keikaku p.171	✓	auto:ai	2026-10-10	
+e5f3dad67319d53f	yotei	7	table	いつ、どの橋を直すか	0001 高橋/補修工事費(千円)	26142		keikaku p.171	✓	auto:ai	2026-10-10	
+0716e0c407b4fad2	yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/事業優先順位	23		keikaku p.171	✓	auto:ai	2026-10-10	
+204dfe39e1b947cf	yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/調査設計費(千円)	6300		keikaku p.171	✓	auto:ai	2026-10-10	
+0e69c37bef649c89	yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/補修工事費(千円)	1590		keikaku p.171	✓	auto:ai	2026-10-10	
+1b5d531df12351fe	yotei	7	table	いつ、どの橋を直すか	0028 前川橋/事業優先順位	23		keikaku p.171	✓	auto:ai	2026-10-10	
+37d4c1086b4e4636	yotei	7	table	いつ、どの橋を直すか	0028 前川橋/調査設計費(千円)	3600		keikaku p.171	✓	auto:ai	2026-10-10	
+66baef0b43dca0fd	yotei	7	table	いつ、どの橋を直すか	0028 前川橋/補修工事費(千円)	4405		keikaku p.171	✓	auto:ai	2026-10-10	
+e1cb8ca4d95b027d	yotei	7	table	いつ、どの橋を直すか	0030 野出橋/事業優先順位	23		keikaku p.171	✓	auto:ai	2026-10-10	
+240960aba9026dcf	yotei	7	table	いつ、どの橋を直すか	0030 野出橋/調査設計費(千円)	7000		keikaku p.171	✓	auto:ai	2026-10-10	
+0c02162f3941e98e	yotei	7	table	いつ、どの橋を直すか	0030 野出橋/補修工事費(千円)	19029		keikaku p.171	✓	auto:ai	2026-10-10	
+24667ec4d476da60	yotei	7	table	いつ、どの橋を直すか	0032 野上橋/事業優先順位	23		keikaku p.171	✓	auto:ai	2026-10-10	
+ab83108846ececea	yotei	7	table	いつ、どの橋を直すか	0032 野上橋/調査設計費(千円)	8000		keikaku p.171	✓	auto:ai	2026-10-10	
+e085bdd2e6e636cf	yotei	7	table	いつ、どの橋を直すか	0040 原橋（上記工種以外）/事業優先順位	23		keikaku p.171				要人確認:H1 A=一致/中 B=一致/高
+fff247de227a7bef	yotei	7	table	いつ、どの橋を直すか	0040 原橋（上記工種以外）/補修工事費(千円)	25474		keikaku p.171				要人確認:H1 A=判断できない/中 B=一致/中
+cacc908457ff8a5e	yotei	7	table	いつ、どの橋を直すか	0040 原橋（防護柵補修）/事業優先順位	23		keikaku p.171				要人確認:H1 A=一致/中 B=一致/中
+e4c3858cd46e1351	yotei	7	table	いつ、どの橋を直すか	0040 原橋（防護柵補修）/補修工事費(千円)	11105		keikaku p.171				要人確認:H1 A=判断できない/中 B=一致/中
+582979c45330465b	yotei	7	table	いつ、どの橋を直すか	0042 河原橋/事業優先順位	23		keikaku p.171	✓	auto:ai	2026-10-10	
+9a37f552f8161e21	yotei	7	table	いつ、どの橋を直すか	0042 河原橋/調査設計費(千円)	3900		keikaku p.171	✓	auto:ai	2026-10-10	
+1474276fa1921cf1	yotei	7	table	いつ、どの橋を直すか	0085 西の宮橋/事業優先順位	34		keikaku p.171	✓	auto:ai	2026-10-10	
+03d2f2ea173a7bcd	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/工事費（予防保全型）	20319	千円	keikaku p.171	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+73b546ca13d67ea8	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/工事費（観察保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+61a5eb790c0529b9	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/委託費（点検及び計画）	17765	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+66e1747e6acf70ca	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/工事費（予防保全型）	25474	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+b9a08133d55bbf2c	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/工事費（観察保全型）	6600	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+b64336fd13f052f5	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/委託費（点検及び計画）	7458	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+e756d3dfb0c873e1	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/工事費（予防保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+7aee549f293f45a4	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/工事費（観察保全型）	29060	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+26c2906031f85828	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/委託費（点検及び計画）	12243	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+b5af7b9ebee51d75	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/工事費（予防保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+f6ad28e519c484ec	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/工事費（観察保全型）	28541	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+5b7377f558e3f5a9	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/委託費（点検及び計画）	12782	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+6e97063558c1e67f	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/工事費（予防保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+3f400b89500c4314	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/工事費（観察保全型）	25223	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+04c920fed87886f2	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/委託費（点検及び計画）	14839	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+40b7e9621a1814ff	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/工事費（予防保全型）	2800	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+24cb3f5877a6575b	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/工事費（観察保全型）	19448	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+2c320d0db2f1e86d	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/委託費（点検及び計画）	17765	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+3019f56d1716f337	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/工事費（予防保全型）	31321	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+db715462f073f140	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/工事費（観察保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+41b0dc3412ac3f46	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/委託費（点検及び計画）	7458	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+1286c4771f5dfa23	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/工事費（予防保全型）	27732	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+656e61f20325df8e	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/工事費（観察保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+dc59127bca24d052	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/委託費（点検及び計画）	12243	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+1d7f03c6647f3c5f	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/工事費（予防保全型）	22500	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+7557c08d318f0418	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/工事費（観察保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+88dd0816cb61cae9	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/委託費（点検及び計画）	12782	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+0e732e8021b2bed0	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/工事費（予防保全型）	23434	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+1de13e0a6f56e96d	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/工事費（観察保全型）	0	千円	keikaku p.171	✓	auto:ai	2026-10-10	
+ac568769ef53f00b	yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/委託費（点検及び計画）	14839	千円	keikaku p.171	✓	auto:ai	2026-10-10	
 0d5bd5467be43c87	yotei	10	table	定期点検と計画更新の費用	定期点検-1/対策費用(千円、税込)	11319		keikaku p.164	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 5f7c297303173f09	yotei	10	table	定期点検と計画更新の費用	定期点検-2/対策費用(千円、税込)	6446		keikaku p.164	✓	auto:ai	2026-10-10	
 137ac257b32010c9	yotei	10	table	定期点検と計画更新の費用	定期点検-3/対策費用(千円、税込)	7458		keikaku p.164	✓	auto:ai	2026-10-10	

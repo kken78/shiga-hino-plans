@@ -1,7 +1,7 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
 f49f069928f61e14	gakko	3	programs	柱1 子ども一人ひとりの個性を大切にし、生きる力を育む	事業数	38	件	honpen p.8-18				要人確認:H2 出典が4ページ以上(集計した値)
-52a9b7b41ce0f3cf	chiiki	3	programs	柱2 社会全体で支え合い、子どもを育む	事業数	8	件	honpen p.19-21				要人確認:H2 値が文字データにない
+52a9b7b41ce0f3cf	chiiki	3	programs	柱2 社会全体で支え合い、子どもを育む	事業数	8	件	honpen p.19-21				要人確認:H1 A=一致/中 B=一致/中
 99cae826ef9b582e	shogai	3	programs	柱3 すべての人が学び続け、共に生きるための生涯学習を振興する	事業数	18	件	honpen p.22-26				要人確認:H2 出典が4ページ以上(集計した値)
 0a6821e532cdc7ff	manabiba	4	bigstat	日野町立公民館	町内の地区公民館	7	館	honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
 bcdfad7fdfa4590d	manabiba	20	bigstat	近江日野商人ふるさと館「旧山中正吉邸」	町史編さん事業を通じて寄贈・寄託を受けた古文書（約）	45000	点	honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点

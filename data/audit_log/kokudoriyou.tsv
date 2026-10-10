@@ -90,7 +90,7 @@ daab567effcacb87	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年�
 4da2acb2c8be6598	mokuhyo	6	figure	土地利用現況図と土地利用構想図	土地利用現況図	kokudoriyou_genkyo.jpg		shiryo p.28				要人確認:H2 数値でない
 a77126044ef5794f	mokuhyo	7	figure	土地利用現況図と土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29				要人確認:H2 数値でない
 bc652bd6a9d7f2f8	chiiki	2	figure	地域別の町土利用の基本方向	地域区分図	kokudoriyou_chiiki.jpg		honpen p.16				要人確認:H2 数値でない
-8233bd0e799269f8	genjo	2	kpi	日野町の土地のすがた	町土面積	117.6	㎢	shiryo p.2				要人確認:H2 値が文字データにない
+8233bd0e799269f8	genjo	2	kpi	日野町の土地のすがた	町土面積	117.6	㎢	shiryo p.2				要人確認:H1 A=一致/中 B=一致/中
 44dd2c998d057180	genjo	2	kpi	日野町の土地のすがた	可住地面積	56.36	㎢	shiryo p.2	✓	auto:ai	2026-10-10	
 8c042a6ddcd52ded	genjo	2	kpi	日野町の土地のすがた	森林	6106	ha	shiryo p.2	✓	auto:ai	2026-10-10	
 63302319f8a8a02f	genjo	2	kpi	日野町の土地のすがた	農用地	1980	ha	shiryo p.2	✓	auto:ai	2026-10-10	
@@ -406,66 +406,66 @@ e59faedbe69da679	genjo	28	table	地価の推移	日野（県）5-1/地積（㎡�
 e9ea9a1e5b8495f6	genjo	28	table	地価の推移	日野（県）5-1/R元	46500		shiryo p.12	✓	auto:ai	2026-10-10	
 64593fd3defd1a45	genjo	28	table	地価の推移	日野（県）5-1/R2	46400		shiryo p.12	✓	auto:ai	2026-10-10	
 957058c1cb138097	genjo	28	table	地価の推移	日野（県）5-1/R3	46300		shiryo p.12	✓	auto:ai	2026-10-10	
-a420d0a01233d803	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H2	22391	人	shiryo p.15				要人確認:H2 値が文字データにない
-e3c1be787684582f	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H7	23132	人	shiryo p.15				要人確認:H2 値が文字データにない
-752bf17c74fc5b49	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H12	23022	人	shiryo p.15				要人確認:H2 値が文字データにない
-1ecaf3742c2339f0	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H17	22809	人	shiryo p.15				要人確認:H2 値が文字データにない
-13cfcab794e1098a	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H22	22870	人	shiryo p.15				要人確認:H2 値が文字データにない
-9d5b6545ba2b7180	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H27	21873	人	shiryo p.15				要人確認:H2 値が文字データにない
+a420d0a01233d803	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H2	22391	人	shiryo p.15	✓	auto:ai	2026-10-10	
+e3c1be787684582f	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H7	23132	人	shiryo p.15	✓	auto:ai	2026-10-10	
+752bf17c74fc5b49	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H12	23022	人	shiryo p.15	✓	auto:ai	2026-10-10	
+1ecaf3742c2339f0	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H17	22809	人	shiryo p.15	✓	auto:ai	2026-10-10	
+13cfcab794e1098a	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H22	22870	人	shiryo p.15	✓	auto:ai	2026-10-10	
+9d5b6545ba2b7180	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	H27	21873	人	shiryo p.15	✓	auto:ai	2026-10-10	
 6abe5ebc718aa8e3	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R2	20964	人	shiryo p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-2b09f6a63a189e75	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R7	19989	人	shiryo p.15				要人確認:H2 値が文字データにない
-b0ea7320b96b1db8	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R12	19006	人	shiryo p.15				要人確認:H2 値が文字データにない
-448bba626ccb6358	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R17	17973	人	shiryo p.15				要人確認:H2 値が文字データにない
-b5bc9818d06ab6ac	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R22	16862	人	shiryo p.15				要人確認:H2 値が文字データにない
-4593a8cfc2e515aa	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R27	15735	人	shiryo p.15				要人確認:H2 値が文字データにない
-c1f266805f28747e	kurashi	4	table	人口	65歳以上/H2	3872		shiryo p.15				要人確認:H2 値が文字データにない
-656d24cc459a1500	kurashi	4	table	人口	65歳以上/H7	4479		shiryo p.15				要人確認:H2 値が文字データにない
-2fd6eff61919d85c	kurashi	4	table	人口	65歳以上/H12	5095		shiryo p.15				要人確認:H2 値が文字データにない
-ac4083c545fb947a	kurashi	4	table	人口	65歳以上/H17	5332		shiryo p.15				要人確認:H2 値が文字データにない
-f82da8590b3800ce	kurashi	4	table	人口	65歳以上/H22	5553		shiryo p.15				要人確認:H2 値が文字データにない
-c2c6fb92291a80a5	kurashi	4	table	人口	65歳以上/H27	6088		shiryo p.15				要人確認:H2 値が文字データにない
-f4d6c422cfb99538	kurashi	4	table	人口	65歳以上/R2	6424		shiryo p.15				要人確認:H2 値が文字データにない
-8516e54fd319becd	kurashi	4	table	人口	65歳以上/R7	6406		shiryo p.15				要人確認:H2 値が文字データにない
-5ff7a9d9cb0cdb85	kurashi	4	table	人口	65歳以上/R12	6387		shiryo p.15				要人確認:H2 値が文字データにない
-0606d5efc22fbd2a	kurashi	4	table	人口	65歳以上/R17	6271		shiryo p.15				要人確認:H2 値が文字データにない
-25e7b4a49b9bc748	kurashi	4	table	人口	65歳以上/R22	6263		shiryo p.15				要人確認:H2 値が文字データにない
-7d402254809e28a8	kurashi	4	table	人口	65歳以上/R27	6163		shiryo p.15				要人確認:H2 値が文字データにない
-07493cff13715bab	kurashi	4	table	人口	15〜64歳/H2	14036		shiryo p.15				要人確認:H2 値が文字データにない
-8f64f8c58091cf57	kurashi	4	table	人口	15〜64歳/H7	14518		shiryo p.15				要人確認:H2 値が文字データにない
-f7bd5d945477e10e	kurashi	4	table	人口	15〜64歳/H12	14311		shiryo p.15				要人確認:H2 値が文字データにない
-0c2c2ca3de864e9a	kurashi	4	table	人口	15〜64歳/H17	14262		shiryo p.15				要人確認:H2 値が文字データにない
-46e1476a9064a997	kurashi	4	table	人口	15〜64歳/H22	14217		shiryo p.15				要人確認:H2 値が文字データにない
-646753ac9225fb4b	kurashi	4	table	人口	15〜64歳/H27	12840		shiryo p.15				要人確認:H2 値が文字データにない
-8659a6610d9ae9b4	kurashi	4	table	人口	15〜64歳/R2	11656		shiryo p.15				要人確認:H2 値が文字データにない
-18042886ee7fd2c3	kurashi	4	table	人口	15〜64歳/R7	11209		shiryo p.15				要人確認:H2 値が文字データにない
-4288293ca722b67b	kurashi	4	table	人口	15〜64歳/R12	10442		shiryo p.15				要人確認:H2 値が文字データにない
-c9536c0521391102	kurashi	4	table	人口	15〜64歳/R17	9727		shiryo p.15				要人確認:H2 値が文字データにない
-f46050aacc05a4f2	kurashi	4	table	人口	15〜64歳/R22	8796		shiryo p.15				要人確認:H2 値が文字データにない
-fc3d4cbf55c61762	kurashi	4	table	人口	15〜64歳/R27	7937		shiryo p.15				要人確認:H2 値が文字データにない
-79c46173b81b8cdb	kurashi	4	table	人口	15歳未満/H2	4472		shiryo p.15				要人確認:H2 値が文字データにない
-a79dcd98fd46d703	kurashi	4	table	人口	15歳未満/H7	4135		shiryo p.15				要人確認:H2 値が文字データにない
-2e3d3fe8a321a9fd	kurashi	4	table	人口	15歳未満/H12	3613		shiryo p.15				要人確認:H2 値が文字データにない
-6fc5c096bdbc4409	kurashi	4	table	人口	15歳未満/H17	3215		shiryo p.15				要人確認:H2 値が文字データにない
-c96f1a561a11adcc	kurashi	4	table	人口	15歳未満/H22	3043		shiryo p.15				要人確認:H2 値が文字データにない
-3d1ecf5a18c8d2f1	kurashi	4	table	人口	15歳未満/H27	2835		shiryo p.15				要人確認:H2 値が文字データにない
-94b8b6eae0d8c199	kurashi	4	table	人口	15歳未満/R2	2575		shiryo p.15				要人確認:H2 値が文字データにない
-8f07079fead92249	kurashi	4	table	人口	15歳未満/R7	2374		shiryo p.15				要人確認:H2 値が文字データにない
-8f28469733097487	kurashi	4	table	人口	15歳未満/R12	2177		shiryo p.15				要人確認:H2 値が文字データにない
-215630c144274ea8	kurashi	4	table	人口	15歳未満/R17	1975		shiryo p.15				要人確認:H2 値が文字データにない
-8075cad6e1dbcaff	kurashi	4	table	人口	15歳未満/R22	1803		shiryo p.15				要人確認:H2 値が文字データにない
-7bd606f845f2092f	kurashi	4	table	人口	15歳未満/R27	1635		shiryo p.15				要人確認:H2 値が文字データにない
-ba103cd91c3a750d	kurashi	4	table	人口	人口（年齢不詳を含む）/H2	22391		shiryo p.15				要人確認:H2 値が文字データにない
-c672ce7effe5b5d6	kurashi	4	table	人口	人口（年齢不詳を含む）/H7	23132		shiryo p.15				要人確認:H2 値が文字データにない
-c6dcdc1131192ad7	kurashi	4	table	人口	人口（年齢不詳を含む）/H12	23022		shiryo p.15				要人確認:H2 値が文字データにない
-e4c83ce940dfb6e1	kurashi	4	table	人口	人口（年齢不詳を含む）/H17	22809		shiryo p.15				要人確認:H2 値が文字データにない
-c8a05a041033f3ae	kurashi	4	table	人口	人口（年齢不詳を含む）/H22	22870		shiryo p.15				要人確認:H2 値が文字データにない
-b13f7ba007121e4f	kurashi	4	table	人口	人口（年齢不詳を含む）/H27	21873		shiryo p.15				要人確認:H2 値が文字データにない
+2b09f6a63a189e75	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R7	19989	人	shiryo p.15	✓	auto:ai	2026-10-10	
+b0ea7320b96b1db8	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R12	19006	人	shiryo p.15	✓	auto:ai	2026-10-10	
+448bba626ccb6358	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R17	17973	人	shiryo p.15	✓	auto:ai	2026-10-10	
+b5bc9818d06ab6ac	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R22	16862	人	shiryo p.15	✓	auto:ai	2026-10-10	
+4593a8cfc2e515aa	kurashi	3	chart.bars	人口の推移（R7以降は推計値）	R27	15735	人	shiryo p.15	✓	auto:ai	2026-10-10	
+c1f266805f28747e	kurashi	4	table	人口	65歳以上/H2	3872		shiryo p.15	✓	auto:ai	2026-10-10	
+656d24cc459a1500	kurashi	4	table	人口	65歳以上/H7	4479		shiryo p.15	✓	auto:ai	2026-10-10	
+2fd6eff61919d85c	kurashi	4	table	人口	65歳以上/H12	5095		shiryo p.15	✓	auto:ai	2026-10-10	
+ac4083c545fb947a	kurashi	4	table	人口	65歳以上/H17	5332		shiryo p.15	✓	auto:ai	2026-10-10	
+f82da8590b3800ce	kurashi	4	table	人口	65歳以上/H22	5553		shiryo p.15	✓	auto:ai	2026-10-10	
+c2c6fb92291a80a5	kurashi	4	table	人口	65歳以上/H27	6088		shiryo p.15	✓	auto:ai	2026-10-10	
+f4d6c422cfb99538	kurashi	4	table	人口	65歳以上/R2	6424		shiryo p.15	✓	auto:ai	2026-10-10	
+8516e54fd319becd	kurashi	4	table	人口	65歳以上/R7	6406		shiryo p.15	✓	auto:ai	2026-10-10	
+5ff7a9d9cb0cdb85	kurashi	4	table	人口	65歳以上/R12	6387		shiryo p.15	✓	auto:ai	2026-10-10	
+0606d5efc22fbd2a	kurashi	4	table	人口	65歳以上/R17	6271		shiryo p.15	✓	auto:ai	2026-10-10	
+25e7b4a49b9bc748	kurashi	4	table	人口	65歳以上/R22	6263		shiryo p.15	✓	auto:ai	2026-10-10	
+7d402254809e28a8	kurashi	4	table	人口	65歳以上/R27	6163		shiryo p.15	✓	auto:ai	2026-10-10	
+07493cff13715bab	kurashi	4	table	人口	15〜64歳/H2	14036		shiryo p.15	✓	auto:ai	2026-10-10	
+8f64f8c58091cf57	kurashi	4	table	人口	15〜64歳/H7	14518		shiryo p.15	✓	auto:ai	2026-10-10	
+f7bd5d945477e10e	kurashi	4	table	人口	15〜64歳/H12	14311		shiryo p.15	✓	auto:ai	2026-10-10	
+0c2c2ca3de864e9a	kurashi	4	table	人口	15〜64歳/H17	14262		shiryo p.15	✓	auto:ai	2026-10-10	
+46e1476a9064a997	kurashi	4	table	人口	15〜64歳/H22	14217		shiryo p.15	✓	auto:ai	2026-10-10	
+646753ac9225fb4b	kurashi	4	table	人口	15〜64歳/H27	12840		shiryo p.15	✓	auto:ai	2026-10-10	
+8659a6610d9ae9b4	kurashi	4	table	人口	15〜64歳/R2	11656		shiryo p.15	✓	auto:ai	2026-10-10	
+18042886ee7fd2c3	kurashi	4	table	人口	15〜64歳/R7	11209		shiryo p.15	✓	auto:ai	2026-10-10	
+4288293ca722b67b	kurashi	4	table	人口	15〜64歳/R12	10442		shiryo p.15	✓	auto:ai	2026-10-10	
+c9536c0521391102	kurashi	4	table	人口	15〜64歳/R17	9727		shiryo p.15	✓	auto:ai	2026-10-10	
+f46050aacc05a4f2	kurashi	4	table	人口	15〜64歳/R22	8796		shiryo p.15	✓	auto:ai	2026-10-10	
+fc3d4cbf55c61762	kurashi	4	table	人口	15〜64歳/R27	7937		shiryo p.15	✓	auto:ai	2026-10-10	
+79c46173b81b8cdb	kurashi	4	table	人口	15歳未満/H2	4472		shiryo p.15	✓	auto:ai	2026-10-10	
+a79dcd98fd46d703	kurashi	4	table	人口	15歳未満/H7	4135		shiryo p.15	✓	auto:ai	2026-10-10	
+2e3d3fe8a321a9fd	kurashi	4	table	人口	15歳未満/H12	3613		shiryo p.15	✓	auto:ai	2026-10-10	
+6fc5c096bdbc4409	kurashi	4	table	人口	15歳未満/H17	3215		shiryo p.15	✓	auto:ai	2026-10-10	
+c96f1a561a11adcc	kurashi	4	table	人口	15歳未満/H22	3043		shiryo p.15	✓	auto:ai	2026-10-10	
+3d1ecf5a18c8d2f1	kurashi	4	table	人口	15歳未満/H27	2835		shiryo p.15	✓	auto:ai	2026-10-10	
+94b8b6eae0d8c199	kurashi	4	table	人口	15歳未満/R2	2575		shiryo p.15	✓	auto:ai	2026-10-10	
+8f07079fead92249	kurashi	4	table	人口	15歳未満/R7	2374		shiryo p.15	✓	auto:ai	2026-10-10	
+8f28469733097487	kurashi	4	table	人口	15歳未満/R12	2177		shiryo p.15	✓	auto:ai	2026-10-10	
+215630c144274ea8	kurashi	4	table	人口	15歳未満/R17	1975		shiryo p.15	✓	auto:ai	2026-10-10	
+8075cad6e1dbcaff	kurashi	4	table	人口	15歳未満/R22	1803		shiryo p.15	✓	auto:ai	2026-10-10	
+7bd606f845f2092f	kurashi	4	table	人口	15歳未満/R27	1635		shiryo p.15	✓	auto:ai	2026-10-10	
+ba103cd91c3a750d	kurashi	4	table	人口	人口（年齢不詳を含む）/H2	22391		shiryo p.15	✓	auto:ai	2026-10-10	
+c672ce7effe5b5d6	kurashi	4	table	人口	人口（年齢不詳を含む）/H7	23132		shiryo p.15	✓	auto:ai	2026-10-10	
+c6dcdc1131192ad7	kurashi	4	table	人口	人口（年齢不詳を含む）/H12	23022		shiryo p.15	✓	auto:ai	2026-10-10	
+e4c83ce940dfb6e1	kurashi	4	table	人口	人口（年齢不詳を含む）/H17	22809		shiryo p.15	✓	auto:ai	2026-10-10	
+c8a05a041033f3ae	kurashi	4	table	人口	人口（年齢不詳を含む）/H22	22870		shiryo p.15	✓	auto:ai	2026-10-10	
+b13f7ba007121e4f	kurashi	4	table	人口	人口（年齢不詳を含む）/H27	21873		shiryo p.15	✓	auto:ai	2026-10-10	
 a3c3dd45b7952d70	kurashi	4	table	人口	人口（年齢不詳を含む）/R2	20964		shiryo p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-a402b4bbb58d09d3	kurashi	4	table	人口	人口（年齢不詳を含む）/R7	19989		shiryo p.15				要人確認:H2 値が文字データにない
-eaa78a1dfe2b0e53	kurashi	4	table	人口	人口（年齢不詳を含む）/R12	19006		shiryo p.15				要人確認:H2 値が文字データにない
-bf37950657f27b31	kurashi	4	table	人口	人口（年齢不詳を含む）/R17	17973		shiryo p.15				要人確認:H2 値が文字データにない
-5490ba4b82f38c1b	kurashi	4	table	人口	人口（年齢不詳を含む）/R22	16862		shiryo p.15				要人確認:H2 値が文字データにない
-22a0b0ddcb9ff177	kurashi	4	table	人口	人口（年齢不詳を含む）/R27	15735		shiryo p.15				要人確認:H2 値が文字データにない
+a402b4bbb58d09d3	kurashi	4	table	人口	人口（年齢不詳を含む）/R7	19989		shiryo p.15	✓	auto:ai	2026-10-10	
+eaa78a1dfe2b0e53	kurashi	4	table	人口	人口（年齢不詳を含む）/R12	19006		shiryo p.15	✓	auto:ai	2026-10-10	
+bf37950657f27b31	kurashi	4	table	人口	人口（年齢不詳を含む）/R17	17973		shiryo p.15	✓	auto:ai	2026-10-10	
+5490ba4b82f38c1b	kurashi	4	table	人口	人口（年齢不詳を含む）/R22	16862		shiryo p.15	✓	auto:ai	2026-10-10	
+22a0b0ddcb9ff177	kurashi	4	table	人口	人口（年齢不詳を含む）/R27	15735		shiryo p.15	✓	auto:ai	2026-10-10	
 da01e76164823776	kurashi	7	table	人口動態	自然動態/H23	-66		shiryo p.16	✓	auto:pdftext	2026-10-10	
 f68477e08c443799	kurashi	7	table	人口動態	自然動態/H24	-49		shiryo p.16	✓	auto:pdftext	2026-10-10	
 0699c063f3bc5a4c	kurashi	7	table	人口動態	自然動態/H25	-81		shiryo p.16	✓	auto:pdftext	2026-10-10	
@@ -530,18 +530,18 @@ dc1b1be522fb3289	kurashi	13	chart.stacked100	産業構造の推移	H22/3次産�
 e79e60fa091ae8bd	kurashi	13	chart.stacked100	産業構造の推移	H27/2次産業	41.3	%	shiryo p.17	✓	auto:ai	2026-10-10	
 585bc3c540204a08	kurashi	13	chart.stacked100	産業構造の推移	H27/3次産業	50.3	%	shiryo p.17	✓	auto:ai	2026-10-10	
 fe15ca6ee3b8b3bb	kurashi	13	chart.stacked100	産業構造の推移	H27/分類不能	3.5	%	shiryo p.17	✓	auto:ai	2026-10-10	
-f7cfc2faa94b4127	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H7	1851		shiryo p.18				要人確認:H2 値が文字データにない
-96cca03c3b86aa21	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H12	1671		shiryo p.18				要人確認:H2 値が文字データにない
-0f8440947cfeaf45	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H17	1511		shiryo p.18				要人確認:H2 値が文字データにない
-2159b1ebf93707e6	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H22	1309		shiryo p.18				要人確認:H2 値が文字データにない
-bb9d4472a56b0159	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H27	1112		shiryo p.18				要人確認:H2 値が文字データにない
-01fad2c870c101d8	kurashi	16	table	農家と経営耕地面積	農家数（戸）/R2	833		shiryo p.18				要人確認:H2 値が文字データにない
-85a45fe45903052c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H7	191522		shiryo p.18				要人確認:H2 値が文字データにない
-0bb8aed7687ef86b	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H12	179039		shiryo p.18				要人確認:H2 値が文字データにない
-b71f8491d784b261	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H17	169900		shiryo p.18				要人確認:H2 値が文字データにない
-e21ea319b7b7cb1a	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H22	160649		shiryo p.18				要人確認:H2 値が文字データにない
-63cda36ffd3700ed	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H27	143240		shiryo p.18				要人確認:H2 値が文字データにない
-f7968b3f9ed2b63c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/R2	147000		shiryo p.18				要人確認:H2 値が文字データにない
+f7cfc2faa94b4127	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H7	1851		shiryo p.18	✓	auto:ai	2026-10-10	
+96cca03c3b86aa21	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H12	1671		shiryo p.18	✓	auto:ai	2026-10-10	
+0f8440947cfeaf45	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H17	1511		shiryo p.18	✓	auto:ai	2026-10-10	
+2159b1ebf93707e6	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H22	1309		shiryo p.18	✓	auto:ai	2026-10-10	
+bb9d4472a56b0159	kurashi	16	table	農家と経営耕地面積	農家数（戸）/H27	1112		shiryo p.18	✓	auto:ai	2026-10-10	
+01fad2c870c101d8	kurashi	16	table	農家と経営耕地面積	農家数（戸）/R2	833		shiryo p.18	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+85a45fe45903052c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H7	191522		shiryo p.18	✓	auto:ai	2026-10-10	
+0bb8aed7687ef86b	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H12	179039		shiryo p.18	✓	auto:ai	2026-10-10	
+b71f8491d784b261	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H17	169900		shiryo p.18	✓	auto:ai	2026-10-10	
+e21ea319b7b7cb1a	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H22	160649		shiryo p.18	✓	auto:ai	2026-10-10	
+63cda36ffd3700ed	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/H27	143240		shiryo p.18	✓	auto:ai	2026-10-10	
+f7968b3f9ed2b63c	kurashi	16	table	農家と経営耕地面積	経営耕地面積（a）/R2	147000		shiryo p.18	✓	auto:ai	2026-10-10	
 52999a3957928dc4	kurashi	19	table	工業	事業所数/H21	83		shiryo p.18	✓	auto:pdftext	2026-10-10	
 4ee4be1eedd744d3	kurashi	19	table	工業	事業所数/H22	81		shiryo p.18	✓	auto:ai	2026-10-10	
 c3c2e4bd00759da6	kurashi	19	table	工業	事業所数/H23	85		shiryo p.18	✓	auto:ai	2026-10-10	

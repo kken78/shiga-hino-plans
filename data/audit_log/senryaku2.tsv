@@ -2,7 +2,7 @@ key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
 9812e4c71615c83f	summary	3	kpi		日野町の人口	20975	人	honpen p.7-8	✓	auto:ai	2026-10-10	
 d0cd45962aa01420	summary	3	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8	✓	auto:ai	2026-10-10	
-6e45eb242310cbb1	summary	3	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8				要人確認:H2 値が文字データにない
+6e45eb242310cbb1	summary	3	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8				要人確認:H1 A=一致/中 B=一致/高
 26674d4dc6482962	summary	3	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8	✓	auto:ai	2026-10-10	
 79acc5e3f0e38541	summary	3	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8	✓	auto:ai	2026-10-10	
 c7da366047ac01e1	summary	3	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
@@ -20,81 +20,81 @@ f69a8309f881e5b2	summary	5	target.target		転入者数（住民基本台帳）�
 497fdc8f682e0d90	summary	5	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
 313e187efdf9ed29	summary	5	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
 36ecedf6f7ee872f	summary	5	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-1ba99d7485345a63	jinko	4	chart.line	日野町の人口推移	総人口/大正4	22355	人	honpen p.7				要人確認:H2 値が文字データにない
-66c2bd2c0fda9f09	jinko	4	chart.line	日野町の人口推移	総人口/大正9	21601	人	honpen p.7				要人確認:H2 値が文字データにない
-cf5ced2ea2572222	jinko	4	chart.line	日野町の人口推移	総人口/大正14	21473	人	honpen p.7				要人確認:H2 値が文字データにない
-40058c77fb601616	jinko	4	chart.line	日野町の人口推移	総人口/昭和5	21931	人	honpen p.7				要人確認:H2 値が文字データにない
-ff087160443afcb2	jinko	4	chart.line	日野町の人口推移	総人口/昭和10	21808	人	honpen p.7				要人確認:H2 値が文字データにない
-97ead8e8cfc69baf	jinko	4	chart.line	日野町の人口推移	総人口/昭和15	21059	人	honpen p.7				要人確認:H2 値が文字データにない
+1ba99d7485345a63	jinko	4	chart.line	日野町の人口推移	総人口/大正4	22355	人	honpen p.7	✓	auto:ai	2026-10-10	
+66c2bd2c0fda9f09	jinko	4	chart.line	日野町の人口推移	総人口/大正9	21601	人	honpen p.7	✓	auto:ai	2026-10-10	
+cf5ced2ea2572222	jinko	4	chart.line	日野町の人口推移	総人口/大正14	21473	人	honpen p.7	✓	auto:ai	2026-10-10	
+40058c77fb601616	jinko	4	chart.line	日野町の人口推移	総人口/昭和5	21931	人	honpen p.7	✓	auto:ai	2026-10-10	
+ff087160443afcb2	jinko	4	chart.line	日野町の人口推移	総人口/昭和10	21808	人	honpen p.7	✓	auto:ai	2026-10-10	
+97ead8e8cfc69baf	jinko	4	chart.line	日野町の人口推移	総人口/昭和15	21059	人	honpen p.7	✓	auto:ai	2026-10-10	
 2b3fadf1d78349a8	jinko	4	chart.line	日野町の人口推移	総人口/昭和22	26524	人	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-9f3522071ca742a4	jinko	4	chart.line	日野町の人口推移	総人口/昭和25	26075	人	honpen p.7				要人確認:H2 値が文字データにない
-f7e68afce8ec4f69	jinko	4	chart.line	日野町の人口推移	総人口/昭和30	24652	人	honpen p.7				要人確認:H2 値が文字データにない
-74d1042a489c7158	jinko	4	chart.line	日野町の人口推移	総人口/昭和35	22992	人	honpen p.7				要人確認:H2 値が文字データにない
-a2d22f2a44c326f3	jinko	4	chart.line	日野町の人口推移	総人口/昭和40	21416	人	honpen p.7				要人確認:H2 値が文字データにない
-ae6ab742a8fade5c	jinko	4	chart.line	日野町の人口推移	総人口/昭和45	20754	人	honpen p.7				要人確認:H2 値が文字データにない
-42b858a29f8a904e	jinko	4	chart.line	日野町の人口推移	総人口/昭和50	20913	人	honpen p.7				要人確認:H2 値が文字データにない
-492eb011ecd5c64e	jinko	4	chart.line	日野町の人口推移	総人口/昭和55	21680	人	honpen p.7				要人確認:H2 値が文字データにない
-fbe528215ac5a769	jinko	4	chart.line	日野町の人口推移	総人口/昭和60	22009	人	honpen p.7				要人確認:H2 値が文字データにない
-f5d1061274eb35f8	jinko	4	chart.line	日野町の人口推移	総人口/平成2	22391	人	honpen p.7				要人確認:H2 値が文字データにない
-2a6d57abefcbab41	jinko	4	chart.line	日野町の人口推移	総人口/平成7	23132	人	honpen p.7				要人確認:H2 値が文字データにない
-d57769cee5534b83	jinko	4	chart.line	日野町の人口推移	総人口/平成12	23022	人	honpen p.7				要人確認:H2 値が文字データにない
-01b78331eeba3e65	jinko	4	chart.line	日野町の人口推移	総人口/平成17	22809	人	honpen p.7				要人確認:H2 値が文字データにない
-872cc27c1e9724cc	jinko	4	chart.line	日野町の人口推移	総人口/平成22	22870	人	honpen p.7				要人確認:H2 値が文字データにない
-26ad348b75f7a5f2	jinko	4	chart.line	日野町の人口推移	総人口/平成27	21873	人	honpen p.7				要人確認:H2 値が文字データにない
+9f3522071ca742a4	jinko	4	chart.line	日野町の人口推移	総人口/昭和25	26075	人	honpen p.7	✓	auto:ai	2026-10-10	
+f7e68afce8ec4f69	jinko	4	chart.line	日野町の人口推移	総人口/昭和30	24652	人	honpen p.7	✓	auto:ai	2026-10-10	
+74d1042a489c7158	jinko	4	chart.line	日野町の人口推移	総人口/昭和35	22992	人	honpen p.7	✓	auto:ai	2026-10-10	
+a2d22f2a44c326f3	jinko	4	chart.line	日野町の人口推移	総人口/昭和40	21416	人	honpen p.7	✓	auto:ai	2026-10-10	
+ae6ab742a8fade5c	jinko	4	chart.line	日野町の人口推移	総人口/昭和45	20754	人	honpen p.7	✓	auto:ai	2026-10-10	
+42b858a29f8a904e	jinko	4	chart.line	日野町の人口推移	総人口/昭和50	20913	人	honpen p.7	✓	auto:ai	2026-10-10	
+492eb011ecd5c64e	jinko	4	chart.line	日野町の人口推移	総人口/昭和55	21680	人	honpen p.7	✓	auto:ai	2026-10-10	
+fbe528215ac5a769	jinko	4	chart.line	日野町の人口推移	総人口/昭和60	22009	人	honpen p.7	✓	auto:ai	2026-10-10	
+f5d1061274eb35f8	jinko	4	chart.line	日野町の人口推移	総人口/平成2	22391	人	honpen p.7	✓	auto:ai	2026-10-10	
+2a6d57abefcbab41	jinko	4	chart.line	日野町の人口推移	総人口/平成7	23132	人	honpen p.7	✓	auto:ai	2026-10-10	
+d57769cee5534b83	jinko	4	chart.line	日野町の人口推移	総人口/平成12	23022	人	honpen p.7	✓	auto:ai	2026-10-10	
+01b78331eeba3e65	jinko	4	chart.line	日野町の人口推移	総人口/平成17	22809	人	honpen p.7	✓	auto:ai	2026-10-10	
+872cc27c1e9724cc	jinko	4	chart.line	日野町の人口推移	総人口/平成22	22870	人	honpen p.7	✓	auto:ai	2026-10-10	
+26ad348b75f7a5f2	jinko	4	chart.line	日野町の人口推移	総人口/平成27	21873	人	honpen p.7	✓	auto:ai	2026-10-10	
 e1cea920b99e272a	jinko	4	chart.line	日野町の人口推移	総人口/令和2	20975	人	honpen p.7	✓	auto:ai	2026-10-10	
-e7af8e8128396e38	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/0〜14歳	26.1	%	honpen p.7				要人確認:H2 値が文字データにない
-9543431a28fb3708	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/15〜64歳	64.2	%	honpen p.7				要人確認:H2 値が文字データにない
-19b368baf61fb967	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/65歳以上	9.7	%	honpen p.7				要人確認:H2 値が文字データにない
-6fb9f782a6870d2d	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/0〜14歳	22.2	%	honpen p.7				要人確認:H2 値が文字データにない
-374d888011f59aaf	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/15〜64歳	66.2	%	honpen p.7				要人確認:H2 値が文字データにない
-b12821f19f505c55	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/65歳以上	11.5	%	honpen p.7				要人確認:H2 値が文字データにない
-6fb2d492313d4165	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/0〜14歳	20.7	%	honpen p.7				要人確認:H2 値が文字データにない
-b10c9c298b7818b0	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/15〜64歳	66.5	%	honpen p.7				要人確認:H2 値が文字データにない
-e62a739c3b85b2d2	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/65歳以上	12.8	%	honpen p.7				要人確認:H2 値が文字データにない
-ea5c0f5d027b2118	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/0〜14歳	21.3	%	honpen p.7				要人確認:H2 値が文字データにない
-b38eeb8f2ee1919f	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/15〜64歳	64.6	%	honpen p.7				要人確認:H2 値が文字データにない
-6d5160f2c124b288	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/65歳以上	14.1	%	honpen p.7				要人確認:H2 値が文字データにない
-c9dafe35522a823b	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/0〜14歳	21.4	%	honpen p.7				要人確認:H2 値が文字データにない
-d038ef28cd5edf1d	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/15〜64歳	63.1	%	honpen p.7				要人確認:H2 値が文字データにない
-072b7a0f8a436cad	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/65歳以上	15.5	%	honpen p.7				要人確認:H2 値が文字データにない
-4bc7044bf3e7efd5	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/0〜14歳	20.0	%	honpen p.7				要人確認:H2 値が文字データにない
-20d2b68903c8ca76	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/15〜64歳	62.7	%	honpen p.7				要人確認:H2 値が文字データにない
-274da373dcb22a3a	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/65歳以上	17.3	%	honpen p.7				要人確認:H2 値が文字データにない
-65f075444d82d475	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/0〜14歳	17.9	%	honpen p.7				要人確認:H2 値が文字データにない
-469bf6a07f268d46	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/15〜64歳	62.8	%	honpen p.7				要人確認:H2 値が文字データにない
-8961da698ff21e76	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/65歳以上	19.4	%	honpen p.7				要人確認:H2 値が文字データにない
-8069efb85af17f04	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/0〜14歳	15.7	%	honpen p.7				要人確認:H2 値が文字データにない
-5cb2f11117682baa	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/15〜64歳	62.2	%	honpen p.7				要人確認:H2 値が文字データにない
-be519af82d303211	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/65歳以上	22.1	%	honpen p.7				要人確認:H2 値が文字データにない
-d5463e739ca62b61	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/0〜14歳	14.1	%	honpen p.7				要人確認:H2 値が文字データにない
-6ab54e6a73b413bd	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/15〜64歳	62.5	%	honpen p.7				要人確認:H2 値が文字データにない
-4289f4f4b0c1b910	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/65歳以上	23.4	%	honpen p.7				要人確認:H2 値が文字データにない
-91ecabbfbd3aee72	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/0〜14歳	13.3	%	honpen p.7				要人確認:H2 値が文字データにない
-67456f772eb23108	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/15〜64歳	62.2	%	honpen p.7				要人確認:H2 値が文字データにない
-a13d955990047960	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/65歳以上	24.3	%	honpen p.7				要人確認:H2 値が文字データにない
-e315891fc84a5f17	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/0〜14歳	13.0	%	honpen p.7				要人確認:H2 値が文字データにない
-2c89a4e3be31eb83	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/15〜64歳	58.7	%	honpen p.7				要人確認:H2 値が文字データにない
-d8396018beda01d9	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/65歳以上	27.8	%	honpen p.7				要人確認:H2 値が文字データにない
+e7af8e8128396e38	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/0〜14歳	26.1	%	honpen p.7	✓	auto:ai	2026-10-10	
+9543431a28fb3708	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/15〜64歳	64.2	%	honpen p.7	✓	auto:ai	2026-10-10	
+19b368baf61fb967	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和40/65歳以上	9.7	%	honpen p.7	✓	auto:ai	2026-10-10	
+6fb9f782a6870d2d	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/0〜14歳	22.2	%	honpen p.7	✓	auto:ai	2026-10-10	
+374d888011f59aaf	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/15〜64歳	66.2	%	honpen p.7	✓	auto:ai	2026-10-10	
+b12821f19f505c55	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和45/65歳以上	11.5	%	honpen p.7	✓	auto:ai	2026-10-10	
+6fb2d492313d4165	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/0〜14歳	20.7	%	honpen p.7	✓	auto:ai	2026-10-10	
+b10c9c298b7818b0	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/15〜64歳	66.5	%	honpen p.7	✓	auto:ai	2026-10-10	
+e62a739c3b85b2d2	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和50/65歳以上	12.8	%	honpen p.7	✓	auto:ai	2026-10-10	
+ea5c0f5d027b2118	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/0〜14歳	21.3	%	honpen p.7	✓	auto:ai	2026-10-10	
+b38eeb8f2ee1919f	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/15〜64歳	64.6	%	honpen p.7	✓	auto:ai	2026-10-10	
+6d5160f2c124b288	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和55/65歳以上	14.1	%	honpen p.7	✓	auto:ai	2026-10-10	
+c9dafe35522a823b	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/0〜14歳	21.4	%	honpen p.7	✓	auto:ai	2026-10-10	
+d038ef28cd5edf1d	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/15〜64歳	63.1	%	honpen p.7	✓	auto:ai	2026-10-10	
+072b7a0f8a436cad	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	昭和60/65歳以上	15.5	%	honpen p.7	✓	auto:ai	2026-10-10	
+4bc7044bf3e7efd5	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/0〜14歳	20.0	%	honpen p.7	✓	auto:ai	2026-10-10	
+20d2b68903c8ca76	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/15〜64歳	62.7	%	honpen p.7	✓	auto:ai	2026-10-10	
+274da373dcb22a3a	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成2/65歳以上	17.3	%	honpen p.7	✓	auto:ai	2026-10-10	
+65f075444d82d475	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/0〜14歳	17.9	%	honpen p.7	✓	auto:ai	2026-10-10	
+469bf6a07f268d46	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/15〜64歳	62.8	%	honpen p.7	✓	auto:ai	2026-10-10	
+8961da698ff21e76	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成7/65歳以上	19.4	%	honpen p.7	✓	auto:ai	2026-10-10	
+8069efb85af17f04	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/0〜14歳	15.7	%	honpen p.7	✓	auto:ai	2026-10-10	
+5cb2f11117682baa	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/15〜64歳	62.2	%	honpen p.7	✓	auto:ai	2026-10-10	
+be519af82d303211	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成12/65歳以上	22.1	%	honpen p.7	✓	auto:ai	2026-10-10	
+d5463e739ca62b61	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/0〜14歳	14.1	%	honpen p.7	✓	auto:ai	2026-10-10	
+6ab54e6a73b413bd	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/15〜64歳	62.5	%	honpen p.7	✓	auto:ai	2026-10-10	
+4289f4f4b0c1b910	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成17/65歳以上	23.4	%	honpen p.7	✓	auto:ai	2026-10-10	
+91ecabbfbd3aee72	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/0〜14歳	13.3	%	honpen p.7	✓	auto:ai	2026-10-10	
+67456f772eb23108	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/15〜64歳	62.2	%	honpen p.7	✓	auto:ai	2026-10-10	
+a13d955990047960	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成22/65歳以上	24.3	%	honpen p.7	✓	auto:ai	2026-10-10	
+e315891fc84a5f17	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/0〜14歳	13.0	%	honpen p.7	✓	auto:ai	2026-10-10	
+2c89a4e3be31eb83	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/15〜64歳	58.7	%	honpen p.7	✓	auto:ai	2026-10-10	
+d8396018beda01d9	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	平成27/65歳以上	27.8	%	honpen p.7	✓	auto:ai	2026-10-10	
 f760ad155a2ec4ca	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/0〜14歳	12.5	%	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-fde42f2a27633b50	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/15〜64歳	57.1	%	honpen p.7				要人確認:H2 値が文字データにない
-06cf76be3be49028	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/65歳以上	30.4	%	honpen p.7				要人確認:H2 値が文字データにない
+fde42f2a27633b50	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/15〜64歳	57.1	%	honpen p.7	✓	auto:ai	2026-10-10	
+06cf76be3be49028	jinko	7	chart.stacked100	日野町の年齢3区分別人口比率の推移	令和2/65歳以上	30.4	%	honpen p.7	✓	auto:ai	2026-10-10	
 c96ac998f447995e	jinko	9	kpi	将来展望人口	将来展望人口	19500	人	honpen p.8	✓	auto:ai	2026-10-10	
 63b9b0c0329618da	jinko	9	kpi	将来展望人口	将来展望人口	16000	人	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-d82601f9885c2b34	jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/将来展望人口	20500	人	honpen p.8				要人確認:H2 値が文字データにない
-c8904bd80e9d97ec	jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/社人研準拠推計	19989	人	honpen p.8				要人確認:H2 値が文字データにない
-f3842466952a7da1	jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/将来展望人口	19799	人	honpen p.8				要人確認:H2 値が文字データにない
-47a11a27f6961385	jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/社人研準拠推計	19004	人	honpen p.8				要人確認:H2 値が文字データにない
-7fec86a94fac1783	jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/将来展望人口	19086	人	honpen p.8				要人確認:H2 値が文字データにない
-1c8c154298932ccf	jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/社人研準拠推計	17974	人	honpen p.8				要人確認:H2 値が文字データにない
-74b0f50551fa0296	jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/将来展望人口	18319	人	honpen p.8				要人確認:H2 値が文字データにない
-199b9c4a12b5119c	jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/社人研準拠推計	16862	人	honpen p.8				要人確認:H2 値が文字データにない
-03d8790f339ee08b	jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/将来展望人口	17508	人	honpen p.8				要人確認:H2 値が文字データにない
-0a151ba0cf680261	jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/社人研準拠推計	15734	人	honpen p.8				要人確認:H2 値が文字データにない
-d22ca726f507ed0d	jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/将来展望人口	16858	人	honpen p.8				要人確認:H2 値が文字データにない
-6558291bb1d3c26c	jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/社人研準拠推計	14630	人	honpen p.8				要人確認:H2 値が文字データにない
-ab4eda572d710cda	jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/将来展望人口	16354	人	honpen p.8				要人確認:H2 値が文字データにない
-81dbfd48e0e651b5	jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/社人研準拠推計	13535	人	honpen p.8				要人確認:H2 値が文字データにない
-95c06cba4b8f331d	jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/将来展望人口	16027	人	honpen p.8				要人確認:H2 値が文字データにない
+d82601f9885c2b34	jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/将来展望人口	20500	人	honpen p.8	✓	auto:ai	2026-10-10	
+c8904bd80e9d97ec	jinko	11	chart.pair	日野町の人口の将来展望	令和7（2025）/社人研準拠推計	19989	人	honpen p.8	✓	auto:ai	2026-10-10	
+f3842466952a7da1	jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/将来展望人口	19799	人	honpen p.8	✓	auto:ai	2026-10-10	
+47a11a27f6961385	jinko	11	chart.pair	日野町の人口の将来展望	令和12（2030）/社人研準拠推計	19004	人	honpen p.8	✓	auto:ai	2026-10-10	
+7fec86a94fac1783	jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/将来展望人口	19086	人	honpen p.8	✓	auto:ai	2026-10-10	
+1c8c154298932ccf	jinko	11	chart.pair	日野町の人口の将来展望	令和17（2035）/社人研準拠推計	17974	人	honpen p.8	✓	auto:ai	2026-10-10	
+74b0f50551fa0296	jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/将来展望人口	18319	人	honpen p.8	✓	auto:ai	2026-10-10	
+199b9c4a12b5119c	jinko	11	chart.pair	日野町の人口の将来展望	令和22（2040）/社人研準拠推計	16862	人	honpen p.8	✓	auto:ai	2026-10-10	
+03d8790f339ee08b	jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/将来展望人口	17508	人	honpen p.8	✓	auto:ai	2026-10-10	
+0a151ba0cf680261	jinko	11	chart.pair	日野町の人口の将来展望	令和27（2045）/社人研準拠推計	15734	人	honpen p.8	✓	auto:ai	2026-10-10	
+d22ca726f507ed0d	jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/将来展望人口	16858	人	honpen p.8	✓	auto:ai	2026-10-10	
+6558291bb1d3c26c	jinko	11	chart.pair	日野町の人口の将来展望	令和32（2050）/社人研準拠推計	14630	人	honpen p.8	✓	auto:ai	2026-10-10	
+ab4eda572d710cda	jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/将来展望人口	16354	人	honpen p.8	✓	auto:ai	2026-10-10	
+81dbfd48e0e651b5	jinko	11	chart.pair	日野町の人口の将来展望	令和37（2055）/社人研準拠推計	13535	人	honpen p.8	✓	auto:ai	2026-10-10	
+95c06cba4b8f331d	jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/将来展望人口	16027	人	honpen p.8	✓	auto:ai	2026-10-10	
 903f1467826c99eb	jinko	11	chart.pair	日野町の人口の将来展望	令和42（2060）/社人研準拠推計	12459	人	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
 d3d1dbb75027dd10	torikumi	6	programs	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	事業数	11	件	honpen p.14-16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 106b3a1eaad883c8	torikumi	10	programs	基本目標2 地域資源を活かし、地域経済の活力と暮らしを支える雇用をつくる	事業数	8	件	honpen p.17-19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点

@@ -1,7 +1,7 @@
 tab	block_no	btype	block_label	label	value	unit	source
-summary	2	kpi		起きてはならない最悪の事態	39	事態	honpen p.10-11
-summary	2	kpi		推進する施策	49	施策	honpen p.10-11
-summary	2	kpi		重要業績指標（KPI）	12	指標	honpen p.10-11
+summary	2	kpi		起きてはならない最悪の事態	39	事態	honpen p.7-11
+summary	2	kpi		推進する施策	49	施策	honpen p.7-11
+summary	2	kpi		重要業績指標（KPI）	12	指標	honpen p.7-11
 summary	3	target.base		住宅の耐震化率	68.7	%	honpen p.40
 summary	3	target.target		住宅の耐震化率	95	%	honpen p.40
 summary	3	target.base		上水道管路の耐震化率	6.4	%	honpen p.40
@@ -37,8 +37,8 @@ kpi	4	target.base	数値で示された目標	消防団員の団員数	185	人	h
 kpi	4	target.target	数値で示された目標	消防団員の団員数	185	人	honpen p.40-41
 kpi	4	target.base	数値で示された目標	住宅の耐震化率	68.7	%	honpen p.40-41
 kpi	4	target.target	数値で示された目標	住宅の耐震化率	95	%	honpen p.40-41
-kpi	4	target.base	数値で示された目標	特定既存不適格建築物の耐震化率	89.8	%	honpen p.40-41
-kpi	4	target.target	数値で示された目標	特定既存不適格建築物の耐震化率	95	%	honpen p.40-41
+kpi	4	target.base	数値で示された目標	特定既存耐震不適格建築物の耐震化率	89.8	%	honpen p.40-41
+kpi	4	target.target	数値で示された目標	特定既存耐震不適格建築物の耐震化率	95	%	honpen p.40-41
 kpi	4	target.base	数値で示された目標	上水道管路の耐震化率	6.4	%	honpen p.40-41
 kpi	4	target.target	数値で示された目標	上水道管路の耐震化率	11.9	%	honpen p.40-41
 kpi	4	target.base	数値で示された目標	生活や未来を支える強靱な社会インフラの整備・道路整備延長	2.5	km	honpen p.40-41
@@ -60,8 +60,8 @@ kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	�
 kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	消防団員の団員数/目標	185		honpen p.40-41
 kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	住宅の耐震化率/現況	68.7		honpen p.40-41
 kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	住宅の耐震化率/目標	95		honpen p.40-41
-kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/現況	89.8		honpen p.40-41
-kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/目標	95		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	特定既存耐震不適格建築物の耐震化率/現況	89.8		honpen p.40-41
+kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	特定既存耐震不適格建築物の耐震化率/目標	95		honpen p.40-41
 kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	上水道管路の耐震化率/現況	6.4		honpen p.40-41
 kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	上水道管路の耐震化率/目標	11.9		honpen p.40-41
 kpi	7	table	個別・横断的施策分野別重要業績指標（KPI）一覧	道路整備延長/現況	2.5		honpen p.40-41
@@ -81,8 +81,8 @@ kpi	10	table	前の計画の重要業績指標（KPI）一覧	消防団員の団
 kpi	10	table	前の計画の重要業績指標（KPI）一覧	消防団員の団員数/目標	185		kokudokyoujinnkatiikikeikaku p.39-40
 kpi	10	table	前の計画の重要業績指標（KPI）一覧	住宅の耐震化率/現況	68.7		kokudokyoujinnkatiikikeikaku p.39-40
 kpi	10	table	前の計画の重要業績指標（KPI）一覧	住宅の耐震化率/目標	95		kokudokyoujinnkatiikikeikaku p.39-40
-kpi	10	table	前の計画の重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/現況	89.8		kokudokyoujinnkatiikikeikaku p.39-40
-kpi	10	table	前の計画の重要業績指標（KPI）一覧	特定既存不適格建築物の耐震化率/目標	95		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	特定既存耐震不適格建築物の耐震化率/現況	89.8		kokudokyoujinnkatiikikeikaku p.39-40
+kpi	10	table	前の計画の重要業績指標（KPI）一覧	特定既存耐震不適格建築物の耐震化率/目標	95		kokudokyoujinnkatiikikeikaku p.39-40
 kpi	10	table	前の計画の重要業績指標（KPI）一覧	上水道管路の耐震化率/現況	1.7		kokudokyoujinnkatiikikeikaku p.39-40
 kpi	10	table	前の計画の重要業績指標（KPI）一覧	上水道管路の耐震化率/目標	11.9		kokudokyoujinnkatiikikeikaku p.39-40
 kpi	10	table	前の計画の重要業績指標（KPI）一覧	道路整備延長/現況	0.8		kokudokyoujinnkatiikikeikaku p.39-40

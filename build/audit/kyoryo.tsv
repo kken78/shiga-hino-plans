@@ -1,0 +1,404 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	1	kpi		町が管理する橋	156	橋	keikaku p.22
+summary	1	kpi		橋の延長の合計	2135.4	m	keikaku p.22
+summary	2	kpi		判定Ⅲ（早期措置段階）の橋	5	橋	keikaku p.48
+summary	2	kpi		判定Ⅳ（緊急措置段階）の橋	0	橋	keikaku p.48
+summary	4	kpi		新技術等の活用を検討する橋	16	橋	keikaku p.106
+summary	4	kpi		新技術等による費用の縮減	4	%程度	keikaku p.106
+genjo	2	table	町が管理する橋	橋長15m以上/管理橋梁数	44		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/延長(m)	1406.7		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/R元年度点検	26		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/R2年度点検	18		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/R3年度点検	0		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/R4年度点検	0		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/R5年度点検	0		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m以上/本計画の点検橋梁数	44		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/管理橋梁数	112		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/延長(m)	728.7		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/R元年度点検	0		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/R2年度点検	1		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/R3年度点検	43		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/R4年度点検	43		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/R5年度点検	25		keikaku p.22
+genjo	2	table	町が管理する橋	橋長15m未満/本計画の点検橋梁数	112		keikaku p.22
+genjo	2	table	町が管理する橋	合計/管理橋梁数	156		keikaku p.22
+genjo	2	table	町が管理する橋	合計/延長(m)	2135.4		keikaku p.22
+genjo	2	table	町が管理する橋	合計/R元年度点検	26		keikaku p.22
+genjo	2	table	町が管理する橋	合計/R2年度点検	19		keikaku p.22
+genjo	2	table	町が管理する橋	合計/R3年度点検	43		keikaku p.22
+genjo	2	table	町が管理する橋	合計/R4年度点検	43		keikaku p.22
+genjo	2	table	町が管理する橋	合計/R5年度点検	25		keikaku p.22
+genjo	2	table	町が管理する橋	合計/本計画の点検橋梁数	156		keikaku p.22
+genjo	3	table	町が管理する橋	全156橋/鋼橋	22		keikaku p.33
+genjo	3	table	町が管理する橋	全156橋/PC橋	56		keikaku p.33
+genjo	3	table	町が管理する橋	全156橋/RC橋	69		keikaku p.33
+genjo	3	table	町が管理する橋	全156橋/その他	9		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m以上（44橋）/鋼橋	11		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m以上（44橋）/PC橋	26		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m以上（44橋）/RC橋	3		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m以上（44橋）/その他	4		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m未満（112橋）/鋼橋	11		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m未満（112橋）/PC橋	30		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m未満（112橋）/RC橋	66		keikaku p.33
+genjo	3	table	町が管理する橋	橋長15m未満（112橋）/その他	5		keikaku p.33
+genjo	5	kpi	古くなる橋が急に増える	建設後50年以上の橋（現在）	66	橋	tyoujumyoukakeikakur6-4 p.1
+genjo	5	kpi	古くなる橋が急に増える	建設後50年以上の橋（10年後）	113	橋	tyoujumyoukakeikakur6-4 p.1
+genjo	7	table	古くなる橋が急に増える	橋長15m以上（判明42橋）/現在（2024年）	22		keikaku p.29-30
+genjo	7	table	古くなる橋が急に増える	橋長15m以上（判明42橋）/10年後	29		keikaku p.29-30
+genjo	7	table	古くなる橋が急に増える	橋長15m以上（判明42橋）/20年後	38		keikaku p.29-30
+genjo	7	table	古くなる橋が急に増える	橋長15m未満（判明30橋）/現在（2024年）	15		keikaku p.29-30
+genjo	7	table	古くなる橋が急に増える	橋長15m未満（判明30橋）/10年後	20		keikaku p.29-30
+genjo	7	table	古くなる橋が急に増える	橋長15m未満（判明30橋）/20年後	27		keikaku p.29-30
+genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅰ	108	橋	keikaku p.48
+genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅱ	43	橋	keikaku p.48
+genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅲ	5	橋	keikaku p.48
+genjo	9	chart.bars	判定区分ごとの橋の数	判定Ⅳ	0	橋	keikaku p.48
+genjo	10	table	点検による健全性の診断	0012 別所橋/点検年度	2019		keikaku p.48
+genjo	10	table	点検による健全性の診断	0012 別所橋/橋長(m)	81.9		keikaku p.48
+genjo	10	table	点検による健全性の診断	0012 別所橋/架設年	1930		keikaku p.48
+genjo	10	table	点検による健全性の診断	0017 松尾橋/点検年度	2019		keikaku p.48
+genjo	10	table	点検による健全性の診断	0017 松尾橋/橋長(m)	15.5		keikaku p.48
+genjo	10	table	点検による健全性の診断	0017 松尾橋/架設年	1973		keikaku p.48
+genjo	10	table	点検による健全性の診断	0022 西川原橋/点検年度	2019		keikaku p.48
+genjo	10	table	点検による健全性の診断	0022 西川原橋/橋長(m)	24.7		keikaku p.48
+genjo	10	table	点検による健全性の診断	0022 西川原橋/架設年	1969		keikaku p.48
+genjo	10	table	点検による健全性の診断	0033 長沢橋/点検年度	2020		keikaku p.48
+genjo	10	table	点検による健全性の診断	0033 長沢橋/橋長(m)	28.2		keikaku p.48
+genjo	10	table	点検による健全性の診断	0033 長沢橋/架設年	1978		keikaku p.48
+genjo	10	table	点検による健全性の診断	0044 広域跨線橋（石原橋）/点検年度	2019		keikaku p.48
+genjo	10	table	点検による健全性の診断	0044 広域跨線橋（石原橋）/橋長(m)	165.0		keikaku p.48
+genjo	10	table	点検による健全性の診断	0044 広域跨線橋（石原橋）/架設年	1974		keikaku p.48
+genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅰ	30		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅱ	14		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅲ	0		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/判定Ⅳ	0		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m以上（番号00001〜00044）/計	44		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅰ	81		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅱ	31		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅲ	0		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m未満/判定Ⅳ	0		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	橋長15m未満/計	112		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	合計/判定Ⅰ	111		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	合計/判定Ⅱ	45		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	合計/判定Ⅲ	0		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	合計/判定Ⅳ	0		tenkenkekka202603 p.1-3
+genjo	13	table	最新の点検結果	合計/計	156		tenkenkekka202603 p.1-3
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0001 高橋（西大路鎌掛線）/橋長(m)	50.3		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0001 高橋（西大路鎌掛線）/補修設計(千円)	7700		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0001 高橋（西大路鎌掛線）/工事(千円)	26142		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0001 高橋（西大路鎌掛線）/合計(千円)	33842		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0014 安土橋/橋長(m)	45.0		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0014 安土橋/工事(千円)	20319		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0014 安土橋/合計(千円)	20319		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0024 多々木橋/橋長(m)	19.0		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0024 多々木橋/補修設計(千円)	6300		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0024 多々木橋/工事(千円)	1590		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0024 多々木橋/合計(千円)	7890		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0028 前川橋（清田線）/橋長(m)	19.9		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0028 前川橋（清田線）/補修設計(千円)	3600		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0028 前川橋（清田線）/工事(千円)	4405		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0028 前川橋（清田線）/合計(千円)	8005		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0030 野出橋/橋長(m)	72.3		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0030 野出橋/補修設計(千円)	7000		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0030 野出橋/工事(千円)	19029		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0030 野出橋/合計(千円)	26029		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0032 野上橋/橋長(m)	30.3		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0032 野上橋/補修設計(千円)	8000		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0032 野上橋/工事(千円)	19315		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0032 野上橋/合計(千円)	27315		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0040 原橋（防護柵補修）/橋長(m)	21.6		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0040 原橋（防護柵補修）/工事(千円)	11105		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0040 原橋（防護柵補修）/合計(千円)	11105		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0040 原橋（上記工種以外）/橋長(m)	21.6		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0040 原橋（上記工種以外）/工事(千円)	25474		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0040 原橋（上記工種以外）/合計(千円)	25474		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0042 河原橋/橋長(m)	15.8		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0042 河原橋/補修設計(千円)	3900		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0042 河原橋/工事(千円)	9581		keikaku p.145
+yotei	3	table	橋長15m以上（予防保全型）8橋の対策費用	0042 河原橋/合計(千円)	13481		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0085 西の宮橋/橋長(m)	12.6		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0085 西の宮橋/補修設計(千円)	2800		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0085 西の宮橋/工事(千円)	3098		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0085 西の宮橋/合計(千円)	5898		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0097 御門橋/橋長(m)	11.0		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0097 御門橋/補修設計(千円)	2900		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0097 御門橋/工事(千円)	2463		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0097 御門橋/合計(千円)	5363		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0113 無名橋47/橋長(m)	9.1		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0113 無名橋47/補修設計(千円)	3700		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0113 無名橋47/工事(千円)	15870		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0113 無名橋47/合計(千円)	19570		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0114 無名橋48/橋長(m)	10.5		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0114 無名橋48/補修設計(千円)	3700		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0114 無名橋48/工事(千円)	19448		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0114 無名橋48/合計(千円)	23148		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0122 薬師前橋/橋長(m)	14.3		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0122 薬師前橋/補修設計(千円)	3300		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0122 薬師前橋/工事(千円)	2384		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0122 薬師前橋/合計(千円)	5684		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0132 無名橋62/橋長(m)	3.0		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0132 無名橋62/補修設計(千円)	2900		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0132 無名橋62/工事(千円)	590		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0132 無名橋62/合計(千円)	3490		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0138 無名橋67/橋長(m)	7.6		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0138 無名橋67/補修設計(千円)	2800		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0138 無名橋67/工事(千円)	6216		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0138 無名橋67/合計(千円)	9016		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0139 瀬川橋/橋長(m)	13.6		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0139 瀬川橋/補修設計(千円)	3200		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0139 瀬川橋/工事(千円)	12341		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0139 瀬川橋/合計(千円)	15541		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0150 無名橋78/橋長(m)	5.5		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0150 無名橋78/補修設計(千円)	2800		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0150 無名橋78/工事(千円)	499		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0150 無名橋78/合計(千円)	3299		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0159 無名橋85/橋長(m)	5.3		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0159 無名橋85/補修設計(千円)	2900		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0159 無名橋85/工事(千円)	6269		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0159 無名橋85/合計(千円)	9169		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/橋長(m)	11.8		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/補修設計(千円)	3300		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/工事(千円)	25641		keikaku p.145
+yotei	4	table	橋長15m未満（観察保全型）11橋の対策費用	0162 前川橋（鳥居平中央線）/合計(千円)	28941		keikaku p.145
+yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/事業優先順位	1		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/調査設計費(千円)	3700		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0113 無名橋47/補修工事費(千円)	15870		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/事業優先順位	1		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/調査設計費(千円)	2900		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0132 無名橋62/補修工事費(千円)	590		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0014 安土橋/事業優先順位	5		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0014 安土橋/補修工事費(千円)	20319		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/事業優先順位	5		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/調査設計費(千円)	3300		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0122 薬師前橋/補修工事費(千円)	2384		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/事業優先順位	5		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/調査設計費(千円)	3200		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0139 瀬川橋/補修工事費(千円)	12341		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0162 前川橋/事業優先順位	5		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0162 前川橋/調査設計費(千円)	3300		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0162 前川橋/補修工事費(千円)	25641		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/事業優先順位	12		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/調査設計費(千円)	3700		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0114 無名橋48/補修工事費(千円)	19448		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/事業優先順位	12		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/調査設計費(千円)	2800		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0150 無名橋78/補修工事費(千円)	499		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/事業優先順位	12		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/調査設計費(千円)	2900		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0159 無名橋85/補修工事費(千円)	6299		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0097 御門橋/事業優先順位	16		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/事業優先順位	16		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/調査設計費(千円)	2800		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0138 無名橋67/補修工事費(千円)	6216		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0001 高橋/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0001 高橋/調査設計費(千円)	7700		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0001 高橋/補修工事費(千円)	26142		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/調査設計費(千円)	6300		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0024 多々木橋/補修工事費(千円)	1590		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0028 前川橋/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0028 前川橋/調査設計費(千円)	3600		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0028 前川橋/補修工事費(千円)	4405		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0030 野出橋/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0030 野出橋/調査設計費(千円)	7000		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0030 野出橋/補修工事費(千円)	19029		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0032 野上橋/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0032 野上橋/調査設計費(千円)	8000		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0040 原橋（上記工種以外）/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0040 原橋（上記工種以外）/補修工事費(千円)	25474		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0040 原橋（防護柵補修）/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0040 原橋（防護柵補修）/補修工事費(千円)	11105		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0042 河原橋/事業優先順位	23		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0042 河原橋/調査設計費(千円)	3900		keikaku p.171
+yotei	7	table	いつ、どの橋を直すか	0085 西の宮橋/事業優先順位	34		keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/工事費（予防保全型）	20319	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/工事費（観察保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R6/委託費（点検及び計画）	17765	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/工事費（予防保全型）	25474	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/工事費（観察保全型）	6600	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R7/委託費（点検及び計画）	7458	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/工事費（予防保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/工事費（観察保全型）	29060	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R8/委託費（点検及び計画）	12243	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/工事費（予防保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/工事費（観察保全型）	28541	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R9/委託費（点検及び計画）	12782	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/工事費（予防保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/工事費（観察保全型）	25223	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R10/委託費（点検及び計画）	14839	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/工事費（予防保全型）	2800	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/工事費（観察保全型）	19448	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R11/委託費（点検及び計画）	17765	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/工事費（予防保全型）	31321	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/工事費（観察保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R12/委託費（点検及び計画）	7458	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/工事費（予防保全型）	27732	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/工事費（観察保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R13/委託費（点検及び計画）	12243	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/工事費（予防保全型）	22500	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/工事費（観察保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R14/委託費（点検及び計画）	12782	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/工事費（予防保全型）	23434	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/工事費（観察保全型）	0	千円	keikaku p.171
+yotei	8	chart.stacked	年度ごとの対策費用（予算の平準化後）	R15/委託費（点検及び計画）	14839	千円	keikaku p.171
+yotei	10	table	定期点検と計画更新の費用	定期点検-1/対策費用(千円、税込)	11319		keikaku p.164
+yotei	10	table	定期点検と計画更新の費用	定期点検-2/対策費用(千円、税込)	6446		keikaku p.164
+yotei	10	table	定期点検と計画更新の費用	定期点検-3/対策費用(千円、税込)	7458		keikaku p.164
+yotei	10	table	定期点検と計画更新の費用	定期点検-4/対策費用(千円、税込)	12243		keikaku p.164
+yotei	10	table	定期点検と計画更新の費用	定期点検-5/対策費用(千円、税込)	12782		keikaku p.164
+yotei	10	table	定期点検と計画更新の費用	定期点検-6/対策費用(千円、税込)	7469		keikaku p.164
+yotei	10	table	定期点検と計画更新の費用	長寿命化修繕計画策定/対策費用(千円、税込)	7370		keikaku p.164
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/策定迄	12	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2024	12	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2025	24	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2026	47	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2027	53	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2028	59	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2029	65	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2030	76	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2031	76	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2032	100	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策着手率/2033	100	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/策定迄	0	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2024	6	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2025	6	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2026	18	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2027	24	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2028	47	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2029	53	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2030	65	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2031	76	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2032	76	%	keikaku p.173
+yotei	12	chart.line	対策着手率・完了率の推移	対策完了率/2033	88	%	keikaku p.173
+hiyo	3	kpi	予防的な修繕で減らせる費用	50年後までの予防的修繕費用	3139	百万円	keikaku p.172
+hiyo	3	kpi	予防的な修繕で減らせる費用	100年後までの予防的修繕費用	6078	百万円	keikaku p.172
+hiyo	4	table	予防的な修繕で減らせる費用	鋼橋/橋長15m以上(年)	55		keikaku p.175
+hiyo	4	table	予防的な修繕で減らせる費用	鋼橋/橋長15m未満(年)	62		keikaku p.175
+hiyo	4	table	予防的な修繕で減らせる費用	PC橋/橋長15m以上(年)	90		keikaku p.175
+hiyo	4	table	予防的な修繕で減らせる費用	PC橋/橋長15m未満(年)	97		keikaku p.175
+hiyo	4	table	予防的な修繕で減らせる費用	RC橋/橋長15m以上(年)	100		keikaku p.175
+hiyo	4	table	予防的な修繕で減らせる費用	RC橋/橋長15m未満(年)	76		keikaku p.175
+hiyo	5	table	予防的な修繕で減らせる費用	鋼橋/橋長15m以上(年)	30		keikaku p.175
+hiyo	5	table	予防的な修繕で減らせる費用	鋼橋/橋長15m未満(年)	40		keikaku p.175
+hiyo	5	table	予防的な修繕で減らせる費用	コンクリート橋（PC、RC）/橋長15m以上(年)	50		keikaku p.175
+hiyo	5	table	予防的な修繕で減らせる費用	コンクリート橋（PC、RC）/橋長15m未満(年)	47		keikaku p.175
+hiyo	8	kpi	新技術等の活用	新技術等の活用を検討する橋	16	橋	keikaku p.106
+hiyo	8	kpi	新技術等の活用	費用の縮減	4	%程度	keikaku p.106
+hiyo	12	table	橋の集約化・撤去	0012 別所橋/維持管理費(千円)	74310		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0012 別所橋/撤去費(千円)	69544		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0012 別所橋/縮減額(千円)	4766		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0013 木津橋/維持管理費(千円)	95829		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0013 木津橋/撤去費(千円)	38640		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0013 木津橋/縮減額(千円)	57189		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0030 野出橋/維持管理費(千円)	33069		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0030 野出橋/撤去費(千円)	44358		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0046 宮前橋（村井奥師線）/維持管理費(千円)	12978		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0046 宮前橋（村井奥師線）/撤去費(千円)	3037		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0046 宮前橋（村井奥師線）/縮減額(千円)	9941		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0085 西の宮橋/維持管理費(千円)	9748		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0085 西の宮橋/撤去費(千円)	4394		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	0085 西の宮橋/縮減額(千円)	5354		keikaku p.127
+hiyo	12	table	橋の集約化・撤去	計/縮減額(千円)	77250		keikaku p.127
+hiyo	13	kpi	橋の集約化・撤去	集約化・撤去などを検討する橋	1	橋	keikaku p.128
+hiyo	13	kpi	橋の集約化・撤去	今後50年間のトータルコストの縮減	0.2	%程度	keikaku p.128
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位1（早期の修繕が必要）/計画した橋	16		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位1（早期の修繕が必要）/補修を終えた橋	15		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位1（早期の修繕が必要）/達成率(%)	94		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位2（予防的な修繕が必要）/計画した橋	9		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位2（予防的な修繕が必要）/補修を終えた橋	4		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位2（予防的な修繕が必要）/達成率(%)	44		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位3（修繕等が当面不要）/計画した橋	4		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位3（修繕等が当面不要）/補修を終えた橋	1		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m以上 優先順位3（修繕等が当面不要）/達成率(%)	25		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ1/計画した橋	3		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ1/補修を終えた橋	3		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ1/達成率(%)	100		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ2/計画した橋	2		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ2/補修を終えた橋	2		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ2/達成率(%)	100		keikaku p.7-8
+zenki	3	table	第2期計画の実施状況	15m未満 優先順位グループ4/計画した橋	5		keikaku p.7-8
+zenki	5	kpi	補修を終えた橋の効果	補修対策を終えた橋（橋長15m以上）	20	橋	keikaku p.12
+zenki	5	kpi	補修を終えた橋の効果	コスト縮減効果	347	百万円	keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0003 西の口橋/H27計画書からの引用額	6.6		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0003 西の口橋/8年間の費用の補正	-3.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0003 西の口橋/実際の補修費で見直した額	3.2		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0003 西の口橋/事後保全シナリオ	20.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0004 迫栄橋/H27計画書からの引用額	11.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0004 迫栄橋/8年間の費用の補正	2.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0004 迫栄橋/実際の補修費で見直した額	13.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0004 迫栄橋/事後保全シナリオ	22.7		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0007 上野田橋/H27計画書からの引用額	10.7		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0007 上野田橋/8年間の費用の補正	4.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0007 上野田橋/実際の補修費で見直した額	14.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0007 上野田橋/事後保全シナリオ	13.7		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0009 前垣外橋/H27計画書からの引用額	15.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0009 前垣外橋/8年間の費用の補正	2.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0009 前垣外橋/実際の補修費で見直した額	17.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0009 前垣外橋/事後保全シナリオ	29.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0012 別所橋/H27計画書からの引用額	54.2		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0012 別所橋/8年間の費用の補正	-11.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0012 別所橋/実際の補修費で見直した額	43.2		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0012 別所橋/事後保全シナリオ	114.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0013 木津橋/H27計画書からの引用額	41.9		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0013 木津橋/8年間の費用の補正	4.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0013 木津橋/実際の補修費で見直した額	46.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0013 木津橋/事後保全シナリオ	81.2		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0016 大正橋/H27計画書からの引用額	8.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0016 大正橋/8年間の費用の補正	6.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0016 大正橋/実際の補修費で見直した額	15.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0016 大正橋/事後保全シナリオ	18.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0017 松尾橋/H27計画書からの引用額	8.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0017 松尾橋/8年間の費用の補正	6.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0017 松尾橋/実際の補修費で見直した額	14.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0017 松尾橋/事後保全シナリオ	19.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0022 西川原橋/H27計画書からの引用額	23.2		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0022 西川原橋/8年間の費用の補正	1.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0022 西川原橋/実際の補修費で見直した額	24.7		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0022 西川原橋/事後保全シナリオ	53.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0023 五左衛門橋/H27計画書からの引用額	12.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0023 五左衛門橋/8年間の費用の補正	-1.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0023 五左衛門橋/実際の補修費で見直した額	10.9		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0023 五左衛門橋/事後保全シナリオ	26.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0024 多々木橋/H27計画書からの引用額	7.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0024 多々木橋/8年間の費用の補正	-1.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0024 多々木橋/実際の補修費で見直した額	5.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0024 多々木橋/事後保全シナリオ	17.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0025 本宮橋/H27計画書からの引用額	11.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0025 本宮橋/8年間の費用の補正	-3.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0025 本宮橋/実際の補修費で見直した額	8.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0025 本宮橋/事後保全シナリオ	23.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0026 毛止野橋/H27計画書からの引用額	7.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0026 毛止野橋/8年間の費用の補正	1.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0026 毛止野橋/実際の補修費で見直した額	8.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0026 毛止野橋/事後保全シナリオ	9.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0027 伊佐目橋/H27計画書からの引用額	13.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0027 伊佐目橋/8年間の費用の補正	5.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0027 伊佐目橋/実際の補修費で見直した額	18.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0027 伊佐目橋/事後保全シナリオ	28.9		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0028 前川橋/H27計画書からの引用額	6.7		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0028 前川橋/8年間の費用の補正	-2.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0028 前川橋/実際の補修費で見直した額	4.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0028 前川橋/事後保全シナリオ	9.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0032 野上橋/H27計画書からの引用額	27.9		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0032 野上橋/8年間の費用の補正	6.5		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0032 野上橋/実際の補修費で見直した額	34.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0032 野上橋/事後保全シナリオ	56.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0033 長沢橋/H27計画書からの引用額	17.6		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0033 長沢橋/8年間の費用の補正	-1.9		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0033 長沢橋/実際の補修費で見直した額	15.7		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0033 長沢橋/事後保全シナリオ	31.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0034 小綿向橋/H27計画書からの引用額	5.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0034 小綿向橋/8年間の費用の補正	-1.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0034 小綿向橋/実際の補修費で見直した額	4.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0034 小綿向橋/事後保全シナリオ	10.1		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0041 青木ヶ原橋/H27計画書からの引用額	10.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0041 青木ヶ原橋/8年間の費用の補正	-6.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0041 青木ヶ原橋/実際の補修費で見直した額	4.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0041 青木ヶ原橋/事後保全シナリオ	24.6		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0044 広域跨線橋（石原橋）/H27計画書からの引用額	63.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0044 広域跨線橋（石原橋）/8年間の費用の補正	-2.3		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0044 広域跨線橋（石原橋）/実際の補修費で見直した額	61.0		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	0044 広域跨線橋（石原橋）/事後保全シナリオ	105.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	合計/H27計画書からの引用額	363.4		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	合計/実際の補修費で見直した額	368.8		keikaku p.12
+zenki	6	table	補修対策を終えた20橋のコスト縮減算定（表1-4）	合計/事後保全シナリオ	715.4		keikaku p.12

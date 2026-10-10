@@ -24,6 +24,8 @@ jobs:
         with:
           node-version: "22"
 
+      - name: ツールの構文確認(原典 PDF を使うツールは CI では動かさない)
+        run: python3 -m py_compile tools/*.py
       - name: スキーマ検証(validate_schema.py)
         run: |
           for f in data/plans/*.json; do python3 tools/validate_schema.py "$f" || exit 1; done

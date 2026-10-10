@@ -1,0 +1,961 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	kpi		1世帯当たりの人員	2.64	人/世帯	honpen p.71-72
+summary	3	kpi		持ち家率	79.3	%	honpen p.71-72
+summary	3	kpi		今後10年間に住宅の支援が必要な世帯数（推計）	118	世帯	honpen p.71-72
+summary	3	kpi		活用可能な町営住宅数	57	戸	honpen p.71-72
+summary	4	kpi		住宅の耐震化率（約）	68.7	%	honpen p.73-74
+summary	4	kpi		新耐震基準施行前に建てられた住宅（約）	1900	件	honpen p.73-74
+summary	4	kpi		空家の増加（H27年度と比較、約）	29	%	honpen p.73-74
+jinko	3	table	人口と世帯数	昭和60年/人口（人）	22009		honpen p.19
+jinko	3	table	人口と世帯数	昭和60年/世帯数（世帯）	5398		honpen p.19
+jinko	3	table	人口と世帯数	昭和60年/1世帯あたり人員（人／世帯）	4.08		honpen p.19
+jinko	3	table	人口と世帯数	平成2年/人口（人）	22391		honpen p.19
+jinko	3	table	人口と世帯数	平成2年/世帯数（世帯）	5676		honpen p.19
+jinko	3	table	人口と世帯数	平成2年/1世帯あたり人員（人／世帯）	3.94		honpen p.19
+jinko	3	table	人口と世帯数	平成2年/人口増減率（％）	1.7		honpen p.19
+jinko	3	table	人口と世帯数	平成7年/人口（人）	23132		honpen p.19
+jinko	3	table	人口と世帯数	平成7年/世帯数（世帯）	6318		honpen p.19
+jinko	3	table	人口と世帯数	平成7年/1世帯あたり人員（人／世帯）	3.66		honpen p.19
+jinko	3	table	人口と世帯数	平成7年/人口増減率（％）	3.3		honpen p.19
+jinko	3	table	人口と世帯数	平成12年/人口（人）	23022		honpen p.19
+jinko	3	table	人口と世帯数	平成12年/世帯数（世帯）	6693		honpen p.19
+jinko	3	table	人口と世帯数	平成12年/1世帯あたり人員（人／世帯）	3.44		honpen p.19
+jinko	3	table	人口と世帯数	平成12年/人口増減率（％）	-0.5		honpen p.19
+jinko	3	table	人口と世帯数	平成17年/人口（人）	22809		honpen p.19
+jinko	3	table	人口と世帯数	平成17年/世帯数（世帯）	7131		honpen p.19
+jinko	3	table	人口と世帯数	平成17年/1世帯あたり人員（人／世帯）	3.20		honpen p.19
+jinko	3	table	人口と世帯数	平成17年/人口増減率（％）	-0.9		honpen p.19
+jinko	3	table	人口と世帯数	平成22年/人口（人）	22870		honpen p.19
+jinko	3	table	人口と世帯数	平成22年/世帯数（世帯）	7678		honpen p.19
+jinko	3	table	人口と世帯数	平成22年/1世帯あたり人員（人／世帯）	2.98		honpen p.19
+jinko	3	table	人口と世帯数	平成22年/人口増減率（％）	0.3		honpen p.19
+jinko	3	table	人口と世帯数	平成27年/人口（人）	21873		honpen p.19
+jinko	3	table	人口と世帯数	平成27年/世帯数（世帯）	7728		honpen p.19
+jinko	3	table	人口と世帯数	平成27年/1世帯あたり人員（人／世帯）	2.83		honpen p.19
+jinko	3	table	人口と世帯数	平成27年/人口増減率（％）	-4.4		honpen p.19
+jinko	3	table	人口と世帯数	令和2年/人口（人）	20964		honpen p.19
+jinko	3	table	人口と世帯数	令和2年/世帯数（世帯）	7932		honpen p.19
+jinko	3	table	人口と世帯数	令和2年/1世帯あたり人員（人／世帯）	2.64		honpen p.19
+jinko	3	table	人口と世帯数	令和2年/人口増減率（％）	-4.2		honpen p.19
+jinko	6	table	年齢3区分別の人口	総数/昭和60年	22009		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/平成2年	22391		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/平成7年	23132		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/平成12年	23022		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/平成17年	22809		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/平成22年	22870		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/平成27年	21873		honpen p.20
+jinko	6	table	年齢3区分別の人口	総数/令和2年	20964		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/昭和60年	4700		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成2年	4472		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成7年	4135		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成12年	3613		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成17年	3215		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成22年	3043		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/平成27年	2835		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口（14歳未満）/令和2年	2575		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/昭和60年	21.35		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成2年	19.97		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成7年	17.88		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成12年	15.69		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成17年	14.10		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成22年	13.31		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/平成27年	12.96		honpen p.20
+jinko	6	table	年齢3区分別の人口	年少人口 構成比（％）/令和2年	12.28		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/昭和60年	13889		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成2年	14036		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成7年	14518		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成12年	14311		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成17年	14262		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成22年	14217		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/平成27年	12840		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口（15〜64歳）/令和2年	11656		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/昭和60年	63.11		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成2年	62.69		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成7年	62.76		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成12年	62.16		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成17年	62.53		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成22年	62.16		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/平成27年	58.70		honpen p.20
+jinko	6	table	年齢3区分別の人口	生産年齢人口 構成比（％）/令和2年	55.60		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/昭和60年	3420		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成2年	3872		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成7年	4479		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成12年	5095		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成17年	5332		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成22年	5553		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/平成27年	6088		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口（65歳以上）/令和2年	6424		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/昭和60年	15.54		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成2年	17.29		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成7年	19.36		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成12年	22.13		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成17年	23.38		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成22年	24.28		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/平成27年	27.83		honpen p.20
+jinko	6	table	年齢3区分別の人口	高齢者人口 構成比（％）/令和2年	30.64		honpen p.20
+jinko	9	chart.stacked	世帯人員別世帯数	H17/1人	1491	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H17/2人	1545	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H17/3人	1295	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H17/4人	1217	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H17/5人	757	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H17/6人	500	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H17/7人以上	315	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/1人	1955	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/2人	1687	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/3人	1371	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/4人	1276	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/5人	703	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/6人	395	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H22/7人以上	281	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/1人	1993	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/2人	1925	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/3人	1448	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/4人	1206	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/5人	642	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/6人	330	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	H27/7人以上	176	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/1人	2287	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/2人	2113	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/3人	1474	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/4人	1147	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/5人	523	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/6人	256	世帯	honpen p.21
+jinko	9	chart.stacked	世帯人員別世帯数	R2/7人以上	118	世帯	honpen p.21
+jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成17年	1163		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成22年	1275		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/平成27年	1427		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦のみの世帯/令和2年	1552		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成17年	1929		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成22年	2002		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/平成27年	2082		honpen p.22
+jinko	10	table	世帯の人数と家族の型	夫婦と子供から成る世帯/令和2年	2087		honpen p.22
+jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成17年	91		honpen p.22
+jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成22年	90		honpen p.22
+jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/平成27年	102		honpen p.22
+jinko	10	table	世帯の人数と家族の型	男親と子供から成る世帯/令和2年	115		honpen p.22
+jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成17年	381		honpen p.22
+jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成22年	403		honpen p.22
+jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/平成27年	503		honpen p.22
+jinko	10	table	世帯の人数と家族の型	女親と子供から成る世帯/令和2年	551		honpen p.22
+jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成17年	2044		honpen p.22
+jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成22年	1872		honpen p.22
+jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/平成27年	1561		honpen p.22
+jinko	10	table	世帯の人数と家族の型	核家族以外の世帯/令和2年	1252		honpen p.22
+jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成17年	21		honpen p.22
+jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成22年	63		honpen p.22
+jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/平成27年	49		honpen p.22
+jinko	10	table	世帯の人数と家族の型	非親族を含む世帯/令和2年	51		honpen p.22
+jinko	10	table	世帯の人数と家族の型	単独世帯/平成17年	1491		honpen p.22
+jinko	10	table	世帯の人数と家族の型	単独世帯/平成22年	1955		honpen p.22
+jinko	10	table	世帯の人数と家族の型	単独世帯/平成27年	1993		honpen p.22
+jinko	10	table	世帯の人数と家族の型	単独世帯/令和2年	2287		honpen p.22
+jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成22年	8		honpen p.22
+jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/平成27年	3		honpen p.22
+jinko	10	table	世帯の人数と家族の型	世帯の家族類型「不詳」/令和2年	23		honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	H17/母子世帯	73	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	H17/父子世帯	14	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	H22/母子世帯	87	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	H22/父子世帯	10	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	H27/母子世帯	98	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	H27/父子世帯	13	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	R2/母子世帯	81	世帯	honpen p.22
+jinko	13	chart.stacked	ひとり親世帯の推移	R2/父子世帯	14	世帯	honpen p.22
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成17年	3480		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成22年	3600		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/平成27年	3840		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者がいる世帯/令和2年	3950		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成17年	651		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成22年	730		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/平成27年	926		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者夫婦のみの世帯/令和2年	1084		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成17年	440		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成22年	525		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/平成27年	596		honpen p.24
+jinko	15	table	特に配慮すべき世帯	65歳以上の高齢者単独世帯/令和2年	733		honpen p.24
+jinko	15	table	特に配慮すべき世帯	3世代世帯/平成17年	1513		honpen p.24
+jinko	15	table	特に配慮すべき世帯	3世代世帯/平成22年	1343		honpen p.24
+jinko	15	table	特に配慮すべき世帯	3世代世帯/平成27年	1096		honpen p.24
+jinko	15	table	特に配慮すべき世帯	3世代世帯/令和2年	808		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H25/身体障害者手帳所持者	954		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H25/療育手帳所持者	233		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H25/精神障害者保健福祉手帳所持者	139		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H26/身体障害者手帳所持者	948		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H26/療育手帳所持者	242		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H26/精神障害者保健福祉手帳所持者	138		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H27/身体障害者手帳所持者	968		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H27/療育手帳所持者	244		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H27/精神障害者保健福祉手帳所持者	143		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H28/身体障害者手帳所持者	947		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H28/療育手帳所持者	247		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H28/精神障害者保健福祉手帳所持者	146		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H29/身体障害者手帳所持者	927		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H29/療育手帳所持者	261		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H29/精神障害者保健福祉手帳所持者	141		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H30/身体障害者手帳所持者	906		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H30/療育手帳所持者	274		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H30/精神障害者保健福祉手帳所持者	133		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H31/身体障害者手帳所持者	890		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H31/療育手帳所持者	282		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	H31/精神障害者保健福祉手帳所持者	134		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	R2/身体障害者手帳所持者	879		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	R2/療育手帳所持者	283		honpen p.24
+jinko	17	chart.stacked	障がい者世帯の推移	R2/精神障害者保健福祉手帳所持者	128		honpen p.24
+jutaku	3	table	住宅の数と空き家	住宅数/平成15年	8000		honpen p.25
+jutaku	3	table	住宅の数と空き家	住宅数/平成20年	8420		honpen p.25
+jutaku	3	table	住宅の数と空き家	住宅数/平成25年	9330		honpen p.25
+jutaku	3	table	住宅の数と空き家	住宅数/平成30年	9360		honpen p.25
+jutaku	3	table	住宅の数と空き家	居住世帯あり/平成15年	6550		honpen p.25
+jutaku	3	table	住宅の数と空き家	居住世帯あり/平成20年	7270		honpen p.25
+jutaku	3	table	住宅の数と空き家	居住世帯あり/平成25年	7830		honpen p.25
+jutaku	3	table	住宅の数と空き家	居住世帯あり/平成30年	7590		honpen p.25
+jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成15年	70		honpen p.25
+jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成20年	10		honpen p.25
+jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成25年	0		honpen p.25
+jutaku	3	table	住宅の数と空き家	一時現在者のみ/平成30年	50		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 総数/平成15年	1370		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 総数/平成20年	1140		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 総数/平成25年	1500		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 総数/平成30年	1700		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成15年	70		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成20年	0		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成25年	30		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 二次的住宅/平成30年	80		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成15年	220		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成20年	310		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成25年	380		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 賃貸用の住宅/平成30年	460		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成15年	10		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成20年	10		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成25年	40		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 売却用の住宅/平成30年	30		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成15年	1070		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成20年	820		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成25年	1060		honpen p.25
+jutaku	3	table	住宅の数と空き家	空き家 その他の住宅/平成30年	1120		honpen p.25
+jutaku	3	table	住宅の数と空き家	建築中/平成15年	20		honpen p.25
+jutaku	3	table	住宅の数と空き家	建築中/平成20年	0		honpen p.25
+jutaku	3	table	住宅の数と空き家	建築中/平成25年	0		honpen p.25
+jutaku	3	table	住宅の数と空き家	建築中/平成30年	20		honpen p.25
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/空家の数（戸）	210		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/すぐに入居可能（A）	95		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	72		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	29		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	日野/倒壊の危険性有（D）	14		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/空家の数（戸）	58		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	21		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	16		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	5		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/空家の数（戸）	39		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	9		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	19		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	5		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	6		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/空家の数（戸）	61		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/すぐに入居可能（A）	19		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	27		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	13		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	西大路/倒壊の危険性有（D）	2		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/空家の数（戸）	27		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	17		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	3		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	5		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	2		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/空家の数（戸）	21		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	12		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	4		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	5		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	0		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/空家の数（戸）	141		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/すぐに入居可能（A）	36		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	57		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	32		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	16		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/空家の数（戸）	557		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/すぐに入居可能（A）	209		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	198		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	105		honpen p.28
+jutaku	6	table	令和元年度（2019年度）の評価別の空家等数	合計/倒壊の危険性有（D）	45		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/空家の数（戸）	179		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/すぐに入居可能（A）	78		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/入居するには修繕を要する（B）	70		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/放置すると倒壊の危険有（C）	23		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	日野/倒壊の危険性有（D）	8		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/空家の数（戸）	54		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/すぐに入居可能（A）	12		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/入居するには修繕を要する（B）	19		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/放置すると倒壊の危険有（C）	16		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	東桜谷/倒壊の危険性有（D）	7		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/空家の数（戸）	32		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/すぐに入居可能（A）	5		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/入居するには修繕を要する（B）	22		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/放置すると倒壊の危険有（C）	2		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西桜谷/倒壊の危険性有（D）	3		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/空家の数（戸）	44		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/すぐに入居可能（A）	16		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/入居するには修繕を要する（B）	18		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/放置すると倒壊の危険有（C）	8		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	西大路/倒壊の危険性有（D）	2		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/空家の数（戸）	17		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/すぐに入居可能（A）	7		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/入居するには修繕を要する（B）	2		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/放置すると倒壊の危険有（C）	7		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	鎌掛/倒壊の危険性有（D）	1		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/空家の数（戸）	22		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/すぐに入居可能（A）	13		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/入居するには修繕を要する（B）	8		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/放置すると倒壊の危険有（C）	2		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	南比都佐/倒壊の危険性有（D）	1		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/空家の数（戸）	83		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/すぐに入居可能（A）	29		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/入居するには修繕を要する（B）	33		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/放置すると倒壊の危険有（C）	19		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	必佐/倒壊の危険性有（D）	2		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/空家の数（戸）	431		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/すぐに入居可能（A）	160		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/入居するには修繕を要する（B）	170		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/放置すると倒壊の危険有（C）	77		honpen p.28
+jutaku	7	table	平成27年度（2015年度）の評価別の空家等数	合計/倒壊の危険性有（D）	24		honpen p.28
+jutaku	11	table	持ち家と借家	一般世帯数/平成7年	6043		honpen p.26
+jutaku	11	table	持ち家と借家	一般世帯数/平成12年	6330		honpen p.26
+jutaku	11	table	持ち家と借家	一般世帯数/平成17年	6758		honpen p.26
+jutaku	11	table	持ち家と借家	一般世帯数/平成22年	7573		honpen p.26
+jutaku	11	table	持ち家と借家	一般世帯数/平成27年	7249		honpen p.26
+jutaku	11	table	持ち家と借家	一般世帯数/令和2年	7655		honpen p.26
+jutaku	11	table	持ち家と借家	持ち家/平成7年	5276		honpen p.26
+jutaku	11	table	持ち家と借家	持ち家/平成12年	5506		honpen p.26
+jutaku	11	table	持ち家と借家	持ち家/平成17年	5714		honpen p.26
+jutaku	11	table	持ち家と借家	持ち家/平成22年	5849		honpen p.26
+jutaku	11	table	持ち家と借家	持ち家/平成27年	5951		honpen p.26
+jutaku	11	table	持ち家と借家	持ち家/令和2年	6070		honpen p.26
+jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成7年	132		honpen p.26
+jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成12年	133		honpen p.26
+jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成17年	131		honpen p.26
+jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成22年	94		honpen p.26
+jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/平成27年	76		honpen p.26
+jutaku	11	table	持ち家と借家	公営・都市機構・公社の借家/令和2年	52		honpen p.26
+jutaku	11	table	持ち家と借家	民間借家/平成7年	348		honpen p.26
+jutaku	11	table	持ち家と借家	民間借家/平成12年	415		honpen p.26
+jutaku	11	table	持ち家と借家	民間借家/平成17年	696		honpen p.26
+jutaku	11	table	持ち家と借家	民間借家/平成22年	941		honpen p.26
+jutaku	11	table	持ち家と借家	民間借家/平成27年	953		honpen p.26
+jutaku	11	table	持ち家と借家	民間借家/令和2年	1152		honpen p.26
+jutaku	11	table	持ち家と借家	給与住宅/平成7年	231		honpen p.26
+jutaku	11	table	持ち家と借家	給与住宅/平成12年	237		honpen p.26
+jutaku	11	table	持ち家と借家	給与住宅/平成17年	180		honpen p.26
+jutaku	11	table	持ち家と借家	給与住宅/平成22年	642		honpen p.26
+jutaku	11	table	持ち家と借家	給与住宅/平成27年	206		honpen p.26
+jutaku	11	table	持ち家と借家	給与住宅/令和2年	298		honpen p.26
+jutaku	11	table	持ち家と借家	間借り/平成7年	56		honpen p.26
+jutaku	11	table	持ち家と借家	間借り/平成12年	39		honpen p.26
+jutaku	11	table	持ち家と借家	間借り/平成17年	37		honpen p.26
+jutaku	11	table	持ち家と借家	間借り/平成22年	47		honpen p.26
+jutaku	11	table	持ち家と借家	間借り/平成27年	63		honpen p.26
+jutaku	11	table	持ち家と借家	間借り/令和2年	83		honpen p.26
+jutaku	14	table	住宅の広さと建てた時期	持ち家/総数	168.86		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	持ち家/一戸建て	169.33		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	持ち家/長屋建て	37.00		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	借家/総数	57.14		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	借家/一戸建て	124.05		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	借家/長屋建て	44.28		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	借家/共同住宅	45.00		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	総数/総数	150.28		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	総数/一戸建て	167.96		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	総数/長屋建て	43.59		honpen p.29
+jutaku	14	table	住宅の広さと建てた時期	総数/共同住宅	45.00		honpen p.29
+jutaku	16	table	住宅の広さと建てた時期	総数/総数	7590		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	総数/持ち家	6000		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	総数/借家	1200		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和45年以前/総数	1010		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和45年以前/持ち家	980		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和45年以前/借家	30		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和46〜昭和55年/総数	890		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和46〜昭和55年/持ち家	800		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和46〜昭和55年/借家	90		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和56〜平成2年/総数	1090		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和56〜平成2年/持ち家	1010		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	昭和56〜平成2年/借家	90		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成3〜平成12年/総数	1600		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成3〜平成12年/持ち家	1270		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成3〜平成12年/借家	330		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成13〜平成22年/総数	1180		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成13〜平成22年/持ち家	830		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成13〜平成22年/借家	360		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成23〜平成27年/総数	600		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成23〜平成27年/持ち家	460		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成23〜平成27年/借家	140		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成28〜平成30年/総数	140		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成28〜平成30年/持ち家	130		honpen p.30
+jutaku	16	table	住宅の広さと建てた時期	平成28〜平成30年/借家	10		honpen p.30
+jutaku	18	table	住宅の広さと建てた時期	総数 戸数/最低居住面積水準以上の世帯	6740		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 戸数/最低居住面積水準未満の世帯	450		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 戸数/総数	7590		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 戸数/誘導居住面積水準以上の世帯	5330		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 戸数/誘導居住面積水準未満の世帯	1860		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/最低居住面積水準以上の世帯	88.8		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/最低居住面積水準未満の世帯	5.9		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/総数	100.0		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/誘導居住面積水準以上の世帯	70.2		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	総数 割合（％）/誘導居住面積水準未満の世帯	24.5		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/最低居住面積水準以上の世帯	5950		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/最低居住面積水準未満の世帯	50		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/総数	6000		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/誘導居住面積水準以上の世帯	5080		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 戸数/誘導居住面積水準未満の世帯	920		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/最低居住面積水準以上の世帯	99.2		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/最低居住面積水準未満の世帯	0.8		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/総数	100.0		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/誘導居住面積水準以上の世帯	84.7		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	持ち家 割合（％）/誘導居住面積水準未満の世帯	15.3		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 戸数/最低居住面積水準以上の世帯	790		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 戸数/最低居住面積水準未満の世帯	400		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 戸数/総数	1200		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 戸数/誘導居住面積水準以上の世帯	260		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 戸数/誘導居住面積水準未満の世帯	940		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/最低居住面積水準以上の世帯	65.8		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/最低居住面積水準未満の世帯	33.3		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/総数	100.0		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/誘導居住面積水準以上の世帯	21.7		honpen p.31
+jutaku	18	table	住宅の広さと建てた時期	借家 割合（％）/誘導居住面積水準未満の世帯	78.3		honpen p.31
+jutaku	22	table	住宅の耐震化	計/住宅総数	8020		honpen p.33
+jutaku	22	table	住宅の耐震化	計/うち一戸建	6560		honpen p.33
+jutaku	22	table	住宅の耐震化	計/うち共同等	1460		honpen p.33
+jutaku	22	table	住宅の耐震化	計/耐震性あり	5510		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和55年以前/住宅総数	3340		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和55年以前/うち一戸建	2770		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和55年以前/うち共同等	570		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和55年以前/耐震性あり	830		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和56年以降/住宅総数	4680		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和56年以降/うち一戸建	3790		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和56年以降/うち共同等	890		honpen p.33
+jutaku	22	table	住宅の耐震化	昭和56年以降/耐震性あり	4680		honpen p.33
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/総数	7590		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員2ｍ未満の道路	310		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員2〜4ｍ未満の道路	3090		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員4〜6ｍ未満の道路	3730		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員6〜10ｍ未満の道路	300		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/幅員10ｍ以上の道路	110		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	戸数/敷地が道路に接していない	40		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/総数	100.0		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員2ｍ未満の道路	4.1		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員2〜4ｍ未満の道路	40.7		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員4〜6ｍ未満の道路	49.1		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員6〜10ｍ未満の道路	4.0		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/幅員10ｍ以上の道路	1.4		honpen p.34
+jutaku	25	table	道路・高齢者向け設備・省エネ	割合（％）/敷地が道路に接していない	0.5		honpen p.34
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/総数	250		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/持ち家	78		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/貸家	172		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成18年/分譲住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/総数	150		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/持ち家	96		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/貸家	53		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/給与住宅	1		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成19年/分譲住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/総数	312		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/持ち家	74		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/貸家	238		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成20年/分譲住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/総数	136		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/持ち家	75		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/貸家	61		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成21年/分譲住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/総数	70		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/持ち家	47		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/貸家	22		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成22年/分譲住宅	1		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/総数	91		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/持ち家	74		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/貸家	17		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成23年/分譲住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/総数	52		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/持ち家	48		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/貸家	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成24年/分譲住宅	4		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/総数	86		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/持ち家	66		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/貸家	10		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成25年/分譲住宅	10		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/総数	75		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/持ち家	72		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/貸家	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/給与住宅	1		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成26年/分譲住宅	2		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/総数	70		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/持ち家	58		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/貸家	4		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成27年/分譲住宅	8		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/総数	84		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/持ち家	71		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/貸家	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成28年/分譲住宅	13		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/総数	71		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/持ち家	56		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/貸家	8		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成29年/分譲住宅	7		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/総数	66		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/持ち家	55		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/貸家	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	平成30年/分譲住宅	11		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/総数	70		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/持ち家	66		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/貸家	4		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和元年/分譲住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/総数	72		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/持ち家	61		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/貸家	8		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/給与住宅	0		honpen p.37
+jutaku	30	table	利用関係別住宅着工数（平成18年〜令和2年）	令和2年/分譲住宅	3		honpen p.37
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/面積（㎡）	331		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/平成30年	11500		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/平成31年	11400		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/令和2年	11100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/令和3年	10700		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-1/令和4年	10300		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/面積（㎡）	496		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/平成30年	23200		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/平成31年	22900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/令和2年	22600		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/令和3年	21900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-2/令和4年	21200		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/面積（㎡）	213		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/平成30年	25100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/平成31年	25000		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/令和2年	24900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/令和3年	24800		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-3/令和4年	24700		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/面積（㎡）	546		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/平成30年	12100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/平成31年	11900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/令和2年	11600		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/令和3年	11200		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-4/令和4年	10800		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/面積（㎡）	167		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/平成30年	11600		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/平成31年	11400		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/令和2年	11300		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/令和3年	10900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野-5/令和4年	10500		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/面積（㎡）	240		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/平成30年	30600		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/平成31年	30100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/令和2年	29600		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/令和3年	28900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野5-1/令和4年	28100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/面積（㎡）	59895		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/平成30年	13900		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/平成31年	14000		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/令和2年	14100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/令和3年	14100		honpen p.39
+jutaku	33	table	地価公示価格（平成30年〜令和4年）	滋賀日野9-1/令和4年	14200		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/面積（㎡）	375		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/平成30年	20100		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/平成31年	19600		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/令和2年	19000		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/令和3年	18400		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-1/令和4年	17800		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/面積（㎡）	350		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/平成30年	36300		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/平成31年	36200		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/令和2年	36100		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/令和3年	36100		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-2/令和4年	36500		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/面積（㎡）	357		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/平成30年	16200		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/平成31年	16000		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/令和2年	15700		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/令和3年	15300		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-3/令和4年	15000		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/面積（㎡）	452		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/平成30年	15200		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/平成31年	14800		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/令和2年	14400		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/令和3年	14000		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-4/令和4年	13700		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/面積（㎡）	536		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/平成30年	10700		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/平成31年	10300		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/令和2年	9900		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/令和3年	9500		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-5/令和4年	9200		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/面積（㎡）	1098		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/平成30年	46500		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/平成31年	46500		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/令和2年	46400		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/令和3年	46300		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）5-1/令和4年	46300		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/面積（㎡）	475		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/平成30年	10000		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/平成31年	9800		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/令和2年	9500		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/令和3年	9200		honpen p.39
+jutaku	34	table	地価調査価格（平成30年〜令和4年）	日野（県）-6/令和4年	8900		honpen p.39
+jutaku	38	table	リフォーム（増改築）	持ち家をリフォームする場合/助成限度額（万円）	10		honpen p.42
+jutaku	38	table	リフォーム（増改築）	空き家をリフォームする場合（持ち家から世帯の一部転居予定者、町内賃貸住宅からの転居予定者、転入予定者）/助成限度額（万円）	20		honpen p.42
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	町域（都市計画区域）/面積（ha）	11760		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	町域（都市計画区域）/町域に対する割合（％）	100.0		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化区域/面積（ha）	694.6		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化区域/町域に対する割合（％）	5.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化区域/市街化区域に対する割合（％）	100.0		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種低層住居専用地域/面積（ha）	16.2		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種低層住居専用地域/町域に対する割合（％）	0.1		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種低層住居専用地域/市街化区域に対する割合（％）	2.3		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種中高層住居専用地域/面積（ha）	82.7		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種中高層住居専用地域/町域に対する割合（％）	0.7		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種中高層住居専用地域/市街化区域に対する割合（％）	11.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種中高層住居専用地域/面積（ha）	28.2		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種中高層住居専用地域/町域に対する割合（％）	0.2		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種中高層住居専用地域/市街化区域に対する割合（％）	4.1		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種住居地域/面積（ha）	120.7		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種住居地域/町域に対する割合（％）	1.0		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第1種住居地域/市街化区域に対する割合（％）	17.4		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種住居地域/面積（ha）	5.7		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種住居地域/町域に対する割合（％）	0.1		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	第2種住居地域/市街化区域に対する割合（％）	0.8		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	近隣商業地域/面積（ha）	41.2		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	近隣商業地域/町域に対する割合（％）	0.4		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	近隣商業地域/市街化区域に対する割合（％）	5.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	商業地域/面積（ha）	6.4		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	商業地域/町域に対する割合（％）	0.1		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	商業地域/市街化区域に対する割合（％）	0.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	準工業地域/面積（ha）	6.6		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	準工業地域/町域に対する割合（％）	0.1		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	準工業地域/市街化区域に対する割合（％）	1.0		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業地域/面積（ha）	48.0		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業地域/町域に対する割合（％）	0.4		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業地域/市街化区域に対する割合（％）	6.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業専用地域/面積（ha）	338.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業専用地域/町域に対する割合（％）	2.9		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	工業専用地域/市街化区域に対する割合（％）	48.8		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化調整区域/面積（ha）	11065.4		honpen p.46
+jutaku	41	table	都市計画の指定状況（用途地域別の面積）	市街化調整区域/町域に対する割合（％）	94.1		honpen p.46
+koe	2	kpi	住宅・住環境に関するアンケート	配布数	1029	票	honpen p.50
+koe	2	kpi	住宅・住環境に関するアンケート	回収数	522	票	honpen p.50
+koe	2	kpi	住宅・住環境に関するアンケート	回収率	50.7	%	honpen p.50
+koe	6	table	問1 回答者の年齢	10・20代/回答数（人）	34		honpen p.51
+koe	6	table	問1 回答者の年齢	10・20代/割合（％）	6.5		honpen p.51
+koe	6	table	問1 回答者の年齢	30代/回答数（人）	49		honpen p.51
+koe	6	table	問1 回答者の年齢	30代/割合（％）	9.4		honpen p.51
+koe	6	table	問1 回答者の年齢	40代/回答数（人）	78		honpen p.51
+koe	6	table	問1 回答者の年齢	40代/割合（％）	14.9		honpen p.51
+koe	6	table	問1 回答者の年齢	50代/回答数（人）	66		honpen p.51
+koe	6	table	問1 回答者の年齢	50代/割合（％）	12.6		honpen p.51
+koe	6	table	問1 回答者の年齢	60代/回答数（人）	129		honpen p.51
+koe	6	table	問1 回答者の年齢	60代/割合（％）	24.7		honpen p.51
+koe	6	table	問1 回答者の年齢	70代以上/回答数（人）	165		honpen p.51
+koe	6	table	問1 回答者の年齢	70代以上/割合（％）	31.6		honpen p.51
+koe	6	table	問1 回答者の年齢	無回答/回答数（人）	1		honpen p.51
+koe	6	table	問1 回答者の年齢	無回答/割合（％）	0.2		honpen p.51
+koe	6	table	問1 回答者の年齢	合計/回答数（人）	522		honpen p.51
+koe	6	table	問1 回答者の年齢	合計/割合（％）	100.0		honpen p.51
+koe	7	table	問6 住宅の居住面積	35㎡（約10坪）未満/回答数（人）	10		honpen p.53
+koe	7	table	問6 住宅の居住面積	35㎡（約10坪）未満/割合（％）	1.9		honpen p.53
+koe	7	table	問6 住宅の居住面積	35〜50㎡（約10〜15坪）未満/回答数（人）	16		honpen p.53
+koe	7	table	問6 住宅の居住面積	35〜50㎡（約10〜15坪）未満/割合（％）	3.1		honpen p.53
+koe	7	table	問6 住宅の居住面積	50〜100㎡（約15〜30坪）未満/回答数（人）	65		honpen p.53
+koe	7	table	問6 住宅の居住面積	50〜100㎡（約15〜30坪）未満/割合（％）	12.5		honpen p.53
+koe	7	table	問6 住宅の居住面積	100〜150㎡（約30〜45坪）未満/回答数（人）	110		honpen p.53
+koe	7	table	問6 住宅の居住面積	100〜150㎡（約30〜45坪）未満/割合（％）	21.1		honpen p.53
+koe	7	table	問6 住宅の居住面積	150〜200㎡（約45〜60坪）未満/回答数（人）	87		honpen p.53
+koe	7	table	問6 住宅の居住面積	150〜200㎡（約45〜60坪）未満/割合（％）	16.7		honpen p.53
+koe	7	table	問6 住宅の居住面積	200㎡（約60坪）以上/回答数（人）	182		honpen p.53
+koe	7	table	問6 住宅の居住面積	200㎡（約60坪）以上/割合（％）	34.9		honpen p.53
+koe	7	table	問6 住宅の居住面積	無回答/回答数（人）	52		honpen p.53
+koe	7	table	問6 住宅の居住面積	無回答/割合（％）	10.0		honpen p.53
+koe	7	table	問6 住宅の居住面積	合計/回答数（人）	522		honpen p.53
+koe	7	table	問6 住宅の居住面積	合計/割合（％）	100.0		honpen p.53
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/満足	51	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/やや満足	83	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/どちらともいえない	121	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/やや不満	116	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/不満	105	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	通勤・通学の利便性/無回答	46	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/満足	71	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/やや満足	132	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/どちらともいえない	105	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/やや不満	123	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/不満	67	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	日常の買い物のしやすさ/無回答	24	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/満足	52	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/やや満足	130	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/どちらともいえない	153	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/やや不満	102	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/不満	57	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	医療・福祉施設の利便性/無回答	28	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/満足	52	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/やや満足	110	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/どちらともいえない	164	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/やや不満	101	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/不満	64	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	身近な公園や遊び場の有無/無回答	31	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/満足	53	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/やや満足	121	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/どちらともいえない	138	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/やや不満	126	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/不満	60	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	まわりの道路の広さ/無回答	24	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/満足	130	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/やや満足	175	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/どちらともいえない	142	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/やや不満	33	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/不満	15	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	緑や水辺などの自然環境/無回答	27	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/満足	67	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/やや満足	155	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/どちらともいえない	208	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/やや不満	42	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/不満	23	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺のまちなみや景観/無回答	27	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/満足	99	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/やや満足	158	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/どちらともいえない	186	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/やや不満	31	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/不満	18	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	親（子）や親族との距離感/無回答	30	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/満足	54	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/やや満足	142	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/どちらともいえない	223	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/やや不満	50	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/不満	20	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	近隣のコミュニティ/無回答	33	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/満足	25	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/やや満足	160	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/どちらともいえない	179	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/やや不満	89	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/不満	33	人	honpen p.54
+koe	10	chart.stacked100	問8 周辺環境の満足度（回答数の割合）	周辺環境について総合すると/無回答	36	人	honpen p.54
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/満足	188	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/やや満足	159	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/どちらともいえない	91	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/やや不満	51	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/不満	9	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	住宅の広さや部屋数/無回答	24	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/満足	183	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/やや満足	153	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/どちらともいえない	89	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/やや不満	57	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/不満	17	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	台所の使いやすさ/無回答	23	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/満足	195	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/やや満足	171	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/どちらともいえない	75	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/やや不満	41	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/不満	17	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	トイレ・浴室の使いやすさ/無回答	23	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/満足	68	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/やや満足	111	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/どちらともいえない	170	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/やや不満	104	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/不満	50	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	地震や台風時の安全性/無回答	19	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/満足	70	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/やや満足	117	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/どちらともいえない	138	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/やや不満	109	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/不満	46	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	遮音や断熱性/無回答	42	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/満足	54	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/やや満足	95	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/どちらともいえない	138	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/やや不満	123	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/不満	78	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	バリアフリーの確保/無回答	34	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/満足	106	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/やや満足	164	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/どちらともいえない	129	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/やや不満	62	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/不満	28	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	居室の採光、通気/無回答	33	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/満足	212	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/やや満足	162	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/どちらともいえない	64	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/やや不満	37	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/不満	17	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	駐車スペースの確保/無回答	30	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/満足	116	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/やや満足	106	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/どちらともいえない	189	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/やや不満	53	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/不満	19	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	増築スペースの有無/無回答	39	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/満足	66	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/やや満足	104	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/どちらともいえない	185	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/やや不満	88	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/不満	47	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	建物の古さ/無回答	32	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/満足	81	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/やや満足	194	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/どちらともいえない	131	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/やや不満	56	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/不満	23	人	honpen p.56
+koe	12	chart.stacked100	問9 今の住まいの満足度（回答数の割合）	総合的に今の住まいについて/無回答	37	人	honpen p.56
+koe	15	table	これからの住まい	住み続ける予定である/回答数（人）	350		honpen p.58
+koe	15	table	これからの住まい	住み続ける予定である/割合（％）	67.0		honpen p.58
+koe	15	table	これからの住まい	転居予定（希望）である/回答数（人）	21		honpen p.58
+koe	15	table	これからの住まい	転居予定（希望）である/割合（％）	4.0		honpen p.58
+koe	15	table	これからの住まい	将来のことは分からない/回答数（人）	127		honpen p.58
+koe	15	table	これからの住まい	将来のことは分からない/割合（％）	24.3		honpen p.58
+koe	15	table	これからの住まい	その他/回答数（人）	3		honpen p.58
+koe	15	table	これからの住まい	その他/割合（％）	0.6		honpen p.58
+koe	15	table	これからの住まい	無回答/回答数（人）	21		honpen p.58
+koe	15	table	これからの住まい	無回答/割合（％）	4.0		honpen p.58
+koe	15	table	これからの住まい	合計/回答数（人）	522		honpen p.58
+koe	15	table	これからの住まい	合計/割合（％）	100.0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	日野町内/回答数（人）	6		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	日野町内/割合（％）	28.6		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	隣接市町/回答数（人）	5		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	隣接市町/割合（％）	23.8		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	滋賀県内（日野町・隣接市町以外）/回答数（人）	4		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	滋賀県内（日野町・隣接市町以外）/割合（％）	19.0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	京都府/回答数（人）	1		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	京都府/割合（％）	4.8		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	大阪府/回答数（人）	0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	大阪府/割合（％）	0.0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他の都道府県/回答数（人）	4		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他の都道府県/割合（％）	19.0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他（外国など）/回答数（人）	0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	その他（外国など）/割合（％）	0.0		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	無回答/回答数（人）	1		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	無回答/割合（％）	4.8		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	合計/回答数（人）	21		honpen p.58
+koe	16	table	問11 予定・希望転居先（転居予定・希望の21人）	合計/割合（％）	100.0		honpen p.58
+koe	20	table	問14 これまでの建て替え・増改築	増改築（リフォーム）を行った/回答数（人）	219		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	増改築（リフォーム）を行った/割合（％）	42.0		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	前の住宅を壊して建て替えた/回答数（人）	99		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	前の住宅を壊して建て替えた/割合（％）	19.0		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	敷地内に新築した/回答数（人）	29		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	敷地内に新築した/割合（％）	5.6		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	したことがない/回答数（人）	147		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	したことがない/割合（％）	28.2		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	その他/回答数（人）	20		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	その他/割合（％）	3.8		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	無回答/回答数（人）	8		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	無回答/割合（％）	1.5		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	合計/回答数（人）	522		honpen p.61
+koe	20	table	問14 これまでの建て替え・増改築	合計/割合（％）	100.0		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	早急にリフォームが必要/回答数（人）	21		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	早急にリフォームが必要/割合（％）	4.0		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	いずれはリフォームしたい/回答数（人）	186		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	いずれはリフォームしたい/割合（％）	35.6		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	必要ない/回答数（人）	264		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	必要ない/割合（％）	50.6		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	その他/回答数（人）	36		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	その他/割合（％）	6.9		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	無回答/回答数（人）	15		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	無回答/割合（％）	2.9		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	合計/回答数（人）	522		honpen p.61
+koe	21	table	問15 今後のリフォームの必要性	合計/割合（％）	100.0		honpen p.61
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	台所などの設備	102	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	バリアフリー化	92	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	住宅の模様替え	60	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	耐震改修	59	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	その他	29	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	防犯設備	23	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	桟敷窓の設置や板塀の設置、修復	11	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	伝統的建物に合わせた修復	10	人	honpen p.62
+koe	23	chart.rank	問16 必要とするリフォームの種類（複数選択可）	二世帯住宅化	9	人	honpen p.62
+koe	25	table	リフォーム	資金がない/回答数（人）	211		honpen p.63
+koe	25	table	リフォーム	資金がない/割合（％）	40.4		honpen p.63
+koe	25	table	リフォーム	相談するところがない/回答数（人）	34		honpen p.63
+koe	25	table	リフォーム	相談するところがない/割合（％）	6.5		honpen p.63
+koe	25	table	リフォーム	業者が見つからない/回答数（人）	26		honpen p.63
+koe	25	table	リフォーム	業者が見つからない/割合（％）	5.0		honpen p.63
+koe	25	table	リフォーム	その他/回答数（人）	81		honpen p.63
+koe	25	table	リフォーム	その他/割合（％）	15.5		honpen p.63
+koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	住みよいまちづくりの推進	261	人	honpen p.63
+koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	リフォーム等補助制度の充実	229	人	honpen p.63
+koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	空き家の流通や利活用の推進	177	人	honpen p.63
+koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	子育て世帯への支援強化	158	人	honpen p.63
+koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	その他	66	人	honpen p.63
+koe	28	chart.rank	問18 住宅施策に関して町に期待すること（複数回答可）	公営住宅等の建設・充実	25	人	honpen p.63
+koe	29	table	町に期待すること	空き家対策/件数	11		honpen p.64
+koe	29	table	町に期待すること	空き家対策/割合（％）	16		honpen p.64
+koe	29	table	町に期待すること	リフォーム補助制度の見直し・拡充/件数	7		honpen p.64
+koe	29	table	町に期待すること	リフォーム補助制度の見直し・拡充/割合（％）	10		honpen p.64
+koe	29	table	町に期待すること	インフラ整備、道路整備/件数	5		honpen p.64
+koe	29	table	町に期待すること	インフラ整備、道路整備/割合（％）	7		honpen p.64
+koe	29	table	町に期待すること	公共交通の充実/件数	8		honpen p.64
+koe	29	table	町に期待すること	公共交通の充実/割合（％）	12		honpen p.64
+koe	29	table	町に期待すること	若年層の定着強化、老後の不安解消/件数	7		honpen p.64
+koe	29	table	町に期待すること	若年層の定着強化、老後の不安解消/割合（％）	10		honpen p.64
+koe	29	table	町に期待すること	安全対策（街灯の整備、空き家の見回り等）/件数	7		honpen p.64
+koe	29	table	町に期待すること	安全対策（街灯の整備、空き家の見回り等）/割合（％）	10		honpen p.64
+koe	29	table	町に期待すること	福祉・子育て支援の充実/件数	7		honpen p.64
+koe	29	table	町に期待すること	福祉・子育て支援の充実/割合（％）	10		honpen p.64
+koe	29	table	町に期待すること	公共施設・公園の整備/件数	6		honpen p.64
+koe	29	table	町に期待すること	公共施設・公園の整備/割合（％）	9		honpen p.64
+koe	29	table	町に期待すること	都市計画の見直し/件数	4		honpen p.64
+koe	29	table	町に期待すること	都市計画の見直し/割合（％）	6		honpen p.64
+koe	29	table	町に期待すること	その他/件数	7		honpen p.64
+koe	29	table	町に期待すること	その他/割合（％）	10		honpen p.64
+shisaku	4	programs		事業数	14	件	honpen p.81-83
+shisaku	6	programs		事業数	10	件	honpen p.84-85
+shisaku	7	programs		事業数	11	件	honpen p.86-88
+shisaku	8	programs		事業数	15	件	honpen p.89-91
+choei	1	kpi	町営住宅のいま	町が管理している町営住宅	72	戸	honpen p.92
+choei	1	kpi	町営住宅のいま	うち新規募集を停止している住宅	15	戸	honpen p.92
+choei	1	kpi	町営住宅のいま	活用可能な町営住宅	57	戸	honpen p.92
+choei	1	kpi	町営住宅のいま	平成13年以降に建築された住宅（第一内池団地）	24	戸	honpen p.92
+choei	6	table	団地の所在地と戸数	第1内池団地 A号棟/戸数	8		honpen p.43
+choei	6	table	団地の所在地と戸数	第1内池団地 B号棟/戸数	4		honpen p.43
+choei	6	table	団地の所在地と戸数	第1内池団地 C号棟/戸数	6		honpen p.43
+choei	6	table	団地の所在地と戸数	第1内池団地 D号棟/戸数	6		honpen p.43
+choei	6	table	団地の所在地と戸数	第2内池団地/戸数	18		honpen p.43
+choei	6	table	団地の所在地と戸数	中山大谷団地 1号棟/戸数	3		honpen p.43
+choei	6	table	団地の所在地と戸数	中山大谷団地 3号棟/戸数	3		honpen p.43
+choei	6	table	団地の所在地と戸数	中山大谷団地 6号棟/戸数	3		honpen p.43
+choei	6	table	団地の所在地と戸数	中山大谷団地 7号棟/戸数	3		honpen p.43
+choei	6	table	団地の所在地と戸数	中山大谷団地 8号棟/戸数	3		honpen p.43
+choei	6	table	団地の所在地と戸数	西山団地 1号棟/戸数	4		honpen p.43
+choei	6	table	団地の所在地と戸数	西山団地 2号棟/戸数	5		honpen p.43
+choei	6	table	団地の所在地と戸数	西山団地 3号棟/戸数	2		honpen p.43
+choei	6	table	団地の所在地と戸数	西山団地 5号棟/戸数	2		honpen p.43
+choei	6	table	団地の所在地と戸数	西山団地 6号棟/戸数	2		honpen p.43
+choei	7	table	団地の所在地と戸数	第1内池団地/日野駅	400		honpen p.44
+choei	7	table	団地の所在地と戸数	第1内池団地/日野町役場	2100		honpen p.44
+choei	7	table	団地の所在地と戸数	第1内池団地/必佐小学校	700		honpen p.44
+choei	7	table	団地の所在地と戸数	第1内池団地/日野中学校	1700		honpen p.44
+choei	7	table	団地の所在地と戸数	第2内池団地/日野駅	430		honpen p.44
+choei	7	table	団地の所在地と戸数	第2内池団地/日野町役場	2100		honpen p.44
+choei	7	table	団地の所在地と戸数	第2内池団地/必佐小学校	730		honpen p.44
+choei	7	table	団地の所在地と戸数	第2内池団地/日野中学校	1700		honpen p.44
+choei	7	table	団地の所在地と戸数	中山大谷団地/日野駅	1700		honpen p.44
+choei	7	table	団地の所在地と戸数	中山大谷団地/日野町役場	4100		honpen p.44
+choei	7	table	団地の所在地と戸数	中山大谷団地/必佐小学校	1700		honpen p.44
+choei	7	table	団地の所在地と戸数	中山大谷団地/日野中学校	3700		honpen p.44
+choei	7	table	団地の所在地と戸数	西山団地/日野駅	2000		honpen p.44
+choei	7	table	団地の所在地と戸数	西山団地/日野町役場	4300		honpen p.44
+choei	7	table	団地の所在地と戸数	西山団地/必佐小学校	1900		honpen p.44
+choei	7	table	団地の所在地と戸数	西山団地/日野中学校	3900		honpen p.44
+choei	10	table	住宅に困窮する世帯の推計	（1）最低居住面積水準未満かつ著しい困窮年収未満/世帯数	49		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（1）最低居住面積水準未満かつ著しい困窮年収未満/算入率（％）	100		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（2）最低居住面積水準未満かつ著しい困窮年収以上/世帯数	20		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（2）最低居住面積水準未満かつ著しい困窮年収以上/算入率（％）	100		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（3）最低居住面積水準以上かつ著しい困窮年収未満のうち高家賃負担率以上/世帯数	47		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（3）最低居住面積水準以上かつ著しい困窮年収未満のうち高家賃負担率以上/算入率（％）	100		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（4）最低居住面積水準以上かつ著しい困窮年収以上のうち高家賃負担率以上/世帯数	2		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	（4）最低居住面積水準以上かつ著しい困窮年収以上のうち高家賃負担率以上/算入率（％）	40		honpen p.67
+choei	10	table	住宅に困窮する世帯の推計	要支援世帯数（標準）合計/世帯数	118		honpen p.67
+choei	12	table	住宅に困窮する世帯の推計	要支援世帯数（必須）/令和3〜12年度	69		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	公営住宅供給目標量/令和3〜12年度	57		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	町営住宅入居募集/令和3〜12年度	57		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	町営住宅建て替え/令和3〜12年度	0		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	町営住宅新規整備/令和3〜12年度	0		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	公営以外の公的住宅供給目標量/令和3〜12年度	0		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	その他公営住宅（サ高住等）/令和3〜12年度	0		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	セーフティネット住宅/令和3〜12年度	0		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	公営住宅等供給目標量/令和3〜12年度	57		honpen p.68
+choei	12	table	住宅に困窮する世帯の推計	充足率（％）/令和3〜12年度	82.6		honpen p.68

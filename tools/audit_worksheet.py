@@ -176,6 +176,8 @@ def cmd_worksheet(pid):
                    .replace("{{DATA}}", payload), encoding="utf-8")
     done = sum(1 for r in rows if r["checked"] == "✓")
     print(f"OK  {out}  ({len(rows)} 行・検収済み {done}・台帳にあって照合表に無い行 {stale})")
+    # ブラウザでそのまま開ける形も出す(相対パスでは開けない環境があるため)
+    print(f"    ブラウザで開く: {out.resolve().as_uri()}")
 
 
 TEMPLATE = r"""<!DOCTYPE html>

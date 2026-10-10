@@ -61,8 +61,13 @@ node tools/check_mobile.mjs docs/plans/<id>.html
 python3 tools/build.py          # → docs/index.html 再生成
 node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-8)
 
-# 6) 人間の照合(Claude はここで止まり、依頼者に引き渡す)
-#    build/audit/<id>.tsv を原典PDFと突合してもらう
+# 6) 検収(DESIGN.md ADR-7 補遺 L の4段)
+#    段1 プログラムによる照合: python3 tools/audit_autocheck.py <id>(原典PDFが必要)
+#    段2 AI による照合: 段1で一致にならなかった行を、起票の経緯を渡さない AI が画像も見て照合
+#    段3 文章の点検: 照合表に入らない文章を、起票の経緯を渡さない AI が原典と突き合わせる
+#        (A〜E に分け、D を直す。結果はプルリクエストに書く)
+#    段4 人による抜き取り(Claude はここで止まり、依頼者に引き渡す):
+#        無作為の30行と、段1・段2で判断できなかった行を人が原典と見比べる
 ```
 
 3〜5 はどれか一つでも失敗したら先に進まない。修正して再実行する。
@@ -147,10 +152,13 @@ koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出す�
 (検収状態の真実の源)+ `tools/audit_worksheet.py <id>` が生成する vanilla HTML ワークシート
 (ページ順・チェック欄・localStorage 下書き・エクスポートで台帳へ)の2層。突合キーは内容ハッシュで、
 値が変われば当該行は未検収へ戻る。照合表 `build/audit/<id>.tsv` は8列(ADR-7 補遺 E)。
-台帳は kodomo・kokyo-kanri・kankyo のベースライン(全行未検収)を作成済み。手順:
+台帳は kodomo・kokyo-kanri・koutsu・kankyo を作成済み。2026-10 に、照合の主体を機械に移し、
+人は抜き取りで確かめる方式に改めた(ADR-7 補遺 L。段1〜4は上の定型フロー 6))。
+ワークシートは段4(人による抜き取り)で使う。手順:
 ```bash
 python3 tools/audit_worksheet.py <id> --init          # 台帳のベースライン(初回のみ。そのままコミット)
 python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.worksheet.html(公開しない)
+#   ブラウザで開くときはフルパス(file:///…)で開く。ツールが表示する「ブラウザで開く:」の行をそのまま使える
 #   ブラウザで原典と突合し「台帳形式でエクスポート」(印は下書き。台帳が正)
 python3 tools/audit_worksheet.py <id> --import <file> # 検証(行の一致・key・checked)して台帳を上書き
 git commit
@@ -203,10 +211,11 @@ git commit
     3897746(ハブ側)。
   - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
     Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
-- [ ] **kodomo の検収(audit 突合)**(ADR-7) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
-  `build/audit/kodomo.tsv`(886行)を突合。2層機構(台帳 + ワークシート)で実施。完了条件は
-  `data/audit_log/kodomo.tsv` の全行 checked。PDF は配置済み。
-  機構 `tools/audit_worksheet.py` は実装済み(2026-10)。台帳のベースラインも作成済み。
+- [ ] **kodomo の検収(audit 突合)**(ADR-7 補遺 L) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
+  `build/audit/kodomo.tsv`(886行)。照合表の全行の AI による照合(PR #14)と、文章の点検(PR #15)は済み。
+  残りは段1(`tools/audit_autocheck.py` の実装と適用)、段2の台帳への記録、段4(人による抜き取り)。
+- [ ] **`tools/audit_autocheck.py` の実装**(ADR-7 補遺 L 段1) — 原典 PDF の文字データから、照合表の各行の値と
+  項目名が出典ページにあるかを調べ、一致した行を台帳に `auto:pdftext` で記録する。
 - [x] `templates/hub.html` の `.hpshi-tip` 除去行を削除(2026-10) — ADR-2 の embed 廃止により
   永久に0件の no-op だった(ADR-6 の「0件 no-op 禁止」と不整合)。
 

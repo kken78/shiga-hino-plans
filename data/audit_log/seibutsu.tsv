@@ -1,0 +1,14 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+2ef490f8b531a640	summary	1	kpi		農家総数	1309	戸	honpen p.2				
+e00e56912dabb1a0	summary	1	kpi		販売農家の経営耕地面積	1606	ha	honpen p.2				
+e52e0fa2707f4e53	summary	1	kpi		経営耕地面積に対する水田の比率	96	%	honpen p.2				
+006558b4a72b660e	genjo	2	kpi	日野町のすがた	東西の長さ	14.5	km	honpen p.2				
+011f413e664d519b	genjo	2	kpi	日野町のすがた	南北の長さ	12.3	km	honpen p.2				
+36025e6f6489ef06	genjo	2	kpi	日野町のすがた	総面積	117.60	k㎡	honpen p.2				
+a30a30dfade0663f	genjo	4	kpi	農家と耕地	農家総数	1309	戸	honpen p.2				
+fbfc594dead829ba	genjo	4	kpi	農家と耕地	農家の耕地面積	1649	ha	honpen p.2				
+5b837dac2b62d364	genjo	4	kpi	農家と耕地	うち販売農家	1078	戸	honpen p.2				
+2de06fe66ed456df	genjo	4	kpi	農家と耕地	販売農家の経営耕地面積	1606	ha	honpen p.2				
+047286e44b2e12dd	genjo	4	kpi	農家と耕地	経営耕地面積のうち水田面積	1546	ha	honpen p.2				
+7dc9a0f29e8ad224	genjo	5	bigstat	農家と耕地	経営耕地面積に対する水田の比率（2010年）	96	%	honpen p.2				

@@ -403,7 +403,8 @@ class Renderer:
                 tds.append(f"<td{cls_attr}>{esc(v)}</td>")
             trs.append(f"<tr>{''.join(tds)}</tr>")
         note = f'<div class="b-note"><span>{esc(b["note"])}</span></div>' if b.get("note") else ""
-        table_html = (f'<div class="b-table"><table><thead><tr>{head}</tr></thead>'
+        ttl = f'<div class="b-ttl">{esc(b["title"])}</div>' if b.get("title") else ""
+        table_html = (f'{ttl}<div class="b-table"><table><thead><tr>{head}</tr></thead>'
                       f'<tbody>{"".join(trs)}</tbody></table></div>')
         fold = b.get("fold")
         if fold:

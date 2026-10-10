@@ -159,7 +159,7 @@
       "label": "表",
       "blocks": [
         {
-          "type": "table", "source": "test",
+          "type": "table", "source": "test", "title": "table テスト(表の題)",
           "head": ["項目", "値", "単位", "説明"],
           "rows": [
             ["増減(負値・小数2桁)", -1.50, "億円", "負値は▲表記で、JSON に書いた桁数(2桁)を保って表示されることを確かめる行"],

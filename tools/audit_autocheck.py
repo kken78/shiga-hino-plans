@@ -88,7 +88,8 @@ def year_variants(part):
         for k, (name, base) in ERA.items():
             n = y - base
             if 1 <= n <= 64:
-                out |= {f"{name}{n}", f"{k}{n}"} | ({f"{name}元"} if n == 1 else set())
+                out |= {f"{name}{n}", f"{k}{n}"} | ({f"{name}元"} if n == 1 else set()) \
+                    | ({f"{k}{n:02d}"} if n < 10 else set())
         return out
     if m:
         name, base = ERA[m.group(1)]
@@ -99,7 +100,9 @@ def year_variants(part):
     g = (m or m2).group(2)
     n = 1 if g == "元" else int(g)
     letter = [k for k, v in ERA.items() if v[0] == name][0]
-    return {f"{name}{n}", f"{letter}{n}", str(base + n)} | ({f"{name}元"} if n == 1 else set())
+    # R04 のような0付きの書き方(交付金の様式など)も同じ年度とみなす
+    return {f"{name}{n}", f"{letter}{n}", str(base + n)} | ({f"{name}元"} if n == 1 else set()) \
+        | ({f"{letter}{n:02d}"} if n < 10 else set())
 
 
 def lcs_len(a, b):

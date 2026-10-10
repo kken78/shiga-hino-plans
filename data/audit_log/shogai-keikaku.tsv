@@ -1,0 +1,530 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+5daea164756560eb	summary	1	kpi		障害者手帳を持つ人(合計)	1318	人	honpen p.7				
+615638ec8f1984ee	summary	1	kpi		身体障害者手帳	864	人	honpen p.7				
+0ae74fe6c87c1dd1	summary	1	kpi		療育手帳	292	人	honpen p.7				
+28d9bd8d9e12e70a	summary	1	kpi		精神障害者保健福祉手帳	162	人	honpen p.7				
+30ccdebf8cc7da87	genjo	4	chart.stacked	障害者手帳所持者数の推移	H29/身体障害者手帳	927	人	honpen p.7				
+6cac49836a42cc4c	genjo	4	chart.stacked	障害者手帳所持者数の推移	H29/療育手帳	261	人	honpen p.7				
+35b4563ac7b099d2	genjo	4	chart.stacked	障害者手帳所持者数の推移	H29/精神障害者保健福祉手帳	142	人	honpen p.7				
+33278b06666452c4	genjo	4	chart.stacked	障害者手帳所持者数の推移	H30/身体障害者手帳	926	人	honpen p.7				
+97e7b872ed42599b	genjo	4	chart.stacked	障害者手帳所持者数の推移	H30/療育手帳	273	人	honpen p.7				
+c44e1ad57ea31056	genjo	4	chart.stacked	障害者手帳所持者数の推移	H30/精神障害者保健福祉手帳	140	人	honpen p.7				
+12854fc08459a42a	genjo	4	chart.stacked	障害者手帳所持者数の推移	R1/身体障害者手帳	898	人	honpen p.7				
+4e2bdc8296916a7f	genjo	4	chart.stacked	障害者手帳所持者数の推移	R1/療育手帳	280	人	honpen p.7				
+1a3a83a1aaafc0d1	genjo	4	chart.stacked	障害者手帳所持者数の推移	R1/精神障害者保健福祉手帳	136	人	honpen p.7				
+e1d2e32ce84ce68a	genjo	4	chart.stacked	障害者手帳所持者数の推移	R2/身体障害者手帳	874	人	honpen p.7				
+10e4cd11897c91a4	genjo	4	chart.stacked	障害者手帳所持者数の推移	R2/療育手帳	288	人	honpen p.7				
+533ab674b4d01a49	genjo	4	chart.stacked	障害者手帳所持者数の推移	R2/精神障害者保健福祉手帳	146	人	honpen p.7				
+1f3116feaaf943b9	genjo	4	chart.stacked	障害者手帳所持者数の推移	R3/身体障害者手帳	870	人	honpen p.7				
+3e8a48836875635f	genjo	4	chart.stacked	障害者手帳所持者数の推移	R3/療育手帳	294	人	honpen p.7				
+c91ab335c3c78746	genjo	4	chart.stacked	障害者手帳所持者数の推移	R3/精神障害者保健福祉手帳	163	人	honpen p.7				
+8bf80d04736572d2	genjo	4	chart.stacked	障害者手帳所持者数の推移	R4/身体障害者手帳	864	人	honpen p.7				
+65bd283370a714da	genjo	4	chart.stacked	障害者手帳所持者数の推移	R4/療育手帳	292	人	honpen p.7				
+db840535ce2d9989	genjo	4	chart.stacked	障害者手帳所持者数の推移	R4/精神障害者保健福祉手帳	162	人	honpen p.7				
+a8a44f682fc4d18a	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	身体障害者手帳/H29	4.27	%	honpen p.7				
+201f86b159e279bb	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	身体障害者手帳/H30	4.31	%	honpen p.7				
+81dadaa4653817e9	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	身体障害者手帳/R1	4.18	%	honpen p.7				
+7966ab2751784577	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	身体障害者手帳/R2	4.10	%	honpen p.7				
+6fe94d16ebb12821	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	身体障害者手帳/R3	4.11	%	honpen p.7				
+e3d047e88ca3945d	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	身体障害者手帳/R4	4.12	%	honpen p.7				
+fa4af22031c0d55f	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	療育手帳/H29	1.20	%	honpen p.7				
+927b0eec35bbcc5d	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	療育手帳/H30	1.27	%	honpen p.7				
+953cacc2a8b66928	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	療育手帳/R1	1.30	%	honpen p.7				
+a18544885a9b4c18	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	療育手帳/R2	1.35	%	honpen p.7				
+e14b64a2304e5088	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	療育手帳/R3	1.39	%	honpen p.7				
+0378f38ceab35925	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	療育手帳/R4	1.39	%	honpen p.7				
+2fedadc36db285b8	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	精神障害者保健福祉手帳/H29	0.65	%	honpen p.7				
+72ad4d40c5904330	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	精神障害者保健福祉手帳/H30	0.65	%	honpen p.7				
+02ef921787238214	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	精神障害者保健福祉手帳/R1	0.63	%	honpen p.7				
+285d603d1329deca	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	精神障害者保健福祉手帳/R2	0.69	%	honpen p.7				
+4fac3e6807ff8f5b	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	精神障害者保健福祉手帳/R3	0.77	%	honpen p.7				
+c818824300dc1a3d	genjo	6	chart.line	総人口に占める障害者手帳所持者数の推移	精神障害者保健福祉手帳/R4	0.77	%	honpen p.7				
+c38e25f13cff4efd	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H29/1級	239	人	honpen p.8				
+7b420238b0f66c76	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H29/2級	113	人	honpen p.8				
+073cb523dc23d1f7	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H29/3級	140	人	honpen p.8				
+20e0cf9c0cfcba94	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H29/4級	276	人	honpen p.8				
+96b90d7ac8c3a111	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H29/5級	113	人	honpen p.8				
+47691b9183a7e6e6	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H29/6級	46	人	honpen p.8				
+77d4e86b41188fee	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H30/1級	236	人	honpen p.8				
+657481ea38db3c40	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H30/2級	121	人	honpen p.8				
+db150c94b65f79f0	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H30/3級	131	人	honpen p.8				
+03cd639abad7fd9e	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H30/4級	272	人	honpen p.8				
+c2bc92e5c07e3617	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H30/5級	115	人	honpen p.8				
+55f086cd4ab57065	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	H30/6級	51	人	honpen p.8				
+b95f3185e45f51ca	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R1/1級	220	人	honpen p.8				
+5b7fed914a27e81f	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R1/2級	107	人	honpen p.8				
+ebf09dd5d51ac35b	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R1/3級	142	人	honpen p.8				
+995cbafd555c87f0	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R1/4級	266	人	honpen p.8				
+3bdfefe8637216ff	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R1/5級	112	人	honpen p.8				
+05ad65a8172189cf	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R1/6級	51	人	honpen p.8				
+ee7e82fc3ac7adc8	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R2/1級	213	人	honpen p.8				
+4fd66748f56820fb	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R2/2級	102	人	honpen p.8				
+8c62ba36a2b31c62	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R2/3級	138	人	honpen p.8				
+f0c8ccfa1be82a67	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R2/4級	257	人	honpen p.8				
+77cecf7f6dc2948a	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R2/5級	111	人	honpen p.8				
+2ecc22372bee1d74	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R2/6級	53	人	honpen p.8				
+7cba99ae2e4db52e	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R3/1級	218	人	honpen p.8				
+3395d0dbc030ab5f	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R3/2級	96	人	honpen p.8				
+cf2e05aea4a5370a	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R3/3級	140	人	honpen p.8				
+c7d40d8c0a0a3e3c	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R3/4級	259	人	honpen p.8				
+62f0f346b3d760c5	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R3/5級	107	人	honpen p.8				
+0cc1730ecb5e7f6a	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R3/6級	50	人	honpen p.8				
+a2b6a7b39cf336e9	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R4/1級	217	人	honpen p.8				
+c081fc40ae348c83	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R4/2級	100	人	honpen p.8				
+a1e64f31e01a48fb	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R4/3級	141	人	honpen p.8				
+2ef2d70620229537	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R4/4級	254	人	honpen p.8				
+587d5e9659cbc136	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R4/5級	106	人	honpen p.8				
+d97ff42c09a2769d	genjo	9	chart.stacked	等級別身体障害者手帳所持者の推移	R4/6級	46	人	honpen p.8				
+93cf7a5501221671	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H29/視覚障がい	46	人	honpen p.8				
+721768accc6c8238	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H29/聴覚障がい・平衡機能	58	人	honpen p.8				
+ced23fbf5abebfbe	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H29/音声・言語機能障がい	5	人	honpen p.8				
+d6c6f9242dba58cb	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H29/肢体不自由	582	人	honpen p.8				
+cac7bc24281e9553	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H29/内部障がい	236	人	honpen p.8				
+d631a0934b7e755f	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H30/視覚障がい	43	人	honpen p.8				
+6ea137d4989b705b	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H30/聴覚障がい・平衡機能	62	人	honpen p.8				
+da7ae0606556bd61	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H30/音声・言語機能障がい	4	人	honpen p.8				
+c6bc82174232c558	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H30/肢体不自由	568	人	honpen p.8				
+25c397b80c4054c7	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	H30/内部障がい	249	人	honpen p.8				
+c38381e2e059ad2f	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R1/視覚障がい	46	人	honpen p.8				
+2894f8638d5bdf1c	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R1/聴覚障がい・平衡機能	65	人	honpen p.8				
+6477aab18af7fec6	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R1/音声・言語機能障がい	5	人	honpen p.8				
+88e1f0f68a2cda13	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R1/肢体不自由	544	人	honpen p.8				
+b6f53cc55c101885	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R1/内部障がい	238	人	honpen p.8				
+a6fbaf72ea759da1	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R2/視覚障がい	47	人	honpen p.8				
+820b33cb82392e64	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R2/聴覚障がい・平衡機能	62	人	honpen p.8				
+f2fbf2bd10e6aca2	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R2/音声・言語機能障がい	6	人	honpen p.8				
+f14137425e3d0f5b	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R2/肢体不自由	527	人	honpen p.8				
+b4bb7a4a577f487a	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R2/内部障がい	232	人	honpen p.8				
+84cc0c3f8951319e	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R3/視覚障がい	48	人	honpen p.8				
+20cacc643df01645	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R3/聴覚障がい・平衡機能	62	人	honpen p.8				
+5a690d9713e95046	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R3/音声・言語機能障がい	5	人	honpen p.8				
+9cee5ff0a09758d5	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R3/肢体不自由	510	人	honpen p.8				
+1a05467575b726bf	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R3/内部障がい	245	人	honpen p.8				
+6382461faa39c803	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R4/視覚障がい	46	人	honpen p.8				
+da70c762fd60662e	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R4/聴覚障がい・平衡機能	62	人	honpen p.8				
+7754f93c6b9e7cbc	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R4/音声・言語機能障がい	4	人	honpen p.8				
+3292373bf807ee30	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R4/肢体不自由	509	人	honpen p.8				
+29455273b9d29f84	genjo	10	chart.stacked	種類別身体障害者手帳所持者の推移	R4/内部障がい	243	人	honpen p.8				
+efe883b4cce5622f	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	H29/18歳未満	16	人	honpen p.9				
+07bd4c936048b70e	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	H29/18歳以上	911	人	honpen p.9				
+21f386115f4f50ef	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	H30/18歳未満	19	人	honpen p.9				
+aed45840845d035c	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	H30/18歳以上	907	人	honpen p.9				
+562e826c41a38017	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R1/18歳未満	20	人	honpen p.9				
+ce3a7909a6c90f30	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R1/18歳以上	878	人	honpen p.9				
+e0ce164999842b88	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R2/18歳未満	20	人	honpen p.9				
+e8f208f40069783a	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R2/18歳以上	854	人	honpen p.9				
+2be0b8382db28176	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R3/18歳未満	18	人	honpen p.9				
+3c4444e2e604b678	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R3/18歳以上	852	人	honpen p.9				
+c0bd98b02d38d943	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R4/18歳未満	17	人	honpen p.9				
+aa6e75e2a7c61974	genjo	11	chart.stacked	年齢別身体障害者手帳所持者の推移	R4/18歳以上	847	人	honpen p.9				
+6b4082e29125cab6	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H29/Ａ１(最重度)	45	人	honpen p.9				
+6a24471d911ad26f	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H29/Ａ２(重度)	40	人	honpen p.9				
+4d39c2a99f9cfd5e	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H29/Ｂ１(中度)	75	人	honpen p.9				
+55ee4e4222bf7583	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H29/Ｂ２(軽度)	101	人	honpen p.9				
+c7eb7fe4203d5bec	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H30/Ａ１(最重度)	45	人	honpen p.9				
+3b7c6a271af866bd	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H30/Ａ２(重度)	44	人	honpen p.9				
+15d6b19944b57f59	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H30/Ｂ１(中度)	77	人	honpen p.9				
+c78525d420a48327	genjo	14	chart.stacked	等級別療育手帳所持者の推移	H30/Ｂ２(軽度)	107	人	honpen p.9				
+d132dab2d9ca131b	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R1/Ａ１(最重度)	45	人	honpen p.9				
+ff150dc007194525	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R1/Ａ２(重度)	44	人	honpen p.9				
+18bc295ae5c74643	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R1/Ｂ１(中度)	77	人	honpen p.9				
+5e171d3d3e7f39bc	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R1/Ｂ２(軽度)	114	人	honpen p.9				
+91fd43f9b9b2ee5b	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R2/Ａ１(最重度)	45	人	honpen p.9				
+872d82cac1d65698	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R2/Ａ２(重度)	44	人	honpen p.9				
+e79cc525f4b59764	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R2/Ｂ１(中度)	79	人	honpen p.9				
+ebcbd22e96f8ff16	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R2/Ｂ２(軽度)	120	人	honpen p.9				
+a8f3f2c599eca3b8	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R3/Ａ１(最重度)	45	人	honpen p.9				
+203ee4b531209c23	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R3/Ａ２(重度)	46	人	honpen p.9				
+2601c01bcb055a01	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R3/Ｂ１(中度)	81	人	honpen p.9				
+b04225b94b08ee9e	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R3/Ｂ２(軽度)	122	人	honpen p.9				
+31bf24e32918c202	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R4/Ａ１(最重度)	45	人	honpen p.9				
+59b561107c10e832	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R4/Ａ２(重度)	43	人	honpen p.9				
+56b2da7f998a9877	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R4/Ｂ１(中度)	81	人	honpen p.9				
+a5736a830c010278	genjo	14	chart.stacked	等級別療育手帳所持者の推移	R4/Ｂ２(軽度)	123	人	honpen p.9				
+b603c618f3997869	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	H29/18歳未満	60	人	honpen p.10				
+58c8c2175dee0640	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	H29/18歳以上	201	人	honpen p.10				
+7e4e239d99ca0d04	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	H30/18歳未満	62	人	honpen p.10				
+ac8c81425fd22e54	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	H30/18歳以上	211	人	honpen p.10				
+85ec4af18186815e	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R1/18歳未満	69	人	honpen p.10				
+2d8f2362b20d0eff	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R1/18歳以上	211	人	honpen p.10				
+4555b1f4583f4c0e	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R2/18歳未満	71	人	honpen p.10				
+e6b7850d2891bae2	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R2/18歳以上	217	人	honpen p.10				
+48586f190c7b7d26	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R3/18歳未満	71	人	honpen p.10				
+0f5753dc31c2c8e2	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R3/18歳以上	223	人	honpen p.10				
+8f099e661dc3a571	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R4/18歳未満	70	人	honpen p.10				
+a82f5045e674d150	genjo	15	chart.stacked	年齢別療育手帳所持者の推移	R4/18歳以上	222	人	honpen p.10				
+854452285a2da159	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	H29/1級	13	人	honpen p.10				
+9bc9b8cfdbaec8b1	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	H29/2級	90	人	honpen p.10				
+006fafa0b3f72bd7	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	H29/3級	39	人	honpen p.10				
+2b920446bf0ca32d	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	H30/1級	13	人	honpen p.10				
+d1dd0de930d90749	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	H30/2級	89	人	honpen p.10				
+8405337d796d2755	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	H30/3級	38	人	honpen p.10				
+3c3fb81f5c05e38d	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R1/1級	15	人	honpen p.10				
+654cd39d67844689	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R1/2級	89	人	honpen p.10				
+e783d761ade1eda4	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R1/3級	32	人	honpen p.10				
+525de699009e5879	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R2/1級	13	人	honpen p.10				
+2bcb7269cd861c6d	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R2/2級	99	人	honpen p.10				
+514e93c639681be0	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R2/3級	34	人	honpen p.10				
+03aed6ea68f8063f	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R3/1級	13	人	honpen p.10				
+916d1299e94924d3	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R3/2級	106	人	honpen p.10				
+d2e1a97b6427932f	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R3/3級	44	人	honpen p.10				
+ed150a3e83efa738	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R4/1級	14	人	honpen p.10				
+396a2234efb33b3f	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R4/2級	98	人	honpen p.10				
+5ada88ec7b7090ee	genjo	18	chart.stacked	等級別精神障害者保健福祉手帳所持者の推移	R4/3級	50	人	honpen p.10				
+e7ee23624e05b67c	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	H29/20歳未満	6	人	honpen p.11				
+cc5113f7a0aae4f0	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	H29/20歳以上	136	人	honpen p.11				
+0a14e240129ba22b	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	H30/20歳未満	4	人	honpen p.11				
+da934d0ee474944c	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	H30/20歳以上	136	人	honpen p.11				
+f3bb8b11097b86e7	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R1/20歳未満	3	人	honpen p.11				
+f66baef1c41fc176	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R1/20歳以上	133	人	honpen p.11				
+b4bf70853ea08707	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R2/20歳未満	5	人	honpen p.11				
+f4af6240b5ce2a4e	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R2/20歳以上	141	人	honpen p.11				
+84cee3efb31244e2	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R3/20歳未満	4	人	honpen p.11				
+f3b8eb29c65828d2	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R3/20歳以上	159	人	honpen p.11				
+31832c1b6be9bc74	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R4/20歳未満	5	人	honpen p.11				
+6cc569d7270d710d	genjo	19	chart.stacked	年齢別精神障害者保健福祉手帳所持者の推移	R4/20歳以上	157	人	honpen p.11				
+992e36717400c37e	genjo	20	table	障害者自立支援医療(精神通院医療)受給者の推移	受給者数/H29年度	256		honpen p.11				
+916e182fa8148d0f	genjo	20	table	障害者自立支援医療(精神通院医療)受給者の推移	受給者数/H30年度	276		honpen p.11				
+5881e5415c6cfdc1	genjo	20	table	障害者自立支援医療(精神通院医療)受給者の推移	受給者数/R1年度	291		honpen p.11	✓	auto:pdftext	2026-10-10	
+719be01ef6dc6adc	genjo	20	table	障害者自立支援医療(精神通院医療)受給者の推移	受給者数/R2年度	321		honpen p.11	✓	auto:pdftext	2026-10-10	
+3488f9052bf2def1	genjo	20	table	障害者自立支援医療(精神通院医療)受給者の推移	受給者数/R3年度	325		honpen p.11				
+6976d507fbbcffba	genjo	20	table	障害者自立支援医療(精神通院医療)受給者の推移	受給者数/R4年度	345		honpen p.11				
+5dabc3e2df4eddb0	genjo	23	table	難病患者等の医療受給者の推移	特定疾患医療受給者/H29年度	141		honpen p.11				
+220450954cedab18	genjo	23	table	難病患者等の医療受給者の推移	特定疾患医療受給者/H30年度	138		honpen p.11				
+6ab85e286e96f2ce	genjo	23	table	難病患者等の医療受給者の推移	特定疾患医療受給者/R1年度	153		honpen p.11	✓	auto:pdftext	2026-10-10	
+e76998679fc79f2c	genjo	23	table	難病患者等の医療受給者の推移	特定疾患医療受給者/R2年度	184		honpen p.11	✓	auto:pdftext	2026-10-10	
+7115ece67ab2bbc6	genjo	23	table	難病患者等の医療受給者の推移	特定疾患医療受給者/R3年度	178		honpen p.11				
+be2c3c880443120c	genjo	23	table	難病患者等の医療受給者の推移	特定疾患医療受給者/R4年度	179		honpen p.11				
+26aa9f574a014e6b	genjo	23	table	難病患者等の医療受給者の推移	小児慢性特定疾患医療受給者/H29年度	27		honpen p.11				
+005c647f8726377a	genjo	23	table	難病患者等の医療受給者の推移	小児慢性特定疾患医療受給者/H30年度	28		honpen p.11				
+153fd758ad7a336a	genjo	23	table	難病患者等の医療受給者の推移	小児慢性特定疾患医療受給者/R1年度	27		honpen p.11	✓	auto:pdftext	2026-10-10	
+eddf0c5d3be0b04e	genjo	23	table	難病患者等の医療受給者の推移	小児慢性特定疾患医療受給者/R2年度	29		honpen p.11	✓	auto:pdftext	2026-10-10	
+43c1f0e22f69f92a	genjo	23	table	難病患者等の医療受給者の推移	小児慢性特定疾患医療受給者/R3年度	25		honpen p.11				
+3188b7929cecff80	genjo	23	table	難病患者等の医療受給者の推移	小児慢性特定疾患医療受給者/R4年度	29		honpen p.11				
+abc4f65767c5de12	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	総人口(人)/H30	21697		honpen p.5				
+c212e8467ed2f509	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	総人口(人)/H31	21479		honpen p.5				
+758841144c08b061	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	総人口(人)/R2	21493		honpen p.5				
+70bd645a94bd2d53	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	総人口(人)/R3	21303		honpen p.5				
+83dec3d79dd28b16	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	総人口(人)/R4	21160		honpen p.5				
+4d7eefbfff4ee560	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	総人口(人)/R5	20987		honpen p.5				
+69935bf108f07a9f	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	世帯数(世帯)/H30	8080		honpen p.5				
+3032f549c1298ab4	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	世帯数(世帯)/H31	8139		honpen p.5				
+ed43972d12de9c89	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	世帯数(世帯)/R2	8349		honpen p.5				
+71746a390adf4b5b	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	世帯数(世帯)/R3	8437		honpen p.5				
+a73bcfcd7e9a43ae	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	世帯数(世帯)/R4	8475		honpen p.5				
+a158230639fcf54b	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	世帯数(世帯)/R5	8613		honpen p.5				
+a96499122e743ee0	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	1世帯あたり人員(人/世帯)/H30	2.69		honpen p.5	✓	auto:pdftext	2026-10-10	
+0ce60551b75161af	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	1世帯あたり人員(人/世帯)/H31	2.64		honpen p.5				
+b70761ae2f60d44e	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	1世帯あたり人員(人/世帯)/R2	2.57		honpen p.5				
+494013f4bf71f9cf	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	1世帯あたり人員(人/世帯)/R3	2.52		honpen p.5				
+12c7d20a48b96b5d	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	1世帯あたり人員(人/世帯)/R4	2.50		honpen p.5				
+f1595ef7f0eecc9e	genjo	26	table	総人口と世帯数、1世帯あたり人員の推移	1世帯あたり人員(人/世帯)/R5	2.44		honpen p.5				
+0584125453326cad	genjo	27	chart.stacked	年齢3区分別人口の推移	H30/0～14歳(年少人口)	2752	人	honpen p.6				
+04b6bd547d2b8f2c	genjo	27	chart.stacked	年齢3区分別人口の推移	H30/15～64歳(生産年齢人口)	12623	人	honpen p.6				
+57d86d5fbc3bcd2c	genjo	27	chart.stacked	年齢3区分別人口の推移	H30/65歳以上(老年人口)	6322	人	honpen p.6				
+bf0194dac4fd0c81	genjo	27	chart.stacked	年齢3区分別人口の推移	H31/0～14歳(年少人口)	2707	人	honpen p.6				
+f294aace2b8bb9ac	genjo	27	chart.stacked	年齢3区分別人口の推移	H31/15～64歳(生産年齢人口)	12423	人	honpen p.6				
+fb46441dac2e3d81	genjo	27	chart.stacked	年齢3区分別人口の推移	H31/65歳以上(老年人口)	6349	人	honpen p.6				
+18d36f31a614b8b1	genjo	27	chart.stacked	年齢3区分別人口の推移	R2/0～14歳(年少人口)	2700	人	honpen p.6				
+39a83b07872868a6	genjo	27	chart.stacked	年齢3区分別人口の推移	R2/15～64歳(生産年齢人口)	12384	人	honpen p.6				
+c98ebadce9471313	genjo	27	chart.stacked	年齢3区分別人口の推移	R2/65歳以上(老年人口)	6409	人	honpen p.6				
+0622d5aa28b439c8	genjo	27	chart.stacked	年齢3区分別人口の推移	R3/0～14歳(年少人口)	2641	人	honpen p.6				
+a2da956982ae2c47	genjo	27	chart.stacked	年齢3区分別人口の推移	R3/15～64歳(生産年齢人口)	12191	人	honpen p.6				
+fc34f00464d8fbde	genjo	27	chart.stacked	年齢3区分別人口の推移	R3/65歳以上(老年人口)	6471	人	honpen p.6				
+7e2574e5cec60550	genjo	27	chart.stacked	年齢3区分別人口の推移	R4/0～14歳(年少人口)	2590	人	honpen p.6				
+f55cb3459f5b34e0	genjo	27	chart.stacked	年齢3区分別人口の推移	R4/15～64歳(生産年齢人口)	12052	人	honpen p.6				
+73d72546f0301428	genjo	27	chart.stacked	年齢3区分別人口の推移	R4/65歳以上(老年人口)	6518	人	honpen p.6				
+aa0cdab2f4839e62	genjo	27	chart.stacked	年齢3区分別人口の推移	R5/0～14歳(年少人口)	2533	人	honpen p.6				
+2ba3107579fa824d	genjo	27	chart.stacked	年齢3区分別人口の推移	R5/15～64歳(生産年齢人口)	11942	人	honpen p.6				
+b744b34dcb036a20	genjo	27	chart.stacked	年齢3区分別人口の推移	R5/65歳以上(老年人口)	6512	人	honpen p.6				
+00f44034ac2052bc	genjo	28	table	年齢3区分別人口構成比の推移	0～14歳(年少人口)/H30	12.7		honpen p.6				
+7c40887bb1df7e3a	genjo	28	table	年齢3区分別人口構成比の推移	0～14歳(年少人口)/H31	12.6		honpen p.6				
+9cd204e65e527f37	genjo	28	table	年齢3区分別人口構成比の推移	0～14歳(年少人口)/R2	12.6		honpen p.6				
+0d39cb2569f27a61	genjo	28	table	年齢3区分別人口構成比の推移	0～14歳(年少人口)/R3	12.4		honpen p.6				
+fa0e441a3694eb52	genjo	28	table	年齢3区分別人口構成比の推移	0～14歳(年少人口)/R4	12.2		honpen p.6				
+ab325c475bc515b9	genjo	28	table	年齢3区分別人口構成比の推移	0～14歳(年少人口)/R5	12.1		honpen p.6				
+4a85766a7f0730b1	genjo	28	table	年齢3区分別人口構成比の推移	15～64歳(生産年齢人口)/H30	58.2		honpen p.6				
+d6fc8ebf968343c4	genjo	28	table	年齢3区分別人口構成比の推移	15～64歳(生産年齢人口)/H31	57.8		honpen p.6				
+6b950294b6336cc6	genjo	28	table	年齢3区分別人口構成比の推移	15～64歳(生産年齢人口)/R2	57.6		honpen p.6				
+eb075835779c2c8f	genjo	28	table	年齢3区分別人口構成比の推移	15～64歳(生産年齢人口)/R3	57.2		honpen p.6				
+0815c3321467add6	genjo	28	table	年齢3区分別人口構成比の推移	15～64歳(生産年齢人口)/R4	57.0		honpen p.6				
+1e6c2d7a40bda828	genjo	28	table	年齢3区分別人口構成比の推移	15～64歳(生産年齢人口)/R5	56.9		honpen p.6				
+e71bb3dba157d923	genjo	28	table	年齢3区分別人口構成比の推移	65歳以上(老年人口)/H30	29.1		honpen p.6				
+74fe51257ff580dc	genjo	28	table	年齢3区分別人口構成比の推移	65歳以上(老年人口)/H31	29.6		honpen p.6				
+0a995be7b7aa5275	genjo	28	table	年齢3区分別人口構成比の推移	65歳以上(老年人口)/R2	29.8		honpen p.6				
+46aa532fa262be1a	genjo	28	table	年齢3区分別人口構成比の推移	65歳以上(老年人口)/R3	30.4		honpen p.6				
+22edba82785e8a47	genjo	28	table	年齢3区分別人口構成比の推移	65歳以上(老年人口)/R4	30.8		honpen p.6				
+2327c352e7b76af1	genjo	28	table	年齢3区分別人口構成比の推移	65歳以上(老年人口)/R5	31.0		honpen p.6				
+ed1b5b7e9b4c53da	chosa	2	table	回収結果	身体障害者手帳所持者対象調査/配布数	766		honpen p.12	✓	auto:pdftext	2026-10-10	
+26d4be952f8db662	chosa	2	table	回収結果	身体障害者手帳所持者対象調査/回収数	486		honpen p.12	✓	auto:pdftext	2026-10-10	
+0d86d52f1ed1056d	chosa	2	table	回収結果	身体障害者手帳所持者対象調査/回収率(%)	63.4		honpen p.12	✓	auto:pdftext	2026-10-10	
+b05d85379de794e4	chosa	2	table	回収結果	療育手帳所持者対象調査/配布数	231		honpen p.12	✓	auto:pdftext	2026-10-10	
+fc5bfc8f90ae4802	chosa	2	table	回収結果	療育手帳所持者対象調査/回収数	85		honpen p.12	✓	auto:pdftext	2026-10-10	
+57e4fde57967a110	chosa	2	table	回収結果	療育手帳所持者対象調査/回収率(%)	36.8		honpen p.12	✓	auto:pdftext	2026-10-10	
+2a4b92d95bb807aa	chosa	2	table	回収結果	精神障害者保健福祉手帳所持者対象調査/配布数	187		honpen p.12	✓	auto:pdftext	2026-10-10	
+e745e7629bacacea	chosa	2	table	回収結果	精神障害者保健福祉手帳所持者対象調査/回収数	91		honpen p.12	✓	auto:pdftext	2026-10-10	
+c10dca083b2d636c	chosa	2	table	回収結果	精神障害者保健福祉手帳所持者対象調査/回収率(%)	48.7		honpen p.12	✓	auto:pdftext	2026-10-10	
+575d7b51ac4bec3a	chosa	5	table	回答者の年齢	18歳未満/身体障がい者	1.2		honpen p.12-13				
+6fc06fa8443aa88e	chosa	5	table	回答者の年齢	18歳未満/知的障がい者	27.1		honpen p.12-13				
+1d37c4b5facc9224	chosa	5	table	回答者の年齢	18歳未満/精神障がい者	1.1		honpen p.12-13				
+d74958d8843d4c2a	chosa	5	table	回答者の年齢	18～39歳/身体障がい者	3.1		honpen p.12-13				
+5a39c19af0c1ecc4	chosa	5	table	回答者の年齢	18～39歳/知的障がい者	41.2		honpen p.12-13				
+08e0ac5f403ff2db	chosa	5	table	回答者の年齢	18～39歳/精神障がい者	27.5		honpen p.12-13				
+5bf9bc6234fe326e	chosa	5	table	回答者の年齢	40～64歳/身体障がい者	13.0		honpen p.12-13				
+621bed9f7e9d79db	chosa	5	table	回答者の年齢	40～64歳/知的障がい者	23.5		honpen p.12-13				
+cfc8bef36987398c	chosa	5	table	回答者の年齢	40～64歳/精神障がい者	54.9		honpen p.12-13				
+2020db359b492d03	chosa	5	table	回答者の年齢	65歳以上/身体障がい者	80.2		honpen p.12-13				
+a10c09ece8d9fd7a	chosa	5	table	回答者の年齢	65歳以上/知的障がい者	4.7		honpen p.12-13				
+521ac49287d58d72	chosa	5	table	回答者の年齢	65歳以上/精神障がい者	16.5		honpen p.12-13				
+8ad0e4ccc5c86a73	chosa	5	table	回答者の年齢	無回答/身体障がい者	2.5		honpen p.12-13				
+d542df4a335c38b0	chosa	5	table	回答者の年齢	無回答/知的障がい者	3.5		honpen p.12-13				
+7c96a6bd999874c6	chosa	5	table	回答者の年齢	無回答/精神障がい者	0.0		honpen p.12-13				
+df914ac570f4327b	chosa	8	table	生活しているところ(単数回答)	自宅で生活している/身体障がい者	85.0		honpen p.13				
+b7c6b8a2c25996ac	chosa	8	table	生活しているところ(単数回答)	自宅で生活している/知的障がい者	81.2		honpen p.13				
+3aae73a6941919d9	chosa	8	table	生活しているところ(単数回答)	自宅で生活している/精神障がい者	85.7		honpen p.13				
+1bc7c05c470094f6	chosa	8	table	生活しているところ(単数回答)	福祉施設に入所している/身体障がい者	5.1		honpen p.13				
+c633b625e520a2ac	chosa	8	table	生活しているところ(単数回答)	福祉施設に入所している/知的障がい者	2.4		honpen p.13				
+aedada6c7e9cdcce	chosa	8	table	生活しているところ(単数回答)	福祉施設に入所している/精神障がい者	5.5		honpen p.13				
+e4b67d1ce1b74c13	chosa	8	table	生活しているところ(単数回答)	グループホームに入居している/身体障がい者	0.6		honpen p.13				
+6ad16a6fb2d08a85	chosa	8	table	生活しているところ(単数回答)	グループホームに入居している/知的障がい者	3.5		honpen p.13				
+d848aa791331447d	chosa	8	table	生活しているところ(単数回答)	グループホームに入居している/精神障がい者	2.2		honpen p.13				
+d60fccba80e2633a	chosa	8	table	生活しているところ(単数回答)	病院に入院している/身体障がい者	3.5		honpen p.13				
+afa44ac01880d598	chosa	8	table	生活しているところ(単数回答)	病院に入院している/知的障がい者	2.4		honpen p.13				
+6a20757dd83c0efb	chosa	8	table	生活しているところ(単数回答)	病院に入院している/精神障がい者	2.2		honpen p.13				
+0cea14ad799c0d33	chosa	8	table	生活しているところ(単数回答)	その他/身体障がい者	1.4		honpen p.13				
+55c3d65fa9c36b31	chosa	8	table	生活しているところ(単数回答)	その他/知的障がい者	2.4		honpen p.13				
+1612802eab24818c	chosa	8	table	生活しているところ(単数回答)	その他/精神障がい者	1.1		honpen p.13				
+1062f7ab784ff93b	chosa	8	table	生活しているところ(単数回答)	無回答/身体障がい者	4.3		honpen p.13				
+85c4292e701936e5	chosa	8	table	生活しているところ(単数回答)	無回答/知的障がい者	8.2		honpen p.13				
+d729e66d5db3a270	chosa	8	table	生活しているところ(単数回答)	無回答/精神障がい者	3.3		honpen p.13				
+2db37c659de7fa02	chosa	8	table	生活しているところ(単数回答)	(自宅で生活のうち「ひとり暮らし」の割合)/身体障がい者	14.8		honpen p.13				
+622e4188c48fdf24	chosa	8	table	生活しているところ(単数回答)	(自宅で生活のうち「ひとり暮らし」の割合)/知的障がい者	4.3		honpen p.13				
+ecc29b85183c5bb0	chosa	8	table	生活しているところ(単数回答)	(自宅で生活のうち「ひとり暮らし」の割合)/精神障がい者	9.0		honpen p.13				
+8bcdb6fd60dd5c99	chosa	11	table	医療に関する困りごと(複数回答)	身体 1位/割合(%)	45.9		honpen p.14				
+6380273a2f1e35d5	chosa	11	table	医療に関する困りごと(複数回答)	身体 2位/割合(%)	15.2		honpen p.14				
+1b3f681d8f9cef6c	chosa	11	table	医療に関する困りごと(複数回答)	身体 3位/割合(%)	9.5		honpen p.14				
+7bf37504d00c0e0e	chosa	11	table	医療に関する困りごと(複数回答)	知的 1位/割合(%)	49.4		honpen p.14				
+7f7e3e699e0dcf9a	chosa	11	table	医療に関する困りごと(複数回答)	知的 2位/割合(%)	17.6		honpen p.14				
+232ca68858abe664	chosa	11	table	医療に関する困りごと(複数回答)	知的 3位/割合(%)	10.6		honpen p.14				
+f6fe0cc9ccee2ffd	chosa	11	table	医療に関する困りごと(複数回答)	精神 1位/割合(%)	27.5		honpen p.14				
+2b65f18d3761c09e	chosa	11	table	医療に関する困りごと(複数回答)	精神 2位/割合(%)	23.1		honpen p.14				
+c2f75dd559872832	chosa	11	table	医療に関する困りごと(複数回答)	精神 3位/割合(%)	22.0		honpen p.14				
+bd1009a44641b36c	chosa	14	table	主な介助者の健康状態(単数回答)	良好/身体障がい者	11.1		honpen p.14				
+3ed382001f0496f3	chosa	14	table	主な介助者の健康状態(単数回答)	良好/知的障がい者	27.5		honpen p.14				
+5321807a59b5980b	chosa	14	table	主な介助者の健康状態(単数回答)	良好/精神障がい者	18.9		honpen p.14				
+40322809e990d0c8	chosa	14	table	主な介助者の健康状態(単数回答)	普通/身体障がい者	66.7		honpen p.14				
+3ebb81a2ee66001d	chosa	14	table	主な介助者の健康状態(単数回答)	普通/知的障がい者	42.5		honpen p.14				
+da43236563c765e6	chosa	14	table	主な介助者の健康状態(単数回答)	普通/精神障がい者	45.9		honpen p.14				
+a2c53ae8b1188532	chosa	14	table	主な介助者の健康状態(単数回答)	病気がち/身体障がい者	9.4		honpen p.14				
+c2a6b0d94b1238d8	chosa	14	table	主な介助者の健康状態(単数回答)	病気がち/知的障がい者	7.5		honpen p.14				
+123c1db58f30fc34	chosa	14	table	主な介助者の健康状態(単数回答)	病気がち/精神障がい者	16.2		honpen p.14				
+72f95c362477a66d	chosa	14	table	主な介助者の健康状態(単数回答)	病気・療養中/身体障がい者	7.0		honpen p.14				
+d27c3fe1fa4e7ad2	chosa	14	table	主な介助者の健康状態(単数回答)	病気・療養中/知的障がい者	17.5		honpen p.14				
+268f659ce1e613f1	chosa	14	table	主な介助者の健康状態(単数回答)	病気・療養中/精神障がい者	16.2		honpen p.14				
+85bd0576fe11e797	chosa	14	table	主な介助者の健康状態(単数回答)	無回答/身体障がい者	5.8		honpen p.14				
+4dd6eb8753603c50	chosa	14	table	主な介助者の健康状態(単数回答)	無回答/知的障がい者	5.0		honpen p.14				
+25dda2d995bde9b9	chosa	14	table	主な介助者の健康状態(単数回答)	無回答/精神障がい者	2.7		honpen p.14				
+00c856018681790a	chosa	17	table	仕事での悩み・困りごと(複数回答)	身体 1位/割合(%)	59.7		honpen p.15				
+4ecfaf88919bb77c	chosa	17	table	仕事での悩み・困りごと(複数回答)	身体 2位/割合(%)	29.9		honpen p.15				
+eb292c2567f8a196	chosa	17	table	仕事での悩み・困りごと(複数回答)	身体 3位/割合(%)	9.0		honpen p.15				
+9b809971d35e4053	chosa	17	table	仕事での悩み・困りごと(複数回答)	知的 1位/割合(%)	36.8		honpen p.15				
+67d243a9fd98d737	chosa	17	table	仕事での悩み・困りごと(複数回答)	知的 2位/割合(%)	26.3		honpen p.15				
+b404c6dd4ffbbd88	chosa	17	table	仕事での悩み・困りごと(複数回答)	知的 3位/割合(%)	21.1		honpen p.15				
+532be8861101b578	chosa	17	table	仕事での悩み・困りごと(複数回答)	精神 1位/割合(%)	38.1		honpen p.15				
+ef7b6bd8d9948100	chosa	17	table	仕事での悩み・困りごと(複数回答)	精神 2位/割合(%)	33.3		honpen p.15				
+d8f6202f591af42f	chosa	17	table	仕事での悩み・困りごと(複数回答)	精神 3位/割合(%)	23.8		honpen p.15				
+c3bef8dcb2900f18	chosa	18	table	作業所での悩み・困りごと(複数回答)	身体 1位/割合(%)	50.0		honpen p.15				
+fd6db7133e266137	chosa	18	table	作業所での悩み・困りごと(複数回答)	身体 2位/割合(%)	30.0		honpen p.15				
+cb60b65d8f662f63	chosa	18	table	作業所での悩み・困りごと(複数回答)	身体 3位/割合(%)	20.0		honpen p.15				
+45d1f5109f6acf53	chosa	18	table	作業所での悩み・困りごと(複数回答)	知的 1位/割合(%)	52.0		honpen p.15				
+0e772f32f0c982a4	chosa	18	table	作業所での悩み・困りごと(複数回答)	知的 2位/割合(%)	28.0		honpen p.15				
+5dc42cffa70342ad	chosa	18	table	作業所での悩み・困りごと(複数回答)	知的 3位/割合(%)	20.0		honpen p.15				
+77212bf71a740605	chosa	18	table	作業所での悩み・困りごと(複数回答)	精神 1位/割合(%)	47.1		honpen p.15				
+c9c327c6d9b349c1	chosa	18	table	作業所での悩み・困りごと(複数回答)	精神 2位/割合(%)	23.5		honpen p.15				
+0d2d552ed30b8579	chosa	18	table	作業所での悩み・困りごと(複数回答)	精神 3位/割合(%)	17.6		honpen p.15				
+25b18d4e926d0597	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	ひとりで暮らしたい/身体障がい者	8.4		honpen p.16				
+0004f05c170e5ab0	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	ひとりで暮らしたい/知的障がい者	14.1		honpen p.16				
+6742c36942cb33e1	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	ひとりで暮らしたい/精神障がい者	15.4		honpen p.16				
+d00d79e19d9d87a2	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	自宅で家族や親族と暮らしたい/身体障がい者	56.6		honpen p.16				
+fca243c83344c3a2	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	自宅で家族や親族と暮らしたい/知的障がい者	41.2		honpen p.16				
+00d50e1c6df286e7	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	自宅で家族や親族と暮らしたい/精神障がい者	40.7		honpen p.16				
+14e7ca90a9a46f48	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	気のあう友人や知人と暮らしたい/身体障がい者	0.4		honpen p.16				
+bddc6e9d3fa73c4d	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	気のあう友人や知人と暮らしたい/知的障がい者	1.2		honpen p.16				
+8d97a4f070354cb2	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	気のあう友人や知人と暮らしたい/精神障がい者	2.2		honpen p.16				
+791e60cb0c28323e	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	グループホームで暮らしたい/身体障がい者	2.3		honpen p.16				
+28fddb8fd70e5b18	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	グループホームで暮らしたい/知的障がい者	12.9		honpen p.16				
+43904d5b6c2a7abc	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	グループホームで暮らしたい/精神障がい者	5.5		honpen p.16				
+d9e1019f2f473801	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	福祉施設で暮らしたい(または病院で療養したい)/身体障がい者	5.1		honpen p.16				
+29ea7fde679090ae	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	福祉施設で暮らしたい(または病院で療養したい)/知的障がい者	2.4		honpen p.16				
+36758cd11c211c45	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	福祉施設で暮らしたい(または病院で療養したい)/精神障がい者	3.3		honpen p.16				
+034528692482ebe0	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	その他/身体障がい者	2.5		honpen p.16				
+934cb8b9afd2c39a	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	その他/知的障がい者	2.4		honpen p.16				
+6e67935f146d86c3	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	その他/精神障がい者	2.2		honpen p.16				
+b90461b292ffbd5a	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	わからない/身体障がい者	14.6		honpen p.16				
+0414fde8ecfe33f7	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	わからない/知的障がい者	18.8		honpen p.16				
+ac1e909aecebcdda	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	わからない/精神障がい者	18.7		honpen p.16				
+ced1333e27c042a6	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	無回答/身体障がい者	10.1		honpen p.16				
+16ed1810f6b3ca36	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	無回答/知的障がい者	7.1		honpen p.16				
+1a24ab08fbc6ffa1	chosa	21	table	これからの生活をどのように送りたいか(単数回答)	無回答/精神障がい者	12.1		honpen p.16				
+98216e73c3b5a8a5	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	身体 情報入手先/割合(%)	31.1		honpen p.16				
+d9b804aee0ac53f1	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	身体 情報入手先/その割合(%)	6.2		honpen p.16				
+835e3dfdb3299b08	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	身体 相談先/割合(%)	73.5		honpen p.16				
+9edfd72e6e97a653	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	身体 相談先/その割合(%)	3.3		honpen p.16				
+dbc39f7e0ef762f8	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	知的 情報入手先/割合(%)	40.0		honpen p.16				
+2fa2aae41add33cc	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	知的 情報入手先/その割合(%)	11.8		honpen p.16				
+07efda18b8dabb06	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	知的 相談先/割合(%)	68.2		honpen p.16				
+92be3f673af782e0	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	知的 相談先/その割合(%)	4.7		honpen p.16				
+46c9cc55a93e833c	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	精神 情報入手先/割合(%)	41.8		honpen p.16				
+804e22b5180e365a	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	精神 情報入手先/その割合(%)	9.9		honpen p.16				
+70977df81c400e11	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	精神 相談先/割合(%)	50.5		honpen p.16				
+4cc43c4d7b5efa18	chosa	24	table	困ったときの相談先、福祉情報の入手先(複数回答)	精神 相談先/その割合(%)	6.6		honpen p.16				
+a9a2609292e21659	chosa	27	table	将来のことで、不安に感じていること(複数回答)	身体 1位/割合(%)	32.1		honpen p.17				
+8c65a034a8505bef	chosa	27	table	将来のことで、不安に感じていること(複数回答)	身体 2位/割合(%)	21.6		honpen p.17				
+029871b318824822	chosa	27	table	将来のことで、不安に感じていること(複数回答)	身体 3位/割合(%)	17.5		honpen p.17				
+575205c995dc87bd	chosa	27	table	将来のことで、不安に感じていること(複数回答)	知的 1位/割合(%)	58.8		honpen p.17				
+081a607d8157171e	chosa	27	table	将来のことで、不安に感じていること(複数回答)	知的 2位/割合(%)	30.6		honpen p.17				
+26f7e2b7cd4e40fa	chosa	27	table	将来のことで、不安に感じていること(複数回答)	知的 3位/割合(%)	21.2		honpen p.17				
+728d7f8f3c86ff07	chosa	27	table	将来のことで、不安に感じていること(複数回答)	精神 1位/割合(%)	51.6		honpen p.17				
+ca6559ec86a4d91d	chosa	27	table	将来のことで、不安に感じていること(複数回答)	精神 2位/割合(%)	34.1		honpen p.17				
+9613ab2b9ca9c6bf	chosa	27	table	将来のことで、不安に感じていること(複数回答)	精神 3位/割合(%)	27.5		honpen p.17				
+784b655ef3f56ca2	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	身体 1位/割合(%)	33.1		honpen p.17				
+40162befce180dc6	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	身体 2位/割合(%)	13.8		honpen p.17				
+243cff71de85198a	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	身体 3位/割合(%)	9.7		honpen p.17				
+0ec08aca0fa264dc	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	知的 1位/割合(%)	38.8		honpen p.17				
+00481454599c61a3	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	知的 2位/割合(%)	14.1		honpen p.17				
+0c48e22cdff5698c	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	知的 3位/割合(%)	12.9		honpen p.17				
+cef0d3c0be695ac6	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	精神 1位/割合(%)	37.4		honpen p.17				
+ec3ae63588a67ce2	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	精神 2位/割合(%)	30.8		honpen p.17				
+0be27f793bf45589	chosa	29	table	外出する際に、困ったり不便に感じること(複数回答)	精神 3位/割合(%)	28.6		honpen p.17				
+12f6e749fc27a3ec	chosa	32	table	成年後見制度を知っているか(単数回答)	名前も内容も知っている/身体障がい者	18.9		honpen p.18				
+78939c636f0bce00	chosa	32	table	成年後見制度を知っているか(単数回答)	名前も内容も知っている/知的障がい者	10.6		honpen p.18	✓	auto:pdftext	2026-10-10	
+64b96751734486d0	chosa	32	table	成年後見制度を知っているか(単数回答)	名前も内容も知っている/精神障がい者	9.9		honpen p.18	✓	auto:pdftext	2026-10-10	
+0667558e6000bc8b	chosa	32	table	成年後見制度を知っているか(単数回答)	名前は聞いたことはあるが、内容は知らない/身体障がい者	30.9		honpen p.18				
+2c2a81993934c172	chosa	32	table	成年後見制度を知っているか(単数回答)	名前は聞いたことはあるが、内容は知らない/知的障がい者	23.5		honpen p.18				
+41101d7752540962	chosa	32	table	成年後見制度を知っているか(単数回答)	名前は聞いたことはあるが、内容は知らない/精神障がい者	41.8		honpen p.18	✓	auto:pdftext	2026-10-10	
+3ac92452f3794035	chosa	32	table	成年後見制度を知っているか(単数回答)	名前も内容も知らない/身体障がい者	27.8		honpen p.18				
+72781161a47b39b8	chosa	32	table	成年後見制度を知っているか(単数回答)	名前も内容も知らない/知的障がい者	50.6		honpen p.18	✓	auto:pdftext	2026-10-10	
+999f6476f1f7c0e4	chosa	32	table	成年後見制度を知っているか(単数回答)	名前も内容も知らない/精神障がい者	41.8		honpen p.18	✓	auto:pdftext	2026-10-10	
+8ca1ddb0422fd144	chosa	35	table	住民理解についてどのように感じているか(単数回答)	かなり理解がある/身体障がい者	7.2		honpen p.18				
+e9e3ccdb9df8a031	chosa	35	table	住民理解についてどのように感じているか(単数回答)	かなり理解がある/知的障がい者	2.4		honpen p.18				
+61aefa42f191b11a	chosa	35	table	住民理解についてどのように感じているか(単数回答)	かなり理解がある/精神障がい者	3.3		honpen p.18				
+2c500ea136fa8e94	chosa	35	table	住民理解についてどのように感じているか(単数回答)	まあまあ理解がある/身体障がい者	33.5		honpen p.18				
+01894f911698ac48	chosa	35	table	住民理解についてどのように感じているか(単数回答)	まあまあ理解がある/知的障がい者	25.9		honpen p.18				
+99bb81bb992e098d	chosa	35	table	住民理解についてどのように感じているか(単数回答)	まあまあ理解がある/精神障がい者	16.5		honpen p.18				
+3dceb4fdc1c4c0b5	chosa	35	table	住民理解についてどのように感じているか(単数回答)	あまり理解がない/身体障がい者	10.1		honpen p.18				
+72fc189545bd3477	chosa	35	table	住民理解についてどのように感じているか(単数回答)	あまり理解がない/知的障がい者	16.5		honpen p.18				
+cc50de8bdade6771	chosa	35	table	住民理解についてどのように感じているか(単数回答)	あまり理解がない/精神障がい者	20.9		honpen p.18				
+0762c22c36efcb44	chosa	35	table	住民理解についてどのように感じているか(単数回答)	まったく理解がない/身体障がい者	2.3		honpen p.18				
+5dc5eab1daaa9cc9	chosa	35	table	住民理解についてどのように感じているか(単数回答)	まったく理解がない/知的障がい者	5.9		honpen p.18				
+104cee4339917a5d	chosa	35	table	住民理解についてどのように感じているか(単数回答)	まったく理解がない/精神障がい者	15.4		honpen p.18				
+3c4c710949ab62b4	chosa	35	table	住民理解についてどのように感じているか(単数回答)	どちらとも言えない/身体障がい者	24.3		honpen p.18				
+8413480ec3de892f	chosa	35	table	住民理解についてどのように感じているか(単数回答)	どちらとも言えない/知的障がい者	31.8		honpen p.18				
+0967c6634eaf50c2	chosa	35	table	住民理解についてどのように感じているか(単数回答)	どちらとも言えない/精神障がい者	37.4		honpen p.18				
+d38d519415bb689b	chosa	35	table	住民理解についてどのように感じているか(単数回答)	無回答/身体障がい者	22.6		honpen p.18				
+00a5f06c51b111cb	chosa	35	table	住民理解についてどのように感じているか(単数回答)	無回答/知的障がい者	17.6		honpen p.18				
+d1b121ea913f718e	chosa	35	table	住民理解についてどのように感じているか(単数回答)	無回答/精神障がい者	6.6		honpen p.18				
+68ef9f5e0ff1a5e2	chosa	35	table	住民理解についてどのように感じているか(単数回答)	(理解がある 計)/身体障がい者	40.7		honpen p.18				
+aa745f2f20ab0a0d	chosa	35	table	住民理解についてどのように感じているか(単数回答)	(理解がある 計)/知的障がい者	28.3		honpen p.18				
+048cf80a2f1ad051	chosa	35	table	住民理解についてどのように感じているか(単数回答)	(理解がある 計)/精神障がい者	19.8		honpen p.18				
+0814e1c12f61c64b	chosa	35	table	住民理解についてどのように感じているか(単数回答)	(理解がない 計)/身体障がい者	12.4		honpen p.18				
+6117757a2663f3d6	chosa	35	table	住民理解についてどのように感じているか(単数回答)	(理解がない 計)/知的障がい者	22.4		honpen p.18				
+188c3dc3729e1ca1	chosa	35	table	住民理解についてどのように感じているか(単数回答)	(理解がない 計)/精神障がい者	36.3		honpen p.18				
+7e691a4a5dbd47bf	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	在宅で医療やサービスが適切に受けられること/身体障がい者	46.3		honpen p.19				
+69f807c405c40b28	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	在宅で医療やサービスが適切に受けられること/知的障がい者	25.9		honpen p.19				
+83b284434353bdde	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	在宅で医療やサービスが適切に受けられること/精神障がい者	36.3		honpen p.19				
+ee6338603c184cb8	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	障がい者に適した住居が確保できること/身体障がい者	16.7		honpen p.19				
+b4645e006b55dbb7	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	障がい者に適した住居が確保できること/知的障がい者	27.1		honpen p.19				
+6f1c60ccc8e7797a	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	障がい者に適した住居が確保できること/精神障がい者	34.1		honpen p.19				
+851bbf0cb49c6c7a	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	生活訓練等の充実/身体障がい者	9.5		honpen p.19				
+6846656e975edb70	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	生活訓練等の充実/知的障がい者	16.5		honpen p.19				
+549b0e1a8f8d486b	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	生活訓練等の充実/精神障がい者	18.7		honpen p.19				
+b5612ee32f8e2f45	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	経済的な負担の軽減/身体障がい者	39.5		honpen p.19				
+ab461577c2a7c602	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	経済的な負担の軽減/知的障がい者	47.1		honpen p.19				
+3d4077cf3841103b	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	経済的な負担の軽減/精神障がい者	61.5		honpen p.19				
+046e1803974c1e5a	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	相談対応等の充実/身体障がい者	24.1		honpen p.19				
+5d9962b55ac84a72	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	相談対応等の充実/知的障がい者	50.6		honpen p.19				
+888dcb6879f41668	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	相談対応等の充実/精神障がい者	38.5		honpen p.19				
+e2ba53dcda730c50	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	地域住民等の理解促進/身体障がい者	21.2		honpen p.19				
+16a3fc4373c83708	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	地域住民等の理解促進/知的障がい者	38.8		honpen p.19				
+1d3e5809231c08b5	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	地域住民等の理解促進/精神障がい者	34.1		honpen p.19				
+419408b4a494c991	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	その他/身体障がい者	2.7		honpen p.19				
+971bb859740247f5	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	その他/知的障がい者	2.4		honpen p.19				
+13acdd745f72c9d1	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	その他/精神障がい者	3.3		honpen p.19				
+180e9f6a2f4a6076	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	無回答/身体障がい者	24.5		honpen p.19				
+262ea77f544cbf92	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	無回答/知的障がい者	24.7		honpen p.19				
+d5068e0dff454025	chosa	38	table	地域で安心して暮らすために必要なこと(複数回答)	無回答/精神障がい者	14.3		honpen p.19				
+ff55621b1f463ea6	chosa	41	table	災害時にひとりで避難できるか(単数回答)	ひとりで避難できる/身体障がい者	43.4		honpen p.19	✓	auto:pdftext	2026-10-10	
+f6c263ce44bbf568	chosa	41	table	災害時にひとりで避難できるか(単数回答)	ひとりで避難できる/知的障がい者	31.8		honpen p.19	✓	auto:pdftext	2026-10-10	
+c80363ea58d8bee9	chosa	41	table	災害時にひとりで避難できるか(単数回答)	ひとりで避難できる/精神障がい者	54.9		honpen p.19	✓	auto:pdftext	2026-10-10	
+c17896838bfb8e6c	chosa	41	table	災害時にひとりで避難できるか(単数回答)	介助者がいれば避難できる/身体障がい者	35.0		honpen p.19				
+74eb67925f7cc213	chosa	41	table	災害時にひとりで避難できるか(単数回答)	介助者がいれば避難できる/知的障がい者	48.2		honpen p.19	✓	auto:pdftext	2026-10-10	
+2ce9388dfb05d4e5	chosa	41	table	災害時にひとりで避難できるか(単数回答)	介助者がいれば避難できる/精神障がい者	31.9		honpen p.19	✓	auto:pdftext	2026-10-10	
+29881dbd3a6601fb	chosa	41	table	災害時にひとりで避難できるか(単数回答)	介助者がいても避難することはむずかしい/身体障がい者	9.1		honpen p.19				
+4689a1c838e8aef7	chosa	41	table	災害時にひとりで避難できるか(単数回答)	介助者がいても避難することはむずかしい/知的障がい者	7.1		honpen p.19				
+a846d56bce407005	chosa	41	table	災害時にひとりで避難できるか(単数回答)	介助者がいても避難することはむずかしい/精神障がい者	2.2		honpen p.19	✓	auto:pdftext	2026-10-10	
+4eb47a9bb682f917	chosa	42	table	災害時に困ること(複数回答)	身体 1位/割合(%)	28.2		honpen p.20				
+1b53f72a1ef157f8	chosa	42	table	災害時に困ること(複数回答)	身体 2位/割合(%)	25.1		honpen p.20				
+ab14a5a6a94e2a60	chosa	42	table	災害時に困ること(複数回答)	身体 3位/割合(%)	22.2		honpen p.20				
+90e38d577bf5b2ef	chosa	42	table	災害時に困ること(複数回答)	知的 1位/割合(%)	38.8		honpen p.20				
+72970071d5970837	chosa	42	table	災害時に困ること(複数回答)	知的 2位/割合(%)	37.6		honpen p.20				
+3ac8ef971fffce03	chosa	42	table	災害時に困ること(複数回答)	知的 3位/割合(%)	32.9		honpen p.20				
+b506039949d2ab7a	chosa	42	table	災害時に困ること(複数回答)	精神 1位/割合(%)	45.1		honpen p.20				
+6cb69beafbfcc327	chosa	42	table	災害時に困ること(複数回答)	精神 2位/割合(%)	40.7		honpen p.20				
+4b69cbbaf9280168	chosa	42	table	災害時に困ること(複数回答)	精神 3位/割合(%)	37.4		honpen p.20				
+dd4d06383aceb207	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知っており、役場や民生委員さんに相談して作成した(またはする予定)/身体障がい者	7.6		honpen p.20				
+056617814fd121f6	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知っており、役場や民生委員さんに相談して作成した(またはする予定)/知的障がい者	1.2		honpen p.20				
+7b7badfbcabbe698	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知っており、役場や民生委員さんに相談して作成した(またはする予定)/精神障がい者	3.3		honpen p.20				
+5775e36880d99088	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知っているが必要ない/身体障がい者	8.0		honpen p.20				
+aad5eb77157e371b	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知っているが必要ない/知的障がい者	1.2		honpen p.20				
+69eb542dac2a2b64	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知っているが必要ない/精神障がい者	3.3		honpen p.20				
+b53ea839288d82fb	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知らなかったので作成してほしい/身体障がい者	23.0		honpen p.20				
+2fd9988be8fa0c63	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知らなかったので作成してほしい/知的障がい者	24.7		honpen p.20				
+b35d183459d54682	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知らなかったので作成してほしい/精神障がい者	27.5		honpen p.20				
+28e6a13a8edf2908	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知らなかったが必要ない/身体障がい者	17.3		honpen p.20				
+c43a4645293cf4ab	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知らなかったが必要ない/知的障がい者	12.9		honpen p.20				
+875a44b720b5acf3	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	知らなかったが必要ない/精神障がい者	18.7		honpen p.20				
+9e2d386b9bd32e82	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	わからない/身体障がい者	34.4		honpen p.20				
+7c72552512a44afa	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	わからない/知的障がい者	47.1		honpen p.20				
+65214df2c39083bd	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	わからない/精神障がい者	34.1		honpen p.20				
+cc5e81317b8bcc91	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	無回答/身体障がい者	9.7		honpen p.20				
+9145663e0d3da832	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	無回答/知的障がい者	12.9		honpen p.20				
+69f25e9051b41b87	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	無回答/精神障がい者	13.2		honpen p.20				
+c6a85929985a4499	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	(知っている割合)/身体障がい者	15.6		honpen p.20				
+52a3fb6c60bcdb9a	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	(知っている割合)/知的障がい者	2.4		honpen p.20				
+cf8ef7ae93dcba7c	chosa	44	table	避難行動要支援者避難プランを知っているか(単数回答)	(知っている割合)/精神障がい者	6.6		honpen p.20				
+c65959337add4b9b	kadai	4	table	移動・外出に関するアンケート結果	医療の困りごと「病院までの交通手段が確保しにくい」/身体障がい者	15.2		honpen p.21				
+11d6c5c9a4a5d1c2	kadai	4	table	移動・外出に関するアンケート結果	外出時の困りごと「気軽に利用できる移送手段が少ない」/身体障がい者	9.7		honpen p.21				
+059b395695f7de95	kadai	4	table	移動・外出に関するアンケート結果	外出時の困りごと「移動手段にお金がかかる」/知的障がい者	12.9		honpen p.21				
+257515682ddfff75	kadai	4	table	移動・外出に関するアンケート結果	作業所の困りごと「職場までの通勤が大変」/精神障がい者	23.5		honpen p.21				
+81864fee0f9fa906	kadai	7	bigstat	(2) 高齢化の進行に関する課題	高齢化率(65歳以上人口の占める割合)	31.0	%	honpen p.21				
+76d87a0e94a9ddf5	kadai	8	table	高齢化の進行に関するアンケート結果	回答者の年齢「65歳以上」/身体障がい者	80.2		honpen p.21				
+5bce50d8cacb527e	kadai	8	table	高齢化の進行に関するアンケート結果	将来不安なこと「高齢になったときのこと」/身体障がい者	32.1		honpen p.21				
+e00e05643a70f46f	kadai	8	table	高齢化の進行に関するアンケート結果	将来不安なこと「高齢になったときのこと」/精神障がい者	34.1		honpen p.21				
+a7d1110c8e0f7e1e	kadai	11	table	地域での暮らし・在宅生活に関するアンケート結果	「ひとりで暮らしたい」または「自宅で家族等と暮らしたい」割合/身体障がい者	65.0		honpen p.22				
+c79c75e8ec83b70b	kadai	11	table	地域での暮らし・在宅生活に関するアンケート結果	「ひとりで暮らしたい」または「自宅で家族等と暮らしたい」割合/知的障がい者	55.3		honpen p.22				
+df06d55654fc1bfc	kadai	11	table	地域での暮らし・在宅生活に関するアンケート結果	「ひとりで暮らしたい」または「自宅で家族等と暮らしたい」割合/精神障がい者	56.1		honpen p.22				
+5605f8ff3e351f77	kadai	11	table	地域での暮らし・在宅生活に関するアンケート結果	地域で安心して暮らしていくために必要なこと「在宅で医療やサービスを受けられること」/身体障がい者	46.3		honpen p.22				
+234fce504fb1eaf3	kadai	11	table	地域での暮らし・在宅生活に関するアンケート結果	地域で安心して暮らしていくために必要なこと「相談対応等の充実」/知的障がい者	50.6		honpen p.22				
+aca3cfdc71b5fab1	kadai	11	table	地域での暮らし・在宅生活に関するアンケート結果	地域で安心して暮らしていくために必要なこと「経済的な負担の軽減」/精神障がい者	61.5		honpen p.22				
+cbf10a40b4668cdf	kadai	14	table	情報提供・相談体制に関するアンケート結果	情報入手先がわからないという方の割合/身体障がい者	6.2		honpen p.22				
+fc62248fc089ed8a	kadai	14	table	情報提供・相談体制に関するアンケート結果	情報入手先がわからないという方の割合/知的障がい者	11.8		honpen p.22				
+debffb4634e99f62	kadai	14	table	情報提供・相談体制に関するアンケート結果	情報入手先がわからないという方の割合/精神障がい者	9.9		honpen p.22				
+e5bb18ef7c790abe	kadai	14	table	情報提供・相談体制に関するアンケート結果	相談先がないという方の割合/身体障がい者	3.3		honpen p.22				
+1978ddab6f950067	kadai	14	table	情報提供・相談体制に関するアンケート結果	相談先がないという方の割合/知的障がい者	4.7		honpen p.22				
+549d048bf1e76df2	kadai	14	table	情報提供・相談体制に関するアンケート結果	相談先がないという方の割合/精神障がい者	6.6		honpen p.22				
+671772e96b814a9d	kadai	17	table	就労に関するアンケート結果	仕事で困っていること「収入が少ない」/身体障がい者	29.9		honpen p.22				
+095427162232faf0	kadai	17	table	就労に関するアンケート結果	仕事で困っていること「職場でのコミュニケーションがうまくとれない」/知的障がい者	36.8		honpen p.22				
+3db8f1b4806c6945	kadai	17	table	就労に関するアンケート結果	仕事で困っていること「障害への理解が得にくく、人間関係が難しい」/知的障がい者	26.3		honpen p.22				
+7d5d959b02bc040d	kadai	17	table	就労に関するアンケート結果	仕事で困っていること「障害への理解が得にくく、人間関係が難しい」/精神障がい者	33.3		honpen p.22				
+41443ded82b5ce69	kadai	17	table	就労に関するアンケート結果	仕事で困っていること「疲れやすく、体力に自信がない」/精神障がい者	38.1		honpen p.22				
+a513cce150da3046	kadai	17	table	就労に関するアンケート結果	通園・通学先に望むこと「就学・就労後の支援を充実してほしい」/知的障がい者	34.8		honpen p.22				
+ecd4e62ed8eec664	shisaku	10	programs	基本目標１ 啓発・広報の推進	事業数	17	件	honpen p.25-29				
+3484b8e02f992228	shisaku	14	programs	基本目標２ 福祉の推進	事業数	25	件	honpen p.30-35				
+052d6ada96bb784d	shisaku	18	programs	基本目標３ 保健・医療の推進	事業数	19	件	honpen p.36-40				
+ae21282d2335a715	shisaku	22	programs	基本目標４ 発達支援・教育の推進	事業数	22	件	honpen p.41-46				
+a05b28dd20802ded	shisaku	26	programs	基本目標５ スポーツ・レクリエーション・文化活動の推進	事業数	12	件	honpen p.47-49				
+9cb68ec0c4beb285	shisaku	30	programs	基本目標６ 雇用促進と就労支援	事業数	8	件	honpen p.50-52				
+5f083ae9339c3717	shisaku	34	programs	基本目標７ 住民すべてにやさしいまちづくり	事業数	24	件	honpen p.53-57				
+007834692b145dfc	keikaku	7	timeline	計画期間	第2期障がい者計画	H30〜R5		honpen p.2				
+f61f0313920cd415	keikaku	7	timeline	計画期間	第3期障がい者計画(この計画)	R6〜R11		honpen p.2				

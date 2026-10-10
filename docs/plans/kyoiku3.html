@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>教育振興基本計画（第3期）｜日野町データポータル（非公式）</title>
+<meta name="description" content="日野町の教育がめざす基本目標と、学校教育・地域と家庭・生涯学習の3つの柱にそった取り組みをまとめた、令和2年度から令和6年度までの計画です。">
+<style>
+/* shell.css — 計画ダッシュボード共通スタイル(schema v1)
+   計画ごとの個性は :root のテーマ4変数のみ(render_plan.py が注入)。
+   既存3ダッシュボードの意匠系(明朝見出し・eyebrow・理念バナー・
+   番号付きタブ)を共通化したもの。 */
+
+.hpv1{
+  /* テーマ(render時に上書き) */
+  --accent:#1E4E9C; --accent2:#C33D2E; --danger:#c25b46; --paper:#f4f6f8;
+  /* 派生・共通トークン */
+  --ink:#232a33; --ink2:#4c5561; --mut:#7d8692;
+  --card:#ffffff; --line:#dfe4ea; --line2:#edf0f4;
+  --ok:#2f6d5f;
+  --r:14px; --r2:9px;
+  /* 型スケール(8段) */
+  --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
+  --fs-lead:15.5px; --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
+  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* チャート寸法(ADR-8) */
+  --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
+  --chart-track:#eef0f2; --chart-grid:#e4e8ee;
+  --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
+  --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:var(--fs-body); line-height:1.75;
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+.hpv1 *{box-sizing:border-box}
+.hpv1 :where(h1,h2,h3,h4,p,ul,ol,figure,dl,dd){margin:0}
+.hpv1 .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+.hpv1 a{color:var(--accent)}
+.hpv1 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.hpv1 .wrap{max-width:920px;margin:0 auto;padding:0 18px 56px}
+
+/* ---------- ヘッダー ---------- */
+.hpv1 .head{padding:30px 0 0}
+.hpv1 .crumb{font-size:var(--fs-small);margin-bottom:14px}
+.hpv1 .crumb a{text-decoration:none;color:var(--ink2)}
+.hpv1 .crumb a:hover{color:var(--accent)}
+.hpv1 .eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:var(--fs-small);letter-spacing:.14em;font-weight:700;color:var(--accent);
+}
+.hpv1 .eyebrow::before{content:"";width:22px;height:2px;background:var(--accent2);border-radius:2px}
+.hpv1 h1{
+  font-family:var(--serif);font-size:var(--fs-title);font-weight:800;
+  letter-spacing:.01em;line-height:1.3;margin-top:10px;
+}
+.hpv1 .metarow{
+  display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;
+  font-size:var(--fs-small);color:var(--ink2);
+}
+.hpv1 .metarow b{color:var(--ink)}
+.hpv1 .vision-banner{
+  margin-top:14px;padding:12px 16px;border-radius:var(--r2);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 9%,transparent),
+    color-mix(in srgb,var(--accent2) 9%,transparent));
+  border:1px solid var(--line);
+  font-weight:700;font-size:var(--fs-body);letter-spacing:.02em;
+  color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+  display:flex;gap:12px;align-items:baseline;
+}
+.hpv1 .vision-banner .lbl{font-size:var(--fs-micro);color:var(--mut);letter-spacing:.1em;flex:none}
+.hpv1 .lead{margin-top:12px;font-size:var(--fs-lead);color:var(--ink2)}
+
+/* ---------- タブ(番号=読む順序) ---------- */
+.hpv1 .tabs{
+  display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line);
+  flex-wrap:wrap;position:sticky;top:0;background:var(--paper);z-index:5;
+}
+.hpv1 .tab{
+  appearance:none;border:0;background:none;cursor:pointer;
+  font:inherit;font-weight:700;font-size:var(--fs-tab);color:var(--ink2);
+  padding:11px 15px 12px;border-radius:9px 9px 0 0;position:relative;
+}
+.hpv1 .tab .tn{color:var(--mut);font-size:var(--fs-micro);font-weight:800;margin-right:7px;letter-spacing:.05em}
+.hpv1 .tab:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.hpv1 .tab[aria-selected="true"]{color:var(--ink)}
+.hpv1 .tab[aria-selected="true"] .tn{color:var(--accent2)}
+.hpv1 .tab[aria-selected="true"]::after{
+  content:"";position:absolute;left:10px;right:10px;bottom:-1px;height:3px;
+  background:var(--accent);border-radius:3px 3px 0 0;
+}
+.hpv1 .panel{display:none;padding-top:26px}
+.hpv1 .panel.active{display:block}
+
+/* ---------- 汎用ブロック ---------- */
+.hpv1 .b-narrative{max-width:44em;margin:0 0 18px}
+.hpv1 .b-heading{margin:30px 0 12px}
+/* 統一セクション見出し(.b-heading h2 / .phead / .b-chart .cttl を1系統へ)
+   共通:明朝・fs-sec(17)・700・ink。区切り線(左4px accent + pad-left12)は
+   箱の外の見出しだけ。.cttl は箱の中なので字面のみ統一(左ボーダーなし)。 */
+.hpv1 .b-heading h2,
+.hpv1 .phead,
+.hpv1 .b-ttl,
+.hpv1 .b-chart .cttl{
+  font-family:var(--serif);font-size:var(--fs-sec);font-weight:700;color:var(--ink);line-height:1.4;
+}
+.hpv1 .b-heading h2,
+.hpv1 .phead{
+  padding-left:12px;border-left:4px solid var(--accent);
+}
+.hpv1 .b-heading .sub{font-size:var(--fs-small);color:var(--mut);margin-top:3px;padding-left:16px}
+.hpv1 .b-note{
+  display:flex;gap:8px;font-size:var(--fs-small);color:var(--ink2);
+  margin:12px 0;padding:10px 13px;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .b-note::before{content:"◦";color:var(--accent2);font-weight:800}
+.hpv1 .b-bullets{margin:0 0 18px}
+.hpv1 .b-bullets .t{font-weight:700;margin-bottom:6px}
+.hpv1 .b-bullets ul{padding-left:1.3em}
+.hpv1 .b-bullets li{margin:4px 0}
+.hpv1 .b-bullets li::marker{color:var(--accent)}
+.hpv1 .b-callout{
+  margin:18px 0;padding:14px 18px;border-radius:var(--r2);
+  border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));
+  background:color-mix(in srgb,var(--accent) 5%,var(--card));
+}
+.hpv1 .b-callout .t{font-weight:800;color:var(--accent);margin-bottom:4px}
+.hpv1 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.hpv1 .chip{
+  font-size:var(--fs-micro);font-weight:700;padding:3px 10px;border-radius:99px;
+  background:var(--card);border:1px solid var(--line);color:var(--ink2);
+}
+.hpv1 .b-vision{
+  margin:6px 0 20px;padding:18px 20px;border-radius:var(--r);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 10%,var(--card)),
+    color-mix(in srgb,var(--accent2) 8%,var(--card)));
+  border:1px solid var(--line);
+}
+.hpv1 .b-vision .lbl{font-size:var(--fs-micro);letter-spacing:.14em;font-weight:800;color:var(--mut)}
+.hpv1 .b-vision .tx{
+  font-family:var(--serif);font-size:var(--fs-vision);font-weight:800;line-height:1.5;
+  margin-top:4px;color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+}
+.hpv1 .b-aims{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .aim{
+  display:flex;gap:12px;align-items:baseline;padding:12px 15px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .aim .no{
+  font-family:var(--serif);font-weight:800;color:var(--accent);flex:none;
+  min-width:1.6em;text-align:center;
+}
+.hpv1 .aim .t{font-weight:700}
+.hpv1 .aim .d{font-size:var(--fs-small);color:var(--ink2);margin-top:2px}
+.hpv1 .b-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .card{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:14px 16px}
+.hpv1 .card .ct{font-weight:800;margin-bottom:4px}
+.hpv1 .card .cd{font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-challenges .card{border-left:4px solid var(--danger)}
+.hpv1 .b-fields{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .field{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:12px 15px}
+.hpv1 .field .ft{font-weight:800;font-size:var(--fs-sub)}
+.hpv1 .field .fd{font-size:var(--fs-small);color:var(--ink2);margin-top:3px}
+.hpv1 .b-actions{
+  margin:20px 0;padding:16px 18px;border-radius:var(--r);
+  background:color-mix(in srgb,var(--ok) 7%,var(--card));
+  border:1px solid color-mix(in srgb,var(--ok) 25%,var(--line));
+}
+.hpv1 .b-actions .t{font-weight:800;color:var(--ok);margin-bottom:8px}
+.hpv1 .b-actions ul{padding-left:1.3em}
+.hpv1 .b-actions li{margin:4px 0}
+
+/* タブ内ジャンプ目次(toc) — 薄いaccent背景の角丸リンクを横並び */
+.hpv1 .b-toc{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 20px}
+.hpv1 .b-toc .tl{font-size:var(--fs-small);font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
+.hpv1 .b-toc a{
+  font-size:var(--fs-small);font-weight:700;text-decoration:none;color:var(--accent);line-height:1.5;
+  background:color-mix(in srgb,var(--accent) 8%,var(--card));
+  border:1px solid color-mix(in srgb,var(--accent) 20%,var(--line));
+  padding:5px 12px;border-radius:99px;
+}
+.hpv1 .b-toc a:hover{background:color-mix(in srgb,var(--accent) 15%,var(--card));border-color:var(--accent)}
+/* アンカージャンプ位置補正:sticky タブバー(.tabs top:0)の下に隠れないよう余白 */
+.hpv1 .panel [id]{scroll-margin-top:64px}
+
+/* ---------- データ系ブロック ---------- */
+.hpv1 .b-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .kpi{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 15px 12px}
+.hpv1 .kpi .kl{font-size:var(--fs-small);font-weight:700;color:var(--ink2)}
+.hpv1 .kpi .kn{font-size:var(--fs-kn);font-weight:800;line-height:1.15;margin-top:2px;letter-spacing:-.01em}
+.hpv1 .kpi .ku{font-size:var(--fs-small);font-weight:700;color:var(--mut);margin-left:3px}
+.hpv1 .kpi .kd{font-size:var(--fs-micro);color:var(--ink2);margin-top:5px;display:flex;gap:6px;align-items:baseline}
+.hpv1 .kpi .tr{font-weight:800;flex:none}
+.hpv1 .kpi .tr.down{color:var(--danger)} .hpv1 .kpi .tr.up{color:var(--ok)} .hpv1 .kpi .tr.flat{color:var(--mut)}
+.hpv1 .kpi .asof{font-size:var(--fs-micro);color:var(--mut)}
+
+.hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:18px 22px}
+.hpv1 .b-bigstat .v{font-size:var(--fs-big);font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
+.hpv1 .b-bigstat .u{font-size:var(--fs-sub);font-weight:700;color:var(--mut)}
+.hpv1 .b-bigstat .l{font-weight:700}
+.hpv1 .b-bigstat .d{font-size:var(--fs-small);color:var(--ink2);flex-basis:100%}
+
+.hpv1 .b-targets{display:grid;gap:10px;margin:0 0 18px}
+.hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
+.hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
+.hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
+.hpv1 .target .tg{display:inline-flex;gap:8px;align-items:baseline;white-space:nowrap}
+.hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
+.hpv1 .target .ar{color:var(--mut)}
+.hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--accent2)}
+.hpv1 .target .tu{font-size:var(--fs-small);color:var(--mut);font-weight:700}
+.hpv1 .target .asof{font-size:var(--fs-micro);color:var(--mut)}
+.hpv1 .target svg{display:block;width:100%;height:6px;margin-top:9px}
+.hpv1 .target .pct{font-size:var(--fs-micro);color:var(--ink2);margin-top:4px}
+
+.hpv1 .b-table{margin:0 0 18px;overflow:auto;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2)}
+.hpv1 table{border-collapse:collapse;width:100%;font-size:var(--fs-small)}
+.hpv1 th,.hpv1 td{padding:8px 13px;text-align:right;border-bottom:1px solid var(--line2);white-space:nowrap}
+.hpv1 th:first-child,.hpv1 td:first-child{text-align:left}
+.hpv1 th.txt,.hpv1 td.txt{text-align:left;white-space:normal;min-width:16em}
+.hpv1 thead th{background:color-mix(in srgb,var(--accent) 6%,var(--card));font-weight:700;color:var(--ink2)}
+.hpv1 tbody tr:last-child td{border-bottom:0}
+.hpv1 td.neg{color:var(--danger);font-weight:800}
+.hpv1 td.pos{color:var(--ok);font-weight:800}
+.hpv1 td.em{font-weight:800}
+
+.hpv1 .b-chart{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+  padding:14px 16px;margin:0 0 12px}
+.hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
+.hpv1 .b-ttl{margin:4px 0 6px}  /* 表の題(table.title)。字面は統一セクション見出しと同じ */
+.hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
+.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 8px;font-size:var(--fs-chart);color:var(--ink2)}
+/* チャート部品(ADR-8)。文字はすべて HTML。棒の長さ・高さはレンダラーが値から計算した % */
+/* 横棒(rank_bars ほか): 名前 | 棒 | 値 */
+.hpv1 .hb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);
+  gap:5px 10px;align-items:center;font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .hb-r{display:contents}
+.hpv1 .hb-l{text-align:right;color:var(--ink2)}
+.hpv1 .hb-sub{color:var(--mut);margin-left:.4em}
+.hpv1 .hb-t{display:flex;height:var(--chart-bar);background:var(--chart-track);border-radius:4px;overflow:hidden}
+.hpv1 .hb-t>span{display:block;flex:none;height:100%}
+.hpv1 .hb-t>span:last-child{border-radius:0 4px 4px 0}
+.hpv1 .hb-v{text-align:right;font-weight:700;white-space:nowrap;color:var(--ink)}
+.hpv1 .hb-v.is-b{color:var(--ink2);font-weight:400}
+.hpv1 .hb-r.em .hb-l,.hpv1 .hb-r.em .hb-v{color:var(--accent2);font-weight:700}
+.hpv1 .hb-r.avg .hb-l{color:var(--ink);font-weight:700}
+/* 2系列の横棒(pair_bars): 名前 | (棒 | 値)×2 */
+.hpv1 .pb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr);gap:10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .pb-g{display:contents}
+.hpv1 .pb-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .pb-bars{display:grid;grid-template-columns:minmax(0,1fr) var(--vw,4em);gap:3px 10px;align-items:center}
+/* 100%積み上げの横棒(stacked_100): 名前 | 帯 */
+.hpv1 .s100{display:grid;grid-template-columns:fit-content(30%) minmax(0,1fr);gap:8px 10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .s100-r{display:contents}
+.hpv1 .s100-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .s100-b{display:flex;height:var(--chart-bar-l);border-radius:6px;overflow:hidden;box-shadow:inset 0 0 0 1px var(--line)}
+.hpv1 .s100-s{display:flex;flex:none;align-items:center;justify-content:center;overflow:hidden;
+  white-space:nowrap;font-weight:700}
+/* 縦棒(bars / stacked_bars): 列ごとに 値・棒・名前。目盛りは描かない */
+.hpv1 .vb{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);column-gap:6px;
+  padding-top:1.5em;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .vb-col{display:flex;flex-direction:column;min-width:0}
+.hpv1 .vb-t{height:var(--chart-h);display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  border-bottom:1px solid var(--line)}
+.hpv1 .vb-v{flex:none;font-weight:700;color:var(--ink);white-space:nowrap;padding-bottom:3px}
+.hpv1 .vb-s{flex:none;width:min(100%,var(--chart-col));display:flex;flex-direction:column-reverse;
+  border-radius:3px 3px 0 0;overflow:hidden}
+.hpv1 .vb-s>span{display:block;flex:none}
+.hpv1 .vb-l{margin-top:6px;text-align:center;font-weight:700;color:var(--ink2);overflow-wrap:anywhere}
+.hpv1 .vb-sub{display:block;font-weight:400;color:var(--mut)}
+/* 折れ線(line): 線と目盛り線は SVG(伸縮・線幅固定)、数値とラベルは HTML */
+.hpv1 .ln{padding-left:var(--ln-yw,3em);padding-right:var(--ln-xr,0);margin-top:10px;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .ln-plot{position:relative;height:var(--chart-h)}
+.hpv1 .ln-plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hpv1 .ln-g{stroke:var(--chart-grid);stroke-width:1}
+.hpv1 .ln-y{position:absolute;top:0;bottom:0;right:100%;width:var(--ln-yw,3em);padding-right:6px}
+.hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
+.hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
+.hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 長い横棒の一覧の折りたたみ(ADR-8 判断の優先順位 3・4)。:has() 非対応なら全件表示 */
+.hpv1 .hb-gap{display:none;grid-column:1/-1;color:var(--mut);text-align:center;line-height:1.2}
+.hpv1 .hbf:not(:has(details[open])) .fx{display:none}
+.hpv1 .hbf:not(:has(details[open])) .hb-gap{display:block}
+.hpv1 .more{margin-top:10px}
+.hpv1 .more>summary{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;cursor:pointer;
+  list-style:none;border:1px solid var(--line);border-radius:99px;font-size:var(--fs-small);font-weight:700;
+  color:var(--accent);background:var(--card)}
+.hpv1 .more>summary::-webkit-details-marker{display:none}
+.hpv1 .more .mc,.hpv1 .more[open] .mo{display:none}
+.hpv1 .more[open] .mc{display:inline}
+@media print{
+  .hpv1 .hbf .fx{display:contents!important}
+  .hpv1 .hbf .hb-gap,.hpv1 .more{display:none!important}
+}
+/* 狭い画面だけで使う表示(縦棒の代わりの横棒) */
+.hpv1 .narrow-only{display:none}
+.hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+
+.hpv1 .b-figure{margin:0 0 18px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:12px}
+.hpv1 .b-figure img{display:block;width:100%;height:auto;border-radius:6px}
+.hpv1 .b-figure figcaption{font-size:var(--fs-small);color:var(--ink2);margin-top:8px}
+
+.hpv1 .b-timeline{display:grid;gap:6px;margin:0 0 18px}
+.hpv1 .tlrow{display:flex;gap:12px;align-items:center;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);padding:9px 14px}
+.hpv1 .tlrow .sp{font-weight:800;color:var(--accent);flex:none;min-width:7em}
+.hpv1 .b-programs{margin:0 0 18px}
+.hpv1 .pgroup{margin-bottom:16px}
+.hpv1 .phead{margin-bottom:8px}  /* 旧・下border/accent文字色は統一セクション見出しへ集約 */
+.hpv1 .psub{font-weight:700;font-size:var(--fs-small);color:var(--ink2);margin:9px 0 5px}
+.hpv1 .pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;align-items:start}
+.hpv1 .ev{display:flex;gap:9px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:9px 12px;font-size:var(--fs-small)}
+.hpv1 .ev .no{font-weight:800;color:var(--accent);flex:none}
+.hpv1 .ev .etwrap{min-width:0}
+.hpv1 .ev .et{font-weight:700}
+.hpv1 .ev .ed{color:var(--mut);font-size:var(--fs-micro);margin-top:1px}
+
+/* programs 案2: グループの方向性・視点(常時表示) */
+.hpv1 .pintro{background:color-mix(in srgb,var(--accent) 6%,var(--card));
+  border:1px solid var(--line2);border-radius:var(--r2);padding:10px 13px;margin:0 0 9px}
+.hpv1 .pintro-item{margin:7px 0}
+.hpv1 .pintro-item:first-child{margin-top:0}
+.hpv1 .pintro-item:last-child{margin-bottom:0}
+.hpv1 .pih{font-weight:700;font-size:var(--fs-small);color:var(--accent)}
+.hpv1 .pih::before{content:"◎ "}
+.hpv1 .pib{font-size:var(--fs-small);color:var(--ink2);margin-top:1px}
+
+/* programs 案2: 事業内容(desc)の折りたたみ details/summary */
+.hpv1 .ev.evd{display:block;padding:0;cursor:pointer}
+.hpv1 .ev.evd>summary{display:flex;gap:9px;align-items:center;
+  padding:9px 12px;min-height:44px;list-style:none}
+.hpv1 .ev.evd>summary::-webkit-details-marker{display:none}
+.hpv1 .ev.evd>summary .etwrap{flex:1}
+.hpv1 .ev.evd>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .ev.evd[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .ev.evd[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .edesc{padding:9px 12px 11px;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .edesc p{margin:0 0 6px}
+.hpv1 .edesc p:last-child{margin-bottom:0}
+
+/* table 折りたたみ(fold) — programs の details と同方式 */
+.hpv1 .b-foldtbl{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);margin:0 0 12px}
+.hpv1 .b-foldtbl>summary{display:flex;gap:9px;align-items:center;padding:10px 13px;min-height:44px;list-style:none;cursor:pointer}
+.hpv1 .b-foldtbl>summary::-webkit-details-marker{display:none}
+.hpv1 .b-foldtbl>summary .ftwrap{flex:1;min-width:0}
+.hpv1 .b-foldtbl>summary .ftl{font-weight:700;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-foldtbl>summary .fts{font-size:var(--fs-micro);color:var(--mut);margin-top:1px}
+.hpv1 .b-foldtbl>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .b-foldtbl[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .b-foldtbl[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .b-foldtbl .b-table{margin:12px;border:none;border-radius:0}
+.hpv1 .b-foldtbl .b-note{margin:0 12px 12px}
+
+.hpv1 .src{font-size:var(--fs-micro);color:var(--mut);margin:2px 0 16px;text-align:right}
+.hpv1 .src::before{content:"出典："}
+
+/* ---------- フッター ---------- */
+.hpv1 .foot{margin-top:44px;border-top:1px solid var(--line);padding-top:20px;
+  font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .foot h2{font-size:var(--fs-sub);font-weight:800;font-family:var(--serif);margin-bottom:8px}
+.hpv1 .foot ul{padding-left:1.3em}
+.hpv1 .foot .disclaim{margin-top:14px;padding:11px 14px;border-radius:var(--r2);
+  background:var(--card);border:1px solid var(--line2)}
+.hpv1 .foot .contact{margin-top:10px}
+
+@media (max-width:560px){
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
+  .hpv1 .tab{padding:10px 11px 11px}
+  /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
+  .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .hpv1 .tabs::-webkit-scrollbar{display:none}
+  .hpv1 .tab{flex:none;white-space:nowrap}
+  .hpv1 .pgrid{grid-template-columns:1fr}
+  /* チャート: 名前は棒の上の行に置き、棒の長さを確保する(ADR-8) */
+  .hpv1 .hb{grid-template-columns:minmax(0,1fr) var(--vw,4em);row-gap:2px}
+  .hpv1 .hb-l{grid-column:1/-1;text-align:left;margin-top:6px}
+  .hpv1 .pb{grid-template-columns:minmax(0,1fr);row-gap:4px}
+  .hpv1 .pb-l{text-align:left;margin-top:6px}
+  .hpv1 .s100{grid-template-columns:minmax(0,1fr);row-gap:3px}
+  .hpv1 .s100-l{text-align:left;margin-top:4px}
+  /* 名前が短い横棒(.inline-sm)は、狭い画面でも名前を同じ行に置いて縦に長くしない */
+  .hpv1{--chart-bar:12px}
+  .hpv1 .hb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);row-gap:5px}
+  .hpv1 .pb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .s100.inline-sm{grid-template-columns:fit-content(30%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .inline-sm .hb-l,.hpv1 .inline-sm .pb-l,.hpv1 .inline-sm .s100-l{text-align:right;margin-top:0}
+  .hpv1 .inline-sm .hb-l{grid-column:auto}
+  .hpv1 .ln-x>.nw{display:none}
+  .hpv1 .wide-only{display:none}
+  .hpv1 .narrow-only{display:grid}
+}
+@media (prefers-reduced-motion:no-preference){
+  .hpv1 .panel.active{animation:hpv1-in .18s ease-out}
+  @keyframes hpv1-in{from{opacity:.4;transform:translateY(3px)}to{opacity:1;transform:none}}
+}
+
+.hpv1{ --accent:#2f5d7c;--accent2:#d0883a;--danger:#c25b46;--paper:#f4f6f8; }
+</style>
+</head>
+<body class="hpv1" data-hp-root>
+<div class="wrap">
+  <header class="head">
+    <nav class="crumb"><a href="../index.html">← 計画ライブラリにもどる</a></nav>
+    <div class="eyebrow">日野町教育大綱を兼ねる教育の中期計画</div>
+    <h1>第3期 日野町教育振興基本計画</h1>
+    <div class="metarow"><span>計画期間 <b class="num">R2〜R6年度</b>（令和2年3月策定・5年間）</span><span>所管 <b>日野町教育委員会</b></span><span>上位計画 <b>日野町総合計画</b></span><span>公表 <b>2020年3月</b></span></div>
+    
+    <p class="lead">日野町の教育がめざす基本目標と、学校教育・地域と家庭・生涯学習の3つの柱にそった取り組みをまとめた、令和2年度から令和6年度までの計画です。</p>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="このページの内容"><button class="tab" role="tab" data-tab="summary" aria-selected="true"><span class="tn num">01</span>まとめ</button><button class="tab" role="tab" data-tab="kihon" aria-selected="false"><span class="tn num">02</span>計画の考え方</button><button class="tab" role="tab" data-tab="gakko" aria-selected="false"><span class="tn num">03</span>学校教育</button><button class="tab" role="tab" data-tab="chiiki" aria-selected="false"><span class="tn num">04</span>地域と家庭</button><button class="tab" role="tab" data-tab="shogai" aria-selected="false"><span class="tn num">05</span>生涯学習</button><button class="tab" role="tab" data-tab="manabiba" aria-selected="false"><span class="tn num">06</span>学びの場</button></nav>
+  <section class="panel active" role="tabpanel" data-panel="summary"><div><div class="b-vision"><div class="lbl">基本目標</div><div class="tx">夢と志をもち、共に育ち共に生きる、活力ある人づくり</div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.3</div><div><div class="b-narrative"><p>日野町の教育について、5年間の基本的な方針と取り組みをまとめた計画です。</p><p>学校教育・家庭教育・社会教育を対象とし、「日野町総合計画」を上位計画とする中期計画です。</p><p>町の教育分野の基本的な方針であることから、「日野町教育大綱」にも位置づけられています。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.2</div><div><div class="b-aims"><div class="aim"><span class="no">柱1</span><div><div class="t">子ども一人ひとりの個性を大切にし、生きる力を育む</div><div class="d">子ども一人ひとりの個性を大切にする学校教育の取り組み</div></div></div><div class="aim"><span class="no">柱2</span><div><div class="t">社会全体で支え合い、子どもを育む</div><div class="d">地域・家庭・学校との連携活動の取り組み</div></div></div><div class="aim"><span class="no">柱3</span><div><div class="t">すべての人が学び続け、共に生きるための生涯学習を振興する</div><div class="d">長寿社会を見据えて豊かな人生を送るための生涯学習の取り組み</div></div></div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.6</div><div><div class="b-narrative"><p>自然や歴史・文化、地域や企業と連携した地域学習「日野学習」を充実させます。</p><p>また、地域・家庭・学校の協働活動により、子どもたちが地域住民と交流し、互いに名前や顔を覚え合い、絆を深め合う「ふるさと絆学習」を進めることを、日野らしい、日野ならではの教育としています。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.4</div><div><div class="b-actions"><div class="t">暮らしの中で関われること</div><ul><li>毎月第3日曜日は「親子読書の日」。家族で読書を楽しむよう呼びかけています(本編26ページ)。</li><li>毎年、保護者や地域の方とともに通学路の危険個所点検を行い、通学路の安全体制の整備に努めます(本編19ページ)。</li><li>町内7つの地区公民館で、地域の特色を生かした講座などを開き、学習の機会を充実させます(本編22ページ)。</li></ul></div></div><div><div class="b-note"><span>計画期間は2020（令和2）年度から2024（令和6）年度までの5年間です。この計画には数値目標の一覧はなく、施策の方向性と主な取り組みを文章で示しています。</span></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.2</div></section><section class="panel" role="tabpanel" data-panel="kihon"><div><nav class="b-toc"><a href="#sec-kihon-1">計画の策定にあたって</a><a href="#sec-kihon-2">計画の位置づけ</a><a href="#sec-kihon-3">基本目標と日野町総合計画の教育目標</a><a href="#sec-kihon-4">日野らしい、日野ならではの学び</a><a href="#sec-kihon-5">長寿高齢社会を見据えた学び</a></nav></div><div id="sec-kihon-1"><div class="b-heading"><h2>計画の策定にあたって</h2></div></div><div><div class="b-narrative"><p>本町では2015（平成27）年度に第2期日野町教育振興基本計画を策定し、「日野のたからを未来につなぐ心豊かでたくましい人づくり」を基本目標とし、教育施策を推進してきました。</p><p>今日の社会では、少子高齢化、急速な技術革新、グローバル社会の到来、貧困問題の深刻化、虐待の増加など、社会をめぐる状況は著しく変化し、課題も山積しています。こうしたなか、教育に関する制度面・内容面においても急激に改革が進められているところです。</p><p>新学習指導要領では、主体的に自立して生き抜き、社会で活躍する有能な市民の育成が強く求められ、また一方で、地域の絆を強め地域の実情に応じた教育のなかで、活力あるコミュニティの形成を推進していくことが大切な観点となっています。</p><p>また、新しい時代に必要となる資質・能力として、「生きて働く知識・技能の習得」「未知の状況にも対応できる思考力・判断力・表現力等の育成」「学びを人生や社会に生かそうとする学びに向かう力・人間性等の涵養」が柱として示され、社会の担い手として必要な力を育むことが求められているところです。</p><p>青少年による犯罪やいじめなどの生徒指導上の問題や不登校については、子どもたちに規範意識や倫理観、人権意識や豊かな心、自己肯定感を育むことが喫緊の課題となっています。確かな学力や豊かな人間性を育む礎となる「心身の健康づくり」を進め、生涯を通じて自尊感情を育成していく必要があります。</p><p>さらに長寿高齢社会を迎え、自己と社会とのつながりを実感し、学習したことを活用して、生活や社会のなかの課題を解決し、豊かな人生を主体的に生きていくという生涯学習の重要性がますます高まってきています。</p><p>このような情勢のもと、日野の教育の一層の推進を図るため、2018（平成30）年6月に閣議決定された国の「教育振興基本計画」、2019（平成31）年3月に策定された「第3期滋賀県教育振興基本計画」を参酌しつつ、日野町教育基本目標を『夢と志をもち、共に育ち共に生きる、活力ある人づくり』と掲げ、「第3期日野町教育振興基本計画」を策定し、実行していくこととします。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.1</div><div id="sec-kihon-2"><div class="b-heading"><h2>計画の位置づけ</h2></div></div><div><div class="b-bullets"><ul><li>「日野町総合計画」に基づき、教育の総合的かつ体系的な施策を示し、「日野町総合計画」を上位計画とする中期計画とします。</li><li>第3期滋賀県教育振興基本計画の柱を参酌した上で策定することとします。</li><li>すべての町民にとって等しく学べる環境を整備し、本町における教育分野に関する基本的な方針であることから、本計画を「日野町教育大綱」に位置づけることとします。</li><li>取り扱う「教育」は、学校教育、家庭教育、社会教育とします。</li><li>計画期間は、2020（令和2）年度から2024（令和6）年度までの5年間とします。</li></ul></div></div><div><div class="b-callout"><div class="t">質の高い教育をみんなに ～SDGsの視点～</div><div>これからの社会は、地球規模・グローバルにとらえていく必要があります。社会のいたるところで、貧困、飢餓、地球環境問題など様々な課題があります。これらの諸課題を解決していくために2015（平成27）年の国連のサミットで「持続可能な開発のための2030アジェンダ（行動目標）」（SDGs）が採択されました。SDGsは、17のゴールと169のターゲットから構成され、誰一人取り残さない持続可能な目標をもち、すべての人に質の高い教育を提供するなど、様々な行動目標が示されているものです。17の一つでもある「質の高い教育をみんなに」というゴールをはじめ、SDGsで示されている持続可能な開発目標を教育と関連づけながら考え、身近で様々な課題を総合的にとらえる観点や意識をもっていきたいと思います。</div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.2</div><div id="sec-kihon-3"><div class="b-heading"><h2>基本目標と日野町総合計画の教育目標</h2></div></div><div><div class="b-narrative"><p>日野町では、日野町総合計画をもとに、まちづくりを推進してきました。日野町第5次総合計画では、日野町の将来像として“ひびきあい「日野のたから」を未来につなぐ自治の力で輝くまち”と定めています。</p><p>本計画の教育目標では、未来ある日野の子どもたちを「日野のたから」と考え、「夢と志をもち、共に育ち共に生きる、活力ある人づくり」をテーマに、「夢と志」を忘れず、可能性に挑戦する「進取と創造」の精神を培い、多様な人々と共生しながら、豊かに生きていく力を育みます。またこれらの目標実現のためには、学校と園、家庭・地域・行政が、相互に協働して子どもたちの教育を推進します。</p><p>日野町では2017（平成29）年度より「地域学校協働活動推進事業」に取り組み「ふるさと絆学習」と称して取り組みを進めてきました。</p><p>子どもは、学校や家庭はもちろんのこと、地域のなかでの人々との関わりによって、人間関係や集団のルールなど様々なことを学びながら社会性や規範意識などを育み成長していきます。学校や家庭、地域、関係機関等が連携して社会全体で子どもを育てる機運を高めるとともに、教育や子どもの育ちに対する経験や知識を次の世代へ伝えていくことが大切であると考えます。</p><p>そのためには未来の郷土を担っていく子どもたちが、地域社会のなかで地域の人たちと関わり、地域の自然や歴史・文化を体感しながら学び、育てられることが必要です。</p><p>心身ともに健全な子どもたちの育成のために、地域や家庭の教育力を高め、相互に連携・協働し未来を切り拓いていける力を育てていきます。</p><p>また地域の方々にとっても、主体的に参画して、相互に支え合い学び合うことを通して生きがいや目標をもち、活力ある生活が構築できると考えています。</p><p>地域全体で家庭の教育力向上を図り、子どもたちの育ちを支え、そして学校・家庭・地域の連携協働活動「ふるさと絆学習」を充実させ「まち全体で地域の将来を担う子どもたちを育む」という機運を盛り上げていきたいと考えます。</p><p>さらには、一人ひとりが生涯を通じて豊かな人生を生きていくためには、多様な人とつながりながら主体的に学習し、それぞれの得た学びを生かして社会に参画していくことが必要であり、人と人、人と地域がつながり、相互に支え合うことにより、教育の充実と地域の活性化の良い循環を生み出すと考えます。</p><p>「生涯学習」の振興を目指し共に育ち共に生きる教育環境づくりに努めます。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.3</div><div id="sec-kihon-4"><div class="b-heading"><h2>日野らしい、日野ならではの学び</h2><div class="sub">基本目標の達成に向けた基本的な考え方（1）</div></div></div><div><div class="b-narrative"><p>滋賀県の南東部に位置する日野町は、鈴鹿山脈の山麓から湖東平野に向かって広がっています。多様な地形から生み出される豊かな自然景観と先人たちが大切に紡いできた歴史文化があふれています。</p><p>変わりゆく社会環境のなかで、先人から受け継いだ自然や伝統、文化を次代へ引き継いでいくとともに、町民の誰もが安全で安心な暮らしを実現し、未来へ発展するまちを創造していく必要があります。</p><p>そのためにも、子どもたちが慣れ親しんだ地域の学校に通い、友達とともに学ぶことを楽しく思い、身近な人や自然を愛し、大人になっても、ふるさと日野に誇りと愛着をもち続けられるとともに、将来にわたり大きく羽ばたくことのできる教育が必要であると考えます。</p><p>そこで、次のような地域学習「日野学習」を充実し、未来を生き抜くために必要な資質・能力を育成することが必要です。</p></div></div><div><div class="b-cards "><div class="card"><div class="ct">豊かな美しい自然（山、川、田畑、琵琶湖等）を大切にする学び</div><div class="cd">学林での学び、綿向山の日、田んぼの学校、やまの子・うみの子学習</div></div><div class="card"><div class="ct">多彩な歴史・文化（文化財、祭、芸術、民俗・風習等）を大切にする学び</div><div class="cd">ふるさと日野の歴史贈呈、ふるさと学習、タウンウォーク</div></div><div class="card"><div class="ct">地域、企業等と連携した学び 等</div><div class="cd">企業体験学習、町内の企業見学、町を守る（災害対策等）仕事を学ぶ</div></div></div></div><div><div class="b-narrative"><p>そのためには学校教育・社会教育が役割を果たし、ともに連携していくことが重要です。また地域・家庭・学校の協働活動を推進し、子どもたちが地域住民と交流し、互いに名前や顔を覚え合い、絆を深め合う「ふるさと絆学習」を進めていくことは、日野らしい、日野ならではの教育であると考えます。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.4</div><div><div class="b-callout"><div class="t">滋賀らしさを生かした学び</div><div>滋賀県は母なる琵琶湖を田園、山並みなどが取り巻く豊かな自然に恵まれ、自然と共生する文化が育まれてきました。また、古くは都が置かれ、交通の要衝であったことなどから幾度も歴史の表舞台に立ち、多くの文化財を有しています。こうしたなかで、これらの自然、歴史・文化等を大切にする学びや、地域、企業等と連携した学びにより、地域に誇りと愛着をもち、主体的に地域の課題を解決する行動力を育むことが大切です。また、環境や一人ひとりを大切にする心など、これまで先人たちから引き継いできた思いは、現代にあっても環境保全活動や家庭・地域による福祉の実践などに息づいています。こうした「近江の心」とも言うべき先人たちの思いを学ぶことで、ふるさと滋賀に誇りや愛着をもち、自らも地域社会に貢献しようとする心を育みます。</div></div></div><div><div class="b-bullets"><div class="t">近江の心（主な教え）</div><ul><li>中江藤樹先生の教えである「良知（生まれながらにして持っている美しい心）」</li><li>糸賀一雄先生の言葉である「この子らを世の光に」の考えにある一人ひとりを大切にする心</li><li>雨森芳洲先生の言葉である「互いに誠を持って交わろう」の考えにある異文化を理解する心</li><li>近江商人の経営の理念である「三方よし」の考えにある公の心</li><li>琵琶湖とともに生き、自然環境を大切にする心</li></ul></div></div><div><div class="b-note"><span>「滋賀らしさを生かした学び」と「近江の心」は、原典が「第3期滋賀県教育振興基本計画」から引用しているものです（～滋賀県らしさを生かした学び～）。先人たちの教えを引き継ぎ、未来につなぐことで、郷土への愛着と道徳性を育てます。</span></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.5</div><div id="sec-kihon-5"><div class="b-heading"><h2>長寿高齢社会を見据えた学び</h2><div class="sub">基本目標の達成に向けた基本的な考え方（2）</div></div></div><div><div class="b-narrative"><p>我が国は世界に例を見ない速さで高齢化が進んでいます。人生100年時代の到来を見据え、より豊かに生きるためには、一人ひとりが「夢と志」をもち、その実現に向け努力することが大切です。</p><p>また、学びは学校教育だけで完結せず、学校を卒業したあとの学びが重要です。このため、「学校教育」「家庭教育」とあわせて、生涯を通じた「生涯学習」への取り組みが大切となります。そのためには「人と人」「人と地域」とのつながりにより、それぞれが助け合いながら生きることが重要となります。</p><p>また公民館活動をより活性化し、地域に密着した学習機会の提供と地域の文化・人材の活用を通した事業を展開していくことに取り組んでいきます。</p><p>人口減少や少子高齢化などの時代背景を踏まえ、家庭や職場だけではなく地域とのつながりを大切にし、地域への誇りや愛着を育み、連携を図っていくことが大切となります。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.5</div><div><div class="b-narrative"><p>このように本計画では、基本目標の達成に向け、「日野らしさ・滋賀らしさを生かした学び」を大切にし、また、一人ひとりの長寿人生を見据えた学びのなかで「人と人」「人と地域」がともに連携し、地域への誇りや愛着を深めていくものです。そのことにより地域が活性化し、また日野で育った人材が様々な場所・分野で活躍できるよう願って取り組んでいきます。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.6</div></section><section class="panel" role="tabpanel" data-panel="gakko"><div><div class="b-heading"><h2>柱1 子ども一人ひとりの個性を大切にし、生きる力を育む</h2><div class="sub">学校・園での教育の取り組み</div></div></div><div><div class="b-narrative"><p>子どもたちが新しい時代を切り拓き、郷土への愛着と誇りをもってたくましく歩んでいけるよう、一人ひとりの能力や個性を伸ばし、人間力を培うことが求められます。</p><p>全国学力学習状況調査によると、町の子どもの傾向として、文章の趣旨を把握し、表やグラフから必要な情報を取り出すこと、また根拠を明確にして自分の考えを説明することなどに課題がみられます。</p><p>このため、まずは、基礎的・基本的な知識・技能の定着、また文章を読み解く力を高めることに取り組み、学ぶ力を向上させ、課題に対してしなやかに対応できる力を育成していきます。</p><p>さらに、文章や文脈のなかで意味をとらえる力、目的や意図に応じて自分の考えの理由を明確にして表現する力、条件に合わせて問題解決する力をつけていくことが求められます。</p><p>あわせて、多様な人とつながることのできる「豊かな心」や、生涯にわたり健康な生活を送るための「健やかな体」を育むとともに、情報活用能力の育成を図ることで、予測が難しい社会情勢の変化に適応できる力を育てます。</p><p>また日野町は自然や文化、歴史に恵まれています。「町の自然や地域と共生する力」を育み、自らを高めていける自立した人、多様性を認める共生のなかで、力を合わせ、課題に取り組む人を育てていきます。</p><p>一方、教職員については指導力向上や働き方改革にも取り組みます。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.6-7</div><div><nav class="b-toc"><a href="#sec-gakko-g1">(1) 確かな学力を育む</a><a href="#sec-gakko-g2">(2) 豊かな心を育む</a><a href="#sec-gakko-g3">(3) 健やかな体を育む</a><a href="#sec-gakko-g4">(4) 特別支援教育の推進</a><a href="#sec-gakko-g5">(5) 情報活用能力の育成</a><a href="#sec-gakko-g6">(6) 日野ならではの本物体験・感動体験の推進</a><a href="#sec-gakko-g7">(7) キャリア教育</a><a href="#sec-gakko-g8">(8) 教職員の指導力の向上</a><a href="#sec-gakko-g9">(9) 子どもの育ちを支える就学前の教育・保育の充実</a></nav></div><div><div class="b-programs"><div class="pgroup"><div class="phead" id="sec-gakko-g1">(1) 確かな学力を育む</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">学校・園では、一人ひとりの基礎的・基本的な知識・技能の定着を図り、文章や対話などから「読み解く力」や知識・技能を活用し課題を解決する力を育みます。発達段階に応じた様々な体験学習を充実させ、思考力、判断力、表現力等を育成します。学校・園等において地域や家庭と連携を図り、地域社会全体で子どもを育てる機運を高め、組織的な取り組みを進めます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">「日野町学びに向かう力向上」12プランの実践</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>日野町では、「学びに向かう力向上12プラン」を策定し、子どもたちの学びに向かう姿を育むため、教員の指導力や資質・能力の向上、子どもの家庭学習の定着や心理面への支援に取り組みます。日野町のすべての教員が12プランの具体的な取り組みを共有し、組織的に共通実践を図るように努めます。</p><p>《観点1》授業力向上：各校で部会等を中心とした校内研究を組織的・計画的に推進し、日常の教え合いや学び合いを大切にした教員の授業力の向上に努めます。</p><p>《観点2》教員の資質・能力の向上：チームで「主体的・対話的で深い学び」の視点から専門的に教科指導を進めたり深い子ども理解のできる学び続ける教職員としての資質・能力を向上に向けて研修を充実させます。</p><p>《観点3》家庭学習の充実：家庭と連携し、家庭学習の充実に努め、小学校から中学校へのスムーズな学びの姿勢の定着を図ります。</p><p>《観点4》子どもたちへの心理・生活支援の充実：教職員と協働し、課題に対して適切な対応の仕方や支援のあり方など子どもたちへの心理・生活支援を充実します。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">基礎的・基本的な学習の充実に向けて</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子ども一人ひとりの学習状況を的確に把握し、自力で解決できるよう適切に指導を行い、基礎的・基本的な知識および技能が確実に習得できるように努めます。全国学力学習状況調査や標準学力調査の結果について全教員により課題分析を行い、学級・学校全体で学ぶ力の向上に努めます。</p><p>子ども一人ひとりがめあてをもって取り組み、発見や気づきについてまとめたり、学んだことをふりかえったりする学習を通してしっかりと基礎的・基本的な知識・技能の定着を図ります。</p><p>放課後等の学習補充や退職教員の豊かな経験を活用した学校教育活動支援事業等を活用して、学習の支援に取り組みます。</p><p>「家庭学習の手引き」や日野町子育てリーフレット等の活用を通じ、予習・復習など、自ら進んで行う家庭学習の習慣化など、家庭と連携した学習環境・生活環境となるよう、家庭への働きかけを進めます。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">「読み解く力」を育てる</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>文章や図、友達とのやりとりから様々な情報を正確に理解し、自分の考えをもって課題を解決できるよう指導や支援を行い、「わかった」「できた」と学びを実感できる授業づくりによって、「読み解く力」を育みます。</p><p>読書を通じて情緒や豊かな想像力を育み、「読み解く力」の基礎となる言語能力を身につけられるように、読書指導の強化、家庭での読書習慣づけを推進します。町立図書館との連携を図り、学習と関連のある本や学級文庫を充実し、学校司書による学校図書館の環境整備を進めるなど、学習の支援や教員と協働した学習活動の充実に努めます。</p></div></details><details class="ev evd"><summary><span class="no">④</span><div class="etwrap"><div class="et">言葉によるコミュニケーション能力の育成</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>教育活動の全体を通じ、相手の立場に立って互いを理解したり、自分の気持ちや考えを適切に伝えたりすることができるよう言葉による伝え合いを重視します。</p><p>子どもが既習の英語を使ったり、外国人や外国の文化に接したりする機会を設定し、英語によるコミュニケーション能力を育成するとともに、異文化に対する理解を深めます。</p></div></details><details class="ev evd"><summary><span class="no">⑤</span><div class="etwrap"><div class="et">「主体的・対話的で深い学び」に向けた授業改善</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子どもの「なぜだろう」「どうしてだろう」などと自問自答する探究的な学びのプロセスを充実させ、自分の「ゆめ」や将来を、実生活と関連づけ、教員が同一歩調で粘り強く、子どもと意思疎通を図っていけるよう、授業改善を進めます。</p><p>対話や協働などによる豊かな「学び合い」を展開し、学習内容の確認にとどまらない丁寧な授業の「振り返り」を行い、次の学習への興味や関心につなげることができる「主体的な学び」の実現に向けて取り組みます。</p><p>身につけた知識を相互に関連づけより深く理解したり、情報を整理して自分の考えを形成し、課題の解決策を考えたりする「深い学び」の実現を目指します。</p></div></details><details class="ev evd"><summary><span class="no">⑥</span><div class="etwrap"><div class="et">授業力向上に向けた組織的な取り組み</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>研究主任等を中心に授業研究体制を活性化し、すべての教員の授業力の向上を目指します。授業を観る視点をもって参観し、ワークショップ型の事後研究会の実施により、主体的に学び合える実践的な研究を推進します。</p><p>経験豊かな教員から若手教員への助言や、同僚同士の学び合いなど、OJTを日常的かつ計画的に実施し、切磋琢磨しながら教員の指導力を高めます。</p><p>他校にも授業公開や研修会への参加を自主的に呼びかけ、授業を見合うことにより個々の指導力の向上を図り、自校で伝達するなど学び合いを実施します。</p><p>町では県教育委員会と協力し、各学校の授業研究会において指導主事による指導、助言を行い、教員が指導の重点を共有できるよう組織的な取り組みを進めます。</p></div></details><details class="ev evd"><summary><span class="no">⑦</span><div class="etwrap"><div class="et">各学校の特色を生かした教科横断的な教育課程の実施</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>地域に開かれた学校づくりの推進や各学校の特色を生かした活動を支援することにより、校区の自然、歴史、伝統文化、人材を効果的に活用し、学校の伝統と個性を生かし創造性のある特色ある学校づくりを推進します。</p><p>各学校において子どもの姿や地域の現状等に基づき、地域の人材や資源等も活用しながら、教科の枠を超えて関連の高い内容や活動を工夫して配列する等、教科横断的な視点に立った教育課程を編成し、実施します。</p></div></details><details class="ev evd"><summary><span class="no">⑧</span><div class="etwrap"><div class="et">個に応じたきめ細かな指導と支援の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>少人数学級編制や少人数指導等により、自分の考えを発表する機会や話し合い活動の機会を増やし、一人ひとりの学びを丁寧に見取り、理解の程度や習熟の程度に応じたきめ細かな指導の充実を図ります。</p><p>学校・学級における児童生徒の実態把握をし、一人ひとりのちがいを認め合い、自身の良さが発揮できるような学級や学年集団づくりに取り組み、学びに向かう基盤づくりに努めます。</p><p>規則正しい生活習慣の定着や学習への支援をするために、学習支援員を配置し、子どもたち一人ひとりの個性を大切にしたきめ細かな指導と支援を充実します。</p><p>日本語指導が必要な外国人児童生徒に対して、適切な日本語指導、生活適応指導等に取り組み、日本語の能力の速やかな習得と日本の生活への円滑な適応を図っていきます。また、日本語指導の必要な子どもや外国籍の保護者の急増に対して、県の「外国人児童生徒いきいきサポート支援事業」の活用や町の翻訳者を派遣します。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g2">(2) 豊かな心を育む</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">学校・園と地域、家庭、行政が連携するなかで、心のふれあいを通し子どもの豊かな情操や規範意識、自尊感情、社会性、人を思いやる心などを育むために、道徳教育や体験活動の充実を図ります。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">子どもの自尊感情を高める</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>授業や自然体験、職場体験、ボランティア体験等、様々な体験活動を通して、思考力・判断力・表現力等の育成を図るとともに、生き方を学ぶ活動を推進し、自尊感情を高めます。</p><p>子ども同士や大人との関わり合いを通して、子ども自らが人と関わることの喜びや大切さに気づき、ちがいを認め合うことのできる集団づくりを推進します。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">道徳教育の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子どもの生命を大切にする心や思いやりの心、郷土を愛する心等を育むため、教育活動全体を通した道徳教育を計画的に推進します。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">人権教育の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>心のふれあいを大切にし、かけがえのない命の尊厳に気づかせ、互いの人権を大切にする教育の推進を図ります。</p><p>保育園・幼稚園・こども園・小学校・中学校・高等学校の校種間連携を図るなかで、人権教育を推進します。</p></div></details><details class="ev evd"><summary><span class="no">④</span><div class="etwrap"><div class="et">徹底したいじめ対応</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>いじめを許さない学校づくりに向け、互いのことを認め合い、心のつながりを感じることができるよう、子ども自らが主体的に取り組む活動を推進します。</p><p>いじめはどの子どもにも、どの学校でも、起こりうることを踏まえ、学校、家庭、地域、警察や福祉等の関係機関、スクールカウンセラーやスクールソーシャルワーカー等の専門家などが緊密に連携し、組織として、継続的に取り組みます。</p><p>学校は、校長のリーダーシップのもと「いじめ防止対策推進法」や「日野町いじめ防止基本方針」に基づいて、「日野町いじめを深刻化させないために」などを活用した実践的な研修を実施し、教員の認識と資質を高め、「子どもの目線」に立ったいじめの把握と組織的かつ迅速な対応によるいじめの解消に努めます。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g3">(3) 健やかな体を育む</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">すべての基礎となる健康的な心身の育成を目指し、発達段階に応じた運動や遊び、学校体育の充実等により運動習慣の確立を図ります。
+子どもの望ましい食習慣の習得に向けた食育や生活習慣の改善、向上を図る保健教育を計画的、系統的に進めます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">自主的な運動習慣の確立</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>心身の健やかな育成を図るために、運動を通じて体力を養う指導を充実させます。各校の子どもの運動能力の実態にそって、「健やかタイム」の充実に努め、遊びのなかで体力づくりを進めるなど自主的な運動習慣の確立を図ります。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">運動部活動ガイドラインに基づく適切な指導</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>中学校における部活動指導については、生徒の自発的な活動を支え、人間形成や自己実現の達成などを目指します。生徒の健康を維持し、学習や他の活動にも関わることができるように、「日野町中学校部活動ガイドライン」に従って、休養日などバランスの取れた運営と指導に努め、健全な心と身体と豊かな人間性を育みます。</p><p>また、必要に応じ外部指導者を活用し、部活動体制の充実を図ります。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">地場産を生かした食育の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>栄養教諭等と学級担任、教科担任が連携した教科等における食に関する指導の一層の充実を図ります。</p><p>子どもたちの心身に健全な発達を促し、学校給食を実施し、食に関する正しい理解と態度を養います。望ましい食習慣など、健康的な生活習慣の形成を図る食育の指導を充実します。</p><p>自校給食の強みを生かした地場産農産物の活用により、学校給食を生きた教材として活用します。</p><p>伝統的食文化継承など、地域の食文化の理解を深める授業を展開します。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g4">(4) 特別支援教育の推進</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">県の「特別支援教育実施プラン」に基づき、障害のある子どもと障害のない子どもがともに学べる仕組みの構築を進めます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">切れ目のないきめ細かな指導の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>個別の指導計画および個別の教育支援計画の作成と利活用を一層進め、教育的ニーズに応じ、学校園間の円滑な引継ぎを進めます。福祉保健課・子ども支援課ともつながり、就学前から就学後も一貫した教育支援の充実を図ります。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">支援体制の確立</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>発達障害の早期発見、早期支援をはじめ、子育てに係る相談など、子ども・保護者・校園の支援を行うため、保健センターや子育て・教育相談センター等の関係機関に、臨床心理士などを配置します。</p><p>臨床心理士が校園に出向き、子どもの実態を把握し、適切な支援のあり方についてアドバイスしたり、ケース会議に加わったりするなどアウトリーチの取り組みを推進します。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">就学に向けた体制の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>障害のある子どもと障害のない子どもがともに学べる教育体制の構築を進め、わかりやすい授業や誰もが居心地のよい学級・学校を目指します。</p><p>町では、「日野町就学支援の手引き」を活用し、特別な支援を必要とする子どもへの適切な就学に向けた体制を充実し、適切な指導や支援をします。</p></div></details><details class="ev evd"><summary><span class="no">④</span><div class="etwrap"><div class="et">関係機関との連携と専門性の向上</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>通常学級における学びにくさのある子どもへの適切な指導・支援ができるよう校内で研修を進め、専門性の向上に努めます。</p><p>子どもの障害の状態や教育的ニーズに応じた指導を充実させるため、教員の特別支援教育に関する研修を進めます。</p><p>県総合教育センターや八日市養護学校等の専門機関と日野町地域生活支援ネットワーク会議(学齢期部会)との連携を図ります。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g5">(5) 情報活用能力の育成</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">コンピュータ等を適切に用いて情報を得たり、問題を発見・解決したり、自分の考えを形成し、発信・伝達する能力を高め、主体的に新たな価値を創造する能力の育成を目指します。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">ICT機器を活用した学習活動の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>効果的に授業のねらいを達成し、わかりやすい授業を実現するため、ICT機器を活用した学習活動を充実させます。</p><p>タブレット型PCや大型提示装置等のICT機器の効果的な活用方法や教材の作成について研修を進め、教員の指導力向上を図ります。</p><p>新聞、視聴覚教材などの活用を図ることにより、子どもの情報活用能力の育成を目指します。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">プログラミング教育による論理的思考力の育成</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>小学校におけるプログラミングの体験、中学校におけるネットワークを利用した学習活動や指導事例を共有することで、子どもが課題に対して論理的に考え、対応していく能力の育成を図ります。</p><p>日野っ子育成事業「ICT教育推進委員会」作成の「指導実践事例集」を活用し、論理的思考力を育成します。あわせて、プログラミング教育ツールにより創造性や系統立てて考える力を育みます。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g6">(6) 日野ならではの本物体験・感動体験の推進</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">日野菜の栽培、綿向山全校登山、日野の歴史探訪など日野ならではの本物体験や感動体験を通して、仲間とのつながりを実感できる活動を、計画的に推進し、主体的に行動できる力の育成を目指します。
+総合的な学習や生活科などに豊かな自然、歴史、伝統文化などを「地域資源」に取り入れ、地域の方からの支援・協働体制の充実を図ります。
+各校の課題や状況にそった「社会に開かれた教育課程」の確立に向け、学校と保護者、地域がより連携、協働を進めて教育力を向上させ、子どもたちの育ちを支えることを推進します。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">教科等の学習と連動させた体験活動の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>身のまわりの生き物や植物、自然環境に注目し、体験を通して、知りたいことや調べてみたいことなど興味をもって学習に取り組めるよう体験学習の事前や事後の学習を充実させ、体験学習と教科等の学習とを連動させ、主体的で深い学びを実現します。</p><p>4年生は森林体験学習「やまのこ」、5年生は「うみのこ」の宿泊体験学習や農業体験学習「たんぼのこ」を推進します。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">地域学習の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>「日野を学び、日野で学び、日野から学ぶ」を合言葉に地域学習を充実させ、地域の専門家と連携し、夢と志をもち、共に育ち、共に生きる活力ある人づくりの教育を推進し、郷土に誇りをもてる子どもを育成します。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">郷土学習資料「わたしたちの日野」の利活用</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>社会科副読本「わたしたちの日野」を教科や総合的な学習の時間等で活用し、地域を深く知ることによって「ふるさと日野を愛し、ふるさと日野に誇りを持つ人づくり」を目指します。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g7">(7) キャリア教育</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">発達段階に応じた系統的なキャリア教育を展開し、体験活動や外部人材の活用等、地域や家庭、産業界と連携・協働した取り組みを推進します。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">系統的なキャリア教育の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>教科・科目、総合的な学習の時間、特別活動等をはじめ教育活動全体を通じて発達段階に応じた系統的なキャリア教育を進めます。</p><p>社会見学や体験活動、中学校2年生における「中学生チャレンジウィーク」を実施します。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">魅力あるまちづくりに結びつく学習機会の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>外部人材を活用する取り組みの充実を図り、地域の人々と地域課題を解決する協働した取り組み等を推進します。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g8">(8) 教職員の指導力の向上</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">子どもの力を引き出し、「夢と志」をもつ子どもを育てるため、今日の教育課題に応えることができるように、自らが学び続ける教職員の育成と資質向上に向けた効果的な研修を進めます。学びに向かう力向上の実現に向けて、PDCAサイクルを活用し、「日野町学びに向かう力向上」12プランの実践を進めます。
+教職員自らが様々な創意工夫に挑戦できるよう、自由闊達に意思疎通が図れる職場風土の維持に努めるとともに、外部の研修等、多様な教育機会にも自主的・自発的に参加できるよう、職場環境の整備に努めます。
+また、教職員による体罰や行き過ぎた指導によって、教育・学校への信頼が失われることのないよう、教職員の人権意識の向上とコンプライアンスの徹底を図ります。
+教職員が誇りや情熱をもち続け、学習指導や生徒指導等に集中し、いきいきと勤務することのできるよう教職員の働き方改革等に取り組みます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">授業力向上パートナーシップ事業の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>教職員の指導力向上を目指して、生徒指導や教科指導力、学級経営力を高める研修を適切な時期に実施します。</p><p>2年～5年次までの若手教員の指導力向上のために、指導主事や町独自の教育指導員から授業参観を通して、適切な指導助言や相談などを行います。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">日野っ子育成プロジェクト事業による「教員の指導力の向上」の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>町の教育現状と課題から重点を設定し、推進委員会を組織し、改善に向けた取り組みをし、各校へ発信します。</p><p>推進委員会では、校長や教頭が会長、副会長を務め各校から推進リーダーとなる教員を選出し、授業研究会などを通して検証し改善策を見出して、各校へ発信をします。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">教員の資質の向上</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>日野町教職員研修会「教育フォーラム」では、町内における実践校の取り組み発表や大学教授等の専門的な講話を通して、町全体の教職員の資質向上を目指します。</p><p>町内全体や各校・園での教職員研修を充実させるため、指導助言や資料提供などを行います。各校では、若手教員の育成のため、経験豊かな教員を組み合わせたメンター制を取り入れ、日常的に学び合い・教え合いを進めるなど同僚性を高めます。さらに、各校のOJT組織を活用し初任者研修や教職6年次や中堅教諭資質向上研修などと連動させ、推進リーダーを中心に校内OJTを生かした組織の活性化と様々な校務運営の伝達を進めたり、校内研修を推進したりして、若手教員の資質の一層の向上を図ります。</p></div></details><details class="ev evd"><summary><span class="no">④</span><div class="etwrap"><div class="et">PDCAサイクルの活用</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>学校が教育目標を具現化するため、課題解決に向けた具体的方策を作成し、定期的にその進捗状況について議論する場を設定します。</p></div></details><details class="ev evd"><summary><span class="no">⑤</span><div class="etwrap"><div class="et">校種間連携の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>学期ごとに町内の保育園・幼稚園・こども園・小学校・中学校・高等学校の校・園長による拡大校園長会を開催し、情報交換を実施し町の子どもの健やかな育成に向けて連携・協力を進めます。</p><p>年間3回、日野町子育て・教育合同研究会を開催し、子どもへの理解を深めるために情報共有を図り、教員個々の学習指導、生徒指導、学級経営などの技量向上を図ります。</p><p>就学前から小学校へ、小学校から中学校へ、中学校から高等学校へも円滑に接続できるよう教員が相互に授業参観や情報交換をするなど、緊密な連携を図ります。</p><p>教科の特性や地域の状況を踏まえ、小学校の教員が中学校で、中学校の教員が小学校で授業を行うことにより、子どもの理解を深め、より効果的な教科指導に努めながら小中学校間の連携を推進します。</p></div></details><details class="ev evd"><summary><span class="no">⑥</span><div class="etwrap"><div class="et">先進地視察研修の実施</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>積極的に先進地研修に出向き、授業改善を主題とした研修会の開催や情報交換会を活発にするとともに、小学校間の「小・小連携」や校種を跨いだ「小・中連携」の活性化を図ります。</p></div></details><details class="ev evd"><summary><span class="no">⑦</span><div class="etwrap"><div class="et">不祥事防止の徹底</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>体罰防止マニュアルに基づいた指導方法について理解し、コンプライアンスの徹底を図ります。校長のリーダーシップのもと日常から教職員一人ひとりに当事者意識がもてるような服務規律における研修を実施し、不祥事防止の徹底をします。</p><p>業務における教職員の悩みやストレスを一人で抱え込み、孤立しないよう、相互に相談し合える風通しの良い職場環境づくりに努めます。</p></div></details><details class="ev evd"><summary><span class="no">⑧</span><div class="etwrap"><div class="et">教職員の働き方改革の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>学校閉庁日の設定や、時間外における電話の音声アナウンスによる対応等により、教職員の健康管理や、集中して業務に取り組める環境整備を継続します。</p><p>出退勤システムにより教員が時間外労働時間を把握し、健康管理や負担軽減対応策等、業務の見直しに取り組み、働きやすく風通しの良い職場づくりを推進します。また、長時間労働を行った教職員は、管理職による面談や産業医との面談指導を行うなど、メンタルヘルス対策に努めます。</p><p>スクール・サポート・スタッフの配置や学習支援員の職務内容の拡大により、教員の校務支援を実施し、教材研究や授業準備のための時間や児童生徒に向き合う時間が増えるように努めます。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-gakko-g9">(9) 子どもの育ちを支える就学前の教育・保育の充実</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">幼児期は、人格形成の基礎を培う重要な時期であることから、幼稚園・認定こども園および保育所等において、一人ひとりの安定した情緒のもと、基本的な生活習慣や生活に必要な力の獲得、また集団生活や遊びを通して子どもの社会性や主体性が育まれるよう、就学前の教育・保育の環境や育ちの場を充実します。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">就学前教育・保育を行う施設等の整備・環境づくり</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子ども子育て支援事業計画を踏まえ、潜在的な教育・保育ニーズを含めた必要量を定め、教育施設、教育・保育施設、家庭的保育事業等地域型保育施設等の計画的な整備を行います。また、それぞれの施設で、年齢に適した子どもの育ちに必要な環境の整備を行います。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">子どもの自発的な遊びを通して、豊かな心の育成と健やかな体づくり</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子どもが「やってみたい」という思いをもち、自ら考え工夫し遊びをつくっていくことや自分の思いを伝えていく経験、感動体験等を通して、達成感や満足感、意欲等の心の育成に努めます。また、全身を使った遊びを継続的に行うことや生活リズムを整えたり食事の習慣をつけていくことにより、健やかな体づくりを進めていきます。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">幼稚園・認定こども園・保育所の連携と小学校への接続</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>3法令の改訂・改定により、保育所での教育が明確になったことを踏まえ、それぞれの施設で生活する子どもたちの「幼児期の終わりまでに育ってほしい姿」を共有し保育していくことについて、「日野町幼児教育研究会」での研修等により連携を進めていきます。また幼稚園の小規模園については、他園や小学校との交流等の環境設定を通して、子どもの育ちや経験の確保に努めます。</p><p>就学に向けて、小学校と連携をし「スタートカリキュラム」の作成に取り組み、子どもにとって段差の少ない滑らかな接続となるように努めます。</p></div></details><details class="ev evd"><summary><span class="no">④</span><div class="etwrap"><div class="et">職員の指導力の向上</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>「日野町幼児教育研究会」により、幼稚園・認定こども園・保育所のすべての職員を対象にした研究会や所属の年齢による年齢別部会等を開催し、幼児理解や保育の充実に努めます。また、各園の園内研究会で園内の職員相互で研鑽していきます。</p><p>日野町独自で、「1・2年次研修」により、保育の指導や様々な研修を行い、若手職員の資質向上に努めます。</p></div></details></div></div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.8-18</div></section><section class="panel" role="tabpanel" data-panel="chiiki"><div><div class="b-heading"><h2>柱2 社会全体で支え合い、子どもを育む</h2><div class="sub">地域・家庭・学校の連携の取り組み</div></div></div><div><div class="b-narrative"><p>家庭や社会を取り巻く環境は急激に変化し、地域のつながりの希薄化や家庭環境の多様化などによって生まれる様々な課題が指摘されています。</p><p>子どもが育つ上で大切な学校の教育環境整備とともに、家庭や地域全体の教育力の向上を図ります。</p><p>また、学校・家庭が地域の一員として、子どもは地域の宝という認識をもち、互いに連携・協力して子どもを育て、地域づくりやそこに住む人々の育ちへとつながる環境づくりを目指します。</p><p>町では「地域を学ぶ学習（ふるさと日野学習）」「地域学校連携協働活動推進事業（ふるさと絆学習）」を充実させることにより、地域の力を生かした取り組みを強化します。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.7</div><div><nav class="b-toc"><a href="#sec-chiiki-g1">(1) ふるさと絆学習</a><a href="#sec-chiiki-g2">(2) 子どもの安全・安心の確保</a><a href="#sec-chiiki-g3">(3) 家庭の教育力の向上</a><a href="#sec-chiiki-g4">(4) 地域の教育力の向上</a></nav></div><div><div class="b-programs"><div class="pgroup"><div class="phead" id="sec-chiiki-g1">(1) ふるさと絆学習</div><div class="psub"> 施策の方向性</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">地域住民、保護者、PTA、地域団体、民間企業等の幅広い地域住民等の参画を得て、地域全体で子どもたちの学びや成長を支えるとともに、学校を核とした地域づくりを目指して地域と学校が相互にパートナーとして連携・協働して学習活動やまちづくり活動に取り組み、子どもたちを地域全体で育てる取り組みを推進します。
+町内の小中学校に配置した地域学校協働活動推進員（ふるさと絆支援員）を中心に、郷土に誇りをもてる子どもたちの育成を願い、地域と学校が一体となって子どもと大人の交流が盛んな地域づくりを目指します。</div></div></div><div class="pgrid"></div></div><div class="pgroup"><div class="phead" id="sec-chiiki-g2">(2) 子どもの安全・安心の確保</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">高度情報化社会の進展、インターネットやスマートフォンなどの普及により、子どもを取り巻く環境は日々変化しています。防災・防犯教育の充実や教育施設等の整備に加え、地域や関係機関との連携・協働により青少年の健全育成を推進するとともに、子どもの安全・安心の確保に取り組みます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">学校安全体制の整備</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>保護者や地域のスクールガードや各地区の安全なまちづくり協議会等、警察と連携した子どもの見守り体制の充実など、学校と地域や関係機関の協力による通学路の交通安全・防犯体制の構築を図ります。</p><p>毎年、保護者や地域の方とともに危険個所点検を実施し、通学路の安全体制の整備に努めます。</p><p>放課後、休日における防犯等の情報については、子どもの安全・安心の確保のために、教育委員会、住民課が警察等の関係機関と連携し、メール配信サービス等を通じて保護者や地域への情報発信に取り組みます。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">自分の命は自分で守る対応力を育む</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子ども自ら日常生活における様々な危険を回避できる力や、休み時間や登下校中に発生した自然災害・事件事故等に対処できる力等、自分の命は自分で守る力を身につけられるよう安全教育を進めます。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">青少年の健全育成の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>青少年を取り巻く環境は大きく変わりつつあります。豊かな人間関係に包まれた地域社会を創出し、体験活動の場や機会の提供を進め、青少年の積極的な社会参加や多世代交流を推進します。また、学校、PTAや青少年健全育成関係団体と連携しつつ、パソコンなどの情報端末の安全な使い方を教える活動の実施や「こども110番の家」など子どもの安全安心な体制を地域ぐるみで推進できるよう、青少年を取り巻く環境整備に努めます。</p></div></details><details class="ev evd"><summary><span class="no">④</span><div class="etwrap"><div class="et">不登校の子どもへの支援体制の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子どもの「学習権」の保障を基本に、子ども一人ひとりへのきめ細かな対応ができるよう、校内の相談体制の充実や専門家・関係機関、家庭・地域との連携を進め、組織的対応の充実を図ります。</p><p>子育て教育センターや日野町少年センター等の関係機関、学校や家庭との連携を密にしながら、日野町サポートスクール「ステップ」での一人ひとりに合った活動を通して、学校復帰や社会的自立を目指します。</p></div></details><details class="ev evd"><summary><span class="no">⑤</span><div class="etwrap"><div class="et">教職員の危機管理能力の向上</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>すべての教職員が様々な災害や事件・事故等に対処するための防災マニュアルを整備し、マニュアルに基づいた避難訓練を実施し、危機意識やスキルの向上に取り組みます。</p><p>アレルギー対応、熱中症対応等、子どもの緊急時に対処できるよう、エピペン、AEDを活用した救命救急法等についての町や各校の教職員研修に取り組みます。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-chiiki-g3">(3) 家庭の教育力の向上</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">家庭は、子どもたちの健やかな育ちの基盤であり、家庭教育は、すべての教育の出発点です。一方、地域とのつながりの希薄化やSNSの普及などにより、親が身近な人から直接子育てを学んだり助け合ったりする機会の減少などからくる子育て不安、親子関係や家庭基盤の脆弱さによる養育能力の欠如、貧困等など、家庭教育や子育てを取り巻く地域の環境が大きく変化しています。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">家庭教育の重要性に関する啓発活動の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>PTA・青少年育成町民会議など青少年健全育成関連団体との連携を図り、家庭の絆を深めるための親の関わり方の重要性について啓発活動を進めます。また、校園、地域において虐待につながる要因を的確に把握し未然防止に努め、様々な学習情報の提供に取り組みます。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">親育ちの学習機会の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>親と子の絆を深めるための取り組みや親としての力を高めるための「親育ち講座」の開催など、これから親になる世代や子育て中の親に対して、PTA等と連携しながら家庭教育に関する学習を支援します。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-chiiki-g4">(4) 地域の教育力の向上</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">家庭、地域における子育て機能の低下や親の孤独感、不安感の増大等に対応するため、身近な地域で気軽に子育て中の親子の交流や相談ができ、地域全体で子育て家庭を見守り支援するなど、子どもの育ちを支える体制整備の充実に取り組みます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">地域における家庭教育支援の体制構築</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子育てサポーター等の支援者の養成を図るとともに、子育て支援関係団体との連携を図り、出産前から発育段階に応じた親同士の交流を促進します。</p></div></details></div></div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.19-21</div><div><div class="b-note"><span>（1）ふるさと絆学習には、番号を付けた取り組みの項目がありません（施策の方向性のみ）。</span></div></div></section><section class="panel" role="tabpanel" data-panel="shogai"><div><div class="b-heading"><h2>柱3 すべての人が学び続け、共に生きるための生涯学習を振興する</h2><div class="sub">生涯学習・人権・スポーツ・文化・読書の取り組み</div></div></div><div><div class="b-narrative"><p>長寿高齢社会を見据えたライフサイクルのなかで、豊かな人生を送るためには、生涯にわたって学び続けることが大切です。学校等で身につけた資質・能力をもとに、自己の能力をさらに高め、働くことや地域や社会の課題解決のために活動することが求められています。</p><p>そのため、一人ひとりが生涯を通じて学習し、協働することのできる体制やネットワークを整え、それぞれの得た学びを生かして社会に参画し、相互に支え合う環境づくりを推進します。また町では「つどう」「まなぶ」「むすぶ」を合言葉に、地域づくりの拠点である公民館を中心に町の多くの施設での「学びの場づくり」と「居場所づくり」に努めます。</p><p>そしてすべての町民が、心豊かでいきいきとした人生を築くことができるよう、生涯学習の場と機会を確保し、町民の主体的な学習と社会の形成を目指すものとします。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.7</div><div><nav class="b-toc"><a href="#sec-shogai-g1">(1) 生涯にわたる学び</a><a href="#sec-shogai-g2">(2) 人権と福祉のまちづくりを目指して</a><a href="#sec-shogai-g3">(3) スポーツ活動の充実</a><a href="#sec-shogai-g4">(4) 協働による芸術文化活動を振興する</a><a href="#sec-shogai-g5">(5) 日野ならではの生涯学習の推進</a><a href="#sec-shogai-g6">(6) 読書活動の普及拡大</a></nav></div><div><div class="b-programs"><div class="pgroup"><div class="phead" id="sec-shogai-g1">(1) 生涯にわたる学び</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">今日の社会情勢は、人口減少による少子高齢社会、情報通信技術の進展などによるグローバル化により、人々の価値観、家庭・学校・地域などの暮らしが急速に変化しています。社会教育の基盤であった地域は大きく変化してきていますが、各種の社会教育団体を支援し、住民の地域活動への参加を促進することで、町民すべての人権が大切にされる社会の実現に向けて取り組みを進めます。
+また、生涯学習は、わたしたちが生涯にわたって行う学習活動です。価値観の多様化や暮らしの変化により、学習ニーズも多様化しているなか、町民一人ひとりが生きがいと目標をもち心豊かで充実した人生を送るために、公民館をはじめとした社会教育施設において、地域における学習の場の充実に努めます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">公民館を中心として生涯学習の場を充実する</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>町内7つの地区公民館においては、これまでから住民の力による住民自らの自主的な公民館活動が続けられています。これらを地域づくりの力として、地域の課題解決に向けた学習機会の提供や住民の自主的な地域活動を支援するとともに、地域の特色を生かした講座等を開催し学習機会の充実を図ります。</p><p>各地区公民館等関係者を対象とした研修会等を通じて、リーダー育成等の体制を整備します。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">社会的課題に対応した学習機会の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>「いつでも」「どこでも」「だれでも」「なんでも」学習できる機会の提供が実現できるよう、社会教育施設間（公民館、図書館、町民会館わたむきホール虹など）の連携を密にし、交流の機会と活躍の場づくりの充実に努めます。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">学び続けることの意義・重要性の普及</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>高齢化に伴い、柔軟で多様な生き方に対応して学び続けることの意義や重要性の普及を図るとともに、各世代が居場所や生きがいをもちながら心豊かに暮らしていくことができるよう、地域における生涯学習の場の充実に努めます。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-shogai-g2">(2) 人権と福祉のまちづくりを目指して</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">日野町では1992（平成4）年2月27日、同和対策の終結を目指し「ふれあい町民集会」が開催され「同和対策事業からの卒業と、一般行政としての福祉対策を充実させ、移行することが重要である」とし、「人権と福祉のまちづくり」を掲げ、今日まで人権啓発と人権学習を推進してきました。
+2010（平成22）年3月には、人権の課題が様々な分野にわたるなかで、地域での人権学習をより身近でわかりやすく取り組めるよう、「日野町人権学習推進指針」を作成し、人権学習を推進してきました。
+また、2015（平成27）年10月に、参画型の学習会をより推進するため人権啓発推進員を中心に「字別懇談会のすすめ」が作成され、地域の様々な課題を地域自らが探索する「字別懇談会」が各自治会で開催されています。
+これまで町や人権啓発推進員、各地区人権推進協議会（地区人推協）が取り組み積み重ねてきた成果と、日本国憲法で保障された人権の理念をもとに、「人権と福祉のまちづくり」の推進に努めていきます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">人権についての正しい理解、人権啓発と学習の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>日野町が進めてきた「人権と福祉のまちづくり」の歴史や経緯を正しく理解し、人権啓発推進員、地区人推協の活動を基本に、連携と交流を深め、人権啓発と様々な人権課題の学習を進めていきます。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">暮らしのなかの身近な課題への取り組みを促進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>人口減少、少子高齢社会、自然災害など暮らしや命に直面する課題が身近なところにあります。それらの課題解決に向けて協力・協働し、町民の一人ひとりがまちづくりの主人公となるよう、積極的な取り組みを促進します。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">人権啓発活動を推進するリーダーの養成</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>日野町人権啓発推進員、地区人推協と連携・協力し、各種人権研修会や学習会等を通じて、人権啓発活動を推進するリーダーの養成を図ります。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-shogai-g3">(3) スポーツ活動の充実</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">スポーツには、運動を「する」ことによる喜びや楽しさを得ること、競技を「みる」ことでアスリートの姿に感動し人生に活力を得られること、競技者を「支える」ことで人々が交わり共感し合って社会の絆が強くなっていくことなど、多様な価値が備わっています。
+日野町でも、「いつまでも健康でありたい」との願いから、スポーツに親しむ人が増えています。また、オリンピック・パラリンピック、国民スポーツ大会・全国障害者スポーツ大会というスポーツイベントが身近に開催されます。
+今後は、心身の健康や体力の保持増進が図られるよう、年齢や性別、障害の有無を問わず「いつでも、どこでも、いつまでも」スポーツ活動に取り組める機会の充実に努めます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">生涯スポーツの振興・普及、充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>日野町スポーツ協会や日野町スポーツ推進委員のほか、健康づくり関係団体とも連携しながら、年齢や性別、障害の有無を問わず「いつでも、どこでも、いつまでも」スポーツ活動に取り組むことができる機会の充実を図ります。</p><p>また、運動の時間がつくれない人、運動がしたくても取り組み方法がわからない人でも取り組むことができる、ウォーキングや健康体操など「日常生活にとけ込む運動」の普及を図ります。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">地域スポーツ活動を担う人材の育成および活用</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>地域活動や学校教育などと連携を図りながら、日野町少年少女ミニスポーツ教室やわたむきジュニアスポーツクラブなど、子どもたちへのスポーツ教室等を継続して実施します。また、各種スポーツ団体と連携しながら、家族等で参加できる教室を実施するなど、人材育成事業に取り組むとともに、競技団体を通じて新たな指導者等の育成を支援します。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">スポーツにおける功績者等の表彰</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>競技団体や学校、企業等と連携し、国内外で活躍する当町出身の選手の優れた成果を賞讃・周知するとともに、あこがれや希望を抱けるようなアスリートとの交流機会を創出することによって住民のスポーツに対する意識向上を図ります。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-shogai-g4">(4) 協働による芸術文化活動を振興する</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">質の高い文化芸術に触れ、豊かな心や感受性を育むため、町民会館わたむきホール虹を活用した文化芸術事業の充実を図るとともに、日野ならではの伝統ある「合唱」の取り組みを継続します。また、幼少期や小中学校の学校教育においても文化芸術活動を通して創造性や感性を磨くとともに、公民館を拠点とした自主的な文化活動を支援し、豊かな人間性を育みます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">文化施設の活用および充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>優れた文化施設である町民会館わたむきホール虹は、文化活動の場であり、心豊かな生活を実現するとともに、創造性を育み、町民が交流する拠点となります。文化施設のもつ機能が十分に発揮されるよう適切な維持管理を行い、指定管理者制度など民間活力を生かした事業の充実および施設の活用と利用促進に取り組みます。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">文化芸術の振興</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>日野町文化協会と連携した少年少女カルチャー教室の実施による伝統文化等の普及を図るとともに、町民会館わたむきホール虹や公民館などを活用した町民主体の各種の文化芸術事業の充実を推進します。また、本町がこれまで推進してきた、町民との協働を基本とし、町民の横のつながりを生み出し、ともに学び合える文化事業の充実に取り組むとともに、子どもたちが小さなころから文化芸術に親しみ続けられるよう指導者等の育成を支援します。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">文化芸術振興における功績者等の表彰</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>文化団体や学校、企業等と連携し、国内外で活躍する当町出身の芸術家の優れた成果を賞讃・周知するとともに、あこがれや希望を抱けるような芸術家との交流機会を創出することによって住民の文化芸術に対する意識向上を図ります。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-shogai-g5">(5) 日野ならではの生涯学習の推進</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">日野町には先人たちが大切に紡いできた自然や文化財があふれています。これらの文化財を「たから」ととらえ、次世代に保存・活用するとともに、町民の日野町に対する誇りや愛着を醸成し、まちづくりに役立てられるよう努めます。
+また、日野ならではの自然・歴史・文化についての学びを通じ、明日の日野町を担う人材の育成に努めます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">町の歴史文化資源を生かす取り組みの推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>町史編さん事業を通じて収集した史資料を近江日野商人館・近江日野商人ふるさと館で適切に保存・活用するとともに、日野まちかど感応館と連携して日野の歴史文化の情報発信を行います。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">文化財の保存・継承・活用</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>文化財の保存修理事業を適正に進めるとともに、地域住民や文化団体が実施する歴史文化資源を活用した取り組みへの協力・支援を行い、文化財の活用を図ります。また、文化財保存活用地域計画を策定することを念頭に、地域社会総がかりで文化財を次世代へ継承する取り組みを進めます。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">ふるさと学習の充実</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>地域・学校と協働し、身近な暮らしや生活文化のなかにちりばめられた日野ならではの自然・歴史・文化の学びの場を充実させ、次世代を担う人材育成を図ります。</p></div></details></div></div><div class="pgroup"><div class="phead" id="sec-shogai-g6">(6) 読書活動の普及拡大</div><div class="psub"> 施策の方向性と主な取り組み</div><div class="pintro"><div class="pintro-item"><div class="pih">施策の方向性</div><div class="pib">読書により得られるものは情緒豊かな人間形成に欠くことのできないものであり、子どものころから信頼できる情報源として辞書類などから文字情報を活用する力を身につけることは、生涯にわたり必要なものであるとともに、生きる力の基本となるものです。
+日野町では図書館を中心として、様々な機会を通じてあらゆる世代への読書活動の推進を行い、今後も読書への理解と習慣化を進めるサービスを実施していきます。特に子ども時代に読書習慣をつけることが重要であるとし、「日野町子ども読書活動推進計画」を策定し、子どもの読書活動を活発にするための指標と目標数値を定め、事業を展開していきます。</div></div></div><div class="pgrid"><details class="ev evd"><summary><span class="no">①</span><div class="etwrap"><div class="et">学校における子ども読書活動の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>子どもたちの読書活動を活発にするために学校司書を配置して学校図書館の環境整備を担当の教師とともに進めています。各小・中学校への学校司書の配置は、図書館と学校との連携事業として特長的なものであり、学校図書館利用促進や授業での図書の活用に成果をあげていることから今後も継続していきます。</p></div></details><details class="ev evd"><summary><span class="no">②</span><div class="etwrap"><div class="et">町立図書館における読書環境の整備</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>町立図書館では、豊富な資料を蔵書としてもち、貸出しや予約・リクエストサービス、レファレンスサービス、移動図書館サービスなどによる資料提供により、すべての町民の知る自由・学ぶ権利を保障しています。また、システム更新により図書館ホームページを使いやすくし、図書館に来館しなくても本の検索やリクエスト、行事のおしらせ、よく聞かれる質問への回答、図書館の運営状態がわかるデータ類を見られるようにしています。</p><p>これからも「第4次日野町子ども読書活動推進計画」のほか、「日野町立図書館運営計画」を策定しすべての町民を対象とした読書活動推進事業を展開していきます。</p></div></details><details class="ev evd"><summary><span class="no">③</span><div class="etwrap"><div class="et">家庭や地域における子ども読書活動の推進</div></div><span class="caret" aria-hidden="true"></span></summary><div class="edesc"><p>2018（平成30）年度より毎月第3日曜日を「親子読書の日」とし、家族に向け啓発活動をしています。また多くの園や学校で定例的に「親子読書の日」を実施しており、さらに積極的に家族で読書を楽しむよう働きかけていきます。</p></div></details></div></div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.22-26</div><div><div class="b-note"><span>柱3の（7）学びの場作り（つどう・まなぶ・むすぶ）は、公民館・図書館などの施設ごとの取り組みです。「学びの場」タブにまとめています。</span></div></div></section><section class="panel" role="tabpanel" data-panel="manabiba"><div><div class="b-heading"><h2>（7）学びの場作り（つどう・まなぶ・むすぶ）</h2><div class="sub">柱3 公民館・図書館・文化施設ごとの取り組み</div></div></div><div><nav class="b-toc"><a href="#sec-manabiba-1">日野町立公民館</a><a href="#sec-manabiba-2">日野町立図書館</a><a href="#sec-manabiba-3">町民会館わたむきホール虹</a><a href="#sec-manabiba-4">日野町歴史民俗資料館</a><a href="#sec-manabiba-5">近江日野商人ふるさと館「旧山中正吉邸」</a></nav></div><div id="sec-manabiba-1"><div class="b-heading"><h2>日野町立公民館</h2></div></div><div><div class="b-narrative"><p>住民の身近な生涯学習の場と人づくり・地域づくりの拠点である公民館は、「つどう」「まなぶ」「むすぶ」ことを促し、住民が協力・協働する地域の家であり、心の広場です。</p><p>誰もが気軽に立ち寄れる居場所としての公民館を目指し、住民の社会活動を豊かにするため、住民意識を的確にとらえ、地域課題の解決に向けて、心豊かで活力に満ちた人づくり・地域づくりの推進に努めます。</p></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.26-27</div><div><div class="b-bigstat"><span class="v num">7</span><span class="u">館</span><span class="l">町内の地区公民館</span><div class="d">住民の力による住民自らの自主的な公民館活動が続けられています。</div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.22</div><div><div class="b-aims"><div class="aim"><span class="no">①</span><div><div class="t">誰もが気軽に立ち寄れる開かれた公民館</div><div class="d">地域住民が主体となった協働の取り組み拠点となるよう、誰もが気軽に立ち寄れる開かれた公民館を目指します。</div></div></div><div class="aim"><span class="no">②</span><div><div class="t">自己向上の願いが叶う学びを大事にする公民館</div><div class="d">現代的課題や地域課題を含めた住民の学習要求に基づく講座・講演会などの実施や、文化・スポーツ活動・健康づくりを推進します。</div></div></div><div class="aim"><span class="no">③</span><div><div class="t">人づくり・地域づくり・仲間づくりに貢献できるリーダーが育つ公民館</div><div class="d">すべての世代における社会教育関係団体や学習グループ・サークルを支援し、次世代を担う地域のリーダーが育つ環境を整えるとともに、公民館職員および関係者の資質向上に努めます。</div></div></div><div class="aim"><span class="no">④</span><div><div class="t">互いの絆が実感でき、人の温かさと心配りが伝わる公民館</div><div class="d">人権が尊重される「人権と福祉のまちづくり」を目指し、ともに支え合う協力、協働の地域づくりの拠点となる公民館を目指します。</div></div></div><div class="aim"><span class="no">⑤</span><div><div class="t">学校・家庭・地域の連携を推進する公民館</div><div class="d">学校・家庭・地域・各種関係団体との連携による地域・家庭の教育力の向上を進めるとともに、住民の安全・安心を確保するための防災拠点として関係機関との連絡・調整を進めます。</div></div></div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.27</div><div id="sec-manabiba-2"><div class="b-heading"><h2>日野町立図書館</h2></div></div><div><div class="b-narrative"><p>図書館は以下の理念を基本に、住民のための図書館運営に努め、資料の貸出しや読書相談、行事を通じて利用の拡大を図り、暮らしに役立つ図書館の実現を目指します。</p></div></div><div><div class="b-bullets"><div class="t">① 図書館の基本理念</div><ul><li>図書館は、必要な資料情報を自由に手にいれることができる場を提供します。</li><li>図書館は、人と人との出会いやさまざまな文化に接することができる場を提供します。</li><li>図書館は住民の暮らしにやすらぎと潤いを感じることができる場を提供します。</li></ul></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.27</div><div><div class="b-aims"><div class="aim"><div><div class="t">幅広い分野での資料の充実と蔵書の更新</div><div class="d">住民の求める資料の収集と更新を計画的に進めます。また、郷土資料の充実に努めます。</div></div></div><div class="aim"><div><div class="t">図書館サービスの向上</div><div class="d">住民の読書要求に確実に応えるために、レファレンスサービス（相談・調査・照会）の充実に努めます。また、利用しやすい図書館をめざし、情報の発信に努めます。</div></div></div><div class="aim"><div><div class="t">子どもを取り巻く読書環境の整備</div><div class="d">学校・園およびボランティアグループと連携しながら、子どもと本のよい出会いの実現に努めます。</div></div></div></div></div><div><div class="b-note"><span>上の3項目は「② 図書館の基本方針」です。図書館はこの基本方針に基づき運営し、読書環境とサービスの向上に努めます。</span></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.28</div><div id="sec-manabiba-3"><div class="b-heading"><h2>町民会館わたむきホール虹</h2></div></div><div><div class="b-narrative"><p>日野町の文化の殿堂である「町民会館わたむきホール虹」は、高度な機能をもつ施設や質の高い設備を住民に提供するだけでなく、日野町における文化の向上と芸術の振興を図るための拠点施設としての機能をもちます。その設置の効果を最大限に生かすために、指定管理者制度を採用したなかで、以下の事業に取り組みます。</p></div></div><div><div class="b-bullets"><ul><li>①少年少女カルチャー教室をはじめ、幅広い年齢層を対象とした質の高い文化芸術を提供します。</li><li>②住民の自主的な文化芸術活動の普及のため、発表の場や参加の機会を提供します。</li><li>③各団体やサークル同士の交流・連携を進めることにより、文化芸術活動の向上を図ります。</li></ul></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.28</div><div id="sec-manabiba-4"><div class="b-heading"><h2>日野町歴史民俗資料館</h2></div></div><div><div class="b-narrative"><p>近江日野商人館は、郷土の文化財の収集・保存・展示活動を通じ、郷土文化の向上および教育・学術の発展を図るために設置しています。その目的を達成するため、以下の事業に取り組みます。</p></div></div><div><div class="b-bullets"><ul><li>①郷土の歴史、芸術、民俗、産業、科学等郷土の文化に関する資料の収集、保存、展示および調査研究を行います。</li><li>②教育的役割（学校教育・生涯学習、企業研修）と観光的役割の両面に配慮するとともに、専門家から小中学生に至るまで、幅広い需要に応えられる資料館づくりに努めます。</li><li>③常設展「天下に躍動した関東兵衛」の展示内容を充実させるとともに、企画展を年間数回開催し、日野の歴史文化の情報発信に努めます。</li><li>④日野商人の経営理念をテーマとした企業研修を充実させます。</li></ul></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.28</div><div id="sec-manabiba-5"><div class="b-heading"><h2>近江日野商人ふるさと館「旧山中正吉邸」</h2></div></div><div><div class="b-narrative"><p>近江日野商人ふるさと館は、日野に関する史資料の保存・活用・情報発信を行うとともに、歴史文化の体験・交流を通じたまちづくりを行う拠点として設置しています。その目的を達成するため、以下の事業に取り組みます。</p></div></div><div><div class="b-bullets"><ul><li>①町指定の有形文化財（建造物）に指定されている日野商人の代表的な本宅建築として、適切に保存・公開し、後世に継承します。</li><li>②町史編さん事業を通じて寄贈・寄託を受けた古文書約45,000点を適切な環境で保管するとともに、多様なテーマで展示・公開し、町の歴史文化の情報発信に努めます。</li><li>③食体験事業を中心として、歴史文化に関する研修や交流の場、伝統的な日本家屋の暮らしぶりにふれあう場として施設を提供します。</li></ul></div></div><div><div class="b-bigstat"><span class="v num">45,000</span><span class="u">点</span><span class="l">町史編さん事業を通じて寄贈・寄託を受けた古文書（約）</span><div class="d">原典の表記は「約45,000点」。適切な環境で保管し、多様なテーマで展示・公開します。</div></div></div><div class="src">第3期 日野町教育振興基本計画（令和2年3月） p.29</div></section>
+  <footer class="foot">
+    <h2>出典・原典資料</h2>
+    <ul><li>第3期 日野町教育振興基本計画（令和2年3月）（<a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000005/5265/dai3ki(2020).pdf" target="_blank" rel="noopener">リンク</a>）</li></ul>
+    <p class="contact">お問い合わせ：日野町教育委員会</p>
+    <div class="disclaim">このページは公表資料をもとに要点をまとめた<b>非公式</b>のダッシュボードです。
+    図表は原典の数値から機械的に描画しています。正式な内容は
+    <a href="https://www.town.shiga-hino.lg.jp/0000005265.html" target="_blank" rel="noopener">日野町の公式ページ（外部サイト）</a>でご確認ください。</div>
+  </footer>
+</div>
+<script>
+/* runtime.js — 共通ランタイム(タブ切替のみ)。冪等・依存ゼロ。 */
+(function(){
+  "use strict";
+  var roots = document.querySelectorAll('.hpv1[data-hp-root]');
+  roots.forEach(function(root){
+    if (root.dataset.hpInit) return;      /* 再実行に対して冪等 */
+    root.dataset.hpInit = '1';
+    var tabs = root.querySelectorAll('.tab');
+    var panels = root.querySelectorAll('.panel');
+    function select(id){
+      tabs.forEach(function(t){ t.setAttribute('aria-selected', String(t.dataset.tab === id)); });
+      panels.forEach(function(p){ p.classList.toggle('active', p.dataset.panel === id); });
+      if (history.replaceState) history.replaceState(null, '', '#' + id);
+    }
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ select(t.dataset.tab); });
+    });
+    var h = location.hash.replace('#','');
+    if (h && root.querySelector('.panel[data-panel="' + h.replace(/[^a-z0-9_-]/g,'') + '"]')) select(h);
+  });
+})();
+
+</script>
+</body>
+</html>

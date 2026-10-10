@@ -1,0 +1,993 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+491be6b75b4fd84d	summary	1	kpi		幼稚園の定員に対する充足率	28.0	%	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+c6768c9fb5e7a62c	summary	1	kpi		保育所の定員に対する充足率	98.0	%	honpen p.8	✓	auto:ai	2026-10-10	
+711c6e1c92c55070	summary	1	kpi		こども園の定員に対する充足率	70.0	%	honpen p.8	✓	auto:ai	2026-10-10	
+ad79d02122d2e5db	summary	2	kpi		待機児童数	3	人	honpen p.9				要人確認:H1 A=一致/中 B=一致/中
+eb0711f3cc53991e	summary	3	kpi		町立施設の施設面積計	6318	㎡	honpen p.33	✓	auto:ai	2026-10-10	
+6de697b8c6ccdb96	summary	3	kpi		再編後の施設面積計	4525	㎡	honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+729042a58f048152	summary	3	kpi		新設の幼保連携型認定こども園	3000	㎡	honpen p.33				要人確認:H1 A=一致/中 B=一致/中
+ecbc6b297b50b4ea	saihen	4	table	町立幼児教育保育施設の再編整備について	西大路幼稚園/延床面積(㎡)	531		honpen p.25				要人確認:H2 値が文字データにない
+ef3d15f82db4cc9e	saihen	4	table	町立幼児教育保育施設の再編整備について	こばと園/延床面積(㎡)	810		honpen p.25				要人確認:H2 値が文字データにない
+d05eb1f8c4f15f21	saihen	4	table	町立幼児教育保育施設の再編整備について	あおぞら園鎌掛分園/延床面積(㎡)	408		honpen p.25				要人確認:H2 値が文字データにない
+d9ebac790ee7d43f	saihen	4	table	町立幼児教育保育施設の再編整備について	南比都佐幼稚園/延床面積(㎡)	676		honpen p.25				要人確認:H2 値が文字データにない
+8afeb25048bf813e	saihen	4	table	町立幼児教育保育施設の再編整備について	あおぞら園/延床面積(㎡)	706		honpen p.25				要人確認:H2 値が文字データにない
+dec46577c64c0289	saihen	4	table	町立幼児教育保育施設の再編整備について	日野幼稚園/延床面積(㎡)	1043		honpen p.25				要人確認:H2 値が文字データにない
+5eb297d2db5f8f37	saihen	4	table	町立幼児教育保育施設の再編整備について	必佐幼稚園/延床面積(㎡)	1160		honpen p.25				要人確認:H2 値が文字データにない
+09386395c093a310	saihen	4	table	町立幼児教育保育施設の再編整備について	桜谷こども園 第1園舎(旧幼稚園)/延床面積(㎡)	469		honpen p.25				要人確認:H2 値が文字データにない
+c7f498885d891efa	saihen	4	table	町立幼児教育保育施設の再編整備について	桜谷こども園 第2園舎(旧保育所)/延床面積(㎡)	515		honpen p.25				要人確認:H2 値が文字データにない
+4c6cc2473e9eeb28	saihen	5	figure	施設ごとの整備方針	日野町幼稚園・保育園・認定こども園 配置図(令和6年9月30日時点)	youho_map.jpg		honpen p.22				要人確認:H2 数値でない
+f745a33cda08bbe7	schedule	4	timeline	施設ごとの移行の時期	全施設で地区説明会・保護者説明会を実施	R6		honpen p.32				要人確認:H2 数値でない
+a472de268fa270ee	schedule	4	timeline	施設ごとの移行の時期	保育所あおぞら園鎌掛分園: 民間運営による地域型保育(小規模保育事業)施設として開設	R7		honpen p.32				要人確認:H2 数値でない
+4094cee61a6a7ab1	schedule	4	timeline	施設ごとの移行の時期	西大路幼稚園: 子育て支援施設・学童保育所の拠点として移行	R8		honpen p.32				要人確認:H2 数値でない
+a5a26efc3b4bd168	schedule	4	timeline	施設ごとの移行の時期	南比都佐幼稚園: 民間運営による地域型保育(小規模保育事業)施設としての整備を検討	R8		honpen p.32				要人確認:H2 数値でない
+00270a09cca79c38	schedule	4	timeline	施設ごとの移行の時期	南比都佐幼稚園: 民間運営による地域型保育(小規模保育事業)施設としての開設を目指す	R9		honpen p.32				要人確認:H2 数値でない
+074a3fd04421f3b4	schedule	4	timeline	施設ごとの移行の時期	桜谷こども園第2園舎: 令和9年度にかけて小規模な幼保連携型認定こども園への移行を検討	R9		honpen p.32				要人確認:H2 数値でない
+7e162144ae1a7294	schedule	4	timeline	施設ごとの移行の時期	桜谷こども園第2園舎: 小規模な幼保連携型認定こども園としての開設を目指す	R10		honpen p.32				要人確認:H2 数値でない
+3d59e99cb3fab901	schedule	4	timeline	施設ごとの移行の時期	保育所こばと園: 幼保連携型認定こども園への移行準備	R10		honpen p.32				要人確認:H2 数値でない
+06460ab095dabc1a	schedule	4	timeline	施設ごとの移行の時期	保育所こばと園: 幼保連携型認定こども園としての開設を目指す	R11		honpen p.32				要人確認:H2 数値でない
+22086608d33aa521	schedule	4	timeline	施設ごとの移行の時期	あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎: 新設幼保連携型認定こども園としての開設を目指す	R11		honpen p.32				要人確認:H2 数値でない
+e59718a86897425d	schedule	8	table	町立施設の施設面積計の推移	R6(現有施設)/施設面積計(㎡)	6318		honpen p.33	✓	auto:ai	2026-10-10	
+d45d88e5bbb6d178	schedule	8	table	町立施設の施設面積計の推移	R7/施設面積計(㎡)	5910		honpen p.33	✓	auto:ai	2026-10-10	
+e855f1cce01cd5d9	schedule	8	table	町立施設の施設面積計の推移	R8/施設面積計(㎡)	5379		honpen p.33	✓	auto:ai	2026-10-10	
+0b65513d72947067	schedule	8	table	町立施設の施設面積計の推移	R9/施設面積計(㎡)	4703		honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+d9bc5720a14c0651	schedule	8	table	町立施設の施設面積計の推移	R11/施設面積計(㎡)	4525		honpen p.33	✓	auto:ai	2026-10-10	
+a638d4361c783703	schedule	8	table	町立施設の施設面積計の推移	R12以降/施設面積計(㎡)	4525		honpen p.33	✓	auto:ai	2026-10-10	
+968e80230828deea	schedule	8	table	町立施設の施設面積計の推移	R12以降のR6からの増減/施設面積計(㎡)	-1793		honpen p.33				要人確認:H1 A=一致/中 B=一致/中
+93b21d74f94462e3	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	日野幼稚園/定員(人)	180		honpen p.8	✓	auto:ai	2026-10-10	
+c3e0602f8187a9d1	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	日野幼稚園/園児在籍数(人)	69		honpen p.8	✓	auto:ai	2026-10-10	
+8dda84452560c0f5	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	日野幼稚園/うち預かり保育数(人)	30		honpen p.8	✓	auto:ai	2026-10-10	
+c153a0c56b6f8280	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	日野幼稚園/定員に対する充足率(%)	38.3		honpen p.8	✓	auto:ai	2026-10-10	
+2d7296c71c10a984	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	日野幼稚園/建築経過年数(年)	40		honpen p.8	✓	auto:ai	2026-10-10	
+20922b5c31a4ffdd	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	西大路幼稚園/定員(人)	90		honpen p.8	✓	auto:ai	2026-10-10	
+4f403279b3561daa	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	西大路幼稚園/園児在籍数(人)	10		honpen p.8	✓	auto:ai	2026-10-10	
+16e71dfa13faf528	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	西大路幼稚園/定員に対する充足率(%)	11.1		honpen p.8	✓	auto:ai	2026-10-10	
+082fcaed4f5c101c	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	西大路幼稚園/建築経過年数(年)	35		honpen p.8	✓	auto:ai	2026-10-10	
+baca35035b070312	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	南比都佐幼稚園/定員(人)	90		honpen p.8	✓	auto:ai	2026-10-10	
+aba57112ea9a4563	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	南比都佐幼稚園/園児在籍数(人)	11		honpen p.8	✓	auto:ai	2026-10-10	
+e7e91e7ae2ef5d1a	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	南比都佐幼稚園/定員に対する充足率(%)	12.2		honpen p.8	✓	auto:ai	2026-10-10	
+966408d09119a923	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	南比都佐幼稚園/建築経過年数(年)	42		honpen p.8	✓	auto:ai	2026-10-10	
+359d714a2dba87d4	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	必佐幼稚園/定員(人)	180		honpen p.8	✓	auto:ai	2026-10-10	
+bde2970965aa29c1	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	必佐幼稚園/園児在籍数(人)	61		honpen p.8	✓	auto:ai	2026-10-10	
+20913ec7d12499ae	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	必佐幼稚園/うち預かり保育数(人)	29		honpen p.8	✓	auto:ai	2026-10-10	
+38eb50e88c42f3ee	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	必佐幼稚園/定員に対する充足率(%)	33.9		honpen p.8	✓	auto:ai	2026-10-10	
+c372c7e6be794fd1	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	必佐幼稚園/建築経過年数(年)	42		honpen p.8	✓	auto:ai	2026-10-10	
+7f91cbb55729b7e1	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	桜谷こども園/定員(人)	120		honpen p.8	✓	auto:ai	2026-10-10	
+6fbbef638a07e502	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	桜谷こども園/園児在籍数(人)	84		honpen p.8	✓	auto:ai	2026-10-10	
+bff1c62bd46ddeac	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	桜谷こども園/定員に対する充足率(%)	70.0		honpen p.8	✓	auto:ai	2026-10-10	
+2bbb095d42d8e235	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	桜谷こども園/建築経過年数(年)	35		honpen p.8	✓	auto:ai	2026-10-10	
+d86f705de5341fd9	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	あおぞら園/定員(人)	75		honpen p.8	✓	auto:ai	2026-10-10	
+ed276f7fcd3224f4	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	あおぞら園/園児在籍数(人)	82		honpen p.8	✓	auto:ai	2026-10-10	
+21bdd1c0ae467dc1	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	あおぞら園/定員に対する充足率(%)	109.3		honpen p.8	✓	auto:ai	2026-10-10	
+32452e561a4538a5	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	あおぞら園/建築経過年数(年)	37		honpen p.8	✓	auto:ai	2026-10-10	
+a501c7a1a09298ef	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	こばと園/定員(人)	90		honpen p.8	✓	auto:ai	2026-10-10	
+db7b54e32ae9ba01	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	こばと園/園児在籍数(人)	89		honpen p.8	✓	auto:ai	2026-10-10	
+9b8e64cb750c40dd	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	こばと園/定員に対する充足率(%)	98.9		honpen p.8	✓	auto:ai	2026-10-10	
+99303fca7ba04698	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	こばと園/建築経過年数(年)	9		honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+a460c610178d732b	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	わらべ保育園/定員(人)	90		honpen p.8	✓	auto:ai	2026-10-10	
+fa1b8436617658e7	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	わらべ保育園/園児在籍数(人)	80		honpen p.8	✓	auto:ai	2026-10-10	
+4191fad0040c8b0b	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	わらべ保育園/定員に対する充足率(%)	88.9		honpen p.8	✓	auto:ai	2026-10-10	
+f3af700c140940c2	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	わらべ保育園/建築経過年数(年)	27		honpen p.8	✓	auto:ai	2026-10-10	
+a043e277424d9da1	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	第二わらべ保育園/定員(人)	80		honpen p.8	✓	auto:ai	2026-10-10	
+cf63d8e6cf2cd033	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	第二わらべ保育園/園児在籍数(人)	77		honpen p.8	✓	auto:ai	2026-10-10	
+827dcf3b695e0e31	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	第二わらべ保育園/定員に対する充足率(%)	96.2		honpen p.8	✓	auto:ai	2026-10-10	
+e8186c0dcc3476a0	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	第二わらべ保育園/建築経過年数(年)	11		honpen p.8	✓	auto:ai	2026-10-10	
+3534c16962817fca	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/定員(人)	19		honpen p.8	✓	auto:ai	2026-10-10	
+5853991c6a5f79d5	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/園児在籍数(人)	19		honpen p.8	✓	auto:ai	2026-10-10	
+0d50bdb1c5efc423	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/定員に対する充足率(%)	100.0		honpen p.8	✓	auto:ai	2026-10-10	
+7aed5aeb6d3be1db	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/建築経過年数(年)	35		honpen p.8	✓	auto:ai	2026-10-10	
+6caac78dbf98f89c	genjo	4	table	日野町の待機児童数の推移	H30.4/①求職活動を中止している方	0		honpen p.9	✓	auto:ai	2026-10-10	
+45b35e7fdd94b80d	genjo	4	table	日野町の待機児童数の推移	H30.4/②特定の保育園等を希望している方	0		honpen p.9	✓	auto:ai	2026-10-10	
+4236b3d2d1e41f5b	genjo	4	table	日野町の待機児童数の推移	H30.4/③育児休業中の方	4		honpen p.9	✓	auto:ai	2026-10-10	
+a984a5f0c5503dba	genjo	4	table	日野町の待機児童数の推移	H30.4/小計(①+②+③)	4		honpen p.9	✓	auto:ai	2026-10-10	
+a61e2e6199fc30ea	genjo	4	table	日野町の待機児童数の推移	H30.4/待機児童数	1		honpen p.9	✓	auto:ai	2026-10-10	
+1698b1458ab6f517	genjo	4	table	日野町の待機児童数の推移	H31.4/①求職活動を中止している方	0		honpen p.9	✓	auto:ai	2026-10-10	
+c668b642fda0f2f1	genjo	4	table	日野町の待機児童数の推移	H31.4/②特定の保育園等を希望している方	0		honpen p.9	✓	auto:ai	2026-10-10	
+80515051c1d7f142	genjo	4	table	日野町の待機児童数の推移	H31.4/③育児休業中の方	2		honpen p.9	✓	auto:ai	2026-10-10	
+d3c3bc237e709efc	genjo	4	table	日野町の待機児童数の推移	H31.4/小計(①+②+③)	2		honpen p.9	✓	auto:ai	2026-10-10	
+47f2be7fb87d0fe7	genjo	4	table	日野町の待機児童数の推移	H31.4/待機児童数	1		honpen p.9	✓	auto:ai	2026-10-10	
+13c58d22797d80c7	genjo	4	table	日野町の待機児童数の推移	R2.4/①求職活動を中止している方	0		honpen p.9	✓	auto:ai	2026-10-10	
+24c0ce729c8ad810	genjo	4	table	日野町の待機児童数の推移	R2.4/②特定の保育園等を希望している方	0		honpen p.9	✓	auto:ai	2026-10-10	
+800d2ec4153dbc23	genjo	4	table	日野町の待機児童数の推移	R2.4/③育児休業中の方	7		honpen p.9	✓	auto:ai	2026-10-10	
+712b45df54f43bb1	genjo	4	table	日野町の待機児童数の推移	R2.4/小計(①+②+③)	7		honpen p.9	✓	auto:ai	2026-10-10	
+d6346496c2f0727b	genjo	4	table	日野町の待機児童数の推移	R2.4/待機児童数	2		honpen p.9	✓	auto:ai	2026-10-10	
+ed6b03db98d32bc6	genjo	4	table	日野町の待機児童数の推移	R3.4/①求職活動を中止している方	1		honpen p.9	✓	auto:ai	2026-10-10	
+bdd2b5c28cafcbd5	genjo	4	table	日野町の待機児童数の推移	R3.4/②特定の保育園等を希望している方	13		honpen p.9	✓	auto:ai	2026-10-10	
+b2eae60e60b6562b	genjo	4	table	日野町の待機児童数の推移	R3.4/③育児休業中の方	10		honpen p.9	✓	auto:ai	2026-10-10	
+1d6b87d3e586dbee	genjo	4	table	日野町の待機児童数の推移	R3.4/小計(①+②+③)	24		honpen p.9	✓	auto:ai	2026-10-10	
+6da480683ba72eb7	genjo	4	table	日野町の待機児童数の推移	R3.4/待機児童数	3		honpen p.9	✓	auto:ai	2026-10-10	
+01bbb4a38a4757c8	genjo	4	table	日野町の待機児童数の推移	R4.4/①求職活動を中止している方	2		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+196b3a7b621ba85c	genjo	4	table	日野町の待機児童数の推移	R4.4/②特定の保育園等を希望している方	7		honpen p.9	✓	auto:ai	2026-10-10	
+4e4f2ae675b8f91d	genjo	4	table	日野町の待機児童数の推移	R4.4/③育児休業中の方	7		honpen p.9	✓	auto:ai	2026-10-10	
+3c22dd06a66b562e	genjo	4	table	日野町の待機児童数の推移	R4.4/小計(①+②+③)	16		honpen p.9	✓	auto:ai	2026-10-10	
+f8de15d32a0b2956	genjo	4	table	日野町の待機児童数の推移	R4.4/待機児童数	6		honpen p.9	✓	auto:ai	2026-10-10	
+9fbf28ac73217943	genjo	4	table	日野町の待機児童数の推移	R5.4/①求職活動を中止している方	1		honpen p.9	✓	auto:ai	2026-10-10	
+e71b8db26a1ab342	genjo	4	table	日野町の待機児童数の推移	R5.4/②特定の保育園等を希望している方	13		honpen p.9	✓	auto:ai	2026-10-10	
+08d68d651a0764fc	genjo	4	table	日野町の待機児童数の推移	R5.4/③育児休業中の方	20		honpen p.9	✓	auto:ai	2026-10-10	
+1f7772b36c29931f	genjo	4	table	日野町の待機児童数の推移	R5.4/小計(①+②+③)	34		honpen p.9	✓	auto:ai	2026-10-10	
+be4977db9f750459	genjo	4	table	日野町の待機児童数の推移	R5.4/待機児童数	4		honpen p.9	✓	auto:ai	2026-10-10	
+b9dd9f3dc7d26be8	genjo	4	table	日野町の待機児童数の推移	R6.4/①求職活動を中止している方	3		honpen p.9	✓	auto:ai	2026-10-10	
+63b7cc8f82d4e6ec	genjo	4	table	日野町の待機児童数の推移	R6.4/②特定の保育園等を希望している方	15		honpen p.9	✓	auto:ai	2026-10-10	
+6c3f65236a26f666	genjo	4	table	日野町の待機児童数の推移	R6.4/③育児休業中の方	16		honpen p.9	✓	auto:ai	2026-10-10	
+97dd83586351303f	genjo	4	table	日野町の待機児童数の推移	R6.4/小計(①+②+③)	34		honpen p.9	✓	auto:ai	2026-10-10	
+7f588ff28887d3d8	genjo	4	table	日野町の待機児童数の推移	R6.4/待機児童数	8		honpen p.9	✓	auto:ai	2026-10-10	
+e887afb8042289e2	genjo	4	table	日野町の待機児童数の推移	R7.4/①求職活動を中止している方	2		honpen p.9	✓	auto:ai	2026-10-10	
+12f57a9b9faab8be	genjo	4	table	日野町の待機児童数の推移	R7.4/②特定の保育園等を希望している方	2		honpen p.9	✓	auto:ai	2026-10-10	
+04f1daf327cddc08	genjo	4	table	日野町の待機児童数の推移	R7.4/③育児休業中の方	11		honpen p.9	✓	auto:ai	2026-10-10	
+3a044c25b37b89b0	genjo	4	table	日野町の待機児童数の推移	R7.4/小計(①+②+③)	15		honpen p.9	✓	auto:ai	2026-10-10	
+5e3cbc58274da9ff	genjo	4	table	日野町の待機児童数の推移	R7.4/待機児童数	3		honpen p.9	✓	auto:ai	2026-10-10	
+f86682ee63cfd52d	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H24	315	人	honpen p.7	✓	auto:ai	2026-10-10	
+d63679ef47bf0e7b	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H25	330	人	honpen p.7	✓	auto:ai	2026-10-10	
+412fe2b7fb8f643a	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H26	362	人	honpen p.7	✓	auto:ai	2026-10-10	
+983a71cbb20312e8	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H27	394	人	honpen p.7	✓	auto:ai	2026-10-10	
+66ba596ebd4852cd	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H28	427	人	honpen p.7	✓	auto:ai	2026-10-10	
+61815ce258bff587	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H29	439	人	honpen p.7	✓	auto:ai	2026-10-10	
+a35d8b34ba8b9830	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H30	426	人	honpen p.7	✓	auto:ai	2026-10-10	
+69291e766d951c69	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H31	424	人	honpen p.7	✓	auto:ai	2026-10-10	
+52d4746b2d0740a9	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/R2	443	人	honpen p.7	✓	auto:ai	2026-10-10	
+3e0cd61a27025aaf	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/R3	426	人	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+b566bccf7a5fe235	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/R4	418	人	honpen p.7	✓	auto:ai	2026-10-10	
+9d77c00ce017bfc0	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/R5	411	人	honpen p.7	✓	auto:ai	2026-10-10	
+7725e371ab999f53	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/R6	422	人	honpen p.7	✓	auto:pdftext	2026-10-10	
+56e0527b88d706b6	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H24	353	人	honpen p.7	✓	auto:ai	2026-10-10	
+b88212ccc00fb6f4	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H25	337	人	honpen p.7	✓	auto:ai	2026-10-10	
+198b5b9fb654ec51	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H26	327	人	honpen p.7	✓	auto:ai	2026-10-10	
+05f452198867b4d9	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H27	317	人	honpen p.7	✓	auto:ai	2026-10-10	
+7dab3e94a1d143f0	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H28	282	人	honpen p.7	✓	auto:ai	2026-10-10	
+94c9709f3f5a42a1	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H29	241	人	honpen p.7	✓	auto:ai	2026-10-10	
+40d508d2ef40f50b	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H30	281	人	honpen p.7	✓	auto:ai	2026-10-10	
+d7c1d3ae3c21f0c0	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/H31	272	人	honpen p.7	✓	auto:ai	2026-10-10	
+940a850bdeda7e7d	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/R2	256	人	honpen p.7	✓	auto:ai	2026-10-10	
+bb7197f46f3b0461	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/R3	227	人	honpen p.7	✓	auto:ai	2026-10-10	
+52b211d5304911c2	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/R4	210	人	honpen p.7	✓	auto:ai	2026-10-10	
+703622d187b8fbf5	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/R5	189	人	honpen p.7	✓	auto:ai	2026-10-10	
+dbdc17f913fec030	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	幼稚園入所者数/R6	173	人	honpen p.7	✓	auto:pdftext	2026-10-10	
+5e634291ce7d5b79	genjo	7	chart.bars	出生数の推移	H24	190	人	honpen p.7	✓	auto:ai	2026-10-10	
+a673a9a38ab2dccd	genjo	7	chart.bars	出生数の推移	H25	159	人	honpen p.7	✓	auto:ai	2026-10-10	
+a7da708299ae7d1e	genjo	7	chart.bars	出生数の推移	H26	190	人	honpen p.7	✓	auto:ai	2026-10-10	
+63ba7a219263fe51	genjo	7	chart.bars	出生数の推移	H27	173	人	honpen p.7	✓	auto:ai	2026-10-10	
+459cc4b876e78abd	genjo	7	chart.bars	出生数の推移	H28	160	人	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d3eaadea6984fcf4	genjo	7	chart.bars	出生数の推移	H29	144	人	honpen p.7	✓	auto:ai	2026-10-10	
+50ce33f10246c11e	genjo	7	chart.bars	出生数の推移	H30	165	人	honpen p.7	✓	auto:ai	2026-10-10	
+ec077451667be5f3	genjo	7	chart.bars	出生数の推移	H31	144	人	honpen p.7	✓	auto:ai	2026-10-10	
+ecf84356e4abe522	genjo	7	chart.bars	出生数の推移	R2	142	人	honpen p.7	✓	auto:ai	2026-10-10	
+3e952b853d314f50	genjo	7	chart.bars	出生数の推移	R3	122	人	honpen p.7	✓	auto:ai	2026-10-10	
+095e2bdb12acc4f9	genjo	7	chart.bars	出生数の推移	R4	117	人	honpen p.7	✓	auto:ai	2026-10-10	
+4a6e8ac9833a594a	genjo	7	chart.bars	出生数の推移	R5	106	人	honpen p.7	✓	auto:ai	2026-10-10	
+c34bfebf53b7ec2f	genjo	7	chart.bars	出生数の推移	R6	120	人	honpen p.7	✓	auto:ai	2026-10-10	
+c97a6d5fa71e5fd6	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/就学前人口	1193		honpen p.7	✓	auto:ai	2026-10-10	
+ce317c99c5005760	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/定員 合計	280		honpen p.7	✓	auto:ai	2026-10-10	
+bbc1a9fe2a70ae43	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/定員 公立	180		honpen p.7	✓	auto:ai	2026-10-10	
+46ceb740c4e01ffd	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/定員 私立	100		honpen p.7	✓	auto:ai	2026-10-10	
+5d86c33ae26ddd03	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/在籍人員 合計	268		honpen p.7	✓	auto:ai	2026-10-10	
+f836dd1319efe87b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/在籍人員 公立	157		honpen p.7	✓	auto:ai	2026-10-10	
+ab83616e69b31144	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/在籍人員 私立	111		honpen p.7	✓	auto:ai	2026-10-10	
+6368534213fd1b07	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/保育士職員数 合計	66		honpen p.7	✓	auto:ai	2026-10-10	
+1f550e3242c2a7e0	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/保育士職員数 公立	44		honpen p.7	✓	auto:ai	2026-10-10	
+be5dfad45d87644b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H22/保育士職員数 私立	22		honpen p.7	✓	auto:ai	2026-10-10	
+37659a4f21e8768d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/就学前人口	1215		honpen p.7	✓	auto:ai	2026-10-10	
+f075abdff2c30ecb	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/定員 合計	295		honpen p.7	✓	auto:ai	2026-10-10	
+bec97ac5b0cb5194	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/定員 公立	195		honpen p.7	✓	auto:ai	2026-10-10	
+fe654391acc3ef5c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/定員 私立	100		honpen p.7	✓	auto:ai	2026-10-10	
+19203a0e39e95d2f	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/在籍人員 合計	290		honpen p.7	✓	auto:ai	2026-10-10	
+4aff25ed04563dee	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/在籍人員 公立	179		honpen p.7	✓	auto:ai	2026-10-10	
+000fec14755bc905	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/在籍人員 私立	111		honpen p.7	✓	auto:ai	2026-10-10	
+f48d82af96cec8ed	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/保育士職員数 合計	66		honpen p.7	✓	auto:ai	2026-10-10	
+a87c5e71a726e3de	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/保育士職員数 公立	44		honpen p.7	✓	auto:ai	2026-10-10	
+080b284fa38f782d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H23/保育士職員数 私立	22		honpen p.7	✓	auto:ai	2026-10-10	
+50b87c2e14ab7ffc	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/就学前人口	1162		honpen p.7	✓	auto:ai	2026-10-10	
+65fbb51325ac1f59	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/定員 合計	295		honpen p.7	✓	auto:ai	2026-10-10	
+8b82830e8da23666	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/定員 公立	195		honpen p.7	✓	auto:ai	2026-10-10	
+04c8675759dd47b7	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/定員 私立	100		honpen p.7	✓	auto:ai	2026-10-10	
+da0e7a542603ae91	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/在籍人員 合計	315		honpen p.7	✓	auto:ai	2026-10-10	
+4ddc56684bdbf521	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/在籍人員 公立	200		honpen p.7	✓	auto:ai	2026-10-10	
+94523f9ae070f27d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/在籍人員 私立	115		honpen p.7	✓	auto:ai	2026-10-10	
+b120b5dc6c560bcb	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/保育士職員数 合計	71		honpen p.7	✓	auto:ai	2026-10-10	
+05557558e2ee8467	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/保育士職員数 公立	48		honpen p.7	✓	auto:ai	2026-10-10	
+77a9a72438029c12	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H24/保育士職員数 私立	23		honpen p.7	✓	auto:ai	2026-10-10	
+71e871d32258ec47	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/就学前人口	1112		honpen p.7	✓	auto:ai	2026-10-10	
+845003fa95ce86cf	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/定員 合計	295		honpen p.7	✓	auto:ai	2026-10-10	
+ef1c46806a4b928c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/定員 公立	195		honpen p.7	✓	auto:ai	2026-10-10	
+3bcfc4f1b1435a09	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/定員 私立	100		honpen p.7	✓	auto:ai	2026-10-10	
+f36f01217426c7c5	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/在籍人員 合計	330		honpen p.7	✓	auto:ai	2026-10-10	
+53c280f2324721ee	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/在籍人員 公立	217		honpen p.7	✓	auto:ai	2026-10-10	
+3e3223a66892b908	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/在籍人員 私立	113		honpen p.7	✓	auto:ai	2026-10-10	
+deb99ce2352a870c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/保育士職員数 合計	75		honpen p.7	✓	auto:ai	2026-10-10	
+d41e8b2bf5c366aa	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/保育士職員数 公立	52		honpen p.7	✓	auto:ai	2026-10-10	
+9bc55d292e347091	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H25/保育士職員数 私立	23		honpen p.7	✓	auto:ai	2026-10-10	
+5665179906aba636	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/就学前人口	1087		honpen p.7	✓	auto:ai	2026-10-10	
+bc07c37df040c611	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/定員 合計	355		honpen p.7	✓	auto:ai	2026-10-10	
+2d277ff1fcaff1c0	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/定員 公立	195		honpen p.7	✓	auto:ai	2026-10-10	
+c58eab9240c3e7ce	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/定員 私立	160		honpen p.7	✓	auto:ai	2026-10-10	
+b1abf326afdfb5e2	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/在籍人員 合計	362		honpen p.7	✓	auto:ai	2026-10-10	
+cde038512dfac456	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/在籍人員 公立	197		honpen p.7	✓	auto:ai	2026-10-10	
+535c5d08d1a6e289	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/在籍人員 私立	165		honpen p.7	✓	auto:ai	2026-10-10	
+ac2173fc6060e515	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/保育士職員数 合計	85		honpen p.7	✓	auto:ai	2026-10-10	
+f9b307723041b5af	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/保育士職員数 公立	52		honpen p.7	✓	auto:ai	2026-10-10	
+081ea7546b13e07d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H26/保育士職員数 私立	33		honpen p.7	✓	auto:ai	2026-10-10	
+1eca40aceb3371ad	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/就学前人口	1114		honpen p.7	✓	auto:ai	2026-10-10	
+e374602e0d0008d5	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/定員 合計	385		honpen p.7	✓	auto:ai	2026-10-10	
+9831506a8f014d87	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/定員 公立	225		honpen p.7	✓	auto:ai	2026-10-10	
+563118f672a3fa0b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/定員 私立	160		honpen p.7	✓	auto:ai	2026-10-10	
+78bc8b7e98a44d9a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/在籍人員 合計	394		honpen p.7	✓	auto:ai	2026-10-10	
+3f29d2117c81a1fd	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/在籍人員 公立	220		honpen p.7	✓	auto:ai	2026-10-10	
+a6c78ca1369512ef	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/在籍人員 私立	174		honpen p.7	✓	auto:ai	2026-10-10	
+c5eb348cbe79c57f	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/保育士職員数 合計	84		honpen p.7	✓	auto:ai	2026-10-10	
+aa92915c0ff2f4e6	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/保育士職員数 公立	48		honpen p.7	✓	auto:ai	2026-10-10	
+7e2d913093f465fe	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H27/保育士職員数 私立	36		honpen p.7	✓	auto:ai	2026-10-10	
+4b3b42b020006fa2	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/就学前人口	1087		honpen p.7	✓	auto:ai	2026-10-10	
+1feec79aff79d382	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/定員 合計	415		honpen p.7	✓	auto:ai	2026-10-10	
+d6523f2a13852317	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/定員 公立	255		honpen p.7	✓	auto:ai	2026-10-10	
+9ee41160c910273d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/定員 私立	160		honpen p.7	✓	auto:ai	2026-10-10	
+44874dc861d18ab9	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/在籍人員 合計	427		honpen p.7	✓	auto:ai	2026-10-10	
+1bce150e8f49d94a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/在籍人員 公立	254		honpen p.7	✓	auto:ai	2026-10-10	
+2741a4d715cdabee	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/在籍人員 私立	173		honpen p.7	✓	auto:ai	2026-10-10	
+10af0d520a26541c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/保育士職員数 合計	90		honpen p.7	✓	auto:ai	2026-10-10	
+613d966623b7d8a7	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/保育士職員数 公立	56		honpen p.7	✓	auto:ai	2026-10-10	
+ca2487316f9b3df3	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H28/保育士職員数 私立	34		honpen p.7	✓	auto:ai	2026-10-10	
+d5834256bda26d99	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/就学前人口	1029		honpen p.7	✓	auto:ai	2026-10-10	
+1bd05193ad092550	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/定員 合計	465		honpen p.7	✓	auto:ai	2026-10-10	
+d637cd479a848af4	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+cfa336edadca5be4	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/定員 私立	180		honpen p.7	✓	auto:ai	2026-10-10	
+1bb010e7e19f6651	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/在籍人員 合計	439		honpen p.7	✓	auto:ai	2026-10-10	
+50d6ad273d936608	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/在籍人員 公立	258		honpen p.7	✓	auto:ai	2026-10-10	
+eed2c4c7623734c0	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/在籍人員 私立	181		honpen p.7	✓	auto:ai	2026-10-10	
+9b302832e8e1070f	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/加配児 1:1	9		honpen p.7	✓	auto:ai	2026-10-10	
+fda2f396b97c87b3	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/加配児 1:3	22		honpen p.7	✓	auto:ai	2026-10-10	
+f77aba82aef0d8ef	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/保育士職員数 合計	122		honpen p.7	✓	auto:ai	2026-10-10	
+5792f4669025e8d8	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/保育士職員数 公立	82		honpen p.7	✓	auto:ai	2026-10-10	
+bf6e9063bda49630	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H29/保育士職員数 私立	40		honpen p.7	✓	auto:ai	2026-10-10	
+bd665b9243ccd631	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/就学前人口	1023		honpen p.7	✓	auto:ai	2026-10-10	
+976c51e8cf9c2d23	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/定員 合計	465		honpen p.7	✓	auto:ai	2026-10-10	
+5867175ff6db32e0	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+f03bda8b9b648dbf	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/定員 私立	180		honpen p.7	✓	auto:ai	2026-10-10	
+cc49ccb47050b90d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/在籍人員 合計	426		honpen p.7	✓	auto:ai	2026-10-10	
+65b6fb6d1031cd87	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/在籍人員 公立	247		honpen p.7	✓	auto:ai	2026-10-10	
+97bed5ef4521dece	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/在籍人員 私立	179		honpen p.7	✓	auto:ai	2026-10-10	
+a7c20ef30cf6914d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/加配児 1:1	12		honpen p.7	✓	auto:ai	2026-10-10	
+7dfb22bc12725eba	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/加配児 1:3	31		honpen p.7	✓	auto:ai	2026-10-10	
+b97212ec53fc4973	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/保育士職員数 合計	131		honpen p.7	✓	auto:ai	2026-10-10	
+d5ed17041fcb8d0b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/保育士職員数 公立	90		honpen p.7	✓	auto:ai	2026-10-10	
+bc6baa255036c86d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	H30/保育士職員数 私立	41		honpen p.7	✓	auto:ai	2026-10-10	
+c2922cd029db156c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/就学前人口	992		honpen p.7	✓	auto:ai	2026-10-10	
+5d5fed8fd66d7085	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/定員 合計	465		honpen p.7	✓	auto:ai	2026-10-10	
+cb2c0263f743ff52	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+46abda23c4a8eb81	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/定員 私立	180		honpen p.7	✓	auto:ai	2026-10-10	
+2eb566ba0dd7555b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/在籍人員 合計	424		honpen p.7	✓	auto:ai	2026-10-10	
+cb477465dbb53c06	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/在籍人員 公立	250		honpen p.7	✓	auto:ai	2026-10-10	
+6c10961e206028ae	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/在籍人員 私立	174		honpen p.7	✓	auto:ai	2026-10-10	
+a2e789bb93325026	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/加配児 1:1	7		honpen p.7	✓	auto:ai	2026-10-10	
+52a9f2495fe4c66c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/加配児 1:3	38		honpen p.7	✓	auto:ai	2026-10-10	
+9c59af77a6b03360	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/保育士職員数 合計	139		honpen p.7	✓	auto:ai	2026-10-10	
+002a45a7589b05d8	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/保育士職員数 公立	96		honpen p.7	✓	auto:ai	2026-10-10	
+36eb3382819309fe	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R元/保育士職員数 私立	43		honpen p.7	✓	auto:ai	2026-10-10	
+c0d0c16d620a2350	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/就学前人口	994		honpen p.7	✓	auto:ai	2026-10-10	
+ee205afcb7be5be1	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/定員 合計	455		honpen p.7	✓	auto:ai	2026-10-10	
+02855e3509e472a8	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+a3ae41c67c22053f	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/定員 私立	170		honpen p.7	✓	auto:ai	2026-10-10	
+03a2596520de740a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/在籍人員 合計	443		honpen p.7	✓	auto:ai	2026-10-10	
+4db1953d169d3821	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/在籍人員 公立	276		honpen p.7	✓	auto:ai	2026-10-10	
+fb8150877f15e287	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/在籍人員 私立	167		honpen p.7	✓	auto:ai	2026-10-10	
+dad322da15434d20	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/加配児 1:1	2		honpen p.7	✓	auto:ai	2026-10-10	
+45931dda1a21d853	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/加配児 1:3	36		honpen p.7	✓	auto:ai	2026-10-10	
+2f8c41c4375576a1	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/保育士職員数 合計	131		honpen p.7	✓	auto:ai	2026-10-10	
+adc9de0d93c0eb76	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/保育士職員数 公立	91		honpen p.7	✓	auto:ai	2026-10-10	
+60cabb8251b480b3	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R2/保育士職員数 私立	40		honpen p.7	✓	auto:ai	2026-10-10	
+c695a906f8bc1aaf	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/就学前人口	934		honpen p.7	✓	auto:ai	2026-10-10	
+7db302e28ed34cf8	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/定員 合計	455		honpen p.7	✓	auto:ai	2026-10-10	
+fc141d7f0e021947	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+f1966d6b1180e9e5	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/定員 私立	170		honpen p.7	✓	auto:ai	2026-10-10	
+f2936e6cda8a4391	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/在籍人員 合計	426		honpen p.7	✓	auto:ai	2026-10-10	
+89241a6ecc10bdc9	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/在籍人員 公立	261		honpen p.7	✓	auto:ai	2026-10-10	
+ff3854f8ac054838	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/在籍人員 私立	165		honpen p.7	✓	auto:ai	2026-10-10	
+42a7bcb82be00734	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/加配児 1:1	3		honpen p.7	✓	auto:ai	2026-10-10	
+d9673281ac05e75e	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/加配児 1:3	33		honpen p.7	✓	auto:ai	2026-10-10	
+2cd4eee0586cdcf2	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/保育士職員数 合計	139		honpen p.7	✓	auto:ai	2026-10-10	
+c0732f499634c267	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/保育士職員数 公立	98		honpen p.7	✓	auto:ai	2026-10-10	
+d60f2579c8024660	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R3/保育士職員数 私立	41		honpen p.7	✓	auto:ai	2026-10-10	
+e9ea773458b7cac7	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/就学前人口	919		honpen p.7	✓	auto:ai	2026-10-10	
+e6eb2185f7701376	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/定員 合計	455		honpen p.7	✓	auto:ai	2026-10-10	
+83caa3143e21bba8	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+54215a0527e8fddd	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/定員 私立	170		honpen p.7	✓	auto:ai	2026-10-10	
+79e4ecb33c3fcd5d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/在籍人員 合計	418		honpen p.7	✓	auto:ai	2026-10-10	
+2ab7dbd15878b75c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/在籍人員 公立	255		honpen p.7	✓	auto:ai	2026-10-10	
+f90a218076a47634	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/在籍人員 私立	163		honpen p.7	✓	auto:ai	2026-10-10	
+041b5c7b4778cc1a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/加配児 1:1	9		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+020892559735260e	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/加配児 1:3	30		honpen p.7	✓	auto:ai	2026-10-10	
+671c3d13bdd6102c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/保育士職員数 合計	140		honpen p.7	✓	auto:ai	2026-10-10	
+516c206aba398a06	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/保育士職員数 公立	97		honpen p.7	✓	auto:ai	2026-10-10	
+ea4dd0b2e08c9e2a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R4/保育士職員数 私立	43		honpen p.7	✓	auto:ai	2026-10-10	
+f45a89794700f17c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/就学前人口	857		honpen p.7	✓	auto:ai	2026-10-10	
+d8efad3a2e2100ad	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/定員 合計	455		honpen p.7	✓	auto:ai	2026-10-10	
+e017c2c59a716fcb	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+0d43852746028a76	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/定員 私立	170		honpen p.7	✓	auto:ai	2026-10-10	
+5ca8528cf7fddad6	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/在籍人員 合計	411		honpen p.7	✓	auto:ai	2026-10-10	
+ebee48814db9c770	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/在籍人員 公立	254		honpen p.7	✓	auto:ai	2026-10-10	
+41f5d5e185ee5e65	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/在籍人員 私立	157		honpen p.7	✓	auto:ai	2026-10-10	
+b8c48d67ecd92d07	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/加配児 1:1	11		honpen p.7	✓	auto:ai	2026-10-10	
+2ce244a4b19e553c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/加配児 1:3	26		honpen p.7	✓	auto:ai	2026-10-10	
+ff8ce4676109f91a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/保育士職員数 合計	121		honpen p.7	✓	auto:ai	2026-10-10	
+89e4fcbbbf988e0c	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/保育士職員数 公立	78		honpen p.7	✓	auto:ai	2026-10-10	
+c1e95a996dc6ca5e	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R5/保育士職員数 私立	43		honpen p.7	✓	auto:ai	2026-10-10	
+841667da1b68a2c2	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/就学前人口	838		honpen p.7	✓	auto:ai	2026-10-10	
+a9c7c3c45bc12bfa	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/定員 合計	455		honpen p.7	✓	auto:ai	2026-10-10	
+075a8a1a2c85ea8f	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/定員 公立	285		honpen p.7	✓	auto:ai	2026-10-10	
+b3009e3642ef9158	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/定員 私立	170		honpen p.7	✓	auto:ai	2026-10-10	
+84f438a8e3fddf3b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/在籍人員 合計	421		honpen p.7	✓	auto:ai	2026-10-10	
+6e73cca49886de68	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/在籍人員 公立	259		honpen p.7	✓	auto:ai	2026-10-10	
+79e7b0c1082d2f5f	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/在籍人員 私立	162		honpen p.7	✓	auto:ai	2026-10-10	
+44531fddf0b66d31	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/加配児 1:1	9		honpen p.7	✓	auto:ai	2026-10-10	
+db1b66e0b055993d	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/加配児 1:2	7		honpen p.7	✓	auto:ai	2026-10-10	
+ca878d039a94c79a	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/加配児 1:3	22		honpen p.7	✓	auto:ai	2026-10-10	
+702bc3dc9368de9b	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/保育士職員数 合計	132		honpen p.7	✓	auto:ai	2026-10-10	
+4c8e4a6be5f7bc89	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/保育士職員数 公立	86		honpen p.7	✓	auto:ai	2026-10-10	
+b4bafda502ab4175	genjo	8	table	保育所等の定員・在籍人員・保育士職員数(H22〜R6年度)	R6/保育士職員数 私立	46		honpen p.7	✓	auto:ai	2026-10-10	
+68426ad10e43f01a	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H22/定員	750		honpen p.7	✓	auto:pdftext	2026-10-10	
+7fa3af349f1861d3	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H22/在籍人員	387		honpen p.7	✓	auto:ai	2026-10-10	
+b7d88e14ea348ef3	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H22/預り保育	23		honpen p.7	✓	auto:ai	2026-10-10	
+7864f399480ff377	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H22/幼稚園教諭職員数	55		honpen p.7	✓	auto:ai	2026-10-10	
+f5cbe46ebc87b2f4	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H23/定員	680		honpen p.7	✓	auto:pdftext	2026-10-10	
+ebd73bb4bac118d3	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H23/在籍人員	386		honpen p.7	✓	auto:ai	2026-10-10	
+b86c20ce3d7b88f9	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H23/預り保育	27		honpen p.7	✓	auto:ai	2026-10-10	
+300e11335c3c87a1	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H23/幼稚園教諭職員数	52		honpen p.7	✓	auto:ai	2026-10-10	
+4b2741f5f410b545	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H24/定員	680		honpen p.7	✓	auto:ai	2026-10-10	
+189e9fde1f3876db	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H24/在籍人員	353		honpen p.7	✓	auto:ai	2026-10-10	
+42182aa1424861bb	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H24/預り保育	17		honpen p.7	✓	auto:ai	2026-10-10	
+fe61a9b8e8545d71	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H24/幼稚園教諭職員数	53		honpen p.7	✓	auto:ai	2026-10-10	
+8fb13e40f8d76f06	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H25/定員	680		honpen p.7	✓	auto:ai	2026-10-10	
+0f2cf5ae831b04b2	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H25/在籍人員	337		honpen p.7	✓	auto:ai	2026-10-10	
+a73312c1e1a97078	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H25/預り保育	13		honpen p.7	✓	auto:ai	2026-10-10	
+251e3b0a948dc474	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H25/幼稚園教諭職員数	54		honpen p.7	✓	auto:ai	2026-10-10	
+216dd10da32ca55d	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H26/定員	680		honpen p.7	✓	auto:ai	2026-10-10	
+02bc4642c36fe1f6	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H26/在籍人員	327		honpen p.7	✓	auto:ai	2026-10-10	
+58d6d4c234484850	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H26/預り保育	13		honpen p.7	✓	auto:ai	2026-10-10	
+a8daf73caea82c19	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H26/幼稚園教諭職員数	55		honpen p.7	✓	auto:ai	2026-10-10	
+b6e2d5b3a1fa271b	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H27/定員	720		honpen p.7	✓	auto:ai	2026-10-10	
+d26425b2323450ec	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H27/在籍人員	317		honpen p.7	✓	auto:ai	2026-10-10	
+a06955368ef90271	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H27/預り保育	15		honpen p.7	✓	auto:ai	2026-10-10	
+f58cd8741075722b	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H27/幼稚園教諭職員数	57		honpen p.7	✓	auto:ai	2026-10-10	
+a2499af61beddf6d	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H28/定員	630		honpen p.7	✓	auto:ai	2026-10-10	
+1cc761c7be7c3b63	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H28/在籍人員	282		honpen p.7	✓	auto:ai	2026-10-10	
+a6dcf3d3d1b6d844	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H28/預り保育	7		honpen p.7	✓	auto:ai	2026-10-10	
+b729e3c8400190b9	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H28/幼稚園教諭職員数	49		honpen p.7	✓	auto:ai	2026-10-10	
+e1f03b36979b37e0	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H29/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+6aa49e3635d5e52c	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H29/在籍人員	241		honpen p.7	✓	auto:ai	2026-10-10	
+2dff85c14542c596	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H29/預り保育	18		honpen p.7	✓	auto:ai	2026-10-10	
+37873e39078780d5	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H29/加配児 1:1	7		honpen p.7	✓	auto:ai	2026-10-10	
+02be04fa4cc02b21	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H29/加配児 1:3	24		honpen p.7	✓	auto:ai	2026-10-10	
+d1a2b62f56a6fd00	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H29/幼稚園教諭職員数	47		honpen p.7	✓	auto:ai	2026-10-10	
+5cb0db4561435050	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H30/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+bf5fe2e7064e6a93	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H30/在籍人員	281		honpen p.7	✓	auto:ai	2026-10-10	
+f2d71b6514879159	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H30/預り保育	20		honpen p.7	✓	auto:ai	2026-10-10	
+a343f71b0965ad1e	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H30/加配児 1:1	8		honpen p.7	✓	auto:ai	2026-10-10	
+bed02dd9f1c39f69	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H30/加配児 1:3	26		honpen p.7	✓	auto:ai	2026-10-10	
+ac27e8fc0eadbfb4	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	H30/幼稚園教諭職員数	48		honpen p.7	✓	auto:ai	2026-10-10	
+b753fb95881f9e37	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R元/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+d12c49107c08ba76	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R元/在籍人員	272		honpen p.7	✓	auto:ai	2026-10-10	
+90e3e6954047573c	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R元/預り保育	38		honpen p.7	✓	auto:ai	2026-10-10	
+55131f7d15167ded	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R元/加配児 1:1	9		honpen p.7	✓	auto:ai	2026-10-10	
+374bd00cdd7967c8	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R元/加配児 1:3	26		honpen p.7	✓	auto:ai	2026-10-10	
+109a62e7f5c141d4	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R元/幼稚園教諭職員数	52		honpen p.7	✓	auto:ai	2026-10-10	
+7c2cacb6edbafed9	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R2/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+3aff6b409655d550	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R2/在籍人員	256		honpen p.7	✓	auto:ai	2026-10-10	
+c5aa16673e93303f	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R2/預り保育	56		honpen p.7	✓	auto:ai	2026-10-10	
+342fdcf20e001a58	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R2/加配児 1:1	7		honpen p.7	✓	auto:ai	2026-10-10	
+fe0d25e6257fbf6e	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R2/加配児 1:3	32		honpen p.7	✓	auto:ai	2026-10-10	
+80fd1986d79159ae	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R2/幼稚園教諭職員数	49		honpen p.7	✓	auto:ai	2026-10-10	
+b4ee230d1ff9a71e	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R3/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+6b6abc234a8b79ad	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R3/在籍人員	227		honpen p.7	✓	auto:ai	2026-10-10	
+a26fb1a39e60b7d1	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R3/預り保育	49		honpen p.7	✓	auto:ai	2026-10-10	
+c7eed2f44ae5c1fa	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R3/加配児 1:1	5		honpen p.7	✓	auto:ai	2026-10-10	
+ab364be51d9c8e25	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R3/加配児 1:3	26		honpen p.7	✓	auto:ai	2026-10-10	
+6c305450ce5f8b8f	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R3/幼稚園教諭職員数	47		honpen p.7	✓	auto:ai	2026-10-10	
+5827217c0779ecf6	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R4/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+53261592c729ed7e	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R4/在籍人員	210		honpen p.7	✓	auto:ai	2026-10-10	
+fb1eee0304b8e3f5	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R4/預り保育	59		honpen p.7	✓	auto:ai	2026-10-10	
+b74ef56e57ea2ad7	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R4/加配児 1:1	7		honpen p.7	✓	auto:ai	2026-10-10	
+70d1cd4b2d8d8630	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R4/加配児 1:3	30		honpen p.7	✓	auto:ai	2026-10-10	
+83e493b0c89651f0	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R4/幼稚園教諭職員数	48		honpen p.7	✓	auto:ai	2026-10-10	
+d3b0e10b401693a4	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R5/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+0a25bfa8e0f1b056	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R5/在籍人員	189		honpen p.7	✓	auto:ai	2026-10-10	
+649109f0d0463b9a	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R5/預り保育	52		honpen p.7	✓	auto:ai	2026-10-10	
+cd6e3db8f053a639	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R5/加配児 1:1	11		honpen p.7	✓	auto:ai	2026-10-10	
+42b04aadfd0b80df	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R5/加配児 1:3	24		honpen p.7	✓	auto:ai	2026-10-10	
+a77512ea696ea9a7	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R5/幼稚園教諭職員数	47		honpen p.7	✓	auto:ai	2026-10-10	
+e77b90ecd29f4559	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/定員	570		honpen p.7	✓	auto:ai	2026-10-10	
+de333751b7356d44	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/在籍人員	173		honpen p.7	✓	auto:ai	2026-10-10	
+59be4c0e2796ce01	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/預り保育	57		honpen p.7	✓	auto:ai	2026-10-10	
+17965405b1097687	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/加配児 1:1	5		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+6c30d3a76f6fed2f	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/加配児 1:2	11		honpen p.7	✓	auto:ai	2026-10-10	
+07766562625b277f	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/加配児 1:3	15		honpen p.7	✓	auto:ai	2026-10-10	
+b599ade3cc792a70	genjo	9	table	幼稚園の定員・在籍人員・教諭職員数(H22〜R6年度)	R6/幼稚園教諭職員数	45		honpen p.7	✓	auto:ai	2026-10-10	
+c4dc412f6a3fc204	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R元年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+11cc625b39f45f11	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R2年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+6ebf66f5a6bb3a95	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R3年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+901b233a096077c4	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R4年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+945d9dea9ecdcfd4	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R5年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+7a2921f83f50bc8c	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R6年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+78848a70f507518d	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	募集人数/R7年度	4		honpen p.8	✓	auto:pdftext	2026-10-10	
+87ee4ef0dad64dcd	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R元年度	6		honpen p.8	✓	auto:ai	2026-10-10	
+08cceec7d386a60c	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R2年度	12		honpen p.8	✓	auto:ai	2026-10-10	
+e3e6fe1d09888256	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R3年度	20		honpen p.8	✓	auto:ai	2026-10-10	
+f76adf0bdeadd655	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R4年度	7		honpen p.8	✓	auto:ai	2026-10-10	
+ef245825facaf071	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R5年度	10		honpen p.8	✓	auto:ai	2026-10-10	
+3ed8552d7fd83d71	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R6年度	9		honpen p.8	✓	auto:ai	2026-10-10	
+50177240585dc4ef	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	応募者数/R7年度	4		honpen p.8	✓	auto:pdftext	2026-10-10	
+f9df5b18ac9d07d2	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R元年度	5		honpen p.8	✓	auto:ai	2026-10-10	
+db26757c405cca49	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R2年度	12		honpen p.8	✓	auto:ai	2026-10-10	
+fa15449a8f138bfc	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R3年度	19		honpen p.8	✓	auto:ai	2026-10-10	
+7ef0da1307d026f3	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R4年度	7		honpen p.8	✓	auto:ai	2026-10-10	
+31894efd00163cba	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R5年度	10		honpen p.8	✓	auto:ai	2026-10-10	
+b73c8eb97e00bbfb	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R6年度	9		honpen p.8	✓	auto:ai	2026-10-10	
+91c3ccd2f112c3ce	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	受験者数/R7年度	4		honpen p.8	✓	auto:pdftext	2026-10-10	
+b3c0a90df37f5615	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R元年度	2		honpen p.8	✓	auto:ai	2026-10-10	
+bc590ee0b146ef1f	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R2年度	5		honpen p.8	✓	auto:ai	2026-10-10	
+51d9f03bc6da0b09	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R3年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+95a620de4b58e5fa	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R4年度	2		honpen p.8	✓	auto:ai	2026-10-10	
+a621bf2194b0644d	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R5年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+a8d74408f2c96b62	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R6年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+fdc2be948541f110	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	合格者数/R7年度	3		honpen p.8	✓	auto:pdftext	2026-10-10	
+ba3046fd3e18dd05	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R元年度	2		honpen p.8	✓	auto:ai	2026-10-10	
+f74e38f0bf92fc81	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R2年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+5cb50fedbc52471f	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R3年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+ed5d5b6ce79bb12f	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R4年度	1		honpen p.8	✓	auto:ai	2026-10-10	
+ef420759648c8add	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R5年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+e7862bd5f5ec5886	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R6年度	1		honpen p.8	✓	auto:ai	2026-10-10	
+6e4d887ac093746f	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	最終就職者数/R7年度	2		honpen p.8	✓	auto:pdftext	2026-10-10	
+6482900754e0251c	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R元年度	1.5		honpen p.8	✓	auto:ai	2026-10-10	
+df445d2015b99d31	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R2年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+b2abe9cb1558e44f	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R3年度	6.7		honpen p.8	✓	auto:ai	2026-10-10	
+960d70edaeb968a6	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R4年度	1.8		honpen p.8	✓	auto:ai	2026-10-10	
+9742ab1ca84e592a	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R5年度	3.4		honpen p.8	✓	auto:ai	2026-10-10	
+4fac7ee33ca2ea9f	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R6年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+5686102821077bd7	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	志願倍率/R7年度	1.3		honpen p.8	✓	auto:pdftext	2026-10-10	
+c6947495df024387	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R元年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+a7a79c25bfb27377	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R2年度	5		honpen p.8	✓	auto:ai	2026-10-10	
+60ac2f9dca0ffa2a	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R3年度	1		honpen p.8	✓	auto:ai	2026-10-10	
+2e751417beeab23e	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R4年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+b78149865cff5bdf	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R5年度	3		honpen p.8	✓	auto:ai	2026-10-10	
+dbf0e4e9583a1c17	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R6年度	4		honpen p.8	✓	auto:ai	2026-10-10	
+c3f0c089c5adf3fe	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	退職者数/R7年度	3		honpen p.8	✓	auto:pdftext	2026-10-10	
+0c3ba7a9e52deaef	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R元年度	2		honpen p.8	✓	auto:ai	2026-10-10	
+f36ae86bb8c0c6c9	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R2年度	5		honpen p.8	✓	auto:ai	2026-10-10	
+df67edb00cd6f370	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R3年度	1		honpen p.8	✓	auto:ai	2026-10-10	
+9383d3baf7041589	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R4年度	2		honpen p.8	✓	auto:ai	2026-10-10	
+5023809ef99d9609	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R5年度	0		honpen p.8	✓	auto:ai	2026-10-10	
+03b1cf5974198fd0	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R6年度	1		honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+a15fc097a98d8133	genjo	12	table	日野町の保育士(正規職員)の採用者数の推移	うち中途退職者/R7年度	2		honpen p.8	✓	auto:pdftext	2026-10-10	
+8da0edf1064bb4ac	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R2/0〜14歳	2675	人	honpen p.3	✓	auto:ai	2026-10-10	
+5fa03ac68616140a	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R2/15〜64歳	12324	人	honpen p.3	✓	auto:ai	2026-10-10	
+f2c0118bf7b77270	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R2/65歳以上	6423	人	honpen p.3	✓	auto:ai	2026-10-10	
+f706f6f937405e1a	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R3/0〜14歳	2606	人	honpen p.3	✓	auto:ai	2026-10-10	
+4c4658b1ebf0cd61	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R3/15〜64歳	12084	人	honpen p.3	✓	auto:ai	2026-10-10	
+4fd2f8e1c34849c7	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R3/65歳以上	6502	人	honpen p.3	✓	auto:ai	2026-10-10	
+79f2438e4a623085	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R4/0〜14歳	2566	人	honpen p.3	✓	auto:ai	2026-10-10	
+12ec059fdab11260	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R4/15〜64歳	11932	人	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+b61d691ab6e7cf4d	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R4/65歳以上	6531	人	honpen p.3	✓	auto:ai	2026-10-10	
+61d1157613df6c88	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R5/0〜14歳	2509	人	honpen p.3	✓	auto:ai	2026-10-10	
+ad15f6a13b05f1a1	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R5/15〜64歳	11832	人	honpen p.3	✓	auto:ai	2026-10-10	
+3012c75f24a5c073	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R5/65歳以上	6547	人	honpen p.3	✓	auto:ai	2026-10-10	
+8decdfc61ba1ceb5	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R6/0〜14歳	2478	人	honpen p.3	✓	auto:ai	2026-10-10	
+ef65be1c29f05dce	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R6/15〜64歳	11762	人	honpen p.3	✓	auto:ai	2026-10-10	
+b7b6e8b318f6d0e9	jinko	2	chart.stacked	日野町の人口の推移(年齢3区分)	R6/65歳以上	6521	人	honpen p.3	✓	auto:ai	2026-10-10	
+bc10e75f9ef1fca7	jinko	3	table	年齢3区分の構成比(%)	0〜14歳/R2	12.5		honpen p.3	✓	auto:ai	2026-10-10	
+7dd11eb57a42287d	jinko	3	table	年齢3区分の構成比(%)	0〜14歳/R3	12.3		honpen p.3	✓	auto:ai	2026-10-10	
+e4174c6e6cfe6b06	jinko	3	table	年齢3区分の構成比(%)	0〜14歳/R4	12.2		honpen p.3	✓	auto:ai	2026-10-10	
+09d009fe8f401db5	jinko	3	table	年齢3区分の構成比(%)	0〜14歳/R5	12.0		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+278980526563c1a1	jinko	3	table	年齢3区分の構成比(%)	0〜14歳/R6	11.9		honpen p.3	✓	auto:ai	2026-10-10	
+9a683316cdccb7a7	jinko	3	table	年齢3区分の構成比(%)	15〜64歳/R2	57.5		honpen p.3	✓	auto:ai	2026-10-10	
+7fd3201e5aaa96a1	jinko	3	table	年齢3区分の構成比(%)	15〜64歳/R3	57.0		honpen p.3	✓	auto:ai	2026-10-10	
+a0303a30f0fff558	jinko	3	table	年齢3区分の構成比(%)	15〜64歳/R4	56.7		honpen p.3	✓	auto:ai	2026-10-10	
+80dc91fa9a5f5415	jinko	3	table	年齢3区分の構成比(%)	15〜64歳/R5	56.6		honpen p.3	✓	auto:ai	2026-10-10	
+ee8d1df660acdb69	jinko	3	table	年齢3区分の構成比(%)	15〜64歳/R6	56.7		honpen p.3	✓	auto:ai	2026-10-10	
+0b2ff986a84459cb	jinko	3	table	年齢3区分の構成比(%)	65歳以上/R2	30.0		honpen p.3	✓	auto:ai	2026-10-10	
+ec4323c893d38f84	jinko	3	table	年齢3区分の構成比(%)	65歳以上/R3	30.7		honpen p.3	✓	auto:pdftext	2026-10-10	
+e0379dd16b495e77	jinko	3	table	年齢3区分の構成比(%)	65歳以上/R4	31.1		honpen p.3	✓	auto:pdftext	2026-10-10	
+6da8edf949679f65	jinko	3	table	年齢3区分の構成比(%)	65歳以上/R5	31.3		honpen p.3	✓	auto:pdftext	2026-10-10	
+e3b228499963c18a	jinko	3	table	年齢3区分の構成比(%)	65歳以上/R6	31.4		honpen p.3	✓	auto:pdftext	2026-10-10	
+ae7d72e167c93c71	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R2/就学前(0〜5歳)	994	人	honpen p.4	✓	auto:ai	2026-10-10	
+1905f01750c4b38f	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R2/小学生(6〜11歳)	1119	人	honpen p.4	✓	auto:ai	2026-10-10	
+5bce636a56530f83	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R2/中学生(12〜14歳)	562	人	honpen p.4	✓	auto:ai	2026-10-10	
+77f02c6085a01425	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R2/高校生(15〜17歳)	597	人	honpen p.4	✓	auto:ai	2026-10-10	
+2abcb15df7a9d716	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R3/就学前(0〜5歳)	934	人	honpen p.4	✓	auto:ai	2026-10-10	
+f48b5ce42945528c	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R3/小学生(6〜11歳)	1137	人	honpen p.4	✓	auto:ai	2026-10-10	
+5f7646955c3521b7	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R3/中学生(12〜14歳)	535	人	honpen p.4	✓	auto:ai	2026-10-10	
+109220c93c8f3e84	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R3/高校生(15〜17歳)	588	人	honpen p.4	✓	auto:ai	2026-10-10	
+1e032785a4ed5ea5	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R4/就学前(0〜5歳)	900	人	honpen p.4	✓	auto:ai	2026-10-10	
+16f1653b6d58f9b4	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R4/小学生(6〜11歳)	1126	人	honpen p.4	✓	auto:ai	2026-10-10	
+b06a6be8b2680a83	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R4/中学生(12〜14歳)	540	人	honpen p.4	✓	auto:ai	2026-10-10	
+adfd6fa940407b24	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R4/高校生(15〜17歳)	583	人	honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+b8fbca25b8bafa2a	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R5/就学前(0〜5歳)	857	人	honpen p.4	✓	auto:ai	2026-10-10	
+cf95e630fbaf88ee	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R5/小学生(6〜11歳)	1070	人	honpen p.4	✓	auto:ai	2026-10-10	
+6bcf339af527c1c9	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R5/中学生(12〜14歳)	582	人	honpen p.4	✓	auto:ai	2026-10-10	
+7d129503f5e68d7b	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R5/高校生(15〜17歳)	566	人	honpen p.4	✓	auto:ai	2026-10-10	
+0137078fc3873b96	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R6/就学前(0〜5歳)	838	人	honpen p.4	✓	auto:ai	2026-10-10	
+614e0e646487c205	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R6/小学生(6〜11歳)	1067	人	honpen p.4	✓	auto:ai	2026-10-10	
+10fd3cff7cc08db4	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R6/中学生(12〜14歳)	573	人	honpen p.4	✓	auto:ai	2026-10-10	
+bafa36853f4d4c4a	jinko	5	chart.stacked	日野町の18歳未満人口の推移	R6/高校生(15〜17歳)	544	人	honpen p.4	✓	auto:ai	2026-10-10	
+7dc77e7fc208832e	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(0〜2歳)/R2	455		honpen p.4	✓	auto:ai	2026-10-10	
+40b74fe2f5286847	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(0〜2歳)/R3	440		honpen p.4	✓	auto:ai	2026-10-10	
+d14b13f191916778	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(0〜2歳)/R4	418		honpen p.4	✓	auto:ai	2026-10-10	
+41849d68db0e2212	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(0〜2歳)/R5	384		honpen p.4	✓	auto:ai	2026-10-10	
+025e14430862bbf4	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(0〜2歳)/R6	372		honpen p.4	✓	auto:pdftext	2026-10-10	
+ec97453ffb9e0bb1	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(3〜5歳)/R2	539		honpen p.4	✓	auto:ai	2026-10-10	
+775f0b9b47896b51	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(3〜5歳)/R3	494		honpen p.4	✓	auto:ai	2026-10-10	
+b78fbdbfd9e49592	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(3〜5歳)/R4	482		honpen p.4	✓	auto:ai	2026-10-10	
+a14cfed091894536	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(3〜5歳)/R5	473		honpen p.4	✓	auto:ai	2026-10-10	
+dfca22ebf8d32068	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	就学前(3〜5歳)/R6	466		honpen p.4	✓	auto:pdftext	2026-10-10	
+bd24b78679283cef	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(6〜8歳)/R2	536		honpen p.4	✓	auto:ai	2026-10-10	
+60a38e71bcc9c86c	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(6〜8歳)/R3	568		honpen p.4	✓	auto:ai	2026-10-10	
+0225492b89f97bbe	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(6〜8歳)/R4	556		honpen p.4	✓	auto:ai	2026-10-10	
+392d6edfc3d23c3d	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(6〜8歳)/R5	533		honpen p.4	✓	auto:ai	2026-10-10	
+5e9691a8761f5df6	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(6〜8歳)/R6	498		honpen p.4	✓	auto:pdftext	2026-10-10	
+67650f9a7b4d1d19	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(9〜11歳)/R2	583		honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+abad37ed4fbabdf1	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(9〜11歳)/R3	569		honpen p.4	✓	auto:ai	2026-10-10	
+3eae76fbb96fcfda	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(9〜11歳)/R4	570		honpen p.4	✓	auto:ai	2026-10-10	
+f2fca43d825bc84a	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(9〜11歳)/R5	537		honpen p.4	✓	auto:ai	2026-10-10	
+43485587a2ed983d	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	小学生(9〜11歳)/R6	569		honpen p.4	✓	auto:pdftext	2026-10-10	
+45129b8033741a3d	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	18歳未満人口の対人口比(%)/R2	15.3		honpen p.4	✓	auto:pdftext	2026-10-10	
+690a37e79f78fb63	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	18歳未満人口の対人口比(%)/R3	15.1		honpen p.4	✓	auto:pdftext	2026-10-10	
+e038ffa4226a7910	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	18歳未満人口の対人口比(%)/R4	15.0		honpen p.4	✓	auto:pdftext	2026-10-10	
+3565d45227ea1b29	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	18歳未満人口の対人口比(%)/R5	14.7		honpen p.4	✓	auto:pdftext	2026-10-10	
+e3eca940d8a89ef7	jinko	6	table	就学前・小学生の内訳と18歳未満人口の対人口比	18歳未満人口の対人口比(%)/R6	14.6		honpen p.4	✓	auto:pdftext	2026-10-10	
+0876dc07c2225c40	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R2/就学前(0〜5歳)	994	人	honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+11fb4fb8f983d2f4	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R2/小学生(6〜11歳)	1119	人	honpen p.5	✓	auto:ai	2026-10-10	
+0ccfad833491af1d	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R2/中高生(12〜17歳)	1159	人	honpen p.5	✓	auto:ai	2026-10-10	
+3858ce7e68ced16e	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R3/就学前(0〜5歳)	934	人	honpen p.5	✓	auto:ai	2026-10-10	
+cc1c407adeb79ac8	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R3/小学生(6〜11歳)	1137	人	honpen p.5	✓	auto:ai	2026-10-10	
+cc073e0358225990	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R3/中高生(12〜17歳)	1123	人	honpen p.5	✓	auto:ai	2026-10-10	
+1448e51c7d7813ec	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R4/就学前(0〜5歳)	900	人	honpen p.5	✓	auto:ai	2026-10-10	
+e729da98b7ff9338	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R4/小学生(6〜11歳)	1126	人	honpen p.5	✓	auto:ai	2026-10-10	
+c0fdee68678f96a6	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R4/中高生(12〜17歳)	1123	人	honpen p.5	✓	auto:ai	2026-10-10	
+0e8e4e0a8a197e9e	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R5/就学前(0〜5歳)	857	人	honpen p.5	✓	auto:ai	2026-10-10	
+9f67e131fe1005f2	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R5/小学生(6〜11歳)	1070	人	honpen p.5	✓	auto:ai	2026-10-10	
+d8e797c05b9ae42f	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R5/中高生(12〜17歳)	1148	人	honpen p.5	✓	auto:ai	2026-10-10	
+e58d5854c4a8a01b	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R6/就学前(0〜5歳)	838	人	honpen p.5	✓	auto:ai	2026-10-10	
+4b6361b0a70f4369	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R6/小学生(6〜11歳)	1067	人	honpen p.5	✓	auto:ai	2026-10-10	
+ffc26112782b658e	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R6/中高生(12〜17歳)	1117	人	honpen p.5	✓	auto:ai	2026-10-10	
+b8a794c3bdd55983	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R7/就学前(0〜5歳)	803	人	honpen p.5	✓	auto:ai	2026-10-10	
+d72bf576136dfa28	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R7/小学生(6〜11歳)	1048	人	honpen p.5	✓	auto:ai	2026-10-10	
+d1e1b0d83dd26514	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R7/中高生(12〜17歳)	1122	人	honpen p.5	✓	auto:ai	2026-10-10	
+f33c40eb591d9649	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R8/就学前(0〜5歳)	792	人	honpen p.5	✓	auto:ai	2026-10-10	
+d850840a6099ff42	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R8/小学生(6〜11歳)	1018	人	honpen p.5	✓	auto:ai	2026-10-10	
+d8cc1383702bf24f	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R8/中高生(12〜17歳)	1129	人	honpen p.5	✓	auto:ai	2026-10-10	
+5c4116eb382bf8b4	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R9/就学前(0〜5歳)	775	人	honpen p.5	✓	auto:ai	2026-10-10	
+641a6deed4a1cef9	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R9/小学生(6〜11歳)	975	人	honpen p.5	✓	auto:ai	2026-10-10	
+f9ae8eb258f50428	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R9/中高生(12〜17歳)	1148	人	honpen p.5	✓	auto:ai	2026-10-10	
+3feff25e183eb365	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R10/就学前(0〜5歳)	758	人	honpen p.5	✓	auto:ai	2026-10-10	
+a5f01fd1f2319618	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R10/小学生(6〜11歳)	941	人	honpen p.5	✓	auto:ai	2026-10-10	
+d8757ee0dd1cb5ea	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R10/中高生(12〜17歳)	1137	人	honpen p.5	✓	auto:ai	2026-10-10	
+cc7807c244ea87c8	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R11/就学前(0〜5歳)	769	人	honpen p.5	✓	auto:ai	2026-10-10	
+48d36bf020c34593	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R11/小学生(6〜11歳)	901	人	honpen p.5	✓	auto:ai	2026-10-10	
+8ad3378f98291843	jinko	9	chart.stacked	18歳未満人口の推移(実績と推計)	R11/中高生(12〜17歳)	1083	人	honpen p.5	✓	auto:ai	2026-10-10	
+655c4b888e433595	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R2	21422		honpen p.5	✓	auto:ai	2026-10-10	
+58d6973b6d1b5a07	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R3	21192		honpen p.5	✓	auto:ai	2026-10-10	
+94809448f48ec9d5	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R4	21029		honpen p.5	✓	auto:ai	2026-10-10	
+51d8c22a1785e4fe	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R5	20888		honpen p.5	✓	auto:ai	2026-10-10	
+db741aafd592bc11	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R6	20761		honpen p.5	✓	auto:ai	2026-10-10	
+5b3703088a1bcdf3	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R7	20631		honpen p.5	✓	auto:ai	2026-10-10	
+cf1ac216fe0bb62c	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R8	20492		honpen p.5	✓	auto:ai	2026-10-10	
+b8b76afd79d8d702	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R9	20350		honpen p.5	✓	auto:ai	2026-10-10	
+200ebd05679641f1	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R10	20206		honpen p.5	✓	auto:ai	2026-10-10	
+d11c87cb2728fa10	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	総人口/R11	20056		honpen p.5	✓	auto:ai	2026-10-10	
+3a4dc1b1b99eeb5d	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R2	3272		honpen p.5	✓	auto:ai	2026-10-10	
+8346237b296c9c8b	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R3	3194		honpen p.5	✓	auto:ai	2026-10-10	
+677115c07f053cc4	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R4	3149		honpen p.5	✓	auto:ai	2026-10-10	
+215b1f7801161235	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R5	3075		honpen p.5	✓	auto:ai	2026-10-10	
+5fac454bff6a6a50	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R6	3022		honpen p.5	✓	auto:ai	2026-10-10	
+eea448c796344029	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R7	2973		honpen p.5	✓	auto:ai	2026-10-10	
+f09ffb0bf9633591	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R8	2939		honpen p.5	✓	auto:ai	2026-10-10	
+5a5c780e7c2b941c	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R9	2898		honpen p.5	✓	auto:ai	2026-10-10	
+fe6164bec625a0ef	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R10	2836		honpen p.5	✓	auto:ai	2026-10-10	
+6f99ba6f9ccfc2f2	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口/R11	2753		honpen p.5	✓	auto:ai	2026-10-10	
+f113cc11dc984dbb	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R2	15.3		honpen p.5	✓	auto:ai	2026-10-10	
+3c78fc681437dc45	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R3	15.1		honpen p.5	✓	auto:ai	2026-10-10	
+6b9d018d17ec757d	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R4	15.0		honpen p.5	✓	auto:ai	2026-10-10	
+cd4abe9a7cb71e28	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R5	14.7		honpen p.5	✓	auto:ai	2026-10-10	
+6dae51312ea9f54a	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R6	14.6		honpen p.5	✓	auto:ai	2026-10-10	
+181fd8998b8b786b	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R7	14.4		honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+3a7b3e40cf5383a4	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R8	14.3		honpen p.5	✓	auto:ai	2026-10-10	
+faeec639c545eabe	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R9	14.2		honpen p.5	✓	auto:ai	2026-10-10	
+fa6ac115e62eb52a	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R10	14.0		honpen p.5	✓	auto:ai	2026-10-10	
+da254858c6d7124e	jinko	10	table	総人口と18歳未満人口の推移(実績と推計)	18歳未満人口比率(%)/R11	13.7		honpen p.5	✓	auto:ai	2026-10-10	
+e922c69095172bfc	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R2	21422		honpen p.6	✓	auto:pdftext	2026-10-10	
+8ccef0fab857ec61	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R3	21192		honpen p.6	✓	auto:pdftext	2026-10-10	
+5c7b06eaaa3c8534	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R4	21029		honpen p.6	✓	auto:pdftext	2026-10-10	
+b7cd983413bfb9e0	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R5	20888		honpen p.6	✓	auto:pdftext	2026-10-10	
+aeacc237e9899588	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R6	20761		honpen p.6	✓	auto:pdftext	2026-10-10	
+1ada2f56cd2d15ac	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R7	20631		honpen p.6	✓	auto:pdftext	2026-10-10	
+f290048dae55f652	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R8	20492		honpen p.6	✓	auto:pdftext	2026-10-10	
+a9120dd84af12577	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R9	20350		honpen p.6	✓	auto:pdftext	2026-10-10	
+518f7c57b3c6dc3d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R10	20206		honpen p.6	✓	auto:pdftext	2026-10-10	
+ca1ecac463963ccb	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	総人口/R11	20056		honpen p.6	✓	auto:pdftext	2026-10-10	
+09fce75413c853dc	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R2	3272		honpen p.6	✓	auto:pdftext	2026-10-10	
+f661c95e41e2f970	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R3	3194		honpen p.6	✓	auto:pdftext	2026-10-10	
+bfd7b2387d254778	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R4	3149		honpen p.6	✓	auto:pdftext	2026-10-10	
+c903336301dcac60	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R5	3075		honpen p.6	✓	auto:pdftext	2026-10-10	
+1329382bf7411acf	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R6	3022		honpen p.6	✓	auto:pdftext	2026-10-10	
+0a1e12f08d5f2b60	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R7	2973		honpen p.6	✓	auto:pdftext	2026-10-10	
+c01cf1f181a54537	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R8	2939		honpen p.6	✓	auto:pdftext	2026-10-10	
+64a394cb00269a05	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R9	2898		honpen p.6	✓	auto:pdftext	2026-10-10	
+719cf098cea8fe10	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R10	2836		honpen p.6	✓	auto:ai	2026-10-10	
+0f4012a30e4d1b78	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	18歳未満/R11	2753		honpen p.6	✓	auto:pdftext	2026-10-10	
+125eb930fd010421	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R2	138		honpen p.6	✓	auto:pdftext	2026-10-10	
+de010ad61c326381	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R3	131		honpen p.6	✓	auto:pdftext	2026-10-10	
+e2045684ccccc0bb	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R4	130		honpen p.6	✓	auto:pdftext	2026-10-10	
+6f1e468ac5923a55	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R5	100		honpen p.6	✓	auto:pdftext	2026-10-10	
+64d6699befb81888	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R6	120		honpen p.6	✓	auto:pdftext	2026-10-10	
+a36878885598870d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R7	121		honpen p.6	✓	auto:pdftext	2026-10-10	
+bdb1c5acea152493	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R8	119		honpen p.6	✓	auto:pdftext	2026-10-10	
+9fa61151a7915f43	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R9	116		honpen p.6	✓	auto:pdftext	2026-10-10	
+a594247b7fa4a545	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R10	114		honpen p.6	✓	auto:ai	2026-10-10	
+94aa6111b6f65172	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	0歳/R11	112		honpen p.6	✓	auto:pdftext	2026-10-10	
+3e0acd0ca3c26320	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R2	171		honpen p.6	✓	auto:pdftext	2026-10-10	
+09a0a767cbd3950d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R3	139		honpen p.6	✓	auto:pdftext	2026-10-10	
+bd0ad377535a40c5	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R4	145		honpen p.6	✓	auto:pdftext	2026-10-10	
+5f9ce34a21a5d78b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R5	137		honpen p.6	✓	auto:pdftext	2026-10-10	
+7c8d5222523ddf30	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R6	110		honpen p.6	✓	auto:pdftext	2026-10-10	
+8ecceac3edd05d4d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R7	128		honpen p.6	✓	auto:pdftext	2026-10-10	
+9e59ecdc2370a95a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R8	130		honpen p.6	✓	auto:pdftext	2026-10-10	
+39b71b6bcb82f95f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R9	127		honpen p.6	✓	auto:pdftext	2026-10-10	
+b5dcbd5d01d4040c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R10	124		honpen p.6	✓	auto:ai	2026-10-10	
+9c137c763d9f1395	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	1歳/R11	122		honpen p.6	✓	auto:pdftext	2026-10-10	
+5814aa3268e7cbd8	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R2	146		honpen p.6	✓	auto:pdftext	2026-10-10	
+9c47aa489390b59c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R3	170		honpen p.6	✓	auto:pdftext	2026-10-10	
+7b0c516c77132088	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R4	143		honpen p.6	✓	auto:pdftext	2026-10-10	
+f8415e3787060b26	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R5	147		honpen p.6	✓	auto:pdftext	2026-10-10	
+2086f48c0e71b2f6	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R6	142		honpen p.6	✓	auto:pdftext	2026-10-10	
+350c2e89b90e9c78	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R7	113		honpen p.6	✓	auto:pdftext	2026-10-10	
+dbc70067c399861d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R8	131		honpen p.6	✓	auto:pdftext	2026-10-10	
+8e5fb7a648117eca	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R9	133		honpen p.6	✓	auto:pdftext	2026-10-10	
+b4fc57f0ebaef0dc	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R10	130		honpen p.6	✓	auto:ai	2026-10-10	
+da7714bd701f9b4a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	2歳/R11	127		honpen p.6	✓	auto:pdftext	2026-10-10	
+84faf1b32936250e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R2	155		honpen p.6	✓	auto:pdftext	2026-10-10	
+5c735d8d3c3f7c4e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R3	152		honpen p.6	✓	auto:pdftext	2026-10-10	
+af46efabcc7477d4	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R4	174		honpen p.6	✓	auto:pdftext	2026-10-10	
+335bb67b7354c0a8	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R5	146		honpen p.6	✓	auto:pdftext	2026-10-10	
+93afb48ab8d22a61	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R6	148		honpen p.6	✓	auto:pdftext	2026-10-10	
+2472040654fff254	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R7	146		honpen p.6	✓	auto:pdftext	2026-10-10	
+8cee1808b1cd4a6e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R8	116		honpen p.6	✓	auto:pdftext	2026-10-10	
+21709f3d879edba2	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R9	135		honpen p.6	✓	auto:pdftext	2026-10-10	
+ae31afa10554902a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R10	137		honpen p.6	✓	auto:ai	2026-10-10	
+42bcd4e90dfc0870	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	3歳/R11	134		honpen p.6	✓	auto:pdftext	2026-10-10	
+7857077c33ddfcf3	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R2	194		honpen p.6	✓	auto:pdftext	2026-10-10	
+17707dbe5bf16ade	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R3	155		honpen p.6	✓	auto:pdftext	2026-10-10	
+0662392ee11bc369	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R4	153		honpen p.6	✓	auto:pdftext	2026-10-10	
+767fe32e7ff30ec5	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R5	173		honpen p.6	✓	auto:pdftext	2026-10-10	
+c7d1acd69042937a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R6	146		honpen p.6	✓	auto:pdftext	2026-10-10	
+6ed9da4b24dfc21e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R7	149		honpen p.6	✓	auto:pdftext	2026-10-10	
+c6d6b5a3032d5fe4	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R8	147		honpen p.6	✓	auto:pdftext	2026-10-10	
+13d86744f27b64c3	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R9	117		honpen p.6	✓	auto:pdftext	2026-10-10	
+a8c3e9473386cc1e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R10	136		honpen p.6	✓	auto:ai	2026-10-10	
+e96ec2609ab57ae8	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	4歳/R11	138		honpen p.6	✓	auto:pdftext	2026-10-10	
+4245877d80ee4a7d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R2	190		honpen p.6	✓	auto:pdftext	2026-10-10	
+f093dc2b5dd518af	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R3	187		honpen p.6	✓	auto:pdftext	2026-10-10	
+4b8da14a4164257d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R4	155		honpen p.6	✓	auto:pdftext	2026-10-10	
+48667a0a262701d9	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R5	154		honpen p.6	✓	auto:pdftext	2026-10-10	
+c42d36fe0004327f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R6	172		honpen p.6	✓	auto:pdftext	2026-10-10	
+96454eae1ea8534b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R7	146		honpen p.6	✓	auto:pdftext	2026-10-10	
+f2657a51d60b14bb	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R8	149		honpen p.6	✓	auto:pdftext	2026-10-10	
+45cd639123106258	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R9	147		honpen p.6	✓	auto:pdftext	2026-10-10	
+1662a4f03dcfd865	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R10	117		honpen p.6	✓	auto:ai	2026-10-10	
+1ffca85662f4d3f2	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	5歳/R11	136		honpen p.6	✓	auto:pdftext	2026-10-10	
+6000add5d1412225	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R2	180		honpen p.6	✓	auto:pdftext	2026-10-10	
+a2e52b3f1502c0cc	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R3	192		honpen p.6	✓	auto:pdftext	2026-10-10	
+efa5b8d18d96099b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R4	183		honpen p.6	✓	auto:pdftext	2026-10-10	
+7d378f1090a4dd27	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R5	157		honpen p.6	✓	auto:pdftext	2026-10-10	
+2958c1fff18c5afd	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R6	154		honpen p.6	✓	auto:pdftext	2026-10-10	
+b3c2536bdd225a15	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R7	174		honpen p.6	✓	auto:pdftext	2026-10-10	
+1f2aa5a48c7aafc3	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R8	147		honpen p.6	✓	auto:pdftext	2026-10-10	
+572fe1786e4821c6	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R9	150		honpen p.6	✓	auto:pdftext	2026-10-10	
+2dff857eb914ee1e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R10	148		honpen p.6	✓	auto:ai	2026-10-10	
+e0a47d6f99c8e433	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	6歳/R11	119		honpen p.6	✓	auto:pdftext	2026-10-10	
+69aaeb4d583af004	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R2	197		honpen p.6	✓	auto:pdftext	2026-10-10	
+a034ed685328711d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R3	179		honpen p.6	✓	auto:pdftext	2026-10-10	
+59f4934141806da3	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R4	193		honpen p.6	✓	auto:pdftext	2026-10-10	
+c621fb22d734412f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R5	183		honpen p.6	✓	auto:pdftext	2026-10-10	
+bb208ac129be5c0c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R6	159		honpen p.6	✓	auto:pdftext	2026-10-10	
+5506a6d2d90894c5	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R7	155		honpen p.6	✓	auto:pdftext	2026-10-10	
+94bfe5fc8aae36c1	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R8	175		honpen p.6	✓	auto:pdftext	2026-10-10	
+22f713ff77de5603	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R9	148		honpen p.6	✓	auto:pdftext	2026-10-10	
+76592313573b96df	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R10	151		honpen p.6	✓	auto:ai	2026-10-10	
+9fad503c6b5dd0ba	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	7歳/R11	149		honpen p.6	✓	auto:pdftext	2026-10-10	
+2a389374a7d174ba	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R2	159		honpen p.6	✓	auto:pdftext	2026-10-10	
+95337b47b8203606	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R3	197		honpen p.6	✓	auto:pdftext	2026-10-10	
+6f0020ff115e5cc9	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R4	180		honpen p.6	✓	auto:pdftext	2026-10-10	
+afbbb0f7eceb818f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R5	193		honpen p.6	✓	auto:pdftext	2026-10-10	
+925f83a0df2ddaee	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R6	185		honpen p.6	✓	auto:pdftext	2026-10-10	
+1925f4c77f201a81	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R7	160		honpen p.6	✓	auto:pdftext	2026-10-10	
+7c659842e779b955	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R8	156		honpen p.6	✓	auto:pdftext	2026-10-10	
+3eb02a35c24c6c2e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R9	176		honpen p.6	✓	auto:pdftext	2026-10-10	
+eaebb6a1f485569c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R10	149		honpen p.6	✓	auto:ai	2026-10-10	
+e725629ac737ed6f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	8歳/R11	152		honpen p.6	✓	auto:pdftext	2026-10-10	
+11c1cb4e1709cfca	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R2	212		honpen p.6	✓	auto:ai	2026-10-10	
+587764fb6c8fe510	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R3	161		honpen p.6	✓	auto:ai	2026-10-10	
+6d5a1c51354208f7	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R4	196		honpen p.6	✓	auto:ai	2026-10-10	
+8af73174212fa86b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R5	179		honpen p.6	✓	auto:ai	2026-10-10	
+9acb3177eec2de33	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R6	195		honpen p.6	✓	auto:ai	2026-10-10	
+62631d4c6146013e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R7	186		honpen p.6	✓	auto:ai	2026-10-10	
+c3b7bb522d1a32ed	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R8	161		honpen p.6	✓	auto:ai	2026-10-10	
+b00babd023e99f8e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R9	156		honpen p.6	✓	auto:ai	2026-10-10	
+a0d222fc3134d61d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R10	177		honpen p.6	✓	auto:ai	2026-10-10	
+3e8ec364a196e5d1	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	9歳/R11	149		honpen p.6	✓	auto:ai	2026-10-10	
+e0c58639bbfbfcc2	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R2	199		honpen p.6	✓	auto:ai	2026-10-10	
+cebb073a8c1f563d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R3	210		honpen p.6	✓	auto:ai	2026-10-10	
+7f110314c729a420	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R4	161		honpen p.6	✓	auto:ai	2026-10-10	
+06ae50d2fcd8ec89	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R5	196		honpen p.6	✓	auto:ai	2026-10-10	
+e6cb99fdf79fa8cb	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R6	178		honpen p.6	✓	auto:ai	2026-10-10	
+1cdaef1190cc51e5	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R7	194		honpen p.6	✓	auto:ai	2026-10-10	
+bb9ab85eb3b960bd	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R8	185		honpen p.6	✓	auto:ai	2026-10-10	
+1cfaa8ec60bf692a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R9	160		honpen p.6	✓	auto:ai	2026-10-10	
+285b1d09ec74b08b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R10	155		honpen p.6	✓	auto:ai	2026-10-10	
+22bde2cdc427fd3a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	10歳/R11	176		honpen p.6	✓	auto:ai	2026-10-10	
+1840f6c80fde650a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R2	172		honpen p.6	✓	auto:ai	2026-10-10	
+23c0f26122bf634b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R3	198		honpen p.6	✓	auto:ai	2026-10-10	
+8269d5d2e5a23c2c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R4	213		honpen p.6	✓	auto:ai	2026-10-10	
+3539fe281162b47f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R5	162		honpen p.6	✓	auto:ai	2026-10-10	
+b3bf65858ccbbb2f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R6	196		honpen p.6	✓	auto:ai	2026-10-10	
+76c2bb1f8c86bdf8	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R7	179		honpen p.6	✓	auto:ai	2026-10-10	
+a06800ec1fe3d224	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R8	194		honpen p.6	✓	auto:ai	2026-10-10	
+6eeaf2e4374f9304	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R9	185		honpen p.6	✓	auto:ai	2026-10-10	
+e45f4fee5358d230	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R10	161		honpen p.6	✓	auto:ai	2026-10-10	
+99775d5769aad336	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	11歳/R11	156		honpen p.6	✓	auto:ai	2026-10-10	
+f1054bb6939078d1	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R2	172		honpen p.6	✓	auto:ai	2026-10-10	
+05c9e7da5382600b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R3	170		honpen p.6	✓	auto:ai	2026-10-10	
+8a0d7178a6c85b06	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R4	196		honpen p.6	✓	auto:ai	2026-10-10	
+0569bc336d2dab7d	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R5	213		honpen p.6	✓	auto:ai	2026-10-10	
+a1f8406775478491	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R6	163		honpen p.6	✓	auto:ai	2026-10-10	
+5d7eff1a0f66a034	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R7	195		honpen p.6	✓	auto:ai	2026-10-10	
+81f94bf0cdc3cf30	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R8	178		honpen p.6	✓	auto:ai	2026-10-10	
+d22373790ef27bf8	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R9	193		honpen p.6	✓	auto:ai	2026-10-10	
+b75b4a05b72a2251	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R10	184		honpen p.6	✓	auto:ai	2026-10-10	
+f06fe94fa203d5e1	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	12歳/R11	160		honpen p.6	✓	auto:ai	2026-10-10	
+cb407a572e6e5574	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R2	192		honpen p.6	✓	auto:ai	2026-10-10	
+c0a62b516da90c8a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R3	172		honpen p.6	✓	auto:ai	2026-10-10	
+bd5925bf58b23885	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R4	171		honpen p.6	✓	auto:ai	2026-10-10	
+0c582180ae08be7f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R5	195		honpen p.6	✓	auto:ai	2026-10-10	
+7dd9fcfde20695dd	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R6	214		honpen p.6	✓	auto:ai	2026-10-10	
+0dbd03aa300bcc9f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R7	163		honpen p.6	✓	auto:ai	2026-10-10	
+1993662a7378ddeb	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R8	195		honpen p.6	✓	auto:ai	2026-10-10	
+fc609b88fe0f1d20	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R9	178		honpen p.6	✓	auto:ai	2026-10-10	
+ee3bd2357c236898	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R10	193		honpen p.6	✓	auto:ai	2026-10-10	
+920cb4278dd1f955	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	13歳/R11	184		honpen p.6	✓	auto:ai	2026-10-10	
+b9a82dd995cc18b4	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R2	198		honpen p.6	✓	auto:ai	2026-10-10	
+cf7ca9b0b1328647	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R3	193		honpen p.6	✓	auto:ai	2026-10-10	
+f7ab97d0d8a5c22e	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R4	173		honpen p.6	✓	auto:ai	2026-10-10	
+7a0aca5d35c513e9	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R5	174		honpen p.6	✓	auto:ai	2026-10-10	
+064f35dee7387bfb	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R6	196		honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+213332aa98dca2d2	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R7	215		honpen p.6	✓	auto:ai	2026-10-10	
+f8487b168fd022df	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R8	164		honpen p.6	✓	auto:ai	2026-10-10	
+e8d5c5d245fe44d8	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R9	196		honpen p.6	✓	auto:ai	2026-10-10	
+ce9b04b1e8bdcb61	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R10	179		honpen p.6	✓	auto:ai	2026-10-10	
+71baa9835af5e023	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	14歳/R11	194		honpen p.6	✓	auto:ai	2026-10-10	
+55df6dae7f92022f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R2	196		honpen p.6	✓	auto:ai	2026-10-10	
+f9e664a72960cd56	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R3	199		honpen p.6	✓	auto:ai	2026-10-10	
+6b0d27345ba921b4	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R4	193		honpen p.6	✓	auto:ai	2026-10-10	
+d29b8b3c8b277f13	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R5	172		honpen p.6	✓	auto:ai	2026-10-10	
+ba6f19318828bdba	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R6	176		honpen p.6	✓	auto:ai	2026-10-10	
+d1996b0b0d3ee0d3	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R7	197		honpen p.6	✓	auto:ai	2026-10-10	
+2f64f24aee6cd287	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R8	216		honpen p.6	✓	auto:ai	2026-10-10	
+ca44f6d6a7562bd6	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R9	165		honpen p.6	✓	auto:ai	2026-10-10	
+f992e4043ba0474f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R10	197		honpen p.6	✓	auto:ai	2026-10-10	
+e20301228ba07b73	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	15歳/R11	180		honpen p.6	✓	auto:ai	2026-10-10	
+295edf50a97845fe	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R2	193		honpen p.6	✓	auto:ai	2026-10-10	
+343bcf6d5de74f40	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R3	194		honpen p.6	✓	auto:ai	2026-10-10	
+5552def8303e95f7	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R4	196		honpen p.6	✓	auto:ai	2026-10-10	
+deeb4394c0054002	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R5	196		honpen p.6	✓	auto:ai	2026-10-10	
+453e011fb34903c6	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R6	174		honpen p.6	✓	auto:ai	2026-10-10	
+5c21ef100f7f6f74	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R7	177		honpen p.6	✓	auto:ai	2026-10-10	
+d54936b1fa81a188	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R8	198		honpen p.6	✓	auto:ai	2026-10-10	
+f06485d1ec756fb5	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R9	217		honpen p.6	✓	auto:ai	2026-10-10	
+677d086c68250d5a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R10	166		honpen p.6	✓	auto:ai	2026-10-10	
+f72e4fc230f7378c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	16歳/R11	198		honpen p.6	✓	auto:ai	2026-10-10	
+f9bb81c9aa18d0ea	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R2	208		honpen p.6	✓	auto:ai	2026-10-10	
+cbd508c836de2e52	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R3	195		honpen p.6	✓	auto:ai	2026-10-10	
+5c48b1702df137db	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R4	194		honpen p.6	✓	auto:ai	2026-10-10	
+b6e68b41144c30f5	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R5	198		honpen p.6	✓	auto:ai	2026-10-10	
+7443a16b197f6304	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R6	194		honpen p.6	✓	auto:ai	2026-10-10	
+16a17d415c2c38ce	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R7	175		honpen p.6	✓	auto:ai	2026-10-10	
+d55f18c54b334a9f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R8	178		honpen p.6	✓	auto:ai	2026-10-10	
+9b7ffd5c75139d3c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R9	199		honpen p.6	✓	auto:ai	2026-10-10	
+89dd7cb4b976410a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R10	218		honpen p.6	✓	auto:ai	2026-10-10	
+7d26b11320b2f59b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R11	167		honpen p.6	✓	auto:ai	2026-10-10	
+88f12432533d4cd3	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/全国	7.6		honpen p.10	✓	auto:ai	2026-10-10	
+7705901fd606d719	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/滋賀県	9.2		honpen p.10	✓	auto:ai	2026-10-10	
+3fd3af21584072c3	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/日野町	8.6		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+3e15bcb5583ec48f	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/全国	13.4		honpen p.10	✓	auto:ai	2026-10-10	
+feeb22c9fcde6afa	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/滋賀県	16.4		honpen p.10	✓	auto:ai	2026-10-10	
+79203f1ec347ecc7	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/日野町	15.5		honpen p.10	✓	auto:ai	2026-10-10	
+7a6a7b699605ce42	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/全国	16.3		honpen p.10	✓	auto:ai	2026-10-10	
+2fc5e2c7e52f9c76	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/滋賀県	19.9		honpen p.10	✓	auto:ai	2026-10-10	
+4cc7046567eaaddc	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/日野町	18.6		honpen p.10	✓	auto:ai	2026-10-10	
+4d204e7687b1155d	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/全国	19.3		honpen p.10	✓	auto:ai	2026-10-10	
+676d9bd08da01940	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/滋賀県	23.4		honpen p.10	✓	auto:ai	2026-10-10	
+99924c26cfcb3dc1	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/日野町	22.1		honpen p.10	✓	auto:ai	2026-10-10	
+11a9a9c3c0ec2c19	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	一般世帯/世帯数(世帯)	7918		honpen p.10	✓	auto:pdftext	2026-10-10	
+f82bb69779c29596	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	一般世帯/世帯人員(人)	20564		honpen p.10	✓	auto:pdftext	2026-10-10	
+57a81a4f5c1cc2c7	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	一般世帯/6歳未満人員(人)	938		honpen p.10	✓	auto:pdftext	2026-10-10	
+e65e3d5f18909dc3	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	6歳未満がいる世帯/世帯数(世帯)	679		honpen p.10	✓	auto:pdftext	2026-10-10	
+b3dd015850b05af3	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	6歳未満がいる世帯/世帯人員(人)	3012		honpen p.10	✓	auto:ai	2026-10-10	
+1d41bdb1eee96afa	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	6歳未満がいる世帯/6歳未満人員(人)	938		honpen p.10	✓	auto:pdftext	2026-10-10	
+ba3ca56533aabbff	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	核家族/世帯数(世帯)	507		honpen p.10	✓	auto:pdftext	2026-10-10	
+b8fc4adf932f0c22	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	核家族/世帯人員(人)	1985		honpen p.10	✓	auto:pdftext	2026-10-10	
+53706746bdc6be0c	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	核家族/6歳未満人員(人)	701		honpen p.10	✓	auto:pdftext	2026-10-10	
+29accb27ea26a53e	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	夫婦と子供から成る世帯/世帯数(世帯)	482		honpen p.10	✓	auto:pdftext	2026-10-10	
+af7b060a29506d08	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	夫婦と子供から成る世帯/世帯人員(人)	1910		honpen p.10	✓	auto:ai	2026-10-10	
+e422bfc3dc610ba2	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	夫婦と子供から成る世帯/6歳未満人員(人)	670		honpen p.10	✓	auto:pdftext	2026-10-10	
+0b0858530a9cbd69	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	男親と子供から成る世帯/世帯数(世帯)	2		honpen p.10	✓	auto:pdftext	2026-10-10	
+26a8f6008e5a177b	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	男親と子供から成る世帯/世帯人員(人)	6		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+a88cc2d3df3464a4	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	男親と子供から成る世帯/6歳未満人員(人)	3		honpen p.10	✓	auto:pdftext	2026-10-10	
+f4df3bd6bd15d838	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	女親と子供から成る世帯/世帯数(世帯)	23		honpen p.10	✓	auto:pdftext	2026-10-10	
+c7629c3ddaf136d4	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	女親と子供から成る世帯/世帯人員(人)	69		honpen p.10	✓	auto:ai	2026-10-10	
+555b6f557c0b6648	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	女親と子供から成る世帯/6歳未満人員(人)	28		honpen p.10	✓	auto:pdftext	2026-10-10	
+9e982b09d0c868d7	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	3世代等/世帯数(世帯)	162		honpen p.10	✓	auto:pdftext	2026-10-10	
+83ef3a550bca82c1	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	3世代等/世帯人員(人)	978		honpen p.10	✓	auto:pdftext	2026-10-10	
+d5c23aab34758102	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	3世代等/6歳未満人員(人)	224		honpen p.10	✓	auto:pdftext	2026-10-10	
+3bf37c7f01ac3629	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/15〜19歳	16.7	%	honpen p.11	✓	auto:ai	2026-10-10	
+1a28e0a50aa9974e	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/20〜24歳	60.4	%	honpen p.11	✓	auto:ai	2026-10-10	
+95eb36bedd91c03f	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/25〜29歳	70.8	%	honpen p.11	✓	auto:ai	2026-10-10	
+e00eb5efbd34bd66	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/30〜34歳	69.8	%	honpen p.11	✓	auto:ai	2026-10-10	
+6f99d6009f93c2de	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/35〜39歳	70.5	%	honpen p.11	✓	auto:ai	2026-10-10	
+488cb4d13fb17a25	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/40〜44歳	74.8	%	honpen p.11	✓	auto:ai	2026-10-10	
+3324595b3beda462	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/45〜49歳	78.4	%	honpen p.11				要人確認:H1 A=一致/高 B=一致/中
+ad61e67ca48dd9ec	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/50〜54歳	74.4	%	honpen p.11	✓	auto:ai	2026-10-10	
+87e2d711eb353443	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/55〜59歳	80.4	%	honpen p.11	✓	auto:ai	2026-10-10	
+c280eb923a019b48	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/60〜64歳	64.8	%	honpen p.11	✓	auto:ai	2026-10-10	
+e72d592370cd000e	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/65〜69歳	45.0	%	honpen p.11	✓	auto:ai	2026-10-10	
+5fa75e443a96c89b	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/70〜74歳	30.9	%	honpen p.11	✓	auto:ai	2026-10-10	
+5ecc0b1193c068d3	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/75〜79歳	15.5	%	honpen p.11	✓	auto:ai	2026-10-10	
+01f90cdca25b3403	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/80〜84歳	8.3	%	honpen p.11	✓	auto:ai	2026-10-10	
+9b18c67fe18ee3a4	katei	5	chart.line	日野町の女性の年代別就業率の変化	2020(R2)/85歳以上	2.8	%	honpen p.11	✓	auto:ai	2026-10-10	
+d1ab9d01d466c4e9	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/15〜19歳	15.6	%	honpen p.11	✓	auto:ai	2026-10-10	
+40d58f03ec62d74c	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/20〜24歳	69.8	%	honpen p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+6094319217ec0be2	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/25〜29歳	73.4	%	honpen p.11	✓	auto:ai	2026-10-10	
+597ef7d787373302	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/30〜34歳	67.6	%	honpen p.11	✓	auto:ai	2026-10-10	
+a4b1fef2c8718435	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/35〜39歳	72.9	%	honpen p.11	✓	auto:ai	2026-10-10	
+689a3c776e4c7bee	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/40〜44歳	76.5	%	honpen p.11	✓	auto:ai	2026-10-10	
+fd7ae37986cf42cc	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/45〜49歳	78.5	%	honpen p.11				要人確認:H1 A=一致/高 B=一致/中
+59a6e210fe975613	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/50〜54歳	83.4	%	honpen p.11	✓	auto:ai	2026-10-10	
+cffdf59b7c7b9b1e	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/55〜59歳	73.4	%	honpen p.11	✓	auto:ai	2026-10-10	
+9887439d5553ae81	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/60〜64歳	59.1	%	honpen p.11	✓	auto:ai	2026-10-10	
+105d9ba06fc15831	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/65〜69歳	37.9	%	honpen p.11	✓	auto:ai	2026-10-10	
+e863787f2fea7004	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/70〜74歳	22.0	%	honpen p.11	✓	auto:ai	2026-10-10	
+0ee349586454e2b2	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/75〜79歳	9.3	%	honpen p.11	✓	auto:ai	2026-10-10	
+4376ca728c278fcd	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/80〜84歳	5.1	%	honpen p.11	✓	auto:ai	2026-10-10	
+e53aa3e63546c94f	katei	5	chart.line	日野町の女性の年代別就業率の変化	2015(H27)/85歳以上	1.3	%	honpen p.11				要人確認:H1 A=一致/中 B=一致/高
+68e5e5d4db95d5ef	katei	7	table	児童虐待相談件数(件)	合計/R1	239		honpen p.12	✓	auto:pdftext	2026-10-10	
+7d11294c20a34152	katei	7	table	児童虐待相談件数(件)	合計/R2	264		honpen p.12	✓	auto:pdftext	2026-10-10	
+e547b7fe3529ad37	katei	7	table	児童虐待相談件数(件)	合計/R3	291		honpen p.12	✓	auto:pdftext	2026-10-10	
+6aa50970069dfe8a	katei	7	table	児童虐待相談件数(件)	合計/R4	185		honpen p.12	✓	auto:pdftext	2026-10-10	
+8e6c8b1b5a7d983f	katei	7	table	児童虐待相談件数(件)	合計/R5	234		honpen p.12	✓	auto:pdftext	2026-10-10	
+9afe2939adaa8a3e	katei	7	table	児童虐待相談件数(件)	新規/R1	110		honpen p.12	✓	auto:pdftext	2026-10-10	
+cc8e6cee5ad8ebc6	katei	7	table	児童虐待相談件数(件)	新規/R2	75		honpen p.12	✓	auto:pdftext	2026-10-10	
+1eae8634fd4c9302	katei	7	table	児童虐待相談件数(件)	新規/R3	112		honpen p.12	✓	auto:pdftext	2026-10-10	
+bfefcda49caa507c	katei	7	table	児童虐待相談件数(件)	新規/R4	54		honpen p.12	✓	auto:pdftext	2026-10-10	
+fc7f436168e8a516	katei	7	table	児童虐待相談件数(件)	新規/R5	61		honpen p.12	✓	auto:pdftext	2026-10-10	
+6acb5899fa0454b6	katei	7	table	児童虐待相談件数(件)	継続/R1	129		honpen p.12	✓	auto:pdftext	2026-10-10	
+7fb7897f09a62957	katei	7	table	児童虐待相談件数(件)	継続/R2	189		honpen p.12	✓	auto:pdftext	2026-10-10	
+06cd194535ea4a5d	katei	7	table	児童虐待相談件数(件)	継続/R3	179		honpen p.12	✓	auto:pdftext	2026-10-10	
+28d66cd2a27d9ae2	katei	7	table	児童虐待相談件数(件)	継続/R4	131		honpen p.12	✓	auto:pdftext	2026-10-10	
+a6dd7dc5d74be381	katei	7	table	児童虐待相談件数(件)	継続/R5	173		honpen p.12	✓	auto:pdftext	2026-10-10	
+337ee94dd0a8d557	katei	7	table	児童虐待相談件数(件)	身体的虐待/R1	63		honpen p.12	✓	auto:ai	2026-10-10	
+ec021e226578b558	katei	7	table	児童虐待相談件数(件)	身体的虐待/R2	67		honpen p.12	✓	auto:ai	2026-10-10	
+7104f45b3ff80ef4	katei	7	table	児童虐待相談件数(件)	身体的虐待/R3	59		honpen p.12	✓	auto:pdftext	2026-10-10	
+40b3063e753f33fd	katei	7	table	児童虐待相談件数(件)	身体的虐待/R4	36		honpen p.12	✓	auto:pdftext	2026-10-10	
+47569aa5e94d9539	katei	7	table	児童虐待相談件数(件)	身体的虐待/R5	46		honpen p.12	✓	auto:pdftext	2026-10-10	
+8071ea4bdcff195e	katei	7	table	児童虐待相談件数(件)	ネグレクト/R1	103		honpen p.12	✓	auto:ai	2026-10-10	
+38a839b785ca433e	katei	7	table	児童虐待相談件数(件)	ネグレクト/R2	113		honpen p.12	✓	auto:ai	2026-10-10	
+e04c4c7bc36d84a8	katei	7	table	児童虐待相談件数(件)	ネグレクト/R3	118		honpen p.12	✓	auto:pdftext	2026-10-10	
+a5f5d62d2d5e0b6e	katei	7	table	児童虐待相談件数(件)	ネグレクト/R4	60		honpen p.12	✓	auto:pdftext	2026-10-10	
+e727c32bc8b9761f	katei	7	table	児童虐待相談件数(件)	ネグレクト/R5	112		honpen p.12	✓	auto:pdftext	2026-10-10	
+9a9b6a3893da1a24	katei	7	table	児童虐待相談件数(件)	心理的虐待/R1	68		honpen p.12	✓	auto:ai	2026-10-10	
+38014afa706994dc	katei	7	table	児童虐待相談件数(件)	心理的虐待/R2	78		honpen p.12	✓	auto:ai	2026-10-10	
+459abfdb68f21d1f	katei	7	table	児童虐待相談件数(件)	心理的虐待/R3	110		honpen p.12	✓	auto:pdftext	2026-10-10	
+fe499fe089f266f8	katei	7	table	児童虐待相談件数(件)	心理的虐待/R4	88		honpen p.12	✓	auto:pdftext	2026-10-10	
+c4e80b6378508acb	katei	7	table	児童虐待相談件数(件)	心理的虐待/R5	75		honpen p.12	✓	auto:pdftext	2026-10-10	
+3938ebb4b67a69de	katei	7	table	児童虐待相談件数(件)	性的虐待/R1	5		honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+e5fe7234deaa9c14	katei	7	table	児童虐待相談件数(件)	性的虐待/R2	6		honpen p.12	✓	auto:pdftext	2026-10-10	
+0cd16b9010922a91	katei	7	table	児童虐待相談件数(件)	性的虐待/R3	4		honpen p.12	✓	auto:pdftext	2026-10-10	
+757dc5b4030877f6	katei	7	table	児童虐待相談件数(件)	性的虐待/R4	1		honpen p.12	✓	auto:pdftext	2026-10-10	
+625aa901f572043e	katei	7	table	児童虐待相談件数(件)	性的虐待/R5	1		honpen p.12	✓	auto:pdftext	2026-10-10	
+f6bd3288286e6008	katei	9	table	調査の概要	400/配布数(票)	400		honpen p.12	✓	auto:pdftext	2026-10-10	
+9d5d133d5e6757f0	katei	9	table	調査の概要	400/回収数(票)	203		honpen p.12	✓	auto:pdftext	2026-10-10	
+4c7317d9e885e246	katei	9	table	調査の概要	400/回収率(%)	50.8		honpen p.12	✓	auto:pdftext	2026-10-10	
+eb611e4a77144437	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	日常的に祖父母等の親族に預かってもらえる/今回	26.1	%	honpen p.13	✓	auto:ai	2026-10-10	
+8f52205b5db8469b	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	日常的に祖父母等の親族に預かってもらえる/前回	26.9	%	honpen p.13	✓	auto:ai	2026-10-10	
+d2ec239b9dbafbbd	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	緊急時や用事がある時に祖父母等の親族に預かってもらえる/今回	63.5	%	honpen p.13	✓	auto:ai	2026-10-10	
+ea361a3d6708ea91	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	緊急時や用事がある時に祖父母等の親族に預かってもらえる/前回	67.5	%	honpen p.13	✓	auto:ai	2026-10-10	
+64ec335b72ea578f	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	日常的に友人・知人に預かってもらえる/今回	0.5	%	honpen p.13	✓	auto:ai	2026-10-10	
+7e20c51933b45835	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	日常的に友人・知人に預かってもらえる/前回	0.5	%	honpen p.13	✓	auto:ai	2026-10-10	
+dd12e2af85b12169	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	緊急時や用事がある時に友人・知人に預かってもらえる/今回	4.9	%	honpen p.13	✓	auto:ai	2026-10-10	
+f67fbd3d6d3f27a8	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	緊急時や用事がある時に友人・知人に預かってもらえる/前回	9.1	%	honpen p.13	✓	auto:ai	2026-10-10	
+2844d593f4c3b83b	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	預かってもらえる人はいない/今回	11.8	%	honpen p.13	✓	auto:ai	2026-10-10	
+ebb59427006265dd	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	預かってもらえる人はいない/前回	9.6	%	honpen p.13	✓	auto:ai	2026-10-10	
+a62b6d81cc0fdf28	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	無回答/今回	1.5	%	honpen p.13	✓	auto:ai	2026-10-10	
+1a77d2f55f016c89	katei	10	chart.pair	問① 日頃、お子さんを預けられる人はいますか(複数回答)	無回答/前回	2.0	%	honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+5195109c12e67e79	katei	11	chart.rank	問② 幼稚園や保育所等の子育て支援施設や事業を定期的に利用していますか(単数回答)	利用している	71.4	%	honpen p.13	✓	auto:ai	2026-10-10	
+a8dd089b014477ed	katei	11	chart.rank	問② 幼稚園や保育所等の子育て支援施設や事業を定期的に利用していますか(単数回答)	利用していない	27.1	%	honpen p.13	✓	auto:ai	2026-10-10	
+6e5b938b48a21eb8	katei	11	chart.rank	問② 幼稚園や保育所等の子育て支援施設や事業を定期的に利用していますか(単数回答)	無回答	1.5	%	honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+60228308c8af2c62	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	幼稚園(通常の就園時間)/今回	18.6	%	honpen p.14	✓	auto:ai	2026-10-10	
+27cc60217ac4d4f2	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	幼稚園(通常の就園時間)/前回	35.5	%	honpen p.14	✓	auto:ai	2026-10-10	
+48ca88b8ffa1e214	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	幼稚園の預かり保育(日野幼稚園、必佐幼稚園のみ)/今回	7.6	%	honpen p.14	✓	auto:ai	2026-10-10	
+057ce93b9699d627	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	幼稚園の預かり保育(日野幼稚園、必佐幼稚園のみ)/前回	5.0	%	honpen p.14	✓	auto:ai	2026-10-10	
+9abaaccd607a0bea	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	認可保育所(公立や私立の保育所)/今回	54.5	%	honpen p.14	✓	auto:ai	2026-10-10	
+e8af84e6c9efba86	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	認可保育所(公立や私立の保育所)/前回	51.8	%	honpen p.14	✓	auto:ai	2026-10-10	
+b1ddff755ba259a5	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	認定こども園/今回	13.8	%	honpen p.14	✓	auto:ai	2026-10-10	
+1b0d8559ce4fc621	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	認定こども園/前回	8.5	%	honpen p.14	✓	auto:ai	2026-10-10	
+e6a1e7225f9743af	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	事業所内保育施設/今回	2.1	%	honpen p.14	✓	auto:ai	2026-10-10	
+ea7f6959c65ffb27	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	事業所内保育施設/前回	1.4	%	honpen p.14	✓	auto:ai	2026-10-10	
+801b9936d09d51da	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	その他の認可外の保育施設(現在、本町では実施していません)/今回	0.7	%	honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+d6de2606d78edd50	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	その他の認可外の保育施設(現在、本町では実施していません)/前回	0.0	%	honpen p.14	✓	auto:ai	2026-10-10	
+6e4d4998ecb15e03	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	その他の施設/今回	2.1	%	honpen p.14	✓	auto:ai	2026-10-10	
+90c01cec5e7ccd26	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	その他の施設/前回	1.4	%	honpen p.14	✓	auto:ai	2026-10-10	
+e403da44b722ae0f	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	無回答/今回	0.7	%	honpen p.14	✓	auto:ai	2026-10-10	
+efebd8c9e088eeac	katei	12	chart.pair	問③ 現在、どの子育て支援施設や事業を利用していますか(単数回答・定期利用者)	無回答/前回	0.0	%	honpen p.14	✓	auto:ai	2026-10-10	
+7a8dfbfba1fb6b75	katei	13	chart.rank	問④ 現在、利用している子育て支援施設や事業に満足していますか(単数回答・定期利用者)	とても満足している	48.3	%	honpen p.14	✓	auto:ai	2026-10-10	
+3da6070be76f9263	katei	13	chart.rank	問④ 現在、利用している子育て支援施設や事業に満足していますか(単数回答・定期利用者)	やや満足している	26.9	%	honpen p.14	✓	auto:ai	2026-10-10	
+e06b29c9e369fe0c	katei	13	chart.rank	問④ 現在、利用している子育て支援施設や事業に満足していますか(単数回答・定期利用者)	どちらともいえない	9.7	%	honpen p.14	✓	auto:ai	2026-10-10	
+6c757904a02bce24	katei	13	chart.rank	問④ 現在、利用している子育て支援施設や事業に満足していますか(単数回答・定期利用者)	少し、不満に感じている	11.7	%	honpen p.14	✓	auto:ai	2026-10-10	
+7759224d5c925a1a	katei	13	chart.rank	問④ 現在、利用している子育て支援施設や事業に満足していますか(単数回答・定期利用者)	大変、不満に感じている	0.7	%	honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+be8e2aa43c680b6f	katei	13	chart.rank	問④ 現在、利用している子育て支援施設や事業に満足していますか(単数回答・定期利用者)	無回答	2.8	%	honpen p.14	✓	auto:ai	2026-10-10	
+2f691c16a39914c2	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	教育や保育の内容を改善する	7.6	%	honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+c6ce141c13e9a064	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	先生や保育士の質を高める	13.8	%	honpen p.15	✓	auto:ai	2026-10-10	
+63d1509ccf4f146b	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	園庭や遊具などの施設・設備を改善する	26.2	%	honpen p.15	✓	auto:ai	2026-10-10	
+f4bf48b56d90483e	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	夜間等の保育時間を延ばす	12.4	%	honpen p.15	✓	auto:ai	2026-10-10	
+6cf444138294e9da	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	土曜・休日や長期休暇中の利用を増やす	13.8	%	honpen p.15	✓	auto:ai	2026-10-10	
+17dcf18b6e36cbfa	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	利用料金を安くする	17.9	%	honpen p.15	✓	auto:ai	2026-10-10	
+5dd510c2d52ea559	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	保護者の運営や行事への関わりを減らす	15.2	%	honpen p.15	✓	auto:ai	2026-10-10	
+c20fb366c3cab3c7	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	保護者の運営や行事への関わりを増やす	5.5	%	honpen p.15	✓	auto:ai	2026-10-10	
+2855395243d57278	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	その他	20.0	%	honpen p.15	✓	auto:ai	2026-10-10	
+939fb22bd19073c7	katei	14	chart.rank	問⑤ 利用している子育て支援施設や事業について、特に改善すべき点(複数回答・定期利用者)	無回答	16.6	%	honpen p.15	✓	auto:ai	2026-10-10	
+7fcd7c9b395b7693	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	教育や保育の内容/今回	53.7	%	honpen p.15	✓	auto:ai	2026-10-10	
+4e9f07734026018b	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	教育や保育の内容/前回	62.4	%	honpen p.15	✓	auto:ai	2026-10-10	
+2d547b31420faba1	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	先生や保育士の経験/今回	25.1	%	honpen p.15	✓	auto:ai	2026-10-10	
+2fd6332bb29e1448	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	先生や保育士の経験/前回	30.5	%	honpen p.15	✓	auto:ai	2026-10-10	
+253036ab855e50f3	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	園庭や遊具などの施設・設備/今回	27.1	%	honpen p.15	✓	auto:ai	2026-10-10	
+672bab0ef24fe1c8	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	園庭や遊具などの施設・設備/前回	37.1	%	honpen p.15	✓	auto:ai	2026-10-10	
+26e6d7aa39bd2fbe	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	自宅から近いこと/今回	82.3	%	honpen p.15	✓	auto:ai	2026-10-10	
+0c2e931166709952	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	自宅から近いこと/前回	89.3	%	honpen p.15	✓	auto:ai	2026-10-10	
+259b21964c0bb69f	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	勤務先から近いこと/今回	41.9	%	honpen p.15	✓	auto:ai	2026-10-10	
+2199bad748543338	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	勤務先から近いこと/前回	34.0	%	honpen p.15	✓	auto:ai	2026-10-10	
+c211a078c65d6cee	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	延長や夜間等の保育時間が希望に合うこと/今回	48.3	%	honpen p.15	✓	auto:ai	2026-10-10	
+8b8fab5a4ab85314	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	延長や夜間等の保育時間が希望に合うこと/前回	48.7	%	honpen p.15	✓	auto:ai	2026-10-10	
+631791ceb364e28e	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	土曜・休日や長期休暇中に利用できること/今回	17.2	%	honpen p.15	✓	auto:ai	2026-10-10	
+b35cc2412b2d4d9a	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	土曜・休日や長期休暇中に利用できること/前回	29.4	%	honpen p.15	✓	auto:ai	2026-10-10	
+e17cc3e17c2b5ff0	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	利用料金/今回	23.6	%	honpen p.15	✓	auto:ai	2026-10-10	
+ffdeff02a44ee87f	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	利用料金/前回	33.5	%	honpen p.15	✓	auto:ai	2026-10-10	
+919395b4fe74d4b9	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	保護者が運営や行事に関わる機会が多いこと/今回	1.5	%	honpen p.15	✓	auto:ai	2026-10-10	
+1842cfa072c115f1	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	保護者が運営や行事に関わる機会が多いこと/前回	2.0	%	honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+596b0f43f4503f61	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	保護者が運営や行事に関わる機会が少ないこと/今回	11.8	%	honpen p.15	✓	auto:ai	2026-10-10	
+67f09d2e7280b344	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	保護者が運営や行事に関わる機会が少ないこと/前回	14.2	%	honpen p.15	✓	auto:ai	2026-10-10	
+316ea2526ed5f9e3	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	その他/今回	3.4	%	honpen p.15	✓	auto:ai	2026-10-10	
+f4c87edea730f96e	katei	15	chart.pair	問⑥ 幼稚園や保育所等の利用を検討する際、どのようなことを重視しますか(複数回答)	その他/前回	2.5	%	honpen p.15	✓	auto:ai	2026-10-10	
+0240bd0b929199c8	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	取得した(取得中である)/今回	57.1	%	honpen p.16	✓	auto:ai	2026-10-10	
+f65173e69ea80474	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	取得した(取得中である)/前回	45.7	%	honpen p.16	✓	auto:ai	2026-10-10	
+417ddbb17575d848	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	取得していない/今回	9.9	%	honpen p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+b447f4cb52701880	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	取得していない/前回	16.8	%	honpen p.16	✓	auto:ai	2026-10-10	
+1b197e8b7b0731b2	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	働いていなかった/今回	29.1	%	honpen p.16	✓	auto:ai	2026-10-10	
+c1d124c1570420ed	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	働いていなかった/前回	36.5	%	honpen p.16	✓	auto:ai	2026-10-10	
+6bf5d257a36ebfa5	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	無回答/今回	3.9	%	honpen p.16	✓	auto:ai	2026-10-10	
+5fc70a7491d764eb	katei	16	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【母親】(単数回答)	無回答/前回	1.0	%	honpen p.16	✓	auto:ai	2026-10-10	
+3bbbd7a05a1ddc03	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	取得した(取得中である)/今回	8.9	%	honpen p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+5a82a0e75c43db24	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	取得した(取得中である)/前回	1.5	%	honpen p.16	✓	auto:ai	2026-10-10	
+5c5036d72ee6905c	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	取得していない/今回	79.8	%	honpen p.16	✓	auto:ai	2026-10-10	
+3ece3c6bd8098544	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	取得していない/前回	96.4	%	honpen p.16	✓	auto:ai	2026-10-10	
+bc87b32527d72e12	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	働いていなかった/今回	2.0	%	honpen p.16	✓	auto:ai	2026-10-10	
+8b4fafa7ea661de4	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	働いていなかった/前回	0.5	%	honpen p.16	✓	auto:ai	2026-10-10	
+0fa15aac5b49641d	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	無回答/今回	9.4	%	honpen p.16	✓	auto:ai	2026-10-10	
+d50595db2a455efe	katei	17	chart.pair	問⑦ お子さんが生まれた時、育児休業を取得しましたか【父親】(単数回答)	無回答/前回	1.5	%	honpen p.16	✓	auto:ai	2026-10-10	
+40cab67776c1019a	katei	18	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【母親】(単数回答・育児休業取得者)	職場復帰した	69.0	%	honpen p.17	✓	auto:ai	2026-10-10	
+111bed1158380f36	katei	18	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【母親】(単数回答・育児休業取得者)	現在も育児休業中である	24.1	%	honpen p.17	✓	auto:ai	2026-10-10	
+ad67c5829f94a38d	katei	18	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【母親】(単数回答・育児休業取得者)	育児休業中に離職した	6.0	%	honpen p.17	✓	auto:ai	2026-10-10	
+664e9dd0cc3788c4	katei	18	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【母親】(単数回答・育児休業取得者)	無回答	0.9	%	honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+3aa061c0d47b0dc5	katei	19	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【父親】(単数回答・育児休業取得者)	職場復帰した	94.4	%	honpen p.17	✓	auto:ai	2026-10-10	
+8c424e4a1b53893d	katei	19	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【父親】(単数回答・育児休業取得者)	現在も育児休業中である	5.6	%	honpen p.17	✓	auto:ai	2026-10-10	
+ffaf491aa4efc016	katei	19	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【父親】(単数回答・育児休業取得者)	育児休業中に離職した	0.0	%	honpen p.17	✓	auto:ai	2026-10-10	
+44b010f786c63e08	katei	19	chart.rank	問⑧ 育児休業取得後、職場に復帰しましたか【父親】(単数回答・育児休業取得者)	無回答	0.0	%	honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+813ffd487090c2b4	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	3か月未満	3.4	%	honpen p.17	✓	auto:ai	2026-10-10	
+847eafe7af931666	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	3か月以上半年未満	5.4	%	honpen p.17	✓	auto:ai	2026-10-10	
+eb032b4a578ee554	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	半年以上1年未満	17.7	%	honpen p.17	✓	auto:ai	2026-10-10	
+70122d94d32d44e1	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	1年以上2年未満	38.4	%	honpen p.17	✓	auto:ai	2026-10-10	
+0c21abead1e1305f	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	2年以上3年未満	25.6	%	honpen p.17	✓	auto:ai	2026-10-10	
+e075e20e041557ff	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	3年以上	5.9	%	honpen p.17	✓	auto:ai	2026-10-10	
+24547e89cb048aef	katei	20	chart.rank	問⑨ 育児休業はどの程度の期間が必要だと思いますか(単数回答)	無回答	3.4	%	honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点

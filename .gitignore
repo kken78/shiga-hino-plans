@@ -6,3 +6,4 @@ node_modules/
 build/audit/*.worksheet.html
 build/audit/.cache/
 build/audit/*.ai_items.json
+build/audit/index.html

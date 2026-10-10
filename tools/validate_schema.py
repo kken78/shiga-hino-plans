@@ -248,6 +248,12 @@ def validate(path):
     period = meta.get("period", {})
     if not (isinstance(period, dict) and period.get("start") and period.get("end")):
         rep.err("$.meta.period", "period は {start, end}(和暦文字列)")
+    else:
+        era = re.compile(r"^[RHS](\d+|元)$")
+        s_, e_ = str(period["start"]), str(period["end"])
+        ok = (era.match(s_) and (era.match(e_) or e_ == "定めなし")) or (s_ == e_ == "記載なし")
+        if not ok:
+            rep.err("$.meta.period", f"period は和暦(R7・H26 など)。end は「定めなし」も可、記載がなければ start・end とも「記載なし」: {s_}〜{e_}")
 
     # 出典台帳
     source_ids = set()

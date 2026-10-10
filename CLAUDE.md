@@ -153,6 +153,20 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 6. 進捗: `/home/kken78/GitHub/hino-wt/PROGRESS.md` に、バッチと計画ごとの状態(起票・段1・段2・段3・PR番号)を
    書き足す。取りまとめ役のセッションが途中で切れても、新しいセッションがこのファイルから再開できるようにする。
 
+**遅い計画を待たない**: バッチの中で1本だけ起票が長引いたら(目安1時間)、ほかの計画で手順4〜5を進めてプルリクエストにし、
+長引いた計画は終わりしだい別のプルリクエストにする。中断した起票係の書きかけは作業ツリーに残るので、新しい起票係に
+「`data/plans/<id>.json` の続きから」と渡して再開できる。
+
+**文字を取り出せない原典(台帳の note に「OCRが必要」)の計画**は、起票の前に取りまとめ役が文字の下書きを作る
+(`tesseract-ocr` と `tesseract-ocr-jpn` が必要。無ければ依頼者に `sudo apt install tesseract-ocr tesseract-ocr-jpn` を頼む)。
+```bash
+d=/home/kken78/GitHub/shiga-hino-plans/sources_raw/<id>; mkdir -p $d/ocr
+for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d/$f.pdf $d/ocr/$f; \
+  for img in $d/ocr/$f-*.png; do tesseract $img ${img%.png} -l jpn --psm 6 2>/dev/null; done; done
+```
+下書き(`ocr/<stem>-<PDFページ>.txt`)は読み違いを含むので、起票係は内容をつかむのに使い、ダッシュボードに載せる数値は
+必ずページ画像で確かめる。下書きは段1(機械照合)には使わない(段1は省き、全行を段2に回す)。
+
 段4(人による確認。`audit_worksheet.py <id> --focus`)と、段3の指摘の扱い(H3)の判断は、依頼者があとでまとめて行う。
 エージェントは `tools/`・`templates/`・`PLAN_SCHEMA.md` を変えない。語彙が足りないという報告が集まったら、
 取りまとめ役はバッチの区切りで依頼者に相談する(スキーマが先。不変の制約5)。

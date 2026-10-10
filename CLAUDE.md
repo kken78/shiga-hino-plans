@@ -62,14 +62,20 @@ python3 tools/build.py          # → docs/index.html 再生成
 node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-8)
 
 # 6) 検収(DESIGN.md ADR-7 補遺 L の4段)
-#    段1 プログラムによる照合: python3 tools/audit_autocheck.py <id>(原典PDFが必要)
-#        値・項目名・行の値の並び・列見出しの位置がすべて合う行だけを auto:pdftext で記録
+#    段1 プログラムによる照合(原典PDFが必要。新しい計画は先に --selftest で素通りが2%以下か確かめる):
+#        python3 tools/audit_autocheck.py <id> --selftest
+#        python3 tools/audit_autocheck.py <id> --apply   # 値・項目名・行の並び・列見出しの位置が合う行を auto:pdftext で記録
+#        python3 tools/audit_autocheck.py <id> --ai-items  # 段2の設問 → build/audit/<id>.ai_items.json
 #    段2 AI 2人による照合: 段1で一致にならなかった行を、起票の経緯を渡さない AI 2人が別々に、
 #        出典ページの画像で行と列の対応まで確かめる。2人とも「一致・確信度 高」の行だけ auto:ai で記録
+#        python3 tools/audit_autocheck.py <id> --ai-record A.json B.json  # 取り込み(残りは要人確認:H1)
+#        python3 tools/audit_autocheck.py <id> --select    # 要人確認:H2・H4 を付ける
 #    段3 文章の点検: 照合表に入らない文章と、原典の中の文章と数値の整合・誤字を AI が突き合わせる。
 #        指摘は data/source_issues/<id>.tsv に記録(原典の誤りは43計画が片付いてから町へ一式で提供)
 #    段4 人による確認(Claude はここで止まり、依頼者に引き渡す):
 #        規則 H1〜H4(ADR-7 補遺 L)で選んだ行と、段3の指摘を人が原典と見比べる
+#        python3 tools/audit_worksheet.py <id> --focus   # 要人確認の行だけのワークシート → --import
+#        python3 tools/audit_autocheck.py <id> --status  # 完了の判定
 ```
 
 3〜5 はどれか一つでも失敗したら先に進まない。修正して再実行する。
@@ -217,8 +223,8 @@ git commit
 - [ ] **kodomo の検収(audit 突合)**(ADR-7 補遺 L) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
   `build/audit/kodomo.tsv`(886行)。文章の点検(PR #15)と、段3の原典の点検(`data/source_issues/kodomo.tsv`)は済み。
   残りは段1・段2の台帳への記録と、段4(人による確認)。
-- [ ] **`tools/audit_autocheck.py` の実装**(ADR-7 補遺 L 段1・段4の選定) — 段1の規則による照合、
-  `--selftest`(誤りを入れたコピーで素通りを測る)、H2・H4 の選定、台帳への `auto:pdftext` の記録。
+- [x] **`tools/audit_autocheck.py` の実装**(2026-10) — 段1の照合、`--selftest`、段2の設問と取り込み、
+  H2・H4 の選定、`--status`。ワークシートの `--focus`。kodomo で段1 330行・素通り1.0%(selftest)。
 - [ ] **koutsu・kokyo-kanri の段3の指摘への対応**(H3) — `data/source_issues/<id>.tsv` の各指摘の扱いを決める。
 - [x] `templates/hub.html` の `.hpshi-tip` 除去行を削除(2026-10) — ADR-2 の embed 廃止により
   永久に0件の no-op だった(ADR-6 の「0件 no-op 禁止」と不整合)。

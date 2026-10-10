@@ -1,64 +1,64 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-20dc683491f239cb	summary	2	kpi		総人口	20761	人	jyuki				
-06e0dcf7e262a800	summary	2	kpi		18歳未満人口	3022	人	jyuki				
-e8e9fbd99c28ae84	summary	3	kpi		保育所 待機児童	8	人	honpen p.13				
+d179d810fae2b579	summary	2	kpi		総人口	20761	人	honpen p.4-5				
+cafa08bc57846ed2	summary	2	kpi		18歳未満人口	3022	人	honpen p.4-5				
+9ac497d4a50b7993	summary	3	kpi		保育所 待機児童	8	人	honpen p.11-13				
 9944abc980ff494e	summary	4	kpi		児童虐待相談	234	件	honpen p.8				
-222fa10e660f84f2	genjo	1	chart.stacked	18歳未満人口の推移	R2/就学前	994	人	jyuki				
-601bbbb1348c349d	genjo	1	chart.stacked	18歳未満人口の推移	R2/小学生	1119	人	jyuki				
-209c43cf177f33ac	genjo	1	chart.stacked	18歳未満人口の推移	R2/中学生	562	人	jyuki				
-7f8a718736bdfea1	genjo	1	chart.stacked	18歳未満人口の推移	R2/高校生	597	人	jyuki				
-6265cc93717e1a89	genjo	1	chart.stacked	18歳未満人口の推移	R3/就学前	934	人	jyuki				
-b56d63dc19a532f3	genjo	1	chart.stacked	18歳未満人口の推移	R3/小学生	1137	人	jyuki				
-5577433d6e31c468	genjo	1	chart.stacked	18歳未満人口の推移	R3/中学生	535	人	jyuki				
-d38692ebe0bc6d30	genjo	1	chart.stacked	18歳未満人口の推移	R3/高校生	588	人	jyuki				
-f130f259ef44d52f	genjo	1	chart.stacked	18歳未満人口の推移	R4/就学前	900	人	jyuki				
-90bf508ce1db2a0d	genjo	1	chart.stacked	18歳未満人口の推移	R4/小学生	1126	人	jyuki				
-06c23a303af3069b	genjo	1	chart.stacked	18歳未満人口の推移	R4/中学生	540	人	jyuki				
-9106bae4bc43ebf3	genjo	1	chart.stacked	18歳未満人口の推移	R4/高校生	583	人	jyuki				
-cb897db7a8f31ee2	genjo	1	chart.stacked	18歳未満人口の推移	R5/就学前	857	人	jyuki				
-66c17fe676acc0ea	genjo	1	chart.stacked	18歳未満人口の推移	R5/小学生	1070	人	jyuki				
-871a08e795f3fdbf	genjo	1	chart.stacked	18歳未満人口の推移	R5/中学生	582	人	jyuki				
-bc110e18e5e20627	genjo	1	chart.stacked	18歳未満人口の推移	R5/高校生	566	人	jyuki				
-993f27b3089407d7	genjo	1	chart.stacked	18歳未満人口の推移	R6/就学前	838	人	jyuki				
-f94bece37b6cc251	genjo	1	chart.stacked	18歳未満人口の推移	R6/小学生	1067	人	jyuki				
-ba3b86f99c4ccaa6	genjo	1	chart.stacked	18歳未満人口の推移	R6/中学生	573	人	jyuki				
-f22ac8eb516dcce8	genjo	1	chart.stacked	18歳未満人口の推移	R6/高校生	544	人	jyuki				
-69aced3a511bc7d6	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/15	16.7	%	kokucho				
-13de924e864c7070	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/20	60.4	%	kokucho				
-cd71dc813c66a59a	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/25	70.8	%	kokucho				
-23d09756b4291b51	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/30	69.8	%	kokucho				
-525268722f32d528	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/35	70.5	%	kokucho				
-d8cd4509d3b796c4	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/40	74.8	%	kokucho				
-34217d02e333fed3	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/45	78.4	%	kokucho				
-cc59d21bb4330a8e	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/50	74.4	%	kokucho				
-8effeddd9f144f66	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/55	80.4	%	kokucho				
-1b33e6c93c913df7	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/60	64.8	%	kokucho				
-56a96eb1ede89426	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/65	45.0	%	kokucho				
-98344ad58a915a0a	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/70	30.9	%	kokucho				
-cebd807806b99f92	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/75	15.5	%	kokucho				
-44f7d779a3631791	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/80	8.3	%	kokucho				
-32f519bece68e82e	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/85+	2.8	%	kokucho				
-b22cd5114335ba96	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/15	15.6	%	kokucho				
-2dcf5f43b6e61aee	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/20	69.8	%	kokucho				
-227db873ccf1a38f	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/25	73.4	%	kokucho				
-c3295f3a07f2c703	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/30	67.6	%	kokucho				
-aad916430e5851d3	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/35	72.9	%	kokucho				
-3ec97cff1901218f	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/40	76.5	%	kokucho				
-6e5099acb5dec7e3	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/45	78.5	%	kokucho				
-53ddc659f9298a9f	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/50	83.4	%	kokucho				
-5afa11e7641bdba5	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/55	73.4	%	kokucho				
-2a1f824993380934	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/60	59.1	%	kokucho				
-9b10eddc3ef258db	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/65	37.9	%	kokucho				
-498677c75333e837	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/70	22.0	%	kokucho				
-c08f59301528817c	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/75	9.3	%	kokucho				
-a45a263f7966f0c8	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/80	5.1	%	kokucho				
-9e0ccdb77e3fa80d	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/85+	1.3	%	kokucho				
-1df4264e0d5787dd	genjo	5	table	女性の年代別就業率	待機児童/R2	2		honpen p.13				
-633a7c3b19a0345f	genjo	5	table	女性の年代別就業率	待機児童/R3	3		honpen p.13				
-5a3a769e713ba860	genjo	5	table	女性の年代別就業率	待機児童/R4	6		honpen p.13				
-9464d75895787b39	genjo	5	table	女性の年代別就業率	待機児童/R5	4		honpen p.13				
-226f4db25e1df64b	genjo	5	table	女性の年代別就業率	待機児童/R6	8		honpen p.13				
+e101614ecd753578	genjo	1	chart.stacked	18歳未満人口の推移	R2/就学前	994	人	honpen p.5				
+955f7505faa41015	genjo	1	chart.stacked	18歳未満人口の推移	R2/小学生	1119	人	honpen p.5				
+bceba6dec8e8bd1c	genjo	1	chart.stacked	18歳未満人口の推移	R2/中学生	562	人	honpen p.5				
+3c0f1d51befc6421	genjo	1	chart.stacked	18歳未満人口の推移	R2/高校生	597	人	honpen p.5				
+ae22f72baf044158	genjo	1	chart.stacked	18歳未満人口の推移	R3/就学前	934	人	honpen p.5				
+2195773878b503bc	genjo	1	chart.stacked	18歳未満人口の推移	R3/小学生	1137	人	honpen p.5				
+4e8d2ae2332e1fe1	genjo	1	chart.stacked	18歳未満人口の推移	R3/中学生	535	人	honpen p.5				
+83d7d6f0311e02c9	genjo	1	chart.stacked	18歳未満人口の推移	R3/高校生	588	人	honpen p.5				
+d645bd698717d74d	genjo	1	chart.stacked	18歳未満人口の推移	R4/就学前	900	人	honpen p.5				
+b4bd33395a2a019d	genjo	1	chart.stacked	18歳未満人口の推移	R4/小学生	1126	人	honpen p.5				
+23c2830f0f96a5f6	genjo	1	chart.stacked	18歳未満人口の推移	R4/中学生	540	人	honpen p.5				
+a2976df17e1ec224	genjo	1	chart.stacked	18歳未満人口の推移	R4/高校生	583	人	honpen p.5				
+03d6102a47b90f79	genjo	1	chart.stacked	18歳未満人口の推移	R5/就学前	857	人	honpen p.5				
+7c71272de02a02a7	genjo	1	chart.stacked	18歳未満人口の推移	R5/小学生	1070	人	honpen p.5				
+cd0721bee837f788	genjo	1	chart.stacked	18歳未満人口の推移	R5/中学生	582	人	honpen p.5				
+b280a35f9864df97	genjo	1	chart.stacked	18歳未満人口の推移	R5/高校生	566	人	honpen p.5				
+6230d1a39924a904	genjo	1	chart.stacked	18歳未満人口の推移	R6/就学前	838	人	honpen p.5				
+c106319756b954e3	genjo	1	chart.stacked	18歳未満人口の推移	R6/小学生	1067	人	honpen p.5				
+d62012ca84d1a324	genjo	1	chart.stacked	18歳未満人口の推移	R6/中学生	573	人	honpen p.5				
+2cbd092888296d2a	genjo	1	chart.stacked	18歳未満人口の推移	R6/高校生	544	人	honpen p.5				
+34bbc75146d87c8f	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/15	16.7	%	honpen p.7				
+926eb54fc3e19ab5	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/20	60.4	%	honpen p.7				
+76221c1c31970515	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/25	70.8	%	honpen p.7				
+79432ddbab4a8661	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/30	69.8	%	honpen p.7				
+f6cb69aa3a067337	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/35	70.5	%	honpen p.7				
+0d920083f98d8560	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/40	74.8	%	honpen p.7				
+e3b4d9e3e14dd0c5	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/45	78.4	%	honpen p.7				
+2004a5b1b3454164	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/50	74.4	%	honpen p.7				
+edcc8967c4c42c67	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/55	80.4	%	honpen p.7				
+1f0e9e742c8587b0	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/60	64.8	%	honpen p.7				
+84e4bf30861b933f	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/65	45.0	%	honpen p.7				
+ef7bd8913c655267	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/70	30.9	%	honpen p.7				
+36bc47df62254baa	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/75	15.5	%	honpen p.7				
+0de5e9c92634e21d	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/80	8.3	%	honpen p.7				
+8cb338caa0030533	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/85+	2.8	%	honpen p.7				
+29ebc5691f3b270c	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/15	15.6	%	honpen p.7				
+d82c1a10970de80e	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/20	69.8	%	honpen p.7				
+0fd42104983724c6	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/25	73.4	%	honpen p.7				
+1df801aaf6069289	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/30	67.6	%	honpen p.7				
+76a0e8968ff0fce9	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/35	72.9	%	honpen p.7				
+69a65c73444c86c5	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/40	76.5	%	honpen p.7				
+d89d9741d462bd8f	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/45	78.5	%	honpen p.7				
+25d7ba8ca79eefa9	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/50	83.4	%	honpen p.7				
+f8a87ac232d62cde	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/55	73.4	%	honpen p.7				
+db44361718eed2ed	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/60	59.1	%	honpen p.7				
+e99e8d34cf33aaad	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/65	37.9	%	honpen p.7				
+23eb617c2dbd7735	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/70	22.0	%	honpen p.7				
+5c381a065e2a7b76	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/75	9.3	%	honpen p.7				
+a265368b72454796	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/80	5.1	%	honpen p.7				
+b16ada7dee7806ba	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/85+	1.3	%	honpen p.7				
+288d74c0e31948f9	genjo	6	table	待機児童数	待機児童/R2	2		honpen p.13				
+b439ebae58be9322	genjo	6	table	待機児童数	待機児童/R3	3		honpen p.13				
+e07b07bd4b38dd5b	genjo	6	table	待機児童数	待機児童/R4	6		honpen p.13				
+07a229d3bb762bff	genjo	6	table	待機児童数	待機児童/R5	4		honpen p.13				
+e4b6abf3e3ff9b36	genjo	6	table	待機児童数	待機児童/R6	8		honpen p.13				
 fae8b5d50550d1e9	needs	1	table		就学前児童アンケート/配布数(票)	400		honpen p.21				
 4442ec7f7560c23d	needs	1	table		就学前児童アンケート/回収数(票)	203		honpen p.21				
 5660003c452d4b60	needs	1	table		小学生アンケート/配布数(票)	400		honpen p.21				
@@ -151,26 +151,26 @@ a05b1a8345810872	needs	15	chart.pair	ヤングケアラーの認知度(単数回
 39b788d0ffc2e635	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	聞いたこともない/小学生 n=182	15.4	%	honpen p.23				
 324d47b43939a9fc	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	無回答/就学前 n=203	2.0	%	honpen p.23				
 71a4b207a10ee17a	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	無回答/小学生 n=182	3.3	%	honpen p.23				
-c5c103f93e4ad406	needs	16	table	ヤングケアラー・経済面	必要な食料が買えなかった/就学前 何度か	8.9		honpen p.28				
-4bde046e6c4caa6e	needs	16	table	ヤングケアラー・経済面	必要な食料が買えなかった/就学前 頻繁	0.5		honpen p.28				
-e456eebde871e507	needs	16	table	ヤングケアラー・経済面	必要な食料が買えなかった/小学生 何度か	10.4		honpen p.28				
-3a7e5ba16632548f	needs	16	table	ヤングケアラー・経済面	必要な食料が買えなかった/小学生 頻繁	2.7		honpen p.28				
-0c82b2788d59ae4f	needs	16	table	ヤングケアラー・経済面	必要な衣料が買えなかった/就学前 何度か	10.8		honpen p.28				
-24ce9e2ff15edcda	needs	16	table	ヤングケアラー・経済面	必要な衣料が買えなかった/就学前 頻繁	0.5		honpen p.28				
-ef2f902f9a4996cb	needs	16	table	ヤングケアラー・経済面	必要な衣料が買えなかった/小学生 何度か	16.5		honpen p.28				
-b25d2a495d885641	needs	16	table	ヤングケアラー・経済面	必要な衣料が買えなかった/小学生 頻繁	2.7		honpen p.28				
-9e04a015569a2f35	needs	16	table	ヤングケアラー・経済面	電気・ガス・水道料金の滞納/就学前 何度か	5.4		honpen p.28				
-0c641f0c3a966ef2	needs	16	table	ヤングケアラー・経済面	電気・ガス・水道料金の滞納/就学前 頻繁	1.0		honpen p.28				
-c1aaf14f82ba2a05	needs	16	table	ヤングケアラー・経済面	電気・ガス・水道料金の滞納/小学生 何度か	7.1		honpen p.28				
-2c16f6829f59e7d8	needs	16	table	ヤングケアラー・経済面	電気・ガス・水道料金の滞納/小学生 頻繁	2.2		honpen p.28				
-e67817b69ef02d19	needs	16	table	ヤングケアラー・経済面	電話料金の滞納/就学前 何度か	4.9		honpen p.28				
-5fa897f37323121b	needs	16	table	ヤングケアラー・経済面	電話料金の滞納/就学前 頻繁	0.5		honpen p.28				
-dac9fdee0d4890ae	needs	16	table	ヤングケアラー・経済面	電話料金の滞納/小学生 何度か	4.9		honpen p.28				
-d653bfa3d7e0d0b7	needs	16	table	ヤングケアラー・経済面	電話料金の滞納/小学生 頻繁	1.6		honpen p.28				
-01847df8cd4e4f87	needs	16	table	ヤングケアラー・経済面	家賃・住宅ローンの滞納/就学前 何度か	5.9		honpen p.28				
-225eb4d5bc912512	needs	16	table	ヤングケアラー・経済面	家賃・住宅ローンの滞納/就学前 頻繁	0.5		honpen p.28				
-c2991bfbafe0c45d	needs	16	table	ヤングケアラー・経済面	家賃・住宅ローンの滞納/小学生 何度か	4.9		honpen p.28				
-8a3558319aaa4419	needs	16	table	ヤングケアラー・経済面	家賃・住宅ローンの滞納/小学生 頻繁	1.6		honpen p.28				
+310e819beed851b0	needs	17	table	子どもの貧困・経済面	必要な食料が買えなかった/就学前 何度か	8.9		honpen p.28				
+9cc774d00a855454	needs	17	table	子どもの貧困・経済面	必要な食料が買えなかった/就学前 頻繁	0.5		honpen p.28				
+d98a9706bab9ec41	needs	17	table	子どもの貧困・経済面	必要な食料が買えなかった/小学生 何度か	10.4		honpen p.28				
+129a3e6de7cc9a59	needs	17	table	子どもの貧困・経済面	必要な食料が買えなかった/小学生 頻繁	2.7		honpen p.28				
+b9719058c47d79d4	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/就学前 何度か	10.8		honpen p.28				
+72b829b9cfa52d40	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/就学前 頻繁	0.5		honpen p.28				
+4d14a40aaa470c14	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/小学生 何度か	16.5		honpen p.28				
+1098d62f110ddf7d	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/小学生 頻繁	2.7		honpen p.28				
+cb0ae0ef80472e60	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/就学前 何度か	5.4		honpen p.28				
+f6b2bac3d0163165	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/就学前 頻繁	1.0		honpen p.28				
+ed7016dd1e458e56	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/小学生 何度か	7.1		honpen p.28				
+79788cb6bcedea10	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/小学生 頻繁	2.2		honpen p.28				
+bf0e2487045cc39b	needs	17	table	子どもの貧困・経済面	電話料金の滞納/就学前 何度か	4.9		honpen p.28				
+ab299e6d88b4aedc	needs	17	table	子どもの貧困・経済面	電話料金の滞納/就学前 頻繁	0.5		honpen p.28				
+cbf2243a95930318	needs	17	table	子どもの貧困・経済面	電話料金の滞納/小学生 何度か	4.9		honpen p.28				
+d2e97b3a33eb8cd2	needs	17	table	子どもの貧困・経済面	電話料金の滞納/小学生 頻繁	1.6		honpen p.28				
+7ddade9ea7452b61	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/就学前 何度か	5.9		honpen p.28				
+45128795afd38850	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/就学前 頻繁	0.5		honpen p.28				
+34e59da32a94c6b3	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/小学生 何度か	4.9		honpen p.28				
+24d51f3b85d656bf	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/小学生 頻繁	1.6		honpen p.28				
 390ac28af72dc2b9	hyoka	1	bigstat		計画全体の平均値	8.72	点	honpen p.30				
 06686c9282bfa27d	hyoka	2	table		Ⅰ ゆとりをもって子育てができるまち/平均値(点)	8.80		honpen p.30				
 01ae5568fd972f19	hyoka	2	table		Ⅱ 子どもが明るく元気に育つまち/平均値(点)	7.40		honpen p.30				
@@ -200,34 +200,34 @@ e6bfd1d0d00d747a	hyoka	6	chart.rank	17の基本施策の平均点(降順)	5-3 �
 b13212a78cc75b14	hyoka	6	chart.rank	17の基本施策の平均点(降順)	3-4 安全で快適な子育て環境の整備	6.67	点	honpen p.31				
 0a9484fbc4471677	hyoka	6	chart.rank	17の基本施策の平均点(降順)	平均値	8.72	点	honpen p.31				
 639feb558cf4a4f2	shisaku	4	programs	施策の体系	事業数	100	件	honpen p.36-57				
-f231f5744c20b5b8	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R5/就学前(0〜5歳)	857	人	honpen p.64				
-dd879de90d93ddef	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R5/小学生(6〜11歳)	1070	人	honpen p.64				
-64092f965a5e7ee5	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R5/中学生(12〜14歳)	582	人	honpen p.64				
-da3440329235eec1	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R5/高校生(15〜17歳)	566	人	honpen p.64				
-248700534a42e17d	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R6/就学前(0〜5歳)	838	人	honpen p.64				
-25616eb3a6c07034	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R6/小学生(6〜11歳)	1067	人	honpen p.64				
-ced8115d83d48f15	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R6/中学生(12〜14歳)	573	人	honpen p.64				
-db0cd07ebc274672	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R6/高校生(15〜17歳)	544	人	honpen p.64				
-c1d1dea39b0a523b	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R7/就学前(0〜5歳)	803	人	honpen p.64				
-c40eff4ebf73c1a0	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R7/小学生(6〜11歳)	1048	人	honpen p.64				
-a7fc9fa946feff58	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R7/中学生(12〜14歳)	573	人	honpen p.64				
-85eae76ea7fb5f3f	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R7/高校生(15〜17歳)	549	人	honpen p.64				
-310557973b971b4b	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R8/就学前(0〜5歳)	792	人	honpen p.64				
-82be79166c18dfc4	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R8/小学生(6〜11歳)	1018	人	honpen p.64				
-c7e672b64cef4044	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R8/中学生(12〜14歳)	537	人	honpen p.64				
-887f41f4035c3c1b	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R8/高校生(15〜17歳)	592	人	honpen p.64				
-f7106b6cd7a1bdb7	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R9/就学前(0〜5歳)	775	人	honpen p.64				
-cc750c55b840ebdf	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R9/小学生(6〜11歳)	975	人	honpen p.64				
-9817210430a5d578	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R9/中学生(12〜14歳)	567	人	honpen p.64				
-901466a7db8e2535	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R9/高校生(15〜17歳)	581	人	honpen p.64				
-b0d58d0a028d7dcb	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R10/就学前(0〜5歳)	758	人	honpen p.64				
-824b1de3a431c6a0	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R10/小学生(6〜11歳)	941	人	honpen p.64				
-c954b4aece8d6a4b	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R10/中学生(12〜14歳)	556	人	honpen p.64				
-6560a214d5252b42	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R10/高校生(15〜17歳)	581	人	honpen p.64				
-3a66a134f2060f61	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R11/就学前(0〜5歳)	769	人	honpen p.64				
-ec9f4d4bf98db89b	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R11/小学生(6〜11歳)	901	人	honpen p.64				
-09acdee120d49abc	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R11/中学生(12〜14歳)	538	人	honpen p.64				
-0d69556d2de39e67	ryo	5	chart.stacked	日野町の18歳未満人口の将来推計	R11/高校生(15〜17歳)	545	人	honpen p.64				
+4eb8fc58dc8f58ba	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/就学前(0〜5歳)	857	人	honpen p.64				
+105f8862de211276	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/小学生(6〜11歳)	1070	人	honpen p.64				
+098be07b2531aa63	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/中学生(12〜14歳)	582	人	honpen p.64				
+e3577a2e0ef90a18	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/高校生(15〜17歳)	566	人	honpen p.64				
+50f2d2bf8db7a1b9	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R6/就学前(0〜5歳)	838	人	honpen p.64				
+eafc893620e0657a	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R6/小学生(6〜11歳)	1067	人	honpen p.64				
+9632730d4ec5d08c	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R6/中学生(12〜14歳)	573	人	honpen p.64				
+e231952c40e3ece6	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R6/高校生(15〜17歳)	544	人	honpen p.64				
+bf1f137c2a1cddd2	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R7/就学前(0〜5歳)	803	人	honpen p.64				
+4f96e1c9662fafec	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R7/小学生(6〜11歳)	1048	人	honpen p.64				
+e3614a03f332729d	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R7/中学生(12〜14歳)	573	人	honpen p.64				
+edd149cb9ff5b1c4	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R7/高校生(15〜17歳)	549	人	honpen p.64				
+6c3fd8dd45c26095	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/就学前(0〜5歳)	792	人	honpen p.64				
+61d9694ebb04b58e	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/小学生(6〜11歳)	1018	人	honpen p.64				
+85cbcdff141d05fe	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/中学生(12〜14歳)	537	人	honpen p.64				
+70851281dee2d111	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/高校生(15〜17歳)	592	人	honpen p.64				
+c8e6db1b4817b1b1	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R9/就学前(0〜5歳)	775	人	honpen p.64				
+5361b2ed0e3bdc87	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R9/小学生(6〜11歳)	975	人	honpen p.64				
+bfe1ae28dfee316d	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R9/中学生(12〜14歳)	567	人	honpen p.64				
+986752496594f949	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R9/高校生(15〜17歳)	581	人	honpen p.64				
+bb6f691862b0cac3	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R10/就学前(0〜5歳)	758	人	honpen p.64				
+53adb37097c51b0c	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R10/小学生(6〜11歳)	941	人	honpen p.64				
+25c760e5e1c7c1ca	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R10/中学生(12〜14歳)	556	人	honpen p.64				
+dba25f45a4733972	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R10/高校生(15〜17歳)	581	人	honpen p.64				
+287021437a88d986	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R11/就学前(0〜5歳)	769	人	honpen p.64				
+bc6502c1fd049f64	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R11/小学生(6〜11歳)	901	人	honpen p.64				
+989b82de7404508c	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R11/中学生(12〜14歳)	538	人	honpen p.64				
+30ce3a7dcacaec22	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R11/高校生(15〜17歳)	545	人	honpen p.64				
 e7abab3f9d966293	ryo	6	kpi	将来の子ども人口推計	18歳未満人口	2753	人	honpen p.64				
 a66629211963059d	ryo	6	kpi	将来の子ども人口推計	就学前(0〜5歳)	769	人	honpen p.64				
 c3746de428c32148	ryo	6	kpi	将来の子ども人口推計	小学生(6〜11歳)	901	人	honpen p.64				
@@ -469,7 +469,7 @@ ebe4bd1de22cc52e	ryo	15	table	⑤3号認定〔2歳・保育〕	不足分(②−�
 eda90977b4675701	ryo	15	table	⑤3号認定〔2歳・保育〕	不足分(②−①)/R11	0		honpen p.67				
 5738718d9653f221	ryo	17	timeline	幼児教育保育施設の再編整備	鎌掛分園 → 小規模保育施設化	R7		honpen p.65				
 db946ab7111795ef	ryo	17	timeline	幼児教育保育施設の再編整備	西大路幼稚園→子育て支援施設(民営化準備)／こばと園→幼保連携型認定こども園化準備／南比幼稚園→小規模保育施設(民営化準備)／あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎→新こども園に集約化	R9		honpen p.65				
-a95b660ee5932f27	ryo	17	timeline	幼児教育保育施設の再編整備	(新設)幼保連携型認定こども園(2,800㎡予定)を開設／西大路→子育て支援施設・学童施設／こばと園・桜谷こども園第2園舎→幼保連携型認定こども園／南比→小規模保育施設	R10		honpen p.65				
+43a383aed899e20e	ryo	17	timeline	幼児教育保育施設の再編整備	(新設)幼保連携型認定こども園(2,800㎡※予定)／西大路→子育て支援施設・学童施設／こばと園・桜谷こども園第2園舎→幼保連携型認定こども園／南比→小規模保育施設	R10		honpen p.65				
 8d33a7b0f98c5b34	ryo	17	timeline	幼児教育保育施設の再編整備	あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎を解体	R11以降		honpen p.65				
 efa20c4600d895c9	ryo	20	table	(1)利用者支援事業	①量の見込み(基本型)/R7	2		honpen p.68				
 795666d703cbfdfa	ryo	20	table	(1)利用者支援事業	①量の見込み(基本型)/R8	2		honpen p.68				
@@ -741,36 +741,36 @@ ba9c9d4d30c14b35	ryo	30	table	(10)乳児家庭全戸訪問事業	確保方策(�
 10addaf272d0b6a3	ryo	30	table	(10)乳児家庭全戸訪問事業	確保方策(訪問率)/R9	100		honpen p.73				
 c51c4e1f2c7313b5	ryo	30	table	(10)乳児家庭全戸訪問事業	確保方策(訪問率)/R10	100		honpen p.73				
 d73aabbfd2ba757e	ryo	30	table	(10)乳児家庭全戸訪問事業	確保方策(訪問率)/R11	100		honpen p.73				
-f264cb03ee5d1e02	ryo	32	table	(14)子育て世帯訪問支援事業	①量の見込み(延べ利用人数)/R7	50		honpen p.74				
-75646ce50dcd0066	ryo	32	table	(14)子育て世帯訪問支援事業	①量の見込み(延べ利用人数)/R8	50		honpen p.74				
-3ad32b82ac77b36e	ryo	32	table	(14)子育て世帯訪問支援事業	①量の見込み(延べ利用人数)/R9	50		honpen p.74				
-d881397347e32908	ryo	32	table	(14)子育て世帯訪問支援事業	①量の見込み(延べ利用人数)/R10	50		honpen p.74				
-fdcc4589a93efce1	ryo	32	table	(14)子育て世帯訪問支援事業	①量の見込み(延べ利用人数)/R11	50		honpen p.74				
-5cabb6d5ad691c83	ryo	32	table	(14)子育て世帯訪問支援事業	②確保方策(延べ利用人数)/R7	50		honpen p.74				
-209b2504410ac027	ryo	32	table	(14)子育て世帯訪問支援事業	②確保方策(延べ利用人数)/R8	50		honpen p.74				
-9a7aef8bc04019bd	ryo	32	table	(14)子育て世帯訪問支援事業	②確保方策(延べ利用人数)/R9	50		honpen p.74				
-816909866be79b07	ryo	32	table	(14)子育て世帯訪問支援事業	②確保方策(延べ利用人数)/R10	50		honpen p.74				
-37113c94449260c2	ryo	32	table	(14)子育て世帯訪問支援事業	②確保方策(延べ利用人数)/R11	50		honpen p.74				
-5a7504574ff8a585	ryo	32	table	(14)子育て世帯訪問支援事業	不足分(②−①)/R7	0		honpen p.74				
-141cb5572caa03b2	ryo	32	table	(14)子育て世帯訪問支援事業	不足分(②−①)/R8	0		honpen p.74				
-09cc175891725600	ryo	32	table	(14)子育て世帯訪問支援事業	不足分(②−①)/R9	0		honpen p.74				
-86efa268a89d1073	ryo	32	table	(14)子育て世帯訪問支援事業	不足分(②−①)/R10	0		honpen p.74				
-f0fdb191f397e1bf	ryo	32	table	(14)子育て世帯訪問支援事業	不足分(②−①)/R11	0		honpen p.74				
-e660129500fae8f3	ryo	33	table	(15)児童育成支援拠点事業	①量の見込み(利用実人数)/R7	10		honpen p.74				
-cc46166df88c2add	ryo	33	table	(15)児童育成支援拠点事業	①量の見込み(利用実人数)/R8	15		honpen p.74				
-53c31910a6b55461	ryo	33	table	(15)児童育成支援拠点事業	①量の見込み(利用実人数)/R9	20		honpen p.74				
-b134b22ccedaf05c	ryo	33	table	(15)児童育成支援拠点事業	①量の見込み(利用実人数)/R10	20		honpen p.74				
-27732c5d8ded81b7	ryo	33	table	(15)児童育成支援拠点事業	①量の見込み(利用実人数)/R11	20		honpen p.74				
-503673ddd8960501	ryo	33	table	(15)児童育成支援拠点事業	②確保方策(利用実人数)/R7	10		honpen p.74				
-b63487293f2d3cb4	ryo	33	table	(15)児童育成支援拠点事業	②確保方策(利用実人数)/R8	15		honpen p.74				
-e5278a7515aac944	ryo	33	table	(15)児童育成支援拠点事業	②確保方策(利用実人数)/R9	20		honpen p.74				
-2fad297d6d212634	ryo	33	table	(15)児童育成支援拠点事業	②確保方策(利用実人数)/R10	20		honpen p.74				
-18a90ede25515301	ryo	33	table	(15)児童育成支援拠点事業	②確保方策(利用実人数)/R11	20		honpen p.74				
-5fb0dca1b52ff430	ryo	33	table	(15)児童育成支援拠点事業	不足分(②−①)/R7	0		honpen p.74				
-5d7475f90d06a1e0	ryo	33	table	(15)児童育成支援拠点事業	不足分(②−①)/R8	0		honpen p.74				
-d319ebf3d3822d68	ryo	33	table	(15)児童育成支援拠点事業	不足分(②−①)/R9	0		honpen p.74				
-4b7875607cf7243f	ryo	33	table	(15)児童育成支援拠点事業	不足分(②−①)/R10	0		honpen p.74				
-037c69d1b32cd6fe	ryo	33	table	(15)児童育成支援拠点事業	不足分(②−①)/R11	0		honpen p.74				
+62b430b19904cba9	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	①量の見込み(延べ利用人数)/R7	50		honpen p.74				
+567d96d8f192f8e4	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	①量の見込み(延べ利用人数)/R8	50		honpen p.74				
+e9a0e116d5ca6165	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	①量の見込み(延べ利用人数)/R9	50		honpen p.74				
+c8b53fdbdcd13e69	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	①量の見込み(延べ利用人数)/R10	50		honpen p.74				
+14125e19bb19eb1a	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	①量の見込み(延べ利用人数)/R11	50		honpen p.74				
+225e61070112baa9	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R7	50		honpen p.74				
+6ffc53fa08ca5945	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R8	50		honpen p.74				
+bfad52a1191a6828	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R9	50		honpen p.74				
+b4d58153d67f78e7	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R10	50		honpen p.74				
+4a7dee298ea2b0d4	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R11	50		honpen p.74				
+35587e33e889ccde	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R7	0		honpen p.74				
+f273c5db1c2eafbb	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R8	0		honpen p.74				
+89ad32929ccc643a	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R9	0		honpen p.74				
+ba7ebd4c897af21b	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R10	0		honpen p.74				
+092889580d9bf89a	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R11	0		honpen p.74				
+35691a7c72ee9572	ryo	33	table	(15)児童育成支援拠点事業【新規】	①量の見込み(利用実人数)/R7	10		honpen p.74				
+6326cdf3f6e1227b	ryo	33	table	(15)児童育成支援拠点事業【新規】	①量の見込み(利用実人数)/R8	15		honpen p.74				
+1141ae6815e664de	ryo	33	table	(15)児童育成支援拠点事業【新規】	①量の見込み(利用実人数)/R9	20		honpen p.74				
+9ee387620815f45d	ryo	33	table	(15)児童育成支援拠点事業【新規】	①量の見込み(利用実人数)/R10	20		honpen p.74				
+2e0d5b4834b94e4e	ryo	33	table	(15)児童育成支援拠点事業【新規】	①量の見込み(利用実人数)/R11	20		honpen p.74				
+ef7f078d99e14619	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R7	10		honpen p.74				
+51eb5a2c4e33b1d2	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R8	15		honpen p.74				
+14b9fd2acff5cf52	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R9	20		honpen p.74				
+eacd9d169069eef3	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R10	20		honpen p.74				
+5c597d32d527ef1b	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R11	20		honpen p.74				
+5badf81cb5deaabb	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R7	0		honpen p.74				
+9388e1d81c0a3775	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R8	0		honpen p.74				
+35f53c3ce0e46fe8	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R9	0		honpen p.74				
+bab253371890274f	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R10	0		honpen p.74				
+1a1d313dc45efba2	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R11	0		honpen p.74				
 260f68d4b75246f6	ryo	34	table	(16)妊婦等包括相談支援事業【R7施行の新規】	0歳人口推計/R7	121		honpen p.75				
 9ab4a90fcc6f70ad	ryo	34	table	(16)妊婦等包括相談支援事業【R7施行の新規】	0歳人口推計/R8	119		honpen p.75				
 c68137680025570b	ryo	34	table	(16)妊婦等包括相談支援事業【R7施行の新規】	0歳人口推計/R9	116		honpen p.75				

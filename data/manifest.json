@@ -132,7 +132,9 @@
         "子育て・高齢・移住など多様な世帯の居住支援",
         "公営住宅の適切な供給"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 5,
+      "end": 14,
       "dept": "建設計画課",
       "url": "https://www.town.shiga-hino.lg.jp/0000007087.html",
       "posted": "掲載ページ参照"
@@ -150,7 +152,9 @@
         "建替え・用途廃止を含む長期の需給見通し",
         "ライフサイクルコストの縮減"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 5,
+      "end": 14,
       "dept": "建設計画課",
       "url": "https://www.town.shiga-hino.lg.jp/0000007086.html",
       "posted": "掲載ページ参照"
@@ -187,6 +191,8 @@
         "緊急輸送道路沿道やブロック塀の安全対策"
       ],
       "verified": false,
+      "periodNote": "平成28年度〜平成37年度（令和7年度）（10年間。計画書の実施期間による）",
+      "ended": true,
       "dept": "建設計画課",
       "url": "https://www.town.shiga-hino.lg.jp/0000003390.html",
       "posted": "掲載ページ参照"
@@ -203,7 +209,7 @@
         "県内共同の交付金計画",
         "成果指標で進捗を管理"
       ],
-      "verified": false,
+      "verified": true,
       "start": 3,
       "end": 7,
       "periodNote": "令和3年度〜令和7年度（5年間。第2期計画の整備計画による）",
@@ -222,7 +228,9 @@
         "安全・バリアフリーの確保",
         "成果指標で進捗を管理"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 4,
+      "end": 8,
       "url": "https://www.town.shiga-hino.lg.jp/0000004575.html",
       "posted": "掲載ページ参照"
     },
@@ -375,7 +383,9 @@
         "収集・保管・引き渡しの方法を規定",
         "リサイクル率の向上とごみ減量"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 8,
+      "end": 12,
       "dept": "交通環境政策課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008347.html",
       "posted": "掲載ページ参照"
@@ -472,7 +482,9 @@
         "こころの健康・自殺対策との連携",
         "食育（栄養・地産地消・共食）"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 3,
+      "end": 8,
       "dept": "福祉保健課",
       "url": "https://www.town.shiga-hino.lg.jp/0000005873.html",
       "posted": "掲載ページ参照"
@@ -490,7 +502,9 @@
         "生活困窮・社会的孤立への支援",
         "ハイリスク層への対応"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 6,
+      "end": 8,
       "dept": "福祉保健課",
       "url": "https://www.town.shiga-hino.lg.jp/0000007615.html",
       "posted": "2024年4月"
@@ -563,7 +577,9 @@
       "points": [
         "第4期計画へ発展的に継承"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 2,
+      "end": 6,
       "ended": true,
       "periodNote": "第4期（令和7年度〜）へ移行済み",
       "url": "https://www.town.shiga-hino.lg.jp/0000005265.html",
@@ -603,7 +619,9 @@
         "子ども・子育て支援事業計画と整合"
       ],
       "verified": false,
-      "periodNote": "令和6年から令和11年までの6年間",
+      "start": 6,
+      "end": 11,
+      "periodNote": "令和6年〜令和11年（6年間。計画書は「年」で書いている）",
       "dept": "子ども支援課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008225.html",
       "posted": "2025年3月策定（2026年6月一部改正）",
@@ -623,7 +641,9 @@
         "関係団体との連携体制",
         "令和6年12月に国の認定を取得"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 7,
+      "end": 16,
       "dept": "生涯学習課",
       "url": "https://www.town.shiga-hino.lg.jp/0000008039.html",
       "posted": "2024年12月"
@@ -659,7 +679,9 @@
         "ハード・ソフト両面の強靭化",
         "他計画の指針としての位置づけ"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 7,
+      "end": 11,
       "dept": "総務課 危機管理担当",
       "url": "https://www.town.shiga-hino.lg.jp/0000005150.html",
       "posted": "掲載ページ参照"
@@ -696,7 +718,9 @@
         "老朽管・施設の更新と耐震化",
         "アセットマネジメントと料金の適正化"
       ],
-      "verified": false,
+      "verified": true,
+      "start": 1,
+      "end": 10,
       "dept": "上下水道課",
       "url": "https://www.town.shiga-hino.lg.jp/0000005590.html",
       "posted": "掲載ページ参照"

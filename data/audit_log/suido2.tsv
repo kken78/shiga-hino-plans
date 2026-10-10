@@ -1,314 +1,314 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-df74ae99240c097b	summary	3	kpi		水道管(管路)の延長	260	km	honpen p.12				
-fe986ea1e7f4ddc1	summary	3	kpi		硬質塩化ビニル管の割合	82	%	honpen p.12				
-83480ad627db4309	summary	3	kpi		昭和60年度〜平成15年度に布設した管路の割合	60	%	honpen p.12				
-e0fb0b1117d340ba	summary	4	target.base		管路の耐震化率	1.7	%	honpen p.46-48				
-03a09f37917d0eaa	summary	4	target.target		管路の耐震化率	11.9	%	honpen p.46-48				
-2a6f30e7b64ffd0e	summary	4	target.base		基幹管路耐震化率	4.7	%	honpen p.46-48				
-f251400a5307ba7b	summary	4	target.target		基幹管路耐震化率	38.7	%	honpen p.46-48				
-38196d643bf11f15	summary	4	target.base		有収率	87.0	%	honpen p.46-48				
-ca0f79791c113df5	summary	4	target.target		有収率	90.0	%	honpen p.46-48				
-f6e524fcdec2a2ce	shisaku	3	programs	3つの基本方針と12の施策	事業数	12	件	honpen p.45-49				
-0ac4c0f89f19e9d2	shisaku	7	timeline	事業の工程	一部の給水区域変更	前期		honpen p.50				
-ac7150b772aa30dd	shisaku	7	timeline	事業の工程	中央および東部配水池管理棟改修	前期		honpen p.50				
-17be01434d188940	shisaku	7	timeline	事業の工程	東部配水池 緊急遮断弁設置	前期		honpen p.50				
-3708b6cbddfb0ec3	shisaku	7	timeline	事業の工程	北脇加圧所耐震診断	前期		honpen p.50				
-2b6bba6e8c53b8ff	shisaku	7	timeline	事業の工程	平子熊野浄水場 電気計装設備更新(1回目)	前期		honpen p.50				
-78d67fee98c90c26	shisaku	7	timeline	事業の工程	中央監視設備更新	中期		honpen p.50				
-5038e874e6ff6f84	shisaku	7	timeline	事業の工程	中央配水池増設、緊急遮断弁設置	中期〜後期		honpen p.50				
-0ba7879a9b0ed8dc	shisaku	7	timeline	事業の工程	西明寺配水池更新	後期		honpen p.50				
-e6cd6a7e4b101627	shisaku	7	timeline	事業の工程	平子熊野浄水場 電気計装設備更新(2回目)	後期		honpen p.50				
-41c61d15d683369e	shisaku	7	timeline	事業の工程	管路更新・耐震化	前期〜後期		honpen p.50				
-5b1d76a5fbe12b7c	shisaku	7	timeline	事業の工程	施設修繕、更新・改良	前期〜後期		honpen p.50				
-9e30f478512ba643	shisaku	10	kpi	計画期間内の収支	10年間の事業費	28	億円	honpen p.51				
-ebdc78685a1ab418	shisaku	10	kpi	計画期間内の収支	10年間の既存の企業債償還金	5	億円	honpen p.51				
-33b61c750ddd8f89	genjo	4	table	水道事業の状況	日野町上水道事業/計画給水人口(人)	25000		honpen p.7				
-36996c340afc2037	genjo	4	table	水道事業の状況	日野町上水道事業/計画一日最大給水量(m³/日)	14300		honpen p.7				
-75788ed2f8cec387	genjo	4	table	水道事業の状況	平子・熊野地区簡易水道事業/計画給水人口(人)	150		honpen p.7				
-5179d184c3f13a78	genjo	4	table	水道事業の状況	平子・熊野地区簡易水道事業/計画一日最大給水量(m³/日)	53		honpen p.7				
-d49bfc8359486c0c	genjo	5	figure	2つの事業と給水区域	日野町水道事業給水区域および施設位置図	suido2_map.jpg		honpen p.13				
-843c7dcd0a334be9	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の基本料金(月額)	1270	円/m³	honpen p.8				
-9d558635bacaff14	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の使用料金	29.20	円/m³	honpen p.8				
-b570ca9187c1f2dd	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の未達料金	20.44	円/m³	honpen p.8				
-1cadf92f79f5a09b	genjo	12	table	配水池の竣工年度・規模	西部配水池/容量(m³)	2250		honpen p.22				
-3019115edfb7dec0	genjo	12	table	配水池の竣工年度・規模	中央配水池/容量(m³)	1478		honpen p.22				
-407fb7de581138ae	genjo	12	table	配水池の竣工年度・規模	東部配水池/容量(m³)	1358		honpen p.22				
-823abfa77174a6a2	genjo	12	table	配水池の竣工年度・規模	五月台配水池/容量(m³)	342		honpen p.22				
-adf36ec16b0a70c8	genjo	12	table	配水池の竣工年度・規模	西明寺配水池/容量(m³)	54		honpen p.22				
-8748f27f661370c7	genjo	12	table	配水池の竣工年度・規模	原配水池/容量(m³)	80		honpen p.22				
-a51e573ebe27b984	genjo	12	table	配水池の竣工年度・規模	熊野配水池/容量(m³)	80		honpen p.22				
-7eb7a908718ede2f	genjo	17	chart.rank	布設管種別延長	硬質塩化ビニル管	214	km	honpen p.23				
-91d6926eb13d9dc7	genjo	17	chart.rank	布設管種別延長	非耐震ダクタイル鋳鉄管	40	km	honpen p.23				
-d60c3a873ae9a321	genjo	17	chart.rank	布設管種別延長	耐震管	4	km	honpen p.23				
-fbc7b88cd72aa553	genjo	17	chart.rank	布設管種別延長	その他非耐震管	3	km	honpen p.23				
-35d54588a4374242	genjo	23	kpi	組織と危機管理	事務職員	3	人	honpen p.24				
-a757a8cad566569a	genjo	23	kpi	組織と危機管理	技術職員	1	人	honpen p.24				
-6fd9143aebbd7150	genjo	23	kpi	組織と危機管理	職員の平均年齢	40	歳	honpen p.24				
-da32774ecd82e78a	genjo	23	kpi	組織と危機管理	水道関係の平均勤続年数	3	年	honpen p.24				
-b2f61241064c57bc	genjo	25	kpi	組織と危機管理	給水車(ポンプ付・容量3,000L)	1	台	honpen p.25				
-bbb64430fa3ab570	genjo	25	kpi	組織と危機管理	給水タンク(500L)	3	基	honpen p.25				
-27721de8de8b9b02	genjo	25	kpi	組織と危機管理	給水タンク(1,000L)	1	基	honpen p.25				
-50adeab3db8d3d35	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	H27	21870	人	honpen p.37				
-f7981d9239d94399	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R2	21257	人	honpen p.37				
-54b3ec0da204abb3	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R7	20890	人	honpen p.37				
-77ed3e40debf809d	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R12	20492	人	honpen p.37				
-f0f836c720ebbc02	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R17	20066	人	honpen p.37				
-f3a588852d1eb814	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R22	19594	人	honpen p.37				
-0835cadd64d57275	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R27	19063	人	honpen p.37				
-bc0f4a1a05e4b153	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R32	18508	人	honpen p.37				
-03a4dd2667e0d371	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R37	17930	人	honpen p.37				
-a6a450685b560db4	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R42	17360	人	honpen p.37				
-1ec5d8f3995076da	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/H27	22870		honpen p.37				
-162f6072c5ef66af	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R2	22257		honpen p.37				
-0ffe8c56b2b90b14	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R7	21890		honpen p.37				
-7b0f0dea1841f0c4	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R12	21492		honpen p.37				
-210cbe61e34cc14f	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R17	21066		honpen p.37				
-1199ecd419912487	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R22	20594		honpen p.37				
-b056441eefc87c58	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R27	20063		honpen p.37				
-670de269ef544c87	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R32	19508		honpen p.37				
-17428d65c7d2a6d7	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R37	18930		honpen p.37				
+df74ae99240c097b	summary	3	kpi		水道管(管路)の延長	260	km	honpen p.12	✓	auto:ai	2026-10-10	
+fe986ea1e7f4ddc1	summary	3	kpi		硬質塩化ビニル管の割合	82	%	honpen p.12	✓	auto:ai	2026-10-10	
+83480ad627db4309	summary	3	kpi		昭和60年度〜平成15年度に布設した管路の割合	60	%	honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+e0fb0b1117d340ba	summary	4	target.base		管路の耐震化率	1.7	%	honpen p.46-48	✓	auto:ai	2026-10-10	
+03a09f37917d0eaa	summary	4	target.target		管路の耐震化率	11.9	%	honpen p.46-48	✓	auto:ai	2026-10-10	
+2a6f30e7b64ffd0e	summary	4	target.base		基幹管路耐震化率	4.7	%	honpen p.46-48	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+f251400a5307ba7b	summary	4	target.target		基幹管路耐震化率	38.7	%	honpen p.46-48	✓	auto:ai	2026-10-10	
+38196d643bf11f15	summary	4	target.base		有収率	87.0	%	honpen p.46-48	✓	auto:ai	2026-10-10	
+ca0f79791c113df5	summary	4	target.target		有収率	90.0	%	honpen p.46-48	✓	auto:ai	2026-10-10	
+f6e524fcdec2a2ce	shisaku	3	programs	3つの基本方針と12の施策	事業数	12	件	honpen p.45-49				要人確認:H2 出典が4ページ以上(集計した値)
+0ac4c0f89f19e9d2	shisaku	7	timeline	事業の工程	一部の給水区域変更	前期		honpen p.50				要人確認:H2 数値でない
+ac7150b772aa30dd	shisaku	7	timeline	事業の工程	中央および東部配水池管理棟改修	前期		honpen p.50				要人確認:H2 数値でない
+17be01434d188940	shisaku	7	timeline	事業の工程	東部配水池 緊急遮断弁設置	前期		honpen p.50				要人確認:H2 数値でない
+3708b6cbddfb0ec3	shisaku	7	timeline	事業の工程	北脇加圧所耐震診断	前期		honpen p.50				要人確認:H2 数値でない
+2b6bba6e8c53b8ff	shisaku	7	timeline	事業の工程	平子熊野浄水場 電気計装設備更新(1回目)	前期		honpen p.50				要人確認:H2 数値でない
+78d67fee98c90c26	shisaku	7	timeline	事業の工程	中央監視設備更新	中期		honpen p.50				要人確認:H2 数値でない
+5038e874e6ff6f84	shisaku	7	timeline	事業の工程	中央配水池増設、緊急遮断弁設置	中期〜後期		honpen p.50				要人確認:H2 数値でない
+0ba7879a9b0ed8dc	shisaku	7	timeline	事業の工程	西明寺配水池更新	後期		honpen p.50				要人確認:H2 数値でない
+e6cd6a7e4b101627	shisaku	7	timeline	事業の工程	平子熊野浄水場 電気計装設備更新(2回目)	後期		honpen p.50				要人確認:H2 数値でない
+41c61d15d683369e	shisaku	7	timeline	事業の工程	管路更新・耐震化	前期〜後期		honpen p.50				要人確認:H2 数値でない
+5b1d76a5fbe12b7c	shisaku	7	timeline	事業の工程	施設修繕、更新・改良	前期〜後期		honpen p.50				要人確認:H2 数値でない
+9e30f478512ba643	shisaku	10	kpi	計画期間内の収支	10年間の事業費	28	億円	honpen p.51	✓	auto:ai	2026-10-10	
+ebdc78685a1ab418	shisaku	10	kpi	計画期間内の収支	10年間の既存の企業債償還金	5	億円	honpen p.51	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+33b61c750ddd8f89	genjo	4	table	水道事業の状況	日野町上水道事業/計画給水人口(人)	25000		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+36996c340afc2037	genjo	4	table	水道事業の状況	日野町上水道事業/計画一日最大給水量(m³/日)	14300		honpen p.7	✓	auto:ai	2026-10-10	
+75788ed2f8cec387	genjo	4	table	水道事業の状況	平子・熊野地区簡易水道事業/計画給水人口(人)	150		honpen p.7	✓	auto:ai	2026-10-10	
+5179d184c3f13a78	genjo	4	table	水道事業の状況	平子・熊野地区簡易水道事業/計画一日最大給水量(m³/日)	53		honpen p.7	✓	auto:ai	2026-10-10	
+d49bfc8359486c0c	genjo	5	figure	2つの事業と給水区域	日野町水道事業給水区域および施設位置図	suido2_map.jpg		honpen p.13				要人確認:H2 数値でない
+843c7dcd0a334be9	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の基本料金(月額)	1270	円/m³	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+9d558635bacaff14	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の使用料金	29.20	円/m³	honpen p.8				要人確認:H2 値が文字データにない
+b570ca9187c1f2dd	genjo	8	kpi	水のふるさと(水源と浄水)	県用水の未達料金	20.44	円/m³	honpen p.8				要人確認:H2 値が文字データにない
+1cadf92f79f5a09b	genjo	12	table	配水池の竣工年度・規模	西部配水池/容量(m³)	2250		honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+3019115edfb7dec0	genjo	12	table	配水池の竣工年度・規模	中央配水池/容量(m³)	1478		honpen p.22	✓	auto:ai	2026-10-10	
+407fb7de581138ae	genjo	12	table	配水池の竣工年度・規模	東部配水池/容量(m³)	1358		honpen p.22	✓	auto:ai	2026-10-10	
+823abfa77174a6a2	genjo	12	table	配水池の竣工年度・規模	五月台配水池/容量(m³)	342		honpen p.22	✓	auto:ai	2026-10-10	
+adf36ec16b0a70c8	genjo	12	table	配水池の竣工年度・規模	西明寺配水池/容量(m³)	54		honpen p.22	✓	auto:ai	2026-10-10	
+8748f27f661370c7	genjo	12	table	配水池の竣工年度・規模	原配水池/容量(m³)	80		honpen p.22	✓	auto:ai	2026-10-10	
+a51e573ebe27b984	genjo	12	table	配水池の竣工年度・規模	熊野配水池/容量(m³)	80		honpen p.22	✓	auto:ai	2026-10-10	
+7eb7a908718ede2f	genjo	17	chart.rank	布設管種別延長	硬質塩化ビニル管	214	km	honpen p.23	✓	auto:ai	2026-10-10	
+91d6926eb13d9dc7	genjo	17	chart.rank	布設管種別延長	非耐震ダクタイル鋳鉄管	40	km	honpen p.23	✓	auto:ai	2026-10-10	
+d60c3a873ae9a321	genjo	17	chart.rank	布設管種別延長	耐震管	4	km	honpen p.23	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+fbc7b88cd72aa553	genjo	17	chart.rank	布設管種別延長	その他非耐震管	3	km	honpen p.23	✓	auto:ai	2026-10-10	
+35d54588a4374242	genjo	23	kpi	組織と危機管理	事務職員	3	人	honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+a757a8cad566569a	genjo	23	kpi	組織と危機管理	技術職員	1	人	honpen p.24	✓	auto:ai	2026-10-10	
+6fd9143aebbd7150	genjo	23	kpi	組織と危機管理	職員の平均年齢	40	歳	honpen p.24	✓	auto:ai	2026-10-10	
+da32774ecd82e78a	genjo	23	kpi	組織と危機管理	水道関係の平均勤続年数	3	年	honpen p.24	✓	auto:ai	2026-10-10	
+b2f61241064c57bc	genjo	25	kpi	組織と危機管理	給水車(ポンプ付・容量3,000L)	1	台	honpen p.25	✓	auto:ai	2026-10-10	
+bbb64430fa3ab570	genjo	25	kpi	組織と危機管理	給水タンク(500L)	3	基	honpen p.25	✓	auto:ai	2026-10-10	
+27721de8de8b9b02	genjo	25	kpi	組織と危機管理	給水タンク(1,000L)	1	基	honpen p.25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+50adeab3db8d3d35	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	H27	21870	人	honpen p.37	✓	auto:ai	2026-10-10	
+f7981d9239d94399	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R2	21257	人	honpen p.37	✓	auto:ai	2026-10-10	
+54b3ec0da204abb3	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R7	20890	人	honpen p.37	✓	auto:ai	2026-10-10	
+77ed3e40debf809d	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R12	20492	人	honpen p.37	✓	auto:ai	2026-10-10	
+f0f836c720ebbc02	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R17	20066	人	honpen p.37	✓	auto:ai	2026-10-10	
+f3a588852d1eb814	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R22	19594	人	honpen p.37	✓	auto:ai	2026-10-10	
+0835cadd64d57275	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R27	19063	人	honpen p.37	✓	auto:ai	2026-10-10	
+bc0f4a1a05e4b153	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R32	18508	人	honpen p.37	✓	auto:ai	2026-10-10	
+03a4dd2667e0d371	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R37	17930	人	honpen p.37	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+a6a450685b560db4	mitooshi	4	chart.bars	日野町水道ビジョンでの行政区域内人口推計値	R42	17360	人	honpen p.37	✓	auto:ai	2026-10-10	
+1ec5d8f3995076da	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/H27	22870		honpen p.37	✓	auto:ai	2026-10-10	
+162f6072c5ef66af	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R2	22257		honpen p.37	✓	auto:ai	2026-10-10	
+0ffe8c56b2b90b14	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R7	21890		honpen p.37	✓	auto:ai	2026-10-10	
+7b0f0dea1841f0c4	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R12	21492		honpen p.37	✓	auto:ai	2026-10-10	
+210cbe61e34cc14f	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R17	21066		honpen p.37	✓	auto:ai	2026-10-10	
+1199ecd419912487	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R22	20594		honpen p.37	✓	auto:ai	2026-10-10	
+b056441eefc87c58	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R27	20063		honpen p.37	✓	auto:ai	2026-10-10	
+670de269ef544c87	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R32	19508		honpen p.37	✓	auto:ai	2026-10-10	
+17428d65c7d2a6d7	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R37	18930		honpen p.37	✓	auto:ai	2026-10-10	
 3f4a519ee370761c	mitooshi	5	table	人口ビジョン・社人研推計との比較	人口ビジョン・目標シナリオ/R42	18360		honpen p.37	✓	auto:pdftext	2026-10-10	
-1fca96b7761dbb3f	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/H27	21870		honpen p.37				
-de69015b9061aa38	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R2	21257		honpen p.37				
-e8c46cdabc138901	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R7	20890		honpen p.37				
-1aaae02c006b6602	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R12	20492		honpen p.37				
-95c7da7f85ace7a9	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R17	20066		honpen p.37				
-f9f5f6830c2db830	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R22	19594		honpen p.37				
-92f733d2eb66bfa0	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R27	19063		honpen p.37				
-d17632f7166b0d7e	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R32	18508		honpen p.37				
-8275ffb382946721	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R37	17930		honpen p.37				
-5aa22afc87d35e25	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R42	17360		honpen p.37				
-7251f641707b6a91	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/H27	22870		honpen p.37				
-29c0315bef9e1177	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R2	22129		honpen p.37				
-a3cf0a48a6b243e9	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R7	21584		honpen p.37				
-d2268f4ad8c6b91e	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R12	20970		honpen p.37				
-45788ff9230a7a7e	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R17	20274		honpen p.37				
-0bf8530a042959cb	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R22	19477		honpen p.37				
-05f220edb8ed1d28	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R27	18617		honpen p.37				
-d07ca417937d4b6b	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R32	17729		honpen p.37				
-191373ae7ff6b38c	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R37	16806		honpen p.37				
+1fca96b7761dbb3f	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/H27	21870		honpen p.37	✓	auto:ai	2026-10-10	
+de69015b9061aa38	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R2	21257		honpen p.37	✓	auto:ai	2026-10-10	
+e8c46cdabc138901	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R7	20890		honpen p.37	✓	auto:ai	2026-10-10	
+1aaae02c006b6602	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R12	20492		honpen p.37	✓	auto:ai	2026-10-10	
+95c7da7f85ace7a9	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R17	20066		honpen p.37	✓	auto:ai	2026-10-10	
+f9f5f6830c2db830	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R22	19594		honpen p.37	✓	auto:ai	2026-10-10	
+92f733d2eb66bfa0	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R27	19063		honpen p.37	✓	auto:ai	2026-10-10	
+d17632f7166b0d7e	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R32	18508		honpen p.37	✓	auto:ai	2026-10-10	
+8275ffb382946721	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R37	17930		honpen p.37	✓	auto:ai	2026-10-10	
+5aa22afc87d35e25	mitooshi	5	table	人口ビジョン・社人研推計との比較	今回計画・調整値/R42	17360		honpen p.37	✓	auto:ai	2026-10-10	
+7251f641707b6a91	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/H27	22870		honpen p.37	✓	auto:ai	2026-10-10	
+29c0315bef9e1177	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R2	22129		honpen p.37	✓	auto:ai	2026-10-10	
+a3cf0a48a6b243e9	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R7	21584		honpen p.37	✓	auto:ai	2026-10-10	
+d2268f4ad8c6b91e	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R12	20970		honpen p.37	✓	auto:ai	2026-10-10	
+45788ff9230a7a7e	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R17	20274		honpen p.37	✓	auto:ai	2026-10-10	
+0bf8530a042959cb	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R22	19477		honpen p.37	✓	auto:ai	2026-10-10	
+05f220edb8ed1d28	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R27	18617		honpen p.37	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+d07ca417937d4b6b	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R32	17729		honpen p.37	✓	auto:ai	2026-10-10	
+191373ae7ff6b38c	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R37	16806		honpen p.37	✓	auto:ai	2026-10-10	
 8f1dcfcd719a9de4	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H25.3/R42	15866		honpen p.37	✓	auto:pdftext	2026-10-10	
-d59508cc2c34dc5b	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/H27	21873		honpen p.37				
-69b82448843e1019	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R2	20959		honpen p.37				
-ffe91f21af65caf5	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R7	19989		honpen p.37				
-c0014f3e754ee9e5	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R12	19006		honpen p.37				
-45a1bf8f6c8920f3	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R17	17973		honpen p.37				
-8e8de3e6388671d2	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R22	16862		honpen p.37				
+d59508cc2c34dc5b	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/H27	21873		honpen p.37	✓	auto:ai	2026-10-10	
+69b82448843e1019	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R2	20959		honpen p.37	✓	auto:ai	2026-10-10	
+ffe91f21af65caf5	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R7	19989		honpen p.37	✓	auto:ai	2026-10-10	
+c0014f3e754ee9e5	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R12	19006		honpen p.37	✓	auto:ai	2026-10-10	
+45a1bf8f6c8920f3	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R17	17973		honpen p.37	✓	auto:ai	2026-10-10	
+8e8de3e6388671d2	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R22	16862		honpen p.37	✓	auto:ai	2026-10-10	
 73292931095c8a08	mitooshi	5	table	人口ビジョン・社人研推計との比較	社人研推計値H30.3/R27	15735		honpen p.37	✓	auto:pdftext	2026-10-10	
-c1d24e8a1552b849	mitooshi	6	kpi	人口の見通し	計画給水人口	19800	人	honpen p.40				
-84212b8d04beb7c8	mitooshi	6	kpi	人口の見通し	計画有収水量	6498	m³/日	honpen p.40				
-1c9f7c61684ab5af	keiei	5	kpi	上水道事業の収入と費用(平成29年度)	収入(収益的収支)	618172890	円	honpen p.29				
-6b1b3dde24bdb48e	keiei	5	kpi	上水道事業の収入と費用(平成29年度)	費用(収益的収支)	553966224	円	honpen p.29				
-65e21d10d1b14614	keiei	6	chart.rank	平成29年度収入内訳	給水収益(料金収入)	85	%	honpen p.29				
-f4e0f5b034b80cd3	keiei	6	chart.rank	平成29年度収入内訳	長期前受金戻入	11.6	%	honpen p.29				
-998863aa9132173c	keiei	6	chart.rank	平成29年度収入内訳	その他営業収益	1.5	%	honpen p.29				
-d5e11d47ac2d1278	keiei	6	chart.rank	平成29年度収入内訳	消火栓維持管理費	1.1	%	honpen p.29				
-ff2b1bb47007ca2e	keiei	6	chart.rank	平成29年度収入内訳	その他営業外収益	1	%	honpen p.29				
-268af6dc60bdea85	keiei	6	chart.rank	平成29年度収入内訳	特別利益	0.0	%	honpen p.29				
-e59415dd664afa26	keiei	7	chart.rank	平成29年度費用内訳	受水費	49.6	%	honpen p.29				
-87ce39e7678ffaea	keiei	7	chart.rank	平成29年度費用内訳	減価償却費	30.6	%	honpen p.29				
-07c2615f16718301	keiei	7	chart.rank	平成29年度費用内訳	維持管理費	7.8	%	honpen p.29				
-9827d6e5f1e2401a	keiei	7	chart.rank	平成29年度費用内訳	人件費	5.3	%	honpen p.29				
-daf94b82705deacd	keiei	7	chart.rank	平成29年度費用内訳	その他費	3.8	%	honpen p.29				
-766b4fe71245b943	keiei	7	chart.rank	平成29年度費用内訳	支払利息	2.8	%	honpen p.29				
-f9805646439dfa8f	keiei	7	chart.rank	平成29年度費用内訳	受託工事費	0.0	%	honpen p.29				
-ba5d307866a1fe2c	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/H27	111.44		honpen p.30				
-6923747fdc69e9d9	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/H28	108.79		honpen p.30				
+c1d24e8a1552b849	mitooshi	6	kpi	人口の見通し	計画給水人口	19800	人	honpen p.40	✓	auto:ai	2026-10-10	
+84212b8d04beb7c8	mitooshi	6	kpi	人口の見通し	計画有収水量	6498	m³/日	honpen p.40	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+1c9f7c61684ab5af	keiei	5	kpi	上水道事業の収入と費用(平成29年度)	収入(収益的収支)	618172890	円	honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+6b1b3dde24bdb48e	keiei	5	kpi	上水道事業の収入と費用(平成29年度)	費用(収益的収支)	553966224	円	honpen p.29	✓	auto:ai	2026-10-10	
+65e21d10d1b14614	keiei	6	chart.rank	平成29年度収入内訳	給水収益(料金収入)	85	%	honpen p.29	✓	auto:ai	2026-10-10	
+f4e0f5b034b80cd3	keiei	6	chart.rank	平成29年度収入内訳	長期前受金戻入	11.6	%	honpen p.29	✓	auto:ai	2026-10-10	
+998863aa9132173c	keiei	6	chart.rank	平成29年度収入内訳	その他営業収益	1.5	%	honpen p.29	✓	auto:ai	2026-10-10	
+d5e11d47ac2d1278	keiei	6	chart.rank	平成29年度収入内訳	消火栓維持管理費	1.1	%	honpen p.29	✓	auto:ai	2026-10-10	
+ff2b1bb47007ca2e	keiei	6	chart.rank	平成29年度収入内訳	その他営業外収益	1	%	honpen p.29	✓	auto:ai	2026-10-10	
+268af6dc60bdea85	keiei	6	chart.rank	平成29年度収入内訳	特別利益	0.0	%	honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+e59415dd664afa26	keiei	7	chart.rank	平成29年度費用内訳	受水費	49.6	%	honpen p.29	✓	auto:ai	2026-10-10	
+87ce39e7678ffaea	keiei	7	chart.rank	平成29年度費用内訳	減価償却費	30.6	%	honpen p.29	✓	auto:ai	2026-10-10	
+07c2615f16718301	keiei	7	chart.rank	平成29年度費用内訳	維持管理費	7.8	%	honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+9827d6e5f1e2401a	keiei	7	chart.rank	平成29年度費用内訳	人件費	5.3	%	honpen p.29	✓	auto:ai	2026-10-10	
+daf94b82705deacd	keiei	7	chart.rank	平成29年度費用内訳	その他費	3.8	%	honpen p.29	✓	auto:ai	2026-10-10	
+766b4fe71245b943	keiei	7	chart.rank	平成29年度費用内訳	支払利息	2.8	%	honpen p.29	✓	auto:ai	2026-10-10	
+f9805646439dfa8f	keiei	7	chart.rank	平成29年度費用内訳	受託工事費	0.0	%	honpen p.29	✓	auto:ai	2026-10-10	
+ba5d307866a1fe2c	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/H27	111.44		honpen p.30	✓	auto:ai	2026-10-10	
+6923747fdc69e9d9	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/H28	108.79		honpen p.30	✓	auto:ai	2026-10-10	
 89fbe06f86e719b2	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/H29	111.59		honpen p.30	✓	auto:pdftext	2026-10-10	
-92e3eb13b7ecf8f3	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/類似団体 H29	110.05		honpen p.30				
-98863e3386b29409	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/H27	12.56		honpen p.30				
-2b063f0b4c55509a	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/H28	3.05		honpen p.30				
+92e3eb13b7ecf8f3	keiei	12	table	経営比較分析(上水道事業)	経常収支比率/類似団体 H29	110.05		honpen p.30	✓	auto:ai	2026-10-10	
+98863e3386b29409	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/H27	12.56		honpen p.30	✓	auto:ai	2026-10-10	
+2b063f0b4c55509a	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/H28	3.05		honpen p.30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
 026efcb225b4ed61	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/H29	0		honpen p.30	✓	auto:pdftext	2026-10-10	
-e4257a5b056f0674	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/類似団体 H29	2.64		honpen p.30				
-c72f9a53cc4a8aac	keiei	12	table	経営比較分析(上水道事業)	流動比率/H27	1008.4		honpen p.30				
-00d1c33bce8668da	keiei	12	table	経営比較分析(上水道事業)	流動比率/H28	1129.88		honpen p.30				
+e4257a5b056f0674	keiei	12	table	経営比較分析(上水道事業)	累積欠損金比率/類似団体 H29	2.64		honpen p.30	✓	auto:ai	2026-10-10	
+c72f9a53cc4a8aac	keiei	12	table	経営比較分析(上水道事業)	流動比率/H27	1008.4		honpen p.30	✓	auto:ai	2026-10-10	
+00d1c33bce8668da	keiei	12	table	経営比較分析(上水道事業)	流動比率/H28	1129.88		honpen p.30	✓	auto:ai	2026-10-10	
 ad030b546282815c	keiei	12	table	経営比較分析(上水道事業)	流動比率/H29	811.81		honpen p.30	✓	auto:pdftext	2026-10-10	
-7af773415aff814d	keiei	12	table	経営比較分析(上水道事業)	流動比率/類似団体 H29	359.47		honpen p.30				
-bd20bb42cf2d3717	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/H27	166.55		honpen p.30				
-f9d393d692a6ba47	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/H28	154.92		honpen p.30				
+7af773415aff814d	keiei	12	table	経営比較分析(上水道事業)	流動比率/類似団体 H29	359.47		honpen p.30	✓	auto:ai	2026-10-10	
+bd20bb42cf2d3717	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/H27	166.55		honpen p.30	✓	auto:ai	2026-10-10	
+f9d393d692a6ba47	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/H28	154.92		honpen p.30	✓	auto:ai	2026-10-10	
 47e4f97c55c0f70c	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/H29	143.89		honpen p.30	✓	auto:pdftext	2026-10-10	
-7aeb12e399bb0a53	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/類似団体 H29	401.79		honpen p.30				
-a81a4f8c70d1a800	keiei	12	table	経営比較分析(上水道事業)	料金回収率/H27	108.48		honpen p.30				
-08dd98b428a333ee	keiei	12	table	経営比較分析(上水道事業)	料金回収率/H28	105.76		honpen p.30				
+7aeb12e399bb0a53	keiei	12	table	経営比較分析(上水道事業)	企業債残高対給水収益比率/類似団体 H29	401.79		honpen p.30	✓	auto:ai	2026-10-10	
+a81a4f8c70d1a800	keiei	12	table	経営比較分析(上水道事業)	料金回収率/H27	108.48		honpen p.30	✓	auto:ai	2026-10-10	
+08dd98b428a333ee	keiei	12	table	経営比較分析(上水道事業)	料金回収率/H28	105.76		honpen p.30	✓	auto:ai	2026-10-10	
 78d26a9ccdab94a9	keiei	12	table	経営比較分析(上水道事業)	料金回収率/H29	109.00		honpen p.30	✓	auto:pdftext	2026-10-10	
-73673f29ba52c87e	keiei	12	table	経営比較分析(上水道事業)	料金回収率/類似団体 H29	100.12		honpen p.30				
-21937dde4b31cec2	keiei	12	table	経営比較分析(上水道事業)	給水原価/H27	209.89		honpen p.30				
-70641d1fda45980a	keiei	12	table	経営比較分析(上水道事業)	給水原価/H28	215.28		honpen p.30				
+73673f29ba52c87e	keiei	12	table	経営比較分析(上水道事業)	料金回収率/類似団体 H29	100.12		honpen p.30	✓	auto:ai	2026-10-10	
+21937dde4b31cec2	keiei	12	table	経営比較分析(上水道事業)	給水原価/H27	209.89		honpen p.30	✓	auto:ai	2026-10-10	
+70641d1fda45980a	keiei	12	table	経営比較分析(上水道事業)	給水原価/H28	215.28		honpen p.30	✓	auto:ai	2026-10-10	
 0f6742136508db27	keiei	12	table	経営比較分析(上水道事業)	給水原価/H29	209.43		honpen p.30	✓	auto:pdftext	2026-10-10	
-519981e0d6b9445d	keiei	12	table	経営比較分析(上水道事業)	給水原価/類似団体 H29	174.97		honpen p.30				
-8fb83ae4091009db	keiei	12	table	経営比較分析(上水道事業)	施設利用率/H27	47.42		honpen p.30				
-7b1863b1f6d9ed5d	keiei	12	table	経営比較分析(上水道事業)	施設利用率/H28	49.65		honpen p.30				
+519981e0d6b9445d	keiei	12	table	経営比較分析(上水道事業)	給水原価/類似団体 H29	174.97		honpen p.30	✓	auto:ai	2026-10-10	
+8fb83ae4091009db	keiei	12	table	経営比較分析(上水道事業)	施設利用率/H27	47.42		honpen p.30	✓	auto:ai	2026-10-10	
+7b1863b1f6d9ed5d	keiei	12	table	経営比較分析(上水道事業)	施設利用率/H28	49.65		honpen p.30	✓	auto:ai	2026-10-10	
 f303c2b2b83ba2cf	keiei	12	table	経営比較分析(上水道事業)	施設利用率/H29	50.71		honpen p.30	✓	auto:pdftext	2026-10-10	
-cde8c229df972bb3	keiei	12	table	経営比較分析(上水道事業)	施設利用率/類似団体 H29	55.63		honpen p.30				
-27fbf60923c7c18d	keiei	12	table	経営比較分析(上水道事業)	有収率/H27	90.2		honpen p.30				
-2f07743c79e7526e	keiei	12	table	経営比較分析(上水道事業)	有収率/H28	87.87		honpen p.30				
+cde8c229df972bb3	keiei	12	table	経営比較分析(上水道事業)	施設利用率/類似団体 H29	55.63		honpen p.30	✓	auto:ai	2026-10-10	
+27fbf60923c7c18d	keiei	12	table	経営比較分析(上水道事業)	有収率/H27	90.2		honpen p.30	✓	auto:ai	2026-10-10	
+2f07743c79e7526e	keiei	12	table	経営比較分析(上水道事業)	有収率/H28	87.87		honpen p.30	✓	auto:ai	2026-10-10	
 b1e1dcb365db7ef5	keiei	12	table	経営比較分析(上水道事業)	有収率/H29	86.96		honpen p.30	✓	auto:pdftext	2026-10-10	
-40c4839d7667d2ac	keiei	12	table	経営比較分析(上水道事業)	有収率/類似団体 H29	82.04		honpen p.30				
-a59c1df15a7dd11f	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/H27	77.63		honpen p.31				
-eda88aac3ac4e61d	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/H28	75.72		honpen p.31				
+40c4839d7667d2ac	keiei	12	table	経営比較分析(上水道事業)	有収率/類似団体 H29	82.04		honpen p.30	✓	auto:ai	2026-10-10	
+a59c1df15a7dd11f	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/H27	77.63		honpen p.31	✓	auto:ai	2026-10-10	
+eda88aac3ac4e61d	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/H28	75.72		honpen p.31	✓	auto:ai	2026-10-10	
 95e19b44443fd7b4	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/H29	74.04		honpen p.31	✓	auto:pdftext	2026-10-10	
-8f904b98fe8a04c4	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/類似団体 H29	74.05		honpen p.31				
-dd2ce49a4765ebb8	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/H27	4646.65		honpen p.31				
-df3e9a2f99588659	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/H28	3747.31		honpen p.31				
+8f904b98fe8a04c4	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	収益的収支比率/類似団体 H29	74.05		honpen p.31	✓	auto:ai	2026-10-10	
+dd2ce49a4765ebb8	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/H27	4646.65		honpen p.31	✓	auto:ai	2026-10-10	
+df3e9a2f99588659	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/H28	3747.31		honpen p.31	✓	auto:ai	2026-10-10	
 563a7cc2457f2e56	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/H29	4182.37		honpen p.31	✓	auto:pdftext	2026-10-10	
-4579271f653d1654	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/類似団体 H29	1302.33		honpen p.31				
-0baee4b55f930f36	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/H27	17.33		honpen p.31				
-1392ba241ad406e3	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/H28	20.99		honpen p.31				
+4579271f653d1654	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	企業債残高対給水収益比率/類似団体 H29	1302.33		honpen p.31	✓	auto:ai	2026-10-10	
+0baee4b55f930f36	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/H27	17.33		honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+1392ba241ad406e3	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/H28	20.99		honpen p.31	✓	auto:ai	2026-10-10	
 5d416598db6a6ec4	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/H29	18.80		honpen p.31	✓	auto:pdftext	2026-10-10	
-b51c5b2ac7d49838	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/類似団体 H29	40.89		honpen p.31				
-c578047a9e9c421d	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/H27	1415.44		honpen p.31				
-74963b7dc1845cb2	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/H28	1155.01		honpen p.31				
+b51c5b2ac7d49838	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	料金回収率/類似団体 H29	40.89		honpen p.31	✓	auto:ai	2026-10-10	
+c578047a9e9c421d	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/H27	1415.44		honpen p.31	✓	auto:ai	2026-10-10	
+74963b7dc1845cb2	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/H28	1155.01		honpen p.31	✓	auto:ai	2026-10-10	
 742beff48ce27ff6	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/H29	1305.67		honpen p.31	✓	auto:pdftext	2026-10-10	
-c708ef6d7074fc2c	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/類似団体 H29	383.2		honpen p.31				
-2d536f1b805a8815	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/H27	57.78		honpen p.31				
-b34f29f1b206cca0	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/H28	56.94		honpen p.31				
+c708ef6d7074fc2c	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	給水原価/類似団体 H29	383.2		honpen p.31	✓	auto:ai	2026-10-10	
+2d536f1b805a8815	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/H27	57.78		honpen p.31	✓	auto:ai	2026-10-10	
+b34f29f1b206cca0	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/H28	56.94		honpen p.31	✓	auto:ai	2026-10-10	
 a36546cbbb9c4cb7	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/H29	48.57		honpen p.31	✓	auto:pdftext	2026-10-10	
-2e8a348e93f378df	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/類似団体 H29	47.95		honpen p.31				
-275bddfc1659c0e1	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/H27	80.45		honpen p.31				
-9994db580e16e490	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/H28	96.81		honpen p.31				
+2e8a348e93f378df	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	施設利用率/類似団体 H29	47.95		honpen p.31	✓	auto:ai	2026-10-10	
+275bddfc1659c0e1	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/H27	80.45		honpen p.31	✓	auto:ai	2026-10-10	
+9994db580e16e490	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/H28	96.81		honpen p.31	✓	auto:ai	2026-10-10	
 89a5f2d4cfbb1ee8	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/H29	94.16		honpen p.31	✓	auto:pdftext	2026-10-10	
-b78e133a56872068	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/類似団体 H29	74.9		honpen p.31				
-46195a0a9aea5d7c	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H26	0.40		honpen p.19				
-78400bb2cddadc6a	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H27	0.40		honpen p.19				
+b78e133a56872068	keiei	15	table	経営比較分析(平子・熊野地区簡易水道事業)	有収率/類似団体 H29	74.9		honpen p.31	✓	auto:ai	2026-10-10	
+46195a0a9aea5d7c	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H26	0.40		honpen p.19	✓	auto:ai	2026-10-10	
+78400bb2cddadc6a	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H27	0.40		honpen p.19	✓	auto:ai	2026-10-10	
 657e69404d64b605	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H28	0.40		honpen p.19	✓	auto:pdftext	2026-10-10	
-e2f839bfa3334056	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H28類似団体平均値	0.36		honpen p.19				
-da3470fe3b1accef	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H26	10.0		honpen p.19				
-4f15e7c4ea19b48e	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H27	30.0		honpen p.19				
+e2f839bfa3334056	shihyo	4	table	水質管理についてのPI	平均残留塩素濃度(A101)/H28類似団体平均値	0.36		honpen p.19	✓	auto:ai	2026-10-10	
+da3470fe3b1accef	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H26	10.0		honpen p.19	✓	auto:ai	2026-10-10	
+4f15e7c4ea19b48e	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H27	30.0		honpen p.19	✓	auto:ai	2026-10-10	
 d06101a602082d2d	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H28	20.0		honpen p.19	✓	auto:pdftext	2026-10-10	
-495a27c06ac2f754	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H28類似団体平均値	12.5		honpen p.19				
-7f1614cbf138421b	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H26	35.0		honpen p.19				
-1e51135779dce79e	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H27	29.0		honpen p.19				
+495a27c06ac2f754	shihyo	4	table	水質管理についてのPI	最大カビ臭物質濃度水質基準比率(A102)/H28類似団体平均値	12.5		honpen p.19	✓	auto:ai	2026-10-10	
+7f1614cbf138421b	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H26	35.0		honpen p.19	✓	auto:ai	2026-10-10	
+1e51135779dce79e	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H27	29.0		honpen p.19	✓	auto:ai	2026-10-10	
 81f1cd05cf58c0da	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H28	30.0		honpen p.19	✓	auto:pdftext	2026-10-10	
-08895c5ee032705d	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H28類似団体平均値	23.9		honpen p.19				
-edeec9934e04cfaf	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H26	33.3		honpen p.19				
-fc4ff8ff57aafc29	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H27	33.3		honpen p.19				
+08895c5ee032705d	shihyo	4	table	水質管理についてのPI	総トリハロメタン濃度水質基準比率(A103)/H28類似団体平均値	23.9		honpen p.19	✓	auto:ai	2026-10-10	
+edeec9934e04cfaf	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H26	33.3		honpen p.19	✓	auto:ai	2026-10-10	
+fc4ff8ff57aafc29	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H27	33.3		honpen p.19	✓	auto:ai	2026-10-10	
 7f73d88192a1f66f	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H28	36.7		honpen p.19	✓	auto:pdftext	2026-10-10	
-bdf550630124b1fa	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H28類似団体平均値	22.9		honpen p.19				
-3690bc480e0dcff2	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H26	0.0		honpen p.19				
-887b8107dffe2655	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H27	0.0		honpen p.19				
+bdf550630124b1fa	shihyo	4	table	水質管理についてのPI	有機物(TOC)濃度水質基準比率(A104)/H28類似団体平均値	22.9		honpen p.19	✓	auto:ai	2026-10-10	
+3690bc480e0dcff2	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H26	0.0		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+887b8107dffe2655	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H27	0.0		honpen p.19	✓	auto:ai	2026-10-10	
 317f1b4d690d4687	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H28	0.0		honpen p.19	✓	auto:pdftext	2026-10-10	
-c488ce2c55df53aa	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H28類似団体平均値	4.0		honpen p.19				
-56574f5ccaa468ab	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H26	40.0		honpen p.19				
-b35179d526c2b17e	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H27	30.0		honpen p.19				
+c488ce2c55df53aa	shihyo	4	table	水質管理についてのPI	重金属濃度水質基準比率(A105)/H28類似団体平均値	4.0		honpen p.19	✓	auto:ai	2026-10-10	
+56574f5ccaa468ab	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H26	40.0		honpen p.19	✓	auto:ai	2026-10-10	
+b35179d526c2b17e	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H27	30.0		honpen p.19	✓	auto:ai	2026-10-10	
 414189cebe0ea22c	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H28	16.7		honpen p.19	✓	auto:pdftext	2026-10-10	
-b896973daf4d1c64	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H28類似団体平均値	20.4		honpen p.19				
-8ce08ed834834083	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H26	0.0		honpen p.19				
-8b89da24e707ad90	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H27	0.0		honpen p.19				
+b896973daf4d1c64	shihyo	4	table	水質管理についてのPI	無機物質濃度水質基準比率(A106)/H28類似団体平均値	20.4		honpen p.19	✓	auto:ai	2026-10-10	
+8ce08ed834834083	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H26	0.0		honpen p.19	✓	auto:ai	2026-10-10	
+8b89da24e707ad90	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H27	0.0		honpen p.19	✓	auto:ai	2026-10-10	
 ffd816bd155ac417	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H28	0.0		honpen p.19	✓	auto:pdftext	2026-10-10	
-c80ef7fc39e3e084	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H28類似団体平均値	1.9		honpen p.19				
-3e96caf15d2c4028	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H26	10.0		honpen p.19				
-956d97c89ea3edee	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H27	26.7		honpen p.19				
+c80ef7fc39e3e084	shihyo	4	table	水質管理についてのPI	有機化学物質濃度水質基準比率(A107)/H28類似団体平均値	1.9		honpen p.19	✓	auto:ai	2026-10-10	
+3e96caf15d2c4028	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H26	10.0		honpen p.19	✓	auto:ai	2026-10-10	
+956d97c89ea3edee	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H27	26.7		honpen p.19	✓	auto:ai	2026-10-10	
 d8c42bd661ad79bb	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H28	10.0		honpen p.19	✓	auto:pdftext	2026-10-10	
-0d6e67d540f8d371	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H28類似団体平均値	23.9		honpen p.19				
-5a916241cbd2243b	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H26	0.0		honpen p.19				
-c04fa0f43a32e5af	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H27	0.0		honpen p.19				
+0d6e67d540f8d371	shihyo	4	table	水質管理についてのPI	消毒副生成物濃度水質基準比率(A108)/H28類似団体平均値	23.9		honpen p.19	✓	auto:ai	2026-10-10	
+5a916241cbd2243b	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H26	0.0		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+c04fa0f43a32e5af	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H27	0.0		honpen p.19	✓	auto:ai	2026-10-10	
 79f4d784605a1f52	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H28	0.0		honpen p.19	✓	auto:pdftext	2026-10-10	
-ae1129cc9a725bdb	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H28類似団体平均値	21.4		honpen p.19				
-87c55343ac85e7eb	shihyo	6	table	施設管理についてのPI	地下水率(B103)/H28類似団体平均値	66.7		honpen p.19				
-74ffb22e6a51e522	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H26	48.5		honpen p.19				
-09733aac9d0033aa	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H27	47.4		honpen p.19				
+ae1129cc9a725bdb	shihyo	6	table	施設管理についてのPI	自己保有水源率(B101)/H28類似団体平均値	21.4		honpen p.19	✓	auto:ai	2026-10-10	
+87c55343ac85e7eb	shihyo	6	table	施設管理についてのPI	地下水率(B103)/H28類似団体平均値	66.7		honpen p.19	✓	auto:ai	2026-10-10	
+74ffb22e6a51e522	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H26	48.5		honpen p.19	✓	auto:ai	2026-10-10	
+09733aac9d0033aa	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H27	47.4		honpen p.19	✓	auto:ai	2026-10-10	
 33751ec7b040cf4e	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H28	49.6		honpen p.19	✓	auto:pdftext	2026-10-10	
-0329851a905fedba	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H28類似団体平均値	59.7		honpen p.19				
-89803e7b1cffaad7	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H26	61.5		honpen p.19				
-bdf6024cb149745b	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H27	69.3		honpen p.19				
+0329851a905fedba	shihyo	6	table	施設管理についてのPI	施設利用率(B104)/H28類似団体平均値	59.7		honpen p.19	✓	auto:ai	2026-10-10	
+89803e7b1cffaad7	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H26	61.5		honpen p.19	✓	auto:ai	2026-10-10	
+bdf6024cb149745b	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H27	69.3		honpen p.19	✓	auto:ai	2026-10-10	
 ea72076de0db42e9	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H28	69.6		honpen p.19	✓	auto:pdftext	2026-10-10	
-acc241d050a8bbdc	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H28類似団体平均値	70.7		honpen p.19				
+acc241d050a8bbdc	shihyo	6	table	施設管理についてのPI	最大稼働率(B105)/H28類似団体平均値	70.7		honpen p.19	✓	auto:ai	2026-10-10	
 1bdbfb07e4ef019f	shihyo	6	table	施設管理についてのPI	負荷率(B106)/H26	78.9		honpen p.19	✓	auto:pdftext	2026-10-10	
 436e3e1b9feb4e8d	shihyo	6	table	施設管理についてのPI	負荷率(B106)/H27	68.4		honpen p.19	✓	auto:pdftext	2026-10-10	
 f90224e738c77689	shihyo	6	table	施設管理についてのPI	負荷率(B106)/H28	71.3		honpen p.19	✓	auto:pdftext	2026-10-10	
-71b93dd860687e0b	shihyo	6	table	施設管理についてのPI	負荷率(B106)/H28類似団体平均値	84.2		honpen p.19				
-a4b10ec9ed6574cd	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H26	11.3		honpen p.19				
-1106846d9aabedab	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H27	11.4		honpen p.19				
-b72ff1dde342b933	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H28	11.4		honpen p.19				
-8a8065179cf79354	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H28類似団体平均値	5.5		honpen p.19				
+71b93dd860687e0b	shihyo	6	table	施設管理についてのPI	負荷率(B106)/H28類似団体平均値	84.2		honpen p.19	✓	auto:ai	2026-10-10	
+a4b10ec9ed6574cd	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H26	11.3		honpen p.19	✓	auto:ai	2026-10-10	
+1106846d9aabedab	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H27	11.4		honpen p.19	✓	auto:ai	2026-10-10	
+b72ff1dde342b933	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H28	11.4		honpen p.19	✓	auto:ai	2026-10-10	
+8a8065179cf79354	shihyo	6	table	施設管理についてのPI	配水管延長密度(B107)/H28類似団体平均値	5.5		honpen p.19	✓	auto:ai	2026-10-10	
 298dd2c6a2ebfa52	shihyo	6	table	施設管理についてのPI	漏水率(B110)/H26	0.1		honpen p.19	✓	auto:pdftext	2026-10-10	
 14cf788a39089fe5	shihyo	6	table	施設管理についてのPI	漏水率(B110)/H27	0.1		honpen p.19	✓	auto:pdftext	2026-10-10	
 8bdb0f9b209cb21c	shihyo	6	table	施設管理についてのPI	漏水率(B110)/H28	0.1		honpen p.19	✓	auto:pdftext	2026-10-10	
-0aa8b9823428bc14	shihyo	6	table	施設管理についてのPI	漏水率(B110)/H28類似団体平均値	7.3		honpen p.19				
+0aa8b9823428bc14	shihyo	6	table	施設管理についてのPI	漏水率(B110)/H28類似団体平均値	7.3		honpen p.19	✓	auto:ai	2026-10-10	
 bab476ffaf091505	shihyo	6	table	施設管理についてのPI	有効率(B111)/H26	88.6		honpen p.19	✓	auto:pdftext	2026-10-10	
 9f9c825ef43d3c66	shihyo	6	table	施設管理についてのPI	有効率(B111)/H27	99.6		honpen p.19	✓	auto:pdftext	2026-10-10	
 b7da6b349b01cfde	shihyo	6	table	施設管理についてのPI	有効率(B111)/H28	99.8		honpen p.19	✓	auto:pdftext	2026-10-10	
-dea338c62f61b0c2	shihyo	6	table	施設管理についてのPI	有効率(B111)/H28類似団体平均値	89.1		honpen p.19				
+dea338c62f61b0c2	shihyo	6	table	施設管理についてのPI	有効率(B111)/H28類似団体平均値	89.1		honpen p.19	✓	auto:ai	2026-10-10	
 947a5de326d360f2	shihyo	6	table	施設管理についてのPI	有収率(B112)/H26	88.3		honpen p.19	✓	auto:pdftext	2026-10-10	
 e3fd2b17dc575879	shihyo	6	table	施設管理についてのPI	有収率(B112)/H27	90.2		honpen p.19	✓	auto:pdftext	2026-10-10	
 26f49a4c803620b3	shihyo	6	table	施設管理についてのPI	有収率(B112)/H28	87.9		honpen p.19	✓	auto:pdftext	2026-10-10	
-3baa8c141d7138da	shihyo	6	table	施設管理についてのPI	有収率(B112)/H28類似団体平均値	86.5		honpen p.19				
-ecbca89f1902da7e	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H26	0.81		honpen p.19				
-08c4d0c7fd8e8437	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H27	0.82		honpen p.19				
+3baa8c141d7138da	shihyo	6	table	施設管理についてのPI	有収率(B112)/H28類似団体平均値	86.5		honpen p.19	✓	auto:ai	2026-10-10	
+ecbca89f1902da7e	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H26	0.81		honpen p.19	✓	auto:ai	2026-10-10	
+08c4d0c7fd8e8437	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H27	0.82		honpen p.19	✓	auto:ai	2026-10-10	
 87bdbf04c8885b35	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H28	0.78		honpen p.19	✓	auto:pdftext	2026-10-10	
-6a55887df65c92c5	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H28類似団体平均値	1.12		honpen p.19				
-1ebdd12c8432a78a	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H26	32.5		honpen p.20				
-1adbc18e8daa3e1e	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H27	100.0		honpen p.20				
+6a55887df65c92c5	shihyo	6	table	施設管理についてのPI	配水池貯留能力(B113)/H28類似団体平均値	1.12		honpen p.19	✓	auto:ai	2026-10-10	
+1ebdd12c8432a78a	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H26	32.5		honpen p.20	✓	auto:ai	2026-10-10	
+1adbc18e8daa3e1e	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H27	100.0		honpen p.20	✓	auto:ai	2026-10-10	
 04fe0e32da729723	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H28	100.0		honpen p.20	✓	auto:pdftext	2026-10-10	
-cd9c9db6049f4051	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H28類似団体平均値	50.0		honpen p.20				
-d9d58e6b3e9d3951	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H26	134		honpen p.20				
-a8ee7053d2450a15	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H27	134		honpen p.20				
+cd9c9db6049f4051	shihyo	8	table	運営管理での事故災害対策についてのPI	事故時断水人口率(B202)/H28類似団体平均値	50.0		honpen p.20	✓	auto:ai	2026-10-10	
+d9d58e6b3e9d3951	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H26	134		honpen p.20	✓	auto:ai	2026-10-10	
+a8ee7053d2450a15	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H27	134		honpen p.20	✓	auto:ai	2026-10-10	
 20bcb3df6100d65e	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H28	135		honpen p.20	✓	auto:pdftext	2026-10-10	
-df676226451cffba	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H28類似団体平均値	198		honpen p.20				
-dab22920644768f0	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H26	0.0		honpen p.20				
-3dca3284618f83e9	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H27	4.8		honpen p.20				
+df676226451cffba	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり貯留飲料水量(B203)/H28類似団体平均値	198		honpen p.20	✓	auto:ai	2026-10-10	
+dab22920644768f0	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H26	0.0		honpen p.20	✓	auto:ai	2026-10-10	
+3dca3284618f83e9	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H27	4.8		honpen p.20	✓	auto:ai	2026-10-10	
 9bc1336007a84417	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H28	4.8		honpen p.20	✓	auto:pdftext	2026-10-10	
-9f7479a6aca1cc9c	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H28類似団体平均値	2.9		honpen p.20				
-cc47722f157ecfd6	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H26	26.9		honpen p.20				
-0838ff7e6458edfc	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H27	17.0		honpen p.20				
+9f7479a6aca1cc9c	shihyo	8	table	運営管理での事故災害対策についてのPI	管路の事故割合(B204)/H28類似団体平均値	2.9		honpen p.20	✓	auto:ai	2026-10-10	
+cc47722f157ecfd6	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H26	26.9		honpen p.20	✓	auto:ai	2026-10-10	
+0838ff7e6458edfc	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H27	17.0		honpen p.20	✓	auto:ai	2026-10-10	
 4437d698831a75e8	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H28	17.0		honpen p.20	✓	auto:pdftext	2026-10-10	
-cedd6a3dd7b947b2	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H28類似団体平均値	28.5		honpen p.20				
-e94c63eefe213c11	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H26	4.6		honpen p.20				
-b90dc18942596e9c	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H27	5.5		honpen p.20				
+cedd6a3dd7b947b2	shihyo	8	table	運営管理での事故災害対策についてのPI	基幹管路の事故割合(B205)/H28類似団体平均値	28.5		honpen p.20	✓	auto:ai	2026-10-10	
+e94c63eefe213c11	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H26	4.6		honpen p.20	✓	auto:ai	2026-10-10	
+b90dc18942596e9c	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H27	5.5		honpen p.20	✓	auto:ai	2026-10-10	
 6a9ed6e9b103a4b5	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H28	4.3		honpen p.20	✓	auto:pdftext	2026-10-10	
-a06fdaf4629ae58e	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H28類似団体平均値	4.9		honpen p.20				
-064ef85fde1b2ead	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H26	0.00		honpen p.20				
-b24dcaca7858fd7e	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H27	4.10		honpen p.20				
+a06fdaf4629ae58e	shihyo	8	table	運営管理での事故災害対策についてのPI	給水管の事故割合(B208)/H28類似団体平均値	4.9		honpen p.20	✓	auto:ai	2026-10-10	
+064ef85fde1b2ead	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H26	0.00		honpen p.20	✓	auto:ai	2026-10-10	
+b24dcaca7858fd7e	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H27	4.10		honpen p.20	✓	auto:ai	2026-10-10	
 b4b4f1e746b55ee3	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H28	1.00		honpen p.20	✓	auto:pdftext	2026-10-10	
-987075d37433a978	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H28類似団体平均値	1.88		honpen p.20				
-a3d413cab1a224e3	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H26	2		honpen p.20				
-a1058eb36435d5f4	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H27	2		honpen p.20				
+987075d37433a978	shihyo	8	table	運営管理での事故災害対策についてのPI	給水人口一人当たり平均断水・濁水時間(B209)/H28類似団体平均値	1.88		honpen p.20	✓	auto:ai	2026-10-10	
+a3d413cab1a224e3	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H26	2		honpen p.20	✓	auto:ai	2026-10-10	
+a1058eb36435d5f4	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H27	2		honpen p.20	✓	auto:ai	2026-10-10	
 db2b896de098da86	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H28	2		honpen p.20	✓	auto:pdftext	2026-10-10	
-a6a743cc6e7d10e7	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H28類似団体平均値	1		honpen p.20				
-d04cad285241282c	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H26	3.5		honpen p.20				
-94b310374ed15e11	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H27	3.5		honpen p.20				
+a6a743cc6e7d10e7	shihyo	8	table	運営管理での事故災害対策についてのPI	災害対策訓練実施回数(B210)/H28類似団体平均値	1		honpen p.20	✓	auto:ai	2026-10-10	
+d04cad285241282c	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H26	3.5		honpen p.20	✓	auto:ai	2026-10-10	
+94b310374ed15e11	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H27	3.5		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 cd5d5d02d5750449	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H28	3.5		honpen p.20	✓	auto:pdftext	2026-10-10	
-2c514f06f3431ca9	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H28類似団体平均値	2.3		honpen p.20				
-ac5d4cf358deecfe	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H26	1.5		honpen p.20				
-3b5d00767c232cd3	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H27	1.5		honpen p.20				
+2c514f06f3431ca9	shihyo	8	table	運営管理での事故災害対策についてのPI	消火栓設置密度(B211)/H28類似団体平均値	2.3		honpen p.20	✓	auto:ai	2026-10-10	
+ac5d4cf358deecfe	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H26	1.5		honpen p.20	✓	auto:ai	2026-10-10	
+3b5d00767c232cd3	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H27	1.5		honpen p.20	✓	auto:ai	2026-10-10	
 2f535c0b523bd521	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H28	1.5		honpen p.20	✓	auto:pdftext	2026-10-10	
-189d7385094fd89f	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H28類似団体平均値	49.0		honpen p.20				
-75fd9d92b2e33d74	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H26	1.2		honpen p.20				
-e38bd6a21ba8d179	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H27	1.4		honpen p.20				
+189d7385094fd89f	shihyo	10	table	施設整備での事故災害対策についてのPI	配水池の耐震化率(B604)/H28類似団体平均値	49.0		honpen p.20	✓	auto:ai	2026-10-10	
+75fd9d92b2e33d74	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H26	1.2		honpen p.20	✓	auto:ai	2026-10-10	
+e38bd6a21ba8d179	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H27	1.4		honpen p.20	✓	auto:ai	2026-10-10	
 45378acc9bbc5c09	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H28	1.7		honpen p.20	✓	auto:pdftext	2026-10-10	
-3a2a966e6af29166	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H28類似団体平均値	7.1		honpen p.20				
-58d0e287a562abc3	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H26	2.9		honpen p.20				
-b8dcdd5bfc31b978	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H27	3.6		honpen p.20				
+3a2a966e6af29166	shihyo	10	table	施設整備での事故災害対策についてのPI	管路の耐震化率＊(B605)/H28類似団体平均値	7.1		honpen p.20	✓	auto:ai	2026-10-10	
+58d0e287a562abc3	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H26	2.9		honpen p.20	✓	auto:ai	2026-10-10	
+b8dcdd5bfc31b978	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H27	3.6		honpen p.20	✓	auto:ai	2026-10-10	
 a4a6d660682f9c89	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H28	4.7		honpen p.20	✓	auto:pdftext	2026-10-10	
-9f8f22a06a6b1730	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H28類似団体平均値	16.5		honpen p.20				
-21e365bcdda75be6	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H26	2.9		honpen p.20				
-aa8f7f509cd666a7	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H27	3.6		honpen p.20				
+9f8f22a06a6b1730	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震化率＊(B606)/H28類似団体平均値	16.5		honpen p.20	✓	auto:ai	2026-10-10	
+21e365bcdda75be6	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H26	2.9		honpen p.20	✓	auto:ai	2026-10-10	
+aa8f7f509cd666a7	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H27	3.6		honpen p.20	✓	auto:ai	2026-10-10	
 6a2983b113f68bc9	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H28	4.7		honpen p.20	✓	auto:pdftext	2026-10-10	
-01f63ca4326cdec5	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H28類似団体平均値	26.1		honpen p.20				
-15c5fdace0a9be9e	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H26	53.0		honpen p.20				
-e6f4e88c8f306856	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H27	53.0		honpen p.20				
+01f63ca4326cdec5	shihyo	10	table	施設整備での事故災害対策についてのPI	基幹管路の耐震適合率＊(B606-2)/H28類似団体平均値	26.1		honpen p.20	✓	auto:ai	2026-10-10	
+15c5fdace0a9be9e	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H26	53.0		honpen p.20	✓	auto:ai	2026-10-10	
+e6f4e88c8f306856	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H27	53.0		honpen p.20	✓	auto:ai	2026-10-10	
 dfa62128ae4a7c6f	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H28	80.0		honpen p.20	✓	auto:pdftext	2026-10-10	
-eb1a1a655ce88454	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H28類似団体平均値	54.2		honpen p.20				
-dfd2211095b2593f	shihyo	10	table	施設整備での事故災害対策についてのPI	燃料備蓄日数(B610)/H28類似団体平均値	9.9		honpen p.20				
+eb1a1a655ce88454	shihyo	10	table	施設整備での事故災害対策についてのPI	薬品備蓄日数(B609)/H28類似団体平均値	54.2		honpen p.20	✓	auto:ai	2026-10-10	
+dfd2211095b2593f	shihyo	10	table	施設整備での事故災害対策についてのPI	燃料備蓄日数(B610)/H28類似団体平均値	9.9		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
 e66a28f56faab929	shihyo	10	table	施設整備での事故災害対策についてのPI	応急給水施設密度(B611)/H26	9.1		honpen p.20	✓	auto:pdftext	2026-10-10	
 d19acb5137616ae7	shihyo	10	table	施設整備での事故災害対策についてのPI	応急給水施設密度(B611)/H27	9.1		honpen p.20	✓	auto:pdftext	2026-10-10	
 cde589a923fbc2b9	shihyo	10	table	施設整備での事故災害対策についてのPI	応急給水施設密度(B611)/H28	9.1		honpen p.20	✓	auto:pdftext	2026-10-10	
-f653cc447f1934a1	shihyo	10	table	施設整備での事故災害対策についてのPI	応急給水施設密度(B611)/H28類似団体平均値	8.7		honpen p.20				
-642600410e7e5f19	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H26	0.048		honpen p.20				
-245f486543540e4b	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H27	0.048		honpen p.20				
+f653cc447f1934a1	shihyo	10	table	施設整備での事故災害対策についてのPI	応急給水施設密度(B611)/H28類似団体平均値	8.7		honpen p.20	✓	auto:ai	2026-10-10	
+642600410e7e5f19	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H26	0.048		honpen p.20	✓	auto:ai	2026-10-10	
+245f486543540e4b	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H27	0.048		honpen p.20	✓	auto:ai	2026-10-10	
 dd8d204d0379db9b	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H28	0.049		honpen p.20	✓	auto:pdftext	2026-10-10	
-7de287b15350a15f	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H28類似団体平均値	0.019		honpen p.20				
+7de287b15350a15f	shihyo	10	table	施設整備での事故災害対策についてのPI	給水車保有度(B612)/H28類似団体平均値	0.019		honpen p.20	✓	auto:ai	2026-10-10	
 703a8f10967acb1f	shihyo	10	table	施設整備での事故災害対策についてのPI	車載用の給水タンク保有度(B613)/H26	0.143		honpen p.20	✓	auto:pdftext	2026-10-10	
 e8a9c4dfc0c7d2d2	shihyo	10	table	施設整備での事故災害対策についてのPI	車載用の給水タンク保有度(B613)/H27	0.145		honpen p.20	✓	auto:pdftext	2026-10-10	
 771530a5cf766ebf	shihyo	10	table	施設整備での事故災害対策についてのPI	車載用の給水タンク保有度(B613)/H28	0.146		honpen p.20	✓	auto:pdftext	2026-10-10	
-b12f7d60907a8b33	shihyo	10	table	施設整備での事故災害対策についてのPI	車載用の給水タンク保有度(B613)/H28類似団体平均値	2.890		honpen p.20				
-c7c8b9c06e147fa8	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	施設利用率(B104)/H28	56.9		honpen p.20				
-c5af08ba4f88395b	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	最大稼働率(B105)/H28	100.0		honpen p.20				
-55115e03dcd679a1	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	負荷率(B106)/H28	37.7		honpen p.20				
-31db994b08382ab2	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	有収率(B112)/H28	96.8		honpen p.20				
-7659595e8eee3f4a	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	配水貯留能力(B113)/H28	2.81		honpen p.20				
-28172650f5abadbb	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	消火栓設置密度(B211)/H28	4.0		honpen p.20				
-1d8dcc330fbc44fd	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	浄水場耐震化率(B602)/H28	100.0		honpen p.20				
-aaa3a57fa851008c	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	配水池耐震化率(B604)/H28	100.0		honpen p.20				
-946cb44e4532802c	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	管路耐震化率(B605)/H28	0		honpen p.20				
+b12f7d60907a8b33	shihyo	10	table	施設整備での事故災害対策についてのPI	車載用の給水タンク保有度(B613)/H28類似団体平均値	2.890		honpen p.20	✓	auto:ai	2026-10-10	
+c7c8b9c06e147fa8	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	施設利用率(B104)/H28	56.9		honpen p.20	✓	auto:ai	2026-10-10	
+c5af08ba4f88395b	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	最大稼働率(B105)/H28	100.0		honpen p.20	✓	auto:ai	2026-10-10	
+55115e03dcd679a1	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	負荷率(B106)/H28	37.7		honpen p.20	✓	auto:ai	2026-10-10	
+31db994b08382ab2	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	有収率(B112)/H28	96.8		honpen p.20	✓	auto:ai	2026-10-10	
+7659595e8eee3f4a	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	配水貯留能力(B113)/H28	2.81		honpen p.20	✓	auto:ai	2026-10-10	
+28172650f5abadbb	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	消火栓設置密度(B211)/H28	4.0		honpen p.20	✓	auto:ai	2026-10-10	
+1d8dcc330fbc44fd	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	浄水場耐震化率(B602)/H28	100.0		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+aaa3a57fa851008c	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	配水池耐震化率(B604)/H28	100.0		honpen p.20	✓	auto:ai	2026-10-10	
+946cb44e4532802c	shihyo	12	table	平子・熊野地区簡易水道事業についてのPI(平成28年度)	管路耐震化率(B605)/H28	0		honpen p.20	✓	auto:ai	2026-10-10	

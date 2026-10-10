@@ -6,6 +6,7 @@
     "name": "第4期 日野町教育振興基本計画",
     "name_short": "教育振興基本計画",
     "period": { "start": "R7", "end": "R11" },
+    "period_note": "計画期間は町の掲載ページによる。原典には記載がない",
     "lead": "日野町の教育がめざす基本目標と、10の柱にそった施策の方向をまとめた計画です。",
     "dept": "学校教育課",
     "parent_plan": "第6次日野町総合計画",
@@ -23,6 +24,11 @@
       "id": "honpen",
       "label": "第4期 日野町教育振興基本計画（本文）",
       "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8163/shikoukihon_4m.pdf"
+    },
+    {
+      "id": "keisai",
+      "label": "町の掲載ページ(計画期間・担当課)",
+      "url": "https://www.town.shiga-hino.lg.jp/0000008163.html"
     }
   ],
   "tabs": [

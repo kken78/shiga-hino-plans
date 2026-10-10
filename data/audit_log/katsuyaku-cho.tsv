@@ -1,0 +1,9 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+c30215cd49113b76	summary	1	target.base		障がい者の実雇用率（町長部局と教育委員会部局の合算）	2.44	%	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+63d798ee4883d18e	summary	1	target.target		障がい者の実雇用率（町長部局と教育委員会部局の合算）	3.0	%	honpen p.3				要人確認:H1 A=一致/中 B=一致/中
+98c384887cdef898	summary	2	kpi		町長部局の実雇用率	1.74	%	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+0fa613cedb2e8426	mokuhyo	2	target.base	採用に関する目標	対象障がい者の実雇用率（町長部局と教育委員会部局の合算）	2.44	%	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+49972198824f781a	mokuhyo	2	target.target	採用に関する目標	対象障がい者の実雇用率（町長部局と教育委員会部局の合算）	3.0	%	honpen p.3				要人確認:H1 A=一致/中 B=一致/中
+2fcf12fae84c739d	mokuhyo	3	kpi	採用に関する目標	町長部局における実雇用率	1.74	%	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+402e924526c12347	mokuhyo	6	kpi	第2期計画の目標	第2期計画で上回ることを目標とした法定雇用率（町長部局と教育委員会部局の合算）	2.8	%	honpen p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点

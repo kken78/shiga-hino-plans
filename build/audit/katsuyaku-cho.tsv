@@ -1,0 +1,8 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	1	target.base		障がい者の実雇用率（町長部局と教育委員会部局の合算）	2.44	%	honpen p.3
+summary	1	target.target		障がい者の実雇用率（町長部局と教育委員会部局の合算）	3.0	%	honpen p.3
+summary	2	kpi		町長部局の実雇用率	1.74	%	honpen p.3
+mokuhyo	2	target.base	採用に関する目標	対象障がい者の実雇用率（町長部局と教育委員会部局の合算）	2.44	%	honpen p.3
+mokuhyo	2	target.target	採用に関する目標	対象障がい者の実雇用率（町長部局と教育委員会部局の合算）	3.0	%	honpen p.3
+mokuhyo	3	kpi	採用に関する目標	町長部局における実雇用率	1.74	%	honpen p.3
+mokuhyo	6	kpi	第2期計画の目標	第2期計画で上回ることを目標とした法定雇用率（町長部局と教育委員会部局の合算）	2.8	%	honpen p.1

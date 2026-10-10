@@ -1,0 +1,842 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+43947740541ec9a3	summary	1	kpi		障害者手帳 所持者数（合計）	1318	人	honpen p.3				要人確認:H1 A=一致/高 B=一致/中
+45fc979381190e2b	summary	1	kpi		身体障害者手帳	864	人	honpen p.3				要人確認:H1 A=一致/高 B=一致/中
+924933061d3558e6	summary	1	kpi		療育手帳	292	人	honpen p.3				要人確認:H1 A=一致/高 B=一致/中
+61197b8e968c8cc9	summary	1	kpi		精神障害者保健福祉手帳	162	人	honpen p.3				要人確認:H1 A=一致/高 B=一致/中
+7e659cebce3e048e	summary	2	target.base		福祉施設から一般就労への移行者数	2	人	honpen p.17				要人確認:H1 A=一致/中 B=一致/中
+8ee8479dec46d80a	summary	2	target.target		福祉施設から一般就労への移行者数	5	人	honpen p.17				要人確認:H1 A=一致/中 B=一致/中
+908893c4af904c72	summary	2	target.base		就労定着支援事業の利用者数	1	人	honpen p.17				要人確認:H1 A=一致/中 B=一致/中
+c1fa3013f5ce89ef	summary	2	target.target		就労定着支援事業の利用者数	3	人	honpen p.17				要人確認:H1 A=一致/中 B=一致/中
+e82dc8a1d33d1356	genjo	3	chart.stacked	障害者手帳所持者数の推移	H29/身体障害者手帳	927	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+20169c1f3edbc95f	genjo	3	chart.stacked	障害者手帳所持者数の推移	H29/療育手帳	261	人	gaiyo p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+d0fe56e3d29facdb	genjo	3	chart.stacked	障害者手帳所持者数の推移	H29/精神障害者保健福祉手帳	142	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+dc50b0bbb0fbbfe9	genjo	3	chart.stacked	障害者手帳所持者数の推移	H30/身体障害者手帳	926	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+4c0d2ae32c9583f6	genjo	3	chart.stacked	障害者手帳所持者数の推移	H30/療育手帳	273	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+669a15ede5b3b91e	genjo	3	chart.stacked	障害者手帳所持者数の推移	H30/精神障害者保健福祉手帳	140	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+5979937073416a14	genjo	3	chart.stacked	障害者手帳所持者数の推移	R1/身体障害者手帳	898	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+5fe513f3c79d670d	genjo	3	chart.stacked	障害者手帳所持者数の推移	R1/療育手帳	280	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+50f2c30adacf3a87	genjo	3	chart.stacked	障害者手帳所持者数の推移	R1/精神障害者保健福祉手帳	136	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+3109730ae004894d	genjo	3	chart.stacked	障害者手帳所持者数の推移	R2/身体障害者手帳	874	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+e262986b2fa582aa	genjo	3	chart.stacked	障害者手帳所持者数の推移	R2/療育手帳	288	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+a1b3fa309fb4c570	genjo	3	chart.stacked	障害者手帳所持者数の推移	R2/精神障害者保健福祉手帳	146	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+fed0fb71e2d004c7	genjo	3	chart.stacked	障害者手帳所持者数の推移	R3/身体障害者手帳	870	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+59f6605277f6465f	genjo	3	chart.stacked	障害者手帳所持者数の推移	R3/療育手帳	294	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+eaeedd6d47e99114	genjo	3	chart.stacked	障害者手帳所持者数の推移	R3/精神障害者保健福祉手帳	163	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+1a0440d6f9477735	genjo	3	chart.stacked	障害者手帳所持者数の推移	R4/身体障害者手帳	864	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+d753f07e03e76cc4	genjo	3	chart.stacked	障害者手帳所持者数の推移	R4/療育手帳	292	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+277682f650fa70da	genjo	3	chart.stacked	障害者手帳所持者数の推移	R4/精神障害者保健福祉手帳	162	人	gaiyo p.3	✓	auto:ai	2026-10-10	
+7c0105bb2ccde97d	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	身体障害者手帳/令和2年度	874		honpen p.3	✓	auto:ai	2026-10-10	
+96178430f6598633	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	身体障害者手帳/令和3年度	870		honpen p.3	✓	auto:ai	2026-10-10	
+5675457e6158d825	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	身体障害者手帳/令和4年度	864		honpen p.3	✓	auto:pdftext	2026-10-10	
+d3eb8eb82d54db60	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	身体障害者手帳/増減数（R4－R2）	-10		honpen p.3	✓	auto:ai	2026-10-10	
+a5f08d4710f8f342	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（身体）/令和2年度	213		honpen p.3	✓	auto:ai	2026-10-10	
+ebdcc61ea734434d	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（身体）/令和3年度	218		honpen p.3	✓	auto:ai	2026-10-10	
+2cd8f250021b8e38	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（身体）/令和4年度	217		honpen p.3	✓	auto:pdftext	2026-10-10	
+4412f7579d57bb0f	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（身体）/増減数（R4－R2）	4		honpen p.3	✓	auto:ai	2026-10-10	
+13c985acd16b83c2	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（身体）/令和2年度	102		honpen p.3	✓	auto:ai	2026-10-10	
+01aca3d4b942f10c	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（身体）/令和3年度	96		honpen p.3	✓	auto:ai	2026-10-10	
+2a27b678cc5c1c33	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（身体）/令和4年度	100		honpen p.3	✓	auto:pdftext	2026-10-10	
+f1bc0cf7ae6addb4	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（身体）/増減数（R4－R2）	-2		honpen p.3	✓	auto:ai	2026-10-10	
+158a424ab7087be5	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（身体）/令和2年度	138		honpen p.3	✓	auto:ai	2026-10-10	
+1a6eaaa9390777ba	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（身体）/令和3年度	140		honpen p.3	✓	auto:ai	2026-10-10	
+99adc907b1202b2d	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（身体）/令和4年度	141		honpen p.3	✓	auto:pdftext	2026-10-10	
+0945ca8d2df2d6b3	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（身体）/増減数（R4－R2）	3		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+8f6733433795d98f	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	4級（身体）/令和2年度	257		honpen p.3	✓	auto:ai	2026-10-10	
+5feb83d31c2992da	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	4級（身体）/令和3年度	259		honpen p.3	✓	auto:ai	2026-10-10	
+e3137c11b8dbf747	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	4級（身体）/令和4年度	254		honpen p.3	✓	auto:pdftext	2026-10-10	
+d7b98279fb82f550	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	4級（身体）/増減数（R4－R2）	-3		honpen p.3	✓	auto:ai	2026-10-10	
+6b186b2840a3c156	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	5級（身体）/令和2年度	111		honpen p.3	✓	auto:ai	2026-10-10	
+bc1452f205be8898	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	5級（身体）/令和3年度	107		honpen p.3	✓	auto:ai	2026-10-10	
+76c305f2188da45c	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	5級（身体）/令和4年度	106		honpen p.3	✓	auto:pdftext	2026-10-10	
+6e68df069bf312a8	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	5級（身体）/増減数（R4－R2）	-5		honpen p.3	✓	auto:ai	2026-10-10	
+a457cf07ff5f67a3	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	6級（身体）/令和2年度	53		honpen p.3	✓	auto:ai	2026-10-10	
+aee68ba274574c03	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	6級（身体）/令和3年度	50		honpen p.3	✓	auto:ai	2026-10-10	
+edbdda970f888e3f	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	6級（身体）/令和4年度	46		honpen p.3	✓	auto:pdftext	2026-10-10	
+916b3411762b93b7	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	6級（身体）/増減数（R4－R2）	-7		honpen p.3	✓	auto:ai	2026-10-10	
+a9b3d69185ff6f61	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	療育手帳/令和2年度	288		honpen p.3	✓	auto:ai	2026-10-10	
+43c85f4e8be0c800	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	療育手帳/令和3年度	294		honpen p.3	✓	auto:ai	2026-10-10	
+9cc70659336c242c	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	療育手帳/令和4年度	292		honpen p.3	✓	auto:pdftext	2026-10-10	
+1e3933aa38c871c8	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	療育手帳/増減数（R4－R2）	4		honpen p.3	✓	auto:ai	2026-10-10	
+3d4859a6390b515b	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A1（最重度）/令和2年度	45		honpen p.3	✓	auto:ai	2026-10-10	
+03b167b47e32e59e	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A1（最重度）/令和3年度	45		honpen p.3	✓	auto:ai	2026-10-10	
+cea9b7038714ddb3	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A1（最重度）/令和4年度	45		honpen p.3	✓	auto:pdftext	2026-10-10	
+5e13426269e1bcfa	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A1（最重度）/増減数（R4－R2）	0		honpen p.3	✓	auto:ai	2026-10-10	
+68e025f9a3fd94be	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A2（重度）/令和2年度	44		honpen p.3	✓	auto:ai	2026-10-10	
+db6422a3c8d08673	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A2（重度）/令和3年度	46		honpen p.3	✓	auto:ai	2026-10-10	
+7df6e45de904ed1b	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A2（重度）/令和4年度	43		honpen p.3	✓	auto:pdftext	2026-10-10	
+213d1f6961724961	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	A2（重度）/増減数（R4－R2）	-1		honpen p.3	✓	auto:ai	2026-10-10	
+06b6b5375e0cd3d3	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B1（中度）/令和2年度	79		honpen p.3	✓	auto:ai	2026-10-10	
+eea641da77b6d035	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B1（中度）/令和3年度	81		honpen p.3	✓	auto:ai	2026-10-10	
+f4adb0e303d9d1cf	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B1（中度）/令和4年度	81		honpen p.3	✓	auto:pdftext	2026-10-10	
+b1ef156205c4791e	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B1（中度）/増減数（R4－R2）	2		honpen p.3	✓	auto:ai	2026-10-10	
+281adf8ffa55be40	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B2（軽度）/令和2年度	120		honpen p.3	✓	auto:ai	2026-10-10	
+c5f530a3eae6aac7	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B2（軽度）/令和3年度	122		honpen p.3	✓	auto:ai	2026-10-10	
+1609ea973b9aaa87	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B2（軽度）/令和4年度	123		honpen p.3	✓	auto:ai	2026-10-10	
+e61205ea59ae8bad	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	B2（軽度）/増減数（R4－R2）	3		honpen p.3	✓	auto:ai	2026-10-10	
+35d7fd0d1a307970	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	精神障害者保健福祉手帳/令和2年度	146		honpen p.3	✓	auto:ai	2026-10-10	
+1029a25ee4c4bf98	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	精神障害者保健福祉手帳/令和3年度	163		honpen p.3	✓	auto:ai	2026-10-10	
+862604f4b09494d5	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	精神障害者保健福祉手帳/令和4年度	162		honpen p.3	✓	auto:ai	2026-10-10	
+0cbb2a770e6abb1b	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	精神障害者保健福祉手帳/増減数（R4－R2）	16		honpen p.3	✓	auto:ai	2026-10-10	
+6be18f6115549b2c	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（精神）/令和2年度	13		honpen p.3	✓	auto:ai	2026-10-10	
+eeb84b9099b702fc	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（精神）/令和3年度	13		honpen p.3	✓	auto:ai	2026-10-10	
+49608571fbb955ff	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（精神）/令和4年度	14		honpen p.3	✓	auto:ai	2026-10-10	
+b552f2d9f1457773	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	1級（精神）/増減数（R4－R2）	1		honpen p.3	✓	auto:ai	2026-10-10	
+8470526905a22a4e	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（精神）/令和2年度	99		honpen p.3	✓	auto:ai	2026-10-10	
+8cb5b902634dc193	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（精神）/令和3年度	106		honpen p.3	✓	auto:ai	2026-10-10	
+84500db3fdfaf90e	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（精神）/令和4年度	98		honpen p.3	✓	auto:ai	2026-10-10	
+b6fc316de6240f46	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	2級（精神）/増減数（R4－R2）	-1		honpen p.3	✓	auto:ai	2026-10-10	
+e587f53280a04bde	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（精神）/令和2年度	34		honpen p.3	✓	auto:ai	2026-10-10	
+82f8708ad8bbb756	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（精神）/令和3年度	44		honpen p.3	✓	auto:ai	2026-10-10	
+74dcd63188b36edb	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（精神）/令和4年度	50		honpen p.3	✓	auto:ai	2026-10-10	
+ae668b688e402881	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	3級（精神）/増減数（R4－R2）	16		honpen p.3	✓	auto:ai	2026-10-10	
+6a3c69720ffc9312	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	合計/令和2年度	1308		honpen p.3	✓	auto:ai	2026-10-10	
+7ceced0266a7ac9b	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	合計/令和3年度	1327		honpen p.3	✓	auto:ai	2026-10-10	
+9734fefc80044350	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	合計/令和4年度	1318		honpen p.3	✓	auto:ai	2026-10-10	
+045edd93a389c389	genjo	4	table	日野町の障害者手帳所持者数（単位:人）	合計/増減数（R4－R2）	10		honpen p.3	✓	auto:ai	2026-10-10	
+169cc4d992dfb2ef	genjo	7	table	（1）施設入所者の地域生活への移行	令和元年度末時点の施設入所者（Ａ）/実績値	17		honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+ec296bc90d2277fa	genjo	7	table	（1）施設入所者の地域生活への移行	【目標①】（Ａ）のうち、令和5年度末までに地域生活に移行する人（地域生活移行者）/目標値	1		honpen p.4	✓	auto:pdftext	2026-10-10	
+562c87a0abfc1c86	genjo	7	table	（1）施設入所者の地域生活への移行	【目標①】（Ａ）のうち、令和5年度末までに地域生活に移行する人（地域生活移行者）/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+24ca60741ca3afe1	genjo	7	table	（1）施設入所者の地域生活への移行	【目標②】令和5年度末時点の見込み人数/目標値	17		honpen p.4	✓	auto:ai	2026-10-10	
+495baa2c32344799	genjo	7	table	（1）施設入所者の地域生活への移行	【目標②】令和5年度末時点の見込み人数/実績値	14		honpen p.4	✓	auto:pdftext	2026-10-10	
+2df4de0f27576afb	genjo	7	table	（1）施設入所者の地域生活への移行	【目標③】県外入所者数/目標値	0		honpen p.4	✓	auto:ai	2026-10-10	
+c67f45542fef14b0	genjo	7	table	（1）施設入所者の地域生活への移行	【目標③】県外入所者数/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+23ab6ef80ca2cfb4	genjo	8	table	（2）発達障がいのある人に対する支援	【目標①】日野町地域生活支援ネットワーク会議の開催回数/目標値	2		honpen p.4	✓	auto:pdftext	2026-10-10	
+1e4692e15ee2e9ee	genjo	8	table	（2）発達障がいのある人に対する支援	【目標①】日野町地域生活支援ネットワーク会議の開催回数/実績値	2		honpen p.4	✓	auto:pdftext	2026-10-10	
+471a717b9255315d	genjo	8	table	（2）発達障がいのある人に対する支援	【目標③】支援学級・支援学校卒業生のつどいの場の開催回数/目標値	1		honpen p.4	✓	auto:pdftext	2026-10-10	
+6c1516d13b7a744c	genjo	8	table	（2）発達障がいのある人に対する支援	【目標③】支援学級・支援学校卒業生のつどいの場の開催回数/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+2eba62c1dbc0aa49	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標①】保健、医療、福祉関係者による協議の場の設置（東近江福祉圏域にて設置）/目標値	1		honpen p.4	✓	auto:pdftext	2026-10-10	
+de95f05c41342a72	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標①】保健、医療、福祉関係者による協議の場の設置（東近江福祉圏域にて設置）/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+a147a9165f799226	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の地域移行支援の利用数（R5）/目標値	1		honpen p.4	✓	auto:pdftext	2026-10-10	
+b017ad292a89dc75	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の地域移行支援の利用数（R5）/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+339edbf2a72f10c3	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の地域定着支援の利用数（R5）/目標値	1		honpen p.4	✓	auto:pdftext	2026-10-10	
+1207a82f570882ac	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の地域定着支援の利用数（R5）/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+80596164c729e96b	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の共同生活援助の利用数（R5）/目標値	51		honpen p.4	✓	auto:pdftext	2026-10-10	
+3393cd88f34266f3	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の共同生活援助の利用数（R5）/実績値	6		honpen p.4	✓	auto:pdftext	2026-10-10	
+a95154c33e4cbcd7	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の自立生活援助の利用数（R5）/目標値	1		honpen p.4	✓	auto:pdftext	2026-10-10	
+867b4af99a64871a	genjo	9	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標②】精神障がいのある人の自立生活援助の利用数（R5）/実績値	0		honpen p.4	✓	auto:pdftext	2026-10-10	
+0b9bdb1054fdbfc9	genjo	10	table	（4）地域生活支援拠点等が有する機能の充実	【目標①】障がいのある人の地域生活支援拠点を整備/目標値	1		honpen p.5	✓	auto:pdftext	2026-10-10	
+3633d4e1cdce8f1f	genjo	10	table	（4）地域生活支援拠点等が有する機能の充実	【目標①】障がいのある人の地域生活支援拠点を整備/実績値	1		honpen p.5	✓	auto:pdftext	2026-10-10	
+b5057c0bc210b3d9	genjo	10	table	（4）地域生活支援拠点等が有する機能の充実	【目標②】地域生活支援拠点の運用状況の検証の実施/実績値	1		honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+d800e02ae7c4d0d4	genjo	11	table	（5）福祉施設から一般就労への移行	【目標①】福祉事業所から一般就労への移行者/目標値	2		honpen p.5	✓	auto:ai	2026-10-10	
+cb6060133ff620fc	genjo	11	table	（5）福祉施設から一般就労への移行	【目標①】福祉事業所から一般就労への移行者/実績値	2		honpen p.5	✓	auto:pdftext	2026-10-10	
+39dd0aa4097efbfb	genjo	11	table	（5）福祉施設から一般就労への移行	うち、就労移行支援事業所から/目標値	2		honpen p.5	✓	auto:ai	2026-10-10	
+66f3029394bea868	genjo	11	table	（5）福祉施設から一般就労への移行	うち、就労移行支援事業所から/実績値	2		honpen p.5	✓	auto:pdftext	2026-10-10	
+f997779920e15dae	genjo	11	table	（5）福祉施設から一般就労への移行	うち、就労継続支援Ａ型事業所から/目標値	0		honpen p.5	✓	auto:ai	2026-10-10	
+010f20d10f2ebd84	genjo	11	table	（5）福祉施設から一般就労への移行	うち、就労継続支援Ａ型事業所から/実績値	0		honpen p.5	✓	auto:pdftext	2026-10-10	
+9f19b8404c9633ac	genjo	11	table	（5）福祉施設から一般就労への移行	うち、就労継続支援Ｂ型事業所から/目標値	0		honpen p.5	✓	auto:ai	2026-10-10	
+246538eeff6c1132	genjo	11	table	（5）福祉施設から一般就労への移行	うち、就労継続支援Ｂ型事業所から/実績値	0		honpen p.5	✓	auto:pdftext	2026-10-10	
+1a34dc29657d7781	genjo	11	table	（5）福祉施設から一般就労への移行	【目標②】就労定着支援事業利用者数/目標値	0		honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+1b43e7268faddb92	genjo	11	table	（5）福祉施設から一般就労への移行	【目標②】就労定着支援事業利用者数/実績値	1		honpen p.5	✓	auto:pdftext	2026-10-10	
+50e68bd42415be46	mokuhyo	5	table	（1）施設入所者の地域生活への移行	令和4年度末時点の施設入所者（Ａ）/数値	14		honpen p.13	✓	auto:ai	2026-10-10	
+a88b2a6840002fd2	mokuhyo	5	table	（1）施設入所者の地域生活への移行	【目標①】地域生活移行者数/数値	0		honpen p.13	✓	auto:ai	2026-10-10	
+a7674a5958bb6ba9	mokuhyo	5	table	（1）施設入所者の地域生活への移行	【目標②】施設入所者数/数値	14		honpen p.13	✓	auto:ai	2026-10-10	
+8a88dd1f904fffc7	mokuhyo	5	table	（1）施設入所者の地域生活への移行	令和4年度末時点の県外入所者数/数値	0		honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+b6337150212d8502	mokuhyo	5	table	（1）施設入所者の地域生活への移行	【目標③】県外入所者数/数値	0		honpen p.13	✓	auto:ai	2026-10-10	
+122dc2aad8cab9cb	mokuhyo	9	table	（2）発達障がいのある人に対する支援	【目標①】日野町地域生活支援ネットワーク会議/数値等	2		honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+421d0c2e8839180b	mokuhyo	9	table	（2）発達障がいのある人に対する支援	【目標③】支援学級・支援学校卒業生のつどいの場/数値等	1		honpen p.14	✓	auto:ai	2026-10-10	
+38d85fc07d55c00e	mokuhyo	13	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	令和4年度末時点の協議の場/数値	0		honpen p.15	✓	auto:ai	2026-10-10	
+4caccbcc222d64d6	mokuhyo	13	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	【目標①】協議の場の設置/数値	1		honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+ccc31565ee4b5cb5	mokuhyo	14	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	保健、医療および福祉関係者による協議の場の開催回数/数値	1		honpen p.15	✓	auto:ai	2026-10-10	
+ccecce42cdb9509b	mokuhyo	14	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	保健、医療および福祉関係者による協議の場への関係者の参加者数/数値	15		honpen p.15	✓	auto:ai	2026-10-10	
+800add4967402a5d	mokuhyo	14	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	保健、医療および福祉関係者による協議の場における目標設定および評価の実施回数/数値	1		honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+320288752973c770	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の地域移行支援の利用者数/令和6年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+af32ebfa6162ecd0	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の地域移行支援の利用者数/令和7年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+795f85a5d8a3adcb	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の地域移行支援の利用者数/令和8年度	1		honpen p.15	✓	auto:pdftext	2026-10-10	
+aa25d88543f30f92	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の地域定着支援の利用者数/令和6年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+95865817377a5feb	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の地域定着支援の利用者数/令和7年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+e91f404e015f0e6f	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の地域定着支援の利用者数/令和8年度	1		honpen p.15	✓	auto:pdftext	2026-10-10	
+2e4f8c62b7311ffd	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の共同生活援助の利用者数/令和6年度	7		honpen p.15	✓	auto:ai	2026-10-10	
+103d0e3027ebb9d6	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の共同生活援助の利用者数/令和7年度	7		honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+7984e2aa297eb4cd	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の共同生活援助の利用者数/令和8年度	7		honpen p.15	✓	auto:pdftext	2026-10-10	
+e6a4b698aeb6be03	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の自立生活援助の利用者数/令和6年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+63cd479f81bed9fc	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の自立生活援助の利用者数/令和7年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+8544a81a2f1523a2	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の自立生活援助の利用者数/令和8年度	1		honpen p.15	✓	auto:pdftext	2026-10-10	
+c4e92150dffdf104	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の自立訓練（生活訓練）の利用者数/令和6年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+fc2633003a3f26e1	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の自立訓練（生活訓練）の利用者数/令和7年度	1		honpen p.15	✓	auto:ai	2026-10-10	
+6989d10d3656af37	mokuhyo	15	table	（3）精神障がいのある人にも対応した地域包括ケアシステムの構築	精神障がい者の自立訓練（生活訓練）の利用者数/令和8年度	1		honpen p.15	✓	auto:pdftext	2026-10-10	
+c4626aab7e2ea234	mokuhyo	19	table	（4）地域生活支援の充実	令和4年度末時点の地域生活支援拠点/数値	1		honpen p.16	✓	auto:ai	2026-10-10	
+fce7da48d5f4d50d	mokuhyo	19	table	（4）地域生活支援の充実	【目標値①】地域生活支援拠点等の整備/数値	1		honpen p.16	✓	auto:ai	2026-10-10	
+3522da66ee3e60b0	mokuhyo	19	table	（4）地域生活支援の充実	【目標値②】強度行動障害のある人に対する支援体制の整備/数値	1		honpen p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+e4214ce8bc6520fe	mokuhyo	20	table	（4）地域生活支援の充実	機能の充実のためのコーディネーターの配置人数/令和6年度	1		honpen p.16	✓	auto:pdftext	2026-10-10	
+0fa2e40aad33fa42	mokuhyo	20	table	（4）地域生活支援の充実	機能の充実のためのコーディネーターの配置人数/令和7年度	1		honpen p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+961fbe77be77e3a8	mokuhyo	20	table	（4）地域生活支援の充実	機能の充実のためのコーディネーターの配置人数/令和8年度	1		honpen p.16	✓	auto:ai	2026-10-10	
+b30a3ff91d51ca33	mokuhyo	20	table	（4）地域生活支援の充実	機能の充実に向けた支援の実績等を踏まえた検証および検討の実施回数（年間）/令和6年度	1		honpen p.16	✓	auto:pdftext	2026-10-10	
+8a97e4923e005dbd	mokuhyo	20	table	（4）地域生活支援の充実	機能の充実に向けた支援の実績等を踏まえた検証および検討の実施回数（年間）/令和7年度	1		honpen p.16	✓	auto:ai	2026-10-10	
+a30c853ada0af30a	mokuhyo	20	table	（4）地域生活支援の充実	機能の充実に向けた支援の実績等を踏まえた検証および検討の実施回数（年間）/令和8年度	1		honpen p.16	✓	auto:ai	2026-10-10	
+797e12bd0eb248c7	mokuhyo	24	table	一般就労への移行者数	【目標①-1】一般就労移行者数/令和3年度	2		honpen p.17	✓	auto:ai	2026-10-10	
+2283b173cab86f35	mokuhyo	24	table	一般就労への移行者数	【目標①-1】一般就労移行者数/令和8年度	5		honpen p.17	✓	auto:pdftext	2026-10-10	
+7b3a0ebdee4a121f	mokuhyo	24	table	一般就労への移行者数	うち、就労移行支援事業利用者の一般就労移行者数/令和3年度	2		honpen p.17	✓	auto:pdftext	2026-10-10	
+4c4bb166b68768bc	mokuhyo	24	table	一般就労への移行者数	うち、就労移行支援事業利用者の一般就労移行者数/令和8年度	3		honpen p.17	✓	auto:ai	2026-10-10	
+6131af610dc563f5	mokuhyo	24	table	一般就労への移行者数	うち、就労継続支援Ａ型利用者の一般就労移行者数/令和3年度	0		honpen p.17	✓	auto:ai	2026-10-10	
+83f41aee453c7bb3	mokuhyo	24	table	一般就労への移行者数	うち、就労継続支援Ａ型利用者の一般就労移行者数/令和8年度	1		honpen p.17	✓	auto:ai	2026-10-10	
+1b493a899bf47bc1	mokuhyo	24	table	一般就労への移行者数	うち、就労継続支援Ｂ型利用者の一般就労移行者数/令和3年度	0		honpen p.17	✓	auto:ai	2026-10-10	
+4d78408dd09205c2	mokuhyo	24	table	一般就労への移行者数	うち、就労継続支援Ｂ型利用者の一般就労移行者数/令和8年度	1		honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+ddc8cf81b19eb83b	mokuhyo	25	table	事業所と就労定着支援	令和8年度の就労移行支援事業所数（Ａ）/数値	1		honpen p.17	✓	auto:ai	2026-10-10	
+dae8c9f275f1e126	mokuhyo	25	table	事業所と就労定着支援	【目標値①-2】（Ａ）のうち、事業利用後に一般就労へ移行した人の割合が5割以上の事業所数/数値	1		honpen p.17	✓	auto:ai	2026-10-10	
+41f54ef91c154d3f	mokuhyo	25	table	事業所と就労定着支援	令和3年度の就労定着支援事業利用者数/数値	1		honpen p.17	✓	auto:ai	2026-10-10	
+da5494e762f20c1e	mokuhyo	25	table	事業所と就労定着支援	【目標値②-1】令和8年度の就労定着支援事業利用者数/数値	3		honpen p.17	✓	auto:ai	2026-10-10	
+2749776ca9821a19	mokuhyo	25	table	事業所と就労定着支援	令和8年度末の、就労定着支援事業所数（Ｂ）/数値	1		honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+9fa570f417622382	mokuhyo	25	table	事業所と就労定着支援	【目標値②-2】（Ｂ）のうち、就労定着率7割以上の就労移行支援事業所数/数値	1		honpen p.17	✓	auto:ai	2026-10-10	
+06506e90cffe7836	mokuhyo	29	table	（6）障害児支援の提供体制の整備等	【目標値】主に重症心身障がい児を支援する放課後等デイサービス事業所の設置/数値等	1		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+9675d613986b7823	mokuhyo	29	table	（6）障害児支援の提供体制の整備等	【目標値】医療的ケア児等に関するコーディネーターを配置/数値等	1		honpen p.19	✓	auto:ai	2026-10-10	
+b5addb189811b726	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会における相談支援事業所の参画による事例検討実施回数/令和6年度	10		honpen p.20	✓	auto:ai	2026-10-10	
+9ab00ca18196b6eb	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会における相談支援事業所の参画による事例検討実施回数/令和7年度	10		honpen p.20	✓	auto:ai	2026-10-10	
+0da9e13314aabc2a	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会における相談支援事業所の参画による事例検討実施回数/令和8年度	10		honpen p.20	✓	auto:ai	2026-10-10	
+129332b66fd9ce7b	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会参加事業者数/令和6年度	50		honpen p.20	✓	auto:ai	2026-10-10	
+016d00beaf3b3162	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会参加事業者数/令和7年度	50		honpen p.20	✓	auto:ai	2026-10-10	
+b966af473271d3ea	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会参加事業者数/令和8年度	50		honpen p.20	✓	auto:ai	2026-10-10	
+6c53783c025baaa8	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会参加機関数/令和6年度	60		honpen p.20	✓	auto:ai	2026-10-10	
+8d6a4bf762bd6f36	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会参加機関数/令和7年度	60		honpen p.20	✓	auto:ai	2026-10-10	
+ae7658f4323da590	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会参加機関数/令和8年度	60		honpen p.20	✓	auto:ai	2026-10-10	
+2b082a5ddcec6c15	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会の専門部会の設置数/令和6年度	8		honpen p.20	✓	auto:ai	2026-10-10	
+0458cebe2dcd0a91	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会の専門部会の設置数/令和7年度	8		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+5b45aa5f9f967dbe	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会の専門部会の設置数/令和8年度	8		honpen p.20	✓	auto:ai	2026-10-10	
+59af3b30850e8816	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会の専門部会の実施回数/令和6年度	30		honpen p.20	✓	auto:ai	2026-10-10	
+e1674a8f2768bdec	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会の専門部会の実施回数/令和7年度	30		honpen p.20	✓	auto:ai	2026-10-10	
+84419cb215189eb1	mokuhyo	34	table	（7）相談支援体制の充実・強化等	協議会の専門部会の実施回数/令和8年度	30		honpen p.20	✓	auto:ai	2026-10-10	
+735a3fc23fcc28a4	mokuhyo	38	table	（8）障害福祉サービス等の質を向上させるための取組に係る体制の構築	障害福祉サービス等に係る各種研修の参加人数/令和6年度	2		honpen p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+bb6c855f5cf44201	mokuhyo	38	table	（8）障害福祉サービス等の質を向上させるための取組に係る体制の構築	障害福祉サービス等に係る各種研修の参加人数/令和7年度	2		honpen p.21	✓	auto:ai	2026-10-10	
+ab1966bda36b8652	mokuhyo	38	table	（8）障害福祉サービス等の質を向上させるための取組に係る体制の構築	障害福祉サービス等に係る各種研修の参加人数/令和8年度	2		honpen p.21	✓	auto:pdftext	2026-10-10	
+8f4162df05d74ae9	service	6	table	訪問系サービスの見込み値	居宅介護（人／月）/令和6年度	55		honpen p.22	✓	auto:pdftext	2026-10-10	
+9e670c7bccda289b	service	6	table	訪問系サービスの見込み値	居宅介護（人／月）/令和7年度	56		honpen p.22	✓	auto:pdftext	2026-10-10	
+8bf23d7620fe9cc0	service	6	table	訪問系サービスの見込み値	居宅介護（人／月）/令和8年度	57		honpen p.22	✓	auto:pdftext	2026-10-10	
+5b5ad89a3d8a5d7a	service	6	table	訪問系サービスの見込み値	居宅介護（時間／月）/令和6年度	743		honpen p.22	✓	auto:pdftext	2026-10-10	
+c8169d6858753b88	service	6	table	訪問系サービスの見込み値	居宅介護（時間／月）/令和7年度	756		honpen p.22	✓	auto:pdftext	2026-10-10	
+9f8514f1120283e4	service	6	table	訪問系サービスの見込み値	居宅介護（時間／月）/令和8年度	770		honpen p.22	✓	auto:pdftext	2026-10-10	
+3532ab9807327a72	service	6	table	訪問系サービスの見込み値	重度訪問介護（人／月）/令和6年度	3		honpen p.22	✓	auto:pdftext	2026-10-10	
+bdc17742a19995cc	service	6	table	訪問系サービスの見込み値	重度訪問介護（人／月）/令和7年度	3		honpen p.22	✓	auto:pdftext	2026-10-10	
+5a52f8bed118c8ee	service	6	table	訪問系サービスの見込み値	重度訪問介護（人／月）/令和8年度	3		honpen p.22	✓	auto:pdftext	2026-10-10	
+f5802c954a72e30f	service	6	table	訪問系サービスの見込み値	重度訪問介護（時間／月）/令和6年度	18		honpen p.22	✓	auto:pdftext	2026-10-10	
+bbe3316463353a03	service	6	table	訪問系サービスの見込み値	重度訪問介護（時間／月）/令和7年度	18		honpen p.22	✓	auto:pdftext	2026-10-10	
+f488c0f7d60cf360	service	6	table	訪問系サービスの見込み値	重度訪問介護（時間／月）/令和8年度	18		honpen p.22	✓	auto:pdftext	2026-10-10	
+979799d6955a1924	service	6	table	訪問系サービスの見込み値	同行援護（人／月）/令和6年度	2		honpen p.22	✓	auto:pdftext	2026-10-10	
+c8e27d0dbd689b8b	service	6	table	訪問系サービスの見込み値	同行援護（人／月）/令和7年度	2		honpen p.22	✓	auto:pdftext	2026-10-10	
+27bc68dc62b4a1e5	service	6	table	訪問系サービスの見込み値	同行援護（人／月）/令和8年度	2		honpen p.22	✓	auto:pdftext	2026-10-10	
+7ad4176dc3dd5aeb	service	6	table	訪問系サービスの見込み値	同行援護（時間／月）/令和6年度	13		honpen p.22	✓	auto:pdftext	2026-10-10	
+4c22a26c99cef99e	service	6	table	訪問系サービスの見込み値	同行援護（時間／月）/令和7年度	13		honpen p.22	✓	auto:pdftext	2026-10-10	
+08b7c1b4d44ca300	service	6	table	訪問系サービスの見込み値	同行援護（時間／月）/令和8年度	13		honpen p.22	✓	auto:pdftext	2026-10-10	
+764f5c67aed01059	service	6	table	訪問系サービスの見込み値	行動援護（人／月）/令和6年度	17		honpen p.22	✓	auto:pdftext	2026-10-10	
+21bd2fcedef077e2	service	6	table	訪問系サービスの見込み値	行動援護（人／月）/令和7年度	18		honpen p.22	✓	auto:pdftext	2026-10-10	
+fb73899cec98fbf8	service	6	table	訪問系サービスの見込み値	行動援護（人／月）/令和8年度	20		honpen p.22	✓	auto:pdftext	2026-10-10	
+d0f2ce77a7fbae81	service	6	table	訪問系サービスの見込み値	行動援護（時間／月）/令和6年度	783		honpen p.22	✓	auto:ai	2026-10-10	
+400277bfe0c573d4	service	6	table	訪問系サービスの見込み値	行動援護（時間／月）/令和7年度	829		honpen p.22	✓	auto:ai	2026-10-10	
+a9c0c98a18ecb7dd	service	6	table	訪問系サービスの見込み値	行動援護（時間／月）/令和8年度	921		honpen p.22	✓	auto:ai	2026-10-10	
+fc97ff2234d52a5d	service	6	table	訪問系サービスの見込み値	重度障害者等包括支援（人／月）/令和6年度	0		honpen p.22	✓	auto:ai	2026-10-10	
+26583448d05f58fb	service	6	table	訪問系サービスの見込み値	重度障害者等包括支援（人／月）/令和7年度	0		honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+605aee02308539d8	service	6	table	訪問系サービスの見込み値	重度障害者等包括支援（人／月）/令和8年度	0		honpen p.22	✓	auto:ai	2026-10-10	
+d48f741ce06b1402	service	6	table	訪問系サービスの見込み値	重度障害者等包括支援（時間／月）/令和6年度	0		honpen p.22	✓	auto:ai	2026-10-10	
+90b1b2a4eb8ccd0b	service	6	table	訪問系サービスの見込み値	重度障害者等包括支援（時間／月）/令和7年度	0		honpen p.22	✓	auto:ai	2026-10-10	
+7ade004e985b24aa	service	6	table	訪問系サービスの見込み値	重度障害者等包括支援（時間／月）/令和8年度	0		honpen p.22	✓	auto:ai	2026-10-10	
+e5deee178cbeef14	service	6	table	訪問系サービスの見込み値	合計（人／月）/令和6年度	77		honpen p.22	✓	auto:ai	2026-10-10	
+c0263d191139dea2	service	6	table	訪問系サービスの見込み値	合計（人／月）/令和7年度	79		honpen p.22	✓	auto:ai	2026-10-10	
+f425595c781f20f1	service	6	table	訪問系サービスの見込み値	合計（人／月）/令和8年度	82		honpen p.22	✓	auto:ai	2026-10-10	
+f8fb2958ec42c7d7	service	6	table	訪問系サービスの見込み値	合計（時間／月）/令和6年度	1557		honpen p.22	✓	auto:ai	2026-10-10	
+72e3ba5778761cff	service	6	table	訪問系サービスの見込み値	合計（時間／月）/令和7年度	1616		honpen p.22	✓	auto:ai	2026-10-10	
+c0bab1768c24c934	service	6	table	訪問系サービスの見込み値	合計（時間／月）/令和8年度	1722		honpen p.22	✓	auto:ai	2026-10-10	
+d55457e700d9971b	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（人／月）/令和3年度実績	51		honpen p.7	✓	auto:ai	2026-10-10	
+574661ddc5337136	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（人／月）/令和4年度実績	53		honpen p.7	✓	auto:ai	2026-10-10	
+299be21bc892fc70	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（人／月）/令和5年度実績	53		honpen p.7	✓	auto:ai	2026-10-10	
+1821cdd310c62096	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（人／月）/令和3年度計画	45		honpen p.7	✓	auto:ai	2026-10-10	
+c234715529c1dd12	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（人／月）/令和4年度計画	45		honpen p.7	✓	auto:ai	2026-10-10	
+2dd9a1563780a36c	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（人／月）/令和5年度計画	46		honpen p.7	✓	auto:ai	2026-10-10	
+1155a93ac200a7e2	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（時間／月）/令和3年度実績	689		honpen p.7	✓	auto:ai	2026-10-10	
+4ec11056d691ece0	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（時間／月）/令和4年度実績	690		honpen p.7	✓	auto:ai	2026-10-10	
+014a8b3d0af582cf	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（時間／月）/令和5年度実績	730		honpen p.7	✓	auto:ai	2026-10-10	
+a1fcee32e58d03cf	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（時間／月）/令和3年度計画	550		honpen p.7	✓	auto:ai	2026-10-10	
+50878413f4f819d6	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（時間／月）/令和4年度計画	560		honpen p.7	✓	auto:ai	2026-10-10	
+c46689bc1eda509f	service	7	table	第6期の実績と計画値（令和3〜5年度）	居宅介護（時間／月）/令和5年度計画	570		honpen p.7	✓	auto:ai	2026-10-10	
+362407578e405c02	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（人／月）/令和3年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+c0da3ea095bfd8c8	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（人／月）/令和4年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+ff2a9f078dc99b64	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（人／月）/令和5年度実績	3		honpen p.7	✓	auto:ai	2026-10-10	
+c9f29e9f5c3516bc	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（人／月）/令和3年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+87b03d8a31e270fe	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（人／月）/令和4年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+0ffc97e65dabd8be	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（人／月）/令和5年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+049804b437b3a32a	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（時間／月）/令和3年度実績	2		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+7cc3ba22f05b26c0	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（時間／月）/令和4年度実績	2		honpen p.7	✓	auto:ai	2026-10-10	
+5b2f3974feecaf2d	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（時間／月）/令和5年度実績	18		honpen p.7	✓	auto:ai	2026-10-10	
+3f136d2832648c3a	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（時間／月）/令和3年度計画	15		honpen p.7	✓	auto:ai	2026-10-10	
+5fd662a0ad0b567b	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（時間／月）/令和4年度計画	15		honpen p.7	✓	auto:ai	2026-10-10	
+ba09a1b12f63de43	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度訪問介護（時間／月）/令和5年度計画	15		honpen p.7	✓	auto:ai	2026-10-10	
+7c90ab6967305d1b	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（人／月）/令和3年度実績	2		honpen p.7	✓	auto:ai	2026-10-10	
+04b542b6e11c7c5d	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（人／月）/令和4年度実績	2		honpen p.7	✓	auto:ai	2026-10-10	
+455c501eaf6dada2	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（人／月）/令和5年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+cf81cd1edff3af73	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（人／月）/令和3年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+0c6b5523ff6832b0	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（人／月）/令和4年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+bd35ff95be9d0dd1	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（人／月）/令和5年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+9d41fa629372d825	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（時間／月）/令和3年度実績	12		honpen p.7	✓	auto:ai	2026-10-10	
+5729e1fa4a146618	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（時間／月）/令和4年度実績	13		honpen p.7	✓	auto:ai	2026-10-10	
+72b3509fbc99efcd	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（時間／月）/令和5年度実績	12		honpen p.7	✓	auto:ai	2026-10-10	
+c9a4ec9da2ef269e	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（時間／月）/令和3年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+5328f2ef2a73c3c6	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（時間／月）/令和4年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+262d2126b318374d	service	7	table	第6期の実績と計画値（令和3〜5年度）	同行援護（時間／月）/令和5年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+faed455e5830abbf	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（人／月）/令和3年度実績	12		honpen p.7	✓	auto:ai	2026-10-10	
+c1597524ef4657d0	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（人／月）/令和4年度実績	14		honpen p.7	✓	auto:ai	2026-10-10	
+28b77c5295193e1a	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（人／月）/令和5年度実績	16		honpen p.7	✓	auto:ai	2026-10-10	
+79149a26c969df7a	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（人／月）/令和3年度計画	7		honpen p.7	✓	auto:ai	2026-10-10	
+3f2a6ee69b6fe877	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（人／月）/令和4年度計画	7		honpen p.7	✓	auto:ai	2026-10-10	
+b1551bec13bcaae8	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（人／月）/令和5年度計画	8		honpen p.7	✓	auto:ai	2026-10-10	
+1a47600653166f9c	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（時間／月）/令和3年度実績	457		honpen p.7	✓	auto:ai	2026-10-10	
+ae3326bffdf43e09	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（時間／月）/令和4年度実績	590		honpen p.7	✓	auto:ai	2026-10-10	
+d7c233a995d141a3	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（時間／月）/令和5年度実績	737		honpen p.7	✓	auto:ai	2026-10-10	
+721e1cabdad89962	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（時間／月）/令和3年度計画	360		honpen p.7	✓	auto:ai	2026-10-10	
+5e89ceb000854765	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（時間／月）/令和4年度計画	360		honpen p.7	✓	auto:ai	2026-10-10	
+afca81ddbbe7a3e9	service	7	table	第6期の実績と計画値（令和3〜5年度）	行動援護（時間／月）/令和5年度計画	370		honpen p.7	✓	auto:ai	2026-10-10	
+d9521368582b5206	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（人／月）/令和3年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+5b31c1f2a514e8b8	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（人／月）/令和4年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+effce9fac8ec5dde	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（人／月）/令和5年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+7fb73901178a3351	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（人／月）/令和3年度計画	0		honpen p.7	✓	auto:ai	2026-10-10	
+0aba465dac8c3e9d	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（人／月）/令和4年度計画	0		honpen p.7	✓	auto:ai	2026-10-10	
+d7f9bb05570682b4	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（人／月）/令和5年度計画	0		honpen p.7	✓	auto:ai	2026-10-10	
+e39dc9b582f8b82b	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（時間／月）/令和3年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+ca8237827290d63b	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（時間／月）/令和4年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+41bff2372241d9fa	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（時間／月）/令和5年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+b402df36fcf30e02	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（時間／月）/令和3年度計画	0		honpen p.7	✓	auto:ai	2026-10-10	
+41d2b3a0e8420817	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（時間／月）/令和4年度計画	0		honpen p.7	✓	auto:ai	2026-10-10	
+ce8867519173908d	service	7	table	第6期の実績と計画値（令和3〜5年度）	重度障害者等包括支援（時間／月）/令和5年度計画	0		honpen p.7	✓	auto:ai	2026-10-10	
+92caa93c4c83dabf	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（人／月）/令和3年度実績	66		honpen p.7	✓	auto:ai	2026-10-10	
+1d00114572a4421b	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（人／月）/令和4年度実績	70		honpen p.7	✓	auto:ai	2026-10-10	
+0508304df864f3ad	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（人／月）/令和5年度実績	73		honpen p.7	✓	auto:ai	2026-10-10	
+1ba0789612073ae7	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（人／月）/令和3年度計画	55		honpen p.7	✓	auto:ai	2026-10-10	
+1088a27ef8553af7	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（人／月）/令和4年度計画	60		honpen p.7	✓	auto:ai	2026-10-10	
+c8471f383510edc2	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（人／月）/令和5年度計画	65		honpen p.7	✓	auto:ai	2026-10-10	
+3eb5fb5960836929	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（時間／月）/令和3年度実績	1160		honpen p.7	✓	auto:ai	2026-10-10	
+8f00b49e964a74f4	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（時間／月）/令和4年度実績	1295		honpen p.7	✓	auto:ai	2026-10-10	
+4d1b69f3b12bfcbd	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（時間／月）/令和5年度実績	1497		honpen p.7	✓	auto:ai	2026-10-10	
+94bd2b2bdbc24ea2	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（時間／月）/令和3年度計画	927		honpen p.7	✓	auto:ai	2026-10-10	
+55a1dbfdf006cbe3	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（時間／月）/令和4年度計画	937		honpen p.7	✓	auto:ai	2026-10-10	
+4f85aed47cbddb3f	service	7	table	第6期の実績と計画値（令和3〜5年度）	合計（時間／月）/令和5年度計画	957		honpen p.7	✓	auto:ai	2026-10-10	
+5af8094103ec2c57	service	12	table	日中活動系サービスの見込み値	生活介護（人／月）/令和6年度	49		honpen p.24	✓	auto:pdftext	2026-10-10	
+ee0d2c4ff75da1f7	service	12	table	日中活動系サービスの見込み値	生活介護（人／月）/令和7年度	49		honpen p.24	✓	auto:pdftext	2026-10-10	
+f5af765b864bd28a	service	12	table	日中活動系サービスの見込み値	生活介護（人／月）/令和8年度	50		honpen p.24	✓	auto:pdftext	2026-10-10	
+26ab7fe99517b30f	service	12	table	日中活動系サービスの見込み値	生活介護（人日／月）/令和6年度	980		honpen p.24	✓	auto:pdftext	2026-10-10	
+67bb952932f883ed	service	12	table	日中活動系サービスの見込み値	生活介護（人日／月）/令和7年度	980		honpen p.24	✓	auto:pdftext	2026-10-10	
+5eee6b49f56b963f	service	12	table	日中活動系サービスの見込み値	生活介護（人日／月）/令和8年度	1000		honpen p.24	✓	auto:pdftext	2026-10-10	
+39718bcd53973c89	service	12	table	日中活動系サービスの見込み値	生活介護・うち、強度行動障がい者（人／月）/令和6年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+d363fd8f78bfda5b	service	12	table	日中活動系サービスの見込み値	生活介護・うち、強度行動障がい者（人／月）/令和7年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+8a38834f9f530e92	service	12	table	日中活動系サービスの見込み値	生活介護・うち、強度行動障がい者（人／月）/令和8年度	10		honpen p.24	✓	auto:pdftext	2026-10-10	
+b026de3945e49c30	service	12	table	日中活動系サービスの見込み値	生活介護・うち、高次脳機能障がい者（人／月）/令和6年度	1		honpen p.24	✓	auto:ai	2026-10-10	
+59a607db98d715e0	service	12	table	日中活動系サービスの見込み値	生活介護・うち、高次脳機能障がい者（人／月）/令和7年度	1		honpen p.24	✓	auto:ai	2026-10-10	
+81acab53de560a9a	service	12	table	日中活動系サービスの見込み値	生活介護・うち、高次脳機能障がい者（人／月）/令和8年度	1		honpen p.24	✓	auto:pdftext	2026-10-10	
+9063ffbada252573	service	12	table	日中活動系サービスの見込み値	生活介護・うち、医療的ケアを必要とする人（人／月）/令和6年度	3		honpen p.24	✓	auto:pdftext	2026-10-10	
+d636fca4d7910a83	service	12	table	日中活動系サービスの見込み値	生活介護・うち、医療的ケアを必要とする人（人／月）/令和7年度	3		honpen p.24	✓	auto:pdftext	2026-10-10	
+1ae28f22bdbf3763	service	12	table	日中活動系サービスの見込み値	生活介護・うち、医療的ケアを必要とする人（人／月）/令和8年度	4		honpen p.24	✓	auto:pdftext	2026-10-10	
+bb3d6ea3b6b8a34d	service	12	table	日中活動系サービスの見込み値	自立訓練（機能訓練）（人／月）/令和6年度	1		honpen p.24	✓	auto:ai	2026-10-10	
+881ab1da4d840939	service	12	table	日中活動系サービスの見込み値	自立訓練（機能訓練）（人／月）/令和7年度	1		honpen p.24	✓	auto:ai	2026-10-10	
+b29ccae4db3fc222	service	12	table	日中活動系サービスの見込み値	自立訓練（機能訓練）（人／月）/令和8年度	1		honpen p.24	✓	auto:pdftext	2026-10-10	
+c2fcd230f7c815ea	service	12	table	日中活動系サービスの見込み値	自立訓練（機能訓練）（人日／月）/令和6年度	20		honpen p.24	✓	auto:pdftext	2026-10-10	
+3b12930a4f0b25a7	service	12	table	日中活動系サービスの見込み値	自立訓練（機能訓練）（人日／月）/令和7年度	20		honpen p.24	✓	auto:pdftext	2026-10-10	
+7ae9b0790f5f44b7	service	12	table	日中活動系サービスの見込み値	自立訓練（機能訓練）（人日／月）/令和8年度	20		honpen p.24	✓	auto:pdftext	2026-10-10	
+81beef329806cab3	service	12	table	日中活動系サービスの見込み値	自立訓練（生活訓練）（人／月）/令和6年度	3		honpen p.24	✓	auto:ai	2026-10-10	
+160f35a7944c60a2	service	12	table	日中活動系サービスの見込み値	自立訓練（生活訓練）（人／月）/令和7年度	3		honpen p.24	✓	auto:ai	2026-10-10	
+d906b2bb2d6a027d	service	12	table	日中活動系サービスの見込み値	自立訓練（生活訓練）（人／月）/令和8年度	3		honpen p.24	✓	auto:ai	2026-10-10	
+8a624e240f767dcd	service	12	table	日中活動系サービスの見込み値	自立訓練（生活訓練）（人日／月）/令和6年度	20		honpen p.24	✓	auto:pdftext	2026-10-10	
+611d657406199f55	service	12	table	日中活動系サービスの見込み値	自立訓練（生活訓練）（人日／月）/令和7年度	20		honpen p.24	✓	auto:pdftext	2026-10-10	
+1d1e8247ec4dc2ee	service	12	table	日中活動系サービスの見込み値	自立訓練（生活訓練）（人日／月）/令和8年度	20		honpen p.24	✓	auto:pdftext	2026-10-10	
+4f514f80d97ac094	service	12	table	日中活動系サービスの見込み値	就労移行支援（人／月）/令和6年度	7		honpen p.24	✓	auto:ai	2026-10-10	
+baa9bba50d6dc9c8	service	12	table	日中活動系サービスの見込み値	就労移行支援（人／月）/令和7年度	7		honpen p.24	✓	auto:ai	2026-10-10	
+fa36899cd636bf74	service	12	table	日中活動系サービスの見込み値	就労移行支援（人／月）/令和8年度	7		honpen p.24	✓	auto:ai	2026-10-10	
+5272f16840d8bd3a	service	12	table	日中活動系サービスの見込み値	就労移行支援（人日／月）/令和6年度	140		honpen p.24	✓	auto:ai	2026-10-10	
+d0fe4787446b0c0c	service	12	table	日中活動系サービスの見込み値	就労移行支援（人日／月）/令和7年度	140		honpen p.24	✓	auto:ai	2026-10-10	
+2f33927ec608c188	service	12	table	日中活動系サービスの見込み値	就労移行支援（人日／月）/令和8年度	140		honpen p.24	✓	auto:ai	2026-10-10	
+2fe6f017901b1552	service	12	table	日中活動系サービスの見込み値	就労選択支援（人／月）/令和7年度	1		honpen p.24	✓	auto:pdftext	2026-10-10	
+fed123065ba8c5dd	service	12	table	日中活動系サービスの見込み値	就労選択支援（人／月）/令和8年度	1		honpen p.24	✓	auto:pdftext	2026-10-10	
+bd0da3036df6ba4e	service	12	table	日中活動系サービスの見込み値	就労継続支援（A型）（人／月）/令和6年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+a1cf96959fad59d0	service	12	table	日中活動系サービスの見込み値	就労継続支援（A型）（人／月）/令和7年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+6dbfd432aeb35c93	service	12	table	日中活動系サービスの見込み値	就労継続支援（A型）（人／月）/令和8年度	10		honpen p.24	✓	auto:pdftext	2026-10-10	
+2a98e03b5c82e171	service	12	table	日中活動系サービスの見込み値	就労継続支援（A型）（人日／月）/令和6年度	200		honpen p.24	✓	auto:ai	2026-10-10	
+e967948fd0a30e79	service	12	table	日中活動系サービスの見込み値	就労継続支援（A型）（人日／月）/令和7年度	200		honpen p.24	✓	auto:ai	2026-10-10	
+807b28f60bde24bf	service	12	table	日中活動系サービスの見込み値	就労継続支援（A型）（人日／月）/令和8年度	200		honpen p.24	✓	auto:ai	2026-10-10	
+b321e1b3e85a3dc8	service	12	table	日中活動系サービスの見込み値	就労継続支援（B型）（人／月）/令和6年度	95		honpen p.24	✓	auto:ai	2026-10-10	
+c8e6563e101709ce	service	12	table	日中活動系サービスの見込み値	就労継続支援（B型）（人／月）/令和7年度	97		honpen p.24	✓	auto:ai	2026-10-10	
+db106a6b09bb0523	service	12	table	日中活動系サービスの見込み値	就労継続支援（B型）（人／月）/令和8年度	99		honpen p.24	✓	auto:ai	2026-10-10	
+edb964bb345f5b12	service	12	table	日中活動系サービスの見込み値	就労継続支援（B型）（人日／月）/令和6年度	1630		honpen p.24	✓	auto:ai	2026-10-10	
+20b7973dbe32858f	service	12	table	日中活動系サービスの見込み値	就労継続支援（B型）（人日／月）/令和7年度	1660		honpen p.24	✓	auto:ai	2026-10-10	
+94685edb5c58d9ed	service	12	table	日中活動系サービスの見込み値	就労継続支援（B型）（人日／月）/令和8年度	1695		honpen p.24	✓	auto:ai	2026-10-10	
+070a2a8b0a0bb125	service	12	table	日中活動系サービスの見込み値	就労定着支援事業（人／月）/令和6年度	3		honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+08c3472489fa9202	service	12	table	日中活動系サービスの見込み値	就労定着支援事業（人／月）/令和7年度	3		honpen p.24	✓	auto:ai	2026-10-10	
+ce3383ffa920ce84	service	12	table	日中活動系サービスの見込み値	就労定着支援事業（人／月）/令和8年度	3		honpen p.24	✓	auto:ai	2026-10-10	
+841ba72511b04d25	service	12	table	日中活動系サービスの見込み値	療養介護（人／月）/令和6年度	8		honpen p.24	✓	auto:ai	2026-10-10	
+e8f54cc05bc637ae	service	12	table	日中活動系サービスの見込み値	療養介護（人／月）/令和7年度	8		honpen p.24	✓	auto:ai	2026-10-10	
+10025e64f08962ac	service	12	table	日中活動系サービスの見込み値	療養介護（人／月）/令和8年度	8		honpen p.24	✓	auto:ai	2026-10-10	
+138645f76f201117	service	12	table	日中活動系サービスの見込み値	短期入所（福祉型）（人／月）/令和6年度	5		honpen p.24	✓	auto:ai	2026-10-10	
+8ab4ae5ad293a662	service	12	table	日中活動系サービスの見込み値	短期入所（福祉型）（人／月）/令和7年度	7		honpen p.24	✓	auto:ai	2026-10-10	
+e05f6590290bb8f1	service	12	table	日中活動系サービスの見込み値	短期入所（福祉型）（人／月）/令和8年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+3daf82eeb3ce477f	service	12	table	日中活動系サービスの見込み値	短期入所（福祉型）（人日／月）/令和6年度	28		honpen p.24	✓	auto:ai	2026-10-10	
+612c1569e0395a31	service	12	table	日中活動系サービスの見込み値	短期入所（福祉型）（人日／月）/令和7年度	39		honpen p.24	✓	auto:ai	2026-10-10	
+8b05e6248b09eaf5	service	12	table	日中活動系サービスの見込み値	短期入所（福祉型）（人日／月）/令和8年度	55		honpen p.24	✓	auto:ai	2026-10-10	
+350c0bc6f0ec6741	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）（人／月）/令和6年度	2		honpen p.24	✓	auto:ai	2026-10-10	
+626829ec40637618	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）（人／月）/令和7年度	2		honpen p.24	✓	auto:ai	2026-10-10	
+f61c699427fb71be	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）（人／月）/令和8年度	2		honpen p.24	✓	auto:ai	2026-10-10	
+69ea0a6b1a97c470	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）（人日／月）/令和6年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+919278723a40c52c	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）（人日／月）/令和7年度	10		honpen p.24	✓	auto:ai	2026-10-10	
+f851eff4bf2b7cac	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）（人日／月）/令和8年度	10		honpen p.24	✓	auto:pdftext	2026-10-10	
+6d82038b92957305	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、強度行動障がい者（人／月）/令和6年度	0		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+b26b1e201d265f91	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、強度行動障がい者（人／月）/令和7年度	0		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+60cb21213dc46e3f	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、強度行動障がい者（人／月）/令和8年度	0		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+7ebabfd8f8448952	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、高次脳機能障がい者（人／月）/令和6年度	0		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+5cc5ab20170ce946	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、高次脳機能障がい者（人／月）/令和7年度	0		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+f8783b2addcc8736	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、高次脳機能障がい者（人／月）/令和8年度	0		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+cad40613a118ee82	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、医療的ケアを必要とする人（人／月）/令和6年度	2		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+3d03ec59530dde03	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、医療的ケアを必要とする人（人／月）/令和7年度	2		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+ec98204aa9332a2f	service	12	table	日中活動系サービスの見込み値	短期入所（医療型）・うち、医療的ケアを必要とする人（人／月）/令和8年度	2		honpen p.24				要人確認:H1 A=一致/高 B=一致/中
+009a3ca3116bd207	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人／月）/令和3年度実績	48		honpen p.7	✓	auto:ai	2026-10-10	
+71f6acf52ebd558a	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人／月）/令和4年度実績	47		honpen p.7	✓	auto:ai	2026-10-10	
+f49234b6e912c815	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人／月）/令和5年度実績	46		honpen p.7	✓	auto:ai	2026-10-10	
+cf19000848fc5334	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人／月）/令和3年度計画	45		honpen p.7	✓	auto:ai	2026-10-10	
+fcd0a2e63936c9c1	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人／月）/令和4年度計画	47		honpen p.7	✓	auto:ai	2026-10-10	
+26c6b74b4a2f1c29	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人／月）/令和5年度計画	49		honpen p.7	✓	auto:ai	2026-10-10	
+9c1f28070214d8c0	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人日／月）/令和3年度実績	861		honpen p.7	✓	auto:ai	2026-10-10	
+751c9970a44ff8d9	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人日／月）/令和4年度実績	845		honpen p.7	✓	auto:ai	2026-10-10	
+e6800a9078dea351	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人日／月）/令和5年度実績	860		honpen p.7	✓	auto:ai	2026-10-10	
+362c088322489436	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人日／月）/令和3年度計画	900		honpen p.7	✓	auto:ai	2026-10-10	
+4be102779a6ae384	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人日／月）/令和4年度計画	940		honpen p.7	✓	auto:ai	2026-10-10	
+d779c013a49dba83	service	13	table	第6期の実績と計画値（令和3〜5年度）	生活介護（人日／月）/令和5年度計画	980		honpen p.7	✓	auto:ai	2026-10-10	
+3599182c59732852	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人／月）/令和3年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+301781453a885d22	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人／月）/令和4年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+6302a573dea0fa66	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人／月）/令和5年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+f96b367eb4cdce25	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人／月）/令和3年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+85b90438866a5446	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人／月）/令和4年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+a2e577e5f53e082b	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人／月）/令和5年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+858b57d1caf02909	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人日／月）/令和3年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+0c59d4743fa18b40	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人日／月）/令和4年度実績	0		honpen p.7	✓	auto:ai	2026-10-10	
+aca5b2c1e4e90622	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人日／月）/令和5年度実績	21		honpen p.7	✓	auto:ai	2026-10-10	
+bc2742702b1c4552	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人日／月）/令和3年度計画	20		honpen p.7	✓	auto:ai	2026-10-10	
+b2c876b982647ced	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人日／月）/令和4年度計画	20		honpen p.7	✓	auto:ai	2026-10-10	
+05300d6bd6fe84e9	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（機能訓練）（人日／月）/令和5年度計画	20		honpen p.7	✓	auto:ai	2026-10-10	
+6f3516ba33c1d232	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人／月）/令和3年度実績	2		honpen p.7	✓	auto:ai	2026-10-10	
+be99e930fc34c6c6	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人／月）/令和4年度実績	3		honpen p.7	✓	auto:ai	2026-10-10	
+c3d427da93990fe8	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人／月）/令和5年度実績	3		honpen p.7	✓	auto:ai	2026-10-10	
+343ace2ab125ecab	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人／月）/令和3年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+89579d7d8c7ea70e	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人／月）/令和4年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+eeac2b063e958426	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人／月）/令和5年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+763b749375d06e1f	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人日／月）/令和3年度実績	33		honpen p.7	✓	auto:ai	2026-10-10	
+18b674d579b8053e	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人日／月）/令和4年度実績	46		honpen p.7	✓	auto:ai	2026-10-10	
+21f32705e49c49a2	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人日／月）/令和5年度実績	53		honpen p.7	✓	auto:ai	2026-10-10	
+b127ddd2a38ec434	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人日／月）/令和3年度計画	20		honpen p.7	✓	auto:ai	2026-10-10	
+252feb6de60fe30e	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人日／月）/令和4年度計画	20		honpen p.7	✓	auto:ai	2026-10-10	
+0dfcdc93d864b667	service	13	table	第6期の実績と計画値（令和3〜5年度）	自立訓練（生活訓練）（人日／月）/令和5年度計画	20		honpen p.7	✓	auto:ai	2026-10-10	
+aa8136e927245a4b	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人／月）/令和3年度実績	3		honpen p.7	✓	auto:ai	2026-10-10	
+99ff9595ea763bec	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人／月）/令和4年度実績	6		honpen p.7	✓	auto:ai	2026-10-10	
+e343fac4c0bfa15e	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人／月）/令和5年度実績	7		honpen p.7	✓	auto:ai	2026-10-10	
+9d6dabc300783e3b	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人／月）/令和3年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+60b8998553b0f2ed	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人／月）/令和4年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	
+03ed973df3f840c8	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人／月）/令和5年度計画	2		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+8378154db9d9fc92	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人日／月）/令和3年度実績	40		honpen p.7	✓	auto:ai	2026-10-10	
+8ed7dd14b2836c09	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人日／月）/令和4年度実績	99		honpen p.7	✓	auto:ai	2026-10-10	
+65fd330da29a75fb	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人日／月）/令和5年度実績	116		honpen p.7	✓	auto:ai	2026-10-10	
+ecb278f614bd8395	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人日／月）/令和3年度計画	30		honpen p.7	✓	auto:ai	2026-10-10	
+49f332ed502efdcd	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人日／月）/令和4年度計画	30		honpen p.7	✓	auto:ai	2026-10-10	
+7b4a9f16b49cf3cc	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労移行支援（人日／月）/令和5年度計画	30		honpen p.7	✓	auto:ai	2026-10-10	
+8f494942c5cf724e	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人／月）/令和3年度実績	9		honpen p.7	✓	auto:ai	2026-10-10	
+8846616c63e09ec7	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人／月）/令和4年度実績	9		honpen p.7	✓	auto:ai	2026-10-10	
+9f509075bd56bfed	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人／月）/令和5年度実績	10		honpen p.7	✓	auto:ai	2026-10-10	
+4d19bd6af30361db	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人／月）/令和3年度計画	7		honpen p.7	✓	auto:ai	2026-10-10	
+9a8f4506635eb76a	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人／月）/令和4年度計画	7		honpen p.7	✓	auto:ai	2026-10-10	
+c8834a9c992bf656	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人／月）/令和5年度計画	7		honpen p.7	✓	auto:ai	2026-10-10	
+3005395ddb26fd2a	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人日／月）/令和3年度実績	179		honpen p.7	✓	auto:ai	2026-10-10	
+1528c07ed6d0fa00	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人日／月）/令和4年度実績	182		honpen p.7	✓	auto:ai	2026-10-10	
+fd0c4f09945496e8	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人日／月）/令和5年度実績	196		honpen p.7	✓	auto:ai	2026-10-10	
+572a6a0a221f1fe2	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人日／月）/令和3年度計画	145		honpen p.7	✓	auto:ai	2026-10-10	
+ffc9b4cee5933e64	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人日／月）/令和4年度計画	145		honpen p.7	✓	auto:ai	2026-10-10	
+ead9ecb3943c35ea	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（A型）（人日／月）/令和5年度計画	145		honpen p.7	✓	auto:ai	2026-10-10	
+a1e7078df65d4576	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人／月）/令和3年度実績	95		honpen p.7	✓	auto:ai	2026-10-10	
+232627a8dae52100	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人／月）/令和4年度実績	92		honpen p.7	✓	auto:ai	2026-10-10	
+9ef9d14ef568ad11	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人／月）/令和5年度実績	90		honpen p.7	✓	auto:ai	2026-10-10	
+fc3327ba5b162f30	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人／月）/令和3年度計画	95		honpen p.7	✓	auto:ai	2026-10-10	
+e69fd31581ccdf17	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人／月）/令和4年度計画	97		honpen p.7	✓	auto:ai	2026-10-10	
+1db8011574879827	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人／月）/令和5年度計画	99		honpen p.7	✓	auto:ai	2026-10-10	
+bfcc4b141d5e8a08	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人日／月）/令和3年度実績	1585		honpen p.7	✓	auto:ai	2026-10-10	
+4d31ce97365407d0	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人日／月）/令和4年度実績	1580		honpen p.7	✓	auto:ai	2026-10-10	
+0420b25a20756697	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人日／月）/令和5年度実績	1565		honpen p.7	✓	auto:ai	2026-10-10	
+481d43462d623557	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人日／月）/令和3年度計画	1630		honpen p.7	✓	auto:ai	2026-10-10	
+6b74ae6ad2261129	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人日／月）/令和4年度計画	1660		honpen p.7	✓	auto:ai	2026-10-10	
+6b30fe23a936c34e	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労継続支援（B型）（人日／月）/令和5年度計画	1695		honpen p.7	✓	auto:ai	2026-10-10	
+53a9b1a14e8fd6a8	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労定着支援事業（人／月）/令和3年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+cbb4d6382e5b82cb	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労定着支援事業（人／月）/令和4年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+61adf76668d5729e	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労定着支援事業（人／月）/令和5年度実績	1		honpen p.7	✓	auto:ai	2026-10-10	
+f9108a1130c80a37	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労定着支援事業（人／月）/令和3年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+56602b31d5642374	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労定着支援事業（人／月）/令和4年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+73e13c61b88d3ad5	service	13	table	第6期の実績と計画値（令和3〜5年度）	就労定着支援事業（人／月）/令和5年度計画	1		honpen p.7	✓	auto:ai	2026-10-10	
+4543fbc501c2c1dd	service	13	table	第6期の実績と計画値（令和3〜5年度）	療養介護（人／月）/令和3年度実績	6		honpen p.7	✓	auto:ai	2026-10-10	
+186e53eace62e1eb	service	13	table	第6期の実績と計画値（令和3〜5年度）	療養介護（人／月）/令和4年度実績	9		honpen p.7	✓	auto:ai	2026-10-10	
+422434ccbd88e7d5	service	13	table	第6期の実績と計画値（令和3〜5年度）	療養介護（人／月）/令和5年度実績	8		honpen p.7	✓	auto:ai	2026-10-10	
+e078b5c6aaf151a3	service	13	table	第6期の実績と計画値（令和3〜5年度）	療養介護（人／月）/令和3年度計画	6		honpen p.7	✓	auto:ai	2026-10-10	
+f6845ecb121b5024	service	13	table	第6期の実績と計画値（令和3〜5年度）	療養介護（人／月）/令和4年度計画	6		honpen p.7	✓	auto:ai	2026-10-10	
+e8509c92787258ab	service	13	table	第6期の実績と計画値（令和3〜5年度）	療養介護（人／月）/令和5年度計画	6		honpen p.7	✓	auto:ai	2026-10-10	
+c35f907ce65783ea	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人／月）/令和3年度実績	1		honpen p.8	✓	auto:ai	2026-10-10	
+009a43d9539d5d71	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人／月）/令和4年度実績	2		honpen p.8				要人確認:H1 A=一致/中 B=一致/中
+5a1e027a169a1775	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人／月）/令和5年度実績	3		honpen p.8	✓	auto:ai	2026-10-10	
+a54b021b602d1e5a	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人／月）/令和3年度計画	10		honpen p.8	✓	auto:ai	2026-10-10	
+efd52b827aba3092	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人／月）/令和4年度計画	10		honpen p.8	✓	auto:ai	2026-10-10	
+5f221ccaadcc435c	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人／月）/令和5年度計画	10		honpen p.8	✓	auto:ai	2026-10-10	
+e55d0922af29b663	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人日／月）/令和3年度実績	8		honpen p.8	✓	auto:ai	2026-10-10	
+c14e5b6e74e313b5	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人日／月）/令和4年度実績	4		honpen p.8				要人確認:H1 A=一致/中 B=一致/中
+3a709519ef94d0f8	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人日／月）/令和5年度実績	8		honpen p.8	✓	auto:ai	2026-10-10	
+1f9f35fb6efb6d1d	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人日／月）/令和3年度計画	55		honpen p.8	✓	auto:ai	2026-10-10	
+2afcf1b473cd012a	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人日／月）/令和4年度計画	55		honpen p.8	✓	auto:ai	2026-10-10	
+fcee74c33a2d73f2	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（福祉型）（人日／月）/令和5年度計画	55		honpen p.8	✓	auto:ai	2026-10-10	
+97514a7fa38a99ee	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人／月）/令和3年度実績	2		honpen p.8	✓	auto:ai	2026-10-10	
+0746749f06880303	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人／月）/令和4年度実績	2		honpen p.8	✓	auto:ai	2026-10-10	
+57898c66949f510d	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人／月）/令和5年度実績	2		honpen p.8	✓	auto:ai	2026-10-10	
+0defccad5aea4cd6	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人／月）/令和3年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+8ca316b73c25ec55	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人／月）/令和4年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+ae7c6ba0739dc9e2	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人／月）/令和5年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+8c3f86d94e7fa8a1	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人日／月）/令和3年度実績	7		honpen p.8	✓	auto:ai	2026-10-10	
+81541822240caa03	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人日／月）/令和4年度実績	9		honpen p.8	✓	auto:ai	2026-10-10	
+5f0014a682bb757c	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人日／月）/令和5年度実績	10		honpen p.8	✓	auto:ai	2026-10-10	
+03fe7fd631400c98	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人日／月）/令和3年度計画	4		honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+bc070a07ac373cc8	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人日／月）/令和4年度計画	4		honpen p.8	✓	auto:ai	2026-10-10	
+e9ceda04e9095bcd	service	14	table	第6期の実績と計画値（令和3〜5年度）	短期入所（医療型）（人日／月）/令和5年度計画	4		honpen p.8	✓	auto:ai	2026-10-10	
+0e0510a613a72ddc	service	19	table	居住系サービスの見込み値	共同生活援助（人／月）/令和6年度	44		honpen p.27	✓	auto:ai	2026-10-10	
+3a4d8a1fc0bd9461	service	19	table	居住系サービスの見込み値	共同生活援助（人／月）/令和7年度	46		honpen p.27	✓	auto:ai	2026-10-10	
+f972375118f5975f	service	19	table	居住系サービスの見込み値	共同生活援助（人／月）/令和8年度	51		honpen p.27	✓	auto:pdftext	2026-10-10	
+3550386bddb78ef9	service	19	table	居住系サービスの見込み値	共同生活援助（定員）/令和6年度	46		honpen p.27	✓	auto:ai	2026-10-10	
+8628629c21387de4	service	19	table	居住系サービスの見込み値	共同生活援助（定員）/令和7年度	46		honpen p.27	✓	auto:ai	2026-10-10	
+ccf59ad5a7361524	service	19	table	居住系サービスの見込み値	共同生活援助（定員）/令和8年度	51		honpen p.27	✓	auto:pdftext	2026-10-10	
+fd601229dfa7e418	service	19	table	居住系サービスの見込み値	共同生活援助・うち、強度行動障がい者（人／月）/令和6年度	4		honpen p.27	✓	auto:ai	2026-10-10	
+926a65ad38806026	service	19	table	居住系サービスの見込み値	共同生活援助・うち、強度行動障がい者（人／月）/令和7年度	4		honpen p.27	✓	auto:ai	2026-10-10	
+8385958450601480	service	19	table	居住系サービスの見込み値	共同生活援助・うち、強度行動障がい者（人／月）/令和8年度	4		honpen p.27	✓	auto:pdftext	2026-10-10	
+37174ec9adb6d02d	service	19	table	居住系サービスの見込み値	共同生活援助・うち、高次脳機能障がい者（人／月）/令和6年度	1		honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+e1bebc9bec9e54c5	service	19	table	居住系サービスの見込み値	共同生活援助・うち、高次脳機能障がい者（人／月）/令和7年度	1		honpen p.27	✓	auto:ai	2026-10-10	
+68d91b5d7f6ea1e0	service	19	table	居住系サービスの見込み値	共同生活援助・うち、高次脳機能障がい者（人／月）/令和8年度	1		honpen p.27	✓	auto:pdftext	2026-10-10	
+3c3e751507e9f053	service	19	table	居住系サービスの見込み値	共同生活援助・うち、医療的ケアを必要とする人（人／月）/令和6年度	0		honpen p.27	✓	auto:pdftext	2026-10-10	
+b709e1327da3220a	service	19	table	居住系サービスの見込み値	共同生活援助・うち、医療的ケアを必要とする人（人／月）/令和7年度	0		honpen p.27	✓	auto:pdftext	2026-10-10	
+b1f81d7f40ce0ef7	service	19	table	居住系サービスの見込み値	共同生活援助・うち、医療的ケアを必要とする人（人／月）/令和8年度	0		honpen p.27	✓	auto:pdftext	2026-10-10	
+c296e9cf24fff5c0	service	19	table	居住系サービスの見込み値	施設入所支援（人／月）/令和6年度	14		honpen p.27	✓	auto:ai	2026-10-10	
+de4de985c5946d2e	service	19	table	居住系サービスの見込み値	施設入所支援（人／月）/令和7年度	14		honpen p.27	✓	auto:ai	2026-10-10	
+43dc53cc2f27bba3	service	19	table	居住系サービスの見込み値	施設入所支援（人／月）/令和8年度	14		honpen p.27	✓	auto:pdftext	2026-10-10	
+7fa995708dae6b1f	service	19	table	居住系サービスの見込み値	自立生活援助（人／月）/令和6年度	1		honpen p.27	✓	auto:ai	2026-10-10	
+bf1ea0c6902fff61	service	19	table	居住系サービスの見込み値	自立生活援助（人／月）/令和7年度	1		honpen p.27	✓	auto:ai	2026-10-10	
+c518f671748b711c	service	19	table	居住系サービスの見込み値	自立生活援助（人／月）/令和8年度	1		honpen p.27	✓	auto:pdftext	2026-10-10	
+4f9dd1355b4df20e	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（人／月）/令和3年度実績	39		honpen p.8	✓	auto:ai	2026-10-10	
+d880123479c8685e	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（人／月）/令和4年度実績	40		honpen p.8	✓	auto:ai	2026-10-10	
+d6c9d68c216cdb24	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（人／月）/令和5年度実績	42		honpen p.8	✓	auto:ai	2026-10-10	
+0a67a7b016dfcd81	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（人／月）/令和3年度計画	44		honpen p.8	✓	auto:ai	2026-10-10	
+bb56de78d9ce24cb	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（人／月）/令和4年度計画	51		honpen p.8	✓	auto:ai	2026-10-10	
+cc08da30d4e19605	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（人／月）/令和5年度計画	51		honpen p.8	✓	auto:ai	2026-10-10	
+1dcfc34bc1f2bd56	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（定員）/令和3年度実績	41		honpen p.8	✓	auto:ai	2026-10-10	
+c758f88c16df42c4	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（定員）/令和4年度実績	46		honpen p.8	✓	auto:ai	2026-10-10	
+d00c36bf0f26916c	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（定員）/令和5年度実績	46		honpen p.8	✓	auto:ai	2026-10-10	
+a1dfcbbe91d0b876	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（定員）/令和3年度計画	32		honpen p.8	✓	auto:ai	2026-10-10	
+aecc0dae72eaddee	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（定員）/令和4年度計画	39		honpen p.8	✓	auto:ai	2026-10-10	
+62606624a5a783bc	service	20	table	第6期の実績と計画値（令和3〜5年度）	共同生活援助（定員）/令和5年度計画	39		honpen p.8	✓	auto:ai	2026-10-10	
+4d5a59c1a93fb472	service	20	table	第6期の実績と計画値（令和3〜5年度）	施設入所支援（人／月）/令和3年度実績	14		honpen p.8	✓	auto:ai	2026-10-10	
+1fbfede2f5a2fefb	service	20	table	第6期の実績と計画値（令和3〜5年度）	施設入所支援（人／月）/令和4年度実績	14		honpen p.8	✓	auto:ai	2026-10-10	
+725ff8cb4af7c787	service	20	table	第6期の実績と計画値（令和3〜5年度）	施設入所支援（人／月）/令和5年度実績	12		honpen p.8	✓	auto:ai	2026-10-10	
+a0c964614b29e804	service	20	table	第6期の実績と計画値（令和3〜5年度）	施設入所支援（人／月）/令和3年度計画	17		honpen p.8	✓	auto:ai	2026-10-10	
+74baf78790075743	service	20	table	第6期の実績と計画値（令和3〜5年度）	施設入所支援（人／月）/令和4年度計画	17		honpen p.8	✓	auto:ai	2026-10-10	
+618a848ffdcd3cee	service	20	table	第6期の実績と計画値（令和3〜5年度）	施設入所支援（人／月）/令和5年度計画	17		honpen p.8	✓	auto:ai	2026-10-10	
+a0c10c78cef541d0	service	20	table	第6期の実績と計画値（令和3〜5年度）	自立生活援助（人／月）/令和3年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+c25b15c009a808f6	service	20	table	第6期の実績と計画値（令和3〜5年度）	自立生活援助（人／月）/令和4年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+1ba8713dd8e6daf2	service	20	table	第6期の実績と計画値（令和3〜5年度）	自立生活援助（人／月）/令和5年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+091b48d29e542117	service	20	table	第6期の実績と計画値（令和3〜5年度）	自立生活援助（人／月）/令和3年度計画	0		honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+be6896a6e5253f91	service	20	table	第6期の実績と計画値（令和3〜5年度）	自立生活援助（人／月）/令和4年度計画	0		honpen p.8	✓	auto:ai	2026-10-10	
+0fe1550e09a5e8e3	service	20	table	第6期の実績と計画値（令和3〜5年度）	自立生活援助（人／月）/令和5年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+773ff3bb3b7bb2db	service	25	table	相談支援の見込み値	計画相談支援（人／年）/令和6年度	980		honpen p.28	✓	auto:pdftext	2026-10-10	
+c8a73d1e1824c6de	service	25	table	相談支援の見込み値	計画相談支援（人／年）/令和7年度	990		honpen p.28	✓	auto:pdftext	2026-10-10	
+02f5675f1c922155	service	25	table	相談支援の見込み値	計画相談支援（人／年）/令和8年度	1000		honpen p.28	✓	auto:pdftext	2026-10-10	
+a6cdaceaf35b1276	service	25	table	相談支援の見込み値	計画相談支援（人／月）/令和6年度	163		honpen p.28	✓	auto:pdftext	2026-10-10	
+e21d00559a1adf76	service	25	table	相談支援の見込み値	計画相談支援（人／月）/令和7年度	165		honpen p.28	✓	auto:pdftext	2026-10-10	
+5b269e344c059cd7	service	25	table	相談支援の見込み値	計画相談支援（人／月）/令和8年度	167		honpen p.28	✓	auto:pdftext	2026-10-10	
+4561fce496e6bf57	service	25	table	相談支援の見込み値	地域移行支援（人）/令和6年度	1		honpen p.28	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+19e7d7f44794c57b	service	25	table	相談支援の見込み値	地域移行支援（人）/令和7年度	1		honpen p.28	✓	auto:pdftext	2026-10-10	
+8e129ff8b327d926	service	25	table	相談支援の見込み値	地域移行支援（人）/令和8年度	1		honpen p.28	✓	auto:pdftext	2026-10-10	
+46024446d18f314c	service	25	table	相談支援の見込み値	地域定着支援（人）/令和6年度	1		honpen p.28	✓	auto:ai	2026-10-10	
+c9062d6c8b212937	service	25	table	相談支援の見込み値	地域定着支援（人）/令和7年度	1		honpen p.28	✓	auto:pdftext	2026-10-10	
+79db29cdd79e2372	service	25	table	相談支援の見込み値	地域定着支援（人）/令和8年度	1		honpen p.28	✓	auto:pdftext	2026-10-10	
+e7bea4109880ba3b	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／年）/令和3年度実績	746		honpen p.8	✓	auto:ai	2026-10-10	
+e72b2255078fffce	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／年）/令和4年度実績	396		honpen p.8	✓	auto:ai	2026-10-10	
+a192cd359a50f86d	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／年）/令和5年度実績	407		honpen p.8	✓	auto:ai	2026-10-10	
+e3a51c83f4098442	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／年）/令和3年度計画	200		honpen p.8	✓	auto:ai	2026-10-10	
+9bd8e11cff998420	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／年）/令和4年度計画	210		honpen p.8	✓	auto:ai	2026-10-10	
+0ae0512ccedfc621	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／年）/令和5年度計画	220		honpen p.8	✓	auto:ai	2026-10-10	
+4b7e702457a08c0b	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／月）/令和3年度実績	62		honpen p.8	✓	auto:ai	2026-10-10	
+8c4da843a5666bc5	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／月）/令和4年度実績	33		honpen p.8	✓	auto:ai	2026-10-10	
+e90799c405249445	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／月）/令和5年度実績	81		honpen p.8	✓	auto:ai	2026-10-10	
+70eaa577d0135d01	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／月）/令和3年度計画	50		honpen p.8	✓	auto:ai	2026-10-10	
+97348b67606fac3e	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／月）/令和4年度計画	53		honpen p.8	✓	auto:ai	2026-10-10	
+201ec7b280501d0a	service	26	table	第6期の実績と計画値（令和3〜5年度）	計画相談支援（人／月）/令和5年度計画	55		honpen p.8	✓	auto:ai	2026-10-10	
+e8ba466a896a5991	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域移行支援（人）/令和3年度実績	1		honpen p.8	✓	auto:ai	2026-10-10	
+a9075ac5536c78e6	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域移行支援（人）/令和4年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+b3ca979fdf4c6e43	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域移行支援（人）/令和5年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+2b6f50e83691df34	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域移行支援（人）/令和3年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+cfa084f9d2a76dbc	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域移行支援（人）/令和4年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+7147275b78b0332c	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域移行支援（人）/令和5年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+423521bdc486fdfe	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域定着支援（人）/令和3年度実績	1		honpen p.8	✓	auto:ai	2026-10-10	
+d3f7d4a3441bfe82	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域定着支援（人）/令和4年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+5974ba80fb3bc637	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域定着支援（人）/令和5年度実績	0		honpen p.8	✓	auto:ai	2026-10-10	
+65e2f959ad4154d8	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域定着支援（人）/令和3年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+149907969b2498f1	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域定着支援（人）/令和4年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+a8c0eeb62f4fd63e	service	26	table	第6期の実績と計画値（令和3〜5年度）	地域定着支援（人）/令和5年度計画	1		honpen p.8	✓	auto:ai	2026-10-10	
+d9b3e2a2110bb86c	jido	4	table	障がい児通所支援の見込み値	児童発達支援（人／月）/令和6年度	25		honpen p.29	✓	auto:pdftext	2026-10-10	
+65272f5fe2fefc52	jido	4	table	障がい児通所支援の見込み値	児童発達支援（人／月）/令和7年度	25		honpen p.29	✓	auto:pdftext	2026-10-10	
+cbd01283eeda007a	jido	4	table	障がい児通所支援の見込み値	児童発達支援（人／月）/令和8年度	25		honpen p.29	✓	auto:pdftext	2026-10-10	
+d42f0a467766a352	jido	4	table	障がい児通所支援の見込み値	児童発達支援（人日／月）/令和6年度	83		honpen p.29	✓	auto:ai	2026-10-10	
+02869be729c29258	jido	4	table	障がい児通所支援の見込み値	児童発達支援（人日／月）/令和7年度	83		honpen p.29	✓	auto:pdftext	2026-10-10	
+004dbf03ac3ab10d	jido	4	table	障がい児通所支援の見込み値	児童発達支援（人日／月）/令和8年度	83		honpen p.29	✓	auto:pdftext	2026-10-10	
+8a32dca2d79c7072	jido	4	table	障がい児通所支援の見込み値	放課後等デイサービス（人／月）/令和6年度	30		honpen p.29	✓	auto:pdftext	2026-10-10	
+7ff8dbd80f13b154	jido	4	table	障がい児通所支援の見込み値	放課後等デイサービス（人／月）/令和7年度	35		honpen p.29	✓	auto:pdftext	2026-10-10	
+b4a97d2a4e3d3ac8	jido	4	table	障がい児通所支援の見込み値	放課後等デイサービス（人／月）/令和8年度	40		honpen p.29	✓	auto:pdftext	2026-10-10	
+49104f4aa6701bf8	jido	4	table	障がい児通所支援の見込み値	放課後等デイサービス（人日／月）/令和6年度	400		honpen p.29	✓	auto:pdftext	2026-10-10	
+a757cd9618d01f0e	jido	4	table	障がい児通所支援の見込み値	放課後等デイサービス（人日／月）/令和7年度	467		honpen p.29	✓	auto:pdftext	2026-10-10	
+99734efdf14b6a12	jido	4	table	障がい児通所支援の見込み値	放課後等デイサービス（人日／月）/令和8年度	533		honpen p.29	✓	auto:pdftext	2026-10-10	
+7ffc5a978a6fa821	jido	4	table	障がい児通所支援の見込み値	保育所等訪問支援（人／月）/令和6年度	2		honpen p.29	✓	auto:pdftext	2026-10-10	
+34ace72b25133e81	jido	4	table	障がい児通所支援の見込み値	保育所等訪問支援（人／月）/令和7年度	2		honpen p.29	✓	auto:pdftext	2026-10-10	
+169ac127a94149f8	jido	4	table	障がい児通所支援の見込み値	保育所等訪問支援（人／月）/令和8年度	2		honpen p.29	✓	auto:pdftext	2026-10-10	
+cf834dfa2182688a	jido	4	table	障がい児通所支援の見込み値	保育所等訪問支援（人日／月）/令和6年度	4		honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+287f9a6154d5ceed	jido	4	table	障がい児通所支援の見込み値	保育所等訪問支援（人日／月）/令和7年度	4		honpen p.29	✓	auto:pdftext	2026-10-10	
+bb7cc0a62222eb73	jido	4	table	障がい児通所支援の見込み値	保育所等訪問支援（人日／月）/令和8年度	4		honpen p.29	✓	auto:pdftext	2026-10-10	
+e97a2049c438201a	jido	4	table	障がい児通所支援の見込み値	居宅訪問型児童発達支援（人／月）/令和6年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+73fe948f7342f373	jido	4	table	障がい児通所支援の見込み値	居宅訪問型児童発達支援（人／月）/令和7年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+5e3d6d1c7c65c387	jido	4	table	障がい児通所支援の見込み値	居宅訪問型児童発達支援（人／月）/令和8年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+7b97680c509f02c8	jido	4	table	障がい児通所支援の見込み値	居宅訪問型児童発達支援（人日／月）/令和6年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+e16669acf775b450	jido	4	table	障がい児通所支援の見込み値	居宅訪問型児童発達支援（人日／月）/令和7年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+58f3403805d9e6b9	jido	4	table	障がい児通所支援の見込み値	居宅訪問型児童発達支援（人日／月）/令和8年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+6deabe4b9dbe47d4	jido	4	table	障がい児通所支援の見込み値	医療型児童発達支援（人／月）/令和6年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+97ed041f7ed0c059	jido	4	table	障がい児通所支援の見込み値	医療型児童発達支援（人／月）/令和7年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+5e9f1ce5c44f296d	jido	4	table	障がい児通所支援の見込み値	医療型児童発達支援（人／月）/令和8年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+a703404c86e4d53b	jido	4	table	障がい児通所支援の見込み値	医療型児童発達支援（人日／月）/令和6年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+2957214ad71efc20	jido	4	table	障がい児通所支援の見込み値	医療型児童発達支援（人日／月）/令和7年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+890b5a78d294b898	jido	4	table	障がい児通所支援の見込み値	医療型児童発達支援（人日／月）/令和8年度	0		honpen p.29	✓	auto:pdftext	2026-10-10	
+b2b242345ad8d29a	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人／月）/令和3年度実績	25		honpen p.9	✓	auto:ai	2026-10-10	
+8e50225c98163b9c	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人／月）/令和4年度実績	19		honpen p.9	✓	auto:ai	2026-10-10	
+14e117960455d433	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人／月）/令和5年度実績	23		honpen p.9	✓	auto:ai	2026-10-10	
+9ee1497ad8488975	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人／月）/令和3年度計画	20		honpen p.9	✓	auto:ai	2026-10-10	
+78fc2f92f9f868ec	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人／月）/令和4年度計画	20		honpen p.9	✓	auto:ai	2026-10-10	
+ef881f0be55e5379	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人／月）/令和5年度計画	20		honpen p.9	✓	auto:ai	2026-10-10	
+5cb8447523a2e70b	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人日／月）/令和3年度実績	75		honpen p.9	✓	auto:ai	2026-10-10	
+91eba6bfa5d67935	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人日／月）/令和4年度実績	62		honpen p.9	✓	auto:ai	2026-10-10	
+7cc27b3982b881ea	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人日／月）/令和5年度実績	76		honpen p.9	✓	auto:ai	2026-10-10	
+8b9bf0a7fd92d097	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人日／月）/令和3年度計画	60		honpen p.9	✓	auto:ai	2026-10-10	
+96ebda88823b55a4	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人日／月）/令和4年度計画	60		honpen p.9	✓	auto:ai	2026-10-10	
+f3f4dbd046d6c4f8	jido	5	table	第6期の実績と計画値（令和3〜5年度）	児童発達支援（人日／月）/令和5年度計画	60		honpen p.9	✓	auto:ai	2026-10-10	
+2736dd345a661b68	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人／月）/令和3年度実績	25		honpen p.9	✓	auto:ai	2026-10-10	
+21be8d2f5766ab08	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人／月）/令和4年度実績	25		honpen p.9	✓	auto:ai	2026-10-10	
+06180a37a38f168d	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人／月）/令和5年度実績	29		honpen p.9	✓	auto:ai	2026-10-10	
+e09283665050065e	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人／月）/令和3年度計画	40		honpen p.9	✓	auto:ai	2026-10-10	
+e32d105713362b55	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人／月）/令和4年度計画	40		honpen p.9	✓	auto:ai	2026-10-10	
+c522b45c8bc705fa	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人／月）/令和5年度計画	40		honpen p.9	✓	auto:ai	2026-10-10	
+452b7d05a4eb2c60	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人日／月）/令和3年度実績	356		honpen p.9	✓	auto:ai	2026-10-10	
+4ac14c57453dfe09	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人日／月）/令和4年度実績	356		honpen p.9	✓	auto:ai	2026-10-10	
+04ab3907c0acec13	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人日／月）/令和5年度実績	376		honpen p.9	✓	auto:ai	2026-10-10	
+3ae95ea4f0d26633	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人日／月）/令和3年度計画	390		honpen p.9	✓	auto:ai	2026-10-10	
+922c8a26f1502e3b	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人日／月）/令和4年度計画	390		honpen p.9	✓	auto:ai	2026-10-10	
+cea773842386a01c	jido	5	table	第6期の実績と計画値（令和3〜5年度）	放課後等デイサービス（人日／月）/令和5年度計画	390		honpen p.9	✓	auto:ai	2026-10-10	
+8c89953f2a659ecf	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人／月）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+e7bdcd6a0ccffdcd	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人／月）/令和4年度実績	2		honpen p.9	✓	auto:ai	2026-10-10	
+59c9dabdd7351c1b	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人／月）/令和5年度実績	1		honpen p.9	✓	auto:ai	2026-10-10	
+9c11987a74fc7aaf	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人／月）/令和3年度計画	2		honpen p.9	✓	auto:ai	2026-10-10	
+8d6c487a5dbdb952	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人／月）/令和4年度計画	2		honpen p.9	✓	auto:ai	2026-10-10	
+09a979489190df66	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人／月）/令和5年度計画	2		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+4a22699479454c27	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人日／月）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+c9b81ae154921ef2	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人日／月）/令和4年度実績	3		honpen p.9	✓	auto:ai	2026-10-10	
+1c540f2845910de6	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人日／月）/令和5年度実績	2		honpen p.9	✓	auto:ai	2026-10-10	
+4149110e05010164	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人日／月）/令和3年度計画	4		honpen p.9	✓	auto:ai	2026-10-10	
+123a5247bef9f9af	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人日／月）/令和4年度計画	4		honpen p.9	✓	auto:ai	2026-10-10	
+cdbda14a70ad9c5d	jido	5	table	第6期の実績と計画値（令和3〜5年度）	保育所等訪問支援（人日／月）/令和5年度計画	4		honpen p.9	✓	auto:ai	2026-10-10	
+b95a5f2394b9204a	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人／月）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+0a387a3a44831f91	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人／月）/令和4年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+77deefe19b4df821	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人／月）/令和5年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+e968a2f8e3b3f4d2	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人／月）/令和3年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+86a4c50cc7a6e340	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人／月）/令和4年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+a664888bb9c6373c	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人／月）/令和5年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+706919b1570e3a43	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人日／月）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+807d2a3397972205	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人日／月）/令和4年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+675e82f8d4172584	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人日／月）/令和5年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+e764fd3b4b923c87	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人日／月）/令和3年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+11a04088e692def4	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人日／月）/令和4年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+3d4dcdf292ca6f86	jido	5	table	第6期の実績と計画値（令和3〜5年度）	居宅訪問型児童発達支援（人日／月）/令和5年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+b100a44f115f91a4	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人／月）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+5b43b32c5bc55bc0	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人／月）/令和4年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+146f3fc31e6e1242	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人／月）/令和5年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+652c99819c1e4d42	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人／月）/令和3年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+5c63f3d15b30dd28	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人／月）/令和4年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+86a93026689ba474	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人／月）/令和5年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+c69b0afb88e7daeb	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人日／月）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+c4551e247d54d6e1	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人日／月）/令和4年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+4c17744734ad92bb	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人日／月）/令和5年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+d35eb2ff88cf3a14	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人日／月）/令和3年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+256585564462b0f3	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人日／月）/令和4年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+544f2f34770e7656	jido	5	table	第6期の実績と計画値（令和3〜5年度）	医療型児童発達支援（人日／月）/令和5年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+bb2dbfa216ec1f3b	jido	9	table	障がい児相談支援の見込み値	障害児相談支援（人／月）/令和6年度	36		honpen p.30	✓	auto:pdftext	2026-10-10	
+e1c29138e51e7ac0	jido	9	table	障がい児相談支援の見込み値	障害児相談支援（人／月）/令和7年度	36		honpen p.30	✓	auto:pdftext	2026-10-10	
+1af77aed20d308ad	jido	9	table	障がい児相談支援の見込み値	障害児相談支援（人／月）/令和8年度	36		honpen p.30	✓	auto:pdftext	2026-10-10	
+1a2e88f3271dde26	jido	9	table	障がい児相談支援の見込み値	障害児相談支援（人／年）/令和6年度	180		honpen p.30	✓	auto:pdftext	2026-10-10	
+1f42f2bb35bbfee9	jido	9	table	障がい児相談支援の見込み値	障害児相談支援（人／年）/令和7年度	180		honpen p.30	✓	auto:pdftext	2026-10-10	
+7705dc4668d54ac3	jido	9	table	障がい児相談支援の見込み値	障害児相談支援（人／年）/令和8年度	180		honpen p.30	✓	auto:pdftext	2026-10-10	
+c6084861b82746cb	jido	9	table	障がい児相談支援の見込み値	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和6年度	0		honpen p.30	✓	auto:ai	2026-10-10	
+50e042aad42f48bd	jido	9	table	障がい児相談支援の見込み値	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和7年度	0		honpen p.30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+eb19a6b3b5f8fe07	jido	9	table	障がい児相談支援の見込み値	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和8年度	1		honpen p.30	✓	auto:pdftext	2026-10-10	
+b14d10aa6ccb8d08	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／年）/令和3年度実績	169		honpen p.9	✓	auto:ai	2026-10-10	
+ff736d8d82b4bc3d	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／年）/令和4年度実績	120		honpen p.9	✓	auto:ai	2026-10-10	
+e5ce19458dc3bab8	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／年）/令和5年度実績	74		honpen p.9	✓	auto:ai	2026-10-10	
+6d1c5e6ebf7d41af	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／年）/令和3年度計画	60		honpen p.9	✓	auto:ai	2026-10-10	
+c2a466a2e517f3ab	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／年）/令和4年度計画	60		honpen p.9	✓	auto:ai	2026-10-10	
+5c2d651c1248128e	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／年）/令和5年度計画	60		honpen p.9	✓	auto:ai	2026-10-10	
+4bce043ac925231b	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／月）/令和3年度実績	14		honpen p.9	✓	auto:ai	2026-10-10	
+30394fe0cb45b100	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／月）/令和4年度実績	10		honpen p.9	✓	auto:ai	2026-10-10	
+c424a08e2db8e451	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／月）/令和5年度実績	15		honpen p.9	✓	auto:ai	2026-10-10	
+f92efc3d9580ace6	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／月）/令和3年度計画	30		honpen p.9	✓	auto:ai	2026-10-10	
+483b92a86503d26d	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／月）/令和4年度計画	30		honpen p.9	✓	auto:ai	2026-10-10	
+6fae347aeee10926	jido	10	table	第6期の実績と計画値（令和3〜5年度）	障害児相談支援（人／月）/令和5年度計画	30		honpen p.9	✓	auto:ai	2026-10-10	
+46618626c7e3a6fb	jido	10	table	第6期の実績と計画値（令和3〜5年度）	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和3年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+0b7f5934b7ae2b93	jido	10	table	第6期の実績と計画値（令和3〜5年度）	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和4年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+b65f01801e0af55e	jido	10	table	第6期の実績と計画値（令和3〜5年度）	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和5年度実績	0		honpen p.9	✓	auto:ai	2026-10-10	
+f066d7f604f7ac9f	jido	10	table	第6期の実績と計画値（令和3〜5年度）	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和3年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+f3396169a59a3701	jido	10	table	第6期の実績と計画値（令和3〜5年度）	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和4年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	
+09f420248f2f5c77	jido	10	table	第6期の実績と計画値（令和3〜5年度）	医療的ケア児に対する関連分野の支援を調整するコーディネーターの配置人数（人）/令和5年度計画	0		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+5f746cbba93b1c1e	chiiki	8	table	見込み値	障害者相談支援事業（か所）/令和6年度	5		honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+ea17d62c07b3baca	chiiki	8	table	見込み値	障害者相談支援事業（か所）/令和7年度	5		honpen p.33	✓	auto:ai	2026-10-10	
+d05107615a1beff7	chiiki	8	table	見込み値	障害者相談支援事業（か所）/令和8年度	5		honpen p.33	✓	auto:pdftext	2026-10-10	
+fda4a9e783064c98	chiiki	12	table	見込み値	成年後見制度利用支援事業（人／年）/令和6年度	3		honpen p.33	✓	auto:ai	2026-10-10	
+1822977102df633d	chiiki	12	table	見込み値	成年後見制度利用支援事業（人／年）/令和7年度	3		honpen p.33	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+090ca14bae2d0f91	chiiki	12	table	見込み値	成年後見制度利用支援事業（人／年）/令和8年度	3		honpen p.33	✓	auto:pdftext	2026-10-10	
+aa620a3e62a7b2e4	chiiki	16	table	意思疎通支援事業の見込み値	手話通訳者・要約筆記者派遣事業（人／月）/令和6年度	4		honpen p.34	✓	auto:pdftext	2026-10-10	
+739388c516a216f2	chiiki	16	table	意思疎通支援事業の見込み値	手話通訳者・要約筆記者派遣事業（人／月）/令和7年度	4		honpen p.34	✓	auto:pdftext	2026-10-10	
+582913398e11d0af	chiiki	16	table	意思疎通支援事業の見込み値	手話通訳者・要約筆記者派遣事業（人／月）/令和8年度	4		honpen p.34	✓	auto:pdftext	2026-10-10	
+0bb17943657bb7a2	chiiki	16	table	意思疎通支援事業の見込み値	手話通訳者設置事業（人）/令和6年度	1		honpen p.34	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+cb2964af7d8f26dd	chiiki	16	table	意思疎通支援事業の見込み値	手話通訳者設置事業（人）/令和7年度	1		honpen p.34	✓	auto:ai	2026-10-10	
+f4a42f39cf0a6e4f	chiiki	16	table	意思疎通支援事業の見込み値	手話通訳者設置事業（人）/令和8年度	1		honpen p.34	✓	auto:pdftext	2026-10-10	
+c6699ddd46105dff	chiiki	17	table	日常生活用具給付等事業の見込み値	介護・訓練支援用具（件）/令和6年度	4		honpen p.34	✓	auto:pdftext	2026-10-10	
+81ac269e20b47782	chiiki	17	table	日常生活用具給付等事業の見込み値	介護・訓練支援用具（件）/令和7年度	4		honpen p.34	✓	auto:pdftext	2026-10-10	
+7ff497834b8b4691	chiiki	17	table	日常生活用具給付等事業の見込み値	介護・訓練支援用具（件）/令和8年度	4		honpen p.34	✓	auto:pdftext	2026-10-10	
+cbecd76974487350	chiiki	17	table	日常生活用具給付等事業の見込み値	自立生活支援用具（件）/令和6年度	7		honpen p.34	✓	auto:ai	2026-10-10	
+958b62beffd96018	chiiki	17	table	日常生活用具給付等事業の見込み値	自立生活支援用具（件）/令和7年度	7		honpen p.34	✓	auto:ai	2026-10-10	
+f808b19b197308e3	chiiki	17	table	日常生活用具給付等事業の見込み値	自立生活支援用具（件）/令和8年度	7		honpen p.34	✓	auto:pdftext	2026-10-10	
+5ed030a7288d08a7	chiiki	17	table	日常生活用具給付等事業の見込み値	在宅療養等支援用具（件）/令和6年度	5		honpen p.34	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+f67ab4164ff70487	chiiki	17	table	日常生活用具給付等事業の見込み値	在宅療養等支援用具（件）/令和7年度	5		honpen p.34	✓	auto:ai	2026-10-10	
+0d5ef687ea01c8fa	chiiki	17	table	日常生活用具給付等事業の見込み値	在宅療養等支援用具（件）/令和8年度	5		honpen p.34	✓	auto:pdftext	2026-10-10	
+f0353ae5f1025f09	chiiki	17	table	日常生活用具給付等事業の見込み値	情報・意思疎通支援用具（件）/令和6年度	40		honpen p.34	✓	auto:ai	2026-10-10	
+118905d0a2ab46d7	chiiki	17	table	日常生活用具給付等事業の見込み値	情報・意思疎通支援用具（件）/令和7年度	40		honpen p.34	✓	auto:ai	2026-10-10	
+5d0292cfbcecf043	chiiki	17	table	日常生活用具給付等事業の見込み値	情報・意思疎通支援用具（件）/令和8年度	40		honpen p.34	✓	auto:pdftext	2026-10-10	
+d1e1ad33a752fb3c	chiiki	17	table	日常生活用具給付等事業の見込み値	排泄管理支援用具（件）/令和6年度	700		honpen p.34	✓	auto:ai	2026-10-10	
+c198c002f1318024	chiiki	17	table	日常生活用具給付等事業の見込み値	排泄管理支援用具（件）/令和7年度	700		honpen p.34	✓	auto:ai	2026-10-10	
+7911f35b9a23f155	chiiki	17	table	日常生活用具給付等事業の見込み値	排泄管理支援用具（件）/令和8年度	700		honpen p.34	✓	auto:pdftext	2026-10-10	
+f002965ec269f014	chiiki	17	table	日常生活用具給付等事業の見込み値	居宅生活動作補助用具（住宅改修費）（件）/令和6年度	2		honpen p.34	✓	auto:pdftext	2026-10-10	
+7670dd27bb40a435	chiiki	17	table	日常生活用具給付等事業の見込み値	居宅生活動作補助用具（住宅改修費）（件）/令和7年度	2		honpen p.34	✓	auto:pdftext	2026-10-10	
+030edbc21a9ab8b3	chiiki	17	table	日常生活用具給付等事業の見込み値	居宅生活動作補助用具（住宅改修費）（件）/令和8年度	2		honpen p.34	✓	auto:pdftext	2026-10-10	
+dc53fa78715f6961	chiiki	21	table	見込み値	手話奉仕員養成研修事業（人／年）/令和6年度	3		honpen p.35	✓	auto:ai	2026-10-10	
+912e33a3b705bad6	chiiki	21	table	見込み値	手話奉仕員養成研修事業（人／年）/令和7年度	3		honpen p.35	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+9b474a52f08fbfc6	chiiki	21	table	見込み値	手話奉仕員養成研修事業（人／年）/令和8年度	3		honpen p.35	✓	auto:pdftext	2026-10-10	
+c1afd4eaaab7e32a	chiiki	21	table	見込み値	移動支援事業（人／年）/令和6年度	50		honpen p.35	✓	auto:pdftext	2026-10-10	
+ebe0d580ca701584	chiiki	21	table	見込み値	移動支援事業（人／年）/令和7年度	50		honpen p.35	✓	auto:pdftext	2026-10-10	
+109b62aaadbd1485	chiiki	21	table	見込み値	移動支援事業（人／年）/令和8年度	50		honpen p.35	✓	auto:pdftext	2026-10-10	
+aad541ab541a4fac	chiiki	21	table	見込み値	移動支援事業（時間／年）/令和6年度	650		honpen p.35	✓	auto:pdftext	2026-10-10	
+96adbaabe96c42b1	chiiki	21	table	見込み値	移動支援事業（時間／年）/令和7年度	650		honpen p.35	✓	auto:pdftext	2026-10-10	
+d4da56a36be7bdcf	chiiki	21	table	見込み値	移動支援事業（時間／年）/令和8年度	650		honpen p.35	✓	auto:pdftext	2026-10-10	
+891ac239b6fa05f2	chiiki	25	table	見込み値	地域活動支援センター（か所）/令和6年度	2		honpen p.36	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+edca8b72f46bb835	chiiki	25	table	見込み値	地域活動支援センター（か所）/令和7年度	2		honpen p.36	✓	auto:ai	2026-10-10	
+ddd2aa094541e1c2	chiiki	25	table	見込み値	地域活動支援センター（か所）/令和8年度	2		honpen p.36	✓	auto:pdftext	2026-10-10	
+73f000ad84401d58	chiiki	29	table	見込み値	訪問入浴サービス事業（人／月）/令和6年度	5		honpen p.36	✓	auto:ai	2026-10-10	
+047aefd2cd21e50d	chiiki	29	table	見込み値	訪問入浴サービス事業（人／月）/令和7年度	5		honpen p.36	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+93e4d0d4cabdf79e	chiiki	29	table	見込み値	訪問入浴サービス事業（人／月）/令和8年度	5		honpen p.36	✓	auto:pdftext	2026-10-10	
+6b73467fc456b22c	chiiki	29	table	見込み値	日中一時支援事業（人／月）/令和6年度	2		honpen p.36	✓	auto:ai	2026-10-10	
+53c110e467b7ca3b	chiiki	29	table	見込み値	日中一時支援事業（人／月）/令和7年度	4		honpen p.36	✓	auto:ai	2026-10-10	
+c6d4dd3f13cf1473	chiiki	29	table	見込み値	日中一時支援事業（人／月）/令和8年度	6		honpen p.36	✓	auto:pdftext	2026-10-10	
+5836fff16e15195a	chiiki	36	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	障害者相談支援事業（か所）/令和3年度実績	2		honpen p.9	✓	auto:ai	2026-10-10	
+10422caceddac513	chiiki	36	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	障害者相談支援事業（か所）/令和4年度実績	2		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+c582291aeb98acaf	chiiki	36	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	障害者相談支援事業（か所）/令和5年度実績	2		honpen p.9	✓	auto:ai	2026-10-10	
+57c586fdebc373e4	chiiki	36	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	障害者相談支援事業（か所）/令和3年度計画	5		honpen p.9	✓	auto:ai	2026-10-10	
+6813f2a00dd4b2d4	chiiki	36	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	障害者相談支援事業（か所）/令和4年度計画	5		honpen p.9	✓	auto:ai	2026-10-10	
+836d84b8b05b6d20	chiiki	36	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	障害者相談支援事業（か所）/令和5年度計画	5		honpen p.9	✓	auto:ai	2026-10-10	
+08708c1a8d3b9975	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	成年後見制度利用支援事業（人／年）/令和3年度実績	5		honpen p.10	✓	auto:ai	2026-10-10	
+834e359480366cd7	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	成年後見制度利用支援事業（人／年）/令和4年度実績	0		honpen p.10	✓	auto:ai	2026-10-10	
+b375ba56c3955fc7	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	成年後見制度利用支援事業（人／年）/令和5年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+01ea58184805d544	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	成年後見制度利用支援事業（人／年）/令和3年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+e440a229a8c430d6	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	成年後見制度利用支援事業（人／年）/令和4年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+366dfcd53e3eb8ea	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	成年後見制度利用支援事業（人／年）/令和5年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+3bf931fc39e68fe0	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者・要約筆記者派遣事業（人／月）/令和3年度実績	3		honpen p.10	✓	auto:ai	2026-10-10	
+21d040069e59e8ae	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者・要約筆記者派遣事業（人／月）/令和4年度実績	3		honpen p.10	✓	auto:ai	2026-10-10	
+1fa2b9919cf33942	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者・要約筆記者派遣事業（人／月）/令和5年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+8092fc91349e7123	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者・要約筆記者派遣事業（人／月）/令和3年度計画	4		honpen p.10	✓	auto:ai	2026-10-10	
+db38e26b77d74a6c	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者・要約筆記者派遣事業（人／月）/令和4年度計画	4		honpen p.10	✓	auto:ai	2026-10-10	
+e92844d72f45963b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者・要約筆記者派遣事業（人／月）/令和5年度計画	4		honpen p.10	✓	auto:ai	2026-10-10	
+8639bcd2ac7d020f	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者設置事業（人）/令和3年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+c0b67e28338c6f49	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者設置事業（人）/令和4年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+3b164acba842b26d	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者設置事業（人）/令和5年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+2824e7bd0fa7450d	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者設置事業（人）/令和3年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+ac9eb853af6f22fc	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者設置事業（人）/令和4年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+96ed21832c5ad959	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話通訳者設置事業（人）/令和5年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+ed009f8e85e3a0ec	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	介護・訓練支援用具（件）/令和3年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+2703249d8be2bbb8	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	介護・訓練支援用具（件）/令和4年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+7410c6e392a47528	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	介護・訓練支援用具（件）/令和5年度実績	3		honpen p.10	✓	auto:ai	2026-10-10	
+de2f59e9ecbf79bf	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	介護・訓練支援用具（件）/令和3年度計画	4		honpen p.10	✓	auto:ai	2026-10-10	
+49a69318ffc85dd8	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	介護・訓練支援用具（件）/令和4年度計画	4		honpen p.10	✓	auto:ai	2026-10-10	
+71af72903719a4bf	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	介護・訓練支援用具（件）/令和5年度計画	4		honpen p.10	✓	auto:ai	2026-10-10	
+cb9b8797f358a683	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	自立生活支援用具（件）/令和3年度実績	6		honpen p.10	✓	auto:ai	2026-10-10	
+3677747534c670f7	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	自立生活支援用具（件）/令和4年度実績	0		honpen p.10	✓	auto:ai	2026-10-10	
+793f40fdfa400bdb	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	自立生活支援用具（件）/令和5年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+70b9a04cd28dc7d5	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	自立生活支援用具（件）/令和3年度計画	7		honpen p.10	✓	auto:ai	2026-10-10	
+77ed257cddb79ab6	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	自立生活支援用具（件）/令和4年度計画	7		honpen p.10	✓	auto:ai	2026-10-10	
+e6bc5e4f53526c4b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	自立生活支援用具（件）/令和5年度計画	7		honpen p.10	✓	auto:ai	2026-10-10	
+4d9496f99d162e3a	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	在宅療養等支援用具（件）/令和3年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+01c94bdc5280e8b6	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	在宅療養等支援用具（件）/令和4年度実績	3		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+7e5f8d253af93a97	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	在宅療養等支援用具（件）/令和5年度実績	4		honpen p.10	✓	auto:ai	2026-10-10	
+998112fc1b56c841	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	在宅療養等支援用具（件）/令和3年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+4e13173ffe626ff8	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	在宅療養等支援用具（件）/令和4年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+a016de69c746abf5	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	在宅療養等支援用具（件）/令和5年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+eea6c7a5e10998c6	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	情報・意思疎通支援用具（件）/令和3年度実績	26		honpen p.10	✓	auto:ai	2026-10-10	
+239373c366a4cdf0	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	情報・意思疎通支援用具（件）/令和4年度実績	37		honpen p.10	✓	auto:ai	2026-10-10	
+ab5b209cb95be17d	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	情報・意思疎通支援用具（件）/令和5年度実績	5		honpen p.10	✓	auto:ai	2026-10-10	
+cacfddc2f9cb41d5	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	情報・意思疎通支援用具（件）/令和3年度計画	40		honpen p.10	✓	auto:ai	2026-10-10	
+5f2cc6ddd9b460a2	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	情報・意思疎通支援用具（件）/令和4年度計画	40		honpen p.10	✓	auto:ai	2026-10-10	
+bafb8fc182a89982	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	情報・意思疎通支援用具（件）/令和5年度計画	40		honpen p.10	✓	auto:ai	2026-10-10	
+c79bfddd40fcec21	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	排泄管理支援用具（年間分）（件）/令和3年度実績	558		honpen p.10	✓	auto:ai	2026-10-10	
+83e6792a68051823	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	排泄管理支援用具（年間分）（件）/令和4年度実績	619		honpen p.10	✓	auto:ai	2026-10-10	
+7f3ef9e1bb766f6b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	排泄管理支援用具（年間分）（件）/令和5年度実績	657		honpen p.10	✓	auto:ai	2026-10-10	
+b2dffff222499160	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	排泄管理支援用具（年間分）（件）/令和3年度計画	700		honpen p.10	✓	auto:ai	2026-10-10	
+b11314f87c03c48c	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	排泄管理支援用具（年間分）（件）/令和4年度計画	700		honpen p.10	✓	auto:ai	2026-10-10	
+c114ddad7ff4ce8c	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	排泄管理支援用具（年間分）（件）/令和5年度計画	700		honpen p.10	✓	auto:ai	2026-10-10	
+6ad1712cc4793932	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	居宅生活動作補助用具（住宅改修費）（件）/令和3年度実績	0		honpen p.10	✓	auto:ai	2026-10-10	
+fdc03b34d5d7565a	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	居宅生活動作補助用具（住宅改修費）（件）/令和4年度実績	0		honpen p.10	✓	auto:ai	2026-10-10	
+4f46027380a0973c	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	居宅生活動作補助用具（住宅改修費）（件）/令和5年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+2c340bda09b889a2	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	居宅生活動作補助用具（住宅改修費）（件）/令和3年度計画	2		honpen p.10	✓	auto:ai	2026-10-10	
+0a9afcbe61bf7a66	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	居宅生活動作補助用具（住宅改修費）（件）/令和4年度計画	2		honpen p.10	✓	auto:ai	2026-10-10	
+51fc61b77518ee08	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	居宅生活動作補助用具（住宅改修費）（件）/令和5年度計画	2		honpen p.10	✓	auto:ai	2026-10-10	
+eb910b946acd3994	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話奉仕員養成研修事業（人／年）/令和3年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+84a6572f4be97acc	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話奉仕員養成研修事業（人／年）/令和4年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+29ab687829bbf781	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話奉仕員養成研修事業（人／年）/令和5年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+2264a55a6f46af73	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話奉仕員養成研修事業（人／年）/令和3年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+1bbde91272d729d5	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話奉仕員養成研修事業（人／年）/令和4年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+1d48ec3ed69d7473	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	手話奉仕員養成研修事業（人／年）/令和5年度計画	3		honpen p.10	✓	auto:ai	2026-10-10	
+9a9fd3a3974d4228	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（人／年）/令和3年度実績	26		honpen p.10	✓	auto:ai	2026-10-10	
+e9037cc9c70e1f99	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（人／年）/令和4年度実績	24		honpen p.10	✓	auto:ai	2026-10-10	
+dc2f494fa38c6c8b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（人／年）/令和5年度実績	45		honpen p.10	✓	auto:ai	2026-10-10	
+906eb9faf5ff40f8	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（人／年）/令和3年度計画	23		honpen p.10	✓	auto:ai	2026-10-10	
+44f6299b32c8ca66	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（人／年）/令和4年度計画	23		honpen p.10	✓	auto:ai	2026-10-10	
+7a5670c248f7b4a3	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（人／年）/令和5年度計画	23		honpen p.10	✓	auto:ai	2026-10-10	
+91595682416de587	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（時間／年）/令和3年度実績	475		honpen p.10	✓	auto:ai	2026-10-10	
+1a500a8ddf518f96	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（時間／年）/令和4年度実績	600		honpen p.10	✓	auto:ai	2026-10-10	
+d9afd21b820b0654	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（時間／年）/令和5年度実績	567		honpen p.10	✓	auto:ai	2026-10-10	
+808ec6952f76dee2	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（時間／年）/令和3年度計画	350		honpen p.10	✓	auto:ai	2026-10-10	
+543cf1ba8cf32264	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（時間／年）/令和4年度計画	350		honpen p.10	✓	auto:ai	2026-10-10	
+dc1c3374135c7dc4	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	移動支援事業（時間／年）/令和5年度計画	350		honpen p.10	✓	auto:ai	2026-10-10	
+cf2f2dfbc76edb10	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	地域活動支援センター（か所）/令和3年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+7bb595bf1543708b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	地域活動支援センター（か所）/令和4年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+6748a8a2b7b7a6f5	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	地域活動支援センター（か所）/令和5年度実績	2		honpen p.10	✓	auto:ai	2026-10-10	
+bd01430ede69b21c	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	地域活動支援センター（か所）/令和3年度計画	2		honpen p.10	✓	auto:ai	2026-10-10	
+ab504163947068c0	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	地域活動支援センター（か所）/令和4年度計画	2		honpen p.10	✓	auto:ai	2026-10-10	
+a960a1da654764ee	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	地域活動支援センター（か所）/令和5年度計画	2		honpen p.10	✓	auto:ai	2026-10-10	
+2ef6e26c2a998099	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	訪問入浴サービス事業（人／月）/令和3年度実績	3		honpen p.10	✓	auto:ai	2026-10-10	
+aa42a7f5510972b6	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	訪問入浴サービス事業（人／月）/令和4年度実績	3		honpen p.10	✓	auto:ai	2026-10-10	
+960ac93a86eeefa1	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	訪問入浴サービス事業（人／月）/令和5年度実績	4		honpen p.10	✓	auto:ai	2026-10-10	
+e1bcc113b010c82b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	訪問入浴サービス事業（人／月）/令和3年度計画	5		honpen p.10	✓	auto:ai	2026-10-10	
+e8d515b80cadb66b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	訪問入浴サービス事業（人／月）/令和4年度計画	5		honpen p.10	✓	auto:ai	2026-10-10	
+d48bde72c6572957	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	訪問入浴サービス事業（人／月）/令和5年度計画	5		honpen p.10	✓	auto:ai	2026-10-10	
+914545fccbb7742c	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	日中一時支援事業（人／月）/令和3年度実績	0		honpen p.10	✓	auto:ai	2026-10-10	
+dc2fce456f175d77	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	日中一時支援事業（人／月）/令和4年度実績	0		honpen p.10	✓	auto:ai	2026-10-10	
+2b1df67a6852a62e	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	日中一時支援事業（人／月）/令和5年度実績	1		honpen p.10	✓	auto:ai	2026-10-10	
+f4f89c6027472fc5	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	日中一時支援事業（人／月）/令和3年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+47b556a8c8451f82	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	日中一時支援事業（人／月）/令和4年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+2df0edc208aea8ac	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	日中一時支援事業（人／月）/令和5年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+701a9481cdf184fe	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	レクリエーション活動等支援①進学や就労後に、当事者や保護者が集える機会（有無）/令和3年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+40451a7c9cb797a6	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	レクリエーション活動等支援①進学や就労後に、当事者や保護者が集える機会（有無）/令和4年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+cc5beceaee86863e	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	レクリエーション活動等支援①進学や就労後に、当事者や保護者が集える機会（有無）/令和5年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+c06331fb391b541b	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	レクリエーション活動等支援②地域の福祉施設やボランティア団体と連携した事業（有無）/令和3年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+ea4e536b24416a36	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	レクリエーション活動等支援②地域の福祉施設やボランティア団体と連携した事業（有無）/令和4年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+722c1121137dd0d2	chiiki	37	table	地域生活支援事業 第6期の実績と計画値（令和3〜5年度）	レクリエーション活動等支援②地域の福祉施設やボランティア団体と連携した事業（有無）/令和5年度計画	1		honpen p.10	✓	auto:ai	2026-10-10	
+dc03a889daaa3390	suishin	7	timeline	計画期間	第5期障がい福祉計画・第1期障がい児福祉計画	H30〜R2		honpen p.2				要人確認:H2 数値でない
+dbad5135a5208e14	suishin	7	timeline	計画期間	第6期障がい福祉計画・第2期障がい児福祉計画	R3〜R5		honpen p.2				要人確認:H2 数値でない
+2e1f0b7e69600b42	suishin	7	timeline	計画期間	第7期障がい福祉計画・第3期障がい児福祉計画（この計画）	R6〜R8		honpen p.2				要人確認:H2 数値でない
+cf92dd4c5f109510	suishin	7	timeline	計画期間	第8期障がい福祉計画・第4期障がい児福祉計画	R9〜R11		honpen p.2				要人確認:H2 数値でない

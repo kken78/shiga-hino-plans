@@ -389,7 +389,7 @@ class Renderer:
                 if is_num:
                     # audit は生の数値(負値も -n のまま)を記録
                     self.audit(tab_id, block_no, "table",
-                               f"{row[0]}/{b['head'][ci]}", v, "", b.get("source"))
+                               f"{raw(row[0])}/{b['head'][ci]}", v, "", b.get("source"))
                     # 表示のみ和文会計表記に変換: 負値は「▲＋絶対値」+ 赤(neg)
                     if v < 0:
                         v = "▲" + fmt(num_abs(v))
@@ -403,7 +403,8 @@ class Renderer:
                 tds.append(f"<td{cls_attr}>{esc(v)}</td>")
             trs.append(f"<tr>{''.join(tds)}</tr>")
         note = f'<div class="b-note"><span>{esc(b["note"])}</span></div>' if b.get("note") else ""
-        table_html = (f'<div class="b-table"><table><thead><tr>{head}</tr></thead>'
+        ttl = f'<div class="b-ttl">{esc(b["title"])}</div>' if b.get("title") else ""
+        table_html = (f'{ttl}<div class="b-table"><table><thead><tr>{head}</tr></thead>'
                       f'<tbody>{"".join(trs)}</tbody></table></div>')
         fold = b.get("fold")
         if fold:

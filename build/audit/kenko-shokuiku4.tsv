@@ -1,0 +1,921 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	target.base		特定健診受診率（全体）	39.4	%	gaiyo p.7
+summary	3	target.target		特定健診受診率（全体）	60.0	%	gaiyo p.7
+summary	3	target.base		定期的に歯科健診を受診する人の割合	34.8	%	gaiyo p.7
+summary	3	target.target		定期的に歯科健診を受診する人の割合	50.0	%	gaiyo p.7
+summary	3	target.base		過去１年間、意識して体を動かす等の運動をしている人の割合	51.1	%	gaiyo p.7
+summary	3	target.target		過去１年間、意識して体を動かす等の運動をしている人の割合	60.0	%	gaiyo p.7
+summary	3	target.base		食生活でバランスのとれた食事に気をつけている人の割合	50.8	%	gaiyo p.7
+summary	3	target.target		食生活でバランスのとれた食事に気をつけている人の割合	55.0	%	gaiyo p.7
+summary	3	target.base		３歳児で虫歯のない人の割合	84.3	%	gaiyo p.7
+summary	3	target.target		３歳児で虫歯のない人の割合	90.0	%	gaiyo p.7
+summary	3	target.base		朝食の欠食率（時々食べる、食べない小学５年生の割合）	2.1	%	gaiyo p.7
+summary	3	target.target		朝食の欠食率（時々食べる、食べない小学５年生の割合）	1.0	%	gaiyo p.7
+genjo	4	table	人口の年次推移（人）	平成2年/総人口	22391		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成2年/0～14歳	4472		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成2年/15～64歳	14036		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成2年/65歳以上	3872		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成7年/総人口	23132		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成7年/0～14歳	4135		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成7年/15～64歳	14518		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成7年/65歳以上	4479		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成12年/総人口	23022		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成12年/0～14歳	3613		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成12年/15～64歳	14311		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成12年/65歳以上	5095		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成17年/総人口	22809		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成17年/0～14歳	3215		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成17年/15～64歳	14262		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成17年/65歳以上	5332		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成22年/総人口	22870		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成22年/0～14歳	3043		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成22年/15～64歳	14217		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成22年/65歳以上	5553		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成27年/総人口	21873		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成27年/0～14歳	2835		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成27年/15～64歳	12840		honpen p.4
+genjo	4	table	人口の年次推移（人）	平成27年/65歳以上	6088		honpen p.4
+genjo	4	table	人口の年次推移（人）	令和2年/総人口	21322		honpen p.4
+genjo	4	table	人口の年次推移（人）	令和2年/0～14歳	2654		honpen p.4
+genjo	4	table	人口の年次推移（人）	令和2年/15～64歳	12199		honpen p.4
+genjo	4	table	人口の年次推移（人）	令和2年/65歳以上	6469		honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成2年/0～14歳	20.0	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成2年/15～64歳	62.7	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成2年/65歳以上	17.3	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成7年/0～14歳	17.9	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成7年/15～64歳	62.8	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成7年/65歳以上	19.4	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成12年/0～14歳	15.7	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成12年/15～64歳	62.2	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成12年/65歳以上	22.1	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成17年/0～14歳	14.1	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成17年/15～64歳	62.5	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成17年/65歳以上	23.4	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成22年/0～14歳	13.3	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成22年/15～64歳	62.3	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成22年/65歳以上	24.3	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成27年/0～14歳	13.0	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成27年/15～64歳	59.0	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	平成27年/65歳以上	28.0	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	令和2年/0～14歳	12.4	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	令和2年/15～64歳	57.2	%	honpen p.4
+genjo	5	chart.stacked100	年齢3区分別人口構成比の推移	令和2年/65歳以上	30.3	%	honpen p.4
+genjo	8	kpi	平均寿命と平均自立期間	平均自立期間（男性）	80.03	歳	honpen p.6
+genjo	8	kpi	平均寿命と平均自立期間	平均自立期間（女性）	84.21	歳	honpen p.6
+genjo	9	table	平均寿命（平成27年）（歳）	男性/日野町	81.5		honpen p.6
+genjo	9	table	平均寿命（平成27年）（歳）	男性/滋賀県	81.8		honpen p.6
+genjo	9	table	平均寿命（平成27年）（歳）	男性/全国	80.8		honpen p.6
+genjo	9	table	平均寿命（平成27年）（歳）	女性/日野町	87.5		honpen p.6
+genjo	9	table	平均寿命（平成27年）（歳）	女性/滋賀県	87.6		honpen p.6
+genjo	9	table	平均寿命（平成27年）（歳）	女性/全国	87.0		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	日野町 男性/平均寿命（歳）	81.50		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	日野町 男性/平均自立期間（歳）	80.03		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	日野町 男性/差（年）	1.48		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 男性/平均寿命（歳）	81.79		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 男性/平均自立期間（歳）	80.23		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 男性/差（年）	1.56		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	日野町 女性/平均寿命（歳）	87.55		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	日野町 女性/平均自立期間（歳）	84.21		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	日野町 女性/差（年）	3.34		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 女性/平均寿命（歳）	87.62		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 女性/平均自立期間（歳）	84.20		honpen p.6
+genjo	10	table	平均寿命と平均自立期間（平成27年）	滋賀県 女性/差（年）	3.41		honpen p.6
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	悪性新生物	25.4	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	脳血管疾患	11.4	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	老衰	11.4	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	肺炎	5.7	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	心疾患	3.7	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	不慮の事故	3.7	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	自殺	2.0	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	糖尿病	1.7	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	腎不全	1.3	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	肝疾患	1.0	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	大動脈瘤及び解離	0.7	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	高血圧性疾患	0.3	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	結核	0.3	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	慢性閉塞性肺疾患	0.3	%	gaiyo p.2
+genjo	12	chart.rank	日野町の死亡状況（死因別の割合）	その他	31.1	%	gaiyo p.2
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	悪性新生物/日野町	126.1		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	悪性新生物/東近江管内	104.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	悪性新生物/滋賀県	103.3		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	心疾患/日野町	36.7		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	心疾患/東近江管内	44.9		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	心疾患/滋賀県	43.4		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	肺炎/日野町	20.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	肺炎/東近江管内	14.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	肺炎/滋賀県	13.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	脳血管疾患/日野町	34.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	脳血管疾患/東近江管内	24.2		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	脳血管疾患/滋賀県	20.0		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	老衰/日野町	20.2		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	老衰/東近江管内	12.8		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	老衰/滋賀県	10.3		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	不慮の事故/日野町	14.3		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	不慮の事故/東近江管内	11.4		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	不慮の事故/滋賀県	12.7		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	自殺/日野町	20.2		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	自殺/東近江管内	12.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	自殺/滋賀県	13.4		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	腎不全/日野町	3.5		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	腎不全/東近江管内	6.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	腎不全/滋賀県	4.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	大動脈瘤及び解離/日野町	2.6		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	大動脈瘤及び解離/東近江管内	5.3		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	大動脈瘤及び解離/滋賀県	4.7		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	肝疾患/日野町	6.4		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	肝疾患/東近江管内	2.2		honpen p.7
+genjo	14	table	疾病別年齢調整死亡率（平成30年）（人口10万対）	肝疾患/滋賀県	3.9		honpen p.7
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	悪性新生物/男性 日野町	94.2		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	悪性新生物/男性 滋賀県	95.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	悪性新生物/女性 日野町	96.8		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	悪性新生物/女性 滋賀県	97.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	胃がん/男性 日野町	99.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	胃がん/男性 滋賀県	99.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	胃がん/女性 日野町	99.9		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	胃がん/女性 滋賀県	110.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	大腸がん/男性 日野町	83.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	大腸がん/男性 滋賀県	84.8		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	大腸がん/女性 日野町	92.0		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	大腸がん/女性 滋賀県	91.8		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	肺がん/男性 日野町	106.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	肺がん/男性 滋賀県	104.5		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	肺がん/女性 日野町	96.5		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	肺がん/女性 滋賀県	96.9		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	前立腺がん/男性 日野町	84.0		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	前立腺がん/男性 滋賀県	95.0		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	乳がん/女性 日野町	74.9		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	乳がん/女性 滋賀県	82.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	子宮がん/女性 日野町	79.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	子宮がん/女性 滋賀県	79.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	糖尿病/男性 日野町	69.2		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	糖尿病/男性 滋賀県	72.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	糖尿病/女性 日野町	78.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	糖尿病/女性 滋賀県	90.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	心疾患/男性 日野町	96.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	心疾患/男性 滋賀県	96.6		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	心疾患/女性 日野町	129.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	心疾患/女性 滋賀県	107.9		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	急性心筋梗塞/男性 日野町	104.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	急性心筋梗塞/男性 滋賀県	119.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	急性心筋梗塞/女性 日野町	111.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	急性心筋梗塞/女性 滋賀県	120.6		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳血管疾患/男性 日野町	87.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳血管疾患/男性 滋賀県	84.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳血管疾患/女性 日野町	110.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳血管疾患/女性 滋賀県	91.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	くも膜下出血/男性 日野町	114.8		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	くも膜下出血/男性 滋賀県	117.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	くも膜下出血/女性 日野町	93.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	くも膜下出血/女性 滋賀県	107.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳内出血/男性 日野町	83.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳内出血/男性 滋賀県	82.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳内出血/女性 日野町	86.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳内出血/女性 滋賀県	88.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳梗塞/男性 日野町	84.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳梗塞/男性 滋賀県	80.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳梗塞/女性 日野町	129.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	脳梗塞/女性 滋賀県	87.5		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	慢性閉塞性肺疾患（COPD）/男性 日野町	123.1		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	慢性閉塞性肺疾患（COPD）/男性 滋賀県	116.2		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	慢性閉塞性肺疾患（COPD）/女性 日野町	90.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	慢性閉塞性肺疾患（COPD）/女性 滋賀県	91.5		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	腎不全/男性 日野町	102.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	腎不全/男性 滋賀県	99.4		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	腎不全/女性 日野町	99.3		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	腎不全/女性 滋賀県	104.0		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	自殺/男性 日野町	114.2		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	自殺/男性 滋賀県	94.7		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	自殺/女性 日野町	107.6		honpen p.8
+genjo	16	table	標準化死亡比（EBSMR）2008-2017	自殺/女性 滋賀県	98.9		honpen p.8
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成25年/日野町	303760		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成25年/東近江圏域	319366		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成25年/滋賀県	323927		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成26年/日野町	336472		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成26年/東近江圏域	336165		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成26年/滋賀県	337334		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成27年/日野町	359648		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成27年/東近江圏域	357014		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成27年/滋賀県	354135		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成28年/日野町	351535		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成28年/東近江圏域	366676		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成28年/滋賀県	358291		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成29年/日野町	357414		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成29年/東近江圏域	373649		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成29年/滋賀県	366480		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成30年/日野町	362739		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成30年/東近江圏域	371497		honpen p.14
+genjo	19	table	1人当たり療養諸費費用額（国民健康保険）（円）	平成30年/滋賀県	369677		honpen p.14
+genjo	20	chart.pair	1人当たり診療費費用額（平成30年）	入院/日野町	135663	円	honpen p.14
+genjo	20	chart.pair	1人当たり診療費費用額（平成30年）	入院/滋賀県	137101	円	honpen p.14
+genjo	20	chart.pair	1人当たり診療費費用額（平成30年）	入院外/日野町	110728	円	honpen p.14
+genjo	20	chart.pair	1人当たり診療費費用額（平成30年）	入院外/滋賀県	128021	円	honpen p.14
+genjo	20	chart.pair	1人当たり診療費費用額（平成30年）	歯科/日野町	25793	円	honpen p.14
+genjo	20	chart.pair	1人当たり診療費費用額（平成30年）	歯科/滋賀県	23345	円	honpen p.14
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	被保険者数（人）/日野町 国民健康保険	4647		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	被保険者数（人）/滋賀県 国民健康保険	286796		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	被保険者数（人）/日野町 後期高齢者	3291		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	被保険者数（人）/滋賀県 後期高齢者	173797		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	全疾患/日野町 国民健康保険	22090		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	全疾患/滋賀県 国民健康保険	23430		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	全疾患/日野町 後期高齢者	55368		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	全疾患/滋賀県 後期高齢者	59996		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	悪性新生物/日野町 国民健康保険	2313		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	悪性新生物/滋賀県 国民健康保険	4232		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	悪性新生物/日野町 後期高齢者	5720		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	悪性新生物/滋賀県 後期高齢者	7163		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	糖尿病/日野町 国民健康保険	671		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	糖尿病/滋賀県 国民健康保険	969		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	糖尿病/日野町 後期高齢者	2915		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	糖尿病/滋賀県 後期高齢者	2270		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	高血圧/日野町 国民健康保険	1403		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	高血圧/滋賀県 国民健康保険	1272		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	高血圧/日野町 後期高齢者	3999		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	高血圧/滋賀県 後期高齢者	3961		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	虚血性心疾患/日野町 国民健康保険	697		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	虚血性心疾患/滋賀県 国民健康保険	741		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	虚血性心疾患/日野町 後期高齢者	1537		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	虚血性心疾患/滋賀県 後期高齢者	2008		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳内出血/日野町 国民健康保険	240		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳内出血/滋賀県 国民健康保険	278		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳内出血/日野町 後期高齢者	1581		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳内出血/滋賀県 後期高齢者	1040		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳梗塞/日野町 国民健康保険	535		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳梗塞/滋賀県 国民健康保険	428		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳梗塞/日野町 後期高齢者	2774		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	脳梗塞/滋賀県 後期高齢者	2832		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	呼吸器系/日野町 国民健康保険	1070		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	呼吸器系/滋賀県 国民健康保険	868		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	呼吸器系/日野町 後期高齢者	1741		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	呼吸器系/滋賀県 後期高齢者	3977		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	消化器系/日野町 国民健康保険	3489		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	消化器系/滋賀県 国民健康保険	3106		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	消化器系/日野町 後期高齢者	4771		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	消化器系/滋賀県 後期高齢者	5444		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	腎尿路生殖器系/日野町 国民健康保険	971		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	腎尿路生殖器系/滋賀県 国民健康保険	1605		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	腎尿路生殖器系/日野町 後期高齢者	3980		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	腎尿路生殖器系/滋賀県 後期高齢者	4677		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	損傷・中毒/日野町 国民健康保険	688		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	損傷・中毒/滋賀県 国民健康保険	971		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	損傷・中毒/日野町 後期高齢者	2221		honpen p.15
+genjo	22	table	疾病分類別医療費（平成30年5月診療分集計）	損傷・中毒/滋賀県 後期高齢者	5227		honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要支援１	8.4	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要支援２	9.6	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要介護１	23.2	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要介護２	20.9	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要介護３	15.6	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要介護４	12.6	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	日野町（1,045人）/要介護５	9.8	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要支援１	12.1	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要支援２	13.0	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要介護１	21.6	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要介護２	18.7	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要介護３	14.4	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要介護４	11.9	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	滋賀県（64,717人）/要介護５	8.2	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要支援１	14.1	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要支援２	14.0	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要介護１	20.4	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要介護２	17.1	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要介護３	13.2	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要介護４	12.4	%	honpen p.15
+genjo	25	chart.stacked100	要介護度別構成比（令和2年9月末時点）	全国（6,630,577人）/要介護５	8.8	%	honpen p.15
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成27年/日野町	17.2		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成27年/滋賀県	17.2		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成27年/全国	18.0		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成28年/日野町	17.0		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成28年/滋賀県	17.2		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成28年/全国	18.0		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成29年/日野町	16.5		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成29年/滋賀県	17.1		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成29年/全国	18.1		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成30年/日野町	16.2		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成30年/滋賀県	17.1		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	平成30年/全国	18.3		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	令和元年/日野町	16.4		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	令和元年/滋賀県	17.4		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	令和元年/全国	18.5		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	令和2年/日野町	16.2		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	令和2年/滋賀県	17.5		honpen p.16
+genjo	26	table	要介護認定率の推移（各年9月末時点）（％）	令和2年/全国	18.6		honpen p.16
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	高血圧	39.6	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	目の病気	18.5	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	ない	13.3	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	筋骨格の病気（骨粗しょう症、関節症等）	12.5	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	糖尿病	11.4	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	心臓病	10.0	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	腎臓・前立腺の病気	8.9	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	高脂血症（脂質異常）	8.1	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	耳の病気	6.9	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	胃腸・肝臓・胆のうの病気	6.0	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	呼吸器の病気（肺炎や気管支炎等）	4.6	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	がん（悪性新生物）	3.6	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	外傷（転倒・骨折等）	3.1	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	脳卒中（脳出血・脳梗塞等）	3.0	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	血液・免疫の病気	1.1	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	うつ病	0.9	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	パーキンソン病	0.7	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	認知症（アルツハイマー病等）	0.5	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	その他	3.3	%	honpen p.17
+genjo	27	chart.rank	高齢者が現在治療中、もしくは後遺症がある病気（N=1,371）	不明・無回答	13.5	%	honpen p.17
+genjo	30	chart.line	特定健診 受診率	日野町/H26年度	35.6	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	日野町/H27年度	34.4	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	日野町/H28年度	34.6	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	日野町/H29年度	37.2	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	日野町/H30年度	41.0	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	日野町/R元年度	39.4	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	滋賀県/H26年度	38.2	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	滋賀県/H27年度	38.2	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	滋賀県/H28年度	38.0	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	滋賀県/H29年度	38.8	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	滋賀県/H30年度	40.7	%	honpen p.18
+genjo	30	chart.line	特定健診 受診率	滋賀県/R元年度	41.8	%	honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第1位 HbA1c/人数（人）	299		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第1位 HbA1c/割合（％）	55.4		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第2位 腹囲/人数（人）	265		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第2位 腹囲/割合（％）	48.7		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第3位 収縮期血圧/人数（人）	264		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第3位 収縮期血圧/割合（％）	48.5		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第4位 空腹時血糖/人数（人）	112		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第4位 空腹時血糖/割合（％）	41.2		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第5位 LDLコレステロール/人数（人）	183		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第5位 LDLコレステロール/割合（％）	33.6		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第6位 BMI/人数（人）	147		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第6位 BMI/割合（％）	27.0		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第6位 中性脂肪/人数（人）	147		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第6位 中性脂肪/割合（％）	27.0		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第8位 拡張期血圧/人数（人）	127		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第8位 拡張期血圧/割合（％）	23.3		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第9位 ALT（GPT）/人数（人）	117		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第9位 ALT（GPT）/割合（％）	21.5		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第10位 eGFR/人数（人）	107		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	男性 第10位 eGFR/割合（％）	19.8		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第1位 HbA1c/人数（人）	387		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第1位 HbA1c/割合（％）	55.4		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第2位 LDLコレステロール/人数（人）	340		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第2位 LDLコレステロール/割合（％）	47.8		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第3位 収縮期血圧/人数（人）	310		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第3位 収縮期血圧/割合（％）	43.6		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第4位 中性脂肪/人数（人）	153		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第4位 中性脂肪/割合（％）	21.5		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第5位 BMI/人数（人）	137		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第5位 BMI/割合（％）	19.3		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第6位 空腹時血糖/人数（人）	55		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第6位 空腹時血糖/割合（％）	19.2		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第7位 eGFR/人数（人）	115		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第7位 eGFR/割合（％）	16.4		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第8位 腹囲/人数（人）	105		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第8位 腹囲/割合（％）	14.8		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第9位 拡張期血圧/人数（人）	100		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第9位 拡張期血圧/割合（％）	14.1		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第10位 ALT（GPT）/人数（人）	51		honpen p.18
+genjo	31	table	特定健診有所見の割合（令和元年度）	女性 第10位 ALT（GPT）/割合（％）	7.2		honpen p.18
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 利用率/H26年度	74.4	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 利用率/H27年度	68.8	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 利用率/H28年度	74.0	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 利用率/H29年度	75.4	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 利用率/H30年度	75.4	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 利用率/R元年度	76.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 終了率/H26年度	75.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 終了率/H27年度	65.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 終了率/H28年度	69.0	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 終了率/H29年度	70.4	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 終了率/H30年度	64.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	日野町 終了率/R元年度	71.3	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 利用率/H26年度	34.8	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 利用率/H27年度	33.8	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 利用率/H28年度	36.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 利用率/H29年度	38.5	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 利用率/H30年度	40.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 利用率/R元年度	37.8	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 終了率/H26年度	28.7	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 終了率/H27年度	30.8	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 終了率/H28年度	32.4	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 終了率/H29年度	34.7	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 終了率/H30年度	38.2	%	honpen p.19
+genjo	33	chart.line	特定保健指導実施率の推移（日野町・滋賀県）	滋賀県 終了率/R元年度	36.1	%	honpen p.19
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H24年度	12.6	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H25年度	12.0	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H26年度	10.8	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H27年度	10.0	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H28年度	8.0	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H29年度	7.0	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	胃がん検診/H30年度	6.1	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H24年度	19.3	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H25年度	19.5	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H26年度	17.8	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H27年度	17.2	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H28年度	6.3	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H29年度	6.1	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	大腸がん検診/H30年度	4.8	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H24年度	1.1	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H25年度	1.1	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H26年度	4.9	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H27年度	5.5	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H28年度	3.1	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H29年度	3.2	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	肺がん検診/H30年度	2.5	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H24年度	29.7	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H25年度	29.8	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H26年度	34.3	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H27年度	31.7	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H28年度	15.7	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H29年度	13.6	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	子宮頸がん検診/H30年度	11.9	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H24年度	32.2	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H25年度	31.8	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H26年度	37.0	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H27年度	32.0	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H28年度	19.4	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H29年度	18.1	%	honpen p.20
+genjo	35	chart.line	がん検診受診率の推移	乳がん検診/H30年度	16.6	%	honpen p.20
+genjo	36	table	がん検診精検受診率（平成30年度）	胃がん検診/精検受診率（％）	94.1		honpen p.21
+genjo	36	table	がん検診精検受診率（平成30年度）	大腸がん検診/精検受診率（％）	84.1		honpen p.21
+genjo	36	table	がん検診精検受診率（平成30年度）	肺がん検診/精検受診率（％）	92.9		honpen p.21
+genjo	36	table	がん検診精検受診率（平成30年度）	子宮頸がん検診/精検受診率（％）	100.0		honpen p.21
+genjo	36	table	がん検診精検受診率（平成30年度）	乳がん検診/精検受診率（％）	100.0		honpen p.21
+chosa	2	kpi	住民アンケートからみた現状	標本数	3000	人	honpen p.22
+chosa	2	kpi	住民アンケートからみた現状	有効回収数	1277	人	honpen p.22
+chosa	2	kpi	住民アンケートからみた現状	回収率	42.6	%	honpen p.22
+chosa	5	chart.rank	健康状態（N=1,277）	とても健康	18.2	%	honpen p.24
+chosa	5	chart.rank	健康状態（N=1,277）	まあまあ健康	67.3	%	honpen p.24
+chosa	5	chart.rank	健康状態（N=1,277）	あまり健康ではない	9.9	%	honpen p.24
+chosa	5	chart.rank	健康状態（N=1,277）	健康でない	1.4	%	honpen p.24
+chosa	5	chart.rank	健康状態（N=1,277）	不明・無回答	3.1	%	honpen p.24
+chosa	7	kpi	栄養・食生活	朝食を「ほぼ毎日とっている」	87.2	%	honpen p.25
+chosa	7	kpi	栄養・食生活	主食・主菜・副菜を組み合わせた食事を1日2回以上「ほぼ毎日とっている」	78.2	%	honpen p.25
+chosa	7	kpi	栄養・食生活	減塩を「心がけている」	60.8	%	honpen p.25
+chosa	7	kpi	栄養・食生活	「食育」に「関心がある」	22.9	%	honpen p.25
+chosa	7	kpi	栄養・食生活	「食育」に「どちらかといえば関心がある」	44.2	%	honpen p.25
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/4～5皿以上食べている	11.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/2～3皿くらいは食べている	68.3	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/ほとんど食べていない（1皿以下）	14.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/不明・無回答	5.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/4～5皿以上食べている	9.5	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/2～3皿くらいは食べている	66.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/ほとんど食べていない（1皿以下）	18.9	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/不明・無回答	5.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/4～5皿以上食べている	9.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/2～3皿くらいは食べている	43.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/ほとんど食べていない（1皿以下）	40.9	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/不明・無回答	6.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/4～5皿以上食べている	11.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/2～3皿くらいは食べている	61.9	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/ほとんど食べていない（1皿以下）	23.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/不明・無回答	3.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/4～5皿以上食べている	3.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/2～3皿くらいは食べている	73.0	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/ほとんど食べていない（1皿以下）	20.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/不明・無回答	3.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/4～5皿以上食べている	7.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/2～3皿くらいは食べている	66.7	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/ほとんど食べていない（1皿以下）	20.0	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/不明・無回答	5.6	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/4～5皿以上食べている	14.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/2～3皿くらいは食べている	68.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/ほとんど食べていない（1皿以下）	14.9	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/不明・無回答	2.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/4～5皿以上食べている	9.3	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/2～3皿くらいは食べている	69.5	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/ほとんど食べていない（1皿以下）	11.0	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/不明・無回答	10.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/4～5皿以上食べている	12.3	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/2～3皿くらいは食べている	72.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/ほとんど食べていない（1皿以下）	10.5	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/不明・無回答	5.0	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/4～5皿以上食べている	5.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/2～3皿くらいは食べている	69.6	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/ほとんど食べていない（1皿以下）	21.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/不明・無回答	3.6	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/4～5皿以上食べている	11.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/2～3皿くらいは食べている	68.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/ほとんど食べていない（1皿以下）	18.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/不明・無回答	2.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/4～5皿以上食べている	12.5	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/2～3皿くらいは食べている	69.2	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/ほとんど食べていない（1皿以下）	14.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/不明・無回答	3.8	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/4～5皿以上食べている	11.9	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/2～3皿くらいは食べている	74.6	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/ほとんど食べていない（1皿以下）	10.4	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/不明・無回答	3.0	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/4～5皿以上食べている	15.9	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/2～3皿くらいは食べている	76.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/ほとんど食べていない（1皿以下）	4.3	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/不明・無回答	3.6	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/4～5皿以上食べている	12.5	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/2～3皿くらいは食べている	71.3	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/ほとんど食べていない（1皿以下）	5.1	%	honpen p.26
+chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/不明・無回答	11.0	%	honpen p.26
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	穀類（ごはん・パン類）と魚介類・肉類・大豆製品と、野菜を組み合わせた食事を心がけている	50.8	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	夜遅い時間の食事を控えている	42.4	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	家族と一緒に食事を食べる	38.5	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	食事の量を調整している	36.7	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	お菓子や甘いものの量を控えている	33.7	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	特定の食品を食べすぎない	20.7	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	友人と一緒に食事を食べる	2.3	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	その他	2.7	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	特に何もしていない	10.3	%	honpen p.27
+chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	不明・無回答	2.7	%	honpen p.27
+chosa	12	kpi	運動	過去1年間、意識して体を動かす等の運動を「している」	51.1	%	honpen p.29
+chosa	12	kpi	運動	運動をしている人のうち、週1回以上	84.7	%	honpen p.29
+chosa	12	kpi	運動	運動をしている人のうち、1回当たり30分以上	62.6	%	honpen p.29
+chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	十分とれている	15.8	%	honpen p.31
+chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	まあまあとれている	54.2	%	honpen p.31
+chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	あまりとれていない	22.1	%	honpen p.31
+chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	全くとれていない	2.0	%	honpen p.31
+chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	不明・無回答	6.0	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	全体/男性	57.5	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	全体/女性	62.4	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	10、20歳代/男性	61.4	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	10、20歳代/女性	73.2	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	30歳代/男性	73.0	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	30歳代/女性	70.8	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	40歳代/男性	70.8	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	40歳代/女性	65.4	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	50歳代/男性	71.1	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	50歳代/女性	70.1	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	60歳代/男性	48.9	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	60歳代/女性	62.3	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	70歳以上/男性	38.1	%	honpen p.31
+chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	70歳以上/女性	45.3	%	honpen p.31
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/全体	73.4		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/男性全体	72.5		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/女性全体	74.6		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/全体	48.2		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/男性全体	34.8		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/女性全体	61.2		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/全体	13.7		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/男性全体	14.3		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/女性全体	14.3		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/全体	1.5		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/男性全体	1.6		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/女性全体	1.5		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/全体	0.4		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/男性全体	0.5		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/女性全体	0.3		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/全体	1.6		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/男性全体	1.6		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/女性全体	1.7		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/全体	6.5		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/男性全体	9.7		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/女性全体	3.7		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/全体	9.0		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/男性全体	10.8		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/女性全体	8.1		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/全体	2.1		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/男性全体	1.5		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/女性全体	2.9		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/全体	6.7		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/男性全体	6.8		honpen p.32
+chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/女性全体	5.8		honpen p.32
+chosa	18	chart.bars	喫煙している人の割合の推移	平成16年	23.8	%	honpen p.36
+chosa	18	chart.bars	喫煙している人の割合の推移	平成21年	19.7	%	honpen p.36
+chosa	18	chart.bars	喫煙している人の割合の推移	平成27年	11.7	%	honpen p.36
+chosa	18	chart.bars	喫煙している人の割合の推移	令和2年	15.9	%	honpen p.36
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	全体/男性	27.3	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	全体/女性	5.6	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	10、20歳代/男性	29.5	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	10、20歳代/女性	5.4	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	30歳代/男性	30.2	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	30歳代/女性	4.2	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	40歳代/男性	29.2	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	40歳代/女性	8.7	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	50歳代/男性	36.7	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	50歳代/女性	9.0	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	60歳代/男性	24.8	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	60歳代/女性	4.3	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	70歳以上/男性	19.5	%	honpen p.35
+chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	70歳以上/女性	2.2	%	honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	全体（203人）/たばこをやめたいと思う	43.3		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	全体（203人）/たばこをやめたいと思わない	46.8		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	全体（203人）/不明・無回答	9.9		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	男性（149人）/たばこをやめたいと思う	43.0		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	男性（149人）/たばこをやめたいと思わない	49.7		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	男性（149人）/不明・無回答	7.4		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	女性（37人）/たばこをやめたいと思う	51.4		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	女性（37人）/たばこをやめたいと思わない	37.8		honpen p.35
+chosa	20	table	禁煙の意向（喫煙している人）（％）	女性（37人）/不明・無回答	10.8		honpen p.35
+chosa	22	chart.rank	飲酒頻度（N=1,277）	毎日飲む	18.4	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	週に５～６日	4.5	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	週に３～4日	4.9	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	週に１～２日	5.2	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	時々飲む	17.6	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	以前は飲んでいたがやめた	3.0	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	飲まない	44.2	%	honpen p.37
+chosa	22	chart.rank	飲酒頻度（N=1,277）	不明・無回答	2.3	%	honpen p.37
+chosa	24	kpi	歯・口腔の健康	歯科健診を「受けている」	34.8	%	honpen p.40
+chosa	24	kpi	歯・口腔の健康	「受けたり受けなかったりする」	20.3	%	honpen p.40
+chosa	24	kpi	歯・口腔の健康	「受けていない」	38.4	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	全体/男性	46.1	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	全体/女性	31.6	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	10、20歳代/男性	54.5	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	10、20歳代/女性	46.4	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	30歳代/男性	50.8	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	30歳代/女性	34.7	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	40歳代/男性	47.2	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	40歳代/女性	22.1	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	50歳代/男性	45.6	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	50歳代/女性	30.6	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	60歳代/男性	46.8	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	60歳代/女性	29.7	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	70歳以上/男性	39.0	%	honpen p.40
+chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	70歳以上/女性	33.8	%	honpen p.40
+chosa	26	table	子どもの虫歯（平成30年度）	3歳半/虫歯罹患率（％）	15.7		honpen p.41
+chosa	26	table	子どもの虫歯（平成30年度）	3歳半/1人当たりの虫歯の平均本数（本）	0.587		honpen p.41
+chosa	26	table	子どもの虫歯（平成30年度）	6歳（小1）/虫歯罹患率（％）	51.0		honpen p.41
+chosa	26	table	子どもの虫歯（平成30年度）	6歳（小1）/1人当たりの虫歯の平均本数（本）	2.0		honpen p.41
+chosa	26	table	子どもの虫歯（平成30年度）	12歳（中1）/虫歯罹患率（％）	22.3		honpen p.41
+chosa	26	table	子どもの虫歯（平成30年度）	12歳（中1）/1人当たりの虫歯の平均本数（本）	0.43		honpen p.41
+chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/日野町の健診を受けた	19.7	%	honpen p.43
+chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/職場の健診を受けた	43.9	%	honpen p.43
+chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/個人で受けた	10.3	%	honpen p.43
+chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/受けていない	18.6	%	honpen p.43
+chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/不明・無回答	7.5	%	honpen p.43
+chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/日野町の検診を受けた	10.3	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/職場の検診を受けた	20.0	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/個人で受けた	11.0	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/受けていない	45.6	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/不明・無回答	13.2	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/日野町の検診を受けた	6.7	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/職場の検診を受けた	16.8	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/個人で受けた	15.1	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/受けていない	48.1	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/不明・無回答	13.3	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/日野町の検診を受けた	10.3	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/職場の検診を受けた	24.0	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/個人で受けた	9.9	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/受けていない	41.2	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/不明・無回答	14.6	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/日野町の検診を受けた	14.5	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/職場の検診を受けた	11.0	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/個人で受けた	16.6	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/受けていない	43.7	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/不明・無回答	14.3	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/日野町の検診を受けた	15.4	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/職場の検診を受けた	10.8	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/個人で受けた	14.9	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/受けていない	47.0	%	honpen p.42
+chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/不明・無回答	11.9	%	honpen p.42
+shisaku	6	programs	施策の体系と分野別の取り組み	事業数	14	件	honpen p.54-55
+shisaku	7	programs	施策の体系と分野別の取り組み	事業数	11	件	honpen p.58-59
+shisaku	8	programs	施策の体系と分野別の取り組み	事業数	5	件	honpen p.60-61
+shisaku	9	programs	施策の体系と分野別の取り組み	事業数	6	件	honpen p.62-63
+shisaku	10	programs	施策の体系と分野別の取り組み	事業数	4	件	honpen p.64
+shisaku	11	programs	施策の体系と分野別の取り組み	事業数	4	件	honpen p.66-67
+shisaku	12	programs	施策の体系と分野別の取り組み	事業数	6	件	honpen p.68-69
+shisaku	13	programs	施策の体系と分野別の取り組み	事業数	21	件	honpen p.70-71
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	メタボ該当者（全体）/現状値（R2年度）	17.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	メタボ該当者（男性）/現状値（R2年度）	26.8		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	メタボ該当者（女性）/現状値（R2年度）	9.4		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	肥満者（男性）/現状値（R2年度）	27.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	肥満者（男性）/目標値（R8年度）	20.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	肥満者（女性）/現状値（R2年度）	19.3		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	肥満者（女性）/目標値（R8年度）	14.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	肥満傾向の子ども（小5男子）/現状値（R2年度）	10.4		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	肥満傾向の子ども（小5女子）/現状値（R2年度）	4.9		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	朝食の欠食率（小5）/現状値（R2年度）	2.1		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	朝食の欠食率（小5）/目標値（R8年度）	1.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	朝食の欠食率（中2）/現状値（R2年度）	3.1		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	朝食の欠食率（中2）/目標値（R8年度）	3.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	低出生体重児の割合/現状値（R2年度）	10.6		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	野菜をほとんど食べない人/現状値（R2年度）	14.8		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	野菜をほとんど食べない人/目標値（R8年度）	10.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	バランスのよい食事に気をつける人/現状値（R2年度）	50.8		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	バランスのよい食事に気をつける人/目標値（R8年度）	55.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	みそ汁が薄いと思う人（一般）/現状値（R2年度）	59.4		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	みそ汁が薄いと思う人（一般）/目標値（R8年度）	35.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	みそ汁が薄いと思う人（中学生）/現状値（R2年度）	62.5		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	みそ汁が薄いと思う人（中学生）/目標値（R8年度）	35.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	塩分チェック14点以上（一般）/現状値（R2年度）	31.3		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	塩分チェック14点以上（一般）/目標値（R8年度）	30.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	塩分チェック14点以上（中学生）/現状値（R2年度）	37.4		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	塩分チェック14点以上（中学生）/目標値（R8年度）	30.0		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	低栄養傾向の高齢者/現状値（R2年度）	19.7		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	学校給食の地場産物使用割合/現状値（R2年度）	46.7		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	食育に関心を持つ住民/現状値（R2年度）	67.1		honpen p.56
+mokuhyo	5	table	栄養・食生活（食育計画）の指標（単位の記載がない値は％）	食育に関心を持つ住民/目標値（R8年度）	70.0		honpen p.56
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	意識して運動をしている人/現状値（R2年度）	51.1		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	意識して運動をしている人/目標値（R8年度）	60.0		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	1回30分以上の運動習慣（男性）/現状値（R2年度）	30.9		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	1回30分以上の運動習慣（男性）/目標値（R8年度）	45.0		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	1回30分以上の運動習慣（女性）/現状値（R2年度）	32.9		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	1回30分以上の運動習慣（女性）/目標値（R8年度）	45.0		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	徒歩10分の所へ徒歩で行く人/現状値（R2年度）	21.1		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	徒歩10分の所へ徒歩で行く人/目標値（R8年度）	25.0		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	週の運動60分未満の子（小5男子）/現状値（R2年度）	16.9		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	週の運動60分未満の子（小5女子）/現状値（R2年度）	18.0		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	男性のための運動の場（箇所）/現状値（R2年度）	3		honpen p.59
+mokuhyo	7	table	身体活動・運動の指標（単位の記載がない値は％）	男性のための運動の場（箇所）/目標値（R8年度）	5		honpen p.59
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	睡眠で休養が取れていない人/現状値（R2年度）	33.1		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	ストレスを感じている人※/現状値（R2年度）	32.8		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	自殺死亡率（人口10万対）/現状値（R2年度）	23.4		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	自殺死亡率（人口10万対）/目標値（R8年度）	13.0		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	自殺者数（人）/現状値（R2年度）	26		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	自殺者数（人）/目標値（R8年度）	15		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	高齢者交流サロン開催団体数（団体）/現状値（R2年度）	14		honpen p.61
+mokuhyo	9	table	休養・こころの健康の指標（単位の記載がない値は％）	高齢者交流サロン開催団体数（団体）/目標値（R8年度）	20		honpen p.61
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	成人の喫煙率（男性）/現状値（R2年度）	27.3		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	成人の喫煙率（女性）/現状値（R2年度）	5.6		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	妊婦の喫煙者数（人）/現状値（R2年度）	3		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	妊婦の喫煙者数（人）/目標値（R8年度）	0		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	妊婦の喫煙者（割合）/現状値（R2年度）	2.0		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	妊婦の喫煙者（割合）/目標値（R8年度）	0.0		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	妊婦の同居家族の喫煙者数（人）/現状値（R2年度）	67		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	妊婦の同居家族の喫煙率/現状値（R2年度）	44.7		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	乳幼児がいる家族の喫煙（母親）/現状値（R2年度）	4.9		honpen p.63
+mokuhyo	11	table	たばこの指標（単位の記載がない値は％）	乳幼児がいる家族の喫煙（父親）/現状値（R2年度）	38.6		honpen p.63
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	リスクを高める量の飲酒（男性）/現状値（R2年度）	12.8		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	リスクを高める量の飲酒（女性）/現状値（R2年度）	1.2		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	適度な飲酒量の認知度/現状値（R2年度）	48.9		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	適度な飲酒量の認知度/目標値（R8年度）	60.0		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	妊娠中の飲酒者数（人）/現状値（R2年度）	0		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	妊娠中の飲酒者数（人）/目標値（R8年度）	0		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	妊娠中の飲酒者（割合）/現状値（R2年度）	0.0		honpen p.65
+mokuhyo	13	table	アルコールの指標（単位の記載がない値は％）	妊娠中の飲酒者（割合）/目標値（R8年度）	0.0		honpen p.65
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	3歳児で虫歯のない人/現状値（R2年度）	84.3		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	3歳児で虫歯のない人/目標値（R8年度）	90.0		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	12歳児の一人平均虫歯数（本）/現状値（R2年度）	0.43		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	12歳児の一人平均虫歯数（本）/目標値（R8年度）	0.3		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	定期的に歯科健診を受ける人/現状値（R2年度）	34.8		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	定期的に歯科健診を受ける人/目標値（R8年度）	50.0		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	よく噛んで食べることを意識する人/現状値（R2年度）	53.5		honpen p.67
+mokuhyo	15	table	歯・口腔の健康の指標（単位の記載がない値は％）	よく噛んで食べることを意識する人/目標値（R8年度）	60.0		honpen p.67
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	特定健診受診率（全体）/現状値（R2年度）	39.4		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	特定健診受診率（全体）/目標値（R8年度）	60.0		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	特定健診受診率（40歳代）/現状値（R2年度）	25.9		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	特定健診受診率（40歳代）/目標値（R8年度）	25.0		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	要受診者の受診率（全体）/現状値（R2年度）	58.4		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	要受診者の受診率（ハイリスク者）/現状値（R2年度）	53.4		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	特定保健指導実施率/現状値（R2年度）	71.3		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	特定保健指導実施率/目標値（R8年度）	70.0		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	高血圧で治療していない人/現状値（R2年度）	57.7		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	糖尿病の未治療者/現状値（R2年度）	48.1		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診受診率（胃）/現状値（R2年度）	6.1		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診受診率（大腸）/現状値（R2年度）	4.8		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診受診率（肺）/現状値（R2年度）	2.5		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診受診率（子宮）/現状値（R2年度）	11.9		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診受診率（乳）/現状値（R2年度）	16.6		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（胃）/現状値（R2年度）	94.1		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（胃）/目標値（R8年度）	90		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（大腸）/現状値（R2年度）	84.1		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（大腸）/目標値（R8年度）	90		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（肺）/現状値（R2年度）	92.9		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（肺）/目標値（R8年度）	90		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（子宮）/現状値（R2年度）	100.0		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（子宮）/目標値（R8年度）	90		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（乳）/現状値（R2年度）	100.0		honpen p.69
+mokuhyo	17	table	生活習慣病（循環器疾患・がん等）の予防の指標（単位の記載がない値は％）	がん検診精検受診率（乳）/目標値（R8年度）	90		honpen p.69
+mokuhyo	19	table	健康づくりを支援する環境づくりの推進の指標（単位の記載がない値は％）	健康推進員の認知度/現状値（R2年度）	60.3		honpen p.72
+mokuhyo	19	table	健康づくりを支援する環境づくりの推進の指標（単位の記載がない値は％）	健康推進員の認知度/目標値（R8年度）	70.0		honpen p.72
+mokuhyo	19	table	健康づくりを支援する環境づくりの推進の指標（単位の記載がない値は％）	介護予防ボランティア延べ養成数（人）/現状値（R2年度）	319		honpen p.72
+mokuhyo	19	table	健康づくりを支援する環境づくりの推進の指標（単位の記載がない値は％）	介護予防ボランティア延べ養成数（人）/目標値（R8年度）	359		honpen p.72
+mokuhyo	19	table	健康づくりを支援する環境づくりの推進の指標（単位の記載がない値は％）	男性のための運動の場・再掲（箇所）/現状値（R2年度）	3		honpen p.72
+mokuhyo	19	table	健康づくりを支援する環境づくりの推進の指標（単位の記載がない値は％）	男性のための運動の場・再掲（箇所）/目標値（R8年度）	5		honpen p.72
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	メタボ該当者（全体）/策定値（H26年度）	15.1		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	メタボ該当者（全体）/現状値（R2年度）	17.0		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	メタボ該当者（男性）/策定値（H26年度）	25.1		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	メタボ該当者（男性）/現状値（R2年度）	26.8		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	メタボ該当者（女性）/策定値（H26年度）	7.6		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	メタボ該当者（女性）/現状値（R2年度）	9.4		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	肥満者（男性）/策定値（H26年度）	24.9		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	肥満者（男性）/現状値（R2年度）	27.0		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	肥満者（女性）/策定値（H26年度）	19.3		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	肥満者（女性）/現状値（R2年度）	19.3		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	朝食の欠食率（小学生）/策定値（H26年度）	9.7		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	朝食の欠食率（小学生）/目標値（R2年度）	5.0		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	朝食の欠食率（小学生）/現状値（R2年度）	15.9		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	朝食の欠食率（中学生）/策定値（H26年度）	13.8		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	朝食の欠食率（中学生）/目標値（R2年度）	7.0		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	朝食の欠食率（中学生）/現状値（R2年度）	9.4		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	低出生体重児の割合/策定値（H26年度）	11.1		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	低出生体重児の割合/現状値（R2年度）	10.6		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	野菜をほとんど食べない人/策定値（H26年度）	14.8		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	野菜をほとんど食べない人/目標値（R2年度）	10.0		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	野菜をほとんど食べない人/現状値（R2年度）	14.8		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	バランスのよい食事に気をつける人/策定値（H26年度）	29.2		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	バランスのよい食事に気をつける人/目標値（R2年度）	35.0		honpen p.44
+hyoka	4	table	栄養・食生活（食育計画）の評価（単位の記載がない値は％）	バランスのよい食事に気をつける人/現状値（R2年度）	50.8		honpen p.44
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	運動習慣者（週1回以上）※1/策定値（H26年度）	39.3		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	運動習慣者（週1回以上）※1/目標値（R2年度）	50.0		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：意識して運動をしている人（全体）/現状値（R2年度）	51.1		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：意識して運動をしている人（男性）/現状値（R2年度）	55.1		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：意識して運動をしている人（女性）/現状値（R2年度）	48.2		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：30分以上の運動習慣（男性H28）/現状値（R2年度）	38.2		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：30分以上の運動習慣（女性H28）/現状値（R2年度）	32.3		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：30分以上の運動習慣（男性R1）/現状値（R2年度）	30.9		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	参考：30分以上の運動習慣（女性R1）/現状値（R2年度）	32.9		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	徒歩10分の所へ徒歩で行く人/策定値（H26年度）	21.6		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	徒歩10分の所へ徒歩で行く人/目標値（R2年度）	30.0		honpen p.45
+hyoka	6	table	身体活動・運動の評価（単位の記載がない値は％）	徒歩10分の所へ徒歩で行く人/現状値（R2年度）	21.1		honpen p.45
+hyoka	8	table	休養・こころの健康の評価（単位の記載がない値は％）	睡眠で休養が取れていない人/策定値（H26年度）	20.7		honpen p.46
+hyoka	8	table	休養・こころの健康の評価（単位の記載がない値は％）	睡眠で休養が取れていない人/目標値（R2年度）	16.0		honpen p.46
+hyoka	8	table	休養・こころの健康の評価（単位の記載がない値は％）	睡眠で休養が取れていない人/現状値（R2年度）	33.1		honpen p.46
+hyoka	8	table	休養・こころの健康の評価（単位の記載がない値は％）	ストレスを感じている人※/策定値（H26年度）	70.1		honpen p.46
+hyoka	8	table	休養・こころの健康の評価（単位の記載がない値は％）	ストレスを感じている人※/目標値（R2年度）	65.0		honpen p.46
+hyoka	8	table	休養・こころの健康の評価（単位の記載がない値は％）	ストレスを感じている人※/現状値（R2年度）	32.8		honpen p.46
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	成人の喫煙率（男性）/策定値（H26年度）	21.7		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	成人の喫煙率（男性）/目標値（R2年度）	15.0		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	成人の喫煙率（男性）/現状値（R2年度）	27.3		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	成人の喫煙率（女性）/策定値（H26年度）	3.6		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	成人の喫煙率（女性）/目標値（R2年度）	2.5		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	成人の喫煙率（女性）/現状値（R2年度）	5.6		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	未成年者の喫煙（人）/目標値（R2年度）	0		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	未成年者の喫煙（人）/現状値（R2年度）	4		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の喫煙者数（人）/策定値（H26年度）	11		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の喫煙者数（人）/目標値（R2年度）	0		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の喫煙者数（人）/現状値（R2年度）	3		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の喫煙者（割合）/策定値（H26年度）	5.8		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の喫煙者（割合）/現状値（R2年度）	2.0		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の同居家族の喫煙者数（人）/策定値（H26年度）	77		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の同居家族の喫煙者数（人）/目標値（R2年度）	0		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の同居家族の喫煙者数（人）/現状値（R2年度）	67		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の同居家族の喫煙率/策定値（H26年度）	40.7		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	妊婦の同居家族の喫煙率/現状値（R2年度）	44.7		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	禁煙外来（箇所）/策定値（H26年度）	2		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	禁煙外来（箇所）/現状値（R2年度）	2		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	禁煙相談登録薬局数（箇所）/策定値（H26年度）	2		honpen p.47
+hyoka	10	table	たばこの評価（単位の記載がない値は％）	禁煙相談登録薬局数（箇所）/現状値（R2年度）	1		honpen p.47
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	リスクを高める量の飲酒（男性）/策定値（H26年度）	12.1		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	リスクを高める量の飲酒（男性）/目標値（R2年度）	10.3		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	リスクを高める量の飲酒（男性）/現状値（R2年度）	12.8		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	リスクを高める量の飲酒（女性）/策定値（H26年度）	5.1		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	リスクを高める量の飲酒（女性）/目標値（R2年度）	4.3		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	リスクを高める量の飲酒（女性）/現状値（R2年度）	1.2		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（男性）/策定値（H26年度）	44.8		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（男性）/目標値（R2年度）	35.0		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（男性）/現状値（R2年度）	56.8		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（女性）/策定値（H26年度）	31.2		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（女性）/目標値（R2年度）	35.0		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（女性）/現状値（R2年度）	42.6		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（検診受診者）/策定値（H26年度）	20.9		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	適度な飲酒量の認識（検診受診者）/目標値（R2年度）	35.0		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	未成年者の飲酒※（人）/目標値（R2年度）	0		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	妊娠中の飲酒者数（人）/策定値（H26年度）	3		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	妊娠中の飲酒者数（人）/目標値（R2年度）	0		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	妊娠中の飲酒者数（人）/現状値（R2年度）	0		honpen p.48
+hyoka	12	table	アルコールの評価（単位の記載がない値は％）	妊娠中の飲酒者（割合）/策定値（H26年度）	1.6		honpen p.48
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	3歳半での虫歯罹患率/策定値（H26年度）	23.1		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	3歳半での虫歯罹患率/目標値（R2年度）	10.0		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	3歳半での虫歯罹患率/現状値（R2年度）	15.7		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	12歳児の一人平均虫歯数（本）/策定値（H26年度）	1.20		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	12歳児の一人平均虫歯数（本）/目標値（R2年度）	0.5		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	12歳児の一人平均虫歯数（本）/現状値（R2年度）	0.43		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	歯ぐきから出血する人※/策定値（H26年度）	12.5		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	歯ぐきから出血する人※/目標値（R2年度）	10.0		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	定期的に歯科健診を受ける人/策定値（H26年度）	41.2		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	定期的に歯科健診を受ける人/目標値（R2年度）	50.0		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	定期的に歯科健診を受ける人/現状値（R2年度）	34.8		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	フッ素の認知度/目標値（R2年度）	50.0		honpen p.49
+hyoka	14	table	歯・口腔の健康の評価（単位の記載がない値は％）	フッ素の認知度/現状値（R2年度）	78.2		honpen p.49
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定健診受診率（全体）/策定値（H26年度）	35.6		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定健診受診率（全体）/目標値（R2年度）	60.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定健診受診率（全体）/現状値（R2年度）	39.4		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定健診受診率（40歳代）/策定値（H26年度）	17.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定健診受診率（40歳代）/目標値（R2年度）	26.6		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定健診受診率（40歳代）/現状値（R2年度）	25.9		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	要医療者の受診率（全体）/策定値（H26年度）	48.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	要医療者の受診率（全体）/目標値（R2年度）	56.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	要医療者の受診率（全体）/現状値（R2年度）	58.4		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	要医療者の受診率（レベル3特例等）※/策定値（H26年度）	62.5		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	要医療者の受診率（レベル3特例等）※/目標値（R2年度）	70.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	要医療者の受診率（レベル3特例等）※/現状値（R2年度）	53.4		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定保健指導実施率/策定値（H26年度）	75.2		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定保健指導実施率/目標値（R2年度）	70.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	特定保健指導実施率/現状値（R2年度）	71.3		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	未治療高血圧者の割合/策定値（H26年度）	71.6		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	未治療高血圧者の割合/目標値（R2年度）	35.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	未治療高血圧者の割合/現状値（R2年度）	57.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	未治療耐糖能異常者の割合/策定値（H26年度）	66.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	未治療耐糖能異常者の割合/目標値（R2年度）	30.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	未治療耐糖能異常者の割合/現状値（R2年度）	48.1		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（胃）/策定値（H26年度）	12.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（胃）/目標値（R2年度）	13.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（胃）/現状値（R2年度）	6.1		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（大腸）/策定値（H26年度）	19.5		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（大腸）/目標値（R2年度）	20.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（大腸）/現状値（R2年度）	4.8		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（肺）/策定値（H26年度）	2.6		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（肺）/目標値（R2年度）	5.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（肺）/現状値（R2年度）	2.5		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（子宮）/策定値（H26年度）	29.8		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（子宮）/目標値（R2年度）	30.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（子宮）/現状値（R2年度）	11.9		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（乳）/策定値（H26年度）	31.8		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（乳）/目標値（R2年度）	32.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診受診率（乳）/現状値（R2年度）	16.6		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（胃）/策定値（H26年度）	96.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（胃）/目標値（R2年度）	100.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（胃）/現状値（R2年度）	94.1		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（大腸）/策定値（H26年度）	96.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（大腸）/目標値（R2年度）	100.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（大腸）/現状値（R2年度）	84.1		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（肺）/策定値（H26年度）	96.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（肺）/目標値（R2年度）	100.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（肺）/現状値（R2年度）	92.9		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（子宮）/策定値（H26年度）	96.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（子宮）/目標値（R2年度）	100.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（子宮）/現状値（R2年度）	100.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（乳）/策定値（H26年度）	96.7		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（乳）/目標値（R2年度）	100.0		honpen p.50
+hyoka	16	table	生活習慣病（循環器疾患・がん等）の評価（単位の記載がない値は％）	がん検診精検受診率（乳）/現状値（R2年度）	100.0		honpen p.50

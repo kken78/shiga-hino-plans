@@ -110,6 +110,53 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
   スキーマ検証・全計画の再生成・生成物の一致確認・ゲートA・ゲートBを自動で実行する。
   生成物(docs/・build/)は JSON から再生成した結果と一致している必要がある。
 
+## 並行作業(複数のエージェントで計画を進める)
+
+残りの計画は、PCの Claude Code を取りまとめ役にして、複数のエージェントで並行して進める(2026-10、依頼者の指定)。
+エージェントの定義は `.claude/agents/` にある。
+- `plan-builder`: 計画1本の起票・検証・描画・段1・段2の設問づくり
+- `audit-checker`: 段2の照合(起票の経緯を知らない係。同じ設問を2人に別々に渡す)
+- `text-reviewer`: 段3の文章点検(起票担当とは別の係)
+
+**順番**はハブのトップページの並び(分野の帯の順、帯の中は表示順)。5本ずつのバッチで進める。
+| バッチ | 計画 |
+|---|---|
+| 1 | sogo6・senryaku2・partner・jisshi・kokudoriyou |
+| 2 | toshimaster・shasi-jyutaku・jyuseikatsu・jyutaku-choju・taishin |
+| 3 | shasi-jishin・shasi-koen・shasi-koutsu・kyoryo・tsugakuro |
+| 4 | midori・bunbetsu・chiiki-fukushi4・kaigo9・shogai-keikaku |
+| 5 | shogai-fukushi7・katsuyaku-cho・katsuyaku-kyo・kenko-shokuiku4・inochi2 |
+| 6 | youho・bunkazai・kyoiku3・bosai・kyojin |
+| 7 | tokutei-jigyo・suido2・security・shinrin・nogyo-tamen・seibutsu |
+
+**取りまとめ役の手順**(1バッチごと):
+1. 準備: `git switch main && git pull`。バッチの計画の原典ファイルで、ファイル名(.pdf を除く)が出典idの形
+   (`^[a-z][a-z0-9_-]*$`)でないものは、英小文字・数字・`-` だけの名前に変え(数字で始まるものは先頭に `x` を付ける。
+   例 `2.pdf`→`x2.pdf`、`marugoto(r5).pdf`→`marugoto-r5.pdf`)、`data/sources_index.tsv` の file 列も直す。
+   この変更はバッチのブランチ `batch-<番号>` に入れる。
+2. 作業ツリー: 計画ごとに `git worktree add /home/kken78/GitHub/hino-wt/<id> -b plan-<id> batch-<番号>` を作り、
+   `ln -s /home/kken78/GitHub/shiga-hino-plans/sources_raw /home/kken78/GitHub/hino-wt/<id>/sources_raw` でつなぐ。
+3. 起票: バッチの全計画について `plan-builder` を同時に動かす(計画id と作業ツリーのフルパスを渡す)。
+4. 照合と点検: 起票が終わった計画から、`build/audit/<id>.ai_items.json` を150行以内の束に分け、束ごとに
+   `audit-checker` を2人(A・B)別々に動かす。同時に `text-reviewer` を1人動かす。A・B の結果をそれぞれ1つの
+   ファイルにまとめ、作業ツリーで次を実行してコミットする。
+   ```bash
+   python3 tools/audit_autocheck.py <id> --ai-record <A.json> <B.json>
+   python3 tools/audit_autocheck.py <id> --select
+   python3 tools/audit_autocheck.py <id> --status      # 段4(人)が残るので「未完了」でよい
+   ```
+5. 統合: `batch-<番号>` に各 `plan-<id>` を `git merge --no-ff` で取り込み、`data/manifest.json` に
+   `"dashboard": "plans/<id>.html"` を足して `python3 tools/build.py`・`node tools/validate.mjs docs/index.html`。
+   プッシュしてプルリクエストを作り(本文に計画ごとの行数・段1/段2/要人確認の件数・段3の指摘件数・判断を仰ぐ点)、
+   CI の結果を待つ。CI が通ればマージし、作業ツリーを片付けて次のバッチへ進む。
+   **バッチ1だけはマージせずに止め**、依頼者(とクラウドの Claude)の確認を待つ。
+6. 進捗: `/home/kken78/GitHub/hino-wt/PROGRESS.md` に、バッチと計画ごとの状態(起票・段1・段2・段3・PR番号)を
+   書き足す。取りまとめ役のセッションが途中で切れても、新しいセッションがこのファイルから再開できるようにする。
+
+段4(人による確認。`audit_worksheet.py <id> --focus`)と、段3の指摘の扱い(H3)の判断は、依頼者があとでまとめて行う。
+エージェントは `tools/`・`templates/`・`PLAN_SCHEMA.md` を変えない。語彙が足りないという報告が集まったら、
+取りまとめ役はバッチの区切りで依頼者に相談する(スキーマが先。不変の制約5)。
+
 ## 抽出時の判断基準
 
 - どのタブ構成にするかは計画の性格で決める。参考パターン:

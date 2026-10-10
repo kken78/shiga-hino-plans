@@ -258,6 +258,9 @@ def validate(path):
         if sid in source_ids:
             rep.err(w, f"出典idが重複: {sid}")
         source_ids.add(sid)
+        off = s.get("pdf_page_offset")
+        if off is not None and (isinstance(off, bool) or not isinstance(off, int) or off < 0):
+            rep.err(w, f"pdf_page_offset は0以上の整数: {off!r}")
 
     # タブ
     tabs = d.get("tabs", [])

@@ -26,7 +26,8 @@
     {
       "id": "honpen",
       "label": "日野町公共施設等総合管理計画（令和4年3月改定）",
-      "url": "https://www.town.shiga-hino.lg.jp/0000003748.html"
+      "url": "https://www.town.shiga-hino.lg.jp/0000003748.html",
+      "pdf_page_offset": 3
     }
   ],
   "tabs": [

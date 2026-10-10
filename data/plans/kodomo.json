@@ -24,7 +24,7 @@
   },
 
   "sources": [
-    { "id": "honpen", "label": "第3期 子ども・子育て支援事業計画 本編", "url": "https://www.town.shiga-hino.lg.jp/0000005154.html" }
+    { "id": "honpen", "label": "第3期 子ども・子育て支援事業計画 本編", "url": "https://www.town.shiga-hino.lg.jp/0000005154.html", "pdf_page_offset": 6 }
   ],
 
   "tabs": [

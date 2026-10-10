@@ -65,12 +65,16 @@ DESIGN.md「撤退基準」参照)。
 
 ```jsonc
 "sources": [
-  { "id": "honpen",  "label": "計画本編(令和7年3月)", "url": "https://…pdf" },
+  { "id": "honpen",  "label": "計画本編(令和7年3月)", "url": "https://…pdf", "pdf_page_offset": 6 },
   { "id": "gaiyo",   "label": "概要版", "url": "https://…pdf" },
   { "id": "jyuki",   "label": "住民基本台帳(町公表値)" }
 ]
 ```
 
+- `pdf_page_offset`(任意・0以上の整数): `source` のページ番号(印刷ページ番号)を PDF の
+  ページ番号に換えるときに足す数。`PDFページ = 印刷ページ + pdf_page_offset`。表紙や目次に
+  ページ番号がない原典では、印刷ページとPDFページがずれる(例: kodomo は 6、koutsu は 4)。
+  機械照合(ADR-7 補遺 L)が出典ページの PDF を開くのに使う。表示には使わない。
 - データ系ブロック(§6-B)の `source` は `"<出典id> p.12"` /
   `"<出典id> p.8-9"` の形式でここを参照する。台帳にないidは検証エラー。
 - **原典で確認できない数値は書かない。** 空欄・省略が正。推定値を

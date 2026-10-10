@@ -1,0 +1,536 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+34d9c598f64976b5	summary	3	kpi		総人口	21322	人	honpen p.6-7				
+54e75acbfdf85233	summary	3	kpi		高齢化率	30.3	%	honpen p.6-7				
+de5382fd6286921f	summary	3	kpi		65歳以上の方のみの世帯	2169	世帯	honpen p.6-7				
+8842eb9a54e49cdd	summary	3	kpi		65歳以上のひとり暮らしの世帯	1097	世帯	honpen p.6-7				
+a75e37540c18b519	summary	4	kpi		要支援・要介護認定者数	1050	人	honpen p.28				
+51cfede30916bbaa	summary	4	kpi		障害者手帳所持者数	1290	人	honpen p.28				
+0f652ac6184b6523	summary	4	kpi		生活保護受給世帯	125	世帯	honpen p.28				
+e454bbde49fb159c	summary	4	kpi		母子世帯数	182	世帯	honpen p.28				
+f5f5d7ee81945acd	genjo	4	table	人口の年次推移（人）	総人口/H2	22391		honpen p.4				
+5b2a73d5931b864d	genjo	4	table	人口の年次推移（人）	総人口/H7	23132		honpen p.4				
+29cf1df84b3395bc	genjo	4	table	人口の年次推移（人）	総人口/H12	23022		honpen p.4				
+f938755db627d042	genjo	4	table	人口の年次推移（人）	総人口/H17	22809		honpen p.4				
+fe85289ce770fd82	genjo	4	table	人口の年次推移（人）	総人口/H22	22870		honpen p.4				
+cebe6bb704757c1f	genjo	4	table	人口の年次推移（人）	総人口/H27	21873		honpen p.4				
+65d3b34f553ec3eb	genjo	4	table	人口の年次推移（人）	総人口/R2	21322		honpen p.4				
+70bebd93e86302d4	genjo	4	table	人口の年次推移（人）	0～14歳/H2	4472		honpen p.4				
+4525a33ec834e03a	genjo	4	table	人口の年次推移（人）	0～14歳/H7	4135		honpen p.4				
+c2c657d597b8fb9d	genjo	4	table	人口の年次推移（人）	0～14歳/H12	3613		honpen p.4				
+aec82de2a4d5ea61	genjo	4	table	人口の年次推移（人）	0～14歳/H17	3215		honpen p.4				
+aa17c51bbdc45406	genjo	4	table	人口の年次推移（人）	0～14歳/H22	3043		honpen p.4				
+f08b385cdc30d6c1	genjo	4	table	人口の年次推移（人）	0～14歳/H27	2835		honpen p.4				
+1d663795f8c92118	genjo	4	table	人口の年次推移（人）	0～14歳/R2	2654		honpen p.4				
+9eab66bc29f734c0	genjo	4	table	人口の年次推移（人）	15～64歳/H2	14036		honpen p.4				
+711401e373738e37	genjo	4	table	人口の年次推移（人）	15～64歳/H7	14518		honpen p.4				
+512215fd6e8da012	genjo	4	table	人口の年次推移（人）	15～64歳/H12	14311		honpen p.4				
+b1c225f04a81f6a0	genjo	4	table	人口の年次推移（人）	15～64歳/H17	14262		honpen p.4				
+87166160181b01be	genjo	4	table	人口の年次推移（人）	15～64歳/H22	14217		honpen p.4				
+ac433ec1d285c596	genjo	4	table	人口の年次推移（人）	15～64歳/H27	12840		honpen p.4				
+51542dca018b715a	genjo	4	table	人口の年次推移（人）	15～64歳/R2	12199		honpen p.4				
+5cb67844128207e8	genjo	4	table	人口の年次推移（人）	65歳以上/H2	3872		honpen p.4				
+666a9f4013e34a32	genjo	4	table	人口の年次推移（人）	65歳以上/H7	4479		honpen p.4				
+ae9947c53866baa4	genjo	4	table	人口の年次推移（人）	65歳以上/H12	5095		honpen p.4				
+6fb87e2620af5116	genjo	4	table	人口の年次推移（人）	65歳以上/H17	5332		honpen p.4				
+2383057724aac8d6	genjo	4	table	人口の年次推移（人）	65歳以上/H22	5553		honpen p.4				
+a0b54d49c45c7f5c	genjo	4	table	人口の年次推移（人）	65歳以上/H27	6088		honpen p.4				
+4bf9f281dc6ae610	genjo	4	table	人口の年次推移（人）	65歳以上/R2	6469		honpen p.4				
+9d76e7c8598f62dc	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H2/0～14歳	20.0	%	honpen p.4				
+a70355faae1cad1e	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H2/15～64歳	62.7	%	honpen p.4				
+f3506b3d99d8fe8e	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H2/65歳以上	17.3	%	honpen p.4				
+208495b2b88e89d0	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H7/0～14歳	17.9	%	honpen p.4				
+bcfacfcf29588a32	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H7/15～64歳	62.8	%	honpen p.4				
+18b2af6d9b66ddc3	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H7/65歳以上	19.4	%	honpen p.4				
+3a94c9df16abf1cf	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H12/0～14歳	15.7	%	honpen p.4				
+a523c24e5a5a9022	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H12/15～64歳	62.2	%	honpen p.4				
+5321460b866ee5fd	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H12/65歳以上	22.1	%	honpen p.4				
+93a802ca2dce589e	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H17/0～14歳	14.1	%	honpen p.4				
+19582a6566b10a04	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H17/15～64歳	62.5	%	honpen p.4				
+e8b245cb205a618c	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H17/65歳以上	23.4	%	honpen p.4				
+d5b96f31901787e7	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H22/0～14歳	13.3	%	honpen p.4				
+b012a459239886f6	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H22/15～64歳	62.3	%	honpen p.4				
+eda7f87233f15509	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H22/65歳以上	24.3	%	honpen p.4				
+fbfaba47da9c7032	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H27/0～14歳	13.0	%	honpen p.4				
+bc7d11e3927b0a3f	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H27/15～64歳	59.0	%	honpen p.4				
+322d0325c3f01c36	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	H27/65歳以上	28.0	%	honpen p.4				
+aae63e6951dacf19	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	R2/0～14歳	12.4	%	honpen p.4				
+df3ee1e766d46349	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	R2/15～64歳	57.2	%	honpen p.4				
+10fc50f5acab9eba	genjo	5	chart.stacked100	年齢3区分別人口構造比の推移	R2/65歳以上	30.3	%	honpen p.4				
+dfa1faecc1afedd4	genjo	8	table	世帯数及び1世帯当たり人員の推移	世帯数（世帯）/H7	6683		honpen p.5				
+728a6a2aa1aa4608	genjo	8	table	世帯数及び1世帯当たり人員の推移	世帯数（世帯）/H12	7678		honpen p.5				
+cbaacb0706a75291	genjo	8	table	世帯数及び1世帯当たり人員の推移	世帯数（世帯）/H17	7131		honpen p.5				
+09c8b444db5f7349	genjo	8	table	世帯数及び1世帯当たり人員の推移	世帯数（世帯）/H22	7678		honpen p.5				
+8d8c01ecc5a3a5a9	genjo	8	table	世帯数及び1世帯当たり人員の推移	世帯数（世帯）/H27	7728		honpen p.5				
+5089113dd4b15e34	genjo	8	table	世帯数及び1世帯当たり人員の推移	世帯数（世帯）/R2	8412		honpen p.5				
+866c8e5b8060cc99	genjo	8	table	世帯数及び1世帯当たり人員の推移	1世帯あたり人口（人）/H7	3.5		honpen p.5				
+9fc6930a473d3451	genjo	8	table	世帯数及び1世帯当たり人員の推移	1世帯あたり人口（人）/H12	3.0		honpen p.5				
+3c3fd39904712cdb	genjo	8	table	世帯数及び1世帯当たり人員の推移	1世帯あたり人口（人）/H17	3.2		honpen p.5				
+d4d24dd83457d06b	genjo	8	table	世帯数及び1世帯当たり人員の推移	1世帯あたり人口（人）/H22	3.0		honpen p.5				
+f4a51cbc5117ec16	genjo	8	table	世帯数及び1世帯当たり人員の推移	1世帯あたり人口（人）/H27	2.8		honpen p.5				
+28d82d2a8383cd43	genjo	8	table	世帯数及び1世帯当たり人員の推移	1世帯あたり人口（人）/R2	2.5		honpen p.5				
+c372378644fe8e93	genjo	11	table	地区別人口の推移（人）	日野地区/H17	7701		honpen p.5				
+231df33c75b020f7	genjo	11	table	地区別人口の推移（人）	日野地区/H22	8250		honpen p.5				
+133e0fbe5cb6d43d	genjo	11	table	地区別人口の推移（人）	日野地区/H27	8049		honpen p.5				
+c1d786993af5ecf1	genjo	11	table	地区別人口の推移（人）	日野地区/R2	8309		honpen p.5				
+aaca0ca071471e91	genjo	11	table	地区別人口の推移（人）	東桜谷地区/H17	1843		honpen p.5				
+ab648da653df775f	genjo	11	table	地区別人口の推移（人）	東桜谷地区/H22	1705		honpen p.5				
+90a4f22db098af4b	genjo	11	table	地区別人口の推移（人）	東桜谷地区/H27	1693		honpen p.5				
+f4d17d1763074f7d	genjo	11	table	地区別人口の推移（人）	東桜谷地区/R2	1470		honpen p.5				
+09d430577b175d2e	genjo	11	table	地区別人口の推移（人）	西桜谷地区/H17	1458		honpen p.5				
+d68962b73d9bb8c5	genjo	11	table	地区別人口の推移（人）	西桜谷地区/H22	1372		honpen p.5				
+8773d5b6af6ae465	genjo	11	table	地区別人口の推移（人）	西桜谷地区/H27	1266		honpen p.5				
+4c58fbfd960a7a90	genjo	11	table	地区別人口の推移（人）	西桜谷地区/R2	1157		honpen p.5				
+bf10e12e2fba47f9	genjo	11	table	地区別人口の推移（人）	西大路地区/H17	2250		honpen p.5				
+9551a7a10c670f79	genjo	11	table	地区別人口の推移（人）	西大路地区/H22	2190		honpen p.5				
+37bb42cbb07da59b	genjo	11	table	地区別人口の推移（人）	西大路地区/H27	2020		honpen p.5				
+4f447902edee4289	genjo	11	table	地区別人口の推移（人）	西大路地区/R2	1863		honpen p.5				
+bfa178245feab326	genjo	11	table	地区別人口の推移（人）	鎌掛地区/H17	907		honpen p.5				
+69aace2f502bf566	genjo	11	table	地区別人口の推移（人）	鎌掛地区/H22	844		honpen p.5				
+908b139e9b4aa69c	genjo	11	table	地区別人口の推移（人）	鎌掛地区/H27	810		honpen p.5				
+17501730f86d2651	genjo	11	table	地区別人口の推移（人）	鎌掛地区/R2	729		honpen p.5				
+6a944c6d70577338	genjo	11	table	地区別人口の推移（人）	南比都佐地区/H17	2454		honpen p.5				
+dbd2ba9ea4c1be02	genjo	11	table	地区別人口の推移（人）	南比都佐地区/H22	2317		honpen p.5				
+c21ad2870e2d566f	genjo	11	table	地区別人口の推移（人）	南比都佐地区/H27	2240		honpen p.5				
+2210de499a18508c	genjo	11	table	地区別人口の推移（人）	南比都佐地区/R2	2086		honpen p.5				
+16956297f413e580	genjo	11	table	地区別人口の推移（人）	必佐地区/H17	6188		honpen p.5				
+07cb79265c1f1b50	genjo	11	table	地区別人口の推移（人）	必佐地区/H22	6197		honpen p.5				
+d97791a4c1edac18	genjo	11	table	地区別人口の推移（人）	必佐地区/H27	6152		honpen p.5				
+d62afbe6c73ef134	genjo	11	table	地区別人口の推移（人）	必佐地区/R2	5813		honpen p.5				
+10d38856dcb1dfb7	genjo	14	chart.stacked	人口の推移（年齢3区分）	H28/0～14歳	2799	人	honpen p.6				
+fc791d66b8a066d3	genjo	14	chart.stacked	人口の推移（年齢3区分）	H28/15～64歳	12813	人	honpen p.6				
+3959318b8ac21178	genjo	14	chart.stacked	人口の推移（年齢3区分）	H28/65歳以上	6272	人	honpen p.6				
+fbc8c5f8a9e71c90	genjo	14	chart.stacked	人口の推移（年齢3区分）	H29/0～14歳	2751	人	honpen p.6				
+bf0678093ce847b8	genjo	14	chart.stacked	人口の推移（年齢3区分）	H29/15～64歳	12652	人	honpen p.6				
+537bec967398a7a0	genjo	14	chart.stacked	人口の推移（年齢3区分）	H29/65歳以上	6321	人	honpen p.6				
+86ca36601cc7f6bf	genjo	14	chart.stacked	人口の推移（年齢3区分）	H30/0～14歳	2715	人	honpen p.6				
+f98d2c9f3428fa0d	genjo	14	chart.stacked	人口の推移（年齢3区分）	H30/15～64歳	12480	人	honpen p.6				
+9be43ee31609b2bd	genjo	14	chart.stacked	人口の推移（年齢3区分）	H30/65歳以上	6332	人	honpen p.6				
+7f5d1a5ba2238bff	genjo	14	chart.stacked	人口の推移（年齢3区分）	R1/0～14歳	2702	人	honpen p.6				
+b3f8afa7b21173a7	genjo	14	chart.stacked	人口の推移（年齢3区分）	R1/15～64歳	12424	人	honpen p.6				
+ae3c8da15a6fb764	genjo	14	chart.stacked	人口の推移（年齢3区分）	R1/65歳以上	6393	人	honpen p.6				
+c82a4e751dd48755	genjo	14	chart.stacked	人口の推移（年齢3区分）	R2/0～14歳	2654	人	honpen p.6				
+d34f6b2b8c4966f4	genjo	14	chart.stacked	人口の推移（年齢3区分）	R2/15～64歳	12199	人	honpen p.6				
+3c6fde03c213165f	genjo	14	chart.stacked	人口の推移（年齢3区分）	R2/65歳以上	6469	人	honpen p.6				
+48dcbd33b5478f99	genjo	15	chart.line	高齢化率の推移	高齢化率/H28	28.7	%	honpen p.6				
+fd51efbce70889a9	genjo	15	chart.line	高齢化率の推移	高齢化率/H29	29.1	%	honpen p.6				
+7bb8859b00423555	genjo	15	chart.line	高齢化率の推移	高齢化率/H30	29.4	%	honpen p.6				
+097771dee89df1dc	genjo	15	chart.line	高齢化率の推移	高齢化率/R1	29.7	%	honpen p.6				
+69020dfeacc51489	genjo	15	chart.line	高齢化率の推移	高齢化率/R2	30.3	%	honpen p.6				
+355d0246b7e36e5e	genjo	16	table	高齢者人口の推移（人）	前期高齢者/H28年度	3017		honpen p.6				
+efa7e0ff71f21cd0	genjo	16	table	高齢者人口の推移（人）	前期高齢者/H29年度	3057		honpen p.6				
+6843fac4b39a5295	genjo	16	table	高齢者人口の推移（人）	前期高齢者/H30年度	3090		honpen p.6				
+de6e6579b9e9af31	genjo	16	table	高齢者人口の推移（人）	前期高齢者/R1年度	3074		honpen p.6				
+8513abc26155f365	genjo	16	table	高齢者人口の推移（人）	前期高齢者/R2年度	3158		honpen p.6	✓	auto:pdftext	2026-10-10	
+e19554ff1eec0f42	genjo	16	table	高齢者人口の推移（人）	後期高齢者/H28年度	3255		honpen p.6				
+91ae021a0aa54950	genjo	16	table	高齢者人口の推移（人）	後期高齢者/H29年度	3264		honpen p.6				
+c119e5d8185f74e2	genjo	16	table	高齢者人口の推移（人）	後期高齢者/H30年度	3242		honpen p.6				
+94feff4b891f763d	genjo	16	table	高齢者人口の推移（人）	後期高齢者/R1年度	3319		honpen p.6				
+ba5ed10b760b73c2	genjo	16	table	高齢者人口の推移（人）	後期高齢者/R2年度	3311		honpen p.6	✓	auto:pdftext	2026-10-10	
+d0c216134afd972b	genjo	16	table	高齢者人口の推移（人）	総数/H28年度	6272		honpen p.6				
+b5e68a69855e73e3	genjo	16	table	高齢者人口の推移（人）	総数/H29年度	6321		honpen p.6				
+f57ee066071d6384	genjo	16	table	高齢者人口の推移（人）	総数/H30年度	6332		honpen p.6				
+8f57390ab8438b31	genjo	16	table	高齢者人口の推移（人）	総数/R1年度	6393		honpen p.6	✓	auto:pdftext	2026-10-10	
+a18319e786e5f256	genjo	16	table	高齢者人口の推移（人）	総数/R2年度	6469		honpen p.6	✓	auto:pdftext	2026-10-10	
+6db5f69c2a11e41c	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方がおられる世帯/H27	4196		honpen p.7				
+bdd92fa9339a169e	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方がおられる世帯/H28	4200		honpen p.7				
+411b5d52f4ba6f62	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方がおられる世帯/H29	4211		honpen p.7				
+85129e8a6858e267	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方がおられる世帯/H30	4221		honpen p.7				
+c8229f97a60a1e60	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方がおられる世帯/R1	4252		honpen p.7				
+6b9b81ad12ea4f9e	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方がおられる世帯/R2	4305		honpen p.7				
+9c1653f4b47347ac	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方のみの世帯/H27	1802		honpen p.7				
+9a2e09475ec2b4ba	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方のみの世帯/H28	1880		honpen p.7				
+cca614269c81901d	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方のみの世帯/H29	1935		honpen p.7				
+95376df4a42a6f34	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方のみの世帯/H30	2013		honpen p.7				
+496d49a7e843c342	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方のみの世帯/R1	2102		honpen p.7				
+72cdba6775cc41e3	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上の方のみの世帯/R2	2169		honpen p.7				
+63b7a1bbeab650ae	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上のひとり暮らしの世帯/H27	954		honpen p.7				
+b3868cde82f46ef3	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上のひとり暮らしの世帯/H28	961		honpen p.7				
+b9ba402511c652ec	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上のひとり暮らしの世帯/H29	970		honpen p.7				
+7f0d9386238fbb49	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上のひとり暮らしの世帯/H30	1015		honpen p.7				
+8e48152bb14ed17c	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上のひとり暮らしの世帯/R1	1056		honpen p.7				
+c02f01e6bca5fdae	genjo	19	table	高齢者世帯数の推移（世帯）	65歳以上のひとり暮らしの世帯/R2	1097		honpen p.7				
+31f7df6b227b3d7c	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方がおられる世帯/H27	100.0		honpen p.7				
+b66b53dc72c9ca31	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方がおられる世帯/H28	100.1		honpen p.7				
+f511cb39542c1c24	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方がおられる世帯/H29	100.4		honpen p.7				
+85dc3ce49f0fa15a	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方がおられる世帯/H30	100.6		honpen p.7				
+f2585f7820958615	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方がおられる世帯/R1	101.3		honpen p.7				
+a0e6980a856e9bc9	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方がおられる世帯/R2	102.6		honpen p.7				
+208d730ab7c6e608	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方のみの世帯/H27	100.0		honpen p.7				
+c67b887a561212fe	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方のみの世帯/H28	104.3		honpen p.7				
+eb69b2f128ec613b	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方のみの世帯/H29	107.4		honpen p.7				
+d4c3f9c7ea5138de	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方のみの世帯/H30	111.7		honpen p.7				
+c2f4b5c0f3e580fc	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方のみの世帯/R1	116.6		honpen p.7				
+bd3cd83d56b72c27	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上の方のみの世帯/R2	120.4		honpen p.7				
+f3c68f5ce23b32c8	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上のひとり暮らしの世帯/H27	100.0		honpen p.7				
+c238d7c70c4f978f	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上のひとり暮らしの世帯/H28	100.7		honpen p.7				
+e7ee8834a0bd8c50	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上のひとり暮らしの世帯/H29	101.7		honpen p.7				
+c2f1be54f3f1d70e	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上のひとり暮らしの世帯/H30	106.4		honpen p.7				
+bba07344e2195adc	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上のひとり暮らしの世帯/R1	110.7		honpen p.7				
+2577a33ff4a45d41	genjo	20	table	高齢者世帯数の対27年比（％）	65歳以上のひとり暮らしの世帯/R2	115.0		honpen p.7				
+67dfc7a285b4f7c9	genjo	23	chart.pair	ひとり親家庭の推移	H27年度/母子世帯数	170	世帯	honpen p.8				
+bffe07c25781a990	genjo	23	chart.pair	ひとり親家庭の推移	H27年度/父子世帯数	13	世帯	honpen p.8				
+c688be74e425d5d5	genjo	23	chart.pair	ひとり親家庭の推移	H28年度/母子世帯数	178	世帯	honpen p.8				
+55c8f744e41bf811	genjo	23	chart.pair	ひとり親家庭の推移	H28年度/父子世帯数	14	世帯	honpen p.8				
+36300680e7a787a6	genjo	23	chart.pair	ひとり親家庭の推移	H29年度/母子世帯数	207	世帯	honpen p.8				
+133b6b386b549bca	genjo	23	chart.pair	ひとり親家庭の推移	H29年度/父子世帯数	14	世帯	honpen p.8				
+b581c58a1d0ff90d	genjo	23	chart.pair	ひとり親家庭の推移	H30年度/母子世帯数	169	世帯	honpen p.8				
+34194b071dcd4a49	genjo	23	chart.pair	ひとり親家庭の推移	H30年度/父子世帯数	14	世帯	honpen p.8				
+d10639d1e304e037	genjo	23	chart.pair	ひとり親家庭の推移	R1年度/母子世帯数	188	世帯	honpen p.8				
+ec44dd9bf84151ac	genjo	23	chart.pair	ひとり親家庭の推移	R1年度/父子世帯数	15	世帯	honpen p.8				
+220f8a0b2fcd8a37	genjo	23	chart.pair	ひとり親家庭の推移	R2年度/母子世帯数	182	世帯	honpen p.8				
+24bc02f55334ed29	genjo	23	chart.pair	ひとり親家庭の推移	R2年度/父子世帯数	13	世帯	honpen p.8				
+f8457ee16d1e483f	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要支援1	46	人	honpen p.9				
+55286ba56d1f75f3	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要支援2	73	人	honpen p.9				
+5bfb5f2256cbb723	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要介護1	194	人	honpen p.9				
+ce5ee726a0140013	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要介護2	190	人	honpen p.9				
+b9aaba80d1654c36	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要介護3	134	人	honpen p.9				
+9300efc1598b6aab	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要介護4	133	人	honpen p.9				
+f788e28e5177c8b8	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H24/要介護5	100	人	honpen p.9				
+586e7e5826482980	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要支援1	68	人	honpen p.9				
+f4a89065c7f11b20	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要支援2	77	人	honpen p.9				
+d8e2293397e6dac0	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要介護1	209	人	honpen p.9				
+2f3757f453cc849f	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要介護2	197	人	honpen p.9				
+6adebd46adeb6248	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要介護3	154	人	honpen p.9				
+7e6286a54e136e83	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要介護4	145	人	honpen p.9				
+883f21b9c98fdba1	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H25/要介護5	122	人	honpen p.9				
+70a8650efebdebc5	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要支援1	68	人	honpen p.9				
+ddefee32c1685f3e	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要支援2	99	人	honpen p.9				
+eccbff9d374493d5	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要介護1	214	人	honpen p.9				
+f0fbfeb4ead14dd0	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要介護2	224	人	honpen p.9				
+2b7530644cb9be78	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要介護3	146	人	honpen p.9				
+885f74b353233df7	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要介護4	143	人	honpen p.9				
+2dfaead9db19f7bf	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H26/要介護5	120	人	honpen p.9				
+2c2d8db0bdbc1599	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要支援1	82	人	honpen p.9				
+b376fb4dd01c6d28	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要支援2	75	人	honpen p.9				
+a4558c0ff884f2d8	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要介護1	244	人	honpen p.9				
+ad99b2005ed6b792	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要介護2	235	人	honpen p.9				
+c831d47f002af051	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要介護3	148	人	honpen p.9				
+109f9cabc8d9896f	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要介護4	151	人	honpen p.9				
+45e881e1b11b8f32	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H27/要介護5	121	人	honpen p.9				
+7188e9c6654b8fdd	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要支援1	70	人	honpen p.9				
+c3ccd1008619c0fa	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要支援2	101	人	honpen p.9				
+ffdaefa588bec55e	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要介護1	238	人	honpen p.9				
+5b803366f8b39808	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要介護2	232	人	honpen p.9				
+12c805ff6784c2f6	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要介護3	161	人	honpen p.9				
+96be6847b2e2bffc	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要介護4	150	人	honpen p.9				
+a5d8aeb38e75748d	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H28/要介護5	112	人	honpen p.9				
+6ea08d7b5e79574b	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要支援1	57	人	honpen p.9				
+73a5b54555b48c32	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要支援2	103	人	honpen p.9				
+dd3070d2371315cb	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要介護1	227	人	honpen p.9				
+531b4d92bc3b9e03	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要介護2	221	人	honpen p.9				
+1a0c6c05c8e00c0f	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要介護3	186	人	honpen p.9				
+0f0314a88f5ce60c	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要介護4	130	人	honpen p.9				
+adcccf2919f9e604	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H29/要介護5	121	人	honpen p.9				
+2aa52902412630fc	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要支援1	73	人	honpen p.9				
+80467756e614fde6	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要支援2	100	人	honpen p.9				
+086be2325e83ccae	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要介護1	214	人	honpen p.9				
+657f41504df9ef68	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要介護2	223	人	honpen p.9				
+0a4c6220aaa0e67b	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要介護3	152	人	honpen p.9				
+b45d3e9dca8143d6	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要介護4	139	人	honpen p.9				
+35c8575bb87c8701	genjo	26	chart.stacked	要支援・要介護認定者数の推移	H30/要介護5	122	人	honpen p.9				
+ebc133dc63c9f158	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要支援1	78	人	honpen p.9				
+d444e2306f19b22a	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要支援2	102	人	honpen p.9				
+5f8a9e263a1a33c0	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要介護1	251	人	honpen p.9				
+e2615e25a8aaa909	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要介護2	221	人	honpen p.9				
+ca7c146fa02e51a6	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要介護3	148	人	honpen p.9				
+2ede5111b5c1b2b2	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要介護4	147	人	honpen p.9				
+7a8d7c9cf9016f54	genjo	26	chart.stacked	要支援・要介護認定者数の推移	R1/要介護5	103	人	honpen p.9				
+46f45140494ce6ee	genjo	29	chart.stacked	障害者手帳所持者数の推移	H25/身体障害者手帳	954	人	honpen p.10				
+4afb989ff4c4c6e1	genjo	29	chart.stacked	障害者手帳所持者数の推移	H25/療育手帳	233	人	honpen p.10				
+69ec35621072a1d2	genjo	29	chart.stacked	障害者手帳所持者数の推移	H25/精神障害者保健福祉手帳	139	人	honpen p.10				
+c3794ba14df738bb	genjo	29	chart.stacked	障害者手帳所持者数の推移	H26/身体障害者手帳	948	人	honpen p.10				
+c02ef849307be7a9	genjo	29	chart.stacked	障害者手帳所持者数の推移	H26/療育手帳	242	人	honpen p.10				
+b0413bdaffa205fe	genjo	29	chart.stacked	障害者手帳所持者数の推移	H26/精神障害者保健福祉手帳	138	人	honpen p.10				
+2942bae04b31ff91	genjo	29	chart.stacked	障害者手帳所持者数の推移	H27/身体障害者手帳	968	人	honpen p.10				
+8b91de9e4021133f	genjo	29	chart.stacked	障害者手帳所持者数の推移	H27/療育手帳	244	人	honpen p.10				
+51a205942841d6ff	genjo	29	chart.stacked	障害者手帳所持者数の推移	H27/精神障害者保健福祉手帳	143	人	honpen p.10				
+d4c8436f07f4056c	genjo	29	chart.stacked	障害者手帳所持者数の推移	H28/身体障害者手帳	947	人	honpen p.10				
+b1c14c1db84cc906	genjo	29	chart.stacked	障害者手帳所持者数の推移	H28/療育手帳	247	人	honpen p.10				
+0abcc601a96dd7ed	genjo	29	chart.stacked	障害者手帳所持者数の推移	H28/精神障害者保健福祉手帳	146	人	honpen p.10				
+0f12b9c75cd33e6e	genjo	29	chart.stacked	障害者手帳所持者数の推移	H29/身体障害者手帳	927	人	honpen p.10				
+ef8090a854398b3f	genjo	29	chart.stacked	障害者手帳所持者数の推移	H29/療育手帳	261	人	honpen p.10				
+8973767e975d3708	genjo	29	chart.stacked	障害者手帳所持者数の推移	H29/精神障害者保健福祉手帳	141	人	honpen p.10				
+93dec5d41811a473	genjo	29	chart.stacked	障害者手帳所持者数の推移	H30/身体障害者手帳	907	人	honpen p.10				
+e42b0a3d6fabb544	genjo	29	chart.stacked	障害者手帳所持者数の推移	H30/療育手帳	274	人	honpen p.10				
+f988c082d4807112	genjo	29	chart.stacked	障害者手帳所持者数の推移	H30/精神障害者保健福祉手帳	133	人	honpen p.10				
+d777f33d942d622b	genjo	29	chart.stacked	障害者手帳所持者数の推移	R1/身体障害者手帳	878	人	honpen p.10				
+7f8a5be734792ce0	genjo	29	chart.stacked	障害者手帳所持者数の推移	R1/療育手帳	282	人	honpen p.10				
+4f71555d7b941bf8	genjo	29	chart.stacked	障害者手帳所持者数の推移	R1/精神障害者保健福祉手帳	134	人	honpen p.10				
+2ec68a77b05304cf	genjo	29	chart.stacked	障害者手帳所持者数の推移	R2/身体障害者手帳	879	人	honpen p.10				
+0fae0fff8230706e	genjo	29	chart.stacked	障害者手帳所持者数の推移	R2/療育手帳	283	人	honpen p.10				
+637a490764bfa24d	genjo	29	chart.stacked	障害者手帳所持者数の推移	R2/精神障害者保健福祉手帳	128	人	honpen p.10				
+f8fcd6ac7320f3b3	genjo	32	chart.pair	生活保護世帯数等の推移	H27/被保護世帯数（世帯）	123		honpen p.10				
+03ee99c8d11b0bd9	genjo	32	chart.pair	生活保護世帯数等の推移	H27/被保護人員数（人）	168		honpen p.10				
+1216465e0969cc36	genjo	32	chart.pair	生活保護世帯数等の推移	H28/被保護世帯数（世帯）	124		honpen p.10				
+3810f26c9cbc3124	genjo	32	chart.pair	生活保護世帯数等の推移	H28/被保護人員数（人）	164		honpen p.10				
+4da15701dad94f92	genjo	32	chart.pair	生活保護世帯数等の推移	H29/被保護世帯数（世帯）	106		honpen p.10				
+dadeb111e75360c3	genjo	32	chart.pair	生活保護世帯数等の推移	H29/被保護人員数（人）	159		honpen p.10				
+b47980e6dfa8ae14	genjo	32	chart.pair	生活保護世帯数等の推移	H30/被保護世帯数（世帯）	110		honpen p.10				
+417475b43bebfb41	genjo	32	chart.pair	生活保護世帯数等の推移	H30/被保護人員数（人）	162		honpen p.10				
+2f99a39c04b42265	genjo	32	chart.pair	生活保護世帯数等の推移	R1/被保護世帯数（世帯）	112		honpen p.10				
+0792b043144df6a9	genjo	32	chart.pair	生活保護世帯数等の推移	R1/被保護人員数（人）	166		honpen p.10				
+79235cb7822e38c2	genjo	32	chart.pair	生活保護世帯数等の推移	R2/被保護世帯数（世帯）	125		honpen p.10				
+28dd0e5c69eb0808	genjo	32	chart.pair	生活保護世帯数等の推移	R2/被保護人員数（人）	179		honpen p.10				
+719d3a7b2a1c53b7	chosa	2	kpi	地域福祉に関する町民アンケート	標本数	3000	人	honpen p.11				
+e9c95d1cbc6dee7b	chosa	2	kpi	地域福祉に関する町民アンケート	有効回収数	1277	人	honpen p.11				
+9a1f610e68f567da	chosa	2	kpi	地域福祉に関する町民アンケート	回収率	42.6	%	honpen p.11				
+6397d948475699bf	chosa	6	chart.rank	回答者の年代（N=1,277）	10、20歳代	7.8	%	honpen p.11				
+208578f0250d857a	chosa	6	chart.rank	回答者の年代（N=1,277）	30歳代	10.9	%	honpen p.11				
+dcec4179743cbd30	chosa	6	chart.rank	回答者の年代（N=1,277）	40歳代	15.6	%	honpen p.11				
+7c4b8f5a62a4b7c3	chosa	6	chart.rank	回答者の年代（N=1,277）	50歳代	18.2	%	honpen p.11				
+c11e5873465822ba	chosa	6	chart.rank	回答者の年代（N=1,277）	60歳代	22.5	%	honpen p.11				
+1f265f384ede4fc7	chosa	6	chart.rank	回答者の年代（N=1,277）	70歳以上	21.8	%	honpen p.11				
+23ede9531a2cc4c7	chosa	6	chart.rank	回答者の年代（N=1,277）	不明・無回答	3.3	%	honpen p.11				
+f3ecc6dd2bcc7e73	chosa	7	chart.rank	回答者の住居地区（N=1,277）	日野地区	37.0	%	honpen p.13				
+5808e67d807fff4b	chosa	7	chart.rank	回答者の住居地区（N=1,277）	東桜谷地区	8.3	%	honpen p.13				
+8d5bf01ae38cba12	chosa	7	chart.rank	回答者の住居地区（N=1,277）	西桜谷地区	5.2	%	honpen p.13				
+3d5d2f888863f21e	chosa	7	chart.rank	回答者の住居地区（N=1,277）	西大路地区	8.8	%	honpen p.13				
+81b889b2f9c03417	chosa	7	chart.rank	回答者の住居地区（N=1,277）	鎌掛地区	4.3	%	honpen p.13				
+6e8e8f19a949da12	chosa	7	chart.rank	回答者の住居地区（N=1,277）	南比都佐地区	11.1	%	honpen p.13				
+e854f2450cb01331	chosa	7	chart.rank	回答者の住居地区（N=1,277）	必佐地区	21.5	%	honpen p.13				
+f899460abb761182	chosa	7	chart.rank	回答者の住居地区（N=1,277）	わからない	0.6	%	honpen p.13				
+df64c60822ee609b	chosa	7	chart.rank	回答者の住居地区（N=1,277）	不明・無回答	3.2	%	honpen p.13				
+d0b371c1ba7fc6c2	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	顔を合わせると、あいさつをする程度の付き合いである	38.5	%	honpen p.13				
+12a13201f9c89813	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	外で会うと世間話や情報交換等、よく立ち話をする程度の付き合いである	31.3	%	honpen p.13				
+9ddc27658372e4ad	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	玄関先での簡単な頼みごとや、ものの貸し借り等、気軽に助け合っている	17.9	%	honpen p.13				
+0c25f3104389ad49	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	お茶のみや手助け等、家族同様に、頻繁に家の中まで行き来している	4.7	%	honpen p.13				
+5613eada3b50ee12	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	顔もわからず、ほとんど付き合いがない	2.9	%	honpen p.13				
+bf123fb7c4402e63	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	その他	0.3	%	honpen p.13				
+9daf600124745aed	chosa	10	chart.rank	近所付き合いの程度（N=1,277）	不明・無回答	4.4	%	honpen p.13				
+c4ed42512d09a6cc	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	老後のこと	36.4	%	honpen p.14				
+8197514aa40c2137	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	家族の病気・けが・介護	31.7	%	honpen p.14				
+5a3a6fadb13d7ea9	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	運動不足	28.0	%	honpen p.14				
+da376db8a705e33b	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	貯金ができない	22.2	%	honpen p.14				
+4eebeb58f6c250b2	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	収入の減少	19.0	%	honpen p.14				
+d7bcdfbb26f3d2e9	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	自治会の役員	17.5	%	honpen p.14				
+8d143407a66d8175	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	税金や公共料金の支払	12.8	%	honpen p.14				
+8274449da722fe63	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	子どもの教育・進学	11.7	%	honpen p.14				
+97b75895192b6bf5	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	食生活の改善	10.9	%	honpen p.14				
+4ee636b7daaf19e1	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	子どもの就職・結婚	9.3	%	honpen p.14				
+669f7b656148ea1f	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	買い物や通院等の外出が不便	9.1	%	honpen p.14				
+e76db2cf5f54b2ee	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	医療費や保険料負担が高く受診しにくい（できない）	8.6	%	honpen p.14				
+1a7c4151869f35bd	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	住まいのこと	7.3	%	honpen p.14				
+c131d832e956cb31	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	収入が不安定	6.7	%	honpen p.14				
+a4e164907df9d1a9	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	失業や事業の不振	3.3	%	honpen p.14				
+e9fd39cae54450ad	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	子育てのこと	2.4	%	honpen p.14				
+443c4c2461efde71	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	健康推進員	0.6	%	honpen p.14				
+b8f4e6fc67de5394	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	民生委員・児童委員	0.5	%	honpen p.14				
+c2332bb6716bd8c0	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	その他	2.8	%	honpen p.14				
+9f39895ed18e90cf	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	特にない	9.8	%	honpen p.14				
+79474e25e24a8bd8	chosa	13	chart.rank	家庭での暮らしや医療面における困りごと（N=1,277）	不明・無回答	4.2	%	honpen p.14				
+08bd6b03b75616bf	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	高齢者だけの世帯のこと	46.0	%	honpen p.15				
+077b54390b63d03a	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	一人暮らし高齢者のこと	43.1	%	honpen p.15				
+2a4d85103468b07c	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	ねたきりや病気・認知症の高齢者をかかえている世帯のこと	22.8	%	honpen p.15				
+ab0587d2256c33b7	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	高齢者が気軽に利用できる施設や場所	20.7	%	honpen p.15				
+6560b7b6ed4f4fbc	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	子どもが安全に遊べる場所	15.6	%	honpen p.15				
+a2015be0140a3dc2	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	障がい者・児をかかえている世帯のこと	11.5	%	honpen p.15				
+f48e8cefa1f9059f	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	生活に困っている世帯のこと	10.2	%	honpen p.15				
+3718b0b0c08d2e27	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	子どもの非行・いじめ	8.5	%	honpen p.15				
+ba5886b74b811fa4	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	母子・父子世帯のこと	5.2	%	honpen p.15				
+d3b0e47acbf373a5	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	その他	3.2	%	honpen p.15				
+cffaba066f1da546	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	特にない	15.9	%	honpen p.15				
+19cfd18a9c4d3c23	chosa	15	chart.rank	地域での福祉の課題（N=1,277）	不明・無回答	4.9	%	honpen p.15				
+d50427649aa1e639	chosa	16	chart.rank	自治会活動の課題（N=1,277）	若手が地元に少ないこと	39.3	%	honpen p.15				
+3f2da855a238a9d9	chosa	16	chart.rank	自治会活動の課題（N=1,277）	区の役員のなり手がいないこと	32.2	%	honpen p.15				
+20049c46c94b96b5	chosa	16	chart.rank	自治会活動の課題（N=1,277）	古いしきたりの見直し	24.9	%	honpen p.15				
+d760d8b001ca2b83	chosa	16	chart.rank	自治会活動の課題（N=1,277）	若い人と高齢者との世代間交流が乏しいこと	16.3	%	honpen p.15				
+d02fe8605c87af45	chosa	16	chart.rank	自治会活動の課題（N=1,277）	地域住民が気軽に集まったりふれあったりする機会が乏しいこと	13.3	%	honpen p.15				
+b7b64b9a4191de18	chosa	16	chart.rank	自治会活動の課題（N=1,277）	住民相互のまとまりや助け合いが乏しいこと	13.1	%	honpen p.15				
+825574ee344a29ba	chosa	16	chart.rank	自治会活動の課題（N=1,277）	地域の集まりや行事で女性の参加や発言が少ないこと	9.2	%	honpen p.15				
+e67da36bda52fbcf	chosa	16	chart.rank	自治会活動の課題（N=1,277）	その他	4.1	%	honpen p.15				
+142d2eaf48ae58ef	chosa	16	chart.rank	自治会活動の課題（N=1,277）	特にない	16.8	%	honpen p.15				
+bfc64d7d8f9a28ea	chosa	16	chart.rank	自治会活動の課題（N=1,277）	自治会活動がない	0.9	%	honpen p.15				
+0f2e3994afad8464	chosa	16	chart.rank	自治会活動の課題（N=1,277）	不明・無回答	5.8	%	honpen p.15				
+5123a951b37f9486	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	町の広報誌	54.1	%	honpen p.15				
+f91ea36d1e22320e	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	テレビ	44.1	%	honpen p.15				
+c0899482d60eeca3	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	新聞や広告	30.8	%	honpen p.15				
+a62f40e1b19d5912	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	インターネット	26.5	%	honpen p.15				
+bce33aada08f75c3	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	医療機関・薬局	22.1	%	honpen p.15				
+00a46c4f416a714b	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	本・雑誌	14.9	%	honpen p.15				
+6a1aa19a1170084e	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	各種講座や講演会	7.6	%	honpen p.15				
+cc32fccae447e611	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	町のホームページ	6.0	%	honpen p.15				
+da73ad566a736bf7	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	ラジオ	5.2	%	honpen p.15				
+2954a102bf948288	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	その他	2.9	%	honpen p.15				
+3c50ec6768be2856	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	特にない	11.0	%	honpen p.15				
+e85a98fd9405dd56	chosa	19	chart.rank	暮らしや健康づくり、医療・福祉に関する情報の入手先（N=1,277）	不明・無回答	3.0	%	honpen p.15				
+a1e048f854df068a	chosa	20	chart.rank	相談相手（N=1,277）	配偶者	61.8	%	honpen p.16				
+818666f64eede8af	chosa	20	chart.rank	相談相手（N=1,277）	知人・友人	35.7	%	honpen p.16				
+d9b229aa7cd692e4	chosa	20	chart.rank	相談相手（N=1,277）	親	28.3	%	honpen p.16				
+1e029a082f154ca2	chosa	20	chart.rank	相談相手（N=1,277）	子ども	26.7	%	honpen p.16				
+9eaa3c606d5adebe	chosa	20	chart.rank	相談相手（N=1,277）	かかりつけの医者	25.2	%	honpen p.16				
+6f26d75f99c96df6	chosa	20	chart.rank	相談相手（N=1,277）	兄弟・姉妹	15.1	%	honpen p.16				
+e1f95a2d84fdec64	chosa	20	chart.rank	相談相手（N=1,277）	近所の人	12.8	%	honpen p.16				
+4634f8fe38aebc01	chosa	20	chart.rank	相談相手（N=1,277）	職場の同僚	12.8	%	honpen p.16				
+9c6b98a1a46099c2	chosa	20	chart.rank	相談相手（N=1,277）	親せき	5.9	%	honpen p.16				
+b90c4b1ab43a8cfb	chosa	20	chart.rank	相談相手（N=1,277）	町役場の職員	3.5	%	honpen p.16				
+6cb9db59b2c42f1f	chosa	20	chart.rank	相談相手（N=1,277）	保健センターの職員	3.4	%	honpen p.16				
+e7bd4b6f8d89afa3	chosa	20	chart.rank	相談相手（N=1,277）	ケアマネジャー	3.1	%	honpen p.16				
+752561b144f0ce1b	chosa	20	chart.rank	相談相手（N=1,277）	雇い主や職場の上司	2.4	%	honpen p.16				
+c31770af368317fa	chosa	20	chart.rank	相談相手（N=1,277）	福祉協力員	1.7	%	honpen p.16				
+b6da0921ce48ed67	chosa	20	chart.rank	相談相手（N=1,277）	祖父・祖母	1.5	%	honpen p.16				
+4e7ae3bd87fb7105	chosa	20	chart.rank	相談相手（N=1,277）	民生委員・児童委員	1.5	%	honpen p.16				
+b87c8bf2c0b9630a	chosa	20	chart.rank	相談相手（N=1,277）	社会福祉施設の職員	1.3	%	honpen p.16				
+1ecc2725e8de1354	chosa	20	chart.rank	相談相手（N=1,277）	健康推進員	1.1	%	honpen p.16				
+acde74421d14f648	chosa	20	chart.rank	相談相手（N=1,277）	孫	1.0	%	honpen p.16				
+661c53b45ad5537d	chosa	20	chart.rank	相談相手（N=1,277）	社会福祉協議会の職員	0.9	%	honpen p.16				
+0d5aaf54c719e0c1	chosa	20	chart.rank	相談相手（N=1,277）	自治会の役員	0.9	%	honpen p.16				
+0da34d7e4e77d06b	chosa	20	chart.rank	相談相手（N=1,277）	議会議員	0.2	%	honpen p.16				
+73824587d78d0e32	chosa	20	chart.rank	相談相手（N=1,277）	その他	1.6	%	honpen p.16				
+56d497184981feed	chosa	20	chart.rank	相談相手（N=1,277）	相談できる人が身近にいない	2.1	%	honpen p.16				
+34d9bf1ea2939265	chosa	20	chart.rank	相談相手（N=1,277）	不明・無回答	3.1	%	honpen p.16				
+a23629de07211325	chosa	23	chart.stacked100	地域活動への参加状況	N=1,277/参加している	73.1	%	honpen p.17				
+0c3449c54ab7577a	chosa	23	chart.stacked100	地域活動への参加状況	N=1,277/参加していない	22.8	%	honpen p.17				
+e8b5cbe6e6874e0f	chosa	23	chart.stacked100	地域活動への参加状況	N=1,277/不明・無回答	4.1	%	honpen p.17				
+fa3c98497428abd7	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	時間をとられたくない	25.1	%	honpen p.17				
+4b5b3e4c02ab0786	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	面倒だから	22.0	%	honpen p.17				
+0d1d5c2084a53b6d	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	町内会に入っていたくない	13.1	%	honpen p.17				
+d3ba4ca76a72ed67	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	実益がない	12.7	%	honpen p.17				
+c16da5d6e11c9153	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	他人と関わりたくない	12.0	%	honpen p.17				
+70c78ffd212e299b	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	その他	36.1	%	honpen p.17				
+80d979e5d9b42967	chosa	24	chart.rank	地域活動に参加していない理由（N=291）	不明・無回答	15.5	%	honpen p.17				
+1325ade2e6560df9	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	団体に属して継続した活動をしている	15.0	%	honpen p.17				
+cb244aa87ee3565a	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	個人で継続した活動をしている	2.6	%	honpen p.17				
+1b950831c5bc44fa	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	今はしていないが過去に活動をしていた	15.0	%	honpen p.17				
+45a53acc61899c86	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	たまに活動に参加することがある	13.7	%	honpen p.17				
+744f8fc3fb8975d9	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	今までしていないが今後は活動したいと思う	17.0	%	honpen p.17				
+f3d57c7faeb199d2	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	今までしていないし今後も活動しないと思う	30.6	%	honpen p.17				
+fea5ee21670f9c2b	chosa	25	chart.rank	ボランティア活動への参加状況（N=1,277）	不明・無回答	6.1	%	honpen p.17				
+2bedc6c72f89dba1	chosa	26	chart.rank	ボランティア活動の内容（N=808）	子どもや児童に関わる活動	30.0	%	honpen p.18				
+205946ae2c775a33	chosa	26	chart.rank	ボランティア活動の内容（N=808）	高齢者に関わる活動	27.1	%	honpen p.18				
+dc8247e150f506ad	chosa	26	chart.rank	ボランティア活動の内容（N=808）	スポーツ・文化・レクリエーション活動	24.3	%	honpen p.18				
+ad3c38ee01cf123f	chosa	26	chart.rank	ボランティア活動の内容（N=808）	自然や環境保護に関わる活動	21.4	%	honpen p.18				
+aa258f72a7ee5c51	chosa	26	chart.rank	ボランティア活動の内容（N=808）	防犯、防災に関わる活動	17.1	%	honpen p.18				
+cd7e4dea6d2ec6f2	chosa	26	chart.rank	ボランティア活動の内容（N=808）	まちづくりに関わる活動	16.1	%	honpen p.18				
+525619feea23f58f	chosa	26	chart.rank	ボランティア活動の内容（N=808）	健康づくり・医療に関わる活動	13.1	%	honpen p.18				
+ec8c0b00ed24b274	chosa	26	chart.rank	ボランティア活動の内容（N=808）	障がいのある方に関わる活動	13.0	%	honpen p.18				
+dfd4a45f0da24e9f	chosa	26	chart.rank	ボランティア活動の内容（N=808）	青少年の教育・育成に関わる活動	7.5	%	honpen p.18				
+75896fe31cd9500d	chosa	26	chart.rank	ボランティア活動の内容（N=808）	観光に関わる活動	6.7	%	honpen p.18				
+38be7141d3b30342	chosa	26	chart.rank	ボランティア活動の内容（N=808）	生活困窮者に関わる活動	2.5	%	honpen p.18				
+ee16bc70a2c5d003	chosa	26	chart.rank	ボランティア活動の内容（N=808）	その他	4.3	%	honpen p.18				
+bbcdf74988bb1178	chosa	26	chart.rank	ボランティア活動の内容（N=808）	不明・無回答	5.2	%	honpen p.18				
+1677ea2de2c908a7	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	仕事が忙しい	36.8	%	honpen p.18				
+e46ae810f9f5c353	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	時間をとられたくない	27.6	%	honpen p.18				
+a725d4aabfed8449	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	興味がない	20.2	%	honpen p.18				
+c16f5f75a310674f	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	面倒だから	16.6	%	honpen p.18				
+37b3c726ad17482f	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	体調がすぐれない	16.4	%	honpen p.18				
+0bf4951a26d277ee	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	仕組みや方法がわからない	12.3	%	honpen p.18				
+7a89210b26dc1563	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	実益がない	7.4	%	honpen p.18				
+a0453218f3ed89ec	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	申し出の窓口がわからない	6.4	%	honpen p.18				
+f55845de38614f9d	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	自分が支援してほしい（してもらっている）状況	4.3	%	honpen p.18				
+203e71c7d724c7c6	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	家族の理解がない	2.6	%	honpen p.18				
+4283740cef5a5622	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	他の人に任せておけばよい	1.8	%	honpen p.18				
+e0c170508ce82db9	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	その他	12.3	%	honpen p.18				
+63ba176cd0a6152e	chosa	27	chart.rank	ボランティア活動に参加しない理由（N=391）	不明・無回答	4.6	%	honpen p.18				
+c3e14942cc819b00	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	自分が健康であること	73.2	%	honpen p.19				
+a194383b6a4d1424	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	時間的、経済的にゆとりがあること	63.4	%	honpen p.19				
+e1364dc04390fdd2	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	ともに活動する仲間や友人がいること	51.8	%	honpen p.19				
+c77786b108a488aa	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	家族の理解が得られること	32.5	%	honpen p.19				
+20a60681ea14d766	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	家族に病人や介護の必要な人、幼い子どもがいないこと	30.1	%	honpen p.19				
+5d01e2b46764f0d1	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	経費（活動費）の支援があること	27.1	%	honpen p.19				
+a26e56080a948ec6	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	ボランティア活動の中で生きがいや充実感があること	26.9	%	honpen p.19				
+e2b3377005398c55	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	活動の内容が自分の趣味や特技を生かせる場であること	22.0	%	honpen p.19				
+dda1a9fe33742fde	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	行政が福祉活動を積極的に援助すること	14.0	%	honpen p.19				
+1098a6f850a4d62c	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	ボランティア講座等、知識や技術を学べる機会や体験の機会があること	11.4	%	honpen p.19				
+bacc81fdaf98e7ae	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	自分が活動したいと思う団体が熱心に取り組んでいること	11.3	%	honpen p.19				
+eb1f557c01830c24	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	自分に対する理解や、支持が得られること	7.7	%	honpen p.19				
+41b4da52ab63843c	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	有償である（報酬がある）こと	6.1	%	honpen p.19				
+cead380a924a2bc9	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	その他	1.3	%	honpen p.19				
+f7073866b819adff	chosa	28	chart.rank	地域でボランティア活動を推進する条件（N=1,277）	不明・無回答	5.9	%	honpen p.19				
+3775dbdfba28e3e2	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	安否確認の声かけ/近隣に求める支援	47.2	%	honpen p.20				
+aea804acd0b8e385	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	安否確認の声かけ/回答者ができる支援	68.4	%	honpen p.20	✓	auto:pdftext	2026-10-10	
+cbb24282ff27973a	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	相談・支援機関へつなぐ/近隣に求める支援	26.4	%	honpen p.20	✓	auto:pdftext	2026-10-10	
+f0b45146eb99a819	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	相談・支援機関へつなぐ/回答者ができる支援	29.8	%	honpen p.20	✓	auto:pdftext	2026-10-10	
+88d7cabf3110044b	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	心配事等の相談相手/近隣に求める支援	22.6	%	honpen p.20				
+043b595e713f8ce3	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	心配事等の相談相手/回答者ができる支援	29.4	%	honpen p.20				
+e0d932218f0ffdcc	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	日常的な話し相手/近隣に求める支援	19.3	%	honpen p.20				
+2c372995f6ff7b0f	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	日常的な話し相手/回答者ができる支援	28.7	%	honpen p.20				
+f6ac6bf66ce217ef	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	外出（通院や買い物等）の手伝い/近隣に求める支援	19.1	%	honpen p.20				
+5fd25e18f6cb4183	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	外出（通院や買い物等）の手伝い/回答者ができる支援	29.8	%	honpen p.20				
+69ec2cc18d09171c	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	力仕事の手伝い/近隣に求める支援	18.2	%	honpen p.20				
+97f9e765c0413683	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	力仕事の手伝い/回答者ができる支援	17.5	%	honpen p.20				
+bb3d1218e1c47377	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	介護を必要とする人の短時間の預かりや見守り/近隣に求める支援	17.1	%	honpen p.20				
+e9c099df44aab9a0	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	介護を必要とする人の短時間の預かりや見守り/回答者ができる支援	7.0	%	honpen p.20				
+5fefe40d5c2db374	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	急病になった時の看病/近隣に求める支援	11.7	%	honpen p.20				
+6a614b4a9cd4c61c	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	急病になった時の看病/回答者ができる支援	6.5	%	honpen p.20				
+4b57bc6ca0aecd7b	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	家事の手伝い/近隣に求める支援	9.7	%	honpen p.20				
+fa92fb7e8903218f	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	家事の手伝い/回答者ができる支援	18.4	%	honpen p.20				
+a3e1c8ba559112b0	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	子どもの短時間の預かり/近隣に求める支援	8.1	%	honpen p.20				
+69eaea27f0017556	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	子どもの短時間の預かり/回答者ができる支援	13.5	%	honpen p.20				
+f70aa496e0b2858c	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	その他/近隣に求める支援	1.4	%	honpen p.20				
+7dbdb7e5c01568af	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	その他/回答者ができる支援	0.9	%	honpen p.20				
+ca64dcb6b28268f5	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	特にない/近隣に求める支援	12.8	%	honpen p.20				
+65257ff9203d5679	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	特にない/回答者ができる支援	6.2	%	honpen p.20				
+716a7dcd394d67c9	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	不明・無回答/近隣に求める支援	5.7	%	honpen p.20				
+2bde09aa44d38fef	chosa	31	chart.pair	近隣に求める支援と、回答者ができる支援（N=1,277）	不明・無回答/回答者ができる支援	5.0	%	honpen p.20				
+eb4d26d5d8d7bbcc	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	日頃からのあいさつ、声かけや付き合い	57.7	%	honpen p.23				
+6805c602d351b684	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	危険箇所の把握情報の共有	52.7	%	honpen p.23				
+de1b3dff59ae2a61	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	地域での避難訓練	37.4	%	honpen p.23				
+782c4e9d7f7db426	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	地域による援助体制の整備	36.5	%	honpen p.23				
+c09110b1390cb49d	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	災害対策の学習会	30.9	%	honpen p.23				
+0b640ad0df285bc5	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	地域の災害時要配慮者の把握および情報の共有	30.3	%	honpen p.23				
+ee281bd15bb8ac62	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	災害ボランティアの育成	13.5	%	honpen p.23				
+20162c5fc390a669	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	その他	2.3	%	honpen p.23				
+01cf5fe3afb2da73	chosa	35	chart.rank	災害に対する重要な地域の備え（N=1,277）	不明・無回答	5.6	%	honpen p.23				
+2e16b01de37d8d47	chosa	36	chart.stacked100	近隣の災害時要配慮者を把握しているか	N=1,277/把握している	16.8	%	honpen p.23				
+cc97f07908978b6b	chosa	36	chart.stacked100	近隣の災害時要配慮者を把握しているか	N=1,277/ある程度把握している	35.2	%	honpen p.23				
+f47a9422cc9d0404	chosa	36	chart.stacked100	近隣の災害時要配慮者を把握しているか	N=1,277/あまり把握していない	22.3	%	honpen p.23				
+b5a538310120e2af	chosa	36	chart.stacked100	近隣の災害時要配慮者を把握しているか	N=1,277/全く把握していない	22.0	%	honpen p.23				
+b836d2c6a364ed80	chosa	36	chart.stacked100	近隣の災害時要配慮者を把握しているか	N=1,277/不明・無回答	3.8	%	honpen p.23				
+b498769e5f52b6ba	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	自分の身近に問題に直面している人はいないが、必要な制度だと思う	62.7	%	honpen p.24				
+078e177ac6e67f01	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	自分や自分の身近な人が問題に直面しており、必要な制度だと思う	13.7	%	honpen p.24				
+8629497ced9707d9	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	わからない・生活困窮者の問題や制度を知らない	13.1	%	honpen p.24				
+c8843013aa42f408	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	生活困窮者の問題や制度に関心がない	1.5	%	honpen p.24				
+ec3ddff321aee3a8	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	必要のない制度だと思う	1.3	%	honpen p.24				
+f34c80afefb54d2a	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	その他	2.3	%	honpen p.24				
+f369e03ad8b3a104	chosa	39	chart.rank	生活困窮者の問題や支援制度に対する考え（N=1,277）	不明・無回答	5.5	%	honpen p.24				
+48cce4a2eb925cec	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	刑務所や少年院、保護観察所等による一人ひとりの問題性に応じたきめ細やかな支援・指導の充実	41.7	%	honpen p.24				
+fddbc667b8661960	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	仕事と住居を確保し、安定した生活基盤を築かせる支援の充実	39.0	%	honpen p.24				
+8e7da992c458f5ff	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	犯罪者の置かれた状況や心情について、地域の理解を促進する	20.5	%	honpen p.24				
+21769c57fc226ec5	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	犯罪を地域の問題として捉え、地域ぐるみで再犯防止に向けた支援を推進する	17.1	%	honpen p.24				
+d310bd3207357ce3	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	犯罪をした高齢者等に対し、福祉制度の利用を促進する	14.0	%	honpen p.24				
+6c29c6a50cad8a82	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	その他	3.0	%	honpen p.24				
+57e05950d8b9a583	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	わからない	20.4	%	honpen p.24				
+ab9c83c1aee40ce1	chosa	40	chart.rank	再犯防止のために必要だと思う取組（N=1,277）	不明・無回答	4.7	%	honpen p.24				
+b16c197a2051b60e	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	在宅福祉サービスの充実	43.6	%	honpen p.25				
+69170369c0cb0f83	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	施設サービスの充実	34.6	%	honpen p.25				
+5a9f8527901331ad	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	身近なところでの相談窓口の充実	24.7	%	honpen p.25				
+12166795d940f740	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	気軽に集まれる場の充実	22.8	%	honpen p.25				
+6548620a5be2b865	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	住民がともに支え合い、助け合える地域づくりの推進	22.1	%	honpen p.25				
+5f833d8a795183f7	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	個人や家族に対する金銭的支援の充実	19.1	%	honpen p.25				
+4e7b0e170c8fb506	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	健康づくりや生きがいづくりの推進	16.8	%	honpen p.25				
+001aa6117e7de7cd	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	施設や交通機関等のバリアフリーの推進	16.4	%	honpen p.25				
+a1d4b8a07afde501	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	福祉に関する情報提供の充実	15.7	%	honpen p.25				
+4eaecba938340dc2	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	専門性の高い相談支援の充実	12.7	%	honpen p.25				
+31ba26c9d7ed4ade	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	個人の自立を支援するサービスの充実	11.2	%	honpen p.25				
+e4ec0f6431bc2d43	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	地域活動や地域福祉活動に対する公的支援の充実	10.1	%	honpen p.25				
+be0c2b4275a49513	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	地域活動や地域福祉活動を担う人材の育成	8.8	%	honpen p.25				
+4372dde01d91cfaa	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	福祉教育の充実	6.6	%	honpen p.25				
+bda9ada742535981	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	その他	2.0	%	honpen p.25				
+f77f6fed0e7e5bcb	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	特になし	2.3	%	honpen p.25				
+2014362c8b656696	chosa	41	chart.rank	住み慣れた地域で安心して暮らすために大切だと思う福祉施策（N=1,277）	不明・無回答	3.3	%	honpen p.25				
+3dfd6c1b61f19fc2	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	全体/在宅福祉サービスの充実	43.6		honpen p.26				
+92dbfdd81cd58842	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	全体/施設サービスの充実	34.6		honpen p.26				
+35d02b6babfa012c	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	全体/個人や家族に対する金銭的支援の充実	19.1		honpen p.26				
+bdc79231bec92851	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	10、20歳代/在宅福祉サービスの充実	31.6		honpen p.26				
+e839a9e0640bb30a	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	10、20歳代/施設サービスの充実	34.7		honpen p.26				
+6b86d452c7e07941	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	10、20歳代/個人や家族に対する金銭的支援の充実	29.6		honpen p.26				
+e5e8e0ac3481ca13	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	30歳代/在宅福祉サービスの充実	37.0		honpen p.26				
+190974b0867c1066	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	30歳代/施設サービスの充実	37.7		honpen p.26				
+e95ac3edbfcae12e	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	30歳代/個人や家族に対する金銭的支援の充実	28.3		honpen p.26				
+792b1c53416cf256	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	40歳代/在宅福祉サービスの充実	45.4		honpen p.26				
+8f0cc428093129e1	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	40歳代/施設サービスの充実	44.3		honpen p.26				
+98855d5023ef04e8	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	40歳代/個人や家族に対する金銭的支援の充実	24.2		honpen p.26				
+a77e356c9e392077	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	50歳代/在宅福祉サービスの充実	46.9		honpen p.26				
+c20d6258f7a535e5	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	50歳代/施設サービスの充実	39.8		honpen p.26				
+7cf0e213aba9d5a9	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	50歳代/個人や家族に対する金銭的支援の充実	22.6		honpen p.26				
+4bc00c90f3330599	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	60歳代/在宅福祉サービスの充実	49.6		honpen p.26				
+cbe49f386ce1eb43	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	60歳代/施設サービスの充実	36.0		honpen p.26				
+ae7ae48ac0b57368	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	60歳代/個人や家族に対する金銭的支援の充実	15.1		honpen p.26				
+9983e41cfc6cc5ad	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	70歳以上/在宅福祉サービスの充実	46.4		honpen p.26				
+0c817f0eaa2972fe	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	70歳以上/施設サービスの充実	25.1		honpen p.26				
+9be304741627fe11	chosa	43	table	年代別にみた大切だと思う福祉施策（主な3項目・％）	70歳以上/個人や家族に対する金銭的支援の充実	10.6		honpen p.26				
+28780ad08d34665b	shisaku	4	programs	施策の体系	事業数	24	件	honpen p.33-39				
+9045edfd22b30f97	suishin	4	timeline	計画の位置づけと期間	第3期	R2		honpen p.3				
+031bb6e417688e6a	suishin	4	timeline	計画の位置づけと期間	日野町地域福祉計画（第4期）	R3〜R8		honpen p.3				
+331dc0351fd76a6c	suishin	4	timeline	計画の位置づけと期間	第5期	R9		honpen p.3				

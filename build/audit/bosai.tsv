@@ -1,0 +1,161 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	3	kpi		全壊する建物（鈴鹿西縁断層帯 ケース2・想定最大震度7）	512	棟	honpen-01 p.19
+summary	3	kpi		死者数（鈴鹿西縁断層帯 ケース2・冬の深夜）	31	人	honpen-01 p.19
+summary	3	kpi		1週間後の全避難者（鈴鹿西縁断層帯 ケース2）	4825	人	honpen-01 p.19
+summary	3	kpi		3日後の避難所生活者（南海トラフ巨大地震 陸側ケース）	2194	人	honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	全壊棟数/ケース1	435		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	全壊棟数/ケース2	512		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	半壊棟数/ケース1	1668		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	半壊棟数/ケース2	1773		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	死者数（冬深夜）/ケース1	25		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	死者数（冬深夜）/ケース2	31		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	負傷者数（冬深夜）/ケース1	348		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	負傷者数（冬深夜）/ケース2	390		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	停電件数（直後）/ケース1	15172		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	停電件数（直後）/ケース2	15955		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	断水人口（直後）/ケース1	13997		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	断水人口（直後）/ケース2	16213		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	避難所生活者（1日後）/ケース1	996		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	避難所生活者（1日後）/ケース2	1158		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	避難所生活者（3日後）/ケース1	1630		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	避難所生活者（3日後）/ケース2	1928		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	避難所生活者（1週間後）/ケース1	1983		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	避難所生活者（1週間後）/ケース2	2412		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	全避難者（1週間後）/ケース1	3966		honpen-01 p.19
+saigai	3	table	鈴鹿西縁断層帯の地震	全避難者（1週間後）/ケース2	4825		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	全壊棟数/基本ケース	60		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	全壊棟数/陸側ケース	283		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	半壊棟数/基本ケース	672		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	半壊棟数/陸側ケース	1963		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	死者数（冬深夜）/陸側ケース	13		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	負傷者数（冬深夜）/基本ケース	38		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	負傷者数（冬深夜）/陸側ケース	272		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	停電件数（直後）/基本ケース	14991		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	停電件数（直後）/陸側ケース	16344		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	断水人口（直後）/基本ケース	8904		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	断水人口（直後）/陸側ケース	13995		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	避難所生活者（1日後）/基本ケース	249		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	避難所生活者（1日後）/陸側ケース	781		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	避難所生活者（3日後）/基本ケース	407		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	避難所生活者（3日後）/陸側ケース	2194		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	避難所生活者（1週間後）/基本ケース	430		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	避難所生活者（1週間後）/陸側ケース	2306		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	全避難者（1週間後）/基本ケース	860		honpen-01 p.19
+saigai	4	table	南海トラフ巨大地震	全避難者（1週間後）/陸側ケース	4613		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	琵琶湖西岸断層帯 ケース2/半壊棟数（棟）	5		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	花折断層帯 ケース2/半壊棟数（棟）	10		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	花折断層帯 ケース3/半壊棟数（棟）	31		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	木津川断層帯 ケース1/全壊棟数（棟）	29		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	木津川断層帯 ケース1/半壊棟数（棟）	363		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	木津川断層帯 ケース3/全壊棟数（棟）	10		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	木津川断層帯 ケース3/半壊棟数（棟）	198		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	鈴鹿西縁断層帯 ケース1/全壊棟数（棟）	435		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	鈴鹿西縁断層帯 ケース1/半壊棟数（棟）	1668		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	鈴鹿西縁断層帯 ケース2/全壊棟数（棟）	512		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	鈴鹿西縁断層帯 ケース2/半壊棟数（棟）	1773		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	柳ヶ瀬関ヶ原断層帯 ケース1/半壊棟数（棟）	8		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	南海トラフ巨大地震 基本ケース/全壊棟数（棟）	60		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	南海トラフ巨大地震 基本ケース/半壊棟数（棟）	672		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	南海トラフ巨大地震 陸側ケース/全壊棟数（棟）	283		honpen-01 p.19
+saigai	6	table	12ケースすべての想定最大震度と建物被害	南海トラフ巨大地震 陸側ケース/半壊棟数（棟）	1963		honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/直後	16213	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/1日後	15814	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/2日後	15213	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/3日後	14526	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/1週間後	11579	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/1か月後	2083	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/2か月後	172	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	鈴鹿西縁断層帯 ケース2/3か月後	13	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/直後	13995	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/1日後	17805	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/2日後	17456	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/3日後	15358	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/1週間後	8532	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/1か月後	1040	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/2か月後	56	人	honpen-01 p.19
+saigai	7	chart.line	断水人口の推移（地震後）	南海トラフ巨大地震 陸側ケース/3か月後	3	人	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	鈴鹿西縁断層帯 ケース2/直後	15955	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	鈴鹿西縁断層帯 ケース2/1日後	6523	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	鈴鹿西縁断層帯 ケース2/2日後	3116	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	鈴鹿西縁断層帯 ケース2/3日後	1552	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	鈴鹿西縁断層帯 ケース2/1週間後	3	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	南海トラフ巨大地震 陸側ケース/直後	16344	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	南海トラフ巨大地震 陸側ケース/1日後	13870	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	南海トラフ巨大地震 陸側ケース/2日後	10837	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	南海トラフ巨大地震 陸側ケース/3日後	6947	件	honpen-01 p.19
+saigai	8	chart.line	停電件数の推移（地震後）	南海トラフ巨大地震 陸側ケース/1週間後	70	件	honpen-01 p.19
+saigai	17	kpi	町内の災害に備える施設・区域	防災重点ため池	82	ヶ所	honpen-01 p.40
+saigai	17	kpi	町内の災害に備える施設・区域	農業用工作物（頭首工、水門、樋門、樋管等）	115	ヶ所	honpen-01 p.40
+saigai	18	kpi	町内の災害に備える施設・区域	地すべり防止区域（国土交通大臣指定）	5	ヶ所	honpen-01 p.42-43
+saigai	18	kpi	町内の災害に備える施設・区域	地すべり防止区域（農林水産大臣指定）	2	ヶ所	honpen-01 p.42-43
+saigai	22	kpi	日野町のすがた	人口（国勢調査）	20964	人	honpen-01 p.15
+saigai	22	kpi	日野町のすがた	世帯数（国勢調査）	7932	世帯	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S22	26524	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S25	26075	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S30	24652	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S35	22992	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S40	21416	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S45	20754	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S50	20913	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S55	21680	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/S60	22009	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/H2	22391	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/H7	23132	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/H12	23022	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/H17	22809	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/H22	22870	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/H27	21873	人	honpen-01 p.15
+saigai	23	chart.line	人口の推移（国勢調査）	人口/R2	20964	人	honpen-01 p.15
+hinan	7	table	氾濫注意水位（警戒水位）	別所橋/水位（ｍ）	2.00		honpen-01 p.182
+hinan	7	table	氾濫注意水位（警戒水位）	増田橋/水位（ｍ）	2.25		honpen-01 p.182
+hinan	7	table	氾濫注意水位（警戒水位）	諸木大橋/水位（ｍ）	1.90		honpen-01 p.182
+sonae	7	table	2,194人分の目標数量	飲料水（500mℓ）/目標数量	2000		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	飲料水（2.0ℓ）/目標数量	3000		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	飲料水の合計/目標数量	7000		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	アルファ化米/目標数量	4500		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	保存用クラッカー/目標数量	1000		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	保存用ビスコ/目標数量	2000		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	缶入りパン/目標数量	1500		honpen-01 p.72
+sonae	7	table	2,194人分の目標数量	食糧の合計/目標数量	9000		honpen-01 p.72
+shien	3	table	日野町住宅災害見舞金	全焼、又は全壊/支給額（万円以内）	10		honpen-01 p.250
+shien	3	table	日野町住宅災害見舞金	2分の1が焼失し、又は損壊/支給額（万円以内）	6		honpen-01 p.250
+shien	3	table	日野町住宅災害見舞金	3分の1が焼失し、又は損壊/支給額（万円以内）	4		honpen-01 p.250
+shien	3	table	日野町住宅災害見舞金	10分の1が焼失し、又は損壊/支給額（万円以内）	2		honpen-01 p.250
+shien	3	table	日野町住宅災害見舞金	床上浸水/支給額（万円以内）	1		honpen-01 p.250
+shien	5	table	災害弔慰金・災害障害見舞金・災害援護資金	災害弔慰金（生計維持者死亡の場合）/支給額（万円）	500		honpen-01 p.251
+shien	5	table	災害弔慰金・災害障害見舞金・災害援護資金	災害弔慰金（生計維持者以外の死亡の場合）/支給額（万円）	250		honpen-01 p.251
+shien	5	table	災害弔慰金・災害障害見舞金・災害援護資金	災害障害見舞金（生計維持者の場合）/支給額（万円）	250		honpen-01 p.251
+shien	5	table	災害弔慰金・災害障害見舞金・災害援護資金	災害障害見舞金（その他の場合）/支給額（万円）	125		honpen-01 p.251
+shien	7	table	善意銀行住宅災害見舞金	全焼または全壊（延べ床面積の70％以上）/見舞金（円）	30000		honpen-01 p.251
+shien	7	table	善意銀行住宅災害見舞金	半焼または半壊（同30％以上70％未満）/見舞金（円）	15000		honpen-01 p.251
+shien	7	table	善意銀行住宅災害見舞金	一部焼または一部損壊（同10％以上30％未満）/見舞金（円）	7500		honpen-01 p.251
+shien	7	table	善意銀行住宅災害見舞金	床上浸水/見舞金（円）	10000		honpen-01 p.251
+shien	7	table	善意銀行住宅災害見舞金	床下浸水/見舞金（円）	5000		honpen-01 p.251
+shien	8	table	生活福祉資金（低所得者世帯への貸付）	被災したことにより臨時に必要となる経費/貸付限度額（万円以内）	150		honpen-01 p.252
+shien	8	table	生活福祉資金（低所得者世帯への貸付）	被災したことにより住宅の補修等に必要な経費/貸付限度額（万円以内）	250		honpen-01 p.252
+shien	12	table	基礎支援金（住宅の被害程度に応じて支給）	全壊（①）/支給額（万円）	100		honpen-01 p.253
+shien	12	table	基礎支援金（住宅の被害程度に応じて支給）	解体（②）/支給額（万円）	100		honpen-01 p.253
+shien	12	table	基礎支援金（住宅の被害程度に応じて支給）	長期避難（③）/支給額（万円）	100		honpen-01 p.253
+shien	12	table	基礎支援金（住宅の被害程度に応じて支給）	大規模半壊（④）/支給額（万円）	50		honpen-01 p.253
+shien	13	table	加算支援金（住宅の再建方法に応じて支給）	建設・購入/①②③④の世帯（万円）	200		honpen-01 p.253
+shien	13	table	加算支援金（住宅の再建方法に応じて支給）	建設・購入/⑤の世帯（万円）	100		honpen-01 p.253
+shien	13	table	加算支援金（住宅の再建方法に応じて支給）	補修/①②③④の世帯（万円）	100		honpen-01 p.253
+shien	13	table	加算支援金（住宅の再建方法に応じて支給）	補修/⑤の世帯（万円）	50		honpen-01 p.253
+shien	13	table	加算支援金（住宅の再建方法に応じて支給）	賃借（公営住宅以外）/①②③④の世帯（万円）	50		honpen-01 p.253
+shien	13	table	加算支援金（住宅の再建方法に応じて支給）	賃借（公営住宅以外）/⑤の世帯（万円）	25		honpen-01 p.253
+genshi	4	chart.rank	日野町から各発電所までの直線距離（約）	大飯発電所	74	km	honpen-02 p.2
+genshi	4	chart.rank	日野町から各発電所までの直線距離（約）	美浜発電所	75	km	honpen-02 p.2
+genshi	4	chart.rank	日野町から各発電所までの直線距離（約）	敦賀発電所	79	km	honpen-02 p.2
+genshi	4	chart.rank	日野町から各発電所までの直線距離（約）	高浜発電所	83	km	honpen-02 p.2
+genshi	13	table	OILと防護措置について（別表1 防護措置基準）	OIL1（緊急防護措置）/初期設定値	500		honpen-02 p.35
+genshi	13	table	OILと防護措置について（別表1 防護措置基準）	OIL4（緊急防護措置）/初期設定値	40000		honpen-02 p.35
+genshi	13	table	OILと防護措置について（別表1 防護措置基準）	OIL2（早期防護措置）/初期設定値	20		honpen-02 p.35
+genshi	13	table	OILと防護措置について（別表1 防護措置基準）	飲食物に係るスクリーニング基準/初期設定値	0.5		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	放射性ヨウ素/飲料水・牛乳・乳製品（Bq/kg）	300		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	放射性ヨウ素/野菜類・穀類・肉・卵・魚・その他（Bq/kg）	2000		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	放射性セシウム/飲料水・牛乳・乳製品（Bq/kg）	200		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	放射性セシウム/野菜類・穀類・肉・卵・魚・その他（Bq/kg）	500		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	プルトニウム及び超ウラン元素のアルファ核種/飲料水・牛乳・乳製品（Bq/kg）	1		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	プルトニウム及び超ウラン元素のアルファ核種/野菜類・穀類・肉・卵・魚・その他（Bq/kg）	10		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	ウラン/飲料水・牛乳・乳製品（Bq/kg）	20		honpen-02 p.35
+genshi	14	table	OIL6 飲食物の摂取を制限する際の基準	ウラン/野菜類・穀類・肉・卵・魚・その他（Bq/kg）	100		honpen-02 p.35

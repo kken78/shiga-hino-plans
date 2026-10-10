@@ -1,0 +1,6 @@
+tab	block_no	btype	block_label	label	value	unit	source
+gakko	3	programs	柱1 子ども一人ひとりの個性を大切にし、生きる力を育む	事業数	38	件	honpen p.8-18
+chiiki	3	programs	柱2 社会全体で支え合い、子どもを育む	事業数	8	件	honpen p.19-21
+shogai	3	programs	柱3 すべての人が学び続け、共に生きるための生涯学習を振興する	事業数	18	件	honpen p.22-26
+manabiba	4	bigstat	日野町立公民館	町内の地区公民館	7	館	honpen p.22
+manabiba	20	bigstat	近江日野商人ふるさと館「旧山中正吉邸」	町史編さん事業を通じて寄贈・寄託を受けた古文書（約）	45000	点	honpen p.29

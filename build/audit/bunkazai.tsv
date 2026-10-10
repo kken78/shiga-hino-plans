@@ -1,0 +1,364 @@
+tab	block_no	btype	block_label	label	value	unit	source
+summary	2	kpi		指定等文化財	91	件	hino-bunkazaikeikaku_ppt p.1
+summary	2	kpi		未指定文化財	2231	件	hino-bunkazaikeikaku_ppt p.1
+summary	2	kpi		地域遺産	1039	件	hino-bunkazaikeikaku_ppt p.1
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/国 指定	14		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/国 登録	12		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/県 指定	11		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/町 指定	41		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/総計	78		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/国 指定	4		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/国 登録	12		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/県 指定	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/町 指定	23		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/総計	42		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/国 指定	10		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/県 指定	8		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/町 指定	18		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/総計	36		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/県 指定	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/町 指定	2		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/総計	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/国 指定	10		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/県 指定	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/町 指定	7		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/総計	18		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/県 指定	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/町 指定	6		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/総計	7		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/県 指定	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/町 指定	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/総計	6		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/県 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/県 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/県 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/国 選択	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/県 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/国 指定	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/国 選択	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/県 指定	2		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/県 選択	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/総計	6		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/国 選択	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/県 指定	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/総計	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/国 指定	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/国 選択	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/県 指定	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/県 選択	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/総計	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/国 指定	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/県 指定	2		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/総計	7		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/県 指定	2		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/総計	2		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/国 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/県 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/国 指定	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/国 登録	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/県 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/町 指定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/総計	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	文化的景観/国 選定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	文化的景観/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	伝統的建造物群/国 選定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	伝統的建造物群/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 指定	20		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 選定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 選択	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 登録	12		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/県 指定	15		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/県 選択	3		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/町 指定	41		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/総計	91		honpen-04 p.3
+takara	8	table	未指定文化財件数（令和6年8月現在）	有形文化財/件数	1681		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	建造物/件数	402		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	美術工芸品/件数	1279		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	絵画/件数	114		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	彫刻/件数	252		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	工芸品/件数	81		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	書跡・典籍/件数	26		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	古文書/件数	423		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	考古資料/件数	21		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	歴史資料/件数	362		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	無形文化財/件数	0		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	民俗文化財/件数	324		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	有形の民俗文化財/件数	35		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	無形の民俗文化財/件数	289		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	記念物/件数	200		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	遺跡/件数	143		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	名勝地/件数	3		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	動物・植物・地質鉱物/件数	54		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	文化的景観/件数	7		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	伝統的建造物群/件数	19		honpen-04 p.14
+takara	8	table	未指定文化財件数（令和6年8月現在）	総計/件数	2231		honpen-04 p.14
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	綿向山	1	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	風景	48	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	寺社	229	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	伝承・民謡	462	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	ことわざ・まじない	173	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	地名	79	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	人物の功績	10	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	つながり・理念	22	件	honpen-04 p.20
+takara	11	chart.rank	地域遺産の件数（令和6年8月現在）	その他	15	件	honpen-04 p.20
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/日野	4		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/東桜谷	5		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/西桜谷	6		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/西大路	4		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/鎌掛	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/南比都佐	11		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/必佐	6		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	散布地/総計	38		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/日野	12		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/西桜谷	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/西大路	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/必佐	11		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡/総計	26		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/日野	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/必佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・城館跡/総計	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/日野	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/必佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・古墳/総計	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/日野	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/必佐	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	集落跡・その他墓跡/総計	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/日野	4		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/東桜谷	7		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/西桜谷	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/西大路	5		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/鎌掛	3		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/南比都佐	4		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/必佐	8		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	城館跡/総計	32		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/日野	3		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/東桜谷	3		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/西桜谷	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/西大路	4		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/南比都佐	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/必佐	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	社寺跡/総計	15		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/日野	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/西大路	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/必佐	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳/総計	5		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/日野	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/必佐	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳・その他墓跡/総計	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/日野	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/東桜谷	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/鎌掛	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/必佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	古墳群/総計	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/日野	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/東桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/西大路	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/鎌掛	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/必佐	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他墓跡/総計	7		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/日野	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/東桜谷	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/西桜谷	7		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/南比都佐	3		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/必佐	5		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	生産遺跡/総計	17		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/日野	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/東桜谷	2		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/西桜谷	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/西大路	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/鎌掛	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/南比都佐	0		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/必佐	1		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	その他/総計	3		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/日野	30		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/東桜谷	19		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/西桜谷	17		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/西大路	18		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/鎌掛	7		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/南比都佐	20		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/必佐	38		honpen-04 p.13
+takara	14	table	周知の埋蔵文化財包蔵地箇所（令和6年8月現在）	総計/総計	149		honpen-04 p.13
+tokusei	8	kpi	町のすがた	人口	20749	人	honpen-03 p.11
+tokusei	8	kpi	町のすがた	人口（国勢調査）	20964	人	honpen-03 p.11
+tokusei	8	kpi	町のすがた	老年人口（65歳以上）の割合	30.6	%	honpen-03 p.11
+tokusei	8	kpi	町のすがた	人口の将来推計	15444	人	honpen-03 p.11
+tokusei	9	kpi	町のすがた	年間観光入込客数	740100	人	honpen-03 p.15
+tokusei	9	kpi	町のすがた	年間観光入込客数	402800	人	honpen-03 p.15
+tokusei	9	kpi	町のすがた	「歴史観光」「博物館・美術館等」の割合（約）	14	%	honpen-03 p.15
+tokusei	12	chart.rank	来館実績（令和4年度）	近江日野商人館	5674	人	honpen-06 p.11
+tokusei	12	chart.rank	来館実績（令和4年度）	近江日野商人ふるさと館	5631	人	honpen-06 p.11
+tokusei	12	chart.rank	来館実績（令和4年度）	日野まちかど感応館	12005	人	honpen-06 p.11
+koe	2	kpi	アンケートとワークショップ	町民アンケート 回答数	38	人	honpen-02 p.14
+koe	2	kpi	アンケートとワークショップ	小学生アンケート 回答数	613	人	honpen-02 p.14
+koe	2	kpi	アンケートとワークショップ	中学生アンケート 回答数	420	人	honpen-02 p.14
+koe	2	kpi	アンケートとワークショップ	自治会アンケート 回答数	106	件	honpen-02 p.14
+koe	2	kpi	アンケートとワークショップ	関係団体アンケート 回答数	31	団体	honpen-02 p.14
+koe	3	kpi	アンケートとワークショップ	地域ワークショップ 参加者数	243	人	honpen-02 p.15
+koe	3	kpi	アンケートとワークショップ	地域ワークショップ 開催場所	7	か所	honpen-02 p.15
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	お祭りや行事	27	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	仏像、絵画	25	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	自然	24	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	神社、寺院	22	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	伝承・民謡、ことわざ、地名	19	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	町並み	17	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	遺跡、城跡	15	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	風景	15	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	人物	13	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	郷土料理・特産品	11	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	石碑、道標	7	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	施設（学校・公園等）	4	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	伝統産業、伝統工芸	1	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	つながり	1	件	shiryo p.60
+koe	7	chart.rank	受け継いでいきたい日野の“たから”（町民・複数回答）	その他	7	件	shiryo p.60
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	近江日野商人	71.4	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	豊かな自然	31.4	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	綿向山	31.4	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	戦国武将と中世城郭	31.4	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	神社・寺院と祈りの文化	28.6	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	祈りと年中行事	25.7	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	街道と町並み景観	20.0	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	里山のある景観	11.4	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	高田敬輔と日野画壇	8.6	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	農村・山村の景観	5.7	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	食文化	5.7	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	中世の石造美術品	2.9	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	渡来文化	0.0	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	仁正寺藩市橋家	0.0	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	近代建築	0.0	%	shiryo p.61
+koe	8	chart.rank	日野町を代表する・象徴する歴史文化（町民・複数回答）	その他	11.4	%	shiryo p.61
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	お祭りなどの伝統行事や伝統技術の継承、担い手の育成	76.5	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	文化財の調査・研究、保存修理、指定や活用	58.8	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	古い建物や町並みの景観保全	55.9	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	ＰＲや情報発信、散策マップの充実	52.9	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	日野町の歴史文化、偉人等の講座やシンポジウムの開催	44.1	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	資料館等の展示・公開の場の充実	41.2	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	公共交通網やネットワークの整備	35.3	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	ガイドボランティアの拡充	32.4	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	その他	11.8	%	shiryo p.62
+koe	9	chart.rank	歴史文化や文化財の保存・活用の推進の取組（町民・複数回答）	無回答	11.8	%	shiryo p.62
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	郷土料理・特産品	605	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	自然	576	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	お祭りや行事	456	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	施設（学校、公園等）	396	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	神社、寺院	263	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	伝統産業、伝統工芸	105	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	遺跡、城跡	103	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	人物	96	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	町並み	54	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	風景	47	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	つながり	38	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	仏像、絵画	36	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	伝承・民謡、ことわざ、地名	19	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	石碑、道標	17	件	shiryo p.63
+koe	11	chart.rank	受け継いでいきたい日野の“たから”（小・中学生・複数回答）	その他	109	件	shiryo p.63
+koe	12	chart.stacked100	お祭りや行事等への参加経験	小学生/ある	84.5	%	shiryo p.65
+koe	12	chart.stacked100	お祭りや行事等への参加経験	小学生/ない	14.5	%	shiryo p.65
+koe	12	chart.stacked100	お祭りや行事等への参加経験	小学生/無回答	1.0	%	shiryo p.65
+koe	12	chart.stacked100	お祭りや行事等への参加経験	中学生/ある	76.2	%	shiryo p.65
+koe	12	chart.stacked100	お祭りや行事等への参加経験	中学生/ない	21.2	%	shiryo p.65
+koe	12	chart.stacked100	お祭りや行事等への参加経験	中学生/無回答	2.6	%	shiryo p.65
+koe	13	chart.rank	日野町の歴史や魅力を教えてくれる人の有無（中学生）	いない	74.0	%	shiryo p.65
+koe	13	chart.rank	日野町の歴史や魅力を教えてくれる人の有無（中学生）	家族や親戚にいる	16.2	%	shiryo p.65
+koe	13	chart.rank	日野町の歴史や魅力を教えてくれる人の有無（中学生）	知り合いにいる	2.6	%	shiryo p.65
+koe	13	chart.rank	日野町の歴史や魅力を教えてくれる人の有無（中学生）	どちらにもいる	1.7	%	shiryo p.65
+koe	13	chart.rank	日野町の歴史や魅力を教えてくれる人の有無（中学生）	無回答	5.5	%	shiryo p.65
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	地域のお祭りや行事に参加したい	70.0	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	日野町の歴史や魅力をより詳しく学びたい	45.7	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	日野町の歴史や魅力をたくさんの人に紹介したい	36.4	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	伝統工芸や郷土料理を習うなどしたい	24.0	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	日野町の歴史について調べたり、発掘や民具の調査に参加してみたい	19.3	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	身近にあるお寺や神社などの掃除を手伝いたい	17.9	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	歴史に詳しい人の講演会や説明会に参加して話を聞いてみたい	12.1	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	その他	2.1	%	shiryo p.66
+koe	14	chart.rank	歴史文化や文化財の保存・活用の推進の取組（中学生・複数回答）	無回答	5.7	%	shiryo p.66
+koe	16	kpi	自治会・関係団体アンケート	地域で指定等文化財を管理している	26.4	%	shiryo p.67
+koe	16	kpi	自治会・関係団体アンケート	「ない」（その所在を知らない）	68.9	%	shiryo p.67
+koe	17	kpi	自治会・関係団体アンケート	他の団体と連携している団体	24	団体	shiryo p.70
+koe	17	kpi	自治会・関係団体アンケート	今後、連携したい団体	19	団体	shiryo p.70
+sochi	5	programs	計画期間に取り組む措置	事業数	14	件	honpen-09 p.4-6
+sochi	7	programs	計画期間に取り組む措置	事業数	15	件	honpen-09 p.7-9
+sochi	9	programs	計画期間に取り組む措置	事業数	6	件	honpen-09 p.10-11
+sochi	11	programs	計画期間に取り組む措置	事業数	10	件	honpen-09 p.12-13
+sochi	13	programs	計画期間に取り組む措置	事業数	15	件	honpen-09 p.14-16
+sochi	15	programs	計画期間に取り組む措置	事業数	8	件	honpen-09 p.17-18
+sochi	17	programs	計画期間に取り組む措置	事業数	6	件	honpen-09 p.19-20
+suishin	3	timeline	計画期間と進め方	前期	R7〜R9		honpen-09 p.3
+suishin	3	timeline	計画期間と進め方	中期	R10〜R12		honpen-09 p.3
+suishin	3	timeline	計画期間と進め方	後期	R13〜R16		honpen-09 p.3
+suishin	7	kpi	推進体制	生涯学習課の文化財担当者	4	人	honpen-10 p.4
+suishin	8	kpi	推進体制	日野町文化財保護審議会	7	人	honpen-10 p.7
+suishin	8	kpi	推進体制	日野曳山保存修理専門審査会	6	人	honpen-10 p.7

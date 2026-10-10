@@ -1,9 +1,9 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
 d179d810fae2b579	summary	2	kpi		総人口	20761	人	honpen p.4-5	✓	auto:ai	2026-10-10	
-cafa08bc57846ed2	summary	2	kpi		18歳未満人口	3022	人	honpen p.4-5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-9ac497d4a50b7993	summary	3	kpi		保育所 待機児童	8	人	honpen p.11-13				要人確認:H1 A=一致/中 B=一致/中
-9944abc980ff494e	summary	4	kpi		児童虐待相談	234	件	honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+cafa08bc57846ed2	summary	2	kpi		18歳未満人口	3022	人	honpen p.4-5	✓	kken78	2026-10-10	要人確認:H4 難しさ5点
+9ac497d4a50b7993	summary	3	kpi		保育所 待機児童	8	人	honpen p.11-13	✓	kken78	2026-10-10	要人確認:H1 A=一致/中 B=一致/中
+9944abc980ff494e	summary	4	kpi		児童虐待相談	234	件	honpen p.8	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 e101614ecd753578	genjo	1	chart.stacked	18歳未満人口の推移	R2/就学前	994	人	honpen p.5	✓	auto:ai	2026-10-10	
 955f7505faa41015	genjo	1	chart.stacked	18歳未満人口の推移	R2/小学生	1119	人	honpen p.5	✓	auto:ai	2026-10-10	
 bceba6dec8e8bd1c	genjo	1	chart.stacked	18歳未満人口の推移	R2/中学生	562	人	honpen p.5	✓	auto:ai	2026-10-10	
@@ -15,7 +15,7 @@ ae22f72baf044158	genjo	1	chart.stacked	18歳未満人口の推移	R3/就学前	9
 d645bd698717d74d	genjo	1	chart.stacked	18歳未満人口の推移	R4/就学前	900	人	honpen p.5	✓	auto:ai	2026-10-10	
 b4bd33395a2a019d	genjo	1	chart.stacked	18歳未満人口の推移	R4/小学生	1126	人	honpen p.5	✓	auto:ai	2026-10-10	
 23c2830f0f96a5f6	genjo	1	chart.stacked	18歳未満人口の推移	R4/中学生	540	人	honpen p.5	✓	auto:ai	2026-10-10	
-a2976df17e1ec224	genjo	1	chart.stacked	18歳未満人口の推移	R4/高校生	583	人	honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+a2976df17e1ec224	genjo	1	chart.stacked	18歳未満人口の推移	R4/高校生	583	人	honpen p.5	✓	kken78	2026-10-10	要人確認:H4 難しさ6点
 03d6102a47b90f79	genjo	1	chart.stacked	18歳未満人口の推移	R5/就学前	857	人	honpen p.5	✓	auto:ai	2026-10-10	
 7c71272de02a02a7	genjo	1	chart.stacked	18歳未満人口の推移	R5/小学生	1070	人	honpen p.5	✓	auto:ai	2026-10-10	
 cd0721bee837f788	genjo	1	chart.stacked	18歳未満人口の推移	R5/中学生	582	人	honpen p.5	✓	auto:ai	2026-10-10	
@@ -27,7 +27,7 @@ d62012ca84d1a324	genjo	1	chart.stacked	18歳未満人口の推移	R6/中学生	5
 34bbc75146d87c8f	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/15	16.7	%	honpen p.7	✓	auto:ai	2026-10-10	
 926eb54fc3e19ab5	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/20	60.4	%	honpen p.7	✓	auto:ai	2026-10-10	
 76221c1c31970515	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/25	70.8	%	honpen p.7	✓	auto:ai	2026-10-10	
-79432ddbab4a8661	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/30	69.8	%	honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+79432ddbab4a8661	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/30	69.8	%	honpen p.7	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 f6cb69aa3a067337	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/35	70.5	%	honpen p.7	✓	auto:ai	2026-10-10	
 0d920083f98d8560	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/40	74.8	%	honpen p.7	✓	auto:ai	2026-10-10	
 e3b4d9e3e14dd0c5	genjo	4	chart.line	女性の年代別就業率	令和2年(R2)/45	78.4	%	honpen p.7	✓	auto:ai	2026-10-10	
@@ -54,14 +54,14 @@ e99e8d34cf33aaad	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)
 5c381a065e2a7b76	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/75	9.3	%	honpen p.7	✓	auto:ai	2026-10-10	
 a265368b72454796	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/80	5.1	%	honpen p.7	✓	auto:ai	2026-10-10	
 b16ada7dee7806ba	genjo	4	chart.line	女性の年代別就業率	平成27年(H27)/85+	1.3	%	honpen p.7	✓	auto:ai	2026-10-10	
-288d74c0e31948f9	genjo	6	table	待機児童数	待機児童/R2	2		honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+288d74c0e31948f9	genjo	6	table	待機児童数	待機児童/R2	2		honpen p.13	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 b439ebae58be9322	genjo	6	table	待機児童数	待機児童/R3	3		honpen p.13	✓	auto:ai	2026-10-10	
 e07b07bd4b38dd5b	genjo	6	table	待機児童数	待機児童/R4	6		honpen p.13	✓	auto:ai	2026-10-10	
 07a229d3bb762bff	genjo	6	table	待機児童数	待機児童/R5	4		honpen p.13	✓	auto:pdftext	2026-10-10	
 e4b6abf3e3ff9b36	genjo	6	table	待機児童数	待機児童/R6	8		honpen p.13	✓	auto:pdftext	2026-10-10	
 fae8b5d50550d1e9	needs	1	table		就学前児童アンケート/配布数(票)	400		honpen p.21	✓	auto:ai	2026-10-10	
 4442ec7f7560c23d	needs	1	table		就学前児童アンケート/回収数(票)	203		honpen p.21	✓	auto:pdftext	2026-10-10	
-5660003c452d4b60	needs	1	table		小学生アンケート/配布数(票)	400		honpen p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+5660003c452d4b60	needs	1	table		小学生アンケート/配布数(票)	400		honpen p.21	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 0a3b863b4fb3e6eb	needs	1	table		小学生アンケート/回収数(票)	182		honpen p.21	✓	auto:pdftext	2026-10-10	
 29514092044812e8	needs	3	chart.pair	主に子育てをしている人｜就学前	父母ともに/今回 n=203	56.7	%	honpen p.21	✓	auto:ai	2026-10-10	
 da1512714b2a2982	needs	3	chart.pair	主に子育てをしている人｜就学前	父母ともに/前回 n=197	48.7	%	honpen p.21	✓	auto:ai	2026-10-10	
@@ -72,7 +72,7 @@ e4fca9af2aeffe78	needs	3	chart.pair	主に子育てをしている人｜就学�
 d3af65781d6dd780	needs	3	chart.pair	主に子育てをしている人｜就学前	主に祖父母/今回 n=203	1.0	%	honpen p.21	✓	auto:ai	2026-10-10	
 97d99c316b8da8e7	needs	3	chart.pair	主に子育てをしている人｜就学前	主に祖父母/前回 n=197	1	%	honpen p.21	✓	auto:ai	2026-10-10	
 496c921e34868e18	needs	3	chart.pair	主に子育てをしている人｜就学前	その他/今回 n=203	0.0	%	honpen p.21	✓	auto:ai	2026-10-10	
-4996876b8c0c7073	needs	3	chart.pair	主に子育てをしている人｜就学前	その他/前回 n=197	0	%	honpen p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+4996876b8c0c7073	needs	3	chart.pair	主に子育てをしている人｜就学前	その他/前回 n=197	0	%	honpen p.21	✓	kken78	2026-10-10	要人確認:H4 難しさ7点
 799aff5f17a0e7d3	needs	3	chart.pair	主に子育てをしている人｜就学前	無回答/今回 n=203	1.0	%	honpen p.21	✓	auto:ai	2026-10-10	
 39dbb08a7aed1ea7	needs	3	chart.pair	主に子育てをしている人｜就学前	無回答/前回 n=197	1.5	%	honpen p.21	✓	auto:ai	2026-10-10	
 360c6a30b404daf4	needs	4	chart.pair	主に子育てをしている人｜小学生	父母ともに/今回 n=182	53.3	%	honpen p.21	✓	auto:ai	2026-10-10	
@@ -81,7 +81,7 @@ dd36bc719c643d91	needs	4	chart.pair	主に子育てをしている人｜小学�
 c2f7991ab15db951	needs	4	chart.pair	主に子育てをしている人｜小学生	主に母親/前回 n=178	40.4	%	honpen p.21	✓	auto:ai	2026-10-10	
 6616c367836cc4dc	needs	4	chart.pair	主に子育てをしている人｜小学生	主に父親/今回 n=182	0.5	%	honpen p.21	✓	auto:ai	2026-10-10	
 715166e72ae9d005	needs	4	chart.pair	主に子育てをしている人｜小学生	主に父親/前回 n=178	1.1	%	honpen p.21	✓	auto:ai	2026-10-10	
-79bed1a34e0fb84a	needs	4	chart.pair	主に子育てをしている人｜小学生	主に祖父母/今回 n=182	2.2	%	honpen p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+79bed1a34e0fb84a	needs	4	chart.pair	主に子育てをしている人｜小学生	主に祖父母/今回 n=182	2.2	%	honpen p.21	✓	kken78	2026-10-10	要人確認:H4 難しさ5点
 c476355837f965da	needs	4	chart.pair	主に子育てをしている人｜小学生	主に祖父母/前回 n=178	0.6	%	honpen p.21	✓	auto:ai	2026-10-10	
 ede39a78a5f25f3a	needs	4	chart.pair	主に子育てをしている人｜小学生	その他/今回 n=182	0.5	%	honpen p.21	✓	auto:ai	2026-10-10	
 9ff54b0a6936fdfa	needs	4	chart.pair	主に子育てをしている人｜小学生	その他/前回 n=178	1.1	%	honpen p.21	✓	auto:ai	2026-10-10	
@@ -92,7 +92,7 @@ fbf6712e371079b5	needs	6	chart.stacked100	子育てに関する情報提供や�
 029174dd8ca56f84	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	就学前/どちらかといえば不満	14.3	%	honpen p.22	✓	auto:ai	2026-10-10	
 c5f18546a3c85072	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	就学前/不満	2.5	%	honpen p.22	✓	auto:ai	2026-10-10	
 f0daf18a1c68ca31	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	就学前/無回答	3.9	%	honpen p.22	✓	auto:ai	2026-10-10	
-507881b5c4ddecfb	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	小学生/満足	6.0	%	honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+507881b5c4ddecfb	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	小学生/満足	6.0	%	honpen p.22	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 77a778c54fae531e	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	小学生/どちらかといえば満足	61.5	%	honpen p.22	✓	auto:ai	2026-10-10	
 8fe8e147ad93c02b	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	小学生/どちらかといえば不満	23.6	%	honpen p.22	✓	auto:ai	2026-10-10	
 791e02ebf818a23a	needs	6	chart.stacked100	子育てに関する情報提供や相談体制への満足度	小学生/不満	2.2	%	honpen p.22	✓	auto:ai	2026-10-10	
@@ -106,7 +106,7 @@ c3e825bbf52c8b58	needs	7	chart.stacked100	日野町は子育てしやすいま�
 70276456a95dbdb5	needs	7	chart.stacked100	日野町は子育てしやすいまちだと思うか	小学生/どちらかといえば思う	51.1	%	honpen p.24	✓	auto:ai	2026-10-10	
 987f3f0226fb85ea	needs	7	chart.stacked100	日野町は子育てしやすいまちだと思うか	小学生/どちらかといえば思わない	14.8	%	honpen p.24	✓	auto:ai	2026-10-10	
 e9c6c7ed8cb37ae5	needs	7	chart.stacked100	日野町は子育てしやすいまちだと思うか	小学生/思わない	7.7	%	honpen p.24	✓	auto:ai	2026-10-10	
-a1741c4d5cc12af5	needs	7	chart.stacked100	日野町は子育てしやすいまちだと思うか	小学生/無回答	4.9	%	honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+a1741c4d5cc12af5	needs	7	chart.stacked100	日野町は子育てしやすいまちだと思うか	小学生/無回答	4.9	%	honpen p.24	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 850991cb8e7cbf05	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	就学前/非常に感じている	10.8	%	honpen p.24	✓	auto:pdftext	2026-10-10	
 33a5ed4b965e84d3	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	就学前/どちらかというと感じている	46.3	%	honpen p.24	✓	auto:pdftext	2026-10-10	
 0b30293b7b383ae5	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	就学前/どちらかというと感じない	32.5	%	honpen p.24	✓	auto:ai	2026-10-10	
@@ -116,13 +116,13 @@ ca487855e26a91d9	needs	8	chart.stacked100	子育てが地域の人や社会に�
 6db557dbf2d5ecc0	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	小学生/どちらかというと感じている	46.2	%	honpen p.24	✓	auto:pdftext	2026-10-10	
 330cc1d8f805a0c0	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	小学生/どちらかというと感じない	29.7	%	honpen p.24	✓	auto:ai	2026-10-10	
 e4dc03b909153eb4	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	小学生/まったく感じない	8.2	%	honpen p.24	✓	auto:ai	2026-10-10	
-60525e1a6dff5bad	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	小学生/無回答	3.8	%	honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+60525e1a6dff5bad	needs	8	chart.stacked100	子育てが地域の人や社会に支えられていると感じるか	小学生/無回答	3.8	%	honpen p.24	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 c4501a8768f0b01f	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	緊急時・用事時に祖父母等の親族/就学前 n=203	63.5	%	honpen p.27	✓	auto:ai	2026-10-10	
 c2f5f113eab2cf9d	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	緊急時・用事時に祖父母等の親族/小学生 n=182	51.6	%	honpen p.27	✓	auto:ai	2026-10-10	
 b44ebb9f06de6093	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	日常的に祖父母等の親族/就学前 n=203	26.1	%	honpen p.27	✓	auto:ai	2026-10-10	
 4ec295f795bd4eec	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	日常的に祖父母等の親族/小学生 n=182	28.0	%	honpen p.27	✓	auto:ai	2026-10-10	
 7e817b9ff9ee61d7	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	緊急時・用事時に友人・知人/就学前 n=203	4.9	%	honpen p.27	✓	auto:ai	2026-10-10	
-370251142a19e6b8	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	緊急時・用事時に友人・知人/小学生 n=182	9.3	%	honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+370251142a19e6b8	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	緊急時・用事時に友人・知人/小学生 n=182	9.3	%	honpen p.27	✓	kken78	2026-10-10	要人確認:H4 難しさ4点
 9fcf9425446ad726	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	日常的に友人・知人/就学前 n=203	0.5	%	honpen p.27	✓	auto:ai	2026-10-10	
 54142367b4b511c3	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	日常的に友人・知人/小学生 n=182	0.5	%	honpen p.27	✓	auto:ai	2026-10-10	
 cb84a20f687b86bf	needs	9	chart.pair	日頃、子どもを預けられる人がいるか(複数回答)	預かってもらえる人はいない/就学前 n=203	11.8	%	honpen p.27	✓	auto:ai	2026-10-10	
@@ -135,11 +135,11 @@ b384f2471c09a927	needs	11	chart.stacked100	育児休業の取得状況(母親・
 f5d034f0a2b26970	needs	11	chart.stacked100	育児休業の取得状況(母親・父親)	母親/無回答	3.9	%	honpen p.25	✓	auto:ai	2026-10-10	
 9a6080f6396425a4	needs	11	chart.stacked100	育児休業の取得状況(母親・父親)	父親/取得した(取得中である)	8.9	%	honpen p.25	✓	auto:ai	2026-10-10	
 7f1fd9121b488386	needs	11	chart.stacked100	育児休業の取得状況(母親・父親)	父親/取得していない	79.8	%	honpen p.25	✓	auto:ai	2026-10-10	
-4993d732ce5d1b7b	needs	11	chart.stacked100	育児休業の取得状況(母親・父親)	父親/働いていなかった	2.0	%	honpen p.25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+4993d732ce5d1b7b	needs	11	chart.stacked100	育児休業の取得状況(母親・父親)	父親/働いていなかった	2.0	%	honpen p.25	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 74329a937210c00e	needs	11	chart.stacked100	育児休業の取得状況(母親・父親)	父親/無回答	9.4	%	honpen p.25	✓	auto:ai	2026-10-10	
 7a12c063c9009fe2	needs	13	table	子育てしやすい社会にするために必要な支援	1位/就学前(%)	74.4		honpen p.24	✓	auto:ai	2026-10-10	
 c29699d28de3771e	needs	13	table	子育てしやすい社会にするために必要な支援	1位/小学生(%)	57.1		honpen p.24	✓	auto:pdftext	2026-10-10	
-567d09895f73bd46	needs	13	table	子育てしやすい社会にするために必要な支援	2位/就学前(%)	55.7		honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+567d09895f73bd46	needs	13	table	子育てしやすい社会にするために必要な支援	2位/就学前(%)	55.7		honpen p.24	✓	kken78	2026-10-10	要人確認:H4 難しさ0点
 5ff8b87d5a207919	needs	13	table	子育てしやすい社会にするために必要な支援	2位/小学生(%)	41.2		honpen p.24	✓	auto:pdftext	2026-10-10	
 79167bb193d4fddd	needs	13	table	子育てしやすい社会にするために必要な支援	3位/就学前(%)	52.7		honpen p.24	✓	auto:pdftext	2026-10-10	
 eb7093372c2027b5	needs	13	table	子育てしやすい社会にするために必要な支援	3位/小学生(%)	32.4		honpen p.24	✓	auto:pdftext	2026-10-10	
@@ -149,7 +149,7 @@ b382a429a7c76561	needs	15	chart.pair	ヤングケアラーの認知度(単数回
 a05b1a8345810872	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	聞いたことはあるが意味は知らない/小学生 n=182	7.7	%	honpen p.23	✓	auto:ai	2026-10-10	
 363786ad4a889044	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	聞いたこともない/就学前 n=203	18.7	%	honpen p.23	✓	auto:ai	2026-10-10	
 39b788d0ffc2e635	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	聞いたこともない/小学生 n=182	15.4	%	honpen p.23	✓	auto:ai	2026-10-10	
-324d47b43939a9fc	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	無回答/就学前 n=203	2.0	%	honpen p.23	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+324d47b43939a9fc	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	無回答/就学前 n=203	2.0	%	honpen p.23	✓	kken78	2026-10-10	要人確認:H4 難しさ5点
 71a4b207a10ee17a	needs	15	chart.pair	ヤングケアラーの認知度(単数回答)	無回答/小学生 n=182	3.3	%	honpen p.23	✓	auto:ai	2026-10-10	
 310e819beed851b0	needs	17	table	子どもの貧困・経済面	必要な食料が買えなかった/就学前 何度か	8.9		honpen p.28	✓	auto:ai	2026-10-10	
 9cc774d00a855454	needs	17	table	子どもの貧困・経済面	必要な食料が買えなかった/就学前 頻繁	0.5		honpen p.28	✓	auto:ai	2026-10-10	
@@ -158,7 +158,7 @@ d98a9706bab9ec41	needs	17	table	子どもの貧困・経済面	必要な食料�
 b9719058c47d79d4	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/就学前 何度か	10.8		honpen p.28	✓	auto:ai	2026-10-10	
 72b829b9cfa52d40	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/就学前 頻繁	0.5		honpen p.28	✓	auto:ai	2026-10-10	
 4d14a40aaa470c14	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/小学生 何度か	16.5		honpen p.28	✓	auto:ai	2026-10-10	
-1098d62f110ddf7d	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/小学生 頻繁	2.7		honpen p.28	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+1098d62f110ddf7d	needs	17	table	子どもの貧困・経済面	必要な衣料が買えなかった/小学生 頻繁	2.7		honpen p.28	✓	kken78	2026-10-10	要人確認:H4 難しさ6点
 cb0ae0ef80472e60	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/就学前 何度か	5.4		honpen p.28	✓	auto:ai	2026-10-10	
 f6b2bac3d0163165	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/就学前 頻繁	1.0		honpen p.28	✓	auto:ai	2026-10-10	
 ed7016dd1e458e56	needs	17	table	子どもの貧困・経済面	電気・ガス・水道料金の滞納/小学生 何度か	7.1		honpen p.28	✓	auto:ai	2026-10-10	
@@ -171,21 +171,21 @@ d2e97b3a33eb8cd2	needs	17	table	子どもの貧困・経済面	電話料金の�
 45128795afd38850	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/就学前 頻繁	0.5		honpen p.28	✓	auto:ai	2026-10-10	
 34e59da32a94c6b3	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/小学生 何度か	4.9		honpen p.28	✓	auto:ai	2026-10-10	
 24d51f3b85d656bf	needs	17	table	子どもの貧困・経済面	家賃・住宅ローンの滞納/小学生 頻繁	1.6		honpen p.28	✓	auto:ai	2026-10-10	
-390ac28af72dc2b9	hyoka	1	bigstat		計画全体の平均値	8.72	点	honpen p.30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+390ac28af72dc2b9	hyoka	1	bigstat		計画全体の平均値	8.72	点	honpen p.30	✓	kken78	2026-10-10	要人確認:H4 難しさ4点
 06686c9282bfa27d	hyoka	2	table		Ⅰ ゆとりをもって子育てができるまち/平均値(点)	8.80		honpen p.30	✓	auto:ai	2026-10-10	
-01ae5568fd972f19	hyoka	2	table		Ⅱ 子どもが明るく元気に育つまち/平均値(点)	7.40		honpen p.30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+01ae5568fd972f19	hyoka	2	table		Ⅱ 子どもが明るく元気に育つまち/平均値(点)	7.40		honpen p.30	✓	kken78	2026-10-10	要人確認:H4 難しさ6点
 0f1b7decbbc3bdf5	hyoka	2	table		Ⅲ 安心して子どもを生み育てることができるまち/平均値(点)	9.43		honpen p.30	✓	auto:ai	2026-10-10	
 40a8d4a896bfad56	hyoka	4	chart.rank	5つの節の平均点(降順)	第4節 妊娠・出産・子育ての切れ目ない支援	9.75	点	honpen p.30	✓	auto:ai	2026-10-10	
 eb5cfaf8d92ed33c	hyoka	4	chart.rank	5つの節の平均点(降順)	第5節 子どもの未来を応援する仕組みづくり	9.17	点	honpen p.30	✓	auto:ai	2026-10-10	
 5377a24d860d5d97	hyoka	4	chart.rank	5つの節の平均点(降順)	第1節 すべての子育て家庭への支援	9.12	点	honpen p.30	✓	auto:ai	2026-10-10	
 df069e80a9db638d	hyoka	4	chart.rank	5つの節の平均点(降順)	第2節 子どもの人権を尊重する環境づくり	8.13	点	honpen p.30	✓	auto:ai	2026-10-10	
-e24d61e028c20f69	hyoka	4	chart.rank	5つの節の平均点(降順)	第3節 地域の子育て支援の強化	7.40	点	honpen p.30	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
-3d2dd4ee5954c8c8	hyoka	4	chart.rank	5つの節の平均点(降順)	平均値	8.72	点	honpen p.30				要人確認:H1 A=一致/中 B=一致/高
+e24d61e028c20f69	hyoka	4	chart.rank	5つの節の平均点(降順)	第3節 地域の子育て支援の強化	7.40	点	honpen p.30	✓	kken78	2026-10-10	要人確認:H4 難しさ7点
+3d2dd4ee5954c8c8	hyoka	4	chart.rank	5つの節の平均点(降順)	平均値	8.72	点	honpen p.30	✓	kken78	2026-10-10	要人確認:H1 A=一致/中 B=一致/高
 f015476212c6a5c7	hyoka	6	chart.rank	17の基本施策の平均点(降順)	1-2 家庭の教育力の向上	10.00	点	honpen p.31	✓	auto:ai	2026-10-10	
 d98727dc4085d393	hyoka	6	chart.rank	17の基本施策の平均点(降順)	1-3 障がいのある子どもへの支援	10.00	点	honpen p.31	✓	auto:ai	2026-10-10	
 5aeeab9407a4a68e	hyoka	6	chart.rank	17の基本施策の平均点(降順)	4-1 母子保健サービスの充実	10.00	点	honpen p.31	✓	auto:ai	2026-10-10	
 e3af3eaa93992226	hyoka	6	chart.rank	17の基本施策の平均点(降順)	4-2 小児医療等の充実	10.00	点	honpen p.31	✓	auto:ai	2026-10-10	
-13a71a24fac7fac7	hyoka	6	chart.rank	17の基本施策の平均点(降順)	4-4 放課後等の児童の健全育成の推進	10.00	点	honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+13a71a24fac7fac7	hyoka	6	chart.rank	17の基本施策の平均点(降順)	4-4 放課後等の児童の健全育成の推進	10.00	点	honpen p.31	✓	kken78	2026-10-10	要人確認:H4 難しさ6点
 487251398eb8a4dd	hyoka	6	chart.rank	17の基本施策の平均点(降順)	5-4 子育て家庭への経済的支援	10.00	点	honpen p.31	✓	auto:ai	2026-10-10	
 56aea22f4f8905fe	hyoka	6	chart.rank	17の基本施策の平均点(降順)	5-1 豊かな心と健やかな体を育む学校教育の推進	9.23	点	honpen p.31	✓	auto:ai	2026-10-10	
 d1b0b4deebab7534	hyoka	6	chart.rank	17の基本施策の平均点(降順)	5-2 仕事と生活の調和ワーク・ライフ・バランスの実現	9.17	点	honpen p.31	✓	auto:ai	2026-10-10	
@@ -199,7 +199,7 @@ e6bfd1d0d00d747a	hyoka	6	chart.rank	17の基本施策の平均点(降順)	5-3 �
 7ed9e3701c4b4902	hyoka	6	chart.rank	17の基本施策の平均点(降順)	3-2 地域における子どもの居場所づくり	6.88	点	honpen p.31	✓	auto:ai	2026-10-10	
 b13212a78cc75b14	hyoka	6	chart.rank	17の基本施策の平均点(降順)	3-4 安全で快適な子育て環境の整備	6.67	点	honpen p.31	✓	auto:ai	2026-10-10	
 0a9484fbc4471677	hyoka	6	chart.rank	17の基本施策の平均点(降順)	平均値	8.72	点	honpen p.31	✓	auto:ai	2026-10-10	
-639feb558cf4a4f2	shisaku	4	programs	施策の体系	事業数	100	件	honpen p.36-57				要人確認:H2 出典が4ページ以上(集計した値)
+639feb558cf4a4f2	shisaku	4	programs	施策の体系	事業数	100	件	honpen p.36-57	✓	kken78	2026-10-10	要人確認:H2 出典が4ページ以上(集計した値)
 4eb8fc58dc8f58ba	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/就学前(0〜5歳)	857	人	honpen p.64	✓	auto:ai	2026-10-10	
 105f8862de211276	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/小学生(6〜11歳)	1070	人	honpen p.64	✓	auto:ai	2026-10-10	
 098be07b2531aa63	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R5/中学生(12〜14歳)	582	人	honpen p.64	✓	auto:ai	2026-10-10	
@@ -214,7 +214,7 @@ e3614a03f332729d	ryo	5	chart.stacked	日野町の18歳未満人口の将来人�
 edd149cb9ff5b1c4	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R7/高校生(15〜17歳)	549	人	honpen p.64	✓	auto:ai	2026-10-10	
 6c3fd8dd45c26095	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/就学前(0〜5歳)	792	人	honpen p.64	✓	auto:ai	2026-10-10	
 61d9694ebb04b58e	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/小学生(6〜11歳)	1018	人	honpen p.64	✓	auto:ai	2026-10-10	
-85cbcdff141d05fe	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/中学生(12〜14歳)	537	人	honpen p.64	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+85cbcdff141d05fe	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/中学生(12〜14歳)	537	人	honpen p.64	✓	kken78	2026-10-10	要人確認:H4 難しさ6点
 70851281dee2d111	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R8/高校生(15〜17歳)	592	人	honpen p.64	✓	auto:ai	2026-10-10	
 c8e6db1b4817b1b1	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R9/就学前(0〜5歳)	775	人	honpen p.64	✓	auto:ai	2026-10-10	
 5361b2ed0e3bdc87	ryo	5	chart.stacked	日野町の18歳未満人口の将来人口	R9/小学生(6〜11歳)	975	人	honpen p.64	✓	auto:ai	2026-10-10	
@@ -231,7 +231,7 @@ bc6502c1fd049f64	ryo	5	chart.stacked	日野町の18歳未満人口の将来人�
 e7abab3f9d966293	ryo	6	kpi	将来の子ども人口推計	18歳未満人口	2753	人	honpen p.64	✓	auto:ai	2026-10-10	
 a66629211963059d	ryo	6	kpi	将来の子ども人口推計	就学前(0〜5歳)	769	人	honpen p.64	✓	auto:ai	2026-10-10	
 c3746de428c32148	ryo	6	kpi	将来の子ども人口推計	小学生(6〜11歳)	901	人	honpen p.64	✓	auto:ai	2026-10-10	
-b3409ca3607a081b	ryo	6	kpi	将来の子ども人口推計	18歳未満の対人口比	13.7	%	honpen p.64	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+b3409ca3607a081b	ryo	6	kpi	将来の子ども人口推計	18歳未満の対人口比	13.7	%	honpen p.64	✓	kken78	2026-10-10	要人確認:H4 難しさ5点
 e986e80925b4cf10	ryo	7	table	将来の子ども人口推計	18歳未満人口(人)/R5	3075		honpen p.64	✓	auto:ai	2026-10-10	
 82d7644bf29bb9be	ryo	7	table	将来の子ども人口推計	18歳未満人口(人)/R6	3022		honpen p.64	✓	auto:pdftext	2026-10-10	
 4c004d6ee6922c72	ryo	7	table	将来の子ども人口推計	18歳未満人口(人)/R7	2973		honpen p.64	✓	auto:pdftext	2026-10-10	
@@ -293,7 +293,7 @@ fc4c1fbf0901e541	ryo	7	table	将来の子ども人口推計	中学生(12〜14歳
 f954a737e6ba626f	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳)(人)/R7	549		honpen p.64	✓	auto:ai	2026-10-10	
 f159c3abf3c09713	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳)(人)/R8	592		honpen p.64	✓	auto:ai	2026-10-10	
 c3a4b14ac73f6173	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳)(人)/R9	581		honpen p.64	✓	auto:ai	2026-10-10	
-7587776e62010426	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳)(人)/R10	581		honpen p.64	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+7587776e62010426	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳)(人)/R10	581		honpen p.64	✓	kken78	2026-10-10	要人確認:H4 難しさ4点
 ccdbeb9e8aaf3a39	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳)(人)/R11	545		honpen p.64	✓	auto:ai	2026-10-10	
 809dc890503ea635	ryo	7	table	将来の子ども人口推計	18歳未満の対人口比(%)/R5	14.7		honpen p.64	✓	auto:ai	2026-10-10	
 6b3d913f515832f3	ryo	7	table	将来の子ども人口推計	18歳未満の対人口比(%)/R6	14.6		honpen p.64	✓	auto:ai	2026-10-10	
@@ -302,27 +302,27 @@ ccdbeb9e8aaf3a39	ryo	7	table	将来の子ども人口推計	高校生(15〜17歳
 912f9b20f64e77fc	ryo	7	table	将来の子ども人口推計	18歳未満の対人口比(%)/R9	14.2		honpen p.64	✓	auto:ai	2026-10-10	
 6db66b2592075054	ryo	7	table	将来の子ども人口推計	18歳未満の対人口比(%)/R10	14.0		honpen p.64	✓	auto:ai	2026-10-10	
 6732b5fa7f5ca32d	ryo	7	table	将来の子ども人口推計	18歳未満の対人口比(%)/R11	13.7		honpen p.64	✓	auto:ai	2026-10-10	
-9f2918bae211850d	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R7	0		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
-af0ddbfc735bf506	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R8	0		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
-da3f8b1e1ad02667	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R9	0		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
-c027bbc1eed88fdd	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R10	0		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
+9f2918bae211850d	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R7	0		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
+af0ddbfc735bf506	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R8	0		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
+da3f8b1e1ad02667	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R9	0		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
+c027bbc1eed88fdd	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R10	0		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
 bf5f1ec56927d83f	ryo	10	table	教育・保育の量の見込みと確保	①1号認定(3〜5歳・教育)/R11	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
-575584c779da9fbc	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R7	-5		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
-cad6b83f7b113b9f	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R8	-4		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
+575584c779da9fbc	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R7	-5		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
+cad6b83f7b113b9f	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R8	-4		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
 6fe3ab152af3998d	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R9	-4		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 61c2d7f039016af6	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R10	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 288bc015eebf4b1f	ryo	10	table	教育・保育の量の見込みと確保	②2号認定(3〜5歳・保育)/R11	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
-9836065dbd772d86	ryo	10	table	教育・保育の量の見込みと確保	③3号認定(0歳・保育)/R7	-6		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
+9836065dbd772d86	ryo	10	table	教育・保育の量の見込みと確保	③3号認定(0歳・保育)/R7	-6		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
 1edcf994af86e99c	ryo	10	table	教育・保育の量の見込みと確保	③3号認定(0歳・保育)/R8	-5		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 80575a02762acd5a	ryo	10	table	教育・保育の量の見込みと確保	③3号認定(0歳・保育)/R9	-5		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 b0af45c72c98fc0b	ryo	10	table	教育・保育の量の見込みと確保	③3号認定(0歳・保育)/R10	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 0094a76a7872a1b3	ryo	10	table	教育・保育の量の見込みと確保	③3号認定(0歳・保育)/R11	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
-ff149667c0f181af	ryo	10	table	教育・保育の量の見込みと確保	④3号認定(1歳・保育)/R7	-6		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
+ff149667c0f181af	ryo	10	table	教育・保育の量の見込みと確保	④3号認定(1歳・保育)/R7	-6		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
 4670c640878b979f	ryo	10	table	教育・保育の量の見込みと確保	④3号認定(1歳・保育)/R8	-2		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 f95624af7c239dbc	ryo	10	table	教育・保育の量の見込みと確保	④3号認定(1歳・保育)/R9	-3		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 17ba7e05c16733dd	ryo	10	table	教育・保育の量の見込みと確保	④3号認定(1歳・保育)/R10	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 c290ecf150b115a6	ryo	10	table	教育・保育の量の見込みと確保	④3号認定(1歳・保育)/R11	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
-82c4cb14855f41e1	ryo	10	table	教育・保育の量の見込みと確保	⑤3号認定(2歳・保育)/R7	-3		honpen p.66-67				要人確認:H1 A=一致/高 B=一致/中
+82c4cb14855f41e1	ryo	10	table	教育・保育の量の見込みと確保	⑤3号認定(2歳・保育)/R7	-3		honpen p.66-67	✓	kken78	2026-10-10	要人確認:H1 A=一致/高 B=一致/中
 3d05e251f5b694b8	ryo	10	table	教育・保育の量の見込みと確保	⑤3号認定(2歳・保育)/R8	-4		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 dbd365351c0ef48d	ryo	10	table	教育・保育の量の見込みと確保	⑤3号認定(2歳・保育)/R9	-6		honpen p.66-67	✓	auto:pdftext	2026-10-10	
 f6bbb3a3463319cc	ryo	10	table	教育・保育の量の見込みと確保	⑤3号認定(2歳・保育)/R10	0		honpen p.66-67	✓	auto:pdftext	2026-10-10	
@@ -355,7 +355,7 @@ e5792e93a36a0e9e	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定
 d4bb3f6e7d86d36d	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　確認を受けない幼稚園/R7	0		honpen p.66	✓	auto:ai	2026-10-10	
 b41860b852627d2a	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　確認を受けない幼稚園/R8	0		honpen p.66	✓	auto:ai	2026-10-10	
 d6d0a701fed7eff4	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　確認を受けない幼稚園/R9	0		honpen p.66	✓	auto:ai	2026-10-10	
-0f19c4ef2b6d47ca	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　確認を受けない幼稚園/R10	0		honpen p.66	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+0f19c4ef2b6d47ca	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　確認を受けない幼稚園/R10	0		honpen p.66	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 43288f8c0c785523	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　確認を受けない幼稚園/R11	0		honpen p.66	✓	auto:pdftext	2026-10-10	
 cda7f51e8aa4d081	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　上記以外(幼稚園の預かり保育長時間・通年)/R7	59		honpen p.66	✓	auto:ai	2026-10-10	
 b50165f8dd153f42	ryo	11	table	①1号認定〔3〜5歳・教育〕(※2号認定の教育希望を含む)	　上記以外(幼稚園の預かり保育長時間・通年)/R8	60		honpen p.66	✓	auto:ai	2026-10-10	
@@ -377,7 +377,7 @@ dc2e793e0c4596f9	ryo	12	table	②2号認定〔3〜5歳・保育〕	②確保方�
 fc6917bf8a3959ea	ryo	12	table	②2号認定〔3〜5歳・保育〕	②確保方策(保育所、認定こども園)/R9	266		honpen p.66	✓	auto:ai	2026-10-10	
 37de6e8fce98ae7b	ryo	12	table	②2号認定〔3〜5歳・保育〕	②確保方策(保育所、認定こども園)/R10	337		honpen p.66	✓	auto:ai	2026-10-10	
 fb1a730b2b9553eb	ryo	12	table	②2号認定〔3〜5歳・保育〕	②確保方策(保育所、認定こども園)/R11	358		honpen p.66	✓	auto:pdftext	2026-10-10	
-aaa39a3ade770c17	ryo	12	table	②2号認定〔3〜5歳・保育〕	不足分(②−①)/R7	-5		honpen p.66	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+aaa39a3ade770c17	ryo	12	table	②2号認定〔3〜5歳・保育〕	不足分(②−①)/R7	-5		honpen p.66	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 f52a5cc813f249a4	ryo	12	table	②2号認定〔3〜5歳・保育〕	不足分(②−①)/R8	-4		honpen p.66	✓	auto:ai	2026-10-10	
 238c9b058d78b811	ryo	12	table	②2号認定〔3〜5歳・保育〕	不足分(②−①)/R9	-4		honpen p.66	✓	auto:pdftext	2026-10-10	
 c9faa48b7b4a40d6	ryo	12	table	②2号認定〔3〜5歳・保育〕	不足分(②−①)/R10	0		honpen p.66	✓	auto:pdftext	2026-10-10	
@@ -400,7 +400,7 @@ b16d9e7ffc498434	ryo	13	table	③3号認定〔0歳・保育〕	　特定教育�
 3194d69260417a1a	ryo	13	table	③3号認定〔0歳・保育〕	　地域型保育(小規模保育)/R7	4		honpen p.66	✓	auto:ai	2026-10-10	
 1fbcd75e85ddb5dd	ryo	13	table	③3号認定〔0歳・保育〕	　地域型保育(小規模保育)/R8	4		honpen p.66	✓	auto:ai	2026-10-10	
 319529e8bb79a242	ryo	13	table	③3号認定〔0歳・保育〕	　地域型保育(小規模保育)/R9	4		honpen p.66	✓	auto:ai	2026-10-10	
-01b0d8063d9c065f	ryo	13	table	③3号認定〔0歳・保育〕	　地域型保育(小規模保育)/R10	7		honpen p.66	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+01b0d8063d9c065f	ryo	13	table	③3号認定〔0歳・保育〕	　地域型保育(小規模保育)/R10	7		honpen p.66	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 5ea4eab5ce9029e2	ryo	13	table	③3号認定〔0歳・保育〕	　地域型保育(小規模保育)/R11	8		honpen p.66	✓	auto:pdftext	2026-10-10	
 2daffb86de4f7db4	ryo	13	table	③3号認定〔0歳・保育〕	不足分(②−①)/R7	-6		honpen p.66	✓	auto:ai	2026-10-10	
 838a97bc66d95b4d	ryo	13	table	③3号認定〔0歳・保育〕	不足分(②−①)/R8	-5		honpen p.66	✓	auto:pdftext	2026-10-10	
@@ -428,7 +428,7 @@ f6f6f90f02b115ab	ryo	14	table	④3号認定〔1歳・保育〕	　特定教育�
 df4c464ae0b058f1	ryo	14	table	④3号認定〔1歳・保育〕	　地域型保育(小規模保育)/R10	12		honpen p.67	✓	auto:ai	2026-10-10	
 289a0f99fd73fcd5	ryo	14	table	④3号認定〔1歳・保育〕	　地域型保育(小規模保育)/R11	12		honpen p.67	✓	auto:pdftext	2026-10-10	
 b383db9778ed267b	ryo	14	table	④3号認定〔1歳・保育〕	　企業主導型保育施設の地域枠/R7	0		honpen p.67	✓	auto:ai	2026-10-10	
-2822eb4e42e3073d	ryo	14	table	④3号認定〔1歳・保育〕	　企業主導型保育施設の地域枠/R8	0		honpen p.67	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2822eb4e42e3073d	ryo	14	table	④3号認定〔1歳・保育〕	　企業主導型保育施設の地域枠/R8	0		honpen p.67	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 64f2a71652696698	ryo	14	table	④3号認定〔1歳・保育〕	　企業主導型保育施設の地域枠/R9	0		honpen p.67	✓	auto:ai	2026-10-10	
 abb5169618beb494	ryo	14	table	④3号認定〔1歳・保育〕	　企業主導型保育施設の地域枠/R10	0		honpen p.67	✓	auto:ai	2026-10-10	
 a2d40ed80413dbcd	ryo	14	table	④3号認定〔1歳・保育〕	　企業主導型保育施設の地域枠/R11	0		honpen p.67	✓	auto:pdftext	2026-10-10	
@@ -458,7 +458,7 @@ d5a00efebccbdcd5	ryo	15	table	⑤3号認定〔2歳・保育〕	　特定教育�
 3f1000b4b1e24ce0	ryo	15	table	⑤3号認定〔2歳・保育〕	　地域型保育(小規模保育)/R10	18		honpen p.67	✓	auto:ai	2026-10-10	
 e539d47b2eaa7b11	ryo	15	table	⑤3号認定〔2歳・保育〕	　地域型保育(小規模保育)/R11	18		honpen p.67	✓	auto:pdftext	2026-10-10	
 764980b78c360fa3	ryo	15	table	⑤3号認定〔2歳・保育〕	　企業主導型保育施設の地域枠/R7	0		honpen p.67	✓	auto:ai	2026-10-10	
-485699c67c068b7f	ryo	15	table	⑤3号認定〔2歳・保育〕	　企業主導型保育施設の地域枠/R8	0		honpen p.67	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+485699c67c068b7f	ryo	15	table	⑤3号認定〔2歳・保育〕	　企業主導型保育施設の地域枠/R8	0		honpen p.67	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 a25f59bb22e4b398	ryo	15	table	⑤3号認定〔2歳・保育〕	　企業主導型保育施設の地域枠/R9	0		honpen p.67	✓	auto:ai	2026-10-10	
 bf418e6538b927e5	ryo	15	table	⑤3号認定〔2歳・保育〕	　企業主導型保育施設の地域枠/R10	0		honpen p.67	✓	auto:ai	2026-10-10	
 990f5e8fd9c417dc	ryo	15	table	⑤3号認定〔2歳・保育〕	　企業主導型保育施設の地域枠/R11	0		honpen p.67	✓	auto:pdftext	2026-10-10	
@@ -467,10 +467,10 @@ ebe4bd1de22cc52e	ryo	15	table	⑤3号認定〔2歳・保育〕	不足分(②−�
 76fc010c811afa7e	ryo	15	table	⑤3号認定〔2歳・保育〕	不足分(②−①)/R9	-6		honpen p.67	✓	auto:pdftext	2026-10-10	
 656f577fa17e7641	ryo	15	table	⑤3号認定〔2歳・保育〕	不足分(②−①)/R10	0		honpen p.67	✓	auto:pdftext	2026-10-10	
 eda90977b4675701	ryo	15	table	⑤3号認定〔2歳・保育〕	不足分(②−①)/R11	0		honpen p.67	✓	auto:pdftext	2026-10-10	
-5738718d9653f221	ryo	17	timeline	幼児教育保育施設の再編整備	鎌掛分園 → 小規模保育施設化	R7		honpen p.65				要人確認:H2 数値でない
-db946ab7111795ef	ryo	17	timeline	幼児教育保育施設の再編整備	西大路幼稚園→子育て支援施設(民営化準備)／こばと園→幼保連携型認定こども園化準備／南比幼稚園→小規模保育施設(民営化準備)／あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎→新こども園に集約化	R9		honpen p.65				要人確認:H2 数値でない
-43a383aed899e20e	ryo	17	timeline	幼児教育保育施設の再編整備	(新設)幼保連携型認定こども園(2,800㎡※予定)／西大路→子育て支援施設・学童施設／こばと園・桜谷こども園第2園舎→幼保連携型認定こども園／南比→小規模保育施設	R10		honpen p.65				要人確認:H2 数値でない
-8d33a7b0f98c5b34	ryo	17	timeline	幼児教育保育施設の再編整備	あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎を解体	R11以降		honpen p.65				要人確認:H2 数値でない
+5738718d9653f221	ryo	17	timeline	幼児教育保育施設の再編整備	鎌掛分園 → 小規模保育施設化	R7		honpen p.65	✓	kken78	2026-10-10	要人確認:H2 数値でない
+db946ab7111795ef	ryo	17	timeline	幼児教育保育施設の再編整備	西大路幼稚園→子育て支援施設(民営化準備)／こばと園→幼保連携型認定こども園化準備／南比幼稚園→小規模保育施設(民営化準備)／あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎→新こども園に集約化	R9		honpen p.65	✓	kken78	2026-10-10	要人確認:H2 数値でない
+43a383aed899e20e	ryo	17	timeline	幼児教育保育施設の再編整備	(新設)幼保連携型認定こども園(2,800㎡※予定)／西大路→子育て支援施設・学童施設／こばと園・桜谷こども園第2園舎→幼保連携型認定こども園／南比→小規模保育施設	R10		honpen p.65	✓	kken78	2026-10-10	要人確認:H2 数値でない
+8d33a7b0f98c5b34	ryo	17	timeline	幼児教育保育施設の再編整備	あおぞら園・日野幼稚園・必佐幼稚園・桜谷こども園第1園舎を解体	R11以降		honpen p.65	✓	kken78	2026-10-10	要人確認:H2 数値でない
 efa20c4600d895c9	ryo	20	table	(1)利用者支援事業	①量の見込み(基本型)/R7	2		honpen p.68	✓	auto:ai	2026-10-10	
 795666d703cbfdfa	ryo	20	table	(1)利用者支援事業	①量の見込み(基本型)/R8	2		honpen p.68	✓	auto:ai	2026-10-10	
 6856e9ba2447a3fb	ryo	20	table	(1)利用者支援事業	①量の見込み(基本型)/R9	2		honpen p.68	✓	auto:pdftext	2026-10-10	
@@ -487,7 +487,7 @@ bd106f792bce8b5c	ryo	20	table	(1)利用者支援事業	①量の見込み(こど
 85c5346a4e4c7d36	ryo	20	table	(1)利用者支援事業	①量の見込み(こども家庭センター型)/R10	1		honpen p.68	✓	auto:ai	2026-10-10	
 a29166aa304174c8	ryo	20	table	(1)利用者支援事業	①量の見込み(こども家庭センター型)/R11	1		honpen p.68	✓	auto:pdftext	2026-10-10	
 f388d8430f679edc	ryo	20	table	(1)利用者支援事業	②確保方策(基本型)/R7	2		honpen p.68	✓	auto:ai	2026-10-10	
-116f44c0f338a9b7	ryo	20	table	(1)利用者支援事業	②確保方策(基本型)/R8	2		honpen p.68	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+116f44c0f338a9b7	ryo	20	table	(1)利用者支援事業	②確保方策(基本型)/R8	2		honpen p.68	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 251192df188a6c6f	ryo	20	table	(1)利用者支援事業	②確保方策(基本型)/R9	2		honpen p.68	✓	auto:pdftext	2026-10-10	
 8d260bd8f7775407	ryo	20	table	(1)利用者支援事業	②確保方策(基本型)/R10	2		honpen p.68	✓	auto:pdftext	2026-10-10	
 197d64a8f5129330	ryo	20	table	(1)利用者支援事業	②確保方策(基本型)/R11	2		honpen p.68	✓	auto:pdftext	2026-10-10	
@@ -516,7 +516,7 @@ b63048eed8eaf792	ryo	21	table	(2)時間外保育事業	②確保方策(利用実
 25e3927aaf020daa	ryo	21	table	(2)時間外保育事業	②確保方策(施設数)/R9	6		honpen p.68	✓	auto:pdftext	2026-10-10	
 6fee43fa57bb7c46	ryo	21	table	(2)時間外保育事業	②確保方策(施設数)/R10	6		honpen p.68	✓	auto:pdftext	2026-10-10	
 8a30edb5235f246a	ryo	21	table	(2)時間外保育事業	②確保方策(施設数)/R11	6		honpen p.68	✓	auto:pdftext	2026-10-10	
-2a895b0113531758	ryo	21	table	(2)時間外保育事業	不足分(②−①)/R7	0		honpen p.68	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2a895b0113531758	ryo	21	table	(2)時間外保育事業	不足分(②−①)/R7	0		honpen p.68	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 dd56fb2bb00dd8b0	ryo	21	table	(2)時間外保育事業	不足分(②−①)/R8	0		honpen p.68	✓	auto:ai	2026-10-10	
 517df78304c0b051	ryo	21	table	(2)時間外保育事業	不足分(②−①)/R9	0		honpen p.68	✓	auto:pdftext	2026-10-10	
 c66f65df88bb0089	ryo	21	table	(2)時間外保育事業	不足分(②−①)/R10	0		honpen p.68	✓	auto:pdftext	2026-10-10	
@@ -561,7 +561,7 @@ ea3d6b8f4da53afc	ryo	22	table	(3)放課後児童健全育成事業(放課後児�
 3583b6bef91f413b	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(定員)/R9	565		honpen p.69	✓	auto:pdftext	2026-10-10	
 b717295ed6570d11	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(定員)/R10	565		honpen p.69	✓	auto:pdftext	2026-10-10	
 f5766c81c90eab62	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(定員)/R11	565		honpen p.69	✓	auto:pdftext	2026-10-10	
-0116eea1d54572ae	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(箇所数)/R7	11		honpen p.69	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+0116eea1d54572ae	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(箇所数)/R7	11		honpen p.69	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 5e65ed0a0c84bdc7	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(箇所数)/R8	11		honpen p.69	✓	auto:pdftext	2026-10-10	
 37ebb395637f5212	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(箇所数)/R9	12		honpen p.69	✓	auto:pdftext	2026-10-10	
 a1072a90ec8e51ed	ryo	22	table	(3)放課後児童健全育成事業(放課後児童クラブ)	②確保方策(箇所数)/R10	12		honpen p.69	✓	auto:pdftext	2026-10-10	
@@ -581,7 +581,7 @@ c6fa8d9b07ee674c	ryo	23	table	(4)子育て短期支援事業(ショートステ�
 14ef5e2ca59fceee	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	②確保方策(延べ利用人日)/R9	17		honpen p.70	✓	auto:ai	2026-10-10	
 fe7f5b51680081fd	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	②確保方策(延べ利用人日)/R10	17		honpen p.70	✓	auto:ai	2026-10-10	
 3d89f942af1463d3	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	②確保方策(延べ利用人日)/R11	17		honpen p.70	✓	auto:pdftext	2026-10-10	
-41a1a8de5793ce79	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	不足分(②−①)/R7	0		honpen p.70	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+41a1a8de5793ce79	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	不足分(②−①)/R7	0		honpen p.70	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 59557897717e835e	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	不足分(②−①)/R8	0		honpen p.70	✓	auto:ai	2026-10-10	
 e3f7e5a52f893b3a	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	不足分(②−①)/R9	0		honpen p.70	✓	auto:pdftext	2026-10-10	
 288a0846df217859	ryo	23	table	(4)子育て短期支援事業(ショートステイ)	不足分(②−①)/R10	0		honpen p.70	✓	auto:pdftext	2026-10-10	
@@ -593,7 +593,7 @@ ab720b4d967d5043	ryo	24	table	(5)地域子育て支援拠点事業	量の見込�
 1826e5a045ef5a81	ryo	24	table	(5)地域子育て支援拠点事業	量の見込み(延べ利用人日)/R11	10662		honpen p.70	✓	auto:pdftext	2026-10-10	
 c4bf2b439f3c1dc4	ryo	24	table	(5)地域子育て支援拠点事業	確保方策(実施箇所数)/R7	2		honpen p.70	✓	auto:ai	2026-10-10	
 e44b942b6831b65c	ryo	24	table	(5)地域子育て支援拠点事業	確保方策(実施箇所数)/R8	2		honpen p.70	✓	auto:ai	2026-10-10	
-4f0b04c3b2e9e50e	ryo	24	table	(5)地域子育て支援拠点事業	確保方策(実施箇所数)/R9	2		honpen p.70	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+4f0b04c3b2e9e50e	ryo	24	table	(5)地域子育て支援拠点事業	確保方策(実施箇所数)/R9	2		honpen p.70	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 f90b7f33289a46a9	ryo	24	table	(5)地域子育て支援拠点事業	確保方策(実施箇所数)/R10	2		honpen p.70	✓	auto:ai	2026-10-10	
 90a7144ab7c1a04a	ryo	24	table	(5)地域子育て支援拠点事業	確保方策(実施箇所数)/R11	2		honpen p.70	✓	auto:pdftext	2026-10-10	
 ee3f8c01b2738c08	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(延べ利用人数)/R7	8619		honpen p.71	✓	auto:ai	2026-10-10	
@@ -604,7 +604,7 @@ a5aca23862d35505	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の�
 3df7472a1404db6c	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(1号認定)/R7	8585		honpen p.71	✓	auto:ai	2026-10-10	
 b335164788c772a9	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(1号認定)/R8	8006		honpen p.71	✓	auto:ai	2026-10-10	
 1e771d0912880118	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(1号認定)/R9	7786		honpen p.71	✓	auto:ai	2026-10-10	
-2b54b418c46bbfbf	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(1号認定)/R10	0		honpen p.71	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2b54b418c46bbfbf	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(1号認定)/R10	0		honpen p.71	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 7f9bae4db4c8dba7	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(1号認定)/R11	0		honpen p.71	✓	auto:pdftext	2026-10-10	
 b8c121c9a258cb2c	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(2号認定)/R7	34		honpen p.71	✓	auto:ai	2026-10-10	
 4fe62b4773d71c7b	ryo	25	table	(6)一時預かり事業(幼稚園型)	①量の見込み(2号認定)/R8	32		honpen p.71	✓	auto:ai	2026-10-10	
@@ -632,7 +632,7 @@ ac325c859895c092	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	�
 4d4f02af355d3fc8	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	量の見込み(延べ利用人日)/R10	139		honpen p.71	✓	auto:ai	2026-10-10	
 88901bda1ff9bf0d	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	量の見込み(延べ利用人日)/R11	138		honpen p.71	✓	auto:pdftext	2026-10-10	
 8db48f177dd4ae8b	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	確保方策(一時預かり事業(幼稚園型を除く))/R7	1		honpen p.71	✓	auto:ai	2026-10-10	
-2555684da042ad05	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	確保方策(一時預かり事業(幼稚園型を除く))/R8	1		honpen p.71	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2555684da042ad05	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	確保方策(一時預かり事業(幼稚園型を除く))/R8	1		honpen p.71	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 afd5ee1385e7b413	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	確保方策(一時預かり事業(幼稚園型を除く))/R9	1		honpen p.71	✓	auto:ai	2026-10-10	
 54937eb70b8f4618	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	確保方策(一時預かり事業(幼稚園型を除く))/R10	1		honpen p.71	✓	auto:pdftext	2026-10-10	
 27148452370c3388	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	確保方策(一時預かり事業(幼稚園型を除く))/R11	1		honpen p.71	✓	auto:pdftext	2026-10-10	
@@ -653,7 +653,7 @@ ce4f52665f3f947a	ryo	26	table	(6)一時預かり事業(幼稚園型を除く)	�
 3cf9a364f856ecbe	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	①量の見込み(延べ利用人日)/R11	20		honpen p.72	✓	auto:pdftext	2026-10-10	
 9c31a6a4af9d853e	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(病児病後児保育)/R7	0		honpen p.72	✓	auto:ai	2026-10-10	
 be2cd5de39901280	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(病児病後児保育)/R8	0		honpen p.72	✓	auto:ai	2026-10-10	
-951accbed26d29b3	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(病児病後児保育)/R9	0		honpen p.72	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+951accbed26d29b3	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(病児病後児保育)/R9	0		honpen p.72	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 8abb7cc6e6cc37fe	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(病児病後児保育)/R10	1		honpen p.72	✓	auto:pdftext	2026-10-10	
 eba452d6896439ee	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(病児病後児保育)/R11	1		honpen p.72	✓	auto:pdftext	2026-10-10	
 9ac04b3dd3abe027	ryo	27	table	(7)病児保育事業、子育て援助活動支援事業(病児・緊急対応強化事業)	②確保方策(子育て援助活動支援事業(病児・緊急対応強化事業))/R7	0		honpen p.72	✓	auto:ai	2026-10-10	
@@ -696,12 +696,12 @@ e8a03ad295dd1165	ryo	28	table	(8)子育て援助活動支援事業(ファミリ�
 665d5cb680c13309	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	②確保方策(就学後)/R9	224		honpen p.72	✓	auto:pdftext	2026-10-10	
 6662c4d5fde9e1b6	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	②確保方策(就学後)/R10	213		honpen p.72	✓	auto:pdftext	2026-10-10	
 5b4dc5439985115a	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	②確保方策(就学後)/R11	202		honpen p.72	✓	auto:pdftext	2026-10-10	
-56b9230ccb2fe3b8	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	不足分(②−①)/R7	0		honpen p.72	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+56b9230ccb2fe3b8	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	不足分(②−①)/R7	0		honpen p.72	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 87d9b85d0e8290bb	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	不足分(②−①)/R8	0		honpen p.72	✓	auto:pdftext	2026-10-10	
 f27617124e5888d2	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	不足分(②−①)/R9	0		honpen p.72	✓	auto:pdftext	2026-10-10	
 8dbf2af37babbcb3	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	不足分(②−①)/R10	0		honpen p.72	✓	auto:pdftext	2026-10-10	
 f6309aceb9428c0b	ryo	28	table	(8)子育て援助活動支援事業(ファミリー・サポート・センター事業)	不足分(②−①)/R11	0		honpen p.72	✓	auto:pdftext	2026-10-10	
-11a5a096911cbfca	ryo	29	table	(9)妊婦に対する健康診査	0歳人口推計/R7	121		honpen p.73	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+11a5a096911cbfca	ryo	29	table	(9)妊婦に対する健康診査	0歳人口推計/R7	121		honpen p.73	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 79d85aff903449cd	ryo	29	table	(9)妊婦に対する健康診査	0歳人口推計/R8	119		honpen p.73	✓	auto:ai	2026-10-10	
 739725c00f48606e	ryo	29	table	(9)妊婦に対する健康診査	0歳人口推計/R9	116		honpen p.73	✓	auto:pdftext	2026-10-10	
 2e71bf2d1bff33f2	ryo	29	table	(9)妊婦に対する健康診査	0歳人口推計/R10	114		honpen p.73	✓	auto:pdftext	2026-10-10	
@@ -727,7 +727,7 @@ eb3a69333c0d9528	ryo	30	table	(10)乳児家庭全戸訪問事業	0歳人口推�
 0cf082afa4b20219	ryo	30	table	(10)乳児家庭全戸訪問事業	0歳人口推計/R10	114		honpen p.73	✓	auto:pdftext	2026-10-10	
 b3daf7cbda016407	ryo	30	table	(10)乳児家庭全戸訪問事業	0歳人口推計/R11	112		honpen p.73	✓	auto:pdftext	2026-10-10	
 642405323e318336	ryo	30	table	(10)乳児家庭全戸訪問事業	量の見込み(利用人数)/R7	121		honpen p.73	✓	auto:ai	2026-10-10	
-2ce11ae8f395f322	ryo	30	table	(10)乳児家庭全戸訪問事業	量の見込み(利用人数)/R8	119		honpen p.73	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+2ce11ae8f395f322	ryo	30	table	(10)乳児家庭全戸訪問事業	量の見込み(利用人数)/R8	119		honpen p.73	✓	kken78	2026-10-10	要人確認:H4 難しさ2点
 5010ff01016d3aab	ryo	30	table	(10)乳児家庭全戸訪問事業	量の見込み(利用人数)/R9	116		honpen p.73	✓	auto:pdftext	2026-10-10	
 61e938fff038f129	ryo	30	table	(10)乳児家庭全戸訪問事業	量の見込み(利用人数)/R10	114		honpen p.73	✓	auto:pdftext	2026-10-10	
 ef9f77c4f436908d	ryo	30	table	(10)乳児家庭全戸訪問事業	量の見込み(利用人数)/R11	112		honpen p.73	✓	auto:pdftext	2026-10-10	
@@ -751,7 +751,7 @@ c8b53fdbdcd13e69	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	
 bfad52a1191a6828	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R9	50		honpen p.74	✓	auto:ai	2026-10-10	
 b4d58153d67f78e7	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R10	50		honpen p.74	✓	auto:ai	2026-10-10	
 4a7dee298ea2b0d4	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	②確保方策(延べ利用人数)/R11	50		honpen p.74	✓	auto:pdftext	2026-10-10	
-35587e33e889ccde	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R7	0		honpen p.74	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+35587e33e889ccde	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R7	0		honpen p.74	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 f273c5db1c2eafbb	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R8	0		honpen p.74	✓	auto:ai	2026-10-10	
 89ad32929ccc643a	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R9	0		honpen p.74	✓	auto:pdftext	2026-10-10	
 ba7ebd4c897af21b	ryo	32	table	(14)子育て世帯訪問支援事業【新規】	不足分(②−①)/R10	0		honpen p.74	✓	auto:pdftext	2026-10-10	
@@ -766,7 +766,7 @@ ef7f078d99e14619	ryo	33	table	(15)児童育成支援拠点事業【新規】	②
 14b9fd2acff5cf52	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R9	20		honpen p.74	✓	auto:ai	2026-10-10	
 eacd9d169069eef3	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R10	20		honpen p.74	✓	auto:ai	2026-10-10	
 5c597d32d527ef1b	ryo	33	table	(15)児童育成支援拠点事業【新規】	②確保方策(利用実人数)/R11	20		honpen p.74	✓	auto:pdftext	2026-10-10	
-5badf81cb5deaabb	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R7	0		honpen p.74	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+5badf81cb5deaabb	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R7	0		honpen p.74	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 9388e1d81c0a3775	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R8	0		honpen p.74	✓	auto:ai	2026-10-10	
 35f53c3ce0e46fe8	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R9	0		honpen p.74	✓	auto:pdftext	2026-10-10	
 bab253371890274f	ryo	33	table	(15)児童育成支援拠点事業【新規】	不足分(②−①)/R10	0		honpen p.74	✓	auto:pdftext	2026-10-10	
@@ -796,7 +796,7 @@ ee51182f4720fc56	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	
 d35d2cb2cbfb5e39	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(子ども家庭センター)/R9	244		honpen p.75	✓	auto:pdftext	2026-10-10	
 6edd16551cf6d139	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(子ども家庭センター)/R10	239		honpen p.75	✓	auto:pdftext	2026-10-10	
 49a619225089b88d	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(子ども家庭センター)/R11	235		honpen p.75	✓	auto:pdftext	2026-10-10	
-42387b31f224adaa	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(上記以外)/R7	0		honpen p.75	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+42387b31f224adaa	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(上記以外)/R7	0		honpen p.75	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 0955c4013788f555	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(上記以外)/R8	0		honpen p.75	✓	auto:pdftext	2026-10-10	
 985c35dddcfd09d7	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(上記以外)/R9	0		honpen p.75	✓	auto:pdftext	2026-10-10	
 b9a5b73bf27b73b2	ryo	34	table	(16)妊婦等包括相談支援事業【新規】	②確保方策(上記以外)/R10	0		honpen p.75	✓	auto:pdftext	2026-10-10	
@@ -849,7 +849,7 @@ ce29227d870a88bc	ryo	35	table	(17)乳児等通園支援事業(こども誰でも
 4bc5eec8e149fc18	ryo	35	table	(17)乳児等通園支援事業(こども誰でも通園制度)【新規】	2歳児 不足分(②−①)/R7	0		honpen p.75	✓	auto:ai	2026-10-10	
 7ce21afcbb66cb17	ryo	35	table	(17)乳児等通園支援事業(こども誰でも通園制度)【新規】	2歳児 不足分(②−①)/R8	0		honpen p.75	✓	auto:ai	2026-10-10	
 579fc9bffebe4bc2	ryo	35	table	(17)乳児等通園支援事業(こども誰でも通園制度)【新規】	2歳児 不足分(②−①)/R9	0		honpen p.75	✓	auto:ai	2026-10-10	
-1478ad23f2038174	ryo	35	table	(17)乳児等通園支援事業(こども誰でも通園制度)【新規】	2歳児 不足分(②−①)/R10	0		honpen p.75	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+1478ad23f2038174	ryo	35	table	(17)乳児等通園支援事業(こども誰でも通園制度)【新規】	2歳児 不足分(②−①)/R10	0		honpen p.75	✓	kken78	2026-10-10	要人確認:H4 難しさ5点
 9f8f4f676d71e09b	ryo	35	table	(17)乳児等通園支援事業(こども誰でも通園制度)【新規】	2歳児 不足分(②−①)/R11	0		honpen p.75	✓	auto:ai	2026-10-10	
 6861d6906af8a8b8	ryo	36	table	(18)産後ケア事業【新規】	①量の見込み(延べ利用人数・宿泊型)/R7	8		honpen p.76	✓	auto:ai	2026-10-10	
 6b9cb3ac2e595d5b	ryo	36	table	(18)産後ケア事業【新規】	①量の見込み(延べ利用人数・宿泊型)/R8	8		honpen p.76	✓	auto:pdftext	2026-10-10	
@@ -866,7 +866,7 @@ ec21594c0bd1198b	ryo	36	table	(18)産後ケア事業【新規】	①量の見込
 633d743b87d9c903	ryo	36	table	(18)産後ケア事業【新規】	①量の見込み(延べ利用人数・訪問型)/R9	10		honpen p.76	✓	auto:pdftext	2026-10-10	
 50dda121ba9aba2f	ryo	36	table	(18)産後ケア事業【新規】	①量の見込み(延べ利用人数・訪問型)/R10	10		honpen p.76	✓	auto:pdftext	2026-10-10	
 c0a838b2debf2554	ryo	36	table	(18)産後ケア事業【新規】	①量の見込み(延べ利用人数・訪問型)/R11	10		honpen p.76	✓	auto:pdftext	2026-10-10	
-12e7a2857abdb14a	ryo	36	table	(18)産後ケア事業【新規】	②確保方策(延べ利用人数・宿泊型)/R7	8		honpen p.76	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+12e7a2857abdb14a	ryo	36	table	(18)産後ケア事業【新規】	②確保方策(延べ利用人数・宿泊型)/R7	8		honpen p.76	✓	kken78	2026-10-10	要人確認:H4 難しさ3点
 bd57b60563b5302e	ryo	36	table	(18)産後ケア事業【新規】	②確保方策(延べ利用人数・宿泊型)/R8	8		honpen p.76	✓	auto:pdftext	2026-10-10	
 ad4ab77bf6cf6d63	ryo	36	table	(18)産後ケア事業【新規】	②確保方策(延べ利用人数・宿泊型)/R9	8		honpen p.76	✓	auto:pdftext	2026-10-10	
 7a8b73480715f699	ryo	36	table	(18)産後ケア事業【新規】	②確保方策(延べ利用人数・宿泊型)/R10	8		honpen p.76	✓	auto:pdftext	2026-10-10	

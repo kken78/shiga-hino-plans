@@ -169,7 +169,7 @@ DESIGN.md「撤退基準」参照)。
     { "label": "総人口", "value": 20761, "unit": "人", "asof": "R6.4.1",
       "delta": "▲661人/4年(3.1%減)", "trend": "down" },   // trend: up|down|flat
     { "label": "保育所 待機児童", "value": 8, "unit": "人", "asof": "R6.4.1",
-      "delta": "0・1歳児に集中", "trend": "flat" }
+      "delta": "R5の4人から増加", "trend": "up" }
   ] }
 ```
 

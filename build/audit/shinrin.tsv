@@ -113,7 +113,7 @@ romo	8	table	拡張（舗装）	勝手谷/延長（km）	1.0		honpen p.27
 romo	8	table	拡張（舗装）	勝手谷/利用区域（ha）	79		honpen p.27
 romo	8	table	拡張（舗装）	計（5路線）/延長（km）	11.5		honpen p.27
 romo	8	table	拡張（舗装）	計（5路線）/利用区域（ha）	664		honpen p.27
-romo	11	table	ニホンジカの被害を防ぐ	ニホンジカ/面積（ha）	6100		honpen p.14
+romo	12	table	ニホンジカの被害を防ぐ	ニホンジカ/面積（ha）	6100		honpen p.14
 fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	合計/面積（ha）	94.54		honpen p.16
 fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	人工林/面積（ha）	51.16		honpen p.16
 fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	天然林/面積（ha）	41.47		honpen p.16

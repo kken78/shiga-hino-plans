@@ -1,13 +1,13 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-f3722d8b47b476f7	summary	2	kpi		日野町の自殺者数（5年間の合計）	24	人	honpen p.6	✓	auto:ai	2026-10-10	
-53723a289e4a7532	summary	2	kpi		日野町の自殺死亡率	22.40	人/10万人	honpen p.6	✓	auto:ai	2026-10-10	
-8e62fb27d520b463	summary	2	kpi		全国の自殺死亡率	16.40	人/10万人	honpen p.6	✓	auto:ai	2026-10-10	
-4ab181ac83e5e815	summary	2	kpi		滋賀県の自殺死亡率	16.17	人/10万人	honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-9d3bc5ea58e6835b	summary	3	target.base		自殺死亡率（目標は13.0以下）	22.4	人/10万人	honpen p.44	✓	auto:ai	2026-10-10	
-e27ac5c8d5baf5ee	summary	3	target.target		自殺死亡率（目標は13.0以下）	13.0	人/10万人	honpen p.44	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-dc0927109d1881db	summary	3	target.base		自殺者数（目標は14人以下）	24	人	honpen p.44	✓	auto:ai	2026-10-10	
-98ddb0e0e1d22791	summary	3	target.target		自殺者数（目標は14人以下）	14	人	honpen p.44	✓	auto:ai	2026-10-10	
+f3722d8b47b476f7	summary	3	kpi		日野町の自殺者数（5年間の合計）	24	人	honpen p.6	✓	auto:ai	2026-10-10	
+53723a289e4a7532	summary	3	kpi		日野町の自殺死亡率	22.40	人/10万人	honpen p.6	✓	auto:ai	2026-10-10	
+8e62fb27d520b463	summary	3	kpi		全国の自殺死亡率	16.40	人/10万人	honpen p.6	✓	auto:ai	2026-10-10	
+4ab181ac83e5e815	summary	3	kpi		滋賀県の自殺死亡率	16.17	人/10万人	honpen p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+9d3bc5ea58e6835b	summary	4	target.base		自殺死亡率（目標は13.0以下）	22.4	人/10万人	honpen p.44	✓	auto:ai	2026-10-10	
+e27ac5c8d5baf5ee	summary	4	target.target		自殺死亡率（目標は13.0以下）	13.0	人/10万人	honpen p.44	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+dc0927109d1881db	summary	4	target.base		自殺者数（目標は14人以下）	24	人	honpen p.44	✓	auto:ai	2026-10-10	
+98ddb0e0e1d22791	summary	4	target.target		自殺者数（目標は14人以下）	14	人	honpen p.44	✓	auto:ai	2026-10-10	
 9bc6e01e9d7113f5	genjo	4	kpi	全国の自殺者数の推移	全国の自殺者数（最多の年）	34427	人	honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 6719ea8cfa49afd6	genjo	4	kpi	全国の自殺者数の推移	全国の自殺者数	21881	人	honpen p.3				要人確認:H1 A=一致/中 B=一致/中
 a788bd9c87b3b65c	genjo	5	kpi	全国の自殺者数の推移	全国の小中高生の自殺者数（過去最多）	514	人	honpen p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点

@@ -438,226 +438,226 @@ c1f53cad9a6b356e	genjo	36	table	がん検診精検受診率（平成30年度）	
 7ef5cbaac1b58f0d	chosa	2	kpi	住民アンケートからみた現状	標本数	3000	人	honpen p.22	✓	auto:ai	2026-10-10	
 c2133cc0eb975dcb	chosa	2	kpi	住民アンケートからみた現状	有効回収数	1277	人	honpen p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
 63493ad2306ff5c0	chosa	2	kpi	住民アンケートからみた現状	回収率	42.6	%	honpen p.22	✓	auto:ai	2026-10-10	
-0456028b64d9d078	chosa	5	chart.rank	健康状態（N=1,277）	とても健康	18.2	%	honpen p.24	✓	auto:ai	2026-10-10	
-b4e33a7dd2a82df6	chosa	5	chart.rank	健康状態（N=1,277）	まあまあ健康	67.3	%	honpen p.24	✓	auto:ai	2026-10-10	
-d66e8d053e79ce06	chosa	5	chart.rank	健康状態（N=1,277）	あまり健康ではない	9.9	%	honpen p.24	✓	auto:ai	2026-10-10	
-8e54cc045e2574b9	chosa	5	chart.rank	健康状態（N=1,277）	健康でない	1.4	%	honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
-e587f88f96d2f3a0	chosa	5	chart.rank	健康状態（N=1,277）	不明・無回答	3.1	%	honpen p.24	✓	auto:ai	2026-10-10	
-48fe240ef5af4d3f	chosa	7	kpi	栄養・食生活	朝食を「ほぼ毎日とっている」	87.2	%	honpen p.25	✓	auto:ai	2026-10-10	
-2ac6b8b415115d35	chosa	7	kpi	栄養・食生活	主食・主菜・副菜を組み合わせた食事を1日2回以上「ほぼ毎日とっている」	78.2	%	honpen p.25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-e43d9f9c60374249	chosa	7	kpi	栄養・食生活	減塩を「心がけている」	60.8	%	honpen p.25	✓	auto:ai	2026-10-10	
-47a0d1d0f5d7ed07	chosa	7	kpi	栄養・食生活	「食育」に「関心がある」	22.9	%	honpen p.25	✓	auto:ai	2026-10-10	
-aa619867648cea88	chosa	7	kpi	栄養・食生活	「食育」に「どちらかといえば関心がある」	44.2	%	honpen p.25	✓	auto:ai	2026-10-10	
-0a2bf2f87ee6aaec	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/4～5皿以上食べている	11.1	%	honpen p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-d2830f683b1caeee	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/2～3皿くらいは食べている	68.3	%	honpen p.26	✓	auto:ai	2026-10-10	
-30b4d5060afc0376	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/ほとんど食べていない（1皿以下）	14.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-58b4c532ab8eeea5	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/不明・無回答	5.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-300f122ec81bdd24	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/4～5皿以上食べている	9.5	%	honpen p.26	✓	auto:ai	2026-10-10	
-a83c4942a5c44783	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/2～3皿くらいは食べている	66.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-4a5b32fd2e1cc1a1	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/ほとんど食べていない（1皿以下）	18.9	%	honpen p.26	✓	auto:ai	2026-10-10	
-dc4764a3c44ebd64	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/不明・無回答	5.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-e99ca860cd15d1c2	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/4～5皿以上食べている	9.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-86c5227cec9b2aa2	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/2～3皿くらいは食べている	43.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-ba9b04e36524dd45	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/ほとんど食べていない（1皿以下）	40.9	%	honpen p.26	✓	auto:ai	2026-10-10	
-54509d77e3e3e13f	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/不明・無回答	6.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-f7b14b630513221a	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/4～5皿以上食べている	11.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-510761b8d9574a02	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/2～3皿くらいは食べている	61.9	%	honpen p.26	✓	auto:ai	2026-10-10	
-ebc586e94e9cf53c	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/ほとんど食べていない（1皿以下）	23.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-ea251c16cda27aaa	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/不明・無回答	3.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-e74fa372aea941dc	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/4～5皿以上食べている	3.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-47f1bd2d381bbeca	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/2～3皿くらいは食べている	73.0	%	honpen p.26	✓	auto:ai	2026-10-10	
-28a8eb3cc8466c5d	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/ほとんど食べていない（1皿以下）	20.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-e5972fe852a6bb24	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/不明・無回答	3.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-ae539f7a00dadc98	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/4～5皿以上食べている	7.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-0a6a5a87dc641c4e	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/2～3皿くらいは食べている	66.7	%	honpen p.26	✓	auto:ai	2026-10-10	
-53d771ddb2dd2dda	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/ほとんど食べていない（1皿以下）	20.0	%	honpen p.26	✓	auto:ai	2026-10-10	
-ad4e1d46f54d0ff0	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/不明・無回答	5.6	%	honpen p.26	✓	auto:ai	2026-10-10	
-572fc2854264c4a2	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/4～5皿以上食べている	14.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-39ec75db5bcc8ccd	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/2～3皿くらいは食べている	68.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-d8e61cd93db26cbc	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/ほとんど食べていない（1皿以下）	14.9	%	honpen p.26	✓	auto:ai	2026-10-10	
-e86320bd9f609d09	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/不明・無回答	2.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-aff99eb7ee8ccb43	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/4～5皿以上食べている	9.3	%	honpen p.26	✓	auto:ai	2026-10-10	
-b765a8627a7379ce	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/2～3皿くらいは食べている	69.5	%	honpen p.26	✓	auto:ai	2026-10-10	
-48effbd7fecdd6a9	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/ほとんど食べていない（1皿以下）	11.0	%	honpen p.26	✓	auto:ai	2026-10-10	
-d68118217f01b04f	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/不明・無回答	10.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-1034664ffa2593c0	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/4～5皿以上食べている	12.3	%	honpen p.26	✓	auto:ai	2026-10-10	
-8fc462ff8bbc1ea0	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/2～3皿くらいは食べている	72.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-e72a9e6a6baaf78d	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/ほとんど食べていない（1皿以下）	10.5	%	honpen p.26	✓	auto:ai	2026-10-10	
-4ec807e8f9e8ca0f	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/不明・無回答	5.0	%	honpen p.26	✓	auto:ai	2026-10-10	
-ab097193174d8e4a	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/4～5皿以上食べている	5.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-9bc07b2cfd1c2837	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/2～3皿くらいは食べている	69.6	%	honpen p.26	✓	auto:ai	2026-10-10	
-40a26769a92bab0c	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/ほとんど食べていない（1皿以下）	21.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-a35eaea52fce21be	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/不明・無回答	3.6	%	honpen p.26	✓	auto:ai	2026-10-10	
-89bcb47d7a888ca4	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/4～5皿以上食べている	11.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-5ca6947c180d273e	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/2～3皿くらいは食べている	68.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-e61982d6312730f3	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/ほとんど食べていない（1皿以下）	18.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-42144edc470c923c	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/不明・無回答	2.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-3e471e40f56a4fce	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/4～5皿以上食べている	12.5	%	honpen p.26	✓	auto:ai	2026-10-10	
-41cfd5e1b7a1670f	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/2～3皿くらいは食べている	69.2	%	honpen p.26	✓	auto:ai	2026-10-10	
-976663c4baf5376c	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/ほとんど食べていない（1皿以下）	14.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-704361641de9218a	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/不明・無回答	3.8	%	honpen p.26	✓	auto:ai	2026-10-10	
-9051969574ba5852	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/4～5皿以上食べている	11.9	%	honpen p.26	✓	auto:ai	2026-10-10	
-647112ab2ce68a65	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/2～3皿くらいは食べている	74.6	%	honpen p.26	✓	auto:ai	2026-10-10	
-da5e35d1e45e57d3	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/ほとんど食べていない（1皿以下）	10.4	%	honpen p.26	✓	auto:ai	2026-10-10	
-ce90f08099c16340	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/不明・無回答	3.0	%	honpen p.26	✓	auto:ai	2026-10-10	
-8203136f1802b90b	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/4～5皿以上食べている	15.9	%	honpen p.26	✓	auto:ai	2026-10-10	
-3fb6d313a1ab7257	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/2～3皿くらいは食べている	76.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-8de729a23c319b84	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/ほとんど食べていない（1皿以下）	4.3	%	honpen p.26	✓	auto:ai	2026-10-10	
-48a22aabae825f00	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/不明・無回答	3.6	%	honpen p.26	✓	auto:ai	2026-10-10	
-af5ab5977c5d252a	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/4～5皿以上食べている	12.5	%	honpen p.26	✓	auto:ai	2026-10-10	
-4c78466acd94bb12	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/2～3皿くらいは食べている	71.3	%	honpen p.26	✓	auto:ai	2026-10-10	
-ff1811258a520a41	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/ほとんど食べていない（1皿以下）	5.1	%	honpen p.26	✓	auto:ai	2026-10-10	
-caa572dc3be614c6	chosa	9	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/不明・無回答	11.0	%	honpen p.26	✓	auto:ai	2026-10-10	
-e395471b0387d20e	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	穀類（ごはん・パン類）と魚介類・肉類・大豆製品と、野菜を組み合わせた食事を心がけている	50.8	%	honpen p.27	✓	auto:ai	2026-10-10	
-086b47354668b498	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	夜遅い時間の食事を控えている	42.4	%	honpen p.27	✓	auto:ai	2026-10-10	
-5c0759ea9627c3e3	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	家族と一緒に食事を食べる	38.5	%	honpen p.27	✓	auto:ai	2026-10-10	
-3dddb8b2f7c67eb7	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	食事の量を調整している	36.7	%	honpen p.27	✓	auto:ai	2026-10-10	
-a6b80ab49893b309	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	お菓子や甘いものの量を控えている	33.7	%	honpen p.27	✓	auto:ai	2026-10-10	
-57ef191b0f6cec36	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	特定の食品を食べすぎない	20.7	%	honpen p.27	✓	auto:ai	2026-10-10	
-f9a0093e1844ba14	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	友人と一緒に食事を食べる	2.3	%	honpen p.27	✓	auto:ai	2026-10-10	
-625760e39e587a20	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	その他	2.7	%	honpen p.27	✓	auto:ai	2026-10-10	
-8a76f0d332c58889	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	特に何もしていない	10.3	%	honpen p.27	✓	auto:ai	2026-10-10	
-2555633606481291	chosa	10	chart.rank	食生活で気をつけていること（N=1,277）	不明・無回答	2.7	%	honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
-32c5e2f98173e448	chosa	12	kpi	運動	過去1年間、意識して体を動かす等の運動を「している」	51.1	%	honpen p.29	✓	auto:ai	2026-10-10	
-23587d27670bceb9	chosa	12	kpi	運動	運動をしている人のうち、週1回以上	84.7	%	honpen p.29	✓	auto:ai	2026-10-10	
-2015a982b73d9fb4	chosa	12	kpi	運動	運動をしている人のうち、1回当たり30分以上	62.6	%	honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-a9d53a03449ac526	chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	十分とれている	15.8	%	honpen p.31	✓	auto:ai	2026-10-10	
-67bd026bbc6ccafb	chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	まあまあとれている	54.2	%	honpen p.31	✓	auto:ai	2026-10-10	
-fec695cbe91a6839	chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	あまりとれていない	22.1	%	honpen p.31	✓	auto:ai	2026-10-10	
-709e52f16b9f5f32	chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	全くとれていない	2.0	%	honpen p.31	✓	auto:ai	2026-10-10	
-27f795a4306581be	chosa	14	chart.rank	休養が十分とれていると思うか（N=1,277）	不明・無回答	6.0	%	honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
-106091ace9387b34	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	全体/男性	57.5	%	honpen p.31	✓	auto:ai	2026-10-10	
-55b221928557ab80	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	全体/女性	62.4	%	honpen p.31	✓	auto:ai	2026-10-10	
-13b984a402182071	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	10、20歳代/男性	61.4	%	honpen p.31	✓	auto:ai	2026-10-10	
-ce7c88f1c485d635	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	10、20歳代/女性	73.2	%	honpen p.31	✓	auto:ai	2026-10-10	
-70bddce6bedbbda7	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	30歳代/男性	73.0	%	honpen p.31	✓	auto:ai	2026-10-10	
-96c69208179e9629	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	30歳代/女性	70.8	%	honpen p.31	✓	auto:ai	2026-10-10	
-0435feb516935a9c	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	40歳代/男性	70.8	%	honpen p.31	✓	auto:ai	2026-10-10	
-ff51ff807824fcbf	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	40歳代/女性	65.4	%	honpen p.31	✓	auto:ai	2026-10-10	
-2cb8301cdbf21acf	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	50歳代/男性	71.1	%	honpen p.31	✓	auto:ai	2026-10-10	
-c64065605e95dac1	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	50歳代/女性	70.1	%	honpen p.31	✓	auto:ai	2026-10-10	
-f0e5e1d9d2211163	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	60歳代/男性	48.9	%	honpen p.31	✓	auto:ai	2026-10-10	
-4bc9c7d2a2338814	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	60歳代/女性	62.3	%	honpen p.31	✓	auto:ai	2026-10-10	
-007d784b461e8b49	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	70歳以上/男性	38.1	%	honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-4d32729a36ed5312	chosa	15	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	70歳以上/女性	45.3	%	honpen p.31	✓	auto:ai	2026-10-10	
-7b659834f6349b9e	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/全体	73.4		honpen p.32	✓	auto:ai	2026-10-10	
-1c1065f76313fd22	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/男性全体	72.5		honpen p.32	✓	auto:ai	2026-10-10	
-03633f5d320148d7	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/女性全体	74.6		honpen p.32	✓	auto:ai	2026-10-10	
-a569a1ea80726e45	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/全体	48.2		honpen p.32	✓	auto:ai	2026-10-10	
-f201c717137805db	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/男性全体	34.8		honpen p.32	✓	auto:ai	2026-10-10	
-28e04a83ae495d69	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/女性全体	61.2		honpen p.32	✓	auto:ai	2026-10-10	
-38a1a1a47a28d10b	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/全体	13.7		honpen p.32	✓	auto:ai	2026-10-10	
-7ef72372ec4fd41b	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/男性全体	14.3		honpen p.32	✓	auto:ai	2026-10-10	
-43a7ca0543f7d062	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/女性全体	14.3		honpen p.32	✓	auto:ai	2026-10-10	
-414aacc1eb79c059	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/全体	1.5		honpen p.32	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
-b90cf152cd8127b5	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/男性全体	1.6		honpen p.32	✓	auto:ai	2026-10-10	
-42e66fb5e991d457	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/女性全体	1.5		honpen p.32	✓	auto:ai	2026-10-10	
-f58606d2541cfd05	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/全体	0.4		honpen p.32	✓	auto:ai	2026-10-10	
-22206a56d3d36992	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/男性全体	0.5		honpen p.32	✓	auto:ai	2026-10-10	
-1911d7978ab50d9b	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/女性全体	0.3		honpen p.32	✓	auto:ai	2026-10-10	
-d32c11925e701b3e	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/全体	1.6		honpen p.32	✓	auto:ai	2026-10-10	
-872ce02448791c6e	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/男性全体	1.6		honpen p.32	✓	auto:ai	2026-10-10	
-f7341d126ff417bd	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/女性全体	1.7		honpen p.32	✓	auto:ai	2026-10-10	
-9bbdd6f359884197	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/全体	6.5		honpen p.32	✓	auto:ai	2026-10-10	
-84340aeeaeaa898f	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/男性全体	9.7		honpen p.32	✓	auto:ai	2026-10-10	
-4668da900c3b368f	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/女性全体	3.7		honpen p.32	✓	auto:ai	2026-10-10	
-e4f31ff2ebcbd6af	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/全体	9.0		honpen p.32	✓	auto:ai	2026-10-10	
-19ed6045dee924ae	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/男性全体	10.8		honpen p.32	✓	auto:ai	2026-10-10	
-4e7d9703ea684ed3	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/女性全体	8.1		honpen p.32	✓	auto:ai	2026-10-10	
-9d88ec0d0db2e59b	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/全体	2.1		honpen p.32	✓	auto:ai	2026-10-10	
-d40002f3e0b45a04	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/男性全体	1.5		honpen p.32	✓	auto:ai	2026-10-10	
-219f74805b67c912	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/女性全体	2.9		honpen p.32	✓	auto:ai	2026-10-10	
-af92cb07e63b8f0f	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/全体	6.7		honpen p.32	✓	auto:ai	2026-10-10	
-bae479fde39126bb	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/男性全体	6.8		honpen p.32	✓	auto:ai	2026-10-10	
-b068285db2a627b4	chosa	16	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/女性全体	5.8		honpen p.32	✓	auto:ai	2026-10-10	
-442d63e22a2c1256	chosa	18	chart.bars	喫煙している人の割合の推移	平成16年	23.8	%	honpen p.36	✓	auto:ai	2026-10-10	
-e924107867e07b50	chosa	18	chart.bars	喫煙している人の割合の推移	平成21年	19.7	%	honpen p.36	✓	auto:ai	2026-10-10	
-3dcb50f326d2f479	chosa	18	chart.bars	喫煙している人の割合の推移	平成27年	11.7	%	honpen p.36	✓	auto:ai	2026-10-10	
-5ab1ac5ee4c7326b	chosa	18	chart.bars	喫煙している人の割合の推移	令和2年	15.9	%	honpen p.36	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-0c4eb15ae6fea8f7	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	全体/男性	27.3	%	honpen p.35	✓	auto:ai	2026-10-10	
-96f55c89fc7b9855	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	全体/女性	5.6	%	honpen p.35	✓	auto:ai	2026-10-10	
-a5e2a61bdbd161cd	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	10、20歳代/男性	29.5	%	honpen p.35	✓	auto:ai	2026-10-10	
-bafe6a8a5b34acea	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	10、20歳代/女性	5.4	%	honpen p.35	✓	auto:ai	2026-10-10	
-f9c3fea447a86793	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	30歳代/男性	30.2	%	honpen p.35	✓	auto:ai	2026-10-10	
-e67acd180a3b478a	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	30歳代/女性	4.2	%	honpen p.35	✓	auto:ai	2026-10-10	
-a0c004b69af72fb5	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	40歳代/男性	29.2	%	honpen p.35	✓	auto:ai	2026-10-10	
-de822bfca6c87b90	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	40歳代/女性	8.7	%	honpen p.35	✓	auto:ai	2026-10-10	
-41131f6a0ed3ca29	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	50歳代/男性	36.7	%	honpen p.35	✓	auto:ai	2026-10-10	
-b627269c169f7861	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	50歳代/女性	9.0	%	honpen p.35	✓	auto:ai	2026-10-10	
-933b332fe1949174	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	60歳代/男性	24.8	%	honpen p.35	✓	auto:ai	2026-10-10	
-7a42716a675d0484	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	60歳代/女性	4.3	%	honpen p.35	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-0b4f316fdc06b7f0	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	70歳以上/男性	19.5	%	honpen p.35	✓	auto:ai	2026-10-10	
-9acf98fac2e2df42	chosa	19	chart.pair	喫煙している人の割合（性別・年代別）	70歳以上/女性	2.2	%	honpen p.35	✓	auto:ai	2026-10-10	
-4741314647b97ea1	chosa	20	table	禁煙の意向（喫煙している人）（％）	全体（203人）/たばこをやめたいと思う	43.3		honpen p.35	✓	auto:ai	2026-10-10	
-acb5768deb62dadd	chosa	20	table	禁煙の意向（喫煙している人）（％）	全体（203人）/たばこをやめたいと思わない	46.8		honpen p.35	✓	auto:ai	2026-10-10	
-2d73da571464aef0	chosa	20	table	禁煙の意向（喫煙している人）（％）	全体（203人）/不明・無回答	9.9		honpen p.35	✓	auto:ai	2026-10-10	
-c66aa28bc673f5c7	chosa	20	table	禁煙の意向（喫煙している人）（％）	男性（149人）/たばこをやめたいと思う	43.0		honpen p.35	✓	auto:ai	2026-10-10	
-23c717d8c8547343	chosa	20	table	禁煙の意向（喫煙している人）（％）	男性（149人）/たばこをやめたいと思わない	49.7		honpen p.35	✓	auto:ai	2026-10-10	
-03a8b3973bfe8f87	chosa	20	table	禁煙の意向（喫煙している人）（％）	男性（149人）/不明・無回答	7.4		honpen p.35	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
-3dd6641f2ce0c0dc	chosa	20	table	禁煙の意向（喫煙している人）（％）	女性（37人）/たばこをやめたいと思う	51.4		honpen p.35	✓	auto:ai	2026-10-10	
-1a6cbd0c81206829	chosa	20	table	禁煙の意向（喫煙している人）（％）	女性（37人）/たばこをやめたいと思わない	37.8		honpen p.35	✓	auto:ai	2026-10-10	
-3cc113fa2ba78b01	chosa	20	table	禁煙の意向（喫煙している人）（％）	女性（37人）/不明・無回答	10.8		honpen p.35	✓	auto:ai	2026-10-10	
-714ada97cfec5c9d	chosa	22	chart.rank	飲酒頻度（N=1,277）	毎日飲む	18.4	%	honpen p.37	✓	auto:ai	2026-10-10	
-ab2e28096ddf4fbd	chosa	22	chart.rank	飲酒頻度（N=1,277）	週に５～６日	4.5	%	honpen p.37	✓	auto:ai	2026-10-10	
-956e13049591c2a0	chosa	22	chart.rank	飲酒頻度（N=1,277）	週に３～4日	4.9	%	honpen p.37	✓	auto:ai	2026-10-10	
-50bc92ae0afa7de5	chosa	22	chart.rank	飲酒頻度（N=1,277）	週に１～２日	5.2	%	honpen p.37	✓	auto:ai	2026-10-10	
-fae324e1ccd6f03a	chosa	22	chart.rank	飲酒頻度（N=1,277）	時々飲む	17.6	%	honpen p.37	✓	auto:ai	2026-10-10	
-005491c3ab5eeb27	chosa	22	chart.rank	飲酒頻度（N=1,277）	以前は飲んでいたがやめた	3.0	%	honpen p.37	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
-c8ae7c2dc0cb29b6	chosa	22	chart.rank	飲酒頻度（N=1,277）	飲まない	44.2	%	honpen p.37	✓	auto:ai	2026-10-10	
-5b9199931decf8c7	chosa	22	chart.rank	飲酒頻度（N=1,277）	不明・無回答	2.3	%	honpen p.37	✓	auto:ai	2026-10-10	
-a9588bd21c66f139	chosa	24	kpi	歯・口腔の健康	歯科健診を「受けている」	34.8	%	honpen p.40	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-592cff5624e6c160	chosa	24	kpi	歯・口腔の健康	「受けたり受けなかったりする」	20.3	%	honpen p.40	✓	auto:ai	2026-10-10	
-451fa193eb345d83	chosa	24	kpi	歯・口腔の健康	「受けていない」	38.4	%	honpen p.40	✓	auto:ai	2026-10-10	
-da4378b9aa095d6a	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	全体/男性	46.1	%	honpen p.40	✓	auto:ai	2026-10-10	
-adc91776a922774b	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	全体/女性	31.6	%	honpen p.40	✓	auto:ai	2026-10-10	
-b0d309c5522dc0c1	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	10、20歳代/男性	54.5	%	honpen p.40	✓	auto:ai	2026-10-10	
-0aaaa6ff1bd48afa	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	10、20歳代/女性	46.4	%	honpen p.40	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-800931a9955143d1	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	30歳代/男性	50.8	%	honpen p.40	✓	auto:ai	2026-10-10	
-19e8b595fa3c0b59	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	30歳代/女性	34.7	%	honpen p.40	✓	auto:ai	2026-10-10	
-67312472ee26ccbf	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	40歳代/男性	47.2	%	honpen p.40	✓	auto:ai	2026-10-10	
-98875ea49a35b95f	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	40歳代/女性	22.1	%	honpen p.40	✓	auto:ai	2026-10-10	
-b8108c48fa0065ba	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	50歳代/男性	45.6	%	honpen p.40	✓	auto:ai	2026-10-10	
-0fbc145f03b88219	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	50歳代/女性	30.6	%	honpen p.40	✓	auto:ai	2026-10-10	
-be6a3a2c3321ec13	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	60歳代/男性	46.8	%	honpen p.40	✓	auto:ai	2026-10-10	
-694ad2360eb3a076	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	60歳代/女性	29.7	%	honpen p.40	✓	auto:ai	2026-10-10	
-d7651b601e634e1e	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	70歳以上/男性	39.0	%	honpen p.40	✓	auto:ai	2026-10-10	
-c129613f059fcd37	chosa	25	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	70歳以上/女性	33.8	%	honpen p.40	✓	auto:ai	2026-10-10	
-e9ee32c3a210d5a7	chosa	26	table	子どもの虫歯（平成30年度）	3歳半/虫歯罹患率（％）	15.7		honpen p.41	✓	auto:ai	2026-10-10	
-93dae8be227cb1c0	chosa	26	table	子どもの虫歯（平成30年度）	3歳半/1人当たりの虫歯の平均本数（本）	0.587		honpen p.41	✓	auto:ai	2026-10-10	
-f731ab83354617eb	chosa	26	table	子どもの虫歯（平成30年度）	6歳（小1）/虫歯罹患率（％）	51.0		honpen p.41	✓	auto:ai	2026-10-10	
-5d269c20bac58926	chosa	26	table	子どもの虫歯（平成30年度）	6歳（小1）/1人当たりの虫歯の平均本数（本）	2.0		honpen p.41	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
-403da57dbb3e2d81	chosa	26	table	子どもの虫歯（平成30年度）	12歳（中1）/虫歯罹患率（％）	22.3		honpen p.41	✓	auto:ai	2026-10-10	
-d8a357e3b8cfe12f	chosa	26	table	子どもの虫歯（平成30年度）	12歳（中1）/1人当たりの虫歯の平均本数（本）	0.43		honpen p.41	✓	auto:ai	2026-10-10	
-fb5347c19a6a7457	chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/日野町の健診を受けた	19.7	%	honpen p.43	✓	auto:ai	2026-10-10	
-210d52f0fc4a45a8	chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/職場の健診を受けた	43.9	%	honpen p.43	✓	auto:ai	2026-10-10	
-600048363d2c0f9e	chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/個人で受けた	10.3	%	honpen p.43	✓	auto:ai	2026-10-10	
-d3bdd1806b101876	chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/受けていない	18.6	%	honpen p.43	✓	auto:ai	2026-10-10	
-68261f23311df03a	chosa	28	chart.stacked100	特定健診の受診状況（N=1,277）	全体/不明・無回答	7.5	%	honpen p.43	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
-c5bc7645a50bd840	chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/日野町の検診を受けた	10.3	%	honpen p.42	✓	auto:ai	2026-10-10	
-b4dc3356f0c9cc78	chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/職場の検診を受けた	20.0	%	honpen p.42	✓	auto:ai	2026-10-10	
-875d34f4ef3431cc	chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/個人で受けた	11.0	%	honpen p.42	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
-cce6d5ea340a588f	chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/受けていない	45.6	%	honpen p.42	✓	auto:ai	2026-10-10	
-3272c4f91634b3b6	chosa	29	chart.stacked100	がん検診の受診状況	大腸がん検診/不明・無回答	13.2	%	honpen p.42	✓	auto:ai	2026-10-10	
-d649fbd7bc0138a9	chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/日野町の検診を受けた	6.7	%	honpen p.42	✓	auto:ai	2026-10-10	
-5ad652aa08fea4a6	chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/職場の検診を受けた	16.8	%	honpen p.42	✓	auto:ai	2026-10-10	
-2c8030d5e11214bc	chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/個人で受けた	15.1	%	honpen p.42	✓	auto:ai	2026-10-10	
-79b5ceb5204569ff	chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/受けていない	48.1	%	honpen p.42	✓	auto:ai	2026-10-10	
-140e5c952a188ecc	chosa	29	chart.stacked100	がん検診の受診状況	胃がん検診/不明・無回答	13.3	%	honpen p.42	✓	auto:ai	2026-10-10	
-d23f7db493151266	chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/日野町の検診を受けた	10.3	%	honpen p.42	✓	auto:ai	2026-10-10	
-95fffa037b259d68	chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/職場の検診を受けた	24.0	%	honpen p.42	✓	auto:ai	2026-10-10	
-ad369f16e62eca86	chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/個人で受けた	9.9	%	honpen p.42	✓	auto:ai	2026-10-10	
-d1c781f13d09aeac	chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/受けていない	41.2	%	honpen p.42	✓	auto:ai	2026-10-10	
-265ae0be46d172da	chosa	29	chart.stacked100	がん検診の受診状況	肺がん検診/不明・無回答	14.6	%	honpen p.42	✓	auto:ai	2026-10-10	
-4d1bb7139b164249	chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/日野町の検診を受けた	14.5	%	honpen p.42	✓	auto:ai	2026-10-10	
-9feb50cf77db8751	chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/職場の検診を受けた	11.0	%	honpen p.42	✓	auto:ai	2026-10-10	
-21a525554dbb03ea	chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/個人で受けた	16.6	%	honpen p.42	✓	auto:ai	2026-10-10	
-32224307990e6c16	chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/受けていない	43.7	%	honpen p.42	✓	auto:ai	2026-10-10	
-2cf62e497011c082	chosa	29	chart.stacked100	がん検診の受診状況	子宮頸がん検診/不明・無回答	14.3	%	honpen p.42	✓	auto:ai	2026-10-10	
-7ec7206672fd6976	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/日野町の検診を受けた	15.4	%	honpen p.42	✓	auto:ai	2026-10-10	
-2e33b1b48e6ebf0d	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/職場の検診を受けた	10.8	%	honpen p.42	✓	auto:ai	2026-10-10	
-3e5f08b560b4e580	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/個人で受けた	14.9	%	honpen p.42	✓	auto:ai	2026-10-10	
-6056f8af3f440654	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/受けていない	47.0	%	honpen p.42	✓	auto:ai	2026-10-10	
-07d1826aee25b185	chosa	29	chart.stacked100	がん検診の受診状況	乳がん検診/不明・無回答	11.9	%	honpen p.42	✓	auto:ai	2026-10-10	
+0456028b64d9d078	chosa	6	chart.rank	健康状態（N=1,277）	とても健康	18.2	%	honpen p.24	✓	auto:ai	2026-10-10	
+b4e33a7dd2a82df6	chosa	6	chart.rank	健康状態（N=1,277）	まあまあ健康	67.3	%	honpen p.24	✓	auto:ai	2026-10-10	
+d66e8d053e79ce06	chosa	6	chart.rank	健康状態（N=1,277）	あまり健康ではない	9.9	%	honpen p.24	✓	auto:ai	2026-10-10	
+8e54cc045e2574b9	chosa	6	chart.rank	健康状態（N=1,277）	健康でない	1.4	%	honpen p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+e587f88f96d2f3a0	chosa	6	chart.rank	健康状態（N=1,277）	不明・無回答	3.1	%	honpen p.24	✓	auto:ai	2026-10-10	
+48fe240ef5af4d3f	chosa	8	kpi	栄養・食生活	朝食を「ほぼ毎日とっている」	87.2	%	honpen p.25	✓	auto:ai	2026-10-10	
+2ac6b8b415115d35	chosa	8	kpi	栄養・食生活	主食・主菜・副菜を組み合わせた食事を1日2回以上「ほぼ毎日とっている」	78.2	%	honpen p.25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+e43d9f9c60374249	chosa	8	kpi	栄養・食生活	減塩を「心がけている」	60.8	%	honpen p.25	✓	auto:ai	2026-10-10	
+47a0d1d0f5d7ed07	chosa	8	kpi	栄養・食生活	「食育」に「関心がある」	22.9	%	honpen p.25	✓	auto:ai	2026-10-10	
+aa619867648cea88	chosa	8	kpi	栄養・食生活	「食育」に「どちらかといえば関心がある」	44.2	%	honpen p.25	✓	auto:ai	2026-10-10	
+0a2bf2f87ee6aaec	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/4～5皿以上食べている	11.1	%	honpen p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+d2830f683b1caeee	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/2～3皿くらいは食べている	68.3	%	honpen p.26	✓	auto:ai	2026-10-10	
+30b4d5060afc0376	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/ほとんど食べていない（1皿以下）	14.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+58b4c532ab8eeea5	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	全体/不明・無回答	5.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+300f122ec81bdd24	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/4～5皿以上食べている	9.5	%	honpen p.26	✓	auto:ai	2026-10-10	
+a83c4942a5c44783	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/2～3皿くらいは食べている	66.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+4a5b32fd2e1cc1a1	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/ほとんど食べていない（1皿以下）	18.9	%	honpen p.26	✓	auto:ai	2026-10-10	
+dc4764a3c44ebd64	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性全体/不明・無回答	5.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+e99ca860cd15d1c2	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/4～5皿以上食べている	9.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+86c5227cec9b2aa2	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/2～3皿くらいは食べている	43.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+ba9b04e36524dd45	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/ほとんど食べていない（1皿以下）	40.9	%	honpen p.26	✓	auto:ai	2026-10-10	
+54509d77e3e3e13f	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性10、20歳代/不明・無回答	6.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+f7b14b630513221a	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/4～5皿以上食べている	11.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+510761b8d9574a02	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/2～3皿くらいは食べている	61.9	%	honpen p.26	✓	auto:ai	2026-10-10	
+ebc586e94e9cf53c	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/ほとんど食べていない（1皿以下）	23.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+ea251c16cda27aaa	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性30歳代/不明・無回答	3.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+e74fa372aea941dc	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/4～5皿以上食べている	3.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+47f1bd2d381bbeca	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/2～3皿くらいは食べている	73.0	%	honpen p.26	✓	auto:ai	2026-10-10	
+28a8eb3cc8466c5d	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/ほとんど食べていない（1皿以下）	20.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+e5972fe852a6bb24	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性40歳代/不明・無回答	3.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+ae539f7a00dadc98	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/4～5皿以上食べている	7.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+0a6a5a87dc641c4e	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/2～3皿くらいは食べている	66.7	%	honpen p.26	✓	auto:ai	2026-10-10	
+53d771ddb2dd2dda	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/ほとんど食べていない（1皿以下）	20.0	%	honpen p.26	✓	auto:ai	2026-10-10	
+ad4e1d46f54d0ff0	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性50歳代/不明・無回答	5.6	%	honpen p.26	✓	auto:ai	2026-10-10	
+572fc2854264c4a2	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/4～5皿以上食べている	14.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+39ec75db5bcc8ccd	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/2～3皿くらいは食べている	68.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+d8e61cd93db26cbc	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/ほとんど食べていない（1皿以下）	14.9	%	honpen p.26	✓	auto:ai	2026-10-10	
+e86320bd9f609d09	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性60歳代/不明・無回答	2.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+aff99eb7ee8ccb43	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/4～5皿以上食べている	9.3	%	honpen p.26	✓	auto:ai	2026-10-10	
+b765a8627a7379ce	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/2～3皿くらいは食べている	69.5	%	honpen p.26	✓	auto:ai	2026-10-10	
+48effbd7fecdd6a9	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/ほとんど食べていない（1皿以下）	11.0	%	honpen p.26	✓	auto:ai	2026-10-10	
+d68118217f01b04f	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	男性70歳以上/不明・無回答	10.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+1034664ffa2593c0	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/4～5皿以上食べている	12.3	%	honpen p.26	✓	auto:ai	2026-10-10	
+8fc462ff8bbc1ea0	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/2～3皿くらいは食べている	72.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+e72a9e6a6baaf78d	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/ほとんど食べていない（1皿以下）	10.5	%	honpen p.26	✓	auto:ai	2026-10-10	
+4ec807e8f9e8ca0f	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性全体/不明・無回答	5.0	%	honpen p.26	✓	auto:ai	2026-10-10	
+ab097193174d8e4a	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/4～5皿以上食べている	5.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+9bc07b2cfd1c2837	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/2～3皿くらいは食べている	69.6	%	honpen p.26	✓	auto:ai	2026-10-10	
+40a26769a92bab0c	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/ほとんど食べていない（1皿以下）	21.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+a35eaea52fce21be	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性10、20歳代/不明・無回答	3.6	%	honpen p.26	✓	auto:ai	2026-10-10	
+89bcb47d7a888ca4	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/4～5皿以上食べている	11.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+5ca6947c180d273e	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/2～3皿くらいは食べている	68.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+e61982d6312730f3	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/ほとんど食べていない（1皿以下）	18.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+42144edc470c923c	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性30歳代/不明・無回答	2.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+3e471e40f56a4fce	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/4～5皿以上食べている	12.5	%	honpen p.26	✓	auto:ai	2026-10-10	
+41cfd5e1b7a1670f	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/2～3皿くらいは食べている	69.2	%	honpen p.26	✓	auto:ai	2026-10-10	
+976663c4baf5376c	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/ほとんど食べていない（1皿以下）	14.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+704361641de9218a	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性40歳代/不明・無回答	3.8	%	honpen p.26	✓	auto:ai	2026-10-10	
+9051969574ba5852	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/4～5皿以上食べている	11.9	%	honpen p.26	✓	auto:ai	2026-10-10	
+647112ab2ce68a65	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/2～3皿くらいは食べている	74.6	%	honpen p.26	✓	auto:ai	2026-10-10	
+da5e35d1e45e57d3	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/ほとんど食べていない（1皿以下）	10.4	%	honpen p.26	✓	auto:ai	2026-10-10	
+ce90f08099c16340	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性50歳代/不明・無回答	3.0	%	honpen p.26	✓	auto:ai	2026-10-10	
+8203136f1802b90b	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/4～5皿以上食べている	15.9	%	honpen p.26	✓	auto:ai	2026-10-10	
+3fb6d313a1ab7257	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/2～3皿くらいは食べている	76.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+8de729a23c319b84	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/ほとんど食べていない（1皿以下）	4.3	%	honpen p.26	✓	auto:ai	2026-10-10	
+48a22aabae825f00	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性60歳代/不明・無回答	3.6	%	honpen p.26	✓	auto:ai	2026-10-10	
+af5ab5977c5d252a	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/4～5皿以上食べている	12.5	%	honpen p.26	✓	auto:ai	2026-10-10	
+4c78466acd94bb12	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/2～3皿くらいは食べている	71.3	%	honpen p.26	✓	auto:ai	2026-10-10	
+ff1811258a520a41	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/ほとんど食べていない（1皿以下）	5.1	%	honpen p.26	✓	auto:ai	2026-10-10	
+caa572dc3be614c6	chosa	10	chart.stacked100	1日の野菜の摂取状況（性別・年代別）	女性70歳以上/不明・無回答	11.0	%	honpen p.26	✓	auto:ai	2026-10-10	
+e395471b0387d20e	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	穀類（ごはん・パン類）と魚介類・肉類・大豆製品と、野菜を組み合わせた食事を心がけている	50.8	%	honpen p.27	✓	auto:ai	2026-10-10	
+086b47354668b498	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	夜遅い時間の食事を控えている	42.4	%	honpen p.27	✓	auto:ai	2026-10-10	
+5c0759ea9627c3e3	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	家族と一緒に食事を食べる	38.5	%	honpen p.27	✓	auto:ai	2026-10-10	
+3dddb8b2f7c67eb7	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	食事の量を調整している	36.7	%	honpen p.27	✓	auto:ai	2026-10-10	
+a6b80ab49893b309	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	お菓子や甘いものの量を控えている	33.7	%	honpen p.27	✓	auto:ai	2026-10-10	
+57ef191b0f6cec36	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	特定の食品を食べすぎない	20.7	%	honpen p.27	✓	auto:ai	2026-10-10	
+f9a0093e1844ba14	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	友人と一緒に食事を食べる	2.3	%	honpen p.27	✓	auto:ai	2026-10-10	
+625760e39e587a20	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	その他	2.7	%	honpen p.27	✓	auto:ai	2026-10-10	
+8a76f0d332c58889	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	特に何もしていない	10.3	%	honpen p.27	✓	auto:ai	2026-10-10	
+2555633606481291	chosa	11	chart.rank	食生活で気をつけていること（N=1,277）	不明・無回答	2.7	%	honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+32c5e2f98173e448	chosa	13	kpi	運動	過去1年間、意識して体を動かす等の運動を「している」	51.1	%	honpen p.29	✓	auto:ai	2026-10-10	
+23587d27670bceb9	chosa	13	kpi	運動	運動をしている人のうち、週1回以上	84.7	%	honpen p.29	✓	auto:ai	2026-10-10	
+2015a982b73d9fb4	chosa	13	kpi	運動	運動をしている人のうち、1回当たり30分以上	62.6	%	honpen p.29	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+a9d53a03449ac526	chosa	15	chart.rank	休養が十分とれていると思うか（N=1,277）	十分とれている	15.8	%	honpen p.31	✓	auto:ai	2026-10-10	
+67bd026bbc6ccafb	chosa	15	chart.rank	休養が十分とれていると思うか（N=1,277）	まあまあとれている	54.2	%	honpen p.31	✓	auto:ai	2026-10-10	
+fec695cbe91a6839	chosa	15	chart.rank	休養が十分とれていると思うか（N=1,277）	あまりとれていない	22.1	%	honpen p.31	✓	auto:ai	2026-10-10	
+709e52f16b9f5f32	chosa	15	chart.rank	休養が十分とれていると思うか（N=1,277）	全くとれていない	2.0	%	honpen p.31	✓	auto:ai	2026-10-10	
+27f795a4306581be	chosa	15	chart.rank	休養が十分とれていると思うか（N=1,277）	不明・無回答	6.0	%	honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+106091ace9387b34	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	全体/男性	57.5	%	honpen p.31	✓	auto:ai	2026-10-10	
+55b221928557ab80	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	全体/女性	62.4	%	honpen p.31	✓	auto:ai	2026-10-10	
+13b984a402182071	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	10、20歳代/男性	61.4	%	honpen p.31	✓	auto:ai	2026-10-10	
+ce7c88f1c485d635	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	10、20歳代/女性	73.2	%	honpen p.31	✓	auto:ai	2026-10-10	
+70bddce6bedbbda7	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	30歳代/男性	73.0	%	honpen p.31	✓	auto:ai	2026-10-10	
+96c69208179e9629	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	30歳代/女性	70.8	%	honpen p.31	✓	auto:ai	2026-10-10	
+0435feb516935a9c	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	40歳代/男性	70.8	%	honpen p.31	✓	auto:ai	2026-10-10	
+ff51ff807824fcbf	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	40歳代/女性	65.4	%	honpen p.31	✓	auto:ai	2026-10-10	
+2cb8301cdbf21acf	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	50歳代/男性	71.1	%	honpen p.31	✓	auto:ai	2026-10-10	
+c64065605e95dac1	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	50歳代/女性	70.1	%	honpen p.31	✓	auto:ai	2026-10-10	
+f0e5e1d9d2211163	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	60歳代/男性	48.9	%	honpen p.31	✓	auto:ai	2026-10-10	
+4bc9c7d2a2338814	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	60歳代/女性	62.3	%	honpen p.31	✓	auto:ai	2026-10-10	
+007d784b461e8b49	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	70歳以上/男性	38.1	%	honpen p.31	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+4d32729a36ed5312	chosa	16	chart.pair	普段、強いストレスを感じる人の割合（性別・年代別）	70歳以上/女性	45.3	%	honpen p.31	✓	auto:ai	2026-10-10	
+7b659834f6349b9e	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/全体	73.4		honpen p.32	✓	auto:ai	2026-10-10	
+1c1065f76313fd22	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/男性全体	72.5		honpen p.32	✓	auto:ai	2026-10-10	
+03633f5d320148d7	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	家族/女性全体	74.6		honpen p.32	✓	auto:ai	2026-10-10	
+a569a1ea80726e45	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/全体	48.2		honpen p.32	✓	auto:ai	2026-10-10	
+f201c717137805db	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/男性全体	34.8		honpen p.32	✓	auto:ai	2026-10-10	
+28e04a83ae495d69	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	友人・知人/女性全体	61.2		honpen p.32	✓	auto:ai	2026-10-10	
+38a1a1a47a28d10b	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/全体	13.7		honpen p.32	✓	auto:ai	2026-10-10	
+7ef72372ec4fd41b	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/男性全体	14.3		honpen p.32	✓	auto:ai	2026-10-10	
+43a7ca0543f7d062	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	学校、職場の上司や同僚/女性全体	14.3		honpen p.32	✓	auto:ai	2026-10-10	
+414aacc1eb79c059	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/全体	1.5		honpen p.32	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+b90cf152cd8127b5	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/男性全体	1.6		honpen p.32	✓	auto:ai	2026-10-10	
+42e66fb5e991d457	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	インターネットやメール友達/女性全体	1.5		honpen p.32	✓	auto:ai	2026-10-10	
+f58606d2541cfd05	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/全体	0.4		honpen p.32	✓	auto:ai	2026-10-10	
+22206a56d3d36992	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/男性全体	0.5		honpen p.32	✓	auto:ai	2026-10-10	
+1911d7978ab50d9b	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	地域の民生委員・児童委員/女性全体	0.3		honpen p.32	✓	auto:ai	2026-10-10	
+d32c11925e701b3e	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/全体	1.6		honpen p.32	✓	auto:ai	2026-10-10	
+872ce02448791c6e	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/男性全体	1.6		honpen p.32	✓	auto:ai	2026-10-10	
+f7341d126ff417bd	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	役場、保健センター/女性全体	1.7		honpen p.32	✓	auto:ai	2026-10-10	
+9bbdd6f359884197	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/全体	6.5		honpen p.32	✓	auto:ai	2026-10-10	
+84340aeeaeaa898f	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/男性全体	9.7		honpen p.32	✓	auto:ai	2026-10-10	
+4668da900c3b368f	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	相談する相手はいない/女性全体	3.7		honpen p.32	✓	auto:ai	2026-10-10	
+e4f31ff2ebcbd6af	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/全体	9.0		honpen p.32	✓	auto:ai	2026-10-10	
+19ed6045dee924ae	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/男性全体	10.8		honpen p.32	✓	auto:ai	2026-10-10	
+4e7d9703ea684ed3	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	かかりつけの医師/女性全体	8.1		honpen p.32	✓	auto:ai	2026-10-10	
+9d88ec0d0db2e59b	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/全体	2.1		honpen p.32	✓	auto:ai	2026-10-10	
+d40002f3e0b45a04	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/男性全体	1.5		honpen p.32	✓	auto:ai	2026-10-10	
+219f74805b67c912	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	その他/女性全体	2.9		honpen p.32	✓	auto:ai	2026-10-10	
+af92cb07e63b8f0f	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/全体	6.7		honpen p.32	✓	auto:ai	2026-10-10	
+bae479fde39126bb	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/男性全体	6.8		honpen p.32	✓	auto:ai	2026-10-10	
+b068285db2a627b4	chosa	17	table	悩みや心配事を相談できる相手（複数回答）（％）	不明・無回答/女性全体	5.8		honpen p.32	✓	auto:ai	2026-10-10	
+442d63e22a2c1256	chosa	19	chart.bars	喫煙している人の割合の推移	平成16年	23.8	%	honpen p.36	✓	auto:ai	2026-10-10	
+e924107867e07b50	chosa	19	chart.bars	喫煙している人の割合の推移	平成21年	19.7	%	honpen p.36	✓	auto:ai	2026-10-10	
+3dcb50f326d2f479	chosa	19	chart.bars	喫煙している人の割合の推移	平成27年	11.7	%	honpen p.36	✓	auto:ai	2026-10-10	
+5ab1ac5ee4c7326b	chosa	19	chart.bars	喫煙している人の割合の推移	令和2年	15.9	%	honpen p.36	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+0c4eb15ae6fea8f7	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	全体/男性	27.3	%	honpen p.35	✓	auto:ai	2026-10-10	
+96f55c89fc7b9855	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	全体/女性	5.6	%	honpen p.35	✓	auto:ai	2026-10-10	
+a5e2a61bdbd161cd	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	10、20歳代/男性	29.5	%	honpen p.35	✓	auto:ai	2026-10-10	
+bafe6a8a5b34acea	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	10、20歳代/女性	5.4	%	honpen p.35	✓	auto:ai	2026-10-10	
+f9c3fea447a86793	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	30歳代/男性	30.2	%	honpen p.35	✓	auto:ai	2026-10-10	
+e67acd180a3b478a	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	30歳代/女性	4.2	%	honpen p.35	✓	auto:ai	2026-10-10	
+a0c004b69af72fb5	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	40歳代/男性	29.2	%	honpen p.35	✓	auto:ai	2026-10-10	
+de822bfca6c87b90	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	40歳代/女性	8.7	%	honpen p.35	✓	auto:ai	2026-10-10	
+41131f6a0ed3ca29	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	50歳代/男性	36.7	%	honpen p.35	✓	auto:ai	2026-10-10	
+b627269c169f7861	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	50歳代/女性	9.0	%	honpen p.35	✓	auto:ai	2026-10-10	
+933b332fe1949174	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	60歳代/男性	24.8	%	honpen p.35	✓	auto:ai	2026-10-10	
+7a42716a675d0484	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	60歳代/女性	4.3	%	honpen p.35	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+0b4f316fdc06b7f0	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	70歳以上/男性	19.5	%	honpen p.35	✓	auto:ai	2026-10-10	
+9acf98fac2e2df42	chosa	20	chart.pair	喫煙している人の割合（性別・年代別）	70歳以上/女性	2.2	%	honpen p.35	✓	auto:ai	2026-10-10	
+4741314647b97ea1	chosa	21	table	禁煙の意向（喫煙している人）（％）	全体（203人）/たばこをやめたいと思う	43.3		honpen p.35	✓	auto:ai	2026-10-10	
+acb5768deb62dadd	chosa	21	table	禁煙の意向（喫煙している人）（％）	全体（203人）/たばこをやめたいと思わない	46.8		honpen p.35	✓	auto:ai	2026-10-10	
+2d73da571464aef0	chosa	21	table	禁煙の意向（喫煙している人）（％）	全体（203人）/不明・無回答	9.9		honpen p.35	✓	auto:ai	2026-10-10	
+c66aa28bc673f5c7	chosa	21	table	禁煙の意向（喫煙している人）（％）	男性（149人）/たばこをやめたいと思う	43.0		honpen p.35	✓	auto:ai	2026-10-10	
+23c717d8c8547343	chosa	21	table	禁煙の意向（喫煙している人）（％）	男性（149人）/たばこをやめたいと思わない	49.7		honpen p.35	✓	auto:ai	2026-10-10	
+03a8b3973bfe8f87	chosa	21	table	禁煙の意向（喫煙している人）（％）	男性（149人）/不明・無回答	7.4		honpen p.35	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+3dd6641f2ce0c0dc	chosa	21	table	禁煙の意向（喫煙している人）（％）	女性（37人）/たばこをやめたいと思う	51.4		honpen p.35	✓	auto:ai	2026-10-10	
+1a6cbd0c81206829	chosa	21	table	禁煙の意向（喫煙している人）（％）	女性（37人）/たばこをやめたいと思わない	37.8		honpen p.35	✓	auto:ai	2026-10-10	
+3cc113fa2ba78b01	chosa	21	table	禁煙の意向（喫煙している人）（％）	女性（37人）/不明・無回答	10.8		honpen p.35	✓	auto:ai	2026-10-10	
+714ada97cfec5c9d	chosa	23	chart.rank	飲酒頻度（N=1,277）	毎日飲む	18.4	%	honpen p.37	✓	auto:ai	2026-10-10	
+ab2e28096ddf4fbd	chosa	23	chart.rank	飲酒頻度（N=1,277）	週に５～６日	4.5	%	honpen p.37	✓	auto:ai	2026-10-10	
+956e13049591c2a0	chosa	23	chart.rank	飲酒頻度（N=1,277）	週に３～4日	4.9	%	honpen p.37	✓	auto:ai	2026-10-10	
+50bc92ae0afa7de5	chosa	23	chart.rank	飲酒頻度（N=1,277）	週に１～２日	5.2	%	honpen p.37	✓	auto:ai	2026-10-10	
+fae324e1ccd6f03a	chosa	23	chart.rank	飲酒頻度（N=1,277）	時々飲む	17.6	%	honpen p.37	✓	auto:ai	2026-10-10	
+005491c3ab5eeb27	chosa	23	chart.rank	飲酒頻度（N=1,277）	以前は飲んでいたがやめた	3.0	%	honpen p.37	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+c8ae7c2dc0cb29b6	chosa	23	chart.rank	飲酒頻度（N=1,277）	飲まない	44.2	%	honpen p.37	✓	auto:ai	2026-10-10	
+5b9199931decf8c7	chosa	23	chart.rank	飲酒頻度（N=1,277）	不明・無回答	2.3	%	honpen p.37	✓	auto:ai	2026-10-10	
+a9588bd21c66f139	chosa	25	kpi	歯・口腔の健康	歯科健診を「受けている」	34.8	%	honpen p.40	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+592cff5624e6c160	chosa	25	kpi	歯・口腔の健康	「受けたり受けなかったりする」	20.3	%	honpen p.40	✓	auto:ai	2026-10-10	
+451fa193eb345d83	chosa	25	kpi	歯・口腔の健康	「受けていない」	38.4	%	honpen p.40	✓	auto:ai	2026-10-10	
+da4378b9aa095d6a	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	全体/男性	46.1	%	honpen p.40	✓	auto:ai	2026-10-10	
+adc91776a922774b	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	全体/女性	31.6	%	honpen p.40	✓	auto:ai	2026-10-10	
+b0d309c5522dc0c1	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	10、20歳代/男性	54.5	%	honpen p.40	✓	auto:ai	2026-10-10	
+0aaaa6ff1bd48afa	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	10、20歳代/女性	46.4	%	honpen p.40	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+800931a9955143d1	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	30歳代/男性	50.8	%	honpen p.40	✓	auto:ai	2026-10-10	
+19e8b595fa3c0b59	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	30歳代/女性	34.7	%	honpen p.40	✓	auto:ai	2026-10-10	
+67312472ee26ccbf	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	40歳代/男性	47.2	%	honpen p.40	✓	auto:ai	2026-10-10	
+98875ea49a35b95f	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	40歳代/女性	22.1	%	honpen p.40	✓	auto:ai	2026-10-10	
+b8108c48fa0065ba	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	50歳代/男性	45.6	%	honpen p.40	✓	auto:ai	2026-10-10	
+0fbc145f03b88219	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	50歳代/女性	30.6	%	honpen p.40	✓	auto:ai	2026-10-10	
+be6a3a2c3321ec13	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	60歳代/男性	46.8	%	honpen p.40	✓	auto:ai	2026-10-10	
+694ad2360eb3a076	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	60歳代/女性	29.7	%	honpen p.40	✓	auto:ai	2026-10-10	
+d7651b601e634e1e	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	70歳以上/男性	39.0	%	honpen p.40	✓	auto:ai	2026-10-10	
+c129613f059fcd37	chosa	26	chart.pair	定期的に歯科健診を「受けていない」人の割合（性別・年代別）	70歳以上/女性	33.8	%	honpen p.40	✓	auto:ai	2026-10-10	
+e9ee32c3a210d5a7	chosa	27	table	子どもの虫歯（平成30年度）	3歳半/虫歯罹患率（％）	15.7		honpen p.41	✓	auto:ai	2026-10-10	
+93dae8be227cb1c0	chosa	27	table	子どもの虫歯（平成30年度）	3歳半/1人当たりの虫歯の平均本数（本）	0.587		honpen p.41	✓	auto:ai	2026-10-10	
+f731ab83354617eb	chosa	27	table	子どもの虫歯（平成30年度）	6歳（小1）/虫歯罹患率（％）	51.0		honpen p.41	✓	auto:ai	2026-10-10	
+5d269c20bac58926	chosa	27	table	子どもの虫歯（平成30年度）	6歳（小1）/1人当たりの虫歯の平均本数（本）	2.0		honpen p.41	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+403da57dbb3e2d81	chosa	27	table	子どもの虫歯（平成30年度）	12歳（中1）/虫歯罹患率（％）	22.3		honpen p.41	✓	auto:ai	2026-10-10	
+d8a357e3b8cfe12f	chosa	27	table	子どもの虫歯（平成30年度）	12歳（中1）/1人当たりの虫歯の平均本数（本）	0.43		honpen p.41	✓	auto:ai	2026-10-10	
+fb5347c19a6a7457	chosa	29	chart.stacked100	特定健診の受診状況（N=1,277）	全体/日野町の健診を受けた	19.7	%	honpen p.43	✓	auto:ai	2026-10-10	
+210d52f0fc4a45a8	chosa	29	chart.stacked100	特定健診の受診状況（N=1,277）	全体/職場の健診を受けた	43.9	%	honpen p.43	✓	auto:ai	2026-10-10	
+600048363d2c0f9e	chosa	29	chart.stacked100	特定健診の受診状況（N=1,277）	全体/個人で受けた	10.3	%	honpen p.43	✓	auto:ai	2026-10-10	
+d3bdd1806b101876	chosa	29	chart.stacked100	特定健診の受診状況（N=1,277）	全体/受けていない	18.6	%	honpen p.43	✓	auto:ai	2026-10-10	
+68261f23311df03a	chosa	29	chart.stacked100	特定健診の受診状況（N=1,277）	全体/不明・無回答	7.5	%	honpen p.43	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+c5bc7645a50bd840	chosa	30	chart.stacked100	がん検診の受診状況	大腸がん検診/日野町の検診を受けた	10.3	%	honpen p.42	✓	auto:ai	2026-10-10	
+b4dc3356f0c9cc78	chosa	30	chart.stacked100	がん検診の受診状況	大腸がん検診/職場の検診を受けた	20.0	%	honpen p.42	✓	auto:ai	2026-10-10	
+875d34f4ef3431cc	chosa	30	chart.stacked100	がん検診の受診状況	大腸がん検診/個人で受けた	11.0	%	honpen p.42	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+cce6d5ea340a588f	chosa	30	chart.stacked100	がん検診の受診状況	大腸がん検診/受けていない	45.6	%	honpen p.42	✓	auto:ai	2026-10-10	
+3272c4f91634b3b6	chosa	30	chart.stacked100	がん検診の受診状況	大腸がん検診/不明・無回答	13.2	%	honpen p.42	✓	auto:ai	2026-10-10	
+d649fbd7bc0138a9	chosa	30	chart.stacked100	がん検診の受診状況	胃がん検診/日野町の検診を受けた	6.7	%	honpen p.42	✓	auto:ai	2026-10-10	
+5ad652aa08fea4a6	chosa	30	chart.stacked100	がん検診の受診状況	胃がん検診/職場の検診を受けた	16.8	%	honpen p.42	✓	auto:ai	2026-10-10	
+2c8030d5e11214bc	chosa	30	chart.stacked100	がん検診の受診状況	胃がん検診/個人で受けた	15.1	%	honpen p.42	✓	auto:ai	2026-10-10	
+79b5ceb5204569ff	chosa	30	chart.stacked100	がん検診の受診状況	胃がん検診/受けていない	48.1	%	honpen p.42	✓	auto:ai	2026-10-10	
+140e5c952a188ecc	chosa	30	chart.stacked100	がん検診の受診状況	胃がん検診/不明・無回答	13.3	%	honpen p.42	✓	auto:ai	2026-10-10	
+d23f7db493151266	chosa	30	chart.stacked100	がん検診の受診状況	肺がん検診/日野町の検診を受けた	10.3	%	honpen p.42	✓	auto:ai	2026-10-10	
+95fffa037b259d68	chosa	30	chart.stacked100	がん検診の受診状況	肺がん検診/職場の検診を受けた	24.0	%	honpen p.42	✓	auto:ai	2026-10-10	
+ad369f16e62eca86	chosa	30	chart.stacked100	がん検診の受診状況	肺がん検診/個人で受けた	9.9	%	honpen p.42	✓	auto:ai	2026-10-10	
+d1c781f13d09aeac	chosa	30	chart.stacked100	がん検診の受診状況	肺がん検診/受けていない	41.2	%	honpen p.42	✓	auto:ai	2026-10-10	
+265ae0be46d172da	chosa	30	chart.stacked100	がん検診の受診状況	肺がん検診/不明・無回答	14.6	%	honpen p.42	✓	auto:ai	2026-10-10	
+4d1bb7139b164249	chosa	30	chart.stacked100	がん検診の受診状況	子宮頸がん検診/日野町の検診を受けた	14.5	%	honpen p.42	✓	auto:ai	2026-10-10	
+9feb50cf77db8751	chosa	30	chart.stacked100	がん検診の受診状況	子宮頸がん検診/職場の検診を受けた	11.0	%	honpen p.42	✓	auto:ai	2026-10-10	
+21a525554dbb03ea	chosa	30	chart.stacked100	がん検診の受診状況	子宮頸がん検診/個人で受けた	16.6	%	honpen p.42	✓	auto:ai	2026-10-10	
+32224307990e6c16	chosa	30	chart.stacked100	がん検診の受診状況	子宮頸がん検診/受けていない	43.7	%	honpen p.42	✓	auto:ai	2026-10-10	
+2cf62e497011c082	chosa	30	chart.stacked100	がん検診の受診状況	子宮頸がん検診/不明・無回答	14.3	%	honpen p.42	✓	auto:ai	2026-10-10	
+7ec7206672fd6976	chosa	30	chart.stacked100	がん検診の受診状況	乳がん検診/日野町の検診を受けた	15.4	%	honpen p.42	✓	auto:ai	2026-10-10	
+2e33b1b48e6ebf0d	chosa	30	chart.stacked100	がん検診の受診状況	乳がん検診/職場の検診を受けた	10.8	%	honpen p.42	✓	auto:ai	2026-10-10	
+3e5f08b560b4e580	chosa	30	chart.stacked100	がん検診の受診状況	乳がん検診/個人で受けた	14.9	%	honpen p.42	✓	auto:ai	2026-10-10	
+6056f8af3f440654	chosa	30	chart.stacked100	がん検診の受診状況	乳がん検診/受けていない	47.0	%	honpen p.42	✓	auto:ai	2026-10-10	
+07d1826aee25b185	chosa	30	chart.stacked100	がん検診の受診状況	乳がん検診/不明・無回答	11.9	%	honpen p.42	✓	auto:ai	2026-10-10	
 71343135ec5d1b8a	shisaku	6	programs	施策の体系と分野別の取り組み	事業数	14	件	honpen p.54-55	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 fba525a6b93465eb	shisaku	7	programs	施策の体系と分野別の取り組み	事業数	11	件	honpen p.58-59	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
 9c40eab3dbca4e63	shisaku	8	programs	施策の体系と分野別の取り組み	事業数	5	件	honpen p.60-61	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点

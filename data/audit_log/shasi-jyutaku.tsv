@@ -1,46 +1,46 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-f7015b20849d3665	summary	2	target.base		既存ストックの適正な維持・管理（公営住宅政策空家の除却率）	25	%	keikaku p.3				
-474ce6eb950a62f2	summary	2	target.target		既存ストックの適正な維持・管理（公営住宅政策空家の除却率）	85	%	keikaku p.3				
-5a7e0fd74f99baf7	summary	2	target.base		改善（駐車場外灯LED化）棟数の割合	0	%	keikaku p.3				
-176844475330527e	summary	2	target.target		改善（駐車場外灯LED化）棟数の割合	100	%	keikaku p.3				
-18acee44142c42c5	summary	3	kpi		公営住宅政策空家の除却	12	戸	keikaku p.5				
-5b5549bd1843dd60	summary	3	kpi		外壁・屋根改修設計業務委託	5	棟	keikaku p.5				
-6ed83a611a07fdc2	summary	3	kpi		外灯改修工事	5	棟	keikaku p.5				
-53223d16791476c7	summary	3	kpi		基幹事業の交付期間内事業費（概算）	35	百万円	keikaku p.5				
-c1b31fadfc9df26c	genjo	1	kpi	地域と町営住宅の現況	人口	20964	人	keikaku p.2				
-1c170f538976f486	genjo	1	kpi	地域と町営住宅の現況	世帯数	7932	世帯	keikaku p.2				
-7d232784c0678dd4	genjo	1	kpi	地域と町営住宅の現況	町営住宅の団地数	6	団地	keikaku p.2				
-129372df2d9ce453	genjo	1	kpi	地域と町営住宅の現況	町営住宅の戸数	89	戸	keikaku p.2				
-1a3a13645636347b	jigyo	3	programs	事業の内容	事業数	3	件	keikaku p.4				
-5209b5dc92875dd7	jigyo	6	table	事業費	公営住宅等ストック総合改善事業（長寿命化計画の見直し）/交付期間内事業費（百万円）	4		keikaku p.5				
-1696e50c1ebffa03	jigyo	6	table	事業費	公営住宅等ストック総合改善事業（外壁・屋根改修設計業務委託）/交付期間内事業費（百万円）	10		keikaku p.5				
-5cb61bacd98ba81e	jigyo	6	table	事業費	公営住宅等ストック総合改善事業（外灯改修工事）/交付期間内事業費（百万円）	1		keikaku p.5				
-0b754288a516f466	jigyo	6	table	事業費	公営住宅等整備事業（公営住宅政策空家の除却）/交付期間内事業費（百万円）	20		keikaku p.5				
-3797d8993d962f8f	jigyo	6	table	事業費	合計/交付期間内事業費（百万円）	35		keikaku p.5				
-0a65b0d3b5368c0f	jigyo	7	table	事業費	地域住宅政策推進事業（住生活基本計画の見直し）/交付期間内事業費（百万円）	4		keikaku p.5				
-c0a56f6aed31f30c	jigyo	7	table	事業費	合計/交付期間内事業費（百万円）	4		keikaku p.5				
-c2f47b256cc1f3f4	jigyo	9	table	社会資本総合整備計画での事業と期間	A15-001/全体事業費（百万円）	4		seibikeikaku p.2				
-1ee71dbd22d3470e	jigyo	9	table	社会資本総合整備計画での事業と期間	A15-002/全体事業費（百万円）	20		seibikeikaku p.2				
-1cbc0d2496b8f919	jigyo	9	table	社会資本総合整備計画での事業と期間	A15-003/全体事業費（百万円）	15		seibikeikaku p.2				
-bb3310deed96780d	jigyo	9	table	社会資本総合整備計画での事業と期間	合計/全体事業費（百万円）	39		seibikeikaku p.2				
-12dc6fc5ad3f21c9	jigyo	10	kpi	社会資本総合整備計画での事業と期間	全体事業費の合計（A＋B＋C＋D）	39	百万円	seibikeikaku p.1				
-6e60c452a5d35e40	jigyo	10	kpi	社会資本総合整備計画での事業と期間	A	39	百万円	seibikeikaku p.1				
-c9e9a830eef8b949	jigyo	10	kpi	社会資本総合整備計画での事業と期間	B	0	百万円	seibikeikaku p.1				
-11f204adfe1ef7f0	jigyo	10	kpi	社会資本総合整備計画での事業と期間	C	0	百万円	seibikeikaku p.1				
-6cf4f4a697dc9816	jigyo	10	kpi	社会資本総合整備計画での事業と期間	D	0	百万円	seibikeikaku p.1				
-811e4c62c2dd348d	jigyo	10	kpi	社会資本総合整備計画での事業と期間	効果促進事業費の割合 C／（A＋B＋C＋D）	0	%	seibikeikaku p.1				
-16066aa8d572e26f	jigyo	13	figure	事業の場所	日野町地域住宅計画 位置図	shasi-jyutaku_map.jpg		zumenn p.1				
-5e65668cef77a6c2	mokuhyo	3	table	指標と目標値	既存ストックの適正な維持・管理/従前値（R4年度）	25		keikaku p.3				
-d71d0bb03455dac3	mokuhyo	3	table	指標と目標値	既存ストックの適正な維持・管理/目標値（R8年度）	85		keikaku p.3				
-2d67da571ed01fa9	mokuhyo	3	table	指標と目標値	改善（駐車場外灯LED化）棟数の割合/従前値（R4年度）	0		keikaku p.3				
-ade0354ebf833e79	mokuhyo	3	table	指標と目標値	改善（駐車場外灯LED化）棟数の割合/目標値（R8年度）	100		keikaku p.3				
-d78f4feec618b24e	mokuhyo	7	table	交付金の執行状況	配分額（a）/R04	3		seibikeikaku p.3				
-d9acb4fb2a28d792	mokuhyo	7	table	交付金の執行状況	計画別流用増△減額（b）/R04	0		seibikeikaku p.3				
-4a4ffd00e796848f	mokuhyo	7	table	交付金の執行状況	交付額（c=a+b）/R04	3		seibikeikaku p.3				
-d14da1df4aa06992	mokuhyo	7	table	交付金の執行状況	前年度からの繰越額（d）/R04	0		seibikeikaku p.3				
-c834f623e55b5ea0	mokuhyo	7	table	交付金の執行状況	支払済額（e）/R04	3		seibikeikaku p.3				
-d91d2fb4a08d34db	mokuhyo	7	table	交付金の執行状況	翌年度繰越額（f）/R04	0		seibikeikaku p.3				
-c84a28f21a64e917	mokuhyo	7	table	交付金の執行状況	うち未契約繰越額（g）/R04	0		seibikeikaku p.3				
-40286da2462db9ee	mokuhyo	7	table	交付金の執行状況	不用額（h=c+d-e-f）/R04	0		seibikeikaku p.3				
-2c2fd99366948413	mokuhyo	7	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R04	0		seibikeikaku p.3				
+f7015b20849d3665	summary	2	target.base		既存ストックの適正な維持・管理（公営住宅政策空家の除却率）	25	%	keikaku p.3				要人確認:H1 A=一致/中 B=一致/中
+474ce6eb950a62f2	summary	2	target.target		既存ストックの適正な維持・管理（公営住宅政策空家の除却率）	85	%	keikaku p.3				要人確認:H1 A=一致/中 B=一致/中
+5a7e0fd74f99baf7	summary	2	target.base		改善（駐車場外灯LED化）棟数の割合	0	%	keikaku p.3				要人確認:H1 A=一致/中 B=一致/中
+176844475330527e	summary	2	target.target		改善（駐車場外灯LED化）棟数の割合	100	%	keikaku p.3				要人確認:H1 A=一致/中 B=一致/中
+18acee44142c42c5	summary	3	kpi		公営住宅政策空家の除却	12	戸	keikaku p.5	✓	auto:ai	2026-10-10	
+5b5549bd1843dd60	summary	3	kpi		外壁・屋根改修設計業務委託	5	棟	keikaku p.5	✓	auto:ai	2026-10-10	
+6ed83a611a07fdc2	summary	3	kpi		外灯改修工事	5	棟	keikaku p.5	✓	auto:ai	2026-10-10	
+53223d16791476c7	summary	3	kpi		基幹事業の交付期間内事業費（概算）	35	百万円	keikaku p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+c1b31fadfc9df26c	genjo	1	kpi	地域と町営住宅の現況	人口	20964	人	keikaku p.2	✓	auto:ai	2026-10-10	
+1c170f538976f486	genjo	1	kpi	地域と町営住宅の現況	世帯数	7932	世帯	keikaku p.2	✓	auto:ai	2026-10-10	
+7d232784c0678dd4	genjo	1	kpi	地域と町営住宅の現況	町営住宅の団地数	6	団地	keikaku p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+129372df2d9ce453	genjo	1	kpi	地域と町営住宅の現況	町営住宅の戸数	89	戸	keikaku p.2	✓	auto:ai	2026-10-10	
+1a3a13645636347b	jigyo	3	programs	事業の内容	事業数	3	件	keikaku p.4				要人確認:H1 A=一致/中 B=一致/中
+5209b5dc92875dd7	jigyo	6	table	事業費	公営住宅等ストック総合改善事業（長寿命化計画の見直し）/交付期間内事業費（百万円）	4		keikaku p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+1696e50c1ebffa03	jigyo	6	table	事業費	公営住宅等ストック総合改善事業（外壁・屋根改修設計業務委託）/交付期間内事業費（百万円）	10		keikaku p.5	✓	auto:ai	2026-10-10	
+5cb61bacd98ba81e	jigyo	6	table	事業費	公営住宅等ストック総合改善事業（外灯改修工事）/交付期間内事業費（百万円）	1		keikaku p.5	✓	auto:ai	2026-10-10	
+0b754288a516f466	jigyo	6	table	事業費	公営住宅等整備事業（公営住宅政策空家の除却）/交付期間内事業費（百万円）	20		keikaku p.5	✓	auto:ai	2026-10-10	
+3797d8993d962f8f	jigyo	6	table	事業費	合計/交付期間内事業費（百万円）	35		keikaku p.5	✓	auto:ai	2026-10-10	
+0a65b0d3b5368c0f	jigyo	7	table	事業費	地域住宅政策推進事業（住生活基本計画の見直し）/交付期間内事業費（百万円）	4		keikaku p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+c0a56f6aed31f30c	jigyo	7	table	事業費	合計/交付期間内事業費（百万円）	4		keikaku p.5	✓	auto:ai	2026-10-10	
+c2f47b256cc1f3f4	jigyo	9	table	社会資本総合整備計画での事業と期間	A15-001/全体事業費（百万円）	4		seibikeikaku p.2	✓	auto:ai	2026-10-10	
+1ee71dbd22d3470e	jigyo	9	table	社会資本総合整備計画での事業と期間	A15-002/全体事業費（百万円）	20		seibikeikaku p.2	✓	auto:ai	2026-10-10	
+1cbc0d2496b8f919	jigyo	9	table	社会資本総合整備計画での事業と期間	A15-003/全体事業費（百万円）	15		seibikeikaku p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+bb3310deed96780d	jigyo	9	table	社会資本総合整備計画での事業と期間	合計/全体事業費（百万円）	39		seibikeikaku p.2	✓	auto:ai	2026-10-10	
+12dc6fc5ad3f21c9	jigyo	10	kpi	社会資本総合整備計画での事業と期間	全体事業費の合計（A＋B＋C＋D）	39	百万円	seibikeikaku p.1	✓	auto:ai	2026-10-10	
+6e60c452a5d35e40	jigyo	10	kpi	社会資本総合整備計画での事業と期間	A	39	百万円	seibikeikaku p.1	✓	auto:ai	2026-10-10	
+c9e9a830eef8b949	jigyo	10	kpi	社会資本総合整備計画での事業と期間	B	0	百万円	seibikeikaku p.1	✓	auto:ai	2026-10-10	
+11f204adfe1ef7f0	jigyo	10	kpi	社会資本総合整備計画での事業と期間	C	0	百万円	seibikeikaku p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+6cf4f4a697dc9816	jigyo	10	kpi	社会資本総合整備計画での事業と期間	D	0	百万円	seibikeikaku p.1	✓	auto:ai	2026-10-10	
+811e4c62c2dd348d	jigyo	10	kpi	社会資本総合整備計画での事業と期間	効果促進事業費の割合 C／（A＋B＋C＋D）	0	%	seibikeikaku p.1	✓	auto:ai	2026-10-10	
+16066aa8d572e26f	jigyo	13	figure	事業の場所	日野町地域住宅計画 位置図	shasi-jyutaku_map.jpg		zumenn p.1				要人確認:H2 数値でない
+5e65668cef77a6c2	mokuhyo	3	table	指標と目標値	既存ストックの適正な維持・管理/従前値（R4年度）	25		keikaku p.3	✓	auto:ai	2026-10-10	
+d71d0bb03455dac3	mokuhyo	3	table	指標と目標値	既存ストックの適正な維持・管理/目標値（R8年度）	85		keikaku p.3	✓	auto:ai	2026-10-10	
+2d67da571ed01fa9	mokuhyo	3	table	指標と目標値	改善（駐車場外灯LED化）棟数の割合/従前値（R4年度）	0		keikaku p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+ade0354ebf833e79	mokuhyo	3	table	指標と目標値	改善（駐車場外灯LED化）棟数の割合/目標値（R8年度）	100		keikaku p.3	✓	auto:ai	2026-10-10	
+d78f4feec618b24e	mokuhyo	7	table	交付金の執行状況	配分額（a）/R04	3		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+d9acb4fb2a28d792	mokuhyo	7	table	交付金の執行状況	計画別流用増△減額（b）/R04	0		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+4a4ffd00e796848f	mokuhyo	7	table	交付金の執行状況	交付額（c=a+b）/R04	3		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+d14da1df4aa06992	mokuhyo	7	table	交付金の執行状況	前年度からの繰越額（d）/R04	0		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+c834f623e55b5ea0	mokuhyo	7	table	交付金の執行状況	支払済額（e）/R04	3		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+d91d2fb4a08d34db	mokuhyo	7	table	交付金の執行状況	翌年度繰越額（f）/R04	0		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+c84a28f21a64e917	mokuhyo	7	table	交付金の執行状況	うち未契約繰越額（g）/R04	0		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+40286da2462db9ee	mokuhyo	7	table	交付金の執行状況	不用額（h=c+d-e-f）/R04	0		seibikeikaku p.3	✓	auto:ai	2026-10-10	
+2c2fd99366948413	mokuhyo	7	table	交付金の執行状況	未契約繰越率+不用率（i=(g+h)/(c+d)）（%）/R04	0		seibikeikaku p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ8点

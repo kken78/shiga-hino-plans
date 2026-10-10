@@ -1,0 +1,136 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+81ffa0115ec67735	summary	1	kpi		森林面積	6100	ha	honpen p.1	✓	auto:ai	2026-10-10	
+0faf75eb33029da4	summary	1	kpi		人工林面積	1703	ha	honpen p.1	✓	auto:ai	2026-10-10	
+a750a22872736f2c	summary	1	kpi		個人有林の割合	57.4	%	honpen p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+7e084dda4876c856	kuiki	8	chart.rank	区分ごとの森林の面積（別表1の計）	水源涵養機能維持増進森林	6100.39	ha	honpen p.20-22	✓	auto:ai	2026-10-10	
+85396d941e468a59	kuiki	8	chart.rank	区分ごとの森林の面積（別表1の計）	山地災害防止／土壌保全機能維持増進森林	1444.49	ha	honpen p.20-22	✓	auto:ai	2026-10-10	
+3cdf32436aca3e49	kuiki	8	chart.rank	区分ごとの森林の面積（別表1の計）	保健文化機能維持増進森林	409.61	ha	honpen p.20-22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+fce031c7ee72a692	kuiki	8	chart.rank	区分ごとの森林の面積（別表1の計）	木材等生産機能維持増進森林	1531.00	ha	honpen p.20-22	✓	auto:ai	2026-10-10	
+aa88656e78683cbf	kuiki	8	chart.rank	区分ごとの森林の面積（別表1の計）	うち特に効率的な施業が可能な森林	169.63	ha	honpen p.20-22	✓	auto:ai	2026-10-10	
+e7dcdd0ce6aff936	kuiki	11	table	水源涵養機能維持増進森林の施業の方法	伐期の延長を推進すべき森林（標準伐期齢＋10年）/面積（ha）	6100.39		honpen p.23-25	✓	auto:ai	2026-10-10	
+7cf0d6aff22c8c54	kuiki	11	table	水源涵養機能維持増進森林の施業の方法	長伐期施業を推進すべき森林（スギ80年・ヒノキ90年）/面積（ha）	328.85		honpen p.23-25	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+99891010a010cd01	kuiki	11	table	水源涵養機能維持増進森林の施業の方法	複層林施業を推進すべき森林（択伐によるものを除く）/面積（ha）	96.35		honpen p.23-25	✓	auto:ai	2026-10-10	
+666191ab27ee4910	kuiki	12	table	山地災害防止・快適環境形成・保健文化・木材等生産の森林の施業の方法	長伐期施業を推進すべき森林（標準伐期齢の2倍以上）/面積（ha）	1118.98		honpen p.25-26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+dedc7e3bd8aa35a0	kuiki	12	table	山地災害防止・快適環境形成・保健文化・木材等生産の森林の施業の方法	長伐期施業を推進すべき森林（スギ80年・ヒノキ90年）/面積（ha）	54.03		honpen p.25-26	✓	auto:ai	2026-10-10	
+4867603e621eda06	kuiki	13	figure	施業の方法ごとの区域	公益的機能別施業森林図（日野町森林整備計画概要図）	shinrin_map.jpg		honpen p.29				要人確認:H2 数値でない
+7b50ea6843a7aeed	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	後谷/区域面積（ha）	209.15		honpen p.12	✓	auto:ai	2026-10-10	
+d8daa6f31a6340db	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	石楠花渓/区域面積（ha）	304.54		honpen p.12	✓	auto:ai	2026-10-10	
+d68118f34bf86046	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	薬師前/区域面積（ha）	252.71		honpen p.12	✓	auto:ai	2026-10-10	
+225158523af94ac3	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	小嶽山/区域面積（ha）	170.27		honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+3be6dab80f1b5190	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	三峯/区域面積（ha）	334.42		honpen p.12	✓	auto:ai	2026-10-10	
+37955909dbddcfbe	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	石子山/区域面積（ha）	261.90		honpen p.12	✓	auto:ai	2026-10-10	
+b67d733b4c9dbe2d	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	水木谷/区域面積（ha）	211.09		honpen p.12	✓	auto:ai	2026-10-10	
+49eb66f1cfd361f2	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	滝山谷/区域面積（ha）	291.63		honpen p.12	✓	auto:ai	2026-10-10	
+e709aa70b097ef78	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	大根谷/区域面積（ha）	212.46		honpen p.12	✓	auto:ai	2026-10-10	
+6947929ad99b9067	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	北畑谷/区域面積（ha）	403.94		honpen p.12	✓	auto:ai	2026-10-10	
+7099fd82b48be19b	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	北蔵王谷/区域面積（ha）	218.01		honpen p.12	✓	auto:ai	2026-10-10	
+efb01dbbc07a1a0c	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	南蔵王谷/区域面積（ha）	304.16		honpen p.12	✓	auto:ai	2026-10-10	
+769b0199864add89	kuiki	17	table	森林施業共同化重点的実施地区の設定計画	計/区域面積（ha）	3174.28		honpen p.12	✓	auto:ai	2026-10-10	
+0b81f85102eba326	kuiki	20	table	森林経営計画を作る区域	西桜谷、必佐、日野/区域面積（ha）	1048.14		honpen p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+78bbeae4ff7c4b0a	kuiki	20	table	森林経営計画を作る区域	東桜谷/区域面積（ha）	1494.88		honpen p.17	✓	auto:ai	2026-10-10	
+257cb99ad88fb97a	kuiki	20	table	森林経営計画を作る区域	西大路/区域面積（ha）	1880.67		honpen p.17	✓	auto:ai	2026-10-10	
+2b323628503aa31b	kuiki	20	table	森林経営計画を作る区域	鎌掛/区域面積（ha）	1001.94		honpen p.17	✓	auto:ai	2026-10-10	
+749728802a4ac916	kuiki	20	table	森林経営計画を作る区域	南比都佐/区域面積（ha）	674.76		honpen p.17	✓	auto:ai	2026-10-10	
+e8a1bd2c733d6485	sekyo	3	table	樹種別の立木の標準伐期齢（年）	全域/スギ	40		honpen p.3	✓	auto:pdftext	2026-10-10	
+8f274d377aed3d47	sekyo	3	table	樹種別の立木の標準伐期齢（年）	全域/ヒノキ	45		honpen p.3	✓	auto:pdftext	2026-10-10	
+f3acdf2ef5b1b932	sekyo	3	table	樹種別の立木の標準伐期齢（年）	全域/マツ	40		honpen p.3	✓	auto:pdftext	2026-10-10	
+2400d3f2ee06e94f	sekyo	3	table	樹種別の立木の標準伐期齢（年）	全域/その他針葉樹	50		honpen p.3	✓	auto:ai	2026-10-10	
+22415c37c6e66fe6	sekyo	3	table	樹種別の立木の標準伐期齢（年）	全域/コナラ・クヌギ	15		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+eeb689462659b41e	sekyo	3	table	樹種別の立木の標準伐期齢（年）	全域/その他広葉樹	20		honpen p.3	✓	auto:ai	2026-10-10	
+da42f837bd13a11d	sekyo	4	table	水源涵養機能維持増進森林の伐期齢の下限（年）	全域/スギ	50		honpen p.10	✓	auto:pdftext	2026-10-10	
+93f293a32736ecc0	sekyo	4	table	水源涵養機能維持増進森林の伐期齢の下限（年）	全域/ヒノキ	55		honpen p.10	✓	auto:pdftext	2026-10-10	
+4207bdbe5caf0e4c	sekyo	4	table	水源涵養機能維持増進森林の伐期齢の下限（年）	全域/マツ	50		honpen p.10	✓	auto:pdftext	2026-10-10	
+2b1dd3b2aa18fae8	sekyo	4	table	水源涵養機能維持増進森林の伐期齢の下限（年）	全域/その他針葉樹	60		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+f38ae2bedc1b19c6	sekyo	4	table	水源涵養機能維持増進森林の伐期齢の下限（年）	全域/コナラ・クヌギ	25		honpen p.10	✓	auto:ai	2026-10-10	
+34ee5e598382ef16	sekyo	4	table	水源涵養機能維持増進森林の伐期齢の下限（年）	全域/その他広葉樹	30		honpen p.10	✓	auto:ai	2026-10-10	
+f319dd3ec4ea4481	sekyo	5	table	長伐期施業を推進すべき森林の伐期齢の下限（年）	全域/スギ	80		honpen p.11	✓	auto:pdftext	2026-10-10	
+ff6cd9e6a50246b4	sekyo	5	table	長伐期施業を推進すべき森林の伐期齢の下限（年）	全域/ヒノキ	90		honpen p.11	✓	auto:pdftext	2026-10-10	
+6ad015307b73c585	sekyo	5	table	長伐期施業を推進すべき森林の伐期齢の下限（年）	全域/マツ	80		honpen p.11	✓	auto:pdftext	2026-10-10	
+aaa285b8a4e8f25e	sekyo	5	table	長伐期施業を推進すべき森林の伐期齢の下限（年）	全域/その他針葉樹	100		honpen p.11	✓	auto:ai	2026-10-10	
+fc32412e88579397	sekyo	5	table	長伐期施業を推進すべき森林の伐期齢の下限（年）	全域/コナラ・クヌギ	30		honpen p.11	✓	auto:ai	2026-10-10	
+56e1bd17b11b2613	sekyo	5	table	長伐期施業を推進すべき森林の伐期齢の下限（年）	全域/その他広葉樹	40		honpen p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+9d60a2f340462fd4	sekyo	11	table	人工造林の樹種別及び仕立ての方法別の植栽本数	スギ 密仕立て/標準的な植栽本数（本/ha）	4500		honpen p.5	✓	auto:ai	2026-10-10	
+59e541b6f0d39f6f	sekyo	11	table	人工造林の樹種別及び仕立ての方法別の植栽本数	スギ 中仕立て/標準的な植栽本数（本/ha）	3500		honpen p.5	✓	auto:ai	2026-10-10	
+1e11d9436eddc887	sekyo	11	table	人工造林の樹種別及び仕立ての方法別の植栽本数	スギ 疎仕立て/標準的な植栽本数（本/ha）	2500		honpen p.5	✓	auto:ai	2026-10-10	
+e747e2ab0bbea8a1	sekyo	11	table	人工造林の樹種別及び仕立ての方法別の植栽本数	ヒノキ 密仕立て/標準的な植栽本数（本/ha）	4500		honpen p.5	✓	auto:ai	2026-10-10	
+01cdb8d4c10009ca	sekyo	11	table	人工造林の樹種別及び仕立ての方法別の植栽本数	ヒノキ 中仕立て/標準的な植栽本数（本/ha）	3500		honpen p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+601456cf7872b45c	sekyo	11	table	人工造林の樹種別及び仕立ての方法別の植栽本数	ヒノキ 疎仕立て/標準的な植栽本数（本/ha）	2500		honpen p.5	✓	auto:ai	2026-10-10	
+3c165c1caab6d054	sekyo	15	table	滋賀県天然更新完了基準（更新が完了した状態）	伐採後5年目/湖南地域森林計画区（本/ha以上）	2500		honpen p.7	✓	auto:ai	2026-10-10	
+6d0402e531aa5c37	sekyo	15	table	滋賀県天然更新完了基準（更新が完了した状態）	伐採後5年目/湖北地域森林計画区（本/ha以上）	2000		honpen p.7	✓	auto:ai	2026-10-10	
+0a63ebffa9a6747b	sekyo	15	table	滋賀県天然更新完了基準（更新が完了した状態）	伐採後2年目/湖南地域森林計画区（本/ha以上）	2500		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+64d6bb453be4c826	sekyo	15	table	滋賀県天然更新完了基準（更新が完了した状態）	伐採後2年目/湖北地域森林計画区（本/ha以上）	2000		honpen p.7	✓	auto:ai	2026-10-10	
+39d53fbaabaf4ae9	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	ヒノキ（造作材生産・3,500本/ha程度）/初回	25		honpen p.8	✓	auto:ai	2026-10-10	
+ab89aef054822926	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	ヒノキ（造作材生産・3,500本/ha程度）/2回目	30		honpen p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ2点
+350bf597a39d7b4f	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	ヒノキ（造作材生産・3,500本/ha程度）/3回目	40		honpen p.8	✓	auto:ai	2026-10-10	
+c74526695ab3fe21	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	ヒノキ（造作材生産・3,500本/ha程度）/4回目	55		honpen p.8	✓	auto:ai	2026-10-10	
+e839a4d7c4beeb90	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	ヒノキ（造作材生産・3,500本/ha程度）/5回目	70		honpen p.8	✓	auto:ai	2026-10-10	
+0ff6229662280afd	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	ヒノキ（造作材生産・3,500本/ha程度）/6回目	80		honpen p.8	✓	auto:ai	2026-10-10	
+f1239f3b98f00ce4	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	スギ（一般建築材・3,500本/ha程度）/初回	15		honpen p.8	✓	auto:ai	2026-10-10	
+65a89c922e5757b3	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	スギ（一般建築材・3,500本/ha程度）/2回目	20		honpen p.8	✓	auto:ai	2026-10-10	
+e39d48a407b56c0e	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	スギ（一般建築材・3,500本/ha程度）/3回目	30		honpen p.8	✓	auto:ai	2026-10-10	
+9d1dfa0a9ea55301	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	スギ（一般建築材・3,500本/ha程度）/4回目	40		honpen p.8	✓	auto:ai	2026-10-10	
+0f5b4eb960af038e	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	スギ（一般建築材・3,500本/ha程度）/5回目	60		honpen p.8	✓	auto:ai	2026-10-10	
+55697f64f217cb59	sekyo	17	table	間伐を実施すべき標準的な林齢（年）	スギ（一般建築材・3,500本/ha程度）/6回目	70		honpen p.8	✓	auto:ai	2026-10-10	
+4a8fd2a8b87a1fa6	sekyo	18	table	平均的な間伐の実施時期の間隔年数	標準伐期齢未満/間隔（年）	10		honpen p.9	✓	auto:ai	2026-10-10	
+248a6e26205dbebc	sekyo	18	table	平均的な間伐の実施時期の間隔年数	標準伐期齢以上/間隔（年）	15		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+36d0500f6e371068	romo	7	table	拡張（改良）	杓子ヒミズ谷/延長（km）	1.8		honpen p.27	✓	auto:pdftext	2026-10-10	
+d426e876758111a7	romo	7	table	拡張（改良）	杓子ヒミズ谷/利用区域（ha）	135		honpen p.27	✓	auto:pdftext	2026-10-10	
+8650a178635ba81e	romo	7	table	拡張（改良）	水木谷/延長（km）	2.3		honpen p.27	✓	auto:pdftext	2026-10-10	
+fb5b810bbf241255	romo	7	table	拡張（改良）	水木谷/利用区域（ha）	229		honpen p.27	✓	auto:pdftext	2026-10-10	
+250f5340e0d4d745	romo	7	table	拡張（改良）	石谷/延長（km）	2.0		honpen p.27	✓	auto:pdftext	2026-10-10	
+80ec2dc316795604	romo	7	table	拡張（改良）	石谷/利用区域（ha）	62		honpen p.27	✓	auto:ai	2026-10-10	
+b2e3b336478c7744	romo	7	table	拡張（改良）	東山/延長（km）	1.0		honpen p.27	✓	auto:pdftext	2026-10-10	
+09c7ced8a91e02c4	romo	7	table	拡張（改良）	東山/利用区域（ha）	81		honpen p.27	✓	auto:pdftext	2026-10-10	
+ca538d0d1e76dca8	romo	7	table	拡張（改良）	三峯/延長（km）	0.6		honpen p.27	✓	auto:pdftext	2026-10-10	
+cd711486bb3dc655	romo	7	table	拡張（改良）	三峯/利用区域（ha）	234		honpen p.27	✓	auto:ai	2026-10-10	
+0e9e9fddbe4bdb03	romo	7	table	拡張（改良）	北畑/延長（km）	0.6		honpen p.27	✓	auto:pdftext	2026-10-10	
+e753b63cb3827719	romo	7	table	拡張（改良）	北畑/利用区域（ha）	140		honpen p.27	✓	auto:ai	2026-10-10	
+1962b1531f1c183e	romo	7	table	拡張（改良）	奥山/延長（km）	0.2		honpen p.27	✓	auto:pdftext	2026-10-10	
+5e19ced3ecf5eb6e	romo	7	table	拡張（改良）	奥山/利用区域（ha）	290		honpen p.27	✓	auto:ai	2026-10-10	
+4438e928bf02e88e	romo	7	table	拡張（改良）	勝手谷/延長（km）	0.4		honpen p.27	✓	auto:pdftext	2026-10-10	
+ad73d846987aa57d	romo	7	table	拡張（改良）	勝手谷/利用区域（ha）	79		honpen p.27	✓	auto:pdftext	2026-10-10	
+71f6245e1bde7979	romo	7	table	拡張（改良）	千本野/延長（km）	0.4		honpen p.27	✓	auto:pdftext	2026-10-10	
+4588da7012f9ed11	romo	7	table	拡張（改良）	千本野/利用区域（ha）	92		honpen p.27	✓	auto:pdftext	2026-10-10	
+9176a4bee7734508	romo	7	table	拡張（改良）	音羽谷/延長（km）	0.4		honpen p.27	✓	auto:pdftext	2026-10-10	
+e7526fdb926fd84d	romo	7	table	拡張（改良）	音羽谷/利用区域（ha）	91		honpen p.27	✓	auto:pdftext	2026-10-10	
+6ea0f58efcd03e61	romo	7	table	拡張（改良）	宝殿/延長（km）	1.6		honpen p.27	✓	auto:ai	2026-10-10	
+6891c2c99366c058	romo	7	table	拡張（改良）	宝殿/利用区域（ha）	141		honpen p.27	✓	auto:ai	2026-10-10	
+a80c747b3938b1d2	romo	7	table	拡張（改良）	南谷/延長（km）	0.2		honpen p.27	✓	auto:ai	2026-10-10	
+4a9955190fd4aabd	romo	7	table	拡張（改良）	南谷/利用区域（ha）	44		honpen p.27	✓	auto:ai	2026-10-10	
+bfe60679dc134ab2	romo	7	table	拡張（改良）	井の谷/延長（km）	0.4		honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+4617abab27fa767c	romo	7	table	拡張（改良）	井の谷/利用区域（ha）	42		honpen p.27	✓	auto:ai	2026-10-10	
+e94db7289a3f92e5	romo	7	table	拡張（改良）	計（13路線）/延長（km）	11.9		honpen p.27	✓	auto:ai	2026-10-10	
+d3fdde18b5f3d313	romo	7	table	拡張（改良）	計（13路線）/利用区域（ha）	1660		honpen p.27	✓	auto:ai	2026-10-10	
+5dc3b55d7b6594e2	romo	8	table	拡張（舗装）	杓子ヒミズ谷/延長（km）	3.4		honpen p.27	✓	auto:ai	2026-10-10	
+66ae48808967d58b	romo	8	table	拡張（舗装）	杓子ヒミズ谷/利用区域（ha）	135		honpen p.27	✓	auto:ai	2026-10-10	
+a3c1db825d1026d2	romo	8	table	拡張（舗装）	水木谷/延長（km）	2.6		honpen p.27	✓	auto:ai	2026-10-10	
+fa460363c7ca4f3a	romo	8	table	拡張（舗装）	水木谷/利用区域（ha）	229		honpen p.27	✓	auto:ai	2026-10-10	
+aa121971cd0fc764	romo	8	table	拡張（舗装）	東山/延長（km）	2.0		honpen p.27	✓	auto:ai	2026-10-10	
+3a67e3cbb16132ed	romo	8	table	拡張（舗装）	東山/利用区域（ha）	81		honpen p.27	✓	auto:ai	2026-10-10	
+53c6cb5281ff0609	romo	8	table	拡張（舗装）	北畑/延長（km）	2.5		honpen p.27	✓	auto:ai	2026-10-10	要人確認:H4 難しさ1点
+8aac31daa1ad63c3	romo	8	table	拡張（舗装）	北畑/利用区域（ha）	140		honpen p.27	✓	auto:ai	2026-10-10	
+f1289a64e5607dec	romo	8	table	拡張（舗装）	勝手谷/延長（km）	1.0		honpen p.27	✓	auto:ai	2026-10-10	
+6bb5f3d5bcd1edaa	romo	8	table	拡張（舗装）	勝手谷/利用区域（ha）	79		honpen p.27	✓	auto:ai	2026-10-10	
+4686563ffeca495b	romo	8	table	拡張（舗装）	計（5路線）/延長（km）	11.5		honpen p.27	✓	auto:ai	2026-10-10	
+04f3fb0e5ecc4524	romo	8	table	拡張（舗装）	計（5路線）/利用区域（ha）	664		honpen p.27	✓	auto:ai	2026-10-10	
+d3f8369245daf487	romo	11	table	ニホンジカの被害を防ぐ	ニホンジカ/面積（ha）	6100		honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+732c9e6c3371aee7	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	合計/面積（ha）	94.54		honpen p.16	✓	auto:ai	2026-10-10	
+1d61c5c2a6a17227	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	人工林/面積（ha）	51.16		honpen p.16	✓	auto:ai	2026-10-10	
+f92c39d419af4361	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	天然林/面積（ha）	41.47		honpen p.16	✓	auto:ai	2026-10-10	
+ba7bacbacfef1188	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	無立木地/面積（ha）	0.35		honpen p.16	✓	auto:ai	2026-10-10	
+ba434a773acc1387	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	その他/面積（ha）	1.56		honpen p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+da4554df0fc9d968	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	（備考）土砂流出防備・保健保安林/面積（ha）	58.51		honpen p.16	✓	auto:ai	2026-10-10	
+affbaf01ad9b1826	fureai	4	table	保健機能森林の区域（熊野蔵王・1061林班）の林種別面積	（備考）国定公園特別地域第3種/面積（ha）	63.11		honpen p.16	✓	auto:ai	2026-10-10	
+cf8a99d6df622551	fureai	7	table	立木の期待平均樹高（m）	期待平均樹高/スギ	18		honpen p.16	✓	auto:pdftext	2026-10-10	
+2933ddd894e672d6	fureai	7	table	立木の期待平均樹高（m）	期待平均樹高/ヒノキ	18		honpen p.16	✓	auto:pdftext	2026-10-10	
+139eb57483a0e8d3	fureai	7	table	立木の期待平均樹高（m）	期待平均樹高/その他	14		honpen p.16	✓	auto:pdftext	2026-10-10	
+1fced3c00ba7dcd7	fureai	9	table	生活環境施設の整備計画（現状）	森林浴歩道/規模	250		honpen p.18	✓	auto:ai	2026-10-10	
+3c787fc500419f5b	fureai	9	table	生活環境施設の整備計画（現状）	林間広場/規模	3800		honpen p.18	✓	auto:ai	2026-10-10	
+6d13cd0760f498f8	fureai	9	table	生活環境施設の整備計画（現状）	キャンプ場/規模	5000		honpen p.18	✓	auto:ai	2026-10-10	
+16e71130297a2ed5	fureai	9	table	生活環境施設の整備計画（現状）	炊事施設/規模	1		honpen p.18	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+5688bdf7786c2a2d	fureai	9	table	生活環境施設の整備計画（現状）	林間木製遊具/規模	1		honpen p.18	✓	auto:ai	2026-10-10	
+eb5b386194f8a84d	fureai	9	table	生活環境施設の整備計画（現状）	交流促進センター/規模	309.63		honpen p.18	✓	auto:ai	2026-10-10	
+62fdc13dad6f3245	fureai	9	table	生活環境施設の整備計画（現状）	休養施設/規模	334.19		honpen p.18	✓	auto:ai	2026-10-10	
+3a211e5abc871d9e	fureai	9	table	生活環境施設の整備計画（現状）	休憩施設/規模	50.0		honpen p.18	✓	auto:ai	2026-10-10	
+4e696a2529948dea	fureai	9	table	生活環境施設の整備計画（現状）	便所/規模	45.56		honpen p.18	✓	auto:ai	2026-10-10	

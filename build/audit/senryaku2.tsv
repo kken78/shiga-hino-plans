@@ -1,24 +1,24 @@
 tab	block_no	btype	block_label	label	value	unit	source
-summary	2	kpi		日野町の人口	20975	人	honpen p.7-8
-summary	2	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8
-summary	2	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8
-summary	2	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8
-summary	2	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8
-summary	2	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8
-summary	4	target.base		出生数（住民基本台帳）過去3年平均	149	人	honpen p.14-23
-summary	4	target.target		出生数（住民基本台帳）過去3年平均	170	人	honpen p.14-23
-summary	4	target.base		創業件数（累計）	12	件	honpen p.14-23
-summary	4	target.target		創業件数（累計）	25	件	honpen p.14-23
-summary	4	target.base		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.14-23
-summary	4	target.target		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.14-23
-summary	4	target.base		観光入込客数（年間）過去3年平均	623900	人	honpen p.14-23
-summary	4	target.target		観光入込客数（年間）過去3年平均	650000	人	honpen p.14-23
-summary	4	target.base		転入者数（住民基本台帳）過去3年平均	777	人	honpen p.14-23
-summary	4	target.target		転入者数（住民基本台帳）過去3年平均	780	人	honpen p.14-23
-summary	4	target.base		転出者数（住民基本台帳）過去3年平均	760	人	honpen p.14-23
-summary	4	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23
-summary	4	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23
-summary	4	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23
+summary	3	kpi		日野町の人口	20975	人	honpen p.7-8
+summary	3	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8
+summary	3	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8
+summary	3	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8
+summary	3	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8
+summary	3	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8
+summary	5	target.base		出生数（住民基本台帳）過去3年平均	149	人	honpen p.14-23
+summary	5	target.target		出生数（住民基本台帳）過去3年平均	170	人	honpen p.14-23
+summary	5	target.base		創業件数（累計）	12	件	honpen p.14-23
+summary	5	target.target		創業件数（累計）	25	件	honpen p.14-23
+summary	5	target.base		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.14-23
+summary	5	target.target		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.14-23
+summary	5	target.base		観光入込客数（年間）過去3年平均	623900	人	honpen p.14-23
+summary	5	target.target		観光入込客数（年間）過去3年平均	650000	人	honpen p.14-23
+summary	5	target.base		転入者数（住民基本台帳）過去3年平均	777	人	honpen p.14-23
+summary	5	target.target		転入者数（住民基本台帳）過去3年平均	780	人	honpen p.14-23
+summary	5	target.base		転出者数（住民基本台帳）過去3年平均	760	人	honpen p.14-23
+summary	5	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23
+summary	5	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23
+summary	5	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23
 jinko	4	chart.line	日野町の人口推移	総人口/大正4	22355	人	honpen p.7
 jinko	4	chart.line	日野町の人口推移	総人口/大正9	21601	人	honpen p.7
 jinko	4	chart.line	日野町の人口推移	総人口/大正14	21473	人	honpen p.7
@@ -103,8 +103,8 @@ kpi	5	target.base	基本目標1 結婚・出産・子育ての希望をみんな
 kpi	5	target.target	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	出生数（住民基本台帳）過去3年平均	170	人	honpen p.14
 kpi	8	target.base	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15
 kpi	8	target.target	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15
-kpi	8	target.base	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定子ども園、子育て支援施設等利用率）	82	%	honpen p.14-15
-kpi	8	target.target	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定子ども園、子育て支援施設等利用率）	85	%	honpen p.14-15
+kpi	8	target.base	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定こども園、子育て支援施設等利用率）	82	%	honpen p.14-15
+kpi	8	target.target	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定こども園、子育て支援施設等利用率）	85	%	honpen p.14-15
 kpi	8	target.base	子育てにやさしい風土づくり	保育所等待機児童数	1	件	honpen p.14-15
 kpi	8	target.target	子育てにやさしい風土づくり	保育所等待機児童数	0	件	honpen p.14-15
 kpi	8	target.base	子育てにやさしい風土づくり	地域学校協働活動ボランティア登録数	271	人	honpen p.14-15

@@ -1,25 +1,25 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-9812e4c71615c83f	summary	2	kpi		日野町の人口	20975	人	honpen p.7-8	✓	auto:ai	2026-10-10	
-d0cd45962aa01420	summary	2	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8	✓	auto:ai	2026-10-10	
-6e45eb242310cbb1	summary	2	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8				要人確認:H2 値が文字データにない
-26674d4dc6482962	summary	2	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8	✓	auto:ai	2026-10-10	
-79acc5e3f0e38541	summary	2	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8	✓	auto:ai	2026-10-10	
-c7da366047ac01e1	summary	2	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-6ad70fe294390496	summary	4	target.base		出生数（住民基本台帳）過去3年平均	149	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-f22ae40ab345b21b	summary	4	target.target		出生数（住民基本台帳）過去3年平均	170	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-3b45bde1484dbc03	summary	4	target.base		創業件数（累計）	12	件	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-fa9b929ac26798b1	summary	4	target.target		創業件数（累計）	25	件	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-107681b49e692bf8	summary	4	target.base		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-1d949aad5e7047d3	summary	4	target.target		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-3eb2e50c5b6146a0	summary	4	target.base		観光入込客数（年間）過去3年平均	623900	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-40fa7e32916d8194	summary	4	target.target		観光入込客数（年間）過去3年平均	650000	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-6afa4cbfc78e10f8	summary	4	target.base		転入者数（住民基本台帳）過去3年平均	777	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-f69a8309f881e5b2	summary	4	target.target		転入者数（住民基本台帳）過去3年平均	780	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-90b59872f663ab07	summary	4	target.base		転出者数（住民基本台帳）過去3年平均	760	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-497fdc8f682e0d90	summary	4	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-313e187efdf9ed29	summary	4	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
-36ecedf6f7ee872f	summary	4	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+9812e4c71615c83f	summary	3	kpi		日野町の人口	20975	人	honpen p.7-8	✓	auto:ai	2026-10-10	
+d0cd45962aa01420	summary	3	kpi		年少人口（0〜14歳）の割合	12.5	%	honpen p.7-8	✓	auto:ai	2026-10-10	
+6e45eb242310cbb1	summary	3	kpi		老年人口（65歳以上）の割合	30.4	%	honpen p.7-8				要人確認:H2 値が文字データにない
+26674d4dc6482962	summary	3	kpi		将来展望人口（めざす人口）	19500	人	honpen p.7-8	✓	auto:ai	2026-10-10	
+79acc5e3f0e38541	summary	3	kpi		将来展望人口（めざす人口）	16000	人	honpen p.7-8	✓	auto:ai	2026-10-10	
+c7da366047ac01e1	summary	3	kpi		社人研の推計に準拠した長期人口推計	12459	人	honpen p.7-8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+6ad70fe294390496	summary	5	target.base		出生数（住民基本台帳）過去3年平均	149	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+f22ae40ab345b21b	summary	5	target.target		出生数（住民基本台帳）過去3年平均	170	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+3b45bde1484dbc03	summary	5	target.base		創業件数（累計）	12	件	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+fa9b929ac26798b1	summary	5	target.target		創業件数（累計）	25	件	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+107681b49e692bf8	summary	5	target.base		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	19.9	%	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+1d949aad5e7047d3	summary	5	target.target		町内企業への新規学卒就職者の町内在住者比率（過去3年平均）	22	%	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+3eb2e50c5b6146a0	summary	5	target.base		観光入込客数（年間）過去3年平均	623900	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+40fa7e32916d8194	summary	5	target.target		観光入込客数（年間）過去3年平均	650000	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+6afa4cbfc78e10f8	summary	5	target.base		転入者数（住民基本台帳）過去3年平均	777	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+f69a8309f881e5b2	summary	5	target.target		転入者数（住民基本台帳）過去3年平均	780	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+90b59872f663ab07	summary	5	target.base		転出者数（住民基本台帳）過去3年平均	760	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+497fdc8f682e0d90	summary	5	target.target		転出者数（住民基本台帳）過去3年平均	710	人	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+313e187efdf9ed29	summary	5	target.base		人と人（複数のコミュニティ）をつなぐ場の創出	20	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
+36ecedf6f7ee872f	summary	5	target.target		人と人（複数のコミュニティ）をつなぐ場の創出	30	か所	honpen p.14-23				要人確認:H2 出典が4ページ以上(集計した値)
 1ba99d7485345a63	jinko	4	chart.line	日野町の人口推移	総人口/大正4	22355	人	honpen p.7				要人確認:H2 値が文字データにない
 66c2bd2c0fda9f09	jinko	4	chart.line	日野町の人口推移	総人口/大正9	21601	人	honpen p.7				要人確認:H2 値が文字データにない
 cf5ced2ea2572222	jinko	4	chart.line	日野町の人口推移	総人口/大正14	21473	人	honpen p.7				要人確認:H2 値が文字データにない
@@ -104,8 +104,8 @@ ad2f116b0b85d9c3	torikumi	18	programs	基本目標4 くらしやすい地域を�
 193087e1ee6c6272	kpi	5	target.target	基本目標1 結婚・出産・子育ての希望をみんなで支えてかなえる	出生数（住民基本台帳）過去3年平均	170	人	honpen p.14	✓	auto:ai	2026-10-10	
 f5c489328bb97de4	kpi	8	target.base	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15	✓	auto:ai	2026-10-10	
 f89e8069aeaac3ad	kpi	8	target.target	子育てにやさしい風土づくり	母子手帳交付時の面談実施率	100	%	honpen p.14-15	✓	auto:ai	2026-10-10	
-fe877c0ae76880a8	kpi	8	target.base	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定子ども園、子育て支援施設等利用率）	82	%	honpen p.14-15	✓	auto:ai	2026-10-10	
-fd72a289521f64b9	kpi	8	target.target	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定子ども園、子育て支援施設等利用率）	85	%	honpen p.14-15	✓	auto:ai	2026-10-10	
+2259861501a60ad6	kpi	8	target.base	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定こども園、子育て支援施設等利用率）	82	%	honpen p.14-15	✓	auto:ai	2026-10-10	
+b0d80b68a68dbb43	kpi	8	target.target	子育てにやさしい風土づくり	孤立しない子育てサポートの充実（保育園、幼稚園、認定こども園、子育て支援施設等利用率）	85	%	honpen p.14-15				要人確認:H1 A=一致/中 B=一致/高
 93ee709542ada5ad	kpi	8	target.base	子育てにやさしい風土づくり	保育所等待機児童数	1	件	honpen p.14-15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
 aca8567363c4f023	kpi	8	target.target	子育てにやさしい風土づくり	保育所等待機児童数	0	件	honpen p.14-15	✓	auto:ai	2026-10-10	
 e339e28b52127539	kpi	8	target.base	子育てにやさしい風土づくり	地域学校協働活動ボランティア登録数	271	人	honpen p.14-15	✓	auto:ai	2026-10-10	

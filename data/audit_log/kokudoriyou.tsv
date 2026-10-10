@@ -87,7 +87,8 @@ b7c0c93b9e5a77a5	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年�
 9ef7a6700c33b19e	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	宅地/R13（2031年）の目標	835	ha	honpen p.20	✓	auto:ai	2026-10-10	
 22b707bae13387a0	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R3（2021年）	2000	ha	honpen p.20	✓	auto:ai	2026-10-10	
 daab567effcacb87	mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R13（2031年）の目標	2061	ha	honpen p.20	✓	auto:ai	2026-10-10	
-bb24844e61bad951	mokuhyo	6	figure	土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29				要人確認:H2 数値でない
+4da2acb2c8be6598	mokuhyo	6	figure	土地利用現況図と土地利用構想図	土地利用現況図	kokudoriyou_genkyo.jpg		shiryo p.28				要人確認:H2 数値でない
+a77126044ef5794f	mokuhyo	7	figure	土地利用現況図と土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29				要人確認:H2 数値でない
 bc652bd6a9d7f2f8	chiiki	2	figure	地域別の町土利用の基本方向	地域区分図	kokudoriyou_chiiki.jpg		honpen p.16				要人確認:H2 数値でない
 8233bd0e799269f8	genjo	2	kpi	日野町の土地のすがた	町土面積	117.6	㎢	shiryo p.2				要人確認:H2 値が文字データにない
 44dd2c998d057180	genjo	2	kpi	日野町の土地のすがた	可住地面積	56.36	㎢	shiryo p.2	✓	auto:ai	2026-10-10	
@@ -374,11 +375,11 @@ fbe43b33d8c1a1cc	genjo	28	table	地価の推移	日野（県）-1/R3	18400		shir
 6114cea67e3b624c	genjo	28	table	地価の推移	日野（県）-2/R元	36200		shiryo p.12	✓	auto:ai	2026-10-10	
 c8b4fd3f4e84ef1b	genjo	28	table	地価の推移	日野（県）-2/R2	36100		shiryo p.12	✓	auto:ai	2026-10-10	
 8327d070c3f2904a	genjo	28	table	地価の推移	日野（県）-2/R3	36100		shiryo p.12	✓	auto:ai	2026-10-10	
-8dc43004a5504375	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	357		shiryo p.12				要人確認:H1 A=一致/中 B=一致/中
+8dc43004a5504375	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	357		shiryo p.12	✓	auto:ai	2026-10-10	要人確認:H1 A=一致/中 B=一致/中
 13f7e866ca6e3b26	genjo	28	table	地価の推移	日野（県）-3/H29	16700		shiryo p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 7c1cd677a5d7d778	genjo	28	table	地価の推移	日野（県）-3/H30	16200		shiryo p.12	✓	auto:ai	2026-10-10	
 1dfd866cc6beea6e	genjo	28	table	地価の推移	日野（県）-3/R元	16000		shiryo p.12	✓	auto:ai	2026-10-10	
-56172b232cce9a61	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	565		shiryo p.12				要人確認:H1 A=一致/中 B=一致/中
+56172b232cce9a61	genjo	28	table	地価の推移	日野（県）-3/地積（㎡）	565		shiryo p.12	✓	auto:ai	2026-10-10	要人確認:H1 A=一致/中 B=一致/中
 71f1bb51d24cacd1	genjo	28	table	地価の推移	日野（県）-3/R2	15700		shiryo p.12	✓	auto:ai	2026-10-10	
 5852eeb6559575fb	genjo	28	table	地価の推移	日野（県）-3/R3	15300		shiryo p.12	✓	auto:ai	2026-10-10	
 c663ad35e2903a2e	genjo	28	table	地価の推移	日野（県）-4/地積（㎡）	452		shiryo p.12	✓	auto:ai	2026-10-10	
@@ -661,14 +662,14 @@ f34eeb85c5e98a00	kurashi	30	table	道路	日野松尾線/概成済（m）	0		shi
 a448b506394ff5d2	kurashi	30	table	道路	日野松尾線/整備率 改良済（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
 3d543419b94fa952	kurashi	30	table	道路	日野松尾線/整備率 概成済（%）	0		shiryo p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 7b33de5f5ccbff49	kurashi	30	table	道路	日野松尾線/整備率 合計（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
-11845eb3340a33af	kurashi	30	table	道路	北脇奧之池線/延長（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
-84e6b5395e44fafd	kurashi	30	table	道路	北脇奧之池線/幅員（m）	12		shiryo p.21	✓	auto:ai	2026-10-10	
-d6d75ac09579efd6	kurashi	30	table	道路	北脇奧之池線/改良済（m）	0		shiryo p.21	✓	auto:ai	2026-10-10	
-1e593eab37227dea	kurashi	30	table	道路	北脇奧之池線/概成済（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
-ce58df171d4ac3ee	kurashi	30	table	道路	北脇奧之池線/整備延長 合計（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
-c20e43f838194bd4	kurashi	30	table	道路	北脇奧之池線/整備率 改良済（%）	0		shiryo p.21	✓	auto:ai	2026-10-10	
-582a33f538a08100	kurashi	30	table	道路	北脇奧之池線/整備率 概成済（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
-bc6e0f80d93c0b37	kurashi	30	table	道路	北脇奧之池線/整備率 合計（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+d27a8e1a2757859f	kurashi	30	table	道路	北脇奥之池線/延長（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
+93b4f8bcde94b02c	kurashi	30	table	道路	北脇奥之池線/幅員（m）	12		shiryo p.21	✓	auto:ai	2026-10-10	
+f710b750192e7ab0	kurashi	30	table	道路	北脇奥之池線/改良済（m）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+aeb8441286fe3f1b	kurashi	30	table	道路	北脇奥之池線/概成済（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
+1a867a5b73070516	kurashi	30	table	道路	北脇奥之池線/整備延長 合計（m）	1140		shiryo p.21	✓	auto:ai	2026-10-10	
+323c935349aa3d62	kurashi	30	table	道路	北脇奥之池線/整備率 改良済（%）	0		shiryo p.21	✓	auto:ai	2026-10-10	
+b44bcd7aca45c7b0	kurashi	30	table	道路	北脇奥之池線/整備率 概成済（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
+982be5bed71060ea	kurashi	30	table	道路	北脇奥之池線/整備率 合計（%）	100		shiryo p.21	✓	auto:ai	2026-10-10	
 e564dfc4cf0a08e3	kurashi	37	table	公園・緑地	内池公園/面積（ha）	1.7		shiryo p.24	✓	auto:ai	2026-10-10	
 40d88fc441253f17	kurashi	37	table	公園・緑地	内池公園/整備率（%）	94.1		shiryo p.24	✓	auto:ai	2026-10-10	
 584e5c7d9b45a3b8	kurashi	37	table	公園・緑地	松尾公園/面積（ha）	1.7		shiryo p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点

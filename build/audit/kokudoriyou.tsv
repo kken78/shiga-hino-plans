@@ -86,7 +86,8 @@ mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の�
 mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	宅地/R13（2031年）の目標	835	ha	honpen p.20
 mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R3（2021年）	2000	ha	honpen p.20
 mokuhyo	3	chart.pair	利用区分ごとの面積（令和3年と令和13年の目標）	その他/R13（2031年）の目標	2061	ha	honpen p.20
-mokuhyo	6	figure	土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29
+mokuhyo	6	figure	土地利用現況図と土地利用構想図	土地利用現況図	kokudoriyou_genkyo.jpg		shiryo p.28
+mokuhyo	7	figure	土地利用現況図と土地利用構想図	土地利用構想図	kokudoriyou_koso.jpg		shiryo p.29
 chiiki	2	figure	地域別の町土利用の基本方向	地域区分図	kokudoriyou_chiiki.jpg		honpen p.16
 genjo	2	kpi	日野町の土地のすがた	町土面積	117.6	㎢	shiryo p.2
 genjo	2	kpi	日野町の土地のすがた	可住地面積	56.36	㎢	shiryo p.2
@@ -660,14 +661,14 @@ kurashi	30	table	道路	日野松尾線/整備延長 合計（m）	590		shiryo p
 kurashi	30	table	道路	日野松尾線/整備率 改良済（%）	100		shiryo p.21
 kurashi	30	table	道路	日野松尾線/整備率 概成済（%）	0		shiryo p.21
 kurashi	30	table	道路	日野松尾線/整備率 合計（%）	100		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/延長（m）	1140		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/幅員（m）	12		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/改良済（m）	0		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/概成済（m）	1140		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/整備延長 合計（m）	1140		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/整備率 改良済（%）	0		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/整備率 概成済（%）	100		shiryo p.21
-kurashi	30	table	道路	北脇奧之池線/整備率 合計（%）	100		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/延長（m）	1140		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/幅員（m）	12		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/改良済（m）	0		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/概成済（m）	1140		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/整備延長 合計（m）	1140		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/整備率 改良済（%）	0		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/整備率 概成済（%）	100		shiryo p.21
+kurashi	30	table	道路	北脇奥之池線/整備率 合計（%）	100		shiryo p.21
 kurashi	37	table	公園・緑地	内池公園/面積（ha）	1.7		shiryo p.24
 kurashi	37	table	公園・緑地	内池公園/整備率（%）	94.1		shiryo p.24
 kurashi	37	table	公園・緑地	松尾公園/面積（ha）	1.7		shiryo p.24

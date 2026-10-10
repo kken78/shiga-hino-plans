@@ -853,7 +853,14 @@ class Renderer:
                                f'data-panel="{esc(tab["id"])}">{blocks}</section>')
 
         period = m["period"]
-        metarow = (f'<span>計画期間 <b class="num">{esc(period["start"])}〜{esc(period["end"])}年度</b>'
+        ps, pe = str(period["start"]), str(period["end"])
+        if ps == pe == "記載なし":
+            ptxt = "原典に記載なし"
+        elif pe == "定めなし":
+            ptxt = f"{ps}年度〜(終わりの定めなし)"
+        else:
+            ptxt = f"{ps}〜{pe}年度"
+        metarow = (f'<span>計画期間 <b class="num">{esc(ptxt)}</b>'
                    + (f'（{esc(m["period_note"])}）' if m.get("period_note") else "") + "</span>"
                    f'<span>所管 <b>{esc(m["dept"])}</b></span>')
         if m.get("parent_plan"):

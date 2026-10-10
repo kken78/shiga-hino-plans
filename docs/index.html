@@ -592,8 +592,7 @@ const PLANS = [
     "summary": "総合計画の基本計画で定めた施策を「どの事業で実現するか」に具体化する計画。3年間を計画期間とし、社会経済情勢や財政状況の変化を踏まえて毎年度ローリング（見直し）します。",
     "points": [
       "3年間・毎年度ローリング改定（直近は令和8〜10年度）",
-      "分野ごとに主要事業・事業の概要・概算事業費を明示",
-      "財政計画と連動し、実現可能性を担保"
+      "分野ごとに主要事業・事業の概要・概算事業費を明示"
     ],
     "verified": true,
     "start": 8,
@@ -991,7 +990,9 @@ const PLANS = [
       "分野を横断して各福祉計画と整合",
       "社協の地域福祉活動計画と連携"
     ],
-    "verified": false,
+    "verified": true,
+    "start": 3,
+    "end": 8,
     "dept": "福祉保健課 地域共生推進担当",
     "url": "https://www.town.shiga-hino.lg.jp/0000005894.html",
     "posted": "2021年3月"
@@ -1084,7 +1085,7 @@ const PLANS = [
     "end": 11,
     "dept": "学校教育課",
     "url": "https://www.town.shiga-hino.lg.jp/0000008163.html",
-    "posted": "2025年"
+    "posted": "2025年4月"
   },
   {
     "id": "kyoiku3",
@@ -1291,7 +1292,9 @@ const PLANS = [
       "水源かん養・災害防止など公益的機能の維持",
       "森林経営管理制度と連動"
     ],
-    "verified": false,
+    "verified": true,
+    "start": 5,
+    "end": 14,
     "dept": "農林課",
     "url": "https://www.town.shiga-hino.lg.jp/0000008410.html",
     "posted": "2023年4月"
@@ -1448,7 +1451,9 @@ function renderHero(){
 }
 
 /* 2) 町の計画年表 */
-const TL_FROM = 3, TL_TO = 13;
+/* 年表の範囲は R3〜R13 を基本とし、計画期間がその外にある計画があれば広げる(座標はデータから計算する) */
+const TL_VER = PLANS.filter(p => p.verified);
+const TL_FROM = Math.min(3, ...TL_VER.map(p => p.start)), TL_TO = Math.max(13, ...TL_VER.map(p => p.end));
 function renderTimeline(){
   const domainS = fyStart(TL_FROM), domainE = fyEndEx(TL_TO), span = domainE - domainS;
   const axis = $('#tlAxis');

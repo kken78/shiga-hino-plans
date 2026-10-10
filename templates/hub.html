@@ -665,7 +665,9 @@ function renderHero(){
 }
 
 /* 2) 町の計画年表 */
-const TL_FROM = 3, TL_TO = 13;
+/* 年表の範囲は R3〜R13 を基本とし、計画期間がその外にある計画があれば広げる(座標はデータから計算する) */
+const TL_VER = PLANS.filter(p => p.verified);
+const TL_FROM = Math.min(3, ...TL_VER.map(p => p.start)), TL_TO = Math.max(13, ...TL_VER.map(p => p.end));
 function renderTimeline(){
   const domainS = fyStart(TL_FROM), domainE = fyEndEx(TL_TO), span = domainE - domainS;
   const axis = $('#tlAxis');

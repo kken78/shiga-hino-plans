@@ -1,110 +1,110 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-5a3ca94ad0dcf024	summary	1	kpi		全体事業費(合計)	4752	百万円	honpen p.1				
-91c589b2b0ade5df	summary	1	kpi		基幹事業(A)の事業費	3987	百万円	honpen p.1				
-ef48068d71afcd87	summary	1	kpi		効果促進事業(C)の事業費	765	百万円	honpen p.1				
-b4018486022e1a27	summary	1	kpi		効果促進事業費の割合	16.09	%	honpen p.1				
-2dfccd6f60acda63	summary	2	target.base		近江鉄道線の年間利用者数	437	万人/年	honpen p.1				
-bdcd2da7178f4488	summary	2	target.target		近江鉄道線の年間利用者数	456	万人/年	honpen p.1				
-da0c79af7bba8adc	hino	2	table	基幹事業のうち日野町の分	A17-006/全体事業費(百万円)	121		honpen p.3				
-e903538a8473079e	hino	2	table	基幹事業のうち日野町の分	A17-006/費用便益比	2.37		honpen p.3				
-77d1ae438df4aadc	hino	4	table	効果促進事業のうち日野町の分	C17-006/全体事業費(百万円)	23		honpen p.6-7				
-936cfce35d6fc039	hino	4	table	効果促進事業のうち日野町の分	C17-006/費用便益比	2.37		honpen p.6-7				
-dc187c6d4d5acb94	hino	4	table	効果促進事業のうち日野町の分	C17-013/全体事業費(百万円)	15		honpen p.6-7				
-b536762711042b28	hino	4	table	効果促進事業のうち日野町の分	C17-013/費用便益比	2.37		honpen p.6-7				
-80865f01f902c893	hino	5	figure	効果促進事業のうち日野町の分	参考図面(事業の位置)	shasi-koutsu_map.jpg		honpen p.8				
-8bf363c505521b58	jigyo	3	table	全体事業費の内訳	A(基幹事業)/全体事業費(百万円)	3987		honpen p.1				
-14371752ad3ec075	jigyo	3	table	全体事業費の内訳	B/全体事業費(百万円)	0		honpen p.1				
-47aacbb625f5a68a	jigyo	3	table	全体事業費の内訳	C(効果促進事業)/全体事業費(百万円)	765		honpen p.1				
-b57d2f78f57b0116	jigyo	3	table	全体事業費の内訳	D/全体事業費(百万円)	0		honpen p.1				
-3c3a92e5c46c746b	jigyo	3	table	全体事業費の内訳	合計(A+B+C+D)/全体事業費(百万円)	4752		honpen p.1				
-2272d44e065b2357	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	滋賀県	1991	百万円	honpen p.2-4				
-99060394b4c51ab9	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	東近江市	823	百万円	honpen p.2-4				
-f09374d7bc292195	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	彦根市	355	百万円	honpen p.2-4				
-dbe37bfede6e7d16	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	甲賀市	234	百万円	honpen p.2-4				
-c797a68155573375	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	近江八幡市	152	百万円	honpen p.2-4				
-2a264ae15e50d1dd	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	日野町	121	百万円	honpen p.2-4				
-edd7d110661ce70e	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	愛荘町	86	百万円	honpen p.2-4				
-670ff2b3d21f5d1c	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	豊郷町	63	百万円	honpen p.2-4				
-67a4df0f5f5a4a94	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	甲良町	59	百万円	honpen p.2-4				
-52d2414ab8d771f7	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	多賀町	53	百万円	honpen p.2-4				
-21d120faf463c624	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	米原市	50	百万円	honpen p.2-4				
-0f7e9dd61d1876af	jigyo	6	table	基幹事業の一覧	A17-001/全体事業費(百万円)	1991		honpen p.2-4				
-f6d0677c7b94ae7c	jigyo	6	table	基幹事業の一覧	A17-001/費用便益比	2.37		honpen p.2-4				
-1ee7b43d265b65c1	jigyo	6	table	基幹事業の一覧	A17-002/全体事業費(百万円)	823		honpen p.2-4				
-e6bd88149dda8bb8	jigyo	6	table	基幹事業の一覧	A17-002/費用便益比	2.37		honpen p.2-4				
-2cc6738ebfb5806d	jigyo	6	table	基幹事業の一覧	A17-003/全体事業費(百万円)	355		honpen p.2-4				
-9d2c90ac77780702	jigyo	6	table	基幹事業の一覧	A17-003/費用便益比	2.37		honpen p.2-4				
-b6a50bf7a4a67157	jigyo	6	table	基幹事業の一覧	A17-004/全体事業費(百万円)	234		honpen p.2-4				
-311110800c052ca6	jigyo	6	table	基幹事業の一覧	A17-004/費用便益比	2.37		honpen p.2-4				
-34dc12594f78d95a	jigyo	6	table	基幹事業の一覧	A17-005/全体事業費(百万円)	152		honpen p.2-4				
-66887b8a2944337c	jigyo	6	table	基幹事業の一覧	A17-005/費用便益比	2.37		honpen p.2-4				
-308427d623a136d5	jigyo	6	table	基幹事業の一覧	A17-006/全体事業費(百万円)	121		honpen p.2-4				
-0b83011f9d797687	jigyo	6	table	基幹事業の一覧	A17-006/費用便益比	2.37		honpen p.2-4				
-85c5a9d7e1b17fcf	jigyo	6	table	基幹事業の一覧	A17-007/全体事業費(百万円)	86		honpen p.2-4				
-15fb54ff94da89ea	jigyo	6	table	基幹事業の一覧	A17-007/費用便益比	2.37		honpen p.2-4				
-ebcae231ce0934f6	jigyo	6	table	基幹事業の一覧	A17-008/全体事業費(百万円)	63		honpen p.2-4				
-2318a0f43c2a3bf4	jigyo	6	table	基幹事業の一覧	A17-008/費用便益比	2.37		honpen p.2-4				
-67257f3b180941c1	jigyo	6	table	基幹事業の一覧	A17-009/全体事業費(百万円)	59		honpen p.2-4				
-7acd854843368434	jigyo	6	table	基幹事業の一覧	A17-009/費用便益比	2.37		honpen p.2-4				
-ac16e76e3f1ccd54	jigyo	6	table	基幹事業の一覧	A17-010/全体事業費(百万円)	53		honpen p.2-4				
-f565ab515cde5324	jigyo	6	table	基幹事業の一覧	A17-010/費用便益比	2.37		honpen p.2-4				
-b4be06e6caaed456	jigyo	6	table	基幹事業の一覧	A17-011/全体事業費(百万円)	50		honpen p.2-4				
-c8b81649b0d19b80	jigyo	6	table	基幹事業の一覧	A17-011/費用便益比	2.37		honpen p.2-4				
-948da227e4823a68	jigyo	6	table	基幹事業の一覧	合計/全体事業費(百万円)	3987		honpen p.2-4				
-724e66aa59aa5599	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-001/全体事業費(百万円)	365		honpen p.5-7				
-b41d218209e58a89	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-001/費用便益比	2.37		honpen p.5-7				
-907e8976e43ed622	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-002/全体事業費(百万円)	151		honpen p.5-7				
-ccba6a66ff221461	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-002/費用便益比	2.37		honpen p.5-7				
-78dbe49eddd62e4f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-003/全体事業費(百万円)	65		honpen p.5-7				
-3b6cee95abce2ef9	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-003/費用便益比	2.37		honpen p.5-7				
-a40bf63647d75c1f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-004/全体事業費(百万円)	43		honpen p.5-7				
-dfe8305011ca39dc	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-004/費用便益比	2.37		honpen p.5-7				
-f8bfc361b8a876aa	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-005/全体事業費(百万円)	28		honpen p.5-7				
-850c2c28f35ddef9	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-005/費用便益比	2.37		honpen p.5-7				
-f8de75457b568a1e	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-006/全体事業費(百万円)	23		honpen p.5-7				
-ae0f4e5257a50d0c	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-006/費用便益比	2.37		honpen p.5-7				
-6d5290a57ff8e829	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-007/全体事業費(百万円)	16		honpen p.5-7				
-8046ef3818bc013f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-007/費用便益比	2.37		honpen p.5-7				
-e2d93d346539d30d	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-008/全体事業費(百万円)	11		honpen p.5-7				
-8c625a2f150ff439	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-008/費用便益比	2.37		honpen p.5-7				
-3b0416584b78ed24	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-009/全体事業費(百万円)	12		honpen p.5-7				
-056981f2839fbf50	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-009/費用便益比	2.37		honpen p.5-7				
-276bfdd43c84265f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-010/全体事業費(百万円)	10		honpen p.5-7				
-0bceafa42d53c5b9	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-010/費用便益比	2.37		honpen p.5-7				
-ba1a2a0e489a8405	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-011/全体事業費(百万円)	10		honpen p.5-7				
-47c544a90198d209	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-011/費用便益比	2.37		honpen p.5-7				
-d00767c66a8078c6	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-012/全体事業費(百万円)	5		honpen p.5-7				
-0d9d7aeebbb86ce4	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-012/費用便益比	2.37		honpen p.5-7				
-02350b805c1d04bc	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-013/全体事業費(百万円)	15		honpen p.5-7				
-f30a1cc5330fd248	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-013/費用便益比	2.37		honpen p.5-7				
-e096f17c76fc7496	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-014/全体事業費(百万円)	11		honpen p.5-7				
-9dbc9d75c445fa5c	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-014/費用便益比	2.37		honpen p.5-7				
-fdf76791687d334d	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	合計/全体事業費(百万円)	765		honpen p.5-7				
+5a3ca94ad0dcf024	summary	1	kpi		全体事業費(合計)	4752	百万円	honpen p.1	✓	auto:ai	2026-10-10	
+91c589b2b0ade5df	summary	1	kpi		基幹事業(A)の事業費	3987	百万円	honpen p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+ef48068d71afcd87	summary	1	kpi		効果促進事業(C)の事業費	765	百万円	honpen p.1	✓	auto:ai	2026-10-10	
+b4018486022e1a27	summary	1	kpi		効果促進事業費の割合	16.09	%	honpen p.1	✓	auto:ai	2026-10-10	
+2dfccd6f60acda63	summary	2	target.base		近江鉄道線の年間利用者数	437	万人/年	honpen p.1				要人確認:H1 A=一致/中 B=一致/中
+bdcd2da7178f4488	summary	2	target.target		近江鉄道線の年間利用者数	456	万人/年	honpen p.1				要人確認:H1 A=一致/中 B=一致/中
+da0c79af7bba8adc	hino	2	table	基幹事業のうち日野町の分	A17-006/全体事業費(百万円)	121		honpen p.3	✓	auto:ai	2026-10-10	
+e903538a8473079e	hino	2	table	基幹事業のうち日野町の分	A17-006/費用便益比	2.37		honpen p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+77d1ae438df4aadc	hino	4	table	効果促進事業のうち日野町の分	C17-006/全体事業費(百万円)	23		honpen p.6-7	✓	auto:ai	2026-10-10	
+936cfce35d6fc039	hino	4	table	効果促進事業のうち日野町の分	C17-006/費用便益比	2.37		honpen p.6-7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+dc187c6d4d5acb94	hino	4	table	効果促進事業のうち日野町の分	C17-013/全体事業費(百万円)	15		honpen p.6-7	✓	auto:ai	2026-10-10	
+b536762711042b28	hino	4	table	効果促進事業のうち日野町の分	C17-013/費用便益比	2.37		honpen p.6-7	✓	auto:ai	2026-10-10	
+80865f01f902c893	hino	5	figure	効果促進事業のうち日野町の分	参考図面(事業の位置)	shasi-koutsu_map.jpg		honpen p.8				要人確認:H2 数値でない
+8bf363c505521b58	jigyo	3	table	全体事業費の内訳	A(基幹事業)/全体事業費(百万円)	3987		honpen p.1	✓	auto:ai	2026-10-10	
+14371752ad3ec075	jigyo	3	table	全体事業費の内訳	B/全体事業費(百万円)	0		honpen p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+47aacbb625f5a68a	jigyo	3	table	全体事業費の内訳	C(効果促進事業)/全体事業費(百万円)	765		honpen p.1	✓	auto:ai	2026-10-10	
+b57d2f78f57b0116	jigyo	3	table	全体事業費の内訳	D/全体事業費(百万円)	0		honpen p.1	✓	auto:ai	2026-10-10	
+3c3a92e5c46c746b	jigyo	3	table	全体事業費の内訳	合計(A+B+C+D)/全体事業費(百万円)	4752		honpen p.1	✓	auto:ai	2026-10-10	
+2272d44e065b2357	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	滋賀県	1991	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+99060394b4c51ab9	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	東近江市	823	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+f09374d7bc292195	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	彦根市	355	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+dbe37bfede6e7d16	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	甲賀市	234	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+c797a68155573375	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	近江八幡市	152	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+2a264ae15e50d1dd	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	日野町	121	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+edd7d110661ce70e	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	愛荘町	86	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+670ff2b3d21f5d1c	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	豊郷町	63	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+67a4df0f5f5a4a94	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	甲良町	59	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+52d2414ab8d771f7	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	多賀町	53	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	
+21d120faf463c624	jigyo	5	chart.rank	交付対象ごとの全体事業費(基幹事業)	米原市	50	百万円	honpen p.2-4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+0f7e9dd61d1876af	jigyo	6	table	基幹事業の一覧	A17-001/全体事業費(百万円)	1991		honpen p.2-4	✓	auto:ai	2026-10-10	
+f6d0677c7b94ae7c	jigyo	6	table	基幹事業の一覧	A17-001/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+1ee7b43d265b65c1	jigyo	6	table	基幹事業の一覧	A17-002/全体事業費(百万円)	823		honpen p.2-4	✓	auto:ai	2026-10-10	
+e6bd88149dda8bb8	jigyo	6	table	基幹事業の一覧	A17-002/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+2cc6738ebfb5806d	jigyo	6	table	基幹事業の一覧	A17-003/全体事業費(百万円)	355		honpen p.2-4	✓	auto:ai	2026-10-10	
+9d2c90ac77780702	jigyo	6	table	基幹事業の一覧	A17-003/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+b6a50bf7a4a67157	jigyo	6	table	基幹事業の一覧	A17-004/全体事業費(百万円)	234		honpen p.2-4	✓	auto:ai	2026-10-10	
+311110800c052ca6	jigyo	6	table	基幹事業の一覧	A17-004/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+34dc12594f78d95a	jigyo	6	table	基幹事業の一覧	A17-005/全体事業費(百万円)	152		honpen p.2-4	✓	auto:ai	2026-10-10	
+66887b8a2944337c	jigyo	6	table	基幹事業の一覧	A17-005/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+308427d623a136d5	jigyo	6	table	基幹事業の一覧	A17-006/全体事業費(百万円)	121		honpen p.2-4	✓	auto:ai	2026-10-10	
+0b83011f9d797687	jigyo	6	table	基幹事業の一覧	A17-006/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+85c5a9d7e1b17fcf	jigyo	6	table	基幹事業の一覧	A17-007/全体事業費(百万円)	86		honpen p.2-4	✓	auto:ai	2026-10-10	
+15fb54ff94da89ea	jigyo	6	table	基幹事業の一覧	A17-007/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+ebcae231ce0934f6	jigyo	6	table	基幹事業の一覧	A17-008/全体事業費(百万円)	63		honpen p.2-4	✓	auto:ai	2026-10-10	
+2318a0f43c2a3bf4	jigyo	6	table	基幹事業の一覧	A17-008/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+67257f3b180941c1	jigyo	6	table	基幹事業の一覧	A17-009/全体事業費(百万円)	59		honpen p.2-4	✓	auto:ai	2026-10-10	
+7acd854843368434	jigyo	6	table	基幹事業の一覧	A17-009/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+ac16e76e3f1ccd54	jigyo	6	table	基幹事業の一覧	A17-010/全体事業費(百万円)	53		honpen p.2-4	✓	auto:ai	2026-10-10	
+f565ab515cde5324	jigyo	6	table	基幹事業の一覧	A17-010/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+b4be06e6caaed456	jigyo	6	table	基幹事業の一覧	A17-011/全体事業費(百万円)	50		honpen p.2-4	✓	auto:ai	2026-10-10	
+c8b81649b0d19b80	jigyo	6	table	基幹事業の一覧	A17-011/費用便益比	2.37		honpen p.2-4	✓	auto:ai	2026-10-10	
+948da227e4823a68	jigyo	6	table	基幹事業の一覧	合計/全体事業費(百万円)	3987		honpen p.2-4	✓	auto:ai	2026-10-10	
+724e66aa59aa5599	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-001/全体事業費(百万円)	365		honpen p.5-7	✓	auto:ai	2026-10-10	
+b41d218209e58a89	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-001/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+907e8976e43ed622	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-002/全体事業費(百万円)	151		honpen p.5-7	✓	auto:ai	2026-10-10	
+ccba6a66ff221461	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-002/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+78dbe49eddd62e4f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-003/全体事業費(百万円)	65		honpen p.5-7	✓	auto:ai	2026-10-10	
+3b6cee95abce2ef9	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-003/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+a40bf63647d75c1f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-004/全体事業費(百万円)	43		honpen p.5-7	✓	auto:ai	2026-10-10	
+dfe8305011ca39dc	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-004/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+f8bfc361b8a876aa	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-005/全体事業費(百万円)	28		honpen p.5-7	✓	auto:ai	2026-10-10	
+850c2c28f35ddef9	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-005/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+f8de75457b568a1e	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-006/全体事業費(百万円)	23		honpen p.5-7	✓	auto:ai	2026-10-10	
+ae0f4e5257a50d0c	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-006/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+6d5290a57ff8e829	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-007/全体事業費(百万円)	16		honpen p.5-7	✓	auto:ai	2026-10-10	
+8046ef3818bc013f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-007/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+e2d93d346539d30d	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-008/全体事業費(百万円)	11		honpen p.5-7	✓	auto:ai	2026-10-10	
+8c625a2f150ff439	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-008/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+3b0416584b78ed24	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-009/全体事業費(百万円)	12		honpen p.5-7	✓	auto:ai	2026-10-10	
+056981f2839fbf50	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-009/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+276bfdd43c84265f	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-010/全体事業費(百万円)	10		honpen p.5-7	✓	auto:ai	2026-10-10	
+0bceafa42d53c5b9	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-010/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+ba1a2a0e489a8405	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-011/全体事業費(百万円)	10		honpen p.5-7	✓	auto:ai	2026-10-10	
+47c544a90198d209	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-011/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+d00767c66a8078c6	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-012/全体事業費(百万円)	5		honpen p.5-7	✓	auto:ai	2026-10-10	
+0d9d7aeebbb86ce4	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-012/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+02350b805c1d04bc	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-013/全体事業費(百万円)	15		honpen p.5-7	✓	auto:ai	2026-10-10	
+f30a1cc5330fd248	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-013/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+e096f17c76fc7496	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-014/全体事業費(百万円)	11		honpen p.5-7	✓	auto:ai	2026-10-10	
+9dbc9d75c445fa5c	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	C17-014/費用便益比	2.37		honpen p.5-7	✓	auto:ai	2026-10-10	
+fdf76791687d334d	jigyo	8	table	効果促進事業(地域公共交通再構築事業)	合計/全体事業費(百万円)	765		honpen p.5-7	✓	auto:ai	2026-10-10	
 3f36c76764a32247	mokuhyo	3	table	成果目標(定量的指標)	1 近江鉄道線の年間利用者数/当初現況値(R6年度当初)	437		honpen p.1	✓	auto:pdftext	2026-10-10	
 96fc717bfa98a16e	mokuhyo	3	table	成果目標(定量的指標)	1 近江鉄道線の年間利用者数/中間目標値(R8年度末)	447		honpen p.1	✓	auto:pdftext	2026-10-10	
-c3c3d54a30be70c3	mokuhyo	3	table	成果目標(定量的指標)	1 近江鉄道線の年間利用者数/最終目標値(R10年度末)	456		honpen p.1				
-4009fe5fabc401ee	mokuhyo	3	table	成果目標(定量的指標)	2 第二種鉄道事業者(近江鉄道(株))の営業収支(営業赤字)/当初現況値(R6年度当初)	0		honpen p.1				
-08289d959c4218f4	mokuhyo	3	table	成果目標(定量的指標)	2 第二種鉄道事業者(近江鉄道(株))の営業収支(営業赤字)/中間目標値(R8年度末)	0		honpen p.1				
-2dd3caffd8ce6b5c	mokuhyo	3	table	成果目標(定量的指標)	2 第二種鉄道事業者(近江鉄道(株))の営業収支(営業赤字)/最終目標値(R10年度末)	0		honpen p.1				
-62f6da8f1c4f8c35	mokuhyo	3	table	成果目標(定量的指標)	3 国および自治体の負担額/当初現況値(R6年度当初)	1812		honpen p.1				
-0a188c8185736907	mokuhyo	3	table	成果目標(定量的指標)	3 国および自治体の負担額/中間目標値(R8年度末)	1495		honpen p.1				
-c62b77e8b216bc1e	mokuhyo	3	table	成果目標(定量的指標)	3 国および自治体の負担額/最終目標値(R10年度末)	1730		honpen p.1				
-7ebe791b62acd5fe	shikkou	1	table		配分額(a)/R6年度	999		r07shikkou p.1				
+c3c3d54a30be70c3	mokuhyo	3	table	成果目標(定量的指標)	1 近江鉄道線の年間利用者数/最終目標値(R10年度末)	456		honpen p.1	✓	auto:ai	2026-10-10	
+4009fe5fabc401ee	mokuhyo	3	table	成果目標(定量的指標)	2 第二種鉄道事業者(近江鉄道(株))の営業収支(営業赤字)/当初現況値(R6年度当初)	0		honpen p.1	✓	auto:ai	2026-10-10	
+08289d959c4218f4	mokuhyo	3	table	成果目標(定量的指標)	2 第二種鉄道事業者(近江鉄道(株))の営業収支(営業赤字)/中間目標値(R8年度末)	0		honpen p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2dd3caffd8ce6b5c	mokuhyo	3	table	成果目標(定量的指標)	2 第二種鉄道事業者(近江鉄道(株))の営業収支(営業赤字)/最終目標値(R10年度末)	0		honpen p.1	✓	auto:ai	2026-10-10	
+62f6da8f1c4f8c35	mokuhyo	3	table	成果目標(定量的指標)	3 国および自治体の負担額/当初現況値(R6年度当初)	1812		honpen p.1	✓	auto:ai	2026-10-10	
+0a188c8185736907	mokuhyo	3	table	成果目標(定量的指標)	3 国および自治体の負担額/中間目標値(R8年度末)	1495		honpen p.1	✓	auto:ai	2026-10-10	
+c62b77e8b216bc1e	mokuhyo	3	table	成果目標(定量的指標)	3 国および自治体の負担額/最終目標値(R10年度末)	1730		honpen p.1	✓	auto:ai	2026-10-10	
+7ebe791b62acd5fe	shikkou	1	table		配分額(a)/R6年度	999		r07shikkou p.1	✓	auto:ai	2026-10-10	
 a922f1ba1442bd0e	shikkou	1	table		配分額(a)/R7年度	471		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-5b22eeb6afd3520b	shikkou	1	table		計画別流用増△減額(b)/R6年度	0		r07shikkou p.1				
+5b22eeb6afd3520b	shikkou	1	table		計画別流用増△減額(b)/R6年度	0		r07shikkou p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
 bd6ccf44441d5d4b	shikkou	1	table		計画別流用増△減額(b)/R7年度	0		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-86dcff6d58efc83f	shikkou	1	table		交付額(c=a+b)/R6年度	999		r07shikkou p.1				
+86dcff6d58efc83f	shikkou	1	table		交付額(c=a+b)/R6年度	999		r07shikkou p.1	✓	auto:ai	2026-10-10	
 568e6664f049737c	shikkou	1	table		交付額(c=a+b)/R7年度	471		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-8ee2b007501277d2	shikkou	1	table		前年度からの繰越額(d)/R6年度	0		r07shikkou p.1				
+8ee2b007501277d2	shikkou	1	table		前年度からの繰越額(d)/R6年度	0		r07shikkou p.1	✓	auto:ai	2026-10-10	
 b1112eafcb84c5f0	shikkou	1	table		前年度からの繰越額(d)/R7年度	542		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-42d7715cc3f338fe	shikkou	1	table		支払済額(e)/R6年度	457		r07shikkou p.1				
+42d7715cc3f338fe	shikkou	1	table		支払済額(e)/R6年度	457		r07shikkou p.1	✓	auto:ai	2026-10-10	
 98b27ce316cf0cbe	shikkou	1	table		支払済額(e)/R7年度	543		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-7dfcbe1dcedf8889	shikkou	1	table		翌年度繰越額(f)/R6年度	542		r07shikkou p.1				
-8bddf3730b7bfbe1	shikkou	1	table		翌年度繰越額(f)/R7年度	470		r07shikkou p.1				
-7b213bc6e49920c5	shikkou	1	table		うち未契約繰越額(g)/R6年度	0		r07shikkou p.1				
+7dfcbe1dcedf8889	shikkou	1	table		翌年度繰越額(f)/R6年度	542		r07shikkou p.1	✓	auto:ai	2026-10-10	
+8bddf3730b7bfbe1	shikkou	1	table		翌年度繰越額(f)/R7年度	470		r07shikkou p.1	✓	auto:ai	2026-10-10	
+7b213bc6e49920c5	shikkou	1	table		うち未契約繰越額(g)/R6年度	0		r07shikkou p.1	✓	auto:ai	2026-10-10	
 8379cbf7a096ee60	shikkou	1	table		うち未契約繰越額(g)/R7年度	0		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-6ea29795392a1317	shikkou	1	table		不用額(h=c+d-e-f)/R6年度	0		r07shikkou p.1				
+6ea29795392a1317	shikkou	1	table		不用額(h=c+d-e-f)/R6年度	0		r07shikkou p.1	✓	auto:ai	2026-10-10	
 046e337fe8f224f8	shikkou	1	table		不用額(h=c+d-e-f)/R7年度	0		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
 3b1026ced86a3340	shikkou	1	table		未契約繰越率+不用率(i=(g+h)/(c+d))(%)/R6年度	0		r07shikkou p.1	✓	auto:pdftext	2026-10-10	
-7c38c0b9070ee2cf	shikkou	1	table		未契約繰越率+不用率(i=(g+h)/(c+d))(%)/R7年度	0		r07shikkou p.1				
+7c38c0b9070ee2cf	shikkou	1	table		未契約繰越率+不用率(i=(g+h)/(c+d))(%)/R7年度	0		r07shikkou p.1	✓	auto:ai	2026-10-10	

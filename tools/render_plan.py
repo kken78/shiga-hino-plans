@@ -389,7 +389,7 @@ class Renderer:
                 if is_num:
                     # audit は生の数値(負値も -n のまま)を記録
                     self.audit(tab_id, block_no, "table",
-                               f"{row[0]}/{b['head'][ci]}", v, "", b.get("source"))
+                               f"{raw(row[0])}/{b['head'][ci]}", v, "", b.get("source"))
                     # 表示のみ和文会計表記に変換: 負値は「▲＋絶対値」+ 赤(neg)
                     if v < 0:
                         v = "▲" + fmt(num_abs(v))

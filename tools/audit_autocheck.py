@@ -141,6 +141,18 @@ class Source:
         self.dir = CACHE / pid / sid
         self.dir.mkdir(parents=True, exist_ok=True)
         self._info = {}
+        self.npages = None
+
+    def has_page(self, printed):
+        """印刷ページ printed が PDF の範囲にあるか(pdfinfo のページ数で判定)。"""
+        if self.npages is None:
+            try:
+                out = subprocess.run(["pdfinfo", str(self.pdf)], check=True, capture_output=True, text=True).stdout
+            except FileNotFoundError:
+                raise Stop("pdfinfo がありません。poppler-utils を入れてください(例: sudo apt install poppler-utils)")
+            m = re.search(r"^Pages:\s+(\d+)", out, re.M)
+            self.npages = int(m.group(1)) if m else 0
+        return 1 <= printed + self.offset <= self.npages
 
     def _text(self, pdfp, mode):
         f = self.dir / f"{mode}{pdfp:03d}.txt"
@@ -285,13 +297,15 @@ def stage1(rows, srcs, only=None):
         sid = (r["source"] or "").split(" ", 1)[0]
         pages = page_list(r["source"])
         src = srcs.get(sid)
-        infos = [i for i in (src.info(p) for p in pages) if i] if src else []
         if not is_num(r["value"]):
             res.update(why="数値でない", h2=True); out[id(r)] = res; continue
         if len(pages) > 3:
             res.update(why="出典が4ページ以上(集計した値)", h2=True); out[id(r)] = res; continue
         if src is None:
             res.update(why="出典の PDF がない", h2=True); out[id(r)] = res; continue
+        if not pages or not all(src.has_page(p) for p in pages):
+            res.update(why="出典ページがない、または PDF の範囲にない", h2=True); out[id(r)] = res; continue
+        infos = [i for i in (src.info(p) for p in pages) if i]
         if sum(len(i["compact"]) for i in infos) < IMAGE_PAGE_CHARS * max(1, len(pages)):
             # 原典が画像だけのページ(文字データがない・ほとんどない)。段1は効かないので段2(ページ画像)に回す
             res.update(why="原典が画像(文字データがない)"); out[id(r)] = res; continue

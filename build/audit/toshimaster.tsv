@@ -194,13 +194,13 @@ genjo	17	table	用途地域	工業地域/用途地域構成比(%)	6.9		honpen-05
 genjo	17	table	用途地域	工業専用地域/面積(ha)	338.9		honpen-05 p.8
 genjo	17	table	用途地域	工業専用地域/町全域構成比(%)	2.9		honpen-05 p.8
 genjo	17	table	用途地域	工業専用地域/用途地域構成比(%)	48.8		honpen-05 p.8
-genjo	17	table	用途地域	{'v': '市街化区域 合計(A)', 'cls': 'em'}/面積(ha)	694.6		honpen-05 p.8
-genjo	17	table	用途地域	{'v': '市街化区域 合計(A)', 'cls': 'em'}/町全域構成比(%)	5.9		honpen-05 p.8
-genjo	17	table	用途地域	{'v': '市街化区域 合計(A)', 'cls': 'em'}/用途地域構成比(%)	100.0		honpen-05 p.8
+genjo	17	table	用途地域	市街化区域 合計(A)/面積(ha)	694.6		honpen-05 p.8
+genjo	17	table	用途地域	市街化区域 合計(A)/町全域構成比(%)	5.9		honpen-05 p.8
+genjo	17	table	用途地域	市街化区域 合計(A)/用途地域構成比(%)	100.0		honpen-05 p.8
 genjo	17	table	用途地域	市街化調整区域(B)/面積(ha)	11065.4		honpen-05 p.8
 genjo	17	table	用途地域	市街化調整区域(B)/町全域構成比(%)	94.1		honpen-05 p.8
-genjo	17	table	用途地域	{'v': '町全域(A+B)', 'cls': 'em'}/面積(ha)	11760.0		honpen-05 p.8
-genjo	17	table	用途地域	{'v': '町全域(A+B)', 'cls': 'em'}/町全域構成比(%)	100.0		honpen-05 p.8
+genjo	17	table	用途地域	町全域(A+B)/面積(ha)	11760.0		honpen-05 p.8
+genjo	17	table	用途地域	町全域(A+B)/町全域構成比(%)	100.0		honpen-05 p.8
 genjo	20	table	空き家	日野/空家の数	210		honpen-03 p.13
 genjo	20	table	空き家	日野/すぐに入居可能(A)	95		honpen-03 p.13
 genjo	20	table	空き家	日野/入居するには修繕を要する(B)	72		honpen-03 p.13
@@ -236,11 +236,11 @@ genjo	20	table	空き家	必佐/すぐに入居可能(A)	36		honpen-03 p.13
 genjo	20	table	空き家	必佐/入居するには修繕を要する(B)	57		honpen-03 p.13
 genjo	20	table	空き家	必佐/放置すると倒壊の危険有(C)	32		honpen-03 p.13
 genjo	20	table	空き家	必佐/倒壊の危険性有(D)	16		honpen-03 p.13
-genjo	20	table	空き家	{'v': '合計', 'cls': 'em'}/空家の数	557		honpen-03 p.13
-genjo	20	table	空き家	{'v': '合計', 'cls': 'em'}/すぐに入居可能(A)	209		honpen-03 p.13
-genjo	20	table	空き家	{'v': '合計', 'cls': 'em'}/入居するには修繕を要する(B)	198		honpen-03 p.13
-genjo	20	table	空き家	{'v': '合計', 'cls': 'em'}/放置すると倒壊の危険有(C)	105		honpen-03 p.13
-genjo	20	table	空き家	{'v': '合計', 'cls': 'em'}/倒壊の危険性有(D)	45		honpen-03 p.13
+genjo	20	table	空き家	合計/空家の数	557		honpen-03 p.13
+genjo	20	table	空き家	合計/すぐに入居可能(A)	209		honpen-03 p.13
+genjo	20	table	空き家	合計/入居するには修繕を要する(B)	198		honpen-03 p.13
+genjo	20	table	空き家	合計/放置すると倒壊の危険有(C)	105		honpen-03 p.13
+genjo	20	table	空き家	合計/倒壊の危険性有(D)	45		honpen-03 p.13
 genjo	21	chart.rank	住宅全体に対する空家率(地区別)	東桜谷地区	11.5	%	honpen-03 p.14
 genjo	21	chart.rank	住宅全体に対する空家率(地区別)	鎌掛地区	10.98	%	honpen-03 p.14
 genjo	21	chart.rank	住宅全体に対する空家率(地区別)	西桜谷地区	10.4	%	honpen-03 p.14

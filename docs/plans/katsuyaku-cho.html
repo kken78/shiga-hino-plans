@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>障がい者活躍推進計画（町長部局）｜日野町データポータル（非公式）</title>
+<meta name="description" content="日野町の町長部局（任命権者は日野町長）が、障がいのある職員を含む全ての職員が働きやすい職場をつくり、障がい者の活躍を進めるための計画。">
+<style>
+/* shell.css — 計画ダッシュボード共通スタイル(schema v1)
+   計画ごとの個性は :root のテーマ4変数のみ(render_plan.py が注入)。
+   既存3ダッシュボードの意匠系(明朝見出し・eyebrow・理念バナー・
+   番号付きタブ)を共通化したもの。 */
+
+.hpv1{
+  /* テーマ(render時に上書き) */
+  --accent:#1E4E9C; --accent2:#C33D2E; --danger:#c25b46; --paper:#f4f6f8;
+  /* 派生・共通トークン */
+  --ink:#232a33; --ink2:#4c5561; --mut:#7d8692;
+  --card:#ffffff; --line:#dfe4ea; --line2:#edf0f4;
+  --ok:#2f6d5f;
+  --r:14px; --r2:9px;
+  /* 型スケール(8段) */
+  --fs-title:26px; --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
+  --fs-lead:15.5px; --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
+  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* チャート寸法(ADR-8) */
+  --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
+  --chart-track:#eef0f2; --chart-grid:#e4e8ee;
+  --serif:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",YuMincho,serif;
+  --sans:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",Meiryo,system-ui,sans-serif;
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:var(--fs-body); line-height:1.75;
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+}
+.hpv1 *{box-sizing:border-box}
+.hpv1 :where(h1,h2,h3,h4,p,ul,ol,figure,dl,dd){margin:0}
+.hpv1 .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+.hpv1 a{color:var(--accent)}
+.hpv1 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.hpv1 .wrap{max-width:920px;margin:0 auto;padding:0 18px 56px}
+
+/* ---------- ヘッダー ---------- */
+.hpv1 .head{padding:30px 0 0}
+.hpv1 .crumb{font-size:var(--fs-small);margin-bottom:14px}
+.hpv1 .crumb a{text-decoration:none;color:var(--ink2)}
+.hpv1 .crumb a:hover{color:var(--accent)}
+.hpv1 .eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:var(--fs-small);letter-spacing:.14em;font-weight:700;color:var(--accent);
+}
+.hpv1 .eyebrow::before{content:"";width:22px;height:2px;background:var(--accent2);border-radius:2px}
+.hpv1 h1{
+  font-family:var(--serif);font-size:var(--fs-title);font-weight:800;
+  letter-spacing:.01em;line-height:1.3;margin-top:10px;
+}
+.hpv1 .metarow{
+  display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;
+  font-size:var(--fs-small);color:var(--ink2);
+}
+.hpv1 .metarow b{color:var(--ink)}
+.hpv1 .vision-banner{
+  margin-top:14px;padding:12px 16px;border-radius:var(--r2);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 9%,transparent),
+    color-mix(in srgb,var(--accent2) 9%,transparent));
+  border:1px solid var(--line);
+  font-weight:700;font-size:var(--fs-body);letter-spacing:.02em;
+  color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+  display:flex;gap:12px;align-items:baseline;
+}
+.hpv1 .vision-banner .lbl{font-size:var(--fs-micro);color:var(--mut);letter-spacing:.1em;flex:none}
+.hpv1 .lead{margin-top:12px;font-size:var(--fs-lead);color:var(--ink2)}
+
+/* ---------- タブ(番号=読む順序) ---------- */
+.hpv1 .tabs{
+  display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line);
+  flex-wrap:wrap;position:sticky;top:0;background:var(--paper);z-index:5;
+}
+.hpv1 .tab{
+  appearance:none;border:0;background:none;cursor:pointer;
+  font:inherit;font-weight:700;font-size:var(--fs-tab);color:var(--ink2);
+  padding:11px 15px 12px;border-radius:9px 9px 0 0;position:relative;
+}
+.hpv1 .tab .tn{color:var(--mut);font-size:var(--fs-micro);font-weight:800;margin-right:7px;letter-spacing:.05em}
+.hpv1 .tab:hover{color:var(--accent);background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.hpv1 .tab[aria-selected="true"]{color:var(--ink)}
+.hpv1 .tab[aria-selected="true"] .tn{color:var(--accent2)}
+.hpv1 .tab[aria-selected="true"]::after{
+  content:"";position:absolute;left:10px;right:10px;bottom:-1px;height:3px;
+  background:var(--accent);border-radius:3px 3px 0 0;
+}
+.hpv1 .panel{display:none;padding-top:26px}
+.hpv1 .panel.active{display:block}
+
+/* ---------- 汎用ブロック ---------- */
+.hpv1 .b-narrative{max-width:44em;margin:0 0 18px}
+.hpv1 .b-heading{margin:30px 0 12px}
+/* 統一セクション見出し(.b-heading h2 / .phead / .b-chart .cttl を1系統へ)
+   共通:明朝・fs-sec(17)・700・ink。区切り線(左4px accent + pad-left12)は
+   箱の外の見出しだけ。.cttl は箱の中なので字面のみ統一(左ボーダーなし)。 */
+.hpv1 .b-heading h2,
+.hpv1 .phead,
+.hpv1 .b-ttl,
+.hpv1 .b-chart .cttl{
+  font-family:var(--serif);font-size:var(--fs-sec);font-weight:700;color:var(--ink);line-height:1.4;
+}
+.hpv1 .b-heading h2,
+.hpv1 .phead{
+  padding-left:12px;border-left:4px solid var(--accent);
+}
+.hpv1 .b-heading .sub{font-size:var(--fs-small);color:var(--mut);margin-top:3px;padding-left:16px}
+.hpv1 .b-note{
+  display:flex;gap:8px;font-size:var(--fs-small);color:var(--ink2);
+  margin:12px 0;padding:10px 13px;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .b-note::before{content:"◦";color:var(--accent2);font-weight:800}
+.hpv1 .b-bullets{margin:0 0 18px}
+.hpv1 .b-bullets .t{font-weight:700;margin-bottom:6px}
+.hpv1 .b-bullets ul{padding-left:1.3em}
+.hpv1 .b-bullets li{margin:4px 0}
+.hpv1 .b-bullets li::marker{color:var(--accent)}
+.hpv1 .b-callout{
+  margin:18px 0;padding:14px 18px;border-radius:var(--r2);
+  border:1px solid color-mix(in srgb,var(--accent) 30%,var(--line));
+  background:color-mix(in srgb,var(--accent) 5%,var(--card));
+}
+.hpv1 .b-callout .t{font-weight:800;color:var(--accent);margin-bottom:4px}
+.hpv1 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.hpv1 .chip{
+  font-size:var(--fs-micro);font-weight:700;padding:3px 10px;border-radius:99px;
+  background:var(--card);border:1px solid var(--line);color:var(--ink2);
+}
+.hpv1 .b-vision{
+  margin:6px 0 20px;padding:18px 20px;border-radius:var(--r);
+  background:linear-gradient(100deg,
+    color-mix(in srgb,var(--accent) 10%,var(--card)),
+    color-mix(in srgb,var(--accent2) 8%,var(--card)));
+  border:1px solid var(--line);
+}
+.hpv1 .b-vision .lbl{font-size:var(--fs-micro);letter-spacing:.14em;font-weight:800;color:var(--mut)}
+.hpv1 .b-vision .tx{
+  font-family:var(--serif);font-size:var(--fs-vision);font-weight:800;line-height:1.5;
+  margin-top:4px;color:color-mix(in srgb,var(--accent) 80%,var(--ink));
+}
+.hpv1 .b-aims{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .aim{
+  display:flex;gap:12px;align-items:baseline;padding:12px 15px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+}
+.hpv1 .aim .no{
+  font-family:var(--serif);font-weight:800;color:var(--accent);flex:none;
+  min-width:1.6em;text-align:center;
+}
+.hpv1 .aim .t{font-weight:700}
+.hpv1 .aim .d{font-size:var(--fs-small);color:var(--ink2);margin-top:2px}
+.hpv1 .b-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .card{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:14px 16px}
+.hpv1 .card .ct{font-weight:800;margin-bottom:4px}
+.hpv1 .card .cd{font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-challenges .card{border-left:4px solid var(--danger)}
+.hpv1 .b-fields{display:grid;gap:8px;margin:0 0 18px}
+.hpv1 .field{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:12px 15px}
+.hpv1 .field .ft{font-weight:800;font-size:var(--fs-sub)}
+.hpv1 .field .fd{font-size:var(--fs-small);color:var(--ink2);margin-top:3px}
+.hpv1 .b-actions{
+  margin:20px 0;padding:16px 18px;border-radius:var(--r);
+  background:color-mix(in srgb,var(--ok) 7%,var(--card));
+  border:1px solid color-mix(in srgb,var(--ok) 25%,var(--line));
+}
+.hpv1 .b-actions .t{font-weight:800;color:var(--ok);margin-bottom:8px}
+.hpv1 .b-actions ul{padding-left:1.3em}
+.hpv1 .b-actions li{margin:4px 0}
+
+/* タブ内ジャンプ目次(toc) — 薄いaccent背景の角丸リンクを横並び */
+.hpv1 .b-toc{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:0 0 20px}
+.hpv1 .b-toc .tl{font-size:var(--fs-small);font-weight:800;letter-spacing:.06em;color:var(--mut);margin-right:2px}
+.hpv1 .b-toc a{
+  font-size:var(--fs-small);font-weight:700;text-decoration:none;color:var(--accent);line-height:1.5;
+  background:color-mix(in srgb,var(--accent) 8%,var(--card));
+  border:1px solid color-mix(in srgb,var(--accent) 20%,var(--line));
+  padding:5px 12px;border-radius:99px;
+}
+.hpv1 .b-toc a:hover{background:color-mix(in srgb,var(--accent) 15%,var(--card));border-color:var(--accent)}
+/* アンカージャンプ位置補正:sticky タブバー(.tabs top:0)の下に隠れないよう余白 */
+.hpv1 .panel [id]{scroll-margin-top:64px}
+
+/* ---------- データ系ブロック ---------- */
+.hpv1 .b-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:0 0 18px}
+.hpv1 .kpi{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 15px 12px}
+.hpv1 .kpi .kl{font-size:var(--fs-small);font-weight:700;color:var(--ink2)}
+.hpv1 .kpi .kn{font-size:var(--fs-kn);font-weight:800;line-height:1.15;margin-top:2px;letter-spacing:-.01em}
+.hpv1 .kpi .ku{font-size:var(--fs-small);font-weight:700;color:var(--mut);margin-left:3px}
+.hpv1 .kpi .kd{font-size:var(--fs-micro);color:var(--ink2);margin-top:5px;display:flex;gap:6px;align-items:baseline}
+.hpv1 .kpi .tr{font-weight:800;flex:none}
+.hpv1 .kpi .tr.down{color:var(--danger)} .hpv1 .kpi .tr.up{color:var(--ok)} .hpv1 .kpi .tr.flat{color:var(--mut)}
+.hpv1 .kpi .asof{font-size:var(--fs-micro);color:var(--mut)}
+
+.hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;
+  background:var(--card);border:1px solid var(--line2);border-radius:var(--r);padding:18px 22px}
+.hpv1 .b-bigstat .v{font-size:var(--fs-big);font-weight:800;letter-spacing:-.02em;line-height:1;color:var(--accent)}
+.hpv1 .b-bigstat .u{font-size:var(--fs-sub);font-weight:700;color:var(--mut)}
+.hpv1 .b-bigstat .l{font-weight:700}
+.hpv1 .b-bigstat .d{font-size:var(--fs-small);color:var(--ink2);flex-basis:100%}
+
+.hpv1 .b-targets{display:grid;gap:10px;margin:0 0 18px}
+.hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
+.hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
+.hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
+.hpv1 .target .tg{display:inline-flex;gap:8px;align-items:baseline;white-space:nowrap}
+.hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
+.hpv1 .target .ar{color:var(--mut)}
+.hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--accent2)}
+.hpv1 .target .tu{font-size:var(--fs-small);color:var(--mut);font-weight:700}
+.hpv1 .target .asof{font-size:var(--fs-micro);color:var(--mut)}
+.hpv1 .target svg{display:block;width:100%;height:6px;margin-top:9px}
+.hpv1 .target .pct{font-size:var(--fs-micro);color:var(--ink2);margin-top:4px}
+
+.hpv1 .b-table{margin:0 0 18px;overflow:auto;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2)}
+.hpv1 table{border-collapse:collapse;width:100%;font-size:var(--fs-small)}
+.hpv1 th,.hpv1 td{padding:8px 13px;text-align:right;border-bottom:1px solid var(--line2);white-space:nowrap}
+.hpv1 th:first-child,.hpv1 td:first-child{text-align:left}
+.hpv1 th.txt,.hpv1 td.txt{text-align:left;white-space:normal;min-width:16em}
+.hpv1 thead th{background:color-mix(in srgb,var(--accent) 6%,var(--card));font-weight:700;color:var(--ink2)}
+.hpv1 tbody tr:last-child td{border-bottom:0}
+.hpv1 td.neg{color:var(--danger);font-weight:800}
+.hpv1 td.pos{color:var(--ok);font-weight:800}
+.hpv1 td.em{font-weight:800}
+
+.hpv1 .b-chart{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);
+  padding:14px 16px;margin:0 0 12px}
+.hpv1 .b-chart .cttl{margin-bottom:2px}  /* 字面は統一セクション見出しへ集約 */
+.hpv1 .b-ttl{margin:4px 0 6px}  /* 表の題(table.title)。字面は統一セクション見出しと同じ */
+.hpv1 .b-chart .cunit{font-size:var(--fs-micro);color:var(--mut);margin-bottom:6px}
+.hpv1 .legend{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0 8px;font-size:var(--fs-chart);color:var(--ink2)}
+/* チャート部品(ADR-8)。文字はすべて HTML。棒の長さ・高さはレンダラーが値から計算した % */
+/* 横棒(rank_bars ほか): 名前 | 棒 | 値 */
+.hpv1 .hb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);
+  gap:5px 10px;align-items:center;font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .hb-r{display:contents}
+.hpv1 .hb-l{text-align:right;color:var(--ink2)}
+.hpv1 .hb-sub{color:var(--mut);margin-left:.4em}
+.hpv1 .hb-t{display:flex;height:var(--chart-bar);background:var(--chart-track);border-radius:4px;overflow:hidden}
+.hpv1 .hb-t>span{display:block;flex:none;height:100%}
+.hpv1 .hb-t>span:last-child{border-radius:0 4px 4px 0}
+.hpv1 .hb-v{text-align:right;font-weight:700;white-space:nowrap;color:var(--ink)}
+.hpv1 .hb-v.is-b{color:var(--ink2);font-weight:400}
+.hpv1 .hb-r.em .hb-l,.hpv1 .hb-r.em .hb-v{color:var(--accent2);font-weight:700}
+.hpv1 .hb-r.avg .hb-l{color:var(--ink);font-weight:700}
+/* 2系列の横棒(pair_bars): 名前 | (棒 | 値)×2 */
+.hpv1 .pb{display:grid;grid-template-columns:fit-content(40%) minmax(0,1fr);gap:10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .pb-g{display:contents}
+.hpv1 .pb-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .pb-bars{display:grid;grid-template-columns:minmax(0,1fr) var(--vw,4em);gap:3px 10px;align-items:center}
+/* 100%積み上げの横棒(stacked_100): 名前 | 帯 */
+.hpv1 .s100{display:grid;grid-template-columns:fit-content(30%) minmax(0,1fr);gap:8px 10px;align-items:center;
+  font-size:var(--fs-chart);line-height:1.35}
+.hpv1 .s100-r{display:contents}
+.hpv1 .s100-l{text-align:right;color:var(--ink2);font-weight:700}
+.hpv1 .s100-b{display:flex;height:var(--chart-bar-l);border-radius:6px;overflow:hidden;box-shadow:inset 0 0 0 1px var(--line)}
+.hpv1 .s100-s{display:flex;flex:none;align-items:center;justify-content:center;overflow:hidden;
+  white-space:nowrap;font-weight:700}
+/* 縦棒(bars / stacked_bars): 列ごとに 値・棒・名前。目盛りは描かない */
+.hpv1 .vb{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);column-gap:6px;
+  padding-top:1.5em;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .vb-col{display:flex;flex-direction:column;min-width:0}
+.hpv1 .vb-t{height:var(--chart-h);display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  border-bottom:1px solid var(--line)}
+.hpv1 .vb-v{flex:none;font-weight:700;color:var(--ink);white-space:nowrap;padding-bottom:3px}
+.hpv1 .vb-s{flex:none;width:min(100%,var(--chart-col));display:flex;flex-direction:column-reverse;
+  border-radius:3px 3px 0 0;overflow:hidden}
+.hpv1 .vb-s>span{display:block;flex:none}
+.hpv1 .vb-l{margin-top:6px;text-align:center;font-weight:700;color:var(--ink2);overflow-wrap:anywhere}
+.hpv1 .vb-sub{display:block;font-weight:400;color:var(--mut)}
+/* 折れ線(line): 線と目盛り線は SVG(伸縮・線幅固定)、数値とラベルは HTML */
+.hpv1 .ln{padding-left:var(--ln-yw,3em);padding-right:var(--ln-xr,0);margin-top:10px;font-size:var(--fs-chart);line-height:1.3}
+.hpv1 .ln-plot{position:relative;height:var(--chart-h)}
+.hpv1 .ln-plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hpv1 .ln-g{stroke:var(--chart-grid);stroke-width:1}
+.hpv1 .ln-y{position:absolute;top:0;bottom:0;right:100%;width:var(--ln-yw,3em);padding-right:6px}
+.hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
+.hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
+.hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 長い横棒の一覧の折りたたみ(ADR-8 判断の優先順位 3・4)。:has() 非対応なら全件表示 */
+.hpv1 .hb-gap{display:none;grid-column:1/-1;color:var(--mut);text-align:center;line-height:1.2}
+.hpv1 .hbf:not(:has(details[open])) .fx{display:none}
+.hpv1 .hbf:not(:has(details[open])) .hb-gap{display:block}
+.hpv1 .more{margin-top:10px}
+.hpv1 .more>summary{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;cursor:pointer;
+  list-style:none;border:1px solid var(--line);border-radius:99px;font-size:var(--fs-small);font-weight:700;
+  color:var(--accent);background:var(--card)}
+.hpv1 .more>summary::-webkit-details-marker{display:none}
+.hpv1 .more .mc,.hpv1 .more[open] .mo{display:none}
+.hpv1 .more[open] .mc{display:inline}
+@media print{
+  .hpv1 .hbf .fx{display:contents!important}
+  .hpv1 .hbf .hb-gap,.hpv1 .more{display:none!important}
+}
+/* 狭い画面だけで使う表示(縦棒の代わりの横棒) */
+.hpv1 .narrow-only{display:none}
+.hpv1 .legend .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+
+.hpv1 .b-figure{margin:0 0 18px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:12px}
+.hpv1 .b-figure img{display:block;width:100%;height:auto;border-radius:6px}
+.hpv1 .b-figure figcaption{font-size:var(--fs-small);color:var(--ink2);margin-top:8px}
+
+.hpv1 .b-timeline{display:grid;gap:6px;margin:0 0 18px}
+.hpv1 .tlrow{display:flex;gap:12px;align-items:center;background:var(--card);
+  border:1px solid var(--line2);border-radius:var(--r2);padding:9px 14px}
+.hpv1 .tlrow .sp{font-weight:800;color:var(--accent);flex:none;min-width:7em}
+.hpv1 .b-programs{margin:0 0 18px}
+.hpv1 .pgroup{margin-bottom:16px}
+.hpv1 .phead{margin-bottom:8px}  /* 旧・下border/accent文字色は統一セクション見出しへ集約 */
+.hpv1 .psub{font-weight:700;font-size:var(--fs-small);color:var(--ink2);margin:9px 0 5px}
+.hpv1 .pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;align-items:start}
+.hpv1 .ev{display:flex;gap:9px;background:var(--card);border:1px solid var(--line2);
+  border-radius:var(--r2);padding:9px 12px;font-size:var(--fs-small)}
+.hpv1 .ev .no{font-weight:800;color:var(--accent);flex:none}
+.hpv1 .ev .etwrap{min-width:0}
+.hpv1 .ev .et{font-weight:700}
+.hpv1 .ev .ed{color:var(--mut);font-size:var(--fs-micro);margin-top:1px}
+
+/* programs 案2: グループの方向性・視点(常時表示) */
+.hpv1 .pintro{background:color-mix(in srgb,var(--accent) 6%,var(--card));
+  border:1px solid var(--line2);border-radius:var(--r2);padding:10px 13px;margin:0 0 9px}
+.hpv1 .pintro-item{margin:7px 0}
+.hpv1 .pintro-item:first-child{margin-top:0}
+.hpv1 .pintro-item:last-child{margin-bottom:0}
+.hpv1 .pih{font-weight:700;font-size:var(--fs-small);color:var(--accent)}
+.hpv1 .pih::before{content:"◎ "}
+.hpv1 .pib{font-size:var(--fs-small);color:var(--ink2);margin-top:1px}
+
+/* programs 案2: 事業内容(desc)の折りたたみ details/summary */
+.hpv1 .ev.evd{display:block;padding:0;cursor:pointer}
+.hpv1 .ev.evd>summary{display:flex;gap:9px;align-items:center;
+  padding:9px 12px;min-height:44px;list-style:none}
+.hpv1 .ev.evd>summary::-webkit-details-marker{display:none}
+.hpv1 .ev.evd>summary .etwrap{flex:1}
+.hpv1 .ev.evd>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .ev.evd[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .ev.evd[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .edesc{padding:9px 12px 11px;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .edesc p{margin:0 0 6px}
+.hpv1 .edesc p:last-child{margin-bottom:0}
+
+/* table 折りたたみ(fold) — programs の details と同方式 */
+.hpv1 .b-foldtbl{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);margin:0 0 12px}
+.hpv1 .b-foldtbl>summary{display:flex;gap:9px;align-items:center;padding:10px 13px;min-height:44px;list-style:none;cursor:pointer}
+.hpv1 .b-foldtbl>summary::-webkit-details-marker{display:none}
+.hpv1 .b-foldtbl>summary .ftwrap{flex:1;min-width:0}
+.hpv1 .b-foldtbl>summary .ftl{font-weight:700;font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .b-foldtbl>summary .fts{font-size:var(--fs-micro);color:var(--mut);margin-top:1px}
+.hpv1 .b-foldtbl>summary .caret{flex:none;width:8px;height:8px;margin-left:6px;
+  border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);
+  transform:rotate(45deg);transition:transform .15s ease}
+.hpv1 .b-foldtbl[open]>summary .caret{transform:rotate(-135deg)}
+.hpv1 .b-foldtbl[open]>summary{border-bottom:1px solid var(--line2)}
+.hpv1 .b-foldtbl .b-table{margin:12px;border:none;border-radius:0}
+.hpv1 .b-foldtbl .b-note{margin:0 12px 12px}
+
+.hpv1 .src{font-size:var(--fs-micro);color:var(--mut);margin:2px 0 16px;text-align:right}
+.hpv1 .src::before{content:"出典："}
+
+/* ---------- フッター ---------- */
+.hpv1 .foot{margin-top:44px;border-top:1px solid var(--line);padding-top:20px;
+  font-size:var(--fs-small);color:var(--ink2)}
+.hpv1 .foot h2{font-size:var(--fs-sub);font-weight:800;font-family:var(--serif);margin-bottom:8px}
+.hpv1 .foot ul{padding-left:1.3em}
+.hpv1 .foot .disclaim{margin-top:14px;padding:11px 14px;border-radius:var(--r2);
+  background:var(--card);border:1px solid var(--line2)}
+.hpv1 .foot .contact{margin-top:10px}
+
+@media (max-width:560px){
+  .hpv1{--fs-title:21px;--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
+  .hpv1 .tab{padding:10px 11px 11px}
+  /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
+  .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .hpv1 .tabs::-webkit-scrollbar{display:none}
+  .hpv1 .tab{flex:none;white-space:nowrap}
+  .hpv1 .pgrid{grid-template-columns:1fr}
+  /* チャート: 名前は棒の上の行に置き、棒の長さを確保する(ADR-8) */
+  .hpv1 .hb{grid-template-columns:minmax(0,1fr) var(--vw,4em);row-gap:2px}
+  .hpv1 .hb-l{grid-column:1/-1;text-align:left;margin-top:6px}
+  .hpv1 .pb{grid-template-columns:minmax(0,1fr);row-gap:4px}
+  .hpv1 .pb-l{text-align:left;margin-top:6px}
+  .hpv1 .s100{grid-template-columns:minmax(0,1fr);row-gap:3px}
+  .hpv1 .s100-l{text-align:left;margin-top:4px}
+  /* 名前が短い横棒(.inline-sm)は、狭い画面でも名前を同じ行に置いて縦に長くしない */
+  .hpv1{--chart-bar:12px}
+  .hpv1 .hb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr) var(--vw,4em);row-gap:5px}
+  .hpv1 .pb.inline-sm{grid-template-columns:fit-content(40%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .s100.inline-sm{grid-template-columns:fit-content(30%) minmax(0,1fr);row-gap:8px}
+  .hpv1 .inline-sm .hb-l,.hpv1 .inline-sm .pb-l,.hpv1 .inline-sm .s100-l{text-align:right;margin-top:0}
+  .hpv1 .inline-sm .hb-l{grid-column:auto}
+  .hpv1 .ln-x>.nw{display:none}
+  .hpv1 .wide-only{display:none}
+  .hpv1 .narrow-only{display:grid}
+}
+@media (prefers-reduced-motion:no-preference){
+  .hpv1 .panel.active{animation:hpv1-in .18s ease-out}
+  @keyframes hpv1-in{from{opacity:.4;transform:translateY(3px)}to{opacity:1;transform:none}}
+}
+
+.hpv1{ --accent:#9b4a72;--accent2:#3f6f8f;--danger:#c25b46;--paper:#f4f6f8; }
+</style>
+</head>
+<body class="hpv1" data-hp-root>
+<div class="wrap">
+  <header class="head">
+    <nav class="crumb"><a href="../index.html">← 計画ライブラリにもどる</a></nav>
+    <div class="eyebrow">障害者雇用促進法にもとづく計画（第3期）</div>
+    <h1>日野町障がい者活躍推進計画（町長部局）</h1>
+    <div class="metarow"><span>計画期間 <b class="num">R8〜R10年度</b>（令和8年3月策定。計画期間は令和8年4月1日から令和11年3月31日までの3年間。計画期間内も毎年度、取組状況等を把握・検証し、必要に応じて見直す）</span><span>所管 <b>総務課</b></span><span>公表 <b>令和8年3月</b></span></div>
+    
+    <p class="lead">日野町の町長部局（任命権者は日野町長）が、障がいのある職員を含む全ての職員が働きやすい職場をつくり、障がい者の活躍を進めるための計画。</p>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="このページの内容"><button class="tab" role="tab" data-tab="summary" aria-selected="true"><span class="tn num">01</span>まとめ</button><button class="tab" role="tab" data-tab="mokuhyo" aria-selected="false"><span class="tn num">02</span>目標</button><button class="tab" role="tab" data-tab="torikumi" aria-selected="false"><span class="tn num">03</span>取り組み</button><button class="tab" role="tab" data-tab="gaiyo" aria-selected="false"><span class="tn num">04</span>計画のあらまし</button></nav>
+  <section class="panel active" role="tabpanel" data-panel="summary"><div><div class="b-narrative"><p>この計画は、日野町の町長部局（任命権者は日野町長）が、障がいのある職員の活躍を進めるためにつくった計画です。障害者雇用促進法にもとづいて令和2年3月に最初の計画をつくり、今回が第3期の計画です。</p><p>障がい者の雇用を積極的に進めるとともに、障がいのある職員を含む全ての職員が働きやすい職場づくりに取り組みます。期間は令和8年4月1日から令和11年3月31日までの3年間です。</p></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.1-2</div><div><div class="b-targets"><div class="target"><div class="tl">障がい者の実雇用率（町長部局と教育委員会部局の合算）</div><div class="tv"><span class="tg"><span class="cur num">2.44</span><span class="asof">基準・R7.6.1</span></span><span class="tg"><span class="ar">→</span><span class="tar num">3.0</span><span class="tu">%</span><span class="asof">目標・計画期間中の各年6.1</span></span></div><svg viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true"><rect x="0" y="0" width="100" height="6" rx="3" fill="#eddee6"/><rect x="0" y="0" width="81.3" height="6" rx="3" fill="#3f6f8f"/></svg><div class="pct num">目標比 81.3%</div></div></div></div><div><div class="b-kpis"><div class="kpi"><div class="kl">町長部局の実雇用率</div><div class="kn num">1.74<span class="ku">%</span></div><div class="asof">R7.6.1</div></div></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.3</div><div><div class="b-aims"><div class="aim"><span class="no">1</span><div><div class="t">障がい者の活躍を推進する体制整備</div><div class="d">障害者雇用推進者（総務課長）を選任し、組織の内と外の相談・支援の体制を整えます。</div></div></div><div class="aim"><span class="no">2</span><div><div class="t">障がい者の活躍の基本となる職務の選定・創出</div><div class="d">本人の能力や希望をふまえて、仕事の切出しや新しい仕事づくりを検討します。</div></div></div><div class="aim"><span class="no">3</span><div><div class="t">障がい者の活躍を推進するための環境整備・人事管理</div><div class="d">必要な配慮、募集・採用の取扱い、休暇の利用、研修、面談などに取り組みます。</div></div></div><div class="aim"><span class="no">4</span><div><div class="t">その他</div><div class="d">障がい者就労施設等への発注等を通じて、障がい者の活躍の場を広げます。</div></div></div></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.4-6</div><div><div class="b-note"><span>目標は、町長部局と教育委員会部局が障害者雇用促進法第42条にもとづく特例認定を受けているため、2つの部局を合算した実雇用率で、計画期間中の各年6月1日時点で法定雇用率3.0%を上回ることです（法改正による経過措置期間が適用される場合は、その雇用率）。あわせて、障がいを理由とする不本意な離職者を生じさせないことを目標にしています。</span></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.3</div></section><section class="panel" role="tabpanel" data-panel="mokuhyo"><div><div class="b-heading"><h2>採用に関する目標</h2><div class="sub">法定雇用率を上回る</div></div></div><div><div class="b-narrative"><p>本町では雇用率について町長部局、教育委員会部局で障害者雇用促進法第42条に基づく特例認定を受けていることから、合算して、計画期間中の各年6月1日時点で法定雇用率3.0%（※）を上回ることを目標とします。</p><p>毎年の6月1日時点の対象障がい者（身体障がい者、知的障がい者または精神障がい者（精神保健及び精神障害者福祉に関する法律（昭和25年法律第123号）第45条第2項の規定により精神障がい者保健福祉手帳の交付を受けているもの））の任免状況通報により把握・進捗管理を行います。</p></div></div><div><div class="b-targets"><div class="target"><div class="tl">対象障がい者の実雇用率（町長部局と教育委員会部局の合算）</div><div class="tv"><span class="tg"><span class="cur num">2.44</span><span class="asof">基準・R7.6.1</span></span><span class="tg"><span class="ar">→</span><span class="tar num">3.0</span><span class="tu">%</span><span class="asof">目標・計画期間中の各年6.1</span></span></div><svg viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true"><rect x="0" y="0" width="100" height="6" rx="3" fill="#eddee6"/><rect x="0" y="0" width="81.3" height="6" rx="3" fill="#3f6f8f"/></svg><div class="pct num">目標比 81.3%</div></div></div></div><div><div class="b-kpis"><div class="kpi"><div class="kl">町長部局における実雇用率</div><div class="kn num">1.74<span class="ku">%</span></div><div class="asof">R7.6.1</div></div></div></div><div><div class="b-note"><span>目標値の3.0%は法定雇用率で、目標はこれを上回ることです。※法改正による経過措置期間が適用される場合にあっては、その雇用率。実雇用率は原典に（参考）として示された値です。</span></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.3</div><div><div class="b-heading"><h2>第2期計画の目標</h2><div class="sub">令和5年4月1日から令和8年3月31日まで</div></div></div><div><div class="b-kpis"><div class="kpi"><div class="kl">第2期計画で上回ることを目標とした法定雇用率（町長部局と教育委員会部局の合算）</div><div class="kn num">2.8<span class="ku">%</span></div><div class="asof">R7.6.1</div></div></div></div><div><div class="b-narrative"><p>第2期計画の期間中では、町長部局、教育委員会部局を合算して、令和7年6月1日時点で法定雇用率2.8%を上回ることを目標としてきました。</p></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.1</div><div><div class="b-heading"><h2>定着に関する目標</h2><div class="sub">不本意な離職者を生じさせない</div></div></div><div><div class="b-bullets"><ul><li>障がいを理由とする不本意な離職者を生じさせないようにします。</li><li>毎年の6月1日時点の対象障がい者の任免状況通報のタイミングで、人事記録を元に、前年度採用の障がい者の定着状況を把握・進捗管理を行います。</li></ul></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.3</div></section><section class="panel" role="tabpanel" data-panel="torikumi"><div><div class="b-heading"><h2>障がい者の活躍推進に向けた取組</h2><div class="sub">4つの分野</div></div></div><div><div class="b-narrative"><p>体制整備、職務の選定・創出、環境整備・人事管理、その他の4つの分野で取り組みます。</p></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.4-6</div><div><nav class="b-toc"><a href="#sec-torikumi-1">1. 障がい者の活躍を推進する体制整備</a><a href="#sec-torikumi-2">2. 障がい者の活躍の基本となる職務の選定・創出</a><a href="#sec-torikumi-3">3. 障がい者の活躍を推進するための環境整備・人事管理</a><a href="#sec-torikumi-4">4. その他</a></nav></div><div id="sec-torikumi-1"><div class="b-heading"><h2>1. 障がい者の活躍を推進する体制整備</h2></div></div><div><div class="b-bullets"><div class="t">組織面</div><ul><li>障害者雇用推進者として引き続き総務課長を選任します。</li><li>組織内の人的サポート体制（障害者雇用推進者、障害者職業生活相談員、職場の上司・同僚、支援担当者等）を整備するとともに、組織外の関係機関（厚生労働省障害者雇用対策課、滋賀労働局、東近江公共職業安定所、専門アドバイザー、その他障害者が利用している支援機関等）と連携体制を構築し、役割分担および各種相談先を整理した上、関係者間で共有します。</li><li>人事異動等により連携体制に変更が生じるため、役割分担および各種相談先については定期的な更新を行います。</li></ul></div></div><div><div class="b-bullets"><div class="t">人材面</div><ul><li>障害者職業生活相談員の選任義務が生じた場合には、3か月以内に選任するとともに、当該選任しようとする者が資格要件を満たさない場合には、滋賀労働局が開催する公務部門向け障害者職業生活相談員資格認定講習を受講することとします。</li><li>障がい者が配属されている部署の職員を中心に、年に1回以上、厚生労働省障害者雇用対策課または滋賀労働局が開催する「精神・発達障害者しごとサポーター養成講座」の受講案内を行い、参加を募ります。</li></ul></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.4</div><div id="sec-torikumi-2"><div class="b-heading"><h2>2. 障がい者の活躍の基本となる職務の選定・創出</h2></div></div><div><div class="b-bullets"><ul><li>現に勤務する障がい者や今後採用する障がい者の能力や希望も踏まえ、ヒアリング等を実施し、職務の選定（既存業務の切出し等）および創出（複数の作業の組み合わせによる新規業務の創出等）について検討を行います。</li><li>新規採用や部署異動、その他定期的に面談を実施し、障がい者と業務の適切なマッチングの点検を行い、必要に応じて業務の割振りや職場の適正配置等の検討を行います。</li></ul></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.4</div><div id="sec-torikumi-3"><div class="b-heading"><h2>3. 障がい者の活躍を推進するための環境整備・人事管理</h2></div></div><div><div class="b-bullets"><div class="t">職務環境</div><ul><li>定期的な面談その他適切な方法により必要な配慮等を把握し、継続的に必要な措置を講じます。</li><li>なお、措置を講じるに当たっては、障がい者からの要望を踏まえつつも、過重な負担にならない範囲で適切に実施します。</li></ul></div></div><div><div class="b-bullets"><div class="t">募集・採用に当たって行わない取扱い</div><ul><li>特定の障がいを排除し、または特定の障がいに限定すること</li><li>自力で通勤できることといった条件を設定すること</li><li>介助者なしで業務遂行が可能といった条件を設定すること</li><li>「就労支援機関に所属・登録しており、雇用期間中支援が受けられること」といった条件を設定すること</li><li>特定の就労支援機関からのみの受入れを実施すること</li></ul></div></div><div><div class="b-cards "><div class="card"><div class="ct">働き方</div><div class="cd">時間単位の年次有給休暇や、傷病休暇または病気休暇等の各種休暇の利用を促進します。</div></div><div class="card"><div class="ct">キャリア形成</div><div class="cd">本人の希望等も踏まえつつ、職員研修、実務研修等を実施します。</div></div></div></div><div><div class="b-bullets"><div class="t">その他の人事管理</div><ul><li>定期的な面談の設定および必要に応じて随時面談を実施し、状況把握・体調配慮を行います。</li><li>在職中に疾病・事故等により障がい者となった職員について、円滑な職場復帰に向けた必要な職務選定、職場環境の整備等や通院への配慮、働き方、キャリア形成等の取組を行います。</li></ul></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.5</div><div id="sec-torikumi-4"><div class="b-heading"><h2>4. その他</h2></div></div><div><div class="b-bullets"><ul><li>国等による障害者就労施設等からの物品等の調達の推進等に関する法律（平成24年法律第50号）に基づく障がい者就労施設等への発注等を通じて、障がい者の活躍の場の拡大を推進します。</li></ul></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.6</div></section><section class="panel" role="tabpanel" data-panel="gaiyo"><div><div class="b-heading"><h2>策定趣旨</h2></div></div><div><div class="b-narrative"><p>本町では、障害者雇用促進法第7条の3第1項の規定に基づき「日野町障がい者活躍推進計画」を令和2年3月に策定し、障がい者の活躍推進に向けた取組を実施してきました。前回の計画期間が令和5年4月1日から令和8年3月31日までであることから、本計画は、第3期の計画となります。</p><p>これからも、積極的な障がい者雇用を進めるとともに、第2期の計画における活躍推進に向けた取り組みを踏まえ、引き続き障がいのある職員を含む全ての職員が働きやすい職場づくりに向けて、本計画に取り組みます。</p></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.1</div><div><div class="b-heading"><h2>策定機関・計画期間・公表</h2></div></div><div><div class="b-fields"><div class="field"><div class="ft">策定機関</div><div class="fd">日野町 町長部局</div></div><div class="field"><div class="ft">任命権者</div><div class="fd">日野町長</div></div><div class="field"><div class="ft">教育委員会部局</div><div class="fd">任命権者ごとに「障害者活躍推進計画」を策定する必要があることから、教育委員会部局については別に計画を策定することとしますが、互いに連携して対応していきます。</div></div><div class="field"><div class="ft">計画期間</div><div class="fd">令和8年4月1日から令和11年3月31日までの3年間。計画期間内においても、毎年度、取組状況等を把握・検証し、必要に応じて計画の見直しを行います。</div></div><div class="field"><div class="ft">周知・公表</div><div class="fd">策定または改定を行った計画は、庁内ＬＡＮへの掲載等により職員に周知するとともに、本町のホームページに掲載する等、適切な方法で公表します。数値目標の達成状況および計画に掲げる取組の実施状況等についても、毎年度、周知・公表します。</div></div></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.2</div><div><div class="b-note"><span>「害」の表記については、法令等の名称および法令等で定められている用語等で漢字表記が使用されている場合、または機関、団体等の固有名詞が漢字表記となっている場合を除き、原則として平仮名で記載しています（原典の注記）。</span></div></div><div class="src">日野町障がい者活躍推進計画（町長部局）令和8年3月 p.1</div></section>
+  <footer class="foot">
+    <h2>出典・原典資料</h2>
+    <ul><li>日野町障がい者活躍推進計画（町長部局）令和8年3月（<a href="https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000004/4894/katsuyakusuishincho.pdf" target="_blank" rel="noopener">リンク</a>）</li></ul>
+    <p class="contact">お問い合わせ：総務課</p>
+    <div class="disclaim">このページは公表資料をもとに要点をまとめた<b>非公式</b>のダッシュボードです。
+    図表は原典の数値から機械的に描画しています。正式な内容は
+    <a href="https://www.town.shiga-hino.lg.jp/0000004894.html" target="_blank" rel="noopener">日野町の公式ページ（外部サイト）</a>でご確認ください。</div>
+  </footer>
+</div>
+<script>
+/* runtime.js — 共通ランタイム(タブ切替のみ)。冪等・依存ゼロ。 */
+(function(){
+  "use strict";
+  var roots = document.querySelectorAll('.hpv1[data-hp-root]');
+  roots.forEach(function(root){
+    if (root.dataset.hpInit) return;      /* 再実行に対して冪等 */
+    root.dataset.hpInit = '1';
+    var tabs = root.querySelectorAll('.tab');
+    var panels = root.querySelectorAll('.panel');
+    function select(id){
+      tabs.forEach(function(t){ t.setAttribute('aria-selected', String(t.dataset.tab === id)); });
+      panels.forEach(function(p){ p.classList.toggle('active', p.dataset.panel === id); });
+      if (history.replaceState) history.replaceState(null, '', '#' + id);
+    }
+    tabs.forEach(function(t){
+      t.addEventListener('click', function(){ select(t.dataset.tab); });
+    });
+    var h = location.hash.replace('#','');
+    if (h && root.querySelector('.panel[data-panel="' + h.replace(/[^a-z0-9_-]/g,'') + '"]')) select(h);
+  });
+})();
+
+</script>
+</body>
+</html>

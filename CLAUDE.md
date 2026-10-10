@@ -225,7 +225,10 @@ git commit
   確認者 kken78)。段3の指摘32件はすべて判断済み(`data/source_issues/kodomo.tsv`)。`--status` で完了。
 - [x] **`tools/audit_autocheck.py` の実装**(2026-10) — 段1の照合、`--selftest`、段2の設問と取り込み、
   H2・H4 の選定、`--status`。ワークシートの `--focus`。kodomo で段1 330行・素通り1.0%(selftest)。
-- [ ] **koutsu・kokyo-kanri の段3の指摘への対応**(H3) — `data/source_issues/<id>.tsv` の各指摘の扱いを決める。
+- [x] **koutsu・kokyo-kanri の段3の指摘への対応**(H3)(2026-10-10 完了) — `data/source_issues/<id>.tsv` の全指摘の
+  扱いを依頼者が決めた。ダッシュボードに載せていない記述は「対象外」、原典のまま載せている記述は注記なしの
+  「原典どおり掲載」を基本とし、koutsu No.9(日八線の 198,786 と 207,435)だけ注記した。3計画とも `--status` で完了。
+  原典の誤りは、43計画が片付いた後に町へ一式で提供する(それまでは個別に伝えない)。
 - [x] `templates/hub.html` の `.hpshi-tip` 除去行を削除(2026-10) — ADR-2 の embed 廃止により
   永久に0件の no-op だった(ADR-6 の「0件 no-op 禁止」と不整合)。
 

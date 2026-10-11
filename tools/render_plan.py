@@ -186,6 +186,18 @@ class Renderer:
                 used += 1
         return out
 
+    @staticmethod
+    def _program_items(b):
+        """programs ブロックの事業を文書順に [(節, item)] で返す。"""
+        out = []
+        for g in b.get("groups", []):
+            for it in g.get("items", []) or []:
+                out.append((g, it))
+            for sg in g.get("subgroups", []) or []:
+                for it in sg.get("items", []) or []:
+                    out.append((g, it))
+        return out
+
     # ---------- 監査 ----------
     def audit(self, tab, block_no, btype, label, value, unit, source):
         """照合表の1行(DESIGN.md ADR-7 補遺 E: 8列)。
@@ -440,22 +452,63 @@ class Renderer:
         return f'<div class="b-timeline">{"".join(rows)}</div>'
 
     def b_programs(self, b, tab_id, block_no):
+        # 実施年度の印は、このブロックの事業に出てくる年度をすべて並べ、行う年度だけを濃く出す
+        def fy_no(y):
+            return 1 if y == "R元" else int(y[1:])
+        all_years = sorted({y for _, it in self._program_items(b) for y in it.get("years", [])}, key=fy_no)
+
+        def money(amount, unit):
+            # 数値と単位はひとまとまり(ADR-8 の表「数値と単位が行の途中で切れる」)
+            return f'<span class="money"><b class="num">{fmt(amount)}</b>{esc(unit)}</span>'
+
+        def meta(it):
+            parts = []
+            ys = it.get("years")
+            if ys:
+                chips = "".join(f'<span class="fy{"" if y in ys else " off"}">{esc(y)}</span>' for y in all_years)
+                parts.append(f'<span class="efy" aria-label="実施年度 {esc("・".join(ys))}">{chips}</span>')
+            c = it.get("cost")
+            if c:
+                parts.append(f'<span class="ecost"><span class="ecl">{esc(c.get("label") or "事業費")}</span>'
+                             f'{money(c["amount"], c["unit"])}</span>')
+            return f'<div class="emeta">{"".join(parts)}</div>' if parts else ""
+
+        def by_year(it):
+            c = it.get("cost") or {}
+            rows = c.get("by_year") or []
+            if not rows:
+                return ""
+            trs = "".join(f'<tr><th>{esc(e["fy"])}</th><td>{money(e["amount"], c["unit"])}</td></tr>' for e in rows)
+            return f'<table class="eby"><tbody>{trs}</tbody></table>'
+
         def ev(it):
             no = f'<span class="no">{esc(it["no"])}</span>' if it.get("no") else ""
             dept = f'<div class="ed">{esc(it["dept"])}</div>' if it.get("dept") else ""
             desc = it.get("desc")
-            if desc:
+            if desc or by_year(it):
                 # 案2: 事業内容(desc)は折りたたみ。summary=事業名+担当課(常時表示)、
                 # 開くと desc を表示。JS不使用(details/summary のネイティブ挙動)。
                 paras = "".join(f"<p>{esc(p)}</p>"
-                                for p in str(desc).split("\n") if p.strip())
+                                for p in str(desc or "").split("\n") if p.strip())
                 return (f'<details class="ev evd"><summary>{no}'
-                        f'<div class="etwrap"><div class="et">{esc(it["name"])}</div>{dept}</div>'
+                        f'<div class="etwrap"><div class="et">{esc(it["name"])}</div>{dept}{meta(it)}</div>'
                         f'<span class="caret" aria-hidden="true"></span></summary>'
-                        f'<div class="edesc">{paras}</div></details>')
+                        f'<div class="edesc">{paras}{by_year(it)}</div></details>')
             # desc が無い事業は従来のカード表示にフォールバック
             return (f'<div class="ev">{no}'
-                    f'<div class="etwrap"><div class="et">{esc(it["name"])}</div>{dept}</div></div>')
+                    f'<div class="etwrap"><div class="et">{esc(it["name"])}</div>{dept}{meta(it)}</div></div>')
+
+        def audit_item(it):
+            # 照合表: 事業費・実施年度・年度ごとの金額を1行ずつ(PLAN_SCHEMA programs「実施年度と事業費」)
+            name, src = it["name"], b.get("source")
+            c = it.get("cost")
+            if c:
+                self.audit(tab_id, block_no, "programs.cost", f'{name}/{c.get("label") or "事業費"}',
+                           c["amount"], c["unit"], src)
+                for e in c.get("by_year") or []:
+                    self.audit(tab_id, block_no, "programs.cost", f'{name}/{e["fy"]}', e["amount"], c["unit"], src)
+            if it.get("years"):
+                self.audit(tab_id, block_no, "programs.years", f"{name}/実施年度", "・".join(it["years"]), "", src)
 
         def intro_block(sg):
             intro = sg.get("intro")
@@ -472,6 +525,10 @@ class Renderer:
             gid = g.get("_toc_id")  # _collect_toc が注入(toc目次のジャンプ先)
             gid_attr = f' id="{esc(gid)}"' if gid else ""
             head = f'<div class="phead"{gid_attr}>{esc(g.get("no", ""))} {esc(g["name"])}</div>'
+            # 節の計は原典の値をそのまま出す。事業の金額を足し上げない(PLAN_SCHEMA programs)
+            tot = g.get("total")
+            total = (f'<div class="ptotal"><span class="ecl">{esc(tot.get("label") or "計")}</span>'
+                     f'{money(tot["amount"], tot["unit"])}</div>') if tot else ""
             body = ""
             if g.get("subgroups"):
                 for sg in g["subgroups"]:
@@ -479,10 +536,18 @@ class Renderer:
                              f'{intro_block(sg)}'
                              f'<div class="pgrid">{"".join(ev(i) for i in sg["items"])}</div>')
                     n_items += len(sg["items"])
+                    for i in sg["items"]:
+                        audit_item(i)
             else:
                 body = f'<div class="pgrid">{"".join(ev(i) for i in g["items"])}</div>'
                 n_items += len(g["items"])
-            groups.append(f'<div class="pgroup">{head}{body}</div>')
+                for i in g["items"]:
+                    audit_item(i)
+            if tot:
+                gl = f'{g.get("no", "")} {g["name"]}'.strip()
+                self.audit(tab_id, block_no, "programs.total", f'{gl}/{tot.get("label") or "計"}',
+                           tot["amount"], tot["unit"], b.get("source"))
+            groups.append(f'<div class="pgroup">{head}{total}{intro_block(g)}{body}</div>')
         self.audit(tab_id, block_no, "programs", "事業数", n_items, "件", b.get("source"))
         return f'<div class="b-programs">{"".join(groups)}</div>'
 

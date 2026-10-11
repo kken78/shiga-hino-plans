@@ -225,6 +225,10 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
   直さず、報告して判断を仰ぐ。
 - `custom_html` は最後の手段。使ったら `reason` に理由を書き、
   PR/引き渡しメモで明示する(3割超えは設計見直しのサイン。DESIGN.md参照)。
+- **programs の事業の key(`items[].key`、例 `e001`)は、一度付けたら変えない**(2026-10、PLAN_SCHEMA programs)。
+  事業の並べ替え・名前や番号の直し、また計画の JSON を一から作り直すときも、同じ事業には前の key を引き継ぎ、振り直さない。
+  新しく足した事業にだけ `python3 tools/program_keys.py <id>` で key を付ける(付いている key は変えず、使った最大の番号の次から振る)。
+  key は外部の利用者(hino-ronten)が事業を指すのに使うことがある。
 
 ## やってはいけないこと
 

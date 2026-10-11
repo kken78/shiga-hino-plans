@@ -103,6 +103,23 @@ def check_source(rep, where, block, source_ids):
         rep.err(where, f"出典台帳にないid: {m.group(1)!r}")
 
 
+PROGRAM_KEY_RE = re.compile(r"^e[0-9]{3,}$")
+FY_RE = re.compile(r"^R(\d+|元)$")
+
+
+def program_items(b, where):
+    """programs ブロックの事業を文書順に返す: [(場所, item)]"""
+    out = []
+    for gi, g in enumerate(b.get("groups", []) or []):
+        gw = f"{where}.groups[{gi}]"
+        for ii, it in enumerate(g.get("items", []) or []):
+            out.append((f"{gw}.items[{ii}]", it))
+        for si, sg in enumerate(g.get("subgroups", []) or []):
+            for ii, it in enumerate(sg.get("items", []) or []):
+                out.append((f"{gw}.subgroups[{si}].items[{ii}]", it))
+    return out
+
+
 def check_block(rep, where, b, source_ids):
     t = b.get("type")
     if t not in ALL_BLOCKS:
@@ -203,11 +220,44 @@ def check_block(rep, where, b, source_ids):
         if not b.get("groups"):
             rep.err(where, "groups が空")
         # 任意の説明文フィールド(intro/desc)は、あれば型を検証、無ければ素通り
+        def _check_amount(w, a, what):
+            if not isinstance(a, dict):
+                rep.err(w, f"{what} は {{label, amount, unit}}")
+                return
+            if not isinstance(a.get("amount"), (int, float)) or isinstance(a.get("amount"), bool):
+                rep.err(w, f"{what}.amount は数値: {a.get('amount')!r}")
+            if not (isinstance(a.get("unit"), str) and a["unit"]):
+                rep.err(w, f"{what}.unit は必須(例「千円」)")
+            if a.get("label") is not None and not isinstance(a.get("label"), str):
+                rep.err(w, f"{what}.label は文字列")
         def _check_items(items, w):
             for ii, it in enumerate(items or []):
+                iw = f"{w}.items[{ii}]"
                 d = it.get("desc")
                 if d is not None and not isinstance(d, str):
-                    rep.err(f"{w}.items[{ii}]", "desc は文字列")
+                    rep.err(iw, "desc は文字列")
+                # 事業の識別子(PLAN_SCHEMA programs。一意性は validate() で計画全体を見る)
+                k = it.get("key")
+                if not (isinstance(k, str) and PROGRAM_KEY_RE.match(k)):
+                    rep.err(iw, f"key は e と3桁以上の数字(例 e001)。tools/program_keys.py で付ける: {k!r}")
+                ys = it.get("years")
+                if ys is not None:
+                    if not (isinstance(ys, list) and ys and all(isinstance(y, str) and FY_RE.match(y) for y in ys)):
+                        rep.err(iw, f"years は年度(R8 など)の配列: {ys!r}")
+                    elif len(set(ys)) != len(ys):
+                        rep.err(iw, f"years に同じ年度が重複: {ys!r}")
+                c = it.get("cost")
+                if c is not None:
+                    _check_amount(iw, c, "cost")
+                    by = c.get("by_year") if isinstance(c, dict) else None
+                    if by is not None:
+                        if not isinstance(by, list):
+                            rep.err(iw, "cost.by_year は {fy, amount} の配列")
+                        else:
+                            for bi_, e in enumerate(by):
+                                if not (isinstance(e, dict) and isinstance(e.get("fy"), str) and FY_RE.match(e["fy"])
+                                        and isinstance(e.get("amount"), (int, float)) and not isinstance(e.get("amount"), bool)):
+                                    rep.err(f"{iw}.cost.by_year[{bi_}]", "by_year の要素は {fy:\"R8\" など, amount:数値}")
         def _check_intro(intro, w):
             if intro is None:
                 return
@@ -220,6 +270,9 @@ def check_block(rep, where, b, source_ids):
                     rep.err(f"{w}.intro[{ki}]", "intro 要素は {h:str, b:str}")
         for gi, g in enumerate(b.get("groups", [])):
             gw = f"{where}.groups[{gi}]"
+            _check_intro(g.get("intro"), gw)
+            if g.get("total") is not None:
+                _check_amount(gw, g["total"], "total")
             _check_items(g.get("items"), gw)
             for si, sg in enumerate(g.get("subgroups", []) or []):
                 sw = f"{gw}.subgroups[{si}]"
@@ -279,6 +332,7 @@ def validate(path):
             rep.warn("$.tabs", f"タブは2〜7個が目安: {len(tabs)}個")
 
     tab_ids, anchors = set(), set()
+    program_keys = {}   # 事業の key → 最初に出た場所(計画の中で一意。PLAN_SCHEMA programs)
     for ti, tab in enumerate(tabs):
         w = f"$.tabs[{ti}]"
         require(rep, w, tab, ["id", "label", "blocks"])
@@ -301,6 +355,14 @@ def validate(path):
         for bi, b in enumerate(blocks):
             bw = f"{w}.blocks[{bi}]"
             check_block(rep, bw, b, source_ids)
+            if b.get("type") == "programs":
+                for iw, it in program_items(b, bw):
+                    k = it.get("key")
+                    if isinstance(k, str):
+                        if k in program_keys:
+                            rep.err(iw, f"事業の key が計画の中で重複: {k}(先に {program_keys[k]})")
+                        else:
+                            program_keys[k] = iw
             a = b.get("anchor")
             if a:
                 if a in anchors:

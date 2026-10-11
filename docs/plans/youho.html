@@ -353,6 +353,21 @@
 .hpv1 .edesc p{margin:0 0 6px}
 .hpv1 .edesc p:last-child{margin-bottom:0}
 
+/* programs: 実施年度・事業費・節の計(PLAN_SCHEMA programs「実施年度と事業費」) */
+.hpv1 .emeta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin-top:4px}
+.hpv1 .efy{display:inline-flex;gap:3px}
+.hpv1 .fy{font-size:var(--fs-micro);font-weight:700;line-height:1.5;padding:0 5px;border-radius:var(--r2);
+  color:var(--card);background:var(--accent)}
+.hpv1 .fy.off{color:var(--mut);background:none;border:1px dashed var(--line)}
+.hpv1 .ecost{display:inline-flex;align-items:baseline;gap:5px;font-size:var(--fs-small)}
+.hpv1 .ecl{color:var(--mut);font-size:var(--fs-micro)}
+.hpv1 .money{white-space:nowrap}
+.hpv1 .money b{font-weight:800;color:var(--ink);margin-right:1px}
+.hpv1 .ptotal{display:flex;align-items:baseline;gap:6px;font-size:var(--fs-small);margin:-2px 0 8px}
+.hpv1 .eby{border-collapse:collapse;margin-top:6px;font-size:var(--fs-small)}
+.hpv1 .eby th{font-weight:700;color:var(--mut);text-align:left;padding:2px 12px 2px 0}
+.hpv1 .eby td{text-align:right;padding:2px 0}
+
 /* table 折りたたみ(fold) — programs の details と同方式 */
 .hpv1 .b-foldtbl{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);margin:0 0 12px}
 .hpv1 .b-foldtbl>summary{display:flex;gap:9px;align-items:center;padding:10px 13px;min-height:44px;list-style:none;cursor:pointer}

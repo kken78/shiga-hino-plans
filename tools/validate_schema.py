@@ -280,6 +280,40 @@ def check_block(rep, where, b, source_ids):
                 _check_items(sg.get("items"), sw)
 
 
+def _nonneg_int(v, lo):
+    return isinstance(v, int) and not isinstance(v, bool) and v >= lo
+
+
+def check_page_offsets(rep, w, offs):
+    """sources[].pdf_page_offsets(PLAN_SCHEMA §4): 印刷ページの範囲ごとの差。from の小さい順・重ならない・to を省けるのは最後だけ"""
+    if not (isinstance(offs, list) and offs):
+        rep.err(w, "pdf_page_offsets は {from, to?, offset} の配列(1つ以上)")
+        return
+    prev_to = 0
+    for k, e in enumerate(offs):
+        ew = f"{w}.pdf_page_offsets[{k}]"
+        if not isinstance(e, dict) or set(e) - {"from", "to", "offset"}:
+            rep.err(ew, f"要素は {{from, to?, offset}}: {e!r}")
+            return
+        f_, t_, o_ = e.get("from"), e.get("to"), e.get("offset")
+        if not _nonneg_int(f_, 1):
+            rep.err(ew, f"from は1以上の整数: {f_!r}")
+            return
+        if not _nonneg_int(o_, 0):
+            rep.err(ew, f"offset は0以上の整数: {o_!r}")
+        if t_ is None:
+            if k != len(offs) - 1:
+                rep.err(ew, "to を省けるのは最後の範囲だけ")
+                return
+        elif not _nonneg_int(t_, f_):
+            rep.err(ew, f"to は from 以上の整数: {t_!r}")
+            return
+        if prev_to is None or f_ <= prev_to:
+            rep.err(ew, f"範囲は from の小さい順に並べ、重ねない(from={f_})")
+            return
+        prev_to = t_
+
+
 def validate(path):
     rep = Reporter(path)
     try:
@@ -320,6 +354,11 @@ def validate(path):
         off = s.get("pdf_page_offset")
         if off is not None and (isinstance(off, bool) or not isinstance(off, int) or off < 0):
             rep.err(w, f"pdf_page_offset は0以上の整数: {off!r}")
+        offs = s.get("pdf_page_offsets")
+        if offs is not None:
+            check_page_offsets(rep, w, offs)
+            if off is not None:
+                rep.err(w, "pdf_page_offset と pdf_page_offsets は両方は書けない(差が途中で変わるなら pdf_page_offsets だけにする)")
 
     # タブ
     tabs = d.get("tabs", [])

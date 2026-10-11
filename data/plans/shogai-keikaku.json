@@ -28,7 +28,11 @@
       "id": "honpen",
       "label": "第3期日野町障がい者計画(令和6年3月)本編",
       "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000004/4126/keikaku1.pdf",
-      "pdf_page_offset": 8
+      "pdf_page_offsets": [
+        { "from": 1, "to": 24, "offset": 8 },
+        { "from": 25, "to": 58, "offset": 10 },
+        { "from": 59, "offset": 12 }
+      ]
     },
     {
       "id": "gaiyo",

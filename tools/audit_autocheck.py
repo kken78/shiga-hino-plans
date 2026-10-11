@@ -2,7 +2,7 @@
 """検収の機械照合(DESIGN.md ADR-7 補遺 L)。標準ライブラリ + pdftotext / pdftoppm(poppler-utils)。
 
 原典 PDF は sources_raw/<id>/<出典id>.pdf に置く(git 管理外)。印刷ページから PDF のページへの換算は
-data/plans/<id>.json の sources[].pdf_page_offset を使う。
+data/plans/<id>.json の sources[].pdf_page_offset(差が途中で変わる原典は pdf_page_offsets の範囲ごとの差)を使う。
 
 使い方:
   python3 tools/audit_autocheck.py <id>                  # 段1の結果を表示する(台帳は変えない)
@@ -136,15 +136,25 @@ def part_match(part, compact):
 
 # ---------------------------------------------------------------- 原典の文字データ
 class Source:
-    def __init__(self, pid, sid, offset):
+    def __init__(self, pid, sid, offset, offsets=None):
         self.pdf = RAW / pid / f"{sid}.pdf"
         if not self.pdf.exists():
             raise Stop(f"原典 PDF がありません: {self.pdf}(sources_raw/<id>/<出典id>.pdf に置く)")
         self.offset = offset
+        self.offsets = offsets   # 範囲ごとの差 [{from, to?, offset}](PLAN_SCHEMA §4 pdf_page_offsets)
         self.dir = CACHE / pid / sid
         self.dir.mkdir(parents=True, exist_ok=True)
         self._info = {}
         self.npages = None
+
+    def pdf_page(self, printed):
+        """印刷ページ → PDF のページ。pdf_page_offsets があれば範囲ごとの差を使い、どの範囲にも入らなければ None。"""
+        if self.offsets:
+            for e in self.offsets:
+                if printed >= e["from"] and (e.get("to") is None or printed <= e["to"]):
+                    return printed + e["offset"]
+            return None
+        return printed + self.offset
 
     def has_page(self, printed):
         """印刷ページ printed が PDF の範囲にあるか(pdfinfo のページ数で判定)。"""
@@ -155,7 +165,8 @@ class Source:
                 raise Stop("pdfinfo がありません。poppler-utils を入れてください(例: sudo apt install poppler-utils)")
             m = re.search(r"^Pages:\s+(\d+)", out, re.M)
             self.npages = int(m.group(1)) if m else 0
-        return 1 <= printed + self.offset <= self.npages
+        pdfp = self.pdf_page(printed)
+        return pdfp is not None and 1 <= pdfp <= self.npages
 
     def _text(self, pdfp, mode):
         f = self.dir / f"{mode}{pdfp:03d}.txt"
@@ -175,7 +186,9 @@ class Source:
         return f
 
     def info(self, printed):
-        pdfp = printed + self.offset
+        pdfp = self.pdf_page(printed)
+        if pdfp is None:
+            return None
         if pdfp in self._info:
             return self._info[pdfp]
         lay, raw = self._text(pdfp, "layout"), self._text(pdfp, "raw")
@@ -367,7 +380,7 @@ def load(pid):
     srcs = {}
     for s in plan.get("sources", []):
         if (RAW / pid / f"{s['id']}.pdf").exists():
-            srcs[s["id"]] = Source(pid, s["id"], s.get("pdf_page_offset", 0))
+            srcs[s["id"]] = Source(pid, s["id"], s.get("pdf_page_offset", 0), s.get("pdf_page_offsets"))
     if not srcs:
         raise Stop(f"原典 PDF が1つもありません: {RAW / pid}/<出典id>.pdf")
     return plan, rows, srcs
@@ -497,7 +510,8 @@ def cmd_ai_items(pid):
     for (tab, bno), lst in blocks.items():
         sid = lst[0]["source"].split(" ", 1)[0]
         pages = sorted({p for r in lst for p in page_list(r["source"])})
-        imgs = [str(srcs[sid].image(p + srcs[sid].offset)) for p in pages] if sid in srcs else []
+        imgs = ([str(srcs[sid].image(q)) for q in (srcs[sid].pdf_page(p) for p in pages) if q is not None]
+                if sid in srcs else [])
         items.append({"ブロック": lst[0]["block_label"], "タブ": tab, "種類": lst[0]["btype"], "出典": lst[0]["source"],
                       "ページ画像": imgs,
                       "行": [{"key": r["key"], "項目": r["label"], "値": r["value"], "単位": r["unit"]} for r in lst]})

@@ -76,46 +76,46 @@ e8186c0dcc3476a0	genjo	2	table	日野町の幼稚園・保育所等の定員、�
 5853991c6a5f79d5	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/園児在籍数(人)	19		honpen p.8	✓	auto:ai	2026-10-10	
 0d50bdb1c5efc423	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/定員に対する充足率(%)	100.0		honpen p.8	✓	auto:ai	2026-10-10	
 7aed5aeb6d3be1db	genjo	2	table	日野町の幼稚園・保育所等の定員、在籍数および施設の状況	みらいしゃくなげ保育園/建築経過年数(年)	35		honpen p.8	✓	auto:ai	2026-10-10	
+a61e2e6199fc30ea	genjo	4	table	日野町の待機児童数の推移	H30.4/待機児童数	1		honpen p.9	✓	auto:ai	2026-10-10	
 6caac78dbf98f89c	genjo	4	table	日野町の待機児童数の推移	H30.4/①求職活動を中止している方	0		honpen p.9	✓	auto:ai	2026-10-10	
 45b35e7fdd94b80d	genjo	4	table	日野町の待機児童数の推移	H30.4/②特定の保育園等を希望している方	0		honpen p.9	✓	auto:ai	2026-10-10	
 4236b3d2d1e41f5b	genjo	4	table	日野町の待機児童数の推移	H30.4/③育児休業中の方	4		honpen p.9	✓	auto:ai	2026-10-10	
 a984a5f0c5503dba	genjo	4	table	日野町の待機児童数の推移	H30.4/小計(①+②+③)	4		honpen p.9	✓	auto:ai	2026-10-10	
-a61e2e6199fc30ea	genjo	4	table	日野町の待機児童数の推移	H30.4/待機児童数	1		honpen p.9	✓	auto:ai	2026-10-10	
+47f2be7fb87d0fe7	genjo	4	table	日野町の待機児童数の推移	H31.4/待機児童数	1		honpen p.9	✓	auto:ai	2026-10-10	
 1698b1458ab6f517	genjo	4	table	日野町の待機児童数の推移	H31.4/①求職活動を中止している方	0		honpen p.9	✓	auto:ai	2026-10-10	
 c668b642fda0f2f1	genjo	4	table	日野町の待機児童数の推移	H31.4/②特定の保育園等を希望している方	0		honpen p.9	✓	auto:ai	2026-10-10	
 80515051c1d7f142	genjo	4	table	日野町の待機児童数の推移	H31.4/③育児休業中の方	2		honpen p.9	✓	auto:ai	2026-10-10	
 d3c3bc237e709efc	genjo	4	table	日野町の待機児童数の推移	H31.4/小計(①+②+③)	2		honpen p.9	✓	auto:ai	2026-10-10	
-47f2be7fb87d0fe7	genjo	4	table	日野町の待機児童数の推移	H31.4/待機児童数	1		honpen p.9	✓	auto:ai	2026-10-10	
+d6346496c2f0727b	genjo	4	table	日野町の待機児童数の推移	R2.4/待機児童数	2		honpen p.9	✓	auto:ai	2026-10-10	
 13c58d22797d80c7	genjo	4	table	日野町の待機児童数の推移	R2.4/①求職活動を中止している方	0		honpen p.9	✓	auto:ai	2026-10-10	
 24c0ce729c8ad810	genjo	4	table	日野町の待機児童数の推移	R2.4/②特定の保育園等を希望している方	0		honpen p.9	✓	auto:ai	2026-10-10	
 800d2ec4153dbc23	genjo	4	table	日野町の待機児童数の推移	R2.4/③育児休業中の方	7		honpen p.9	✓	auto:ai	2026-10-10	
 712b45df54f43bb1	genjo	4	table	日野町の待機児童数の推移	R2.4/小計(①+②+③)	7		honpen p.9	✓	auto:ai	2026-10-10	
-d6346496c2f0727b	genjo	4	table	日野町の待機児童数の推移	R2.4/待機児童数	2		honpen p.9	✓	auto:ai	2026-10-10	
+6da480683ba72eb7	genjo	4	table	日野町の待機児童数の推移	R3.4/待機児童数	3		honpen p.9	✓	auto:ai	2026-10-10	
 ed6b03db98d32bc6	genjo	4	table	日野町の待機児童数の推移	R3.4/①求職活動を中止している方	1		honpen p.9	✓	auto:ai	2026-10-10	
 bdd2b5c28cafcbd5	genjo	4	table	日野町の待機児童数の推移	R3.4/②特定の保育園等を希望している方	13		honpen p.9	✓	auto:ai	2026-10-10	
 b2eae60e60b6562b	genjo	4	table	日野町の待機児童数の推移	R3.4/③育児休業中の方	10		honpen p.9	✓	auto:ai	2026-10-10	
 1d6b87d3e586dbee	genjo	4	table	日野町の待機児童数の推移	R3.4/小計(①+②+③)	24		honpen p.9	✓	auto:ai	2026-10-10	
-6da480683ba72eb7	genjo	4	table	日野町の待機児童数の推移	R3.4/待機児童数	3		honpen p.9	✓	auto:ai	2026-10-10	
+f8de15d32a0b2956	genjo	4	table	日野町の待機児童数の推移	R4.4/待機児童数	6		honpen p.9	✓	auto:ai	2026-10-10	
 01bbb4a38a4757c8	genjo	4	table	日野町の待機児童数の推移	R4.4/①求職活動を中止している方	2		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
 196b3a7b621ba85c	genjo	4	table	日野町の待機児童数の推移	R4.4/②特定の保育園等を希望している方	7		honpen p.9	✓	auto:ai	2026-10-10	
 4e4f2ae675b8f91d	genjo	4	table	日野町の待機児童数の推移	R4.4/③育児休業中の方	7		honpen p.9	✓	auto:ai	2026-10-10	
 3c22dd06a66b562e	genjo	4	table	日野町の待機児童数の推移	R4.4/小計(①+②+③)	16		honpen p.9	✓	auto:ai	2026-10-10	
-f8de15d32a0b2956	genjo	4	table	日野町の待機児童数の推移	R4.4/待機児童数	6		honpen p.9	✓	auto:ai	2026-10-10	
+be4977db9f750459	genjo	4	table	日野町の待機児童数の推移	R5.4/待機児童数	4		honpen p.9	✓	auto:ai	2026-10-10	
 9fbf28ac73217943	genjo	4	table	日野町の待機児童数の推移	R5.4/①求職活動を中止している方	1		honpen p.9	✓	auto:ai	2026-10-10	
 e71b8db26a1ab342	genjo	4	table	日野町の待機児童数の推移	R5.4/②特定の保育園等を希望している方	13		honpen p.9	✓	auto:ai	2026-10-10	
 08d68d651a0764fc	genjo	4	table	日野町の待機児童数の推移	R5.4/③育児休業中の方	20		honpen p.9	✓	auto:ai	2026-10-10	
 1f7772b36c29931f	genjo	4	table	日野町の待機児童数の推移	R5.4/小計(①+②+③)	34		honpen p.9	✓	auto:ai	2026-10-10	
-be4977db9f750459	genjo	4	table	日野町の待機児童数の推移	R5.4/待機児童数	4		honpen p.9	✓	auto:ai	2026-10-10	
+7f588ff28887d3d8	genjo	4	table	日野町の待機児童数の推移	R6.4/待機児童数	8		honpen p.9	✓	auto:ai	2026-10-10	
 b9dd9f3dc7d26be8	genjo	4	table	日野町の待機児童数の推移	R6.4/①求職活動を中止している方	3		honpen p.9	✓	auto:ai	2026-10-10	
 63b7cc8f82d4e6ec	genjo	4	table	日野町の待機児童数の推移	R6.4/②特定の保育園等を希望している方	15		honpen p.9	✓	auto:ai	2026-10-10	
 6c3f65236a26f666	genjo	4	table	日野町の待機児童数の推移	R6.4/③育児休業中の方	16		honpen p.9	✓	auto:ai	2026-10-10	
 97dd83586351303f	genjo	4	table	日野町の待機児童数の推移	R6.4/小計(①+②+③)	34		honpen p.9	✓	auto:ai	2026-10-10	
-7f588ff28887d3d8	genjo	4	table	日野町の待機児童数の推移	R6.4/待機児童数	8		honpen p.9	✓	auto:ai	2026-10-10	
+5e3cbc58274da9ff	genjo	4	table	日野町の待機児童数の推移	R7.4/待機児童数	3		honpen p.9	✓	auto:ai	2026-10-10	
 e887afb8042289e2	genjo	4	table	日野町の待機児童数の推移	R7.4/①求職活動を中止している方	2		honpen p.9	✓	auto:ai	2026-10-10	
 12f57a9b9faab8be	genjo	4	table	日野町の待機児童数の推移	R7.4/②特定の保育園等を希望している方	2		honpen p.9	✓	auto:ai	2026-10-10	
 04f1daf327cddc08	genjo	4	table	日野町の待機児童数の推移	R7.4/③育児休業中の方	11		honpen p.9	✓	auto:ai	2026-10-10	
 3a044c25b37b89b0	genjo	4	table	日野町の待機児童数の推移	R7.4/小計(①+②+③)	15		honpen p.9	✓	auto:ai	2026-10-10	
-5e3cbc58274da9ff	genjo	4	table	日野町の待機児童数の推移	R7.4/待機児童数	3		honpen p.9	✓	auto:ai	2026-10-10	
 f86682ee63cfd52d	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H24	315	人	honpen p.7	✓	auto:ai	2026-10-10	
 d63679ef47bf0e7b	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H25	330	人	honpen p.7	✓	auto:ai	2026-10-10	
 412fe2b7fb8f643a	genjo	6	chart.line	保育所入所者数と幼稚園入所者数の推移	保育所入所者数/H26	362	人	honpen p.7	✓	auto:ai	2026-10-10	
@@ -790,18 +790,18 @@ d55f18c54b334a9f	jinko	11	table	各年齢別人口の実績値と推計値(R2〜
 9b7ffd5c75139d3c	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R9	199		honpen p.6	✓	auto:ai	2026-10-10	
 89dd7cb4b976410a	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R10	218		honpen p.6	✓	auto:ai	2026-10-10	
 7d26b11320b2f59b	jinko	11	table	各年齢別人口の実績値と推計値(R2〜R11)	17歳/R11	167		honpen p.6	✓	auto:ai	2026-10-10	
+3fd3af21584072c3	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/日野町	8.6		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
 88f12432533d4cd3	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/全国	7.6		honpen p.10	✓	auto:ai	2026-10-10	
 7705901fd606d719	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/滋賀県	9.2		honpen p.10	✓	auto:ai	2026-10-10	
-3fd3af21584072c3	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	6歳未満親族のいる一般世帯/日野町	8.6		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+79203f1ec347ecc7	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/日野町	15.5		honpen p.10	✓	auto:ai	2026-10-10	
 3e15bcb5583ec48f	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/全国	13.4		honpen p.10	✓	auto:ai	2026-10-10	
 feeb22c9fcde6afa	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/滋賀県	16.4		honpen p.10	✓	auto:ai	2026-10-10	
-79203f1ec347ecc7	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	12歳未満親族のいる一般世帯/日野町	15.5		honpen p.10	✓	auto:ai	2026-10-10	
+4cc7046567eaaddc	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/日野町	18.6		honpen p.10	✓	auto:ai	2026-10-10	
 7a6a7b699605ce42	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/全国	16.3		honpen p.10	✓	auto:ai	2026-10-10	
 2fc5e2c7e52f9c76	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/滋賀県	19.9		honpen p.10	✓	auto:ai	2026-10-10	
-4cc7046567eaaddc	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	15歳未満親族のいる一般世帯/日野町	18.6		honpen p.10	✓	auto:ai	2026-10-10	
+99924c26cfcb3dc1	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/日野町	22.1		honpen p.10	✓	auto:ai	2026-10-10	
 4d204e7687b1155d	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/全国	19.3		honpen p.10	✓	auto:ai	2026-10-10	
 676d9bd08da01940	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/滋賀県	23.4		honpen p.10	✓	auto:ai	2026-10-10	
-99924c26cfcb3dc1	katei	2	table	全国・滋賀県・日野町の子どもがいる世帯の状況(%)	18歳未満親族のいる一般世帯/日野町	22.1		honpen p.10	✓	auto:ai	2026-10-10	
 11a9a9c3c0ec2c19	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	一般世帯/世帯数(世帯)	7918		honpen p.10	✓	auto:pdftext	2026-10-10	
 f82bb69779c29596	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	一般世帯/世帯人員(人)	20564		honpen p.10	✓	auto:pdftext	2026-10-10	
 57a81a4f5c1cc2c7	katei	3	table	日野町の6歳未満の子どもがいる世帯の世帯構造	一般世帯/6歳未満人員(人)	938		honpen p.10	✓	auto:pdftext	2026-10-10	

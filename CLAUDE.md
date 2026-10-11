@@ -79,6 +79,9 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 #    段4 人による確認(Claude はここで止まり、依頼者に引き渡す):
 #        規則 H1〜H4(ADR-7 補遺 L)で選んだ行と、段3の指摘を人が原典と見比べる
 #        python3 tools/audit_worksheet.py <id> --focus   # 要人確認の行だけのワークシート → --import
+#        スマホで原典ページの該当箇所を見ながら確認するとき(ADR-7 補遺 M):
+#        python3 tools/audit_review.py [<id> ...]        # → build/audit/review/(claude.ai の非公開ページとして公開する)
+#        python3 tools/audit_review.py --import <結果.json>  # ページのデータベースの結果を台帳へ(違う=印を外し正しい値を note に)
 #        python3 tools/audit_autocheck.py <id> --status  # 完了の判定
 #        python3 tools/audit_index.py                    # 全計画の要人確認のワークシートと目次 build/audit/index.html を作る
 ```

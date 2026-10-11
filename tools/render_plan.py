@@ -29,6 +29,7 @@
 import base64
 import html
 import json
+from collections import Counter
 import math
 import mimetypes
 import sys
@@ -498,9 +499,16 @@ class Renderer:
             return (f'<div class="ev">{no}'
                     f'<div class="etwrap"><div class="et">{esc(it["name"])}</div>{dept}{meta(it)}</div></div>')
 
+        # 同じブロックに同じ名前の事業があれば、照合表では出現順で区別する(突合キーの重複を避ける。PLAN_SCHEMA programs)
+        name_count = Counter(it["name"] for _, it in self._program_items(b))
+        name_seen = Counter()
+
         def audit_item(it):
             # 照合表: 事業費・実施年度・年度ごとの金額を1行ずつ(PLAN_SCHEMA programs「実施年度と事業費」)
             name, src = it["name"], b.get("source")
+            if name_count[name] > 1:
+                name_seen[name] += 1
+                name = f"{name}(同じ名前の{name_seen[name]}件目)"
             c = it.get("cost")
             if c:
                 self.audit(tab_id, block_no, "programs.cost", f'{name}/{c.get("label") or "事業費"}',

@@ -225,9 +225,12 @@
   border:1px solid var(--line2);border-radius:var(--r2)}
 .hpv1 table{border-collapse:collapse;width:100%;font-size:var(--fs-small)}
 .hpv1 th,.hpv1 td{padding:8px 13px;text-align:right;border-bottom:1px solid var(--line2);white-space:nowrap}
-.hpv1 th:first-child,.hpv1 td:first-child{text-align:left}
+/* 1列目(行の名前)は折り返し、横に送るときも左端に留める(ADR-8「表の値の列が画面の外に出る」) */
+.hpv1 th:first-child,.hpv1 td:first-child{text-align:left;white-space:normal;min-width:7em;
+  position:sticky;left:0;z-index:1;background:var(--card);box-shadow:inset -1px 0 0 var(--line2)}
 .hpv1 th.txt,.hpv1 td.txt{text-align:left;white-space:normal;min-width:16em}
 .hpv1 thead th{background:color-mix(in srgb,var(--accent) 6%,var(--card));font-weight:700;color:var(--ink2)}
+.hpv1 thead th:first-child{background:color-mix(in srgb,var(--accent) 6%,var(--card))}
 .hpv1 tbody tr:last-child td{border-bottom:0}
 .hpv1 td.neg{color:var(--danger);font-weight:800}
 .hpv1 td.pos{color:var(--ok);font-weight:800}
@@ -403,6 +406,9 @@
   .hpv1 .tabs::-webkit-scrollbar{display:none}
   .hpv1 .tab{flex:none;white-space:nowrap}
   .hpv1 .pgrid{grid-template-columns:1fr}
+  /* 表: 余白を詰め、文章列の最小幅を縮めて、値の列を最初の画面に入れる(ADR-8) */
+  .hpv1 th,.hpv1 td{padding:8px 9px}
+  .hpv1 th.txt,.hpv1 td.txt{min-width:11em}
   /* チャート: 名前は棒の上の行に置き、棒の長さを確保する(ADR-8) */
   .hpv1 .hb{grid-template-columns:minmax(0,1fr) var(--vw,4em);row-gap:2px}
   .hpv1 .hb-l{grid-column:1/-1;text-align:left;margin-top:6px}

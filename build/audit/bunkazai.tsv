@@ -2,106 +2,107 @@ tab	block_no	btype	block_label	label	value	unit	source
 summary	2	kpi		指定等文化財	91	件	hino-bunkazaikeikaku_ppt p.1
 summary	2	kpi		未指定文化財	2231	件	hino-bunkazaikeikaku_ppt p.1
 summary	2	kpi		地域遺産	1039	件	hino-bunkazaikeikaku_ppt p.1
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/総計	78		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/国 指定	14		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/国 登録	12		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/県 指定	11		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/町 指定	41		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	有形文化財/総計	78		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/総計	42		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/国 指定	4		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/国 登録	12		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/県 指定	3		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/町 指定	23		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	建造物/総計	42		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/総計	36		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/国 指定	10		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/県 指定	8		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/町 指定	18		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	美術工芸品/総計	36		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/総計	5		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/県 指定	3		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/町 指定	2		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	絵画/総計	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/総計	18		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/国 指定	10		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/県 指定	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/町 指定	7		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	彫刻/総計	18		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/総計	7		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/県 指定	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/町 指定	6		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	工芸品/総計	7		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/総計	6		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/県 指定	3		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/町 指定	3		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	書跡・典籍/総計	6		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/総計	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/県 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	古文書/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/総計	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/県 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	考古資料/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/総計	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/県 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	歴史資料/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/総計	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/国 選択	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/県 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	無形文化財/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/総計	6		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/国 指定	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/国 選択	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/県 指定	2		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/県 選択	3		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	民俗文化財/総計	6		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/総計	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/国 選択	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/県 指定	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	有形の民俗文化財/総計	1		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/総計	5		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/国 指定	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/国 選択	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/県 指定	1		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/県 選択	3		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	無形の民俗文化財/総計	5		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/総計	7		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/国 指定	5		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/県 指定	2		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	記念物/総計	7		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/総計	2		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/県 指定	2		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	遺跡/総計	2		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/総計	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/国 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/県 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	名勝地/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/総計	5		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/国 指定	5		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/国 登録	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/県 指定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/町 指定	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	動物・植物・地質鉱物/総計	5		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	文化的景観/国 選定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	文化的景観/総計	0		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	伝統的建造物群/国 選定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	文化的景観/国 選定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	伝統的建造物群/総計	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	伝統的建造物群/国 選定	0		honpen-04 p.3
+takara	5	table	指定等文化財件数（令和6年8月現在）	総計/総計	91		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 指定	20		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 選定	0		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 選択	0		honpen-04 p.3
@@ -109,7 +110,6 @@ takara	5	table	指定等文化財件数（令和6年8月現在）	総計/国 登
 takara	5	table	指定等文化財件数（令和6年8月現在）	総計/県 指定	15		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	総計/県 選択	3		honpen-04 p.3
 takara	5	table	指定等文化財件数（令和6年8月現在）	総計/町 指定	41		honpen-04 p.3
-takara	5	table	指定等文化財件数（令和6年8月現在）	総計/総計	91		honpen-04 p.3
 takara	8	table	未指定文化財件数（令和6年8月現在）	有形文化財/件数	1681		honpen-04 p.14
 takara	8	table	未指定文化財件数（令和6年8月現在）	建造物/件数	402		honpen-04 p.14
 takara	8	table	未指定文化財件数（令和6年8月現在）	美術工芸品/件数	1279		honpen-04 p.14

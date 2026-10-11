@@ -40,32 +40,32 @@
   },
   {
    "id": "honpen-02",
-   "label": "第6次日野町総合計画 本編 第2部 基本構想(印刷ページ19-36。出典のページはこのPDFファイルのページ番号で、印刷ページはその数に18を足したもの)",
+   "label": "第6次日野町総合計画 本編 第2部 基本構想(冊子のp.19〜36。ページはこのファイルの中の番号)",
    "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000001/1791/02.pdf"
   },
   {
    "id": "honpen-03",
-   "label": "第6次日野町総合計画 本編 第3部 基本計画 分野①〜⑧(印刷ページ37-57。出典のページはこのPDFファイルのページ番号で、印刷ページはその数に36を足したもの)",
+   "label": "第6次日野町総合計画 本編 第3部 基本計画 分野①〜⑧(冊子のp.37〜57。ページはこのファイルの中の番号)",
    "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000001/1791/03.pdf"
   },
   {
    "id": "honpen-04",
-   "label": "第6次日野町総合計画 本編 第3部 基本計画 分野⑨〜㉑(印刷ページ58-83。出典のページはこのPDFファイルのページ番号で、印刷ページはその数に57を足したもの)",
+   "label": "第6次日野町総合計画 本編 第3部 基本計画 分野⑨〜㉑(冊子のp.58〜83。ページはこのファイルの中の番号)",
    "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000001/1791/04.pdf"
   },
   {
    "id": "honpen-05",
-   "label": "第6次日野町総合計画 本編 第3部 基本計画 分野㉒〜㉞(印刷ページ84-110。出典のページはこのPDFファイルのページ番号で、印刷ページはその数に83を足したもの)",
+   "label": "第6次日野町総合計画 本編 第3部 基本計画 分野㉒〜㉞(冊子のp.84〜110。ページはこのファイルの中の番号)",
    "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000001/1791/05.pdf"
   },
   {
    "id": "honpen-06",
-   "label": "第6次日野町総合計画 本編 第4部 計画の推進(印刷ページ111-124。出典のページはこのPDFファイルのページ番号で、印刷ページはその数に110を足したもの)",
+   "label": "第6次日野町総合計画 本編 第4部 計画の推進(冊子のp.111〜124。ページはこのファイルの中の番号)",
    "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000001/1791/06.pdf"
   },
   {
    "id": "honpen-07",
-   "label": "第6次日野町総合計画 本編 第5部 住民参画〜資料編(印刷ページ125-140と資料編。出典のページはこのPDFファイルのページ番号で、印刷ページはその数に124を足したもの)",
+   "label": "第6次日野町総合計画 本編 第5部 住民参画〜資料編(冊子のp.125〜140と資料編。ページはこのファイルの中の番号)",
    "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000001/1791/07.pdf"
   },
   {
@@ -113,7 +113,7 @@
        "value": 12459,
        "unit": "人",
        "asof": "R42",
-       "delta": "社人研の推計に準拠した長期人口推計",
+       "delta": "国立社会保障・人口問題研究所(社人研)の推計に準拠した長期人口推計",
        "trend": "down"
       }
      ]
@@ -1038,7 +1038,7 @@
      "source": "honpen-03 p.6",
      "fold": {
       "label": "① 子ども・子育て",
-      "summary": "指標3つ"
+      "summary": "指標と目標値(3つ)"
      },
      "head": [
       "指標",
@@ -1138,7 +1138,7 @@
      "source": "honpen-03 p.9",
      "fold": {
       "label": "② 学校教育",
-      "summary": "指標1つ"
+      "summary": "指標と目標値(1つ)"
      },
      "head": [
       "指標",
@@ -1197,7 +1197,7 @@
      "source": "honpen-03 p.11",
      "fold": {
       "label": "③ 地域で子どもを育む",
-      "summary": "指標8つ"
+      "summary": "指標と目標値(8つ)"
      },
      "head": [
       "指標",
@@ -1303,7 +1303,7 @@
      "source": "honpen-03 p.13",
      "fold": {
       "label": "④ 生涯学習・スポーツ",
-      "summary": "指標4つ"
+      "summary": "指標と目標値(4つ)"
      },
      "head": [
       "指標",
@@ -1379,7 +1379,7 @@
      "source": "honpen-03 p.15",
      "fold": {
       "label": "⑤ 図書館",
-      "summary": "指標8つ"
+      "summary": "指標と目標値(8つ)"
      },
      "head": [
       "指標",
@@ -1479,7 +1479,7 @@
      "source": "honpen-03 p.17",
      "fold": {
       "label": "⑥ 歴史文化",
-      "summary": "指標5つ"
+      "summary": "指標と目標値(5つ)"
      },
      "head": [
       "指標",
@@ -1567,7 +1567,7 @@
      "source": "honpen-03 p.19",
      "fold": {
       "label": "⑦ 人権",
-      "summary": "指標1つ"
+      "summary": "指標と目標値(1つ)"
      },
      "head": [
       "指標",
@@ -1619,7 +1619,7 @@
      "source": "honpen-03 p.21",
      "fold": {
       "label": "⑧ 男女共同参画",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -1693,7 +1693,7 @@
      "source": "honpen-04 p.2",
      "fold": {
       "label": "⑨ 農業",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -1757,7 +1757,7 @@
      "source": "honpen-04 p.4",
      "fold": {
       "label": "⑩ 森林・林業",
-      "summary": "指標1つ"
+      "summary": "指標と目標値(1つ)"
      },
      "head": [
       "指標",
@@ -1821,7 +1821,7 @@
      "source": "honpen-04 p.6",
      "fold": {
       "label": "⑪ 中小・小規模企業支援",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -1879,7 +1879,7 @@
      "source": "honpen-04 p.8",
      "fold": {
       "label": "⑫ 企業・新産業の誘致",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -1938,7 +1938,7 @@
      "source": "honpen-04 p.10",
      "fold": {
       "label": "⑬ 雇用・労働環境",
-      "summary": "指標3つ"
+      "summary": "指標と目標値(3つ)"
      },
      "head": [
       "指標",
@@ -2002,7 +2002,7 @@
      "source": "honpen-04 p.12",
      "fold": {
       "label": "⑭ 観光振興",
-      "summary": "指標3つ"
+      "summary": "指標と目標値(3つ)"
      },
      "head": [
       "指標",
@@ -2060,7 +2060,7 @@
      "source": "honpen-04 p.14",
      "fold": {
       "label": "⑮ 地元商工業の振興",
-      "summary": "指標3つ"
+      "summary": "指標と目標値(3つ)"
      },
      "head": [
       "指標",
@@ -2133,7 +2133,7 @@
      "source": "honpen-04 p.16",
      "fold": {
       "label": "⑯ 地域福祉",
-      "summary": "指標7つ"
+      "summary": "指標と目標値(7つ)"
      },
      "head": [
       "指標",
@@ -2227,7 +2227,7 @@
      "source": "honpen-04 p.18",
      "fold": {
       "label": "⑰ 健康・医療",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -2297,7 +2297,7 @@
      "source": "honpen-04 p.20",
      "fold": {
       "label": "⑱ 高齢者福祉",
-      "summary": "指標5つ"
+      "summary": "指標と目標値(5つ)"
      },
      "head": [
       "指標",
@@ -2380,7 +2380,7 @@
      "source": "honpen-04 p.22",
      "fold": {
       "label": "⑲ 障がい福祉",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -2444,7 +2444,7 @@
      "source": "honpen-04 p.24",
      "fold": {
       "label": "⑳ 循環型社会",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -2509,7 +2509,7 @@
      "source": "honpen-04 p.26",
      "fold": {
       "label": "㉑ 環境共生",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -2587,7 +2587,7 @@
      "source": "honpen-05 p.2",
      "fold": {
       "label": "㉒ 防犯・交通安全",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -2651,7 +2651,7 @@
      "source": "honpen-05 p.4",
      "fold": {
       "label": "㉓ 防災・消防",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -2715,7 +2715,7 @@
      "source": "honpen-05 p.6",
      "fold": {
       "label": "㉔ 都市計画",
-      "summary": "指標5つ"
+      "summary": "指標と目標値(5つ)"
      },
      "head": [
       "指標",
@@ -2798,7 +2798,7 @@
      "source": "honpen-05 p.8",
      "fold": {
       "label": "㉕ 公共交通",
-      "summary": "指標5つ"
+      "summary": "指標と目標値(5つ)"
      },
      "head": [
       "指標",
@@ -2881,7 +2881,7 @@
      "source": "honpen-05 p.10",
      "fold": {
       "label": "㉖ 住環境",
-      "summary": "指標7つ"
+      "summary": "指標と目標値(7つ)"
      },
      "head": [
       "指標",
@@ -2978,7 +2978,7 @@
      "source": "honpen-05 p.12",
      "fold": {
       "label": "㉗ 上水道・下水道",
-      "summary": "指標1つ"
+      "summary": "指標と目標値(1つ)"
      },
      "head": [
       "指標",
@@ -3030,7 +3030,7 @@
      "source": "honpen-05 p.14",
      "fold": {
       "label": "㉘ 景観",
-      "summary": "指標1つ"
+      "summary": "指標と目標値(1つ)"
      },
      "head": [
       "指標",
@@ -3082,7 +3082,7 @@
      "source": "honpen-05 p.16",
      "fold": {
       "label": "㉙ 情報化社会への対応",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -3156,7 +3156,7 @@
      "source": "honpen-05 p.18",
      "fold": {
       "label": "㉚ 進取のまちづくり",
-      "summary": "指標3つ"
+      "summary": "指標と目標値(3つ)"
      },
      "head": [
       "指標",
@@ -3231,7 +3231,7 @@
      "source": "honpen-05 p.20",
      "fold": {
       "label": "㉛ 交流・移住",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -3319,7 +3319,7 @@
      "source": "honpen-05 p.24",
      "fold": {
       "label": "㉝ 行政運営",
-      "summary": "指標2つ"
+      "summary": "指標と目標値(2つ)"
      },
      "head": [
       "指標",
@@ -3377,7 +3377,7 @@
      "source": "honpen-05 p.26",
      "fold": {
       "label": "㉞ 財政基盤",
-      "summary": "指標5つ"
+      "summary": "指標と目標値(5つ)"
      },
      "head": [
       "指標",
@@ -3680,6 +3680,7 @@
      "source": "honpen-06 p.4",
      "title": "財政規模の推移(歳入と歳出)",
      "unit": "千万円",
+     "note": "単位は千万円です(100千万円が10億円にあたります)。",
      "keys": [
       {
        "k": "歳入",

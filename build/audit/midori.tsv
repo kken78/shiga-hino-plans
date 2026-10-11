@@ -8,36 +8,36 @@ summary	3	target.base		一人当たりの都市公園等面積	19.0	㎡/人	honp
 summary	3	target.target		一人当たりの都市公園等面積	22.7	㎡/人	honpen p.67
 summary	3	target.base		緑地や公園等のレクリエーション施設が利用しやすいと答えた住民の割合	34.1	%	honpen p.67
 summary	3	target.target		緑地や公園等のレクリエーション施設が利用しやすいと答えた住民の割合	40.0	%	honpen p.67
-midori	4	table	緑被面積及び割合	樹林地、草地/市街化区域 面積（㎡）	2356215		gaiyo p.2
 midori	4	table	緑被面積及び割合	樹林地、草地/市街化区域 割合（%）	32.9		gaiyo p.2
-midori	4	table	緑被面積及び割合	樹林地、草地/市街化調整区域 面積（㎡）	77570355		gaiyo p.2
 midori	4	table	緑被面積及び割合	樹林地、草地/市街化調整区域 割合（%）	70.2		gaiyo p.2
-midori	4	table	緑被面積及び割合	樹林地、草地/合計 面積（㎡）	79926570		gaiyo p.2
 midori	4	table	緑被面積及び割合	樹林地、草地/合計 割合（%）	68.0		gaiyo p.2
-midori	4	table	緑被面積及び割合	農地/市街化区域 面積（㎡）	380483		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/市街化区域 面積（㎡）	2356215		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/市街化調整区域 面積（㎡）	77570355		gaiyo p.2
+midori	4	table	緑被面積及び割合	樹林地、草地/合計 面積（㎡）	79926570		gaiyo p.2
 midori	4	table	緑被面積及び割合	農地/市街化区域 割合（%）	5.3		gaiyo p.2
-midori	4	table	緑被面積及び割合	農地/市街化調整区域 面積（㎡）	22664589		gaiyo p.2
 midori	4	table	緑被面積及び割合	農地/市街化調整区域 割合（%）	20.5		gaiyo p.2
-midori	4	table	緑被面積及び割合	農地/合計 面積（㎡）	23045072		gaiyo p.2
 midori	4	table	緑被面積及び割合	農地/合計 割合（%）	19.6		gaiyo p.2
-midori	4	table	緑被面積及び割合	水面/市街化区域 面積（㎡）	123246		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/市街化区域 面積（㎡）	380483		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/市街化調整区域 面積（㎡）	22664589		gaiyo p.2
+midori	4	table	緑被面積及び割合	農地/合計 面積（㎡）	23045072		gaiyo p.2
 midori	4	table	緑被面積及び割合	水面/市街化区域 割合（%）	1.7		gaiyo p.2
-midori	4	table	緑被面積及び割合	水面/市街化調整区域 面積（㎡）	2629562		gaiyo p.2
 midori	4	table	緑被面積及び割合	水面/市街化調整区域 割合（%）	2.4		gaiyo p.2
-midori	4	table	緑被面積及び割合	水面/合計 面積（㎡）	2752808		gaiyo p.2
 midori	4	table	緑被面積及び割合	水面/合計 割合（%）	2.3		gaiyo p.2
-midori	4	table	緑被面積及び割合	合計/市街化区域 面積（㎡）	2859944		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/市街化区域 面積（㎡）	123246		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/市街化調整区域 面積（㎡）	2629562		gaiyo p.2
+midori	4	table	緑被面積及び割合	水面/合計 面積（㎡）	2752808		gaiyo p.2
 midori	4	table	緑被面積及び割合	合計/市街化区域 割合（%）	40.0		gaiyo p.2
-midori	4	table	緑被面積及び割合	合計/市街化調整区域 面積（㎡）	102864505		gaiyo p.2
 midori	4	table	緑被面積及び割合	合計/市街化調整区域 割合（%）	93.1		gaiyo p.2
-midori	4	table	緑被面積及び割合	合計/合計 面積（㎡）	105724450		gaiyo p.2
 midori	4	table	緑被面積及び割合	合計/合計 割合（%）	89.9		gaiyo p.2
-midori	7	table	緑地面積及び割合	緑地/市街化区域 面積（㎡）	1766724		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/市街化区域 面積（㎡）	2859944		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/市街化調整区域 面積（㎡）	102864505		gaiyo p.2
+midori	4	table	緑被面積及び割合	合計/合計 面積（㎡）	105724450		gaiyo p.2
 midori	7	table	緑地面積及び割合	緑地/市街化区域 割合（%）	24.7		gaiyo p.2
-midori	7	table	緑地面積及び割合	緑地/市街化調整区域 面積（㎡）	102002837		gaiyo p.2
 midori	7	table	緑地面積及び割合	緑地/市街化調整区域 割合（%）	92.4		gaiyo p.2
-midori	7	table	緑地面積及び割合	緑地/合計 面積（㎡）	103769561		gaiyo p.2
 midori	7	table	緑地面積及び割合	緑地/合計 割合（%）	88.2		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/市街化区域 面積（㎡）	1766724		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/市街化調整区域 面積（㎡）	102002837		gaiyo p.2
+midori	7	table	緑地面積及び割合	緑地/合計 面積（㎡）	103769561		gaiyo p.2
 midori	8	table	緑地面積の内訳	内池公園/市街化区域（㎡）	16000		honpen p.47
 midori	8	table	緑地面積の内訳	内池公園/市街化調整区域（㎡）	0		honpen p.47
 midori	8	table	緑地面積の内訳	内池公園/合計（㎡）	16000		honpen p.47

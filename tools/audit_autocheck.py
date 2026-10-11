@@ -300,6 +300,13 @@ def stage1(rows, srcs, only=None):
         sid = (r["source"] or "").split(" ", 1)[0]
         pages = page_list(r["source"])
         src = srcs.get(sid)
+        if r["btype"] == "programs.years":
+            # 実施年度(○の年度)は数値でないが、ページ画像で確かめやすいので段2に回す(ADR-7 補遺 L、2026-10 追加)
+            if src is None or not pages or not all(src.has_page(p) for p in pages):
+                res.update(why="出典の PDF やページがない", h2=True)
+            else:
+                res.update(why="実施年度(○の年度)")
+            out[id(r)] = res; continue
         if not is_num(r["value"]):
             res.update(why="数値でない", h2=True); out[id(r)] = res; continue
         if len(pages) > 3:

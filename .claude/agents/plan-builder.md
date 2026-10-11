@@ -36,6 +36,8 @@ tools: Read, Write, Edit, Bash, Glob, Grep
   確かめる(下書きは読み違いを含む)。ページ画像を片端から開かない。画像から読んだ数値は桁と小数点を2回確かめる。
   この計画では段1(機械照合)が効かないので、`--selftest` と `--apply` は省く。
 - 書きかけの `data/plans/<id>.json` が作業ツリーにあれば、それを読んで続きから書く。
+- programs の事業には key(`e001` など)を付ける。新しい事業には、validate の前に `python3 tools/program_keys.py <id>` で付ける。
+  **すでに key のある事業は、その key を引き継ぎ、振り直さない**(JSON を一から書き直すときも、前の JSON の同じ事業の key を写す)。
 - 住民が知りたい順にタブを組み直す(CLAUDE.md「抽出時の判断基準」)。まとめタブ(tabs[0]=summary)を必ず置く。
   原典の主要な表・数値目標・施策を中心にし、全ページの全数値を写す必要はない。
 - 相対年度(本年度・今年度・来年度)を書かない。色やスタイルを書かない。
@@ -44,6 +46,7 @@ tools: Read, Write, Edit, Bash, Glob, Grep
 
 ## 手順(作業ツリーの中で実行。どれかが失敗したら直して再実行。失敗を握りつぶさない)
 ```bash
+python3 tools/program_keys.py <id>                   # programs の事業がある計画だけ(付いている key は変えない)
 python3 tools/validate_schema.py data/plans/<id>.json
 python3 tools/render_plan.py <id>
 node tools/validate.mjs docs/plans/<id>.html

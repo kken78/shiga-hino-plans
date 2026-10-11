@@ -130,3 +130,15 @@ blocks	3	timeline		改修工事	R9〜R11		test
 tables	0	table	table テスト(表の題)	増減(負値・小数2桁)/値	-1.50		test
 tables	0	table	table テスト(表の題)	整数/値	1200		test
 tables	0	table	table テスト(表の題)	小数1桁/値	3.0		test
+programs	1	programs.cost	programs(実施年度・事業費・節の計)	3年とも行う事業/概算事業費	36540	千円	test p.1
+programs	1	programs.years	programs(実施年度・事業費・節の計)	3年とも行う事業/実施年度	R8・R9・R10		test p.1
+programs	1	programs.cost	programs(実施年度・事業費・節の計)	初年度だけ行う事業(名前が長い場合に折り返しを確かめる行)/概算事業費	30100	千円	test p.1
+programs	1	programs.years	programs(実施年度・事業費・節の計)	初年度だけ行う事業(名前が長い場合に折り返しを確かめる行)/実施年度	R8		test p.1
+programs	1	programs.cost	programs(実施年度・事業費・節の計)	年度ごとの金額がある事業/事業費	15000	千円	test p.1
+programs	1	programs.cost	programs(実施年度・事業費・節の計)	年度ごとの金額がある事業/R9	5000	千円	test p.1
+programs	1	programs.cost	programs(実施年度・事業費・節の計)	年度ごとの金額がある事業/R10	10000	千円	test p.1
+programs	1	programs.years	programs(実施年度・事業費・節の計)	年度ごとの金額がある事業/実施年度	R9・R10		test p.1
+programs	1	programs.cost	programs(実施年度・事業費・節の計)	説明のない事業/概算事業費	675	千円	test p.1
+programs	1	programs.years	programs(実施年度・事業費・節の計)	説明のない事業/実施年度	R10		test p.1
+programs	1	programs.total	programs(実施年度・事業費・節の計)	分野① 実施年度と事業費のある節/計	1016549	千円	test p.1
+programs	1	programs	programs(実施年度・事業費・節の計)	事業数	6	件	test p.1

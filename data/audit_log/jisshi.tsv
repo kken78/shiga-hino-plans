@@ -1,16 +1,16 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
-414be03e28077c76	summary	2	kpi		分野① 子ども・子育て	6906736	千円	honpen p.1-13				要人確認:H2 出典が4ページ以上(集計した値)
-38b2779e2ce27544	summary	2	kpi		分野⑲ 障がい福祉	3223524	千円	honpen p.1-13				要人確認:H2 出典が4ページ以上(集計した値)
-b51ae48f04357bf5	summary	2	kpi		分野⑰ 健康・医療	1898968	千円	honpen p.1-13				要人確認:H2 出典が4ページ以上(集計した値)
-b7720b56f6062241	summary	2	kpi		分野㉔ 都市計画	1431408	千円	honpen p.1-13				要人確認:H2 出典が4ページ以上(集計した値)
-02d0c8c60cb6e6e7	hito	1	chart.rank	分野ごとの概算事業費の計	分野① 子ども・子育て	6906736	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
-d79253bb3863a25d	hito	1	chart.rank	分野ごとの概算事業費の計	分野② 学校教育	1385492	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
-b994e4ca28ad7a60	hito	1	chart.rank	分野ごとの概算事業費の計	分野③ 地域で子どもを育む	672389	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
-83aaa055cf29bf28	hito	1	chart.rank	分野ごとの概算事業費の計	分野⑥ 歴史文化	548423	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
-f8943d7e210ea789	hito	1	chart.rank	分野ごとの概算事業費の計	分野⑤ 図書館	102805	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
-e65a22ad481917a5	hito	1	chart.rank	分野ごとの概算事業費の計	分野④ 生涯学習・スポーツ	20415	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
-8f981ea780bc4715	hito	1	chart.rank	分野ごとの概算事業費の計	分野⑦ 人権	6648	千円	honpen p.1-4				要人確認:H2 出典が4ページ以上(集計した値)
+414be03e28077c76	summary	2	kpi		分野① 子ども・子育て	6906736	千円	honpen p.1-13	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+38b2779e2ce27544	summary	2	kpi		分野⑲ 障がい福祉	3223524	千円	honpen p.1-13	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+b51ae48f04357bf5	summary	2	kpi		分野⑰ 健康・医療	1898968	千円	honpen p.1-13	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+b7720b56f6062241	summary	2	kpi		分野㉔ 都市計画	1431408	千円	honpen p.1-13	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+02d0c8c60cb6e6e7	hito	1	chart.rank	分野ごとの概算事業費の計	分野① 子ども・子育て	6906736	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+d79253bb3863a25d	hito	1	chart.rank	分野ごとの概算事業費の計	分野② 学校教育	1385492	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+b994e4ca28ad7a60	hito	1	chart.rank	分野ごとの概算事業費の計	分野③ 地域で子どもを育む	672389	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+83aaa055cf29bf28	hito	1	chart.rank	分野ごとの概算事業費の計	分野⑥ 歴史文化	548423	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+f8943d7e210ea789	hito	1	chart.rank	分野ごとの概算事業費の計	分野⑤ 図書館	102805	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+e65a22ad481917a5	hito	1	chart.rank	分野ごとの概算事業費の計	分野④ 生涯学習・スポーツ	20415	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+8f981ea780bc4715	hito	1	chart.rank	分野ごとの概算事業費の計	分野⑦ 人権	6648	千円	honpen p.1-4	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
 5afc2fb98a444cd4	hito	5	programs.cost	分野① 子ども・子育て	県単独福祉医療費助成事業/概算事業費	329508	千円	honpen p.1	✓	auto:ai	2026-10-11	
 527cb5644397ca4b	hito	5	programs.years	分野① 子ども・子育て	県単独福祉医療費助成事業/実施年度	R8・R9・R10		honpen p.1	✓	auto:ai	2026-10-11	
 69262f2b134a563a	hito	5	programs.cost	分野① 子ども・子育て	町単独福祉医療費助成事業/概算事業費	260571	千円	honpen p.1	✓	auto:ai	2026-10-11	
@@ -25,7 +25,7 @@ f6615cab0c864d9c	hito	5	programs.cost	分野① 子ども・子育て	公立保�
 0e5f026a5d7e7356	hito	5	programs.years	分野① 子ども・子育て	公立保育所運営事業/実施年度	R8・R9・R10		honpen p.1	✓	auto:ai	2026-10-11	
 990507d6be8a037d	hito	5	programs.cost	分野① 子ども・子育て	認定こども園運営事業/概算事業費	85154	千円	honpen p.1	✓	auto:ai	2026-10-11	
 fa79cbfd379cd17d	hito	5	programs.years	分野① 子ども・子育て	認定こども園運営事業/実施年度	R8・R9・R10		honpen p.1	✓	auto:ai	2026-10-11	
-2eb61afbc4d6e542	hito	5	programs.cost	分野① 子ども・子育て	認定こども園整備事業/概算事業費	3000000	千円	honpen p.1	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+2eb61afbc4d6e542	hito	5	programs.cost	分野① 子ども・子育て	認定こども園整備事業/概算事業費	3000000	千円	honpen p.1	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 40706db6ffe05018	hito	5	programs.years	分野① 子ども・子育て	認定こども園整備事業/実施年度	R8・R9・R10		honpen p.1	✓	auto:ai	2026-10-11	
 3a98b259074d9d37	hito	5	programs.cost	分野① 子ども・子育て	私立保育園運営事業/概算事業費	1200224	千円	honpen p.1	✓	auto:ai	2026-10-11	
 f8928b35488ac507	hito	5	programs.years	分野① 子ども・子育て	私立保育園運営事業/実施年度	R8・R9・R10		honpen p.1	✓	auto:ai	2026-10-11	
@@ -71,7 +71,7 @@ c397f94c8582407f	hito	6	programs.years	分野② 学校教育	中学校就学援
 569108a670ec5cca	hito	6	programs.years	分野② 学校教育	中学校修学旅行助成事業/実施年度	R8・R9・R10		honpen p.2	✓	auto:ai	2026-10-11	
 630bd9096b009c64	hito	6	programs.cost	分野② 学校教育	中学校クラブ活動育成事業/概算事業費	9000	千円	honpen p.2	✓	auto:ai	2026-10-11	
 06067262dec1d93a	hito	6	programs.years	分野② 学校教育	中学校クラブ活動育成事業/実施年度	R8・R9・R10		honpen p.2	✓	auto:ai	2026-10-11	
-00d14aa741804c45	hito	6	programs.cost	分野② 学校教育	学校給食事業/概算事業費	311957	千円	honpen p.2	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+00d14aa741804c45	hito	6	programs.cost	分野② 学校教育	学校給食事業/概算事業費	311957	千円	honpen p.2	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 39d586d098080083	hito	6	programs.years	分野② 学校教育	学校給食事業/実施年度	R8・R9・R10		honpen p.2	✓	auto:ai	2026-10-11	
 20858b786b57f012	hito	6	programs.cost	分野② 学校教育	学校給食運営事業/概算事業費	50413	千円	honpen p.2	✓	auto:ai	2026-10-11	
 324af9ce68003fb9	hito	6	programs.years	分野② 学校教育	学校給食運営事業/実施年度	R8・R9・R10		honpen p.2	✓	auto:ai	2026-10-11	
@@ -94,14 +94,14 @@ a0ec4d6d313bf77b	hito	7	programs.cost	分野③ 地域で子どもを育む	中�
 1ecc7239a886dfba	hito	7	programs.cost	分野③ 地域で子どもを育む	家庭教育支援事業/概算事業費	1968	千円	honpen p.3	✓	auto:ai	2026-10-11	
 dd1ace0f1d085cbe	hito	7	programs.years	分野③ 地域で子どもを育む	家庭教育支援事業/実施年度	R8・R9・R10		honpen p.3	✓	auto:ai	2026-10-11	
 88f922f5d8c545b0	hito	7	programs.total	分野③ 地域で子どもを育む	分野③ 地域で子どもを育む/計	672389	千円	honpen p.3	✓	auto:ai	2026-10-11	
-5cc99c681f89a333	hito	7	programs	分野③ 地域で子どもを育む	事業数	8	件	honpen p.3	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
+5cc99c681f89a333	hito	7	programs	分野③ 地域で子どもを育む	事業数	8	件	honpen p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 e20483328e41c986	hito	9	programs.cost	分野④ 生涯学習・スポーツ	スポーツ振興事業/概算事業費	12426	千円	honpen p.4	✓	auto:ai	2026-10-11	
 07e5b4b31c0b530a	hito	9	programs.years	分野④ 生涯学習・スポーツ	スポーツ振興事業/実施年度	R8・R9・R10		honpen p.4	✓	auto:ai	2026-10-11	
 0e1206c7a0410837	hito	9	programs.cost	分野④ 生涯学習・スポーツ	スポーツ協会活動事業/概算事業費	7989	千円	honpen p.4	✓	auto:ai	2026-10-11	
 21f009e24d42ce15	hito	9	programs.years	分野④ 生涯学習・スポーツ	スポーツ協会活動事業/実施年度	R8・R9・R10		honpen p.4	✓	auto:ai	2026-10-11	
 ed54bcc751550a8a	hito	9	programs.total	分野④ 生涯学習・スポーツ	分野④ 生涯学習・スポーツ/計	20415	千円	honpen p.4	✓	auto:ai	2026-10-11	
-e5a511d584391149	hito	9	programs	分野④ 生涯学習・スポーツ	事業数	2	件	honpen p.4	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
-3c57674bb4a12271	hito	10	programs.cost	分野⑤ 図書館	子ども読書活動推進事業/概算事業費	2328	千円	honpen p.4	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+e5a511d584391149	hito	9	programs	分野④ 生涯学習・スポーツ	事業数	2	件	honpen p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
+3c57674bb4a12271	hito	10	programs.cost	分野⑤ 図書館	子ども読書活動推進事業/概算事業費	2328	千円	honpen p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 9d56031ee01965dd	hito	10	programs.years	分野⑤ 図書館	子ども読書活動推進事業/実施年度	R8・R9・R10		honpen p.4	✓	auto:ai	2026-10-11	
 5ed597d4211a0979	hito	10	programs.cost	分野⑤ 図書館	図書館運営事業/概算事業費	57433	千円	honpen p.4	✓	auto:ai	2026-10-11	
 3fc4ad7122053df6	hito	10	programs.years	分野⑤ 図書館	図書館運営事業/実施年度	R8・R9・R10		honpen p.4	✓	auto:ai	2026-10-11	
@@ -120,14 +120,14 @@ ca5c0f3668133367	hito	11	programs.cost	分野⑥ 歴史文化	近江日野商人
 6996abbc0edfbe69	hito	11	programs.cost	分野⑥ 歴史文化	文化振興事業/概算事業費	511683	千円	honpen p.4	✓	auto:ai	2026-10-11	
 061b19282866ce7d	hito	11	programs.years	分野⑥ 歴史文化	文化振興事業/実施年度	R8・R9・R10		honpen p.4	✓	auto:ai	2026-10-11	
 bc01870283a29222	hito	11	programs.total	分野⑥ 歴史文化	分野⑥ 歴史文化/計	548423	千円	honpen p.4	✓	auto:ai	2026-10-11	
-5d9c069d87fe4020	hito	11	programs	分野⑥ 歴史文化	事業数	5	件	honpen p.4	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
-1d508a6e0db53ee7	hito	12	programs.cost	分野⑦ 人権	人権教育推進事業/概算事業費	6648	千円	honpen p.4	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+5d9c069d87fe4020	hito	11	programs	分野⑥ 歴史文化	事業数	5	件	honpen p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
+1d508a6e0db53ee7	hito	12	programs.cost	分野⑦ 人権	人権教育推進事業/概算事業費	6648	千円	honpen p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 b8b00f2b5fc62f3d	hito	12	programs.years	分野⑦ 人権	人権教育推進事業/実施年度	R8・R9・R10		honpen p.4	✓	auto:ai	2026-10-11	
 fcf3e2177dd16480	hito	12	programs.total	分野⑦ 人権	分野⑦ 人権/計	6648	千円	honpen p.4	✓	auto:ai	2026-10-11	
 9dc98b9752a2db88	hito	12	programs	分野⑦ 人権	事業数	1	件	honpen p.4	✓	auto:ai	2026-10-11	
 9a43d3aebc9f2fa6	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑨ 農業	1016549	千円	honpen p.5-7	✓	auto:ai	2026-10-10	
 6940220f459b15bc	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑮ 地元商工業の振興	312531	千円	honpen p.5-7	✓	auto:ai	2026-10-10	
-1d4ae0c53858c8c2	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑭ 観光振興	84105	千円	honpen p.5-7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+1d4ae0c53858c8c2	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑭ 観光振興	84105	千円	honpen p.5-7	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 c12c97627bbed7df	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑩ 森林・林業	69731	千円	honpen p.5-7	✓	auto:ai	2026-10-10	
 f141eefe6a9de4e6	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑬ 雇用・労働環境	48642	千円	honpen p.5-7	✓	auto:ai	2026-10-10	
 68309d01ed163a45	shigoto	1	chart.rank	分野ごとの概算事業費の計	分野⑪ 中小・小規模企業支援	27000	千円	honpen p.5-7	✓	auto:ai	2026-10-10	
@@ -153,7 +153,7 @@ ca918e1c09c1e9f0	shigoto	5	programs.years	分野⑨ 農業	農道維持管理事
 a0eb80f199c34611	shigoto	5	programs.years	分野⑨ 農業	日野町土地改良区運営事業/実施年度	R8・R9・R10		honpen p.5-6	✓	auto:ai	2026-10-11	
 766967b41f19af95	shigoto	5	programs.cost	分野⑨ 農業	甲蒲土地改良区補助事業/概算事業費	3309	千円	honpen p.5-6	✓	auto:ai	2026-10-11	
 81f3634d7434681b	shigoto	5	programs.years	分野⑨ 農業	甲蒲土地改良区補助事業/実施年度	R8・R9・R10		honpen p.5-6	✓	auto:ai	2026-10-11	
-0b29bdd493a8f1bf	shigoto	5	programs.cost	分野⑨ 農業	日野川流域土地改良区運営事業/概算事業費	26350	千円	honpen p.5-6	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+0b29bdd493a8f1bf	shigoto	5	programs.cost	分野⑨ 農業	日野川流域土地改良区運営事業/概算事業費	26350	千円	honpen p.5-6	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 d2703ed13bf41011	shigoto	5	programs.years	分野⑨ 農業	日野川流域土地改良区運営事業/実施年度	R8・R9・R10		honpen p.5-6	✓	auto:ai	2026-10-11	
 4f0c5f3d168135b3	shigoto	5	programs.cost	分野⑨ 農業	町単独土地改良事業/概算事業費	1215	千円	honpen p.5-6	✓	auto:ai	2026-10-11	
 87b6522ecaa96566	shigoto	5	programs.years	分野⑨ 農業	町単独土地改良事業/実施年度	R8・R9・R10		honpen p.5-6	✓	auto:ai	2026-10-11	
@@ -181,15 +181,15 @@ fad806e8bec21a9d	shigoto	6	programs.cost	分野⑩ 森林・林業	林業総務�
 ebfd8db61b5c34a4	shigoto	6	programs.years	分野⑩ 森林・林業	グリム冒険の森管理運営事業/実施年度	R8・R9・R10		honpen p.6	✓	auto:ai	2026-10-11	
 c405bce12223e55e	shigoto	6	programs.cost	分野⑩ 森林・林業	県単独造林間伐事業/概算事業費	1398	千円	honpen p.6	✓	auto:ai	2026-10-11	
 2e84855f99bb089f	shigoto	6	programs.years	分野⑩ 森林・林業	県単独造林間伐事業/実施年度	R8・R9・R10		honpen p.6	✓	auto:ai	2026-10-11	
-03faeeeabca173f2	shigoto	6	programs.cost	分野⑩ 森林・林業	町単独林道・作業道整備事業/概算事業費	3000	千円	honpen p.6	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+03faeeeabca173f2	shigoto	6	programs.cost	分野⑩ 森林・林業	町単独林道・作業道整備事業/概算事業費	3000	千円	honpen p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 89f64c74fcbcdadd	shigoto	6	programs.years	分野⑩ 森林・林業	町単独林道・作業道整備事業/実施年度	R8・R9・R10		honpen p.6	✓	auto:ai	2026-10-11	
 e71d1212d2baa028	shigoto	6	programs.total	分野⑩ 森林・林業	分野⑩ 森林・林業/計	69731	千円	honpen p.6	✓	auto:ai	2026-10-11	
 6ebbe2e801ac1f46	shigoto	6	programs	分野⑩ 森林・林業	事業数	4	件	honpen p.6	✓	auto:ai	2026-10-11	
 f0f494b49ff1713e	shigoto	7	programs.cost	分野⑪ 中小・小規模企業支援	住宅リフォーム促進事業/概算事業費	27000	千円	honpen p.6	✓	auto:ai	2026-10-11	
 0b5cc9c546815e56	shigoto	7	programs.years	分野⑪ 中小・小規模企業支援	住宅リフォーム促進事業/実施年度	R8・R9・R10		honpen p.6	✓	auto:ai	2026-10-11	
-e6187698c487d2a2	shigoto	7	programs.total	分野⑪ 中小・小規模企業支援	分野⑪ 中小・小規模企業支援/計	27000	千円	honpen p.6	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+e6187698c487d2a2	shigoto	7	programs.total	分野⑪ 中小・小規模企業支援	分野⑪ 中小・小規模企業支援/計	27000	千円	honpen p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 c1118455c88287d6	shigoto	7	programs	分野⑪ 中小・小規模企業支援	事業数	1	件	honpen p.6	✓	auto:ai	2026-10-11	
-2277292928a3a007	shigoto	8	programs.cost	分野⑬ 雇用・労働環境	労働対策事務事業/概算事業費	7971	千円	honpen p.6	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+2277292928a3a007	shigoto	8	programs.cost	分野⑬ 雇用・労働環境	労働対策事務事業/概算事業費	7971	千円	honpen p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 d567f81be3562739	shigoto	8	programs.years	分野⑬ 雇用・労働環境	労働対策事務事業/実施年度	R8・R9・R10		honpen p.6	✓	auto:ai	2026-10-11	
 8bab09d2f22d6d1e	shigoto	8	programs.cost	分野⑬ 雇用・労働環境	シルバー人材センター運営事業/概算事業費	31005	千円	honpen p.6	✓	auto:ai	2026-10-11	
 323ea95238d66f71	shigoto	8	programs.years	分野⑬ 雇用・労働環境	シルバー人材センター運営事業/実施年度	R8・R9・R10		honpen p.6	✓	auto:ai	2026-10-11	
@@ -201,22 +201,22 @@ d567f81be3562739	shigoto	8	programs.years	分野⑬ 雇用・労働環境	労働
 2447625191213123	shigoto	10	programs.years	分野⑭ 観光振興	観光協会運営事業/実施年度	R8・R9・R10		honpen p.7	✓	auto:ai	2026-10-11	
 4a191ca8410649b5	shigoto	10	programs.cost	分野⑭ 観光振興	観光PR推進事業/概算事業費	16299	千円	honpen p.7	✓	auto:ai	2026-10-11	
 4cf2e6eb0834a98b	shigoto	10	programs.years	分野⑭ 観光振興	観光PR推進事業/実施年度	R8・R9・R10		honpen p.7	✓	auto:ai	2026-10-11	
-04ea515852e7fc6e	shigoto	10	programs.total	分野⑭ 観光振興	分野⑭ 観光振興/計	84105	千円	honpen p.7	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+04ea515852e7fc6e	shigoto	10	programs.total	分野⑭ 観光振興	分野⑭ 観光振興/計	84105	千円	honpen p.7	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 037b3c117c2b5a4a	shigoto	10	programs	分野⑭ 観光振興	事業数	2	件	honpen p.7	✓	auto:ai	2026-10-11	
 10831ac8c9022cf5	shigoto	11	programs.cost	分野⑮ 地元商工業の振興	商工振興事務事業/概算事業費	7878	千円	honpen p.7	✓	auto:ai	2026-10-11	
 fd88bec222dececd	shigoto	11	programs.years	分野⑮ 地元商工業の振興	商工振興事務事業/実施年度	R8・R9・R10		honpen p.7	✓	auto:ai	2026-10-11	
 b9ec7b107acadade	shigoto	11	programs.cost	分野⑮ 地元商工業の振興	商工会運営事業/概算事業費	50025	千円	honpen p.7	✓	auto:ai	2026-10-11	
 c7680eaf54811c5e	shigoto	11	programs.years	分野⑮ 地元商工業の振興	商工会運営事業/実施年度	R8・R9・R10		honpen p.7	✓	auto:ai	2026-10-11	
-0062d38a3591891f	shigoto	11	programs.cost	分野⑮ 地元商工業の振興	ふるさと応援寄附事業/概算事業費	254628	千円	honpen p.7	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+0062d38a3591891f	shigoto	11	programs.cost	分野⑮ 地元商工業の振興	ふるさと応援寄附事業/概算事業費	254628	千円	honpen p.7	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 68825f7a12277719	shigoto	11	programs.years	分野⑮ 地元商工業の振興	ふるさと応援寄附事業/実施年度	R8・R9・R10		honpen p.7	✓	auto:ai	2026-10-11	
 6c2d140a7e241a96	shigoto	11	programs.total	分野⑮ 地元商工業の振興	分野⑮ 地元商工業の振興/計	312531	千円	honpen p.7	✓	auto:ai	2026-10-11	
 ae05629dec245458	shigoto	11	programs	分野⑮ 地元商工業の振興	事業数	3	件	honpen p.7	✓	auto:ai	2026-10-11	
-1472446dd2ae38d0	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑲ 障がい福祉	3223524	千円	honpen p.8-11				要人確認:H2 出典が4ページ以上(集計した値)
-f4e3630799f715b3	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑰ 健康・医療	1898968	千円	honpen p.8-11				要人確認:H2 出典が4ページ以上(集計した値)
-e952663c92ca2eb9	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑱ 高齢者福祉	1095276	千円	honpen p.8-11				要人確認:H2 出典が4ページ以上(集計した値)
-eacc9a7c1a0ae03e	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野㉑ 環境共生	1038706	千円	honpen p.8-11				要人確認:H2 出典が4ページ以上(集計した値)
-42a2810470b67793	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑳ 循環型社会	334027	千円	honpen p.8-11				要人確認:H2 出典が4ページ以上(集計した値)
-eb80bf59d970bd47	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑯ 地域福祉	287086	千円	honpen p.8-11				要人確認:H2 出典が4ページ以上(集計した値)
+1472446dd2ae38d0	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑲ 障がい福祉	3223524	千円	honpen p.8-11	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+f4e3630799f715b3	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑰ 健康・医療	1898968	千円	honpen p.8-11	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+e952663c92ca2eb9	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑱ 高齢者福祉	1095276	千円	honpen p.8-11	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+eacc9a7c1a0ae03e	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野㉑ 環境共生	1038706	千円	honpen p.8-11	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+42a2810470b67793	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑳ 循環型社会	334027	千円	honpen p.8-11	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+eb80bf59d970bd47	kurashi	1	chart.rank	分野ごとの概算事業費の計	分野⑯ 地域福祉	287086	千円	honpen p.8-11	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
 f70040fb35a06308	kurashi	5	programs.cost	分野⑯ 地域福祉	地域共生事務事業/概算事業費	6540	千円	honpen p.8	✓	auto:ai	2026-10-11	
 81fdbe87a0198166	kurashi	5	programs.years	分野⑯ 地域福祉	地域共生事務事業/実施年度	R8・R9・R10		honpen p.8	✓	auto:ai	2026-10-11	
 aac1fbbf2e88dfb3	kurashi	5	programs.cost	分野⑯ 地域福祉	重層的支援体制整備事業/概算事業費	41995	千円	honpen p.8	✓	auto:ai	2026-10-11	
@@ -236,7 +236,7 @@ fdd839bc8e41c48f	kurashi	5	programs.years	分野⑯ 地域福祉	民生委員児
 6eb0209c43f6176d	kurashi	5	programs.cost	分野⑯ 地域福祉	重層的支援体制整備事業（生活支援体制整備事業）/概算事業費	27735	千円	honpen p.8	✓	auto:ai	2026-10-11	
 68f9da58bc3017e1	kurashi	5	programs.years	分野⑯ 地域福祉	重層的支援体制整備事業（生活支援体制整備事業）/実施年度	R8・R9・R10		honpen p.8	✓	auto:ai	2026-10-11	
 9b8dd390901ea28f	kurashi	5	programs.total	分野⑯ 地域福祉	分野⑯ 地域福祉/計	287086	千円	honpen p.8	✓	auto:ai	2026-10-11	
-13a984323b217a84	kurashi	5	programs	分野⑯ 地域福祉	事業数	9	件	honpen p.8	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
+13a984323b217a84	kurashi	5	programs	分野⑯ 地域福祉	事業数	9	件	honpen p.8	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 dc50e970f72a5d48	kurashi	6	programs.cost	分野⑰ 健康・医療	国民健康保険特別会計繰出金/概算事業費	467106	千円	honpen p.9	✓	auto:ai	2026-10-11	
 d2c3e43ae9c0a615	kurashi	6	programs.years	分野⑰ 健康・医療	国民健康保険特別会計繰出金/実施年度	R8・R9・R10		honpen p.9	✓	auto:ai	2026-10-11	
 2182257dd6eea5b2	kurashi	6	programs.cost	分野⑰ 健康・医療	滋賀県後期高齢者医療広域連合負担金/概算事業費	852624	千円	honpen p.9	✓	auto:ai	2026-10-11	
@@ -254,7 +254,7 @@ d8c65753d14df4e5	kurashi	6	programs.cost	分野⑰ 健康・医療	健康診査�
 6698de04e88be0bd	kurashi	6	programs.cost	分野⑰ 健康・医療	予防接種事業/概算事業費	227694	千円	honpen p.9	✓	auto:ai	2026-10-11	
 e83910ff6db7178b	kurashi	6	programs.years	分野⑰ 健康・医療	予防接種事業/実施年度	R8・R9・R10		honpen p.9	✓	auto:ai	2026-10-11	
 65397bc5be2f5a02	kurashi	6	programs.total	分野⑰ 健康・医療	分野⑰ 健康・医療/計	1898968	千円	honpen p.9	✓	auto:ai	2026-10-11	
-fad3120f7ae0f9d0	kurashi	6	programs	分野⑰ 健康・医療	事業数	8	件	honpen p.9	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
+fad3120f7ae0f9d0	kurashi	6	programs	分野⑰ 健康・医療	事業数	8	件	honpen p.9	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 9021c96b10ff18fc	kurashi	7	programs.cost	分野⑱ 高齢者福祉	老人クラブ活動事業/概算事業費	9141	千円	honpen p.9	✓	auto:ai	2026-10-11	
 43dadb4509b21c21	kurashi	7	programs.years	分野⑱ 高齢者福祉	老人クラブ活動事業/実施年度	R8・R9・R10		honpen p.9	✓	auto:ai	2026-10-11	
 ce08c71d620ed2c1	kurashi	7	programs.cost	分野⑱ 高齢者福祉	老人福祉施設入所措置事業/概算事業費	19005	千円	honpen p.9	✓	auto:ai	2026-10-11	
@@ -274,7 +274,7 @@ e547f23cd6da732c	kurashi	7	programs.years	分野⑱ 高齢者福祉	保健事業
 5592410433417113	kurashi	7	programs.cost	分野⑱ 高齢者福祉	重層的支援体制整備事業（地域包括支援センター運営事業）/概算事業費	4722	千円	honpen p.9	✓	auto:ai	2026-10-11	
 9aac3309c5bfce46	kurashi	7	programs.years	分野⑱ 高齢者福祉	重層的支援体制整備事業（地域包括支援センター運営事業）/実施年度	R8・R9・R10		honpen p.9	✓	auto:ai	2026-10-11	
 679047f360621289	kurashi	7	programs.total	分野⑱ 高齢者福祉	分野⑱ 高齢者福祉/計	1095276	千円	honpen p.9	✓	auto:ai	2026-10-11	
-0121bf9f80e80730	kurashi	7	programs	分野⑱ 高齢者福祉	事業数	9	件	honpen p.9	✓	auto:ai	2026-10-11	要人確認:H4 難しさ8点
+0121bf9f80e80730	kurashi	7	programs	分野⑱ 高齢者福祉	事業数	9	件	honpen p.9	✓	kken78	2026-10-12	要人確認:H4 難しさ8点
 3feb8e0d620a94ca	kurashi	8	programs.cost	分野⑲ 障がい福祉	在宅重度障害者住宅改造補助事業/概算事業費	1398	千円	honpen p.10	✓	auto:ai	2026-10-11	
 d64a90ba0cd31dac	kurashi	8	programs.years	分野⑲ 障がい福祉	在宅重度障害者住宅改造補助事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
 1bdf5e9f07049377	kurashi	8	programs.cost	分野⑲ 障がい福祉	補装具費（購入・修理）支給事業/概算事業費	38589	千円	honpen p.10	✓	auto:ai	2026-10-11	
@@ -289,7 +289,7 @@ aa550fb34e1e3ab0	kurashi	8	programs.cost	分野⑲ 障がい福祉	障害者地�
 6de142f6e04fc6bc	kurashi	8	programs.years	分野⑲ 障がい福祉	障害者地域生活支援事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
 cc7c410981e1f436	kurashi	8	programs.cost	分野⑲ 障がい福祉	障害者東近江圏域共同事業/概算事業費	6615	千円	honpen p.10	✓	auto:ai	2026-10-11	
 b8ceccf77fa8e15c	kurashi	8	programs.years	分野⑲ 障がい福祉	障害者東近江圏域共同事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
-103a5e37dbdec3d7	kurashi	8	programs.cost	分野⑲ 障がい福祉	障害者外出支援助成事業/概算事業費	16170	千円	honpen p.10	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+103a5e37dbdec3d7	kurashi	8	programs.cost	分野⑲ 障がい福祉	障害者外出支援助成事業/概算事業費	16170	千円	honpen p.10	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 fdc2cd0185de8d99	kurashi	8	programs.years	分野⑲ 障がい福祉	障害者外出支援助成事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
 b12c5791dfad34d2	kurashi	8	programs.cost	分野⑲ 障がい福祉	障害者グループホーム運営事業/概算事業費	21075	千円	honpen p.10	✓	auto:ai	2026-10-11	
 4178f06271c3b545	kurashi	8	programs.years	分野⑲ 障がい福祉	障害者グループホーム運営事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
@@ -303,7 +303,7 @@ b96e078fb4c3417d	kurashi	10	programs.cost	分野⑳ 循環型社会	エコライ
 8691a2badde969fd	kurashi	10	programs.years	分野⑳ 循環型社会	エコライフ地域住民活動推進事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
 2fbe8218eaeed50c	kurashi	10	programs.cost	分野⑳ 循環型社会	ごみ収集事業/概算事業費	316650	千円	honpen p.10	✓	auto:ai	2026-10-11	
 5b5307dd8acd4419	kurashi	10	programs.years	分野⑳ 循環型社会	ごみ収集事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
-106ae848716fe494	kurashi	10	programs.cost	分野⑳ 循環型社会	ごみ集積施設設置事業/概算事業費	716	千円	honpen p.10	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+106ae848716fe494	kurashi	10	programs.cost	分野⑳ 循環型社会	ごみ集積施設設置事業/概算事業費	716	千円	honpen p.10	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 6b669f67c244da26	kurashi	10	programs.years	分野⑳ 循環型社会	ごみ集積施設設置事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
 9e74b91978f2cf8f	kurashi	10	programs.cost	分野⑳ 循環型社会	リサイクル促進事業/概算事業費	14393	千円	honpen p.10	✓	auto:ai	2026-10-11	
 b45611aa05a5bd87	kurashi	10	programs.years	分野⑳ 循環型社会	リサイクル促進事業/実施年度	R8・R9・R10		honpen p.10	✓	auto:ai	2026-10-11	
@@ -315,7 +315,7 @@ d4c6c86afa7def7e	kurashi	11	programs.years	分野㉑ 環境共生	環境保全�
 69e0f4f799b2cf07	kurashi	11	programs.years	分野㉑ 環境共生	美化推進対策事業/実施年度	R8・R9・R10		honpen p.11	✓	auto:ai	2026-10-11	
 2ed1a45b97c44a79	kurashi	11	programs.cost	分野㉑ 環境共生	八日市布引ライフ組合負担金/概算事業費	230832	千円	honpen p.11	✓	auto:ai	2026-10-11	
 d02fdd3e0e0310ca	kurashi	11	programs.years	分野㉑ 環境共生	八日市布引ライフ組合負担金/実施年度	R8・R9・R10		honpen p.11	✓	auto:ai	2026-10-11	
-239fe1a3373ffe02	kurashi	11	programs.cost	分野㉑ 環境共生	中部清掃組合負担金/概算事業費	789862	千円	honpen p.11	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+239fe1a3373ffe02	kurashi	11	programs.cost	分野㉑ 環境共生	中部清掃組合負担金/概算事業費	789862	千円	honpen p.11	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 bf92fbc1d00757b0	kurashi	11	programs.years	分野㉑ 環境共生	中部清掃組合負担金/実施年度	R8・R9・R10		honpen p.11	✓	auto:ai	2026-10-11	
 fd7aa377940c351d	kurashi	11	programs.total	分野㉑ 環境共生	分野㉑ 環境共生/計	1038706	千円	honpen p.11	✓	auto:ai	2026-10-11	
 b5190b34a45f7656	kurashi	11	programs	分野㉑ 環境共生	事業数	4	件	honpen p.11	✓	auto:ai	2026-10-11	
@@ -323,7 +323,7 @@ b5190b34a45f7656	kurashi	11	programs	分野㉑ 環境共生	事業数	4	件	honp
 acfaed278aa84c34	toshi	1	chart.rank	分野ごとの概算事業費の計	分野㉓ 防災・消防	1096275	千円	honpen p.12-14	✓	auto:ai	2026-10-10	
 784b74e609ab69e6	toshi	1	chart.rank	分野ごとの概算事業費の計	分野㉖ 住環境	634558	千円	honpen p.12-14	✓	auto:ai	2026-10-10	
 92b315c6803b2a18	toshi	1	chart.rank	分野ごとの概算事業費の計	分野㉗ 上水道・下水道	606450	千円	honpen p.12-14	✓	auto:ai	2026-10-10	
-0b1f57253bd6f0bb	toshi	1	chart.rank	分野ごとの概算事業費の計	分野㉕ 公共交通	505152	千円	honpen p.12-14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+0b1f57253bd6f0bb	toshi	1	chart.rank	分野ごとの概算事業費の計	分野㉕ 公共交通	505152	千円	honpen p.12-14	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 b02e3e24a1db5f06	toshi	1	chart.rank	分野ごとの概算事業費の計	分野㉒ 防犯・交通安全	46387	千円	honpen p.12-14	✓	auto:ai	2026-10-10	
 e37f40739c8dfa76	toshi	5	programs.cost	分野㉒ 防犯・交通安全	交通安全対策事業/概算事業費	1465	千円	honpen p.12	✓	auto:ai	2026-10-11	
 f1e3fc65d46a0cb3	toshi	5	programs.years	分野㉒ 防犯・交通安全	交通安全対策事業/実施年度	R8・R9・R10		honpen p.12	✓	auto:ai	2026-10-11	
@@ -334,7 +334,7 @@ c1409a8cef18f6fe	toshi	5	programs.cost	分野㉒ 防犯・交通安全	防犯対
 ec698fd4ed81947b	toshi	5	programs.cost	分野㉒ 防犯・交通安全	消費者行政推進事業/概算事業費	915	千円	honpen p.12	✓	auto:ai	2026-10-11	
 4a56cc39c9e769d4	toshi	5	programs.years	分野㉒ 防犯・交通安全	消費者行政推進事業/実施年度	R8・R9・R10		honpen p.12	✓	auto:ai	2026-10-11	
 eed043d4ab000141	toshi	5	programs.total	分野㉒ 防犯・交通安全	分野㉒ 防犯・交通安全/計	46387	千円	honpen p.12	✓	auto:ai	2026-10-11	
-84361b3bdea16cd1	toshi	5	programs	分野㉒ 防犯・交通安全	事業数	4	件	honpen p.12	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
+84361b3bdea16cd1	toshi	5	programs	分野㉒ 防犯・交通安全	事業数	4	件	honpen p.12	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 525422dc66df4c7c	toshi	6	programs.cost	分野㉓ 防災・消防	除雪機械購入補助事業/概算事業費	450	千円	honpen p.12	✓	auto:ai	2026-10-11	
 6b79a89b465fd2e7	toshi	6	programs.years	分野㉓ 防災・消防	除雪機械購入補助事業/実施年度	R8・R9・R10		honpen p.12	✓	auto:ai	2026-10-11	
 2256cde2244c4ee8	toshi	6	programs.cost	分野㉓ 防災・消防	急傾斜地崩壊対策事業/概算事業費	59026	千円	honpen p.12	✓	auto:ai	2026-10-11	
@@ -352,7 +352,7 @@ b08d09ff31883733	toshi	6	programs.cost	分野㉓ 防災・消防	消防設備等
 b22e27f16aca0d1a	toshi	6	programs.cost	分野㉓ 防災・消防	防災活動事業/概算事業費	46557	千円	honpen p.12	✓	auto:ai	2026-10-11	
 339a57faee047293	toshi	6	programs.years	分野㉓ 防災・消防	防災活動事業/実施年度	R8・R9・R10		honpen p.12	✓	auto:ai	2026-10-11	
 3fb70b894255ea0d	toshi	6	programs.total	分野㉓ 防災・消防	分野㉓ 防災・消防/計	1096275	千円	honpen p.12	✓	auto:ai	2026-10-11	
-6b681a9258709109	toshi	6	programs	分野㉓ 防災・消防	事業数	8	件	honpen p.12	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
+6b681a9258709109	toshi	6	programs	分野㉓ 防災・消防	事業数	8	件	honpen p.12	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 bc5b34e25ed386e7	toshi	8	programs.cost	分野㉔ 都市計画	街灯設置補助事業/概算事業費	420	千円	honpen p.13	✓	auto:ai	2026-10-11	
 83c724c791745acd	toshi	8	programs.years	分野㉔ 都市計画	街灯設置補助事業/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
 0a531e5a40597960	toshi	8	programs.cost	分野㉔ 都市計画	地籍調査事業/概算事業費	75858	千円	honpen p.13	✓	auto:ai	2026-10-11	
@@ -367,7 +367,7 @@ f7a7b5cecb15a42f	toshi	8	programs.cost	分野㉔ 都市計画	社会資本整備
 d942ae74e979a390	toshi	8	programs.years	分野㉔ 都市計画	社会資本整備総合交付金事業/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
 62be8c648f552478	toshi	8	programs.cost	分野㉔ 都市計画	社会資本整備総合交付金事業（防災・安全）/概算事業費	377500	千円	honpen p.13	✓	auto:ai	2026-10-11	
 6671531859889ac3	toshi	8	programs.years	分野㉔ 都市計画	社会資本整備総合交付金事業（防災・安全）/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
-05c0306f7b41226f	toshi	8	programs.cost	分野㉔ 都市計画	土木工事等補助事業/概算事業費	12000	千円	honpen p.13	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+05c0306f7b41226f	toshi	8	programs.cost	分野㉔ 都市計画	土木工事等補助事業/概算事業費	12000	千円	honpen p.13	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 4760315da2e10cd7	toshi	8	programs.years	分野㉔ 都市計画	土木工事等補助事業/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
 270e5751a6ad0c15	toshi	8	programs.cost	分野㉔ 都市計画	道路改良工事県事業負担金/概算事業費	7450	千円	honpen p.13	✓	auto:ai	2026-10-11	
 0cf562b8321ace93	toshi	8	programs.years	分野㉔ 都市計画	道路改良工事県事業負担金/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
@@ -377,7 +377,7 @@ d942ae74e979a390	toshi	8	programs.years	分野㉔ 都市計画	社会資本整�
 d40f49065b6a8651	toshi	8	programs.years	分野㉔ 都市計画	都市計画総務事務事業/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
 a9f2170dd14adc89	toshi	8	programs.total	分野㉔ 都市計画	分野㉔ 都市計画/計	1431408	千円	honpen p.13	✓	auto:ai	2026-10-11	
 df91e1356916d47e	toshi	8	programs	分野㉔ 都市計画	事業数	11	件	honpen p.13	✓	auto:ai	2026-10-11	
-84abdf4b3b2c99ba	toshi	9	programs.cost	分野㉕ 公共交通	鉄道対策事業/概算事業費	151632	千円	honpen p.13	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+84abdf4b3b2c99ba	toshi	9	programs.cost	分野㉕ 公共交通	鉄道対策事業/概算事業費	151632	千円	honpen p.13	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 bfa8c4f5d71d281c	toshi	9	programs.years	分野㉕ 公共交通	鉄道対策事業/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
 a29373198b24519f	toshi	9	programs.cost	分野㉕ 公共交通	バス等運行事業/概算事業費	353520	千円	honpen p.13	✓	auto:ai	2026-10-11	
 780c2b866a645308	toshi	9	programs.years	分野㉕ 公共交通	バス等運行事業/実施年度	R8・R9・R10		honpen p.13	✓	auto:ai	2026-10-11	
@@ -387,13 +387,13 @@ ab2c185c20787f34	toshi	9	programs	分野㉕ 公共交通	事業数	2	件	honpen 
 0b09efb200ce5431	toshi	10	programs.years	分野㉖ 住環境	木造住宅耐震改修促進事業/実施年度	R8・R9・R10		honpen p.14	✓	auto:ai	2026-10-11	
 4059465695648f6a	toshi	10	programs.cost	分野㉖ 住環境	公営住宅管理事業/概算事業費	133336	千円	honpen p.14	✓	auto:ai	2026-10-11	
 375f20369f4aaced	toshi	10	programs.years	分野㉖ 住環境	公営住宅管理事業/実施年度	R8・R9・R10		honpen p.14	✓	auto:ai	2026-10-11	
-2bad94601fe856e3	toshi	10	programs.cost	分野㉖ 住環境	公園管理運営事業/概算事業費	494298	千円	honpen p.14	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+2bad94601fe856e3	toshi	10	programs.cost	分野㉖ 住環境	公園管理運営事業/概算事業費	494298	千円	honpen p.14	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 77887f5b8bbbfaf4	toshi	10	programs.years	分野㉖ 住環境	公園管理運営事業/実施年度	R8・R9・R10		honpen p.14	✓	auto:ai	2026-10-11	
 b1be33477ce1c13a	toshi	10	programs.total	分野㉖ 住環境	分野㉖ 住環境/計	634558	千円	honpen p.14	✓	auto:ai	2026-10-11	
 5199b245d6320d81	toshi	10	programs	分野㉖ 住環境	事業数	3	件	honpen p.14	✓	auto:ai	2026-10-11	
 9ee9aab89e709f0e	toshi	11	programs.cost	分野㉗ 上水道・下水道	浄化槽設置整備事業/概算事業費	2565	千円	honpen p.14	✓	auto:ai	2026-10-11	
 572521fde2e33bfe	toshi	11	programs.years	分野㉗ 上水道・下水道	浄化槽設置整備事業/実施年度	R8・R9・R10		honpen p.14	✓	auto:ai	2026-10-11	
-62670f22fea36fb4	toshi	11	programs.cost	分野㉗ 上水道・下水道	浄化槽維持管理事業/概算事業費	4131	千円	honpen p.14	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+62670f22fea36fb4	toshi	11	programs.cost	分野㉗ 上水道・下水道	浄化槽維持管理事業/概算事業費	4131	千円	honpen p.14	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 7a4d43cdfa0cc315	toshi	11	programs.years	分野㉗ 上水道・下水道	浄化槽維持管理事業/実施年度	R8・R9・R10		honpen p.14	✓	auto:ai	2026-10-11	
 bfc99009ffad69be	toshi	11	programs.cost	分野㉗ 上水道・下水道	下水道事業会計繰出金（公共）/概算事業費	599754	千円	honpen p.14	✓	auto:ai	2026-10-11	
 4770876ddff502b4	toshi	11	programs.years	分野㉗ 上水道・下水道	下水道事業会計繰出金（公共）/実施年度	R8・R9・R10		honpen p.14	✓	auto:ai	2026-10-11	
@@ -401,7 +401,7 @@ bfc99009ffad69be	toshi	11	programs.cost	分野㉗ 上水道・下水道	下水�
 8e12831b4676f1cc	toshi	11	programs	分野㉗ 上水道・下水道	事業数	3	件	honpen p.14	✓	auto:ai	2026-10-11	
 9349484c86b2a363	chiiki	1	chart.rank	分野ごとの概算事業費の計	分野㉝ 行政運営	804053	千円	honpen p.15-16	✓	auto:ai	2026-10-10	
 e270361253a27753	chiiki	1	chart.rank	分野ごとの概算事業費の計	分野㉚ 進取のまちづくり	785202	千円	honpen p.15-16	✓	auto:ai	2026-10-10	
-256d6ebe69aec73c	chiiki	1	chart.rank	分野ごとの概算事業費の計	分野㉞ 財政基盤	511101	千円	honpen p.15-16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+256d6ebe69aec73c	chiiki	1	chart.rank	分野ごとの概算事業費の計	分野㉞ 財政基盤	511101	千円	honpen p.15-16	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 ee52800487973336	chiiki	1	chart.rank	分野ごとの概算事業費の計	分野㉛ 交流・移住	13095	千円	honpen p.15-16	✓	auto:ai	2026-10-10	
 55367dd8a808ae48	chiiki	5	programs.cost	分野㉚ 進取のまちづくり	議会運営事業/概算事業費	49680	千円	honpen p.15	✓	auto:ai	2026-10-11	
 50ab29c3c0d0f5bc	chiiki	5	programs.years	分野㉚ 進取のまちづくり	議会運営事業/実施年度	R8・R9・R10		honpen p.15	✓	auto:ai	2026-10-11	
@@ -420,8 +420,8 @@ f4795fc4799eb952	chiiki	5	programs.cost	分野㉚ 進取のまちづくり	地�
 71f3b115cc43741c	chiiki	5	programs.cost	分野㉚ 進取のまちづくり	地区公民館管理事業/概算事業費	130135	千円	honpen p.15	✓	auto:ai	2026-10-11	
 ebfaa569252847f4	chiiki	5	programs.years	分野㉚ 進取のまちづくり	地区公民館管理事業/実施年度	R8・R9・R10		honpen p.15	✓	auto:ai	2026-10-11	
 2660a99deb8ecd7b	chiiki	5	programs.total	分野㉚ 進取のまちづくり	分野㉚ 進取のまちづくり/計	785202	千円	honpen p.15	✓	auto:ai	2026-10-11	
-3ab3ae6407072029	chiiki	5	programs	分野㉚ 進取のまちづくり	事業数	8	件	honpen p.15	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
-378b5c98f6f0e8ec	chiiki	6	programs.cost	分野㉛ 交流・移住	国際交流事業/概算事業費	13095	千円	honpen p.15	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+3ab3ae6407072029	chiiki	5	programs	分野㉚ 進取のまちづくり	事業数	8	件	honpen p.15	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
+378b5c98f6f0e8ec	chiiki	6	programs.cost	分野㉛ 交流・移住	国際交流事業/概算事業費	13095	千円	honpen p.15	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 ace489d263d2fb6e	chiiki	6	programs.years	分野㉛ 交流・移住	国際交流事業/実施年度	R8・R9・R10		honpen p.15	✓	auto:ai	2026-10-11	
 8121d92be4ab1622	chiiki	6	programs.total	分野㉛ 交流・移住	分野㉛ 交流・移住/計	13095	千円	honpen p.15	✓	auto:ai	2026-10-11	
 282466a1cc39b323	chiiki	6	programs	分野㉛ 交流・移住	事業数	1	件	honpen p.15	✓	auto:ai	2026-10-11	
@@ -438,8 +438,8 @@ b3fc6b19216e5bb4	chiiki	8	programs.cost	分野㉝ 行政運営	滋賀県６町�
 0deb09ca974bd0a2	chiiki	8	programs.cost	分野㉝ 行政運営	戸籍住民基本台帳事務事業/概算事業費	93237	千円	honpen p.16	✓	auto:ai	2026-10-11	
 1007756bfd81aa83	chiiki	8	programs.years	分野㉝ 行政運営	戸籍住民基本台帳事務事業/実施年度	R8・R9・R10		honpen p.16	✓	auto:ai	2026-10-11	
 3a1f42046b37f5a5	chiiki	8	programs.total	分野㉝ 行政運営	分野㉝ 行政運営/計	804053	千円	honpen p.16	✓	auto:ai	2026-10-11	
-d76a9f61045a1d11	chiiki	8	programs	分野㉝ 行政運営	事業数	6	件	honpen p.16	✓	auto:ai	2026-10-11	要人確認:H4 難しさ6点
-86d2bd5e4325a991	chiiki	9	programs.cost	分野㉞ 財政基盤	まちづくり応援基金積立金/概算事業費	511101	千円	honpen p.16	✓	auto:ai	2026-10-11	要人確認:H4 難しさ3点
+d76a9f61045a1d11	chiiki	8	programs	分野㉝ 行政運営	事業数	6	件	honpen p.16	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
+86d2bd5e4325a991	chiiki	9	programs.cost	分野㉞ 財政基盤	まちづくり応援基金積立金/概算事業費	511101	千円	honpen p.16	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 8640d9c69c0f1c11	chiiki	9	programs.years	分野㉞ 財政基盤	まちづくり応援基金積立金/実施年度	R8・R9・R10		honpen p.16	✓	auto:ai	2026-10-11	
 affb5e2d8bb223af	chiiki	9	programs.total	分野㉞ 財政基盤	分野㉞ 財政基盤/計	511101	千円	honpen p.16	✓	auto:ai	2026-10-11	
 849d769dbbd3e9ed	chiiki	9	programs	分野㉞ 財政基盤	事業数	1	件	honpen p.16	✓	auto:ai	2026-10-11	

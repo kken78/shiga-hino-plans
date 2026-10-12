@@ -2,10 +2,10 @@ key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
 de79942d9da01b76	summary	2	kpi		将来展望人口(令和12年)	19500	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 cfb0da87ace206ae	summary	2	kpi		将来展望人口(令和42年)	16000	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
-1f6d56017414a9d6	summary	2	kpi		社人研準拠推計の人口(令和42年)	12459	人	honpen-02 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-9fb22fc01c394c1a	summary	3	kpi		総人口	20975	人	honpen-02 p.3				要人確認:H1 A=一致/中 B=一致/高
-7311737bcb70a0ec	summary	3	kpi		65歳以上の人口の割合	30.4	%	honpen-02 p.3				要人確認:H1 A=一致/中 B=一致/高
-44d574e81e0df7ab	summary	3	kpi		0〜14歳の人口の割合	12.5	%	honpen-02 p.3				要人確認:H1 A=一致/中 B=一致/高
+1f6d56017414a9d6	summary	2	kpi		社人研準拠推計の人口(令和42年)	12459	人	honpen-02 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+9fb22fc01c394c1a	summary	3	kpi		総人口	20975	人	honpen-02 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/高
+7311737bcb70a0ec	summary	3	kpi		65歳以上の人口の割合	30.4	%	honpen-02 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/高
+44d574e81e0df7ab	summary	3	kpi		0〜14歳の人口の割合	12.5	%	honpen-02 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/高
 42ccebb8597648bd	jinko	2	chart.bars	日野町の人口の推移	T4	22355	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
 b4253587eaefe120	jinko	2	chart.bars	日野町の人口の推移	T9	21601	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
 8cd15c4863773ea4	jinko	2	chart.bars	日野町の人口の推移	T14	21473	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
@@ -26,7 +26,7 @@ e4f0c1b3b63952fd	jinko	2	chart.bars	日野町の人口の推移	H2	22391	人	hon
 b4fac58688664efe	jinko	2	chart.bars	日野町の人口の推移	H12	23022	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
 30959d22f1c9e146	jinko	2	chart.bars	日野町の人口の推移	H17	22809	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
 7ef02206c87812ef	jinko	2	chart.bars	日野町の人口の推移	H22	22870	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
-05855273b3ee21c5	jinko	2	chart.bars	日野町の人口の推移	H27	21873	人	honpen-02 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+05855273b3ee21c5	jinko	2	chart.bars	日野町の人口の推移	H27	21873	人	honpen-02 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 23792d85b93c673b	jinko	2	chart.bars	日野町の人口の推移	R2	20975	人	honpen-02 p.3	✓	auto:ai	2026-10-10	
 b64c99e8624bbcaa	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/0〜14歳	26.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
 cd9cf1d22294a0c2	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	S40/15〜64歳	64.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
@@ -50,7 +50,7 @@ a0050ee8e3282dac	jinko	3	chart.stacked100	日野町の年齢3区分別人口比�
 636a38a33cb1112d	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/15〜64歳	62.8	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
 a7e4ea9bb2f94188	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H7/65歳以上	19.4	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
 40ad81a4bd4436ff	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/0〜14歳	15.7	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
-09175f92cafb26bc	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/15〜64歳	62.2	%	honpen-02 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+09175f92cafb26bc	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/15〜64歳	62.2	%	honpen-02 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 9ac51eebb474c195	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H12/65歳以上	22.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
 3acde4cb7cf64b84	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/0〜14歳	14.1	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
 c63f126c19bc102a	jinko	3	chart.stacked100	日野町の年齢3区分別人口比率の推移	H17/15〜64歳	62.5	%	honpen-02 p.3	✓	auto:ai	2026-10-10	
@@ -75,16 +75,16 @@ f11cc48ec73c7cd3	jinko	5	chart.pair	日野町の人口の将来展望	R17/将来
 b658e3ca76a1f51d	jinko	5	chart.pair	日野町の人口の将来展望	R27/将来展望人口	17508	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 9d7a3f42bdee9b91	jinko	5	chart.pair	日野町の人口の将来展望	R27/社人研準拠推計	15734	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 6c5f8af89919e993	jinko	5	chart.pair	日野町の人口の将来展望	R32/将来展望人口	16858	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
-1e69870e5bf195d8	jinko	5	chart.pair	日野町の人口の将来展望	R32/社人研準拠推計	14630	人	honpen-02 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+1e69870e5bf195d8	jinko	5	chart.pair	日野町の人口の将来展望	R32/社人研準拠推計	14630	人	honpen-02 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 9c91b81f503ebad7	jinko	5	chart.pair	日野町の人口の将来展望	R37/将来展望人口	16354	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 910f13a7c095e1a5	jinko	5	chart.pair	日野町の人口の将来展望	R37/社人研準拠推計	13535	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 83012570ae4f5b5c	jinko	5	chart.pair	日野町の人口の将来展望	R42/将来展望人口	16027	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
 e7989c89caa06b6d	jinko	5	chart.pair	日野町の人口の将来展望	R42/社人研準拠推計	12459	人	honpen-02 p.4	✓	auto:ai	2026-10-10	
-724f7d394cbe37e0	kousou	7	bigstat	これからのまちづくりに向けた5つの課題	第5次総合計画の内部評価で「C:達成に向けて実施している」の評価が占めた割合	83.6	%	honpen-01 p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-6b32d5c16c7dddca	kousou	9	programs	将来像を実現するための10の政策	事業数	10	件	honpen-02 p.7-15				要人確認:H2 出典が4ページ以上(集計した値)
-4a6119bc255aac73	kousou	11	programs	5つの政策の柱と34の分野	事業数	34	件	honpen-03 p.2-3				要人確認:H1 A=一致/中 B=一致/中
-6bae6815228919c3	mokuhyo	4	programs	柱1 未来を担うひとづくり	事業数	4	件	honpen-03 p.5-6				要人確認:H1 A=一致/中 B=一致/中
-0688f4e11ccc108b	mokuhyo	5	table	① 子ども・子育て	孤立しない子育てサポートの充実(保育園、幼稚園、認定こども園、子育て支援施設等利用率)(%)/基準値(R1)	82		honpen-03 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+724f7d394cbe37e0	kousou	7	bigstat	これからのまちづくりに向けた5つの課題	第5次総合計画の内部評価で「C:達成に向けて実施している」の評価が占めた割合	83.6	%	honpen-01 p.14	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+6b32d5c16c7dddca	kousou	9	programs	将来像を実現するための10の政策	事業数	10	件	honpen-02 p.7-15	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)
+4a6119bc255aac73	kousou	11	programs	5つの政策の柱と34の分野	事業数	34	件	honpen-03 p.2-3	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+6bae6815228919c3	mokuhyo	4	programs	柱1 未来を担うひとづくり	事業数	4	件	honpen-03 p.5-6	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+0688f4e11ccc108b	mokuhyo	5	table	① 子ども・子育て	孤立しない子育てサポートの充実(保育園、幼稚園、認定こども園、子育て支援施設等利用率)(%)/基準値(R1)	82		honpen-03 p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 8a062d06fcf1e4da	mokuhyo	5	table	① 子ども・子育て	孤立しない子育てサポートの充実(保育園、幼稚園、認定こども園、子育て支援施設等利用率)(%)/目標値(R7)	85		honpen-03 p.6	✓	auto:ai	2026-10-10	
 719d70d2a867269b	mokuhyo	5	table	① 子ども・子育て	孤立しない子育てサポートの充実(保育園、幼稚園、認定こども園、子育て支援施設等利用率)(%)/目標値(R12)	90		honpen-03 p.6	✓	auto:ai	2026-10-10	
 7cd044f75524d11a	mokuhyo	5	table	① 子ども・子育て	保育所等待機児童数(件)/基準値(R1)	1		honpen-03 p.6	✓	auto:ai	2026-10-10	
@@ -93,17 +93,17 @@ ed388c4f60e37339	mokuhyo	5	table	① 子ども・子育て	保育所等待機児
 a4839d1a1c9b0ebd	mokuhyo	5	table	① 子ども・子育て	「この地域で、今後も子育てをしていきたい」割合(%)/基準値(R1)	95.3		honpen-03 p.6	✓	auto:ai	2026-10-10	
 0d9041f761e545dd	mokuhyo	5	table	① 子ども・子育て	「この地域で、今後も子育てをしていきたい」割合(%)/目標値(R7)	95.8		honpen-03 p.6	✓	auto:ai	2026-10-10	
 6362e74d05edda86	mokuhyo	5	table	① 子ども・子育て	「この地域で、今後も子育てをしていきたい」割合(%)/目標値(R12)	96.3		honpen-03 p.6	✓	auto:ai	2026-10-10	
-0ca8352dab9f2ffd	mokuhyo	6	programs	柱1 未来を担うひとづくり	事業数	7	件	honpen-03 p.8-9				要人確認:H1 A=一致/中 B=一致/中
+0ca8352dab9f2ffd	mokuhyo	6	programs	柱1 未来を担うひとづくり	事業数	7	件	honpen-03 p.8-9	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 d99500fc6f282ecc	mokuhyo	7	table	② 学校教育	自分に良いところがあると思う児童の割合【小学生】(%)/基準値(R2見込み)	72.2		honpen-03 p.9	✓	auto:ai	2026-10-10	
-3153ffd32b867ee6	mokuhyo	7	table	② 学校教育	自分に良いところがあると思う児童の割合【小学生】(%)/目標値(R7)	75.0		honpen-03 p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+3153ffd32b867ee6	mokuhyo	7	table	② 学校教育	自分に良いところがあると思う児童の割合【小学生】(%)/目標値(R7)	75.0		honpen-03 p.9	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 ce4f0ffbcc03ed65	mokuhyo	7	table	② 学校教育	自分に良いところがあると思う児童の割合【小学生】(%)/目標値(R12)	78.0		honpen-03 p.9	✓	auto:ai	2026-10-10	
-7ca33c29080a7021	mokuhyo	8	programs	柱1 未来を担うひとづくり	事業数	2	件	honpen-03 p.11				要人確認:H1 A=一致/中 B=一致/中
+7ca33c29080a7021	mokuhyo	8	programs	柱1 未来を担うひとづくり	事業数	2	件	honpen-03 p.11	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 760c651cd4952aaf	mokuhyo	9	table	③ 地域で子どもを育む	つどいのひろばぽけっと利用者数(人)/基準値(R1)	5973		honpen-03 p.11	✓	auto:ai	2026-10-10	
 7b6432a43ff744e3	mokuhyo	9	table	③ 地域で子どもを育む	つどいのひろばぽけっと利用者数(人)/目標値(R7)	6100		honpen-03 p.11	✓	auto:ai	2026-10-10	
 94828a2a8385ad45	mokuhyo	9	table	③ 地域で子どもを育む	つどいのひろばぽけっと利用者数(人)/目標値(R12)	6100		honpen-03 p.11	✓	auto:ai	2026-10-10	
 8e70797494f7c0db	mokuhyo	9	table	③ 地域で子どもを育む	ファミリーサポートセンター会員数(人)/基準値(R1)	272		honpen-03 p.11	✓	auto:ai	2026-10-10	
 57c7ddfb5a259f32	mokuhyo	9	table	③ 地域で子どもを育む	ファミリーサポートセンター会員数(人)/目標値(R7)	290		honpen-03 p.11	✓	auto:ai	2026-10-10	
-00e37ac9c877ac30	mokuhyo	9	table	③ 地域で子どもを育む	ファミリーサポートセンター会員数(人)/目標値(R12)	300		honpen-03 p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+00e37ac9c877ac30	mokuhyo	9	table	③ 地域で子どもを育む	ファミリーサポートセンター会員数(人)/目標値(R12)	300		honpen-03 p.11	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 9b07691e20061885	mokuhyo	9	table	③ 地域で子どもを育む	子育てボランティア登録者数(人)/基準値(R1)	24		honpen-03 p.11	✓	auto:ai	2026-10-10	
 f43dd67066caba50	mokuhyo	9	table	③ 地域で子どもを育む	子育てボランティア登録者数(人)/目標値(R7)	25		honpen-03 p.11	✓	auto:ai	2026-10-10	
 580e60843297f69c	mokuhyo	9	table	③ 地域で子どもを育む	子育てボランティア登録者数(人)/目標値(R12)	28		honpen-03 p.11	✓	auto:ai	2026-10-10	
@@ -122,9 +122,9 @@ fc01d46d6feaa1a0	mokuhyo	9	table	③ 地域で子どもを育む	PTA巡回パト
 cff06f31bc6cba85	mokuhyo	9	table	③ 地域で子どもを育む	子ども110番の家設置数(件)/基準値(R1)	227		honpen-03 p.11	✓	auto:ai	2026-10-10	
 80129a60e25af79d	mokuhyo	9	table	③ 地域で子どもを育む	子ども110番の家設置数(件)/目標値(R7)	230		honpen-03 p.11	✓	auto:ai	2026-10-10	
 9c3836da8c1e0f8f	mokuhyo	9	table	③ 地域で子どもを育む	子ども110番の家設置数(件)/目標値(R12)	235		honpen-03 p.11	✓	auto:ai	2026-10-10	
-743c69645456f1d5	mokuhyo	10	programs	柱1 未来を担うひとづくり	事業数	3	件	honpen-03 p.13				要人確認:H1 A=一致/中 B=一致/中
+743c69645456f1d5	mokuhyo	10	programs	柱1 未来を担うひとづくり	事業数	3	件	honpen-03 p.13	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 e7de08f0d6e35279	mokuhyo	11	table	④ 生涯学習・スポーツ	ミニスポーツ教室参加者数(人)/基準値(R1)	353		honpen-03 p.13	✓	auto:ai	2026-10-10	
-0ee4904222eb5621	mokuhyo	11	table	④ 生涯学習・スポーツ	ミニスポーツ教室参加者数(人)/目標値(R7)	350		honpen-03 p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+0ee4904222eb5621	mokuhyo	11	table	④ 生涯学習・スポーツ	ミニスポーツ教室参加者数(人)/目標値(R7)	350		honpen-03 p.13	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 2c81c7218b31713c	mokuhyo	11	table	④ 生涯学習・スポーツ	ミニスポーツ教室参加者数(人)/目標値(R12)	350		honpen-03 p.13	✓	auto:ai	2026-10-10	
 3f75315e5b989e87	mokuhyo	11	table	④ 生涯学習・スポーツ	地域スポーツ活動補助金(各大字)交付数(自治会)/基準値(R1)	31		honpen-03 p.13	✓	auto:ai	2026-10-10	
 763093de3717dc34	mokuhyo	11	table	④ 生涯学習・スポーツ	地域スポーツ活動補助金(各大字)交付数(自治会)/目標値(R7)	40		honpen-03 p.13	✓	auto:ai	2026-10-10	
@@ -135,7 +135,7 @@ c1f0fc1c4f8ae25d	mokuhyo	11	table	④ 生涯学習・スポーツ	町民大学�
 98144feff0f23c54	mokuhyo	11	table	④ 生涯学習・スポーツ	公民館利用者数(人)/基準値(R1)	86695		honpen-03 p.13	✓	auto:ai	2026-10-10	
 89aabe9ef8dda026	mokuhyo	11	table	④ 生涯学習・スポーツ	公民館利用者数(人)/目標値(R7)	88000		honpen-03 p.13	✓	auto:ai	2026-10-10	
 6e79156b28cd42e3	mokuhyo	11	table	④ 生涯学習・スポーツ	公民館利用者数(人)/目標値(R12)	90000		honpen-03 p.13	✓	auto:ai	2026-10-10	
-6bbfdcce1518ae4b	mokuhyo	12	programs	柱1 未来を担うひとづくり	事業数	2	件	honpen-03 p.15				要人確認:H1 A=一致/中 B=一致/中
+6bbfdcce1518ae4b	mokuhyo	12	programs	柱1 未来を担うひとづくり	事業数	2	件	honpen-03 p.15	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 27b92e30419827ce	mokuhyo	13	table	⑤ 図書館	利用者1人当たりの年間貸出数(冊)/基準値(R1)	40.3		honpen-03 p.15	✓	auto:ai	2026-10-10	
 8ad580f87e649b67	mokuhyo	13	table	⑤ 図書館	利用者1人当たりの年間貸出数(冊)/目標値(R7)	43.4		honpen-03 p.15	✓	auto:ai	2026-10-10	
 c2d4754c078bdf3b	mokuhyo	13	table	⑤ 図書館	利用者1人当たりの年間貸出数(冊)/目標値(R12)	45.0		honpen-03 p.15	✓	auto:ai	2026-10-10	
@@ -153,14 +153,14 @@ eaf8771417cf8bfe	mokuhyo	13	table	⑤ 図書館	調べもの対応事例累計�
 6dc5fe16f10f5492	mokuhyo	13	table	⑤ 図書館	図書館の資料を使った成果件数(件)/目標値(R12)	8		honpen-03 p.15	✓	auto:ai	2026-10-10	
 c5cbfa43834853cc	mokuhyo	13	table	⑤ 図書館	幼保・学校への貸出冊数(冊)/基準値(R1)	7604		honpen-03 p.15	✓	auto:ai	2026-10-10	
 51192550c11e8c69	mokuhyo	13	table	⑤ 図書館	幼保・学校への貸出冊数(冊)/目標値(R7)	8000		honpen-03 p.15	✓	auto:ai	2026-10-10	
-01df8fd7cf8ae501	mokuhyo	13	table	⑤ 図書館	幼保・学校への貸出冊数(冊)/目標値(R12)	8500		honpen-03 p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+01df8fd7cf8ae501	mokuhyo	13	table	⑤ 図書館	幼保・学校への貸出冊数(冊)/目標値(R12)	8500		honpen-03 p.15	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 dc4c5e180b439175	mokuhyo	13	table	⑤ 図書館	1ヵ月に1冊以上本を読んだ児童の割合(%)/基準値(R1)	95.4		honpen-03 p.15	✓	auto:ai	2026-10-10	
 a01e175f222ba917	mokuhyo	13	table	⑤ 図書館	1ヵ月に1冊以上本を読んだ児童の割合(%)/目標値(R7)	98.0		honpen-03 p.15	✓	auto:ai	2026-10-10	
 b8bb3c28b4964e66	mokuhyo	13	table	⑤ 図書館	1ヵ月に1冊以上本を読んだ児童の割合(%)/目標値(R12)	98.0		honpen-03 p.15	✓	auto:ai	2026-10-10	
 aaf351fbea2fc7c1	mokuhyo	13	table	⑤ 図書館	1ヵ月に1冊以上本を読んだ生徒の割合(%)/基準値(R1)	74.8		honpen-03 p.15	✓	auto:ai	2026-10-10	
 8405f96a171765c1	mokuhyo	13	table	⑤ 図書館	1ヵ月に1冊以上本を読んだ生徒の割合(%)/目標値(R7)	80.0		honpen-03 p.15	✓	auto:ai	2026-10-10	
 4f057b87ba88e2b5	mokuhyo	13	table	⑤ 図書館	1ヵ月に1冊以上本を読んだ生徒の割合(%)/目標値(R12)	82.5		honpen-03 p.15	✓	auto:ai	2026-10-10	
-41a1c5bec478a546	mokuhyo	14	programs	柱1 未来を担うひとづくり	事業数	2	件	honpen-03 p.17				要人確認:H1 A=一致/中 B=一致/中
+41a1c5bec478a546	mokuhyo	14	programs	柱1 未来を担うひとづくり	事業数	2	件	honpen-03 p.17	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 80e4c1a8e5b21c93	mokuhyo	15	table	⑥ 歴史文化	カルチャー教室参加者数(人)/基準値(R1)	172		honpen-03 p.17	✓	auto:ai	2026-10-10	
 d011cab4fb237b23	mokuhyo	15	table	⑥ 歴史文化	カルチャー教室参加者数(人)/目標値(R7)	170		honpen-03 p.17	✓	auto:ai	2026-10-10	
 badae7d3cb2a434d	mokuhyo	15	table	⑥ 歴史文化	カルチャー教室参加者数(人)/目標値(R12)	170		honpen-03 p.17	✓	auto:ai	2026-10-10	
@@ -169,56 +169,56 @@ db91acca1d1752b1	mokuhyo	15	table	⑥ 歴史文化	文化祭の参加者数(人)
 231caccb47c05cd4	mokuhyo	15	table	⑥ 歴史文化	文化祭の参加者数(人)/目標値(R12)	4200		honpen-03 p.17	✓	auto:ai	2026-10-10	
 51c0100b9bec3ed4	mokuhyo	15	table	⑥ 歴史文化	国県町文化財指定・登録件数(累計)(件)/基準値(R1)	89		honpen-03 p.17	✓	auto:ai	2026-10-10	
 6367ed8c3303747f	mokuhyo	15	table	⑥ 歴史文化	国県町文化財指定・登録件数(累計)(件)/目標値(R7)	91		honpen-03 p.17	✓	auto:ai	2026-10-10	
-1ca20d68e65f7ea9	mokuhyo	15	table	⑥ 歴史文化	国県町文化財指定・登録件数(累計)(件)/目標値(R12)	93		honpen-03 p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+1ca20d68e65f7ea9	mokuhyo	15	table	⑥ 歴史文化	国県町文化財指定・登録件数(累計)(件)/目標値(R12)	93		honpen-03 p.17	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 765942489f93874d	mokuhyo	15	table	⑥ 歴史文化	ふるさと学習(学校・地域向け出前講座)実施回数(回)/基準値(R1)	10		honpen-03 p.17	✓	auto:ai	2026-10-10	
 66175d4787993505	mokuhyo	15	table	⑥ 歴史文化	ふるさと学習(学校・地域向け出前講座)実施回数(回)/目標値(R7)	12		honpen-03 p.17	✓	auto:ai	2026-10-10	
 89eef3892bfbd8d0	mokuhyo	15	table	⑥ 歴史文化	ふるさと学習(学校・地域向け出前講座)実施回数(回)/目標値(R12)	14		honpen-03 p.17	✓	auto:ai	2026-10-10	
 607c37720d86e78f	mokuhyo	15	table	⑥ 歴史文化	商人館、ふるさと館、感応館の入館者数(人)/基準値(R1)	29100		honpen-03 p.17	✓	auto:ai	2026-10-10	
 d12f908580fbac6e	mokuhyo	15	table	⑥ 歴史文化	商人館、ふるさと館、感応館の入館者数(人)/目標値(R7)	31000		honpen-03 p.17	✓	auto:ai	2026-10-10	
 5148e6fa348f7a3b	mokuhyo	15	table	⑥ 歴史文化	商人館、ふるさと館、感応館の入館者数(人)/目標値(R12)	33000		honpen-03 p.17	✓	auto:ai	2026-10-10	
-d999d2228ba606a4	mokuhyo	16	programs	柱1 未来を担うひとづくり	事業数	3	件	honpen-03 p.19				要人確認:H1 A=一致/中 B=一致/中
+d999d2228ba606a4	mokuhyo	16	programs	柱1 未来を担うひとづくり	事業数	3	件	honpen-03 p.19	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 5c7efe5b4b4980e1	mokuhyo	17	table	⑦ 人権	ふれあい学習会参加者数(人)/基準値(R1)	167		honpen-03 p.19	✓	auto:ai	2026-10-10	
-5558b031f04a67ac	mokuhyo	17	table	⑦ 人権	ふれあい学習会参加者数(人)/目標値(R7)	180		honpen-03 p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+5558b031f04a67ac	mokuhyo	17	table	⑦ 人権	ふれあい学習会参加者数(人)/目標値(R7)	180		honpen-03 p.19	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 f183b83a09ac0a4a	mokuhyo	17	table	⑦ 人権	ふれあい学習会参加者数(人)/目標値(R12)	200		honpen-03 p.19	✓	auto:ai	2026-10-10	
-b396a7afe0973289	mokuhyo	18	programs	柱1 未来を担うひとづくり	事業数	1	件	honpen-03 p.21				要人確認:H1 A=一致/中 B=一致/中
-08d226f5f78f501b	mokuhyo	19	table	⑧ 男女共同参画	「働き方改革」に取り組む企業(の増加)数(件)/基準値(R1)	2		honpen-03 p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+b396a7afe0973289	mokuhyo	18	programs	柱1 未来を担うひとづくり	事業数	1	件	honpen-03 p.21	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+08d226f5f78f501b	mokuhyo	19	table	⑧ 男女共同参画	「働き方改革」に取り組む企業(の増加)数(件)/基準値(R1)	2		honpen-03 p.21	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 2f40d81d1207b0d2	mokuhyo	19	table	⑧ 男女共同参画	「働き方改革」に取り組む企業(の増加)数(件)/目標値(R7)	10		honpen-03 p.21	✓	auto:ai	2026-10-10	
 809d37e3f54050d5	mokuhyo	19	table	⑧ 男女共同参画	「働き方改革」に取り組む企業(の増加)数(件)/目標値(R12)	20		honpen-03 p.21	✓	auto:ai	2026-10-10	
 da5c0a67f73c0747	mokuhyo	19	table	⑧ 男女共同参画	審議会・行政委員会等に参画する女性委員の割合(%)/基準値(R1)	28.3		honpen-03 p.21	✓	auto:ai	2026-10-10	
 4ec353d3b4137473	mokuhyo	19	table	⑧ 男女共同参画	審議会・行政委員会等に参画する女性委員の割合(%)/目標値(R7)	35		honpen-03 p.21	✓	auto:ai	2026-10-10	
 3fafc4d030963e38	mokuhyo	19	table	⑧ 男女共同参画	審議会・行政委員会等に参画する女性委員の割合(%)/目標値(R12)	40		honpen-03 p.21	✓	auto:ai	2026-10-10	
-a8b9736d4149e783	mokuhyo	21	programs	柱2 暮らしを支えるしごとづくり	事業数	3	件	honpen-04 p.2				要人確認:H1 A=一致/中 B=一致/中
+a8b9736d4149e783	mokuhyo	21	programs	柱2 暮らしを支えるしごとづくり	事業数	3	件	honpen-04 p.2	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 563223f0980f36aa	mokuhyo	22	table	⑨ 農業	日野菜出荷量(t)/基準値(R2見込み)	42		honpen-04 p.2	✓	auto:ai	2026-10-10	
 9dfd0dfaba3b549d	mokuhyo	22	table	⑨ 農業	日野菜出荷量(t)/目標値(R7)	56		honpen-04 p.2	✓	auto:ai	2026-10-10	
 d28370a3d883010a	mokuhyo	22	table	⑨ 農業	日野菜出荷量(t)/目標値(R12)	70		honpen-04 p.2	✓	auto:ai	2026-10-10	
 877eccb7b4603009	mokuhyo	22	table	⑨ 農業	人・農地プランの作成集落数(集落)/基準値(R2見込み)	21		honpen-04 p.2	✓	auto:ai	2026-10-10	
 905ade0e6537d68f	mokuhyo	22	table	⑨ 農業	人・農地プランの作成集落数(集落)/目標値(R7)	25		honpen-04 p.2	✓	auto:ai	2026-10-10	
-0e08d0147c4596fa	mokuhyo	22	table	⑨ 農業	人・農地プランの作成集落数(集落)/目標値(R12)	30		honpen-04 p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-b5753c23cf25da73	mokuhyo	23	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.4				要人確認:H1 A=一致/中 B=一致/中
-2101abeefe2ccbbb	mokuhyo	24	table	⑩ 森林・林業	森林境界明確化実施面積(ha)/基準値(R2見込み)	50		honpen-04 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+0e08d0147c4596fa	mokuhyo	22	table	⑨ 農業	人・農地プランの作成集落数(集落)/目標値(R12)	30		honpen-04 p.2	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+b5753c23cf25da73	mokuhyo	23	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.4	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+2101abeefe2ccbbb	mokuhyo	24	table	⑩ 森林・林業	森林境界明確化実施面積(ha)/基準値(R2見込み)	50		honpen-04 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 9bbfd4319242cd0e	mokuhyo	24	table	⑩ 森林・林業	森林境界明確化実施面積(ha)/目標値(R7)	90		honpen-04 p.4	✓	auto:ai	2026-10-10	
 e9b8e930f7ca9b22	mokuhyo	24	table	⑩ 森林・林業	森林境界明確化実施面積(ha)/目標値(R12)	150		honpen-04 p.4	✓	auto:ai	2026-10-10	
-4aa985360700ac75	mokuhyo	25	programs	柱2 暮らしを支えるしごとづくり	事業数	4	件	honpen-04 p.6				要人確認:H1 A=一致/中 B=一致/中
+4aa985360700ac75	mokuhyo	25	programs	柱2 暮らしを支えるしごとづくり	事業数	4	件	honpen-04 p.6	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 fda145ef8851e50a	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業者数(人)/基準値(H27～R1の平均)	2		honpen-04 p.6	✓	auto:ai	2026-10-10	
 79d09d6e19ffab90	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業者数(人)/目標値(R7)	3		honpen-04 p.6	✓	auto:ai	2026-10-10	
 f98bfb1599655be5	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業者数(人)/目標値(R12)	5		honpen-04 p.6	✓	auto:ai	2026-10-10	
 26a4f1aca52de8a4	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業塾受講者数(人)/基準値(H27～R1の平均)	3		honpen-04 p.6	✓	auto:ai	2026-10-10	
 e035ed575911b640	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業塾受講者数(人)/目標値(R7)	5		honpen-04 p.6	✓	auto:ai	2026-10-10	
-0f9c9ec813c47c8c	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業塾受講者数(人)/目標値(R12)	7		honpen-04 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-252ae109f9b4f930	mokuhyo	27	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.8				要人確認:H1 A=一致/中 B=一致/中
+0f9c9ec813c47c8c	mokuhyo	26	table	⑪ 中小・小規模企業支援	創業塾受講者数(人)/目標値(R12)	7		honpen-04 p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+252ae109f9b4f930	mokuhyo	27	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.8	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 b9ff8381495e6a50	mokuhyo	28	table	⑫ 企業・新産業の誘致	新規企業立地数(件)/基準値(R2見込み)	1		honpen-04 p.8	✓	auto:ai	2026-10-10	
-90da4239186483e3	mokuhyo	28	table	⑫ 企業・新産業の誘致	企業用地区画数(件)/基準値(R2見込み)	2		honpen-04 p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-9089302ca0099b8c	mokuhyo	29	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.10				要人確認:H1 A=一致/中 B=一致/中
+90da4239186483e3	mokuhyo	28	table	⑫ 企業・新産業の誘致	企業用地区画数(件)/基準値(R2見込み)	2		honpen-04 p.8	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+9089302ca0099b8c	mokuhyo	29	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.10	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 ebe140f443a452b9	mokuhyo	30	table	⑬ 雇用・労働環境	地元高校生の町内企業就職率(%)/基準値(R1)	28.6		honpen-04 p.10	✓	auto:ai	2026-10-10	
 37c4605966002184	mokuhyo	30	table	⑬ 雇用・労働環境	地元高校生の町内企業就職率(%)/目標値(R7)	32.0		honpen-04 p.10	✓	auto:ai	2026-10-10	
 7da886b2f5859809	mokuhyo	30	table	⑬ 雇用・労働環境	地元高校生の町内企業就職率(%)/目標値(R12)	34.0		honpen-04 p.10	✓	auto:ai	2026-10-10	
 cb29a48783fe9077	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業の有給休暇取得率(%)/基準値(R1)	47.8		honpen-04 p.10	✓	auto:ai	2026-10-10	
-041e480e50e52937	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業の有給休暇取得率(%)/目標値(R7)	49.0		honpen-04 p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+041e480e50e52937	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業の有給休暇取得率(%)/目標値(R7)	49.0		honpen-04 p.10	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 3faa1992b90b8d12	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業の有給休暇取得率(%)/目標値(R12)	50.0		honpen-04 p.10	✓	auto:ai	2026-10-10	
 d756f5be91592c5e	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業に勤務する従業員のうち町内居住者の割合(%)/基準値(R1)	24.2		honpen-04 p.10	✓	auto:ai	2026-10-10	
 b5103b0dd38a5fc6	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業に勤務する従業員のうち町内居住者の割合(%)/目標値(R7)	25.0		honpen-04 p.10	✓	auto:ai	2026-10-10	
 9c7fdd21122a20ea	mokuhyo	30	table	⑬ 雇用・労働環境	町内企業に勤務する従業員のうち町内居住者の割合(%)/目標値(R12)	26.0		honpen-04 p.10	✓	auto:ai	2026-10-10	
-621d1add43fa5cb3	mokuhyo	31	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.12				要人確認:H1 A=一致/中 B=一致/中
+621d1add43fa5cb3	mokuhyo	31	programs	柱2 暮らしを支えるしごとづくり	事業数	2	件	honpen-04 p.12	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 b84c842320b73711	mokuhyo	32	table	⑭ 観光振興	農泊受入人数(人)/基準値(R1)	3563		honpen-04 p.12	✓	auto:ai	2026-10-10	
 c8c2f27495749ffb	mokuhyo	32	table	⑭ 観光振興	農泊受入人数(人)/目標値(R7)	4000		honpen-04 p.12	✓	auto:ai	2026-10-10	
 7d9fd98e32fe8644	mokuhyo	32	table	⑭ 観光振興	農泊受入人数(人)/目標値(R12)	4500		honpen-04 p.12	✓	auto:ai	2026-10-10	
@@ -226,19 +226,19 @@ c8c2f27495749ffb	mokuhyo	32	table	⑭ 観光振興	農泊受入人数(人)/目�
 71c1639dbfe71944	mokuhyo	32	table	⑭ 観光振興	観光入込客数(人)/目標値(R7)	777000		honpen-04 p.12	✓	auto:ai	2026-10-10	
 614ef6677865d8ac	mokuhyo	32	table	⑭ 観光振興	観光入込客数(人)/目標値(R12)	815000		honpen-04 p.12	✓	auto:ai	2026-10-10	
 d4acb9d81078b297	mokuhyo	32	table	⑭ 観光振興	観光協会HPアクセス数(件)/基準値(R1)	89123		honpen-04 p.12	✓	auto:ai	2026-10-10	
-17a4530e97fb80b0	mokuhyo	32	table	⑭ 観光振興	観光協会HPアクセス数(件)/目標値(R7)	100000		honpen-04 p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+17a4530e97fb80b0	mokuhyo	32	table	⑭ 観光振興	観光協会HPアクセス数(件)/目標値(R7)	100000		honpen-04 p.12	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 a05533401014c624	mokuhyo	32	table	⑭ 観光振興	観光協会HPアクセス数(件)/目標値(R12)	110000		honpen-04 p.12	✓	auto:ai	2026-10-10	
-75ceb69a084241f9	mokuhyo	33	programs	柱2 暮らしを支えるしごとづくり	事業数	1	件	honpen-04 p.14				要人確認:H1 A=一致/中 B=一致/中
+75ceb69a084241f9	mokuhyo	33	programs	柱2 暮らしを支えるしごとづくり	事業数	1	件	honpen-04 p.14	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 28d5fbbf63b1aa1e	mokuhyo	34	table	⑮ 地元商工業の振興	商工会会員数(件)/基準値	527		honpen-04 p.14	✓	auto:ai	2026-10-10	
 339f6aeca06f115c	mokuhyo	34	table	⑮ 地元商工業の振興	商工会会員数(件)/目標値(R7)	535		honpen-04 p.14	✓	auto:ai	2026-10-10	
 f6dc7e60c052ee99	mokuhyo	34	table	⑮ 地元商工業の振興	商工会会員数(件)/目標値(R12)	540		honpen-04 p.14	✓	auto:ai	2026-10-10	
 c219bd3d1a07f085	mokuhyo	34	table	⑮ 地元商工業の振興	町内商店数(店舗)/基準値	177		honpen-04 p.14	✓	auto:ai	2026-10-10	
 6675118e5e4fae7a	mokuhyo	34	table	⑮ 地元商工業の振興	町内商店数(店舗)/目標値(R7)	180		honpen-04 p.14	✓	auto:ai	2026-10-10	
 be103d89e3cf7116	mokuhyo	34	table	⑮ 地元商工業の振興	町内商店数(店舗)/目標値(R12)	185		honpen-04 p.14	✓	auto:ai	2026-10-10	
-1025809e4cecfb5d	mokuhyo	34	table	⑮ 地元商工業の振興	商品販売額(百万円)/基準値	22797		honpen-04 p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+1025809e4cecfb5d	mokuhyo	34	table	⑮ 地元商工業の振興	商品販売額(百万円)/基準値	22797		honpen-04 p.14	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 9d131b37df1ff336	mokuhyo	34	table	⑮ 地元商工業の振興	商品販売額(百万円)/目標値(R7)	24000		honpen-04 p.14	✓	auto:ai	2026-10-10	
 24547aebae6d0604	mokuhyo	34	table	⑮ 地元商工業の振興	商品販売額(百万円)/目標値(R12)	25000		honpen-04 p.14	✓	auto:ai	2026-10-10	
-b6f822b97800655d	mokuhyo	36	programs	柱3 安心、助け合いのくらしづくり	事業数	1	件	honpen-04 p.16				要人確認:H1 A=一致/中 B=一致/中
+b6f822b97800655d	mokuhyo	36	programs	柱3 安心、助け合いのくらしづくり	事業数	1	件	honpen-04 p.16	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 cb305751402f5dba	mokuhyo	37	table	⑯ 地域福祉	いきいきサロンの実施自治会数(自治会)/基準値(R2見込み)	50		honpen-04 p.16	✓	auto:ai	2026-10-10	
 5c8ce2b2dbb653ed	mokuhyo	37	table	⑯ 地域福祉	いきいきサロンの実施自治会数(自治会)/目標値(R7)	52		honpen-04 p.16	✓	auto:ai	2026-10-10	
 15f310bc9d1e7ff4	mokuhyo	37	table	⑯ 地域福祉	いきいきサロンの実施自治会数(自治会)/目標値(R12)	53		honpen-04 p.16	✓	auto:ai	2026-10-10	
@@ -246,7 +246,7 @@ cb305751402f5dba	mokuhyo	37	table	⑯ 地域福祉	いきいきサロンの実�
 b52599d4bd14cd23	mokuhyo	37	table	⑯ 地域福祉	民生委員・児童委員の相談支援件数(件)/目標値(R7)	1450		honpen-04 p.16	✓	auto:ai	2026-10-10	
 a976d62fcb6b9567	mokuhyo	37	table	⑯ 地域福祉	民生委員・児童委員の相談支援件数(件)/目標値(R12)	1500		honpen-04 p.16	✓	auto:ai	2026-10-10	
 cfb0968d7787d645	mokuhyo	37	table	⑯ 地域福祉	生活困窮者自立支援新規相談件数(件)/基準値(R2見込み)	12		honpen-04 p.16	✓	auto:ai	2026-10-10	
-11275cbdd32ee86e	mokuhyo	37	table	⑯ 地域福祉	生活困窮者自立支援新規相談件数(件)/目標値(R7)	14		honpen-04 p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+11275cbdd32ee86e	mokuhyo	37	table	⑯ 地域福祉	生活困窮者自立支援新規相談件数(件)/目標値(R7)	14		honpen-04 p.16	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 44c8d0bd117ba230	mokuhyo	37	table	⑯ 地域福祉	生活困窮者自立支援新規相談件数(件)/目標値(R12)	16		honpen-04 p.16	✓	auto:ai	2026-10-10	
 1dec5124da611aad	mokuhyo	37	table	⑯ 地域福祉	ひきこもりの居場所づくり(か所)/基準値(R2見込み)	2		honpen-04 p.16	✓	auto:ai	2026-10-10	
 83c3c12c339932ee	mokuhyo	37	table	⑯ 地域福祉	ひきこもりの居場所づくり(か所)/目標値(R7)	3		honpen-04 p.16	✓	auto:ai	2026-10-10	
@@ -260,15 +260,15 @@ f26a79e5c9e25162	mokuhyo	37	table	⑯ 地域福祉	地域支え合い活動に�
 c4a4f6c03dfe2eae	mokuhyo	37	table	⑯ 地域福祉	高齢者交流サロン開催団体数(団体)/基準値(R2見込み)	14		honpen-04 p.16	✓	auto:ai	2026-10-10	
 98f80ff1d7e650d2	mokuhyo	37	table	⑯ 地域福祉	高齢者交流サロン開催団体数(団体)/目標値(R7)	24		honpen-04 p.16	✓	auto:ai	2026-10-10	
 8f25b49406340bf6	mokuhyo	37	table	⑯ 地域福祉	高齢者交流サロン開催団体数(団体)/目標値(R12)	34		honpen-04 p.16	✓	auto:ai	2026-10-10	
-8791b25f0d28dc93	mokuhyo	38	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.18				要人確認:H1 A=一致/中 B=一致/中
-071a475617b3589b	mokuhyo	39	table	⑰ 健康・医療	食育に関心をもつ住民の割合(%)/基準値(R1)	67.1		honpen-04 p.18	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+8791b25f0d28dc93	mokuhyo	38	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.18	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+071a475617b3589b	mokuhyo	39	table	⑰ 健康・医療	食育に関心をもつ住民の割合(%)/基準値(R1)	67.1		honpen-04 p.18	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 09d9139e4b8d98d0	mokuhyo	39	table	⑰ 健康・医療	食育に関心をもつ住民の割合(%)/目標値(R7)	68		honpen-04 p.18	✓	auto:ai	2026-10-10	
 84465798cf4cddc7	mokuhyo	39	table	⑰ 健康・医療	食育に関心をもつ住民の割合(%)/目標値(R12)	70		honpen-04 p.18	✓	auto:ai	2026-10-10	
 af89cd29cc2d3998	mokuhyo	39	table	⑰ 健康・医療	特定健診受診率(%)/基準値(R1)	39.4		honpen-04 p.18	✓	auto:ai	2026-10-10	
 7ae1d194debd9869	mokuhyo	39	table	⑰ 健康・医療	特定健診受診率(%)/目標値(R7)	39.9		honpen-04 p.18	✓	auto:ai	2026-10-10	
 df07e8889e9a45c0	mokuhyo	39	table	⑰ 健康・医療	特定健診受診率(%)/目標値(R12)	41.4		honpen-04 p.18	✓	auto:ai	2026-10-10	
-0be38228b7fb2aad	mokuhyo	40	programs	柱3 安心、助け合いのくらしづくり	事業数	3	件	honpen-04 p.20				要人確認:H1 A=一致/中 B=一致/中
-0a17776b022a07db	mokuhyo	41	table	⑱ 高齢者福祉	高齢者への相談対応件数(件)/基準値(R2見込み)	1400		honpen-04 p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+0be38228b7fb2aad	mokuhyo	40	programs	柱3 安心、助け合いのくらしづくり	事業数	3	件	honpen-04 p.20	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+0a17776b022a07db	mokuhyo	41	table	⑱ 高齢者福祉	高齢者への相談対応件数(件)/基準値(R2見込み)	1400		honpen-04 p.20	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 266bc3f516cae793	mokuhyo	41	table	⑱ 高齢者福祉	高齢者への相談対応件数(件)/目標値(R7)	1800		honpen-04 p.20	✓	auto:ai	2026-10-10	
 8b3ab82fb376c518	mokuhyo	41	table	⑱ 高齢者福祉	高齢者への相談対応件数(件)/目標値(R12)	2200		honpen-04 p.20	✓	auto:ai	2026-10-10	
 80ef00017a1ccb8e	mokuhyo	41	table	⑱ 高齢者福祉	高齢者交流サロン開催団体数【再掲】(団体)/基準値(R2見込み)	14		honpen-04 p.20	✓	auto:ai	2026-10-10	
@@ -283,42 +283,42 @@ a87f23294b43d076	mokuhyo	41	table	⑱ 高齢者福祉	認知症キャラバン�
 4509cd85b109fa67	mokuhyo	41	table	⑱ 高齢者福祉	認知症サポーター養成講座修了者数(延べ)(人)/基準値(R2見込み)	7500		honpen-04 p.20	✓	auto:ai	2026-10-10	
 60443d5921876c01	mokuhyo	41	table	⑱ 高齢者福祉	認知症サポーター養成講座修了者数(延べ)(人)/目標値(R7)	9500		honpen-04 p.20	✓	auto:ai	2026-10-10	
 aa7824c3caaf571b	mokuhyo	41	table	⑱ 高齢者福祉	認知症サポーター養成講座修了者数(延べ)(人)/目標値(R12)	11500		honpen-04 p.20	✓	auto:ai	2026-10-10	
-e4ab9cd5f2d317e5	mokuhyo	42	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.22				要人確認:H1 A=一致/中 B=一致/中
+e4ab9cd5f2d317e5	mokuhyo	42	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.22	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 d3fe401c846f6b24	mokuhyo	43	table	⑲ 障がい福祉	障がい福祉サービス受給者数(人)/基準値(R2見込み)	209		honpen-04 p.22	✓	auto:ai	2026-10-10	
 feb5f63b329fe4ce	mokuhyo	43	table	⑲ 障がい福祉	障がい福祉サービス受給者数(人)/目標値(R7)	220		honpen-04 p.22	✓	auto:ai	2026-10-10	
-13763f24aa5496ad	mokuhyo	43	table	⑲ 障がい福祉	障がい福祉サービス受給者数(人)/目標値(R12)	240		honpen-04 p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+13763f24aa5496ad	mokuhyo	43	table	⑲ 障がい福祉	障がい福祉サービス受給者数(人)/目標値(R12)	240		honpen-04 p.22	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 911a0bac0ff9d202	mokuhyo	43	table	⑲ 障がい福祉	町内グループホーム等の定員数(人)/基準値(R2見込み)	29		honpen-04 p.22	✓	auto:ai	2026-10-10	
 770fab29222e6232	mokuhyo	43	table	⑲ 障がい福祉	町内グループホーム等の定員数(人)/目標値(R7)	44		honpen-04 p.22	✓	auto:ai	2026-10-10	
 cd2f9815fbcae8fa	mokuhyo	43	table	⑲ 障がい福祉	町内グループホーム等の定員数(人)/目標値(R12)	50		honpen-04 p.22	✓	auto:ai	2026-10-10	
-bf4f4beb63edd9a3	mokuhyo	44	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.24				要人確認:H1 A=一致/中 B=一致/中
+bf4f4beb63edd9a3	mokuhyo	44	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.24	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 bfd41e23573ecbf7	mokuhyo	45	table	⑳ 循環型社会	資源ごみの量(t)/基準値(R1)	214.57		honpen-04 p.24	✓	auto:ai	2026-10-10	
-2ac637d96f2db86a	mokuhyo	45	table	⑳ 循環型社会	資源ごみの量(t)/目標値(R7)	200		honpen-04 p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+2ac637d96f2db86a	mokuhyo	45	table	⑳ 循環型社会	資源ごみの量(t)/目標値(R7)	200		honpen-04 p.24	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 a1e661b0f84a7149	mokuhyo	45	table	⑳ 循環型社会	資源ごみの量(t)/目標値(R12)	200		honpen-04 p.24	✓	auto:ai	2026-10-10	
 f6f0e7741c5888a5	mokuhyo	45	table	⑳ 循環型社会	一日一人あたり可燃ごみ量(g)/基準値(R1)	495		honpen-04 p.24	✓	auto:ai	2026-10-10	
 9e6eb68b9fd2d2cf	mokuhyo	45	table	⑳ 循環型社会	一日一人あたり可燃ごみ量(g)/目標値(R7)	474		honpen-04 p.24	✓	auto:ai	2026-10-10	
 525b4ba8b5a2a4dc	mokuhyo	45	table	⑳ 循環型社会	一日一人あたり可燃ごみ量(g)/目標値(R12)	457		honpen-04 p.24	✓	auto:ai	2026-10-10	
-d90eb6a543a6474e	mokuhyo	46	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.26				要人確認:H1 A=一致/中 B=一致/中
+d90eb6a543a6474e	mokuhyo	46	programs	柱3 安心、助け合いのくらしづくり	事業数	2	件	honpen-04 p.26	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 73e4d6f3a4c85229	mokuhyo	47	table	㉑ 環境共生	清掃活動の参加人数(人)/基準値	256		honpen-04 p.26	✓	auto:ai	2026-10-10	
-4072e8f724643bbd	mokuhyo	47	table	㉑ 環境共生	清掃活動の参加人数(人)/目標値(R7)	260		honpen-04 p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+4072e8f724643bbd	mokuhyo	47	table	㉑ 環境共生	清掃活動の参加人数(人)/目標値(R7)	260		honpen-04 p.26	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 50844b651c2e9700	mokuhyo	47	table	㉑ 環境共生	清掃活動の参加人数(人)/目標値(R12)	260		honpen-04 p.26	✓	auto:ai	2026-10-10	
 511aa31f2f268f9d	mokuhyo	47	table	㉑ 環境共生	河川愛護事業参加人数(人)/基準値	3870		honpen-04 p.26	✓	auto:ai	2026-10-10	
 a88fce9fe81b195a	mokuhyo	47	table	㉑ 環境共生	河川愛護事業参加人数(人)/目標値(R7)	3900		honpen-04 p.26	✓	auto:ai	2026-10-10	
 733415dc734c4646	mokuhyo	47	table	㉑ 環境共生	河川愛護事業参加人数(人)/目標値(R12)	3900		honpen-04 p.26	✓	auto:ai	2026-10-10	
-db425a53117dba05	mokuhyo	49	programs	柱4 住みたくなる都市基盤づくり	事業数	3	件	honpen-05 p.2				要人確認:H1 A=一致/中 B=一致/中
+db425a53117dba05	mokuhyo	49	programs	柱4 住みたくなる都市基盤づくり	事業数	3	件	honpen-05 p.2	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 cdeac55fa18becd9	mokuhyo	50	table	㉒ 防犯・交通安全	刑法犯認知件数(件)/基準値(R1)	55		honpen-05 p.2	✓	auto:ai	2026-10-10	
 b1686191b7e59b8f	mokuhyo	50	table	㉒ 防犯・交通安全	刑法犯認知件数(件)/目標値(R7)	55		honpen-05 p.2	✓	auto:ai	2026-10-10	
-4f41b5781ea0714a	mokuhyo	50	table	㉒ 防犯・交通安全	刑法犯認知件数(件)/目標値(R12)	55		honpen-05 p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+4f41b5781ea0714a	mokuhyo	50	table	㉒ 防犯・交通安全	刑法犯認知件数(件)/目標値(R12)	55		honpen-05 p.2	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 65aaf349bc7d42bd	mokuhyo	50	table	㉒ 防犯・交通安全	消費相談件数(件)/基準値(R1)	41		honpen-05 p.2	✓	auto:ai	2026-10-10	
 dbc8b021617d0576	mokuhyo	50	table	㉒ 防犯・交通安全	消費相談件数(件)/目標値(R7)	45		honpen-05 p.2	✓	auto:ai	2026-10-10	
 dd0dcddfb6b9ea25	mokuhyo	50	table	㉒ 防犯・交通安全	消費相談件数(件)/目標値(R12)	45		honpen-05 p.2	✓	auto:ai	2026-10-10	
-055d675c54949a3d	mokuhyo	51	programs	柱4 住みたくなる都市基盤づくり	事業数	2	件	honpen-05 p.4				要人確認:H1 A=一致/中 B=一致/中
+055d675c54949a3d	mokuhyo	51	programs	柱4 住みたくなる都市基盤づくり	事業数	2	件	honpen-05 p.4	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 2a3056d94d26594d	mokuhyo	52	table	㉓ 防災・消防	消防団団員数(人)/基準値(R2見込み)	185		honpen-05 p.4	✓	auto:ai	2026-10-10	
 8dd98fdd306aecca	mokuhyo	52	table	㉓ 防災・消防	消防団団員数(人)/目標値(R7)	185		honpen-05 p.4	✓	auto:ai	2026-10-10	
-11c3c42e8aec62bf	mokuhyo	52	table	㉓ 防災・消防	消防団団員数(人)/目標値(R12)	185		honpen-05 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+11c3c42e8aec62bf	mokuhyo	52	table	㉓ 防災・消防	消防団団員数(人)/目標値(R12)	185		honpen-05 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 a9f7e86481365030	mokuhyo	52	table	㉓ 防災・消防	自主防災組織の組織数(組織)/基準値(R2見込み)	15		honpen-05 p.4	✓	auto:ai	2026-10-10	
 d736abf1f09c9a45	mokuhyo	52	table	㉓ 防災・消防	自主防災組織の組織数(組織)/目標値(R7)	25		honpen-05 p.4	✓	auto:ai	2026-10-10	
 eedf3ffbdaeab028	mokuhyo	52	table	㉓ 防災・消防	自主防災組織の組織数(組織)/目標値(R12)	40		honpen-05 p.4	✓	auto:ai	2026-10-10	
-0f577cb9b68f1763	mokuhyo	53	programs	柱4 住みたくなる都市基盤づくり	事業数	2	件	honpen-05 p.6				要人確認:H1 A=一致/中 B=一致/中
+0f577cb9b68f1763	mokuhyo	53	programs	柱4 住みたくなる都市基盤づくり	事業数	2	件	honpen-05 p.6	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 c55f64da4c9fa212	mokuhyo	54	table	㉔ 都市計画	道路整備を計画している箇所の整備済延長(km)/基準値	0.75		honpen-05 p.6	✓	auto:ai	2026-10-10	
 41152c33791ef308	mokuhyo	54	table	㉔ 都市計画	道路整備を計画している箇所の整備済延長(km)/目標値(中間)	1.94		honpen-05 p.6	✓	auto:ai	2026-10-10	
 c4d1fd3cd063ecc6	mokuhyo	54	table	㉔ 都市計画	道路整備を計画している箇所の整備済延長(km)/目標値(期末)	3.36		honpen-05 p.6	✓	auto:ai	2026-10-10	
@@ -326,7 +326,7 @@ cb708926711b80da	mokuhyo	54	table	㉔ 都市計画	橋梁長寿命化計画に�
 4c15b524810c898a	mokuhyo	54	table	㉔ 都市計画	橋梁長寿命化計画に基づく健全な橋梁(橋)/目標値(中間)	31		honpen-05 p.6	✓	auto:ai	2026-10-10	
 7a45621531a54dbf	mokuhyo	54	table	㉔ 都市計画	橋梁長寿命化計画に基づく健全な橋梁(橋)/目標値(期末)	43		honpen-05 p.6	✓	auto:ai	2026-10-10	
 8dcb91fb9a482217	mokuhyo	54	table	㉔ 都市計画	町道改良地区(地区)/基準値	1		honpen-05 p.6	✓	auto:ai	2026-10-10	
-0c501e4220dd975c	mokuhyo	54	table	㉔ 都市計画	町道改良地区(地区)/目標値(中間)	1		honpen-05 p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+0c501e4220dd975c	mokuhyo	54	table	㉔ 都市計画	町道改良地区(地区)/目標値(中間)	1		honpen-05 p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 e8bc570b82ccc068	mokuhyo	54	table	㉔ 都市計画	町道改良地区(地区)/目標値(期末)	1		honpen-05 p.6	✓	auto:ai	2026-10-10	
 127b4eacfcc83bfe	mokuhyo	54	table	㉔ 都市計画	町道舗装延長(修繕)(km)/基準値	2.32		honpen-05 p.6	✓	auto:ai	2026-10-10	
 a796b5166571f346	mokuhyo	54	table	㉔ 都市計画	町道舗装延長(修繕)(km)/目標値(中間)	4.32		honpen-05 p.6	✓	auto:ai	2026-10-10	
@@ -334,14 +334,14 @@ a796b5166571f346	mokuhyo	54	table	㉔ 都市計画	町道舗装延長(修繕)(km
 caf3d99f4ea7aa3f	mokuhyo	54	table	㉔ 都市計画	市街化区域における地区計画区域の空閑地面積(ha)/基準値	7.9		honpen-05 p.6	✓	auto:ai	2026-10-10	
 a4cb6731cae87ad3	mokuhyo	54	table	㉔ 都市計画	市街化区域における地区計画区域の空閑地面積(ha)/目標値(中間)	5.0		honpen-05 p.6	✓	auto:ai	2026-10-10	
 466227755272b8a1	mokuhyo	54	table	㉔ 都市計画	市街化区域における地区計画区域の空閑地面積(ha)/目標値(期末)	3.0		honpen-05 p.6	✓	auto:ai	2026-10-10	
-b3cf410cfccfd43b	mokuhyo	55	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.8				要人確認:H1 A=一致/中 B=一致/中
+b3cf410cfccfd43b	mokuhyo	55	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.8	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 7889218737ea3713	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」の利用者数(人)/基準値	223300		honpen-05 p.8	✓	auto:ai	2026-10-10	
 12bbad409022f852	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」の利用者数(人)/目標値(R7)	230000		honpen-05 p.8	✓	auto:ai	2026-10-10	
 6f6d836400cf59ca	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」の利用者数(人)/目標値(R12)	240000		honpen-05 p.8	✓	auto:ai	2026-10-10	
 801394293170a269	mokuhyo	56	table	㉕ 公共交通	「町営バス」の利用者数(人)/基準値	51043		honpen-05 p.8	✓	auto:ai	2026-10-10	
 ee457e11b99f4682	mokuhyo	56	table	㉕ 公共交通	「町営バス」の利用者数(人)/目標値(R7)	52000		honpen-05 p.8	✓	auto:ai	2026-10-10	
 8f30005111b3392c	mokuhyo	56	table	㉕ 公共交通	「町営バス」の利用者数(人)/目標値(R12)	53000		honpen-05 p.8	✓	auto:ai	2026-10-10	
-104dcb5e1f2146de	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」「町営バス」の住民1人あたりの利用回数(回/人)/基準値	12.8		honpen-05 p.8	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+104dcb5e1f2146de	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」「町営バス」の住民1人あたりの利用回数(回/人)/基準値	12.8		honpen-05 p.8	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 4a58f479292ce76b	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」「町営バス」の住民1人あたりの利用回数(回/人)/目標値(R7)	14.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
 8787415d2623dc27	mokuhyo	56	table	㉕ 公共交通	「近江バス(日八線)」「町営バス」の住民1人あたりの利用回数(回/人)/目標値(R12)	16.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
 ee0181b928d8c2b0	mokuhyo	56	table	㉕ 公共交通	町営バスの利用者の少ない運行便数の割合(%)/基準値	36		honpen-05 p.8	✓	auto:ai	2026-10-10	
@@ -350,10 +350,10 @@ cc9d3b173508ec52	mokuhyo	56	table	㉕ 公共交通	町営バスの利用者の�
 6c635072f975694a	mokuhyo	56	table	㉕ 公共交通	町営バスの収支率(%)/基準値	8.7		honpen-05 p.8	✓	auto:ai	2026-10-10	
 6b7e13b4d4267de6	mokuhyo	56	table	㉕ 公共交通	町営バスの収支率(%)/目標値(R7)	10.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
 6b78ef3a7be0e78c	mokuhyo	56	table	㉕ 公共交通	町営バスの収支率(%)/目標値(R12)	12.0		honpen-05 p.8	✓	auto:ai	2026-10-10	
-6f2576542f6ff26a	mokuhyo	57	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.10				要人確認:H1 A=一致/中 B=一致/中
+6f2576542f6ff26a	mokuhyo	57	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.10	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 7b002a97b05ec7ce	mokuhyo	58	table	㉖ 住環境	家屋の耐震診断件数(件)/基準値	3		honpen-05 p.10	✓	auto:ai	2026-10-10	
 2ef9ca8353158e5e	mokuhyo	58	table	㉖ 住環境	家屋の耐震診断件数(件)/目標値(R7)	7		honpen-05 p.10	✓	auto:ai	2026-10-10	
-014c859c44dd267d	mokuhyo	58	table	㉖ 住環境	家屋の耐震診断件数(件)/目標値(R12)	10		honpen-05 p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+014c859c44dd267d	mokuhyo	58	table	㉖ 住環境	家屋の耐震診断件数(件)/目標値(R12)	10		honpen-05 p.10	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 bd29da93355aad72	mokuhyo	58	table	㉖ 住環境	家屋の耐震化補助件数(件)/基準値	0		honpen-05 p.10	✓	auto:ai	2026-10-10	
 702a41b6f22dd361	mokuhyo	58	table	㉖ 住環境	家屋の耐震化補助件数(件)/目標値(R7)	2		honpen-05 p.10	✓	auto:ai	2026-10-10	
 cd7a4524d234a558	mokuhyo	58	table	㉖ 住環境	家屋の耐震化補助件数(件)/目標値(R12)	3		honpen-05 p.10	✓	auto:ai	2026-10-10	
@@ -372,47 +372,47 @@ da63835317409b24	mokuhyo	58	table	㉖ 住環境	危険空き家の除却等の�
 3d678a1a8ebb1f6b	mokuhyo	58	table	㉖ 住環境	都市公園利用者数(人)/基準値	56495		honpen-05 p.10	✓	auto:ai	2026-10-10	
 71b1e2a32ee00700	mokuhyo	58	table	㉖ 住環境	都市公園利用者数(人)/目標値(R7)	90000		honpen-05 p.10	✓	auto:ai	2026-10-10	
 9e57f81a808be8bc	mokuhyo	58	table	㉖ 住環境	都市公園利用者数(人)/目標値(R12)	85000		honpen-05 p.10	✓	auto:ai	2026-10-10	
-a6a6b09b7e80b777	mokuhyo	59	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.12				要人確認:H1 A=一致/中 B=一致/中
+a6a6b09b7e80b777	mokuhyo	59	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.12	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 dad18f70c4fed477	mokuhyo	60	table	㉗ 上水道・下水道	上水道基幹管路の耐震化率(%)/基準値(R1)	9.73		honpen-05 p.12	✓	auto:ai	2026-10-10	
 bf16c070dd88a670	mokuhyo	60	table	㉗ 上水道・下水道	上水道基幹管路の耐震化率(%)/目標値(R7)	27.41		honpen-05 p.12	✓	auto:ai	2026-10-10	
-7c5458890825041c	mokuhyo	60	table	㉗ 上水道・下水道	上水道基幹管路の耐震化率(%)/目標値(R12)	40.66		honpen-05 p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-62ffe288c8ed5db3	mokuhyo	61	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.14				要人確認:H1 A=一致/中 B=一致/中
+7c5458890825041c	mokuhyo	60	table	㉗ 上水道・下水道	上水道基幹管路の耐震化率(%)/目標値(R12)	40.66		honpen-05 p.12	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+62ffe288c8ed5db3	mokuhyo	61	programs	柱4 住みたくなる都市基盤づくり	事業数	1	件	honpen-05 p.14	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 99f8f2fb2eeabdbe	mokuhyo	62	table	㉘ 景観	近隣景観形成協定に取り組む地域数(件)/基準値(R1)	0		honpen-05 p.14	✓	auto:ai	2026-10-10	
 cb175378ffbe50d1	mokuhyo	62	table	㉘ 景観	近隣景観形成協定に取り組む地域数(件)/目標値(R7)	1		honpen-05 p.14	✓	auto:ai	2026-10-10	
-77b1505ef1e58dd3	mokuhyo	62	table	㉘ 景観	近隣景観形成協定に取り組む地域数(件)/目標値(R12)	2		honpen-05 p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-c99210fb7739302e	mokuhyo	63	programs	柱4 住みたくなる都市基盤づくり	事業数	2	件	honpen-05 p.16				要人確認:H1 A=一致/中 B=一致/中
+77b1505ef1e58dd3	mokuhyo	62	table	㉘ 景観	近隣景観形成協定に取り組む地域数(件)/目標値(R12)	2		honpen-05 p.14	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+c99210fb7739302e	mokuhyo	63	programs	柱4 住みたくなる都市基盤づくり	事業数	2	件	honpen-05 p.16	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 5162d67452db0bc7	mokuhyo	64	table	㉙ 情報化社会への対応	「日野め～る」の登録者数(人)/基準値(R2見込み)	3157		honpen-05 p.16	✓	auto:ai	2026-10-10	
-2602354ff7be2e1b	mokuhyo	64	table	㉙ 情報化社会への対応	「日野め～る」の登録者数(人)/目標値(R7)	3600		honpen-05 p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+2602354ff7be2e1b	mokuhyo	64	table	㉙ 情報化社会への対応	「日野め～る」の登録者数(人)/目標値(R7)	3600		honpen-05 p.16	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 2a476422994c90e4	mokuhyo	64	table	㉙ 情報化社会への対応	「日野め～る」の登録者数(人)/目標値(R12)	4000		honpen-05 p.16	✓	auto:ai	2026-10-10	
 b908ba455809a874	mokuhyo	64	table	㉙ 情報化社会への対応	町ホームページアクセス数(件)/基準値(R2見込み)	3065615		honpen-05 p.16	✓	auto:ai	2026-10-10	
 4f1bca1be03c0599	mokuhyo	64	table	㉙ 情報化社会への対応	町ホームページアクセス数(件)/目標値(R7)	3400000		honpen-05 p.16	✓	auto:ai	2026-10-10	
 d72a5545bd7aaf8d	mokuhyo	64	table	㉙ 情報化社会への対応	町ホームページアクセス数(件)/目標値(R12)	3800000		honpen-05 p.16	✓	auto:ai	2026-10-10	
-d8e512899ee92a42	mokuhyo	66	programs	柱5 みんなではぐくむ地域づくり	事業数	3	件	honpen-05 p.18				要人確認:H1 A=一致/中 B=一致/中
+d8e512899ee92a42	mokuhyo	66	programs	柱5 みんなではぐくむ地域づくり	事業数	3	件	honpen-05 p.18	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 308bedba63100f86	mokuhyo	67	table	㉚ 進取のまちづくり	まちづくり計画の策定自治会数(累計)(自治会)/基準値	16		honpen-05 p.18	✓	auto:ai	2026-10-10	
 7f40d1d545229f39	mokuhyo	67	table	㉚ 進取のまちづくり	まちづくり計画の策定自治会数(累計)(自治会)/目標値(中間)	24		honpen-05 p.18	✓	auto:ai	2026-10-10	
-0813fd457d3c6636	mokuhyo	67	table	㉚ 進取のまちづくり	まちづくり計画の策定自治会数(累計)(自治会)/目標値(期末)	32		honpen-05 p.18	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+0813fd457d3c6636	mokuhyo	67	table	㉚ 進取のまちづくり	まちづくり計画の策定自治会数(累計)(自治会)/目標値(期末)	32		honpen-05 p.18	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 354755047ee9fcaa	mokuhyo	67	table	㉚ 進取のまちづくり	協働のまちづくりができていると思う人の割合(%)/基準値	44.9		honpen-05 p.18	✓	auto:ai	2026-10-10	
 32ac1d14a3602bcd	mokuhyo	67	table	㉚ 進取のまちづくり	協働のまちづくりができていると思う人の割合(%)/目標値(中間)	50		honpen-05 p.18	✓	auto:ai	2026-10-10	
 4381262237c99e42	mokuhyo	67	table	㉚ 進取のまちづくり	協働のまちづくりができていると思う人の割合(%)/目標値(期末)	55		honpen-05 p.18	✓	auto:ai	2026-10-10	
 ac262389cf2bf7a3	mokuhyo	67	table	㉚ 進取のまちづくり	公民館利用者数(人)/基準値	86695		honpen-05 p.18	✓	auto:ai	2026-10-10	
 f99cd33a4e76827e	mokuhyo	67	table	㉚ 進取のまちづくり	公民館利用者数(人)/目標値(中間)	88000		honpen-05 p.18	✓	auto:ai	2026-10-10	
 5ee3a9025e25e2e1	mokuhyo	67	table	㉚ 進取のまちづくり	公民館利用者数(人)/目標値(期末)	90000		honpen-05 p.18	✓	auto:ai	2026-10-10	
-41bab19d4377685e	mokuhyo	68	programs	柱5 みんなではぐくむ地域づくり	事業数	2	件	honpen-05 p.20				要人確認:H1 A=一致/中 B=一致/中
+41bab19d4377685e	mokuhyo	68	programs	柱5 みんなではぐくむ地域づくり	事業数	2	件	honpen-05 p.20	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 3087137b6c05bd99	mokuhyo	69	table	㉛ 交流・移住	定住に関する相談件数(件)/基準値(R1)	22		honpen-05 p.20	✓	auto:ai	2026-10-10	
 607312449f5e7adc	mokuhyo	69	table	㉛ 交流・移住	定住に関する相談件数(件)/目標値(R7)	25		honpen-05 p.20	✓	auto:ai	2026-10-10	
 c9d251dea931b3d5	mokuhyo	69	table	㉛ 交流・移住	定住に関する相談件数(件)/目標値(R12)	30		honpen-05 p.20	✓	auto:ai	2026-10-10	
 bead7aac4aeff357	mokuhyo	69	table	㉛ 交流・移住	空き家・空き地情報登録制度での移住定住者数(累計)(人)/基準値(R1)	142		honpen-05 p.20	✓	auto:ai	2026-10-10	
 70dc0d49fc03b90e	mokuhyo	69	table	㉛ 交流・移住	空き家・空き地情報登録制度での移住定住者数(累計)(人)/目標値(R7)	230		honpen-05 p.20	✓	auto:ai	2026-10-10	
-11c397a1c15dbfda	mokuhyo	69	table	㉛ 交流・移住	空き家・空き地情報登録制度での移住定住者数(累計)(人)/目標値(R12)	320		honpen-05 p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
-7c416973431b0177	mokuhyo	70	programs	柱5 みんなではぐくむ地域づくり	事業数	1	件	honpen-05 p.22				要人確認:H1 A=一致/中 B=一致/中
-6e50b8e7d332d7f3	mokuhyo	71	programs	柱5 みんなではぐくむ地域づくり	事業数	1	件	honpen-05 p.24				要人確認:H1 A=一致/中 B=一致/中
+11c397a1c15dbfda	mokuhyo	69	table	㉛ 交流・移住	空き家・空き地情報登録制度での移住定住者数(累計)(人)/目標値(R12)	320		honpen-05 p.20	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
+7c416973431b0177	mokuhyo	70	programs	柱5 みんなではぐくむ地域づくり	事業数	1	件	honpen-05 p.22	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
+6e50b8e7d332d7f3	mokuhyo	71	programs	柱5 みんなではぐくむ地域づくり	事業数	1	件	honpen-05 p.24	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 f00f634ebd59adcf	mokuhyo	72	table	㉝ 行政運営	派遣型研修 参加率(%)/基準値(R2見込み)	45		honpen-05 p.24	✓	auto:ai	2026-10-10	
 a15bd93c50bc67b1	mokuhyo	72	table	㉝ 行政運営	派遣型研修 参加率(%)/目標値(R7)	48		honpen-05 p.24	✓	auto:ai	2026-10-10	
-59904eff74a3bbb8	mokuhyo	72	table	㉝ 行政運営	派遣型研修 参加率(%)/目標値(R12)	50		honpen-05 p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+59904eff74a3bbb8	mokuhyo	72	table	㉝ 行政運営	派遣型研修 参加率(%)/目標値(R12)	50		honpen-05 p.24	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 ea05b879ad7c17ad	mokuhyo	72	table	㉝ 行政運営	独自研修開催数(回)/基準値(R2見込み)	6		honpen-05 p.24	✓	auto:ai	2026-10-10	
 802bcea0ec50659f	mokuhyo	72	table	㉝ 行政運営	独自研修開催数(回)/目標値(R7)	8		honpen-05 p.24	✓	auto:ai	2026-10-10	
 789c5f3542083316	mokuhyo	72	table	㉝ 行政運営	独自研修開催数(回)/目標値(R12)	10		honpen-05 p.24	✓	auto:ai	2026-10-10	
-e6d534c5ccce4eb8	mokuhyo	73	programs	柱5 みんなではぐくむ地域づくり	事業数	1	件	honpen-05 p.26				要人確認:H1 A=一致/中 B=一致/中
+e6d534c5ccce4eb8	mokuhyo	73	programs	柱5 みんなではぐくむ地域づくり	事業数	1	件	honpen-05 p.26	✓	kken78	2026-10-12	要人確認:H1 A=一致/中 B=一致/中
 3b2bfbd472e5cf75	mokuhyo	74	table	㉞ 財政基盤	財政調整基金現在高(百万円)/基準値	1052		honpen-05 p.26	✓	auto:ai	2026-10-10	
 f617e72f7927d423	mokuhyo	74	table	㉞ 財政基盤	財政調整基金現在高(百万円)/目標値(R7)	1100		honpen-05 p.26	✓	auto:ai	2026-10-10	
 96e7a413488c874f	mokuhyo	74	table	㉞ 財政基盤	財政調整基金現在高(百万円)/目標値(R12)	1200		honpen-05 p.26	✓	auto:ai	2026-10-10	
@@ -425,12 +425,12 @@ d1795e049f46bf29	mokuhyo	74	table	㉞ 財政基盤	町税収納率(現年度分)
 aa72835c4c65b4da	mokuhyo	74	table	㉞ 財政基盤	町税収納率(滞納繰越分)(%)/基準値	21.19		honpen-05 p.26	✓	auto:ai	2026-10-10	
 1b041902ffb908a6	mokuhyo	74	table	㉞ 財政基盤	町税収納率(滞納繰越分)(%)/目標値(R7)	23.00		honpen-05 p.26	✓	auto:ai	2026-10-10	
 be170e25482b89e4	mokuhyo	74	table	㉞ 財政基盤	町税収納率(滞納繰越分)(%)/目標値(R12)	25.00		honpen-05 p.26	✓	auto:ai	2026-10-10	
-160cbbfc34b52aa3	mokuhyo	74	table	㉞ 財政基盤	滞納繰越分調定額(千円)/基準値	82092		honpen-05 p.26	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+160cbbfc34b52aa3	mokuhyo	74	table	㉞ 財政基盤	滞納繰越分調定額(千円)/基準値	82092		honpen-05 p.26	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 416f2a1c46567571	mokuhyo	74	table	㉞ 財政基盤	滞納繰越分調定額(千円)/目標値(R7)	70000		honpen-05 p.26	✓	auto:ai	2026-10-10	
 9d2452eefe43a828	mokuhyo	74	table	㉞ 財政基盤	滞納繰越分調定額(千円)/目標値(R12)	58000		honpen-05 p.26	✓	auto:ai	2026-10-10	
-0018936adeb2441a	suishin	2	timeline	計画の期間と進め方	基本構想(10年間)	R3〜R12		honpen-01 p.9				要人確認:H2 数値でない
-ebf6e38491d53bb9	suishin	2	timeline	計画の期間と進め方	基本計画(5年間。5年後に計画の進捗と時代の変化を踏まえて見直す)	R3〜R7		honpen-01 p.9				要人確認:H2 数値でない
-4822d2339f2ecf13	suishin	2	timeline	計画の期間と進め方	見直し後の基本計画(原典の図による)	R8〜R12		honpen-01 p.9				要人確認:H2 数値でない
+0018936adeb2441a	suishin	2	timeline	計画の期間と進め方	基本構想(10年間)	R3〜R12		honpen-01 p.9	✓	kken78	2026-10-12	要人確認:H2 数値でない
+ebf6e38491d53bb9	suishin	2	timeline	計画の期間と進め方	基本計画(5年間。5年後に計画の進捗と時代の変化を踏まえて見直す)	R3〜R7		honpen-01 p.9	✓	kken78	2026-10-12	要人確認:H2 数値でない
+4822d2339f2ecf13	suishin	2	timeline	計画の期間と進め方	見直し後の基本計画(原典の図による)	R8〜R12		honpen-01 p.9	✓	kken78	2026-10-12	要人確認:H2 数値でない
 58e28aaa4a1efcd0	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H12/歳入	880	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 149065325bc24618	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H12/歳出	859	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 0801281322a47236	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H15/歳入	801	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
@@ -438,7 +438,7 @@ c5e15d75952454e8	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H15
 36cf43b39a02a743	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H18/歳入	745	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 221f14800370952d	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H18/歳出	720	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 b1ff4b5752b014da	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳入	862	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
-05e949345e6e3961	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳出	825	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+05e949345e6e3961	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H21/歳出	825	千万円	honpen-06 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 44a443f96cab7a83	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H24/歳入	862	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 b15707e75a18074c	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H24/歳出	821	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 6bbda1f353dd43cf	suishin	8	chart.pair	財政規模の推移(歳入と歳出)	H25/歳入	1032	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
@@ -460,7 +460,7 @@ e9678dd5d9066c9b	suishin	9	chart.bars	歳入歳出差引	H15	24	千万円	honpen
 c93c85a79e1706ac	suishin	9	chart.bars	歳入歳出差引	H18	25	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 a84f4be55771e8c5	suishin	9	chart.bars	歳入歳出差引	H21	37	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 e88a6cef845b5de2	suishin	9	chart.bars	歳入歳出差引	H24	41	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
-0a6c846c2d78f62f	suishin	9	chart.bars	歳入歳出差引	H25	40	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+0a6c846c2d78f62f	suishin	9	chart.bars	歳入歳出差引	H25	40	千万円	honpen-06 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 4cb6ff6b096dae9a	suishin	9	chart.bars	歳入歳出差引	H26	47	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 d015cfb0a1571cc5	suishin	9	chart.bars	歳入歳出差引	H27	43	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 5cb5f88ef360c504	suishin	9	chart.bars	歳入歳出差引	H28	58	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
@@ -468,7 +468,7 @@ f772fdd77ead29bb	suishin	9	chart.bars	歳入歳出差引	H29	45	千万円	honpen
 0d3afc67513f1836	suishin	9	chart.bars	歳入歳出差引	H30	52	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 83bfde55275be7a2	suishin	9	chart.bars	歳入歳出差引	R1	50	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 c5f9159005e46021	suishin	10	chart.stacked	義務的経費の傾向	H12/人件費	176	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
-59a3b7466c47cbdf	suishin	10	chart.stacked	義務的経費の傾向	H12/扶助費	40	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+59a3b7466c47cbdf	suishin	10	chart.stacked	義務的経費の傾向	H12/扶助費	40	千万円	honpen-06 p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 c2adbb252bc6689d	suishin	10	chart.stacked	義務的経費の傾向	H12/公債費	121	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 cdc56698d44a8bda	suishin	10	chart.stacked	義務的経費の傾向	H15/人件費	174	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 f980c33c9f5d4e9d	suishin	10	chart.stacked	義務的経費の傾向	H15/扶助費	63	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
@@ -504,7 +504,7 @@ a301f88f39a651f4	suishin	10	chart.stacked	義務的経費の傾向	H30/扶助費
 e126157d02319f25	suishin	10	chart.stacked	義務的経費の傾向	R1/扶助費	166	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 7889af758aeab8bc	suishin	10	chart.stacked	義務的経費の傾向	R1/公債費	75	千万円	honpen-06 p.4	✓	auto:ai	2026-10-10	
 53f978cc759cc391	suishin	12	chart.stacked	町債残高の推移	H12/臨時財政対策債を除く町債	760	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
-b44d5690c889cce1	suishin	12	chart.stacked	町債残高の推移	H12/臨時財政対策債	0	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ9点
+b44d5690c889cce1	suishin	12	chart.stacked	町債残高の推移	H12/臨時財政対策債	0	千万円	honpen-06 p.5	✓	kken78	2026-10-12	要人確認:H4 難しさ9点
 728deaa4af987565	suishin	12	chart.stacked	町債残高の推移	H15/臨時財政対策債を除く町債	606	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 c75dc31b7b5c9fcf	suishin	12	chart.stacked	町債残高の推移	H15/臨時財政対策債	90	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 28f010fb2c4dfe9c	suishin	12	chart.stacked	町債残高の推移	H18/臨時財政対策債を除く町債	457	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
@@ -529,7 +529,7 @@ ce8db159f1813977	suishin	12	chart.stacked	町債残高の推移	R1/臨時財政�
 2d1b952458c576d4	suishin	12	chart.stacked	町債残高の推移	R1/臨時財政対策債	492	千万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 5f2c8604e8e9ec01	suishin	13	chart.stacked	基金の推移	H12/財政調整基金	472	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 3b9a4e2b9fc91299	suishin	13	chart.stacked	基金の推移	H12/減債基金	135	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
-90f96a815542aaa7	suishin	13	chart.stacked	基金の推移	H15/財政調整基金	700	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+90f96a815542aaa7	suishin	13	chart.stacked	基金の推移	H15/財政調整基金	700	百万円	honpen-06 p.5	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 bb7026b44237af0d	suishin	13	chart.stacked	基金の推移	H15/減債基金	50	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 414d6dd90396a202	suishin	13	chart.stacked	基金の推移	H18/財政調整基金	853	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
 3658b008d489379d	suishin	13	chart.stacked	基金の推移	H18/減債基金	171	百万円	honpen-06 p.5	✓	auto:ai	2026-10-10	
@@ -557,7 +557,7 @@ ff47eb8530448918	suishin	14	chart.bars	経常収支比率の推移	H18	85.0	%	ho
 30df08df76392b3d	suishin	14	chart.bars	経常収支比率の推移	H21	86.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
 81b55a8af7500562	suishin	14	chart.bars	経常収支比率の推移	H24	88.7	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
 46006c26297069bd	suishin	14	chart.bars	経常収支比率の推移	H25	84.5	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
-00377c0132be3ef3	suishin	14	chart.bars	経常収支比率の推移	H26	87.4	%	honpen-06 p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+00377c0132be3ef3	suishin	14	chart.bars	経常収支比率の推移	H26	87.4	%	honpen-06 p.5	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 9de105638590c2fa	suishin	14	chart.bars	経常収支比率の推移	H27	87.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
 bfa625357ab8ca9c	suishin	14	chart.bars	経常収支比率の推移	H28	88.2	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
 76de73e80880190f	suishin	14	chart.bars	経常収支比率の推移	H29	94.0	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
@@ -565,7 +565,7 @@ bfa625357ab8ca9c	suishin	14	chart.bars	経常収支比率の推移	H28	88.2	%	ho
 4e2a26128b796cb6	suishin	14	chart.bars	経常収支比率の推移	R1	89.6	%	honpen-06 p.5	✓	auto:ai	2026-10-10	
 d7c3185c572d3d8e	koe	3	kpi	住民意識調査	配布数	2500	件	honpen-07 p.2	✓	auto:ai	2026-10-10	
 4902775c2c0a06de	koe	3	kpi	住民意識調査	回収数	1285	件	honpen-07 p.2	✓	auto:ai	2026-10-10	
-0487d50831d87742	koe	3	kpi	住民意識調査	有効回答数	1283	件	honpen-07 p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+0487d50831d87742	koe	3	kpi	住民意識調査	有効回答数	1283	件	honpen-07 p.2	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 a992a74a9aefd88d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/そう思う	15.4	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 dadcabf2c5c6e8ad	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/ややそう思う	39.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 a7f0fb8d80492891	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	医療機関が多い/あまり思わない	35.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
@@ -604,18 +604,18 @@ c52e4180059e272e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	買
 e2f17a210c90948a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/そう思う	42.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 546a97fd9fcec306	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/ややそう思う	45.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 d822c90ca6b2c4c8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/あまり思わない	8.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
-883a558e47841651	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/思わない	1.9	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
-88ac701ac36c7a07	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/不明・無回答	2.0	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+883a558e47841651	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/思わない	1.9	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/高 B=一致/中
+88ac701ac36c7a07	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然環境が良い/不明・無回答	2.0	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/高 B=一致/中
 41e14f105e35c942	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/そう思う	47.2	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 4d9d733a418e7414	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/ややそう思う	42.5	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 61a24057a40c4cc5	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/あまり思わない	7.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
-7940dbf29e2164eb	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/思わない	1.3	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
-219bad23078d3d4f	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/不明・無回答	1.2	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+7940dbf29e2164eb	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/思わない	1.3	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/高 B=一致/中
+219bad23078d3d4f	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	自然災害が少ない/不明・無回答	1.2	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/高 B=一致/中
 0ec99b67d6fc7028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/そう思う	33.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 83f2df08ff3bd13a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/ややそう思う	47.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 6de6a8082c0b622e	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/あまり思わない	14.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
-666733e831e6a028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/思わない	2.3	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
-acde23ba6a4ded1b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/不明・無回答	2.3	%	honpen-07 p.3				要人確認:H1 A=一致/高 B=一致/中
+666733e831e6a028	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/思わない	2.3	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/高 B=一致/中
+acde23ba6a4ded1b	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	治安が良い/不明・無回答	2.3	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H1 A=一致/高 B=一致/中
 698251e6ec81928a	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/そう思う	2.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 ef935f4f84686841	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/ややそう思う	9.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 5bfcabdd42c72e94	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	交通の便が良い/あまり思わない	34.3	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
@@ -643,7 +643,7 @@ d99ee6e1ef2d4053	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町
 5ca059cf72df214d	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	町外の人に魅力を自慢できる/不明・無回答	2.1	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 37f61c392c43d429	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/そう思う	15.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 f5e0f68b146c4ec8	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/ややそう思う	45.6	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
-00d6161c0913b264	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/あまり思わない	29.8	%	honpen-07 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+00d6161c0913b264	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/あまり思わない	29.8	%	honpen-07 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 54bdd218cd82b44c	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/思わない	7.9	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 3c05bd9528eb53ee	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	愛着を感じる町だ/不明・無回答	1.7	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
 894c0a6f03034a42	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	住みやすい町だ/そう思う	14.0	%	honpen-07 p.3	✓	auto:ai	2026-10-10	
@@ -659,14 +659,14 @@ fd429597d4a7ef84	koe	5	chart.stacked100	日野町の良いところ(n=1,283)	こ
 3edb6454a0ea66ff	koe	8	table	各地区まちづくり懇談会	日野地区/参加者(人)	30		honpen-07 p.7	✓	auto:ai	2026-10-10	
 7a33bc0123379807	koe	8	table	各地区まちづくり懇談会	東桜谷地区/参加者(人)	19		honpen-07 p.7	✓	auto:ai	2026-10-10	
 b175f6d16bc4e5d0	koe	8	table	各地区まちづくり懇談会	西桜谷地区/参加者(人)	19		honpen-07 p.7	✓	auto:ai	2026-10-10	
-186629ce80985ca7	koe	8	table	各地区まちづくり懇談会	西大路地区/参加者(人)	17		honpen-07 p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+186629ce80985ca7	koe	8	table	各地区まちづくり懇談会	西大路地区/参加者(人)	17		honpen-07 p.7	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 b53b23b18d55f4e7	koe	8	table	各地区まちづくり懇談会	鎌掛地区/参加者(人)	25		honpen-07 p.7	✓	auto:ai	2026-10-10	
 70cb567bb91e236c	koe	8	table	各地区まちづくり懇談会	南比都佐地区/参加者(人)	21		honpen-07 p.7	✓	auto:ai	2026-10-10	
 7a09a1d27a5c587d	koe	8	table	各地区まちづくり懇談会	必佐地区/参加者(人)	21		honpen-07 p.7	✓	auto:ai	2026-10-10	
 e515c1b326fde30e	koe	11	table	日野町総合計画懇話会とパブリックコメント	反映/件数	28		honpen-07 p.16	✓	auto:ai	2026-10-10	
 44181f6f4e2a17c4	koe	11	table	日野町総合計画懇話会とパブリックコメント	反映/割合(%)	62.2		honpen-07 p.16	✓	auto:ai	2026-10-10	
 cb7ffb41c83f972f	koe	11	table	日野町総合計画懇話会とパブリックコメント	一部反映/件数	2		honpen-07 p.16	✓	auto:ai	2026-10-10	
-2e4a34c9fa26826f	koe	11	table	日野町総合計画懇話会とパブリックコメント	一部反映/割合(%)	4.4		honpen-07 p.16	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+2e4a34c9fa26826f	koe	11	table	日野町総合計画懇話会とパブリックコメント	一部反映/割合(%)	4.4		honpen-07 p.16	✓	kken78	2026-10-12	要人確認:H4 難しさ0点
 49ab169683e421ab	koe	11	table	日野町総合計画懇話会とパブリックコメント	参考意見/件数	15		honpen-07 p.16	✓	auto:ai	2026-10-10	
 38c5e33cfe8c8c2e	koe	11	table	日野町総合計画懇話会とパブリックコメント	参考意見/割合(%)	33.3		honpen-07 p.16	✓	auto:ai	2026-10-10	
 485affe28edbd704	koe	11	table	日野町総合計画懇話会とパブリックコメント	意見の提出(合計)/件数	45		honpen-07 p.16	✓	auto:ai	2026-10-10	

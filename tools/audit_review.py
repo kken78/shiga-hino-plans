@@ -165,6 +165,28 @@ def locate(page, row):
 
 
 # ---------------------------------------------------------------- 確認ページのデータ
+def counted(plan, row):
+    """「事業数」の行(render_plan.py が programs ブロックの items の数を照合表に出す行。ダッシュボードには出ない)が
+    何を数えたか。節・小見出しごとに、数えた項目と、項目の無い(説明だけの)見出しを並べる。
+    確認する人が原典のどの見出しの下の何を数えればよいか分かるようにするため(補遺 M)。"""
+    if row["btype"] != "programs" or row["label"] != "事業数":
+        return None
+    tab = next(t for t in plan["tabs"] if t["id"] == row["tab"])
+    b = tab["blocks"][int(row["block_no"])]
+    name = lambda x: f'{x.get("no", "")} {x["name"]}'.strip()  # noqa: E731
+    out = []
+    for g in b["groups"]:
+        if g.get("subgroups"):
+            for sg in g["subgroups"]:
+                out.append({"path": [name(g), name(sg)], "items": [name(i) for i in sg["items"]]})
+        else:
+            out.append({"path": [name(g)], "items": [name(i) for i in g["items"]]})
+    n = sum(len(x["items"]) for x in out)
+    if str(n) != row["value"]:
+        raise ac.Stop(f"{row['tab']} #{row['block_no']}: 数えた項目 {n} が照合表の事業数 {row['value']} と合わない")
+    return out
+
+
 def human_done(r):
     return r["checked"] == "✓" and not r["reviewer"].startswith("auto:")
 
@@ -205,6 +227,7 @@ def build_plan(pid):
                       "label": r["label"], "value": r["value"], "unit": r["unit"], "source": r["source"],
                       "rule": rule, "why": reason[len(aw.FOCUS) + len(rule):].strip(), "memo": memo,
                       "ledger": {"by": r["reviewer"], "date": r["date"]} if human_done(r) else None,
+                      "counted": counted(plan, r),
                       "refs": refs})
     # ページ画像。合計が目安を超える計画は、画素数が目安に収まるよう解像度を下げる(JPEG の大きさは画素数にほぼ比例)
     dpi = DPI

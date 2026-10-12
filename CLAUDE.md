@@ -90,16 +90,19 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 
 ## セッション運用
 
-- **1計画=1セッション**を基本とする。前セッションの文脈に依存しない
-  (必要な前提はすべて本書と PLAN_SCHEMA.md にあるべき。足りなければ
-  作業前に本書へ追記する)。
+- **前のセッションの文脈に依存しない**。必要な前提はすべて本書・PLAN_SCHEMA.md・DESIGN.md にあるべきで、
+  足りなければ作業の前に本書へ追記する。進行中の作業の状態は、本書の「残タスク」と
+  `/home/kken78/GitHub/hino-wt/PROGRESS.md` に書く。計画1本の作業も、複数の計画をまとめる作業(下の「並行作業」)もある。
+- **同じ作業ツリーをほかのセッションも使う**ことがある。コミットの前に `git branch --show-current` で作業ブランチに
+  いることを確かめる(途中で main に切り替わり、コミットが main に入ったことがある)。自分が作っていないファイル
+  (git で管理していないフォルダなど)は、コミットに入れず、消さない。
 - **編集の成否は差分プレビューでなく実ファイルで確認**する。コード編集後は
   `python3 -m py_compile <file>`、Markdown等の構造編集後は
   `sed -n '/見出し/,/次の見出し/p' <file>` で該当箇所を実表示してから報告する。
   なおこの環境(penguin)ではターミナル表示・差分プレビューともに長い日本語で
   行頭記号や語句を脱落させることがある。ゆえに実ファイルの成否は本文の目視でなく
-  `grep -c "キーワード" <file>`(数字は化けない)で確認する。長い日本語本文の
-  投入・編集は、化けを避けるため GitHub web エディタ経由を優先する。
+  `grep -c "キーワード" <file>`(数字は化けない)で確認する。長い日本語の編集は、この PC でファイルに直接書き
+  (Edit や短い Python のスクリプト)、書いたあとに `grep -c` で狙った語句が入ったことを確かめる。
 - レンダラーや共通CSSを触った場合は、影響が全計画に及ぶ。
   必ず全計画を再レンダリングして validate を通す:
   ```bash
@@ -114,34 +117,27 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
   スキーマ検証・全計画の再生成・生成物の一致確認・ゲートA・ゲートBを自動で実行する。
   生成物(docs/・build/)は JSON から再生成した結果と一致している必要がある。
 
-## 並行作業(複数のエージェントで計画を進める)
+## 並行作業(複数のエージェントで計画を起票・検収する)
 
-残りの計画は、PCの Claude Code を取りまとめ役にして、複数のエージェントで並行して進める(2026-10、依頼者の指定)。
-エージェントの定義は `.claude/agents/` にある。
+計画をいくつかまとめて起票するときや、検収をやり直すときは、PCの Claude Code を取りまとめ役にして、複数のエージェントで
+並行して進める(2026-10、依頼者の指定)。43計画のうち41計画の起票は、この手順で 2026-10-10 に終えた(7バッチ、PR #30〜#43。
+記録は `/home/kken78/GitHub/hino-wt/PROGRESS.md`)。エージェントの定義は `.claude/agents/` にある。
 - `plan-builder`: 計画1本の起票・検証・描画・段1・段2の設問づくり
 - `audit-checker`: 段2の照合(起票の経緯を知らない係。同じ設問を2人に別々に渡す)
 - `text-reviewer`: 段3の文章点検(起票担当とは別の係)
 - `issue-triage`: 段3の指摘に「原典の誤りの扱いの基準」を当てはめる係(基準で決まらないものは依頼者に残す)
 
-**順番**はハブのトップページの並び(分野の帯の順、帯の中は表示順)。5本ずつのバッチで進める。
-| バッチ | 計画 |
-|---|---|
-| 1 | sogo6・senryaku2・partner・jisshi・kokudoriyou |
-| 2 | toshimaster・shasi-jyutaku・jyuseikatsu・jyutaku-choju・taishin |
-| 3 | shasi-jishin・shasi-koen・shasi-koutsu・kyoryo・tsugakuro |
-| 4 | midori・bunbetsu・chiiki-fukushi4・kaigo9・shogai-keikaku |
-| 5 | shogai-fukushi7・katsuyaku-cho・katsuyaku-kyo・kenko-shokuiku4・inochi2 |
-| 6 | youho・bunkazai・kyoiku3・bosai・kyojin |
-| 7 | tokutei-jigyo・suido2・security・shinrin・nogyo-tamen・seibutsu |
+係を同時に動かすのは20人まで。段2の設問は、計画をまたいで150行以内の束にまとめてよい(key で計画に戻せる)。
 
-**取りまとめ役の手順**(1バッチごと):
-1. 準備: `git switch main && git pull`。バッチの計画の原典ファイルで、ファイル名(.pdf を除く)が出典idの形
+**取りまとめ役の手順**(計画をまとめて起票するとき):
+1. 準備: `git switch main && git pull`。原典ファイルで、ファイル名(.pdf を除く)が出典idの形
    (`^[a-z][a-z0-9_-]*$`)でないものは、英小文字・数字・`-` だけの名前に変え(数字で始まるものは先頭に `x` を付ける。
-   例 `2.pdf`→`x2.pdf`、`marugoto(r5).pdf`→`marugoto-r5.pdf`)、`data/sources_index.tsv` の file 列も直す。
-   この変更はバッチのブランチ `batch-<番号>` に入れる。
-2. 作業ツリー: 計画ごとに `git worktree add /home/kken78/GitHub/hino-wt/<id> -b plan-<id> batch-<番号>` を作り、
+   例 `2.pdf`→`x2.pdf`、`marugoto(r5).pdf`→`marugoto-r5.pdf`)、`data/sources_index.tsv` の file 列も直す
+   (台帳の id・file の変更は hino-ronten に影響する。「外部の利用者(hino-ronten)への連絡」)。まとめ用のブランチ
+   (例 `batch-<番号>`)に入れる。
+2. 作業ツリー: 計画ごとに `git worktree add /home/kken78/GitHub/hino-wt/<id> -b plan-<id> <まとめ用のブランチ>` を作り、
    `ln -s /home/kken78/GitHub/shiga-hino-plans/sources_raw /home/kken78/GitHub/hino-wt/<id>/sources_raw` でつなぐ。
-3. 起票: バッチの全計画について `plan-builder` を同時に動かす(計画id と作業ツリーのフルパスを渡す)。
+3. 起票: 全計画について `plan-builder` を同時に動かす(計画id と作業ツリーのフルパスを渡す)。
 4. 照合と点検: 起票が終わった計画から、`build/audit/<id>.ai_items.json` を150行以内の束に分け、束ごとに
    `audit-checker` を2人(A・B)別々に動かす。同時に `text-reviewer` を1人動かす。A・B の結果をそれぞれ1つの
    ファイルにまとめ、作業ツリーで次を実行してコミットする。
@@ -150,20 +146,23 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
    python3 tools/audit_autocheck.py <id> --select
    python3 tools/audit_autocheck.py <id> --status      # 段4(人)が残るので「未完了」でよい
    ```
+   前回「2人とも一致・確信度 中」だった行(H1)を、確信度が高になるまで聞き直すことはしない(照合が甘くなるため)。
+   原典のページを取り違えていたなど、設問が誤っていたときだけやり直す。
 4b. 統合の前の手直し: 段3で kind=ダッシュボード とされた誤りと、正しい表記が一つに決まる原典の誤字(ダッシュボードに
    載っているもの)を直し、`data/source_issues/<id>.tsv` の status を「ダッシュボードで対応」、action に内容を書く。
    再生成して値が変わった行は `python3 tools/audit_worksheet.py <id> --reconcile` で台帳を合わせ(同じキーの行は印を
    引き継ぎ、変わった行は未検収になる)、その行だけ `--ai-items` から段2をやり直して `--ai-record`・`--select`。
    数値・固有名詞・事実関係の誤りの疑いは直さず、プルリクエストの「判断を仰ぐ点」に書く。
-5. 統合: `batch-<番号>` に各 `plan-<id>` を `git merge --no-ff` で取り込み、`data/manifest.json` に
+   段3の指摘には `issue-triage` を1人ずつ動かし、基準で決まるものを仕分ける。
+5. 統合: まとめ用のブランチに各 `plan-<id>` を `git merge --no-ff` で取り込み、新しい計画は `data/manifest.json` に
    `"dashboard": "plans/<id>.html"` を足して `python3 tools/build.py`・`node tools/validate.mjs docs/index.html`。
    プッシュしてプルリクエストを作り(本文に計画ごとの行数・段1/段2/要人確認の件数・段3の指摘件数・判断を仰ぐ点)、
-   CI の結果を待つ。CI が通ればマージし、作業ツリーを片付けて次のバッチへ進む。
-   バッチ1は確認のため止めた(2026-10-10 に PR #30 でマージ済み)。バッチ2以降は、CI が通れば続けてマージしてよい。
-6. 進捗: `/home/kken78/GitHub/hino-wt/PROGRESS.md` に、バッチと計画ごとの状態(起票・段1・段2・段3・PR番号)を
-   書き足す。取りまとめ役のセッションが途中で切れても、新しいセッションがこのファイルから再開できるようにする。
+   CI の結果を待つ。マージは依頼者の指示に従う(依頼者が行うと指示されたときは、CI が通ったことを知らせて止まる)。
+   マージしたら作業ツリーを片付ける。
+6. 進捗: `/home/kken78/GitHub/hino-wt/PROGRESS.md` に、計画ごとの状態(起票・段1・段2・段3・PR番号)を書き足す。
+   取りまとめ役のセッションが途中で切れても、新しいセッションがこのファイルから再開できるようにする。
 
-**遅い計画を待たない**: バッチの中で1本だけ起票が長引いたら(目安1時間)、ほかの計画で手順4〜5を進めてプルリクエストにし、
+**遅い計画を待たない**: 1本だけ起票が長引いたら(目安1時間)、ほかの計画で手順4〜5を進めてプルリクエストにし、
 長引いた計画は終わりしだい別のプルリクエストにする。中断した起票係の書きかけは作業ツリーに残るので、新しい起票係に
 「`data/plans/<id>.json` の続きから」と渡して再開できる。
 
@@ -177,17 +176,30 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 下書き(`ocr/<stem>-<PDFページ>.txt`)は読み違いを含むので、起票係は内容をつかむのに使い、ダッシュボードに載せる数値は
 必ずページ画像で確かめる。下書きは段1(機械照合)には使わない(段1は省き、全行を段2に回す)。
 
-段4(人による確認。`audit_worksheet.py <id> --focus`)と、段3の指摘の扱い(H3)の判断は、依頼者があとでまとめて行う。
+段4(人による確認)と、段3の指摘のうち基準で決まらないものの判断は、依頼者が行う。
 エージェントは `tools/`・`templates/`・`PLAN_SCHEMA.md` を変えない。語彙が足りないという報告が集まったら、
-取りまとめ役はバッチの区切りで依頼者に相談する(スキーマが先。不変の制約5)。
+取りまとめ役は区切りで依頼者に相談する(スキーマが先。不変の制約5)。
 
 ## 原典の誤りの扱いの基準(段3の指摘・H3)
 
-依頼者が kodomo・koutsu・kokyo-kanri で決めた扱いを基準にし、残りの計画はエージェント `issue-triage` が当てはめる(2026-10-11)。
-1. 指摘された記述・数値がダッシュボードに載っていない → 「対象外」
-2. ダッシュボードが原典のまま載せていて、ダッシュボードの中だけでは食い違いが見えない → 「原典どおり掲載」(注記なし)
-3. ダッシュボードの中で食い違いが見えるもの、ダッシュボード側で書き方を変えたもの、決めきれないものは「未判断」のまま
-   依頼者が判断する(注記するなら「原典どおり掲載(注記)」)
+依頼者が kodomo・koutsu・kokyo-kanri で決めた扱いと、2026-10-11 に41計画へ当てはめたときに依頼者が決めた扱い(PR #47〜#49)を
+基準にする。status は次の4つのどれかにする(決まるまでは「未判断」)。
+1. **対象外**: 指摘された記述・数値がダッシュボードに載っていない。
+2. **原典どおり掲載**(注記なし): ダッシュボードが原典のまま載せていて、次のどれかに当たる。
+   - ダッシュボードの中だけを見る人には、食い違いが見えない
+   - ダッシュボードに載っている値を計算して初めて分かる食い違い(合計・割合・構成比など。例 kokyo-kanri No.2)
+   - 指摘の確信度が低い
+   - 原典の誤字だが、正しい表記が一つに決まらない
+3. **原典どおり掲載(注記)**: 食い違う2つの値や記述が、ダッシュボードの中で両方とも見えている(例 koutsu No.9)。
+   事実だけの注記を足す(どちらが正しいかは書かない)。
+4. **ダッシュボードで対応**: ダッシュボード側を直したもの、またはダッシュボード側の書き方を依頼者が認めたもの。
+   - kind=ダッシュボード の誤りを直した(並行作業の手順4b)
+   - 正しい表記が一つに決まる原典の誤字を、正しい表記で載せた
+   - 要約・言い換え・正式名称への統一など、原典と違う書き方を依頼者が認めた
+
+`issue-triage` が自分で決めてよいのは 1・2 だけ(TSV の status と action だけを書く)。3・4 はダッシュボードの JSON を
+変えるか、依頼者の判断が要るので、「未判断」のまま残し、注記の候補・書き方を変えたものとして報告する。
+数値・固有名詞・事実関係の誤りの疑いや、基準のどれに当たるか決めきれないものも、依頼者に残す。
 どの扱いでも、指摘は記録に残し、43計画が片付いたあとで町へ一式で提供する。
 
 ## 外部の利用者(hino-ronten)への連絡
@@ -207,9 +219,11 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 これらを含むプルリクエストは、本文に「hino-ronten に影響」と書いて変更点を挙げ、マージの前に依頼者に知らせる。
 
 **済んだら知らせる作業**(hino-ronten の後の工程の材料になる):
-- jisshi(第6次総合計画 実施計画)の主要事業を、事業の単位(programs ブロック。概算事業費を含む)で構造化すること。
-  hino-ronten の工程5(資料編)で使う
-- sogo6 の検収(OCR した原典での照合。段4 の人による確認は依頼者が行う)と、施策体系の構造化
+- [x] jisshi(第6次総合計画 実施計画)の主要事業を、事業の単位(programs ブロック。概算事業費を含む)で構造化すること。
+  hino-ronten の工程5(資料編)で使う。2026-10-11 に済んだ(PR #54・#56。176事業、key は e001〜e176)。
+  **hino-ronten にはまだ知らせていない**
+- [ ] sogo6 の検収(OCR した原典での照合。段4 の人による確認は依頼者が行う)と、施策体系の構造化。
+  検収は 2026-10-12 に完了(PR #59)。施策体系の構造化はまだ
 
 **このリポジトリで扱わないもの**:
 - 当初予算の附表「主な事業」(2026-10-11、依頼者の判断。扱い方は hino-ronten 側で決める)
@@ -241,40 +255,34 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 - 相対年度表記(本年度・今年度・来年度)を書く
 - 計画JSONに色HEXやスタイルを書く(テーマトークンのみ)
 
-## 現状の実装状態(2026-07 更新)
+## 現状の実装状態(2026-10-13 更新)
 
-動作確認済み: `validate_schema.py` → `render_plan.py kodomo` →
-`validate.mjs` のパイプライン一式。`data/plans/kodomo.json` は
-**6タブ完成**(summary / genjo / needs / hyoka / shisaku / ryo・全実データ、
-audit 886行)。既存 `.hkodomo` 埋め込みからの逆抽出を全タブに展開済み。
+**生成の流れ**: `data/plans/<id>.json` → `validate_schema.py` → `render_plan.py`(計画ページ `docs/plans/<id>.html` と
+照合表 `build/audit/<id>.tsv`)→ `validate.mjs`(ゲートA)・`check_mobile.mjs`(ゲートB)。ハブ `docs/index.html` は
+`data/manifest.json` から `build.py` で作る(テンプレートは `templates/hub.html`。カードはダッシュボードのある計画へ直接リンクする)。
+41計画にダッシュボードがある。
 
-チャートは全6 kind 実装済み(`bars` / `stacked_bars` / `stacked_100` /
-`line` / `pair_bars` / `rank_bars`)。2026-10 にデザインシステム(DESIGN.md ADR-8)へ移行し、
-チャートは HTML/CSS の部品(折れ線の線だけ SVG)で描く。部品見本は `_charttest`。ブロック語彙も全20種を実装
-(programs の `intro`/`desc`、table の `fold`、ジャンプ目次 `toc` を含む)。
-出典表示は連続同一 source をラン末尾に集約(表示のみ・PLAN_SCHEMA §4)。
-移植の視覚リファレンスだった `sources_raw/hub-legacy.html`(旧ハブ・embed 入り。
-`.hkodomo`=stack100/pairBars、`.hpshi`=render)は現存しない。git 未追跡
-(`sources_raw/` は .gitignore)で、旧 Pages `https://kken78.github.io/hino-plans/` も 404。
-参照の必要もない: 全6 kind・全20ブロックは実装済みで、リファレンスとしての役目は終えている。
-koutsu/kokyo-kanri は本書の定型フローどおり原典PDFから抽出する(hub-legacy からの逆抽出は
-しない。kodomo の逆抽出は語彙確定のための Phase 1 限定の手段であり、その代償として audit
-886行の検収債務を負っている)。描画確認用フィクスチャは
-`data/plans/_charttest.json`(全チャート種と主要ブロックの部品見本。id が `_` 始まりでも
-`data/plans/*.json` の全計画ループに乗るので、レンダラー改修時に
-自動再描画・自動検証される)。
+**描画**: チャートは6種(`bars` / `stacked_bars` / `stacked_100` / `line` / `pair_bars` / `rank_bars`)、ブロックは21種
+(`custom_html` を含む)。2026-10 にデザインシステム(DESIGN.md ADR-8)へ移り、チャートは HTML/CSS の部品(折れ線の線だけ SVG)で描く。
+programs ブロックは、事業の key・実施年度・事業費・節の計を持てる(PLAN_SCHEMA programs、2026-10)。
+出典表示は連続同一 source をラン末尾に集約する(表示のみ・PLAN_SCHEMA §4)。部品見本は `data/plans/_charttest.json`
+(`docs/plans/_charttest.html`。id が `_` 始まりでも全計画ループに乗るので、レンダラーを直すと自動で作り直し・検査される。
+manifest には載せない)。
 
-構造トークン(`--ink`/`--line`/`--card`)は `templates/tokens.css` を単一正典とし、
-`tools/tokens.py`(load_tokens/apply_tokens・モデルA)が render_plan.py / build.py
-経由で各セレクタへ値代入する(移行A・ADR-6。計画=バイト不変、ハブ=計画側値へ収束)。
+**トークン**: 構造トークン(`--ink`/`--line`/`--card`)は `templates/tokens.css` を単一正典とし、`tools/tokens.py`
+(load_tokens/apply_tokens)が render_plan.py / build.py 経由で各ページへ値を入れる(DESIGN.md ADR-6 移行A)。
 
-検収(audit 突合)機構は ADR-7 のとおり実装済み(2026-10): 台帳 `data/audit_log/<id>.tsv`
-(検収状態の真実の源)+ `tools/audit_worksheet.py <id>` が生成する vanilla HTML ワークシート
-(ページ順・チェック欄・localStorage 下書き・エクスポートで台帳へ)の2層。突合キーは内容ハッシュで、
-値が変われば当該行は未検収へ戻る。照合表 `build/audit/<id>.tsv` は8列(ADR-7 補遺 E)。
-台帳は kodomo・kokyo-kanri・koutsu・kankyo を作成済み。2026-10 に、照合の主体を機械に移し、
-人は規則で選んだ行だけを見る方式に改めた(ADR-7 補遺 L。段1〜4は上の定型フロー 6)。方法を比べた検証の結果も
-補遺 L にある)。ワークシートは段4(人による確認)で使う。手順:
+**検収**(DESIGN.md ADR-7・補遺 L・補遺 M): 台帳 `data/audit_log/<id>.tsv` が検収状態の真実の源(41計画すべてにある)。
+照合表は8列(補遺 E)で、突合キーは内容ハッシュ。値が変われば、その行は未検収へ戻る。段1〜4は上の定型フロー 6。
+- `tools/audit_autocheck.py`: 段1の機械照合・`--selftest`・段2の設問と取り込み・H2/H4 の選定・`--status`。
+  出典の PDF ページは `sources[].pdf_page_offset`(差が途中で変わる原典は `pdf_page_offsets`)で換算する
+- `tools/audit_worksheet.py`: 段4のワークシート(`--focus` で要人確認の行だけ)と台帳の管理(下の手順)
+- `tools/audit_index.py`: 全計画の要人確認のワークシートと目次 `build/audit/index.html`
+- `tools/audit_review.py`: スマホで原典ページの該当箇所を見ながら段4を行う確認ページ(補遺 M。計画ごとの点検表つき)
+- `tools/check_source_issues.py`: 段3の記録 `data/source_issues/<id>.tsv` の形式の検査
+- `tools/program_keys.py`: programs の事業に key を付ける
+
+台帳の手順:
 ```bash
 python3 tools/audit_worksheet.py <id> --init          # 台帳のベースライン(初回のみ。そのままコミット)
 python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.worksheet.html(公開しない)
@@ -293,18 +301,6 @@ bytes・sha256・pages・text_chars は空欄)。列は id / file / label(掲載
 bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り出せた空白以外の文字数)/ fetched(取得日。空欄は台帳以前からある原典)/ note。
 原典PDFそのものは `sources_raw/<id>/` に置き、リポジトリには入れない(.gitignore の対象。同じ版かどうかは url と sha256 で確かめる)。
 ファイル名は本編 honpen.pdf(章ごとの分割は honpen-01.pdf …)、概要版 gaiyo.pdf、資料編 shiryo.pdf、それ以外は元のファイル名を英小文字にしたもの。
-
-### Phase 1 の進捗
-
-- [x] **kodomo.json の全タブ完成**(2026-07 実装完了) — `.hkodomo` 埋め込みから
-  needs / hyoka / shisaku / ryo を逆抽出し6タブ化。SETSU(節>グループ>事業)は
-  `programs` ブロックへ。あわせて全6タブの見た目調整3件を実施:
-  ①セクション見出しの統一(b-heading/phead/chart title を明朝17pxに集約)
-  ②縦長タブ(shisaku/ryo)へのジャンプ目次 `toc`
-  ③連続同一 source の出典表示集約。
-  ※ここでの「完成」は**実装が完成**の意味。**最終検収(人間による audit 突合=
-  `build/audit/kodomo.tsv` を原典 `sources_raw/kodomo/honpen.pdf` と照合)は
-  次工程**で、2026-10-10 に完了(下の残タスク参照)。
 
 ### 残タスク(2026-10-13 更新)
 
@@ -330,7 +326,7 @@ senryaku2・sogo6 の8計画。計画ごとの残りは `python3 tools/audit_ind
 **作業として残っているもの**
 - [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
 - [ ] hino-ronten への連絡(「外部の利用者(hino-ronten)への連絡」の節):
-  - jisshi の構造化は済んだ(PR #54・#56)ので知らせる。sogo6 は段4と施策体系の構造化が済んだら知らせる
+  - jisshi の構造化が済んだ(PR #54・#56)ことを知らせる。sogo6 は施策体系の構造化が済んだら知らせる(検収は完了)
   - node キーを事業の key に移すかは、hino-ronten の LINK_SCHEMA の改定と合わせて決める
   - 事業へ直接リンクする仕組み(id とタブ・折りたたみを開く処理)は、hino-ronten で必要と決まったときに別に行う
 - [ ] ハブを幅320pxで見ると、計画カード(`.plan-card.in-band`)のためにページが10px横にずれる(ゲートBは360px以上を検査)。
@@ -340,7 +336,8 @@ senryaku2・sogo6 の8計画。計画ごとの残りは `python3 tools/audit_ind
 **完了(主なもの。詳しい経緯は git の履歴とプルリクエスト)**
 - [x] tools/build.py(Phase 2。ハブを data/manifest.json から生成)、デザイントークン統一の移行A(ADR-6)、
   デザインシステム(ADR-8)、検収の仕組み(ADR-7・補遺 L、tools/audit_autocheck.py・audit_worksheet.py・audit_index.py)
-- [x] kodomo・koutsu・kokyo-kanri の起票と検収(2026-10-10 まで。段4も完了)
+- [x] kodomo・koutsu・kokyo-kanri の起票と検収(2026-10-10 まで。段4も完了)。kodomo は Phase 1(2026-07)に旧ハブの
+  埋め込みから6タブを逆抽出して語彙を固め、原典との照合(886行)を 2026-10-10 に終えた
 - [x] 残り36計画の起票(2026-10-10、バッチ1〜7、PR #30〜#43)。本編の判断・OCR の扱いは各プルリクエストに記録
 - [x] 人の確認を減らす仕上げ(2026-10-11、PR #45〜#49): 文字データにない値を段2へ回し(要人確認 2,229→1,244行)、
   段3の指摘を依頼者の基準で仕分けて未判断を0件にした。段4の目次(PR #50)

@@ -100,6 +100,25 @@ h1{font-size:var(--fs-l);margin:0;line-height:1.35;text-wrap:balance}
 .form input{min-height:44px;border:1px solid var(--line);border-radius:10px;padding:0 12px;background:var(--bg);width:100%}
 .form .row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 
+/* 点検表 */
+.chk{padding-top:12px;padding-bottom:24px;display:grid;gap:10px}
+.filt{display:flex;flex-wrap:wrap;gap:6px}
+.filt .btn{min-height:40px;padding:0 12px;font-size:var(--fs-s)}
+.filt .btn[aria-pressed="true"]{background:var(--accent);color:var(--card);border-color:var(--accent)}
+.grp{display:grid;gap:6px}
+.grp h3{font-size:var(--fs-m);margin:8px 0 0;color:var(--ink2);overflow-wrap:anywhere}
+.li{display:grid;grid-template-columns:2.6em 1fr auto;gap:2px 10px;text-align:left;background:var(--card);border:1px solid var(--line);
+  border-radius:10px;padding:8px 12px;min-height:52px;align-items:center;width:100%}
+.li .no{color:var(--mut);font-size:var(--fs-s);font-variant-numeric:tabular-nums;grid-row:1/3}
+.li .t{min-width:0;overflow-wrap:anywhere;font-size:var(--fs-m);line-height:1.45}
+.li .t b{font-variant-numeric:tabular-nums}
+.li .s{grid-row:1/3;grid-column:3;justify-self:end}
+.li .d{grid-column:2;font-size:var(--fs-s);color:var(--mut);overflow-wrap:anywhere}
+.li.cur{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.chip.st-none{color:var(--mut)}
+.chip.st-led{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.undo{justify-self:start;background:none;border:0;padding:4px 0;color:var(--accent);font-size:var(--fs-s);text-decoration:underline;min-height:32px}
+
 @media (min-width:900px){
   .rev{grid-template-columns:minmax(300px,380px) 1fr;align-items:start;padding-bottom:24px}
   .side{position:sticky;top:76px;display:grid;gap:12px}
@@ -117,7 +136,8 @@ h1{font-size:var(--fs-l);margin:0;line-height:1.35;text-wrap:balance}
     </header>
     <section class="panel">
       <p>ダッシュボードの値を、原典 PDF の該当ページと見比べます。赤い枠が値の場所(推定)、黄色が項目名の候補です。
-        原典と合っていれば「一致」、違えば「違う」で正しい値を入れてください。結果はこのページに保存され、Claude に
+        原典と合っていれば「一致」、違えば「違う」で正しい値を入れてください。計画を開いて右上の「点検表」を押すと、
+        その計画の全行と判定が一覧になり、抜けや判定の間違いを確かめられます(行を押すとその行に戻って判定し直せます)。結果はこのページに保存され、Claude に
         「スマホの確認結果を台帳に取り込んで」と頼むと台帳に入ります。</p>
       <div class="who">
         <label for="rv">確認者(GitHub のユーザー名)</label>
@@ -140,14 +160,19 @@ h1{font-size:var(--fs-l);margin:0;line-height:1.35;text-wrap:balance}
 <div id="review" hidden>
   <div class="wrap" style="padding-block:0">
     <div class="top">
-      <button class="btn" id="back" type="button" aria-label="計画の一覧へ">一覧</button>
+      <button class="btn" id="back" type="button" aria-label="計画の一覧へ">計画</button>
       <div class="ttl"><b id="pname"></b><span class="sub" id="pos"></span></div>
-      <div class="nav">
+      <button class="btn" id="mode" type="button">点検表</button>
+      <div class="nav" id="navbtns">
         <button class="btn" id="prev" type="button" aria-label="前の行">前</button>
         <button class="btn" id="next" type="button" aria-label="次の行">次</button>
       </div>
     </div>
-    <div class="rev">
+    <div class="chk" id="chk" hidden>
+      <div class="filt" id="filt"></div>
+      <div id="chklist"></div>
+    </div>
+    <div class="rev" id="rev">
       <div class="side">
         <div class="item" id="item"></div>
         <div class="act" id="act">
@@ -202,13 +227,25 @@ const rv = $("rv");
 rv.value = ls.get("reviewer", "");
 rv.addEventListener("change", () => ls.set("reviewer", rv.value.trim()));
 
+// 行の状態: このページの判定があればそれ、なければ台帳に人の確認が記録済みなら "led"、どちらも無ければ null
+function stateOf(pid, row) {
+  const rec = results[docId(pid, row.key)];
+  if (rec) return {v: rec.verdict, rec};
+  if (row.ledger) return {v: "led", rec: null};
+  return {v: null, rec: null};
+}
 function counts(pid) {
-  let ok = 0, ng = 0, hold = 0;
+  const meta = CAT.plans.find(p => p.id === pid) || {led: []};
+  const done = new Set(meta.led || []);
+  let ng = 0, hold = 0;
   for (const [k, r] of Object.entries(results)) {
     if (!k.startsWith(pid + "~")) continue;
-    if (r.verdict === "ok") ok++; else if (r.verdict === "ng") ng++; else if (r.verdict === "hold") hold++;
+    const key = k.slice(pid.length + 1);
+    if (r.verdict === "ok") done.add(key);
+    else if (r.verdict === "ng") { done.add(key); ng++; }
+    else if (r.verdict === "hold") { done.delete(key); hold++; }
   }
-  return {ok, ng, hold, done: ok + ng};
+  return {ng, hold, done: done.size};
 }
 function renderHome() {
   $("plans").innerHTML = CAT.plans.map(p => {
@@ -243,10 +280,52 @@ async function openPlan(pid) {
   }
   P = plansCache[pid];
   window.scrollTo(0, 0);
-  const firstOpen = P.rows.findIndex(r => !results[docId(P.id, r.key)]);
+  const firstOpen = P.rows.findIndex(r => stateOf(P.id, r).v === null);
+  setMode(false);
   show(firstOpen < 0 ? 0 : firstOpen);
 }
 $("back").addEventListener("click", () => { $("review").hidden = true; $("home").hidden = false; P = null; renderHome(); });
+
+// ---------------------------------------------------------------- 点検表(計画の全行と判定)
+let listMode = false, filt = "all";
+const STATE = {ok: ["一致", "st-ok"], ng: ["違う", "st-ng"], hold: ["保留", "st-hold"], led: ["台帳に記録済み", "st-led"], null: ["未確認", "st-none"]};
+function setMode(list) {
+  listMode = list;
+  $("chk").hidden = !list; $("rev").hidden = list; $("navbtns").hidden = list;
+  $("mode").textContent = list ? "1行ずつ" : "点検表";
+  if (list) { renderList(); window.scrollTo(0, 0); }
+}
+$("mode").addEventListener("click", () => { if (!P) return; setMode(!listMode); if (!listMode) show(idx); });
+function renderList() {
+  const st = P.rows.map(r => stateOf(P.id, r));
+  const n = k => st.filter(x => k === "all" || String(x.v) === k || (k === "done" && (x.v === "ok" || x.v === "led"))).length;
+  const F = [["all", "すべて"], ["null", "未確認"], ["ng", "違う"], ["hold", "保留"], ["done", "一致・記録済み"]];
+  $("filt").innerHTML = F.map(([k, t]) => `<button class="btn" type="button" data-f="${k}" aria-pressed="${filt === k}">${t} ${n(k)}</button>`).join("");
+  let h = "", last = null;
+  P.rows.forEach((r, i) => {
+    const x = st[i];
+    if (!(filt === "all" || String(x.v) === filt || (filt === "done" && (x.v === "ok" || x.v === "led")))) return;
+    const g = `${r.block || "(見出しなし)"}・${r.tab}`;
+    if (g !== last) { h += (last === null ? "" : "</div>") + `<div class="grp"><h3>${esc(g)}</h3>`; last = g; }
+    const [label, cls] = STATE[x.v];
+    const detail = [];
+    if (x.v === "ng") detail.push("正しい値 " + x.rec.value);
+    if (x.rec && x.rec.comment) detail.push(x.rec.comment);
+    if (x.rec) detail.push(`${x.rec.reviewer} ${x.rec.date}`);
+    else if (x.v === "led") detail.push(`${r.ledger.by} ${r.ledger.date}`);
+    if (r.memo) detail.push("台帳のメモ: " + r.memo);
+    h += `<button class="li${i === idx ? " cur" : ""}" type="button" data-i="${i}">` +
+      `<span class="no">${i + 1}</span>` +
+      `<span class="t">${esc(r.label || "(項目名なし)")} <b>${esc(r.value)}${esc(r.unit)}</b> <span class="sub">${esc(r.source)}・${esc(r.rule)}</span></span>` +
+      `<span class="s"><span class="chip ${cls}">${label}${x.v === "ng" ? ":" + esc(x.rec.value) : ""}</span></span>` +
+      (detail.length ? `<span class="d">${esc(detail.join("・"))}</span>` : "") + `</button>`;
+  });
+  $("chklist").innerHTML = last === null ? `<p class="msg">この条件に当てはまる行はありません。</p>` : h + "</div>";
+  const c = counts(P.id);
+  $("pos").textContent = `点検表・${P.rows.length} 行・確認済み ${c.done}`;
+}
+$("filt").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { filt = b.dataset.f; renderList(); } });
+$("chklist").addEventListener("click", e => { const b = e.target.closest(".li"); if (b) { setMode(false); show(+b.dataset.i); window.scrollTo(0, 0); } });
 $("prev").addEventListener("click", () => P && show(Math.max(0, idx - 1)));
 $("next").addEventListener("click", () => P && show(Math.min(P.rows.length - 1, idx + 1)));
 
@@ -255,10 +334,11 @@ function show(i) {
   idx = i; refi = 0; cand = 0; zoom = null;
   closeForm();
   const r = P.rows[idx];
-  const res = results[docId(P.id, r.key)];
+  const sx = stateOf(P.id, r), res = sx.rec;
   const c = counts(P.id);
   $("pos").textContent = `${idx + 1} / ${P.rows.length} 行目・確認済み ${c.done}`;
-  const st = res ? `<span class="chip ${VERDICT[res.verdict][1]}">${VERDICT[res.verdict][0]}${res.verdict === "ng" ? ":" + esc(res.value) : ""}</span>` : "";
+  const st = res ? `<span class="chip ${VERDICT[res.verdict][1]}">${VERDICT[res.verdict][0]}${res.verdict === "ng" ? ":" + esc(res.value) : ""}</span>` :
+    sx.v === "led" ? `<span class="chip st-led">台帳に記録済み(${esc(r.ledger.by)} ${esc(r.ledger.date)})</span>` : "";
   $("item").innerHTML =
     `<div class="chips"><span class="chip">${esc(r.rule)} ${esc(CAT.reasons[r.rule] || "")}</span>${st}</div>` +
     `<div class="blk">${esc(r.block || "(見出しなし)")}・${esc(r.tab)}</div>` +
@@ -266,7 +346,10 @@ function show(i) {
     `<div class="val">${esc(r.value)}<small>${esc(r.unit)}</small></div>` +
     `<div class="src">出典 ${esc(r.source)}${(P.sources[r.source.split(" ")[0]] || {}).label ? "(" + esc(P.sources[r.source.split(" ")[0]].label) + ")" : ""}</div>` +
     (r.why ? `<div class="why">${esc(r.why)}</div>` : "") +
-    (res && res.comment ? `<div class="myc">コメント:${esc(res.comment)}</div>` : "");
+    (res && res.comment ? `<div class="myc">コメント:${esc(res.comment)}</div>` : "") +
+    (r.memo ? `<div class="myc">台帳のメモ:${esc(r.memo)}</div>` : "") +
+    (res ? `<button class="undo" type="button" id="undo">この判定を取り消して未確認に戻す</button>` : "");
+  if (res) $("undo").addEventListener("click", undo);
   drawRef();
 }
 
@@ -375,9 +458,19 @@ async function record(verdict, value, comment) {
 function nextOpen() {
   for (let j = 1; j <= P.rows.length; j++) {
     const k = (idx + j) % P.rows.length;
-    if (!results[docId(P.id, P.rows[k].key)]) return k;
+    if (stateOf(P.id, P.rows[k]).v === null) return k;
   }
   return -1;
+}
+async function undo() {
+  const id = docId(P.id, P.rows[idx].key);
+  delete results[id];
+  const loc = ls.get("local", {}); delete loc[id]; ls.set("local", loc);
+  if (db) {
+    try { await db.collection("reviews").doc(id).delete(); }
+    catch (e) { $("actmsg").hidden = false; $("actmsg").textContent = `取り消せませんでした(${e.code || e.message})`; }
+  }
+  show(idx);
 }
 async function decide(verdict, value, comment) {
   $("actmsg").hidden = true;
@@ -412,7 +505,7 @@ $("ngform").addEventListener("submit", e => {
   decide(formMode, formMode === "ng" ? $("ngval").value.trim() : "", $("ngcm").value.trim());
 });
 document.addEventListener("keydown", e => {
-  if (!P || $("review").hidden || e.target.closest("input,textarea") || e.metaKey || e.ctrlKey) return;
+  if (!P || $("review").hidden || listMode || e.target.closest("input,textarea") || e.metaKey || e.ctrlKey) return;
   if (e.key === "ArrowRight" || e.key === "j") $("next").click();
   else if (e.key === "ArrowLeft" || e.key === "k") $("prev").click();
   else if (e.key === "o") $("bok").click();
@@ -445,6 +538,7 @@ renderHome();
     results = fresh;
     dbReady = true;
     if (!$("home").hidden) renderHome();
+    else if (P && listMode) renderList();
     else if (P) { const c = counts(P.id); $("pos").textContent = `${idx + 1} / ${P.rows.length} 行目・確認済み ${c.done}`; }
   }, () => { $("dbwarn").hidden = false; });
 })();

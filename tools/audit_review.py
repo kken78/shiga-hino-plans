@@ -4,11 +4,12 @@
 
 使い方:
   python3 tools/audit_review.py [<id> ...]
-      → 人が確認する行(台帳の note が「要人確認:」で、人の印がまだない行)について、出典ページの画像と、
+      → 人が確認する行(台帳の note が「要人確認:」の行。人の印がまだない行が残る計画と、すでに確認ページに
+        載っている計画)について、出典ページの画像と、
         ページの中で値・項目名が書かれている位置を調べ、確認ページ一式を build/audit/review/ に書く
           build/audit/review/index.html          確認ページ(templates/audit_review.html に計画の一覧を入れたもの)
           build/audit/review/plans/<id>.json     計画ごとの行とページ画像(JPEG を data URI で持つ)
-        id を省くと、人が確認する行が残る全計画。claude.ai の非公開のページとして公開し、スマホで開く(公開しない
+        id を省くと、それらの全計画。claude.ai の非公開のページとして公開し、スマホで開く(公開しない
         GitHub Pages には置かない)。
   python3 tools/audit_review.py --import <結果.json>
       → 確認ページの結果(「書き出し」で保存したファイル、または Claude がページのデータベースから読み出したもの)を
@@ -16,7 +17,8 @@
           一致      … checked=✓・reviewer=確認者・date を入れる(note は「要人確認:…」のまま。コメントがあれば後ろに足す)
           違う      … 印を外す(未検収に戻す)。note に「要人確認:… / 不一致: 正しい値 <値> <コメント>」を書く
                       → data/plans/<id>.json を直して再描画し、audit_worksheet.py <id> --reconcile で台帳を合わせる
-          保留      … 印は変えず、note に「保留: <コメント>」を足す
+          保留      … 機械の印は変えず(人の印があれば外し)、note に「保留: <コメント>」を足す
+        人が確認済みの行への「一致」は飛ばし、「違う」「保留」は取り込む(点検表で見つけた確認間違いの訂正)
         取り込んだあと audit_autocheck.py <id> --status で完了を確かめ、台帳をコミットする。
 
 結果ファイルの形: [{"plan": id, "key": 照合キー, "verdict": "ok"|"ng"|"hold", "value": 正しい値(ng のとき),
@@ -163,22 +165,24 @@ def locate(page, row):
 
 
 # ---------------------------------------------------------------- 確認ページのデータ
+def human_done(r):
+    return r["checked"] == "✓" and not r["reviewer"].startswith("auto:")
+
+
+def focus_rows(pid):
+    return [r for r in aw.read_ledger(pid) if r["note"].startswith(aw.FOCUS)]
+
+
 def pending_rows(pid):
-    out = []
-    for r in aw.read_ledger(pid):
-        if not r["note"].startswith(aw.FOCUS):
-            continue
-        if r["checked"] == "✓" and not r["reviewer"].startswith("auto:"):
-            continue   # 人が確認済み
-        out.append(r)
-    return out
+    return [r for r in focus_rows(pid) if not human_done(r)]
 
 
 def build_plan(pid):
     plan, rows, srcs = ac.load(pid)
-    todo = pending_rows(pid)
-    if not todo:
+    if not focus_rows(pid):
         return None
+    # 点検表で計画の全体が見えるよう、人が確認して台帳に記録済みの行も載せる(1行ずつの画面では飛ばす)
+    todo = focus_rows(pid)
     pages, items, cache = {}, [], {}
     for r in todo:
         reason, _, memo = r["note"].partition(" / ")
@@ -200,7 +204,8 @@ def build_plan(pid):
         items.append({"key": r["key"], "tab": r["tab"], "btype": r["btype"], "block": r["block_label"],
                       "label": r["label"], "value": r["value"], "unit": r["unit"], "source": r["source"],
                       "rule": rule, "why": reason[len(aw.FOCUS) + len(rule):].strip(), "memo": memo,
-                      "auto": r["reviewer"] if r["checked"] == "✓" else "", "refs": refs})
+                      "ledger": {"by": r["reviewer"], "date": r["date"]} if human_done(r) else None,
+                      "refs": refs})
     # ページ画像。合計が目安を超える計画は、画素数が目安に収まるよう解像度を下げる(JPEG の大きさは画素数にほぼ比例)
     dpi = DPI
     for _ in range(3):
@@ -222,13 +227,21 @@ def plan_ids(argv):
     ids = [a for a in argv if not a.startswith("-")]
     if ids:
         return ids
-    return [f.stem for f in sorted((ROOT / "data" / "audit_log").glob("*.tsv")) if pending_rows(f.stem)]
+    # 人が確認する行が残る計画と、すでに確認ページに載っている計画(全行の確認が済んでも点検表で見られるように残す)
+    have = {f.stem for f in (OUT / "plans").glob("*.json")}
+    return [f.stem for f in sorted((ROOT / "data" / "audit_log").glob("*.tsv")) if pending_rows(f.stem) or f.stem in have]
 
 
 def manifest_order():
     """ハブのトップページの並び(manifest の順)。"""
     m = json.loads((ROOT / "data" / "manifest.json").read_text(encoding="utf-8"))
     return {p["id"]: i for i, p in enumerate(m["plans"])}
+
+
+def entry(data, f):
+    """一覧に載せる計画の情報。led は台帳に人の確認が記録済みの行のキー(進み具合の数え方に使う)。"""
+    return {"id": data["id"], "name": data["name"], "n": len(data["rows"]), "bytes": f.stat().st_size,
+            "led": [r["key"] for r in data["rows"] if r.get("ledger")]}
 
 
 def cmd_build(argv):
@@ -238,20 +251,19 @@ def cmd_build(argv):
     for pid in sorted(plan_ids(argv), key=lambda x: order.get(x, 999)):
         data = build_plan(pid)
         if data is None:
-            print(f"--  {pid}: 人が確認する行は残っていない")
+            print(f"--  {pid}: 人が確認する行(要人確認)がない")
             continue
         f = OUT / "plans" / f"{pid}.json"
         f.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         found = sum(1 for r in data["rows"] if any(x["focus"] is not None for x in r["refs"]))
-        catalog.append({"id": pid, "name": data["name"], "n": len(data["rows"]), "bytes": f.stat().st_size})
+        catalog.append(entry(data, f))
         print(f"OK  {f.relative_to(ROOT)}  ({len(data['rows'])} 行・位置が分かった行 {found}・ページ {len(data['pages'])}・"
               f"{f.stat().st_size / 1e6:.1f}MB)")
     # 引数で計画を絞ったときも、一覧には今ある計画のファイルをすべて載せる
     have = {c["id"] for c in catalog}
     for f in (OUT / "plans").glob("*.json"):
-        if f.stem not in have and pending_rows(f.stem):
-            d = json.loads(f.read_text(encoding="utf-8"))
-            catalog.append({"id": d["id"], "name": d["name"], "n": len(d["rows"]), "bytes": f.stat().st_size})
+        if f.stem not in have and focus_rows(f.stem):
+            catalog.append(entry(json.loads(f.read_text(encoding="utf-8")), f))
     catalog.sort(key=lambda c: order.get(c["id"], 999))
     page = TEMPLATE.read_text(encoding="utf-8")
     payload = json.dumps({"plans": catalog, "reasons": REASONS, "built": date.today().isoformat()},
@@ -295,9 +307,10 @@ def cmd_import(path):
             L = keyed[x["key"]]
             if not L["note"].startswith(aw.FOCUS):
                 raise ac.Stop(f"{pid}: 要人確認でない行の結果です: {x['key']}")
-            if L["checked"] == "✓" and not L["reviewer"].startswith("auto:"):
+            if human_done(L) and x["verdict"] == "ok":
                 n["skip"] += 1   # すでに人が確認した行(前に取り込んだ結果)
                 continue
+            # 人が確認済みの行でも「違う」「保留」は取り込む(点検表で見つけた確認間違いの訂正)
             reason = L["note"].split(" / ", 1)[0]
             cm = clean(x.get("comment"))
             if x["verdict"] == "ok":
@@ -308,6 +321,8 @@ def cmd_import(path):
                          note=f"{reason} / 不一致: 正しい値 {clean(x['value'])}" + (f" {cm}" if cm else "")
                          + f"({clean(x['reviewer'])} {clean(x['date'])})")
             else:
+                if human_done(L):
+                    L.update(checked="", reviewer="", date="")
                 L["note"] = f"{reason} / 保留: {cm}({clean(x['reviewer'])} {clean(x['date'])})"
             n[x["verdict"]] += 1
         aw.write_ledger(pid, led)

@@ -367,12 +367,15 @@ function countedBox(r) {
   const n = r.counted.reduce((a, x) => a + x.items.length, 0);
   const li = r.counted.map(x => {
     const h = `<span class="h">${x.path.map(esc).join(" › ")}</span>`;
+    // 見出し自体が一番下の項目のとき(同じ名前の項目1つ)は、見出しと項目を1行で示す
+    if (x.items.length === 1 && x.items[0] === x.path[x.path.length - 1]) return `<li>${h}:1(見出し自体が項目)</li>`;
     return x.items.length
       ? `<li>${h}:${x.items.length}<ul>${x.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul></li>`
-      : `<li>${h}:<span class="z">0(説明の文章だけで、①②… の項目がないので数えない)</span></li>`;
+      : `<li>${h}:<span class="z">0(節全体の説明か再掲なので数えない)</span></li>`;
   }).join("");
-  return `<div class="cnt-box"><p>数えたもの:このブロックの ①②… の付いた項目(ダッシュボードでは1項目がカード1枚)の数です。` +
-    `原典の同じ見出しの下に、同じ項目が過不足なくあるかを確かめてください。</p>` +
+  return `<div class="cnt-box"><p>数えるもの:原典のこのブロックの範囲で、名前を付けて並べ、それぞれに説明を持つ一番下の単位の数です` +
+    `(番号の有無や、事業・方針などの呼び名は問いません。下にさらに項目を持つ見出し、「基本的な考え方」のような節全体の説明、再掲は数えません)。` +
+    `原典でこの単位を数えて値と比べ、下のダッシュボードの項目と過不足がないかも確かめてください。</p>` +
     `<details${n <= 12 ? " open" : ""}><summary>数えた項目と見出し(計 ${n})</summary><ul>${li}</ul></details></div>`;
 }
 

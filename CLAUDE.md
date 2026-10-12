@@ -306,71 +306,45 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
   `build/audit/kodomo.tsv` を原典 `sources_raw/kodomo/honpen.pdf` と照合)は
   次工程**で、2026-10-10 に完了(下の残タスク参照)。
 
-### 残タスク
+### 残タスク(2026-10-13 更新)
 
-**完了**
-- [x] **tools/build.py(Phase 2)**(2026-07 完了) — ハブを data 外出しの
-  リファクタで再構築。成果物:
-  - `templates/hub.html` — hub-legacy から shell を抽出。embed 機構を廃止
-    (template×3・style×2・script×2・関数を除去)、CATS 生HEXを `:root` の
-    `--cat-*` トークンへ集約、`const PLANS` をプレースホルダ化、`dashboard`
-    保有計画はカードから個別ページへ直接リンク(非保有は図解モーダル)。
-  - `data/manifest.json` — `const PLANS`(43計画)を**データ改変ゼロ**で移行。
-    id 統一(`kosodate3` → `kodomo`)、`embed` 削除、`{schema, plans}` 構造化。
-  - `tools/build.py` — manifest → `docs/index.html` 生成。健全性チェック
-    (必須9・id一意・`_`始まり禁止・cat∈CATS・verified:true→start/end数値・
-    dashboard実在)、cat 検証キーは templates/hub.html から実行時抽出(二重管理
-    回避)、PLANS を indent 付き JSON で inline(fetch 不使用の自己完結)。
-  - `docs/index.html` — 43計画カード・kodomo はダッシュボードへリンク・
-    vanilla 自己完結(生成・依頼者のブラウザ目視で確認済み)。
-  - **id が `_` で始まる計画(フィクスチャ等)は manifest 対象外**(据え置き)。
-- [x] CLAUDE.md を現状に整合(build.py 完了の反映を含む)。
+**いまの状態**: 43計画のうち41計画にダッシュボードがある(kanbatsu・chiiki-nogyo は文書が公開されていないので作らない。
+2026-10-10、依頼者の判断。ハブのカードは残す)。41計画とも段1〜3が済み、段3の指摘の扱い(H3)も全件決まった(未判断0件)。
+残っている大きな作業は段4(人による確認)で、検収が「完了」なのは jisshi・kodomo・kokyo-kanri・koutsu・kyoiku4・security・
+senryaku2・sogo6 の8計画。計画ごとの残りは `python3 tools/audit_index.py`(目次 build/audit/index.html)と
+`python3 tools/audit_autocheck.py <id> --status` で見る。
 
-**着手予定**
-- [ ] 論点4:デザイントークン統一(DESIGN.md ADR-6)。移行A/Bに分割。
-  - [x] ADR-6 を DESIGN.md に記録(2026-07)。
-  - [x] **移行A**(構造色・見た目不変のリファクタ)(2026-07 完了) —
-    `templates/tokens.css` を新設(監査済み3トークン `--ink`/`--line`/`--card`
-    の単一正典)。役割 audit → 役割確定 → 値決定 → 置換・検証(ADR-6)を実施し、
-    3トークンを計画側値へ収束。値代入機構は `tools/tokens.py` に単一実装
-    (load_tokens/apply_tokens・名前アンカー `--name:#hex`・fail-loud)、
-    render_plan.py が shell.css の `.hpv1{}` 内、build.py が hub.html の
-    `:root{}` 内へ代入(モデルA。連結・前置はしない。詳細は DESIGN.md ADR-6)。
-    計画ページはバイト不変、ハブは L25 の1行のみ収束。三点セット検証
-    (バイト一致/センチネル/fail-loud)合格。実装は 85fa870(計画側)・
-    3897746(ハブ側)。
-  - [ ] **移行B**(フォント・見た目変化): rem 化と本文底上げ(15→16px 等)。
-    Aとは別コミット群にして bisect 可能に。全計画再レンダリング+目視必須。
-- [x] **kodomo の検収(audit 突合)**(2026-10-10 検収済み・ADR-7 補遺 L) — 原典 `sources_raw/kodomo/honpen.pdf`(90p)と
-  `build/audit/kodomo.tsv`(886行)。段1 330行・段2 540行を機械で照合(PR #19)、要人確認60行を人が確認(PR #20、
-  確認者 kken78)。段3の指摘32件はすべて判断済み(`data/source_issues/kodomo.tsv`)。`--status` で完了。
-- [x] **`tools/audit_autocheck.py` の実装**(2026-10) — 段1の照合、`--selftest`、段2の設問と取り込み、
-  H2・H4 の選定、`--status`。ワークシートの `--focus`。kodomo で段1 330行・素通り1.0%(selftest)。
-- [x] **koutsu・kokyo-kanri の段3の指摘への対応**(H3)(2026-10-10 完了) — `data/source_issues/<id>.tsv` の全指摘の
-  扱いを依頼者が決めた。ダッシュボードに載せていない記述は「対象外」、原典のまま載せている記述は注記なしの
-  「原典どおり掲載」を基本とし、koutsu No.9(日八線の 198,786 と 207,435)だけ注記した。3計画とも `--status` で完了。
-  原典の誤りは、43計画が片付いた後に町へ一式で提供する(それまでは個別に伝えない)。
-- [x] `templates/hub.html` の `.hpshi-tip` 除去行を削除(2026-10) — ADR-2 の embed 廃止により
-  永久に0件の no-op だった(ADR-6 の「0件 no-op 禁止」と不整合)。
+**依頼者の確認・判断が要るもの**
+- [ ] 段4(人による確認): 残り33計画。kokudoriyou・partner・toshimaster の取り込みは PR #62。
+- [ ] 判断待ち(原典は確かめ済み):
+  - taishin の耐震化の目標タブのカード「耐震性不十分 2,040戸」の時点(原典 p.13 では H37年度末の推計。カードは「H27年度」)。
+    時点(asof)は照合表の項目名に入らないので、直しても照合表は変わらない
+  - tokutei-jigyo の図の題「各役職段階の男女の人数」(データは原典の人数、画面は計算した割合)。
+    題は照合表のブロック名なので、変えるとこの図の16行が未検収に戻る
+  - youho の2表・bunkazai の1表で、数値の列どうしを並べ替えたこと(PR #58)
+  - 計画をまたぐ見た目の2点(目標比の棒、増減の矢印の色)
+  - jisshi: 政策の見出しと分野の見出しが同じ見た目で続く点、事業名「滋賀県６町」の全角の「６」(原典は半角)
+  - partner の manifest の期間(いまは後期計画の R6〜R10。全体は2019年からの10年間。保留中)
+- [ ] 段3の原典の誤りの指摘を、43計画が片付いたあとで町へ一式で提供する(それまでは個別に伝えない)。
 
-**原典PDF待ち(配置後に着手)**
-- [x] **koutsu の移行**(2026-10) — 原典(令和6年3月策定・令和8年3月改訂・54ページ)から
-  定型フローで起票。7タブ、audit 352行、ハブ登録済み。路線図(図16)は
-  `data/assets/koutsu_map.jpg` に切り出し `figure` ブロックで参照。出典ページは印刷ページ番号
-  (PDFページ−4)。各事業のスケジュール(工程)は年度範囲が確定できないため未収録。
-- [x] **koutsu の検収(audit 突合)**(2026-10-09 検収済み) — 原典PDF
-  `sources_raw/koutsu/honpen.pdf` と `build/audit/koutsu.tsv`(352行)を突合し、
-  `data/audit_log/koutsu.tsv` の全352行が checked(確認者 kken78)。
-- [x] **kokyo-kanri(公共施設等総合管理計画)の追加**(2026-10) — Claude Design で作成した
-  JSON を、原典(令和4年3月改定・54ページ)の全文テキストと照合・修正して追加。5タブ、
-  audit 146行、ハブ登録済み。出典ページは印刷ページ番号(PDFページ−3)。
-- [x] **kokyo-kanri の検収(audit 突合)**(2026-10-09 検収済み) — 原典PDF
-  `sources_raw/kokyo-kanri/honpen.pdf` と `build/audit/kokyo-kanri.tsv`(146行)を突合し、
-  `data/audit_log/kokyo-kanri.tsv` の全146行が checked(確認者 kken78)。
-- [ ] 残り36計画の抽出 — 原典は `sources_raw/<id>/` に取得済み(`data/sources_index.tsv`、2026-10)。定型フローで1本ずつ。
-  ダッシュボード済みは kodomo・koutsu・kokyo-kanri・kankyo・kyoiku4 の5計画。
-  - 本編がどれか決まっていない計画(kyoryo・shasi-jyutaku・shasi-jishin・shasi-koen)と、文字を取り出せないPDF
-    (台帳の note に「OCRが必要」。主に toshimaster・sogo6)は、その計画に着手するときに扱いを決める。
-    OCR した文字で段1を使えるかは、最初に `--selftest` で確かめる。
-  - **kanbatsu・chiiki-nogyo はダッシュボードを作らない**(2026-10-10、依頼者の判断)。掲載ページに計画の文書が
-    公開されていない(kanbatsu は「農林課窓口で閲覧」、chiiki-nogyo は変更の様式と農地一覧表だけ)。ハブのカードはそのまま残す。
+**作業として残っているもの**
+- [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
+- [ ] hino-ronten への連絡(「外部の利用者(hino-ronten)への連絡」の節):
+  - jisshi の構造化は済んだ(PR #54・#56)ので知らせる。sogo6 は段4と施策体系の構造化が済んだら知らせる
+  - node キーを事業の key に移すかは、hino-ronten の LINK_SCHEMA の改定と合わせて決める
+  - 事業へ直接リンクする仕組み(id とタブ・折りたたみを開く処理)は、hino-ronten で必要と決まったときに別に行う
+- [ ] ハブを幅320pxで見ると、計画カード(`.plan-card.in-band`)のためにページが10px横にずれる(ゲートBは360px以上を検査)。
+- [ ] 論点4 デザイントークン統一の移行B(フォント・見た目の変化): rem 化と本文の底上げ(15→16px 等)。
+  移行Aとは別のコミット群にして bisect できるようにする。全計画の再描画と目視が要る。
+
+**完了(主なもの。詳しい経緯は git の履歴とプルリクエスト)**
+- [x] tools/build.py(Phase 2。ハブを data/manifest.json から生成)、デザイントークン統一の移行A(ADR-6)、
+  デザインシステム(ADR-8)、検収の仕組み(ADR-7・補遺 L、tools/audit_autocheck.py・audit_worksheet.py・audit_index.py)
+- [x] kodomo・koutsu・kokyo-kanri の起票と検収(2026-10-10 まで。段4も完了)
+- [x] 残り36計画の起票(2026-10-10、バッチ1〜7、PR #30〜#43)。本編の判断・OCR の扱いは各プルリクエストに記録
+- [x] 人の確認を減らす仕上げ(2026-10-11、PR #45〜#49): 文字データにない値を段2へ回し(要人確認 2,229→1,244行)、
+  段3の指摘を依頼者の基準で仕分けて未判断を0件にした。段4の目次(PR #50)
+- [x] hino-ronten との取り決め(PR #51)、12計画の計画期間を manifest に反映(PR #53)、ハブの年表の目盛り(PR #52)
+- [x] programs の事業の key と、実施年度・事業費・節の計(PR #54)。jisshi の主要事業を事業の単位に(PR #56)
+- [x] 出典の PDF ページの差を範囲ごとに持てるようにした(pdf_page_offsets。shogai-keikaku。PR #57)
+- [x] 点検で見つかった問題のうち JSON で直せるものを33計画で直した(PR #58。照合表の行は変えていない)

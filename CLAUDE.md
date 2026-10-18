@@ -92,8 +92,10 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 ## セッション運用
 
 - **前のセッションの文脈に依存しない**。必要な前提はすべて本書・PLAN_SCHEMA.md・DESIGN.md にあるべきで、
-  足りなければ作業の前に本書へ追記する。進行中の作業の状態は、本書の「残タスク」と
-  `/home/kken78/GitHub/hino-wt/PROGRESS.md` に書く。計画1本の作業も、複数の計画をまとめる作業(下の「並行作業」)もある。
+  足りなければ作業の前に本書へ追記する。進行中の作業の状態は、本書の「残タスク」とプルリクエストに書く。
+  計画1本の作業も、複数の計画をまとめる作業(下の「並行作業」)もある。
+  `/home/kken78/GitHub/hino-wt/PROGRESS.md` は、並行作業の取りまとめ役が途中で切れたときに再開するための一時的なメモに限る。
+  作業が終わったら、必要な内容をプルリクエストと本書の「残タスク」に移す。
 - **同じ作業ツリーをほかのセッションも使う**ことがある。コミットの前に `git branch --show-current` で作業ブランチに
   いることを確かめる(途中で main に切り替わり、コミットが main に入ったことがある)。自分が作っていないファイル
   (git で管理していないフォルダなど)は、コミットに入れず、消さない。
@@ -123,8 +125,8 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 ## 並行作業(複数のエージェントで計画を起票・検収する)
 
 計画をいくつかまとめて起票するときや、検収をやり直すときは、PCの Claude Code を取りまとめ役にして、複数のエージェントで
-並行して進める(2026-10、依頼者の指定)。43計画のうち41計画の起票は、この手順で 2026-10-10 に終えた(7バッチ、PR #30〜#43。
-記録は `/home/kken78/GitHub/hino-wt/PROGRESS.md`)。エージェントの定義は `.claude/agents/` にある。
+並行して進める(2026-10、依頼者の指定)。43計画のうち41計画の起票は、この手順で 2026-10-10 に終えた(7バッチ。
+記録は PR #30〜#43 にある)。エージェントの定義は `.claude/agents/` にある。
 - `plan-builder`: 計画1本の起票・検証・描画・段1・段2の設問づくり
 - `audit-checker`: 段2の照合(起票の経緯を知らない係。同じ設問を2人に別々に渡す)
 - `text-reviewer`: 段3の文章点検(起票担当とは別の係)
@@ -265,7 +267,7 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 - 相対年度表記(本年度・今年度・来年度)を書く
 - 計画JSONに色HEXやスタイルを書く(テーマトークンのみ)
 
-## 現状の実装状態(2026-10-13 更新)
+## 現状の実装状態(2026-10-19 更新)
 
 **生成の流れ**: `data/plans/<id>.json` → `validate_schema.py` → `render_plan.py`(計画ページ `docs/plans/<id>.html` と
 照合表 `build/audit/<id>.tsv`)→ `validate.mjs`(ゲートA)・`check_mobile.mjs`(ゲートB)。ハブ `docs/index.html` は
@@ -291,6 +293,8 @@ manifest には載せない)。
 - `tools/audit_review.py`: スマホで原典ページの該当箇所を見ながら段4を行う確認ページ(補遺 M。計画ごとの点検表つき)
 - `tools/check_source_issues.py`: 段3の記録 `data/source_issues/<id>.tsv` の形式の検査
 - `tools/program_keys.py`: programs の事業に key を付ける
+- `tools/pdf_pages.py`: 出典のページの読み取りと、印刷ページ → PDF のページの換算。audit_autocheck.py と render_plan.py
+  (`asset` を省いた figure の原典へのリンクの `#page=`。DESIGN.md ADR-9)が共用する
 
 台帳の手順:
 ```bash
@@ -312,16 +316,18 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
 原典PDFそのものは `sources_raw/<id>/` に置き、リポジトリには入れない(.gitignore の対象。同じ版かどうかは url と sha256 で確かめる)。
 ファイル名は本編 honpen.pdf(章ごとの分割は honpen-01.pdf …)、概要版 gaiyo.pdf、資料編 shiryo.pdf、それ以外は元のファイル名を英小文字にしたもの。
 
-### 残タスク(2026-10-13 更新)
+### 残タスク(2026-10-19 更新)
 
 **いまの状態**: 43計画のうち41計画にダッシュボードがある(kanbatsu・chiiki-nogyo は文書が公開されていないので作らない。
 2026-10-10、依頼者の判断。ハブのカードは残す)。41計画とも段1〜3が済み、段3の指摘の扱い(H3)も全件決まった(未判断0件)。
-残っている大きな作業は段4(人による確認)で、検収が「完了」なのは jisshi・kodomo・kokyo-kanri・koutsu・kyoiku4・security・
-senryaku2・sogo6 の8計画。計画ごとの残りは `python3 tools/audit_index.py`(目次 build/audit/index.html)と
-`python3 tools/audit_autocheck.py <id> --status` で見る。
+残っている大きな作業は段4(人による確認)。検収が完了した計画と残りは、`python3 tools/audit_index.py`(目次 build/audit/index.html)と
+`python3 tools/audit_autocheck.py <id> --status` で確かめる。
 
 **依頼者の確認・判断が要るもの**
-- [ ] 段4(人による確認): 残り33計画。kokudoriyou・partner・toshimaster の取り込みは PR #62。
+- [ ] 段4(人による確認)。kokudoriyou・partner・toshimaster の取り込みは PR #62。
+- [ ] ADR-9 で原典へのリンクにした図の12行(koutsu・shasi-koutsu・shinrin・taishin・nogyo-tamen・tsugakuro の6計画。
+  要人確認:H2)の人による確認。確認ページ(`tools/audit_review.py`)で行う。
+- [ ] 外した画像12枚(DESIGN.md ADR-9)の下図・写真の出どころを担当課に確かめ、問題がないと分かったものから asset を戻す。
 - [ ] 判断待ち(原典は確かめ済み):
   - taishin の耐震化の目標タブのカード「耐震性不十分 2,040戸」の時点(原典 p.13 では H37年度末の推計。カードは「H27年度」)。
     時点(asof)は照合表の項目名に入らないので、直しても照合表は変わらない
@@ -335,6 +341,9 @@ senryaku2・sogo6 の8計画。計画ごとの残りは `python3 tools/audit_ind
 
 **作業として残っているもの**
 - [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
+- [ ] kodomo と kokyo-kanri の出典 honpen の url が町の掲載ページのままなので、台帳 `data/sources_index.tsv` の本編の PDF の URL に直す
+  (koutsu は ADR-9 の作業で直した)。
+- [ ] README の古い記述(計画数、kodomo の検収状況、定型フロー)を直す。
 - [ ] hino-ronten への連絡(「外部の利用者(hino-ronten)への連絡」の節):
   - jisshi の構造化が済んだ(PR #54・#56)ことを知らせる。sogo6 は施策体系の構造化が済んだら知らせる(検収は完了)
   - node キーを事業の key に移すかは、hino-ronten の LINK_SCHEMA の改定と合わせて決める

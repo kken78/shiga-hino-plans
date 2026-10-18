@@ -34,6 +34,8 @@ import math
 import mimetypes
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
+from pdf_pages import page_list, pdf_page
 from tokens import load_tokens, apply_tokens
 # tools/ が sys.path[0] に入る前提(python3 tools/render_plan.py 起動に依存)。DESIGN.md ADR-6
 
@@ -53,10 +55,16 @@ WIDE_W = 852        # 最大幅(920px)でのチャートの中身の幅(px)
 FOLD_MIN = 21       # 横棒がこの件数以上なら初期表示を畳む(ADR-8 判断の優先順位 3・4)
 INLINE_LABEL_W = 110  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
+FIGURE_LINK_VALUE = "原典へのリンク"  # asset を省いた figure の照合表の値(PLAN_SCHEMA §6-B figure)
 
 
 def esc(s):
     return html.escape(str(s), quote=True)
+
+
+def is_figure_link(b):
+    """asset を省いた figure(原典へのリンク。PLAN_SCHEMA §6-B figure)か。"""
+    return b.get("type") == "figure" and "asset" not in b
 
 
 class Num(float):
@@ -233,8 +241,10 @@ class Renderer:
         inner = fn(b, tab_id, block_no)
         anchor = f' id="{esc(b["anchor"])}"' if b.get("anchor") else ""
         src = b.get("source")
-        # 連続する完全一致 source はラン末尾に1回だけ表示(_src_display_indices)
-        show_src = bool(src) and block_no in getattr(self, "src_display", set())
+        # 連続する完全一致 source はラン末尾に1回だけ表示(_src_display_indices)。
+        # asset を省いた figure はリンクの文字に文書名とページが出るので、出典表示を出さない
+        show_src = (bool(src) and block_no in getattr(self, "src_display", set())
+                    and not is_figure_link(b))
         src_html = f'<div class="src">{esc(self.source_label(src))}</div>' if show_src else ""
         return f'<div{anchor}>{inner}</div>{src_html}'
 
@@ -432,6 +442,8 @@ class Renderer:
         return f'{table_html}{note}'
 
     def b_figure(self, b, tab_id, block_no):
+        if "asset" not in b:
+            return self.figure_link(b, tab_id, block_no)
         path = ASSETS / b["asset"]
         if not path.exists():
             raise FileNotFoundError(f"アセットがありません: {path}")
@@ -442,6 +454,26 @@ class Renderer:
                    b["asset"], "", b.get("source"))
         return (f'<figure class="b-figure"><img src="{uri}" alt="{esc(b["alt"])}">'
                 f"{cap}</figure>")
+
+    def figure_link(self, b, tab_id, block_no):
+        """asset を省いた figure(PLAN_SCHEMA §6-B figure・DESIGN.md ADR-9): 図の位置に、題・説明・
+        文書名とページを出し、文書名とページを原典へのリンクにする。#page= は URL が PDF のときだけ付ける。
+        #page= が効かない閲覧環境があるため、ページは必ず文字で出す。出典表示は出さない(block)。"""
+        src = b["source"]
+        s = next(x for x in self.d["sources"] if x["id"] == src.partition(" ")[0])
+        ref = esc(self.source_label(src))
+        url = s.get("url")
+        if url:
+            pages = page_list(src)
+            if pages and "#" not in url and urlsplit(url).path.lower().endswith(".pdf"):
+                pp = pdf_page(pages[0], s.get("pdf_page_offset", 0), s.get("pdf_page_offsets"))
+                if pp is not None:
+                    url += f"#page={pp}"
+            ref = f'<a href="{esc(url)}" target="_blank" rel="noopener">{ref}</a>'
+        cap = f"<figcaption>{esc(b['caption'])}</figcaption>" if b.get("caption") else ""
+        self.audit(tab_id, block_no, "figure", b.get("caption", ""), FIGURE_LINK_VALUE, "", src)
+        return (f'<figure class="b-figure fig-link">{cap}<p>{esc(b["alt"])}</p>'
+                f'<p class="fig-ref">この図は原典の該当ページを参照してください：{ref}</p></figure>')
 
     def b_timeline(self, b, tab_id, block_no):
         rows = []
@@ -889,10 +921,11 @@ class Renderer:
         audit.tsv に個別保持され追跡性は不変)。
         - heading が来たら連続をリセット(新セクション。またいだ誤集約を防ぐ)
         - source を持たないブロック(narrative/note/bullets等)は透過
-          (連続を切らない=source持ちの並びで連続を見る)"""
+          (連続を切らない=source持ちの並びで連続を見る)
+        - asset を省いた figure も連続を区切り、それ自身は表示しない(PLAN_SCHEMA §4・§6-B figure)"""
         display, run_src, last_idx = set(), None, None
         for i, b in enumerate(tab.get("blocks", [])):
-            if b.get("type") == "heading":
+            if b.get("type") == "heading" or is_figure_link(b):
                 run_src, last_idx = None, None
                 continue
             s = b.get("source")

@@ -212,7 +212,12 @@ def check_block(rep, where, b, source_ids):
                     check_number(rep, f"{where}.lines[{i}]", v, "vals値")
 
     elif t == "figure":
-        require(rep, where, b, ["asset", "alt"])
+        # asset を省いた figure は原典へのリンク(PLAN_SCHEMA §6-B figure)。source にページが必須
+        require(rep, where, b, ["asset", "alt"] if "asset" in b else ["alt"])
+        if "asset" not in b:
+            m = SOURCE_REF.match(str(b.get("source", "")))
+            if m and not m.group(2):
+                rep.err(where, f"asset を省いた figure は source にページが必要: {b['source']!r} (例: 'honpen p.13')")
         if b.get("alt") and len(b["alt"]) < 15:
             rep.warn(where, "alt が短すぎます。内容を説明する文章にする")
 

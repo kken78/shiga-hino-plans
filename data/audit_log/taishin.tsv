@@ -354,7 +354,7 @@ db78e697dff3db8b	torikumi	2	table	住宅耐震化緊急促進アクションプ�
 e853daae0d042c11	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R5年度	0		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 c3853059b06fd13f	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R6年度	0		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 d54381ee296063c0	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R7年度（目標）	1		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
-59b19dc00d21092c	hoshin	10	figure	地震発生時に通行を確保すべき道路と重点区域	地震発生時に通行を確保すべき道路	taishin_road.jpg		honpen p.27				要人確認:H2 数値でない
+82f126215f706636	hoshin	10	figure	地震発生時に通行を確保すべき道路と重点区域	地震発生時に通行を確保すべき道路	原典へのリンク		honpen p.27				要人確認:H2 数値でない
 755cc79a7800b5b5	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	15年度	3		honpen p.23	✓	auto:ai	2026-10-10	
 857958b4d8491bf2	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	16年度	6		honpen p.23	✓	auto:ai	2026-10-10	
 e233eb9ef57449a7	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	17年度	7		honpen p.23	✓	auto:ai	2026-10-10	

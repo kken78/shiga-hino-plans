@@ -27,7 +27,7 @@
     {
       "id": "honpen",
       "label": "日野町地域公共交通計画（令和6年3月・令和8年3月改訂）",
-      "url": "https://www.town.shiga-hino.lg.jp/0000007255.html",
+      "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000007/7255/koutsu.pdf",
       "pdf_page_offset": 4
     }
   ],
@@ -850,7 +850,6 @@
         },
         {
           "type": "figure",
-          "asset": "koutsu_map.jpg",
           "alt": "日野町とその周辺の地図に、近江鉄道バス（桃色の線）、町営バス（青の線）、デマンドタクシー（黄緑の線）の路線と、バス停、町役場、公共施設、商業施設、病院、学校、公園・娯楽施設、工業団地等の位置を示した図。鉄道と国道も描かれ、日野駅・朝日野駅・朝日大塚駅・桜川駅の駅名、方位記号と縮尺（0〜2,000m）がある。",
           "caption": "日野町の地域公共交通ネットワーク（図16）",
           "source": "honpen p.13"

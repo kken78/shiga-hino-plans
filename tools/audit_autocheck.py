@@ -37,6 +37,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_worksheet as aw  # noqa: E402  read_audit / read_ledger / write_ledger / row_key を共用
+import pdf_pages  # noqa: E402  印刷ページ → PDF のページの換算を render_plan.py と共用
+from pdf_pages import page_list  # noqa: E402,F401  audit_review.py も ac.page_list として使う
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "sources_raw"
@@ -148,13 +150,8 @@ class Source:
         self.npages = None
 
     def pdf_page(self, printed):
-        """印刷ページ → PDF のページ。pdf_page_offsets があれば範囲ごとの差を使い、どの範囲にも入らなければ None。"""
-        if self.offsets:
-            for e in self.offsets:
-                if printed >= e["from"] and (e.get("to") is None or printed <= e["to"]):
-                    return printed + e["offset"]
-            return None
-        return printed + self.offset
+        """印刷ページ → PDF のページ(換算は pdf_pages.pdf_page。render_plan.py と共用)。"""
+        return pdf_pages.pdf_page(printed, self.offset, self.offsets)
 
     def has_page(self, printed):
         """印刷ページ printed が PDF の範囲にあるか(pdfinfo のページ数で判定)。"""
@@ -204,14 +201,6 @@ class Source:
 
 
 IMAGE_PAGE_CHARS = 50   # 1ページの文字データがこれより少なければ、画像だけのページとみなす(sources_index の「OCRが必要」と同じ目安)
-
-
-def page_list(source):
-    m = re.search(r"p\.(\d+)(?:-(\d+))?", source or "")
-    if not m:
-        return []
-    a = int(m.group(1)); b = int(m.group(2) or a)
-    return list(range(a, b + 1))
 
 
 # ---------------------------------------------------------------- 段1

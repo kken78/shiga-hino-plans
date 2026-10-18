@@ -205,7 +205,7 @@ c14d631f7b92b142	chiiki	25	table	自家用車での送迎	送迎を続ける/送
 dccac880861572be	chiiki	25	table	自家用車での送迎	合計/送迎している方（%）	100.0		honpen p.12	✓	kken78	2026-10-09	
 a07607c8e4561056	chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（人）	952		honpen p.12	✓	kken78	2026-10-09	
 d910d6fcd85c6433	chiiki	25	table	自家用車での送迎	合計/送迎してもらっている方（%）	100.0		honpen p.12	✓	kken78	2026-10-09	
-12899f2a1e44eeeb	genjo	4	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	koutsu_map.jpg		honpen p.13	✓	kken78	2026-10-09	
+5bfebc965965de0c	genjo	4	figure	町内の公共交通	日野町の地域公共交通ネットワーク（図16）	原典へのリンク		honpen p.13				要人確認:H2 数値でない
 7fdb9d4a514f14de	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期	271440	人	honpen p.14	✓	kken78	2026-10-09	
 b811f58496df4781	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H26/定期外	76311	人	honpen p.14	✓	kken78	2026-10-09	
 ed8caf674a8d04e7	genjo	7	chart.stacked	近江鉄道日野駅乗降客数の推移（年度）	H27/定期	272160	人	honpen p.14	✓	kken78	2026-10-09	

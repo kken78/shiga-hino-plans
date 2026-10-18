@@ -24,6 +24,8 @@
 結果ファイルの形: [{"plan": id, "key": 照合キー, "verdict": "ok"|"ng"|"hold", "value": 正しい値(ng のとき),
                    "comment": …, "reviewer": GitHub のユーザー名, "date": "YYYY-MM-DD"}, …]
 
+行ごとに、ダッシュボードでの表示(種類・タブの名前・時点・添え書き・表の列見出し・注記など)を計画の JSON から添える(補遺 M)。
+
 位置の調べ方: ページの文字データ(pdftotext -bbox)で値と同じ数字の語を探す。見つからないページ(画像だけのページ、
 画像で貼られた表・グラフ)は、300dpi の画像を tesseract で読んで探す。値が何か所にもあるときは、項目名(年度・
 系列名など)の語に最も近いものを「ここ」として示す。位置は目安で、照合そのものは人が画像で行う。
@@ -187,6 +189,60 @@ def counted(plan, row):
     return out
 
 
+KIND = {"kpi": "数値カード", "bigstat": "大きな数値", "target.base": "目標の基準値", "target.current": "目標の現状値",
+        "target.target": "目標値", "table": "表", "timeline": "年表", "programs": "事業の数", "programs.cost": "事業費",
+        "programs.years": "実施年度", "programs.total": "節の計", "chart.bars": "棒グラフ", "chart.stacked": "積み上げ棒グラフ",
+        "chart.stacked100": "割合の帯グラフ", "chart.line": "折れ線グラフ", "chart.pair": "2系列の棒グラフ",
+        "chart.rank": "順位の棒グラフ"}
+TARGET_TAG = {"base": "基準", "current": "現状", "target": "目標"}
+
+
+def context(plan, row):
+    """行がダッシュボードでどう見えているか(補遺 M、2026-10-19)。照合表の行には時点(asof)や基準値・目標値の別が
+    入らないので、確認する人がどの年度・どの値と比べればよいか分からないことがあった。計画の JSON の同じブロックから、
+    行の種類・タブの名前・時点・添え書き・表の列見出し・注記を取り出して確認ページに出す。照合表と台帳は変えない。"""
+    tab = next(t for t in plan["tabs"] if t["id"] == row["tab"])
+    b = tab["blocks"][int(row["block_no"])]
+    bt = row["btype"]
+    kind = KIND.get(bt, bt)
+    lines = []
+
+    def item(items, key="label", label=row["label"]):
+        """項目名が同じ項目。同じ名前が複数あれば値でも絞る。決まらなければ None(添え書きは出さない)。"""
+        hits = [it for it in items if str(it.get(key)) == label]
+        if len(hits) > 1:
+            hits = [it for it in hits if str(it.get("value")) == row["value"]]
+        return hits[0] if len(hits) == 1 else None
+
+    if bt == "kpi":
+        it = item(b["items"])
+        if it:
+            lines += [["時点", it.get("asof")], ["添え書き", it.get("delta")]]
+    elif bt == "bigstat":
+        lines.append(["説明", b.get("desc")])
+    elif bt.startswith("target."):
+        it = item(b["items"])
+        if it:
+            node = it[bt.split(".", 1)[1]]
+            lines.append(["時点", node.get("asof")])
+            seq = [f'{TARGET_TAG[k]} {it[k]["v"]}({it[k].get("asof", "")})' for k in ("base", "current", "target") if it.get(k)]
+            lines.append(["目標の全体", " → ".join(seq) + f' {it.get("unit", "")}'])
+    elif bt == "table":
+        lines += [["表の題", b.get("title")], ["列見出し", " | ".join(str(h) for h in b["head"])], ["表の注記", b.get("note")]]
+    elif bt.startswith("chart."):
+        lines += [["グラフの題", b.get("title")], ["単位", b.get("unit")]]
+        if bt in ("chart.bars", "chart.stacked", "chart.stacked100"):
+            y = item(b["years"], label=ac.parts(row["label"])[0] if ac.parts(row["label"]) else "")
+            if y:
+                lines.append(["補足", y.get("sub")])
+        lines.append(["グラフの注記", b.get("note")])
+    elif bt == "figure":
+        kind = "図(画像)" if "asset" in b else "図(原典へのリンク)"
+        lines.append(["図の説明", b.get("alt")])
+    return {"kind": kind, "tab": tab.get("label", row["tab"]),
+            "lines": [[k, str(v)] for k, v in lines if v not in (None, "")]}
+
+
 def human_done(r):
     return r["checked"] == "✓" and not r["reviewer"].startswith("auto:")
 
@@ -228,6 +284,7 @@ def build_plan(pid):
                       "rule": rule, "why": reason[len(aw.FOCUS) + len(rule):].strip(), "memo": memo,
                       "ledger": {"by": r["reviewer"], "date": r["date"]} if human_done(r) else None,
                       "counted": counted(plan, r),
+                      "ctx": context(plan, r),
                       "refs": refs})
     # ページ画像。合計が目安を超える計画は、画素数が目安に収まるよう解像度を下げる(JPEG の大きさは画素数にほぼ比例)
     dpi = DPI

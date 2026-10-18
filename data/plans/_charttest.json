@@ -9,7 +9,8 @@
     "url": "https://example.com/"
   },
   "sources": [
-    { "id": "test", "label": "テストデータ(架空)" }
+    { "id": "test", "label": "テストデータ(架空)" },
+    { "id": "testpdf", "label": "テスト用の原典(架空・PDF)", "url": "https://example.com/test.pdf", "pdf_page_offset": 2 }
   ],
   "tabs": [
     {
@@ -151,6 +152,11 @@
         {
           "type": "timeline", "source": "test",
           "items": [ { "span": ["R7", "R8"], "label": "基本設計" }, { "span": ["R9", "R11"], "label": "改修工事" } ]
+        },
+        {
+          "type": "figure", "source": "testpdf p.5",
+          "alt": "画像を載せない図(asset を省いた figure)の見本。原典の該当ページへのリンクとして描く。",
+          "caption": "原典へのリンクの見本"
         }
       ]
     },

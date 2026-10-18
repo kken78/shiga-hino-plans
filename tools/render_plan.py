@@ -572,7 +572,13 @@ class Renderer:
             body = ""
             if g.get("subgroups"):
                 for sg in g["subgroups"]:
-                    body += (f'<div class="psub">{esc(sg.get("no", ""))} {esc(sg["name"])}</div>'
+                    # 見出し自体が一番下の項目のとき(同じ no・name の項目1つだけ)は、見出しを出さず
+                    # 項目のカードだけを出す(PLAN_SCHEMA programs「項目にするものの定義」)
+                    its = sg["items"]
+                    solo = (len(its) == 1 and its[0].get("no", "") == sg.get("no", "")
+                            and its[0]["name"] == sg["name"])
+                    psub = "" if solo else f'<div class="psub">{esc(sg.get("no", ""))} {esc(sg["name"])}</div>'
+                    body += (f'{psub}'
                              f'{intro_block(sg)}'
                              f'<div class="pgrid">{"".join(ev(i) for i in sg["items"])}</div>')
                     n_items += len(sg["items"])

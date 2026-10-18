@@ -48,6 +48,10 @@ NUM_RE = re.compile(r"[▲△\-−]?\d[\d,]*(?:\.\d+)?")
 NUMBER = re.compile(r"-?\d+(\.\d+)?")
 FOCUS = "要人確認:"
 ESCAPE_LIMIT = 0.02
+# 照合表の「事業数」の行が数えるもの(PLAN_SCHEMA programs「項目にするものの定義」)。段2の設問に添える
+COUNT_DEF = ("原典のこのブロックの範囲で、名前を付けて並べ、それぞれに説明(本文・事業内容)を持つ一番下の単位の数。"
+             "番号の有無や呼び名(事業・施策・方針)は問わない。下にさらに項目を持つ見出し、節全体の説明"
+             "(基本的な考え方など)、再掲(同じ事業をもう一度載せたもの)は数えない")
 
 
 class Stop(Exception):
@@ -494,6 +498,9 @@ def cmd_ai_items(pid):
         x = res[id(r)]
         if x["pass"] or x["h2"] or led[r["key"]]["checked"] == "✓":
             continue
+        # 人が「保留」「違う」とした行(audit_review.py --import が note に書く)は人に戻すので、AI に回さない
+        if " / 保留:" in led[r["key"]]["note"] or " / 不一致:" in led[r["key"]]["note"]:
+            continue
         blocks[(r["tab"], r["block_no"])].append(r)
     items = []
     for (tab, bno), lst in blocks.items():
@@ -503,7 +510,9 @@ def cmd_ai_items(pid):
                 if sid in srcs else [])
         items.append({"ブロック": lst[0]["block_label"], "タブ": tab, "種類": lst[0]["btype"], "出典": lst[0]["source"],
                       "ページ画像": imgs,
-                      "行": [{"key": r["key"], "項目": r["label"], "値": r["value"], "単位": r["unit"]} for r in lst]})
+                      "行": [dict({"key": r["key"], "項目": r["label"], "値": r["value"], "単位": r["unit"]},
+                                 **({"数えるもの": COUNT_DEF} if r["btype"] == "programs" and r["label"] == "事業数" else {}))
+                            for r in lst]})
     out = AUDIT_DIR / f"{pid}.ai_items.json"
     out.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"OK  {out}  (ブロック {len(items)}・行 {sum(len(i['行']) for i in items)})")

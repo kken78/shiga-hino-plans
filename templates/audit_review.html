@@ -71,6 +71,13 @@ h1{font-size:var(--fs-l);margin:0;line-height:1.35;text-wrap:balance}
 .src{font-size:var(--fs-s);color:var(--mut);overflow-wrap:anywhere}
 .why{font-size:var(--fs-s);color:var(--mut)}
 .myc{font-size:var(--fs-m);color:var(--ink2);overflow-wrap:anywhere}
+/* 「事業数」の行: 何を数えたか */
+.cnt-box{border-top:1px solid var(--line);margin-top:6px;padding-top:6px;font-size:var(--fs-m);display:grid;gap:4px}
+.cnt-box p{margin:0;color:var(--ink2)}
+.cnt-box ul{margin:0;padding-left:1.2em}
+.cnt-box li{overflow-wrap:anywhere}
+.cnt-box .h{font-weight:700}
+.cnt-box .z{color:var(--mut)}
 
 .viewer{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;min-width:0}
 .vbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px;border-bottom:1px solid var(--line)}
@@ -347,10 +354,29 @@ function show(i) {
     `<div class="src">出典 ${esc(r.source)}${(P.sources[r.source.split(" ")[0]] || {}).label ? "(" + esc(P.sources[r.source.split(" ")[0]].label) + ")" : ""}</div>` +
     (r.why ? `<div class="why">${esc(r.why)}</div>` : "") +
     (res && res.comment ? `<div class="myc">コメント:${esc(res.comment)}</div>` : "") +
+    (r.counted ? countedBox(r) : "") +
     (r.memo ? `<div class="myc">台帳のメモ:${esc(r.memo)}</div>` : "") +
     (res ? `<button class="undo" type="button" id="undo">この判定を取り消して未確認に戻す</button>` : "");
   if (res) $("undo").addEventListener("click", undo);
   drawRef();
+}
+
+// 「事業数」は、ダッシュボードで ①②… の付いた項目(カード1枚ずつ)を、このブロック全体で数えた数。
+// 原典のどの見出しの下の何を数えたかを並べ、説明だけの見出しは「数えない」と示す
+function countedBox(r) {
+  const n = r.counted.reduce((a, x) => a + x.items.length, 0);
+  const li = r.counted.map(x => {
+    const h = `<span class="h">${x.path.map(esc).join(" › ")}</span>`;
+    // 見出し自体が一番下の項目のとき(同じ名前の項目1つ)は、見出しと項目を1行で示す
+    if (x.items.length === 1 && x.items[0] === x.path[x.path.length - 1]) return `<li>${h}:1(見出し自体が項目)</li>`;
+    return x.items.length
+      ? `<li>${h}:${x.items.length}<ul>${x.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul></li>`
+      : `<li>${h}:<span class="z">0(節全体の説明か再掲なので数えない)</span></li>`;
+  }).join("");
+  return `<div class="cnt-box"><p>数えるもの:原典のこのブロックの範囲で、名前を付けて並べ、それぞれに説明を持つ一番下の単位の数です` +
+    `(番号の有無や、事業・方針などの呼び名は問いません。下にさらに項目を持つ見出し、「基本的な考え方」のような節全体の説明、再掲は数えません)。` +
+    `原典でこの単位を数えて値と比べ、下のダッシュボードの項目と過不足がないかも確かめてください。</p>` +
+    `<details${n <= 12 ? " open" : ""}><summary>数えた項目と見出し(計 ${n})</summary><ul>${li}</ul></details></div>`;
 }
 
 // ---------------------------------------------------------------- 原典ページ

@@ -3,8 +3,8 @@ key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date
 936bd7e93b46a104	summary	3	kpi		町議会議員に占める女性の比率	15.4	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
 9f026d9cac829c6b	summary	3	kpi		行政委員会の委員に占める女性の比率	16.1	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
 8b67aa4ed809e935	summary	3	kpi		附属機関の委員に占める女性の比率	30.7	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
-86bdeac10be70da3	summary	3	kpi		町職員の管理職に占める女性の比率	12.5	%	honpen-04 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-091ce081de98577c	genjo	3	chart.bars	日野町の人口の推計	2020年	20964	人	honpen-04 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+86bdeac10be70da3	summary	3	kpi		町職員の管理職に占める女性の比率	12.5	%	honpen-04 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
+091ce081de98577c	genjo	3	chart.bars	日野町の人口の推計	2020年	20964	人	honpen-04 p.1	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 3f02cce90ae5a722	genjo	3	chart.bars	日野町の人口の推計	2025年	20200	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
 c4ef6a668799ab8e	genjo	3	chart.bars	日野町の人口の推計	2030年	19331	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
 c06bf881c4c7a4de	genjo	3	chart.bars	日野町の人口の推計	2035年	18424	人	honpen-04 p.1	✓	auto:ai	2026-10-10	
@@ -21,7 +21,7 @@ d611d805a3049d95	genjo	6	chart.pair	日野町の年齢別労働力率	25〜29歳
 e5f3e6add9e327da	genjo	6	chart.pair	日野町の年齢別労働力率	30〜34歳/男性	98.8	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 9fe539eaab46ce6b	genjo	6	chart.pair	日野町の年齢別労働力率	35〜39歳/女性	82.7	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 3d26b2f2a49d53e8	genjo	6	chart.pair	日野町の年齢別労働力率	35〜39歳/男性	98.1	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
-03bb217a01abfbb4	genjo	6	chart.pair	日野町の年齢別労働力率	40〜44歳/女性	87.1	%	honpen-04 p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+03bb217a01abfbb4	genjo	6	chart.pair	日野町の年齢別労働力率	40〜44歳/女性	87.1	%	honpen-04 p.2	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 9e418a898522f9d9	genjo	6	chart.pair	日野町の年齢別労働力率	40〜44歳/男性	96.9	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 604cdf1cb186731c	genjo	6	chart.pair	日野町の年齢別労働力率	45〜49歳/女性	87.4	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 988fc06bf5fcf02d	genjo	6	chart.pair	日野町の年齢別労働力率	45〜49歳/男性	96.8	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
@@ -35,7 +35,7 @@ acd8092c7a9c0651	genjo	6	chart.pair	日野町の年齢別労働力率	65歳以�
 124d0c6a588a39cb	genjo	6	chart.pair	日野町の年齢別労働力率	65歳以上/男性	44.2	%	honpen-04 p.2	✓	auto:ai	2026-10-10	
 890aae5ebadc1cd9	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	豊郷町	40.7	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
 9e722e7a73a9c00f	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	愛荘町	32.4	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
-221091f438d8d952	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	竜王町	29.0	%	honpen-04 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+221091f438d8d952	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	竜王町	29.0	%	honpen-04 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ4点
 a5ff69bae5a9c71f	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	多賀町	28.6	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
 e54f39c14a481002	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	甲良町	25.0	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
 9b598e26df19dc42	genjo	9	chart.rank	町職員の管理職に占める女性の比率（郡部の6町）	日野町	12.5	%	honpen-04 p.3	✓	auto:ai	2026-10-10	
@@ -61,7 +61,7 @@ b5f4534c02cddedb	genjo	10	table	政策・方針決定の場への女性の参画
 450ef187e23327ae	genjo	10	table	政策・方針決定の場への女性の参画	豊郷町/議員 女性	2		honpen-04 p.3	✓	auto:ai	2026-10-10	
 ef7ccb5a03f9dcfe	genjo	10	table	政策・方針決定の場への女性の参画	豊郷町/議員 比率（％）	16.7		honpen-04 p.3	✓	auto:ai	2026-10-10	
 91f5bc90b47ae0e4	genjo	10	table	政策・方針決定の場への女性の参画	豊郷町/行政委員会 総数	30		honpen-04 p.3	✓	auto:ai	2026-10-10	
-068e22dee5892944	genjo	10	table	政策・方針決定の場への女性の参画	豊郷町/行政委員会 女性	4		honpen-04 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+068e22dee5892944	genjo	10	table	政策・方針決定の場への女性の参画	豊郷町/行政委員会 女性	4		honpen-04 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 9fa7a5d35ed797e1	genjo	10	table	政策・方針決定の場への女性の参画	豊郷町/行政委員会 比率（％）	13.3		honpen-04 p.3	✓	auto:ai	2026-10-10	
 d0a2b19083cea54c	genjo	10	table	政策・方針決定の場への女性の参画	甲良町/議員 総数	11		honpen-04 p.3	✓	auto:ai	2026-10-10	
 ae70415ba7c3dec5	genjo	10	table	政策・方針決定の場への女性の参画	甲良町/議員 女性	0		honpen-04 p.3	✓	auto:ai	2026-10-10	
@@ -79,7 +79,7 @@ b726ed2ac8886ea7	genjo	10	table	政策・方針決定の場への女性の参画
 039119b07b951bfb	genjo	11	table	政策・方針決定の場への女性の参画	日野町/附属機関 女性	84		honpen-04 p.3	✓	auto:ai	2026-10-10	
 01e55bc5ced366c5	genjo	11	table	政策・方針決定の場への女性の参画	日野町/附属機関 比率（％）	30.7		honpen-04 p.3	✓	auto:ai	2026-10-10	
 d38b50e1c46c9885	genjo	11	table	政策・方針決定の場への女性の参画	日野町/町職員（管理職） 総数	32		honpen-04 p.3	✓	auto:ai	2026-10-10	
-15c98fbe54daffa7	genjo	11	table	政策・方針決定の場への女性の参画	日野町/町職員（管理職） 女性	4		honpen-04 p.3	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+15c98fbe54daffa7	genjo	11	table	政策・方針決定の場への女性の参画	日野町/町職員（管理職） 女性	4		honpen-04 p.3	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 6ec6c00c9a943eeb	genjo	11	table	政策・方針決定の場への女性の参画	日野町/町職員（管理職） 比率（％）	12.5		honpen-04 p.3	✓	auto:ai	2026-10-10	
 d0acc4befc289747	genjo	11	table	政策・方針決定の場への女性の参画	竜王町/附属機関 総数	158		honpen-04 p.3	✓	auto:ai	2026-10-10	
 be1d1a66c1e06d37	genjo	11	table	政策・方針決定の場への女性の参画	竜王町/附属機関 女性	45		honpen-04 p.3	✓	auto:ai	2026-10-10	
@@ -112,7 +112,7 @@ bf68f2172fc729f4	genjo	11	table	政策・方針決定の場への女性の参画
 e66111bdf8552faf	genjo	11	table	政策・方針決定の場への女性の参画	多賀町/町職員（管理職） 女性	4		honpen-04 p.3	✓	auto:ai	2026-10-10	
 c08a5f0b64fb0646	genjo	11	table	政策・方針決定の場への女性の参画	多賀町/町職員（管理職） 比率（％）	28.6		honpen-04 p.3	✓	auto:ai	2026-10-10	
 9778d990be4d4490	chosa	2	kpi	日野町男女共同参画社会づくりに関する町民意識調査	標本数	1000	人	shiryo p.2	✓	auto:ai	2026-10-10	
-81f83ecd164847fa	chosa	2	kpi	日野町男女共同参画社会づくりに関する町民意識調査	回収数（うちWeb回答87）	457	人	shiryo p.2	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+81f83ecd164847fa	chosa	2	kpi	日野町男女共同参画社会づくりに関する町民意識調査	回収数（うちWeb回答87）	457	人	shiryo p.2	✓	kken78	2026-10-12	要人確認:H4 難しさ3点
 9d8f7681903bcc0f	chosa	2	kpi	日野町男女共同参画社会づくりに関する町民意識調査	回収率	45.7	%	shiryo p.2	✓	auto:ai	2026-10-10	
 05c85615daf42426	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	法律・制度/平等である	38.5	%	gaiyo p.4	✓	auto:ai	2026-10-10	
 c6282a1ea11e9bae	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	法律・制度/やや男性が優遇されている	33.7	%	gaiyo p.4	✓	auto:ai	2026-10-10	
@@ -125,7 +125,7 @@ ed289dc7e95dd895	chosa	6	chart.stacked100	各分野の男女の平等感（問1�
 6050ee6f2c4114f6	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	政治・経済/男性が優遇されている	38.1	%	gaiyo p.4	✓	auto:ai	2026-10-10	
 bfbad222416fcb2d	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	政治・経済/やや女性が優遇されている	2.0	%	gaiyo p.4	✓	auto:ai	2026-10-10	
 9728e6ff58507ada	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	政治・経済/女性が優遇されている	0.4	%	gaiyo p.4	✓	auto:ai	2026-10-10	
-804f86cd86648063	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	政治・経済/無回答	2.6	%	gaiyo p.4	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+804f86cd86648063	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	政治・経済/無回答	2.6	%	gaiyo p.4	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 6276adffa03b6e2a	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	職場（賃金・昇進）/平等である	19.9	%	gaiyo p.4	✓	auto:ai	2026-10-10	
 a466cfd0c5c233dd	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	職場（賃金・昇進）/やや男性が優遇されている	47.0	%	gaiyo p.4	✓	auto:ai	2026-10-10	
 8d135f9fa77aaf6d	chosa	6	chart.stacked100	各分野の男女の平等感（問1・全体）	職場（賃金・昇進）/男性が優遇されている	28.9	%	gaiyo p.4	✓	auto:ai	2026-10-10	
@@ -174,7 +174,7 @@ fa60f12f7d7ddd31	chosa	9	chart.stacked100	家事分担についての考え（�
 616fb729a794ea5f	chosa	9	chart.stacked100	家事分担についての考え（問3）	男性/家事は家族全員の共同の仕事であり、あくまで男女で分担して行うべきだ	46.1	%	shiryo p.5	✓	auto:ai	2026-10-10	
 0fad6b0a54c4e4ea	chosa	9	chart.stacked100	家事分担についての考え（問3）	男性/その他	3.9	%	shiryo p.5	✓	auto:ai	2026-10-10	
 fa438e5ff5a438db	chosa	9	chart.stacked100	家事分担についての考え（問3）	男性/無回答	0.6	%	shiryo p.5	✓	auto:ai	2026-10-10	
-e5b1ffb1afb6a7cb	chosa	9	chart.stacked100	家事分担についての考え（問3）	全体/家事は女性の仕事であり、男性はしなくてもよい	1.1	%	shiryo p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+e5b1ffb1afb6a7cb	chosa	9	chart.stacked100	家事分担についての考え（問3）	全体/家事は女性の仕事であり、男性はしなくてもよい	1.1	%	shiryo p.5	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 824ccb837d04aa25	chosa	9	chart.stacked100	家事分担についての考え（問3）	全体/家事は女性の仕事であるが、男性も手伝う程度のことはすべきだ	21.7	%	shiryo p.5	✓	auto:ai	2026-10-10	
 414f0af83f231749	chosa	9	chart.stacked100	家事分担についての考え（問3）	全体/家事は男性も分担すべきだが、仕事が忙しくて分担できないのはやむを得ない	27.8	%	shiryo p.5	✓	auto:ai	2026-10-10	
 a3c0e82b75a3f6cc	chosa	9	chart.stacked100	家事分担についての考え（問3）	全体/家事は家族全員の共同の仕事であり、あくまで男女で分担して行うべきだ	43.1	%	shiryo p.5	✓	auto:ai	2026-10-10	
@@ -189,7 +189,7 @@ b362ec8a7dc0287d	chosa	10	chart.stacked100	家庭の役割を主にだれがし�
 6e47d93d714d7cd0	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のしたく/夫婦同じ程度	9.5	%	shiryo p.5	✓	auto:ai	2026-10-10	
 c24012a9cb5ad15a	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のしたく/主として妻	80.3	%	shiryo p.5	✓	auto:ai	2026-10-10	
 fa5ed343a83cee14	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のしたく/その他の家族	4.3	%	shiryo p.5	✓	auto:ai	2026-10-10	
-08056b52658fd182	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のしたく/該当なし	3.0	%	shiryo p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+08056b52658fd182	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のしたく/該当なし	3.0	%	shiryo p.5	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 2dfd882e524c6d2f	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のあとかたづけ/主として夫	6.2	%	shiryo p.5	✓	auto:ai	2026-10-10	
 36b5403aa88a3413	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のあとかたづけ/夫婦同じ程度	20.2	%	shiryo p.5	✓	auto:ai	2026-10-10	
 1785a74b83a2e91b	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	食事のあとかたづけ/主として妻	65.8	%	shiryo p.5	✓	auto:ai	2026-10-10	
@@ -235,7 +235,7 @@ e97be3ffa79373f5	chosa	10	chart.stacked100	家庭の役割を主にだれがし�
 59852e50caa394b6	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	自治会、町内会活動/主として妻	8.1	%	shiryo p.5	✓	auto:ai	2026-10-10	
 f6b8afcd3de96519	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	自治会、町内会活動/その他の家族	2.7	%	shiryo p.5	✓	auto:ai	2026-10-10	
 84c36eae83bc6beb	chosa	10	chart.stacked100	家庭の役割を主にだれがしているか（問4・配偶者またはパートナーと同居している人）	自治会、町内会活動/該当なし	6.5	%	shiryo p.5	✓	auto:ai	2026-10-10	
-09a0447e0d67d095	chosa	11	table	家庭生活	当然だと思う/女性（％）	0.4		gaiyo p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+09a0447e0d67d095	chosa	11	table	家庭生活	当然だと思う/女性（％）	0.4		gaiyo p.7	✓	kken78	2026-10-12	要人確認:H4 難しさ6点
 389541775039a1bb	chosa	11	table	家庭生活	当然だと思う/全体（％）	0.4		gaiyo p.7	✓	auto:ai	2026-10-10	
 b08f18316666827d	chosa	11	table	家庭生活	仕方がないと思う/女性（％）	8.4		gaiyo p.7	✓	auto:ai	2026-10-10	
 68593d3fe15e7a98	chosa	11	table	家庭生活	仕方がないと思う/男性（％）	10.7		gaiyo p.7	✓	auto:ai	2026-10-10	
@@ -267,7 +267,7 @@ d66b130ac6d338a8	chosa	14	chart.pair	職場にあると思う男女格差（問1
 2a825a788dc5de04	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性は昇進・昇格の機会が少ない/男性	22.5	%	shiryo p.11	✓	auto:ai	2026-10-10	
 5a6f8a705634e84a	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性は男性の補助的な仕事が多い（雑用が多い）/女性	17.6	%	shiryo p.11	✓	auto:ai	2026-10-10	
 64ad3126d70d2c84	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性は男性の補助的な仕事が多い（雑用が多い）/男性	18.5	%	shiryo p.11	✓	auto:ai	2026-10-10	
-039a524a13d7fdb5	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性は研修などの教育訓練の機会が少ない/女性	7.1	%	shiryo p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+039a524a13d7fdb5	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性は研修などの教育訓練の機会が少ない/女性	7.1	%	shiryo p.11	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 e7f4a9fed18c45c0	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性は研修などの教育訓練の機会が少ない/男性	3.9	%	shiryo p.11	✓	auto:ai	2026-10-10	
 f876a6ccc1a35202	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性には出産、育児が職業生活に不利に働いたり、結婚退職や出産退職の慣習がある/女性	34.3	%	shiryo p.11	✓	auto:ai	2026-10-10	
 0a83717c2ddced06	chosa	14	chart.pair	職場にあると思う男女格差（問11・3つ以内）	女性には出産、育児が職業生活に不利に働いたり、結婚退職や出産退職の慣習がある/男性	19.7	%	shiryo p.11	✓	auto:ai	2026-10-10	
@@ -302,7 +302,7 @@ e40f9c8fe483a1c7	chosa	15	chart.stacked100	男女がともに働く職場で実�
 ba16d09ec08f9783	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	女性が仕事上の方針などの決定に参画する/思う	70.9	%	gaiyo p.6	✓	auto:ai	2026-10-10	
 9b72c1d06711ab9f	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	女性が仕事上の方針などの決定に参画する/どちらともいえない	22.1	%	gaiyo p.6	✓	auto:ai	2026-10-10	
 6fae9ea206e3ab09	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	女性が仕事上の方針などの決定に参画する/思わない	2.4	%	gaiyo p.6	✓	auto:ai	2026-10-10	
-2d42483b6b794e35	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	女性が仕事上の方針などの決定に参画する/無回答	4.6	%	gaiyo p.6	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+2d42483b6b794e35	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	女性が仕事上の方針などの決定に参画する/無回答	4.6	%	gaiyo p.6	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 f5b8b42ee815d08f	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	「仕事第一」の考え方だけでなく、男女とも自分のライフスタイルに合った働き方を選ぶことができる/思う	72.9	%	gaiyo p.6	✓	auto:ai	2026-10-10	
 971624e0cf9998ce	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	「仕事第一」の考え方だけでなく、男女とも自分のライフスタイルに合った働き方を選ぶことができる/どちらともいえない	20.6	%	gaiyo p.6	✓	auto:ai	2026-10-10	
 8af998b15bf5988b	chosa	15	chart.stacked100	男女がともに働く職場で実現すればよいと思うこと（問12・全体）	「仕事第一」の考え方だけでなく、男女とも自分のライフスタイルに合った働き方を選ぶことができる/思わない	2.8	%	gaiyo p.6	✓	auto:ai	2026-10-10	
@@ -324,7 +324,7 @@ bc8d4ffb5b828cef	chosa	17	chart.pair	生活の中で最も優先しているも�
 75a7c35b672123f9	chosa	17	chart.pair	生活の中で最も優先しているもの（問14）	その他/女性	1.7	%	shiryo p.13	✓	auto:ai	2026-10-10	
 24af00d92dd1949d	chosa	17	chart.pair	生活の中で最も優先しているもの（問14）	その他/男性	0.6	%	shiryo p.13	✓	auto:ai	2026-10-10	
 4ba8a0a60781662f	chosa	17	chart.pair	生活の中で最も優先しているもの（問14）	無回答/女性	2.0	%	shiryo p.13	✓	auto:ai	2026-10-10	
-160321d22a3df6b3	chosa	17	chart.pair	生活の中で最も優先しているもの（問14）	無回答/男性	1.5	%	shiryo p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+160321d22a3df6b3	chosa	17	chart.pair	生活の中で最も優先しているもの（問14）	無回答/男性	1.5	%	shiryo p.13	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 297a3a52a52acb1e	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	なぐったり、けったり、物を投げつけたり、突き飛ばしたりするなどの身体に対する暴行を受けた/何度もあった	1.3	%	shiryo p.15	✓	auto:ai	2026-10-10	
 a61d0b1c1bdf436a	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	なぐったり、けったり、物を投げつけたり、突き飛ばしたりするなどの身体に対する暴行を受けた/1、2度あった	12.7	%	shiryo p.15	✓	auto:ai	2026-10-10	
 7633cfb66f23c263	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	なぐったり、けったり、物を投げつけたり、突き飛ばしたりするなどの身体に対する暴行を受けた/全くなかった	74.4	%	shiryo p.15	✓	auto:ai	2026-10-10	
@@ -346,7 +346,7 @@ a0ec7b1786c11502	chosa	19	chart.stacked100	配偶者や恋人などから受け�
 b13a5d0b3cd1ae33	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	生活費を渡さない、妻が仕事に就くことを禁じるなどの経済的な暴力を受けた/全くなかった	83.4	%	shiryo p.15	✓	auto:ai	2026-10-10	
 b519c6492ae483f7	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	生活費を渡さない、妻が仕事に就くことを禁じるなどの経済的な暴力を受けた/無回答	12.0	%	shiryo p.15	✓	auto:ai	2026-10-10	
 3c56fb5636dee706	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	交友関係を細かく禁止するなどの社会的な暴力を受けた/何度もあった	2.0	%	shiryo p.15	✓	auto:ai	2026-10-10	
-04b8d20a63649861	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	交友関係を細かく禁止するなどの社会的な暴力を受けた/1、2度あった	2.6	%	shiryo p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+04b8d20a63649861	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	交友関係を細かく禁止するなどの社会的な暴力を受けた/1、2度あった	2.6	%	shiryo p.15	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 b2ad0da79a9f7d8e	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	交友関係を細かく禁止するなどの社会的な暴力を受けた/全くなかった	83.4	%	shiryo p.15	✓	auto:ai	2026-10-10	
 ffd9d79bdf378588	chosa	19	chart.stacked100	配偶者や恋人などから受けた行為の経験（問16・全体）	交友関係を細かく禁止するなどの社会的な暴力を受けた/無回答	12.0	%	shiryo p.15	✓	auto:ai	2026-10-10	
 0d8f93a5ee093fc2	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	相談機関や役場に相談した/女性	1.5	%	shiryo p.15	✓	auto:ai	2026-10-10	
@@ -361,7 +361,7 @@ c90ff9bfbd5c9d89	chosa	20	chart.pair	受けた行為をだれかに相談した�
 831c32c669b8f458	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	家族・親戚に相談した/男性	14.3	%	shiryo p.15	✓	auto:ai	2026-10-10	
 58d018771d21b58d	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	友人・知人に相談した/女性	35.8	%	shiryo p.15	✓	auto:ai	2026-10-10	
 cfe0ae5f580f011f	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	友人・知人に相談した/男性	8.6	%	shiryo p.15	✓	auto:ai	2026-10-10	
-28b10d84aad77c69	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	その他の人・機関に相談した/女性	3.0	%	shiryo p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+28b10d84aad77c69	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	その他の人・機関に相談した/女性	3.0	%	shiryo p.15	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 39caacbece38f1cf	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	その他の人・機関に相談した/男性	3.0	%	shiryo p.15	✓	auto:ai	2026-10-10	
 bf00f36693e54606	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	どこ（だれ）にも相談しなかった/女性	58.2	%	shiryo p.15	✓	auto:ai	2026-10-10	
 9dc97638ad4e4e2a	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	どこ（だれ）にも相談しなかった/男性	82.9	%	shiryo p.15	✓	auto:ai	2026-10-10	
@@ -369,7 +369,7 @@ da7e271f1d97f73d	chosa	20	chart.pair	受けた行為をだれかに相談した�
 e28a1ffff105760d	chosa	20	chart.pair	受けた行為をだれかに相談したか（問16付問1・あてはまるもの全て）	その他/男性	2.9	%	shiryo p.15	✓	auto:ai	2026-10-10	
 5988a78db05bf5c2	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	日野町役場の企画振興課（DV相談窓口）/女性	18.8	%	shiryo p.17	✓	auto:ai	2026-10-10	
 52f88847b582b706	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	日野町役場の企画振興課（DV相談窓口）/男性	20.2	%	shiryo p.17	✓	auto:ai	2026-10-10	
-269365db54ae9a4c	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	東近江健康福祉事務所（DV相談員）/女性	6.3	%	shiryo p.17	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+269365db54ae9a4c	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	東近江健康福祉事務所（DV相談員）/女性	6.3	%	shiryo p.17	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 58b9e40d7b8e7a3f	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	東近江健康福祉事務所（DV相談員）/男性	8.4	%	shiryo p.17	✓	auto:ai	2026-10-10	
 cf33adb10cb1b3b2	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	滋賀県立男女共同参画センター/女性	20.5	%	shiryo p.17	✓	auto:ai	2026-10-10	
 055eb85d7dfa8faa	chosa	21	chart.pair	ＤＶの被害にあったときの相談機関や窓口を知っているか（問17・知っているもの全て）	滋賀県立男女共同参画センター/男性	12.9	%	shiryo p.17	✓	auto:ai	2026-10-10	
@@ -398,7 +398,7 @@ ae78170ec7e2a96b	chosa	25	chart.pair	現在参加している社会活動（問2
 eabaddc3a7442b58	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	環境問題に関する活動/女性	3.3	%	shiryo p.19	✓	auto:ai	2026-10-10	
 a4ee326832164adf	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	環境問題に関する活動/男性	6.7	%	shiryo p.19	✓	auto:ai	2026-10-10	
 fb5639eb4611207b	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	国際交流などに関する活動/女性	0.0	%	shiryo p.19	✓	auto:ai	2026-10-10	
-0a6e4ec2743dce44	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	国際交流などに関する活動/男性	2.2	%	shiryo p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+0a6e4ec2743dce44	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	国際交流などに関する活動/男性	2.2	%	shiryo p.19	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 1fa6fe0345850a1e	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	スポーツ、レクリエーションに関する活動/女性	11.3	%	shiryo p.19	✓	auto:ai	2026-10-10	
 738c3d055bd2e17e	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	スポーツ、レクリエーションに関する活動/男性	20.2	%	shiryo p.19	✓	auto:ai	2026-10-10	
 a745fcf97966634c	chosa	25	chart.pair	現在参加している社会活動（問20・あてはまるもの全て）	その他/女性	1.3	%	shiryo p.19	✓	auto:ai	2026-10-10	
@@ -412,7 +412,7 @@ efb8465117f70a78	chosa	26	chart.stacked100	あなたの地域に男女不平等�
 8ad003322d205790	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	男性/ある	33.7	%	shiryo p.20	✓	auto:ai	2026-10-10	
 5ff813f6bcf4c155	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	男性/ない	27.5	%	shiryo p.20	✓	auto:ai	2026-10-10	
 48e171e59302e565	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	男性/わからない	37.1	%	shiryo p.20	✓	auto:ai	2026-10-10	
-71c2ebe4cca6dc64	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	男性/無回答	1.7	%	shiryo p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+71c2ebe4cca6dc64	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	男性/無回答	1.7	%	shiryo p.20	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 bcd9b20fb81f84d7	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	全体/ある	31.1	%	shiryo p.20	✓	auto:ai	2026-10-10	
 38cf213d649c0fab	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	全体/ない	21.0	%	shiryo p.20	✓	auto:ai	2026-10-10	
 736dbbb625679fab	chosa	26	chart.stacked100	あなたの地域に男女不平等があると思うか（問22）	全体/わからない	45.5	%	shiryo p.20	✓	auto:ai	2026-10-10	
@@ -429,7 +429,7 @@ bb0e0facddc825fe	chosa	27	chart.pair	地域で考えられる不平等（問22�
 ac9777a2ff9c0dd1	chosa	27	chart.pair	地域で考えられる不平等（問22付問1・2つ以内）	会議などで女性は下座に座るほうが良いと思われている/男性	15.0	%	gaiyo p.5	✓	auto:ai	2026-10-10	
 b1c51e4ed87429b2	chosa	27	chart.pair	地域で考えられる不平等（問22付問1・2つ以内）	会議などで女性が意見を言っても取り上げてもらえない/女性	20.8	%	gaiyo p.5	✓	auto:ai	2026-10-10	
 ff0bd9f6b698e46a	chosa	27	chart.pair	地域で考えられる不平等（問22付問1・2つ以内）	会議などで女性が意見を言っても取り上げてもらえない/男性	3.3	%	gaiyo p.5	✓	auto:ai	2026-10-10	
-a924c08987e3cdc9	chosa	27	chart.pair	地域で考えられる不平等（問22付問1・2つ以内）	その他/女性	8.3	%	gaiyo p.5	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+a924c08987e3cdc9	chosa	27	chart.pair	地域で考えられる不平等（問22付問1・2つ以内）	その他/女性	8.3	%	gaiyo p.5	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 b842a3fa850e4bd6	chosa	27	chart.pair	地域で考えられる不平等（問22付問1・2つ以内）	その他/男性	11.7	%	gaiyo p.5	✓	auto:ai	2026-10-10	
 f1f5643b3ef4010d	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	男や女は性別によって役割が違うという意識/女性	50.0	%	shiryo p.21	✓	auto:ai	2026-10-10	
 c412ab152f05f98b	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	男や女は性別によって役割が違うという意識/男性	43.3	%	shiryo p.21	✓	auto:ai	2026-10-10	
@@ -443,7 +443,7 @@ fe9fe75b1e071ca7	chosa	28	chart.pair	地域の男女不平等の原因（問22�
 16467b08c284a8a6	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	社会的なしきたりやならわし/男性	73.3	%	shiryo p.21	✓	auto:ai	2026-10-10	
 bbb5495bf8d62dfe	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	女性に対する偏見/女性	12.5	%	shiryo p.21	✓	auto:ai	2026-10-10	
 bcc8b3e2e53a5c57	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	女性に対する偏見/男性	5.0	%	shiryo p.21	✓	auto:ai	2026-10-10	
-2a5e8f523cd8d323	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	法律や制度/女性	0.0	%	shiryo p.21	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+2a5e8f523cd8d323	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	法律や制度/女性	0.0	%	shiryo p.21	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 fc61491694a6dbd7	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	法律や制度/男性	0.0	%	shiryo p.21	✓	auto:ai	2026-10-10	
 9863978085bf2acc	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	男性の理解不足/女性	20.8	%	shiryo p.21	✓	auto:ai	2026-10-10	
 978988b526674d4a	chosa	28	chart.pair	地域の男女不平等の原因（問22付問2・2つ以内）	男性の理解不足/男性	21.7	%	shiryo p.21	✓	auto:ai	2026-10-10	
@@ -454,7 +454,7 @@ fc61491694a6dbd7	chosa	28	chart.pair	地域の男女不平等の原因（問22�
 83aa6b2b48629718	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会/内容を知っている	19.9	%	shiryo p.22	✓	auto:ai	2026-10-10	
 d29c4ddd49d4388c	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会/名前だけを知っている	53.2	%	shiryo p.22	✓	auto:ai	2026-10-10	
 8934abe92eb1906f	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会/知らない	23.4	%	shiryo p.22	✓	auto:ai	2026-10-10	
-25bd147bd861aa62	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会/無回答	3.5	%	shiryo p.22	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+25bd147bd861aa62	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会/無回答	3.5	%	shiryo p.22	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 4a3ab45e05d7b73f	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会基本法/内容を知っている	7.2	%	shiryo p.22	✓	auto:ai	2026-10-10	
 2c0b3c93b1219695	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会基本法/名前だけを知っている	40.0	%	shiryo p.22	✓	auto:ai	2026-10-10	
 1af196e49503ed55	chosa	31	chart.stacked100	男女共同参画に関することばの認知度（問23・全体）	男女共同参画社会基本法/知らない	48.6	%	shiryo p.22	✓	auto:ai	2026-10-10	
@@ -518,7 +518,7 @@ e803eade263657f1	chosa	32	chart.stacked100	これからの男女の生き方、�
 dcc02cc19f653055	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	男女がともに育児休業や介護休暇などをとるようにする/思う	76.6	%	shiryo p.23	✓	auto:ai	2026-10-10	
 8e3d347fb6cfaf71	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	男女がともに育児休業や介護休暇などをとるようにする/どちらともいえない	17.1	%	shiryo p.23	✓	auto:ai	2026-10-10	
 5284184dfd80220f	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	男女がともに育児休業や介護休暇などをとるようにする/思わない	0.9	%	shiryo p.23	✓	auto:ai	2026-10-10	
-219de11e1448fabd	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	男女がともに育児休業や介護休暇などをとるようにする/無回答	5.5	%	shiryo p.23	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+219de11e1448fabd	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	男女がともに育児休業や介護休暇などをとるようにする/無回答	5.5	%	shiryo p.23	✓	kken78	2026-10-12	要人確認:H4 難しさ7点
 dc1a02eb5d2183b4	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	賃金や職種面など職業に関する男女差別をなくす/思う	74.8	%	shiryo p.23	✓	auto:ai	2026-10-10	
 3b626bd5a794ad6b	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	賃金や職種面など職業に関する男女差別をなくす/どちらともいえない	18.8	%	shiryo p.23	✓	auto:ai	2026-10-10	
 85743800e1f779e1	chosa	32	chart.stacked100	これからの男女の生き方、社会のあり方として必要だと思うこと（問25・全体）	賃金や職種面など職業に関する男女差別をなくす/思わない	0.9	%	shiryo p.23	✓	auto:ai	2026-10-10	
@@ -542,7 +542,7 @@ e927b2dbb0fc4d1d	chosa	33	chart.pair	日野町（行政）が今後特に力を�
 4ee572e6042eafc0	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	意識改革のための啓発活動を進める/女性	12.6	%	shiryo p.24	✓	auto:ai	2026-10-10	
 13c46f5f2847de86	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	意識改革のための啓発活動を進める/男性	18.5	%	shiryo p.24	✓	auto:ai	2026-10-10	
 697acadb5ee4372b	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	その他/女性	1.7	%	shiryo p.24	✓	auto:ai	2026-10-10	
-15cf302b87baf959	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	その他/男性	5.1	%	shiryo p.24	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+15cf302b87baf959	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	その他/男性	5.1	%	shiryo p.24	✓	kken78	2026-10-12	要人確認:H4 難しさ5点
 44aed3323da70966	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	特にない/女性	6.3	%	shiryo p.24	✓	auto:ai	2026-10-10	
 dc5bfb4b24f1dd28	chosa	33	chart.pair	日野町（行政）が今後特に力を入れるべきこと（問26・3つ以内）	特にない/男性	7.9	%	shiryo p.24	✓	auto:ai	2026-10-10	
-3fe53019d64ac4fb	shisaku	3	programs	施策の方向と内容	事業数	50	件	honpen-06 p.4-26				要人確認:H2 出典が4ページ以上(集計した値)
+3fe53019d64ac4fb	shisaku	3	programs	施策の方向と内容	事業数	50	件	honpen-06 p.4-26	✓	kken78	2026-10-12	要人確認:H2 出典が4ページ以上(集計した値)

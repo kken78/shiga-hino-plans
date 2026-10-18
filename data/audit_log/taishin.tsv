@@ -1,15 +1,15 @@
 key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
 # checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
 5fb8aadb8aba7e6f	summary	1	target.base		住宅の耐震化率	68.7	%	honpen p.10-12	✓	auto:ai	2026-10-10	
-1f156ee20545099a	summary	1	target.target		住宅の耐震化率	95	%	honpen p.10-12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+1f156ee20545099a	summary	1	target.target		住宅の耐震化率	95	%	honpen p.10-12	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 fd4a2fad8e9ca3a2	summary	1	target.base		特定既存耐震不適格建築物の耐震化率	89.8	%	honpen p.10-12	✓	auto:ai	2026-10-10	
 77ff83be5c4e86b7	summary	1	target.target		特定既存耐震不適格建築物の耐震化率	95	%	honpen p.10-12	✓	auto:ai	2026-10-10	
 ce955c8dc033ee88	summary	2	kpi		耐震性が十分でない住宅	2510	戸	honpen p.13	✓	auto:ai	2026-10-10	
-9f82013aa8800f9e	summary	2	kpi		目標の達成に必要な住宅の耐震改修	1580	戸	honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
-1234279b70393026	summary	3	kpi		木造住宅の無料耐震診断の実績	102	件	honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+9f82013aa8800f9e	summary	2	kpi		目標の達成に必要な住宅の耐震改修	1580	戸	honpen p.13	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
+1234279b70393026	summary	3	kpi		木造住宅の無料耐震診断の実績	102	件	honpen p.9	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 25d91d4527585fd6	summary	3	kpi		診断で「倒壊する可能性がある・高い」とされた住宅	99.0	%	honpen p.9	✓	auto:ai	2026-10-10	
-6283eb476fee66ed	summary	4	kpi		木造住宅耐震診断員派遣	4	件	actionprogram2025 p.1				要人確認:H1 A=一致/中 B=一致/中
-e586b6a4bb6ee101	summary	4	kpi		木造住宅耐震改修補助	0	件	actionprogram2025 p.1				要人確認:H1 A=一致/中 B=一致/中
+6283eb476fee66ed	summary	4	kpi		木造住宅耐震診断員派遣	4	件	actionprogram2025 p.1	✓	kken78	2026-10-19	要人確認:H1 A=一致/中 B=一致/中
+e586b6a4bb6ee101	summary	4	kpi		木造住宅耐震改修補助	0	件	actionprogram2025 p.1	✓	kken78	2026-10-19	要人確認:H1 A=一致/中 B=一致/中
 37273287d2b93d09	jishin	5	table	日野町内の被害想定	琵琶湖西岸断層帯地震（ケース１）/１週間後の全避難者数	21		honpen p.7	✓	auto:ai	2026-10-10	
 83db8ca770b1ec9d	jishin	5	table	日野町内の被害想定	琵琶湖西岸断層帯地震（ケース２）/半壊棟数	5		honpen p.7	✓	auto:ai	2026-10-10	
 1dbbf71f1a3f612b	jishin	5	table	日野町内の被害想定	琵琶湖西岸断層帯地震（ケース２）/１週間後の全避難者数	24		honpen p.7	✓	auto:ai	2026-10-10	
@@ -22,7 +22,7 @@ ecb49157cf97a48c	jishin	5	table	日野町内の被害想定	鈴鹿西縁断層�
 8f0f81ba908853e4	jishin	5	table	日野町内の被害想定	南海トラフ地震（基本ケース）/全壊棟数	60		honpen p.7	✓	auto:ai	2026-10-10	
 d7f331c8056acc39	jishin	5	table	日野町内の被害想定	南海トラフ地震（基本ケース）/半壊棟数	672		honpen p.7	✓	auto:ai	2026-10-10	
 d411051c999ae3e0	jishin	5	table	日野町内の被害想定	南海トラフ地震（基本ケース）/１週間後の全避難者数	430		honpen p.7	✓	auto:ai	2026-10-10	
-14e45ba02a1b0736	jishin	5	table	日野町内の被害想定	南海トラフ地震（陸側ケース）/全壊棟数	283		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+14e45ba02a1b0736	jishin	5	table	日野町内の被害想定	南海トラフ地震（陸側ケース）/全壊棟数	283		honpen p.7	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 5ccb6c85dee7b415	jishin	5	table	日野町内の被害想定	南海トラフ地震（陸側ケース）/半壊棟数	1963		honpen p.7	✓	auto:ai	2026-10-10	
 08e00009f6f867a8	jishin	5	table	日野町内の被害想定	南海トラフ地震（陸側ケース）/１週間後の全避難者数	2306		honpen p.7	✓	auto:ai	2026-10-10	
 b14849581a03c73e	jishin	6	table	発生時刻ごとの人的被害と地震火災	鈴鹿西縁断層帯地震（ケース１）・早朝/死者数	16		honpen p.7	✓	auto:pdftext	2026-10-10	
@@ -39,7 +39,7 @@ e0c9b1cb10a08d79	jishin	6	table	発生時刻ごとの人的被害と地震火災
 c76632809dfe3182	jishin	6	table	発生時刻ごとの人的被害と地震火災	鈴鹿西縁断層帯地震（ケース２）・夕刻/負傷者数	390		honpen p.7	✓	auto:ai	2026-10-10	
 ddda6c885f740d29	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（基本ケース）・早朝/負傷者数	13		honpen p.7	✓	auto:ai	2026-10-10	
 d5bc4d71c5c55e73	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（基本ケース）・昼間/負傷者数	16		honpen p.7	✓	auto:ai	2026-10-10	
-23b25dbaf6a97058	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（基本ケース）・夕刻/負傷者数	38		honpen p.7	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+23b25dbaf6a97058	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（基本ケース）・夕刻/負傷者数	38		honpen p.7	✓	kken78	2026-10-19	要人確認:H4 難しさ3点
 299f7dd410d13601	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（陸側ケース）・早朝/死者数	5		honpen p.7	✓	auto:ai	2026-10-10	
 ae8abdc7563389a1	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（陸側ケース）・早朝/負傷者数	102		honpen p.7	✓	auto:ai	2026-10-10	
 bd25b93f37c54e1a	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（陸側ケース）・早朝/地震火災（全焼）	283		honpen p.7	✓	auto:ai	2026-10-10	
@@ -50,21 +50,21 @@ e54a5d677ee78384	jishin	6	table	発生時刻ごとの人的被害と地震火災
 7daf836ad76b9be5	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（陸側ケース）・夕刻/負傷者数	272		honpen p.7	✓	auto:ai	2026-10-10	
 349678b0f984e10e	jishin	6	table	発生時刻ごとの人的被害と地震火災	南海トラフ地震（陸側ケース）・夕刻/地震火災（全焼）	283		honpen p.7	✓	auto:ai	2026-10-10	
 1283d3d4ade14142	genjo	4	kpi	住宅の耐震化率	住宅の耐震化率	68.7	%	honpen p.10	✓	auto:ai	2026-10-10	
-4fae8eda41a791d7	genjo	4	kpi	住宅の耐震化率	昭和55年以前の住宅の耐震化率	24.9	%	honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+4fae8eda41a791d7	genjo	4	kpi	住宅の耐震化率	昭和55年以前の住宅の耐震化率	24.9	%	honpen p.10	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 c34606966590cc29	genjo	4	kpi	住宅の耐震化率	昭和56年以降の住宅の耐震化率	100.0	%	honpen p.10	✓	auto:ai	2026-10-10	
 e35a843d66eecb7e	genjo	5	table	住宅の耐震化率	住宅総数/住宅数 計	8020		honpen p.10	✓	auto:ai	2026-10-10	
 4ff25fe47b6496f6	genjo	5	table	住宅の耐震化率	住宅総数/一戸建	6560		honpen p.10	✓	auto:ai	2026-10-10	
 a072d1b8312b9787	genjo	5	table	住宅の耐震化率	住宅総数/共同等	1460		honpen p.10	✓	auto:ai	2026-10-10	
-01ad4ffe73bc8e2e	genjo	5	table	住宅の耐震化率	住宅総数/耐震性あり 計	5510		honpen p.10	✓	auto:ai	2026-10-10	要人確認:H4 難しさ0点
+01ad4ffe73bc8e2e	genjo	5	table	住宅の耐震化率	住宅総数/耐震性あり 計	5510		honpen p.10	✓	kken78	2026-10-19	要人確認:H4 難しさ0点
 26d10c86f4183ffb	genjo	5	table	住宅の耐震化率	住宅総数/耐震性あり 一戸建	4120		honpen p.10	✓	auto:ai	2026-10-10	
-3e3d9f2e77b1bd3f	genjo	5	table	住宅の耐震化率	住宅総数/改修実績	70		honpen p.10				要人確認:H1 A=一致/中 B=一致/中
+3e3d9f2e77b1bd3f	genjo	5	table	住宅の耐震化率	住宅総数/改修実績	70		honpen p.10	✓	kken78	2026-10-19	要人確認:H1 A=一致/中 B=一致/中
 d8e4730e742f13b1	genjo	5	table	住宅の耐震化率	住宅総数/耐震性あり 共同等	1320		honpen p.10	✓	auto:ai	2026-10-10	
 6689cd46713c45ff	genjo	5	table	住宅の耐震化率	昭和55年以前/住宅数 計	3340		honpen p.10	✓	auto:ai	2026-10-10	
 759ab19569db72ad	genjo	5	table	住宅の耐震化率	昭和55年以前/一戸建	2770		honpen p.10	✓	auto:ai	2026-10-10	
 135acddd4f63ae68	genjo	5	table	住宅の耐震化率	昭和55年以前/共同等	570		honpen p.10	✓	auto:ai	2026-10-10	
 13c1567aa9c0f041	genjo	5	table	住宅の耐震化率	昭和55年以前/耐震性あり 計	830		honpen p.10	✓	auto:ai	2026-10-10	
 12ae1e04f5fcf5c0	genjo	5	table	住宅の耐震化率	昭和55年以前/耐震性あり 一戸建	330		honpen p.10	✓	auto:ai	2026-10-10	
-c8817050aaf3437f	genjo	5	table	住宅の耐震化率	昭和55年以前/改修実績	70		honpen p.10				要人確認:H1 A=一致/中 B=一致/中
+c8817050aaf3437f	genjo	5	table	住宅の耐震化率	昭和55年以前/改修実績	70		honpen p.10	✓	kken78	2026-10-19	要人確認:H1 A=一致/中 B=一致/中
 d1d24affbcb08472	genjo	5	table	住宅の耐震化率	昭和55年以前/耐震性あり 共同等	430		honpen p.10	✓	auto:ai	2026-10-10	
 c60bc2975cba7073	genjo	5	table	住宅の耐震化率	昭和56年以降/住宅数 計	4680		honpen p.10	✓	auto:ai	2026-10-10	
 f73ae4e61f785202	genjo	5	table	住宅の耐震化率	昭和56年以降/一戸建	3790		honpen p.10	✓	auto:ai	2026-10-10	
@@ -80,13 +80,13 @@ c3f1955811201be3	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の�
 13549ea05391a06e	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の実施件数	H23年度	4	件	honpen p.9	✓	auto:ai	2026-10-10	
 d5f8aefd513f0fc8	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の実施件数	H24年度	1	件	honpen p.9	✓	auto:ai	2026-10-10	
 85bc85b041c9cd1e	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の実施件数	H25年度	5	件	honpen p.9	✓	auto:ai	2026-10-10	
-37bce25c85d3bdd6	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の実施件数	H26年度	1	件	honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+37bce25c85d3bdd6	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の実施件数	H26年度	1	件	honpen p.9	✓	kken78	2026-10-19	要人確認:H4 難しさ7点
 b6991fb11a29fb2e	genjo	8	chart.bars	木造住宅耐震診断員派遣事業の実施件数	H27年度	3	件	honpen p.9	✓	auto:ai	2026-10-10	
 423f1cba0d7e9f41	genjo	9	table	木造住宅の無料耐震診断	0.7未満/棟数	97		honpen p.9	✓	auto:ai	2026-10-10	
 d7c5c9bcccece93e	genjo	9	table	木造住宅の無料耐震診断	0.7未満/比率（％）	95.1		honpen p.9	✓	auto:ai	2026-10-10	
 6b22fb39b8d6da40	genjo	9	table	木造住宅の無料耐震診断	0.7以上1.0未満/棟数	4		honpen p.9	✓	auto:ai	2026-10-10	
 919bf9d88b8c7dcb	genjo	9	table	木造住宅の無料耐震診断	0.7以上1.0未満/比率（％）	3.9		honpen p.9	✓	auto:ai	2026-10-10	
-2dee11b1ca5eef9a	genjo	9	table	木造住宅の無料耐震診断	1.0以上1.5未満/棟数	1		honpen p.9	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+2dee11b1ca5eef9a	genjo	9	table	木造住宅の無料耐震診断	1.0以上1.5未満/棟数	1		honpen p.9	✓	kken78	2026-10-19	要人確認:H4 難しさ3点
 424079cf0350c81c	genjo	9	table	木造住宅の無料耐震診断	1.0以上1.5未満/比率（％）	1.0		honpen p.9	✓	auto:ai	2026-10-10	
 09f1181d2d01db2c	genjo	9	table	木造住宅の無料耐震診断	1.5以上/棟数	0		honpen p.9	✓	auto:ai	2026-10-10	
 2f21825258442fc4	genjo	9	table	木造住宅の無料耐震診断	1.5以上/比率（％）	0.0		honpen p.9	✓	auto:ai	2026-10-10	
@@ -128,7 +128,7 @@ c05fd9e442287d3c	genjo	12	table	用途別・公共と民間別の耐震化の状
 abc9fd74388adfd0	genjo	12	table	用途別・公共と民間別の耐震化の状況	不特定多数の者が利用する建築物（民間）/昭和56年5月以前のうち耐震性有	0		honpen p.11	✓	auto:ai	2026-10-10	
 6c6f010eef4441e8	genjo	12	table	用途別・公共と民間別の耐震化の状況	不特定多数の者が利用する建築物（民間）/耐震性有建築物数	3		honpen p.11	✓	auto:ai	2026-10-10	
 54e18d381cf0b59f	genjo	12	table	用途別・公共と民間別の耐震化の状況	不特定多数の者が利用する建築物（民間）/耐震化率（％）	75.0		honpen p.11	✓	auto:ai	2026-10-10	
-227743a9d578bf8a	genjo	12	table	用途別・公共と民間別の耐震化の状況	特定多数の者が利用する建築物/昭和56年5月以前の建築物	8		honpen p.11				要人確認:H1 A=一致/高 B=一致/中
+227743a9d578bf8a	genjo	12	table	用途別・公共と民間別の耐震化の状況	特定多数の者が利用する建築物/昭和56年5月以前の建築物	8		honpen p.11	✓	kken78	2026-10-19	要人確認:H1 A=一致/高 B=一致/中
 cf36c5c4f570c722	genjo	12	table	用途別・公共と民間別の耐震化の状況	特定多数の者が利用する建築物/昭和56年6月以降の建築物	30		honpen p.11	✓	auto:ai	2026-10-10	
 924fd42704bd465f	genjo	12	table	用途別・公共と民間別の耐震化の状況	特定多数の者が利用する建築物/建築物数	38		honpen p.11	✓	auto:ai	2026-10-10	
 96dc408b3d6c349b	genjo	12	table	用途別・公共と民間別の耐震化の状況	特定多数の者が利用する建築物/昭和56年5月以前のうち耐震性有	2		honpen p.11	✓	auto:ai	2026-10-10	
@@ -170,7 +170,7 @@ d877173dd8b5336a	genjo	12	table	用途別・公共と民間別の耐震化の状
 578c32ca0e78d17d	genjo	12	table	用途別・公共と民間別の耐震化の状況	第1号 小計（民間）/昭和56年5月以前のうち耐震性有	3		honpen p.11	✓	auto:ai	2026-10-10	
 fdc9b29db586778a	genjo	12	table	用途別・公共と民間別の耐震化の状況	第1号 小計（民間）/耐震性有建築物数	41		honpen p.11	✓	auto:ai	2026-10-10	
 f9f464f10fa97136	genjo	12	table	用途別・公共と民間別の耐震化の状況	第1号 小計（民間）/耐震化率（％）	85.4		honpen p.11	✓	auto:ai	2026-10-10	
-02f59256bf8c431a	genjo	12	table	用途別・公共と民間別の耐震化の状況	危険物の貯蔵場または処理場の用途に供する建築物（第2号）/昭和56年5月以前の建築物	4		honpen p.11				要人確認:H1 A=一致/高 B=一致/中
+02f59256bf8c431a	genjo	12	table	用途別・公共と民間別の耐震化の状況	危険物の貯蔵場または処理場の用途に供する建築物（第2号）/昭和56年5月以前の建築物	4		honpen p.11	✓	kken78	2026-10-19	要人確認:H1 A=一致/高 B=一致/中
 2e97e6d3aa58eb29	genjo	12	table	用途別・公共と民間別の耐震化の状況	危険物の貯蔵場または処理場の用途に供する建築物（第2号）/昭和56年6月以降の建築物	34		honpen p.11	✓	auto:ai	2026-10-10	
 4637006859683416	genjo	12	table	用途別・公共と民間別の耐震化の状況	危険物の貯蔵場または処理場の用途に供する建築物（第2号）/建築物数	38		honpen p.11	✓	auto:ai	2026-10-10	
 a206754993a9853d	genjo	12	table	用途別・公共と民間別の耐震化の状況	危険物の貯蔵場または処理場の用途に供する建築物（第2号）/昭和56年5月以前のうち耐震性有	0		honpen p.11	✓	auto:ai	2026-10-10	
@@ -190,7 +190,7 @@ e1471ba4c9b22286	genjo	12	table	用途別・公共と民間別の耐震化の状
 5f210e6232915628	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/昭和56年5月以前の建築物	0		honpen p.11	✓	auto:ai	2026-10-10	
 fa4c7c59983785c4	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/昭和56年6月以降の建築物	2		honpen p.11	✓	auto:ai	2026-10-10	
 e6b9d4a41c26cbd0	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/建築物数	2		honpen p.11	✓	auto:ai	2026-10-10	
-125b2333f50dfa49	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/昭和56年5月以前のうち耐震性有	0		honpen p.11	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+125b2333f50dfa49	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/昭和56年5月以前のうち耐震性有	0		honpen p.11	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 aecc4329d4a77fcb	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/耐震性有建築物数	2		honpen p.11	✓	auto:ai	2026-10-10	
 953124468878a9d3	genjo	12	table	用途別・公共と民間別の耐震化の状況	避難路沿道通行障害建築物（第3号）/耐震化率（％）	100.0		honpen p.11	✓	auto:ai	2026-10-10	
 db10a9100e2599c5	genjo	12	table	用途別・公共と民間別の耐震化の状況	第3号（公共）/昭和56年5月以前の建築物	0		honpen p.11	✓	auto:ai	2026-10-10	
@@ -256,7 +256,7 @@ dae0665e001fc4ff	genjo	18	table	町が所有する建築物	その他の町民�
 b0be4b181e3f9e76	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/全建築物 A	38		honpen p.15	✓	auto:ai	2026-10-10	
 76cb4d928e613ce7	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/S56年5月以前の建築物 B	11		honpen p.15	✓	auto:ai	2026-10-10	
 cbaaf50444201942	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/S56年6月以降の建築物 C	27		honpen p.15	✓	auto:ai	2026-10-10	
-0624fb862265d0fa	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/Bのうち耐震化済 D	2		honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+0624fb862265d0fa	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/Bのうち耐震化済 D	2		honpen p.15	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 ed27a983c7105860	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/耐震化率（％） H27年度末	76.3		honpen p.15	✓	auto:ai	2026-10-10	
 69150a7d2a1522f3	genjo	18	table	町が所有する建築物	防災上重要な施設 小計/耐震化目標（％）	90.0		honpen p.15	✓	auto:ai	2026-10-10	
 8f7728afce336067	genjo	18	table	町が所有する建築物	計/全建築物 A	80		honpen p.15	✓	auto:ai	2026-10-10	
@@ -276,19 +276,19 @@ da4f9c8356f5c634	genjo	18	table	町が所有する建築物	合計/全建築物 
 9f883789319a0036	genjo	18	table	町が所有する建築物	合計/Bのうち耐震化済 D	7		honpen p.15	✓	auto:ai	2026-10-10	
 e9e7b6356798cf32	genjo	18	table	町が所有する建築物	合計/耐震化率（％） H27年度末	88.9		honpen p.15	✓	auto:ai	2026-10-10	
 059ed57f641a73d5	mokuhyo	2	table	計画の目標耐震化率	住宅/中間目標 H32年度末（％）	90		honpen p.12	✓	auto:ai	2026-10-10	
-0bcaabdf4f04dd90	mokuhyo	2	table	計画の目標耐震化率	住宅/目標 H37年度末（％）	95		honpen p.12	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+0bcaabdf4f04dd90	mokuhyo	2	table	計画の目標耐震化率	住宅/目標 H37年度末（％）	95		honpen p.12	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 6bde0eb528fe2ed0	mokuhyo	2	table	計画の目標耐震化率	特定既存耐震不適格建築物/中間目標 H32年度末（％）	90		honpen p.12	✓	auto:ai	2026-10-10	
 1557867696913f62	mokuhyo	2	table	計画の目標耐震化率	特定既存耐震不適格建築物/目標 H37年度末（％）	95		honpen p.12	✓	auto:ai	2026-10-10	
 efa5fb2d8b45f2c8	mokuhyo	6	kpi	住宅の耐震化の見通し	既存住宅のうち耐震性不十分	2040	戸	honpen p.13	✓	auto:ai	2026-10-10	
 79bce2981d59dd6d	mokuhyo	6	kpi	住宅の耐震化の見通し	滅失・空家化する住宅	530	戸	honpen p.13	✓	auto:ai	2026-10-10	
-408bd8c70b83a732	mokuhyo	6	kpi	住宅の耐震化の見通し	新築される住宅	1710	戸	honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+408bd8c70b83a732	mokuhyo	6	kpi	住宅の耐震化の見通し	新築される住宅	1710	戸	honpen p.13	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 77dc1fbb40fd1649	mokuhyo	6	kpi	住宅の耐震化の見通し	耐震改修の目標設定戸数	1580	戸	honpen p.13	✓	auto:ai	2026-10-10	
 6841bae29a29dee2	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成27年度	8020		honpen p.13	✓	auto:ai	2026-10-10	
 e7c1dba8df2f4ab8	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成32年度	8720		honpen p.13	✓	auto:ai	2026-10-10	
-4bc656eaa264ce05	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成37年度	9200		honpen p.13				要人確認:H1 A=一致/中 B=一致/中
-c83d5ed6fab0a983	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成37年度（目標）	9200		honpen p.13				要人確認:H1 A=一致/中 B=一致/中
+4bc656eaa264ce05	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成37年度	9200		honpen p.13	✓	kken78	2026-10-19	要人確認:H1 A=一致/中 B=一致/中
+c83d5ed6fab0a983	mokuhyo	7	table	住宅の耐震化の見通し	住宅総数/平成37年度（目標）	9200		honpen p.13	✓	kken78	2026-10-19	要人確認:H1 A=一致/中 B=一致/中
 d2f04973b6e9620f	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成32年度	930		honpen p.13	✓	auto:ai	2026-10-10	
-8d8c9ef3c6635823	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成37年度	1710		honpen p.13	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+8d8c9ef3c6635823	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成37年度	1710		honpen p.13	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 9f2aab486caea4a4	mokuhyo	7	table	住宅の耐震化の見通し	新設/平成37年度（目標）	1710		honpen p.13	✓	auto:ai	2026-10-10	
 3aa01486f3e3d65e	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成27年度	5510		honpen p.13	✓	auto:ai	2026-10-10	
 8c8b4bebc7100f05	mokuhyo	7	table	住宅の耐震化の見通し	耐震性あり/平成32年度	5490		honpen p.13	✓	auto:ai	2026-10-10	
@@ -300,7 +300,7 @@ e95e0864930683bd	mokuhyo	7	table	住宅の耐震化の見通し	促進必要戸�
 376220bfcf8a8949	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成37年度	2040		honpen p.13	✓	auto:ai	2026-10-10	
 e6cdf632d8b50dd0	mokuhyo	7	table	住宅の耐震化の見通し	耐震性不十分/平成37年度（目標）	460		honpen p.13	✓	auto:ai	2026-10-10	
 857b84e8ea132f67	mokuhyo	8	table	世帯数および住宅戸数の将来推計	①推計人口/H27年	21958		honpen p.14	✓	auto:ai	2026-10-10	
-03a1d06d4b614d2e	mokuhyo	8	table	世帯数および住宅戸数の将来推計	①推計人口/H32年	22257		honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ3点
+03a1d06d4b614d2e	mokuhyo	8	table	世帯数および住宅戸数の将来推計	①推計人口/H32年	22257		honpen p.14	✓	kken78	2026-10-19	要人確認:H4 難しさ3点
 fb585ca373859537	mokuhyo	8	table	世帯数および住宅戸数の将来推計	①推計人口/H37年	21890		honpen p.14	✓	auto:ai	2026-10-10	
 5eaa6242911a9771	mokuhyo	8	table	世帯数および住宅戸数の将来推計	②世帯人員/H27年	2.629		honpen p.14	✓	auto:ai	2026-10-10	
 00db89f2f02c6114	mokuhyo	8	table	世帯数および住宅戸数の将来推計	②世帯人員/H32年	2.452		honpen p.14	✓	auto:ai	2026-10-10	
@@ -323,25 +323,25 @@ d6e3d355a0c296cc	mokuhyo	8	table	世帯数および住宅戸数の将来推計	�
 1d06339c50748b19	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性あり（棟）/平成37年度末（目標）	112		honpen p.14	✓	auto:ai	2026-10-10	
 807ac74aac3ed3ff	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性ありの割合（％）/平成27年度末	89.8		honpen p.14	✓	auto:ai	2026-10-10	
 d3bcca6c1ec937d8	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性ありの割合（％）/平成37年度末（目標）	95		honpen p.14	✓	auto:ai	2026-10-10	
-60cc4a8ebf8b3667	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震化が必要な棟数（棟）/平成37年度末（目標）	6		honpen p.14	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+60cc4a8ebf8b3667	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震化が必要な棟数（棟）/平成37年度末（目標）	6		honpen p.14	✓	kken78	2026-10-19	要人確認:H4 難しさ4点
 5f955228b5de326c	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分（棟）/平成27年度末	12		honpen p.14	✓	auto:ai	2026-10-10	
 848b7d7a5516374f	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分（棟）/平成37年度末（目標）	6		honpen p.14	✓	auto:ai	2026-10-10	
 ef8a2ad9b1c9429d	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分の割合（％）/平成27年度末	10.2		honpen p.14	✓	auto:ai	2026-10-10	
 0d6dc0f2772e77a3	mokuhyo	11	table	特定既存耐震不適格建築物の目標	耐震性不十分の割合（％）/平成37年度末（目標）	5.0		honpen p.14	✓	auto:ai	2026-10-10	
 97c5dd3a10991a3d	mokuhyo	14	target.base	町が所有する建築物の目標	防災上特に重要な町有施設の耐震化率	97.6	%	honpen p.15	✓	auto:ai	2026-10-10	
-cfd167eaff5bbf4d	mokuhyo	14	target.target	町が所有する建築物の目標	防災上特に重要な町有施設の耐震化率	100.0	%	honpen p.15	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
-694c666b43a47884	shien	13	table	木造住宅耐震・バリアフリー改修等事業	50万円＜対象工事費≦100万円/補助基本額（万円）	10		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+cfd167eaff5bbf4d	mokuhyo	14	target.target	町が所有する建築物の目標	防災上特に重要な町有施設の耐震化率	100.0	%	honpen p.15	✓	kken78	2026-10-19	要人確認:H4 難しさ4点
+694c666b43a47884	shien	13	table	木造住宅耐震・バリアフリー改修等事業	50万円＜対象工事費≦100万円/補助基本額（万円）	10		honpen p.19	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 e77cc0834253a18c	shien	13	table	木造住宅耐震・バリアフリー改修等事業	100万円＜対象工事費≦200万円/補助基本額（万円）	20		honpen p.19	✓	auto:ai	2026-10-10	
 e5dd2d728710bf1d	shien	13	table	木造住宅耐震・バリアフリー改修等事業	200万円＜対象工事費≦300万円/補助基本額（万円）	30		honpen p.19	✓	auto:ai	2026-10-10	
 c5b36bd63674b1c9	shien	13	table	木造住宅耐震・バリアフリー改修等事業	300万円＜対象工事費/補助基本額（万円）	50		honpen p.19	✓	auto:ai	2026-10-10	
-1767e0c5417478d6	shien	14	table	木造住宅耐震・バリアフリー改修等事業	主要道路沿い耐震改修割増事業/1戸あたりの割増（万円）	10		honpen p.19	✓	auto:ai	2026-10-10	要人確認:H4 難しさ5点
+1767e0c5417478d6	shien	14	table	木造住宅耐震・バリアフリー改修等事業	主要道路沿い耐震改修割増事業/1戸あたりの割増（万円）	10		honpen p.19	✓	kken78	2026-10-19	要人確認:H4 難しさ5点
 2f160e191311398e	shien	14	table	木造住宅耐震・バリアフリー改修等事業	高齢者世帯耐震改修工事割増事業/1戸あたりの割増（万円）	10		honpen p.19	✓	auto:ai	2026-10-10	
-a95357f1dc67d5a5	shien	15	table	木造住宅耐震・バリアフリー改修等事業	0.25を超え0.45以下/補助金額（万円）	5		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ6点
+a95357f1dc67d5a5	shien	15	table	木造住宅耐震・バリアフリー改修等事業	0.25を超え0.45以下/補助金額（万円）	5		honpen p.20	✓	kken78	2026-10-19	要人確認:H4 難しさ6点
 9c9d61a0cdea4110	shien	15	table	木造住宅耐震・バリアフリー改修等事業	0.45を超え0.70以下/補助金額（万円）	10		honpen p.20	✓	auto:ai	2026-10-10	
 52bafcd826cd97ea	shien	15	table	木造住宅耐震・バリアフリー改修等事業	0.70を超える/補助金額（万円）	20		honpen p.20	✓	auto:ai	2026-10-10	
 56b0b51174221d41	shien	18	table	既存民間建築物耐震診断事業	要緊急安全確認大規模建築物・特定既存耐震不適格建築物・要安全確認計画記載建築物/補助基本額 上限（万円）	200		honpen p.20	✓	auto:ai	2026-10-10	
 83551ed68fb1aa89	shien	18	table	既存民間建築物耐震診断事業	昭和56年以前に建築された住宅（長屋・共同住宅）/補助基本額 上限（万円）	200		honpen p.20	✓	auto:ai	2026-10-10	
-20a368b5eb9bef4f	shien	18	table	既存民間建築物耐震診断事業	昭和56年以前に建築された住宅（住宅）/補助基本額 上限（万円）	8.6		honpen p.20	✓	auto:ai	2026-10-10	要人確認:H4 難しさ4点
+20a368b5eb9bef4f	shien	18	table	既存民間建築物耐震診断事業	昭和56年以前に建築された住宅（住宅）/補助基本額 上限（万円）	8.6		honpen p.20	✓	kken78	2026-10-19	要人確認:H4 難しさ4点
 6dd02d527e7dd23d	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震診断員派遣/R4年度	2		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 523401c48692f8f9	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震診断員派遣/R5年度	3		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 c07063c583eb962e	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震診断員派遣/R6年度	4		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
@@ -350,11 +350,11 @@ f6ea2be13024aa49	torikumi	2	table	住宅耐震化緊急促進アクションプ�
 c693c39ab7706d32	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震補強案作成/R5年度	3		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 4f11ee5cc5b351cd	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震補強案作成/R6年度	4		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 db78e697dff3db8b	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震補強案作成/R7年度（目標）	3		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
-1404b6ab4f566241	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R4年度	0		actionprogram2025 p.1	✓	auto:ai	2026-10-10	要人確認:H4 難しさ8点
+1404b6ab4f566241	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R4年度	0		actionprogram2025 p.1	✓	kken78	2026-10-19	要人確認:H4 難しさ8点
 e853daae0d042c11	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R5年度	0		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 c3853059b06fd13f	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R6年度	0		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
 d54381ee296063c0	torikumi	2	table	住宅耐震化緊急促進アクションプログラム2025	木造住宅耐震改修補助/R7年度（目標）	1		actionprogram2025 p.1	✓	auto:ai	2026-10-10	
-82f126215f706636	hoshin	10	figure	地震発生時に通行を確保すべき道路と重点区域	地震発生時に通行を確保すべき道路	原典へのリンク		honpen p.27				要人確認:H2 数値でない
+82f126215f706636	hoshin	10	figure	地震発生時に通行を確保すべき道路と重点区域	地震発生時に通行を確保すべき道路	原典へのリンク		honpen p.27	✓	kken78	2026-10-19	要人確認:H2 数値でない
 755cc79a7800b5b5	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	15年度	3		honpen p.23	✓	auto:ai	2026-10-10	
 857958b4d8491bf2	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	16年度	6		honpen p.23	✓	auto:ai	2026-10-10	
 e233eb9ef57449a7	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	17年度	7		honpen p.23	✓	auto:ai	2026-10-10	
@@ -365,6 +365,6 @@ cce80d1759e45478	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会
 b059a207b77b2488	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	22年度	2		honpen p.23	✓	auto:ai	2026-10-10	
 f3ef5933767629b0	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	23年度	2		honpen p.23	✓	auto:ai	2026-10-10	
 a1a2f63323200e65	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	24年度	1		honpen p.23	✓	auto:ai	2026-10-10	
-16adf3c6f67eb39a	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	25年度	2		honpen p.23	✓	auto:ai	2026-10-10	要人確認:H4 難しさ7点
+16adf3c6f67eb39a	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	25年度	2		honpen p.23	✓	kken78	2026-10-19	要人確認:H4 難しさ7点
 82fdd99a0ef036cc	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	26年度	3		honpen p.23	✓	auto:ai	2026-10-10	
 d88244982273ac93	hoshin	13	chart.bars	木造住宅耐震診断員養成講習会の開催状況	27年度	3		honpen p.23	✓	auto:ai	2026-10-10	

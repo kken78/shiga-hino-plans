@@ -11,6 +11,10 @@
           build/audit/review/plans/<id>.json     計画ごとの行とページ画像(JPEG を data URI で持つ)
         id を省くと、それらの全計画。claude.ai の非公開のページとして公開し、スマホで開く(公開しない
         GitHub Pages には置かない)。
+  python3 tools/audit_review.py [<id> ...] --keys <キーのファイル> | --btype <種類>[,<種類>…]
+      → 載せる行を絞った確認ページを build/audit/review/subset/ に作る(全体の確認ページのデータは変えない)。
+        --keys は1行に「計画id~照合キー」(確認ページのデータベースの記録の id と同じ形。空行と # で始まる行は飛ばす)、
+        --btype は照合表の btype(例 figure)。両方を指定すると両方に当てはまる行。一部の行だけを確かめるときに使う。
   python3 tools/audit_review.py --import <結果.json>
       → 確認ページの結果(「書き出し」で保存したファイル、または Claude がページのデータベースから読み出したもの)を
         台帳 data/audit_log/<id>.tsv に取り込む。
@@ -20,9 +24,14 @@
           保留      … 機械の印は変えず(人の印があれば外し)、note に「保留: <コメント>」を足す
         人が確認済みの行への「一致」は飛ばし、「違う」「保留」は取り込む(点検表で見つけた確認間違いの訂正)
         取り込んだあと audit_autocheck.py <id> --status で完了を確かめ、台帳をコミットする。
+  python3 tools/audit_review.py --import <結果.json> --keys <キーのファイル> | --btype <種類>[,<種類>…]
+      → 取り込む行を指定する。指定した範囲の外の行に結果が1件でもあれば、台帳を変えずにその一覧を示して止める。
+        「一致」は次の未確認の行へ自動で進むので、一部の行だけを確かめたときは必ず範囲を指定する(補遺 M)。
 
 結果ファイルの形: [{"plan": id, "key": 照合キー, "verdict": "ok"|"ng"|"hold", "value": 正しい値(ng のとき),
                    "comment": …, "reviewer": GitHub のユーザー名, "date": "YYYY-MM-DD"}, …]
+
+行ごとに、ダッシュボードでの表示(種類・タブの名前・時点・添え書き・表の列見出し・注記など)を計画の JSON から添える(補遺 M)。
 
 位置の調べ方: ページの文字データ(pdftotext -bbox)で値と同じ数字の語を探す。見つからないページ(画像だけのページ、
 画像で貼られた表・グラフ)は、300dpi の画像を tesseract で読んで探す。値が何か所にもあるときは、項目名(年度・
@@ -43,6 +52,7 @@ import audit_worksheet as aw  # noqa: E402
 
 ROOT = aw.ROOT
 OUT = aw.AUDIT_DIR / "review"
+SUBSET = OUT / "subset"   # 載せる行を絞った確認ページ(--keys・--btype)
 TEMPLATE = ROOT / "templates" / "audit_review.html"
 DPI = 140            # 画面に出すページ画像の解像度(A4 で幅 1157px)
 MAX_SIDE = 2400      # A3 などの大きなページでも長い辺をこれ以下にする
@@ -187,6 +197,106 @@ def counted(plan, row):
     return out
 
 
+KIND = {"kpi": "数値カード", "bigstat": "大きな数値", "target.base": "目標の基準値", "target.current": "目標の現状値",
+        "target.target": "目標値", "table": "表", "timeline": "年表", "programs": "事業の数", "programs.cost": "事業費",
+        "programs.years": "実施年度", "programs.total": "節の計", "chart.bars": "棒グラフ", "chart.stacked": "積み上げ棒グラフ",
+        "chart.stacked100": "割合の帯グラフ", "chart.line": "折れ線グラフ", "chart.pair": "2系列の棒グラフ",
+        "chart.rank": "順位の棒グラフ"}
+TARGET_TAG = {"base": "基準", "current": "現状", "target": "目標"}
+
+
+def context(plan, row):
+    """行がダッシュボードでどう見えているか(補遺 M、2026-10-19)。照合表の行には時点(asof)や基準値・目標値の別が
+    入らないので、確認する人がどの年度・どの値と比べればよいか分からないことがあった。計画の JSON の同じブロックから、
+    行の種類・タブの名前・時点・添え書き・表の列見出し・注記を取り出して確認ページに出す。照合表と台帳は変えない。"""
+    tab = next(t for t in plan["tabs"] if t["id"] == row["tab"])
+    b = tab["blocks"][int(row["block_no"])]
+    bt = row["btype"]
+    kind = KIND.get(bt, bt)
+    lines = []
+
+    def item(items, key="label", label=row["label"]):
+        """項目名が同じ項目。同じ名前が複数あれば値でも絞る。決まらなければ None(添え書きは出さない)。"""
+        hits = [it for it in items if str(it.get(key)) == label]
+        if len(hits) > 1:
+            hits = [it for it in hits if str(it.get("value")) == row["value"]]
+        return hits[0] if len(hits) == 1 else None
+
+    if bt == "kpi":
+        it = item(b["items"])
+        if it:
+            lines += [["時点", it.get("asof")], ["添え書き", it.get("delta")]]
+    elif bt == "bigstat":
+        lines.append(["説明", b.get("desc")])
+    elif bt.startswith("target."):
+        it = item(b["items"])
+        if it:
+            node = it[bt.split(".", 1)[1]]
+            lines.append(["時点", node.get("asof")])
+            seq = [f'{TARGET_TAG[k]} {it[k]["v"]}({it[k].get("asof", "")})' for k in ("base", "current", "target") if it.get(k)]
+            lines.append(["目標の全体", " → ".join(seq) + f' {it.get("unit", "")}'])
+    elif bt == "table":
+        lines += [["表の題", b.get("title")], ["列見出し", " | ".join(str(h) for h in b["head"])], ["表の注記", b.get("note")]]
+    elif bt.startswith("chart."):
+        lines += [["グラフの題", b.get("title")], ["単位", b.get("unit")]]
+        if bt in ("chart.bars", "chart.stacked", "chart.stacked100"):
+            y = item(b["years"], label=ac.parts(row["label"])[0] if ac.parts(row["label"]) else "")
+            if y:
+                lines.append(["補足", y.get("sub")])
+        lines.append(["グラフの注記", b.get("note")])
+    elif bt == "figure":
+        kind = "図(画像)" if "asset" in b else "図(原典へのリンク)"
+        lines.append(["図の説明", b.get("alt")])
+    return {"kind": kind, "tab": tab.get("label", row["tab"]),
+            "lines": [[k, str(v)] for k, v in lines if v not in (None, "")]}
+
+
+def read_keys(path):
+    """--keys のファイル。1行に「計画id~照合キー」(タブか空白で区切ってもよい)。{(計画id, 照合キー)}。"""
+    keys = set()
+    for no, ln in enumerate(Path(path).read_text(encoding="utf-8").splitlines(), 1):
+        ln = ln.strip()
+        if not ln or ln.startswith("#"):
+            continue
+        parts = re.split(r"[~\s]+", ln)
+        if len(parts) != 2 or not all(parts):
+            raise ac.Stop(f"{path} の {no} 行目が「計画id~照合キー」の形ではありません: {ln}")
+        keys.add(tuple(parts))
+    if not keys:
+        raise ac.Stop(f"{path} に照合キーがありません")
+    return keys
+
+
+class Scope:
+    """載せる行・取り込む行の範囲(補遺 M)。keys は {(計画id, 照合キー)}、btypes は照合表の btype の集合。
+    どちらも None なら範囲なし(すべての行。前と同じ動き)。両方あれば両方に当てはまる行。"""
+
+    def __init__(self, keys=None, btypes=None, desc=""):
+        self.keys, self.btypes, self.desc = keys, btypes, desc
+
+    def __bool__(self):
+        return self.keys is not None or self.btypes is not None
+
+    def has(self, pid, r):
+        return ((self.keys is None or (pid, r["key"]) in self.keys)
+                and (self.btypes is None or r["btype"] in self.btypes))
+
+    def check_keys(self):
+        """指定したキーが、台帳にある要人確認の行か。違えば止める(古いキーや打ち間違いで行が黙って減らないように)。"""
+        bad = []
+        for pid, key in sorted(self.keys or ()):
+            if not aw.ledger_path(pid).exists():
+                bad.append(f"{pid}~{key}(台帳がない計画)")
+                continue
+            r = {x["key"]: x for x in aw.read_ledger(pid)}.get(key)
+            if r is None:
+                bad.append(f"{pid}~{key}(台帳にない行)")
+            elif not r["note"].startswith(aw.FOCUS):
+                bad.append(f"{pid}~{key}(要人確認でない行)")
+        if bad:
+            raise ac.Stop("指定した照合キーのうち次の行は使えません:\n    " + "\n    ".join(bad))
+
+
 def human_done(r):
     return r["checked"] == "✓" and not r["reviewer"].startswith("auto:")
 
@@ -199,12 +309,13 @@ def pending_rows(pid):
     return [r for r in focus_rows(pid) if not human_done(r)]
 
 
-def build_plan(pid):
-    plan, rows, srcs = ac.load(pid)
-    if not focus_rows(pid):
+def build_plan(pid, scope=Scope()):
+    # 点検表で計画の全体が見えるよう、人が確認して台帳に記録済みの行も載せる(1行ずつの画面では飛ばす)。
+    # 範囲を指定したときは、その範囲の行だけ
+    todo = [r for r in focus_rows(pid) if scope.has(pid, r)]
+    if not todo:
         return None
-    # 点検表で計画の全体が見えるよう、人が確認して台帳に記録済みの行も載せる(1行ずつの画面では飛ばす)
-    todo = focus_rows(pid)
+    plan, rows, srcs = ac.load(pid)
     pages, items, cache = {}, [], {}
     for r in todo:
         reason, _, memo = r["note"].partition(" / ")
@@ -228,6 +339,7 @@ def build_plan(pid):
                       "rule": rule, "why": reason[len(aw.FOCUS) + len(rule):].strip(), "memo": memo,
                       "ledger": {"by": r["reviewer"], "date": r["date"]} if human_done(r) else None,
                       "counted": counted(plan, r),
+                      "ctx": context(plan, r),
                       "refs": refs})
     # ページ画像。合計が目安を超える計画は、画素数が目安に収まるよう解像度を下げる(JPEG の大きさは画素数にほぼ比例)
     dpi = DPI
@@ -246,10 +358,13 @@ def build_plan(pid):
             "rows": items, "pages": pages}
 
 
-def plan_ids(argv):
-    ids = [a for a in argv if not a.startswith("-")]
+def plan_ids(ids, scope=Scope()):
     if ids:
         return ids
+    if scope.keys is not None:
+        return sorted({pid for pid, _ in scope.keys})
+    if scope:
+        return [f.stem for f in sorted((ROOT / "data" / "audit_log").glob("*.tsv"))]
     # 人が確認する行が残る計画と、すでに確認ページに載っている計画(全行の確認が済んでも点検表で見られるように残す)
     have = {f.stem for f in (OUT / "plans").glob("*.json")}
     return [f.stem for f in sorted((ROOT / "data" / "audit_log").glob("*.tsv")) if pending_rows(f.stem) or f.stem in have]
@@ -267,41 +382,56 @@ def entry(data, f):
             "led": [r["key"] for r in data["rows"] if r.get("ledger")]}
 
 
-def cmd_build(argv):
-    (OUT / "plans").mkdir(parents=True, exist_ok=True)
+def cmd_build(ids, scope=Scope()):
+    # 範囲を指定したときは、全体の確認ページとは別の場所に、範囲の行だけの確認ページを作る(前に作ったものは消す)
+    out = SUBSET if scope else OUT
+    if scope:
+        scope.check_keys()
+        if ids and scope.keys is not None and {pid for pid, _ in scope.keys} - set(ids):
+            raise ac.Stop(f"--keys に、指定した計画 {ids} 以外の計画の行があります")
+        for f in (out / "plans").glob("*.json"):
+            f.unlink()
+        (out / "index.html").unlink(missing_ok=True)
+    (out / "plans").mkdir(parents=True, exist_ok=True)
     order = manifest_order()
     catalog = []
-    for pid in sorted(plan_ids(argv), key=lambda x: order.get(x, 999)):
-        data = build_plan(pid)
+    for pid in sorted(plan_ids(ids, scope), key=lambda x: order.get(x, 999)):
+        data = build_plan(pid, scope)
         if data is None:
-            print(f"--  {pid}: 人が確認する行(要人確認)がない")
+            if not scope:
+                print(f"--  {pid}: 人が確認する行(要人確認)がない")
             continue
-        f = OUT / "plans" / f"{pid}.json"
+        f = out / "plans" / f"{pid}.json"
         f.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         found = sum(1 for r in data["rows"] if any(x["focus"] is not None for x in r["refs"]))
         catalog.append(entry(data, f))
         print(f"OK  {f.relative_to(ROOT)}  ({len(data['rows'])} 行・位置が分かった行 {found}・ページ {len(data['pages'])}・"
               f"{f.stat().st_size / 1e6:.1f}MB)")
-    # 引数で計画を絞ったときも、一覧には今ある計画のファイルをすべて載せる
+    if scope and not catalog:
+        raise ac.Stop(f"範囲({scope.desc})に当てはまる要人確認の行がありません")
+    if scope.keys is not None and sum(c["n"] for c in catalog) != len(scope.keys):
+        raise ac.Stop(f"載せた行 {sum(c['n'] for c in catalog)} が指定した照合キー {len(scope.keys)} 件と合いません")
+    # 引数で計画を絞ったときも、一覧には今ある計画のファイルをすべて載せる(範囲を指定したときは、範囲の行だけ)
     have = {c["id"] for c in catalog}
-    for f in (OUT / "plans").glob("*.json"):
+    for f in ([] if scope else (out / "plans").glob("*.json")):
         if f.stem not in have and focus_rows(f.stem):
             catalog.append(entry(json.loads(f.read_text(encoding="utf-8")), f))
     catalog.sort(key=lambda c: order.get(c["id"], 999))
     page = TEMPLATE.read_text(encoding="utf-8")
-    payload = json.dumps({"plans": catalog, "reasons": REASONS, "built": date.today().isoformat()},
+    payload = json.dumps({"plans": catalog, "reasons": REASONS, "built": date.today().isoformat(),
+                          "scope": scope.desc if scope else ""},
                          ensure_ascii=False).replace("</", "<\\/")
     if "{{CATALOG}}" not in page:
         raise ac.Stop(f"{TEMPLATE} に {{{{CATALOG}}}} がありません")
-    (OUT / "index.html").write_text(page.replace("{{CATALOG}}", payload), encoding="utf-8")
+    (out / "index.html").write_text(page.replace("{{CATALOG}}", payload), encoding="utf-8")
     total = sum(c["bytes"] for c in catalog)
-    print(f"OK  {(OUT / 'index.html').relative_to(ROOT)}  (計画 {len(catalog)} 本・{sum(c['n'] for c in catalog)} 行・"
-          f"データ {total / 1e6:.0f}MB)")
+    print(f"OK  {(out / 'index.html').relative_to(ROOT)}  (計画 {len(catalog)} 本・{sum(c['n'] for c in catalog)} 行・"
+          f"データ {total / 1e6:.0f}MB)" + (f"  範囲: {scope.desc}" if scope else ""))
     return 0
 
 
 # ---------------------------------------------------------------- 結果の取り込み
-def cmd_import(path):
+def cmd_import(path, scope=Scope()):
     res = json.loads(Path(path).read_text(encoding="utf-8"))
     if not isinstance(res, list):
         raise ac.Stop("結果ファイルは配列であるべきです")
@@ -318,18 +448,36 @@ def cmd_import(path):
             raise ac.Stop(f"「違う」なのに正しい値がありません: {x}")
         by_plan.setdefault(x["plan"], []).append(x)
     clean = lambda s: re.sub(r"[\t\r\n]+", " ", str(s or "")).strip()  # noqa: E731
+    # 台帳を書く前に、すべての結果を確かめる(途中の計画まで書いて止まらないように)
+    ledgers, outside = {}, []
+    if scope:
+        scope.check_keys()
     for pid, lst in by_plan.items():
+        if not aw.ledger_path(pid).exists():
+            raise ac.Stop(f"台帳がない計画の結果です: {pid}")
         led = aw.read_ledger(pid)
         keyed = {r["key"]: r for r in led}
         miss = [x["key"] for x in lst if x["key"] not in keyed]
         if miss:
             raise ac.Stop(f"{pid}: 台帳に無い行の結果が {len(miss)} 件あります(値を直したあとの古い結果の可能性。"
                           f"先頭: {miss[:3]})。確認ページを作り直して確認し直してください")
-        n = {"ok": 0, "ng": 0, "hold": 0, "skip": 0}
         for x in lst:
             L = keyed[x["key"]]
             if not L["note"].startswith(aw.FOCUS):
                 raise ac.Stop(f"{pid}: 要人確認でない行の結果です: {x['key']}")
+            if scope and not scope.has(pid, L):
+                outside.append(f"{pid}~{x['key']}  {L['btype']}  {L['label']}  {x['verdict']}  {x['reviewer']} {x['date']}")
+        ledgers[pid] = (led, keyed)
+    if outside:
+        raise ac.Stop(f"指定した範囲({scope.desc})の外の行に結果が {len(outside)} 件あります。台帳は変えていません。"
+                      "依頼者がこれらの行を確かめたかを確かめてください:\n    " + "\n    ".join(outside))
+    if scope:
+        print(f"--  範囲: {scope.desc}(結果 {len(res)} 件はすべて範囲内)")
+    for pid, lst in by_plan.items():
+        led, keyed = ledgers[pid]
+        n = {"ok": 0, "ng": 0, "hold": 0, "skip": 0}
+        for x in lst:
+            L = keyed[x["key"]]
             if human_done(L) and x["verdict"] == "ok":
                 n["skip"] += 1   # すでに人が確認した行(前に取り込んだ結果)
                 continue
@@ -356,14 +504,35 @@ def cmd_import(path):
     return 0
 
 
+def parse_args(args):
+    """→ (計画id の並び, 結果のファイル(--import)または None, 範囲 Scope)。"""
+    ids, opt = [], {}
+    it = iter(args)
+    for a in it:
+        if a in ("--import", "--keys", "--btype"):
+            v = next(it, None)
+            if v is None or v.startswith("--"):
+                raise ac.Stop(f"{a} の後に{'結果のファイル' if a == '--import' else 'キーのファイル' if a == '--keys' else '種類'}を指定してください")
+            opt[a] = v
+        elif a.startswith("-"):
+            raise ac.Stop(f"知らないオプションです: {a}")
+        else:
+            ids.append(a)
+    keys = read_keys(opt["--keys"]) if "--keys" in opt else None
+    btypes = {b for b in opt["--btype"].split(",") if b} if "--btype" in opt else None
+    desc = "・".join(([f"照合キー {len(keys)} 件({Path(opt['--keys']).name})"] if keys is not None else [])
+                    + ([f"種類 {','.join(sorted(btypes))}"] if btypes is not None else []))
+    if "--import" in opt and ids:
+        raise ac.Stop("--import と計画id は一緒に指定できません(計画は結果のファイルから決まる)")
+    return ids, opt.get("--import"), Scope(keys, btypes, desc)
+
+
 def main(argv):
     try:
-        if "--import" in argv:
-            i = argv.index("--import")
-            if i + 1 >= len(argv):
-                raise ac.Stop("--import の後に結果のファイルを指定してください")
-            return cmd_import(argv[i + 1])
-        return cmd_build(argv[1:])
+        ids, imp, scope = parse_args(argv[1:])
+        if imp:
+            return cmd_import(imp, scope)
+        return cmd_build(ids, scope)
     except (ac.Stop, aw.AuditError) as e:
         print(f"NG  {e}", file=sys.stderr)
         return 1

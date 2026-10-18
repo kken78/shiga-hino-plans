@@ -78,6 +78,13 @@ h1{font-size:var(--fs-l);margin:0;line-height:1.35;text-wrap:balance}
 .cnt-box li{overflow-wrap:anywhere}
 .cnt-box .h{font-weight:700}
 .cnt-box .z{color:var(--mut)}
+/* ダッシュボードでの表示(時点・添え書き・列見出しなど。照合表の行には入らない情報) */
+.ctx{border-top:1px solid var(--line);margin-top:6px;padding-top:6px;font-size:var(--fs-m)}
+.ctx .h{margin:0 0 2px;font-size:var(--fs-s);font-weight:700;color:var(--ink2)}
+.ctx dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:2px 10px}
+.ctx dt{color:var(--mut);white-space:nowrap}
+.ctx dd{margin:0;overflow-wrap:anywhere}
+.chip.kind{background:var(--bg);color:var(--ink)}
 
 .viewer{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;min-width:0}
 .vbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px;border-bottom:1px solid var(--line)}
@@ -229,7 +236,9 @@ let results = ls.get("local", {});
 let db = null, dbReady = false;
 const docId = (pid, key) => `${pid}~${key}`;
 
-$("built").textContent = `データ作成 ${CAT.built}・計画 ${CAT.plans.length} 本・${CAT.plans.reduce((a, p) => a + p.n, 0)} 行`;
+// 載せる行を絞った確認ページ(audit_review.py --keys・--btype)は、その範囲を出す
+$("built").textContent = `データ作成 ${CAT.built}・計画 ${CAT.plans.length} 本・${CAT.plans.reduce((a, p) => a + p.n, 0)} 行` +
+  (CAT.scope ? `・載せた行を絞った確認ページ(${CAT.scope})` : "");
 const rv = $("rv");
 rv.value = ls.get("reviewer", "");
 rv.addEventListener("change", () => ls.set("reviewer", rv.value.trim()));
@@ -312,7 +321,7 @@ function renderList() {
   P.rows.forEach((r, i) => {
     const x = st[i];
     if (!(filt === "all" || String(x.v) === filt || (filt === "done" && (x.v === "ok" || x.v === "led")))) return;
-    const g = `${r.block || "(見出しなし)"}・${r.tab}`;
+    const g = `${r.block || "(見出しなし)"}・${(r.ctx || {}).tab || r.tab}`;
     if (g !== last) { h += (last === null ? "" : "</div>") + `<div class="grp"><h3>${esc(g)}</h3>`; last = g; }
     const [label, cls] = STATE[x.v];
     const detail = [];
@@ -323,7 +332,7 @@ function renderList() {
     if (r.memo) detail.push("台帳のメモ: " + r.memo);
     h += `<button class="li${i === idx ? " cur" : ""}" type="button" data-i="${i}">` +
       `<span class="no">${i + 1}</span>` +
-      `<span class="t">${esc(r.label || "(項目名なし)")} <b>${esc(r.value)}${esc(r.unit)}</b> <span class="sub">${esc(r.source)}・${esc(r.rule)}</span></span>` +
+      `<span class="t">${esc(r.label || "(項目名なし)")} <b>${esc(r.value)}${esc(r.unit)}</b> <span class="sub">${esc(r.source)}・${esc(r.rule)}${r.ctx ? "・" + esc(r.ctx.kind) : ""}</span></span>` +
       `<span class="s"><span class="chip ${cls}">${label}${x.v === "ng" ? ":" + esc(x.rec.value) : ""}</span></span>` +
       (detail.length ? `<span class="d">${esc(detail.join("・"))}</span>` : "") + `</button>`;
   });
@@ -347,11 +356,12 @@ function show(i) {
   const st = res ? `<span class="chip ${VERDICT[res.verdict][1]}">${VERDICT[res.verdict][0]}${res.verdict === "ng" ? ":" + esc(res.value) : ""}</span>` :
     sx.v === "led" ? `<span class="chip st-led">台帳に記録済み(${esc(r.ledger.by)} ${esc(r.ledger.date)})</span>` : "";
   $("item").innerHTML =
-    `<div class="chips"><span class="chip">${esc(r.rule)} ${esc(CAT.reasons[r.rule] || "")}</span>${st}</div>` +
-    `<div class="blk">${esc(r.block || "(見出しなし)")}・${esc(r.tab)}</div>` +
+    `<div class="chips">${r.ctx ? `<span class="chip kind">${esc(r.ctx.kind)}</span>` : ""}<span class="chip">${esc(r.rule)} ${esc(CAT.reasons[r.rule] || "")}</span>${st}</div>` +
+    `<div class="blk">${esc(r.block || "(見出しなし)")}・${esc((r.ctx || {}).tab || r.tab)}</div>` +
     `<div class="lab">${esc(r.label || "(項目名なし)")}</div>` +
     `<div class="val">${esc(r.value)}<small>${esc(r.unit)}</small></div>` +
     `<div class="src">出典 ${esc(r.source)}${(P.sources[r.source.split(" ")[0]] || {}).label ? "(" + esc(P.sources[r.source.split(" ")[0]].label) + ")" : ""}</div>` +
+    ctxBox(r) +
     (r.why ? `<div class="why">${esc(r.why)}</div>` : "") +
     (res && res.comment ? `<div class="myc">コメント:${esc(res.comment)}</div>` : "") +
     (r.counted ? countedBox(r) : "") +
@@ -377,6 +387,14 @@ function countedBox(r) {
     `(番号の有無や、事業・方針などの呼び名は問いません。下にさらに項目を持つ見出し、「基本的な考え方」のような節全体の説明、再掲は数えません)。` +
     `原典でこの単位を数えて値と比べ、下のダッシュボードの項目と過不足がないかも確かめてください。</p>` +
     `<details${n <= 12 ? " open" : ""}><summary>数えた項目と見出し(計 ${n})</summary><ul>${li}</ul></details></div>`;
+}
+
+// 照合表の行には時点や基準値・目標値の別が入らないので、ダッシュボードでの表示(audit_review.py の context)を添える
+function ctxBox(r) {
+  const L = (r.ctx && r.ctx.lines) || [];
+  if (!L.length) return "";
+  return `<div class="ctx"><p class="h">ダッシュボードでの表示</p><dl>` +
+    L.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("") + `</dl></div>`;
 }
 
 // ---------------------------------------------------------------- 原典ページ

@@ -236,7 +236,9 @@ let results = ls.get("local", {});
 let db = null, dbReady = false;
 const docId = (pid, key) => `${pid}~${key}`;
 
-$("built").textContent = `データ作成 ${CAT.built}・計画 ${CAT.plans.length} 本・${CAT.plans.reduce((a, p) => a + p.n, 0)} 行`;
+// 載せる行を絞った確認ページ(audit_review.py --keys・--btype)は、その範囲を出す
+$("built").textContent = `データ作成 ${CAT.built}・計画 ${CAT.plans.length} 本・${CAT.plans.reduce((a, p) => a + p.n, 0)} 行` +
+  (CAT.scope ? `・載せた行を絞った確認ページ(${CAT.scope})` : "");
 const rv = $("rv");
 rv.value = ls.get("reviewer", "");
 rv.addEventListener("change", () => ls.set("reviewer", rv.value.trim()));

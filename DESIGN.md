@@ -571,6 +571,7 @@ hino-plans/
 ├── tools/
 │   ├── render_plan.py      # JSON → docs/plans/<id>.html + audit.tsv
 │   ├── tokens.py           # 構造トークンの値代入(移行A・ADR-6)
+│   ├── pdf_pages.py        # 出典のページ → PDF のページの換算(render_plan と audit_autocheck が共用。ADR-9)
 │   ├── validate_schema.py  # スキーマ検証(出典必須・まとめタブ規約 等)
 │   ├── validate.mjs        # 既存の出力HTML検証ハーネス(ADR-8 ゲートAを含む)
 │   ├── check_mobile.mjs    # 実ブラウザでの表示検査(ADR-8 ゲートB・Playwright)

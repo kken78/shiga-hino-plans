@@ -219,13 +219,14 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 このリポジトリを読むだけで、書き込まない。読んでいるのは `data/manifest.json`・`data/plans/*.json`・`data/sources_index.tsv`・
 `sources_raw/<id>/` の原典PDF で、読む版は特定のコミットに固定している(2026-10-19 時点は 43edc96)。
 
-**事前に知らせる変更**(5種類。2026-10-11、依頼者の指定):
+**事前に知らせる変更**(6種類。2026-10-11、依頼者の指定。6 は 2026-10-19 に追加):
 1. manifest の name(hino-ronten は照合に使う)
 2. 計画の id(変更・追加・削除)
 3. manifest の start・end(periodNote を含む)
 4. programs の事業の key(`items[].key`)と名前(name)
    (hino-ronten は `node:<id>/<key>` のキーで事業を指す。2026-10-19 に、番号(no)による形から key による形に替えた)
 5. 台帳 `data/sources_index.tsv` の id と file
+6. 附表(PLAN_SCHEMA §9)の id(`fuhyo-r8`)、事業の key・name・amount、ファイルの置き場所(`data/fuhyo/<id>.json`)
 
 これらを含むプルリクエストは、本文に「hino-ronten に影響」と書いて変更点を挙げ、マージの前に依頼者に知らせる。
 
@@ -236,7 +237,7 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 - [ ] sogo6 の検収(OCR した原典での照合。段4 の人による確認は依頼者が行う)と、施策体系の構造化。
   検収は 2026-10-12 に完了(PR #59)。施策体系の構造化はまだ
 - [ ] 当初予算の附表「主な事業」(令和8年度)の構造化。2026-10-19 に依頼者が、このリポジトリで扱うと決めた(2026-10-11 の「扱わない」を改める)。
-  manifest の外に置く。必要な項目と key の振り方は、hino-ronten からの案を受けて決める。hino-ronten の工程5(資料編)で使う
+  manifest の外に置く(`data/fuhyo/fuhyo-r8.json`)。項目と key の振り方は PLAN_SCHEMA §9 に書いた(2026-10-19)。hino-ronten の工程5(資料編)で使う
 
 ## 抽出時の判断基準
 

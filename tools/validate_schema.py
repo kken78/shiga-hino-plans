@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """validate_schema.py — data/plans/<id>.json のスキーマ検証。
+data/fuhyo/<id>.json(当初予算の附表)は PLAN_SCHEMA §9 で検証する。
 
 PLAN_SCHEMA.md v1 の規則を機械的に強制する。規則を緩めたくなったら
 先に PLAN_SCHEMA.md を改定すること(CLAUDE.md「やってはいけないこと」)。
 
 使い方: python3 tools/validate_schema.py data/plans/<id>.json [...]
+        python3 tools/validate_schema.py data/fuhyo/<id>.json [...]
 終了コード: 0=OK / 1=エラーあり
 """
 import json
 import re
 import sys
+from pathlib import Path
 
 SCHEMA_VERSION = 1
 
@@ -327,6 +330,8 @@ def validate(path):
     except Exception as e:
         rep.err("$", f"JSONとして読めません: {e}")
         return rep
+    if Path(path).resolve().parent.name == "fuhyo":
+        return validate_fuhyo(rep, path, d)   # 当初予算の附表(PLAN_SCHEMA §9)
 
     # トップレベル
     if d.get("schema_version") != SCHEMA_VERSION:
@@ -415,6 +420,139 @@ def validate(path):
 
     # 相対年度表記(全文字列走査)
     walk_strings(d, lambda p, s: check_relative_year(rep, p, s))
+    return rep
+
+
+# ---------------------------------------------------------------- 附表(PLAN_SCHEMA §9)
+# 先頭の _ は検査用の見本(data/fuhyo/_fuhyotest.json。計画の _charttest と同じ扱い。PLAN_SCHEMA §9)
+FUHYO_ID_RE = re.compile(r"^_?[a-z][a-z0-9_-]*$")
+FUHYO_KEY_RE = re.compile(r"^b[0-9]{3,}$")
+FUHYO_KUBUN = {"新規", "拡充"}
+FUHYO_TOP = ["id", "fiscal_year", "source", "pillars"]
+FUHYO_PILLAR = ["no", "name", "items"]
+FUHYO_ITEM = ["key", "kubun", "kan", "name", "desc", "details", "amount", "dept", "page"]
+
+
+def _is_int(v):
+    return isinstance(v, int) and not isinstance(v, bool)
+
+
+def _fields(rep, where, obj, keys):
+    """必須の項目がそろい、§9 に無い項目が無いか。obj が辞書でなければ False。"""
+    if not isinstance(obj, dict):
+        rep.err(where, f"{{…}} の形で書く: {obj!r}"[:120])
+        return False
+    for k in keys:
+        if k not in obj:
+            rep.err(where, f"必須フィールドがありません: {k}")
+    for k in obj:
+        if k not in keys:
+            rep.err(where, f"PLAN_SCHEMA §9 に無い項目: {k}(足すときは先に PLAN_SCHEMA を直す)")
+    return True
+
+
+def _text(rep, where, v, empty_ok=False):
+    """原典の表記のままの文字列(PLAN_SCHEMA §9)。改行・タブは入れない(本文も1つの文字列。照合表の列も崩れる)。"""
+    if not isinstance(v, str) or (not empty_ok and not v.strip()):
+        rep.err(where, ("文字列" if empty_ok else "空でない文字列") + f"で書く: {v!r}"[:120])
+    elif re.search(r"[\t\r\n]", v):
+        rep.err(where, f"改行やタブを入れない(折り返しはつなぐ。PLAN_SCHEMA §9): {v[:40]!r}")
+
+
+def _text_list(rep, where, v, nonempty=False):
+    """文字列の一覧。無ければ [](nonempty のときは1つ以上)。"""
+    if not isinstance(v, list):
+        rep.err(where, f"一覧で書く(無ければ []): {v!r}"[:120])
+        return []
+    if nonempty and not v:
+        rep.err(where, "1つ以上書く(1つでも一覧にする)")
+    for i, x in enumerate(v):
+        _text(rep, f"{where}[{i}]", x)
+    return v
+
+
+def validate_fuhyo(rep, path, d):
+    """当初予算の附表 data/fuhyo/<id>.json の検証(PLAN_SCHEMA §9)。"""
+    if not _fields(rep, "$", d, FUHYO_TOP):
+        return rep
+    fid = d.get("id")
+    stem = Path(path).stem
+    if "id" in d:
+        if not isinstance(fid, str) or not FUHYO_ID_RE.match(fid):
+            rep.err("$.id", f"idは英小文字始まり[a-z0-9_-](検査用の見本だけ先頭に _): {fid!r}")
+        elif fid != stem:
+            rep.err("$.id", f"id はファイル名と同じにする: id {fid!r}・ファイル {stem!r}")
+        if (Path(path).resolve().parent.parent / "plans" / f"{stem}.json").exists():
+            rep.err("$.id", f"同じ id の計画があります(data/plans/{stem}.json)。附表と計画の id は分ける")
+    fy = d.get("fiscal_year")
+    if "fiscal_year" in d and _fields(rep, "$.fiscal_year", fy, ["label", "year"]):
+        if "label" in fy:
+            _text(rep, "$.fiscal_year.label", fy["label"])
+        if "year" in fy and not _is_int(fy["year"]):
+            rep.err("$.fiscal_year.year", f"西暦の整数で書く: {fy['year']!r}")
+    src = d.get("source")
+    if "source" in d and _fields(rep, "$.source", src, ["id", "file", "page_id"]):
+        if "id" in src and src["id"] != fid:
+            rep.err("$.source.id", f"sources_index.tsv の id は附表の id と同じ: {src['id']!r}(附表 {fid!r})")
+        for k in ("file", "page_id"):
+            if k in src:
+                _text(rep, f"$.source.{k}", src[k])
+    pillars = d.get("pillars")
+    if "pillars" not in d:
+        return rep
+    if not isinstance(pillars, list) or not pillars:
+        rep.err("$.pillars", "柱を1つ以上、一覧で書く")
+        return rep
+    keys, nos = {}, set()
+    for pi, pl in enumerate(pillars):
+        w = f"$.pillars[{pi}]"
+        if not _fields(rep, w, pl, FUHYO_PILLAR):
+            continue
+        if "no" in pl:
+            if not _is_int(pl["no"]) or pl["no"] < 1:
+                rep.err(f"{w}.no", f"柱の no は1以上の整数: {pl['no']!r}")
+            elif pl["no"] in nos:
+                rep.err(f"{w}.no", f"柱の no が重複: {pl['no']}")
+            else:
+                nos.add(pl["no"])
+        if "name" in pl:
+            _text(rep, f"{w}.name", pl["name"])
+        items = pl.get("items")
+        if "items" in pl and (not isinstance(items, list) or not items):
+            rep.err(f"{w}.items", "事業を1つ以上、一覧で書く")
+            continue
+        for ii, it in enumerate(items or []):
+            iw = f"{w}.items[{ii}]"
+            if not _fields(rep, iw, it, FUHYO_ITEM):
+                continue
+            k = it.get("key")
+            if "key" in it:
+                if not isinstance(k, str) or not FUHYO_KEY_RE.match(k):
+                    rep.err(f"{iw}.key", f"key は b と3桁以上の通し番号(^b[0-9]{{3,}}$): {k!r}")
+                elif k in keys:
+                    rep.err(f"{iw}.key", f"事業の key が附表の中で重複: {k}(先に {keys[k]})")
+                else:
+                    keys[k] = iw
+            if "kubun" in it:
+                kb = _text_list(rep, f"{iw}.kubun", it["kubun"])
+                for x in kb:
+                    if isinstance(x, str) and x not in FUHYO_KUBUN:
+                        rep.err(f"{iw}.kubun", f"区分の印は {sorted(FUHYO_KUBUN)} のどれか: {x!r}")
+                if len(kb) != len({str(x) for x in kb}):
+                    rep.err(f"{iw}.kubun", f"区分の印が重複: {kb}")
+            for f in ("kan", "name"):
+                if f in it:
+                    _text(rep, f"{iw}.{f}", it[f])
+            if "desc" in it:
+                _text(rep, f"{iw}.desc", it["desc"], empty_ok=True)
+            if "details" in it:
+                _text_list(rep, f"{iw}.details", it["details"])
+            if "amount" in it and not _is_int(it["amount"]):
+                rep.err(f"{iw}.amount", f"予算額は千円の整数で書く(桁区切りの文字列や小数は不可): {it['amount']!r}")
+            if "dept" in it:
+                _text_list(rep, f"{iw}.dept", it["dept"], nonempty=True)
+            if "page" in it and (not _is_int(it["page"]) or it["page"] < 1):
+                rep.err(f"{iw}.page", f"PDF のページは1以上の整数: {it['page']!r}")
     return rep
 
 

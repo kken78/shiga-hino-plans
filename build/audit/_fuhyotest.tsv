@@ -1,0 +1,21 @@
+tab	block_no	btype	block_label	label	value	unit	source
+fuhyo	1	fuhyo.amount	柱1 見本の柱(道具の検査用。原典はない)	見本事業(印なし)/予算額	1000	千円	_fuhyotest p.1
+fuhyo	1	fuhyo.kan	柱1 見本の柱(道具の検査用。原典はない)	見本事業(印なし)/款	民生費		_fuhyotest p.1
+fuhyo	1	fuhyo.dept	柱1 見本の柱(道具の検査用。原典はない)	見本事業(印なし)/担当課	見本課		_fuhyotest p.1
+fuhyo	1	fuhyo.amount	柱1 見本の柱(道具の検査用。原典はない)	見本事業(新規・内訳あり)/予算額	2345	千円	_fuhyotest p.1
+fuhyo	1	fuhyo.kan	柱1 見本の柱(道具の検査用。原典はない)	見本事業(新規・内訳あり)/款	教育費		_fuhyotest p.1
+fuhyo	1	fuhyo.dept	柱1 見本の柱(道具の検査用。原典はない)	見本事業(新規・内訳あり)/担当課	見本課		_fuhyotest p.1
+fuhyo	1	fuhyo.kubun	柱1 見本の柱(道具の検査用。原典はない)	見本事業(新規・内訳あり)/区分	新規		_fuhyotest p.1
+fuhyo	1	fuhyo.amount	柱1 見本の柱(道具の検査用。原典はない)	見本負担金(同じ名前の1件目)/予算額	10	千円	_fuhyotest p.2
+fuhyo	1	fuhyo.kan	柱1 見本の柱(道具の検査用。原典はない)	見本負担金(同じ名前の1件目)/款	総務費		_fuhyotest p.2
+fuhyo	1	fuhyo.dept	柱1 見本の柱(道具の検査用。原典はない)	見本負担金(同じ名前の1件目)/担当課	見本課		_fuhyotest p.2
+fuhyo	1	fuhyo.count	柱1 見本の柱(道具の検査用。原典はない)	事業数	3	件	_fuhyotest p.1-2
+fuhyo	2	fuhyo.amount	柱2 見本の柱2	見本負担金(同じ名前の2件目)/予算額	20	千円	_fuhyotest p.3
+fuhyo	2	fuhyo.kan	柱2 見本の柱2	見本負担金(同じ名前の2件目)/款	衛生費		_fuhyotest p.3
+fuhyo	2	fuhyo.dept	柱2 見本の柱2	見本負担金(同じ名前の2件目)/担当課	見本課		_fuhyotest p.3
+fuhyo	2	fuhyo.amount	柱2 見本の柱2	見本交付金事業/予算額	300	千円	_fuhyotest p.3
+fuhyo	2	fuhyo.kan	柱2 見本の柱2	見本交付金事業/款	総務費		_fuhyotest p.3
+fuhyo	2	fuhyo.dept	柱2 見本の柱2	見本交付金事業/担当課	見本課・見本第二課		_fuhyotest p.3
+fuhyo	2	fuhyo.kubun	柱2 見本の柱2	見本交付金事業/区分	新規・拡充		_fuhyotest p.3
+fuhyo	2	fuhyo.count	柱2 見本の柱2	事業数	2	件	_fuhyotest p.3
+fuhyo	0	fuhyo.kubun_count	附表全体	区分の印が付いた事業数	2	件	_fuhyotest p.1-3

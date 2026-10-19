@@ -21,8 +21,9 @@ def check(path):
     lines = path.read_text(encoding="utf-8").splitlines()
     if not lines or lines[0].split("\t") != COLS:
         return [f"1行目の列名が {COLS} と違う"]
-    if not (ROOT / "data" / "plans" / f"{path.stem}.json").exists():
-        errs.append(f"data/plans/{path.stem}.json がない")
+    # 計画か、当初予算の附表(PLAN_SCHEMA §9。誤字の疑いをここに記録する)
+    if not any((ROOT / "data" / d / f"{path.stem}.json").exists() for d in ("plans", "fuhyo")):
+        errs.append(f"data/plans/{path.stem}.json がない(附表なら data/fuhyo/{path.stem}.json)")
     for n, line in enumerate(lines[1:], 2):
         f = line.split("\t")
         if len(f) != len(COLS):

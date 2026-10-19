@@ -7,6 +7,8 @@
 - ワークシート build/audit/<id>.worksheet.html … 揮発するビュー(公開しない)。
   ブラウザでのチェックは localStorage の下書きにすぎない。確定は
   「エクスポート → --import で台帳へ反映 → git コミット」で行う。台帳が正。
+- 当初予算の附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)も同じ台帳とワークシートで扱う。
+  照合表は tools/fuhyo.py <id> で作る(計画の照合表は render_plan.py)。
 
 使い方:
   python3 tools/audit_worksheet.py <id> --init           # 1) 台帳のベースライン作成(初回のみ)
@@ -30,6 +32,9 @@ import json
 import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import fuhyo  # noqa: E402  附表(PLAN_SCHEMA §9)を計画の JSON と同じ形で読む
 
 ROOT = Path(__file__).resolve().parent.parent
 AUDIT_DIR = ROOT / "build" / "audit"
@@ -59,7 +64,8 @@ def read_audit(pid):
     """照合表 build/audit/<id>.tsv を読む。列数が8でない行は例外(G2)。"""
     path = AUDIT_DIR / f"{pid}.tsv"
     if not path.exists():
-        raise AuditError(f"照合表がありません: {path}(先に render_plan.py {pid} を実行)")
+        tool = "fuhyo.py" if fuhyo.is_fuhyo(pid) else "render_plan.py"
+        raise AuditError(f"照合表がありません: {path}(先に {tool} {pid} を実行)")
     lines = path.read_text(encoding="utf-8").split("\n")
     if lines and lines[-1] == "":
         lines.pop()
@@ -108,6 +114,13 @@ def parse_ledger_text(text, where):
     if len(keys) != len(set(keys)):
         raise AuditError(f"{where}: key が重複しています")
     return out
+
+
+def load_view(pid):
+    """計画の JSON。附表は fuhyo.plan_view で同じ形(meta.name・sources)にしたもの。"""
+    if fuhyo.is_fuhyo(pid):
+        return fuhyo.plan_view(fuhyo.load(pid))
+    return json.loads((PLANS_DIR / f"{pid}.json").read_text(encoding="utf-8"))
 
 
 def ledger_path(pid):
@@ -163,7 +176,7 @@ def cmd_worksheet(pid, focus=False):
     current = read_audit(pid)
     ledger = {r["key"]: r for r in read_ledger(pid)}
     stale = sum(1 for k in ledger if k not in {r["key"] for r in current})
-    plan = json.loads((PLANS_DIR / f"{pid}.json").read_text(encoding="utf-8"))
+    plan = load_view(pid)
     sources = {s["id"]: {"label": s.get("label", s["id"]), "url": s.get("url", "")}
                for s in plan.get("sources", [])}
     rows = []

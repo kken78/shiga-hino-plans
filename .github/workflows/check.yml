@@ -29,11 +29,15 @@ jobs:
       - name: スキーマ検証(validate_schema.py)
         run: |
           for f in data/plans/*.json; do python3 tools/validate_schema.py "$f" || exit 1; done
+          # 当初予算の附表(PLAN_SCHEMA §9)
+          for f in data/fuhyo/*.json; do [ -e "$f" ] || continue; python3 tools/validate_schema.py "$f" || exit 1; done
 
-      - name: 全計画とハブを再生成(render_plan.py・build.py)
+      - name: 全計画とハブを再生成(render_plan.py・build.py・fuhyo.py)
         run: |
           for f in data/plans/*.json; do python3 tools/render_plan.py "$(basename "$f" .json)" || exit 1; done
           python3 tools/build.py
+          # 附表は照合表だけを作る(PLAN_SCHEMA §9)
+          for f in data/fuhyo/*.json; do [ -e "$f" ] || continue; python3 tools/fuhyo.py "$(basename "$f" .json)" || exit 1; done
 
       - name: 生成物がコミットされたものと一致するか
         run: |

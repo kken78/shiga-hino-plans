@@ -405,7 +405,7 @@ e4823c9e72015ee5	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづく
 097cdaee96260fa6	fuhyo	3	fuhyo.kubun	柱3 安心、助け合いのくらしづくり	予防接種事業/区分	新規		r8jigyou p.7	✓	auto:pdftext	2026-10-19	
 834cc097f51dede5	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	環境保全対策事業/予算額	7276	千円	r8jigyou p.7	✓	auto:pdftext	2026-10-19	
 41d14d06f714df6f	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	環境保全対策事業/款	衛生費		r8jigyou p.7	✓	auto:pdftext	2026-10-19	
-530218e262a2fac0	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	環境保全対策事業/担当課	交通環境政策課		r8jigyou p.7	✓	auto:ai	2026-10-19	要人確認:H4 難しさ0点
+530218e262a2fac0	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	環境保全対策事業/担当課	交通環境政策課		r8jigyou p.7	✓	kken78	2026-10-19	要人確認:H4 難しさ0点 / 原典 r8jigyou.pdf の該当ページで担当課の一致を確認(依頼者が会話で明言)
 2495245fdc2f59c5	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	エコライフ地域住民活動推進事業/予算額	750	千円	r8jigyou p.7	✓	auto:pdftext	2026-10-19	
 4e6f688bf8f86291	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	エコライフ地域住民活動推進事業/款	衛生費		r8jigyou p.7	✓	auto:pdftext	2026-10-19	
 9adaf98d052a0cf9	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	エコライフ地域住民活動推進事業/担当課	交通環境政策課		r8jigyou p.7	✓	auto:ai	2026-10-19	
@@ -449,7 +449,7 @@ d50f2b6a8b07180d	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	
 a4233b25ec5e993e	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	バス等運行事業/担当課	交通環境政策課		r8jigyou p.9	✓	auto:ai	2026-10-19	
 a839e9aab98ce7ff	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	防犯対策事業/予算額	1607	千円	r8jigyou p.9	✓	auto:pdftext	2026-10-19	
 2ad7f769cb4cd5ac	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	防犯対策事業/款	総務費		r8jigyou p.9	✓	auto:pdftext	2026-10-19	
-19af8effda3f227c	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防犯対策事業/担当課	交通環境政策課		r8jigyou p.9	✓	auto:ai	2026-10-19	要人確認:H4 難しさ0点
+19af8effda3f227c	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防犯対策事業/担当課	交通環境政策課		r8jigyou p.9	✓	kken78	2026-10-19	要人確認:H4 難しさ0点 / 原典 r8jigyou.pdf の該当ページで担当課の一致を確認(依頼者が会話で明言)
 9950e0fa9c37be35	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/予算額	315	千円	r8jigyou p.9	✓	auto:pdftext	2026-10-19	
 3e4398c22268dad4	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/款	総務費		r8jigyou p.9	✓	auto:pdftext	2026-10-19	
 9dc3e1c7ef675cf5	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/担当課	交通環境政策課		r8jigyou p.9	✓	auto:ai	2026-10-19	
@@ -555,7 +555,7 @@ e7a1c5ecc6cb52e4	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づく�
 ba48cf885e984694	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	会計年度任用職員人件費（企画費）/区分	新規・拡充		r8jigyou p.11	✓	auto:pdftext	2026-10-19	
 764f042a4817489d	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	地域未来交付金事業/予算額	121401	千円	r8jigyou p.11	✓	auto:pdftext	2026-10-19	
 9787c244aac89abc	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	地域未来交付金事業/款	総務費		r8jigyou p.11	✓	auto:pdftext	2026-10-19	
-ca803b1caa9ee949	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	地域未来交付金事業/担当課	企画振興課・農林課・交通環境政策課・商工観光課・生涯学習課		r8jigyou p.11	✓	auto:ai	2026-10-19	要人確認:H4 難しさ0点
+ca803b1caa9ee949	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	地域未来交付金事業/担当課	企画振興課・農林課・交通環境政策課・商工観光課・生涯学習課		r8jigyou p.11	✓	kken78	2026-10-19	要人確認:H4 難しさ0点 / 原典 r8jigyou.pdf の該当ページで担当課の一致を確認(依頼者が会話で明言)
 c3d683a2bcbb5589	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	地域未来交付金事業/区分	新規・拡充		r8jigyou p.11	✓	auto:pdftext	2026-10-19	
 a685f3b545f82672	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報管理事業/予算額	336236	千円	r8jigyou p.11	✓	auto:pdftext	2026-10-19	
 ad9d0dbaee79dc40	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	情報管理事業/款	総務費		r8jigyou p.11	✓	auto:pdftext	2026-10-19	

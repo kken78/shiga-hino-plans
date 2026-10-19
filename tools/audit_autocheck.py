@@ -4,6 +4,7 @@
 原典 PDF は sources_raw/<id>/<出典id>.pdf に置く(git 管理外)。印刷ページから PDF のページへの換算は
 data/plans/<id>.json の sources[].pdf_page_offset(差が途中で変わる原典は pdf_page_offsets の範囲ごとの差)を使う。
 当初予算の附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)は、原典のファイル名(.pdf を除く)を出典idとし、ページの差は 0。
+附表の行は、下の段1の規則の代わりに「附表の段1の規則」(DESIGN.md ADR-7 補遺 L。tools/fuhyo.py の stage1)で照らす。
 
 使い方:
   python3 tools/audit_autocheck.py <id>                  # 段1の結果を表示する(台帳は変えない)
@@ -301,6 +302,7 @@ def stage1(rows, srcs, only=None):
     """各行の段1の結果。{id(row): {...}}"""
     by = groups_of(rows)
     out = {}
+    fz = None   # 附表の行の結果(附表の段1の規則。ページごとの並びを見るので、照合表の全行から一度に出す)
     for r in rows:
         if only is not None and id(r) not in only:
             continue
@@ -308,13 +310,17 @@ def stage1(rows, srcs, only=None):
         sid = (r["source"] or "").split(" ", 1)[0]
         pages = page_list(r["source"])
         src = srcs.get(sid)
-        if r["btype"] == "programs.years" or r["btype"] in fuhyo.TEXT_BTYPES:
-            # 実施年度(○の年度)は数値でないが、ページ画像で確かめやすいので段2に回す(ADR-7 補遺 L、2026-10 追加)。
-            # 附表の款・担当課・区分の印も同じ(PLAN_SCHEMA §9)
+        if r["btype"].startswith("fuhyo."):
+            # 当初予算の附表: 原典の表の列と行に照らす(DESIGN.md ADR-7 補遺 L「附表の段1の規則」。PLAN_SCHEMA §9)
+            if fz is None:
+                fz = fuhyo.stage1(rows, srcs, page_list)
+            res.update(fz[id(r)]); out[id(r)] = res; continue
+        if r["btype"] == "programs.years":
+            # 実施年度(○の年度)は数値でないが、ページ画像で確かめやすいので段2に回す(ADR-7 補遺 L、2026-10 追加)
             if src is None or not pages or not all(src.has_page(p) for p in pages):
                 res.update(why="出典の PDF やページがない", h2=True)
             else:
-                res.update(why="実施年度(○の年度)" if r["btype"] == "programs.years" else f"附表の{fuhyo.KIND[r['btype']]}")
+                res.update(why="実施年度(○の年度)")
             out[id(r)] = res; continue
         if not is_num(r["value"]):
             res.update(why="数値でない", h2=True); out[id(r)] = res; continue
@@ -391,6 +397,9 @@ def mutants(rows, srcs, rng):
     for r in rows:
         v = r["value"]
         if not is_num(v):
+            if r["btype"] in fuhyo.TEXT_BTYPES:
+                # 附表の款・担当課・区分(文字の行)。附表の段1の規則で照らすので、文字の誤りも入れる
+                yield from fuhyo.text_mutants(r, rows, rng)
             continue
         c = {}
         d = [i for i, ch in enumerate(v) if ch.isdigit()]
@@ -439,6 +448,7 @@ def cmd_selftest(pid):
     base = stage1(rows, srcs)
     passed = {id(r) for r in rows if base[id(r)]["pass"]}
     tot = defaultdict(int); esc = defaultdict(int)
+    btot = defaultdict(int); besc = defaultdict(int)   # 附表の行の種類ごと(予算額・款・担当課など)
     rng = random.Random(20261010)
     for r, t, (kind, val) in mutants(rows, srcs, rng):
         if id(r) not in passed:
@@ -456,11 +466,23 @@ def cmd_selftest(pid):
         res = stage1(rs, srcs, only=only)
         tot[t] += 1
         esc[t] += all(res[i]["pass"] for i in only)
+        if r["btype"].startswith("fuhyo."):
+            btot[r["btype"]] += 1
+            besc[r["btype"]] += all(res[i]["pass"] for i in only)
     T, E = sum(tot.values()), sum(esc.values())
     rate = E / T if T else 0.0
     print(f"段1で通る行 {len(passed)} / {len(rows)}。誤りを入れたコピー {T} 件のうち素通り {E} 件({rate:.1%})")
     for t in sorted(tot):
         print(f"  {t}: 素通り {esc[t]} / {tot[t]}")
+    over = []
+    for b in sorted(btot):
+        br = besc[b] / btot[b]
+        print(f"  附表の{fuhyo.KIND[b]}({b}): 素通り {besc[b]} / {btot[b]}({br:.1%})")
+        if br > ESCAPE_LIMIT:
+            over.append(fuhyo.KIND[b])
+    if over:
+        print(f"NG  附表の {'・'.join(over)} で素通りが {ESCAPE_LIMIT:.0%} を超えた(ADR-7 補遺 L「附表の段1の規則」)")
+        return 1
     if rate > ESCAPE_LIMIT:
         print(f"NG  素通りが {ESCAPE_LIMIT:.0%} を超えた。この計画では段1を使わず、段2に回す(ADR-7 補遺 L)")
         return 1

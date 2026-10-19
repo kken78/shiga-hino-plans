@@ -3,6 +3,7 @@
 
 原典 PDF は sources_raw/<id>/<出典id>.pdf に置く(git 管理外)。印刷ページから PDF のページへの換算は
 data/plans/<id>.json の sources[].pdf_page_offset(差が途中で変わる原典は pdf_page_offsets の範囲ごとの差)を使う。
+当初予算の附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)は、原典のファイル名(.pdf を除く)を出典idとし、ページの差は 0。
 
 使い方:
   python3 tools/audit_autocheck.py <id>                  # 段1の結果を表示する(台帳は変えない)
@@ -37,6 +38,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_worksheet as aw  # noqa: E402  read_audit / read_ledger / write_ledger / row_key を共用
+import fuhyo  # noqa: E402  附表(PLAN_SCHEMA §9)の読み込み
 import pdf_pages  # noqa: E402  印刷ページ → PDF のページの換算を render_plan.py と共用
 from pdf_pages import page_list  # noqa: E402,F401  audit_review.py も ac.page_list として使う
 
@@ -306,12 +308,13 @@ def stage1(rows, srcs, only=None):
         sid = (r["source"] or "").split(" ", 1)[0]
         pages = page_list(r["source"])
         src = srcs.get(sid)
-        if r["btype"] == "programs.years":
-            # 実施年度(○の年度)は数値でないが、ページ画像で確かめやすいので段2に回す(ADR-7 補遺 L、2026-10 追加)
+        if r["btype"] == "programs.years" or r["btype"] in fuhyo.TEXT_BTYPES:
+            # 実施年度(○の年度)は数値でないが、ページ画像で確かめやすいので段2に回す(ADR-7 補遺 L、2026-10 追加)。
+            # 附表の款・担当課・区分の印も同じ(PLAN_SCHEMA §9)
             if src is None or not pages or not all(src.has_page(p) for p in pages):
                 res.update(why="出典の PDF やページがない", h2=True)
             else:
-                res.update(why="実施年度(○の年度)")
+                res.update(why="実施年度(○の年度)" if r["btype"] == "programs.years" else f"附表の{fuhyo.KIND[r['btype']]}")
             out[id(r)] = res; continue
         if not is_num(r["value"]):
             res.update(why="数値でない", h2=True); out[id(r)] = res; continue
@@ -365,10 +368,13 @@ def stage1(rows, srcs, only=None):
 
 
 def load(pid):
-    plan_path = ROOT / "data" / "plans" / f"{pid}.json"
-    if not plan_path.exists():
-        raise Stop(f"計画がありません: {plan_path}")
-    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+    if fuhyo.is_fuhyo(pid):
+        plan = fuhyo.plan_view(fuhyo.load(pid))   # 附表(PLAN_SCHEMA §9)。出典は原典1つ、ページの差は 0
+    else:
+        plan_path = ROOT / "data" / "plans" / f"{pid}.json"
+        if not plan_path.exists():
+            raise Stop(f"計画がありません: {plan_path}")
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
     rows = aw.read_audit(pid)
     srcs = {}
     for s in plan.get("sources", []):
@@ -511,7 +517,8 @@ def cmd_ai_items(pid):
         items.append({"ブロック": lst[0]["block_label"], "タブ": tab, "種類": lst[0]["btype"], "出典": lst[0]["source"],
                       "ページ画像": imgs,
                       "行": [dict({"key": r["key"], "項目": r["label"], "値": r["value"], "単位": r["unit"]},
-                                 **({"数えるもの": COUNT_DEF} if r["btype"] == "programs" and r["label"] == "事業数" else {}))
+                                 **({"数えるもの": COUNT_DEF} if r["btype"] == "programs" and r["label"] == "事業数" else {}),
+                                 **({"数えるもの": fuhyo.COUNT_DEF[r["btype"]]} if r["btype"] in fuhyo.COUNT_DEF else {}))
                             for r in lst]})
     out = AUDIT_DIR / f"{pid}.ai_items.json"
     out.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -32,6 +32,8 @@
                    "comment": …, "reviewer": GitHub のユーザー名, "date": "YYYY-MM-DD"}, …]
 
 行ごとに、ダッシュボードでの表示(種類・タブの名前・時点・添え書き・表の列見出し・注記など)を計画の JSON から添える(補遺 M)。
+当初予算の附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)の行には、附表のデータでのその事業(柱・款・予算額・担当課・区分)や、
+数の行が数えた事業を添える(tools/fuhyo.py の context)。
 
 位置の調べ方: ページの文字データ(pdftotext -bbox)で値と同じ数字の語を探す。見つからないページ(画像だけのページ、
 画像で貼られた表・グラフ)は、300dpi の画像を tesseract で読んで探す。値が何か所にもあるときは、項目名(年度・
@@ -49,6 +51,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_autocheck as ac  # noqa: E402  Source・nums・canon・year_variants・page_list を共用
 import audit_worksheet as aw  # noqa: E402
+import fuhyo  # noqa: E402  附表(PLAN_SCHEMA §9)の行に添える内容
 
 ROOT = aw.ROOT
 OUT = aw.AUDIT_DIR / "review"
@@ -179,7 +182,7 @@ def counted(plan, row):
     """「事業数」の行(render_plan.py が programs ブロックの items の数を照合表に出す行。ダッシュボードには出ない)が
     何を数えたか。節・小見出しごとに、数えた項目と、項目の無い(説明だけの)見出しを並べる。
     確認する人が原典のどの見出しの下の何を数えればよいか分かるようにするため(補遺 M)。"""
-    if row["btype"] != "programs" or row["label"] != "事業数":
+    if row["btype"] != "programs" or row["label"] != "事業数" or plan.get("fuhyo") is not None:
         return None
     tab = next(t for t in plan["tabs"] if t["id"] == row["tab"])
     b = tab["blocks"][int(row["block_no"])]
@@ -208,7 +211,13 @@ TARGET_TAG = {"base": "基準", "current": "現状", "target": "目標"}
 def context(plan, row):
     """行がダッシュボードでどう見えているか(補遺 M、2026-10-19)。照合表の行には時点(asof)や基準値・目標値の別が
     入らないので、確認する人がどの年度・どの値と比べればよいか分からないことがあった。計画の JSON の同じブロックから、
-    行の種類・タブの名前・時点・添え書き・表の列見出し・注記を取り出して確認ページに出す。照合表と台帳は変えない。"""
+    行の種類・タブの名前・時点・添え書き・表の列見出し・注記を取り出して確認ページに出す。照合表と台帳は変えない。
+    附表(PLAN_SCHEMA §9)は fuhyo.context で、附表のデータでのその事業を出す。"""
+    if plan.get("fuhyo") is not None:
+        try:
+            return fuhyo.context(plan["fuhyo"], row)
+        except ValueError as e:
+            raise ac.Stop(str(e))
     tab = next(t for t in plan["tabs"] if t["id"] == row["tab"])
     b = tab["blocks"][int(row["block_no"])]
     bt = row["btype"]
@@ -500,7 +509,11 @@ def cmd_import(path, scope=Scope()):
         print(f"OK  {aw.ledger_path(pid)}  (一致 {n['ok']}・違う {n['ng']}・保留 {n['hold']}・"
               f"取り込み済みで飛ばした {n['skip']})")
         if n["ng"]:
-            print(f"    「違う」の行は data/plans/{pid}.json を直して再描画し、audit_worksheet.py {pid} --reconcile")
+            if fuhyo.is_fuhyo(pid):
+                print(f"    「違う」の行は data/fuhyo/{pid}.json を直して fuhyo.py {pid} で照合表を作り直し、"
+                      f"audit_worksheet.py {pid} --reconcile")
+            else:
+                print(f"    「違う」の行は data/plans/{pid}.json を直して再描画し、audit_worksheet.py {pid} --reconcile")
     return 0
 
 

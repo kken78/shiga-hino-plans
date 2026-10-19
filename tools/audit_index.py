@@ -13,7 +13,6 @@
 で台帳に取り込む。取り込んだあとにこのツールをもう一度実行すると、目次の残りの行数が減る。
 """
 import html
-import json
 import sys
 from pathlib import Path
 
@@ -21,7 +20,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_worksheet as aw  # noqa: E402
 
 ROOT = aw.ROOT
-PLANS = ROOT / "data" / "plans"
 
 
 def pending(pid):
@@ -33,9 +31,9 @@ def pending(pid):
 
 
 def plan_name(pid):
-    p = PLANS / f"{pid}.json"
+    """計画の名前。附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)は「当初予算の附表(令和N年度)」。"""
     try:
-        return json.loads(p.read_text(encoding="utf-8"))["meta"]["name"]
+        return aw.load_view(pid)["meta"]["name"]
     except (OSError, KeyError, ValueError):
         return pid
 

@@ -418,7 +418,9 @@ JSON に書くのは値・ラベル・色トークンだけで、寸法・文字
 hino-ronten DESIGN.md ADR-10)。附表は計画ではないので、`data/manifest.json` に載せず、§1〜§8 の計画の書式とは別の書式にする。
 
 - 置き場所: `data/fuhyo/<id>.json`。計画の `data/plans/<id>.json` と同じく、id からファイルの場所が決まる。
-- id: 年度ごとに1つ。令和8年度は `fuhyo-r8`(`data/fuhyo/fuhyo-r8.json`)。
+- id: 年度ごとに1つ。令和8年度は `fuhyo-r8`(`data/fuhyo/fuhyo-r8.json`)。計画の id と重ねない。
+- 検査用の見本: `data/fuhyo/_fuhyotest.json`(id も `_fuhyotest`。原典は無い)。計画の部品見本 `_charttest` と同じく、
+  道具の検査に使う。id の先頭の `_` は見本だけに使う。
 - 原典: `sources_raw/<id>/` に置き、`data/sources_index.tsv` に載せる(id は附表の id。file は元のファイル名を英小文字にしたもの。
   令和8年度は `r8jigyou.pdf`)。
 
@@ -479,7 +481,13 @@ hino-ronten DESIGN.md ADR-10)。附表は計画ではないので、`data/manife
 - 令和7年度以前の附表。令和8年度の突合を終えてから決める。
 
 **検収**: 計画と同じく、原典と照らした検収の記録を残す。照合表は計画と同じ8列で `build/audit/<id>.tsv` に出す。
-- 照合表の行: 柱ごとの事業の数、附表全体で区分の印が付いた事業の数、事業ごとの予算額・款・担当課・区分。
+- 照合表は `python3 tools/fuhyo.py <id>` で作る(附表のページは作らない)。
+- 照合表の行: 柱ごとの事業の数、附表全体で区分の印が付いた事業の数、事業ごとの予算額・款・担当課・区分(区分は印のある事業だけ)。
+  - tab は `fuhyo`、block_no は柱の no(附表全体の行は 0)、block_label は「柱<no> <name>」(附表全体の行は「附表全体」)。
+  - btype は `fuhyo.amount`(予算額)・`fuhyo.kan`(款)・`fuhyo.dept`(担当課。「・」でつなぐ)・`fuhyo.kubun`(区分。「・」でつなぐ)・
+    `fuhyo.count`(柱の事業数)・`fuhyo.kubun_count`(区分の印が付いた事業数)。
+  - 出典の欄は「<原典のファイル名(.pdf を除く)> p.<page>」(例 `r8jigyou p.1`)。原典は `sources_raw/<id>/r8jigyou.pdf`。
+  - 款・担当課・区分の行(文字)は、programs の実施年度と同じく、段1(数値の照合)を飛ばして段2(ページ画像)に回す。
 - 事業名は照合表の項目名に入れる。附表の中に同じ名前の事業が2つ以上あるときは、programs と同じく
   「(同じ名前のN件目)」(N は附表の中での出現順)を付けて行を区別する。
 - 本文と内訳は、段3(文章の点検)で原典と突き合わせる。

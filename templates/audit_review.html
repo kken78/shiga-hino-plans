@@ -389,11 +389,12 @@ function countedBox(r) {
     `<details${n <= 12 ? " open" : ""}><summary>数えた項目と見出し(計 ${n})</summary><ul>${li}</ul></details></div>`;
 }
 
-// 照合表の行には時点や基準値・目標値の別が入らないので、ダッシュボードでの表示(audit_review.py の context)を添える
+// 照合表の行には時点や基準値・目標値の別が入らないので、ダッシュボードでの表示(audit_review.py の context)を添える。
+// 附表(PLAN_SCHEMA §9)の行は、見出しを「附表のデータ」にする(ctx.head)
 function ctxBox(r) {
   const L = (r.ctx && r.ctx.lines) || [];
   if (!L.length) return "";
-  return `<div class="ctx"><p class="h">ダッシュボードでの表示</p><dl>` +
+  return `<div class="ctx"><p class="h">${esc(r.ctx.head || "ダッシュボードでの表示")}</p><dl>` +
     L.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("") + `</dl></div>`;
 }
 

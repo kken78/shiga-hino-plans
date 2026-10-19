@@ -217,14 +217,14 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 
 論点ノート(リポジトリ kken78/hino-ronten、2026-10-10 作成)は、計画・議会だより・会議録を横断して計画への言及を台帳にまとめる。
 このリポジトリを読むだけで、書き込まない。読んでいるのは `data/manifest.json`・`data/plans/*.json`・`data/sources_index.tsv`・
-`sources_raw/<id>/` の原典PDF で、読む版は特定のコミットに固定している(2026-10 時点は b80dcf3)。
+`sources_raw/<id>/` の原典PDF で、読む版は特定のコミットに固定している(2026-10-19 時点は 43edc96)。
 
 **事前に知らせる変更**(5種類。2026-10-11、依頼者の指定):
 1. manifest の name(hino-ronten は照合に使う)
 2. 計画の id(変更・追加・削除)
 3. manifest の start・end(periodNote を含む)
-4. programs の節・基本施策・事業の番号(no)と名前(name)。とくに kodomo と koutsu
-   (hino-ronten は `node:<id>/<節>/<基本施策>/<事業>` のキーで事業を指す)
+4. programs の事業の key(`items[].key`)と名前(name)
+   (hino-ronten は `node:<id>/<key>` のキーで事業を指す。2026-10-19 に、番号(no)による形から key による形に替えた)
 5. 台帳 `data/sources_index.tsv` の id と file
 
 これらを含むプルリクエストは、本文に「hino-ronten に影響」と書いて変更点を挙げ、マージの前に依頼者に知らせる。
@@ -232,12 +232,11 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 **済んだら知らせる作業**(hino-ronten の後の工程の材料になる):
 - [x] jisshi(第6次総合計画 実施計画)の主要事業を、事業の単位(programs ブロック。概算事業費を含む)で構造化すること。
   hino-ronten の工程5(資料編)で使う。2026-10-11 に済んだ(PR #54・#56。176事業、key は e001〜e176)。
-  **hino-ronten にはまだ知らせていない**
+  hino-ronten には issue #1 で知らせた(2026-10-11)。検収の完了(d0d5f7b)は issue #2 で知らせた
 - [ ] sogo6 の検収(OCR した原典での照合。段4 の人による確認は依頼者が行う)と、施策体系の構造化。
   検収は 2026-10-12 に完了(PR #59)。施策体系の構造化はまだ
-
-**このリポジトリで扱わないもの**:
-- 当初予算の附表「主な事業」(2026-10-11、依頼者の判断。扱い方は hino-ronten 側で決める)
+- [ ] 当初予算の附表「主な事業」(令和8年度)の構造化。2026-10-19 に依頼者が、このリポジトリで扱うと決めた(2026-10-11 の「扱わない」を改める)。
+  manifest の外に置く。必要な項目と key の振り方は、hino-ronten からの案を受けて決める。hino-ronten の工程5(資料編)で使う
 
 ## 抽出時の判断基準
 
@@ -358,8 +357,7 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
   (koutsu は ADR-9 の作業で直した)。
 - [ ] README の古い記述(計画数、kodomo の検収状況、定型フロー)を直す。
 - [ ] hino-ronten への連絡(「外部の利用者(hino-ronten)への連絡」の節):
-  - jisshi の構造化が済んだ(PR #54・#56)ことを知らせる。sogo6 は施策体系の構造化が済んだら知らせる(検収は完了)
-  - node キーを事業の key に移すかは、hino-ronten の LINK_SCHEMA の改定と合わせて決める
+  - sogo6 の施策体系の構造化が済んだら知らせる(jisshi の構造化と検収は issue #1・#2 で知らせ済み)
   - 事業へ直接リンクする仕組み(id とタブ・折りたたみを開く処理)は、hino-ronten で必要と決まったときに別に行う
 - [ ] ハブを幅320pxで見ると、計画カード(`.plan-card.in-band`)のためにページが10px横にずれる(ゲートBは360px以上を検査)。
 - [ ] 論点4 デザイントークン統一の移行B(フォント・見た目の変化): rem 化と本文の底上げ(15→16px 等)。

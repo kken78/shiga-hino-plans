@@ -51,6 +51,8 @@ jobs:
           for f in data/audit_log/*.tsv; do [ -e "$f" ] || continue; python3 tools/audit_worksheet.py "$(basename "$f" .tsv)" || exit 1; done
       - name: 原典の誤りの記録の検査(check_source_issues.py・ADR-7 補遺 L)
         run: python3 tools/check_source_issues.py
+      - name: 原典の文字の検証(check_source_text.py・PLAN_SCHEMA §10.2・ADR-10。原典 PDF は使わない)
+        run: python3 tools/check_source_text.py
 
       - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
         run: node tools/validate.mjs docs/index.html docs/plans/*.html

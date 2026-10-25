@@ -218,8 +218,10 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 論点ノート(リポジトリ kken78/hino-ronten、2026-10-10 作成)は、計画・議会だより・会議録を横断して計画への言及を台帳にまとめる。
 このリポジトリを読むだけで、書き込まない。読んでいるのは `data/manifest.json`・`data/plans/*.json`・`data/sources_index.tsv`・
 `sources_raw/<id>/` の原典PDF で、読む版は特定のコミットに固定している(2026-10-19 時点は 43edc96)。
+原典の文字 `data/text/`・`data/text_raw/`(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26 に依頼者が決めた。道具とデータはまだ)を作ったあとは、
+hino-ronten は計画の文の引用をそれで照らす(計画の JSON の文は平易に書き直したものがあり、引用の照らし先にしない)。
 
-**事前に知らせる変更**(6種類。2026-10-11、依頼者の指定。6 は 2026-10-19 に追加):
+**事前に知らせる変更**(7種類。2026-10-11、依頼者の指定。6 は 2026-10-19、7 は 2026-10-26 に追加):
 1. manifest の name(hino-ronten は照合に使う)
 2. 計画の id(変更・追加・削除)
 3. manifest の start・end(periodNote を含む)
@@ -227,6 +229,8 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
    (hino-ronten は `node:<id>/<key>` のキーで事業を指す。2026-10-19 に、番号(no)による形から key による形に替えた)
 5. 台帳 `data/sources_index.tsv` の id と file
 6. 附表(PLAN_SCHEMA §9)の id(`fuhyo-r8`)、事業の key・name・amount、ファイルの置き場所(`data/fuhyo/<id>.json`)
+7. 原典の文字(PLAN_SCHEMA §10)の置き場所とファイル名(`data/text/<id>/<名前>.txt`・`data/text_raw/<id>/<名前>.txt`)、作り方(台帳の text_method、`-raw`)、
+   台帳の列(text_method・text_date・text_chars)、改正の前の版の行(file の名前の改め方)
 
 これらを含むプルリクエストは、本文に「hino-ronten に影響」と書いて変更点を挙げ、マージの前に依頼者に知らせる。
 
@@ -239,6 +243,9 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 - [x] 当初予算の附表「主な事業」(令和8年度)を、事業の単位で構造化すること(2026-10-19 に依頼者が、このリポジトリで扱うと決めた)。
   manifest の外に置く(`data/fuhyo/fuhyo-r8.json`。書式は PLAN_SCHEMA §9)。hino-ronten の工程5(資料編)で使う。
   2026-10-19 に済んだ(PR #70〜#74。181事業、key は b001〜b181。検収も完了)。hino-ronten には issue #4 で知らせた(2026-10-19)
+- [ ] 原典の文字(`data/text/`・`data/text_raw/`。PLAN_SCHEMA §10)を、台帳の PDF の行すべて(41計画と附表)について作ること。
+  hino-ronten は、計画の文の引用の照らし先を計画の JSON から原典の文字に替える(hino-ronten の LINK_SCHEMA §13.1・§15.1 の改定)。
+  2026-10-26 に文書(決まり)を足した。道具とデータはまだ
 
 ## 抽出時の判断基準
 
@@ -331,8 +338,11 @@ bytes・sha256・pages・text_chars は空欄)。列は id / file / label(掲載
 bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り出せた空白以外の文字数)/ fetched(取得日。空欄は台帳以前からある原典)/ note。
 原典PDFそのものは `sources_raw/<id>/` に置き、リポジトリには入れない(.gitignore の対象。同じ版かどうかは url と sha256 で確かめる)。
 ファイル名は本編 honpen.pdf(章ごとの分割は honpen-01.pdf …)、概要版 gaiyo.pdf、資料編 shiryo.pdf、それ以外は元のファイル名を英小文字にしたもの。
+原典の文字 `data/text/<id>/<file の拡張子を除いた名前>.txt`(PDF から pdftotext で取り出したまま)・`data/text_raw/<id>/<名前>.txt`(`pdftotext -raw`)と、
+台帳の列 text_method・text_date を足し、
+改正の前の版も台帳と原典の文字に残すと決めた(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26、依頼者の決定)。道具とデータはまだ入っていない。
 
-### 残タスク(2026-10-19 更新)
+### 残タスク(2026-10-26 更新)
 
 **いまの状態**: 43計画のうち41計画にダッシュボードがある(kanbatsu・chiiki-nogyo は文書が公開されていないので作らない。
 2026-10-10、依頼者の判断。ハブのカードは残す)。41計画とも段1〜3が済み、段3の指摘の扱い(H3)も全件決まった(未判断0件)。
@@ -352,8 +362,17 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
   - jisshi: 政策の見出しと分野の見出しが同じ見た目で続く点、事業名「滋賀県６町」の全角の「６」(原典は半角)
   - partner の manifest の期間(いまは後期計画の R6〜R10。全体は2019年からの10年間。保留中)
 - [ ] 段3の原典の誤りの指摘を、43計画が片付いたあとで町へ一式で提供する(それまでは個別に伝えない)。
+- [x] 原典の文字(PLAN_SCHEMA §10・DESIGN.md ADR-10)について決まったこと(2026-10-26、依頼者の決定):
+  - ライセンス(PLAN_SCHEMA §10.6): hino-town-docs の LICENSE-DATA.md と同じ扱い。このリポジトリのライセンスの対象外で、著作権は各資料の
+    発行者にある。機械で取り出したもので誤りや欠けがあることがあり、内容は原典で確かめる。DESIGN.md ADR-9 決定1 に書いた。データの段階で
+    リポジトリに入れてよい
+  - youho の令和7年3月策定の版(PLAN_SCHEMA §10.3): 前の版としてこのリポジトリにも置く(データの段階のあと。hino-town-docs のものは残す)
+  - OCR の下書き(`data/ocr/`。PLAN_SCHEMA §10.4): いまは作らない。hino-ronten で sogo6 などを引く必要が出たときに依頼者が決める
 
 **作業として残っているもの**
+- [ ] 原典の文字(DESIGN.md ADR-10「次の段階で行うこと」): 道具(`data/text/`・`data/text_raw/` を作る道具と検証)、データ(台帳の PDF の行
+  すべての原典の文字と台帳の列。抜き取りでページの画像と見比べる。README のライセンスの節も直す)、前の版(youho の令和7年3月策定の版。
+  原典は hino-town-docs の sources_raw から写す)の順に、段階ごとのプルリクエストにする。本文に「hino-ronten に影響」と書く。
 - [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
 - [ ] kodomo と kokyo-kanri の出典 honpen の url が町の掲載ページのままなので、台帳 `data/sources_index.tsv` の本編の PDF の URL に直す
   (koutsu は ADR-9 の作業で直した)。

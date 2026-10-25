@@ -218,7 +218,7 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 論点ノート(リポジトリ kken78/hino-ronten、2026-10-10 作成)は、計画・議会だより・会議録を横断して計画への言及を台帳にまとめる。
 このリポジトリを読むだけで、書き込まない。読んでいるのは `data/manifest.json`・`data/plans/*.json`・`data/sources_index.tsv`・
 `sources_raw/<id>/` の原典PDF で、読む版は特定のコミットに固定している(2026-10-19 時点は 43edc96)。
-原典の文字 `data/text/`・`data/text_raw/`(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26 に依頼者が決めた。道具とデータはまだ)を作ったあとは、
+原典の文字 `data/text/`・`data/text_raw/`(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26 に依頼者が決めた。道具は入った。データはまだ)を作ったあとは、
 hino-ronten は計画の文の引用をそれで照らす(計画の JSON の文は平易に書き直したものがあり、引用の照らし先にしない)。
 
 **事前に知らせる変更**(7種類。2026-10-11、依頼者の指定。6 は 2026-10-19、7 は 2026-10-26 に追加):
@@ -245,7 +245,7 @@ hino-ronten は計画の文の引用をそれで照らす(計画の JSON の文�
   2026-10-19 に済んだ(PR #70〜#74。181事業、key は b001〜b181。検収も完了)。hino-ronten には issue #4 で知らせた(2026-10-19)
 - [ ] 原典の文字(`data/text/`・`data/text_raw/`。PLAN_SCHEMA §10)を、台帳の PDF の行すべて(41計画と附表)について作ること。
   hino-ronten は、計画の文の引用の照らし先を計画の JSON から原典の文字に替える(hino-ronten の LINK_SCHEMA §13.1・§15.1 の改定)。
-  2026-10-26 に文書(決まり)を足した。道具とデータはまだ
+  2026-10-26 に文書(決まり)を足し(PR #76)、道具を入れた(`tools/extract_text.py`・`tools/check_source_text.py`)。データはまだ
 
 ## 抽出時の判断基準
 
@@ -340,7 +340,12 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
 ファイル名は本編 honpen.pdf(章ごとの分割は honpen-01.pdf …)、概要版 gaiyo.pdf、資料編 shiryo.pdf、それ以外は元のファイル名を英小文字にしたもの。
 原典の文字 `data/text/<id>/<file の拡張子を除いた名前>.txt`(PDF から pdftotext で取り出したまま)・`data/text_raw/<id>/<名前>.txt`(`pdftotext -raw`)と、
 台帳の列 text_method・text_date を足し、
-改正の前の版も台帳と原典の文字に残すと決めた(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26、依頼者の決定)。道具とデータはまだ入っていない。
+改正の前の版も台帳と原典の文字に残すと決めた(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26、依頼者の決定)。データはまだ入っていない。
+- `tools/extract_text.py`: 原典の文字を作る(`python3 tools/extract_text.py <id>`、1行だけは `<id>/<file>`、全行は `--all`)。行ごとに
+  原典の sha256 が台帳と同じかを確かめてから `data/text/`・`data/text_raw/` を取り出し、台帳の text_chars・text_method・text_date を書く
+  (列が無ければ note の前に足す)。原典が無い・sha256 が違う・改ページで区切ったページの数が pages と合わない行が1つでもあれば、何も書かずに止まる
+- `tools/check_source_text.py`: 原典の文字の検証(PLAN_SCHEMA §10.2 の4つ。原典の PDF は使わない)。データを入れるまでは全行が NG になるので、
+  CI(`.github/workflows/check.yml`)にはデータを入れるプルリクエストで足す
 
 ### 残タスク(2026-10-26 更新)
 
@@ -370,8 +375,9 @@ bytes / sha256 / pages(pdfinfo のページ数)/ text_chars(pdftotext で取り�
   - OCR の下書き(`data/ocr/`。PLAN_SCHEMA §10.4): いまは作らない。hino-ronten で sogo6 などを引く必要が出たときに依頼者が決める
 
 **作業として残っているもの**
-- [ ] 原典の文字(DESIGN.md ADR-10「次の段階で行うこと」): 道具(`data/text/`・`data/text_raw/` を作る道具と検証)、データ(台帳の PDF の行
-  すべての原典の文字と台帳の列。抜き取りでページの画像と見比べる。README のライセンスの節も直す)、前の版(youho の令和7年3月策定の版。
+- [ ] 原典の文字(DESIGN.md ADR-10「次の段階で行うこと」): 道具(`data/text/`・`data/text_raw/` を作る道具と検証。2026-10-26 に入れた)、
+  データ(台帳の PDF の行すべての原典の文字と台帳の列。抜き取りでページの画像と見比べる。README のライセンスの節も直す。
+  `tools/check_source_text.py` を CI に足す)、前の版(youho の令和7年3月策定の版。
   原典は hino-town-docs の sources_raw から写す)の順に、段階ごとのプルリクエストにする。本文に「hino-ronten に影響」と書く。
 - [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
 - [ ] kodomo と kokyo-kanri の出典 honpen の url が町の掲載ページのままなので、台帳 `data/sources_index.tsv` の本編の PDF の URL に直す

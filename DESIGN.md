@@ -575,9 +575,10 @@ ADR-6 の三点セットと同型。
 |---|---|---|
 | 作者が書いたコード | `tools/`、`templates/`、`.github/workflows/` | MIT(`LICENSE` はいまのまま) |
 | 作者が作った構造 | `PLAN_SCHEMA.md` のスキーマ、計画 JSON の項目の選び方・並べ方、`data/audit_log/` の判定と注記、`data/source_issues/` の注記 | CC BY 4.0 |
-| 町などの資料から転記した文章・数値・図 | 計画 JSON と `data/assets/` の中の、原典から写した部分 | ライセンスの対象外。原典の著作権は日野町など各発行者にある(shasi-koutsu のように、複数の自治体が共同で作った計画もある) |
+| 町などの資料から転記した文章・数値・図 | 計画 JSON と `data/assets/` の中の、原典から写した部分。原典の文字 `data/text/`・`data/text_raw/`(2026-10-26 追加。ADR-10) | ライセンスの対象外。原典の著作権は日野町など各発行者にある(shasi-koutsu のように、複数の自治体が共同で作った計画もある) |
 
 - `docs/` の生成物は上の3つが混ざったものなので、部分ごとに上の区分に従う。
+- 原典の文字(ADR-10。PLAN_SCHEMA §10)は、hino-town-docs の LICENSE-DATA.md と同じ扱いにする(2026-10-26、依頼者の決定)。原典から写したもので、このリポジトリのライセンスの対象外。著作権は日野町など各資料の発行者にある。原典から機械で取り出したもので、読み取りの誤りや欠けがあることがある。内容は原典で確かめる。
 - 理由: 日野町のサイトは著作権の所在を書くだけで、二次利用の条件を示していない。町の文章や図をこのリポジトリの作者が再許諾することはできないので、転記した部分はライセンスの対象から外し、権利が発行者にあることを示す。
 
 **決定2: 原典から切り出した画像の扱い**
@@ -616,19 +617,24 @@ ADR-6 の三点セットと同型。
 **決定**: 計画の JSON(画面のための要約)はいまのままとし、原典の文字(データ)を別に持つ。改正の前の版の文字も消さずに残す。書式は PLAN_SCHEMA §10。
 
 - 原典の文字: `data/text/<id>/<file の拡張子を除いた名前>.txt`。台帳 `data/sources_index.tsv` の PDF の行ごとに、`pdftotext -enc UTF-8`(既定の取り出し方)で取り出したまま置き、改ページ(`\f`)でページを区切る。hino-town-docs の DOCS_SCHEMA.md §5 にそろえる。
+- 書かれた順の取り出し: `data/text_raw/<id>/<名前>.txt`。同じ原典を `pdftotext -raw -enc UTF-8` で取り出したまま置く(2026-10-26 追加。hino-town-docs DOCS_SCHEMA.md §5.1 と同じ)。既定の取り出し方では、表の左右の列や縦書きの段の字が1行ずつ交互にまざって文が切れることがあるため。`-raw` には、段や枠の順が紙面で読む順と入れ替わる、見出しが2回出る、縦書きが1字ずつ改行されるという弱いところがあるが、直さずに使う側で扱う。使う側は引用を両方で照らしてよい。台帳の列は足さない。
 - 台帳に text_method・text_date の列を足し、text_chars を原典の文字のファイルの字の数と一致させる。
 - 改正の前の版は、file を `<もとの名前>-<年月6桁>.pdf` に改めて台帳と原典の文字に残す。計画の JSON の `sources` はいまの版だけを参照する。
 - 画面とのつなぎ: 計画の JSON の構造は変えない。ブロックの `source`(文書 id とページ)が、要約(画面)と原文(原典の文字のページ)をつなぐ。画面に原文を出すかは、この ADR の範囲の外。
-- OCR の下書き(NDLOCR-Lite。`data/ocr/`)は、あとで設ける段階とし、入るかといつ入るかは依頼者が決める。
+- OCR の下書き(NDLOCR-Lite。`data/ocr/`)は、あとで設ける段階とする。
 
-**依頼者の決定を待つもの**
-- 原典の文字のライセンスの扱い: 原典から写したものなので、このリポジトリのライセンスの対象外とし、著作権は日野町など各資料の発行者にあるとする案。hino-town-docs の LICENSE-DATA.md と同じ扱いでよいかを ADR-9(決定1 ライセンスの範囲)に照らして確かめ、ADR-9 か LICENSE に書く。
-- youho の令和7年3月策定の版(hino-town-docs に `jigyo-youhosaihen-keikaku-202503` として取り込み済み)を、このリポジトリにも前の版として置くか。
+**依頼者の決定(2026-10-26)**
+- 原典の文字のライセンス: hino-town-docs の LICENSE-DATA.md と同じ扱いにする。原典から写したもので、このリポジトリのライセンスの対象外。著作権は日野町など各資料の発行者にある。原典から機械で取り出したもので、読み取りの誤りや欠けがあることがある。内容は原典で確かめる。書く場所は、ライセンスの範囲を決めている ADR-9 の決定1 にした(`LICENSE` は MIT の本文だけなので変えない)。データの段階で原典の文字をリポジトリに入れてよい。
+- youho の令和7年3月策定の版: このリポジトリにも前の版として置く。hino-town-docs のもの(`jigyo-youhosaihen-keikaku-202503`)は消さずに残す(hino-ronten は計画の文をこのリポジトリから引くようにそろえる)。置くのはデータの段階のあと。
+- OCR の下書き: いまは作らない。hino-ronten で sogo6 などの文字の無い原典を引く必要が出たときに、依頼者が決める。
 
 **次の段階で行うこと**(この ADR を書いた時点では未実施。段階ごとにプルリクエストを分け、本文に「hino-ronten に影響」と書く)
-1. 道具: 原典の文字を作る道具(例 `tools/extract_text.py`)。台帳の行ごとに、原典の sha256 が台帳と同じかを確かめてから取り出し、text_chars・text_method・text_date を書く。原典が無い・sha256 が違うときは止めて報告する。検証(validate_schema.py か別の検証)に、PDF の行には原典の文字のファイルがあること、text_chars が合うことを足す。
-2. データ: 台帳の PDF の行すべての原典の文字と、台帳の列。抜き取りで、いくつかのページを原典のページの画像と見比べ、欠けや誤りが無いかを確かめて、結果をプルリクエストに書く。
-3. 前の版(依頼者が決めたら): youho の令和7年3月策定の版を、PLAN_SCHEMA §10.3 の決まりで足す。
+1. 道具: 原典の文字を作る道具(例 `tools/extract_text.py`)。台帳の行ごとに、原典の sha256 が台帳と同じかを確かめてから `data/text/` と `data/text_raw/` を取り出し、text_chars・text_method・text_date を書く。原典が無い・sha256 が違う・`data/text_raw/` のページの数が台帳の pages と合わないときは止めて報告する。検証(validate_schema.py か別の検証)に、PDF の行には `data/text/` のファイルがあること、text_chars が合うこと、`data/text/` のある行には `data/text_raw/` のファイルもあること、そのページの数が合うことを足す。
+2. データ: 台帳の PDF の行すべての原典の文字(`data/text/`・`data/text_raw/`)と、台帳の列。抜き取りで、いくつかのページを原典のページの画像と見比べ、欠けや誤りが無いかを確かめて、結果をプルリクエストに書く。README のライセンスの節の「原典から転記した部分」に、原典の文字を足す。
+3. 前の版: youho の令和7年3月策定の版を、PLAN_SCHEMA §10.3 の決まりで足す(2026-10-26、依頼者の決定)。
+   - 原典は、同じ PC の `/home/kken78/GitHub/hino-town-docs/sources_raw/jigyo-youhosaihen-keikaku-202503.pdf` を `sources_raw/youho/honpen-202503.pdf` に写して使う(町のサイトと Webアーカイブには問い合わせない)。写したあと、sha256 が 25511eed0647013f082a7fcda426c003c8b7f9fcf1a800a01f116bd76d2e26e5、バイト数が 3637303、ページ数が 40 であることを確かめる(違えば止める)。
+   - 台帳の行: id `youho`、file `honpen-202503.pdf`、label「日野町幼児教育保育施設再編整備計画(令和7年3月策定の版)」、url `https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8225/keikaku.pdf`(町の元の URL)、fetched 2026-10-25(hino-town-docs で取得した日)、note「取得元:Webアーカイブの保存版(2025-04-16 12:26:18 UTC、https://web.archive.org/web/20250416122618id_/https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000008/8225/keikaku.pdf)。hino-town-docs の jigyo-youhosaihen-keikaku-202503 と同じファイル。町のページ(0000008225.html)はいまは令和8年6月一部改正のあとの版(syuusei.pdf)を載せている」。
+   - 原典の文字(`data/text/youho/honpen-202503.txt`・`data/text_raw/youho/honpen-202503.txt`)も作る。youho の JSON の `sources` は変えない(いまの版だけを指す)。
 
 **採らなかった案**
 - 計画の JSON のテキスト系のブロックを原文で書き直す: 画面のための決まり(平易な文・住民が知りたい順の再構成)を変えることになる。
@@ -653,6 +659,7 @@ hino-plans/
 │   ├── plans/<id>.json     # ダッシュボード化した計画のデータ(真実の源)
 │   ├── assets/             # figure用の画像実体
 │   ├── text/<id>/<名前>.txt # 原典の文字(原典 PDF から取り出したまま。ADR-10・PLAN_SCHEMA §10)
+│   ├── text_raw/<id>/<名前>.txt # 原典の文字(PDF の中で書かれた順に取り出したまま。ADR-10・PLAN_SCHEMA §10)
 │   └── audit_log/<id>.tsv  # 検収台帳(検収状態の真実の源。ADR-7)
 ├── tools/
 │   ├── render_plan.py      # JSON → docs/plans/<id>.html + audit.tsv

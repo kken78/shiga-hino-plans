@@ -392,7 +392,7 @@ text_method(原典の文字を作った道具。空欄は作っていない行)/
 - [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
 - [ ] kodomo と kokyo-kanri の出典 honpen の url が町の掲載ページのままなので、台帳 `data/sources_index.tsv` の本編の PDF の URL に直す
   (koutsu は ADR-9 の作業で直した)。
-- [ ] README の古い記述(計画数、kodomo の検収状況、定型フロー)を直す。
+- [ ] README の古い記述(定型フロー)を直す。計画数と kodomo の検収状況は、照合の状況の表示(ADR-11 段B)のプルリクエストで直した。
 - [ ] hino-ronten への連絡(「外部の利用者(hino-ronten)への連絡」の節):
   - sogo6 の施策体系の構造化が済んだら知らせる(jisshi の構造化と検収は issue #1・#2、附表の構造化と検収は issue #4 で知らせ済み)
   - 原典の文字(`data/text/`・`data/text_raw/`)と youho の前の版が入ったこと(PR #78)を知らせる。まだ知らせていない

@@ -148,6 +148,7 @@ section{padding:52px 0 8px}
 .p-name{font-family:var(--serif);font-size:var(--fs-base);line-height:1.5;color:var(--ai-ink);letter-spacing:.02em}
 .p-short{font-size:var(--fs-2xs);color:#39445C}
 .p-next{font-size:var(--fs-3xs);font-weight:700;color:var(--warn)}
+.p-shogo{font-size:var(--fs-3xs);color:var(--muted)}
 .p-period{margin-top:auto}
 .seg-row{display:flex;gap:3px;height:8px}
 .seg-cell{flex:1;border-radius:3px;background:#E6ECF6}
@@ -788,6 +789,14 @@ function periodBlock(p){
   }
   return '<div class="p-period p-unknown">期間：' + esc(p.periodNote || '公表資料で確認') + '</div>';
 }
+/* 原典との照合の件数（PLAN_SCHEMA §11.4。build.py が台帳から数えて足す。割合は出さない） */
+function shogoLine(p){
+  if (!p.shogo) return '';
+  const s = p.shogo;
+  return '<p class="p-shogo">原典との照合 ' + (s.n
+    ? s.m.toLocaleString('ja-JP') + '/' + s.n.toLocaleString('ja-JP') + '件'
+    : '対象なし') + '</p>';
+}
 function planCard(p, inBand){
   const cat = CATS[p.cat], meta = STATUS_META[planStatus(p)];
   const card = el('article', 'plan-card' + (inBand ? ' in-band' : ''));
@@ -799,6 +808,7 @@ function planCard(p, inBand){
     '<p class="p-lead">' + esc(p.lead || '') + '</p>' +
     (p.next ? '<p class="p-next">進捗と予定：' + esc(p.next) + '</p>' : '') +
     periodBlock(p) +
+    shogoLine(p) +
     '<div class="p-actions">' + (p.dashboard
       ? '<a class="p-more p-more-link" href="' + esc(p.dashboard) + '">ダッシュボードを見る</a>'
       : '<button type="button" class="p-more" data-id="' + esc(p.id) + '">詳細を見る</button>') + '</div>';

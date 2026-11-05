@@ -90,6 +90,9 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
 #        python3 tools/audit_review.py --import <結果.json> --keys <キーのファイル>  # 取り込みにも同じ指定を付ける
 #            # 範囲の外の行に結果が1件でもあれば、台帳を変えずにその一覧を示して止まる
 #        python3 tools/audit_autocheck.py <id> --status  # 完了の判定
+#        台帳を変えたら(--import・--reconcile・--ai-record・--select のどれでも)、その計画を作り直して docs/ もコミットする
+#        (計画ページとハブに原典との照合の件数が出るため。PLAN_SCHEMA §11・ADR-11。しないと CI の生成物の一致の検査で落ちる):
+#        python3 tools/render_plan.py <id> && python3 tools/build.py && python3 tools/check_audit_display.py
 #        python3 tools/audit_index.py                    # 全計画の要人確認のワークシートと目次 build/audit/index.html を作る
 ```
 
@@ -156,6 +159,7 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
    python3 tools/audit_autocheck.py <id> --ai-record <A.json> <B.json>
    python3 tools/audit_autocheck.py <id> --select
    python3 tools/audit_autocheck.py <id> --status      # 段4(人)が残るので「未完了」でよい
+   python3 tools/render_plan.py <id> && python3 tools/build.py   # 台帳を変えたので作り直す(照合の件数の表示。ADR-11)
    ```
    前回「2人とも一致・確信度 中」だった行(H1)を、確信度が高になるまで聞き直すことはしない(照合が甘くなるため)。
    原典のページを取り違えていたなど、設問が誤っていたときだけやり直す。
@@ -163,6 +167,7 @@ node tools/validate.mjs docs/index.html   # ハブにもゲートAを適用(ADR-
    載っているもの)を直し、`data/source_issues/<id>.tsv` の status を「ダッシュボードで対応」、action に内容を書く。
    再生成して値が変わった行は `python3 tools/audit_worksheet.py <id> --reconcile` で台帳を合わせ(同じキーの行は印を
    引き継ぎ、変わった行は未検収になる)、その行だけ `--ai-items` から段2をやり直して `--ai-record`・`--select`。
+   台帳を変えたあとは `render_plan.py <id>` → `build.py` で作り直し、docs/ もコミットする(照合の件数の表示。ADR-11)。
    数値・固有名詞・事実関係の誤りの疑いは直さず、プルリクエストの「判断を仰ぐ点」に書く。
    段3の指摘には `issue-triage` を1人ずつ動かし、基準で決まるものを仕分ける。
 5. 統合: まとめ用のブランチに各 `plan-<id>` を `git merge --no-ff` で取り込み、新しい計画は `data/manifest.json` に
@@ -307,6 +312,10 @@ manifest には載せない)。
 - `tools/audit_index.py`: 全計画の要人確認のワークシートと目次 `build/audit/index.html`
 - `tools/audit_review.py`: スマホで原典ページの該当箇所を見ながら段4を行う確認ページ(補遺 M。計画ごとの点検表つき)
 - `tools/check_source_issues.py`: 段3の記録 `data/source_issues/<id>.tsv` の形式の検査
+- `tools/audit_display.py`: 原典との照合の件数を台帳から数える(PLAN_SCHEMA §11・ADR-11)。render_plan.py(計画ページの上部の1行と
+  末尾の節「原典との照合」)と build.py(ハブのカードの「原典との照合 M/N件」)が共用する。台帳が変われば表示も変わる
+- `tools/check_audit_display.py`: 照合の件数の表示の検査。全計画で `--status` の件数・H4 の定義・計画ページ・ハブと突き合わせる。
+  `--selftest` で数え方の分岐を、`--markdown` で全計画の集計の表を出す。CI でも実行する
 - `tools/program_keys.py`: programs の事業に key を付ける
 - `tools/pdf_pages.py`: 出典のページの読み取りと、印刷ページ → PDF のページの換算。audit_autocheck.py と render_plan.py
   (`asset` を省いた figure の原典へのリンクの `#page=`。DESIGN.md ADR-9)が共用する
@@ -320,7 +329,9 @@ python3 tools/audit_worksheet.py <id>                 # → build/audit/<id>.wor
 python3 tools/audit_worksheet.py <id> --import <file> # 検証(行の一致・key・checked)して台帳を上書き
 python3 tools/audit_worksheet.py <id> --sync          # 文章ブロックを足してブロック番号だけずれたとき(検収の印はそのまま)
 python3 tools/audit_worksheet.py <id> --reconcile     # 値を直して照合キーが変わったとき(同じキーの行は印を引き継ぎ、変わった行は未検収)
-git commit
+python3 tools/render_plan.py <id> && python3 tools/build.py   # 台帳を変えたら作り直す(照合の件数の表示。ADR-11)
+python3 tools/check_audit_display.py                  # 表示の件数が台帳・--status と合っているか
+git commit                                            # 台帳と一緒に docs/ もコミットする
 ```
 
 段4の結果を台帳に取り込むときの決まり(2026-10-19、依頼者の指定。図の12行の確認で、依頼者が確かめていない86行を取り込んだことから):

@@ -97,6 +97,10 @@ def cmd_check():
         html = (ROOT / "docs" / "plans" / f"{pid}.html").read_text(encoding="utf-8")
         if html.count(page_line(s)) != 1:
             errors.append(f"{pid}: 計画ページの上部の1行が台帳の件数と違う(render_plan.py で作り直す)")
+        for r, v in s["reasons"]:      # 理由の行と「人が確かめます」の添え方(§11.3 の表)
+            li = "<li>" + ad.reason_text(r, f'<span class="num">{v:,}</span>件') + "</li>"
+            if html.count(li) != 1:
+                errors.append(f"{pid}: 計画ページの理由の行が違う: {r}(render_plan.py で作り直す)")
         if pid in hub and hub[pid] != {"m": s["m"], "n": s["n"]}:
             errors.append(f"{pid}: ハブの件数 {hub[pid]} が台帳の件数と違う(build.py で作り直す)")
         print(f"{pid}: N {s['n']} / M {s['m']} (a {s['a']}・b {s['b']}・c {s['c']}) / U {s['u']} / H4 {s['x']}/{s['f']}")
@@ -207,6 +211,11 @@ def cmd_selftest():
     expect(f"(9) 件数の内訳と F・X {got}",
            got == {"n": 7, "m": 4, "a": 1, "b": 1, "c": 2, "u": 3, "f": 2, "x": 1}
            and dict(s["reasons"]) == {ad.REASON_H1: 2, ad.NOT_YET: 1})
+    # 「人が確かめます」は、人がまだ見ていない理由にだけ添える(§11.3 の表)
+    expect("(9b) 不一致・保留には「人が確かめます」を添えず、H1・H2・まだ照合していないには添える",
+           all(not ad.reason_text(r, "1件").endswith(ad.TO_HUMAN) for r in (ad.REASON_MISMATCH, ad.REASON_HOLD))
+           and all(ad.reason_text(r, "1件").endswith(ad.TO_HUMAN)
+                   for r in (ad.REASON_H1, ad.NOT_YET, *ad.H2_REASONS.values())))
     # 照合表が0行
     s = ad.count("selftest", [], [])
     expect("(10) 照合表が0行", s["n"] == 0 and s["reasons"] == [] and s["last"] == "")

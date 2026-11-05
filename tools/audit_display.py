@@ -30,6 +30,14 @@ H2_REASONS = {
     "出典の PDF やページがない": "原典の PDF またはページを特定できない値",
 }
 REASON_ORDER = [REASON_MISMATCH, REASON_HOLD, REASON_H1, *dict.fromkeys(H2_REASONS.values()), NOT_YET]
+# すでに人が見た理由。画面で「人が確かめます」を添えない(§11.3 の表の列)
+HUMAN_SEEN = {REASON_MISMATCH, REASON_HOLD}
+TO_HUMAN = "（人が確かめます）"
+
+
+def reason_text(r, n):
+    """画面の理由の1行(件数の書式は呼び出し側が渡す)。人がまだ見ていない理由にだけ「人が確かめます」を添える。"""
+    return f"{r}：{n}" + ("" if r in HUMAN_SEEN else TO_HUMAN)
 MACHINE = {"auto:pdftext": "a", "auto:ai": "b"}
 
 

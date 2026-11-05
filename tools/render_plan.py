@@ -1008,7 +1008,7 @@ class Renderer:
                 + (f'（{"／".join(parts)}）' if parts else "") + "</p>"]
         if s["u"]:
             body.append(f'<p>済んでいないもの <b>{k(s["u"])}</b></p><ul class="shogo-why">'
-                        + "".join(f"<li>{esc(r)}：{k(v)}（人が確かめます）</li>" for r, v in s["reasons"])
+                        + "".join(f"<li>{audit_display.reason_text(esc(r), k(v))}</li>" for r, v in s["reasons"])
                         + "</ul>")
         else:
             body.append("<p>済んでいないもの：なし</p>")

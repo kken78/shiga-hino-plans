@@ -48,12 +48,19 @@ plan の全フィールド:
   targets     数値目標の配列(将来用。現状0件)
   dashboard   個別ページの相対パス(例 "plans/kodomo.html")。
               個別ページ実体があるものだけ付与(embed 機構は廃止)
+
+  ── ビルド時に足す欄(manifest には書かない)──
+  shogo       原典との照合の件数 {m, n}(PLAN_SCHEMA §11.4・ADR-11)。dashboard のある
+              計画だけ、照合表 build/audit/<id>.tsv と台帳から audit_display.count で数える
+              (計画ページと同じ関数。render_plan.py のあとに動かす)
 """
 import json
 import re
 import sys
 from pathlib import Path
 from tokens import load_tokens, apply_tokens
+import audit_display  # 原典との照合の件数(PLAN_SCHEMA §11.4)。render_plan.py と共用
+import audit_worksheet as aw  # 照合表 build/audit/<id>.tsv の読み込み
 # tools/ が sys.path[0] に入る前提(python3 tools/build.py 起動に依存)。DESIGN.md ADR-6
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -137,6 +144,16 @@ def validate(plans, cats_keys):
     return errors
 
 
+def shogo(p):
+    """dashboard のある計画のカードに出す「原典との照合 M/N件」の件数を足したコピー。"""
+    pid = p["id"]
+    try:
+        s = audit_display.count(pid, aw.read_audit(pid))
+    except (audit_display.AuditDisplayError, aw.AuditError) as e:
+        raise SystemExit(f"NG  {pid}: 原典との照合の件数を数えられません(PLAN_SCHEMA §11.4): {e}")
+    return {**p, "shogo": {"m": s["m"], "n": s["n"]}}
+
+
 def build():
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     if manifest.get("schema") != "hub-manifest-v1":
@@ -164,6 +181,9 @@ def build():
     # 構造トークンの値代入(ADR-6 / モデルA)。hub は値が変わる=計画側と違いバイト不変ではない。
     tokens = load_tokens(TPL / "tokens.css")
     template = apply_tokens(template, tokens, "hub.html")
+
+    # 原典との照合の件数(PLAN_SCHEMA §11.4)。manifest は変えず、注入するコピーにだけ足す
+    plans = [shogo(p) if p.get("dashboard") else p for p in plans]
 
     # PLANS を JSON インライン注入(fetch せず自己完結。indent で差分を見やすく)
     plans_json = json.dumps(plans, ensure_ascii=False, indent=2)

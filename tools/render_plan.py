@@ -37,6 +37,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from pdf_pages import page_list, pdf_page
 from tokens import load_tokens, apply_tokens
+import audit_display  # 原典との照合の件数(PLAN_SCHEMA §11・ADR-11)。build.py と共用
 # tools/ が sys.path[0] に入る前提(python3 tools/render_plan.py 起動に依存)。DESIGN.md ADR-6
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -56,6 +57,19 @@ FOLD_MIN = 21       # 横棒がこの件数以上なら初期表示を畳む(ADR
 INLINE_LABEL_W = 110  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 FIGURE_LINK_VALUE = "原典へのリンク"  # asset を省いた figure の照合表の値(PLAN_SCHEMA §6-B figure)
+SHOGO_ID = "genten-shogo"  # 末尾の節「原典との照合」のページ内リンクの id(PLAN_SCHEMA §11.3)
+LEDGER_URL = "https://github.com/kken78/shiga-hino-plans/blob/main/data/audit_log/{}.tsv"
+NO_TARGET = "この計画には、照合の対象になる数値がありません"
+# 照合の方法の説明(PLAN_SCHEMA §11.3 の 4。計画ごとに変えない)
+SHOGO_HOW = (
+    "このページの数値や名前を、原典と1件ずつ照らしています。",
+    "プログラムによる照合：原典の文字データで、値・項目名・値の並び・列見出しの位置がすべて合うものを照合済みとしています。",
+    "AI（2回）による照合：同じ種類の AI を、このページを作った経緯を伝えずに2回別々に使い、原典のページの画像で行と列の対応まで"
+    "確かめさせ、両方が「一致・確信度 高」としたものだけを照合済みとしています。同じように読み違えるおそれがあるため、"
+    "一部は人が抜き取りで確かめています。",
+    "人による照合：人が原典と見比べて、一致を確かめたものです。",
+    "人の確認で誤りが見つかったものは照合済みから外れるので、件数が減ることがあります。",
+)
 
 
 def esc(s):
@@ -151,8 +165,9 @@ def mix(hex1, hex2, w):
 
 
 class Renderer:
-    def __init__(self, d):
+    def __init__(self, d, pid):
         self.d = d
+        self.pid = pid  # ファイル名の id(台帳 data/audit_log/<id>.tsv の名前。PLAN_SCHEMA §11)
         self.theme = {**DEFAULT_THEME, **d.get("theme", {})}
         self.audit_rows = []  # (tab, block_no, btype, block_label, label, value, unit, source)
         self.last_heading = ""
@@ -946,6 +961,70 @@ class Renderer:
                 display.add(i)
         return display
 
+    def _used_ids(self):
+        """タブ id とブロックの anchor(目次で注入したものを含む)。SHOGO_ID と重ならないことを確かめる。"""
+        ids = set()
+
+        def walk(o):
+            if isinstance(o, dict):
+                for k in ("anchor", "_toc_id"):
+                    if isinstance(o.get(k), str):
+                        ids.add(o[k])
+                for v in o.values():
+                    walk(v)
+            elif isinstance(o, list):
+                for v in o:
+                    walk(v)
+        for tab in self.d["tabs"]:
+            ids.add(tab["id"])
+            walk(tab.get("blocks", []))
+        return ids
+
+    def shogo(self):
+        """原典との照合の表示(PLAN_SCHEMA §11.3)。(上部の1行, 末尾の節) を返す。
+        件数は台帳から audit_display.count で数える(手で書かない。不変の制約4)。"""
+        pid = self.pid
+        s = audit_display.count(pid, audit_display.rows_from_renderer(self.audit_rows))
+        if s is None:                      # "_" で始まる見本(_charttest)は出さない
+            return "", ""
+        if SHOGO_ID in self._used_ids():
+            raise ValueError(f"タブ id かブロックの anchor が「原典との照合」の id と重なります: {SHOGO_ID}")
+        more = f'<a href="#{SHOGO_ID}">くわしく</a>'
+        ledger = (f'<p>照合の記録（台帳）：<a href="{esc(LEDGER_URL.format(pid))}" target="_blank" '
+                  f'rel="noopener">GitHub で見る</a></p>')
+        if s["n"] == 0:
+            line = f'<p class="shogo-line">原典との照合：{NO_TARGET}{more}</p>'
+            sec = (f'<section class="shogo" id="{SHOGO_ID}"><h2>原典との照合</h2>'
+                   f'<p>{NO_TARGET}。</p>{ledger}</section>')
+            return line, sec
+
+        def k(v):
+            return f'<span class="num">{v:,}</span>件'
+        line = (f'<p class="shogo-line">原典との照合：<b>{k(s["n"])}のうち {k(s["m"])}が済み</b>'
+                f'{more}</p>')
+        parts = [f"{lbl}{k(s[key])}" for lbl, key in
+                 (("プログラム ", "a"), ("AI（2回）", "b"), ("人 ", "c")) if s[key]]
+        body = [f'<p>照合の対象 <b>{k(s["n"])}</b>のうち、済み <b>{k(s["m"])}</b>'
+                + (f'（{"／".join(parts)}）' if parts else "") + "</p>"]
+        if s["u"]:
+            body.append(f'<p>済んでいないもの <b>{k(s["u"])}</b></p><ul class="shogo-why">'
+                        + "".join(f"<li>{audit_display.reason_text(esc(r), k(v))}</li>" for r, v in s["reasons"])
+                        + "</ul>")
+        else:
+            body.append("<p>済んでいないもの：なし</p>")
+        if s["f"]:
+            body.append("<p>照合済みのうち、AI だけで照合したものの一部は、読み違いがないかを人が抜き取りで"
+                        f'確かめています（済み {k(s["x"])}／{k(s["f"])}）。</p>')
+        body.append('<h3>照合の方法</h3><ul class="shogo-how">'
+                    + "".join(f"<li>{esc(t)}</li>" for t in SHOGO_HOW) + "</ul>")
+        body.append(ledger)
+        if s["last"]:
+            y, mo, dd = (int(x) for x in s["last"].split("-"))
+            body.append(f'<p>記録の最終日：<span class="num">{y}年{mo}月{dd}日</span></p>')
+        sec = (f'<section class="shogo" id="{SHOGO_ID}"><h2>原典との照合</h2>'
+               + "".join(body) + "</section>")
+        return line, sec
+
     def render(self):
         d, m = self.d, self.d["meta"]
         tabs_html, panels_html = [], []
@@ -996,6 +1075,7 @@ class Renderer:
             contact += f'（<span class="num">{esc(m["tel"])}</span>）'
 
         theme_vars = "".join(f"--{k}:{v};" for k, v in self.theme.items())
+        shogo_line, shogo_sec = self.shogo()  # 全タブを描いて照合表の行がそろってから数える
 
         tokens = load_tokens(TPL / "tokens.css")
         shell_css = apply_tokens(
@@ -1011,6 +1091,8 @@ class Renderer:
                             if m.get("eyebrow") else ""),
             "{{NAME}}": esc(m["name"]),
             "{{METAROW}}": metarow,
+            "{{SHOGO_LINE}}": shogo_line,
+            "{{SHOGO}}": shogo_sec,
             "{{VISION_BANNER}}": vision,
             "{{LEAD}}": esc(m["lead"]),
             "{{TABS}}": "".join(tabs_html),
@@ -1032,8 +1114,12 @@ def main(argv):
     src = ROOT / "data" / "plans" / f"{pid}.json"
     d = json.loads(src.read_text(encoding="utf-8"), parse_float=Num)
 
-    r = Renderer(d)
-    page = r.render()
+    r = Renderer(d, pid)
+    try:
+        page = r.render()
+    except audit_display.AuditDisplayError as e:
+        print(f"NG  原典との照合の件数を数えられません(PLAN_SCHEMA §11): {e}", file=sys.stderr)
+        return 1
 
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / f"{pid}.html"

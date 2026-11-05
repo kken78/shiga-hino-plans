@@ -670,7 +670,7 @@ ADR-7 は「案2」(ブロックごとに `verified` を持たせる)を退け�
 - `auto:ai` を「AI 2系統」と呼ぶ: 別々の仕組み2つで照合したように見え、独立性を強く見せすぎる。実際は同じ種類の AI を2回使っている(補遺 L 採らなかった案(4))。
 - manifest の `verified` を使う: これは「期間バーを描けるか」を表す欄で、検収とは関係がない。
 
-**次の段階で行うこと**(段B。この ADR を書いた時点では未実施)
+**次の段階で行うこと**(段B。3項目とも段Bのプルリクエストで行った。数える関数は `tools/audit_display.py`、検査は `tools/check_audit_display.py`(`--selftest` を含む。CI でも実行))
 1. render_plan.py・build.py・テンプレートで、PLAN_SCHEMA §11 の表示を実装する。数える関数は1か所に置き、両方から使う。全計画を再描画し、ゲートA・B を通す。
 2. `--status` と同じ数え方になっていることを全計画で突き合わせる検査と、H4 の件数の検査を足す(CI でも実行する)。
 3. CLAUDE.md の段4の手順に「台帳を変えたら作り直して docs/ もコミットする」を足す。README の古い記述(計画数・kodomo の検収状況)を直す。
@@ -704,7 +704,9 @@ hino-plans/
 │   ├── validate.mjs        # 既存の出力HTML検証ハーネス(ADR-8 ゲートAを含む)
 │   ├── check_mobile.mjs    # 実ブラウザでの表示検査(ADR-8 ゲートB・Playwright)
 │   ├── build.py            # manifest → ハブ index.html 生成
-│   └── audit_worksheet.py  # audit.tsv+台帳 → 検収ワークシート(ADR-7)
+│   ├── audit_worksheet.py  # audit.tsv+台帳 → 検収ワークシート(ADR-7)
+│   ├── audit_display.py    # 台帳 → 原典との照合の件数(render_plan と build が共用。ADR-11)
+│   └── check_audit_display.py # 照合の件数の表示の検査(--status との突き合わせ・--selftest。ADR-11)
 ├── templates/
 │   ├── shell.html          # 計画ページ共通シェル
 │   ├── shell.css           # 共通CSS(デザイントークン+ブロック+チャート)

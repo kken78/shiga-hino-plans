@@ -444,7 +444,7 @@ cd7427d704cc7d63	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづ�
 1a27897ead13040b	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	八日市布引ライフ組合負担金/担当課	交通環境政策課		r7-omonajigyou p.8	✓	auto:ai	2026-11-06	
 c6e3ec52d3ff0984	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	ごみ収集事業/予算額	104603	千円	r7-omonajigyou p.8	✓	auto:pdftext	2026-11-06	
 ae6b35169440e6d5	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	ごみ収集事業/款	衛生費		r7-omonajigyou p.8	✓	auto:pdftext	2026-11-06	
-0a43b615c73b6de3	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ収集事業/担当課	交通環境政策課		r7-omonajigyou p.8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+0a43b615c73b6de3	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ収集事業/担当課	交通環境政策課		r7-omonajigyou p.8	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r7-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 0edc7cab86f07711	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	ごみ集積施設整備事業/予算額	298	千円	r7-omonajigyou p.8	✓	auto:pdftext	2026-11-06	
 5e733b35da107ecb	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	ごみ集積施設整備事業/款	衛生費		r7-omonajigyou p.8	✓	auto:pdftext	2026-11-06	
 d3f407480638428d	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ集積施設整備事業/担当課	交通環境政策課		r7-omonajigyou p.8	✓	auto:ai	2026-11-06	
@@ -473,7 +473,7 @@ af76b8f2de744297	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	
 5cffac61280131cc	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	鉄道対策事業/担当課	交通環境政策課		r7-omonajigyou p.9	✓	auto:ai	2026-11-06	
 563ba8920bde2c43	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	バス等運行事業/予算額	102583	千円	r7-omonajigyou p.9	✓	auto:pdftext	2026-11-06	
 1a3bba689b03bd3a	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	バス等運行事業/款	総務費		r7-omonajigyou p.9	✓	auto:pdftext	2026-11-06	
-1a03eabf8a2bce06	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	バス等運行事業/担当課	交通環境政策課		r7-omonajigyou p.9	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+1a03eabf8a2bce06	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	バス等運行事業/担当課	交通環境政策課		r7-omonajigyou p.9	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r7-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 1d3b5f539659385a	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	防犯対策事業/予算額	1370	千円	r7-omonajigyou p.9	✓	auto:pdftext	2026-11-06	
 7da2f519ef98a132	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	防犯対策事業/款	総務費		r7-omonajigyou p.9	✓	auto:pdftext	2026-11-06	
 def7c743ed78eb25	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防犯対策事業/担当課	交通環境政策課		r7-omonajigyou p.9	✓	auto:ai	2026-11-06	
@@ -581,7 +581,7 @@ b598572fe9b17d0c	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり
 e9d55adb3b44f3da	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	会計年度任用職員人件費（企画費）/区分	新規		r7-omonajigyou p.11	✓	auto:pdftext	2026-11-06	
 e22f85a24c63d7ee	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	新しい地方経済・生活環境創生交付金事業/予算額	94663	千円	r7-omonajigyou p.11	✓	auto:pdftext	2026-11-06	
 5b4bb2bc0879c5bb	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	新しい地方経済・生活環境創生交付金事業/款	総務費		r7-omonajigyou p.11	✓	auto:pdftext	2026-11-06	
-9c68531a007f1cb9	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	新しい地方経済・生活環境創生交付金事業/担当課	企画振興課・商工観光課・生涯学習課・農林課・交通環境政策課・総務課		r7-omonajigyou p.11	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+9c68531a007f1cb9	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	新しい地方経済・生活環境創生交付金事業/担当課	企画振興課・商工観光課・生涯学習課・農林課・交通環境政策課・総務課		r7-omonajigyou p.11	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r7-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 4c76c0d330907f2b	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	新しい地方経済・生活環境創生交付金事業/区分	新規		r7-omonajigyou p.11	✓	auto:pdftext	2026-11-06	
 becaba7d019d01a0	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報管理事業/予算額	46110	千円	r7-omonajigyou p.11	✓	auto:pdftext	2026-11-06	
 2cdd949278ea4d62	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	情報管理事業/款	総務費		r7-omonajigyou p.11	✓	auto:pdftext	2026-11-06	

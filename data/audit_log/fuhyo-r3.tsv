@@ -54,7 +54,7 @@ f3890c675966327a	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	幼稚
 583ca1740667ac87	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	幼稚園管理運営事業/担当課	子ども支援課		r3syuyouzigyounogaiyou p.2	✓	auto:ai	2026-11-06	
 8a28834dc4842e97	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	幼稚園教育振興事業/予算額	2209	千円	r3syuyouzigyounogaiyou p.2	✓	auto:pdftext	2026-11-06	
 725990d51954c782	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	幼稚園教育振興事業/款	教育費		r3syuyouzigyounogaiyou p.2	✓	auto:pdftext	2026-11-06	
-0df4a14493c1df93	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	幼稚園教育振興事業/担当課	子ども支援課		r3syuyouzigyounogaiyou p.2	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+0df4a14493c1df93	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	幼稚園教育振興事業/担当課	子ども支援課		r3syuyouzigyounogaiyou p.2	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r3syuyouzigyounogaiyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 6ceff4c00b890da7	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校管理運営事業/予算額	57420	千円	r3syuyouzigyounogaiyou p.2	✓	auto:pdftext	2026-11-06	
 95bc9cea09ecfe58	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校管理運営事業/款	教育費		r3syuyouzigyounogaiyou p.2	✓	auto:pdftext	2026-11-06	
 436b33c71500de34	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校管理運営事業/担当課	学校教育課		r3syuyouzigyounogaiyou p.2	✓	auto:pdftext	2026-11-06	
@@ -246,7 +246,7 @@ b03e9676fe22e888	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	
 b70193058aae5973	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	地域経済緊急支援事業/担当課	商工観光課		r3syuyouzigyounogaiyou p.5	✓	auto:pdftext	2026-11-06	
 006c555023e5cdf7	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	地域経済緊急支援事業/区分	新規		r3syuyouzigyounogaiyou p.5	✓	auto:pdftext	2026-11-06	
 ffc4bacbd570516f	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/予算額	14425	千円	r3syuyouzigyounogaiyou p.6	✓	auto:ai	2026-11-06	
-2bd2d1c06407c609	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/款	商工費		r3syuyouzigyounogaiyou p.6	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+2bd2d1c06407c609	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/款	商工費		r3syuyouzigyounogaiyou p.6	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r3syuyouzigyounogaiyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 e84c612d33b0acc3	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/担当課	商工観光課		r3syuyouzigyounogaiyou p.6	✓	auto:ai	2026-11-06	
 8cff9acd17eb18c5	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/区分	新規		r3syuyouzigyounogaiyou p.6	✓	auto:ai	2026-11-06	
 da3bf34ad97c3ec1	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	観光協会運営事業/予算額	24872	千円	r3syuyouzigyounogaiyou p.6	✓	auto:ai	2026-11-06	
@@ -372,7 +372,7 @@ c74b5b26bad79c8c	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづく�
 3dd1c191125257d5	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	リサイクル促進事業/担当課	住民課		r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	
 6a9608fb2458497e	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/予算額	190676	千円	r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	
 c5e19c885c32727a	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/款	衛生費		r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	
-050700c14d482a74	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/担当課	住民課		r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+050700c14d482a74	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/担当課	住民課		r3syuyouzigyounogaiyou p.8	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r3syuyouzigyounogaiyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 4e5d180a6fa8082b	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	公園管理運営事業/予算額	55383	千円	r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	
 40bd77fd1f84ca5a	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	公園管理運営事業/款	土木費		r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	
 e07e0ec42e7d7dbc	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	公園管理運営事業/担当課	建設計画課		r3syuyouzigyounogaiyou p.8	✓	auto:ai	2026-11-06	
@@ -454,7 +454,7 @@ a0726cc2a9e86ddf	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	
 8593a6f4e918d372	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	消防設備等補助事業/担当課	総務課		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 3aa7c67fafebed16	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	防災活動事業/予算額	16315	千円	r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 52e3b6af52316060	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	防災活動事業/款	消防費		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
-0b68e533417e9e22	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防災活動事業/担当課	総務課		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+0b68e533417e9e22	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防災活動事業/担当課	総務課		r3syuyouzigyounogaiyou p.10	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r3syuyouzigyounogaiyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 71c8084773c26675	fuhyo	4	fuhyo.count	柱4 住みたくなる都市基盤づくり	事業数	24	件	r3syuyouzigyounogaiyou p.8-10	✓	auto:ai	2026-11-06	
 4eb98ac576d3998a	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	議会運営事業/予算額	8267	千円	r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 c3aa93bb62e2953f	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	議会運営事業/款	議会費		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
@@ -475,7 +475,7 @@ fc4c712a0f8f2739	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり
 ca4861323adbc46b	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	「すまいる・あくしょん」推進事業/款	総務費		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 53fc48b3f33d62be	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	「すまいる・あくしょん」推進事業/担当課	企画振興課		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 8dd86a775e3e9007	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	「すまいる・あくしょん」推進事業/区分	新規		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
-321c6dacbd0f1fa0	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報管理事業/予算額	87463	千円	r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+321c6dacbd0f1fa0	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報管理事業/予算額	87463	千円	r3syuyouzigyounogaiyou p.10	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r3syuyouzigyounogaiyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 47eef2e4ce6c767f	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	情報管理事業/款	総務費		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 5ea2bc020c312543	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	情報管理事業/担当課	総務課		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	
 88d6ef78b9a3ce56	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	情報管理事業/区分	新規		r3syuyouzigyounogaiyou p.10	✓	auto:ai	2026-11-06	

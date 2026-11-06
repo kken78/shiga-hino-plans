@@ -408,7 +408,7 @@ b640985fa1254c91	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづく
 405d451996ca046e	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/予算額	223010	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
 d94c2ddfd5ad124b	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
 622782d276e130cb	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
-0f242034959736da	fuhyo	3	fuhyo.count	柱3 安心、助け合いのくらしづくり	事業数	42	件	r5omonajigi p.6-8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+0f242034959736da	fuhyo	3	fuhyo.count	柱3 安心、助け合いのくらしづくり	事業数	42	件	r5omonajigi p.6-8	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r5omonajigi.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 4432c41b3ae248ac	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	路線バス対策事業/予算額	77526	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
 180a80870e2afc3c	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	路線バス対策事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
 e2b8471b5143fb0b	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	路線バス対策事業/担当課	企画振興課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
@@ -427,7 +427,7 @@ f8412259e00769a6	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり
 17ef36b6760e4078	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/予算額	319	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
 8f177abce0b455fc	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
 990e4b32d5ab85b9	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
-0235523b12480156	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/予算額	866	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+0235523b12480156	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/予算額	866	千円	r5omonajigi p.8	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r5omonajigi.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 06278aae81a4747e	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
 6484adb3b8bbcc69	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/担当課	上下水道課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
 979c3c474516a3bd	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	浄化槽維持管理事業/予算額	1404	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
@@ -505,7 +505,7 @@ b32e541984dd0cb5	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	
 34b7beb594573e87	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	企画事務事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
 51e7ec972415b7e2	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/予算額	112238	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
 4607a89176692500	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
-b07739b1dd54aabf	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/担当課	企画振興課・農林課・住民課・商工観光課・生涯学習課・子ども支援課		r5omonajigi p.10	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+b07739b1dd54aabf	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/担当課	企画振興課・農林課・住民課・商工観光課・生涯学習課・子ども支援課		r5omonajigi p.10	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r5omonajigi.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 fe1da4fb69d6a242	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報管理事業/予算額	26763	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
 5de4f120790f35d4	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	情報管理事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
 43f229f8c8d96446	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	情報管理事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	

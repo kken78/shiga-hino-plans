@@ -26,7 +26,7 @@ a08db0d4a80ed6f3	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	児童虐
 209ecf078bba073e	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	公立保育所運営事業/担当課	子ども支援課		r4-tousho-omonajigyou p.1	✓	auto:ai	2026-11-06	
 b1819de4847d505c	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	認定こども園運営事業/予算額	14560	千円	r4-tousho-omonajigyou p.1	✓	auto:pdftext	2026-11-06	
 a5d74145dd698a5a	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	認定こども園運営事業/款	民生費		r4-tousho-omonajigyou p.1	✓	auto:pdftext	2026-11-06	
-04c97caf2f020484	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	認定こども園運営事業/担当課	子ども支援課		r4-tousho-omonajigyou p.1	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+04c97caf2f020484	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	認定こども園運営事業/担当課	子ども支援課		r4-tousho-omonajigyou p.1	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r4-tousho-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 4c278eb5ed333fa6	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	私立保育園運営事業/予算額	241274	千円	r4-tousho-omonajigyou p.1	✓	auto:pdftext	2026-11-06	
 ed3c51738f698da9	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	私立保育園運営事業/款	民生費		r4-tousho-omonajigyou p.1	✓	auto:pdftext	2026-11-06	
 86e6201f779572c9	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	私立保育園運営事業/担当課	子ども支援課		r4-tousho-omonajigyou p.1	✓	auto:ai	2026-11-06	
@@ -258,7 +258,7 @@ fe7c59892696680a	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり
 74ef08173a6ded57	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	住宅リフォーム促進事業/款	商工費		r4-tousho-omonajigyou p.6	✓	auto:ai	2026-11-06	
 b25604e2573ebcb4	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	住宅リフォーム促進事業/担当課	商工観光課		r4-tousho-omonajigyou p.6	✓	auto:ai	2026-11-06	
 f763275e2f53d0f7	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	観光協会運営事業/予算額	17579	千円	r4-tousho-omonajigyou p.6	✓	auto:ai	2026-11-06	
-001e7e6c50239c0b	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	観光協会運営事業/款	商工費		r4-tousho-omonajigyou p.6	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+001e7e6c50239c0b	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	観光協会運営事業/款	商工費		r4-tousho-omonajigyou p.6	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r4-tousho-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 3e285d36a9a830d5	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	観光協会運営事業/担当課	商工観光課		r4-tousho-omonajigyou p.6	✓	auto:ai	2026-11-06	
 d529148d70964ea7	fuhyo	2	fuhyo.count	柱2 暮らしを支えるしごとづくり	事業数	35	件	r4-tousho-omonajigyou p.4-6	✓	auto:ai	2026-11-06	
 0e4608f86aea9f3a	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	民生委員児童委員活動事業/予算額	8815	千円	r4-tousho-omonajigyou p.6	✓	auto:ai	2026-11-06	
@@ -377,7 +377,7 @@ a212e02d178d6925	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづく�
 a86274c20afaf776	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	八日市布引ライフ組合負担金/担当課	住民課		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 b8ef821f3799d910	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	ごみ収集事業/予算額	82207	千円	r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 869e5a9f3533e96c	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	ごみ収集事業/款	衛生費		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
-02ccecfb46a91c97	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ収集事業/担当課	住民課		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+02ccecfb46a91c97	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ収集事業/担当課	住民課		r4-tousho-omonajigyou p.8	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r4-tousho-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 1018730e172698cf	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	ごみ集積施設設置事業/予算額	720	千円	r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 95a502e0134fdab5	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	ごみ集積施設設置事業/款	衛生費		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 235f8ae245a0dc7b	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ集積施設設置事業/担当課	住民課		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
@@ -395,7 +395,7 @@ bd55a63d764f847f	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	
 280a8bb4a4f57899	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	交通安全対策事業/款	総務費		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 2680189e517537e9	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	交通安全対策事業/担当課	住民課		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 5efeb8d9335f0e80	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/予算額	11236	千円	r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
-154d5eb6b62b127d	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/款	総務費		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+154d5eb6b62b127d	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/款	総務費		r4-tousho-omonajigyou p.8	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r4-tousho-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 43fc4af61b44dacb	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/担当課	建設計画課		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 cc248ccd9ba35585	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	街灯設置補助事業/予算額	532	千円	r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
 ef456bb930525e8c	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	街灯設置補助事業/款	総務費		r4-tousho-omonajigyou p.8	✓	auto:ai	2026-11-06	
@@ -468,7 +468,7 @@ be2714b6ae7d76a1	fuhyo	4	fuhyo.count	柱4 住みたくなる都市基盤づく�
 948e4cdf3a3e10aa	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	議会運営事業/予算額	8492	千円	r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	
 57087cbf517e213b	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	議会運営事業/款	議会費		r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	
 6229015f8905852c	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	議会運営事業/担当課	議会事務局		r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	
-113688e093ec9522	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	人事管理事業/予算額	21323	千円	r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+113688e093ec9522	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	人事管理事業/予算額	21323	千円	r4-tousho-omonajigyou p.10	✓	kken78	2026-11-06	要人確認:H4 難しさ0点 / 原典 r4-tousho-omonajigyou.pdf の該当ページの切り出し画像で一致を確認(依頼者が会話で明言)
 2b44b250e2b82706	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	人事管理事業/款	総務費		r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	
 e3e138cd23f6cc46	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	人事管理事業/担当課	総務課		r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	
 dc597bed2fdbc877	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報発信事業/予算額	10926	千円	r4-tousho-omonajigyou p.10	✓	auto:ai	2026-11-06	

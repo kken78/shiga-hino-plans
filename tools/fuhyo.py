@@ -157,7 +157,7 @@ HEADS = ["款", "事業名", "事業概要", "予算額", "担当課"]   # 表�
 AMOUNT_RE = re.compile(r"\d{1,3}(?:,\d{3})*")             # 予算額の列の数字(原典の表記「109,836」)
 TOL = 1.5          # 列の端の位置の許し(pt)
 SAME_NAME = re.compile(r"\(同じ名前の\d+件目\)$")
-ITEM_FIELD = {"fuhyo.kan": "kan", "fuhyo.dept": "dept", "fuhyo.kubun": "kubun"}
+DEPT_END = ("課", "局", "館")   # 担当課の名前の終わりの字。令和3〜8年度の附表の課名から取った。別の字で終わる課名が出たら足す
 
 
 def _squash(s):
@@ -170,8 +170,11 @@ class Layout:
     列: 表の見出しの行(款・事業名・事業概要・予算額・担当課)がある最初のページで、見出しの語の中心より左の範囲に
         最も多く現れる語の左端を、その列の文字の左端とする(予算額は、カンマ付きの数字の最も多い右端)。附表は
         全ページで列の位置が同じ(Excel から作った表)とみなす。款の列より左は区分の印の列。
-    行: ページの頭の行(文書名)と、表の見出しの行から上は表の外。予算額の列の数字を上から並べ、隣り合う数字の
-        高さの中点を行の境目とする。各列の語は、高さの中心が入る行に属し、行の中では上から順につなげる。"""
+    柱: 表の見出しの行は1ページに幾つあってもよく、柱の区切りとする。そのすぐ上の行(表の見出しの行より上で最も下にある語と
+        高さが重なる語。柱の見出し「2. 暮らしを支えるしごとづくり」と「(千円)」)が柱の見出しで、柱の見出しの上端から
+        表の見出しの行の下端までは表の外。ページの頭の行(文書名)から最初の柱の見出しまでの行は、前のページから続く柱に属する。
+    行: ページの頭の行も表の外。柱の見出しで区切った範囲ごとに、予算額の列の数字を上から並べ、隣り合う数字の高さの中点を
+        行の境目とする。各列の語は、高さの中心が入る行に属し、行の中では上から順につなげる。"""
 
     def __init__(self, bbox_html):
         self.pages = []   # [(幅, 高さ, [(x0, y0, x1, y1, 語)])]
@@ -180,8 +183,8 @@ class Layout:
             words = [(float(a), float(b), float(c), float(d), html.unescape(w))
                      for a, b, c, d, w in WORD_RE.findall(chunk)]
             self.pages.append((float(m.group(1)), float(m.group(2)), words) if m else (0.0, 0.0, words))
-        self.head = [self._head_row(ws) for _, _, ws in self.pages]
-        first = next((h for h in self.head if h), None)
+        self.heads = [self._head_rows(ws) for _, _, ws in self.pages]
+        first = next((h[0] for h in self.heads if h), None)
         if first is None:
             raise ValueError("表の見出しの行(款・事業名・事業概要・予算額・担当課)が原典に見つからない")
         c = [(first[k][0] + first[k][2]) / 2 for k in HEADS]   # 見出しの語の中心
@@ -195,18 +198,20 @@ class Layout:
         self.desc = mode([w[0] for w in allw if c[1] < w[0] <= c[2]])
         self.dept = mode([w[0] for w in allw if c[3] < w[0] <= c[4]])
         self.amount = mode([w[2] for w in allw if c[2] < w[2] <= c[4] and AMOUNT_RE.fullmatch(w[4])])
-        self.rows = [self._rows(i) for i in range(len(self.pages))]
+        self.pillars = []   # 柱の見出し(附表の中の順)。[(ページの番号 0 始まり, 柱の見出しの文字)]
+        self.rows = [self._rows(i) for i in range(len(self.pages))]   # _rows が柱の見出しを self.pillars に足す
 
     @staticmethod
-    def _head_row(words):
-        """表の見出しの行。{語: その語} か None。"""
-        for w in words:
-            if w[4] != "予算額":
+    def _head_rows(words):
+        """表の見出しの行の一覧(上から)。[{語: その語}]"""
+        out = []
+        for w in sorted(words, key=lambda w: w[1]):
+            if w[4] != "予算額" or any(abs(h["予算額"][1] - w[1]) < 3 for h in out):
                 continue
             row = {x[4]: x for x in words if x[4] in HEADS and abs(x[1] - w[1]) < 3}
             if len(row) == len(HEADS):
-                return row
-        return None
+                out.append(row)
+        return out
 
     def col(self, w):
         x0, _, x1, _, s = w
@@ -219,49 +224,75 @@ class Layout:
                 return name
         return "kubun"
 
-    def top(self, i):
-        """表の上端(これより上は表の外)。見出しの行があればその下端、なければページの頭の行の下端。"""
+    def _first_line(self, i):
+        """ページの頭の行(文書名)の下端。"""
         words = self.pages[i][2]
-        if self.head[i]:
-            return max(w[3] for w in self.head[i].values())
         if not words:
             return 0.0
         y = min(w[1] for w in words)
         return max(w[3] for w in words if w[1] < y + 2)
 
-    def heading(self, i):
-        """表の見出しの行より上(ページの頭の行を除く)の文字。柱の見出しを探すのに使う。"""
-        if not self.head[i]:
-            return ""
+    def _band(self, i, head):
+        """柱の見出しの帯 (上端, 下端, 柱の見出しの文字)。上端は柱の見出しの行の上端、下端は表の見出しの行の下端。"""
         words = self.pages[i][2]
-        y = min(w[1] for w in words)
-        first = max(w[3] for w in words if w[1] < y + 2)
-        htop = min(w[1] for w in self.head[i].values())
-        return _squash("".join(w[4] for w in sorted(words, key=lambda w: (w[1], w[0])) if first <= w[1] < htop))
+        htop, hbot = min(w[1] for w in head.values()), max(w[3] for w in head.values())
+        above = [w for w in words if w[3] <= htop and w[1] >= self._first_line(i)]
+        if not above:
+            return htop, hbot, ""
+        low = max(above, key=lambda w: w[3])
+        line = [w for w in above if w[1] < low[3] and w[3] > low[1]]
+        top = min(w[1] for w in line)
+        return top, hbot, _squash("".join(w[4] for w in sorted(line, key=lambda w: (w[1], w[0]))))
 
     def _rows(self, i):
-        top = self.top(i)
-        words = [w for w in self.pages[i][2] if w[1] >= top]
-        amts = sorted((w for w in words if self.col(w) == "amount"), key=lambda w: (w[1] + w[3]) / 2)
-        ys = [(w[1] + w[3]) / 2 for w in amts]
-        cuts = [(a + b) / 2 for a, b in zip(ys, ys[1:])]
-        rows = [{"amount": w[4].replace(",", ""), "name": [], "kan": [], "dept": [], "kubun": [], "dept_y": set()}
-                for w in amts]
-        for w in sorted(words, key=lambda w: (w[1], w[0])):
-            c = self.col(w)
-            if c in ("amount", "desc") or not rows:
-                continue
-            yc = (w[1] + w[3]) / 2
-            k = sum(1 for x in cuts if yc >= x)
-            rows[k][c].append(w[4])
-            if c == "dept":
-                rows[k]["dept_y"].add(round(w[1]))
-        for r in rows:
-            for c in ("name", "kan", "dept"):
-                r[c] = _squash("".join(r[c]))
-            # 担当課のセルの行の数(課が複数ある事業と、1つの課名が折り返している事業は2以上)
-            r["dept_lines"] = len(r.pop("dept_y"))
+        words = self.pages[i][2]
+        bands = [self._band(i, h) for h in self.heads[i]]
+        # 柱の見出しで区切った範囲 (上端, 下端, 柱の番号)。最初の範囲は前のページから続く柱(附表の最初では柱なし = -1)
+        edges = [self._first_line(i)] + [y for t, b, _ in bands for y in (t, b)] + [float("inf")]
+        segs = []
+        for k in range(len(bands) + 1):
+            if k:
+                self.pillars.append((i, bands[k - 1][2]))
+            segs.append((edges[2 * k], edges[2 * k + 1], len(self.pillars) - 1))
+        rows = []
+        for lo, hi, pil in segs:
+            ws = [w for w in words if lo <= (w[1] + w[3]) / 2 < hi]
+            amts = sorted((w for w in ws if self.col(w) == "amount"), key=lambda w: (w[1] + w[3]) / 2)
+            ys = [(w[1] + w[3]) / 2 for w in amts]
+            cuts = [(a + b) / 2 for a, b in zip(ys, ys[1:])]
+            seg = [{"amount": w[4].replace(",", ""), "pillar": pil, "name": [], "kan": [], "dept": [], "kubun": []}
+                   for w in amts]
+            for w in sorted(ws, key=lambda w: (w[1], w[0])):
+                c = self.col(w)
+                if c in ("amount", "desc") or not seg:
+                    continue
+                k = sum(1 for x in cuts if (w[1] + w[3]) / 2 >= x)
+                seg[k][c].append(w)
+            for r in seg:
+                r["dept"] = _dept_list(r["dept"])
+                for c in ("name", "kan"):
+                    r[c] = _squash("".join(w[4] for w in r[c]))
+                r["kubun"] = [w[4] for w in r["kubun"]]
+            rows += seg
         return rows
+
+
+def _dept_list(words):
+    """担当課のセルの語(上から)を課の一覧にする。セルの行が課名の終わりの字(課・局・館)か「、」で終わらないときは、
+    次の行へ折り返しているとみなしてつなぐ。「、」は課の区切り。"""
+    lines = []
+    for w in words:
+        if lines and abs(lines[-1][0] - w[1]) < 2:
+            lines[-1][1].append(w[4])
+        else:
+            lines.append([w[1], [w[4]]])
+    out, cur = [], ""
+    for _, t in lines:
+        cur += _squash("".join(t))
+        if cur.endswith(DEPT_END + ("、",)):
+            out += [x for x in cur.split("、") if x]
+            cur = ""
+    return out + [x for x in cur.split("、") if x]
 
 
 def layout_of(src):
@@ -327,14 +358,16 @@ def stage1(rows, srcs, page_list):
         if bt == "fuhyo.count":
             a, b = pages[0], pages[-1]
             pname = _squash(r["block_label"].split(" ", 1)[1]) if " " in r["block_label"] else ""
-            if not lay.head[a - 1] or not pname or pname not in lay.heading(a - 1):
+            js = [j for j, (q, text) in enumerate(lay.pillars) if q == a - 1 and pname and pname in text]
+            if len(js) != 1:
                 res["why"] = "出典の最初のページに、この柱の見出しと表の見出しの行がない"
-            elif any(lay.head[q - 1] for q in range(a + 1, b + 1)):
-                res["why"] = "出典のページの範囲に、別の柱の始まりがある"
-            elif b < len(lay.pages) and not lay.head[b]:
-                res["why"] = "柱が出典のページの範囲の次のページに続いている"
+                continue
+            # 柱の行は、その柱の見出しから次の柱の見出しの前まで(ページをまたいでよい)
+            mine = [q for q, rs in enumerate(lay.rows, 1) for x in rs if x["pillar"] == js[0]]
+            if not mine or mine[-1] != b:
+                res["why"] = "柱の最後の行が出典のページの範囲の最後のページにない"
             else:
-                n = sum(len(lay.rows[q - 1]) for q in range(a, b + 1))
+                n = len(mine)
                 res.update(**{"pass": str(n) == r["value"]},
                            why="" if str(n) == r["value"] else f"柱の予算額の数が原典と違う(原典 {n})")
             continue
@@ -380,12 +413,12 @@ def stage1(rows, srcs, page_list):
         elif bt == "fuhyo.kubun":
             ok = row["kubun"] == r["value"].split("・")
             res.update(**{"pass": ok}, why="" if ok else "区分の印が原典の同じ行と違う")
-        elif bt == "fuhyo.dept" and row["dept_lines"] >= 2:
-            # 課の区切りとセルの幅での折り返しを見分けられないので、担当課のセルが2行以上の事業は段2に回す
-            res["why"] = "担当課のセルが2行以上(課の区切りと折り返しを段1では見分けられない)"
+        elif bt == "fuhyo.dept":
+            ok = row["dept"] == r["value"].split("・")
+            res.update(**{"pass": ok}, why="" if ok else "担当課が原典の同じ行と違う")
         else:
-            ok = row[ITEM_FIELD[bt]] == _squash("".join(r["value"].split("・")))
-            res.update(**{"pass": ok}, why="" if ok else f"{KIND[bt]}が原典の同じ行と違う")
+            ok = row["kan"] == _squash(r["value"])
+            res.update(**{"pass": ok}, why="" if ok else "款が原典の同じ行と違う")
     return out
 
 

@@ -1,0 +1,536 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+5496c6ea8fff40f7	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	県単独福祉医療費助成事業/予算額	111570	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+673bf8e24d4509b3	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	県単独福祉医療費助成事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+26b3a5b7968eeba9	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	県単独福祉医療費助成事業/担当課	住民課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+131aebcdce19e520	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	町単独福祉医療費助成事業/予算額	81529	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+eea5c43f5a2dcd38	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	町単独福祉医療費助成事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+c1a3cb43c77df16f	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	町単独福祉医療費助成事業/担当課	住民課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+d53430480d1acd49	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	町単独福祉医療費助成事業/区分	拡充		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+095f78ca519d7d53	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	児童福祉事務事業/予算額	4063	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+8e46e6ea27e06208	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	児童福祉事務事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+d90a99d99a90356c	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	児童福祉事務事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+d777b6b43fdc4eb2	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	児童健全育成事業/予算額	207356	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+2eef69f641db7bba	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	児童健全育成事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+c79c395ea76af8f5	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	児童健全育成事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+84f69b72885c7f76	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	児童健全育成事業/区分	新規		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+4992159b430a75d2	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	地域子育て支援事業/予算額	14771	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+1eb2e679526df892	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	地域子育て支援事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+fbbaadc97b7610d4	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	地域子育て支援事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+eebcfc74fa22b948	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	早期療育事業/予算額	4034	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+8d37d10426f26650	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	早期療育事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+5191a42267a27c60	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	早期療育事業/担当課	福祉保健課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+60911be3ab908d2a	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	児童虐待防止対策事業/予算額	747	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+c2dabaf937a3a672	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	児童虐待防止対策事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+ba70363bd036d3b6	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	児童虐待防止対策事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+764199db947204bf	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	公立保育所運営事業/予算額	39083	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+1286c2044cecef73	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	公立保育所運営事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+0d9d01b084e2ef55	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	公立保育所運営事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+80d974a2cb376993	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	認定こども園運営事業/予算額	15838	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+ae07bd217b0a562a	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	認定こども園運営事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+976b71386117b737	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	認定こども園運営事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+722722df434a29be	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	私立保育園運営事業/予算額	243858	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+c40abc0038389717	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	私立保育園運営事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+b0cc3b8a026f687b	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	私立保育園運営事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+b91f83ecbee1cc43	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	児童手当支給事業/予算額	334132	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+212a6c996ad11b35	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	児童手当支給事業/款	民生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+e186703d09d2e71e	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	児童手当支給事業/担当課	子ども支援課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+76bbc2fa1cc52fa9	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	母子保健相談事業/予算額	11217	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+b4a8a348405ff4bc	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	母子保健相談事業/款	衛生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+48e3d63f31748e52	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	母子保健相談事業/担当課	福祉保健課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+3ccdd5a48fed5783	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	乳幼児健診事業/予算額	5809	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+c65f6acebe1f709c	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	乳幼児健診事業/款	衛生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+5c2f66e7620d92ea	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	乳幼児健診事業/担当課	福祉保健課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+55ecf6a7da562ddb	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	乳幼児健診事業/区分	拡充		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+a9278cc4f618310b	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	母子保健助成事業/予算額	15280	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+5ba72762902942c4	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	母子保健助成事業/款	衛生費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+81777a0bd7e1133d	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	母子保健助成事業/担当課	福祉保健課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+ee8a15acc4eae7d8	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	定住宅地整備事業/予算額	33109	千円	r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+e6a0c8fb2cd77bdc	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	定住宅地整備事業/款	土木費		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+33caf87ac0daeb14	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	定住宅地整備事業/担当課	建設計画課		r5omonajigi p.1	✓	auto:pdftext	2026-11-06	
+2b8e33c17777d220	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	事務局運営事業/予算額	22975	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+6b1d151f935e1a2c	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	事務局運営事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+86f8f6406c1d5bdc	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	事務局運営事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+936384b1c8e2bac3	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	教育相談・子ども支援活動事業/予算額	1831	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+d9f78c727fbd6225	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	教育相談・子ども支援活動事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+500c4942de9d482d	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	教育相談・子ども支援活動事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+82755f2ed1b72c56	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	奨学資金貸付事業/予算額	1200	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+7791e3355def0733	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	奨学資金貸付事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+f2bced065cf9b44b	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	奨学資金貸付事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+86b8a0806ce9b511	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	奨学金返還支援事業/予算額	600	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+3e83c2bf4af24918	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	奨学金返還支援事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+b939ff9e238fc62b	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	奨学金返還支援事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+bd819cddee830ebc	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	奨学金返還支援事業/区分	新規		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+d60de42f791cd80b	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	幼稚園管理運営事業/予算額	13305	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+0c0c00220f785547	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	幼稚園管理運営事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+7d49b6cbfc3f8025	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	幼稚園管理運営事業/担当課	子ども支援課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+dcfb5fa6ac1d705e	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	幼稚園教育振興事業/予算額	2343	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+d58915ec70d47f1b	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	幼稚園教育振興事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+c05d35fe5cace834	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	幼稚園教育振興事業/担当課	子ども支援課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+cf8fd11722496a43	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校管理運営事業/予算額	78691	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+d7bdb0baedd2080c	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校管理運営事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+9f303199f0d7132e	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校管理運営事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+cc05ca3150e5ebc0	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	小学校管理運営事業/区分	新規		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+8361d20de1aa9433	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校教育振興事業/予算額	38876	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+2b7373d8eaa246f6	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校教育振興事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+c42d839309bbeedd	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校教育振興事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+c064b8197c46e3fc	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	小学校教育振興事業/区分	新規		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+7cc6af05eb1029c6	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	会計年度任用職員人件費（小学校教育振興費）/予算額	27011	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+366ff0e0688cea0a	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	会計年度任用職員人件費（小学校教育振興費）/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+ae4afbe1a7a7278d	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	会計年度任用職員人件費（小学校教育振興費）/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+f507bef29ac2f97f	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校就学援助事業/予算額	11688	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+23becadad1a62f87	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校就学援助事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+b045de9ba206596d	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校就学援助事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+ce013499a3a44c8a	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校遠距離通学助成事業/予算額	38883	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+3bdbede1c617d1bf	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校遠距離通学助成事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+031ce6d58a9f05c8	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校遠距離通学助成事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+77d5acd565a0c702	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校修学旅行助成事業/予算額	477	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+ab0ff5d735a77f48	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校修学旅行助成事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+63817c0239f519f9	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校修学旅行助成事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+298797cea5d05e9c	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	小学校フリースクール利用助成事業/予算額	350	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+2cedff30ee3f0a93	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	小学校フリースクール利用助成事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+374d9e9bf047d61b	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	小学校フリースクール利用助成事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+7ea5af4002263e68	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	小学校フリースクール利用助成事業/区分	新規		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+5c08aa25cf57ae45	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	中学校管理運営事業/予算額	29065	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+195820cc03d6f4b0	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	中学校管理運営事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+32548bc65fc7ecd4	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	中学校管理運営事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+a59e38ceaba1f808	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	中学校教育振興事業/予算額	17437	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+729109437e02e1cc	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	中学校教育振興事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+718562dcd50fe163	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	中学校教育振興事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+ac0adc0b85d5021e	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	中学校教育振興事業/区分	新規		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+26318ec96803d26f	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	会計年度任用職員人件費（中学校教育振興費）/予算額	12249	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+720595942215aa1f	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	会計年度任用職員人件費（中学校教育振興費）/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+eebe8262abe53dd8	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	会計年度任用職員人件費（中学校教育振興費）/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+1ae8559fcad0aba9	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	中学校就学援助事業/予算額	9354	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+96b50660e5566c4d	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	中学校就学援助事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+d8dfcf3d751a6b50	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	中学校就学援助事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+ba03fcabbcef340b	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	中学校修学旅行助成事業/予算額	770	千円	r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+dd80c61de0c6e5d2	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	中学校修学旅行助成事業/款	教育費		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+624577b4c9fe84e3	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	中学校修学旅行助成事業/担当課	学校教育課		r5omonajigi p.2	✓	auto:pdftext	2026-11-06	
+c6d0691c7dfd35c9	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	中学校クラブ活動育成事業/予算額	3000	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+e070d3e818449428	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	中学校クラブ活動育成事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+cf340c4a9f9fcdd4	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	中学校クラブ活動育成事業/担当課	学校教育課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+5ef4ef91a00d413c	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	中学校フリースクール利用助成事業/予算額	200	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+0f26e7faf0e9a92b	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	中学校フリースクール利用助成事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+d0ef9cc58b5fc3d9	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	中学校フリースクール利用助成事業/担当課	学校教育課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+4d725de705b63353	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	中学校フリースクール利用助成事業/区分	新規		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+75eeab49b42aa1d4	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	社会教育総務事務事業/予算額	4097	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+6d5bafebb11d0c4d	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	社会教育総務事務事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+75d7cd72f7a39208	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	社会教育総務事務事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+5fbf7fabe7f7a7a9	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	社会教育団体育成事業/予算額	1277	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+c918a642754c6548	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	社会教育団体育成事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+69a8235b270d33b8	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	社会教育団体育成事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+60a17afb4cb9f713	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	青少年育成地域活動支援事業/予算額	1394	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+a2ee2f99a64503d9	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	青少年育成地域活動支援事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+ed38049618889cf8	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	青少年育成地域活動支援事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+9b9027fea4a36590	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	子ども読書活動推進事業/予算額	887	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+50bb0185996f99cb	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	子ども読書活動推進事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+4f268a3b6799cb7b	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	子ども読書活動推進事業/担当課	図書館		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+ad39415974a27f64	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	家庭教育支援事業/予算額	953	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+8206b7877b97f202	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	家庭教育支援事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+551d5f946adcc5f4	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	家庭教育支援事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+b7bdb1d6d98f86b3	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	民俗資料館運営事業/予算額	708	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+eefd5489dea740ec	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	民俗資料館運営事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+8efc9e8445948960	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	民俗資料館運営事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+7565f1cc1f81919c	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	文化財保護事務事業/予算額	3293	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+52b48ca0d7e20e72	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	文化財保護事務事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+2ecc336d9fa0cdba	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	文化財保護事務事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+fa5c238c5aa7f3cb	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	文化財保護事務事業/区分	新規		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+e8650ea2af9eaacb	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	文化財保存事業/予算額	7116	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+99fb259fbc9f92b0	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	文化財保存事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+5bee912359bc1ea3	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	文化財保存事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+9ed90c34289fa853	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	文化財保存事業/区分	新規		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+0e0e3ca4eba85d1f	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	近江日野商人ふるさと館運営事業/予算額	752	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+b105abedbf3e1638	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	近江日野商人ふるさと館運営事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+2509ff19869b6a90	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	近江日野商人ふるさと館運営事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+91d3cc4a52dd89cb	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	人権教育推進事業/予算額	2377	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+4d0f6a1c11ee0bed	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	人権教育推進事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+1bf9a5a641d9c0c7	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	人権教育推進事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+6da437ad7e276694	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	図書館運営事業/予算額	17961	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+6fe80d69f369b6e5	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	図書館運営事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+3e2ffae6de6482e5	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	図書館運営事業/担当課	図書館		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+f7244d1a5ac1bf84	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	図書館管理事業/予算額	11521	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+d0a3176ec34559f6	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	図書館管理事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+9d2cff338d0139b0	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	図書館管理事業/担当課	図書館		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+024795d71b50cbd0	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	図書館管理事業/区分	新規		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+f86a9723f8e53a96	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	文化振興事業/予算額	105897	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+875d5e198fef3a02	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	文化振興事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+53aba697d259e9d3	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	文化振興事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+71d45af1e2e82891	fuhyo	1	fuhyo.kubun	柱1 未来を担うひとづくり	文化振興事業/区分	新規		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+12a456b4b64ec15a	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	スポーツ振興事業/予算額	4154	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+4f5e496475fc1302	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	スポーツ振興事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+84ded322c803d9aa	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	スポーツ振興事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+9a034d3ecc954a4a	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	スポーツ協会活動事業/予算額	2797	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+207eefdc64075957	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	スポーツ協会活動事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+9e2d53e380d2be00	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	スポーツ協会活動事業/担当課	生涯学習課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+94d8dc968a696e75	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	学校給食事業/予算額	100182	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+66955fc345f78961	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	学校給食事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+7a2b032d71c941e8	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	学校給食事業/担当課	学校教育課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+58175a90c99f4962	fuhyo	1	fuhyo.amount	柱1 未来を担うひとづくり	学校給食運営事業/予算額	14719	千円	r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+2d15e7177772350b	fuhyo	1	fuhyo.kan	柱1 未来を担うひとづくり	学校給食運営事業/款	教育費		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+8bfa4174e5fbb823	fuhyo	1	fuhyo.dept	柱1 未来を担うひとづくり	学校給食運営事業/担当課	学校教育課		r5omonajigi p.3	✓	auto:pdftext	2026-11-06	
+0e08f9d2d351dd7f	fuhyo	1	fuhyo.count	柱1 未来を担うひとづくり	事業数	52	件	r5omonajigi p.1-3	✓	auto:pdftext	2026-11-06	
+be8cc44d814f5725	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	労働対策事務事業/予算額	2195	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+7c70ee6f70b325c9	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	労働対策事務事業/款	労働費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+680a7951e57f6e12	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	労働対策事務事業/担当課	商工観光課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+12ad7bc12c201e03	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	労働対策事務事業/区分	新規		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+c58d58999624d846	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	シルバー人材センター運営事業/予算額	9330	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+167acc644c462c27	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	シルバー人材センター運営事業/款	労働費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+e2ec2c4a35f06dbc	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	シルバー人材センター運営事業/担当課	商工観光課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+df88d3905d182c6c	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	シルバー人材センター運営事業/区分	拡充		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+304d30067fd53826	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	勤労福祉会館管理運営事業/予算額	9591	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+4483afa9dcf87d77	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	勤労福祉会館管理運営事業/款	労働費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+db4fd5661b896ce7	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	勤労福祉会館管理運営事業/担当課	福祉保健課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+e2fd762c3a7e22c6	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	勤労福祉会館管理運営事業/区分	新規		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+57629b20f8df27fa	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	農業委員会運営事業/予算額	13961	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+401e2e56fd862297	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	農業委員会運営事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+80165b3f04190e97	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	農業委員会運営事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+3d9228298a3f6666	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	特産農産物振興事業/予算額	3908	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+b20a8d7dbb2626c5	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	特産農産物振興事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+fb62c034eb8f916d	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	特産農産物振興事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+497f8d7c3b63fddd	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	水田農業推進対策事業/予算額	8268	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+4363b6d5665b842b	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	水田農業推進対策事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+8a084c34996426f5	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	水田農業推進対策事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+e49c93ff551b7880	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	担い手育成対策事業/予算額	7751	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+22b3b73f1adb642d	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	担い手育成対策事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+f140a4c19a0ed779	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	担い手育成対策事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+53c4a5356b6605f3	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	有害鳥獣駆除事業/予算額	19369	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+c7b105d71b9dcce6	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	有害鳥獣駆除事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+eb70ecc84de5051c	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	有害鳥獣駆除事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+80fa02dc66442051	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	環境保全型農業直接支援対策事業/予算額	21112	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+02b856f0e4dfbb9e	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	環境保全型農業直接支援対策事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+07d091aa0304e996	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	環境保全型農業直接支援対策事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+3a680f652a1e8c8d	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	農地中間管理事業/予算額	480	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+f3a2d569672dc9dc	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	農地中間管理事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+18177ac8b8813c13	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	農地中間管理事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+081616b25a437f72	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	収入保険加入推進事業/予算額	450	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+c4d08feabd4e871e	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	収入保険加入推進事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+b86178b3fa6e8bdd	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	収入保険加入推進事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+954b35661247dc66	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	土地改良事務事業/予算額	1233	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+dbe9d2d48bb1c537	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	土地改良事務事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+58c47e903a20652a	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	土地改良事務事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+e7b6c7ac83d327b5	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	農道維持管理事業/予算額	4433	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+d708ea9a7f4e719a	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	農道維持管理事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+2cb96ac1683fdf70	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	農道維持管理事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+5f16e794f0b0081a	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	日野町土地改良区運営事業/予算額	3458	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+37d3df0f5dcc8148	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	日野町土地改良区運営事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+d67f9037368f8c16	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	日野町土地改良区運営事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+b8a946e82c32d126	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	甲蒲土地改良区補助事業/予算額	1105	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+0eb1ce7fb140b6d7	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	甲蒲土地改良区補助事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+7d81c5e798f5458e	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	甲蒲土地改良区補助事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+c5319e70258d4467	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	日野川流域土地改良区運営事業/予算額	9015	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+9c69002dce58dc20	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	日野川流域土地改良区運営事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+ccf904b0ce71f231	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	日野川流域土地改良区運営事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+b1e76a7c35a45d5f	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	町単独土地改良事業/予算額	135	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+c9e074c9f342e2d7	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	町単独土地改良事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+3cb117b7ec8f8908	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	町単独土地改良事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+9baa8609030a6d38	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	日野川基幹水利施設管理事業/予算額	76204	千円	r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+ec9f6c79d035c694	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	日野川基幹水利施設管理事業/款	農林水産業費		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+dd7568693ec30559	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	日野川基幹水利施設管理事業/担当課	農林課		r5omonajigi p.4	✓	auto:pdftext	2026-11-06	
+060d0e02d04b3e99	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	水利施設管理強化事業/予算額	16042	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+d6dcc2aa4bea2b8f	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	水利施設管理強化事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+d259484ce433c19b	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	水利施設管理強化事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+15b964e80030a0fd	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	団体営農業用河川工作物応急対策事業/予算額	75100	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+0b099f9d7f900690	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	団体営農業用河川工作物応急対策事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+6c908a9f018ee3ef	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	団体営農業用河川工作物応急対策事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+4d1b6e4ad7593e6b	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	団体営農業用河川工作物応急対策事業/区分	新規		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+64d6514d5d83ba4f	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	農地耕作条件改善事業/予算額	27885	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+d6dc7290c31f2224	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	農地耕作条件改善事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+1f14b58cfcd17b13	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	農地耕作条件改善事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+22397d2982300757	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	農業水路等長寿命化事業/予算額	7100	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+3d516f7140f9c9b9	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	農業水路等長寿命化事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+934338eb2380a04d	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	農業水路等長寿命化事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+bb9ff6d3072fe0e3	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	多面的機能支払交付金事業/予算額	51614	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+042c10693d993cfb	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	多面的機能支払交付金事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+a5f1564bf73c41af	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	多面的機能支払交付金事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+835368c23fa5e3be	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	中山間地域等直接支払交付金事業/予算額	7153	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+55590cfd934f3729	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	中山間地域等直接支払交付金事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+451db1e9bed8fb9f	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	中山間地域等直接支払交付金事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+9af2a2065ef6aab2	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	グリム冒険の森管理運営事業/予算額	14637	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+05e04622842c679e	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	グリム冒険の森管理運営事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+4512745a07c6727b	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	グリム冒険の森管理運営事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+6aac5752a0ebf259	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	県単独造林間伐事業/予算額	204	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+a5da4af21b694ccb	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	県単独造林間伐事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+1d70fe534a201f7d	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	県単独造林間伐事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+df93a4bc62cf71d6	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	町単独林道・作業道整備事業/予算額	750	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+26e12f5508a39d42	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	町単独林道・作業道整備事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+fe76733a8b521f3c	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	町単独林道・作業道整備事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+a8b911c19fbd5c84	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	里山整備事業/予算額	270	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+16c779c8f42c7181	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	里山整備事業/款	農林水産業費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+1603001381a04905	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	里山整備事業/担当課	農林課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+16417cf9de5372df	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	商工振興事務事業/予算額	6778	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+fa8d2872b53ff4a2	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	商工振興事務事業/款	商工費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+2fe52dda1d6a8c5d	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	商工振興事務事業/担当課	商工観光課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+29c863b7de4dc6db	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	商工振興事務事業/区分	新規		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+be7e398d19bd8ba5	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	商工会運営事業/予算額	16175	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+b7a777a339cfeb7f	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	商工会運営事業/款	商工費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+c954f77537358374	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	商工会運営事業/担当課	商工観光課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+93a366288075197b	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/予算額	29300	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+65bf93e1d9af7ed7	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/款	商工費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+bf6196e5a64dc256	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/担当課	商工観光課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+e006a1e97be88928	fuhyo	2	fuhyo.kubun	柱2 暮らしを支えるしごとづくり	ふるさと応援寄附事業/区分	拡充		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+6cdd151cb3b5018c	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	住宅リフォーム促進事業/予算額	7600	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+18962a9a54f300d3	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	住宅リフォーム促進事業/款	商工費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+f83551d70740788a	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	住宅リフォーム促進事業/担当課	商工観光課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+f1ae57f6b46baf31	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	観光協会運営事業/予算額	15389	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+1c29ec820f818b61	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	観光協会運営事業/款	商工費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+22edcb5c0cfb6c3e	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	観光協会運営事業/担当課	商工観光課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+b38fb17b1f406029	fuhyo	2	fuhyo.amount	柱2 暮らしを支えるしごとづくり	観光PR推進事業/予算額	1171	千円	r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+08b791059ea7dbaf	fuhyo	2	fuhyo.kan	柱2 暮らしを支えるしごとづくり	観光PR推進事業/款	商工費		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+41bf69fca149c6f4	fuhyo	2	fuhyo.dept	柱2 暮らしを支えるしごとづくり	観光PR推進事業/担当課	商工観光課		r5omonajigi p.5	✓	auto:pdftext	2026-11-06	
+e558b185097518b0	fuhyo	2	fuhyo.count	柱2 暮らしを支えるしごとづくり	事業数	34	件	r5omonajigi p.4-5	✓	auto:pdftext	2026-11-06	
+b2bb020074ec03ba	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	民生委員児童委員活動事業/予算額	8693	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+6d1bb84cc3298fae	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	民生委員児童委員活動事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+2b6e8a0c56deb1b1	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	民生委員児童委員活動事業/担当課	福祉保健課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+12724e399964bc1b	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	社会福祉協議会運営事業/予算額	39614	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+e9e0dad45a9d46d8	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	社会福祉協議会運営事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+aa5f70eefc64e595	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	社会福祉協議会運営事業/担当課	福祉保健課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+3cb394e14641b3e7	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	社会福祉協議会活動事業/予算額	9387	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+cf589785f728d980	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	社会福祉協議会活動事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+21cec3b60f3fd109	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	社会福祉協議会活動事業/担当課	福祉保健課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+908645f132827375	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	路線バス福祉対策事業/予算額	7442	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+1b6d53280652981a	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	路線バス福祉対策事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+4089ce72f96acbe3	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	路線バス福祉対策事業/担当課	福祉保健課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+f01a2a923a18154a	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	福祉バス運行事業/予算額	14400	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+32171a8159c6aa5f	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	福祉バス運行事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+a5926687d379e38b	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	福祉バス運行事業/担当課	福祉保健課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+f7b44fef0c7c5596	fuhyo	3	fuhyo.kubun	柱3 安心、助け合いのくらしづくり	福祉バス運行事業/区分	新規		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+d200402209d98d91	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	国民健康保険特別会計繰出金/予算額	152950	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+dbfa8847e9009c09	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	国民健康保険特別会計繰出金/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+4ce61677f7cad526	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	国民健康保険特別会計繰出金/担当課	住民課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+1519355f8af0d4bc	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	老人クラブ活動事業/予算額	3116	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+2e54f59be7685cad	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	老人クラブ活動事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+e100f829e3b6bd23	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	老人クラブ活動事業/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+82b99f4f1538d1a3	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	老人福祉施設入所措置事業/予算額	4100	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+b08721f2996b318d	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	老人福祉施設入所措置事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+ec2d324bb23de85a	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	老人福祉施設入所措置事業/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+beb4db1eacd8cded	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	敬老祝金支給事業/予算額	1892	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+85d5130f3066ec57	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	敬老祝金支給事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+7b93b927e40b8485	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	敬老祝金支給事業/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+279041ddcd4f0070	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	在宅高齢者福祉推進支援事業/予算額	1182	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+b03678ccd84b0d15	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	在宅高齢者福祉推進支援事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+a954f4afbf96c3e1	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	在宅高齢者福祉推進支援事業/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+b98dd57c11025a35	fuhyo	3	fuhyo.kubun	柱3 安心、助け合いのくらしづくり	在宅高齢者福祉推進支援事業/区分	拡充		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+bef7954f16c8f38c	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	高齢者住宅小規模改造助成事業/予算額	999	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+f1eca113aca4bdc6	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	高齢者住宅小規模改造助成事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+19529504f8a96dfd	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	高齢者住宅小規模改造助成事業/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+43f7193726adc235	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	高齢者生活支援事業/予算額	238	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+1f9b0314ffa5467f	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	高齢者生活支援事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+9e55cfa3f2252c3d	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	高齢者生活支援事業/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+a542973d80dd49cc	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	介護保険特別会計繰出金（保険事業勘定）/予算額	370494	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+46072d45b31aab1e	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	介護保険特別会計繰出金（保険事業勘定）/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+8c715944073e32ba	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	介護保険特別会計繰出金（保険事業勘定）/担当課	長寿福祉課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+60be303c524d84d2	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	滋賀県後期高齢者医療広域連合負担金/予算額	261306	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+e51f9ebec87dd0d5	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	滋賀県後期高齢者医療広域連合負担金/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+8ba6a8b344b86510	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	滋賀県後期高齢者医療広域連合負担金/担当課	住民課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+9b6dc108dc92c201	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	後期高齢者医療特別会計繰出金/予算額	85398	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+ce0d2e1b4179db21	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	後期高齢者医療特別会計繰出金/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+373523fa221e4ba9	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	後期高齢者医療特別会計繰出金/担当課	住民課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+3b6ca62bd99e2c51	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	在宅重度障害者住宅改造補助事業/予算額	466	千円	r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+099478b70e35a487	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	在宅重度障害者住宅改造補助事業/款	民生費		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+956fd2d1448e8ddb	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	在宅重度障害者住宅改造補助事業/担当課	福祉保健課		r5omonajigi p.6	✓	auto:pdftext	2026-11-06	
+d993ebb5b6cc4022	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	補装具費（購入・修理）支給事業/予算額	11059	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+f02da1f6e7ab283c	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	補装具費（購入・修理）支給事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+165983fe0d0f9eab	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	補装具費（購入・修理）支給事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+489eb8d74815f3ae	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	自立支援医療費（更生医療）支給事業/予算額	30234	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+9912b4000a2b0c87	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	自立支援医療費（更生医療）支給事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+fdd7b335699e3247	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	自立支援医療費（更生医療）支給事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+0e5cc56dc05845a0	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	障害児地域活動支援事業/予算額	4945	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+b6276cd104633112	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	障害児地域活動支援事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+a5e216327b5e0d70	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	障害児地域活動支援事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+56c7e6f6ae284486	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	障害者総合支援事業/予算額	779756	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+0186047793555b87	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	障害者総合支援事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+6631e77c5b51aa23	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	障害者総合支援事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+7dfc0eaeb4869550	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	障害者地域生活支援事業/予算額	88728	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+901dfe5b0d2b7fa3	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	障害者地域生活支援事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+6aa6959f3c99baec	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	障害者地域生活支援事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+80371b181195da3b	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	障害者東近江圏域共同事業/予算額	4691	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+7e9222bf242611ff	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	障害者東近江圏域共同事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+e06551ec618e2db7	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	障害者東近江圏域共同事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+92e91383253a9d23	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	障害者外出支援助成事業/予算額	5000	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+3beba0d9fec5d54b	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	障害者外出支援助成事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+429727595de7fb04	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	障害者外出支援助成事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+26706c459ed0c33f	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	社会的事業所運営助成事業/予算額	900	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+63c36e9dadbf4287	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	社会的事業所運営助成事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+92394d3b691c51f1	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	社会的事業所運営助成事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+af87ea834ceecaf0	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	障害者グループホーム運営事業/予算額	5481	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+aa30a30d28de5039	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	障害者グループホーム運営事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+d4316cf876de1d7c	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	障害者グループホーム運営事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+ed3347c519b103f8	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	滋賀型地域活動支援センター事業/予算額	4918	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+62f236a05e3e20ae	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	滋賀型地域活動支援センター事業/款	民生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+f4054d9a89671416	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	滋賀型地域活動支援センター事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+6cd784c004036c7d	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	健康推進相談事業/予算額	1722	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+2538149dda77b1c6	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	健康推進相談事業/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+1722641ead15892f	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	健康推進相談事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+ac0a2bb60ede715c	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	健康づくり支援事業/予算額	1234	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+99687fc5b3592649	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	健康づくり支援事業/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+b6eca3404e373989	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	健康づくり支援事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+3ae250baf27d2cbf	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	健康診査事業/予算額	15345	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+5f97736a4f1ffd1c	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	健康診査事業/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+c4d0e3cb46ef2839	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	健康診査事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+5fd29b6761cd1602	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	育成医療・養育医療給付事業/予算額	2446	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+0a8442e74b32c137	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	育成医療・養育医療給付事業/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+4a1f29ce069c89e3	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	育成医療・養育医療給付事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+35ae7631d6490ec6	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	予防接種事業/予算額	56977	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+9cf4e981b7e6b998	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	予防接種事業/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+c216be46f0bbfd2c	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	予防接種事業/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+724b39f93eb582c1	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	予防接種事業（新型コロナウイルスワクチン）/予算額	11443	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+ff1f11eff9ff502e	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	予防接種事業（新型コロナウイルスワクチン）/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+e0bae92acc66a0f5	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	予防接種事業（新型コロナウイルスワクチン）/担当課	福祉保健課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+2eb68102d0a0f7b2	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	環境衛生事務事業（生環）/予算額	2372	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+301bc390b629e4f0	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	環境衛生事務事業（生環）/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+0518ab1344d8529c	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	環境衛生事務事業（生環）/担当課	住民課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+c14895b23c2f5374	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	環境保全事務事業/予算額	6471	千円	r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+f764b9bfddd2da6f	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	環境保全事務事業/款	衛生費		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+0370aed2ab11d6c1	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	環境保全事務事業/担当課	住民課		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+c0f0af28fd19e611	fuhyo	3	fuhyo.kubun	柱3 安心、助け合いのくらしづくり	環境保全事務事業/区分	新規		r5omonajigi p.7	✓	auto:pdftext	2026-11-06	
+e146b85c44e4903f	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	環境保全対策事業/予算額	3875	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+5e6dcd51d9faa76c	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	環境保全対策事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+10fb52c433ec815b	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	環境保全対策事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+72aea98b184f7ddb	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	エコライフ地域住民活動推進事業/予算額	513	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+ed1eb04b70a92722	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	エコライフ地域住民活動推進事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+bb2e18dc77440ae0	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	エコライフ地域住民活動推進事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+1d100df60fe1d9fe	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	美化推進対策事業/予算額	589	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+c9add2c7ec688dcb	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	美化推進対策事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+4a0a0ebc3aa9399c	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	美化推進対策事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+1a739b9282bb46ca	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	八日市布引ライフ組合負担金/予算額	76364	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+8635f5ec6fffa741	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	八日市布引ライフ組合負担金/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+31af15de10c621bb	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	八日市布引ライフ組合負担金/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+69e773f212e60eae	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	ごみ収集事業/予算額	82200	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+3f7c0f5918f84d77	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	ごみ収集事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+da589c99592302e0	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ収集事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+39ab69b6a6da5fb2	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	ごみ集積施設設置事業/予算額	600	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+9482bd559353d5b3	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	ごみ集積施設設置事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+ed4d25204f53309f	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	ごみ集積施設設置事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+bfa5d4d74b48196f	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	リサイクル促進事業/予算額	2142	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+b3a037cbaf396962	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	リサイクル促進事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+b640985fa1254c91	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	リサイクル促進事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+405d451996ca046e	fuhyo	3	fuhyo.amount	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/予算額	223010	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+d94c2ddfd5ad124b	fuhyo	3	fuhyo.kan	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+622782d276e130cb	fuhyo	3	fuhyo.dept	柱3 安心、助け合いのくらしづくり	中部清掃組合負担金/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+0f242034959736da	fuhyo	3	fuhyo.count	柱3 安心、助け合いのくらしづくり	事業数	42	件	r5omonajigi p.6-8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+4432c41b3ae248ac	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	路線バス対策事業/予算額	77526	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+180a80870e2afc3c	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	路線バス対策事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+e2b8471b5143fb0b	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	路線バス対策事業/担当課	企画振興課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+9719040b4f01e2a6	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	交通安全対策事業/予算額	512	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+f654c448afd7dab5	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	交通安全対策事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+ba2377c450f9581b	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	交通安全対策事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+55c319b088406540	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/予算額	8110	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+5e56e660215b13b9	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+79a0a85b3b1685aa	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	交通安全施設対策事業/担当課	建設計画課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+c18d53c47cf3b334	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	街灯設置補助事業/予算額	500	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+a8167b288d4677c4	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	街灯設置補助事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+7b09ee0412bd8749	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	街灯設置補助事業/担当課	建設計画課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+e526431cb849f598	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	防犯対策事業/予算額	1041	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+c7466fe564986b50	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	防犯対策事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+f8412259e00769a6	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防犯対策事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+17ef36b6760e4078	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/予算額	319	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+8f177abce0b455fc	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/款	総務費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+990e4b32d5ab85b9	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	消費者行政推進事業/担当課	住民課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+0235523b12480156	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/予算額	866	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+06278aae81a4747e	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+6484adb3b8bbcc69	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	浄化槽設置整備事業/担当課	上下水道課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+979c3c474516a3bd	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	浄化槽維持管理事業/予算額	1404	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+b0f675c7b43a19c6	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	浄化槽維持管理事業/款	衛生費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+b9ea83f58965414a	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	浄化槽維持管理事業/担当課	上下水道課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+4ba3322f4551e71d	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	地籍調査事業/予算額	2902	千円	r5omonajigi p.8	✓	auto:ai	2026-11-06	
+3063f2772442597e	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	地籍調査事業/款	土木費		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+07da165911c3e430	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	地籍調査事業/担当課	建設計画課		r5omonajigi p.8	✓	auto:ai	2026-11-06	
+0b22d49893a4b0c0	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	道路維持補修事業/予算額	30989	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+edd00488924da93e	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	道路維持補修事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+6ce624be991a9009	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	道路維持補修事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+0e21e4ee7e3e03d0	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	除雪機械購入補助事業/予算額	150	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+91d9f808bd25e210	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	除雪機械購入補助事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+581a8e54ed5c3e15	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	除雪機械購入補助事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+18d60c5b40efb239	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	道路メンテナンス補助事業/予算額	28500	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+983cedc5037da639	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	道路メンテナンス補助事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+debc315f927649aa	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	道路メンテナンス補助事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+d93005167c911b18	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	交通安全対策事業（通学路緊急対策）/予算額	41500	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+7a08fefdc6bb7102	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	交通安全対策事業（通学路緊急対策）/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+624f3d0e9257589b	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	交通安全対策事業（通学路緊急対策）/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+a03abe2ad373fcb9	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	社会資本整備総合交付金事業（防災・安全）/予算額	120800	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+ce10e929692af777	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	社会資本整備総合交付金事業（防災・安全）/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+3fed01a9cbb9bba7	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	社会資本整備総合交付金事業（防災・安全）/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+110b66ca4569820a	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	町単独道路改良事業/予算額	5000	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+e66b497b2a5ee8f9	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	町単独道路改良事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+1e6d4a51702605a3	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	町単独道路改良事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+37153ec6165d4bf5	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	土木工事等補助事業/予算額	3600	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+49267cb316a13234	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	土木工事等補助事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+f98c3c688bb37edd	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	土木工事等補助事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+712f0765a3dc6606	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	道路改良工事県事業負担金/予算額	8100	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+bad397e8592ffe8e	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	道路改良工事県事業負担金/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+e72c9d85798bb8c3	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	道路改良工事県事業負担金/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+54e9e7bb504bc7f0	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	河川管理事業/予算額	17481	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+01a80494df3dd771	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	河川管理事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+3bc868779feaaaa6	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	河川管理事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+9fe779455f0d857a	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	都市計画総務事務事業/予算額	2429	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+761121933ce38f8b	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	都市計画総務事務事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+0597a4565f136fa9	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	都市計画総務事務事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+0db94d3de326bf5d	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	木造住宅耐震改修促進事業/予算額	1908	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+2bf7296e55133ffd	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	木造住宅耐震改修促進事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+b26f847dcb920d5c	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	木造住宅耐震改修促進事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+52adf305be79d7a8	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	公営住宅管理事業/予算額	5893	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+166a1ce4e02f55dd	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	公営住宅管理事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+35083f46cd58fed6	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	公営住宅管理事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+162531c641c5ee63	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	公園管理運営事業/予算額	179457	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+5db28717530f24f2	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	公園管理運営事業/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+a36a47c1c65377c8	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	公園管理運営事業/担当課	建設計画課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+df9952222bfa6b92	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	下水道事業会計繰出金（公共）/予算額	305336	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+a0cb89dd0e585c3f	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	下水道事業会計繰出金（公共）/款	土木費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+a2430724a53df842	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	下水道事業会計繰出金（公共）/担当課	上下水道課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+8908463ea4572436	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	東近江行政組合負担金/予算額	263868	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+6119eef047da1aab	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	東近江行政組合負担金/款	消防費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+3d2fd0ccde7970ba	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	東近江行政組合負担金/担当課	総務課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+3d1c99fea57398e9	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	消防団運営事業/予算額	35475	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+e8dfcab802e1b149	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	消防団運営事業/款	消防費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+98e4d26a86afd3c8	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	消防団運営事業/担当課	総務課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+587115bacf0002d5	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	消防設備等補助事業/予算額	1000	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+57d3799144c2fda2	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	消防設備等補助事業/款	消防費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+031428c63d2aea7f	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	消防設備等補助事業/担当課	総務課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+37b2dd91828b1896	fuhyo	4	fuhyo.amount	柱4 住みたくなる都市基盤づくり	防災活動事業/予算額	13959	千円	r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+0538cc5452d8efc7	fuhyo	4	fuhyo.kan	柱4 住みたくなる都市基盤づくり	防災活動事業/款	消防費		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+dc9e877fc782d925	fuhyo	4	fuhyo.dept	柱4 住みたくなる都市基盤づくり	防災活動事業/担当課	総務課		r5omonajigi p.9	✓	auto:pdftext	2026-11-06	
+926d5d61ed74129e	fuhyo	4	fuhyo.count	柱4 住みたくなる都市基盤づくり	事業数	27	件	r5omonajigi p.8-9	✓	auto:pdftext	2026-11-06	
+f7a780ef38463121	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	議会運営事業/予算額	9625	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+a6b0982dbf6664c2	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	議会運営事業/款	議会費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+a110ab16e2b4de67	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	議会運営事業/担当課	議会事務局		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+cd1252e86728f03d	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	人事管理事業/予算額	18184	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+68d29adb11babd57	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	人事管理事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+1808e2771b737a5c	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	人事管理事業/担当課	総務課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+9559c6ee41152e42	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報発信事業/予算額	7542	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+0910c750251185b7	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	情報発信事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+cf892fb6ffd4d61c	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	情報発信事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+5768b8b8bf3fe2be	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	企画事務事業/予算額	43286	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+b32e541984dd0cb5	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	企画事務事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+34b7beb594573e87	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	企画事務事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+51e7ec972415b7e2	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/予算額	112238	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+4607a89176692500	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+b07739b1dd54aabf	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	デジタル田園都市国家構想交付金（地方創生推進タイプ）/担当課	企画振興課・農林課・住民課・商工観光課・生涯学習課・子ども支援課		r5omonajigi p.10	✓	auto:ai	2026-11-06	要人確認:H4 難しさ0点
+fe1da4fb69d6a242	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	情報管理事業/予算額	26763	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+5de4f120790f35d4	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	情報管理事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+43f229f8c8d96446	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	情報管理事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+f1ba51cc64735219	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	情報管理事業/区分	新規		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+ddf1c487f7ace03f	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	自治の力で輝くまちづくり推進事業/予算額	10083	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+a4a162d401ce073b	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	自治の力で輝くまちづくり推進事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+96ab65a186e706b0	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	自治の力で輝くまちづくり推進事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+0954f372432ff510	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	自治ハウス整備事業/予算額	1000	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+cfcc59b05ea76f98	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	自治ハウス整備事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+502271b1b2e0e803	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	自治ハウス整備事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+2c1c50575d09c6ec	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	国際交流事業/予算額	972	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+0b86b29732ab9f30	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	国際交流事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+581bfc6f7d9fdda7	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	国際交流事業/担当課	企画振興課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+d9453dd7f14eb455	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	戸籍住民基本台帳事務事業/予算額	30271	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+dacf9f8ab5948b74	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	戸籍住民基本台帳事務事業/款	総務費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+429cf6aee203064c	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	戸籍住民基本台帳事務事業/担当課	住民課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+a5102cace0ad39a5	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	中央公民館運営事業/予算額	1015	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+759b9f00bedec49f	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	中央公民館運営事業/款	教育費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+7e8401c9cd61ee36	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	中央公民館運営事業/担当課	生涯学習課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+0062daa3cf7fe249	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	地区公民館活動事業/予算額	25342	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+59e7a729e29f45ff	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	地区公民館活動事業/款	教育費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+8876fc50e05677a9	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	地区公民館活動事業/担当課	生涯学習課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+e826ab7ccaf7dbfc	fuhyo	5	fuhyo.amount	柱5 みんなではぐくむ地域づくり	地区公民館管理事業/予算額	25529	千円	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+9ee43f97a48fae2f	fuhyo	5	fuhyo.kan	柱5 みんなではぐくむ地域づくり	地区公民館管理事業/款	教育費		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+85a3669ddd90094c	fuhyo	5	fuhyo.dept	柱5 みんなではぐくむ地域づくり	地区公民館管理事業/担当課	生涯学習課		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+9e8274f4a776c4f9	fuhyo	5	fuhyo.kubun	柱5 みんなではぐくむ地域づくり	地区公民館管理事業/区分	新規		r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+e441d5b6d8e32ad0	fuhyo	5	fuhyo.count	柱5 みんなではぐくむ地域づくり	事業数	13	件	r5omonajigi p.10	✓	auto:pdftext	2026-11-06	
+38a5368ea913819d	fuhyo	0	fuhyo.kubun_count	附表全体	区分の印が付いた事業数	24	件	r5omonajigi p.1-10	✓	auto:pdftext	2026-11-06	

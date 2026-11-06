@@ -59,6 +59,7 @@ TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数
 FIGURE_LINK_VALUE = "原典へのリンク"  # asset を省いた figure の照合表の値(PLAN_SCHEMA §6-B figure)
 SHOGO_ID = "genten-shogo"  # 末尾の節「原典との照合」のページ内リンクの id(PLAN_SCHEMA §11.3)
 LEDGER_URL = "https://github.com/kken78/shiga-hino-plans/blob/main/data/audit_log/{}.tsv"
+PAGE_URL = "https://kken78.github.io/shiga-hino-plans/plans/{}.html"  # 公開ページの URL(og:url)
 NO_TARGET = "この計画には、照合の対象になる数値がありません"
 # 照合の方法の説明(PLAN_SCHEMA §11.3 の 4。計画ごとに変えない)
 SHOGO_HOW = (
@@ -1085,6 +1086,7 @@ class Renderer:
         for k, v in {
             "{{TITLE}}": esc(m.get("name_short", m["name"])),
             "{{DESCRIPTION}}": esc(m["lead"]),
+            "{{PAGE_URL}}": PAGE_URL.format(self.pid),
             "{{CSS}}": shell_css,
             "{{THEME_VARS}}": theme_vars,
             "{{EYEBROW}}": (f'<div class="eyebrow">{esc(m["eyebrow"])}</div>'

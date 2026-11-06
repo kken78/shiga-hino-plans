@@ -1,0 +1,121 @@
+name: watch
+# 週1回(月曜 7:00 JST)、町のサイトを巡回し、原典の台帳 data/sources_index.tsv との違いを Issue にする。
+#  - 差し替え: 台帳の URL の PDF の sha256 が台帳と違う
+#  - 取れない: 台帳の URL が 404 などで取れない
+#  - 新しい PDF: 計画の掲載ページに、台帳に無い PDF のリンクがある
+# 見つけただけで、台帳・計画の JSON・検収の台帳・原典の文字は変えない(起票と検収は人と Claude Code の作業。CLAUDE.md の定型フロー)。
+# 巡回そのものに失敗したとき(掲載ページが取れない、通信の失敗が多い)は、ワークフローを失敗させて「巡回に失敗した」Issue を作る。
+# 同じ内容の Issue が開いていれば作らない(題に入れた内容の印で見分ける)。
+# 必要な設定: Settings → Actions → General → Workflow permissions を「Read and write permissions」にする。
+on:
+  schedule:
+    - cron: "0 22 * * 0" # 日曜 22:00 UTC = 月曜 7:00 JST
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 巡回(1秒に1件以内。約4分)
+        id: watch
+        run: |
+          set +e
+          python3 tools/watch_sources.py --json "$RUNNER_TEMP/watch.json" > "$RUNNER_TEMP/watch.md" 2> "$RUNNER_TEMP/watch.err"
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat "$RUNNER_TEMP/watch.md" >> "$GITHUB_STEP_SUMMARY"
+          cat "$RUNNER_TEMP/watch.md"; cat "$RUNNER_TEMP/watch.err"
+
+      - name: 結果を保存
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watch-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/watch.json
+            ${{ runner.temp }}/watch.md
+          if-no-files-found: ignore
+
+      - name: 見つけたものを種類ごとに Issue にする
+        if: steps.watch.outputs.code == '0'
+        run: |
+          python3 - "$RUNNER_TEMP/watch.json" "$RUNNER_TEMP" <<'PY'
+          import hashlib, json, os, sys
+          rep = json.load(open(sys.argv[1], encoding="utf-8"))
+          out = sys.argv[2]
+          f = rep["findings"]
+          kinds = [
+              ("replaced", "原典の差し替え", "台帳の URL の PDF が、台帳の sha256 と違う版になっている。検収の台帳はいまの版の原典と結びついているので、"
+                           "差し替えた版で起票と検収をやり直すか、前の版として残すか(PLAN_SCHEMA §10.3)を決める。",
+               ["1. `sources_raw/<id>/` の原典を取り直し(`python3 ~/GitHub/.tools/restore_sources.py plans` は台帳の sha256 と違うので止まる。手で取得する)、"
+                "`data/sources_index.tsv` の bytes・sha256・fetched を直す",
+                "2. `python3 tools/extract_text.py <id>/<file>` で原典の文字を作り直し、`python3 tools/check_source_text.py` を通す",
+                "3. 計画の JSON を新しい版で見直し、CLAUDE.md の定型フロー 6(検収の段1〜4)をやり直す",
+                "4. 前の版を残すときは PLAN_SCHEMA §10.3(file の名前の改め方)に従う"]),
+              ("missing", "原典が取れない", "台帳の URL が 404 などで取れない。町のサイトから外れたか、URL が変わった。",
+               ["1. 掲載ページを見て、同じ文書が別の URL にあれば台帳の url を直す(sha256 が同じなら原典はそのまま)",
+                "2. 町のサイトから外れたなら、Webアーカイブの保存版を探し、台帳の note に「取得元：Webアーカイブ(日時、URL)」と書く(youho の honpen-202503 と同じ形)",
+                "3. 計画ページの出典のリンクが切れていないかを確かめる"]),
+              ("new", "新しい PDF", "計画の掲載ページに、台帳に無い PDF のリンクがある。新しい計画・改定版・資料編などの可能性がある。",
+               ["1. リンク先を見て、計画の本編・概要版・資料編・改定版のどれかを確かめる(議事録・様式・お知らせなら対象外。`data/watch_ignore.tsv` に url・reason・date を足してから、この Issue を閉じる。足さないと次の週にまた Issue ができる)",
+                "2. 対象なら、CLAUDE.md の定型フロー(原典を `sources_raw/<id>/` に置く → 台帳に行を足す → 起票 → 検収)で進める。改定版は PLAN_SCHEMA §10.3 で前の版を残す"]),
+          ]
+          for key, title, what, steps in kinds:
+              items = f.get(key) or []
+              if not items:
+                  continue
+              sig = hashlib.sha256("\n".join(sorted(x["url"] for x in items)).encode()).hexdigest()[:8]
+              lines = [f"町のサイトの巡回({rep['date']})で見つけた。{what}", ""]
+              for x in items:
+                  if key == "replaced":
+                      lines.append(f"- {x['id']}/{x['file']}: 台帳 {x['bytes']} バイト・sha256 {x['sha256'][:12]}… → いま {x['now_bytes']} バイト・{x['now_sha256'][:12]}…"
+                                   f"(Last-Modified {x['last_modified'] or '不明'})。{x['url']}")
+                  elif key == "missing":
+                      lines.append(f"- {x['id']}/{x['file']}: {x['reason']}。{x['url']}")
+                  else:
+                      lines.append(f"- {x['label'] or '(リンクの文字なし)'}: {x['url']}(掲載ページ {', '.join(x['pages'])}。関係する id: {', '.join(x['ids']) or '不明'})")
+              lines += ["", "## 次にやること"] + steps + ["", f"この Issue は .github/workflows/watch.yml が自動で作った。内容の印: {sig}"]
+              with open(os.path.join(out, f"issue-{key}.md"), "w", encoding="utf-8") as w:
+                  w.write("\n".join(lines) + "\n")
+              with open(os.path.join(out, f"issue-{key}.title"), "w", encoding="utf-8") as w:
+                  w.write(f"{title} {len(items)}件({sig})")
+          PY
+          for key in replaced missing new; do
+            T="$RUNNER_TEMP/issue-$key.title"; [ -f "$T" ] || continue
+            TITLE=$(cat "$T"); SIG=$(sed -E 's/.*\((.*)\)$/\1/' "$T")
+            if gh issue list --state open --search "\"$SIG\" in:title" --json number -q '.[0].number' | grep -q .; then
+              echo "同じ内容の Issue が開いている: $TITLE"; continue
+            fi
+            gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/issue-$key.md"
+          done
+
+      - name: 巡回に失敗したら Issue にして失敗で終わる
+        if: steps.watch.outputs.code != '0'
+        run: |
+          TITLE="巡回に失敗した(watch.yml)"
+          if gh issue list --state open --search "\"$TITLE\" in:title" --json number -q '.[0].number' | grep -q .; then
+            echo "失敗の Issue はすでに開いている"
+          else
+            {
+              echo "町のサイトの巡回(.github/workflows/watch.yml)が失敗した。終了コード ${{ steps.watch.outputs.code }}。"
+              echo
+              echo "実行: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+              echo
+              echo '```'; cat "$RUNNER_TEMP/watch.err" 2>/dev/null | tail -20; echo '```'
+              echo
+              echo "町のサイトの作りが変わったか、一時的に取れない。手元で \`python3 tools/watch_sources.py\` を実行して原因を見る。一時的なものなら、この Issue を閉じるだけでよい。"
+            } > "$RUNNER_TEMP/fail.md"
+            gh issue create --title "$TITLE" --body-file "$RUNNER_TEMP/fail.md"
+          fi
+          exit 1

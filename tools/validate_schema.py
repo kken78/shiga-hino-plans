@@ -431,13 +431,15 @@ FUHYO_KUBUN = {"新規", "拡充"}
 FUHYO_TOP = ["id", "fiscal_year", "source", "pillars"]
 FUHYO_PILLAR = ["no", "name", "items"]
 FUHYO_ITEM = ["key", "kubun", "kan", "name", "desc", "details", "amount", "dept", "page"]
+FUHYO_ITEM_OPT = ["sic"]   # 読みの注(任意。PLAN_SCHEMA §9)
+FUHYO_SIC_FIELDS = ("name", "desc", "details")
 
 
 def _is_int(v):
     return isinstance(v, int) and not isinstance(v, bool)
 
 
-def _fields(rep, where, obj, keys):
+def _fields(rep, where, obj, keys, optional=()):
     """必須の項目がそろい、§9 に無い項目が無いか。obj が辞書でなければ False。"""
     if not isinstance(obj, dict):
         rep.err(where, f"{{…}} の形で書く: {obj!r}"[:120])
@@ -446,7 +448,7 @@ def _fields(rep, where, obj, keys):
         if k not in obj:
             rep.err(where, f"必須フィールドがありません: {k}")
     for k in obj:
-        if k not in keys:
+        if k not in keys and k not in optional:
             rep.err(where, f"PLAN_SCHEMA §9 に無い項目: {k}(足すときは先に PLAN_SCHEMA を直す)")
     return True
 
@@ -504,6 +506,7 @@ def validate_fuhyo(rep, path, d):
         rep.err("$.pillars", "柱を1つ以上、一覧で書く")
         return rep
     keys, nos = {}, set()
+    issues = _fuhyo_issues(path)   # 読みの注の issue を照らす段3の記録
     for pi, pl in enumerate(pillars):
         w = f"$.pillars[{pi}]"
         if not _fields(rep, w, pl, FUHYO_PILLAR):
@@ -523,7 +526,7 @@ def validate_fuhyo(rep, path, d):
             continue
         for ii, it in enumerate(items or []):
             iw = f"{w}.items[{ii}]"
-            if not _fields(rep, iw, it, FUHYO_ITEM):
+            if not _fields(rep, iw, it, FUHYO_ITEM, FUHYO_ITEM_OPT):
                 continue
             k = it.get("key")
             if "key" in it:
@@ -553,7 +556,74 @@ def validate_fuhyo(rep, path, d):
                 _text_list(rep, f"{iw}.dept", it["dept"], nonempty=True)
             if "page" in it and (not _is_int(it["page"]) or it["page"] < 1):
                 rep.err(f"{iw}.page", f"PDF のページは1以上の整数: {it['page']!r}")
+            if "sic" in it:
+                _fuhyo_sic(rep, f"{iw}.sic", it, issues)
     return rep
+
+
+def _fuhyo_issues(path):
+    """data/source_issues/<id>.tsv の行 {no: {列: 値}}。ファイルが無ければ空。"""
+    f = Path(path).resolve().parent.parent / "source_issues" / f"{Path(path).stem}.tsv"
+    if not f.exists():
+        return {}
+    lines = f.read_text(encoding="utf-8").splitlines()
+    head = lines[0].split("\t") if lines else []
+    out = {}
+    for ln in lines[1:]:
+        r = dict(zip(head, ln.split("\t")))
+        if r.get("no", "").isdigit():
+            out[int(r["no"])] = r
+    return out
+
+
+def _fuhyo_sic(rep, w, it, issues):
+    """読みの注(PLAN_SCHEMA §9)。text がその欄に1回だけ現れ、issue が段3の記録の「原典の誤字」の行を指すか。"""
+    sic = it["sic"]
+    if not isinstance(sic, list) or not sic:
+        rep.err(w, "読みの注は1つ以上の一覧で書く(無ければ項目ごと書かない)")
+        return
+    seen = set()
+    for i, e in enumerate(sic):
+        ew = f"{w}[{i}]"
+        if not _fields(rep, ew, e, ["field", "text", "issue"], ["line", "read"]):
+            continue
+        fld = e.get("field")
+        if fld not in FUHYO_SIC_FIELDS:
+            rep.err(f"{ew}.field", f"field は {list(FUHYO_SIC_FIELDS)} のどれか: {fld!r}")
+            continue
+        target = None
+        if fld == "details":
+            ln = e.get("line")
+            det = it.get("details") if isinstance(it.get("details"), list) else []
+            if not _is_int(ln) or not 1 <= ln <= len(det):
+                rep.err(f"{ew}.line", f"details の何項目目か(1〜{len(det)} の整数): {ln!r}")
+            else:
+                target = det[ln - 1]
+        else:
+            if "line" in e:
+                rep.err(f"{ew}.line", "line は field が details のときだけ書く")
+            target = it.get(fld)
+        _text(rep, f"{ew}.text", e.get("text"))
+        txt = e.get("text")
+        if isinstance(target, str) and isinstance(txt, str) and txt:
+            n = target.count(txt)
+            if n != 1:
+                rep.err(f"{ew}.text", f"text はその欄に1回だけ現れる範囲にする(いま {n} 回): {txt!r}")
+        if "read" in e:
+            _text(rep, f"{ew}.read", e["read"])
+            if e["read"] == txt:
+                rep.err(f"{ew}.read", f"read が text と同じ: {txt!r}")
+        no = e.get("issue")
+        if not _is_int(no):
+            rep.err(f"{ew}.issue", f"段3の記録の no(整数): {no!r}")
+        elif no not in issues:
+            rep.err(f"{ew}.issue", f"data/source_issues の {no} 番がありません")
+        elif issues[no].get("kind") != "原典の誤字":
+            rep.err(f"{ew}.issue", f"{no} 番の kind が「原典の誤字」でない: {issues[no].get('kind')!r}")
+        k = (fld, e.get("line"), txt)
+        if k in seen:
+            rep.err(ew, f"同じ箇所の読みの注が重複: {k}")
+        seen.add(k)
 
 
 def main(argv):

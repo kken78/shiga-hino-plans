@@ -360,6 +360,11 @@ text_method(原典の文字を作った道具。空欄は作っていない行)/
   原典の sha256 が台帳と同じかを確かめてから `data/text/`・`data/text_raw/` を取り出し、台帳の text_chars・text_method・text_date を書く
   (列が無ければ note の前に足す)。原典が無い・sha256 が違う・改ページで区切ったページの数が pages と合わない行が1つでもあれば、何も書かずに止まる
 - `tools/check_source_text.py`: 原典の文字の検証(PLAN_SCHEMA §10.2 の4つ。原典の PDF は使わない)。CI(`.github/workflows/check.yml`)でも実行する
+- `tools/watch_sources.py`: 町のサイトの巡回(2026-11-06)。台帳の URL の差し替え・取れない、計画の掲載ページの新しい PDF を見つける
+  (標準ライブラリだけ。1秒に1件以内。HEAD の Content-Length と Last-Modified で済むものは GET しない)。`.github/workflows/watch.yml` が
+  毎週月曜 7:00 JST に実行し、見つけたものを種類ごとに Issue にする(同じ内容の Issue が開いていれば作らない。巡回に失敗したら失敗の Issue)。
+  台帳・JSON・検収の台帳・原典の文字は変えない。`keepalive.yml` が毎月1日に定期実行を有効化し直す。手元では
+  `python3 tools/watch_sources.py`(約4分)。Issue が来たときの手順は README「町のサイトの巡回」
 
 ### 残タスク(2026-11-06 更新)
 

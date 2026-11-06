@@ -1,0 +1,39 @@
+name: keepalive
+# 公開リポジトリでは、60日間リポジトリに動きが無いと定期実行(schedule)のワークフローが自動で止まる。
+# 起票と検収の合間にコミットが空くと、週1回の watch が知らないうちに止まるため、毎月1日に次を行う。
+#  1. 定期実行のワークフローを API で有効化し直す(止まっていれば再開、動いていれば何も変わらない)
+#  2. main の最終コミットから45日以上空いていれば、専用ブランチ keepalive に空コミットを送る
+#     (main ではないので公開・CI は動かない)
+on:
+  schedule:
+    - cron: "0 0 1 * *" # 毎月1日 9:00 JST
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  actions: write
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - name: 定期実行のワークフローを有効化
+        run: |
+          for wf in watch.yml keepalive.yml; do
+            gh workflow enable "$wf" --repo "${{ github.repository }}" && echo "enabled $wf"
+          done
+      - name: 最終コミットが古ければ keepalive ブランチに空コミット
+        run: |
+          last=$(git log -1 --format=%ct origin/main 2>/dev/null || git log -1 --format=%ct)
+          days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "main の最終コミットから ${days} 日" | tee -a "$GITHUB_STEP_SUMMARY"
+          if [ "$days" -ge 45 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git checkout -B keepalive
+            git commit --allow-empty -m "keepalive(定期実行の自動停止を防ぐ)"
+            git push --force origin keepalive
+            echo "keepalive ブランチに空コミットを送った" | tee -a "$GITHUB_STEP_SUMMARY"
+          fi

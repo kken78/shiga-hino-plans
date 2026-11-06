@@ -1,0 +1,7 @@
+# GitHub Actions のバージョン更新を月1回 PR で知らせる（Python は標準ライブラリのみ。Playwright は check.yml で版を指定して入れる）
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

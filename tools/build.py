@@ -54,6 +54,7 @@ plan の全フィールド:
               計画だけ、照合表 build/audit/<id>.tsv と台帳から audit_display.count で数える
               (計画ページと同じ関数。render_plan.py のあとに動かす)
 """
+import csv
 import json
 import re
 import sys
@@ -77,15 +78,34 @@ PLACEHOLDER = '"__PLANS_PLACEHOLDER__"'
 
 # ページの見出しとフッター(DESIGN.md ADR-12。型は hino-portal の shared/。文は hino-portal DESIGN.md 2.2・2.5)
 HUB_LEAD = "日野町の{n}の計画の概要と計画期間を、分野ごとに一覧にしたページです。"  # n は manifest の計画の数
-HUB_TRANSCRIBED = "2026年7月3日"   # 移す前のフッターの「データ転記日」
-HUB_ASOF = f"計画ごとに異なります（各計画の詳細の「掲載・更新」）。転記日：{HUB_TRANSCRIBED}"
+SOURCES_INDEX = ROOT / "data" / "sources_index.tsv"
+
+
+def hub_asof():
+    """ハブの資料の時点。日付は手で書かず、出典の台帳 data/sources_index.tsv の取得日(fetched)の
+    最も新しい日を生成のときに読む(DESIGN.md ADR-12)。空欄は台帳以前からある原典なので数えない。"""
+    days = []
+    with SOURCES_INDEX.open(encoding="utf-8", newline="") as f:
+        for i, r in enumerate(csv.DictReader(f, delimiter="\t"), start=2):
+            v = (r.get("fetched") or "").strip()
+            if not v:
+                continue
+            m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", v)
+            if not m:
+                raise SystemExit(f"NG  {SOURCES_INDEX} {i}行目: fetched が YYYY-MM-DD でない: {v!r}")
+            days.append(tuple(int(x) for x in m.groups()))
+    if not days:
+        raise SystemExit(f"NG  {SOURCES_INDEX}: fetched の入った行が無い")
+    y, mo, d = max(days)
+    return (f"計画ごとに異なります（各計画の詳細の「掲載・更新」）。"
+            f"資料の取得日：最新 {y}年{mo}月{d}日（出典の台帳による）")
 SHISAKU_URL = "https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html"
 HUB_FOOTER = {
     "このページについて": (["町のホームページの「施策・計画」ページと各部門別のページに掲載されている計画について、"
                             "名前・分野・計画期間・概要を転記しています。計画のページがあるものは、原典の数値から図表を描いています。"], ""),
     "出典": ([f'日野町ホームページ「<a href="{SHISAKU_URL}">施策・計画</a>」と、各部門別のページ（HTML）。'
               "計画ごとの掲載ページへのリンクは、各計画の詳細にあります。"], ""),
-    "資料の時点": ([HUB_ASOF], ""),
+    "資料の時点": None,   # 生成のときに hub_asof() で入れる
     "注意": ([], "<p>数値・期間は、公表資料から転記したものです。</p>"
                  f'<p><a href="{SHISAKU_URL}">日野町ホームページ「施策・計画」</a></p>'),
     "データ": (['<a href="https://github.com/kken78/shiga-hino-plans/blob/main/data/manifest.json">data/manifest.json</a>'
@@ -212,12 +232,13 @@ def build():
     page = template.replace(PLACEHOLDER, plans_json)
 
     # 共通の部品(DESIGN.md ADR-12)。写しは templates/portal/(正本は hino-portal の shared/)
+    asof = hub_asof()
     for k, v in {
         "{{PORTAL_CSS}}": portal.css_block(),
         "{{PORTAL_HEADER}}": portal.header_block(),
         "{{PORTAL_PAGE}}": portal.page_head(portal.LIBRARY, HUB_LEAD.format(n=len(plans)),
-                                             "資料の時点：" + HUB_ASOF, current=portal.LIBRARY),
-        "{{PORTAL_FOOTER}}": portal.footer_block(HUB_FOOTER),
+                                             "資料の時点：" + asof, current=portal.LIBRARY),
+        "{{PORTAL_FOOTER}}": portal.footer_block({**HUB_FOOTER, "資料の時点": ([asof], "")}),
     }.items():
         if page.count(k) != 1:
             raise SystemExit(f"NG  templates/hub.html: {k} が {page.count(k)} 箇所(期待1)")

@@ -1,0 +1,40 @@
+/* 日野町データポータル 共通の部品（見出し・ナビ・ページの見出し・フッター）。
+   正本は hino-portal/shared/shell.css。各ページはこれを <style> に写し、CI で同じであることを確かめる（DESIGN.md 9.1）。
+   文字の大きさは 14px 以上（DESIGN.md 5.2）。色は 3章の藍と朱。書体は端末のもの（5.1）。 */
+:root{--portal-ai:#1E4E9C;--portal-ai-ink:#0C2547;--portal-shu:#C33D2E;--portal-bg:#EFF3F9;--portal-card:#FFFFFF;--portal-ink:#1A2333;--portal-muted:#5B6B85;--portal-line:#DCE4F0;--portal-foot-bg:#0C2547;--portal-foot-ink:#C9D6EA;--portal-fs:16px;--portal-fs-sub:14px;--portal-fs-h1:18px;--portal-fs-h2:24px;--portal-sp1:8px;--portal-sp2:16px;--portal-sp3:24px;--portal-sp4:40px;--portal-font:"Hiragino Sans","Hiragino Kaku Gothic ProN","BIZ UDPGothic","Yu Gothic Medium","Yu Gothic","Noto Sans CJK JP","Noto Sans JP",Meiryo,system-ui,sans-serif}
+.portal-wrap{max-width:1080px;margin:0 auto;padding:0 var(--portal-sp2);box-sizing:border-box}
+.portal-head,.portal-page,.portal-foot{font-family:var(--portal-font);font-size:var(--portal-fs);line-height:1.7;letter-spacing:.02em}
+.portal-head *,.portal-page *,.portal-foot *{box-sizing:border-box}
+.portal-head a:focus-visible,.portal-page a:focus-visible,.portal-foot a:focus-visible{outline:2px solid #000;box-shadow:0 0 0 4px #FFD43D;outline-offset:1px}
+/* 共通の見出し（2.2 の 1、2.3） */
+.portal-head{background:var(--portal-card);border-bottom:1px solid var(--portal-line);color:var(--portal-ink)}
+.portal-head .portal-wrap{display:flex;flex-wrap:wrap;align-items:center;gap:var(--portal-sp1) var(--portal-sp3);padding-top:var(--portal-sp1);padding-bottom:var(--portal-sp1)}
+.portal-brand{display:flex;align-items:center;gap:var(--portal-sp1);text-decoration:none;color:var(--portal-ink)}
+.portal-brand svg{width:26px;height:26px;flex:none}
+.portal-brand .portal-name{font-size:var(--portal-fs-h1);margin:0;font-weight:700;line-height:1.3}
+.portal-brand .portal-tag{font-size:var(--portal-fs-sub);color:var(--portal-muted);border:1px solid var(--portal-line);border-radius:3px;padding:0 6px;line-height:1.6}
+.portal-areas{display:flex;gap:var(--portal-sp2);margin-left:auto}
+.portal-areas a{font-size:var(--portal-fs-sub);text-decoration:none;color:var(--portal-ai);padding:4px 0;border-bottom:2px solid transparent;white-space:nowrap}
+.portal-areas a:hover{text-decoration:underline}
+.portal-areas a[aria-current]{color:var(--portal-ink);border-bottom-color:var(--portal-shu);font-weight:700}
+@media (max-width:767px){.portal-areas{margin-left:0;width:100%;overflow-x:auto}}
+/* ページの見出し（2.2 の 2・3） */
+.portal-page{padding:var(--portal-sp3) 0 var(--portal-sp2);color:var(--portal-ink)}
+.portal-page .portal-area{font-size:var(--portal-fs-sub);color:var(--portal-muted);margin:0 0 4px}
+.portal-page .portal-title{font-size:var(--portal-fs-h2);margin:0 0 4px;line-height:1.35;font-weight:700}
+.portal-page .portal-lead{margin:0 0 4px}
+.portal-page .portal-asof{font-size:var(--portal-fs-sub);color:var(--portal-muted);margin:0}
+.portal-siblings{font-size:var(--portal-fs-sub);margin:var(--portal-sp2) 0 0;display:flex;flex-wrap:wrap;gap:4px 0}
+.portal-siblings span,.portal-siblings a{padding-right:var(--portal-sp2)}
+.portal-siblings a{color:var(--portal-ai)}
+.portal-siblings span[aria-current]{font-weight:700;color:var(--portal-ink)}
+.portal-siblings .portal-lbl{color:var(--portal-muted)}
+/* フッター（2.5） */
+.portal-foot{margin-top:var(--portal-sp4);background:var(--portal-foot-bg);color:var(--portal-foot-ink);padding:var(--portal-sp3) 0 var(--portal-sp4);font-size:var(--portal-fs-sub)}
+.portal-foot a{color:#fff}
+.portal-foot dl{margin:0;display:grid;grid-template-columns:10em 1fr;gap:var(--portal-sp1) var(--portal-sp2)}
+.portal-foot dt{color:#fff;font-weight:700;margin:0}
+.portal-foot dd{margin:0}
+.portal-foot p{margin:0 0 4px}
+.portal-foot ul{margin:0;padding-left:1.2em}
+@media (max-width:767px){.portal-foot dl{grid-template-columns:1fr;gap:4px}.portal-foot dt{margin-top:var(--portal-sp1)}}

@@ -61,6 +61,7 @@ from pathlib import Path
 from tokens import load_tokens, apply_tokens
 import audit_display  # 原典との照合の件数(PLAN_SCHEMA §11.4)。render_plan.py と共用
 import audit_worksheet as aw  # 照合表 build/audit/<id>.tsv の読み込み
+import portal  # 日野町データポータルの共通の部品(DESIGN.md ADR-12)。render_plan.py と共用
 # tools/ が sys.path[0] に入る前提(python3 tools/build.py 起動に依存)。DESIGN.md ADR-6
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -73,6 +74,27 @@ REQUIRED = ("id", "name", "cat", "lead", "summary",
             "points", "url", "posted", "verified")
 
 PLACEHOLDER = '"__PLANS_PLACEHOLDER__"'
+
+# ページの見出しとフッター(DESIGN.md ADR-12。型は hino-portal の shared/。文は hino-portal DESIGN.md 2.2・2.5)
+HUB_LEAD = "日野町の{n}の計画の概要と計画期間を、分野ごとに一覧にしたページです。"  # n は manifest の計画の数
+HUB_TRANSCRIBED = "2026年7月3日"   # 移す前のフッターの「データ転記日」
+HUB_ASOF = f"計画ごとに異なります（各計画の詳細の「掲載・更新」）。転記日：{HUB_TRANSCRIBED}"
+SHISAKU_URL = "https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html"
+HUB_FOOTER = {
+    "このページについて": (["町のホームページの「施策・計画」ページと各部門別のページに掲載されている計画について、"
+                            "名前・分野・計画期間・概要を転記しています。計画のページがあるものは、原典の数値から図表を描いています。"], ""),
+    "出典": ([f'日野町ホームページ「<a href="{SHISAKU_URL}">施策・計画</a>」と、各部門別のページ（HTML）。'
+              "計画ごとの掲載ページへのリンクは、各計画の詳細にあります。"], ""),
+    "資料の時点": ([HUB_ASOF], ""),
+    "注意": ([], "<p>数値・期間は、公表資料から転記したものです。</p>"
+                 f'<p><a href="{SHISAKU_URL}">日野町ホームページ「施策・計画」</a></p>'),
+    "データ": (['<a href="https://github.com/kken78/shiga-hino-plans/blob/main/data/manifest.json">data/manifest.json</a>'
+                "（計画の一覧。JSON。GitHub）、"
+                '<a href="https://github.com/kken78/shiga-hino-plans/tree/main/data/plans">data/plans/</a>'
+                "（計画ごとのデータ。JSON。GitHub）"], ""),
+    "ソースコード": ([portal.REPO_URL, portal.REPO_NAME], ""),
+    "ライセンス": ([portal.LICENSE_HTML], ""),
+}
 
 
 def cats_keys_from_template(template):
@@ -188,6 +210,18 @@ def build():
     # PLANS を JSON インライン注入(fetch せず自己完結。indent で差分を見やすく)
     plans_json = json.dumps(plans, ensure_ascii=False, indent=2)
     page = template.replace(PLACEHOLDER, plans_json)
+
+    # 共通の部品(DESIGN.md ADR-12)。写しは templates/portal/(正本は hino-portal の shared/)
+    for k, v in {
+        "{{PORTAL_CSS}}": portal.css_block(),
+        "{{PORTAL_HEADER}}": portal.header_block(),
+        "{{PORTAL_PAGE}}": portal.page_head(portal.LIBRARY, HUB_LEAD.format(n=len(plans)),
+                                             "資料の時点：" + HUB_ASOF, current=portal.LIBRARY),
+        "{{PORTAL_FOOTER}}": portal.footer_block(HUB_FOOTER),
+    }.items():
+        if page.count(k) != 1:
+            raise SystemExit(f"NG  templates/hub.html: {k} が {page.count(k)} 箇所(期待1)")
+        page = page.replace(k, v)
 
     OUT.write_text(page, encoding="utf-8")
     print(f"OK  {OUT}  ({len(page):,} bytes, plans={len(plans)}, "

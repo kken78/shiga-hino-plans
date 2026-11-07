@@ -58,6 +58,11 @@ jobs:
       - name: 原典の文字の検証(check_source_text.py・PLAN_SCHEMA §10.2・ADR-10。原典 PDF は使わない)
         run: python3 tools/check_source_text.py
 
+      - name: 共通の部品が hino-portal の正本と同じか
+        run: |
+          git clone --depth 1 https://github.com/kken78/hino-portal.git /tmp/hino-portal
+          python3 /tmp/hino-portal/shared/check.py docs/index.html docs/plans/*.html
+
       - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
         run: node tools/validate.mjs docs/index.html docs/plans/*.html
 

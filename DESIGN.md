@@ -541,7 +541,8 @@ ADR-6 の三点セットと同型。
 **文字の規則**
 
 - 文字サイズは `--fs-*` トークンだけで指定する。CSS・style 属性・SVG 属性に px を直接書かない。`<small>` は使わない。
-- `--fs-*` の値は、共通の部品のトークン5つ(`--portal-fs-sub` 14px・`--portal-fs` 16px・`--portal-fs-h1` 18px・`--portal-fs-h3` 20px・`--portal-fs-h2` 24px)のどれかの参照とする。狭い画面で上書きしない(2026-11-08 に ADR-15 で改めた。改める前は「12px 以上とする(狭い画面での上書き値も含む)」)。
+- `--fs-*` の値は、共通の部品のトークン6つ(`--portal-fs-sub` 14px・`--portal-fs` 16px・`--portal-fs-h1` 18px・`--portal-fs-h3` 20px・`--portal-fs-h2` 24px・`--portal-fs-num` 32px)のどれかの参照とする。`--portal-fs-num` は数字の札の主の値とハブの数のカードの数だけに使う。狭い画面で上書きしない(2026-11-08 に ADR-15 で改めた。改める前は「12px 以上とする(狭い画面での上書き値も含む)」。`--portal-fs-num` は 2026-11-09 に ADR-16 で足した)。
+- 文字の太さは 400・700・800 だけとする。見出し・名前は 700、本文は 400、800 は数字の札の主の値に使う(2026-11-09、ADR-16)。
 - 外部のフォントは読み込まない(CLAUDE.md 不変制約3)。書体は端末内のフォントを使い、計画ページとハブで同じ指定にする。
 - SVG の中に文字を置かない。SVG は画面幅に合わせて縮小されるため、文字の大きさを保証できない。チャートの文字はすべて HTML で描く。
 
@@ -570,7 +571,8 @@ ADR-6 の三点セットと同型。
 - **A(静的検査・必須)**: `tools/validate.mjs` が生成HTMLを検査する。
   - SVG の中に `<text>` がないこと
   - `font-size` の指定がすべてトークンの参照であること(CSS・style 属性・SVG 属性)
-  - `--fs-*` の値が共通の部品のトークン5つのどれか(参照か同じ値)であること。`<small>` が無いこと(ADR-15)
+  - `--fs-*` の値が共通の部品のトークン6つのどれか(参照か同じ値)であること。`<small>` が無いこと(ADR-15・ADR-16)
+  - `font-weight` の値が 400・700・800 のどれかであること(CSS・style 属性。ADR-16)
 - **B(実ブラウザ検査)**: `tools/check_mobile.mjs` が、各ページを幅 360px と 1024px で開いて全タブを表示し、次を検査する。Playwright が必要。
   - 文字の実寸が 14px 以上であること(ADR-15)
   - ページ全体が横にはみ出していないこと
@@ -789,7 +791,7 @@ ADR-7 は「案2」(ブロックごとに `verified` を持たせる)を退け�
 | `--fs-body`・`--fs-sub` | 15px・15.5px | `--portal-fs` 16px |
 | `--fs-sec` | 17px | `--portal-fs-h1` 18px |
 | `--fs-vision`・`--fs-num` | 19px・22px | `--portal-fs-h3` 20px |
-| `--fs-kn`・`--fs-big` | 30px(狭い画面 25px)・44px(狭い画面 34px) | `--portal-fs-h2` 24px |
+| `--fs-kn`・`--fs-big` | 30px(狭い画面 25px)・44px(狭い画面 34px) | `--portal-fs-h2` 24px(2026-11-09 に ADR-16 で `--portal-fs-num` 32px に改めた) |
 
 ハブ(templates/hub.html)
 
@@ -799,7 +801,7 @@ ADR-7 は「案2」(ブロックごとに `verified` を持たせる)を退け�
 | `--fs-sm`・`--fs-base`・`--fs-ctrl`・`--fs-data` | .95rem・1rem・.95rem・1rem | `--portal-fs` 16px |
 | `--fs-md` | 1.1rem | `--portal-fs-h1` 18px |
 | `--fs-lg`・`--fs-h2` | 1.3rem・clamp(1.3rem,2.6vw,1.7rem) | `--portal-fs-h3` 20px |
-| `--fs-xl`・`--fs-2xl`・`--fs-3xl` | 1.6rem・1.9rem・2.5rem | `--portal-fs-h2` 24px |
+| `--fs-xl`・`--fs-2xl`・`--fs-3xl` | 1.6rem・1.9rem・2.5rem | `--portal-fs-h2` 24px(`--fs-3xl` は 2026-11-09 に ADR-16 で `--portal-fs-num` 32px に改めた) |
 
 3. 直接の指定をやめる。計画のページとハブの CSS の `font-size` はもとから `--fs-*` の参照だけだった。ハブの `<small>`(数のカードの「件」3か所、計画の階層の図の説明3か所)は `<span>` にし、大きさはクラスの CSS でトークンを当てる。
 4. 共通の部品の CSS(`templates/portal/shell.css`)を hino-portal main の `shared/shell.css` に写し直した(`--portal-fs-h3` 20px が入った)。
@@ -822,6 +824,42 @@ ADR-7 は「案2」(ブロックごとに `verified` を持たせる)を退け�
 **この段階で変えないもの**: 照合の作業用のページ(tools/audit_worksheet.py・audit_index.py・templates/audit_review.html。公開しない。ADR-7 補遺 J)の文字の大きさ。前の調べで 12・13px があるが、hino-portal DESIGN.md 5.2 の対象(ポータルの下のページ)ではないので、この段階では変えていない。グラフの描き方(段階5・6)、本文の文、計画の JSON と照合表。
 
 ---
+
+### ADR-16: 数字の札の文字を 32px にし、文字の太さを3つにする(2026-11-09、hino-portal DESIGN.md 5.2 の改定)
+
+**問題**: ADR-15 で、数字の札の主の値(`.kpi .kn`。前は 30px)と大きな数(`.b-bigstat .v`。前は 44px)、ハブの数のカードの数(`.ig-stat-num`。前は 40px)を `--portal-fs-h2` 24px にした。その結果、ページの題と同じ大きさになり、数を先に見せる作りの意味が薄れた。hino-portal の DESIGN.md 5.2 は、2026-11-09 に数字の札のためのトークン `--portal-fs-num` 32px を足した(依頼者の決定。「デザインの決まりと実装の洗い直し」の問い3 案A)。あわせて、文字の太さを 400 と 700 を基本とし、数字の札の主の値だけ 800 を認めると決めた(問い7 案A)。太さには検査が無く、ハブに 500・600 が18か所あった。
+
+**決定**:
+
+1. ADR-15 の表のうち、次のトークンを `--portal-fs-num` 32px の参照に改める。狭い画面での上書きはしない。
+
+| ページ | トークン | 使うところ | ADR-15 の値 | 新しい値 |
+|---|---|---|---|---|
+| 計画のページ(templates/shell.css) | `--fs-kn` | 数字の札の主の値(`.kpi .kn`) | `--portal-fs-h2` 24px | `--portal-fs-num` 32px |
+| 計画のページ(templates/shell.css) | `--fs-big` | 大きな数(`.b-bigstat .v`) | `--portal-fs-h2` 24px | `--portal-fs-num` 32px |
+| ハブ(templates/hub.html) | `--fs-3xl` | 計画の詳細の数のカードの数(`.ig-stat-num`)だけ | `--portal-fs-h2` 24px | `--portal-fs-num` 32px |
+
+2. 文字の太さは 400・700・800 だけとする。見出し・名前は 700、本文は 400 とし、800 は数字の札の主の値に使う。ハブの 500・600 の18か所を、次のとおり改めた。
+   - 700 にしたもの(名前・見出し): 年表の計画名(`.tl-name`)、表の行の見出し(`tbody th`)、出典の資料名のリンク(`.src-link`)
+   - 400 にしたもの(本文・付随する情報): 年表の目盛り(`.tl-tick span`)、絞り込みの部品(`.chip`・`.lg-chip`)、計画カードの補足(`.p-meta`・`.p-facts`・`.p-link.sub`)、計画の詳細の文(`.p-lead`・`.pd-lead`・`.pd-period-txt`)、人口の表の補足(`.d-share`・`.d-pop small`・`.d-delta small`・`#popTable .area-n`)、注意の文(`.data-warn`)、図の列の見出し(`.ig-cols-label`)
+   - 計画のページ(templates/shell.css)には 500・600・900 が無かった。
+3. 共通の部品の CSS(`templates/portal/shell.css`)を hino-portal の `shared/shell.css`(design/araidashi。`--portal-fs-num:32px` が入った版)に写し直した。
+
+**幅が足りない箇所の解き方**(ADR-8 の表による。文字は小さくしない)
+
+- 数字の札の主の値は、前は数と単位を1つのまとまりとして折り返さない形(`.kn` に `white-space:nowrap`)だった。32px にすると、jisshi のまとめタブの数字の札4枚(「6,906,736千円」など)で、幅 700px と 1024px のとき、文字が札の内側の幅を7〜12px 超えた(札の余白にかかる。幅 360px では1列なので入る)。数の中では折り返さず、数と単位の間だけで折り返せるようにした(`.ku` を折り返さないまとまりにし、`.kn` の `white-space:nowrap` を外した)。この4枚は、広い画面で単位が次の行に回る。ADR-8 の表の「数値と単位が行の途中で切れる」と同じ考え方で、数値の中では切らない。
+- 大きな数(`.b-bigstat`)と、ハブの数のカードの数は、幅 360px・1024px で札の幅に入った(実ブラウザで全計画の全タブを測った)。
+
+**検査**
+
+- ゲートA(validate.mjs)の (8) の段階に 32px(`--portal-fs-num`)を足した。(10) として、`font-weight` の値が 400・700・800(normal・bold を含む)だけであることの検査を足した(CSS・style 属性。`font` の一括指定の太さも見る)。hino-portal DESIGN.md 9.1 の「CI に足すもの」の太さの検査にあたる。
+- ゲートA の太さの検査は値だけを見て、800 をどこに使っているかは見ない。
+
+**この ADR で変えなかったもの**
+
+- 計画のページの 800 のうち、数字の札の主の値と大きな数のほかに使っているもの(タブの番号、まとめの見出し、カードの題、目標カードの値、表の強調の行など、templates/shell.css の20か所)。hino-portal DESIGN.md 5.2 では 800 は数字の札の主の値だけだが、今回の指示は 500・600・900 を改めることだったので、変えずに残した。扱いは依頼者が決める。
+- ハブの上の数のカード(`.hs-num`。「計画期間中」などの件数。`--fs-xl` 24px)。ADR-15 の前は 1.6rem で、hino-portal DESIGN.md 5.2 の「30・44・40px を 24px に下げた」には当たらないので、24px のまま残した。扱いは依頼者が決める。
+- 照合の作業用のページ(ADR-15 と同じ理由)。
 
 ---
 
@@ -877,7 +915,7 @@ hino-plans/
 | スキーマ検証 | validate_schema.py | 必須項目・型・出典・まとめタブ規約・ID一意性 |
 | レンダリング | render_plan.py | 図表座標は数値から計算(手置き禁止の構造化) |
 | 出力検証 | validate.mjs(既存) | JS構文・NaN/undefined属性・ID重複 |
-| 表示の静的検査 | validate.mjs(ADR-8 ゲートA)・hino-portal の shared/check.py --fonts(ADR-15) | SVG内に文字なし・文字サイズはトークンのみ・トークンは14・16・18・20・24px のどれか |
+| 表示の静的検査 | validate.mjs(ADR-8 ゲートA)・hino-portal の shared/check.py --fonts(ADR-15) | SVG内に文字なし・文字サイズはトークンのみ・トークンは14・16・18・20・24・32px のどれか・太さは400・700・800 のどれか(ADR-16) |
 | 表示の実ブラウザ検査 | check_mobile.mjs(ADR-8 ゲートB)・hino-portal の shared/check_mobile.mjs(ADR-15) | 360px/1024pxで文字14px以上・はみ出しなし・ラベルの重なりなし・チャートの高さ1200px以下 |
 | 照合 | build/audit/<id>.tsv | 人がPDFと突合(値・単位・出典ページ) |
 | 照合の状況の表示 | render_plan.py・build.py(ADR-11・PLAN_SCHEMA §11) | 台帳から数えた照合の件数を計画ページとハブに出す(手で書かない) |

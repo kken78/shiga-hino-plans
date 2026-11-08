@@ -421,14 +421,15 @@ class Renderer:
         for it in b["items"]:
             self.audit(tab_id, block_no, "kpi", it["label"], it["value"],
                        it["unit"], b.get("source"))
-            # 増減は印と色を付けず、文言だけで示す(ADR-14 の改定。hino-portal DESIGN.md 3.3。PLAN_SCHEMA §6-B kpi_grid)
+            # 増減は印と色を付けず、文言だけで示す(ADR-14 の改定。hino-portal DESIGN.md 3.3。PLAN_SCHEMA §6-B kpi_grid)。
+            # flat は差を計算していないので「増減なし」を出さない。delta の文にその向きの字(増・減)が
+            # 入っているときは、文言を重ねない(2026-11-09、依頼者の決定 問い2 案A)
             tr = it.get("trend")
-            if tr == "flat":
-                trw = "同額" if "円" in str(it["unit"]) else "増減なし"
-            else:
-                trw = {"up": "増", "down": "減"}.get(tr, "")
-            trh = f'<span class="tr">{trw}</span>' if tr else ""
-            # delta は JSON のとおりに出す(先頭の ▲ は原典の書き方の負の値の印。外さない)
+            dtx = str(it.get("delta") or "")
+            trw = {"up": "増", "down": "減"}.get(tr, "")
+            if trw and trw in dtx:
+                trw = ""
+            trh = f'<span class="tr">{trw}</span>' if trw else ""
             dtx = str(it.get("delta") or "")
             delta = f'<div class="kd">{trh}<span>{esc(dtx)}</span></div>' if dtx else ""
             asof = f'<div class="asof">{esc(it["asof"])}</div>' if it.get("asof") else ""
@@ -508,9 +509,10 @@ class Renderer:
                     # audit は生の数値(負値も -n のまま)を記録
                     self.audit(tab_id, block_no, "table",
                                f"{raw(row[0])}/{b['head'][ci]}", v, "", b.get("source"))
-                    # 表示のみ和文会計表記に変換: 負値は「▲＋絶対値」(色は付けない。ADR-14)
+                    # 表示のみ: 負値は「△＋絶対値」(hino-portal DESIGN.md 3.3。色は付けない。
+                    # 原典の印(▲・△・-)は写さない。2026-11-09、ADR-14 の改定2)
                     if v < 0:
-                        v = "▲" + fmt(num_abs(v))
+                        v = "△" + fmt(num_abs(v))
                     else:
                         v = fmt(v)
                 classes = " ".join(c for c in (("num" if is_num else ""),

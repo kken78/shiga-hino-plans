@@ -29,10 +29,12 @@
   --ink:#232a33; --ink2:#4c5561; --mut:#7d8692;
   --card:#ffffff; --line:#dfe4ea; --line2:#edf0f4;
   --r:14px; --r2:9px;
-  /* 型スケール(8段) */
-  --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
-  --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
-  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* 文字の大きさ。値は共通の部品のトークン5つ(14・16・18・20・24px)のどれかの参照だけにする。
+     狭い画面で上書きしない(hino-portal DESIGN.md 5.2・ADR-15) */
+  --fs-sec:var(--portal-fs-h1); --fs-sub:var(--portal-fs); --fs-body:var(--portal-fs);
+  --fs-small:var(--portal-fs-sub); --fs-micro:var(--portal-fs-sub); --fs-kn:var(--portal-fs-h2);
+  --fs-tab:var(--portal-fs-sub); --fs-vision:var(--portal-fs-h3); --fs-big:var(--portal-fs-h2);
+  --fs-num:var(--portal-fs-h3); --fs-chart:var(--portal-fs-sub);
   /* チャート寸法(ADR-8) */
   --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
   --chart-track:#eef0f2; --chart-grid:#e4e8ee;
@@ -215,7 +217,9 @@
 .hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
 .hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
 .hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
-.hpv1 .target .tg{display:inline-flex;gap:8px;align-items:baseline;white-space:nowrap}
+.hpv1 .target .tg{display:inline-flex;flex-wrap:wrap;gap:0 8px;align-items:baseline;max-width:100%}
+/* 値・単位・時点はそれぞれ折り返さない。カードの幅に入らないときは、時点をまとまりの中で次の行に回す(ADR-8 の表・ADR-15) */
+.hpv1 .target .tg>*{white-space:nowrap}
 .hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
 .hpv1 .target .ar{color:var(--mut)}
 .hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--ink)}
@@ -405,7 +409,7 @@
 .hpv1 .shogo b{color:var(--ink)}
 
 @media (max-width:560px){
-  .hpv1{--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
+  .hpv1{--chart-h:170px}
   .hpv1 .tab{padding:10px 11px 11px}
   /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
   .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
@@ -442,9 +446,9 @@
 <!-- portal-shared:css start --><style>
 /* 日野町データポータル 共通の部品（見出し・ナビ・ページの見出し・フッター）。
    正本は hino-portal/shared/shell.css。各ページはこれを <style> に写し、CI で同じであることを確かめる（DESIGN.md 9.1）。
-   文字の大きさは 14px 以上（DESIGN.md 5.2）。色は 3章の藍と朱。書体は端末のもの（5.1）。
+   文字の大きさは --portal-fs-sub 14px・--portal-fs 16px・--portal-fs-h1 18px・--portal-fs-h3 20px・--portal-fs-h2 24px の5段階だけ（DESIGN.md 5.2）。色は 3章の藍と朱。書体は端末のもの（5.1）。
    --portal-cat1〜5 はグラフの区別の色（3.4）、--portal-pillar1〜5（面）と --portal-pillar1-ink〜5-ink（文字）は第6次総合計画の政策の柱の色（3.6）。 */
-:root{--portal-ai:#1E4E9C;--portal-ai-ink:#0C2547;--portal-shu:#C33D2E;--portal-bg:#EFF3F9;--portal-card:#FFFFFF;--portal-ink:#1A2333;--portal-muted:#5B6B85;--portal-line:#DCE4F0;--portal-foot-bg:#0C2547;--portal-foot-ink:#C9D6EA;--portal-cat1:#3460FB;--portal-cat2:#AC3E00;--portal-cat3:#197A4B;--portal-cat4:#008299;--portal-cat5:#767676;--portal-pillar1:#E72F5C;--portal-pillar2:#E36800;--portal-pillar3:#639B22;--portal-pillar4:#009AB4;--portal-pillar5:#3F51A2;--portal-pillar1-ink:#D91948;--portal-pillar2-ink:#B45300;--portal-pillar3-ink:#4F7B1B;--portal-pillar4-ink:#007A8F;--portal-pillar5-ink:#3F51A2;--portal-fs:16px;--portal-fs-sub:14px;--portal-fs-h1:18px;--portal-fs-h2:24px;--portal-sp1:8px;--portal-sp2:16px;--portal-sp3:24px;--portal-sp4:40px;--portal-font:"Hiragino Sans","Hiragino Kaku Gothic ProN","BIZ UDPGothic","Yu Gothic Medium","Yu Gothic","Noto Sans CJK JP","Noto Sans JP",Meiryo,system-ui,sans-serif}
+:root{--portal-ai:#1E4E9C;--portal-ai-ink:#0C2547;--portal-shu:#C33D2E;--portal-bg:#EFF3F9;--portal-card:#FFFFFF;--portal-ink:#1A2333;--portal-muted:#5B6B85;--portal-line:#DCE4F0;--portal-foot-bg:#0C2547;--portal-foot-ink:#C9D6EA;--portal-cat1:#3460FB;--portal-cat2:#AC3E00;--portal-cat3:#197A4B;--portal-cat4:#008299;--portal-cat5:#767676;--portal-pillar1:#E72F5C;--portal-pillar2:#E36800;--portal-pillar3:#639B22;--portal-pillar4:#009AB4;--portal-pillar5:#3F51A2;--portal-pillar1-ink:#D91948;--portal-pillar2-ink:#B45300;--portal-pillar3-ink:#4F7B1B;--portal-pillar4-ink:#007A8F;--portal-pillar5-ink:#3F51A2;--portal-fs:16px;--portal-fs-sub:14px;--portal-fs-h1:18px;--portal-fs-h2:24px;--portal-fs-h3:20px;--portal-sp1:8px;--portal-sp2:16px;--portal-sp3:24px;--portal-sp4:40px;--portal-font:"Hiragino Sans","Hiragino Kaku Gothic ProN","BIZ UDPGothic","Yu Gothic Medium","Yu Gothic","Noto Sans CJK JP","Noto Sans JP",Meiryo,system-ui,sans-serif}
 .portal-wrap{max-width:1080px;margin:0 auto;padding:0 var(--portal-sp2);box-sizing:border-box}
 .portal-head,.portal-page,.portal-foot{font-family:var(--portal-font);font-size:var(--portal-fs);line-height:1.7;letter-spacing:.02em}
 .portal-head *,.portal-page *,.portal-foot *{box-sizing:border-box}

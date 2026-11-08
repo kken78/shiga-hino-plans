@@ -32,11 +32,9 @@ SUMMARY_ALLOWED = {"narrative", "vision", "aims", "kpi_grid", "targets", "action
 SUMMARY_MAX_BLOCKS = 6
 
 CHART_KINDS = {"bars", "stacked_bars", "stacked_100", "line", "pair_bars", "rank_bars"}
-THEME_TOKENS = {"accent", "accent2", "danger", "paper"}
 TRENDS = {"up", "down", "flat"}
 
 RELATIVE_YEAR = re.compile(r"本年度|今年度|来年度|昨年度|再来年度")
-HEX_COLOR = re.compile(r"^#?[0-9a-fA-F]{3,8}$")
 ID_RE = re.compile(r"^[a-z][a-z0-9_-]*$")
 SOURCE_REF = re.compile(r"^([a-z][a-z0-9_-]*)(\s+p\.[\d０-９]+([-–〜]\d+)?)?$")
 
@@ -84,13 +82,10 @@ def check_number(rep, where, v, label):
         rep.err(where, f"{label} は数値型で書く(桁区切り文字列は不可): {v!r}")
 
 
-def check_color_token(rep, where, c):
-    if c is None:
-        return
-    if HEX_COLOR.match(str(c)):
-        rep.err(where, f"生HEX色は禁止。テーマトークン名を使う: {c!r}")
-    elif c not in THEME_TOKENS:
-        rep.err(where, f"未知の色トークン: {c!r} (使用可: {sorted(THEME_TOKENS)})")
+def check_no_color(rep, where, obj):
+    """系列の色の指定 c は廃止(2026-11-08。PLAN_SCHEMA §6-B、DESIGN.md ADR-14)。色はレンダラーが決める。"""
+    if isinstance(obj, dict) and "c" in obj:
+        rep.err(where, f"色の指定 c は廃止(系列の色はレンダラーが区別の色を順に当てる): {obj.get('c')!r}")
 
 
 def check_source(rep, where, block, source_ids):
@@ -172,6 +167,9 @@ def check_block(rep, where, b, source_ids):
         for i, row in enumerate(b.get("rows", [])):
             if len(row) != ncol:
                 rep.err(f"{where}.rows[{i}]", f"列数が head({ncol})と不一致: {len(row)}")
+            for cell in row:
+                if isinstance(cell, dict) and cell.get("cls", "em") != "em":
+                    rep.err(f"{where}.rows[{i}]", f"セルの cls は em だけ(neg・pos は廃止。値に色を付けない): {cell.get('cls')!r}")
         # 任意の折りたたみ fold は、あれば型を検証、無ければ素通り
         fold = b.get("fold")
         if fold is not None:
@@ -189,10 +187,15 @@ def check_block(rep, where, b, source_ids):
         kind = b.get("kind")
         if kind not in CHART_KINDS:
             rep.err(where, f"未知のchart kind: {kind!r} (使用可: {sorted(CHART_KINDS)})")
+        check_no_color(rep, where, b)
         for k in b.get("keys", []) or []:
-            check_color_token(rep, where, k.get("c"))
+            check_no_color(rep, where, k)
         for ln in b.get("lines", []) or []:
-            check_color_token(rep, where, ln.get("c"))
+            check_no_color(rep, where, ln)
+        if kind == "rank_bars":
+            for i, r in enumerate(b.get("rows", []) or []):
+                if len(r) > 2 and r[2] not in (0, "hino", "avg"):
+                    rep.err(f"{where}.rows[{i}]", f"rank_bars の区分は 0・\"hino\"・\"avg\" だけ(1 は廃止): {r[2]!r}")
         if kind in ("stacked_bars", "stacked_100"):
             keys_n = len(b.get("keys", []))
             for i, y in enumerate(b.get("years", [])):
@@ -339,6 +342,8 @@ def validate(path):
     if not ID_RE.match(str(d.get("id", ""))):
         rep.err("$.id", f"idは英小文字始まり[a-z0-9_-]: {d.get('id')!r}")
     require(rep, "$", d, ["meta", "sources", "tabs"])
+    if "theme" in d:
+        rep.err("$.theme", "theme(計画ごとの色)は廃止(2026-11-08。PLAN_SCHEMA §3、DESIGN.md ADR-13)。計画の JSON に色を書かない")
 
     meta = d.get("meta", {})
     require(rep, "$.meta", meta, ["name", "period", "lead", "dept", "url"])

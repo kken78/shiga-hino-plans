@@ -5,7 +5,7 @@
 設計原則(DESIGN.md / PLAN_SCHEMA.md v1):
 - 図表の座標・バー幅・達成率は必ずここで数値から計算する(手置き禁止)
 - 出力は自己完結HTML(CSS/JS/画像すべてinline、file://可)
-- 計画ごとの個性はテーマ4変数のみ
+- 色は日野町データポータルの共通の色だけ(--portal-*。DESIGN.md ADR-13・ADR-14)。計画ごとの色は持たない
 
 使い方: python3 tools/render_plan.py <id> [--no-audit]
 
@@ -22,9 +22,10 @@
             ・縦棒(bars/stacked_bars)は HTML の列。幅360pxの本文(NARROW_W)に列が
               収まらない場合は、狭い画面用の横棒も出して CSS で出し分ける
             ・折れ線(line)は線と目盛り線だけ SVG(伸縮・線幅固定)、数値とラベルは HTML
-            ・stack100 のラベルはセグメント幅≥9%のみ、文字色は txtOn 相当
-              (WCAG輝度>0.30で暗)。rank_bars の色は hino→accent2 / 1→accent /
-              0→accent淡 / avg→灰(元 .hpshi render の写像を継承)
+            ・stack100 のラベルはセグメント幅≥9%のみ。文字は白(区別の色の5色とも白と 4.5:1 以上)
+            ・系列の色は系列の順に区別の色 --portal-cat1〜5(DESIGN.md ADR-14)。6つめ以降は
+              1つめからの色に斜めの縞を付ける。rank_bars は hino→cat2 / avg→cat5 / ほか→cat1
+            ・第6次総合計画(sogo6)と実施計画(jisshi)の政策の柱は柱の色 --portal-pillar1〜5(ADR-14)
 """
 import base64
 import html
@@ -49,8 +50,16 @@ OUT = ROOT / "docs" / "plans"
 AUDIT = ROOT / "build" / "audit"
 ASSETS = ROOT / "data" / "assets"
 
-DEFAULT_THEME = {"accent": "#1E4E9C", "accent2": "#C33D2E",
-                 "danger": "#c25b46", "paper": "#f4f6f8"}
+# 色(DESIGN.md ADR-13・ADR-14。値は hino-portal の shared/shell.css を写した templates/portal/shell.css の :root)
+N_CAT = 5           # 区別の色の数(hino-portal DESIGN.md 3.4)
+AVG_CAT = 5         # rank_bars の平均の行の色(Solid Gray)
+HINO_CAT = 2        # rank_bars の日野町の行の色
+# 第6次総合計画の5つの政策の柱(hino-portal DESIGN.md 3.6 の表と同じ名前。政策1から順)
+PILLARS = ("未来を担うひとづくり", "暮らしを支えるしごとづくり", "安心、助け合いのくらしづくり",
+           "住みたくなる都市基盤づくり", "みんなではぐくむ地域づくり")
+PILLAR_PLANS = {"sogo6", "jisshi"}   # 柱の色を当てる計画
+PILLAR_TAB = re.compile(r"^政策の柱([1-5])\s*(.+)$")   # 実施計画の柱ごとのタブの最初の見出し
+PORTAL_CSS = TPL / "portal" / "shell.css"
 # チャート部品の寸法(DESIGN.md ADR-8)。CSS のトークン(templates/shell.css)と同じ値にする
 FS_CHART = 13       # --fs-chart(px)
 COL_GAP = 6         # 縦棒の列の間隔(px)。.vb の column-gap
@@ -184,58 +193,91 @@ def nice_max(v):
     return 10 ** (exp + 1)
 
 
-def mix(hex1, hex2, w):
-    """hex1 を hex2 側へ w(0-1) 混色。自動配色用。"""
-    a = [int(hex1.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4)]
-    b = [int(hex2.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4)]
-    return "#" + "".join(f"{round(x + (y - x) * w):02x}" for x, y in zip(a, b))
+def portal_colors():
+    """templates/portal/shell.css の :root から --portal-* の色を読む({名前: '#hex'})。"""
+    text = PORTAL_CSS.read_text(encoding="utf-8")
+    m = re.search(r":root\{([^}]*)\}", text)
+    if not m:
+        raise ValueError(f"{PORTAL_CSS}: :root が無い")
+    return dict(re.findall(r"--(portal-[\w-]+):(#[0-9A-Fa-f]{6})", m.group(1)))
+
+
+def contrast(hex1, hex2):
+    """WCAG 2.x のコントラスト比。"""
+    def lum(h):
+        def f(c):
+            c = c / 255
+            return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+        r, g, b = (int(h.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4))
+        return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b)
+    a, b = sorted((lum(hex1), lum(hex2)), reverse=True)
+    return (a + 0.05) / (b + 0.05)
+
+
+def check_portal_colors():
+    """区別の色・柱の色のトークンがそろっていること、100%積み上げの帯の中の白い文字が区別の色の5色とも
+    4.5:1 以上になることを確かめる(DESIGN.md ADR-14。hino-portal DESIGN.md 3.2)。"""
+    cols = portal_colors()
+    need = ([f"portal-cat{i}" for i in range(1, N_CAT + 1)]
+            + [f"portal-pillar{i}" for i in range(1, 6)] + [f"portal-pillar{i}-ink" for i in range(1, 6)]
+            + ["portal-card", "portal-ai", "portal-shu", "portal-bg", "portal-ink"])
+    miss = [n for n in need if n not in cols]
+    if miss:
+        raise ValueError(f"{PORTAL_CSS}: 色のトークンが無い: {miss}")
+    for i in range(1, N_CAT + 1):
+        r = contrast(cols[f"portal-cat{i}"], cols["portal-card"])
+        if r < 4.5:
+            raise ValueError(f"--portal-cat{i} と白の比が {r:.2f}(4.5 未満)。帯の中の文字が読めない")
+
+
+def cat_fill(i):
+    """系列 i(0始まり)の塗り(CSS の background の値)。6つめ以降は1つめからの色に斜めの縞を付ける
+    (色は5色まで。hino-portal DESIGN.md 3.4「塗りの模様」)。"""
+    c = f"var(--portal-cat{i % N_CAT + 1})"
+    if i < N_CAT:
+        return c
+    dark = f"color-mix(in srgb,{c} 55%,var(--portal-ink))"
+    return f"repeating-linear-gradient(45deg,{c} 0 5px,{dark} 5px 8px)"
+
+
+def cat_stroke(i):
+    """折れ線の系列 i の線の色と、6つめ以降の点線の印。"""
+    return f"var(--portal-cat{i % N_CAT + 1})", i >= N_CAT
 
 
 class Renderer:
     def __init__(self, d, pid):
         self.d = d
         self.pid = pid  # ファイル名の id(台帳 data/audit_log/<id>.tsv の名前。PLAN_SCHEMA §11)
-        self.theme = {**DEFAULT_THEME, **d.get("theme", {})}
+        if "theme" in d:
+            raise ValueError("theme は廃止(DESIGN.md ADR-13)。計画の JSON に色を書かない")
+        self.pillar = None  # いま描いているタブの政策の柱の番号(実施計画の柱ごとのタブ。ADR-14)
         self.audit_rows = []  # (tab, block_no, btype, block_label, label, value, unit, source)
         self.last_heading = ""
         self.block_label = ""
-        # 自動配色(系列に c 指定がない場合): テーマから決定的に導出
-        a, a2 = self.theme["accent"], self.theme["accent2"]
-        self.auto_palette = [a, mix(a, "#ffffff", 0.38), "#527ea1",
-                             a2, mix(a2, "#ffffff", 0.38), "#8a8f98"]
 
-    # ---------- 色 ----------
-    def color(self, token, fallback_index=0):
-        if token is None:
-            return self.auto_palette[fallback_index % len(self.auto_palette)]
-        if token in self.theme:
-            return self.theme[token]
-        raise ValueError(f"未知の色トークン(validate漏れ?): {token}")
-
-    def _ink(self, hexc):
-        """セグメント上の文字色。元 txtOn(lum>0.30→暗)を移植。"""
-        h = hexc.lstrip("#")
-
-        def f(c):
-            c = c / 255
-            return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
-        r, g, bl = (int(h[i:i + 2], 16) for i in (0, 2, 4))
-        lum = 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(bl)
-        return "#22302c" if lum > 0.30 else "#ffffff"
-
-    def series_colors(self, keys):
-        used = 0
-        out = []
+    # ---------- 色(DESIGN.md ADR-13・ADR-14) ----------
+    @staticmethod
+    def series_colors(keys):
+        """系列の順に区別の色を当てる。JSON に色は書かない(c は廃止。validate_schema が検出)。"""
         for k in keys:
-            if k.get("c"):
-                out.append(self.color(k["c"]))
-            else:
-                # 指定色と衝突しない自動色を順に割当
-                while used < len(self.auto_palette) and self.auto_palette[used] in out:
-                    used += 1
-                out.append(self.auto_palette[used % len(self.auto_palette)])
-                used += 1
-        return out
+            if "c" in k:
+                raise ValueError("系列の色の指定 c は廃止(DESIGN.md ADR-14)")
+        return [cat_fill(i) for i in range(len(keys))]
+
+    def single_fill(self):
+        """系列が1つのチャートの色。実施計画の柱ごとのタブでは柱の色、ほかは区別の色の1つめ。"""
+        return f"var(--portal-pillar{self.pillar})" if self.pillar else cat_fill(0)
+
+    def pillar_no(self, name):
+        """政策の柱の名前なら 1〜5、ほかは None(sogo6・jisshi だけ)。"""
+        if self.pid not in PILLAR_PLANS:
+            return None
+        return PILLARS.index(name) + 1 if name in PILLARS else None
+
+    @staticmethod
+    def pillar_vars(n):
+        return f"--pl:var(--portal-pillar{n});--pl-ink:var(--portal-pillar{n}-ink)"
 
     @staticmethod
     def _program_items(b):
@@ -342,7 +384,9 @@ class Renderer:
         for it in b["items"]:
             no = f'<span class="no">{esc(it["no"])}</span>' if it.get("no") else ""
             d = f'<div class="d">{esc(it["desc"])}</div>' if it.get("desc") else ""
-            rows.append(f'<div class="aim">{no}<div><div class="t">{esc(it["title"])}</div>{d}</div></div>')
+            pn = self.pillar_no(it["title"])
+            attr = f' class="aim is-pillar" style="{self.pillar_vars(pn)}"' if pn else ' class="aim"'
+            rows.append(f'<div{attr}>{no}<div><div class="t">{esc(it["title"])}</div>{d}</div></div>')
         return f'<div class="b-aims">{"".join(rows)}</div>'
 
     def b_fields(self, b, *_):
@@ -377,9 +421,10 @@ class Renderer:
         for it in b["items"]:
             self.audit(tab_id, block_no, "kpi", it["label"], it["value"],
                        it["unit"], b.get("source"))
-            tr_map = {"up": "▲", "down": "▼", "flat": "―"}
+            # 増減の矢印に色を付けない(ADR-14。hino-portal DESIGN.md 3.3: ▲ 増・▼ 減・＝)
+            tr_map = {"up": "▲", "down": "▼", "flat": "＝"}
             tr = it.get("trend")
-            trh = f'<span class="tr {tr}">{tr_map[tr]}</span>' if tr else ""
+            trh = f'<span class="tr">{tr_map[tr]}</span>' if tr else ""
             delta = f'<div class="kd">{trh}<span>{esc(it["delta"])}</span></div>' if it.get("delta") else ""
             asof = f'<div class="asof">{esc(it["asof"])}</div>' if it.get("asof") else ""
             cells.append(
@@ -392,8 +437,8 @@ class Renderer:
         self.audit(tab_id, block_no, "bigstat", b["label"], b["value"],
                    b["unit"], b.get("source"))
         d = f'<div class="d">{esc(b["desc"])}</div>' if b.get("desc") else ""
-        return (f'<div class="b-bigstat"><span class="v num">{fmt(b["value"])}</span>'
-                f'<span class="u">{esc(b["unit"])}</span>'
+        return (f'<div class="b-bigstat"><span class="vu"><span class="v num">{fmt(b["value"])}</span>'
+                f'<span class="u">{esc(b["unit"])}</span></span>'
                 f'<span class="l">{esc(b["label"])}</span>{d}</div>')
 
     def b_targets(self, b, tab_id, block_no):
@@ -413,9 +458,10 @@ class Renderer:
                 if node:
                     self.audit(tab_id, block_no, f"target.{tag}",
                                it["label"], node["v"], it["unit"], b.get("source"))
+            # 目標比の長さを藍で示す(ADR-14。色で良し悪しを示さない)
             bar = (f'<svg viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true">'
-                   f'<rect x="0" y="0" width="100" height="6" rx="3" fill="{mix(self.theme["accent"], "#ffffff", 0.82)}"/>'
-                   f'<rect x="0" y="0" width="{pctc:.1f}" height="6" rx="3" fill="{self.theme["accent2"]}"/></svg>')
+                   f'<rect x="0" y="0" width="100" height="6" rx="3" style="fill:var(--chart-track)"/>'
+                   f'<rect x="0" y="0" width="{pctc:.1f}" height="6" rx="3" style="fill:var(--portal-ai)"/></svg>')
             cur_label = "現状" if cur else "基準"
             rows.append(
                 f'<div class="target"><div class="tl">{esc(it["label"])}</div>'
@@ -450,16 +496,16 @@ class Renderer:
                 cls, v = "", cell
                 if isinstance(cell, dict):
                     cls, v = cell.get("cls", ""), cell["v"]
+                    if cls not in ("", "em"):
+                        raise ValueError(f"表のセルの cls は em だけ(neg・pos は廃止。ADR-14): {cls!r}")
                 is_num = isinstance(v, (int, float)) and not isinstance(v, bool)
                 if is_num:
                     # audit は生の数値(負値も -n のまま)を記録
                     self.audit(tab_id, block_no, "table",
                                f"{raw(row[0])}/{b['head'][ci]}", v, "", b.get("source"))
-                    # 表示のみ和文会計表記に変換: 負値は「▲＋絶対値」+ 赤(neg)
+                    # 表示のみ和文会計表記に変換: 負値は「▲＋絶対値」(色は付けない。ADR-14)
                     if v < 0:
                         v = "▲" + fmt(num_abs(v))
-                        if "neg" not in cls.split():
-                            cls = (cls + " neg").strip()
                     else:
                         v = fmt(v)
                 classes = " ".join(c for c in (("num" if is_num else ""),
@@ -606,7 +652,10 @@ class Renderer:
         for g in b["groups"]:
             gid = g.get("_toc_id")  # _collect_toc が注入(toc目次のジャンプ先)
             gid_attr = f' id="{esc(gid)}"' if gid else ""
-            head = f'<div class="phead"{gid_attr}>{esc(g.get("no", ""))} {esc(g["name"])}</div>'
+            pn = self.pillar_no(g["name"])
+            pl_attr = f' style="{self.pillar_vars(pn)}"' if pn else ""
+            no_html = f'<span class="pno">{esc(g.get("no", ""))}</span>' if pn and g.get("no") else esc(g.get("no", ""))
+            head = f'<div class="phead"{gid_attr}{pl_attr}>{no_html} {esc(g["name"])}</div>'
             # 節の計は原典の値をそのまま出す。事業の金額を足し上げない(PLAN_SCHEMA programs)
             tot = g.get("total")
             total = (f'<div class="ptotal"><span class="ecl">{esc(tot.get("label") or "計")}</span>'
@@ -654,7 +703,7 @@ class Renderer:
 
     def _legend(self, names, colors):
         items = "".join(
-            f'<span><span class="sw" style="background:{c}"></span>{esc(k)}</span>'
+            f'<span><span class="sw" style="background:{c}" aria-hidden="true"></span>{esc(k)}</span>'
             for k, c in zip(names, colors))
         return f'<div class="legend">{items}</div>'
 
@@ -750,7 +799,9 @@ class Renderer:
     def chart_bars(self, b, tab_id, block_no):
         years = b["years"]
         top = nice_max(max(y["v"] for y in years))
-        color = self.color(b.get("c"), 0)
+        if "c" in b:
+            raise ValueError("系列の色の指定 c は廃止(DESIGN.md ADR-14)")
+        color = self.single_fill()
         cols, hrows = [], []
         for y in years:
             self.audit(tab_id, block_no, "chart.bars", y["label"], y["v"],
@@ -803,9 +854,10 @@ class Renderer:
                            f'{ln["k"]}/{xlabels[i]}', v, b.get("unit"), b.get("source"))
                 x = S * i / (n - 1) if n > 1 else S / 2
                 pts.append(f"{x:.1f},{S - v / top * S:.1f}")
-            dash = ' stroke-dasharray="6 4"' if ln.get("dash") else ""
+            stroke, extra_dash = cat_stroke(li)
+            dash = ' stroke-dasharray="6 4"' if (ln.get("dash") or extra_dash) else ""
             parts.append(f'<polyline points="{" ".join(pts)}" fill="none" '
-                         f'stroke="{colors[li]}" stroke-width="2.5" '
+                         f'style="stroke:{stroke}" stroke-width="2.5" '
                          f'stroke-linejoin="round" stroke-linecap="round"{dash} '
                          f'vector-effect="non-scaling-stroke"/>')
         yw_em = max(text_px(t, 1.0) for _, t in ticks) + 0.8
@@ -851,7 +903,7 @@ class Renderer:
                     continue
                 tx = f"{frac * 100:.0f}" if frac * 100 >= 9 else ""
                 segs.append(f'<span class="s100-s" style="width:{pct(frac)};background:{colors[si]};'
-                            f'color:{self._ink(colors[si])}">{tx}</span>')
+                            f'color:var(--portal-card)">{tx}</span>')
             rows.append(f'<div class="s100-r"><span class="s100-l">{esc(y["label"])}</span>'
                         f'<span class="s100-b">{"".join(segs)}</span></div>')
         cls = " inline-sm" if self._inline(y["label"] for y in years) else ""
@@ -887,9 +939,9 @@ class Renderer:
 
     def chart_rank_bars(self, b, tab_id, block_no):
         """降順ランキングの横棒(元 .hpshi render を移植)。
-        rows=[[名称, 値, 強調], ...]。強調: 0/1/"hino"/"avg"。
+        rows=[[名称, 値, 区分?], ...]。区分: 0(省略可)/"hino"/"avg"(1 は廃止。ADR-14)。
         avg 行は末尾へ寄せ、それ以外は入力順(=降順で用意される)を保つ(値ソートはしない)。
-        幅=max(v/top, 1%)。色: hino→accent2 / 1→accent / 0→accent淡 / avg→灰。"""
+        幅=max(v/top, 1%)。色: hino→cat2 / avg→cat5 / ほか→cat1(柱ごとのタブでは柱の色)。"""
         src = b["rows"]
 
         def flag(r):
@@ -897,9 +949,8 @@ class Renderer:
         rows = [r for r in src if flag(r) != "avg"] + [r for r in src if flag(r) == "avg"]
         vals = [r[1] for r in rows]
         top = nice_max(max(vals)) if vals else 1
-        accent, accent2 = self.color("accent"), self.color("accent2")
-        fill0 = mix(accent, "#ffffff", 0.45)   # 元 #9db4d8(accent淡)相当
-        avg_tone = "#b0b7c3"                    # 元 avg 別トーン
+        hino_fill, avg_fill = cat_fill(HINO_CAT - 1), cat_fill(AVG_CAT - 1)
+        fill0 = self.single_fill()
         unit = b.get("unit", "")
         has_hino = has_avg = False
         hrows = []
@@ -907,25 +958,25 @@ class Renderer:
             name, v, f = r[0], r[1], flag(r)
             self.audit(tab_id, block_no, "chart.rank", name, v, b.get("unit"), b.get("source"))
             if f == "hino":
-                fill, cls = accent2, "em"
+                fill, cls = hino_fill, "em"
                 has_hino = True
             elif f == "avg":
-                fill, cls = avg_tone, "avg"
+                fill, cls = avg_fill, "avg"
                 has_avg = True
-            elif f == 1:
-                fill, cls = accent, ""
-            else:
+            elif f == 0:
                 fill, cls = fill0, ""
+            else:
+                raise ValueError(f"rank_bars の区分は 0・hino・avg だけ(1 は廃止。ADR-14): {f!r}")
             hrows.append({"label": name, "value": fmt(v) + unit, "cls": cls,
                           "segs": [(max(v / top, 0.01), fill)]})
         body = self._hbar(hrows, self._vw(r["value"] for r in hrows))
         leg_names, leg_cols = [], []
         if has_hino:
             leg_names.append("日野町")
-            leg_cols.append(accent2)
+            leg_cols.append(hino_fill)
         if has_avg:
             leg_names.append("平均")
-            leg_cols.append(avg_tone)
+            leg_cols.append(avg_fill)
         legend = self._legend(leg_names, leg_cols) if leg_names else ""
         return body, legend
 
@@ -1052,7 +1103,22 @@ class Renderer:
                + "".join(body) + "</section>")
         return line, sec
 
+    def tab_pillar(self, tab):
+        """実施計画の柱ごとのタブ(最初の見出しが「政策の柱N 柱の名前」)なら N(ADR-14)。名前が
+        hino-portal DESIGN.md 3.6 の表と合わなければ止める。"""
+        if self.pid not in PILLAR_PLANS:
+            return None
+        h = next((b for b in tab.get("blocks", []) if b.get("type") == "heading"), None)
+        m = PILLAR_TAB.match(str(h.get("text", ""))) if h else None
+        if not m:
+            return None
+        n = int(m.group(1))
+        if m.group(2).strip() != PILLARS[n - 1]:
+            raise ValueError(f"タブ {tab['id']}: 政策の柱{n} の名前が合わない: {m.group(2)!r}")
+        return n
+
     def render(self):
+        check_portal_colors()
         d, m = self.d, self.d["meta"]
         tabs_html, panels_html = [], []
         for ti, tab in enumerate(d["tabs"]):
@@ -1064,11 +1130,14 @@ class Renderer:
             self.toc_entries = self._collect_toc(tab)  # b_toc が参照する目次エントリ
             self.last_heading = ""  # block_label の導出はタブごとにやり直す(ADR-7 補遺 D)
             self.src_display = self._src_display_indices(tab)  # 出典を表示するindex集合
+            self.pillar = self.tab_pillar(tab)
             blocks = "".join(self.block(b, tab["id"], bi)
                              for bi, b in enumerate(tab["blocks"]))
             active = " active" if ti == 0 else ""
+            pl = f' style="{self.pillar_vars(self.pillar)}"' if self.pillar else ""
             panels_html.append(f'<section class="panel{active}" role="tabpanel" '
-                               f'data-panel="{esc(tab["id"])}">{blocks}</section>')
+                               f'data-panel="{esc(tab["id"])}"{pl}>{blocks}</section>')
+        self.pillar = None
 
         period = m["period"]
         ps, pe = str(period["start"]), str(period["end"])
@@ -1113,7 +1182,6 @@ class Renderer:
             del foot["資料の時点"]
         footer = portal.footer_block(foot)
 
-        theme_vars = "".join(f"--{k}:{v};" for k, v in self.theme.items())
         shogo_line, shogo_sec = self.shogo()  # 全タブを描いて照合表の行がそろってから数える
 
         tokens = load_tokens(TPL / "tokens.css")
@@ -1131,7 +1199,6 @@ class Renderer:
             "{{DESCRIPTION}}": esc(m["lead"]),
             "{{PAGE_URL}}": PAGE_URL.format(self.pid),
             "{{CSS}}": shell_css,
-            "{{THEME_VARS}}": theme_vars,
             "{{EYEBROW}}": (f'<div class="eyebrow">{esc(m["eyebrow"])}</div>'
                             if m.get("eyebrow") else ""),
             "{{METAROW}}": metarow,

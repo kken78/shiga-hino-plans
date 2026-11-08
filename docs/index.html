@@ -37,9 +37,7 @@
   /* type scale(DESIGN.md ADR-8)。font-size はこのトークンだけで指定し、最小は .75rem(12px) */
   --fs-3xs:.75rem; --fs-2xs:.8rem; --fs-xs:.875rem; --fs-sm:.95rem; --fs-base:1rem;
   --fs-md:1.1rem; --fs-lg:1.3rem; --fs-xl:1.6rem; --fs-2xl:1.9rem; --fs-3xl:2.5rem;
-  --fs-h1:clamp(1.5rem,3.4vw,2.1rem); --fs-h2:clamp(1.3rem,2.6vw,1.7rem);
-  /* letter-spacing付きの極小ラベル（アイブロウ等）専用 */
-  --fs-eyebrow:.75rem;
+  --fs-h2:clamp(1.3rem,2.6vw,1.7rem);
   /* spacing scale */
   --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:28px; --sp-8:44px;
   /* interactive（タップ最小44px） */
@@ -59,22 +57,8 @@ button{font-family:inherit;cursor:pointer}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 small{font-weight:400}
 
-/* ---------- header ---------- */
-.site-head{background:var(--card);border-bottom:1px solid var(--line)}
-.site-head .wrap{display:flex;align-items:center;gap:14px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
-.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--ai-ink)}
-.brand-mark{width:26px;height:26px;flex:none;align-self:center}
-.brand h1{font-family:var(--serif);font-size:var(--fs-md);letter-spacing:.04em}
-.badge-unofficial{font-size:var(--fs-2xs);font-weight:700;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 9px;letter-spacing:.08em}
-.site-nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
-.site-nav a{text-decoration:none;font-size:var(--fs-xs);font-weight:600;color:var(--muted);padding:6px 10px;border-radius:8px}
-.site-nav a:hover{background:var(--bg);color:var(--ai)}
-
 /* ---------- hero ---------- */
 .hero{background:linear-gradient(135deg,var(--ai-ink) 0%,var(--ai-deep) 45%,var(--ai) 100%);color:#fff;padding:44px 0 52px}
-.hero .eyebrow{font-size:var(--fs-3xs);letter-spacing:.22em;opacity:.75;font-weight:700}
-.hero h2{font-family:var(--serif);font-size:var(--fs-h1);letter-spacing:.03em;margin:6px 0 2px}
-.hero .tagline{opacity:.85;font-size:var(--fs-sm);margin-bottom:26px}
 .hero-grid{display:grid;grid-template-columns:1.2fr .9fr;gap:28px;align-items:stretch}
 .hero-plan{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--radius);padding:22px 24px}
 .hero-plan .hp-name{font-weight:700;font-size:var(--fs-base);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
@@ -95,12 +79,10 @@ small{font-weight:400}
 .hs-card .hs-num small{font-size:var(--fs-2xs);font-family:var(--sans);color:var(--muted);margin-left:2px}
 .hs-card{transition:transform .15s ease}
 .hs-card:hover{transform:translateY(-1px)}
-.hero-note{margin-top:18px;font-size:var(--fs-3xs);opacity:.65}
 
 /* ---------- sections ---------- */
 section{padding:52px 0 8px}
 .sec-head{margin-bottom:22px}
-.sec-head .eyebrow{font-size:var(--fs-3xs);letter-spacing:.22em;color:var(--ai);font-weight:700}
 .sec-head h2{font-family:var(--serif);font-size:var(--fs-h2);letter-spacing:.03em;color:var(--ai-ink)}
 .sec-head p{color:var(--muted);font-size:var(--fs-xs);max-width:46em}
 .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px}
@@ -237,15 +219,6 @@ tr.total th,tr.total td{border-top:2px solid var(--ai-ink);font-weight:700;backg
 .hier .lv.top{background:#E7EFFC;border-color:#C6D8F2}
 .hier .arrow{text-align:center;color:var(--muted);font-size:var(--fs-2xs);line-height:.6}
 
-/* ---------- footer ---------- */
-.site-foot{margin-top:60px;background:var(--ai-ink);color:#C9D6EA;padding:36px 0 44px;font-size:var(--fs-2xs)}
-.site-foot a{color:#fff}
-.foot-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:30px}
-.site-foot h3{font-family:var(--serif);color:#fff;font-size:var(--fs-sm);margin-bottom:8px;letter-spacing:.04em}
-.site-foot ul{list-style:none}
-.site-foot li{margin-bottom:5px}
-.foot-note{margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.15);font-size:var(--fs-2xs);opacity:.8}
-
 @media (max-width:820px){
   .hero-grid{grid-template-columns:1fr}
   .tl-axis{margin-left:112px}
@@ -253,11 +226,7 @@ tr.total th,tr.total td{border-top:2px solid var(--ai-ink);font-weight:700;backg
   .tl-name{font-size:var(--fs-3xs)}
   .tl-today{left:calc(112px + (100% - 112px) * var(--p,0))}
   .learn-grid{grid-template-columns:1fr}
-  .foot-grid{grid-template-columns:1fr}
 }
-
-/* ===== cross-page nav active ===== */
-.site-nav a.is-here{background:var(--bg);color:var(--ai-ink)}
 
 /* ===== LP hub ===== */
 .hub-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}
@@ -421,22 +390,65 @@ body.pd-lock{overflow:hidden}
 :root{--cat-sogo:#2457A4;--cat-toshi:#3E8E4F;--cat-kotsu:#2E8BC0;--cat-kankyo:#0F8B8D;--cat-kenko:#C25E86;--cat-kodomo:#C98A2D;--cat-bosai:#9C5B33;--cat-gyosei:#5B6B85;--cat-sangyo:#7B5CB8;}
 .p-more-link{text-decoration:none}
 </style>
+<!-- portal-shared:css start --><style>
+/* 日野町データポータル 共通の部品（見出し・ナビ・ページの見出し・フッター）。
+   正本は hino-portal/shared/shell.css。各ページはこれを <style> に写し、CI で同じであることを確かめる（DESIGN.md 9.1）。
+   文字の大きさは 14px 以上（DESIGN.md 5.2）。色は 3章の藍と朱。書体は端末のもの（5.1）。 */
+:root{--portal-ai:#1E4E9C;--portal-ai-ink:#0C2547;--portal-shu:#C33D2E;--portal-bg:#EFF3F9;--portal-card:#FFFFFF;--portal-ink:#1A2333;--portal-muted:#5B6B85;--portal-line:#DCE4F0;--portal-foot-bg:#0C2547;--portal-foot-ink:#C9D6EA;--portal-fs:16px;--portal-fs-sub:14px;--portal-fs-h1:18px;--portal-fs-h2:24px;--portal-sp1:8px;--portal-sp2:16px;--portal-sp3:24px;--portal-sp4:40px;--portal-font:"Hiragino Sans","Hiragino Kaku Gothic ProN","BIZ UDPGothic","Yu Gothic Medium","Yu Gothic","Noto Sans CJK JP","Noto Sans JP",Meiryo,system-ui,sans-serif}
+.portal-wrap{max-width:1080px;margin:0 auto;padding:0 var(--portal-sp2);box-sizing:border-box}
+.portal-head,.portal-page,.portal-foot{font-family:var(--portal-font);font-size:var(--portal-fs);line-height:1.7;letter-spacing:.02em}
+.portal-head *,.portal-page *,.portal-foot *{box-sizing:border-box}
+.portal-head a:focus-visible,.portal-page a:focus-visible,.portal-foot a:focus-visible{outline:2px solid #000;box-shadow:0 0 0 4px #FFD43D;outline-offset:1px}
+/* 共通の見出し（2.2 の 1、2.3） */
+.portal-head{background:var(--portal-card);border-bottom:1px solid var(--portal-line);color:var(--portal-ink)}
+.portal-head .portal-wrap{display:flex;flex-wrap:wrap;align-items:center;gap:var(--portal-sp1) var(--portal-sp3);padding-top:var(--portal-sp1);padding-bottom:var(--portal-sp1)}
+.portal-brand{display:flex;align-items:center;gap:var(--portal-sp1);text-decoration:none;color:var(--portal-ink)}
+.portal-brand svg{width:26px;height:26px;flex:none}
+.portal-brand .portal-name{font-size:var(--portal-fs-h1);margin:0;font-weight:700;line-height:1.3}
+.portal-brand .portal-tag{font-size:var(--portal-fs-sub);color:var(--portal-muted);border:1px solid var(--portal-line);border-radius:3px;padding:0 6px;line-height:1.6}
+.portal-areas{display:flex;gap:var(--portal-sp2);margin-left:auto}
+.portal-areas a{font-size:var(--portal-fs-sub);text-decoration:none;color:var(--portal-ai);padding:4px 0;border-bottom:2px solid transparent;white-space:nowrap}
+.portal-areas a:hover{text-decoration:underline}
+.portal-areas a[aria-current]{color:var(--portal-ink);border-bottom-color:var(--portal-shu);font-weight:700}
+@media (max-width:767px){.portal-areas{margin-left:0;width:100%;overflow-x:auto}}
+/* ページの見出し（2.2 の 2・3） */
+.portal-page{padding:var(--portal-sp3) 0 var(--portal-sp2);color:var(--portal-ink)}
+.portal-page .portal-area{font-size:var(--portal-fs-sub);color:var(--portal-muted);margin:0 0 4px}
+.portal-page .portal-title{font-size:var(--portal-fs-h2);margin:0 0 4px;line-height:1.35;font-weight:700}
+.portal-page .portal-lead{margin:0 0 4px}
+.portal-page .portal-asof{font-size:var(--portal-fs-sub);color:var(--portal-muted);margin:0}
+.portal-siblings{font-size:var(--portal-fs-sub);margin:var(--portal-sp2) 0 0;display:flex;flex-wrap:wrap;gap:4px 0}
+.portal-siblings span,.portal-siblings a{padding-right:var(--portal-sp2)}
+.portal-siblings a{color:var(--portal-ai)}
+.portal-siblings span[aria-current]{font-weight:700;color:var(--portal-ink)}
+.portal-siblings .portal-lbl{color:var(--portal-muted)}
+/* フッター（2.5） */
+.portal-foot{margin-top:var(--portal-sp4);background:var(--portal-foot-bg);color:var(--portal-foot-ink);padding:var(--portal-sp3) 0 var(--portal-sp4);font-size:var(--portal-fs-sub)}
+.portal-foot a{color:#fff}
+.portal-foot dl{margin:0;display:grid;grid-template-columns:10em 1fr;gap:var(--portal-sp1) var(--portal-sp2)}
+.portal-foot dt{color:#fff;font-weight:700;margin:0}
+.portal-foot dd{margin:0}
+.portal-foot p{margin:0 0 4px}
+.portal-foot ul{margin:0;padding-left:1.2em}
+@media (max-width:767px){.portal-foot dl{grid-template-columns:1fr;gap:4px}.portal-foot dt{margin-top:var(--portal-sp1)}}
+</style><!-- portal-shared:css end -->
 </head>
 <body>
-<header class="site-head">
-<div class="wrap">
-<a class="brand" href="https://kken78.github.io/hino-portal/" data-site="portal"><svg class="brand-mark" viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="14" width="24" height="4" rx="2" fill="#1E4E9C"/><rect x="4" y="8" width="18" height="4" rx="2" fill="#3B6FBF"/><rect x="8" y="2" width="10" height="4" rx="2" fill="#C33D2E"/></svg><h1>日野町データポータル</h1></a>
-<span class="badge-unofficial">非公式</span>
-<nav class="site-nav" aria-label="サイトメニュー">
-<a href="https://kken78.github.io/hino-portal/" data-site="portal">トップ</a><a href="https://kken78.github.io/shiga-hino-plans/" data-site="plans" class="is-here">計画</a><a href="https://kken78.github.io/hino-budget/" data-site="budget">予算</a><a href="https://kken78.github.io/hino-population/" data-site="population">人口</a>
-</nav>
-</div>
-</header>
+<!-- portal-shared:header start -->
+<header class="portal-head"><div class="portal-wrap">
+<a class="portal-brand" href="https://kken78.github.io/hino-portal/"><svg viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="14" width="24" height="4" rx="2" fill="#1E4E9C"/><rect x="4" y="8" width="18" height="4" rx="2" fill="#3B6FBF"/><rect x="8" y="2" width="10" height="4" rx="2" fill="#C33D2E"/></svg><span class="portal-name">日野町データポータル</span><span class="portal-tag">非公式</span></a>
+<nav class="portal-areas" aria-label="分野"><a href="https://kken78.github.io/hino-portal/">トップ</a><a aria-current="page" href="https://kken78.github.io/hino-portal/#g-plan">計画と予算</a><a href="https://kken78.github.io/hino-portal/#g-stat">統計とくらし</a><a href="https://kken78.github.io/hino-portal/#g-council">議会</a></nav>
+</div></header>
+<!-- portal-shared:header end -->
+<div class="portal-page"><div class="portal-wrap">
+<p class="portal-area">計画と予算</p>
+<h1 class="portal-title">計画ライブラリ</h1>
+<p class="portal-lead">日野町の43の計画の概要と計画期間を、分野ごとに一覧にしたページです。</p>
+<p class="portal-asof">資料の時点：計画ごとに異なります（各計画の詳細の「掲載・更新」）。資料の取得日：最新 2026年11月6日（出典の台帳による）</p>
+<!-- portal-shared:siblings start --><nav class="portal-siblings" aria-label="計画と予算のページ"><span class="portal-lbl">このほかのページ</span><span aria-current="page">計画ライブラリ</span><a href="https://kken78.github.io/hino-plan-dashboard/">総合計画 指標と事業費</a><a href="https://kken78.github.io/hino-budget/">当初予算 主な事業</a></nav><!-- portal-shared:siblings end -->
+</div></div>
 <div class="hero">
 <div class="wrap">
-<p class="eyebrow">PLAN DASHBOARD</p>
-<h2>日野町の計画ライブラリ</h2>
-<p class="tagline">町の43の計画を、やさしい概要とポイントで。（<span id="today"></span>時点）</p>
 <div class="hero-grid">
 <div class="hero-plan">
 <p class="hp-name"><span class="hp-tag">最上位計画</span>第6次日野町総合計画</p>
@@ -450,18 +462,17 @@ body.pd-lock{overflow:hidden}
 <a class="hs-card" href="#plans"><span class="hs-label">収録している計画</span><span class="hs-num" id="cntAll">–<small>件</small></span></a>
 </div>
 </div>
-<p class="hero-note">公開資料をもとにした実証実験プロトタイプです。正確な情報は各リンク先の町公式ページでご確認ください。</p>
 </div>
 </div>
 <section id="timeline">
 <div class="wrap">
-<div class="sec-head"><p class="eyebrow">TIMELINE</p><h2>町の計画年表</h2><p>計画期間を町の公表ページで確認できた計画を、年度の物差しに並べました。朱の線が「きょう」です。</p></div>
+<div class="sec-head"><h2>町の計画年表</h2><p>計画期間を町の公表ページで確認できた計画を、年度の物差しに並べました。朱の線が「きょう」です。</p></div>
 <div class="card tl-card"><div class="tl-plot"><div class="tl-axis" id="tlAxis" aria-hidden="true"></div><div class="tl-body" id="tlBody"></div><div class="tl-today" id="tlToday" aria-hidden="true"><em>きょう</em></div></div><p class="tl-note">年度はいずれも4月始まり。R＝令和。期間の記載を確認できていない計画（防災計画など随時見直しのもの）は、下の一覧に「期間は資料参照」として掲載しています。</p></div>
 </div>
 </section>
 <section id="plans">
 <div class="wrap">
-<div class="sec-head"><p class="eyebrow">PLAN LIBRARY</p><h2>分野から計画をさがす</h2><p>計画は9つの分野に分けています。各計画の「詳細を見る」を押すと、やさしい概要・ねらい・ポイント・数値目標・計画期間などを、PDFを開かなくても読める形でまとめて表示します。図表を含む全文は、公式ページへのリンクから確認できます。</p></div>
+<div class="sec-head"><h2>分野から計画をさがす</h2><p>計画は9つの分野に分けています。各計画の「詳細を見る」を押すと、やさしい概要・ねらい・ポイント・数値目標・計画期間などを、PDFを開かなくても読める形でまとめて表示します。図表を含む全文は、公式ページへのリンクから確認できます。</p></div>
 <div class="controls">
 <div class="search-row"><input type="search" id="planSearch" placeholder="計画名・キーワードで検索（例：子育て、防災、住宅）" aria-label="計画を検索"></div>
 <div class="chip-row" id="catChips" role="group" aria-label="分野で絞り込み"></div>
@@ -473,58 +484,30 @@ body.pd-lock{overflow:hidden}
 </section>
 <section id="learn">
 <div class="wrap">
-<div class="sec-head"><p class="eyebrow">LEARN</p><h2>計画のしくみ</h2><p>行政計画がどうつながっているかと、このライブラリの読み方です。</p></div>
+<div class="sec-head"><h2>計画のしくみ</h2><p>行政計画がどうつながっているかと、このライブラリの読み方です。</p></div>
 <div class="learn-grid">
 <div class="card learn-card"><h3>町の計画は、どうつながっている？</h3><p>いちばん上に町全体の方向を決める「総合計画」があり、それを実行するための実施計画、分野ごとの個別計画がぶら下がる構造です。</p><div class="hier"><div class="lv top"><b>総合計画（10年）</b><small>基本構想＋基本計画。まちづくり全体の設計図</small></div><p class="arrow">▼</p><div class="lv"><b>実施計画（3年）</b><small>どの事業をいつ・いくらで行うかを毎年度見直す</small></div><p class="arrow">▼</p><div class="lv"><b>分野別の個別計画</b><small>環境・教育・防災・住宅など。多くは5〜10年の期間を持つ</small></div></div><p>個別計画は法律にもとづくものが多く、期間が来ると「第◯期」として作り直されます。「まもなく満了」は次の計画づくり（住民意見の募集など）が始まるサインです。</p></div>
 <div class="card learn-card"><h3>このライブラリの読み方</h3><p>各計画には、ひと目でわかる「やさしい概要」と、基本目標や柱を並べた「この計画のポイント」を載せています。まず概要で全体像をつかみ、気になったら公式ページで全文を確認する——という順路を想定しています。</p><p>計画期間の帯（進捗バー）は、町の公表ページ本文で期間を確認できた計画にのみ表示しています。確認できていない計画は「期間は資料参照」と明示しています。数値目標など詳しい内容は、順次、原典から追記していく前提です。</p><p>正確な内容は必ず<a href="https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">町の公式ページ</a>でご確認ください。</p></div>
 </div>
 </div>
 </section>
-<footer class="site-foot">
-<div class="wrap">
-<div class="foot-grid">
-<div>
-<h3>このサイトについて</h3>
-<p>このページは、滋賀県日野町 政策参与の東健二郎が、個人として作成した試作です。日野町の公式のサイトではなく、町の見解を示すものでもありません。</p>
-<p style="margin-top:8px">日野町の公開資料をもとに作成した実証実験プロトタイプ（非公式）です。計画は町の「<a href="https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html" target="_blank" rel="noopener">施策・計画</a>」ページおよび各部門別ページ、人口は「<a href="https://www.town.shiga-hino.lg.jp/0000002185.html" target="_blank" rel="noopener">日野町人口情報の詳細</a>」を出典としています。</p>
-<p style="margin-top:8px">ソースコード・データ：<a href="https://github.com/kken78" target="_blank" rel="noopener">github.com/kken78</a></p>
-</div>
-<div>
-<h3>ダッシュボード</h3>
-<ul>
-<li><a href="https://kken78.github.io/hino-portal/" data-site="portal">データポータル（トップ）</a></li>
-<li><a href="https://kken78.github.io/shiga-hino-plans/" data-site="plans">計画ライブラリ</a></li>
-<li><a href="https://kken78.github.io/hino-budget/" data-site="budget">令和8年度 主な事業</a></li>
-<li><a href="https://kken78.github.io/hino-population/" data-site="population">地区別人口</a></li>
-<li><a href="https://kken78.github.io/hino-dashboard/" target="_blank" rel="noopener">日野のすがた｜統計</a></li>
-<li><a href="https://kken78.github.io/hino-plan-dashboard/" target="_blank" rel="noopener">総合計画 進捗</a></li>
-<li><a href="https://kken78.github.io/choisoko-hino-dashboard/" target="_blank" rel="noopener">チョイソコひの</a></li>
-<li><a href="https://kken78.github.io/hino-council-search/" target="_blank" rel="noopener">会議録 横断検索</a></li>
-<li><a href="https://kken78.github.io/council-dashboard/" target="_blank" rel="noopener">議会だより・一般質問</a></li>
-</ul>
-</div>
-</div>
-<p class="foot-note">数値・期間は公表資料からの転記であり、内容の正確性を保証するものではありません。最新・正確な情報は日野町の公式ページをご確認ください。｜データ転記日：2026年7月3日</p>
-</div>
-</footer>
+<!-- portal-shared:footer start -->
+<footer class="portal-foot"><div class="portal-wrap">
+<dl>
+<dt>このページについて</dt><dd><p>このページは、滋賀県日野町 政策参与の東健二郎が、個人として作成した試作です。日野町の公式のサイトではなく、町の見解を示すものでもありません。</p><p>町のホームページの「施策・計画」ページと各部門別のページに掲載されている計画について、名前・分野・計画期間・概要を転記しています。計画のページがあるものは、原典の数値から図表を描いています。</p></dd>
+<dt>出典</dt><dd>日野町ホームページ「<a href="https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html">施策・計画</a>」と、各部門別のページ（HTML）。計画ごとの掲載ページへのリンクは、各計画の詳細にあります。</dd>
+<dt>資料の時点</dt><dd>計画ごとに異なります（各計画の詳細の「掲載・更新」）。資料の取得日：最新 2026年11月6日（出典の台帳による）</dd>
+<dt>注意</dt><dd><p>内容の正確性を保証するものではありません。最新・正確な情報は日野町の公式ページでご確認ください。</p><p>数値・期間は、公表資料から転記したものです。</p><p><a href="https://www.town.shiga-hino.lg.jp/category/32-5-0-0-0-0-0-0-0-0.html">日野町ホームページ「施策・計画」</a></p></dd>
+<dt>データ</dt><dd><a href="https://github.com/kken78/shiga-hino-plans/blob/main/data/manifest.json">data/manifest.json</a>（計画の一覧。JSON。GitHub）、<a href="https://github.com/kken78/shiga-hino-plans/tree/main/data/plans">data/plans/</a>（計画ごとのデータ。JSON。GitHub）</dd>
+<dt>ソースコード</dt><dd><a href="https://github.com/kken78/shiga-hino-plans">kken78/shiga-hino-plans</a>（GitHub）</dd>
+<dt>ライセンス</dt><dd>MIT License（プログラム）。データの構造は CC BY 4.0、原典から転記した文章・数値・図はこのリポジトリのライセンスの対象外です（<a href="https://github.com/kken78/shiga-hino-plans#ライセンス">README の「ライセンス」</a>）。</dd>
+</dl>
+</div></footer>
+<!-- portal-shared:footer end -->
 <script>
 
 'use strict';
 
-const SITES = {
-  portal: 'https://kken78.github.io/hino-portal/',
-  plans: 'https://kken78.github.io/shiga-hino-plans/',
-  budget: 'https://kken78.github.io/hino-budget/',
-  population: 'https://kken78.github.io/hino-population/'
-};
-function wireSiteLinks(){
-  document.querySelectorAll('[data-site]').forEach(function(a){
-    var k = a.getAttribute('data-site');
-    if (SITES[k]) a.setAttribute('href', SITES[k]);
-  });
-}
-wireSiteLinks();
-document.addEventListener('DOMContentLoaded', wireSiteLinks);
 /* ---------- 共通ユーティリティ ---------- */
 const NOW = new Date();
 function fyStart(r){ return new Date(2018 + r, 3, 1); }   // 令和r年度の開始日（4/1）
@@ -548,10 +531,6 @@ function el(tag, cls, html){
 }
 function signed(v){ return (v > 0 ? '+' : '') + nf.format(v); }
 function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-function setToday(){
-  const t = $('#today');
-  if (t) t.textContent = NOW.getFullYear() + '年' + (NOW.getMonth() + 1) + '月' + NOW.getDate() + '日';
-}
 
 /* ============================================================
    日野町 計画データ（非公式）
@@ -2024,7 +2003,6 @@ function auditPlans(){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  setToday();
   auditPlans();
   renderHero();
   renderTimeline();

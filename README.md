@@ -49,6 +49,8 @@ python3 tools/build.py                                   # 5) ハブへ登録・
 
 `sources_raw/`（原典PDF置き場）はリポジトリに含めていません。
 
+ページの上の共通の見出し・分野のナビ・ページの一覧と、フッターは、日野町データポータルの共通の部品で、`templates/portal/` は hino-portal の `shared/` の正本の写しです（DESIGN.md ADR-12）。正本と同じかは `python3 <hino-portal のフォルダ>/shared/check.py docs/index.html docs/plans/*.html` で確かめます（CI でも実行します）。
+
 SNS などでリンクを共有したときに出る画像（OGP 画像）は `docs/og.png`（1200×630）で、ハブと各計画ページで同じものを使います。編集元は `templates/og.svg` です。作り直し方は hino-portal の README の「OGP 画像の作り直し方」にあります。
 
 ## ⚠️ 免責事項

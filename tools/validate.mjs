@@ -8,6 +8,9 @@
             (CSS・style 属性・SVG の font-size 属性・font 一括指定のすべて)
         (8) --fs-* トークンの値は 12px 以上(px、rem(1rem=16px で換算)、
             clamp(最小値,…) は最小値で判定)
+        日野町データポータルの共通の部品の CSS(<!-- portal-shared:css start --> … end。正本は
+        hino-portal の shared/shell.css。DESIGN.md ADR-12)は、(7)(8) を共通の部品のトークン
+        --portal-fs* で同じように検査する(ページの CSS では --portal-fs* を使えない)
    使い方: node tools/validate.mjs docs/plans/<id>.html [...] */
 import { readFileSync, writeFileSync, rmSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -61,11 +64,19 @@ for (const path of process.argv.slice(2)) {
     if (/<text[\s>]/.test(m[0])) errors.push("SVG の中に <text> がある(ADR-8: 文字は HTML で描く)");
   }
 
-  // (7) font-size はトークン参照のみ
-  const css = [...html.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/g)].map((m) => m[1]).join("\n");
-  for (const m of css.matchAll(/font-size\s*:\s*([^;}]+)/g)) {
-    const v = m[1].trim();
-    if (!v.startsWith("var(--fs-")) errors.push(`font-size がトークン参照でない: font-size:${v}`);
+  // (7) font-size はトークン参照のみ。共通の部品の CSS は分けて、--portal-fs* で検査する(ADR-12)
+  const SHARED = /<!-- portal-shared:css start -->([\s\S]*?)<!-- portal-shared:css end -->/g;
+  const sharedCss = [...html.matchAll(SHARED)].map((m) => m[1]).join("\n");
+  const styles = (h) => [...h.matchAll(/<style[^>]*>([\s\S]*?)<\/style>/g)].map((m) => m[1]).join("\n");
+  const css = styles(html.replace(SHARED, ""));
+  for (const [text, prefix] of [[css, "var(--fs-"], [sharedCss, "var(--portal-fs"]]) {
+    for (const m of text.matchAll(/font-size\s*:\s*([^;}]+)/g)) {
+      const v = m[1].trim();
+      if (!v.startsWith(prefix)) errors.push(`font-size がトークン参照でない: font-size:${v}`);
+    }
+  }
+  for (const m of sharedCss.matchAll(/(?:^|[{;\s])font\s*:\s*([^;}]+)/g)) {
+    if (/\d(px|em|rem|pt|%)/.test(m[1])) errors.push(`font 一括指定に大きさがある: font:${m[1].trim()}`);
   }
   for (const m of css.matchAll(/(?:^|[{;\s])font\s*:\s*([^;}]+)/g)) {
     if (/\d(px|em|rem|pt|%)/.test(m[1])) errors.push(`font 一括指定に大きさがある: font:${m[1].trim()}`);
@@ -89,6 +100,11 @@ for (const path of process.argv.slice(2)) {
     const px = toPx(m[1].trim());
     if (px === null) errors.push(`--fs-* の値を判定できない(px・rem・clamp のみ可): ${m[0].trim()}`);
     else if (px < 12) errors.push(`--fs-* の値が 12px 未満: ${m[0].trim()}`);
+  }
+  for (const m of sharedCss.matchAll(/--portal-fs[\w-]*\s*:\s*([^;}]+)/g)) {
+    const px = toPx(m[1].trim());
+    if (px === null) errors.push(`--portal-fs* の値を判定できない(px・rem・clamp のみ可): ${m[0].trim()}`);
+    else if (px < 12) errors.push(`--portal-fs* の値が 12px 未満: ${m[0].trim()}`);
   }
 
   const status = errors.length ? "NG" : "OK";

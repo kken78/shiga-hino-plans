@@ -38,6 +38,9 @@ from urllib.parse import urlsplit
 from pdf_pages import page_list, pdf_page
 from tokens import load_tokens, apply_tokens
 import audit_display  # 原典との照合の件数(PLAN_SCHEMA §11・ADR-11)。build.py と共用
+import portal  # 日野町データポータルの共通の部品(DESIGN.md ADR-12)。build.py と共用
+import csv
+import re
 # tools/ が sys.path[0] に入る前提(python3 tools/render_plan.py 起動に依存)。DESIGN.md ADR-6
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -75,6 +78,29 @@ SHOGO_HOW = (
 
 def esc(s):
     return html.escape(str(s), quote=True)
+
+
+# フッター(DESIGN.md ADR-12。型は hino-portal の shared/footer.html)
+HOW_MADE = ("計画の原典（町のホームページで公開されている PDF など）から、数値と文章を計画ごとの JSON に転記し、"
+            "図表はその数値からプログラムで描いています。数値には、原典の資料名とページを添えています。")
+DATA_URL = "https://github.com/kken78/shiga-hino-plans/blob/main/data/plans/{}.json"
+DATE_IN_LABEL = re.compile(r"(令和|平成)[0-9０-９元]+年[0-9０-９]+月([0-9０-９]+日)?")
+SOURCES_INDEX = ROOT / "data" / "sources_index.tsv"
+KINDS = {"pdf": "PDF", "xlsx": "Excel", "xls": "Excel", "docx": "Word", "doc": "Word"}
+
+
+def source_sizes(pid):
+    """出典の台帳 data/sources_index.tsv から、この計画の原典の url → 「PDF、8.6MB」。
+    台帳に bytes の無い行(掲載ページ(HTML)など)と、拡張子が KINDS に無い行は載せない。"""
+    out = {}
+    with SOURCES_INDEX.open(encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            if r["id"] != pid or not r["bytes"] or not r["url"]:
+                continue
+            kind = KINDS.get(r["file"].rsplit(".", 1)[-1].lower())
+            if kind:
+                out[r["url"]] = f'{kind}、{int(r["bytes"]) / 1048576:.1f}MB'
+    return out
 
 
 def is_figure_link(b):
@@ -1057,23 +1083,35 @@ class Renderer:
                    f'<span>所管 <b>{esc(m["dept"])}</b></span>')
         if m.get("parent_plan"):
             metarow += f'<span>上位計画 <b>{esc(m["parent_plan"])}</b></span>'
-        if m.get("posted"):
-            metarow += f'<span>公表 <b>{esc(m["posted"])}</b></span>'
+        asof = self.asof()  # 公表の時期はページの見出しの「資料の時点」に出す(二度出さない。hino-portal DESIGN.md 2.4)
 
         vision = ""
         if m.get("vision"):
             vision = (f'<div class="vision-banner"><span class="lbl">基本理念</span>'
                       f'<span>{esc(m["vision"])}</span></div>')
 
-        sources = "".join(
-            f'<li>{esc(s["label"])}'
-            + (f'（<a href="{esc(s["url"])}" target="_blank" rel="noopener">リンク</a>）'
-               if s.get("url") else "") + "</li>"
-            for s in d["sources"])
+        sizes = source_sizes(self.pid)
+        sources = "<ul>" + "".join(
+            "<li>" + (f'<a href="{esc(s["url"])}">{esc(s["label"])}</a>' if s.get("url") else esc(s["label"]))
+            + (f'（{sizes[s["url"]]}）' if s.get("url") in sizes else "") + "</li>"
+            for s in d["sources"]) + "</ul>"
 
         contact = f'お問い合わせ：{esc(m["dept"])}'
         if m.get("tel"):
             contact += f'（<span class="num">{esc(m["tel"])}</span>）'
+        foot = {
+            "このページについて": ([HOW_MADE], ""),
+            "出典": ([sources], ""),
+            "資料の時点": ([asof], ""),
+            "注意": ([], f'<p><a href="{esc(m["url"])}">この計画の日野町の公式ページ</a></p><p>{contact}</p>'),
+            "データ": ([f'<a href="{esc(DATA_URL.format(self.pid))}">data/plans/{esc(self.pid)}.json</a>'
+                        "（JSON。GitHub）。原典との照合の記録は、上の「原典との照合」の節から開けます。"], ""),
+            "ソースコード": ([portal.REPO_URL, portal.REPO_NAME], ""),
+            "ライセンス": ([portal.LICENSE_HTML], ""),
+        }
+        if not asof:   # 資料の時点が分からないときは項目ごと飛ばす(部品見本 _charttest)
+            del foot["資料の時点"]
+        footer = portal.footer_block(foot)
 
         theme_vars = "".join(f"--{k}:{v};" for k, v in self.theme.items())
         shogo_line, shogo_sec = self.shogo()  # 全タブを描いて照合表の行がそろってから数える
@@ -1085,27 +1123,41 @@ class Renderer:
         page = (TPL / "shell.html").read_text(encoding="utf-8")
         for k, v in {
             "{{TITLE}}": esc(m.get("name_short", m["name"])),
+            "{{PORTAL_CSS}}": portal.css_block(),
+            "{{PORTAL_HEADER}}": portal.header_block(),
+            "{{PORTAL_PAGE}}": portal.page_head(esc(m["name"]), esc(m["lead"]),
+                                                f"資料の時点：{asof}" if asof else ""),
+            "{{PORTAL_FOOTER}}": footer,
             "{{DESCRIPTION}}": esc(m["lead"]),
             "{{PAGE_URL}}": PAGE_URL.format(self.pid),
             "{{CSS}}": shell_css,
             "{{THEME_VARS}}": theme_vars,
             "{{EYEBROW}}": (f'<div class="eyebrow">{esc(m["eyebrow"])}</div>'
                             if m.get("eyebrow") else ""),
-            "{{NAME}}": esc(m["name"]),
             "{{METAROW}}": metarow,
             "{{SHOGO_LINE}}": shogo_line,
             "{{SHOGO}}": shogo_sec,
             "{{VISION_BANNER}}": vision,
-            "{{LEAD}}": esc(m["lead"]),
             "{{TABS}}": "".join(tabs_html),
             "{{PANELS}}": "".join(panels_html),
-            "{{SOURCES}}": sources,
-            "{{CONTACT}}": contact,
-            "{{URL}}": esc(m["url"]),
             "{{RUNTIME}}": (TPL / "runtime.js").read_text(encoding="utf-8"),
         }.items():
+            if k not in page:
+                raise ValueError(f"templates/shell.html: {k} が無い")
             page = page.replace(k, v)
         return page
+
+    def asof(self):
+        """資料の時点(HTML)。meta.posted があればそれ(「公表」)。無ければ出典の資料名に書かれた年月(日)を使い、
+        どちらも無ければ空。値を推定で足さない(不変の制約1)。"""
+        m = self.d["meta"]
+        if m.get("posted"):
+            return f'公表 {esc(m["posted"])}'
+        for s in self.d["sources"]:
+            hit = DATE_IN_LABEL.search(s["label"])
+            if hit:
+                return f"{esc(hit.group(0))}（出典の資料名による）"
+        return ""
 
 
 def main(argv):

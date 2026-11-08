@@ -67,6 +67,10 @@ NARROW_W = 292      # 幅360pxの端末でのチャートの中身の幅(px)
 WIDE_W = 852        # 最大幅(920px)でのチャートの中身の幅(px)
 FOLD_MIN = 21       # 横棒がこの件数以上なら初期表示を畳む(ADR-8 判断の優先順位 3・4)
 INLINE_LABEL_W = 8 * FS_CHART  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで(ADR-8 の表)
+FS_KN = 32          # --fs-kn(px)。数字の札の主の値。--portal-fs-num と同じ(DESIGN.md ADR-16)
+KU_GAP = 3          # 数字の札の単位の左の間(.kpi .ku の margin-left)
+KPI_PAD = 32        # 数字の札の左右の余白と枠(.kpi の padding 15px×2 と border 1px×2)
+KPI_MIN_W = 190     # 数字の札の列の最小幅(px)。shell.css の .b-kpis の既定値と同じ
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 FIGURE_LINK_VALUE = "原典へのリンク"  # asset を省いた figure の照合表の値(PLAN_SCHEMA §6-B figure)
 SHOGO_ID = "genten-shogo"  # 末尾の節「原典との照合」のページ内リンクの id(PLAN_SCHEMA §11.3)
@@ -437,7 +441,13 @@ class Renderer:
                 f'<div class="kpi"><div class="kl">{esc(it["label"])}</div>'
                 f'<div class="kn num">{fmt(it["value"])}<span class="ku">{esc(it["unit"])}</span></div>'
                 f'{delta}{asof}</div>')
-        return f'<div class="b-kpis">{"".join(cells)}</div>'
+        # 札の最小幅: 数と単位は1つのまとまりで折り返さない(hino-portal DESIGN.md 6.4)。いちばん長い
+        # 「数+単位」が札に入る幅を文字幅から見積もり、それより狭い列にしない(列の数が減る。ADR-16)
+        need = max((text_px(fmt(it["value"]), FS_KN) + text_px(it["unit"], FS_CHART) + KU_GAP
+                    for it in b["items"]), default=0) + KPI_PAD
+        kmin = max(KPI_MIN_W, math.ceil(need))
+        style = f' style="--kpi-min:{kmin}px"' if kmin > KPI_MIN_W else ""
+        return f'<div class="b-kpis"{style}>{"".join(cells)}</div>'
 
     def b_bigstat(self, b, tab_id, block_no):
         self.audit(tab_id, block_no, "bigstat", b["label"], b["value"],

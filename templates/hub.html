@@ -39,7 +39,7 @@
      (14・16・18・20・24px)のどれかの参照だけにし、狭い画面で上書きしない(hino-portal DESIGN.md 5.2) */
   --fs-3xs:var(--portal-fs-sub); --fs-2xs:var(--portal-fs-sub); --fs-xs:var(--portal-fs-sub);
   --fs-sm:var(--portal-fs); --fs-base:var(--portal-fs);
-  --fs-md:var(--portal-fs-h1); --fs-lg:var(--portal-fs-h3); --fs-xl:var(--portal-fs-h2);
+  --fs-md:var(--portal-fs-h1); --fs-lg:var(--portal-fs-h3); --fs-xl:var(--portal-fs-h2); --fs-hs:var(--portal-fs-num);
   --fs-2xl:var(--portal-fs-h2); --fs-3xl:var(--portal-fs-num);
   --fs-h2:var(--portal-fs-h3);
   /* spacing scale */
@@ -79,7 +79,7 @@ small{font-weight:400}
 .hero-stats{display:grid;grid-template-rows:repeat(3,1fr);gap:10px}
 .hs-card{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fff;color:var(--ink);border-radius:12px;padding:12px 18px;text-decoration:none;box-shadow:var(--shadow)}
 .hs-card .hs-label{font-size:var(--fs-xs);font-weight:700;color:var(--muted)}
-.hs-card .hs-num{font-family:var(--serif);font-size:var(--fs-xl);color:var(--ai-ink)}
+.hs-card .hs-num{font-family:var(--serif);font-size:var(--fs-hs);color:var(--ai-ink)}
 .hs-card .hs-num .u{font-size:var(--fs-2xs);font-family:var(--sans);color:var(--muted);margin-left:2px}
 .hs-card{transition:transform .15s ease}
 .hs-card:hover{transform:translateY(-1px)}

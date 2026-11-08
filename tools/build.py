@@ -8,8 +8,8 @@ manifest の plans を JSON インライン注入して自己完結HTMLを生成
 設計原則:
 - vanilla のみ。生成物に fetch/CDN/外部依存を持ち込まない(テンプレートが
   既に自己完結。PLANS はインライン埋め込みで fetch しない)。
-- データ(manifest)は色を持たない。分野色(CATS)/状態(STATUS_META)は
-  templates/hub.html 側に維持。build.py は cat 検証キーを **テンプレートの
+- データ(manifest)は色を持たない。分野(CATS。名前だけで色は持たない。DESIGN.md ADR-13)/
+  状態(STATUS_META)は templates/hub.html 側に維持。build.py は cat 検証キーを **テンプレートの
   CATS 定義から実行時抽出**する(手書きの二重管理でズレるのを避ける)。
 - 捏造・不整合の隠蔽をしない。健全性チェックに失敗したら全件を列挙して停止する。
 

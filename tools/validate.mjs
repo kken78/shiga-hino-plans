@@ -8,6 +8,9 @@
             (CSS・style 属性・SVG の font-size 属性・font 一括指定のすべて)
         (8) --fs-* トークンの値は 12px 以上(px、rem(1rem=16px で換算)、
             clamp(最小値,…) は最小値で判定)
+        (9) style 属性と SVG の fill・stroke 属性に色の値(#…・rgb(…)・hsl(…))を直接書かない。
+            ページの部品の色は CSS のトークン(var(--portal-…) など)で書く(DESIGN.md ADR-14)。
+            共通の部品(<!-- portal-shared:… -->)の中は正本のまま(hino-portal の shared/check.py が確かめる)
         日野町データポータルの共通の部品の CSS(<!-- portal-shared:css start --> … end。正本は
         hino-portal の shared/shell.css。DESIGN.md ADR-12)は、(7)(8) を共通の部品のトークン
         --portal-fs* で同じように検査する(ページの CSS では --portal-fs* を使えない)
@@ -105,6 +108,13 @@ for (const path of process.argv.slice(2)) {
     const px = toPx(m[1].trim());
     if (px === null) errors.push(`--portal-fs* の値を判定できない(px・rem・clamp のみ可): ${m[0].trim()}`);
     else if (px < 12) errors.push(`--portal-fs* の値が 12px 未満: ${m[0].trim()}`);
+  }
+
+  // (9) style 属性・fill・stroke 属性の色の値(ADR-14)
+  const RAW_COLOR = /#[0-9A-Fa-f]{3,8}\b|\b(?:rgba?|hsla?)\(/;
+  const body = html.replace(/<!-- portal-shared:(\w+) start -->[\s\S]*?<!-- portal-shared:\1 end -->/g, "");
+  for (const m of body.matchAll(/\s(style|fill|stroke)="([^"]*)"/g)) {
+    if (RAW_COLOR.test(m[2])) errors.push(`${m[1]} 属性に色の値を直接書いている(トークンを使う): ${m[0].trim().slice(0, 80)}`);
   }
 
   const status = errors.length ? "NG" : "OK";

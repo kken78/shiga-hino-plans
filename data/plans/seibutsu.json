@@ -15,10 +15,6 @@
     "dept": "農林課",
     "url": "https://www.town.shiga-hino.lg.jp/0000003301.html"
   },
-  "theme": {
-    "accent": "#3d6f35",
-    "accent2": "#2f6f8f"
-  },
   "sources": [
     {
       "id": "honpen",

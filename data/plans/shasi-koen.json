@@ -15,7 +15,6 @@
     "posted": "2026年1月更新",
     "next": "計画期間の終了後に、目標の実現状況などの事後評価を行う（交付金交付要綱の定め）"
   },
-  "theme": { "accent": "#3f6b35", "accent2": "#b5782f" },
   "sources": [
     {
       "id": "r3syakaishihonseibikeikaku",
@@ -214,7 +213,7 @@
           "source": "r3syakaishihonseibikeikaku p.3",
           "title": "交付額と支払済額",
           "unit": "百万円",
-          "keys": [ { "k": "交付額（c）", "c": "accent" }, { "k": "支払済額（e）", "c": "accent2" } ],
+          "keys": [ { "k": "交付額（c）" }, { "k": "支払済額（e）" } ],
           "rows": [
             { "label": "R04", "a": 49, "b": 46 },
             { "label": "R05", "a": 134, "b": 121 },

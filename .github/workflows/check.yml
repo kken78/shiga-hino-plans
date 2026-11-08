@@ -58,10 +58,10 @@ jobs:
       - name: 原典の文字の検証(check_source_text.py・PLAN_SCHEMA §10.2・ADR-10。原典 PDF は使わない)
         run: python3 tools/check_source_text.py
 
-      - name: 共通の部品が hino-portal の正本と同じか
+      - name: 共通の部品が hino-portal の正本と同じかと、文字の大きさ(hino-portal の shared/check.py --fonts・ADR-15)
         run: |
           git clone --depth 1 https://github.com/kken78/hino-portal.git /tmp/hino-portal
-          python3 /tmp/hino-portal/shared/check.py docs/index.html docs/plans/*.html
+          python3 /tmp/hino-portal/shared/check.py --fonts docs/index.html docs/plans/*.html
 
       - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
         run: node tools/validate.mjs docs/index.html docs/plans/*.html
@@ -71,3 +71,7 @@ jobs:
           npm install --no-save --no-package-lock playwright@1.49.1
           npx playwright install --with-deps chromium
           node tools/check_mobile.mjs docs/index.html docs/plans/*.html
+
+      - name: 実ブラウザでの文字の大きさと横のはみ出し(hino-portal の shared/check_mobile.mjs・ADR-15)
+        # Playwright は前の手順で作業ツリーの node_modules に入れたもの(リポジトリの package.json は増やさない)
+        run: PLAYWRIGHT_MODULE="$GITHUB_WORKSPACE/node_modules/playwright/index.mjs" node /tmp/hino-portal/shared/check_mobile.mjs docs/index.html docs/plans/*.html

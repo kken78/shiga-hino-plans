@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* check_mobile.mjs — 実ブラウザでの表示検査(DESIGN.md ADR-8 ゲートB)。
    各ページを幅 360px と 1024px で開き、全タブを順に表示して次を検査する。
-     (1) 表示中の文字の実寸が 12px 以上か(SVG 内の文字は縮小後の大きさで測る)
+     (1) 表示中の文字の実寸が 14px 以上か(SVG 内の文字は縮小後の大きさで測る。hino-portal DESIGN.md 5.2・ADR-15)
      (2) ページ全体が横にはみ出していないか(表の横スクロールは対象外)
      (3) チャートの中身がカードの幅からはみ出していないか
      (4) チャート内の同種ラベル(棒の名前・値、折れ線の目盛り)が重なっていないか
@@ -12,7 +12,7 @@
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
-const MIN_PX = 12;
+const MIN_PX = 14;
 const WIDTHS = [360, 1024];
 const MAX_CHART_H = 1200;
 

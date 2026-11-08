@@ -6,8 +6,10 @@
         (6) SVG の中に <text> がない(文字は HTML で描く)
         (7) font-size の指定はトークン(var(--fs-*))の参照だけ
             (CSS・style 属性・SVG の font-size 属性・font 一括指定のすべて)
-        (8) --fs-* トークンの値は 12px 以上(px、rem(1rem=16px で換算)、
-            clamp(最小値,…) は最小値で判定)
+        (8) --fs-* トークンの値は、共通の部品のトークン5つ(--portal-fs-sub 14px・--portal-fs 16px・
+            --portal-fs-h1 18px・--portal-fs-h3 20px・--portal-fs-h2 24px)のどれかの参照か、同じ値
+            (px、rem(1rem=16px で換算))。狭い画面での上書きも同じ。--portal-fs* の値は 14px 以上
+            (clamp(最小値,…) は最小値で判定。hino-portal DESIGN.md 5.2・DESIGN.md ADR-15)
         (9) style 属性と SVG の fill・stroke 属性に色の値(#…・rgb(…)・hsl(…))を直接書かない。
             ページの部品の色は CSS のトークン(var(--portal-…) など)で書く(DESIGN.md ADR-14)。
             共通の部品(<!-- portal-shared:… -->)の中は正本のまま(hino-portal の shared/check.py が確かめる)
@@ -91,7 +93,9 @@ for (const path of process.argv.slice(2)) {
     errors.push(`font-size 属性: font-size="${m[1]}"`);
   }
 
-  // (8) --fs-* の値は 12px 以上
+  // (8) --fs-* の値は共通の部品のトークン5つのどれか。--portal-fs* の値は 14px 以上(ADR-15)
+  const MIN_PX = 14;
+  const STEPS = { "--portal-fs-sub": 14, "--portal-fs": 16, "--portal-fs-h1": 18, "--portal-fs-h3": 20, "--portal-fs-h2": 24 };
   const toPx = (v) => {
     const c = /^clamp\(\s*([^,]+),/.exec(v);
     if (c) v = c[1].trim();
@@ -99,16 +103,25 @@ for (const path of process.argv.slice(2)) {
     if (!u) return null;
     return parseFloat(u[1]) * (u[2] === "rem" ? 16 : 1);
   };
+  const steps = Object.values(STEPS);
   for (const m of css.matchAll(/--fs-[\w-]+\s*:\s*([^;}]+)/g)) {
-    const px = toPx(m[1].trim());
-    if (px === null) errors.push(`--fs-* の値を判定できない(px・rem・clamp のみ可): ${m[0].trim()}`);
-    else if (px < 12) errors.push(`--fs-* の値が 12px 未満: ${m[0].trim()}`);
+    const v = m[1].trim();
+    const ref = /^var\(\s*(--portal-fs[\w-]*)\s*\)$/.exec(v);
+    if (ref) {
+      if (!(ref[1] in STEPS)) errors.push(`--fs-* が共通の部品のトークン5つ以外を参照している: ${m[0].trim()}`);
+      continue;
+    }
+    const px = /^clamp\(/.test(v) ? null : toPx(v);
+    if (px === null) errors.push(`--fs-* の値を判定できない(--portal-fs* の参照・px・rem のみ可): ${m[0].trim()}`);
+    else if (!steps.includes(px)) errors.push(`--fs-* の値が 14・16・18・20・24px のどれでもない(${px}px): ${m[0].trim()}`);
   }
   for (const m of sharedCss.matchAll(/--portal-fs[\w-]*\s*:\s*([^;}]+)/g)) {
     const px = toPx(m[1].trim());
     if (px === null) errors.push(`--portal-fs* の値を判定できない(px・rem・clamp のみ可): ${m[0].trim()}`);
-    else if (px < 12) errors.push(`--portal-fs* の値が 12px 未満: ${m[0].trim()}`);
+    else if (px < MIN_PX) errors.push(`--portal-fs* の値が ${MIN_PX}px 未満: ${m[0].trim()}`);
   }
+  // <small> は親より小さくなるので使わない(hino-portal DESIGN.md 5.2)
+  if (/<small[\s>]/i.test(html)) errors.push("<small> の要素がある(文字の大きさはトークンで決める)");
 
   // (9) style 属性・fill・stroke 属性の色の値(ADR-14)
   const RAW_COLOR = /#[0-9A-Fa-f]{3,8}\b|\b(?:rgba?|hsla?)\(/;

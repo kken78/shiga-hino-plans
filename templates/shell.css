@@ -9,10 +9,12 @@
   --ink:#232a33; --ink2:#4c5561; --mut:#7d8692;
   --card:#ffffff; --line:#dfe4ea; --line2:#edf0f4;
   --r:14px; --r2:9px;
-  /* 型スケール(8段) */
-  --fs-sec:17px; --fs-sub:15.5px; --fs-body:15px;
-  --fs-small:13px; --fs-micro:12px; --fs-kn:30px;
-  --fs-tab:14px; --fs-vision:19px; --fs-big:44px; --fs-num:22px; --fs-chart:13px;
+  /* 文字の大きさ。値は共通の部品のトークン5つ(14・16・18・20・24px)のどれかの参照だけにする。
+     狭い画面で上書きしない(hino-portal DESIGN.md 5.2・ADR-15) */
+  --fs-sec:var(--portal-fs-h1); --fs-sub:var(--portal-fs); --fs-body:var(--portal-fs);
+  --fs-small:var(--portal-fs-sub); --fs-micro:var(--portal-fs-sub); --fs-kn:var(--portal-fs-h2);
+  --fs-tab:var(--portal-fs-sub); --fs-vision:var(--portal-fs-h3); --fs-big:var(--portal-fs-h2);
+  --fs-num:var(--portal-fs-h3); --fs-chart:var(--portal-fs-sub);
   /* チャート寸法(ADR-8) */
   --chart-h:200px; --chart-bar:14px; --chart-bar-l:26px; --chart-col:48px;
   --chart-track:#eef0f2; --chart-grid:#e4e8ee;
@@ -195,7 +197,9 @@
 .hpv1 .target{background:var(--card);border:1px solid var(--line2);border-radius:var(--r2);padding:13px 16px}
 .hpv1 .target .tl{font-weight:700;font-size:var(--fs-sub)}
 .hpv1 .target .tv{display:flex;gap:8px;align-items:baseline;margin-top:4px;flex-wrap:wrap}
-.hpv1 .target .tg{display:inline-flex;gap:8px;align-items:baseline;white-space:nowrap}
+.hpv1 .target .tg{display:inline-flex;flex-wrap:wrap;gap:0 8px;align-items:baseline;max-width:100%}
+/* 値・単位・時点はそれぞれ折り返さない。カードの幅に入らないときは、時点をまとまりの中で次の行に回す(ADR-8 の表・ADR-15) */
+.hpv1 .target .tg>*{white-space:nowrap}
 .hpv1 .target .cur{font-size:var(--fs-num);font-weight:800}
 .hpv1 .target .ar{color:var(--mut)}
 .hpv1 .target .tar{font-size:var(--fs-num);font-weight:800;color:var(--ink)}
@@ -385,7 +389,7 @@
 .hpv1 .shogo b{color:var(--ink)}
 
 @media (max-width:560px){
-  .hpv1{--fs-sec:17px;--fs-kn:25px;--fs-tab:13px;--fs-big:34px;--chart-h:170px}
+  .hpv1{--chart-h:170px}
   .hpv1 .tab{padding:10px 11px 11px}
   /* タブは折り返さず1行の横スクロール(ADR-8 画面幅の規則) */
   .hpv1 .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}

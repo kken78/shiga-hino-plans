@@ -16,10 +16,6 @@
     "url": "https://www.town.shiga-hino.lg.jp/0000003356.html",
     "posted": "令和8年4月改正"
   },
-  "theme": {
-    "accent": "#6a4c93",
-    "accent2": "#2f7f6f"
-  },
   "sources": [
     {
       "id": "honpen",
@@ -631,7 +627,6 @@
           "lines": [
             {
               "k": "主任級以上の女性職員割合",
-              "c": "accent",
               "vals": [
                 32.2,
                 38.9,
@@ -641,7 +636,6 @@
             },
             {
               "k": "管理職の女性職員割合",
-              "c": "accent2",
               "vals": [
                 21.4,
                 21.7,
@@ -1054,8 +1048,7 @@
               "k": "男性"
             },
             {
-              "k": "女性",
-              "c": "accent2"
+              "k": "女性"
             }
           ],
           "years": [

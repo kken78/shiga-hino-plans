@@ -14,10 +14,6 @@
     "posted": "2023年3月(計画書の日付)",
     "next": "社会・経済情勢の大きな変化や、住生活・住環境に関する法律や制度の変化で見直しが必要と判断された場合は、計画期間内でも見直す"
   },
-  "theme": {
-    "accent": "#7a5230",
-    "accent2": "#2f6d8c"
-  },
   "sources": [
     { "id": "honpen", "label": "日野町町営住宅長寿命化計画(令和5年3月)本編", "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000007/7086/c.pdf", "pdf_page_offset": 4 },
     { "id": "gaiyo", "label": "日野町町営住宅長寿命化計画(概要)(令和5年3月)", "url": "https://www.town.shiga-hino.lg.jp/cmsfiles/contents/0000007/7086/gaiyou.pdf", "pdf_page_offset": 2 }
@@ -458,8 +454,8 @@
           "source": "honpen p.44",
           "xlabels": ["R2", "R7", "R12", "R17", "R22", "R27"],
           "lines": [
-            { "k": "公営住宅の入居資格世帯数", "c": "accent", "vals": [406, 395, 382, 366, 351, 331] },
-            { "k": "著しい困窮年収水準未満の世帯数", "c": "accent2", "vals": [259, 256, 254, 247, 239, 226] }
+            { "k": "公営住宅の入居資格世帯数", "vals": [406, 395, 382, 366, 351, 331] },
+            { "k": "著しい困窮年収水準未満の世帯数", "vals": [259, 256, 254, 247, 239, 226] }
           ],
           "note": "各年度央(10月1日)の推計値"
         },

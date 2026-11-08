@@ -421,17 +421,15 @@ class Renderer:
         for it in b["items"]:
             self.audit(tab_id, block_no, "kpi", it["label"], it["value"],
                        it["unit"], b.get("source"))
-            # 増減は色を付けない矢印と文言(ADR-14。hino-portal DESIGN.md 3.3。PLAN_SCHEMA §6-B kpi_grid)
+            # 増減は印と色を付けず、文言だけで示す(ADR-14 の改定。hino-portal DESIGN.md 3.3。PLAN_SCHEMA §6-B kpi_grid)
             tr = it.get("trend")
             if tr == "flat":
-                trw = "＝ 同額" if "円" in str(it["unit"]) else "＝ 増減なし"
+                trw = "同額" if "円" in str(it["unit"]) else "増減なし"
             else:
-                trw = {"up": "▲ 増", "down": "▼ 減"}.get(tr, "")
+                trw = {"up": "増", "down": "減"}.get(tr, "")
             trh = f'<span class="tr">{trw}</span>' if tr else ""
+            # delta は JSON のとおりに出す(先頭の ▲ は原典の書き方の負の値の印。外さない)
             dtx = str(it.get("delta") or "")
-            if tr == "down" and dtx.startswith("▲"):
-                # 原典の会計の書き方のマイナス。「▲ 増」と読み違えないよう表示だけで外す(JSON と照合表は変えない)
-                dtx = dtx[1:]
             delta = f'<div class="kd">{trh}<span>{esc(dtx)}</span></div>' if dtx else ""
             asof = f'<div class="asof">{esc(it["asof"])}</div>' if it.get("asof") else ""
             cells.append(

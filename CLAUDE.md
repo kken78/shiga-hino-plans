@@ -26,7 +26,7 @@
    validate → render の順で実装を追従させる。実装先行は禁止。
 6. **手抜き禁止**: 検証をスキップしない。エラーを握りつぶさない。
 7. **見た目はデザインシステムに従う**(DESIGN.md ADR-8): 文字サイズは `--fs-*` トークンだけで
-   指定し(12px以上)、SVG の中に文字を置かない。チャートの寸法や画面幅ごとの配置は
+   指定し(値は共通の部品のトークン5つ 14・16・18・20・24px のどれか。14px より小さくしない。DESIGN.md ADR-15)、SVG の中に文字を置かない。チャートの寸法や画面幅ごとの配置は
    レンダラーと shell.css が決め、計画ごとに調整しない(色も計画ごとに変えない。DESIGN.md ADR-13)。
    色は日野町データポータルの共通の色(hino-portal DESIGN.md 3章。templates/portal/shell.css のトークン)だけを使い、
    増減・向き・良し悪しに色を付けない(ADR-14)。
@@ -63,6 +63,9 @@ node tools/validate.mjs docs/plans/<id>.html
 #    はみ出し・ラベルの重なりを検査)。Playwright が手元に無ければ省略してよい
 #    (プルリクエストで GitHub Actions が必ず実行する)
 node tools/check_mobile.mjs docs/plans/<id>.html
+#    hino-portal の共通の検査(文字の大きさ 14px 以上。DESIGN.md ADR-15。CI でも実行する)
+python3 ~/GitHub/hino-portal/shared/check.py --fonts docs/plans/<id>.html
+node ~/GitHub/hino-portal/shared/check_mobile.mjs docs/plans/<id>.html
 
 # 5) ハブへ登録
 #    data/manifest.json の該当計画に "dashboard": "plans/<id>.html" を追記

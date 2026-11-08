@@ -176,7 +176,8 @@ hino-portal DESIGN.md 3章)で、レンダラーと templates/shell.css が決�
       "delta": "R5の4人から増加", "trend": "up" }
   ] }
 ```
-`trend` は増減の矢印(up=▲、down=▼、flat=＝)として `delta` の前に出す。矢印に色は付けない(2026-11-08。hino-portal DESIGN.md 3.3)。
+`trend` は増減の矢印と文言(up=「▲ 増」、down=「▼ 減」、flat=「＝ 増減なし」。単位に「円」を含む金額の札の flat は「＝ 同額」)として `delta` の前に出す。矢印に色は付けない(2026-11-08。hino-portal DESIGN.md 3.3)。
+`trend` が down で `delta` の先頭が「▲」(原典の会計の書き方のマイナス)のときは、表示では先頭の ▲ を外す(例「▼ 減 661人/4年(3.1%減)」)。「▲ 増」と読み違えないためである。JSON の `delta` と照合表・照合の台帳は変えない。§4 の「出典表示の集約」と同じく、表示だけの処理である。
 
 #### targets — 数値目標(現状値→目標値。達成バーはレンダラーが計算)
 ```jsonc

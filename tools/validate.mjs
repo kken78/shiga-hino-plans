@@ -6,13 +6,15 @@
         (6) SVG の中に <text> がない(文字は HTML で描く)
         (7) font-size の指定はトークン(var(--fs-*))の参照だけ
             (CSS・style 属性・SVG の font-size 属性・font 一括指定のすべて)
-        (8) --fs-* トークンの値は、共通の部品のトークン5つ(--portal-fs-sub 14px・--portal-fs 16px・
-            --portal-fs-h1 18px・--portal-fs-h3 20px・--portal-fs-h2 24px)のどれかの参照か、同じ値
-            (px、rem(1rem=16px で換算))。狭い画面での上書きも同じ。--portal-fs* の値は 14px 以上
-            (clamp(最小値,…) は最小値で判定。hino-portal DESIGN.md 5.2・DESIGN.md ADR-15)
+        (8) --fs-* トークンの値は、共通の部品のトークン6つ(--portal-fs-sub 14px・--portal-fs 16px・
+            --portal-fs-h1 18px・--portal-fs-h3 20px・--portal-fs-h2 24px・--portal-fs-num 32px)のどれかの
+            参照か、同じ値(px、rem(1rem=16px で換算))。狭い画面での上書きも同じ。--portal-fs* の値は 14px 以上
+            (clamp(最小値,…) は最小値で判定。hino-portal DESIGN.md 5.2・DESIGN.md ADR-15・ADR-16)
         (9) style 属性と SVG の fill・stroke 属性に色の値(#…・rgb(…)・hsl(…))を直接書かない。
             ページの部品の色は CSS のトークン(var(--portal-…) など)で書く(DESIGN.md ADR-14)。
             共通の部品(<!-- portal-shared:… -->)の中は正本のまま(hino-portal の shared/check.py が確かめる)
+        (10) font-weight の値は 400・700・800(normal・bold を含む)だけ。CSS・style 属性のすべて
+            (800 は数字の札の主の値に使う。hino-portal DESIGN.md 5.2・DESIGN.md ADR-16)
         日野町データポータルの共通の部品の CSS(<!-- portal-shared:css start --> … end。正本は
         hino-portal の shared/shell.css。DESIGN.md ADR-12)は、(7)(8) を共通の部品のトークン
         --portal-fs* で同じように検査する(ページの CSS では --portal-fs* を使えない)
@@ -93,9 +95,9 @@ for (const path of process.argv.slice(2)) {
     errors.push(`font-size 属性: font-size="${m[1]}"`);
   }
 
-  // (8) --fs-* の値は共通の部品のトークン5つのどれか。--portal-fs* の値は 14px 以上(ADR-15)
+  // (8) --fs-* の値は共通の部品のトークン6つのどれか。--portal-fs* の値は 14px 以上(ADR-15・ADR-16)
   const MIN_PX = 14;
-  const STEPS = { "--portal-fs-sub": 14, "--portal-fs": 16, "--portal-fs-h1": 18, "--portal-fs-h3": 20, "--portal-fs-h2": 24 };
+  const STEPS = { "--portal-fs-sub": 14, "--portal-fs": 16, "--portal-fs-h1": 18, "--portal-fs-h3": 20, "--portal-fs-h2": 24, "--portal-fs-num": 32 };
   const toPx = (v) => {
     const c = /^clamp\(\s*([^,]+),/.exec(v);
     if (c) v = c[1].trim();
@@ -108,12 +110,12 @@ for (const path of process.argv.slice(2)) {
     const v = m[1].trim();
     const ref = /^var\(\s*(--portal-fs[\w-]*)\s*\)$/.exec(v);
     if (ref) {
-      if (!(ref[1] in STEPS)) errors.push(`--fs-* が共通の部品のトークン5つ以外を参照している: ${m[0].trim()}`);
+      if (!(ref[1] in STEPS)) errors.push(`--fs-* が共通の部品のトークン6つ以外を参照している: ${m[0].trim()}`);
       continue;
     }
     const px = /^clamp\(/.test(v) ? null : toPx(v);
     if (px === null) errors.push(`--fs-* の値を判定できない(--portal-fs* の参照・px・rem のみ可): ${m[0].trim()}`);
-    else if (!steps.includes(px)) errors.push(`--fs-* の値が 14・16・18・20・24px のどれでもない(${px}px): ${m[0].trim()}`);
+    else if (!steps.includes(px)) errors.push(`--fs-* の値が 14・16・18・20・24・32px のどれでもない(${px}px): ${m[0].trim()}`);
   }
   for (const m of sharedCss.matchAll(/--portal-fs[\w-]*\s*:\s*([^;}]+)/g)) {
     const px = toPx(m[1].trim());
@@ -128,6 +130,19 @@ for (const path of process.argv.slice(2)) {
   const body = html.replace(/<!-- portal-shared:(\w+) start -->[\s\S]*?<!-- portal-shared:\1 end -->/g, "");
   for (const m of body.matchAll(/\s(style|fill|stroke)="([^"]*)"/g)) {
     if (RAW_COLOR.test(m[2])) errors.push(`${m[1]} 属性に色の値を直接書いている(トークンを使う): ${m[0].trim().slice(0, 80)}`);
+  }
+
+  // (10) font-weight は 400・700・800 だけ(hino-portal DESIGN.md 5.2・ADR-16)
+  const WEIGHTS = new Set(["400", "700", "800", "normal", "bold"]);
+  for (const [where, text] of [["CSS", css + "\n" + sharedCss], ...[...html.matchAll(/\sstyle="([^"]*)"/g)].map((m) => ["style 属性", m[1]])]) {
+    for (const m of text.matchAll(/font-weight\s*:\s*([^;}"]+)/g)) {
+      const v = m[1].trim().replace(/\s*!important$/, "");
+      if (!WEIGHTS.has(v)) errors.push(`font-weight が 400・700・800 のどれでもない(${where}): font-weight:${v}`);
+    }
+  }
+  for (const m of sharedCss.concat(css).matchAll(/(?:^|[{;\s])font\s*:\s*([^;}]+)/g)) {
+    const w = /\b(100|200|300|500|600|900|bolder|lighter)\b/.exec(m[1]);
+    if (w) errors.push(`font 一括指定の太さが 400・700・800 のどれでもない: font:${m[1].trim()}`);
   }
 
   const status = errors.length ? "NG" : "OK";

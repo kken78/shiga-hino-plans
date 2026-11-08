@@ -61,12 +61,12 @@ PILLAR_PLANS = {"sogo6", "jisshi"}   # 柱の色を当てる計画
 PILLAR_TAB = re.compile(r"^政策の柱([1-5])\s*(.+)$")   # 実施計画の柱ごとのタブの最初の見出し
 PORTAL_CSS = TPL / "portal" / "shell.css"
 # チャート部品の寸法(DESIGN.md ADR-8)。CSS のトークン(templates/shell.css)と同じ値にする
-FS_CHART = 13       # --fs-chart(px)
+FS_CHART = 14       # --fs-chart(px)。--portal-fs-sub と同じ(DESIGN.md ADR-15)
 COL_GAP = 6         # 縦棒の列の間隔(px)。.vb の column-gap
 NARROW_W = 292      # 幅360pxの端末でのチャートの中身の幅(px)
 WIDE_W = 852        # 最大幅(920px)でのチャートの中身の幅(px)
 FOLD_MIN = 21       # 横棒がこの件数以上なら初期表示を畳む(ADR-8 判断の優先順位 3・4)
-INLINE_LABEL_W = 110  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで
+INLINE_LABEL_W = 8 * FS_CHART  # 狭い画面でも名前を棒と同じ行に置ける名前の最大幅(px)。和文8字まで(ADR-8 の表)
 TEXT_COL_MIN = 20  # 表の文章列の判定: 最長の文字列がこの字数を超える(PLAN_SCHEMA §6-B)
 FIGURE_LINK_VALUE = "原典へのリンク"  # asset を省いた figure の照合表の値(PLAN_SCHEMA §6-B figure)
 SHOGO_ID = "genten-shogo"  # 末尾の節「原典との照合」のページ内リンクの id(PLAN_SCHEMA §11.3)

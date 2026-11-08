@@ -178,8 +178,8 @@
 .hpv1 .kpi .kn{font-size:var(--fs-kn);font-weight:800;line-height:1.15;margin-top:2px;letter-spacing:-.01em;white-space:nowrap}
 .hpv1 .kpi .ku{font-size:var(--fs-small);font-weight:700;color:var(--mut);margin-left:3px}
 .hpv1 .kpi .kd{font-size:var(--fs-micro);color:var(--ink2);margin-top:5px;display:flex;gap:6px;align-items:baseline}
-/* 増減の矢印(▲・▼・＝)に色を付けない(ADR-14。hino-portal DESIGN.md 3.3) */
-.hpv1 .kpi .tr{font-weight:800;flex:none;color:var(--ink)}
+/* 増減の矢印と文言(▲ 増・▼ 減・＝ 増減なし)に色を付けない(ADR-14。hino-portal DESIGN.md 3.3) */
+.hpv1 .kpi .tr{font-weight:800;flex:none;white-space:nowrap;color:var(--ink)}
 .hpv1 .kpi .asof{font-size:var(--fs-micro);color:var(--mut)}
 
 .hpv1 .b-bigstat{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap;margin:6px 0 18px;

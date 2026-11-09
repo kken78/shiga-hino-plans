@@ -232,7 +232,7 @@ for f in <OCRが必要なファイルの stem>; do pdftoppm -r 300 -gray -png $d
 原典の文字 `data/text/`・`data/text_raw/`(PLAN_SCHEMA §10・DESIGN.md ADR-10。2026-10-26 に依頼者が決めた。2026-10-26 に入れた。PR #78)を作ったあとは、
 hino-ronten は計画の文の引用をそれで照らす(計画の JSON の文は平易に書き直したものがあり、引用の照らし先にしない)。
 
-**事前に知らせる変更**(7種類。2026-10-11、依頼者の指定。6 は 2026-10-19、7 は 2026-10-26 に追加):
+**事前に知らせる変更**(8種類。2026-10-11、依頼者の指定。6 は 2026-10-19、7 は 2026-10-26、8 は 2026-11-09 に追加):
 1. manifest の name(hino-ronten は照合に使う)
 2. 計画の id(変更・追加・削除)
 3. manifest の start・end(periodNote を含む)
@@ -242,6 +242,8 @@ hino-ronten は計画の文の引用をそれで照らす(計画の JSON の文�
 6. 附表(PLAN_SCHEMA §9)の id(`fuhyo-r8`)、事業の key・name・amount、ファイルの置き場所(`data/fuhyo/<id>.json`)
 7. 原典の文字(PLAN_SCHEMA §10)の置き場所とファイル名(`data/text/<id>/<名前>.txt`・`data/text_raw/<id>/<名前>.txt`)、作り方(台帳の text_method、`-raw`)、
    台帳の列(text_method・text_date・text_chars)、改正の前の版の行(file の名前の改め方)
+8. 公共施設等総合管理計画の施設概要の表(PLAN_SCHEMA §12)の id(`kokyo-kanri-202203`)、施設の行の key(`s001`〜)、ファイルの置き場所
+   (`data/shisetsu/<id>.json`)
 
 これらを含むプルリクエストは、本文に「hino-ronten に影響」と書いて変更点を挙げ、マージの前に依頼者に知らせる。
 
@@ -373,7 +375,7 @@ text_method(原典の文字を作った道具。空欄は作っていない行)/
   台帳・JSON・検収の台帳・原典の文字は変えない。`keepalive.yml` が毎月1日に定期実行を有効化し直す。手元では
   `python3 tools/watch_sources.py`(約4分)。Issue が来たときの手順は README「町のサイトの巡回」
 
-### 残タスク(2026-11-06 更新)
+### 残タスク(2026-11-09 更新)
 
 **いまの状態**: 43計画のうち41計画にダッシュボードがある(kanbatsu・chiiki-nogyo は文書が公開されていないので作らない。
 2026-10-10、依頼者の判断。ハブのカードは残す)。41計画とも段1〜3が済み、段3の指摘の扱い(H3)も全件決まった(未判断0件)。
@@ -402,6 +404,10 @@ text_method(原典の文字を作った道具。空欄は作っていない行)/
   - OCR の下書き(`data/ocr/`。PLAN_SCHEMA §10.4): いまは作らない。hino-ronten で sogo6 などを引く必要が出たときに依頼者が決める
 
 **作業として残っているもの**
+- [ ] 公共施設等総合管理計画の施設概要の表(PLAN_SCHEMA §12・DESIGN.md ADR-17。2026-11-09 に文書を入れた)の道具とデータのコミット。
+  道具: validate_schema.py の §12 の検証、`tools/shisetsu.py`(検算・読み替えの列・照合表・段1・誤りを入れたコピー)、検収の道具が `data/shisetsu/` も
+  読む直し、見本 `data/shisetsu/_shisetsutest.json`、check.yml の行。データ: `data/shisetsu/kokyo-kanri-202203.json`(99行)、台帳のベースライン、
+  段1〜3(段1と段2は原典の PDF のある PC で行う)、README のライセンスの表に `data/shisetsu/` を足す。そのあと段4(依頼者)。
 - [ ] 系列が5つを超えるチャート13枚を分ける(いまは6つめ以降に縞を付けた仮の形。段階6(グラフの描き方)で行う。ADR-14)
 - [ ] 用語の説明(橋の健全度、水道の経営指標など)。原典を見ないと書けないので、原典のある PC で行う。
 - [ ] kodomo と kokyo-kanri の出典 honpen の url が町の掲載ページのままなので、台帳 `data/sources_index.tsv` の本編の PDF の URL に直す
@@ -414,6 +420,7 @@ text_method(原典の文字を作った道具。空欄は作っていない行)/
   - 附表 令和3〜7年度(fuhyo-r3〜r7)の検収の完了と、本文の3事業(fuhyo-r5 b048・fuhyo-r6 b064・fuhyo-r7 b176)の字の直し
     (PR #94)は、hino-ronten の issue #7 で知らせた(2026-11-06)
   - 附表の読みの注(`sic`。PLAN_SCHEMA §9。PR #95)が入ったことは、hino-ronten の issue #8 で知らせた(2026-11-06)
+  - 施設概要の表(PLAN_SCHEMA §12)のデータが入ったら、表の id・key・置き場所を知らせる(hino-ronten の lock を上げるのは hino-ronten の作業)
 - [ ] ハブを幅320pxで見ると、計画カード(`.plan-card.in-band`)のためにページが10px横にずれる(ゲートBは360px以上を検査)。
 - [ ] 論点4 デザイントークン統一の移行B(フォント・見た目の変化): rem 化と本文の底上げ(15→16px 等)。
   移行Aとは別のコミット群にして bisect できるようにする。全計画の再描画と目視が要る。

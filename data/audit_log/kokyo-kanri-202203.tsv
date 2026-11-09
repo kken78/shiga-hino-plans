@@ -1,0 +1,660 @@
+key	tab	block_no	btype	block_label	label	value	unit	source	checked	reviewer	date	note
+# checked=✓ は「原典と一致することを確認した」の意(「見た」ではない)。不一致は data/plans/<id>.json を直して再描画する(キーが変わり未検収に戻る)。この台帳が検収状態の正で、ブラウザの下書き(localStorage)は揮発する。
+89c4795594bd329e	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	日野公民館/地区	日野		kokyo-kanri-202203 p.30				
+4a2b0ae8f57773b7	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	日野公民館/棟数	3	棟	kokyo-kanri-202203 p.30				
+ac98c2ffbfba6b6a	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	日野公民館/延床面積	1,278	㎡	kokyo-kanri-202203 p.30				
+f5aad35effc5e58c	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	日野公民館/代表棟の建築年度	H8		kokyo-kanri-202203 p.30				
+1d7f94e3f6f74e7b	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	日野公民館/代表棟の構造	S造		kokyo-kanri-202203 p.30				
+068bfad5d2f9c0c3	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	日野公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+e9053ddbd9e0649c	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	日野公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+16ba8ebe171dbece	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	東桜谷公民館/地区	東桜谷		kokyo-kanri-202203 p.30				
+329973b2a55814b4	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	東桜谷公民館/棟数	1	棟	kokyo-kanri-202203 p.30				
+dd752ae8406a94a4	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	東桜谷公民館/延床面積	898	㎡	kokyo-kanri-202203 p.30				
+d72180c04b4f37ce	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	東桜谷公民館/代表棟の建築年度	H3		kokyo-kanri-202203 p.30				
+d8fb1d268e744bed	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	東桜谷公民館/代表棟の構造	RC造		kokyo-kanri-202203 p.30				
+ba83cd2ef0f5f8a0	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	東桜谷公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+a1f90a125d11eac5	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	東桜谷公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+6685e7e77ee17bf2	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	西桜谷公民館/地区	西桜谷		kokyo-kanri-202203 p.30				
+357de95f650d225b	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	西桜谷公民館/棟数	4	棟	kokyo-kanri-202203 p.30				
+4e0c698f281a2727	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	西桜谷公民館/延床面積	1,055	㎡	kokyo-kanri-202203 p.30				
+22c3616e5a8d03c7	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	西桜谷公民館/代表棟の建築年度	S62		kokyo-kanri-202203 p.30				
+1259d3bbc994f7d9	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	西桜谷公民館/代表棟の構造	S造		kokyo-kanri-202203 p.30				
+6112230f3cab7b0f	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	西桜谷公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+a6f3c54e1e3cd33d	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	西桜谷公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+caaf103b8743aee8	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	西大路公民館/地区	西大路		kokyo-kanri-202203 p.30				
+950f87ce97ed989c	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	西大路公民館/棟数	4	棟	kokyo-kanri-202203 p.30				
+08e42262f1ccb9dc	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	西大路公民館/延床面積	952	㎡	kokyo-kanri-202203 p.30				
+51b8fccbe5cf8494	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	西大路公民館/代表棟の建築年度	H11		kokyo-kanri-202203 p.30				
+652e8a77b2bc9423	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	西大路公民館/代表棟の構造	S造		kokyo-kanri-202203 p.30				
+0812046a16c41c89	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	西大路公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+cc51178ced6e0b31	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	西大路公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+fa45aeec5cc034e0	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	鎌掛公民館/地区	鎌掛		kokyo-kanri-202203 p.30				
+66d99d343ed939ff	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	鎌掛公民館/棟数	2	棟	kokyo-kanri-202203 p.30				
+8ad580b227bed907	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	鎌掛公民館/延床面積	861	㎡	kokyo-kanri-202203 p.30				
+3bbf74173f12e055	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	鎌掛公民館/代表棟の建築年度	H7		kokyo-kanri-202203 p.30				
+800f622720e280cc	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	鎌掛公民館/代表棟の構造	RC造		kokyo-kanri-202203 p.30				
+56537f8bcc02a1dc	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	鎌掛公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+02884a021b73f35b	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	鎌掛公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+d9454a1ac07f3f84	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	南比都佐公民館/地区	南比都佐		kokyo-kanri-202203 p.30				
+cf8d3e561dcee978	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	南比都佐公民館/棟数	3	棟	kokyo-kanri-202203 p.30				
+3b780cd230366108	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	南比都佐公民館/延床面積	962	㎡	kokyo-kanri-202203 p.30				
+bf8c5f1b30b22bad	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	南比都佐公民館/代表棟の建築年度	H12		kokyo-kanri-202203 p.30				
+fb77bdcd0c8fc508	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	南比都佐公民館/代表棟の構造	S造		kokyo-kanri-202203 p.30				
+b0a59bd026ed5081	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	南比都佐公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+b4d56e696d7a7992	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	南比都佐公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+0127b670e8c3d22b	shisetsu	1	shisetsu.chiku	市民文化系施設 集会施設	必佐公民館/地区	必佐		kokyo-kanri-202203 p.30				
+ff7f1e7f7fef0e9a	shisetsu	1	shisetsu.tou	市民文化系施設 集会施設	必佐公民館/棟数	2	棟	kokyo-kanri-202203 p.30				
+43ee3e5d6310ce71	shisetsu	1	shisetsu.menseki	市民文化系施設 集会施設	必佐公民館/延床面積	1,201	㎡	kokyo-kanri-202203 p.30				
+fb2a9e181d68ec62	shisetsu	1	shisetsu.nendo	市民文化系施設 集会施設	必佐公民館/代表棟の建築年度	H2		kokyo-kanri-202203 p.30				
+bfc0a6ef2745df09	shisetsu	1	shisetsu.kozo	市民文化系施設 集会施設	必佐公民館/代表棟の構造	S造		kokyo-kanri-202203 p.30				
+4538359088f35a76	shisetsu	1	shisetsu.taishin	市民文化系施設 集会施設	必佐公民館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.30				
+49f97a2767a5f670	shisetsu	1	shisetsu.unei	市民文化系施設 集会施設	必佐公民館/運営方法	直営		kokyo-kanri-202203 p.30				
+6f8fcf91953c9055	shisetsu	1	shisetsu.count	市民文化系施設 集会施設	施設の数	7		kokyo-kanri-202203 p.30				
+18b4bfcedb1b43c0	shisetsu	2	shisetsu.chiku	市民文化系施設 文化施設	町民会館わたむきホール虹/地区	日野		kokyo-kanri-202203 p.31				
+dc01dc2433b87d2d	shisetsu	2	shisetsu.tou	市民文化系施設 文化施設	町民会館わたむきホール虹/棟数	2	棟	kokyo-kanri-202203 p.31				
+ce50fcfa7a926728	shisetsu	2	shisetsu.menseki	市民文化系施設 文化施設	町民会館わたむきホール虹/延床面積	5,924	㎡	kokyo-kanri-202203 p.31				
+3f1ac7a80e43e7bc	shisetsu	2	shisetsu.nendo	市民文化系施設 文化施設	町民会館わたむきホール虹/代表棟の建築年度	H4		kokyo-kanri-202203 p.31				
+eb590dc5d7bfe101	shisetsu	2	shisetsu.kozo	市民文化系施設 文化施設	町民会館わたむきホール虹/代表棟の構造	SRC造		kokyo-kanri-202203 p.31				
+73622356bd12f0b8	shisetsu	2	shisetsu.taishin	市民文化系施設 文化施設	町民会館わたむきホール虹/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.31				
+9fc83496a50f6b56	shisetsu	2	shisetsu.unei	市民文化系施設 文化施設	町民会館わたむきホール虹/運営方法	指定管理		kokyo-kanri-202203 p.31				
+857436c046400f48	shisetsu	2	shisetsu.count	市民文化系施設 文化施設	施設の数	1		kokyo-kanri-202203 p.31				
+0750471dd36a80cc	shisetsu	3	shisetsu.chiku	社会教育系施設 図書館	日野町立図書館/地区	日野		kokyo-kanri-202203 p.32				
+aa8934390350fcc0	shisetsu	3	shisetsu.tou	社会教育系施設 図書館	日野町立図書館/棟数	2	棟	kokyo-kanri-202203 p.32				
+2d968a953ab831ca	shisetsu	3	shisetsu.menseki	社会教育系施設 図書館	日野町立図書館/延床面積	1,813	㎡	kokyo-kanri-202203 p.32				
+97979b4c2d0df11a	shisetsu	3	shisetsu.nendo	社会教育系施設 図書館	日野町立図書館/代表棟の建築年度	H7		kokyo-kanri-202203 p.32				
+5adf9b86a28b9c23	shisetsu	3	shisetsu.kozo	社会教育系施設 図書館	日野町立図書館/代表棟の構造	RC造		kokyo-kanri-202203 p.32				
+938296c9d876ec61	shisetsu	3	shisetsu.taishin	社会教育系施設 図書館	日野町立図書館/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.32				
+f8bfe3fc331297f4	shisetsu	3	shisetsu.unei	社会教育系施設 図書館	日野町立図書館/運営方法	直営		kokyo-kanri-202203 p.32				
+5a6184f074bbe8cb	shisetsu	3	shisetsu.count	社会教育系施設 図書館	施設の数	1		kokyo-kanri-202203 p.32				
+333984808bdb2a96	shisetsu	4	shisetsu.chiku	社会教育系施設 資料館	近江日野商人館/地区	日野		kokyo-kanri-202203 p.33				
+9a319d5ea8e97a16	shisetsu	4	shisetsu.tou	社会教育系施設 資料館	近江日野商人館/棟数	7	棟	kokyo-kanri-202203 p.33				
+52e6c64d16e28c7a	shisetsu	4	shisetsu.menseki	社会教育系施設 資料館	近江日野商人館/延床面積	546	㎡	kokyo-kanri-202203 p.33				
+0a3dd35c6aee8644	shisetsu	4	shisetsu.nendo	社会教育系施設 資料館	近江日野商人館/代表棟の建築年度	S11		kokyo-kanri-202203 p.33				
+3e0f45a29f9fafa7	shisetsu	4	shisetsu.kozo	社会教育系施設 資料館	近江日野商人館/代表棟の構造	W造		kokyo-kanri-202203 p.33				
+d41e3d93dd8cd424	shisetsu	4	shisetsu.taishin	社会教育系施設 資料館	近江日野商人館/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.33				
+efde00f50c9d4ded	shisetsu	4	shisetsu.unei	社会教育系施設 資料館	近江日野商人館/運営方法	直営		kokyo-kanri-202203 p.33				
+483321d75d53ef3d	shisetsu	4	shisetsu.chiku	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/地区	西大路		kokyo-kanri-202203 p.33				
+816e134df311b54e	shisetsu	4	shisetsu.tou	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/棟数	7	棟	kokyo-kanri-202203 p.33				
+7e6908fc7095b876	shisetsu	4	shisetsu.menseki	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/延床面積	1,336	㎡	kokyo-kanri-202203 p.33				
+0ca2ac56306dc556	shisetsu	4	shisetsu.nendo	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/代表棟の建築年度	1860		kokyo-kanri-202203 p.33				
+718b9638eb14d19e	shisetsu	4	shisetsu.kozo	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/代表棟の構造	W造		kokyo-kanri-202203 p.33				
+4ab6bd4be04a11f3	shisetsu	4	shisetsu.taishin	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.33				
+65fc7359bacb1299	shisetsu	4	shisetsu.unei	社会教育系施設 資料館	近江日野商人ふるさと館「旧山中正吉邸」/運営方法	直営		kokyo-kanri-202203 p.33				
+9eff046bbbb738cb	shisetsu	4	shisetsu.chiku	社会教育系施設 資料館	鉄道資料展示室/地区	必佐		kokyo-kanri-202203 p.33				
+97437c30b55df1d1	shisetsu	4	shisetsu.tou	社会教育系施設 資料館	鉄道資料展示室/棟数	1	棟	kokyo-kanri-202203 p.33				
+3e015fdc1edc3816	shisetsu	4	shisetsu.menseki	社会教育系施設 資料館	鉄道資料展示室/延床面積	68	㎡	kokyo-kanri-202203 p.33				
+a7299c0172d3765f	shisetsu	4	shisetsu.nendo	社会教育系施設 資料館	鉄道資料展示室/代表棟の建築年度	R2		kokyo-kanri-202203 p.33				
+d6da061300a02554	shisetsu	4	shisetsu.kozo	社会教育系施設 資料館	鉄道資料展示室/代表棟の構造	W造		kokyo-kanri-202203 p.33				
+bc79e22147eeaa94	shisetsu	4	shisetsu.taishin	社会教育系施設 資料館	鉄道資料展示室/代表棟の耐震補強	実施済		kokyo-kanri-202203 p.33				
+aaf34897dd9c1963	shisetsu	4	shisetsu.unei	社会教育系施設 資料館	鉄道資料展示室/運営方法	直営		kokyo-kanri-202203 p.33				
+57dd82672f131fb0	shisetsu	4	shisetsu.count	社会教育系施設 資料館	施設の数	3		kokyo-kanri-202203 p.33				
+5a72a6607e993783	shisetsu	5	shisetsu.chiku	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/地区	日野		kokyo-kanri-202203 p.34				
+d53ec4b4c229918b	shisetsu	5	shisetsu.tou	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/棟数	7	棟	kokyo-kanri-202203 p.34				
+fccf09da18041083	shisetsu	5	shisetsu.menseki	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/延床面積	3,440	㎡	kokyo-kanri-202203 p.34				
+46a77cbc724b6154	shisetsu	5	shisetsu.nendo	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/代表棟の建築年度	S54		kokyo-kanri-202203 p.34				
+87140aa6c12cb2bd	shisetsu	5	shisetsu.kozo	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/代表棟の構造	RC造		kokyo-kanri-202203 p.34				
+a6ec8d088cac51e2	shisetsu	5	shisetsu.taishin	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/代表棟の耐震補強	実施済		kokyo-kanri-202203 p.34				
+b7178316b7611661	shisetsu	5	shisetsu.unei	スポーツ・レクリエーション系施設 スポーツ施設	大谷公園/運営方法	直営		kokyo-kanri-202203 p.34				
+bbd9257dc1db5fc7	shisetsu	5	shisetsu.count	スポーツ・レクリエーション系施設 スポーツ施設	施設の数	1		kokyo-kanri-202203 p.34				
+7ec211143abbe658	shisetsu	6	shisetsu.chiku	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/地区	西大路		kokyo-kanri-202203 p.35				
+8c4297498910a649	shisetsu	6	shisetsu.tou	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/棟数	26	棟	kokyo-kanri-202203 p.35				
+32933d7c092eeaba	shisetsu	6	shisetsu.menseki	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/延床面積	1,393	㎡	kokyo-kanri-202203 p.35				
+af99b72021fc1d3c	shisetsu	6	shisetsu.nendo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/代表棟の建築年度	H8		kokyo-kanri-202203 p.35				
+d40319598a942a1f	shisetsu	6	shisetsu.kozo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/代表棟の構造	W造		kokyo-kanri-202203 p.35				
+93c3342d8c5828b1	shisetsu	6	shisetsu.taishin	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.35				
+852c74f4d8b8e6e2	shisetsu	6	shisetsu.unei	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	グリム冒険の森/運営方法	指定管理		kokyo-kanri-202203 p.35				
+aba65dcc3f2abdaf	shisetsu	6	shisetsu.chiku	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/地区	日野		kokyo-kanri-202203 p.35				
+1a485aa2b897a7ff	shisetsu	6	shisetsu.tou	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/棟数	4	棟	kokyo-kanri-202203 p.35				
+6d069db8e7b9d19b	shisetsu	6	shisetsu.menseki	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/延床面積	483	㎡	kokyo-kanri-202203 p.35				
+3e7e1e2d0c739909	shisetsu	6	shisetsu.nendo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/代表棟の建築年度	1857		kokyo-kanri-202203 p.35				
+4140c533d4bb3856	shisetsu	6	shisetsu.kozo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/代表棟の構造	W造		kokyo-kanri-202203 p.35				
+fd0e249cca0bd414	shisetsu	6	shisetsu.taishin	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.35				
+bac8d448113e3755	shisetsu	6	shisetsu.unei	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（旧正野薬店）/運営方法	貸付		kokyo-kanri-202203 p.35				
+b3725f768188fae2	shisetsu	6	shisetsu.chiku	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/地区	日野		kokyo-kanri-202203 p.35				
+9a5db8a87686cfc0	shisetsu	6	shisetsu.tou	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/棟数	2	棟	kokyo-kanri-202203 p.35				
+1c50d373d2f0977f	shisetsu	6	shisetsu.menseki	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/延床面積	146	㎡	kokyo-kanri-202203 p.35				
+7533ecacb615261a	shisetsu	6	shisetsu.nendo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/代表棟の建築年度	H30		kokyo-kanri-202203 p.35				
+3af711cbeba6408a	shisetsu	6	shisetsu.kozo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/代表棟の構造	W造		kokyo-kanri-202203 p.35				
+55971132f8c92a5a	shisetsu	6	shisetsu.taishin	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.35				
+b6300123fc79040c	shisetsu	6	shisetsu.unei	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	日野まちかど感応館（観光交流拠点施設）/運営方法	貸付		kokyo-kanri-202203 p.35				
+d125fa61f6d40f91	shisetsu	6	shisetsu.chiku	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/地区	西大路		kokyo-kanri-202203 p.35				
+fb3e28b75ef62317	shisetsu	6	shisetsu.tou	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/棟数	17	棟	kokyo-kanri-202203 p.35				
+d9a64c2dd2855639	shisetsu	6	shisetsu.menseki	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/延床面積	3,427	㎡	kokyo-kanri-202203 p.35				
+253157454fe6bb84	shisetsu	6	shisetsu.nendo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/代表棟の建築年度	H8		kokyo-kanri-202203 p.35				
+e06586b2544d4ecd	shisetsu	6	shisetsu.kozo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/代表棟の構造	S造		kokyo-kanri-202203 p.35				
+a81c089c8685f895	shisetsu	6	shisetsu.taishin	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.35				
+1bf5152b1b457a5e	shisetsu	6	shisetsu.unei	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	滋賀農業公園ブルーメの丘/運営方法	指定管理		kokyo-kanri-202203 p.35				
+441f22cca3e6abf9	shisetsu	6	shisetsu.chiku	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/地区	鎌掛		kokyo-kanri-202203 p.35				
+2eaff66684187a30	shisetsu	6	shisetsu.tou	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/棟数	10	棟	kokyo-kanri-202203 p.35				
+65bbca6a9917538c	shisetsu	6	shisetsu.menseki	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/延床面積	2,218	㎡	kokyo-kanri-202203 p.35				
+b3a5430b217b5a7b	shisetsu	6	shisetsu.nendo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/代表棟の建築年度	S4		kokyo-kanri-202203 p.35				
+375c4fac6102611a	shisetsu	6	shisetsu.kozo	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/代表棟の構造	W造		kokyo-kanri-202203 p.35				
+17ffb270cd24bca3	shisetsu	6	shisetsu.taishin	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.35				
+3a49153b208dc380	shisetsu	6	shisetsu.unei	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	旧鎌掛小学校/運営方法	貸付		kokyo-kanri-202203 p.35				
+5979016808273e84	shisetsu	6	shisetsu.count	スポーツ・レクリエーション系施設 レクリエーション施設・観光施設	施設の数	5		kokyo-kanri-202203 p.35				
+de749b1692bddf69	shisetsu	7	shisetsu.chiku	産業系施設 産業系施設	林業センター/地区	日野		kokyo-kanri-202203 p.36				
+077c9f19c9a0573b	shisetsu	7	shisetsu.tou	産業系施設 産業系施設	林業センター/棟数	3	棟	kokyo-kanri-202203 p.36				
+a3a968c319a5f226	shisetsu	7	shisetsu.menseki	産業系施設 産業系施設	林業センター/延床面積	661	㎡	kokyo-kanri-202203 p.36				
+b603df997d1136db	shisetsu	7	shisetsu.nendo	産業系施設 産業系施設	林業センター/代表棟の建築年度	S53		kokyo-kanri-202203 p.36				
+5032df14ef25000e	shisetsu	7	shisetsu.kozo	産業系施設 産業系施設	林業センター/代表棟の構造	RC造		kokyo-kanri-202203 p.36				
+57acf13c8acce986	shisetsu	7	shisetsu.taishin	産業系施設 産業系施設	林業センター/代表棟の耐震補強	不要		kokyo-kanri-202203 p.36				
+b384df32bba99157	shisetsu	7	shisetsu.unei	産業系施設 産業系施設	林業センター/運営方法	指定管理		kokyo-kanri-202203 p.36				
+bdb138181ec90f20	shisetsu	7	shisetsu.chiku	産業系施設 産業系施設	高齢者能力活用センター/地区	日野		kokyo-kanri-202203 p.36				
+2672abd25ba19bd3	shisetsu	7	shisetsu.tou	産業系施設 産業系施設	高齢者能力活用センター/棟数	1	棟	kokyo-kanri-202203 p.36				
+93ad29fe6e5d242f	shisetsu	7	shisetsu.menseki	産業系施設 産業系施設	高齢者能力活用センター/延床面積	135	㎡	kokyo-kanri-202203 p.36				
+cef711bc5eeac05b	shisetsu	7	shisetsu.nendo	産業系施設 産業系施設	高齢者能力活用センター/代表棟の建築年度	H11		kokyo-kanri-202203 p.36				
+17763d9f5b9d152f	shisetsu	7	shisetsu.kozo	産業系施設 産業系施設	高齢者能力活用センター/代表棟の構造	S造		kokyo-kanri-202203 p.36				
+efec918eff05a7a1	shisetsu	7	shisetsu.taishin	産業系施設 産業系施設	高齢者能力活用センター/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.36				
+21d303b759b391d3	shisetsu	7	shisetsu.unei	産業系施設 産業系施設	高齢者能力活用センター/運営方法	貸付		kokyo-kanri-202203 p.36				
+9a3ac348fe2223d2	shisetsu	7	shisetsu.chiku	産業系施設 産業系施設	森の家/地区	鎌掛		kokyo-kanri-202203 p.36				
+a7c24069d95cee19	shisetsu	7	shisetsu.tou	産業系施設 産業系施設	森の家/棟数	1	棟	kokyo-kanri-202203 p.36				
+73389289708417c6	shisetsu	7	shisetsu.menseki	産業系施設 産業系施設	森の家/延床面積	64	㎡	kokyo-kanri-202203 p.36				
+310c4f7540ad012e	shisetsu	7	shisetsu.nendo	産業系施設 産業系施設	森の家/代表棟の建築年度	H4		kokyo-kanri-202203 p.36				
+2d54b9115af7cf74	shisetsu	7	shisetsu.kozo	産業系施設 産業系施設	森の家/代表棟の構造	W造		kokyo-kanri-202203 p.36				
+8bbba7f759e85060	shisetsu	7	shisetsu.taishin	産業系施設 産業系施設	森の家/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.36				
+7e4789a9b983ce12	shisetsu	7	shisetsu.unei	産業系施設 産業系施設	森の家/運営方法	直営		kokyo-kanri-202203 p.36				
+c4afca2279e691c2	shisetsu	7	shisetsu.chiku	産業系施設 産業系施設	特産物展示施設/地区	鎌掛		kokyo-kanri-202203 p.36				
+06b90591423ec380	shisetsu	7	shisetsu.tou	産業系施設 産業系施設	特産物展示施設/棟数	1	棟	kokyo-kanri-202203 p.36				
+3794aa019ee8d5a8	shisetsu	7	shisetsu.menseki	産業系施設 産業系施設	特産物展示施設/延床面積	49	㎡	kokyo-kanri-202203 p.36				
+962eddb364ccd81e	shisetsu	7	shisetsu.nendo	産業系施設 産業系施設	特産物展示施設/代表棟の建築年度	S62		kokyo-kanri-202203 p.36				
+8f21056281f8cc9b	shisetsu	7	shisetsu.kozo	産業系施設 産業系施設	特産物展示施設/代表棟の構造	W造		kokyo-kanri-202203 p.36				
+4c88d36c7dd97f77	shisetsu	7	shisetsu.taishin	産業系施設 産業系施設	特産物展示施設/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.36				
+96568033f2256d5e	shisetsu	7	shisetsu.unei	産業系施設 産業系施設	特産物展示施設/運営方法	貸付		kokyo-kanri-202203 p.36				
+ddfc27d42e35f78f	shisetsu	7	shisetsu.count	産業系施設 産業系施設	施設の数	4		kokyo-kanri-202203 p.36				
+9c63f49415686ee7	shisetsu	8	shisetsu.chiku	学校教育系施設 学校	日野小学校/地区	日野		kokyo-kanri-202203 p.37				
+e869d955dc9d9af3	shisetsu	8	shisetsu.tou	学校教育系施設 学校	日野小学校/棟数	11	棟	kokyo-kanri-202203 p.37				
+cb73b74bd074542b	shisetsu	8	shisetsu.menseki	学校教育系施設 学校	日野小学校/延床面積	7,470	㎡	kokyo-kanri-202203 p.37				
+aac6c14a0aecb9b9	shisetsu	8	shisetsu.nendo	学校教育系施設 学校	日野小学校/代表棟の建築年度	S62		kokyo-kanri-202203 p.37				
+959cdbb5941444a9	shisetsu	8	shisetsu.kozo	学校教育系施設 学校	日野小学校/代表棟の構造	RC造		kokyo-kanri-202203 p.37				
+9e853c43a5f493d6	shisetsu	8	shisetsu.taishin	学校教育系施設 学校	日野小学校/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.37				
+28e4f0eb8003659e	shisetsu	8	shisetsu.unei	学校教育系施設 学校	日野小学校/運営方法	直営		kokyo-kanri-202203 p.37				
+89305f241e83c1a4	shisetsu	8	shisetsu.chiku	学校教育系施設 学校	桜谷小学校/地区	東桜谷		kokyo-kanri-202203 p.37				
+28e9dc6b2091df4b	shisetsu	8	shisetsu.tou	学校教育系施設 学校	桜谷小学校/棟数	8	棟	kokyo-kanri-202203 p.37				
+7a53d5fc36076e53	shisetsu	8	shisetsu.menseki	学校教育系施設 学校	桜谷小学校/延床面積	4,748	㎡	kokyo-kanri-202203 p.37				
+42d4bfe9590ea3ec	shisetsu	8	shisetsu.nendo	学校教育系施設 学校	桜谷小学校/代表棟の建築年度	S56		kokyo-kanri-202203 p.37				
+dadd3685d0c4049a	shisetsu	8	shisetsu.kozo	学校教育系施設 学校	桜谷小学校/代表棟の構造	RC造		kokyo-kanri-202203 p.37				
+04c6a25a1285080d	shisetsu	8	shisetsu.taishin	学校教育系施設 学校	桜谷小学校/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.37				
+9f2c32088500c53e	shisetsu	8	shisetsu.unei	学校教育系施設 学校	桜谷小学校/運営方法	直営		kokyo-kanri-202203 p.37				
+5bde6b8f3540d67a	shisetsu	8	shisetsu.chiku	学校教育系施設 学校	西大路小学校/地区	西大路		kokyo-kanri-202203 p.37				
+2603928d6f522855	shisetsu	8	shisetsu.tou	学校教育系施設 学校	西大路小学校/棟数	5	棟	kokyo-kanri-202203 p.37				
+bbf8a80ab0a5dd84	shisetsu	8	shisetsu.menseki	学校教育系施設 学校	西大路小学校/延床面積	4,114	㎡	kokyo-kanri-202203 p.37				
+02686840aee4b209	shisetsu	8	shisetsu.nendo	学校教育系施設 学校	西大路小学校/代表棟の建築年度	H1		kokyo-kanri-202203 p.37				
+430798a762415e94	shisetsu	8	shisetsu.kozo	学校教育系施設 学校	西大路小学校/代表棟の構造	RC造		kokyo-kanri-202203 p.37				
+3727e6858e106e56	shisetsu	8	shisetsu.taishin	学校教育系施設 学校	西大路小学校/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.37				
+0793ee1ef475739c	shisetsu	8	shisetsu.unei	学校教育系施設 学校	西大路小学校/運営方法	直営		kokyo-kanri-202203 p.37				
+8cee8c112e37aa34	shisetsu	8	shisetsu.chiku	学校教育系施設 学校	南比都佐小学校/地区	南比都佐		kokyo-kanri-202203 p.37				
+6f4345947bf0dc44	shisetsu	8	shisetsu.tou	学校教育系施設 学校	南比都佐小学校/棟数	6	棟	kokyo-kanri-202203 p.37				
+5bf7a9afabf0ac5b	shisetsu	8	shisetsu.menseki	学校教育系施設 学校	南比都佐小学校/延床面積	4,123	㎡	kokyo-kanri-202203 p.37				
+905435fc323d6905	shisetsu	8	shisetsu.nendo	学校教育系施設 学校	南比都佐小学校/代表棟の建築年度	S63		kokyo-kanri-202203 p.37				
+cb3db2687c65a2fb	shisetsu	8	shisetsu.kozo	学校教育系施設 学校	南比都佐小学校/代表棟の構造	RC造		kokyo-kanri-202203 p.37				
+9c47e146a1c7f9e9	shisetsu	8	shisetsu.taishin	学校教育系施設 学校	南比都佐小学校/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.37				
+2e3e8aeb0ff41946	shisetsu	8	shisetsu.unei	学校教育系施設 学校	南比都佐小学校/運営方法	直営		kokyo-kanri-202203 p.37				
+ac53660164752002	shisetsu	8	shisetsu.chiku	学校教育系施設 学校	必佐小学校/地区	必佐		kokyo-kanri-202203 p.37				
+5ffee90024741b93	shisetsu	8	shisetsu.tou	学校教育系施設 学校	必佐小学校/棟数	6	棟	kokyo-kanri-202203 p.37				
+a77cfeef3967c189	shisetsu	8	shisetsu.menseki	学校教育系施設 学校	必佐小学校/延床面積	5,806	㎡	kokyo-kanri-202203 p.37				
+467e731f143ad295	shisetsu	8	shisetsu.nendo	学校教育系施設 学校	必佐小学校/代表棟の建築年度	S53		kokyo-kanri-202203 p.37				
+7f3493c691291a1e	shisetsu	8	shisetsu.kozo	学校教育系施設 学校	必佐小学校/代表棟の構造	RC造		kokyo-kanri-202203 p.37				
+023dd7822d378766	shisetsu	8	shisetsu.taishin	学校教育系施設 学校	必佐小学校/代表棟の耐震補強	実施済		kokyo-kanri-202203 p.37				
+4175c9abcaf59609	shisetsu	8	shisetsu.unei	学校教育系施設 学校	必佐小学校/運営方法	直営		kokyo-kanri-202203 p.37				
+1486ae3a03c81cd8	shisetsu	8	shisetsu.chiku	学校教育系施設 学校	日野中学校/地区	日野		kokyo-kanri-202203 p.37				
+33ad6946efff48f9	shisetsu	8	shisetsu.tou	学校教育系施設 学校	日野中学校/棟数	14	棟	kokyo-kanri-202203 p.37				
+8616470901641920	shisetsu	8	shisetsu.menseki	学校教育系施設 学校	日野中学校/延床面積	11,504	㎡	kokyo-kanri-202203 p.37				
+6edc362fc8296afe	shisetsu	8	shisetsu.nendo	学校教育系施設 学校	日野中学校/代表棟の建築年度	H20		kokyo-kanri-202203 p.37				
+59d9ca2cc3ba08ec	shisetsu	8	shisetsu.kozo	学校教育系施設 学校	日野中学校/代表棟の構造	RC造		kokyo-kanri-202203 p.37				
+fa68cd2d6a2b1783	shisetsu	8	shisetsu.taishin	学校教育系施設 学校	日野中学校/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.37				
+6b71f41466d38cef	shisetsu	8	shisetsu.unei	学校教育系施設 学校	日野中学校/運営方法	直営		kokyo-kanri-202203 p.37				
+e51b54ff084e89a8	shisetsu	8	shisetsu.count	学校教育系施設 学校	施設の数	6		kokyo-kanri-202203 p.37				
+885fac8111bba6dd	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/地区	日野		kokyo-kanri-202203 p.38				
+1848874adeccd61d	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/棟数	2	棟	kokyo-kanri-202203 p.38				
+cb78257ef12b6c25	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/延床面積	1,028	㎡	kokyo-kanri-202203 p.38				
+a0d188fc40389d16	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/代表棟の建築年度	S60		kokyo-kanri-202203 p.38				
+3f70810b067b526a	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+bb39ed36b9ec8ebe	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+ecd7223aa338bb35	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	日野幼稚園/運営方法	直営		kokyo-kanri-202203 p.38				
+dd7671d37ed85095	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/地区	西大路		kokyo-kanri-202203 p.38				
+d868ff3be51c1ea6	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/棟数	1	棟	kokyo-kanri-202203 p.38				
+8b4086d0cc1b09ba	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/延床面積	531	㎡	kokyo-kanri-202203 p.38				
+88822822d8bdd026	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/代表棟の建築年度	H2		kokyo-kanri-202203 p.38				
+e25ac77a55ba5089	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+df367f16be00dd07	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+710a64bdfb9d3584	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	西大路幼稚園/運営方法	直営		kokyo-kanri-202203 p.38				
+dc5238b688ce1bb5	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/地区	南比都佐		kokyo-kanri-202203 p.38				
+503c9b30a5562c84	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/棟数	1	棟	kokyo-kanri-202203 p.38				
+b4580dd7fd0fc520	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/延床面積	676	㎡	kokyo-kanri-202203 p.38				
+1af4cb976e31312f	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/代表棟の建築年度	S59		kokyo-kanri-202203 p.38				
+d5394f2bcc5a5cf3	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+494d66f5d3fba0cb	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+7cc4ae2fb25d43d1	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	南比都佐幼稚園/運営方法	直営		kokyo-kanri-202203 p.38				
+8f5f374400a7ed3d	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/地区	必佐		kokyo-kanri-202203 p.38				
+d30b3d35683d45a8	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/棟数	1	棟	kokyo-kanri-202203 p.38				
+233abc91326d219b	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/延床面積	1,160	㎡	kokyo-kanri-202203 p.38				
+ce8ee66699539d12	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/代表棟の建築年度	S58		kokyo-kanri-202203 p.38				
+a5788e0d27e35ac6	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+d1ecfd3983e59169	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+45284e5ffecabab5	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	必佐幼稚園/運営方法	直営		kokyo-kanri-202203 p.38				
+284ba6f4360d0518	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/地区	日野		kokyo-kanri-202203 p.38				
+1eb39c34c1073c4c	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/棟数	3	棟	kokyo-kanri-202203 p.38				
+9d86e9a674207982	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/延床面積	542	㎡	kokyo-kanri-202203 p.38				
+cfba8bcca8242c7a	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/代表棟の建築年度	S63		kokyo-kanri-202203 p.38				
+774f84fb27d0325a	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+d8e8d428fb774f7d	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+02f959122c450d17	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園/運営方法	直営		kokyo-kanri-202203 p.38				
+4d8b89a1ef02d733	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/地区	鎌掛		kokyo-kanri-202203 p.38				
+ee9dc88886069c93	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/棟数	1	棟	kokyo-kanri-202203 p.38				
+788a17f14afa84fc	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/延床面積	408	㎡	kokyo-kanri-202203 p.38				
+cd443d30a248cb90	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/代表棟の建築年度	H3		kokyo-kanri-202203 p.38				
+7781a9e793f25cf5	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+ae5761be7b80b518	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+f4d49dff6a92adcd	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	保育所あおぞら園鎌掛分園/運営方法	直営		kokyo-kanri-202203 p.38				
+bea1d159ed65788b	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/地区	必佐		kokyo-kanri-202203 p.38				
+ec2cc8015b57fc03	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/棟数	4	棟	kokyo-kanri-202203 p.38				
+de14b1267e99ebd1	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/延床面積	1,355	㎡	kokyo-kanri-202203 p.38				
+3ddea45b778d8eca	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/代表棟の建築年度	H26		kokyo-kanri-202203 p.38				
+a72a5fee35d36cd9	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/代表棟の構造	W造		kokyo-kanri-202203 p.38				
+348604726489c24e	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+eca247953cc301bf	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	保育所こばと園/運営方法	直営		kokyo-kanri-202203 p.38				
+dc1dfa6ece42dd80	shisetsu	9	shisetsu.chiku	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/地区	西桜谷		kokyo-kanri-202203 p.38				
+9ee2e7dd7c6b6a5c	shisetsu	9	shisetsu.tou	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/棟数	2	棟	kokyo-kanri-202203 p.38				
+73d617d9a285a4fc	shisetsu	9	shisetsu.menseki	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/延床面積	886	㎡	kokyo-kanri-202203 p.38				
+118bd53ef470f5fb	shisetsu	9	shisetsu.nendo	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/代表棟の建築年度	H2		kokyo-kanri-202203 p.38				
+59db9fe1184280ce	shisetsu	9	shisetsu.kozo	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/代表棟の構造	S造		kokyo-kanri-202203 p.38				
+d7858cc0638a848e	shisetsu	9	shisetsu.taishin	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.38				
+40b58ae8ac4598ab	shisetsu	9	shisetsu.unei	子育て支援施設 幼稚園・保育所・こども園	桜谷こども園/運営方法	直営		kokyo-kanri-202203 p.38				
+d60c58c31f69fa10	shisetsu	9	shisetsu.count	子育て支援施設 幼稚園・保育所・こども園	施設の数	8		kokyo-kanri-202203 p.38				
+946d4c9bf72b9f3b	shisetsu	10	shisetsu.chiku	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/地区	日野		kokyo-kanri-202203 p.39				
+24df9d12f1e9ee31	shisetsu	10	shisetsu.tou	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/棟数	3	棟	kokyo-kanri-202203 p.39				
+dba72e9ca63c3fb7	shisetsu	10	shisetsu.menseki	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/延床面積	617	㎡	kokyo-kanri-202203 p.39				
+6dc29a01302beff4	shisetsu	10	shisetsu.nendo	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/代表棟の建築年度	H12		kokyo-kanri-202203 p.39				
+0302992056afa98f	shisetsu	10	shisetsu.kozo	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/代表棟の構造	S造		kokyo-kanri-202203 p.39				
+e1b2b394c320fc2f	shisetsu	10	shisetsu.taishin	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.39				
+5528a8ab1fd4d5b2	shisetsu	10	shisetsu.unei	子育て支援施設 幼児・児童施設	学童保育所ヒノキオ/運営方法	貸付		kokyo-kanri-202203 p.39				
+fdba6a1bb16acc87	shisetsu	10	shisetsu.chiku	子育て支援施設 幼児・児童施設	学童保育所太陽の子/地区	必佐		kokyo-kanri-202203 p.39				
+590bd45a6de610c2	shisetsu	10	shisetsu.tou	子育て支援施設 幼児・児童施設	学童保育所太陽の子/棟数	2	棟	kokyo-kanri-202203 p.39				
+fc44a155b478b68a	shisetsu	10	shisetsu.menseki	子育て支援施設 幼児・児童施設	学童保育所太陽の子/延床面積	355	㎡	kokyo-kanri-202203 p.39				
+6258b5e8dfd98f4b	shisetsu	10	shisetsu.nendo	子育て支援施設 幼児・児童施設	学童保育所太陽の子/代表棟の建築年度	H6		kokyo-kanri-202203 p.39				
+d2ca4c2a0c9b5acd	shisetsu	10	shisetsu.kozo	子育て支援施設 幼児・児童施設	学童保育所太陽の子/代表棟の構造	W造		kokyo-kanri-202203 p.39				
+ede45a4e22177591	shisetsu	10	shisetsu.taishin	子育て支援施設 幼児・児童施設	学童保育所太陽の子/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.39				
+3aa6c6c8d5b46199	shisetsu	10	shisetsu.unei	子育て支援施設 幼児・児童施設	学童保育所太陽の子/運営方法	貸付		kokyo-kanri-202203 p.39				
+e0e31cb8ef91130c	shisetsu	10	shisetsu.chiku	子育て支援施設 幼児・児童施設	子育て・教育相談センター/地区	日野		kokyo-kanri-202203 p.39				
+bedaa016818ade2e	shisetsu	10	shisetsu.tou	子育て支援施設 幼児・児童施設	子育て・教育相談センター/棟数	3	棟	kokyo-kanri-202203 p.39				
+8618d2ba9c47f79e	shisetsu	10	shisetsu.menseki	子育て支援施設 幼児・児童施設	子育て・教育相談センター/延床面積	204	㎡	kokyo-kanri-202203 p.39				
+a5c2f71116f70ffd	shisetsu	10	shisetsu.nendo	子育て支援施設 幼児・児童施設	子育て・教育相談センター/代表棟の建築年度	S47		kokyo-kanri-202203 p.39				
+7caebadb050df874	shisetsu	10	shisetsu.kozo	子育て支援施設 幼児・児童施設	子育て・教育相談センター/代表棟の構造	S造		kokyo-kanri-202203 p.39				
+8c8b5df694724f3d	shisetsu	10	shisetsu.taishin	子育て支援施設 幼児・児童施設	子育て・教育相談センター/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.39				
+a90268b0948841eb	shisetsu	10	shisetsu.unei	子育て支援施設 幼児・児童施設	子育て・教育相談センター/運営方法	直営		kokyo-kanri-202203 p.39				
+5a79daa7cb7e24ef	shisetsu	10	shisetsu.chiku	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/地区	日野		kokyo-kanri-202203 p.39				
+0407fd6a7a6abc00	shisetsu	10	shisetsu.tou	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/棟数	1	棟	kokyo-kanri-202203 p.39				
+d49b897572fd08b8	shisetsu	10	shisetsu.menseki	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/延床面積	218	㎡	kokyo-kanri-202203 p.39				
+c4979062890ce5d6	shisetsu	10	shisetsu.nendo	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/代表棟の建築年度	R1		kokyo-kanri-202203 p.39				
+3897cc730a972b81	shisetsu	10	shisetsu.kozo	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/代表棟の構造	S造		kokyo-kanri-202203 p.39				
+7710dbe38e42df17	shisetsu	10	shisetsu.taishin	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.39				
+dfbfb67eb0021f85	shisetsu	10	shisetsu.unei	子育て支援施設 幼児・児童施設	女性活躍支援施設「ぽけっと」/運営方法	直営		kokyo-kanri-202203 p.39				
+dc4547bd1be5d270	shisetsu	10	shisetsu.count	子育て支援施設 幼児・児童施設	施設の数	4		kokyo-kanri-202203 p.39				
+34d6616103596ef2	shisetsu	11	shisetsu.chiku	保健・福祉施設 高齢福祉施設	ひだまり事業所/地区	日野		kokyo-kanri-202203 p.40				
+df483c103dd77ffd	shisetsu	11	shisetsu.tou	保健・福祉施設 高齢福祉施設	ひだまり事業所/棟数	10	棟	kokyo-kanri-202203 p.40				
+aea2c8c6d96d7e1f	shisetsu	11	shisetsu.menseki	保健・福祉施設 高齢福祉施設	ひだまり事業所/延床面積	479	㎡	kokyo-kanri-202203 p.40				
+bf082876b7de88a9	shisetsu	11	shisetsu.nendo	保健・福祉施設 高齢福祉施設	ひだまり事業所/代表棟の建築年度	H9		kokyo-kanri-202203 p.40				
+d6dce4c24e1881a6	shisetsu	11	shisetsu.kozo	保健・福祉施設 高齢福祉施設	ひだまり事業所/代表棟の構造	S造		kokyo-kanri-202203 p.40				
+baddc9510431a562	shisetsu	11	shisetsu.taishin	保健・福祉施設 高齢福祉施設	ひだまり事業所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.40				
+62dbbd466d0e8ae8	shisetsu	11	shisetsu.unei	保健・福祉施設 高齢福祉施設	ひだまり事業所/運営方法	貸付		kokyo-kanri-202203 p.40				
+b94ee0500b047e7f	shisetsu	11	shisetsu.count	保健・福祉施設 高齢福祉施設	施設の数	1		kokyo-kanri-202203 p.40				
+b66ee7dcf29bb3f7	shisetsu	12	shisetsu.chiku	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/地区	日野		kokyo-kanri-202203 p.41				
+8fc633d1d9683ef4	shisetsu	12	shisetsu.tou	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/棟数	1	棟	kokyo-kanri-202203 p.41				
+5f78d573ee6109a3	shisetsu	12	shisetsu.menseki	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/延床面積	305	㎡	kokyo-kanri-202203 p.41				
+d92d218e93aed5a9	shisetsu	12	shisetsu.nendo	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/代表棟の建築年度	H9		kokyo-kanri-202203 p.41				
+5ae6f0bac687f016	shisetsu	12	shisetsu.kozo	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/代表棟の構造	S造		kokyo-kanri-202203 p.41				
+694528895302dd21	shisetsu	12	shisetsu.taishin	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.41				
+8a53e86e9ed26c42	shisetsu	12	shisetsu.unei	保健・福祉施設 障害福祉施設	早期療育施設「くれよん」/運営方法	直営		kokyo-kanri-202203 p.41				
+2d19b2f488d9d2f7	shisetsu	12	shisetsu.chiku	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/地区	東桜谷		kokyo-kanri-202203 p.41				
+c55230d78969aac8	shisetsu	12	shisetsu.tou	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/棟数	1	棟	kokyo-kanri-202203 p.41				
+c56259c4eee208c3	shisetsu	12	shisetsu.menseki	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/延床面積	510	㎡	kokyo-kanri-202203 p.41				
+0ca07b313923ab55	shisetsu	12	shisetsu.nendo	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/代表棟の建築年度	H1		kokyo-kanri-202203 p.41				
+58f0e8fc0814b986	shisetsu	12	shisetsu.kozo	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/代表棟の構造	S造		kokyo-kanri-202203 p.41				
+b338ae90311e0242	shisetsu	12	shisetsu.taishin	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.41				
+edd677837b2e4673	shisetsu	12	shisetsu.unei	保健・福祉施設 障害福祉施設	児童交流施設「ともだち」/運営方法	貸付		kokyo-kanri-202203 p.41				
+e7315b6506d276f7	shisetsu	12	shisetsu.count	保健・福祉施設 障害福祉施設	施設の数	2		kokyo-kanri-202203 p.41				
+26ce301e24e54f53	shisetsu	13	shisetsu.chiku	保健・福祉施設 保健施設	保健センター/地区	日野		kokyo-kanri-202203 p.42				
+39e5145c29a9741a	shisetsu	13	shisetsu.tou	保健・福祉施設 保健施設	保健センター/棟数	1	棟	kokyo-kanri-202203 p.42				
+ff66f4b5847ceb6e	shisetsu	13	shisetsu.menseki	保健・福祉施設 保健施設	保健センター/延床面積	595	㎡	kokyo-kanri-202203 p.42				
+bee2b1f58c05cddb	shisetsu	13	shisetsu.nendo	保健・福祉施設 保健施設	保健センター/代表棟の建築年度	S61		kokyo-kanri-202203 p.42				
+f9b9bd3b29fa9657	shisetsu	13	shisetsu.kozo	保健・福祉施設 保健施設	保健センター/代表棟の構造	RC造		kokyo-kanri-202203 p.42				
+3f96431233fde870	shisetsu	13	shisetsu.taishin	保健・福祉施設 保健施設	保健センター/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.42				
+2264288ae0066d91	shisetsu	13	shisetsu.unei	保健・福祉施設 保健施設	保健センター/運営方法	直営		kokyo-kanri-202203 p.42				
+27d0821c3f231cf6	shisetsu	13	shisetsu.count	保健・福祉施設 保健施設	施設の数	1		kokyo-kanri-202203 p.42				
+1707ae14f6965c01	shisetsu	14	shisetsu.chiku	保健・福祉施設 その他社会福祉施設	勤労福祉会館/地区	日野		kokyo-kanri-202203 p.42				
+86f079f086e8aeb6	shisetsu	14	shisetsu.tou	保健・福祉施設 その他社会福祉施設	勤労福祉会館/棟数	3	棟	kokyo-kanri-202203 p.42				
+e4200421b0b41df8	shisetsu	14	shisetsu.menseki	保健・福祉施設 その他社会福祉施設	勤労福祉会館/延床面積	854	㎡	kokyo-kanri-202203 p.42				
+48cbfeb47a961d88	shisetsu	14	shisetsu.nendo	保健・福祉施設 その他社会福祉施設	勤労福祉会館/代表棟の建築年度	S50		kokyo-kanri-202203 p.42				
+44040f2d64d6589c	shisetsu	14	shisetsu.kozo	保健・福祉施設 その他社会福祉施設	勤労福祉会館/代表棟の構造	RC造		kokyo-kanri-202203 p.42				
+da28aa5d8aabbe90	shisetsu	14	shisetsu.taishin	保健・福祉施設 その他社会福祉施設	勤労福祉会館/代表棟の耐震補強	実施済		kokyo-kanri-202203 p.42				
+f93a0e8a5732b1c6	shisetsu	14	shisetsu.unei	保健・福祉施設 その他社会福祉施設	勤労福祉会館/運営方法	指定管理		kokyo-kanri-202203 p.42				
+a4ce52fb116ab56c	shisetsu	14	shisetsu.count	保健・福祉施設 その他社会福祉施設	施設の数	1		kokyo-kanri-202203 p.42				
+a4f1c995c92a567b	shisetsu	15	shisetsu.chiku	行政系施設 庁舎等	役場庁舎/地区	日野		kokyo-kanri-202203 p.43				
+64ad1b1feca814f1	shisetsu	15	shisetsu.tou	行政系施設 庁舎等	役場庁舎/棟数	6	棟	kokyo-kanri-202203 p.43				
+c3c536741fe71409	shisetsu	15	shisetsu.menseki	行政系施設 庁舎等	役場庁舎/延床面積	6,011	㎡	kokyo-kanri-202203 p.43				
+152a21d78b476f6b	shisetsu	15	shisetsu.nendo	行政系施設 庁舎等	役場庁舎/代表棟の建築年度	S55		kokyo-kanri-202203 p.43				
+3841e26411bfb937	shisetsu	15	shisetsu.kozo	行政系施設 庁舎等	役場庁舎/代表棟の構造	RC造		kokyo-kanri-202203 p.43				
+f83c30e2b4220621	shisetsu	15	shisetsu.taishin	行政系施設 庁舎等	役場庁舎/代表棟の耐震補強	実施済		kokyo-kanri-202203 p.43				
+a36b420a3cc9b26e	shisetsu	15	shisetsu.unei	行政系施設 庁舎等	役場庁舎/運営方法	直営		kokyo-kanri-202203 p.43				
+4308bce6693ed7d8	shisetsu	15	shisetsu.count	行政系施設 庁舎等	施設の数	1		kokyo-kanri-202203 p.43				
+88bea0d667bab77b	shisetsu	16	shisetsu.chiku	行政系施設 消防施設	消防団第１分団（日野）詰所/地区	日野		kokyo-kanri-202203 p.44				
+e17634285b8a3f65	shisetsu	16	shisetsu.tou	行政系施設 消防施設	消防団第１分団（日野）詰所/棟数	1	棟	kokyo-kanri-202203 p.44				
+85e162780ccfdb63	shisetsu	16	shisetsu.menseki	行政系施設 消防施設	消防団第１分団（日野）詰所/延床面積	48	㎡	kokyo-kanri-202203 p.44				
+02c2ad474151f731	shisetsu	16	shisetsu.nendo	行政系施設 消防施設	消防団第１分団（日野）詰所/代表棟の建築年度	S59		kokyo-kanri-202203 p.44				
+34171c8871bb12b0	shisetsu	16	shisetsu.kozo	行政系施設 消防施設	消防団第１分団（日野）詰所/代表棟の構造	S造		kokyo-kanri-202203 p.44				
+3c50abbaabdf7053	shisetsu	16	shisetsu.taishin	行政系施設 消防施設	消防団第１分団（日野）詰所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.44				
+103306b9f40e710f	shisetsu	16	shisetsu.unei	行政系施設 消防施設	消防団第１分団（日野）詰所/運営方法	直営		kokyo-kanri-202203 p.44				
+ebc00ae23585619d	shisetsu	16	shisetsu.chiku	行政系施設 消防施設	消防団第１分団（西大路）詰所/地区	西大路		kokyo-kanri-202203 p.44				
+5da88cce7e36eccc	shisetsu	16	shisetsu.tou	行政系施設 消防施設	消防団第１分団（西大路）詰所/棟数	1	棟	kokyo-kanri-202203 p.44				
+d8efdefafce51828	shisetsu	16	shisetsu.menseki	行政系施設 消防施設	消防団第１分団（西大路）詰所/延床面積	55	㎡	kokyo-kanri-202203 p.44				
+4dc5b030bf6cd5a0	shisetsu	16	shisetsu.nendo	行政系施設 消防施設	消防団第１分団（西大路）詰所/代表棟の建築年度	H1		kokyo-kanri-202203 p.44				
+36340eeecc31ed54	shisetsu	16	shisetsu.kozo	行政系施設 消防施設	消防団第１分団（西大路）詰所/代表棟の構造	RC造		kokyo-kanri-202203 p.44				
+bbf86c6f54273fad	shisetsu	16	shisetsu.taishin	行政系施設 消防施設	消防団第１分団（西大路）詰所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.44				
+36bd2f52e6be5bd1	shisetsu	16	shisetsu.unei	行政系施設 消防施設	消防団第１分団（西大路）詰所/運営方法	直営		kokyo-kanri-202203 p.44				
+aaff30f16f0076aa	shisetsu	16	shisetsu.chiku	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/地区	鎌掛		kokyo-kanri-202203 p.44				
+f8d23636dfe6cf82	shisetsu	16	shisetsu.tou	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/棟数	1	棟	kokyo-kanri-202203 p.44				
+03811f4b00be99bf	shisetsu	16	shisetsu.menseki	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/延床面積	80	㎡	kokyo-kanri-202203 p.44				
+8e351107f9218200	shisetsu	16	shisetsu.nendo	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/代表棟の建築年度	R3		kokyo-kanri-202203 p.44				
+0f3e8dec682460a6	shisetsu	16	shisetsu.kozo	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/代表棟の構造	S造		kokyo-kanri-202203 p.44				
+d3c5cc7be3a61718	shisetsu	16	shisetsu.taishin	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.44				
+112dd4f4a197a6d3	shisetsu	16	shisetsu.unei	行政系施設 消防施設	消防団第１分団（鎌掛）詰所/運営方法	直営		kokyo-kanri-202203 p.44				
+5b7c76beb2548f56	shisetsu	16	shisetsu.chiku	行政系施設 消防施設	消防団第２分団詰所/地区	東桜谷		kokyo-kanri-202203 p.44				
+374756ae1999dc7d	shisetsu	16	shisetsu.tou	行政系施設 消防施設	消防団第２分団詰所/棟数	1	棟	kokyo-kanri-202203 p.44				
+e4163b471d2effc9	shisetsu	16	shisetsu.menseki	行政系施設 消防施設	消防団第２分団詰所/延床面積	61	㎡	kokyo-kanri-202203 p.44				
+1560a47929c4ad24	shisetsu	16	shisetsu.nendo	行政系施設 消防施設	消防団第２分団詰所/代表棟の建築年度	S62		kokyo-kanri-202203 p.44				
+d6b202c50c65455f	shisetsu	16	shisetsu.kozo	行政系施設 消防施設	消防団第２分団詰所/代表棟の構造	SRC造		kokyo-kanri-202203 p.44				
+2604c03168be6b7f	shisetsu	16	shisetsu.taishin	行政系施設 消防施設	消防団第２分団詰所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.44				
+151c1cd3dd21c4dd	shisetsu	16	shisetsu.unei	行政系施設 消防施設	消防団第２分団詰所/運営方法	直営		kokyo-kanri-202203 p.44				
+1d610607fde0dd18	shisetsu	16	shisetsu.chiku	行政系施設 消防施設	消防団第３分団詰所/地区	必佐		kokyo-kanri-202203 p.44				
+4836e9209cdd754d	shisetsu	16	shisetsu.tou	行政系施設 消防施設	消防団第３分団詰所/棟数	1	棟	kokyo-kanri-202203 p.44				
+ad7610154ae73c4b	shisetsu	16	shisetsu.menseki	行政系施設 消防施設	消防団第３分団詰所/延床面積	60	㎡	kokyo-kanri-202203 p.44				
+2821ef944a328d64	shisetsu	16	shisetsu.nendo	行政系施設 消防施設	消防団第３分団詰所/代表棟の建築年度	H2		kokyo-kanri-202203 p.44				
+0f39758e45443727	shisetsu	16	shisetsu.kozo	行政系施設 消防施設	消防団第３分団詰所/代表棟の構造	S造		kokyo-kanri-202203 p.44				
+bb2dbe32acbd51e9	shisetsu	16	shisetsu.taishin	行政系施設 消防施設	消防団第３分団詰所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.44				
+b3e201f0f6fc36d7	shisetsu	16	shisetsu.unei	行政系施設 消防施設	消防団第３分団詰所/運営方法	直営		kokyo-kanri-202203 p.44				
+c3a835f2bd4ea3cf	shisetsu	16	shisetsu.count	行政系施設 消防施設	施設の数	5		kokyo-kanri-202203 p.44				
+ed56056ec3b1475c	shisetsu	17	shisetsu.chiku	行政系施設 その他施設	文化財資料室/地区	日野		kokyo-kanri-202203 p.45				
+de9811057e352239	shisetsu	17	shisetsu.tou	行政系施設 その他施設	文化財資料室/棟数	1	棟	kokyo-kanri-202203 p.45				
+e5fb2bae46db2aef	shisetsu	17	shisetsu.menseki	行政系施設 その他施設	文化財資料室/延床面積	423	㎡	kokyo-kanri-202203 p.45				
+fff051ce6b086d24	shisetsu	17	shisetsu.nendo	行政系施設 その他施設	文化財資料室/代表棟の建築年度	S14		kokyo-kanri-202203 p.45				
+d271b69c3d4bd8ed	shisetsu	17	shisetsu.kozo	行政系施設 その他施設	文化財資料室/代表棟の構造	W造		kokyo-kanri-202203 p.45				
+90952c03fcb5ef6d	shisetsu	17	shisetsu.taishin	行政系施設 その他施設	文化財資料室/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.45				
+4eb7a2b23730ce0c	shisetsu	17	shisetsu.unei	行政系施設 その他施設	文化財資料室/運営方法	直営		kokyo-kanri-202203 p.45				
+3f654536722d60b0	shisetsu	17	shisetsu.chiku	行政系施設 その他施設	旧南比都佐公民館/地区	南比都佐		kokyo-kanri-202203 p.45				
+9bba1d672fc43e5b	shisetsu	17	shisetsu.tou	行政系施設 その他施設	旧南比都佐公民館/棟数	3	棟	kokyo-kanri-202203 p.45				
+295ac13b7d90eec0	shisetsu	17	shisetsu.menseki	行政系施設 その他施設	旧南比都佐公民館/延床面積	442	㎡	kokyo-kanri-202203 p.45				
+e0b601bc5ba0a03c	shisetsu	17	shisetsu.nendo	行政系施設 その他施設	旧南比都佐公民館/代表棟の建築年度	S43		kokyo-kanri-202203 p.45				
+79aa032960a519c4	shisetsu	17	shisetsu.kozo	行政系施設 その他施設	旧南比都佐公民館/代表棟の構造	W造		kokyo-kanri-202203 p.45				
+93f64d4dc4cd7349	shisetsu	17	shisetsu.taishin	行政系施設 その他施設	旧南比都佐公民館/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.45				
+7d865bb8917125c5	shisetsu	17	shisetsu.unei	行政系施設 その他施設	旧南比都佐公民館/運営方法	直営		kokyo-kanri-202203 p.45				
+a13c0b723443b440	shisetsu	17	shisetsu.chiku	行政系施設 その他施設	資材倉庫/地区	日野		kokyo-kanri-202203 p.45				
+473b6a962cde99f6	shisetsu	17	shisetsu.tou	行政系施設 その他施設	資材倉庫/棟数	1	棟	kokyo-kanri-202203 p.45				
+076576e7a33e3605	shisetsu	17	shisetsu.menseki	行政系施設 その他施設	資材倉庫/延床面積	207	㎡	kokyo-kanri-202203 p.45				
+8608e7bd3f930ead	shisetsu	17	shisetsu.nendo	行政系施設 その他施設	資材倉庫/代表棟の建築年度	S56		kokyo-kanri-202203 p.45				
+506136a65adb8d9e	shisetsu	17	shisetsu.kozo	行政系施設 その他施設	資材倉庫/代表棟の構造	S造		kokyo-kanri-202203 p.45				
+d3945e6227f1122e	shisetsu	17	shisetsu.taishin	行政系施設 その他施設	資材倉庫/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.45				
+aa5a542df5e93b1d	shisetsu	17	shisetsu.unei	行政系施設 その他施設	資材倉庫/運営方法	直営		kokyo-kanri-202203 p.45				
+86a6afbe63886753	shisetsu	17	shisetsu.chiku	行政系施設 その他施設	防災センター/地区	日野		kokyo-kanri-202203 p.45				
+717b94c53f1a02d1	shisetsu	17	shisetsu.tou	行政系施設 その他施設	防災センター/棟数	1	棟	kokyo-kanri-202203 p.45				
+bbf55a100acb8cd2	shisetsu	17	shisetsu.menseki	行政系施設 その他施設	防災センター/延床面積	1,276	㎡	kokyo-kanri-202203 p.45				
+e4094da82739b631	shisetsu	17	shisetsu.nendo	行政系施設 その他施設	防災センター/代表棟の建築年度	H28		kokyo-kanri-202203 p.45				
+11b5391117014c24	shisetsu	17	shisetsu.kozo	行政系施設 その他施設	防災センター/代表棟の構造	S造		kokyo-kanri-202203 p.45				
+e507315a9b5534e7	shisetsu	17	shisetsu.taishin	行政系施設 その他施設	防災センター/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.45				
+8d08a07736389ea5	shisetsu	17	shisetsu.unei	行政系施設 その他施設	防災センター/運営方法	直営		kokyo-kanri-202203 p.45				
+048408b22ced4458	shisetsu	17	shisetsu.count	行政系施設 その他施設	施設の数	4		kokyo-kanri-202203 p.45				
+2aeb147dac50b5c5	shisetsu	18	shisetsu.chiku	公営住宅 公営住宅	町営住宅第１内池団地/地区	必佐		kokyo-kanri-202203 p.46				
+b7240a77f0fe68d5	shisetsu	18	shisetsu.tou	公営住宅 公営住宅	町営住宅第１内池団地/棟数	4	棟	kokyo-kanri-202203 p.46				
+c0c51c4a8263fa4a	shisetsu	18	shisetsu.menseki	公営住宅 公営住宅	町営住宅第１内池団地/延床面積	1,631	㎡	kokyo-kanri-202203 p.46				
+739b233bd7f0dabb	shisetsu	18	shisetsu.nendo	公営住宅 公営住宅	町営住宅第１内池団地/代表棟の建築年度	H13		kokyo-kanri-202203 p.46				
+d43ffb639a402c60	shisetsu	18	shisetsu.kozo	公営住宅 公営住宅	町営住宅第１内池団地/代表棟の構造	W造		kokyo-kanri-202203 p.46				
+a3bd62cb8b3580b3	shisetsu	18	shisetsu.taishin	公営住宅 公営住宅	町営住宅第１内池団地/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.46				
+a0bdb47ed4f74c92	shisetsu	18	shisetsu.unei	公営住宅 公営住宅	町営住宅第１内池団地/運営方法	直営		kokyo-kanri-202203 p.46				
+2693c057360833da	shisetsu	18	shisetsu.chiku	公営住宅 公営住宅	町営住宅第２内池団地/地区	必佐		kokyo-kanri-202203 p.46				
+d6547fbef3091950	shisetsu	18	shisetsu.tou	公営住宅 公営住宅	町営住宅第２内池団地/棟数	1	棟	kokyo-kanri-202203 p.46				
+497cbc875988ab16	shisetsu	18	shisetsu.menseki	公営住宅 公営住宅	町営住宅第２内池団地/延床面積	1,163	㎡	kokyo-kanri-202203 p.46				
+49e886b7eeb992f9	shisetsu	18	shisetsu.nendo	公営住宅 公営住宅	町営住宅第２内池団地/代表棟の建築年度	S63		kokyo-kanri-202203 p.46				
+0e3f09a98c0b2e8a	shisetsu	18	shisetsu.kozo	公営住宅 公営住宅	町営住宅第２内池団地/代表棟の構造	RC造		kokyo-kanri-202203 p.46				
+4c724212790636a4	shisetsu	18	shisetsu.taishin	公営住宅 公営住宅	町営住宅第２内池団地/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.46				
+71466f6950e9d902	shisetsu	18	shisetsu.unei	公営住宅 公営住宅	町営住宅第２内池団地/運営方法	直営		kokyo-kanri-202203 p.46				
+623742edeb4b173d	shisetsu	18	shisetsu.chiku	公営住宅 公営住宅	町営住宅西山団地/地区	必佐		kokyo-kanri-202203 p.46				
+e3c0e0864ac892ff	shisetsu	18	shisetsu.tou	公営住宅 公営住宅	町営住宅西山団地/棟数	5	棟	kokyo-kanri-202203 p.46				
+8dd18d686f0b3826	shisetsu	18	shisetsu.menseki	公営住宅 公営住宅	町営住宅西山団地/延床面積	934	㎡	kokyo-kanri-202203 p.46				
+d3cfee06b05ea405	shisetsu	18	shisetsu.nendo	公営住宅 公営住宅	町営住宅西山団地/代表棟の建築年度	S59		kokyo-kanri-202203 p.46				
+4857db5ce69954fc	shisetsu	18	shisetsu.kozo	公営住宅 公営住宅	町営住宅西山団地/代表棟の構造	RC造		kokyo-kanri-202203 p.46				
+a227216368c56067	shisetsu	18	shisetsu.taishin	公営住宅 公営住宅	町営住宅西山団地/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.46				
+599f2151ee6e2986	shisetsu	18	shisetsu.unei	公営住宅 公営住宅	町営住宅西山団地/運営方法	直営		kokyo-kanri-202203 p.46				
+c40f5238373e0ae5	shisetsu	18	shisetsu.chiku	公営住宅 公営住宅	町営住宅中山大谷団地/地区	必佐		kokyo-kanri-202203 p.46				
+6df71023d5704a4a	shisetsu	18	shisetsu.tou	公営住宅 公営住宅	町営住宅中山大谷団地/棟数	5	棟	kokyo-kanri-202203 p.46				
+d703066edac39435	shisetsu	18	shisetsu.menseki	公営住宅 公営住宅	町営住宅中山大谷団地/延床面積	674	㎡	kokyo-kanri-202203 p.46				
+078492ddfe18e68b	shisetsu	18	shisetsu.nendo	公営住宅 公営住宅	町営住宅中山大谷団地/代表棟の建築年度	S49		kokyo-kanri-202203 p.46				
+ed66c8319510d802	shisetsu	18	shisetsu.kozo	公営住宅 公営住宅	町営住宅中山大谷団地/代表棟の構造	RC造		kokyo-kanri-202203 p.46				
+588909feb4bfa9b6	shisetsu	18	shisetsu.taishin	公営住宅 公営住宅	町営住宅中山大谷団地/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.46				
+883c1f254c0bf7c3	shisetsu	18	shisetsu.unei	公営住宅 公営住宅	町営住宅中山大谷団地/運営方法	直営		kokyo-kanri-202203 p.46				
+e8e38f2b23569dd4	shisetsu	18	shisetsu.chiku	公営住宅 公営住宅	増田団地/地区	必佐		kokyo-kanri-202203 p.46				
+74579e050e211006	shisetsu	18	shisetsu.tou	公営住宅 公営住宅	増田団地/棟数	4	棟	kokyo-kanri-202203 p.46				
+9509b257f908cc5e	shisetsu	18	shisetsu.menseki	公営住宅 公営住宅	増田団地/延床面積	270	㎡	kokyo-kanri-202203 p.46				
+865a682eb3612773	shisetsu	18	shisetsu.nendo	公営住宅 公営住宅	増田団地/代表棟の建築年度	S48		kokyo-kanri-202203 p.46				
+f71b0a2123b229dd	shisetsu	18	shisetsu.kozo	公営住宅 公営住宅	増田団地/代表棟の構造	RC造		kokyo-kanri-202203 p.46				
+3d4f2295ed2abc44	shisetsu	18	shisetsu.taishin	公営住宅 公営住宅	増田団地/代表棟の耐震補強	未実施		kokyo-kanri-202203 p.46				
+2a4a4e47ed55dcdb	shisetsu	18	shisetsu.unei	公営住宅 公営住宅	増田団地/運営方法	直営		kokyo-kanri-202203 p.46				
+a7f17eeb60ef9d5f	shisetsu	18	shisetsu.chiku	公営住宅 公営住宅	内池公営住宅集会所/地区	必佐		kokyo-kanri-202203 p.46				
+4b8b99e670df0574	shisetsu	18	shisetsu.tou	公営住宅 公営住宅	内池公営住宅集会所/棟数	1	棟	kokyo-kanri-202203 p.46				
+e2d4e59eb5a6a687	shisetsu	18	shisetsu.menseki	公営住宅 公営住宅	内池公営住宅集会所/延床面積	70	㎡	kokyo-kanri-202203 p.46				
+ab32b1d488ce151f	shisetsu	18	shisetsu.nendo	公営住宅 公営住宅	内池公営住宅集会所/代表棟の建築年度	S63		kokyo-kanri-202203 p.46				
+9a9bc653f245297f	shisetsu	18	shisetsu.kozo	公営住宅 公営住宅	内池公営住宅集会所/代表棟の構造	W造		kokyo-kanri-202203 p.46				
+bd06aba5e27d7b17	shisetsu	18	shisetsu.taishin	公営住宅 公営住宅	内池公営住宅集会所/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.46				
+2c5e54f62709e82d	shisetsu	18	shisetsu.unei	公営住宅 公営住宅	内池公営住宅集会所/運営方法	直営		kokyo-kanri-202203 p.46				
+2e26a4332946df2d	shisetsu	18	shisetsu.count	公営住宅 公営住宅	施設の数	6		kokyo-kanri-202203 p.46				
+0bed12b34ed0484d	shisetsu	19	shisetsu.chiku	公園 公園	松尾公園/地区	日野		kokyo-kanri-202203 p.47				
+0bcfde3d323847bd	shisetsu	19	shisetsu.tou	公園 公園	松尾公園/棟数	1	棟	kokyo-kanri-202203 p.47				
+f9f9d2edc8b70c16	shisetsu	19	shisetsu.menseki	公園 公園	松尾公園/延床面積	42	㎡	kokyo-kanri-202203 p.47				
+23e93ca93a439d5d	shisetsu	19	shisetsu.nendo	公園 公園	松尾公園/代表棟の建築年度	H7		kokyo-kanri-202203 p.47				
+3a2954fe64bae1c4	shisetsu	19	shisetsu.kozo	公園 公園	松尾公園/代表棟の構造	RC造		kokyo-kanri-202203 p.47				
+d57c13947cda5bb2	shisetsu	19	shisetsu.taishin	公園 公園	松尾公園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.47				
+08aca9ef2ebab54d	shisetsu	19	shisetsu.unei	公園 公園	松尾公園/運営方法	直営		kokyo-kanri-202203 p.47				
+10fdd689d3e56bc5	shisetsu	19	shisetsu.chiku	公園 公園	内池公園/地区	必佐		kokyo-kanri-202203 p.47				
+a1caf3f1796f0db3	shisetsu	19	shisetsu.tou	公園 公園	内池公園/棟数	1	棟	kokyo-kanri-202203 p.47				
+256a84b4097eb46d	shisetsu	19	shisetsu.menseki	公園 公園	内池公園/延床面積	41	㎡	kokyo-kanri-202203 p.47				
+f8e1997ec1488de5	shisetsu	19	shisetsu.nendo	公園 公園	内池公園/代表棟の建築年度	H15		kokyo-kanri-202203 p.47				
+d95e02b85ea87a58	shisetsu	19	shisetsu.kozo	公園 公園	内池公園/代表棟の構造	W造		kokyo-kanri-202203 p.47				
+303f14b1a02b068f	shisetsu	19	shisetsu.taishin	公園 公園	内池公園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.47				
+1998569b99e32772	shisetsu	19	shisetsu.unei	公園 公園	内池公園/運営方法	直営		kokyo-kanri-202203 p.47				
+f18a8400b3a1fbbd	shisetsu	19	shisetsu.chiku	公園 公園	ひばり野公園/地区	日野		kokyo-kanri-202203 p.47				
+cfc753400ee61fff	shisetsu	19	shisetsu.tou	公園 公園	ひばり野公園/棟数	1	棟	kokyo-kanri-202203 p.47				
+3efe24d5fa76b96f	shisetsu	19	shisetsu.menseki	公園 公園	ひばり野公園/延床面積	27	㎡	kokyo-kanri-202203 p.47				
+a380881da729f760	shisetsu	19	shisetsu.nendo	公園 公園	ひばり野公園/代表棟の建築年度	S63		kokyo-kanri-202203 p.47				
+7eff7734e9082339	shisetsu	19	shisetsu.kozo	公園 公園	ひばり野公園/代表棟の構造	RC造		kokyo-kanri-202203 p.47				
+f99b407b8f06c111	shisetsu	19	shisetsu.taishin	公園 公園	ひばり野公園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.47				
+7072861ba98e8cac	shisetsu	19	shisetsu.unei	公園 公園	ひばり野公園/運営方法	直営		kokyo-kanri-202203 p.47				
+68d3636142502ab2	shisetsu	19	shisetsu.chiku	公園 公園	蔵王ダム公園/地区	西大路		kokyo-kanri-202203 p.47				
+becfb694ded9ec54	shisetsu	19	shisetsu.tou	公園 公園	蔵王ダム公園/棟数	1	棟	kokyo-kanri-202203 p.47				
+942a5dc51e2d9e34	shisetsu	19	shisetsu.menseki	公園 公園	蔵王ダム公園/延床面積	14	㎡	kokyo-kanri-202203 p.47				
+53df9a7a4e2cf3a3	shisetsu	19	shisetsu.nendo	公園 公園	蔵王ダム公園/代表棟の建築年度	H10		kokyo-kanri-202203 p.47				
+9873164520584661	shisetsu	19	shisetsu.kozo	公園 公園	蔵王ダム公園/代表棟の構造	RC造		kokyo-kanri-202203 p.47				
+7882ef9e90552a80	shisetsu	19	shisetsu.taishin	公園 公園	蔵王ダム公園/代表棟の耐震補強	新基準		kokyo-kanri-202203 p.47				
+a181ff5a8838610b	shisetsu	19	shisetsu.unei	公園 公園	蔵王ダム公園/運営方法	直営		kokyo-kanri-202203 p.47				
+8a7e1d3e20b363e8	shisetsu	19	shisetsu.count	公園 公園	施設の数	4		kokyo-kanri-202203 p.47				
+f836ffa4539c69b4	shisetsu	20	shisetsu.chiku	上水道施設	湖南サンライズ加圧所/地区	日野		kokyo-kanri-202203 p.50				
+e9bcf8b3b6aa5fa7	shisetsu	20	shisetsu.tou	上水道施設	湖南サンライズ加圧所/棟数	1	棟	kokyo-kanri-202203 p.50				
+f351ff0efe9a5851	shisetsu	20	shisetsu.menseki	上水道施設	湖南サンライズ加圧所/延床面積	65	㎡	kokyo-kanri-202203 p.50				
+f276284fa28508cc	shisetsu	20	shisetsu.nendo	上水道施設	湖南サンライズ加圧所/代表棟の建築年度	S57		kokyo-kanri-202203 p.50				
+6a0594c8dc50747d	shisetsu	20	shisetsu.kozo	上水道施設	湖南サンライズ加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+96789071eb6b0431	shisetsu	20	shisetsu.chiku	上水道施設	五月台配水池/地区	日野		kokyo-kanri-202203 p.50				
+4537570caa6925d2	shisetsu	20	shisetsu.tou	上水道施設	五月台配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+13153257135e8c31	shisetsu	20	shisetsu.menseki	上水道施設	五月台配水池/延床面積	158	㎡	kokyo-kanri-202203 p.50				
+eff9e85f43155890	shisetsu	20	shisetsu.nendo	上水道施設	五月台配水池/代表棟の建築年度	H23		kokyo-kanri-202203 p.50				
+e63aba823ee82870	shisetsu	20	shisetsu.kozo	上水道施設	五月台配水池/代表棟の構造	S造		kokyo-kanri-202203 p.50				
+c960e036f011c4f9	shisetsu	20	shisetsu.chiku	上水道施設	西部配水池/地区	日野		kokyo-kanri-202203 p.50				
+3fbf77d7c4738889	shisetsu	20	shisetsu.tou	上水道施設	西部配水池/棟数	2	棟	kokyo-kanri-202203 p.50				
+4df89a325129c5f1	shisetsu	20	shisetsu.menseki	上水道施設	西部配水池/延床面積	412	㎡	kokyo-kanri-202203 p.50				
+d5ab62abbf303c91	shisetsu	20	shisetsu.nendo	上水道施設	西部配水池/代表棟の建築年度	S57		kokyo-kanri-202203 p.50				
+af2b332bf953f320	shisetsu	20	shisetsu.kozo	上水道施設	西部配水池/代表棟の構造	PC造		kokyo-kanri-202203 p.50				
+409e338c70cc687b	shisetsu	20	shisetsu.chiku	上水道施設	中央配水池/地区	日野		kokyo-kanri-202203 p.50				
+a0070a17b8ab8eec	shisetsu	20	shisetsu.tou	上水道施設	中央配水池/棟数	2	棟	kokyo-kanri-202203 p.50				
+081e979938a56abb	shisetsu	20	shisetsu.menseki	上水道施設	中央配水池/延床面積	291	㎡	kokyo-kanri-202203 p.50				
+ddf7fa8f86c7c1a2	shisetsu	20	shisetsu.nendo	上水道施設	中央配水池/代表棟の建築年度	S56		kokyo-kanri-202203 p.50				
+707a92ab3c67ab80	shisetsu	20	shisetsu.kozo	上水道施設	中央配水池/代表棟の構造	PC造		kokyo-kanri-202203 p.50				
+47f5defc6c709ec8	shisetsu	20	shisetsu.chiku	上水道施設	原加圧所/地区	東桜谷		kokyo-kanri-202203 p.50				
+9195c1a511811dd6	shisetsu	20	shisetsu.tou	上水道施設	原加圧所/棟数	2	棟	kokyo-kanri-202203 p.50				
+a3cfa51b6ac125fe	shisetsu	20	shisetsu.menseki	上水道施設	原加圧所/延床面積	40	㎡	kokyo-kanri-202203 p.50				
+fbd54a14c7fdbbce	shisetsu	20	shisetsu.nendo	上水道施設	原加圧所/代表棟の建築年度	S60		kokyo-kanri-202203 p.50				
+d46a73526353b83d	shisetsu	20	shisetsu.kozo	上水道施設	原加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+319549d6029a44b4	shisetsu	20	shisetsu.chiku	上水道施設	原配水池/地区	東桜谷		kokyo-kanri-202203 p.50				
+81244c6cde0967cc	shisetsu	20	shisetsu.tou	上水道施設	原配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+eca1b277f1303f7f	shisetsu	20	shisetsu.menseki	上水道施設	原配水池/延床面積	40	㎡	kokyo-kanri-202203 p.50				
+378f7a0a5e6bb5f4	shisetsu	20	shisetsu.nendo	上水道施設	原配水池/代表棟の建築年度	H18		kokyo-kanri-202203 p.50				
+5f8c7e1ef2f8bd1d	shisetsu	20	shisetsu.kozo	上水道施設	原配水池/代表棟の構造	S造		kokyo-kanri-202203 p.50				
+e15e194f09d0445f	shisetsu	20	shisetsu.chiku	上水道施設	北脇加圧所/地区	西桜谷		kokyo-kanri-202203 p.50				
+f812272ff2fbcf8f	shisetsu	20	shisetsu.tou	上水道施設	北脇加圧所/棟数	2	棟	kokyo-kanri-202203 p.50				
+a219421832578c7b	shisetsu	20	shisetsu.menseki	上水道施設	北脇加圧所/延床面積	136	㎡	kokyo-kanri-202203 p.50				
+f5b0f65412544c72	shisetsu	20	shisetsu.nendo	上水道施設	北脇加圧所/代表棟の建築年度	S63		kokyo-kanri-202203 p.50				
+ea318b854e844bcd	shisetsu	20	shisetsu.kozo	上水道施設	北脇加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+a55de74baec44be2	shisetsu	20	shisetsu.chiku	上水道施設	西明寺第１加圧所/地区	西大路		kokyo-kanri-202203 p.50				
+d909ee877fc22917	shisetsu	20	shisetsu.tou	上水道施設	西明寺第１加圧所/棟数	1	棟	kokyo-kanri-202203 p.50				
+436089e588cfd0fc	shisetsu	20	shisetsu.menseki	上水道施設	西明寺第１加圧所/延床面積	30	㎡	kokyo-kanri-202203 p.50				
+65b2a4cd37f42da5	shisetsu	20	shisetsu.nendo	上水道施設	西明寺第１加圧所/代表棟の建築年度	S60		kokyo-kanri-202203 p.50				
+3095af6f98bdca0c	shisetsu	20	shisetsu.kozo	上水道施設	西明寺第１加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+4fdf7b984eb67ad9	shisetsu	20	shisetsu.chiku	上水道施設	西明寺第２加圧所/地区	西大路		kokyo-kanri-202203 p.50				
+3bb6544e8b7a71f1	shisetsu	20	shisetsu.tou	上水道施設	西明寺第２加圧所/棟数	2	棟	kokyo-kanri-202203 p.50				
+2d72fde8baa462fe	shisetsu	20	shisetsu.menseki	上水道施設	西明寺第２加圧所/延床面積	45	㎡	kokyo-kanri-202203 p.50				
+d22a28826c8d4780	shisetsu	20	shisetsu.nendo	上水道施設	西明寺第２加圧所/代表棟の建築年度	S60		kokyo-kanri-202203 p.50				
+20730bd76a347fc4	shisetsu	20	shisetsu.kozo	上水道施設	西明寺第２加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+5279c3dec1841bb1	shisetsu	20	shisetsu.chiku	上水道施設	西明寺配水池/地区	西大路		kokyo-kanri-202203 p.50				
+134b60090d2f2c81	shisetsu	20	shisetsu.tou	上水道施設	西明寺配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+371ae7cf90122223	shisetsu	20	shisetsu.menseki	上水道施設	西明寺配水池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+3f6066b04b73857d	shisetsu	20	shisetsu.nendo	上水道施設	西明寺配水池/代表棟の建築年度	S46		kokyo-kanri-202203 p.50				
+079530bb071c3052	shisetsu	20	shisetsu.kozo	上水道施設	西明寺配水池/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+4a0883d8715638af	shisetsu	20	shisetsu.chiku	上水道施設	青葉台配水池/地区	西大路		kokyo-kanri-202203 p.50				
+775115d3142a1276	shisetsu	20	shisetsu.tou	上水道施設	青葉台配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+8dfc57186e4af824	shisetsu	20	shisetsu.menseki	上水道施設	青葉台配水池/延床面積	51	㎡	kokyo-kanri-202203 p.50				
+0c63baab555fec16	shisetsu	20	shisetsu.nendo	上水道施設	青葉台配水池/代表棟の建築年度	H24		kokyo-kanri-202203 p.50				
+2fc5c3eb7578b973	shisetsu	20	shisetsu.kozo	上水道施設	青葉台配水池/代表棟の構造	S造		kokyo-kanri-202203 p.50				
+3fd3ff01e96aec43	shisetsu	20	shisetsu.chiku	上水道施設	東部配水池/地区	西大路		kokyo-kanri-202203 p.50				
+c009edf678fd114a	shisetsu	20	shisetsu.tou	上水道施設	東部配水池/棟数	2	棟	kokyo-kanri-202203 p.50				
+797f0065e3395bfd	shisetsu	20	shisetsu.menseki	上水道施設	東部配水池/延床面積	308	㎡	kokyo-kanri-202203 p.50				
+b4fc50188f051c4d	shisetsu	20	shisetsu.nendo	上水道施設	東部配水池/代表棟の建築年度	S56		kokyo-kanri-202203 p.50				
+6df6d14a26cec18c	shisetsu	20	shisetsu.kozo	上水道施設	東部配水池/代表棟の構造	PC造		kokyo-kanri-202203 p.50				
+aeb9f58d02bfe6ac	shisetsu	20	shisetsu.chiku	上水道施設	平子・熊野地区簡易水道浄水場/地区	西大路		kokyo-kanri-202203 p.50				
+6dbf2ec24d22776e	shisetsu	20	shisetsu.tou	上水道施設	平子・熊野地区簡易水道浄水場/棟数	1	棟	kokyo-kanri-202203 p.50				
+36154faf9a55d324	shisetsu	20	shisetsu.menseki	上水道施設	平子・熊野地区簡易水道浄水場/延床面積	72	㎡	kokyo-kanri-202203 p.50				
+c5946642d1875608	shisetsu	20	shisetsu.nendo	上水道施設	平子・熊野地区簡易水道浄水場/代表棟の建築年度	H13		kokyo-kanri-202203 p.50				
+4952be14aa1bae26	shisetsu	20	shisetsu.kozo	上水道施設	平子・熊野地区簡易水道浄水場/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+9cfc6c92fa0b2558	shisetsu	20	shisetsu.chiku	上水道施設	平子・熊野地区簡易水道配水池/地区	西大路		kokyo-kanri-202203 p.50				
+6dfcfa27263138e2	shisetsu	20	shisetsu.tou	上水道施設	平子・熊野地区簡易水道配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+c1eaf020da19a25d	shisetsu	20	shisetsu.menseki	上水道施設	平子・熊野地区簡易水道配水池/延床面積	30	㎡	kokyo-kanri-202203 p.50				
+3acc00b8dfc50cc3	shisetsu	20	shisetsu.nendo	上水道施設	平子・熊野地区簡易水道配水池/代表棟の建築年度	H13		kokyo-kanri-202203 p.50				
+992c2f1b232424ee	shisetsu	20	shisetsu.kozo	上水道施設	平子・熊野地区簡易水道配水池/代表棟の構造	S造		kokyo-kanri-202203 p.50				
+d0b0f3cf8b9b9c32	shisetsu	20	shisetsu.chiku	上水道施設	曙第１加圧所/地区	南比都佐		kokyo-kanri-202203 p.50				
+7b15cf7a3858902c	shisetsu	20	shisetsu.tou	上水道施設	曙第１加圧所/棟数	2	棟	kokyo-kanri-202203 p.50				
+b2da395a925d12a0	shisetsu	20	shisetsu.menseki	上水道施設	曙第１加圧所/延床面積	93	㎡	kokyo-kanri-202203 p.50				
+9999c2c46b8557fa	shisetsu	20	shisetsu.nendo	上水道施設	曙第１加圧所/代表棟の建築年度	S58		kokyo-kanri-202203 p.50				
+515818e597038f43	shisetsu	20	shisetsu.kozo	上水道施設	曙第１加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+25a8fc0183eb00a4	shisetsu	20	shisetsu.chiku	上水道施設	曙第２加圧所/地区	南比都佐		kokyo-kanri-202203 p.50				
+2d8fc2d1ebb3e788	shisetsu	20	shisetsu.tou	上水道施設	曙第２加圧所/棟数	2	棟	kokyo-kanri-202203 p.50				
+2e2e397b6848e160	shisetsu	20	shisetsu.menseki	上水道施設	曙第２加圧所/延床面積	66	㎡	kokyo-kanri-202203 p.50				
+c8378ae17ab66511	shisetsu	20	shisetsu.nendo	上水道施設	曙第２加圧所/代表棟の建築年度	H15		kokyo-kanri-202203 p.50				
+1cafd22e73cd1cc2	shisetsu	20	shisetsu.kozo	上水道施設	曙第２加圧所/代表棟の構造	S造		kokyo-kanri-202203 p.50				
+127f8ec523a6dca4	shisetsu	20	shisetsu.chiku	上水道施設	加圧滅菌室/地区	必佐		kokyo-kanri-202203 p.50				
+7d755e9d4a6516da	shisetsu	20	shisetsu.tou	上水道施設	加圧滅菌室/棟数	1	棟	kokyo-kanri-202203 p.50				
+3b258e273414dc2f	shisetsu	20	shisetsu.menseki	上水道施設	加圧滅菌室/延床面積	24	㎡	kokyo-kanri-202203 p.50				
+71ca8a6e6f352dae	shisetsu	20	shisetsu.nendo	上水道施設	加圧滅菌室/代表棟の建築年度	S59		kokyo-kanri-202203 p.50				
+f4b455b0ebeb32fe	shisetsu	20	shisetsu.kozo	上水道施設	加圧滅菌室/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+fc55c8b129eb58d6	shisetsu	20	shisetsu.chiku	上水道施設	中山加圧所/地区	必佐		kokyo-kanri-202203 p.50				
+60652b444c28c81f	shisetsu	20	shisetsu.tou	上水道施設	中山加圧所/棟数	2	棟	kokyo-kanri-202203 p.50				
+0cf087c1f79f1955	shisetsu	20	shisetsu.menseki	上水道施設	中山加圧所/延床面積	54	㎡	kokyo-kanri-202203 p.50				
+c5c0ea5236e72a73	shisetsu	20	shisetsu.nendo	上水道施設	中山加圧所/代表棟の建築年度	S61		kokyo-kanri-202203 p.50				
+6057046832af77c9	shisetsu	20	shisetsu.kozo	上水道施設	中山加圧所/代表棟の構造	RC造		kokyo-kanri-202203 p.50				
+fac453c3ed19ac19	shisetsu	20	shisetsu.chiku	上水道施設	村井低区配水池/地区	日野		kokyo-kanri-202203 p.50				
+aa268c6f302f6594	shisetsu	20	shisetsu.tou	上水道施設	村井低区配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+b360a4df71ee845f	shisetsu	20	shisetsu.menseki	上水道施設	村井低区配水池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+64e0d25f2d74eda8	shisetsu	20	shisetsu.nendo	上水道施設	村井低区配水池/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+7445c7f1a22cf6ca	shisetsu	20	shisetsu.kozo	上水道施設	村井低区配水池/代表棟の構造	-		kokyo-kanri-202203 p.50				
+dbb474d18e20933e	shisetsu	20	shisetsu.chiku	上水道施設	野出簡易水道浄水場/地区	西桜谷		kokyo-kanri-202203 p.50				
+8a2939767530eec8	shisetsu	20	shisetsu.tou	上水道施設	野出簡易水道浄水場/棟数	1	棟	kokyo-kanri-202203 p.50				
+b8444417a2f3684a	shisetsu	20	shisetsu.menseki	上水道施設	野出簡易水道浄水場/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+13ed12f80e4791de	shisetsu	20	shisetsu.nendo	上水道施設	野出簡易水道浄水場/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+1738781138628c6b	shisetsu	20	shisetsu.kozo	上水道施設	野出簡易水道浄水場/代表棟の構造	-		kokyo-kanri-202203 p.50				
+c4d84bff87b284f4	shisetsu	20	shisetsu.chiku	上水道施設	村井高区配水池/地区	西大路		kokyo-kanri-202203 p.50				
+7923cd41574eb17d	shisetsu	20	shisetsu.tou	上水道施設	村井高区配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+1b5449dedbd137e0	shisetsu	20	shisetsu.menseki	上水道施設	村井高区配水池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+f6505f440d965278	shisetsu	20	shisetsu.nendo	上水道施設	村井高区配水池/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+ff007f2ecf0abe77	shisetsu	20	shisetsu.kozo	上水道施設	村井高区配水池/代表棟の構造	-		kokyo-kanri-202203 p.50				
+4f05876a6c04186c	shisetsu	20	shisetsu.chiku	上水道施設	綿向配水池/地区	西大路		kokyo-kanri-202203 p.50				
+8d73081526c10286	shisetsu	20	shisetsu.tou	上水道施設	綿向配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+63a184914d151746	shisetsu	20	shisetsu.menseki	上水道施設	綿向配水池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+4a45d4a78496589e	shisetsu	20	shisetsu.nendo	上水道施設	綿向配水池/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+5a50a5054e79941a	shisetsu	20	shisetsu.kozo	上水道施設	綿向配水池/代表棟の構造	-		kokyo-kanri-202203 p.50				
+1c8873d8e28d3220	shisetsu	20	shisetsu.chiku	上水道施設	鎌掛配水池/地区	鎌掛		kokyo-kanri-202203 p.50				
+b3d9bdeea05fe6e5	shisetsu	20	shisetsu.tou	上水道施設	鎌掛配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+de8ecff1f44b135a	shisetsu	20	shisetsu.menseki	上水道施設	鎌掛配水池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+0edb53eb2f33c374	shisetsu	20	shisetsu.nendo	上水道施設	鎌掛配水池/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+89db2d9d7baa028b	shisetsu	20	shisetsu.kozo	上水道施設	鎌掛配水池/代表棟の構造	-		kokyo-kanri-202203 p.50				
+eec6244d778c666a	shisetsu	20	shisetsu.chiku	上水道施設	三十坪水源池/地区	必佐		kokyo-kanri-202203 p.50				
+a3c6cf4ba8f69abd	shisetsu	20	shisetsu.tou	上水道施設	三十坪水源池/棟数	1	棟	kokyo-kanri-202203 p.50				
+0801025fd0769cb9	shisetsu	20	shisetsu.menseki	上水道施設	三十坪水源池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+cbc01fc99a5e1572	shisetsu	20	shisetsu.nendo	上水道施設	三十坪水源池/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+d24e1e2b2d66aaed	shisetsu	20	shisetsu.kozo	上水道施設	三十坪水源池/代表棟の構造	-		kokyo-kanri-202203 p.50				
+9e21f0abfa0836e9	shisetsu	20	shisetsu.chiku	上水道施設	中山簡易水道配水池/地区	必佐		kokyo-kanri-202203 p.50				
+ce4816d7680cc172	shisetsu	20	shisetsu.tou	上水道施設	中山簡易水道配水池/棟数	1	棟	kokyo-kanri-202203 p.50				
+86c2e2e764cf6836	shisetsu	20	shisetsu.menseki	上水道施設	中山簡易水道配水池/延床面積	-	㎡	kokyo-kanri-202203 p.50				
+01e5b32aa15bde5a	shisetsu	20	shisetsu.nendo	上水道施設	中山簡易水道配水池/代表棟の建築年度	-		kokyo-kanri-202203 p.50				
+0ec5e1be7a6f6c82	shisetsu	20	shisetsu.kozo	上水道施設	中山簡易水道配水池/代表棟の構造	-		kokyo-kanri-202203 p.50				
+105ec553e5951764	shisetsu	20	shisetsu.count	上水道施設	施設の数	25		kokyo-kanri-202203 p.51				
+0cd1c4b7e788555f	shisetsu	21	shisetsu.chiku	下水道施設	奥津保地区農業集落排水処理施設/地区	東桜谷		kokyo-kanri-202203 p.52				
+31189a6c243fdaa3	shisetsu	21	shisetsu.tou	下水道施設	奥津保地区農業集落排水処理施設/棟数	1	棟	kokyo-kanri-202203 p.52				
+93e900b18062cfb3	shisetsu	21	shisetsu.menseki	下水道施設	奥津保地区農業集落排水処理施設/延床面積	174	㎡	kokyo-kanri-202203 p.52				
+a6fbd56c1fdf17f9	shisetsu	21	shisetsu.nendo	下水道施設	奥津保地区農業集落排水処理施設/代表棟の建築年度	H8		kokyo-kanri-202203 p.52				
+7b9a499ffee94229	shisetsu	21	shisetsu.kozo	下水道施設	奥津保地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+6bedd2d9282247e9	shisetsu	21	shisetsu.chiku	下水道施設	原地区農業集落排水処理施設/地区	東桜谷		kokyo-kanri-202203 p.52				
+8feeffd057ecf0d4	shisetsu	21	shisetsu.tou	下水道施設	原地区農業集落排水処理施設/棟数	2	棟	kokyo-kanri-202203 p.52				
+ba1c5f1ef651973e	shisetsu	21	shisetsu.menseki	下水道施設	原地区農業集落排水処理施設/延床面積	113	㎡	kokyo-kanri-202203 p.52				
+f99792e7b931964b	shisetsu	21	shisetsu.nendo	下水道施設	原地区農業集落排水処理施設/代表棟の建築年度	H10		kokyo-kanri-202203 p.52				
+1eec8af6a8508a77	shisetsu	21	shisetsu.kozo	下水道施設	原地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+78a88e2c888bcf2a	shisetsu	21	shisetsu.chiku	下水道施設	佐久良・奥之池地区農業集落排水処理施設/地区	東桜谷		kokyo-kanri-202203 p.52				
+dfb39941d6c9154d	shisetsu	21	shisetsu.tou	下水道施設	佐久良・奥之池地区農業集落排水処理施設/棟数	2	棟	kokyo-kanri-202203 p.52				
+c3afa8284d37f090	shisetsu	21	shisetsu.menseki	下水道施設	佐久良・奥之池地区農業集落排水処理施設/延床面積	193	㎡	kokyo-kanri-202203 p.52				
+db32e784afe8d620	shisetsu	21	shisetsu.nendo	下水道施設	佐久良・奥之池地区農業集落排水処理施設/代表棟の建築年度	H9		kokyo-kanri-202203 p.52				
+a81220f640187dec	shisetsu	21	shisetsu.kozo	下水道施設	佐久良・奥之池地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+963f6cb3aa53906c	shisetsu	21	shisetsu.chiku	下水道施設	東桜谷地区農業集落排水処理施設/地区	東桜谷		kokyo-kanri-202203 p.52				
+3103691c76f35e08	shisetsu	21	shisetsu.tou	下水道施設	東桜谷地区農業集落排水処理施設/棟数	1	棟	kokyo-kanri-202203 p.52				
+bd68e60737c43443	shisetsu	21	shisetsu.menseki	下水道施設	東桜谷地区農業集落排水処理施設/延床面積	115	㎡	kokyo-kanri-202203 p.52				
+470a5fb454fc67c9	shisetsu	21	shisetsu.nendo	下水道施設	東桜谷地区農業集落排水処理施設/代表棟の建築年度	H9		kokyo-kanri-202203 p.52				
+08443540f6e96c82	shisetsu	21	shisetsu.kozo	下水道施設	東桜谷地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+0a236093161ffc8c	shisetsu	21	shisetsu.chiku	下水道施設	西桜谷地区農業集落排水処理施設/地区	西桜谷		kokyo-kanri-202203 p.52				
+3300af160b1d2213	shisetsu	21	shisetsu.tou	下水道施設	西桜谷地区農業集落排水処理施設/棟数	1	棟	kokyo-kanri-202203 p.52				
+9ee6c52f07b58e1a	shisetsu	21	shisetsu.menseki	下水道施設	西桜谷地区農業集落排水処理施設/延床面積	139	㎡	kokyo-kanri-202203 p.52				
+e4c61aade7f71eb4	shisetsu	21	shisetsu.nendo	下水道施設	西桜谷地区農業集落排水処理施設/代表棟の建築年度	H4		kokyo-kanri-202203 p.52				
+92468c5e800473e9	shisetsu	21	shisetsu.kozo	下水道施設	西桜谷地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+caef31f491a4514c	shisetsu	21	shisetsu.chiku	下水道施設	蔵王地区農業集落排水処理施設/地区	西大路		kokyo-kanri-202203 p.52				
+bac1470cc2cb34e4	shisetsu	21	shisetsu.tou	下水道施設	蔵王地区農業集落排水処理施設/棟数	2	棟	kokyo-kanri-202203 p.52				
+0ff7d9579f5856a7	shisetsu	21	shisetsu.menseki	下水道施設	蔵王地区農業集落排水処理施設/延床面積	127	㎡	kokyo-kanri-202203 p.52				
+5d1c21f566e468ea	shisetsu	21	shisetsu.nendo	下水道施設	蔵王地区農業集落排水処理施設/代表棟の建築年度	H6		kokyo-kanri-202203 p.52				
+96f2918d679a6f82	shisetsu	21	shisetsu.kozo	下水道施設	蔵王地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+b16ffac5b0d02784	shisetsu	21	shisetsu.chiku	下水道施設	鎌掛地区農業集落排水処理施設/地区	鎌掛		kokyo-kanri-202203 p.52				
+2e0219bfe0a25894	shisetsu	21	shisetsu.tou	下水道施設	鎌掛地区農業集落排水処理施設/棟数	1	棟	kokyo-kanri-202203 p.52				
+d9539cd5dcf0a4e6	shisetsu	21	shisetsu.menseki	下水道施設	鎌掛地区農業集落排水処理施設/延床面積	200	㎡	kokyo-kanri-202203 p.52				
+d7626440d0f4336e	shisetsu	21	shisetsu.nendo	下水道施設	鎌掛地区農業集落排水処理施設/代表棟の建築年度	H6		kokyo-kanri-202203 p.52				
+02785ddfd68e8656	shisetsu	21	shisetsu.kozo	下水道施設	鎌掛地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+9b74cbbcdc9f06cc	shisetsu	21	shisetsu.chiku	下水道施設	砂川地区農業集落排水処理施設/地区	南比都佐		kokyo-kanri-202203 p.52				
+00fbfbdd5ec1d30d	shisetsu	21	shisetsu.tou	下水道施設	砂川地区農業集落排水処理施設/棟数	2	棟	kokyo-kanri-202203 p.52				
+1fa4b141e1ade4f8	shisetsu	21	shisetsu.menseki	下水道施設	砂川地区農業集落排水処理施設/延床面積	174	㎡	kokyo-kanri-202203 p.52				
+ff8cc6f4ec2f5623	shisetsu	21	shisetsu.nendo	下水道施設	砂川地区農業集落排水処理施設/代表棟の建築年度	H3		kokyo-kanri-202203 p.52				
+6a605b74abb795e0	shisetsu	21	shisetsu.kozo	下水道施設	砂川地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+136f3ddaf30c283d	shisetsu	21	shisetsu.chiku	下水道施設	南比都佐地区農業集落排水処理施設/地区	南比都佐		kokyo-kanri-202203 p.52				
+920b7682ef4761b7	shisetsu	21	shisetsu.tou	下水道施設	南比都佐地区農業集落排水処理施設/棟数	1	棟	kokyo-kanri-202203 p.52				
+1d2ca7fdb4be354a	shisetsu	21	shisetsu.menseki	下水道施設	南比都佐地区農業集落排水処理施設/延床面積	80	㎡	kokyo-kanri-202203 p.52				
+1c99ec6d27d2c030	shisetsu	21	shisetsu.nendo	下水道施設	南比都佐地区農業集落排水処理施設/代表棟の建築年度	H1		kokyo-kanri-202203 p.52				
+7e4c04a3f9ae4d1d	shisetsu	21	shisetsu.kozo	下水道施設	南比都佐地区農業集落排水処理施設/代表棟の構造	RC造		kokyo-kanri-202203 p.52				
+002da1b791630efb	shisetsu	21	shisetsu.count	下水道施設	施設の数	9		kokyo-kanri-202203 p.52				
+43f57cbfecd433c7	shisetsu	0	shisetsu.total	検算の目標	公共建築物の棟数	241	棟	kokyo-kanri-202203 p.12				
+ac2b457c2c3629d1	shisetsu	0	shisetsu.total	検算の目標	合 計	90,927	㎡	kokyo-kanri-202203 p.12				
+61afd3019106cccf	shisetsu	0	shisetsu.total	検算の目標	学校教育系施設の延床面積	37,765	㎡	kokyo-kanri-202203 p.12				
+a400f1799c5d580b	shisetsu	0	shisetsu.total	検算の目標	市民文化系施設の延床面積	13,130	㎡	kokyo-kanri-202203 p.12				
+d9e2c7ed8f9bdeff	shisetsu	0	shisetsu.total	検算の目標	ｽﾎﾟｰﾂ・ﾚｸﾘｴｰｼｮﾝ系施設の延床面積	11,108	㎡	kokyo-kanri-202203 p.12				
+2758b20e9ae2d1f8	shisetsu	0	shisetsu.total	検算の目標	行政系施設の延床面積	8,664	㎡	kokyo-kanri-202203 p.12				
+e5bb71bc99a993b5	shisetsu	0	shisetsu.total	検算の目標	子育て支援施設の延床面積	7,980	㎡	kokyo-kanri-202203 p.12				
+5b72fe768ed4de0e	shisetsu	0	shisetsu.total	検算の目標	公営住宅の延床面積	4,742	㎡	kokyo-kanri-202203 p.12				
+d3f4b7f6e9491f32	shisetsu	0	shisetsu.total	検算の目標	社会教育系施設の延床面積	3,762	㎡	kokyo-kanri-202203 p.12				
+b4538f842ed2cf1f	shisetsu	0	shisetsu.total	検算の目標	保健・福祉施設の延床面積	2,743	㎡	kokyo-kanri-202203 p.12				
+97a540df062464ed	shisetsu	0	shisetsu.total	検算の目標	産業系施設の延床面積	909	㎡	kokyo-kanri-202203 p.12				
+164a6cf214e77207	shisetsu	0	shisetsu.total	検算の目標	公園の延床面積	124	㎡	kokyo-kanri-202203 p.12				

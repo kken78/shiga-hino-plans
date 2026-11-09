@@ -67,7 +67,7 @@ SNS などでリンクを共有したときに出る画像（OGP 画像）は `d
 |---|---|---|
 | プログラム | tools/、templates/、.github/workflows/ | MIT License（LICENSE） |
 | データの構造 | PLAN_SCHEMA.md のスキーマ、計画 JSON の項目の選び方・並べ方、照合表の台帳（data/audit_log/）の判定と注記、source_issues の注記（data/source_issues/） | CC BY 4.0 |
-| 原典から転記した部分 | 計画 JSON と公開ページに含まれる文章・数値・図（data/assets の画像を含む）、原典の文字（data/text/・data/text_raw/） | このリポジトリのライセンスの対象外 |
+| 原典から転記した部分 | 計画 JSON と公開ページに含まれる文章・数値・図（data/assets の画像を含む）、原典の文字（data/text/・data/text_raw/）、施設概要の表の施設名・地区・棟数などの字と数（data/shisetsu/） | このリポジトリのライセンスの対象外 |
 
 原典から転記した部分の著作権は、日野町など各計画の発行者にあります。日野町のウェブサイトは二次利用の条件を定めていないため、この部分を利用する場合は、各発行者の条件に従ってください。各データには、出典の文書とページを記録しています。
 

@@ -1,0 +1,184 @@
+{
+  "id": "kokyo-kanri-202203",
+  "plan": "kokyo-kanri",
+  "edition": {"label": "令和4年3月改定", "ym": "202203"},
+  "source": {"id": "kokyo-kanri", "file": "honpen.pdf", "sha256": "89026f2bacb7725812d55e73a7ec48606a1c5c20ff4cd7d33b9f37a772d31ddb"},
+  "totals": [
+    {"what": "tou", "label": "公共建築物の棟数", "value": 241, "page": 12},
+    {"what": "menseki", "label": "合 計", "value": "90,927", "page": 12},
+    {"what": "menseki", "dai": "学校教育系施設", "label": "学校教育系施設", "value": "37,765", "page": 12},
+    {"what": "menseki", "dai": "市民文化系施設", "label": "市民文化系施設", "value": "13,130", "page": 12, "sa": 1, "issue": 13},
+    {"what": "menseki", "dai": "スポーツ・レクリエーション系施設", "label": "ｽﾎﾟｰﾂ・ﾚｸﾘｴｰｼｮﾝ系施設", "value": "11,108", "page": 12, "sa": -1, "issue": 13},
+    {"what": "menseki", "dai": "行政系施設", "label": "行政系施設", "value": "8,664", "page": 12, "sa": -1, "issue": 13},
+    {"what": "menseki", "dai": "子育て支援施設", "label": "子育て支援施設", "value": "7,980", "page": 12},
+    {"what": "menseki", "dai": "公営住宅", "label": "公営住宅", "value": "4,742", "page": 12},
+    {"what": "menseki", "dai": "社会教育系施設", "label": "社会教育系施設", "value": "3,762", "page": 12, "sa": 1, "issue": 13},
+    {"what": "menseki", "dai": "保健・福祉施設", "label": "保健・福祉施設", "value": "2,743", "page": 12},
+    {"what": "menseki", "dai": "産業系施設", "label": "産業系施設", "value": "909", "page": 12},
+    {"what": "menseki", "dai": "公園", "label": "公園", "value": "124", "page": 12}
+  ],
+  "tables": [
+    { "no": 1, "dai": "市民文化系施設", "chu": "集会施設", "kind": "tatemono", "page": 30, "count": 7, "count_page": 30, "notes": [],
+      "rows": [
+      {"key": "s001", "name": "日野公民館", "chiku": "日野", "tou": 3, "menseki": "1,278", "nendo": "H8", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1278, "nendo_seireki": 1996},
+      {"key": "s002", "name": "東桜谷公民館", "chiku": "東桜谷", "tou": 1, "menseki": "898", "nendo": "H3", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 898, "nendo_seireki": 1991},
+      {"key": "s003", "name": "西桜谷公民館", "chiku": "西桜谷", "tou": 4, "menseki": "1,055", "nendo": "S62", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1055, "nendo_seireki": 1987},
+      {"key": "s004", "name": "西大路公民館", "chiku": "西大路", "tou": 4, "menseki": "952", "nendo": "H11", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 952, "nendo_seireki": 1999},
+      {"key": "s005", "name": "鎌掛公民館", "chiku": "鎌掛", "tou": 2, "menseki": "861", "nendo": "H7", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 861, "nendo_seireki": 1995},
+      {"key": "s006", "name": "南比都佐公民館", "chiku": "南比都佐", "tou": 3, "menseki": "962", "nendo": "H12", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 962, "nendo_seireki": 2000},
+      {"key": "s007", "name": "必佐公民館", "chiku": "必佐", "tou": 2, "menseki": "1,201", "nendo": "H2", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1201, "nendo_seireki": 1990}
+      ] },
+    { "no": 2, "dai": "市民文化系施設", "chu": "文化施設", "kind": "tatemono", "page": 31, "count": 1, "count_page": 31, "notes": [],
+      "rows": [
+      {"key": "s008", "name": "町民会館わたむきホール虹", "chiku": "日野", "tou": 2, "menseki": "5,924", "nendo": "H4", "kozo": "SRC造", "taishin": "新基準", "unei": "指定管理", "menseki_su": 5924, "nendo_seireki": 1992}
+      ] },
+    { "no": 3, "dai": "社会教育系施設", "chu": "図書館", "kind": "tatemono", "page": 32, "count": 1, "count_page": 32, "notes": [],
+      "rows": [
+      {"key": "s009", "name": "日野町立図書館", "chiku": "日野", "tou": 2, "menseki": "1,813", "nendo": "H7", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 1813, "nendo_seireki": 1995}
+      ] },
+    { "no": 4, "dai": "社会教育系施設", "chu": "資料館", "kind": "tatemono", "page": 33, "count": 3, "count_page": 33, "notes": ["※近江日野商人ふるさと館「旧山中正吉邸」は江戸時代の建築物である。"],
+      "rows": [
+      {"key": "s010", "name": "近江日野商人館", "chiku": "日野", "tou": 7, "menseki": "546", "nendo": "S11", "kozo": "W造", "taishin": "未実施", "unei": "直営", "menseki_su": 546, "nendo_seireki": 1936},
+      {"key": "s011", "name": "近江日野商人ふるさと館「旧山中正吉邸」", "chiku": "西大路", "tou": 7, "menseki": "1,336", "nendo": "1860", "kozo": "W造", "taishin": "未実施", "unei": "直営", "menseki_su": 1336, "nendo_seireki": 1860},
+      {"key": "s012", "name": "鉄道資料展示室", "chiku": "必佐", "tou": 1, "menseki": "68", "nendo": "R2", "kozo": "W造", "taishin": "実施済", "unei": "直営", "menseki_su": 68, "nendo_seireki": 2020}
+      ] },
+    { "no": 5, "dai": "スポーツ・レクリエーション系施設", "chu": "スポーツ施設", "kind": "tatemono", "page": 34, "count": 1, "count_page": 34, "notes": [],
+      "rows": [
+      {"key": "s013", "name": "大谷公園", "chiku": "日野", "tou": 7, "menseki": "3,440", "nendo": "S54", "kozo": "RC造", "taishin": "実施済", "unei": "直営", "menseki_su": 3440, "nendo_seireki": 1979}
+      ] },
+    { "no": 6, "dai": "スポーツ・レクリエーション系施設", "chu": "レクリエーション施設・観光施設", "kind": "tatemono", "page": 35, "count": 5, "count_page": 35, "notes": ["※日野まちかど感応館（旧正野薬店）は江戸時代の建築物である。"],
+      "rows": [
+      {"key": "s014", "name": "グリム冒険の森", "chiku": "西大路", "tou": 26, "menseki": "1,393", "nendo": "H8", "kozo": "W造", "taishin": "新基準", "unei": "指定管理", "menseki_su": 1393, "nendo_seireki": 1996},
+      {"key": "s015", "name": "日野まちかど感応館（旧正野薬店）", "chiku": "日野", "tou": 4, "menseki": "483", "nendo": "1857", "kozo": "W造", "taishin": "未実施", "unei": "貸付", "menseki_su": 483, "nendo_seireki": 1857},
+      {"key": "s016", "name": "日野まちかど感応館（観光交流拠点施設）", "chiku": "日野", "tou": 2, "menseki": "146", "nendo": "H30", "kozo": "W造", "taishin": "新基準", "unei": "貸付", "menseki_su": 146, "nendo_seireki": 2018},
+      {"key": "s017", "name": "滋賀農業公園ブルーメの丘", "chiku": "西大路", "tou": 17, "menseki": "3,427", "nendo": "H8", "kozo": "S造", "taishin": "新基準", "unei": "指定管理", "menseki_su": 3427, "nendo_seireki": 1996},
+      {"key": "s018", "name": "旧鎌掛小学校", "chiku": "鎌掛", "tou": 10, "menseki": "2,218", "nendo": "S4", "kozo": "W造", "taishin": "未実施", "unei": "貸付", "menseki_su": 2218, "nendo_seireki": 1929}
+      ] },
+    { "no": 7, "dai": "産業系施設", "chu": "産業系施設", "kind": "tatemono", "page": 36, "count": 4, "count_page": 36, "notes": [],
+      "rows": [
+      {"key": "s019", "name": "林業センター", "chiku": "日野", "tou": 3, "menseki": "661", "nendo": "S53", "kozo": "RC造", "taishin": "不要", "unei": "指定管理", "menseki_su": 661, "nendo_seireki": 1978},
+      {"key": "s020", "name": "高齢者能力活用センター", "chiku": "日野", "tou": 1, "menseki": "135", "nendo": "H11", "kozo": "S造", "taishin": "新基準", "unei": "貸付", "menseki_su": 135, "nendo_seireki": 1999},
+      {"key": "s021", "name": "森の家", "chiku": "鎌掛", "tou": 1, "menseki": "64", "nendo": "H4", "kozo": "W造", "taishin": "新基準", "unei": "直営", "menseki_su": 64, "nendo_seireki": 1992},
+      {"key": "s022", "name": "特産物展示施設", "chiku": "鎌掛", "tou": 1, "menseki": "49", "nendo": "S62", "kozo": "W造", "taishin": "新基準", "unei": "貸付", "menseki_su": 49, "nendo_seireki": 1987}
+      ] },
+    { "no": 8, "dai": "学校教育系施設", "chu": "学校", "kind": "tatemono", "page": 37, "count": 6, "count_page": 37, "notes": [],
+      "rows": [
+      {"key": "s023", "name": "日野小学校", "chiku": "日野", "tou": 11, "menseki": "7,470", "nendo": "S62", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 7470, "nendo_seireki": 1987},
+      {"key": "s024", "name": "桜谷小学校", "chiku": "東桜谷", "tou": 8, "menseki": "4,748", "nendo": "S56", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 4748, "nendo_seireki": 1981},
+      {"key": "s025", "name": "西大路小学校", "chiku": "西大路", "tou": 5, "menseki": "4,114", "nendo": "H1", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 4114, "nendo_seireki": 1989},
+      {"key": "s026", "name": "南比都佐小学校", "chiku": "南比都佐", "tou": 6, "menseki": "4,123", "nendo": "S63", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 4123, "nendo_seireki": 1988},
+      {"key": "s027", "name": "必佐小学校", "chiku": "必佐", "tou": 6, "menseki": "5,806", "nendo": "S53", "kozo": "RC造", "taishin": "実施済", "unei": "直営", "menseki_su": 5806, "nendo_seireki": 1978},
+      {"key": "s028", "name": "日野中学校", "chiku": "日野", "tou": 14, "menseki": "11,504", "nendo": "H20", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 11504, "nendo_seireki": 2008}
+      ] },
+    { "no": 9, "dai": "子育て支援施設", "chu": "幼稚園・保育所・こども園", "kind": "tatemono", "page": 38, "count": 8, "count_page": 38, "notes": [],
+      "rows": [
+      {"key": "s029", "name": "日野幼稚園", "chiku": "日野", "tou": 2, "menseki": "1,028", "nendo": "S60", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1028, "nendo_seireki": 1985},
+      {"key": "s030", "name": "西大路幼稚園", "chiku": "西大路", "tou": 1, "menseki": "531", "nendo": "H2", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 531, "nendo_seireki": 1990},
+      {"key": "s031", "name": "南比都佐幼稚園", "chiku": "南比都佐", "tou": 1, "menseki": "676", "nendo": "S59", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 676, "nendo_seireki": 1984},
+      {"key": "s032", "name": "必佐幼稚園", "chiku": "必佐", "tou": 1, "menseki": "1,160", "nendo": "S58", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1160, "nendo_seireki": 1983},
+      {"key": "s033", "name": "保育所あおぞら園", "chiku": "日野", "tou": 3, "menseki": "542", "nendo": "S63", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 542, "nendo_seireki": 1988},
+      {"key": "s034", "name": "保育所あおぞら園鎌掛分園", "chiku": "鎌掛", "tou": 1, "menseki": "408", "nendo": "H3", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 408, "nendo_seireki": 1991},
+      {"key": "s035", "name": "保育所こばと園", "chiku": "必佐", "tou": 4, "menseki": "1,355", "nendo": "H26", "kozo": "W造", "taishin": "新基準", "unei": "直営", "menseki_su": 1355, "nendo_seireki": 2014},
+      {"key": "s036", "name": "桜谷こども園", "chiku": "西桜谷", "tou": 2, "menseki": "886", "nendo": "H2", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 886, "nendo_seireki": 1990}
+      ] },
+    { "no": 10, "dai": "子育て支援施設", "chu": "幼児・児童施設", "kind": "tatemono", "page": 39, "count": 4, "count_page": 39, "notes": [],
+      "rows": [
+      {"key": "s037", "name": "学童保育所ヒノキオ", "chiku": "日野", "tou": 3, "menseki": "617", "nendo": "H12", "kozo": "S造", "taishin": "新基準", "unei": "貸付", "menseki_su": 617, "nendo_seireki": 2000},
+      {"key": "s038", "name": "学童保育所太陽の子", "chiku": "必佐", "tou": 2, "menseki": "355", "nendo": "H6", "kozo": "W造", "taishin": "新基準", "unei": "貸付", "menseki_su": 355, "nendo_seireki": 1994},
+      {"key": "s039", "name": "子育て・教育相談センター", "chiku": "日野", "tou": 3, "menseki": "204", "nendo": "S47", "kozo": "S造", "taishin": "未実施", "unei": "直営", "menseki_su": 204, "nendo_seireki": 1972},
+      {"key": "s040", "name": "女性活躍支援施設「ぽけっと」", "chiku": "日野", "tou": 1, "menseki": "218", "nendo": "R1", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 218, "nendo_seireki": 2019}
+      ] },
+    { "no": 11, "dai": "保健・福祉施設", "chu": "高齢福祉施設", "kind": "tatemono", "page": 40, "count": 1, "count_page": 40, "notes": [],
+      "rows": [
+      {"key": "s041", "name": "ひだまり事業所", "chiku": "日野", "tou": 10, "menseki": "479", "nendo": "H9", "kozo": "S造", "taishin": "新基準", "unei": "貸付", "menseki_su": 479, "nendo_seireki": 1997}
+      ] },
+    { "no": 12, "dai": "保健・福祉施設", "chu": "障害福祉施設", "kind": "tatemono", "page": 41, "count": 2, "count_page": 41, "notes": [],
+      "rows": [
+      {"key": "s042", "name": "早期療育施設「くれよん」", "chiku": "日野", "tou": 1, "menseki": "305", "nendo": "H9", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 305, "nendo_seireki": 1997},
+      {"key": "s043", "name": "児童交流施設「ともだち」", "chiku": "東桜谷", "tou": 1, "menseki": "510", "nendo": "H1", "kozo": "S造", "taishin": "新基準", "unei": "貸付", "menseki_su": 510, "nendo_seireki": 1989}
+      ] },
+    { "no": 13, "dai": "保健・福祉施設", "chu": "保健施設", "kind": "tatemono", "page": 42, "count": 1, "count_page": 42, "notes": [],
+      "rows": [
+      {"key": "s044", "name": "保健センター", "chiku": "日野", "tou": 1, "menseki": "595", "nendo": "S61", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 595, "nendo_seireki": 1986}
+      ] },
+    { "no": 14, "dai": "保健・福祉施設", "chu": "その他社会福祉施設", "kind": "tatemono", "page": 42, "count": 1, "count_page": 42, "notes": [],
+      "rows": [
+      {"key": "s045", "name": "勤労福祉会館", "chiku": "日野", "tou": 3, "menseki": "854", "nendo": "S50", "kozo": "RC造", "taishin": "実施済", "unei": "指定管理", "menseki_su": 854, "nendo_seireki": 1975}
+      ] },
+    { "no": 15, "dai": "行政系施設", "chu": "庁舎等", "kind": "tatemono", "page": 43, "count": 1, "count_page": 43, "notes": [],
+      "rows": [
+      {"key": "s046", "name": "役場庁舎", "chiku": "日野", "tou": 6, "menseki": "6,011", "nendo": "S55", "kozo": "RC造", "taishin": "実施済", "unei": "直営", "menseki_su": 6011, "nendo_seireki": 1980}
+      ] },
+    { "no": 16, "dai": "行政系施設", "chu": "消防施設", "kind": "tatemono", "page": 44, "count": 5, "count_page": 44, "notes": [],
+      "rows": [
+      {"key": "s047", "name": "消防団第１分団（日野）詰所", "chiku": "日野", "tou": 1, "menseki": "48", "nendo": "S59", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 48, "nendo_seireki": 1984},
+      {"key": "s048", "name": "消防団第１分団（西大路）詰所", "chiku": "西大路", "tou": 1, "menseki": "55", "nendo": "H1", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 55, "nendo_seireki": 1989},
+      {"key": "s049", "name": "消防団第１分団（鎌掛）詰所", "chiku": "鎌掛", "tou": 1, "menseki": "80", "nendo": "R3", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 80, "nendo_seireki": 2021},
+      {"key": "s050", "name": "消防団第２分団詰所", "chiku": "東桜谷", "tou": 1, "menseki": "61", "nendo": "S62", "kozo": "SRC造", "taishin": "新基準", "unei": "直営", "menseki_su": 61, "nendo_seireki": 1987},
+      {"key": "s051", "name": "消防団第３分団詰所", "chiku": "必佐", "tou": 1, "menseki": "60", "nendo": "H2", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 60, "nendo_seireki": 1990}
+      ] },
+    { "no": 17, "dai": "行政系施設", "chu": "その他施設", "kind": "tatemono", "page": 45, "count": 4, "count_page": 45, "notes": [],
+      "rows": [
+      {"key": "s052", "name": "文化財資料室", "chiku": "日野", "tou": 1, "menseki": "423", "nendo": "S14", "kozo": "W造", "taishin": "未実施", "unei": "直営", "menseki_su": 423, "nendo_seireki": 1939},
+      {"key": "s053", "name": "旧南比都佐公民館", "chiku": "南比都佐", "tou": 3, "menseki": "442", "nendo": "S43", "kozo": "W造", "taishin": "未実施", "unei": "直営", "menseki_su": 442, "nendo_seireki": 1968},
+      {"key": "s054", "name": "資材倉庫", "chiku": "日野", "tou": 1, "menseki": "207", "nendo": "S56", "kozo": "S造", "taishin": "未実施", "unei": "直営", "menseki_su": 207, "nendo_seireki": 1981},
+      {"key": "s055", "name": "防災センター", "chiku": "日野", "tou": 1, "menseki": "1,276", "nendo": "H28", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1276, "nendo_seireki": 2016}
+      ] },
+    { "no": 18, "dai": "公営住宅", "chu": "公営住宅", "kind": "tatemono", "page": 46, "count": 6, "count_page": 46, "notes": [],
+      "rows": [
+      {"key": "s056", "name": "町営住宅第１内池団地", "chiku": "必佐", "tou": 4, "menseki": "1,631", "nendo": "H13", "kozo": "W造", "taishin": "新基準", "unei": "直営", "menseki_su": 1631, "nendo_seireki": 2001},
+      {"key": "s057", "name": "町営住宅第２内池団地", "chiku": "必佐", "tou": 1, "menseki": "1,163", "nendo": "S63", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 1163, "nendo_seireki": 1988},
+      {"key": "s058", "name": "町営住宅西山団地", "chiku": "必佐", "tou": 5, "menseki": "934", "nendo": "S59", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 934, "nendo_seireki": 1984},
+      {"key": "s059", "name": "町営住宅中山大谷団地", "chiku": "必佐", "tou": 5, "menseki": "674", "nendo": "S49", "kozo": "RC造", "taishin": "未実施", "unei": "直営", "menseki_su": 674, "nendo_seireki": 1974},
+      {"key": "s060", "name": "増田団地", "chiku": "必佐", "tou": 4, "menseki": "270", "nendo": "S48", "kozo": "RC造", "taishin": "未実施", "unei": "直営", "menseki_su": 270, "nendo_seireki": 1973},
+      {"key": "s061", "name": "内池公営住宅集会所", "chiku": "必佐", "tou": 1, "menseki": "70", "nendo": "S63", "kozo": "W造", "taishin": "新基準", "unei": "直営", "menseki_su": 70, "nendo_seireki": 1988}
+      ] },
+    { "no": 19, "dai": "公園", "chu": "公園", "kind": "tatemono", "page": 47, "count": 4, "count_page": 47, "notes": [],
+      "rows": [
+      {"key": "s062", "name": "松尾公園", "chiku": "日野", "tou": 1, "menseki": "42", "nendo": "H7", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 42, "nendo_seireki": 1995},
+      {"key": "s063", "name": "内池公園", "chiku": "必佐", "tou": 1, "menseki": "41", "nendo": "H15", "kozo": "W造", "taishin": "新基準", "unei": "直営", "menseki_su": 41, "nendo_seireki": 2003},
+      {"key": "s064", "name": "ひばり野公園", "chiku": "日野", "tou": 1, "menseki": "27", "nendo": "S63", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 27, "nendo_seireki": 1988},
+      {"key": "s065", "name": "蔵王ダム公園", "chiku": "西大路", "tou": 1, "menseki": "14", "nendo": "H10", "kozo": "RC造", "taishin": "新基準", "unei": "直営", "menseki_su": 14, "nendo_seireki": 1998}
+      ] },
+    { "no": 20, "dai": "上水道施設", "chu": "", "kind": "suido", "page": 50, "count": 25, "count_page": 51, "notes": [],
+      "rows": [
+      {"key": "s066", "name": "湖南サンライズ加圧所", "chiku": "日野", "tou": 1, "menseki": "65", "nendo": "S57", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 65, "nendo_seireki": 1982},
+      {"key": "s067", "name": "五月台配水池", "chiku": "日野", "tou": 1, "menseki": "158", "nendo": "H23", "kozo": "S造", "taishin": "", "unei": "", "menseki_su": 158, "nendo_seireki": 2011},
+      {"key": "s068", "name": "西部配水池", "chiku": "日野", "tou": 2, "menseki": "412", "nendo": "S57", "kozo": "PC造", "taishin": "", "unei": "", "menseki_su": 412, "nendo_seireki": 1982},
+      {"key": "s069", "name": "中央配水池", "chiku": "日野", "tou": 2, "menseki": "291", "nendo": "S56", "kozo": "PC造", "taishin": "", "unei": "", "menseki_su": 291, "nendo_seireki": 1981},
+      {"key": "s070", "name": "原加圧所", "chiku": "東桜谷", "tou": 2, "menseki": "40", "nendo": "S60", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 40, "nendo_seireki": 1985},
+      {"key": "s071", "name": "原配水池", "chiku": "東桜谷", "tou": 1, "menseki": "40", "nendo": "H18", "kozo": "S造", "taishin": "", "unei": "", "menseki_su": 40, "nendo_seireki": 2006},
+      {"key": "s072", "name": "北脇加圧所", "chiku": "西桜谷", "tou": 2, "menseki": "136", "nendo": "S63", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 136, "nendo_seireki": 1988},
+      {"key": "s073", "name": "西明寺第１加圧所", "chiku": "西大路", "tou": 1, "menseki": "30", "nendo": "S60", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 30, "nendo_seireki": 1985},
+      {"key": "s074", "name": "西明寺第２加圧所", "chiku": "西大路", "tou": 2, "menseki": "45", "nendo": "S60", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 45, "nendo_seireki": 1985},
+      {"key": "s075", "name": "西明寺配水池", "chiku": "西大路", "tou": 1, "menseki": "-", "nendo": "S46", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": 1971},
+      {"key": "s076", "name": "青葉台配水池", "chiku": "西大路", "tou": 1, "menseki": "51", "nendo": "H24", "kozo": "S造", "taishin": "", "unei": "", "menseki_su": 51, "nendo_seireki": 2012},
+      {"key": "s077", "name": "東部配水池", "chiku": "西大路", "tou": 2, "menseki": "308", "nendo": "S56", "kozo": "PC造", "taishin": "", "unei": "", "menseki_su": 308, "nendo_seireki": 1981},
+      {"key": "s078", "name": "平子・熊野地区簡易水道浄水場", "chiku": "西大路", "tou": 1, "menseki": "72", "nendo": "H13", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 72, "nendo_seireki": 2001},
+      {"key": "s079", "name": "平子・熊野地区簡易水道配水池", "chiku": "西大路", "tou": 1, "menseki": "30", "nendo": "H13", "kozo": "S造", "taishin": "", "unei": "", "menseki_su": 30, "nendo_seireki": 2001},
+      {"key": "s080", "name": "曙第１加圧所", "chiku": "南比都佐", "tou": 2, "menseki": "93", "nendo": "S58", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 93, "nendo_seireki": 1983},
+      {"key": "s081", "name": "曙第２加圧所", "chiku": "南比都佐", "tou": 2, "menseki": "66", "nendo": "H15", "kozo": "S造", "taishin": "", "unei": "", "menseki_su": 66, "nendo_seireki": 2003},
+      {"key": "s082", "name": "加圧滅菌室", "chiku": "必佐", "tou": 1, "menseki": "24", "nendo": "S59", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 24, "nendo_seireki": 1984},
+      {"key": "s083", "name": "中山加圧所", "chiku": "必佐", "tou": 2, "menseki": "54", "nendo": "S61", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 54, "nendo_seireki": 1986},
+      {"key": "s084", "name": "村井低区配水池", "chiku": "日野", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null},
+      {"key": "s085", "name": "野出簡易水道浄水場", "chiku": "西桜谷", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null},
+      {"key": "s086", "name": "村井高区配水池", "chiku": "西大路", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null},
+      {"key": "s087", "name": "綿向配水池", "chiku": "西大路", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null},
+      {"key": "s088", "name": "鎌掛配水池", "chiku": "鎌掛", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null},
+      {"key": "s089", "name": "三十坪水源池", "chiku": "必佐", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null},
+      {"key": "s090", "name": "中山簡易水道配水池", "chiku": "必佐", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null}
+      ] },
+    { "no": 21, "dai": "下水道施設", "chu": "", "kind": "suido", "page": 52, "count": 9, "count_page": 52, "notes": [],
+      "rows": [
+      {"key": "s091", "name": "奥津保地区農業集落排水処理施設", "chiku": "東桜谷", "tou": 1, "menseki": "174", "nendo": "H8", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 174, "nendo_seireki": 1996},
+      {"key": "s092", "name": "原地区農業集落排水処理施設", "chiku": "東桜谷", "tou": 2, "menseki": "113", "nendo": "H10", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 113, "nendo_seireki": 1998},
+      {"key": "s093", "name": "佐久良・奥之池地区農業集落排水処理施設", "chiku": "東桜谷", "tou": 2, "menseki": "193", "nendo": "H9", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 193, "nendo_seireki": 1997},
+      {"key": "s094", "name": "東桜谷地区農業集落排水処理施設", "chiku": "東桜谷", "tou": 1, "menseki": "115", "nendo": "H9", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 115, "nendo_seireki": 1997},
+      {"key": "s095", "name": "西桜谷地区農業集落排水処理施設", "chiku": "西桜谷", "tou": 1, "menseki": "139", "nendo": "H4", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 139, "nendo_seireki": 1992},
+      {"key": "s096", "name": "蔵王地区農業集落排水処理施設", "chiku": "西大路", "tou": 2, "menseki": "127", "nendo": "H6", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 127, "nendo_seireki": 1994},
+      {"key": "s097", "name": "鎌掛地区農業集落排水処理施設", "chiku": "鎌掛", "tou": 1, "menseki": "200", "nendo": "H6", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 200, "nendo_seireki": 1994},
+      {"key": "s098", "name": "砂川地区農業集落排水処理施設", "chiku": "南比都佐", "tou": 2, "menseki": "174", "nendo": "H3", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 174, "nendo_seireki": 1991},
+      {"key": "s099", "name": "南比都佐地区農業集落排水処理施設", "chiku": "南比都佐", "tou": 1, "menseki": "80", "nendo": "H1", "kozo": "RC造", "taishin": "", "unei": "", "menseki_su": 80, "nendo_seireki": 1989}
+      ] }
+  ]
+}

@@ -18,6 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_worksheet as aw  # noqa: E402
+import shisetsu  # noqa: E402  施設概要の表(PLAN_SCHEMA §12)の原典は計画の原典のフォルダにある
 
 ROOT = aw.ROOT
 
@@ -31,7 +32,8 @@ def pending(pid):
 
 
 def plan_name(pid):
-    """計画の名前。附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)は「当初予算の附表(令和N年度)」。"""
+    """計画の名前。附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)は「当初予算の附表(令和N年度)」、
+    施設概要の表(data/shisetsu/<id>.json。PLAN_SCHEMA §12)は「<計画の名前>の施設概要の表(<版>)」。"""
     try:
         return aw.load_view(pid)["meta"]["name"]
     except (OSError, KeyError, ValueError):
@@ -51,11 +53,12 @@ def main():
     items.sort(key=lambda x: (x[3] == 0, x[0]))
     rows = []
     for pid, name, total, left in items:
+        raw_dir = shisetsu.load(pid)["source"]["id"] if shisetsu.is_shisetsu(pid) else pid
         link = (f'<a href="{html.escape(pid)}.focus.worksheet.html">{html.escape(name)}</a>' if left
                 else html.escape(name))
         state = f"残り {left} 行" if left else "済み"
         rows.append(f"<tr><td>{link}<div class=id>{html.escape(pid)}</div></td>"
-                    f'<td><a href="../../sources_raw/{html.escape(pid)}/">原典のフォルダ</a></td>'
+                    f'<td><a href="../../sources_raw/{html.escape(raw_dir)}/">原典のフォルダ</a></td>'
                     f"<td class=n>{total}</td><td class=n>{state}</td></tr>")
     left_all = sum(x[3] for x in items)
     page = f"""<!doctype html><html lang="ja"><head><meta charset="utf-8">

@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 """validate_schema.py — data/plans/<id>.json のスキーマ検証。
 data/fuhyo/<id>.json(当初予算の附表)は PLAN_SCHEMA §9 で検証する。
+data/shisetsu/<id>.json(公共施設等総合管理計画の施設概要の表)は PLAN_SCHEMA §12 で検証する(tools/shisetsu.py の validate)。
 
 PLAN_SCHEMA.md v1 の規則を機械的に強制する。規則を緩めたくなったら
 先に PLAN_SCHEMA.md を改定すること(CLAUDE.md「やってはいけないこと」)。
 
 使い方: python3 tools/validate_schema.py data/plans/<id>.json [...]
         python3 tools/validate_schema.py data/fuhyo/<id>.json [...]
+        python3 tools/validate_schema.py data/shisetsu/<id>.json [...]
 終了コード: 0=OK / 1=エラーあり
 """
 import json
@@ -335,6 +337,8 @@ def validate(path):
         return rep
     if Path(path).resolve().parent.name == "fuhyo":
         return validate_fuhyo(rep, path, d)   # 当初予算の附表(PLAN_SCHEMA §9)
+    if Path(path).resolve().parent.name == "shisetsu":
+        return validate_shisetsu(rep, path, d)   # 施設概要の表(PLAN_SCHEMA §12)
 
     # トップレベル
     if d.get("schema_version") != SCHEMA_VERSION:
@@ -563,6 +567,15 @@ def validate_fuhyo(rep, path, d):
                 rep.err(f"{iw}.page", f"PDF のページは1以上の整数: {it['page']!r}")
             if "sic" in it:
                 _fuhyo_sic(rep, f"{iw}.sic", it, issues)
+    return rep
+
+
+def validate_shisetsu(rep, path, d):
+    """施設概要の表 data/shisetsu/<id>.json の検証(PLAN_SCHEMA §12.2・§12.3)。検算(§12.5)は tools/shisetsu.py <id> が行う。"""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import shisetsu  # noqa: E402
+    for where, msg in shisetsu.validate(d, path):
+        rep.err(where, msg)
     return rep
 
 

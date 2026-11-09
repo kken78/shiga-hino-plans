@@ -31,13 +31,18 @@ jobs:
           for f in data/plans/*.json; do python3 tools/validate_schema.py "$f" || exit 1; done
           # 当初予算の附表(PLAN_SCHEMA §9)
           for f in data/fuhyo/*.json; do [ -e "$f" ] || continue; python3 tools/validate_schema.py "$f" || exit 1; done
+          # 公共施設等総合管理計画の施設概要の表(PLAN_SCHEMA §12)と、その道具の検査
+          for f in data/shisetsu/*.json; do [ -e "$f" ] || continue; python3 tools/validate_schema.py "$f" || exit 1; done
+          python3 tools/shisetsu.py --selftest
 
-      - name: 全計画とハブを再生成(render_plan.py・build.py・fuhyo.py)
+      - name: 全計画とハブを再生成(render_plan.py・build.py・fuhyo.py・shisetsu.py)
         run: |
           for f in data/plans/*.json; do python3 tools/render_plan.py "$(basename "$f" .json)" || exit 1; done
           python3 tools/build.py
           # 附表は照合表だけを作る(PLAN_SCHEMA §9)
           for f in data/fuhyo/*.json; do [ -e "$f" ] || continue; python3 tools/fuhyo.py "$(basename "$f" .json)" || exit 1; done
+          # 施設概要の表は検算(PLAN_SCHEMA §12.5)を通してから照合表だけを作る
+          for f in data/shisetsu/*.json; do [ -e "$f" ] || continue; python3 tools/shisetsu.py "$(basename "$f" .json)" || exit 1; done
 
       - name: 生成物がコミットされたものと一致するか
         run: |

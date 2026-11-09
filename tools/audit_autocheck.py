@@ -5,6 +5,8 @@
 data/plans/<id>.json の sources[].pdf_page_offset(差が途中で変わる原典は pdf_page_offsets の範囲ごとの差)を使う。
 当初予算の附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)は、原典のファイル名(.pdf を除く)を出典idとし、ページの差は 0。
 附表の行は、下の段1の規則の代わりに「附表の段1の規則」(DESIGN.md ADR-7 補遺 L。tools/fuhyo.py の stage1)で照らす。
+公共施設等総合管理計画の施設概要の表(data/shisetsu/<id>.json。PLAN_SCHEMA §12)は、表の id を出典idとし、原典は JSON の source
+(sources_raw/<source.id>/<source.file>)、ページは PDF のページ。行は「施設概要の表の段1の規則」(tools/shisetsu.py の stage1)で照らす。
 
 使い方:
   python3 tools/audit_autocheck.py <id>                  # 段1の結果を表示する(台帳は変えない)
@@ -40,6 +42,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_worksheet as aw  # noqa: E402  read_audit / read_ledger / write_ledger / row_key を共用
 import fuhyo  # noqa: E402  附表(PLAN_SCHEMA §9)の読み込み
+import shisetsu  # noqa: E402  施設概要の表(PLAN_SCHEMA §12)の読み込み
 import pdf_pages  # noqa: E402  印刷ページ → PDF のページの換算を render_plan.py と共用
 from pdf_pages import page_list  # noqa: E402,F401  audit_review.py も ac.page_list として使う
 
@@ -145,8 +148,9 @@ def part_match(part, compact):
 
 # ---------------------------------------------------------------- 原典の文字データ
 class Source:
-    def __init__(self, pid, sid, offset, offsets=None):
-        self.pdf = RAW / pid / f"{sid}.pdf"
+    def __init__(self, pid, sid, offset, offsets=None, pdf=None):
+        # pdf は sources_raw の中の原典の場所(施設概要の表は計画の原典を使う。PLAN_SCHEMA §12)。無ければ <id>/<出典id>.pdf
+        self.pdf = RAW / pdf if pdf else RAW / pid / f"{sid}.pdf"
         if not self.pdf.exists():
             raise Stop(f"原典 PDF がありません: {self.pdf}(sources_raw/<id>/<出典id>.pdf に置く)")
         self.offset = offset
@@ -180,6 +184,18 @@ class Source:
                                check=True, capture_output=True)
             except FileNotFoundError:
                 raise Stop("pdftotext がありません。poppler-utils を入れてください(例: sudo apt install poppler-utils)")
+        return f.read_text(encoding="utf-8", errors="replace")
+
+    def raw(self, pdfp):
+        """PDF のページの pdftotext -raw の文字(施設概要の表の段1)。"""
+        return self._text(pdfp, "raw")
+
+    def bbox(self, pdfp):
+        """PDF のページの pdftotext -bbox の文字(施設概要の表の段1。audit_review.py の Page と同じキャッシュ)。"""
+        f = self.dir / f"bbox{pdfp:03d}.html"
+        if not f.exists():
+            subprocess.run(["pdftotext", "-bbox", "-f", str(pdfp), "-l", str(pdfp), str(self.pdf), str(f)],
+                           check=True, capture_output=True)
         return f.read_text(encoding="utf-8", errors="replace")
 
     def image(self, pdfp):
@@ -303,6 +319,7 @@ def stage1(rows, srcs, only=None):
     by = groups_of(rows)
     out = {}
     fz = None   # 附表の行の結果(附表の段1の規則。ページごとの並びを見るので、照合表の全行から一度に出す)
+    sz = None   # 施設概要の表の行の結果(施設概要の表の段1の規則。施設の行の並びを見るので、照合表の全行から一度に出す)
     for r in rows:
         if only is not None and id(r) not in only:
             continue
@@ -315,6 +332,12 @@ def stage1(rows, srcs, only=None):
             if fz is None:
                 fz = fuhyo.stage1(rows, srcs, page_list)
             res.update(fz[id(r)]); out[id(r)] = res; continue
+        if r["btype"].startswith("shisetsu."):
+            # 施設概要の表: 原典の表の行と列に照らす(DESIGN.md ADR-7 補遺 L「施設概要の表の段1の規則」。PLAN_SCHEMA §12)
+            if sz is None:
+                sz = shisetsu.stage1(rows, srcs, page_list)
+            x = sz[id(r)]
+            res.update(**{k: x[k] for k in ("pass", "why", "h2")}); out[id(r)] = res; continue
         if r["btype"] == "programs.years":
             # 実施年度(○の年度)は数値でないが、ページ画像で確かめやすいので段2に回す(ADR-7 補遺 L、2026-10 追加)
             if src is None or not pages or not all(src.has_page(p) for p in pages):
@@ -376,6 +399,8 @@ def stage1(rows, srcs, only=None):
 def load(pid):
     if fuhyo.is_fuhyo(pid):
         plan = fuhyo.plan_view(fuhyo.load(pid))   # 附表(PLAN_SCHEMA §9)。出典は原典1つ、ページの差は 0
+    elif shisetsu.is_shisetsu(pid):
+        plan = shisetsu.plan_view(shisetsu.load(pid))   # 施設概要の表(PLAN_SCHEMA §12)。出典は表の id、原典は計画の原典
     else:
         plan_path = ROOT / "data" / "plans" / f"{pid}.json"
         if not plan_path.exists():
@@ -384,10 +409,12 @@ def load(pid):
     rows = aw.read_audit(pid)
     srcs = {}
     for s in plan.get("sources", []):
-        if (RAW / pid / f"{s['id']}.pdf").exists():
-            srcs[s["id"]] = Source(pid, s["id"], s.get("pdf_page_offset", 0), s.get("pdf_page_offsets"))
+        pdf = s.get("pdf") or f"{pid}/{s['id']}.pdf"
+        if (RAW / pdf).exists():
+            srcs[s["id"]] = Source(pid, s["id"], s.get("pdf_page_offset", 0), s.get("pdf_page_offsets"), pdf=s.get("pdf"))
     if not srcs:
-        raise Stop(f"原典 PDF が1つもありません: {RAW / pid}/<出典id>.pdf")
+        where = ", ".join(str(RAW / s["pdf"]) for s in plan.get("sources", []) if s.get("pdf")) or f"{RAW / pid}/<出典id>.pdf"
+        raise Stop(f"原典 PDF が1つもありません: {where}")
     return plan, rows, srcs
 
 
@@ -396,6 +423,11 @@ def mutants(rows, srcs, rng):
     by = groups_of(rows)
     for r in rows:
         v = r["value"]
+        if r["btype"].startswith("shisetsu."):
+            # 施設概要の表: 棟数・延床面積には計画と同じ誤り、文字の行には文字の誤り、どの行にも隣の施設との施設名の入れ替えと
+            # 出典ページずれ(ADR-7 補遺 L「施設概要の表の段1の規則」)
+            yield from shisetsu.mutants(r, rows, srcs, rng)
+            continue
         if not is_num(v):
             if r["btype"] in fuhyo.TEXT_BTYPES:
                 # 附表の款・担当課・区分(文字の行)。附表の段1の規則で照らすので、文字の誤りも入れる
@@ -466,7 +498,7 @@ def cmd_selftest(pid):
         res = stage1(rs, srcs, only=only)
         tot[t] += 1
         esc[t] += all(res[i]["pass"] for i in only)
-        if r["btype"].startswith("fuhyo."):
+        if r["btype"].startswith(("fuhyo.", "shisetsu.")):
             btot[r["btype"]] += 1
             besc[r["btype"]] += all(res[i]["pass"] for i in only)
     T, E = sum(tot.values()), sum(esc.values())
@@ -477,11 +509,13 @@ def cmd_selftest(pid):
     over = []
     for b in sorted(btot):
         br = besc[b] / btot[b]
-        print(f"  附表の{fuhyo.KIND[b]}({b}): 素通り {besc[b]} / {btot[b]}({br:.1%})")
+        what = f"附表の{fuhyo.KIND[b]}" if b.startswith("fuhyo.") else f"施設概要の表の{shisetsu.KIND[b]}"
+        print(f"  {what}({b}): 素通り {besc[b]} / {btot[b]}({br:.1%})")
         if br > ESCAPE_LIMIT:
-            over.append(fuhyo.KIND[b])
+            over.append(what)
     if over:
-        print(f"NG  附表の {'・'.join(over)} で素通りが {ESCAPE_LIMIT:.0%} を超えた(ADR-7 補遺 L「附表の段1の規則」)")
+        print(f"NG  {'・'.join(over)} で素通りが {ESCAPE_LIMIT:.0%} を超えた(ADR-7 補遺 L「附表の段1の規則」"
+              "「施設概要の表の段1の規則」。施設概要の表は、その種類の行を段1で一致とせず段2に回す)")
         return 1
     if rate > ESCAPE_LIMIT:
         print(f"NG  素通りが {ESCAPE_LIMIT:.0%} を超えた。この計画では段1を使わず、段2に回す(ADR-7 補遺 L)")
@@ -540,7 +574,8 @@ def cmd_ai_items(pid):
                       "ページ画像": imgs,
                       "行": [dict({"key": r["key"], "項目": r["label"], "値": r["value"], "単位": r["unit"]},
                                  **({"数えるもの": COUNT_DEF} if r["btype"] == "programs" and r["label"] == "事業数" else {}),
-                                 **({"数えるもの": fuhyo.COUNT_DEF[r["btype"]]} if r["btype"] in fuhyo.COUNT_DEF else {}))
+                                 **({"数えるもの": fuhyo.COUNT_DEF[r["btype"]]} if r["btype"] in fuhyo.COUNT_DEF else {}),
+                                 **({"数えるもの": shisetsu.COUNT_DEF[r["btype"]]} if r["btype"] in shisetsu.COUNT_DEF else {}))
                             for r in lst]})
     out = AUDIT_DIR / f"{pid}.ai_items.json"
     out.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")

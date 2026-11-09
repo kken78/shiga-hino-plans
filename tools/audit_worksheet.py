@@ -9,6 +9,8 @@
   「エクスポート → --import で台帳へ反映 → git コミット」で行う。台帳が正。
 - 当初予算の附表(data/fuhyo/<id>.json。PLAN_SCHEMA §9)も同じ台帳とワークシートで扱う。
   照合表は tools/fuhyo.py <id> で作る(計画の照合表は render_plan.py)。
+- 公共施設等総合管理計画の施設概要の表(data/shisetsu/<id>.json。PLAN_SCHEMA §12)も同じ台帳とワークシートで扱う。
+  照合表は tools/shisetsu.py <id> で作る。
 
 使い方:
   python3 tools/audit_worksheet.py <id> --init           # 1) 台帳のベースライン作成(初回のみ)
@@ -35,6 +37,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import fuhyo  # noqa: E402  附表(PLAN_SCHEMA §9)を計画の JSON と同じ形で読む
+import shisetsu  # noqa: E402  施設概要の表(PLAN_SCHEMA §12)を計画の JSON と同じ形で読む
 
 ROOT = Path(__file__).resolve().parent.parent
 AUDIT_DIR = ROOT / "build" / "audit"
@@ -64,7 +67,7 @@ def read_audit(pid):
     """照合表 build/audit/<id>.tsv を読む。列数が8でない行は例外(G2)。"""
     path = AUDIT_DIR / f"{pid}.tsv"
     if not path.exists():
-        tool = "fuhyo.py" if fuhyo.is_fuhyo(pid) else "render_plan.py"
+        tool = "fuhyo.py" if fuhyo.is_fuhyo(pid) else "shisetsu.py" if shisetsu.is_shisetsu(pid) else "render_plan.py"
         raise AuditError(f"照合表がありません: {path}(先に {tool} {pid} を実行)")
     lines = path.read_text(encoding="utf-8").split("\n")
     if lines and lines[-1] == "":
@@ -117,9 +120,11 @@ def parse_ledger_text(text, where):
 
 
 def load_view(pid):
-    """計画の JSON。附表は fuhyo.plan_view で同じ形(meta.name・sources)にしたもの。"""
+    """計画の JSON。附表は fuhyo.plan_view、施設概要の表は shisetsu.plan_view で同じ形(meta.name・sources)にしたもの。"""
     if fuhyo.is_fuhyo(pid):
         return fuhyo.plan_view(fuhyo.load(pid))
+    if shisetsu.is_shisetsu(pid):
+        return shisetsu.plan_view(shisetsu.load(pid))
     return json.loads((PLANS_DIR / f"{pid}.json").read_text(encoding="utf-8"))
 
 

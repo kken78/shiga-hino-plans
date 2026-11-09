@@ -12,6 +12,8 @@
   2. F・X を、台帳の TSV をこの道具で読み直して §11.2 の定義で数えたものと比べる(audit_display を通さない)
   3. a+b+c = M、理由ごとの件数の合計 = U
   4. 計画ページ docs/plans/<id>.html の上部の1行と、ハブ docs/index.html の PLANS の shogo が同じ件数か
+  5. 附表(data/fuhyo/。PLAN_SCHEMA §9)と施設概要の表(data/shisetsu/。PLAN_SCHEMA §12)は件数に数えない。
+     ハブの PLANS に無く、計画ページ docs/plans/<id>.html も無いこと
 照合表(build/audit/<id>.tsv)と docs/ は、render_plan.py と build.py で作り直してから検査する。
 """
 import json
@@ -106,6 +108,12 @@ def cmd_check():
         print(f"{pid}: N {s['n']} / M {s['m']} (a {s['a']}・b {s['b']}・c {s['c']}) / U {s['u']} / H4 {s['x']}/{s['f']}")
     missing = [pid for pid in plan_ids() if pid not in hub]
     errors += [f"{pid}: ハブに計画がありません" for pid in missing]
+    for sub in ("fuhyo", "shisetsu"):   # 計画ページとハブの照合の件数に数えないもの(§11・§12.4)
+        for f in sorted((ROOT / "data" / sub).glob("*.json")):
+            if f.stem in hub:
+                errors.append(f"{f.stem}: data/{sub}/ の表がハブの PLANS にある(照合の件数に数えない)")
+            if (ROOT / "docs" / "plans" / f"{f.stem}.html").exists():
+                errors.append(f"{f.stem}: data/{sub}/ の表の計画ページがある(ページは作らない)")
     if errors:
         print(f"NG  原典との照合の表示 ({len(errors)} 件)", file=sys.stderr)
         for e in errors:

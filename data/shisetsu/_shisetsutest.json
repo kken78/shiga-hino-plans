@@ -1,0 +1,28 @@
+{
+  "id": "_shisetsutest",
+  "plan": "kokyo-kanri",
+  "edition": {"label": "見本の版(道具の検査用。原典はない)", "ym": "202603"},
+  "source": {"id": "kokyo-kanri", "file": "honpen.pdf", "sha256": "89026f2bacb7725812d55e73a7ec48606a1c5c20ff4cd7d33b9f37a772d31ddb"},
+  "totals": [
+    {"what": "tou", "label": "見本の棟数", "value": 4, "page": 1},
+    {"what": "menseki", "label": "見本の合計", "value": "2,000", "page": 1},
+    {"what": "menseki", "dai": "見本大分類A", "label": "見本大分類A", "value": "2,000", "page": 1},
+    {"what": "menseki", "dai": "見本大分類B", "label": "見本大分類B", "value": "0", "page": 1}
+  ],
+  "tables": [
+    { "no": 1, "dai": "見本大分類A", "chu": "見本中分類1", "kind": "tatemono", "page": 1, "count": 2, "count_page": 1, "notes": [],
+      "rows": [
+      {"key": "s001", "name": "見本館", "chiku": "日野", "tou": 2, "menseki": "1,200", "nendo": "H8", "kozo": "S造", "taishin": "新基準", "unei": "直営", "menseki_su": 1200, "nendo_seireki": 1996},
+      {"key": "s002", "name": "見本会館", "chiku": "東桜谷", "tou": 1, "menseki": "800", "nendo": "S62", "kozo": "RC造", "taishin": "未実施", "unei": "指定管理", "menseki_su": 800, "nendo_seireki": 1987}
+      ] },
+    { "no": 2, "dai": "見本大分類B", "chu": "見本中分類2", "kind": "tatemono", "page": 2, "count": 1, "count_page": 2, "notes": ["※見本会館(同じ名前の2件目)は江戸時代の建築物の見本である。"],
+      "rows": [
+      {"key": "s003", "name": "見本会館", "chiku": "必佐", "tou": 1, "menseki": "-", "nendo": "1860", "kozo": "W造", "taishin": "未実施", "unei": "貸付", "menseki_su": null, "nendo_seireki": 1860}
+      ] },
+    { "no": 3, "dai": "見本上水道施設", "chu": "", "kind": "suido", "page": 3, "count": 2, "count_page": 4, "notes": [],
+      "rows": [
+      {"key": "s004", "name": "見本配水池", "chiku": "西大路", "tou": 1, "menseki": "50", "nendo": "R3", "kozo": "PC造", "taishin": "", "unei": "", "menseki_su": 50, "nendo_seireki": 2021},
+      {"key": "s005", "name": "見本加圧所", "chiku": "鎌掛", "tou": 1, "menseki": "-", "nendo": "-", "kozo": "-", "taishin": "", "unei": "", "menseki_su": null, "nendo_seireki": null}
+      ] }
+  ]
+}

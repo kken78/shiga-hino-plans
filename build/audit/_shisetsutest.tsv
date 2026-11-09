@@ -1,0 +1,39 @@
+tab	block_no	btype	block_label	label	value	unit	source
+shisetsu	1	shisetsu.chiku	見本大分類A 見本中分類1	見本館/地区	日野		_shisetsutest p.1
+shisetsu	1	shisetsu.tou	見本大分類A 見本中分類1	見本館/棟数	2	棟	_shisetsutest p.1
+shisetsu	1	shisetsu.menseki	見本大分類A 見本中分類1	見本館/延床面積	1,200	㎡	_shisetsutest p.1
+shisetsu	1	shisetsu.nendo	見本大分類A 見本中分類1	見本館/代表棟の建築年度	H8		_shisetsutest p.1
+shisetsu	1	shisetsu.kozo	見本大分類A 見本中分類1	見本館/代表棟の構造	S造		_shisetsutest p.1
+shisetsu	1	shisetsu.taishin	見本大分類A 見本中分類1	見本館/代表棟の耐震補強	新基準		_shisetsutest p.1
+shisetsu	1	shisetsu.unei	見本大分類A 見本中分類1	見本館/運営方法	直営		_shisetsutest p.1
+shisetsu	1	shisetsu.chiku	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/地区	東桜谷		_shisetsutest p.1
+shisetsu	1	shisetsu.tou	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/棟数	1	棟	_shisetsutest p.1
+shisetsu	1	shisetsu.menseki	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/延床面積	800	㎡	_shisetsutest p.1
+shisetsu	1	shisetsu.nendo	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/代表棟の建築年度	S62		_shisetsutest p.1
+shisetsu	1	shisetsu.kozo	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/代表棟の構造	RC造		_shisetsutest p.1
+shisetsu	1	shisetsu.taishin	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/代表棟の耐震補強	未実施		_shisetsutest p.1
+shisetsu	1	shisetsu.unei	見本大分類A 見本中分類1	見本会館(同じ名前の1件目)/運営方法	指定管理		_shisetsutest p.1
+shisetsu	1	shisetsu.count	見本大分類A 見本中分類1	施設の数	2		_shisetsutest p.1
+shisetsu	2	shisetsu.chiku	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/地区	必佐		_shisetsutest p.2
+shisetsu	2	shisetsu.tou	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/棟数	1	棟	_shisetsutest p.2
+shisetsu	2	shisetsu.menseki	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/延床面積	-	㎡	_shisetsutest p.2
+shisetsu	2	shisetsu.nendo	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/代表棟の建築年度	1860		_shisetsutest p.2
+shisetsu	2	shisetsu.kozo	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/代表棟の構造	W造		_shisetsutest p.2
+shisetsu	2	shisetsu.taishin	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/代表棟の耐震補強	未実施		_shisetsutest p.2
+shisetsu	2	shisetsu.unei	見本大分類B 見本中分類2	見本会館(同じ名前の2件目)/運営方法	貸付		_shisetsutest p.2
+shisetsu	2	shisetsu.count	見本大分類B 見本中分類2	施設の数	1		_shisetsutest p.2
+shisetsu	3	shisetsu.chiku	見本上水道施設	見本配水池/地区	西大路		_shisetsutest p.3
+shisetsu	3	shisetsu.tou	見本上水道施設	見本配水池/棟数	1	棟	_shisetsutest p.3
+shisetsu	3	shisetsu.menseki	見本上水道施設	見本配水池/延床面積	50	㎡	_shisetsutest p.3
+shisetsu	3	shisetsu.nendo	見本上水道施設	見本配水池/代表棟の建築年度	R3		_shisetsutest p.3
+shisetsu	3	shisetsu.kozo	見本上水道施設	見本配水池/代表棟の構造	PC造		_shisetsutest p.3
+shisetsu	3	shisetsu.chiku	見本上水道施設	見本加圧所/地区	鎌掛		_shisetsutest p.3
+shisetsu	3	shisetsu.tou	見本上水道施設	見本加圧所/棟数	1	棟	_shisetsutest p.3
+shisetsu	3	shisetsu.menseki	見本上水道施設	見本加圧所/延床面積	-	㎡	_shisetsutest p.3
+shisetsu	3	shisetsu.nendo	見本上水道施設	見本加圧所/代表棟の建築年度	-		_shisetsutest p.3
+shisetsu	3	shisetsu.kozo	見本上水道施設	見本加圧所/代表棟の構造	-		_shisetsutest p.3
+shisetsu	3	shisetsu.count	見本上水道施設	施設の数	2		_shisetsutest p.4
+shisetsu	0	shisetsu.total	検算の目標	見本の棟数	4	棟	_shisetsutest p.1
+shisetsu	0	shisetsu.total	検算の目標	見本の合計	2,000	㎡	_shisetsutest p.1
+shisetsu	0	shisetsu.total	検算の目標	見本大分類Aの延床面積	2,000	㎡	_shisetsutest p.1
+shisetsu	0	shisetsu.total	検算の目標	見本大分類Bの延床面積	0	㎡	_shisetsutest p.1

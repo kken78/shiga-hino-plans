@@ -1117,7 +1117,7 @@ class Renderer:
         if SHOGO_ID in self._used_ids():
             raise ValueError(f"タブ id かブロックの anchor が「原典との照合」の id と重なります: {SHOGO_ID}")
         more = f'<a href="#{SHOGO_ID}">くわしく</a>'
-        ledger = (f'<p>照合の記録（台帳）：<a href="{esc(LEDGER_URL.format(pid))}" target="_blank" '
+        ledger = (f'<p>照合の記録：<a href="{esc(LEDGER_URL.format(pid))}" target="_blank" '
                   f'rel="noopener">GitHub で見る</a></p>')
         if s["n"] == 0:
             line = f'<p class="shogo-line">原典との照合：{NO_TARGET}{more}</p>'
@@ -1147,7 +1147,7 @@ class Renderer:
         body.append(ledger)
         if s["last"]:
             y, mo, dd = (int(x) for x in s["last"].split("-"))
-            body.append(f'<p>記録の最終日：<span class="num">{y}年{mo}月{dd}日</span></p>')
+            body.append(f'<p>最後に記録した日：<span class="num">{y}年{mo}月{dd}日</span></p>')
         sec = (f'<section class="shogo" id="{SHOGO_ID}"><h2>原典との照合</h2>'
                + "".join(body) + "</section>")
         return line, sec
@@ -1221,7 +1221,7 @@ class Renderer:
             "このページについて": ([HOW_MADE], ""),
             "出典": ([sources], ""),
             "資料の時点": ([asof], ""),
-            "注意": ([], f'<p><a href="{esc(m["url"])}">この計画の日野町の公式ページ</a></p><p>{contact}</p>'),
+            "注意": ([], f'<p><a href="{esc(m["url"])}">この計画の町のホームページ</a></p><p>{contact}</p>'),
             "データ": ([f'<a href="{esc(DATA_URL.format(self.pid))}">data/plans/{esc(self.pid)}.json</a>'
                         "（JSON。GitHub）。原典との照合の記録は、上の「原典との照合」の節から開けます。"], ""),
             "ソースコード": ([portal.REPO_URL, portal.REPO_NAME], ""),

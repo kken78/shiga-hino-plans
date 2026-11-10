@@ -296,6 +296,14 @@
 .hpv1 .ln-y>span{position:absolute;right:6px;transform:translateY(50%);color:var(--mut);white-space:nowrap}
 .hpv1 .ln-x{position:relative;height:1.6em;margin-top:5px}
 .hpv1 .ln-x>span{position:absolute;top:0;transform:translateX(-50%);color:var(--mut);white-space:nowrap}
+/* 指した時点の値(DESIGN.md ADR-18。templates/runtime.js が .ln-help・.ln-read を足す) */
+.hpv1 .ln-help{font-size:var(--fs-small);color:var(--mut);margin:8px 0 2px}
+.hpv1 .ln-read{font-size:var(--fs-small);min-height:1.7em;margin:6px 0 0;display:flex;flex-wrap:wrap;gap:2px 14px;font-variant-numeric:tabular-nums}
+.hpv1 .ln-read b{margin-right:2px}
+.hpv1 .ln-read .sw{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:4px}
+.hpv1 .ln[data-ln] .ln-plot{cursor:crosshair;touch-action:pan-y}
+/* グラフに添える数値の表(DESIGN.md ADR-18) */
+.hpv1 .c-tbl{margin:-4px 0 12px}
 /* 長い横棒の一覧の折りたたみ(ADR-8 判断の優先順位 3・4)。:has() 非対応なら全件表示 */
 .hpv1 .hb-gap{display:none;grid-column:1/-1;color:var(--mut);text-align:center;line-height:1.2}
 .hpv1 .hbf:not(:has(details[open])) .fx{display:none}
@@ -548,6 +556,52 @@
     });
     var h = location.hash.replace('#','');
     if (h && root.querySelector('.panel[data-panel="' + h.replace(/[^a-z0-9_-]/g,'') + '"]')) select(h);
+  });
+})();
+
+/* 折れ線の指した時点の値(DESIGN.md ADR-18)。値の字は描く道具が表と同じ書き方で作る(data-ln の t)。マウス・指・矢印キーで、その時点の縦線と系列ごとの値を出す。冪等・依存ゼロ。 */
+(function(){
+  "use strict";
+  var NS = 'http://www.w3.org/2000/svg';
+  document.querySelectorAll('.hpv1 .ln[data-ln]').forEach(function(ln){
+    if (ln.dataset.lnInit) return;
+    ln.dataset.lnInit = '1';
+    var d = JSON.parse(ln.dataset.ln), n = d.x.length, plot = ln.querySelector('.ln-plot'), svg = plot.querySelector('svg');
+    if (!svg || n < 1) return;
+    var help = document.createElement('p'); help.className = 'ln-help';
+    help.textContent = 'グラフの上にマウスを置くか指で触れると、またはグラフを選んで左右の矢印キーを押すと、その時点の値を表示します。';
+    var rd = document.createElement('p'); rd.className = 'ln-read'; rd.setAttribute('aria-live', 'polite');
+    /* 値の行はグラフの下に置く(行が増えてもグラフが動かず、指の下からずれないように) */
+    ln.parentNode.insertBefore(help, ln); ln.parentNode.insertBefore(rd, ln.nextSibling);
+    var g = document.createElementNS(NS, 'g'); svg.appendChild(g);
+    plot.tabIndex = 0;
+    plot.setAttribute('aria-label', 'グラフ。左右の矢印キーで時点の値を表示します');
+    var cur = null;
+    function show(i){
+      cur = i;
+      if (i == null) { rd.textContent = ''; g.textContent = ''; return; }
+      var x = (n > 1 ? 1000 * i / (n - 1) : 500).toFixed(1);
+      var l = document.createElementNS(NS, 'line');
+      [['x1', x], ['x2', x], ['y1', '0'], ['y2', '1000'], ['stroke', 'currentColor'], ['stroke-opacity', '.35'], ['stroke-width', '1'], ['vector-effect', 'non-scaling-stroke']].forEach(function(a){ l.setAttribute(a[0], a[1]); });
+      g.textContent = ''; g.appendChild(l);
+      rd.textContent = '';
+      var b = document.createElement('b'); b.textContent = d.x[i]; rd.appendChild(b);
+      d.s.forEach(function(s){
+        var sp = document.createElement('span'), sw = document.createElement('i');
+        sw.className = 'sw'; sw.style.background = s.c; sp.appendChild(sw);
+        sp.appendChild(document.createTextNode(s.k + ' ' + (s.t[i] === '' ? '値なし' : s.t[i] + d.u)));
+        rd.appendChild(sp);
+      });
+    }
+    function at(e){ var r = svg.getBoundingClientRect(); if (!r.width) return 0; return Math.max(0, Math.min(n - 1, Math.round((e.clientX - r.left) / r.width * (n - 1)))); }
+    plot.addEventListener('pointermove', function(e){ show(at(e)); });
+    plot.addEventListener('pointerdown', function(e){ show(at(e)); });
+    plot.addEventListener('pointerleave', function(e){ if (e.pointerType === 'mouse') show(null); });
+    plot.addEventListener('blur', function(){ show(null); });
+    plot.addEventListener('keydown', function(e){
+      var t = e.key === 'ArrowLeft' ? (cur == null ? n - 1 : cur - 1) : e.key === 'ArrowRight' ? (cur == null ? n - 1 : cur + 1) : e.key === 'Home' ? 0 : e.key === 'End' ? n - 1 : null;
+      if (t == null) return; e.preventDefault(); show(Math.max(0, Math.min(n - 1, t)));
+    });
   });
 })();
 

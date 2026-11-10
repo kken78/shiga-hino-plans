@@ -716,7 +716,35 @@ class Renderer:
         title = f'<div class="cttl">{esc(b["title"])}</div>' if b.get("title") else ""
         unit = f'<div class="cunit">単位：{esc(b["unit"])}</div>' if b.get("unit") else ""
         note = f'<div class="b-note"><span>{esc(b["note"])}</span></div>' if b.get("note") else ""
-        return f'<div class="b-chart">{title}{unit}{legend}{svg}</div>{note}'
+        # 数値の表はグラフの枠の外、すぐ下に置く(グラフの高さの検査に入れないため。DESIGN.md ADR-18)
+        return f'<div class="b-chart">{title}{unit}{legend}{svg}</div>{self._chart_table(b)}{note}'
+
+    @staticmethod
+    def _chart_table(b):
+        """グラフに添える数値の表(DESIGN.md ADR-18)。折れ線・積み上げの棒・100%の帯だけ。照合表には行を足さない
+        (グラフの値はグラフとして照合表にある)。値の書き方は表のブロックと同じ(3桁区切り、負の値は △)。"""
+        kind = b["kind"]
+
+        def num(v):
+            if v is None:
+                return ""
+            return "△" + fmt(num_abs(v)) if v < 0 else fmt(v)
+        if kind == "line":
+            head = [""] + [ln["k"] for ln in b["lines"]]
+            rows = [[x] + [num(ln["vals"][i]) for ln in b["lines"]] for i, x in enumerate(b["xlabels"])]
+        elif kind in ("stacked_bars", "stacked_100"):
+            head = [""] + [k["k"] for k in b["keys"]] + ["計"]
+            rows = [[y["label"]] + [num(v) for v in y["series"]] + [num(y.get("total", sum(y["series"])))]
+                    for y in b["years"]]
+        else:
+            return ""
+        th = "".join(f"<th>{esc(h)}</th>" for h in head)
+        trs = "".join("<tr>" + f'<th scope="row" class="txt">{esc(r[0])}</th>'
+                      + "".join(f'<td class="num">{esc(v)}</td>' for v in r[1:]) + "</tr>" for r in rows)
+        unit = f"（単位：{esc(b['unit'])}）" if b.get("unit") else ""
+        return (f'<details class="b-foldtbl c-tbl"><summary><div class="ftwrap"><div class="ftl">数値の表を開く{unit}</div></div>'
+                f'<span class="caret" aria-hidden="true"></span></summary>'
+                f'<div class="b-table"><table><thead><tr>{th}</tr></thead><tbody>{trs}</tbody></table></div></details>')
 
     def _legend(self, names, colors):
         items = "".join(
@@ -898,7 +926,11 @@ class Renderer:
                f'{"".join(parts)}</svg>')
         # 右端のラベル(最新の年)は点の真下に中央そろえで置くので、その半分の幅だけ右に余白をとる
         xr = f"{math.ceil(text_px(xlabels[-1], 1.0) / 2 * 10) / 10}em" if n else "0em"
-        body = (f'<div class="ln" style="--ln-yw:{yw};--ln-xr:{xr}"><div class="ln-plot">'
+        # 指した時点の値を出すための値(DESIGN.md ADR-18。templates/runtime.js が使う)
+        dln = esc(json.dumps({"x": xlabels, "u": b.get("unit") or "",
+                              "s": [{"k": ln["k"], "t": [("" if v is None else ("△" + fmt(num_abs(v)) if v < 0 else fmt(v))) for v in ln["vals"]], "c": cat_stroke(li)[0]}
+                                    for li, ln in enumerate(lines)]}, ensure_ascii=False))
+        body = (f'<div class="ln" data-ln="{dln}" style="--ln-yw:{yw};--ln-xr:{xr}"><div class="ln-plot">'
                 f'<div class="ln-y">{ylab}</div>{svg}</div>'
                 f'<div class="ln-x">{"".join(xlab)}</div></div>')
         return body, self._legend([ln["k"] for ln in lines], colors)

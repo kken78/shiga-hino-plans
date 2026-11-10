@@ -37,6 +37,15 @@ import sys
 from pathlib import Path
 from urllib.parse import urlsplit
 from pdf_pages import page_list, pdf_page
+
+import re  # noqa: E402
+R_ABBR = re.compile(r"(?<![A-Za-z0-9])R[0-9０-９]")   # 年度の略記「R7」(hino-portal DESIGN.md 6.4)
+
+
+def era_full(v):
+    """計画期間の年度の略記 R6・H30 を 令和6・平成30 にする(文と見出しでは略記を使わない。hino-portal DESIGN.md 6.4)。"""
+    m = re.fullmatch(r"([RH])(\d+)", str(v))
+    return ({"R": "令和", "H": "平成"}[m.group(1)] + m.group(2)) if m else str(v)
 from tokens import load_tokens, apply_tokens
 import audit_display  # 原典との照合の件数(PLAN_SCHEMA §11・ADR-11)。build.py と共用
 import portal  # 日野町データポータルの共通の部品(DESIGN.md ADR-12)。build.py と共用
@@ -574,7 +583,7 @@ class Renderer:
                 pp = pdf_page(pages[0], s.get("pdf_page_offset", 0), s.get("pdf_page_offsets"))
                 if pp is not None:
                     url += f"#page={pp}"
-            ref = f'<a href="{esc(url)}" target="_blank" rel="noopener">{ref}</a>'
+            ref = f'<a href="{esc(url)}">{ref}</a>'
         cap = f"<figcaption>{esc(b['caption'])}</figcaption>" if b.get("caption") else ""
         self.audit(tab_id, block_no, "figure", b.get("caption", ""), FIGURE_LINK_VALUE, "", src)
         return (f'<figure class="b-figure fig-link">{cap}<p>{esc(b["alt"])}</p>'
@@ -1116,9 +1125,8 @@ class Renderer:
             return "", ""
         if SHOGO_ID in self._used_ids():
             raise ValueError(f"タブ id かブロックの anchor が「原典との照合」の id と重なります: {SHOGO_ID}")
-        more = f'<a href="#{SHOGO_ID}">くわしく</a>'
-        ledger = (f'<p>照合の記録：<a href="{esc(LEDGER_URL.format(pid))}" target="_blank" '
-                  f'rel="noopener">GitHub で見る</a></p>')
+        more = f'<a href="#{SHOGO_ID}">照合の内訳を見る</a>'
+        ledger = (f'<p>照合の記録：<a href="{esc(LEDGER_URL.format(pid))}">GitHub で見る</a></p>')
         if s["n"] == 0:
             line = f'<p class="shogo-line">原典との照合：{NO_TARGET}{more}</p>'
             sec = (f'<section class="shogo" id="{SHOGO_ID}"><h2>原典との照合</h2>'
@@ -1193,9 +1201,12 @@ class Renderer:
         if ps == pe == "記載なし":
             ptxt = "原典に記載なし"
         elif pe == "定めなし":
-            ptxt = f"{ps}年度〜(終わりの定めなし)"
+            ptxt = f"{era_full(ps)}年度〜(終わりの定めなし)"
         else:
-            ptxt = f"{ps}〜{pe}年度"
+            a, b = era_full(ps), era_full(pe)
+            if a[:2] == b[:2] and a[:2] in ("令和", "平成"):   # 同じ元号なら後ろの元号を省く(令和6〜11年度)
+                b = b[2:]
+            ptxt = f"{a}〜{b}年度"
         metarow = (f'<span>計画期間 <b class="num">{esc(ptxt)}</b>'
                    + (f'（{esc(m["period_note"])}）' if m.get("period_note") else "") + "</span>"
                    f'<span>所管 <b>{esc(m["dept"])}</b></span>')
@@ -1237,6 +1248,9 @@ class Renderer:
         shell_css = apply_tokens(
             (TPL / "shell.css").read_text(encoding="utf-8"), tokens, "shell.css")
 
+        # 年度の略記「R」が残るページには、注を1つ置く(hino-portal DESIGN.md 6.4)
+        if R_ABBR.search(re.sub(r"<[^>]+>", " ", "".join(panels_html))):
+            metarow += '<span>表の「R」は令和（R＝令和）</span>'
         page = (TPL / "shell.html").read_text(encoding="utf-8")
         for k, v in {
             "{{TITLE}}": esc(m.get("name_short", m["name"])),

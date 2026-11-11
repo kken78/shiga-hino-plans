@@ -102,6 +102,25 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+GEN_Q = ("\uff62", "\uff63")   # 原典の字の引用 ｢…｣(PLAN_SCHEMA §8)
+
+
+def strip_gen(s):
+    """原典の字の引用の囲みを除く(照合表と属性に使う。PLAN_SCHEMA §8)。"""
+    return str(s).replace(GEN_Q[0], "").replace(GEN_Q[1], "") if isinstance(s, str) else s
+
+
+def apply_gen_quotes(page):
+    """出来上がったページで、本文の ｢…｣ を <q class="gen"> に、タグの中(属性)の ｢ ｣ は取り除く(PLAN_SCHEMA §8)。"""
+    parts = re.split(r"(<[^>]*>)", page)
+    for i, t in enumerate(parts):
+        if t.startswith("<"):
+            parts[i] = strip_gen(t)
+        else:
+            parts[i] = t.replace(GEN_Q[0], '<q class="gen">').replace(GEN_Q[1], "</q>")
+    return "".join(parts)
+
+
 # フッター(DESIGN.md ADR-12。型は hino-portal の shared/footer.html)
 HOW_MADE = ("計画の原典（町のホームページで公開されている PDF など）から、数値と文章を計画ごとの JSON に転記し、"
             "図表はその数値からプログラムで描いています。数値には、原典の資料名とページを添えています。")
@@ -308,8 +327,8 @@ class Renderer:
     def audit(self, tab, block_no, btype, label, value, unit, source):
         """照合表の1行(DESIGN.md ADR-7 補遺 E: 8列)。
         block_label はブロックの意味ラベル(補遺 D)で、block() が設定する。"""
-        self.audit_rows.append((tab, block_no, btype, self.block_label, label,
-                                value, unit or "", source or ""))
+        self.audit_rows.append((tab, block_no, btype, strip_gen(self.block_label), strip_gen(label),
+                                strip_gen(value), unit or "", source or ""))
 
     @staticmethod
     def _block_label(b, last_heading):
@@ -1275,7 +1294,7 @@ class Renderer:
             if k not in page:
                 raise ValueError(f"templates/shell.html: {k} が無い")
             page = page.replace(k, v)
-        return page
+        return apply_gen_quotes(page)
 
     def asof(self):
         """資料の時点(HTML)。meta.posted があればそれ(「公表」)。無ければ出典の資料名に書かれた年月(日)を使い、

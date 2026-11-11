@@ -66,7 +66,7 @@ jobs:
       - name: 共通の部品が hino-portal の正本と同じかと、文字の大きさ(hino-portal の shared/check.py --fonts・ADR-15)
         run: |
           git clone --depth 1 https://github.com/kken78/hino-portal.git /tmp/hino-portal
-          python3 /tmp/hino-portal/shared/check.py --fonts docs/index.html docs/plans/*.html
+          python3 /tmp/hino-portal/shared/check.py --fonts --hyoki docs/index.html docs/plans/*.html
 
       - name: 出力検証とデザインシステムの静的検査(validate.mjs・ゲートA)
         run: node tools/validate.mjs docs/index.html docs/plans/*.html

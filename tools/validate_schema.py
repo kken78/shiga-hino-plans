@@ -59,6 +59,24 @@ def check_relative_year(rep, where, value):
         rep.err(where, f"相対年度表記は禁止(和暦で明示する): {value[:40]!r}")
 
 
+def check_gen_quote(rep, where, value):
+    """原典の字の引用 ｢…｣ が対で、入れ子でないこと(PLAN_SCHEMA §7-10・§8)。"""
+    depth = 0
+    for ch in value:
+        if ch == "\uff62":
+            depth += 1
+            if depth > 1:
+                rep.err(where, f"原典の字の引用 ｢｣ が入れ子になっている: {value[:40]!r}")
+                return
+        elif ch == "\uff63":
+            depth -= 1
+            if depth < 0:
+                rep.err(where, f"原典の字の引用の ｣ に対の ｢ が無い: {value[:40]!r}")
+                return
+    if depth:
+        rep.err(where, f"原典の字の引用の ｢ に対の ｣ が無い: {value[:40]!r}")
+
+
 def walk_strings(obj, fn, path="$"):
     if isinstance(obj, dict):
         for k, v in obj.items():
@@ -429,6 +447,8 @@ def validate(path):
 
     # 相対年度表記(全文字列走査)
     walk_strings(d, lambda p, s: check_relative_year(rep, p, s))
+    # 原典の字の引用の囲み(PLAN_SCHEMA §8)
+    walk_strings(d, lambda p, s: check_gen_quote(rep, p, s))
     return rep
 
 
